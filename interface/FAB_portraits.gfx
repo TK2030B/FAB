@@ -1,0 +1,120 @@
+spriteTypes = {
+
+SpriteType = {
+	name = "GFX_portrait_NO1_Eddard_Stark"
+	texturefile = "gfx/leaders/NO1/NO1_Eddard_Stark.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_RI1_Balon_Greyjoy"
+	texturefile = "gfx/leaders/RI1/RI1_Balon_Greyjoy.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_RI2_Hoster_Tully"
+	texturefile = "gfx/leaders/RI2/RI2_Hoster_Tully.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_TW1_Tywin_Lannister"
+	texturefile = "gfx/leaders/TW1/TW1_Tywin_Lannister.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_ST1_Renly_Baratheon"
+	texturefile = "gfx/leaders/ST1/ST1_Renly_Baratheon.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_DA1_Doran_Martell"
+	texturefile = "gfx/leaders/DA1/DA1_Doran_Martell.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_VA1_Lysa_Arryn"
+	texturefile = "gfx/leaders/VA1/VA1_Lysa_Arryn.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_RE1_Mace_Tyrell"
+	texturefile = "gfx/leaders/RE1/RE1_Mace_Tyrell.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_CR1_Robert_Baratheon"
+	texturefile = "gfx/leaders/CR1/CR1_Robert_Baratheon.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_FR1_Walder_Frey"
+	texturefile = "gfx/leaders/FR1/FR1_Walder_Frey.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_DR1_Stannis_Baratheon"
+	texturefile = "gfx/leaders/DR1/DR1_Stannis_Baratheon.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_NW1_Jeor_Mormont"
+	texturefile = "gfx/leaders/NW1/NW1_Jeor_Mormont.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_WI1_Mance_Rayder"
+	texturefile = "gfx/leaders/WI1/WI1_Mance_Rayder.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_OT1_Night_King"
+	texturefile = "gfx/leaders/OT1/OT1_Night_King.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_BR1_Sealord_of_Braavos"
+	texturefile = "gfx/leaders/BR1/BR1_Sealord_of_Braavos.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_PE1_Illyrio_Mopatis"
+	texturefile = "gfx/leaders/PE1/PE1_Illyrio_Mopatis.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_TY1_Archon_of_Tyrosh"
+	texturefile = "gfx/leaders/TY1/TY1_Archon_of_Tyrosh.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_QH1_Ruler"
+	texturefile = "gfx/leaders/QH1/QH1_Ruler.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_VO1_Triarchs_of_Volantis"
+	texturefile = "gfx/leaders/VO1/VO1_Triarchs_of_Volantis.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_DS1_Khal_Drogo"
+	texturefile = "gfx/leaders/DS1/DS1_Khal_Drogo.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_SB1_Good_Masters_of_Astapor"
+	texturefile = "gfx/leaders/SB1/SB1_Good_Masters_of_Astapor.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_RW1_No_Central_Ruler"
+	texturefile = "gfx/leaders/RW1/RW1_No_Central_Ruler.dds"
+}
+
+SpriteType = {
+	name = "GFX_portrait_UL1_No_Central_Ruler"
+	texturefile = "gfx/leaders/UL1/UL1_No_Central_Ruler.dds"
+}
+
+
+	
+}

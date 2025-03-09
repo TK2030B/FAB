@@ -1,0 +1,15 @@
+﻿capital = 1 #
+oob = "Generic"
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+recruit_character = TY1_Archon_of_Tyrosh

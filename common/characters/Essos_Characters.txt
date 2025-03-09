@@ -1,0 +1,121 @@
+characters = {
+
+BR1_Sealord_of_Braavos = {
+	name = BR1_Sealord_of_Braavos
+	portraits = {
+		civilian = {
+			large = GFX_portrait_BR1_Sealord_of_Braavos
+		}
+	}
+	country_leader = {
+		ideology = NR_subideology
+		id = -1
+	}
+}
+
+PE1_Illyrio_Mopatis = {
+	name = PE1_Illyrio_Mopatis
+	portraits = {
+		civilian = {
+			large = GFX_portrait_PE1_Illyrio_Mopatis
+		}
+	}
+	country_leader = {
+		ideology = NR_subideology
+		id = -1
+	}
+}
+
+TY1_Archon_of_Tyrosh = {
+	name = TY1_Archon_of_Tyrosh
+	portraits = {
+		civilian = {
+			large = GFX_portrait_TY1_Archon_of_Tyrosh
+		}
+	}
+	country_leader = {
+		ideology = NR_subideology
+		id = -1
+	}
+}
+
+QH1_Ruler = {
+	name = QH1_Ruler
+	portraits = {
+		civilian = {
+			large = GFX_portrait_QH1_Ruler
+		}
+	}
+	country_leader = {
+		ideology = NR_subideology
+		id = -1
+	}
+}
+
+VO1_Triarchs_of_Volantis = {
+	name = VO1_Triarchs_of_Volantis
+	portraits = {
+		civilian = {
+			large = GFX_portrait_VO1_Triarchs_of_Volantis
+		}
+	}
+	country_leader = {
+		ideology = FR_subideology
+		id = -1
+	}
+}
+
+DS1_Khal_Drogo = {
+	name = DS1_Khal_Drogo
+	portraits = {
+		civilian = {
+			large = GFX_portrait_DS1_Khal_Drogo
+		}
+	}
+	country_leader = {
+		ideology = CR_subideology
+		id = -1
+	}
+}
+
+SB1_Good_Masters_of_Astapor = {
+	name = SB1_Good_Masters_of_Astapor
+	portraits = {
+		civilian = {
+			large = GFX_portrait_SB1_Good_Masters_of_Astapor
+		}
+	}
+	country_leader = {
+		ideology = FR_subideology
+		id = -1
+	}
+}
+
+RW1_No_Central_Ruler = {
+	name = RW1_No_Central_Ruler
+	portraits = {
+		civilian = {
+			large = GFX_portrait_RW1_No_Central_Ruler
+		}
+	}
+	country_leader = {
+		ideology = CR_subideology
+		id = -1
+	}
+}
+
+UL1_No_Central_Ruler = {
+	name = UL1_No_Central_Ruler
+	portraits = {
+		civilian = {
+			large = GFX_portrait_UL1_No_Central_Ruler
+		}
+	}
+	country_leader = {
+		ideology = CR_subideology
+		id = -1
+	}
+}
+
+
+}

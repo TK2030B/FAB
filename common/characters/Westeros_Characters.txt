@@ -1,0 +1,184 @@
+characters = {
+	NO1_Eddard_Stark = {
+    name = NO1_Eddard_Stark
+    portraits = {
+        civilian = {
+            large = GFX_portrait_NO1_Eddard_Stark
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+RI1_Balon_Greyjoy = {
+    name = RI1_Balon_Greyjoy
+    portraits = {
+        civilian = {
+            large = GFX_portrait_RI1_Balon_Greyjoy
+        }
+    }
+    country_leader = {
+        ideology = FR_subideology
+        id = -1
+    }
+}
+
+RI2_Hoster_Tully = {
+    name = RI2_Hoster_Tully
+    portraits = {
+        civilian = {
+            large = GFX_portrait_RI2_Hoster_Tully
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+TW1_Tywin_Lannister = {
+    name = TW1_Tywin_Lannister
+    portraits = {
+        civilian = {
+            large = GFX_portrait_TW1_Tywin_Lannister
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+ST1_Renly_Baratheon = {
+    name = ST1_Renly_Baratheon
+    portraits = {
+        civilian = {
+            large = GFX_portrait_ST1_Renly_Baratheon
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+DA1_Doran_Martell = {
+    name = DA1_Doran_Martell
+    portraits = {
+        civilian = {
+            large = GFX_portrait_DA1_Doran_Martell
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+VA1_Lysa_Arryn = {
+    name = VA1_Lysa_Arryn
+    portraits = {
+        civilian = {
+            large = GFX_portrait_VA1_Lysa_Arryn
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+RE1_Mace_Tyrell = {
+    name = RE1_Mace_Tyrell
+    portraits = {
+        civilian = {
+            large = GFX_portrait_RE1_Mace_Tyrell
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+CR1_Robert_Baratheon = {
+    name = CR1_Robert_Baratheon
+    portraits = {
+        civilian = {
+            large = GFX_portrait_CR1_Robert_Baratheon
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+FR1_Walder_Frey = {
+    name = FR1_Walder_Frey
+    portraits = {
+        civilian = {
+            large = GFX_portrait_FR1_Walder_Frey
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+DR1_Stannis_Baratheon = {
+    name = DR1_Stannis_Baratheon
+    portraits = {
+        civilian = {
+            large = GFX_portrait_DR1_Stannis_Baratheon
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+NW1_Jeor_Mormont = {
+    name = NW1_Jeor_Mormont
+    portraits = {
+        civilian = {
+            large = GFX_portrait_NW1_Jeor_Mormont
+        }
+    }
+    country_leader = {
+        ideology = NR_subideology
+        id = -1
+    }
+}
+
+WI1_Mance_Rayder = {
+    name = WI1_Mance_Rayder
+    portraits = {
+        civilian = {
+            large = GFX_portrait_WI1_Mance_Rayder
+        }
+    }
+    country_leader = {
+        ideology = CR_subideology
+        id = -1
+    }
+}
+
+OT1_Night_King = {
+    name = OT1_Night_King
+    portraits = {
+        civilian = {
+            large = GFX_portrait_OT1_Night_King
+        }
+    }
+    country_leader = {
+        ideology = FR_subideology
+        id = -1
+    }
+}
+
+}

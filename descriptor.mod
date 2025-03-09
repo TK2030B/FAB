@@ -9,4 +9,5 @@ tags={
 	"Graphics"
 }
 name="Fire & Blood - A Game of Thrones Mod"
+picture="thumbnail.png"
 supported_version="1.16.0"
