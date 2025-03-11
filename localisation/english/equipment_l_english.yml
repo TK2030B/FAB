@@ -2925,9 +2925,9 @@
  CHI_anti_tank_equipment_2:0 "37 mm Type 30"
  CHI_anti_tank_equipment_3:0 "75 mm Type 43"
 
- anti_air_equipment_1:0 "Towed Anti-Air"
- anti_air_equipment_1_short:0 "Anti-Air"
- anti_air_equipment_1_desc:0 "Anti-air artillery is primarily designed to shoot down hostile planes, although the rapid fire cannons can also be effective against ground targets."
+ anti_air_equipment_1:0 "Scorpion"
+ anti_air_equipment_1_short:0 "Scorpion"
+ anti_air_equipment_1_desc:0 "A large, crossbow-like siege weapon designed to target high-flying dragons. While it was originally created for siege defense, its powerful bolts can also be used against ground targets effectively."
 
 #anti-air
  FRA_anti_air_equipment_1:0 "Hotchkiss 25mm"
@@ -3019,13 +3019,6 @@
  NOR_anti_air_equipment_1_short: "7.5 cm L/45 M/32"
  NOR_anti_air_equipment_2:0 "40mm maskinkanon m/36"
  NOR_anti_air_equipment_3:0 "7.5 cm luftvernkanon m/32"
-
- anti_tank_equipment_1:0 "Towed Anti-Tank"
- anti_tank_equipment_1_short:0 "Anti-Tank"
- anti_tank_equipment_1_desc:0 "Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells."
- artillery_equipment:0 "Towed Artillery"
- artillery_equipment_short:0 "Artillery"
- artillery_equipment_desc:0 "Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons."
 
  #artillery
  FRA_artillery_equipment_1:0 "Canon de 75 modèle 1897"
@@ -3143,10 +3136,6 @@
  HUN_artillery_equipment_3:0 "21cm 40M Nehéz Tarack"
  HUN_artillery_equipment_3_short:0 "21cm 40M"
 
- rocket_artillery_equipment:0 "Towed Rocket Artillery"
- rocket_artillery_equipment_short:0 "Rocket Artillery"
- rocket_artillery_equipment_desc:0 "Rocket artillery is less accurate and has a much lower sustained rate of fire than batteries of traditional artillery guns. However, they have the capability of simultaneously hitting a target with multiple rockets with devastating effect."
-
  GER_rocket_artillery_equipment_1:0 "28/32 cm Nebelwerfer 41"
  GER_rocket_artillery_equipment_1_short:0 "Nebelwerfer 41"
  GER_rocket_artillery_equipment_2:0 "21 cm Nebelwerfer 42"
@@ -3186,12 +3175,10 @@
  RAJ_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armor-Piercing"
  RAJ_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
- artillery_equipment_1:0 "Towed Artillery"
- artillery_equipment_1_short:0 "Artillery"
- artillery_equipment_1_desc:0 "Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons."
- rocket_artillery_equipment_1:0 "Towed Rocket Artillery"
- rocket_artillery_equipment_1_short:0 "Rocket Artillery"
- rocket_artillery_equipment_1_desc:0 "Rocket artillery is less accurate and has a much lower sustained rate of fire than batteries of traditional artillery guns. However, they have the capability of simultaneously hitting a target with multiple rockets with devastating effect."
+artillery_equipment_1:0 "Catapult"
+artillery_equipment_1_short:0 "Catapult"
+artillery_equipment_1_desc:0 "Catapults are large siege weapons operated by crews, designed to hurl massive projectiles over long distances. They can launch heavy rocks or fire-filled containers, causing widespread damage to fortifications and enemy formations from beyond the reach of personal weapons."
+
  infantry_equipment:0 "Infantry Weapons"  
  infantry_equipment_short:0 "Infantry Arms"  
  infantry_equipment_desc:0 "Swords, axes, and other melee weapons wielded by soldiers, along with shields and essential battlefield gear."  
@@ -3928,27 +3915,48 @@
  ENG_sam_missile_equipment_1_short: "Stooge"
  SOV_sam_missile_equipment_1: "S-25 Berkut"
  SOV_sam_missile_equipment_1_short: "S-25"
+ 
 
- artillery_equipment_2:0 "Improved Artillery"
- artillery_equipment_2_desc:0 "New howitzer designs, taking advantage of new hydraulic recoil devices and longer barrels."
- artillery_equipment_3:0 "Advanced Artillery"
- artillery_equipment_3_desc:0 "Light-weight artillery capable of being broken down for transport, making it possible to bring artillery support to areas previously difficult to reach."
- anti_air_equipment_2:0 "Improved Anti-Air"
- anti_air_equipment_2_desc:0 "Anti-air guns with longer cartridges and barrels, able to target high-flying aircraft."
- anti_air_equipment_3:0 "Advanced Anti-Air"
- anti_air_equipment_3_desc:1 "An advanced mobile flak gun with greater reach and firing capacity, to combat even the fastest and highest-flying enemy aircraft."
- rocket_artillery_equipment_2:0 "Advanced Rocket Artillery"
- rocket_artillery_equipment_2_desc:0 "Spin-stabilized rockets, increasing the range of lighter artillery batteries."
- anti_tank_equipment_2:0 "Improved Anti-Tank"
- anti_tank_equipment_2_desc:0 "Larger caliber guns to combat heavier tanks with sloped armor."
- anti_tank_equipment_3:0 "Advanced Anti-Tank"
- anti_tank_equipment_3_desc:0 "Combining different kinds of new ammunition technology with guns with higher muzzle velocities, these anti-tank guns are prepared for whatever new armor our enemies may develop."
- motorized_rocket_equipment:0 "Motorized Rocket Artillery"
- motorized_rocket_equipment_short:0 "Mot. R. Artillery"
- motorized_rocket_equipment_desc:0 "Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire."
- motorized_rocket_equipment_1:0 "Motorized Rocket Artillery"
- motorized_rocket_equipment_1_short:0 "Mot. R. Artillery"
- motorized_rocket_equipment_1_desc:0 "Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire."
+artillery_equipment:0 "Catapult"
+artillery_equipment_short:0 "Catapult"
+artillery_equipment_desc:0 "Catapults are large siege engines used to launch heavy projectiles, such as rocks or fireballs, over great distances. They are designed to break down fortifications or cause chaos within enemy ranks."
+
+ artillery_equipment_2:0 "Improved Catapult"
+ artillery_equipment_2_desc:0 "New catapult designs, utilizing stronger torsion springs and reinforced frames to improve range and accuracy."
+ artillery_equipment_3:0 "Advanced Catapult"
+ artillery_equipment_3_desc:0 "Light-weight catapults capable of being disassembled and transported by horse or foot, allowing rapid deployment in difficult-to-reach areas."
+anti_air_equipment_2:0 "Improved Scorpion"
+anti_air_equipment_2_desc:0 "Enhanced Scorpions with longer, stronger bolts and reinforced mechanisms, capable of reaching greater altitudes and piercing through tougher dragon scales."
+anti_air_equipment_3:0 "Advanced Scorpion"
+anti_air_equipment_3_desc:1 "An advanced, mobile version of the Scorpion, featuring greater range, faster reloading, and more powerful bolts, making it highly effective against even the fastest and highest-flying dragons."
+
+ rocket_artillery_equipment_2:0 "Advanced Fire Catapult"
+ rocket_artillery_equipment_2_desc:0 "Improved fire catapult design featuring spin-stabilized projectiles. These enhanced fire rocks offer greater accuracy and range, making them effective at longer distances while maintaining mobility."
+ 
+anti_tank_equipment_1:0 "Ballista"
+anti_tank_equipment_1_short:0 "Ballista"
+anti_tank_equipment_1_desc:0 "A large, powerful crossbow-like siege weapon designed to pierce the armor of heavily armored targets, such as Knights, War Beasts, and other formidable foes. It fires large, sharp bolts that can penetrate even the toughest defenses."
+
+anti_tank_equipment_2:0 "Improved Ballista"
+anti_tank_equipment_2_desc:0 "Upgraded ballista designs with larger, more powerful bolts capable of piercing the thickest armor, allowing them to take on even the heaviest War Beasts and armored adversaries."
+
+anti_tank_equipment_3:0 "Advanced Ballista"
+anti_tank_equipment_3_desc:0 "An advanced version of the ballista, featuring reinforced frames and specially designed bolts that utilize new materials, making it capable of overcoming the toughest armor and defenses, including those of the most monstrous War Beasts."
+
+ rocket_artillery_equipment:0 "Fire Catapult"
+ rocket_artillery_equipment_short:0 "Fire Catapult"
+ rocket_artillery_equipment_desc:0 "Fire catapults may lack the accuracy and sustained fire rate of traditional siege weapons, but they can launch multiple flaming rocks at once, causing widespread devastation and overwhelming enemy defenses with sheer force."
+ rocket_artillery_equipment_1:0 "Fire Catapult"
+ rocket_artillery_equipment_1_short:0 "Fire Catapult"
+ rocket_artillery_equipment_1_desc:0 "Fire catapults, though less accurate and with a slower rate of fire than traditional siege weapons, are capable of launching multiple flaming projectiles at once, creating chaos and causing widespread damage to enemy formations and fortifications."
+ 
+motorized_rocket_equipment:0 "Fast Fire Catapult"
+motorized_rocket_equipment_short:0 "Fast Fire Catapult"
+motorized_rocket_equipment_desc:0 "A lighter, faster version of the traditional fire catapult, designed to be pulled by warhorses. While it sacrifices some of the power and range of its heavier counterpart, it compensates with increased mobility, allowing rapid repositioning to launch devastating fire projectiles before the enemy can retaliate."
+motorized_rocket_equipment_1:0 "Fast Fire Catapult"
+motorized_rocket_equipment_1_short:0 "Fast Fire Catapult"
+motorized_rocket_equipment_1_desc:0 "A more mobile version of the fire catapult, designed to be drawn by warhorses for quick repositioning. While it has slightly less power and range compared to its heavier counterpart, its mobility allows it to launch fire projectiles swiftly and relocate before the enemy can respond."
+
  SOV_motorized_rocket_equipment_1:0 "BM-13 Katyusha"
  SOV_motorized_rocket_equipment_1_short:0 "Katyusha"
  USA_motorized_rocket_equipment:0 "T27 Xylophone"
