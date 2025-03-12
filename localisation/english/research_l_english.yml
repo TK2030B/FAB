@@ -577,7 +577,7 @@ advanced_rocket_engines_desc:0 "With the culmination of Valyrian aeromancy and d
  mountain_gun_desc:0 "The rugged terrain of mountainous regions has led to the creation of portable catapults, which can be disassembled and carried on horseback or by foot to be deployed where they are needed most."
  
 rocket_artillery2:0 "Fire Catapult Upgrade I"
-rocket_artillery2_desc:0 "Self-propelled catapults equipped with fire-enhanced projectiles can cause widespread destruction rapidly while maintaining mobility to avoid enemy retaliation."
+rocket_artillery2_desc:0 "Portable catapults equipped with fire-enhanced projectiles can cause widespread destruction rapidly while maintaining mobility to avoid enemy retaliation."
 
 rocket_artillery3:0 "Fire Catapult Upgrade II"
 rocket_artillery3_desc:0 "Focusing on impact over range, we mount heavier rocks imbued with fire on larger catapults. These fire catapults can operate in teams, allowing for quick reloading and repositioning to keep up the assault."
@@ -1351,7 +1351,7 @@ mtg_tank_landing_craft_desc:0 "A reinforced landing craft capable of ferrying si
  sp_rockets_improved_rocket_bomber: "$improved_rocket_propelled_bombs$"
  sp_rockets_improved_rocket_bomber_desc: "$improved_rocket_propelled_bombs_desc$"
 
- sp_armored_advanced_flamethrower_tech: "Advanced Flamethrower"
+ sp_armored_advanced_flamethrower_tech: "Flaming Arrows"
  sp_armored_advanced_flamethrower_tech_desc: "$advanced_flamethrower_desc$"
  sp_armored_lc_high_impact_obliterator_cannon_tech: "High-Impact Anti-Beast Ballista"
  sp_armored_lc_high_impact_obliterator_cannon_tech_desc: "$lc_high_impact_obliterator_cannon_desc$"
