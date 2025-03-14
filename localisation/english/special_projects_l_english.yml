@@ -216,13 +216,13 @@
 
  ### SPECIALIZATIONS ###
  specialization: "Specialization(s)"
- specialization_nuclear: "Nuclear Research"
+ specialization_nuclear: "Doom of Valyria Research"
  specialization_naval: "Naval Engineering"
- specialization_air: "Aerodynamics and Avionics"
+ specialization_air: "Aerodynamics and Draconics"
  specialization_land: "Land Warfare"
- specialization_nuclear_short: "Physics"
+ specialization_nuclear_short: "Valyria"
  specialization_naval_short: "Naval"
- specialization_air_short: "Air"
+ specialization_air_short: "Draconic"
  specialization_land_short: "Land"
  
  
@@ -311,6 +311,7 @@
  sp_land_stronghold_network_desc: "A complex network of heavily fortified bunkers and strongpoints, built to withstand intense assaults and protect critical strategic locations from enemy incursions."
  sp_land_flamethrower_tank: "Flamethrower Tank"
  sp_land_military_engineering_vehicles: "Military Engineering Vehicles"
+ sp_land_super_heavy_howitzer: "Super-Heavy Howitzer"
  sp_land_super_heavy_howitzer_desc: "A formidable artillery piece boasting a large caliber, that can wreak havoc on enemy defenses with unprecedented destructive force."
  sp_land_self_propelled_super_heavy_howitzer: "Self-Propelled Super-Heavy Howitzer"
  sp_land_self_propelled_super_heavy_howitzer_desc: "A self-propelled massive artillery piece with greater maneuverability on the battlefield than its towed counterpart, while accommodating an even larger caliber."

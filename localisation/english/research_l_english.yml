@@ -53,11 +53,11 @@
  support_folder:1 "Support Companies"
  support_folder_desc:0 "Scouts, Sappers, Medics & other support companies."
  armour_folder:0 "War Beasts"
- armour_folder_desc:0 "A collection of heavily armored war beasts, including Squires, Knights, Paladins, Templars, War Elephants, and their variants."
+ armour_folder_desc:0 "A collection of heavily armored war beasts, including Squires, Knights, Paladins, Elite Knights, War Elephants, and their variants."
  nsb_armour_folder:0 "War Beasts"
- nsb_armour_folder_desc:0 "A collection of heavily armored war beasts, including Squires, Knights, Paladins, Templars, War Elephants, and their variants."
- artillery_folder:0 "Siege Engines"
- artillery_folder_desc:0 "Catapults, Anti-Beast & Anti-Dragon weapons for divisions."
+ nsb_armour_folder_desc:0 "A collection of heavily armored war beasts, including Squires, Knights, Paladins, Elite Knights, War Elephants, and their variants."
+ artillery_folder:0 "Battlefield Weapons"
+ artillery_folder_desc:0 "A diverse array of weapons used to dominate the battlefield, including Archers, Pikemen, and Anti-Dragon Scorpions."
  land_doctrine_folder:0 "Land Doctrine"
  land_doctrine_folder_desc:0 "The strategies and formations used by your armies in battle."
  naval_folder:0 "Naval Warfare"
@@ -334,8 +334,8 @@ tech_maintenance_company3_desc:0 "Ensuring that every unit has access to tools a
 tech_maintenance_company4:0 "Blacksmiths IV"
 tech_maintenance_company4_desc:0 "Advanced techniques in metallurgy and craftsmanship make maintenance easier, extending the durability of our arms and armor."
 
- motorised_infantry:0 "Motorized Infantry"
- motorised_infantry_desc:0 "By extending the use of motor vehicles in infantry transports in the field, the mobility of otherwise slow-moving infantry units can be greatly improved, enabling faster responses and new strategies."
+ motorised_infantry:0 "Warhorse"
+ motorised_infantry_desc:0 "Strong and well-trained horses used for transporting troops, supplies, and for increasing the mobility of our forces."  
  
 night_vision:0 "Signal Torches"
 night_vision_desc:0 "In the darkness of night, visibility can mean the difference between life and death. By developing improved torches and carefully shielded lanterns, our sentries and scouts can detect movement without revealing their own position, granting a crucial advantage in night operations."
@@ -555,36 +555,37 @@ advanced_rocket_engines_desc:0 "With the culmination of Valyrian aeromancy and d
  rocket_interceptor_3_desc:0 "New landing techniques and safer fuel systems have improved rocket fighters' chance of success and survival significantly, fulfilling the once theoretical potential of these cutting-edge vehicles."
  nukes:0 "Nuclear Bombs"
  nukes_desc:0 "A project to construct an atomic bomb will be one of the most secretive and difficult tasks a nation can undertake, but, if successful, may change not only the course of today's wars but of the future of the world."
- interwar_artillery:1 "Siege Engine Development"
- interwar_artillery_desc:0 "Lessons learned from previous designs can be applied to the development of more advanced siege engines, improving both range and effectiveness."
-
- artillery1:0 "Catapult I"
- artillery1_desc:0 "With stronger materials and improved mechanisms, early catapult designs can be upgraded to increase their power and precision."
-
- artillery2:0 "Improved Catapult Upgrade I"
- artillery2_desc:0 "Upgrading existing siege engines can only achieve so much. New catapult designs will be needed, utilizing better torsion springs and more durable construction."
-
- artillery3:0 "Improved Catapult Upgrade II"
- artillery3_desc:0 "To allow for heavier stones to be launched with greater accuracy, new counterweight systems and reinforced frames can be added to catapults."
-
- artillery4:0 "Mobile Siege Engine"
- artillery4_desc:0 "Designing lightweight catapults capable of being broken down for transport will enable quicker deployment and flexibility on the battlefield."
-
- artillery5:0 "Advanced Siege Engine Upgrade"
- artillery5_desc:0 "Advanced catapult designs with lower profiles and more streamlined frames will make them harder for the enemy to target while still delivering devastating firepower."
-
- mountain_gun:0 "Mountain Catapult"
- mountain_gun_desc:0 "The rugged terrain of mountainous regions has led to the creation of portable catapults, which can be disassembled and carried on horseback or by foot to be deployed where they are needed most."
  
-rocket_artillery2:0 "Fire Catapult Upgrade I"
-rocket_artillery2_desc:0 "Portable catapults equipped with fire-enhanced projectiles can cause widespread destruction rapidly while maintaining mobility to avoid enemy retaliation."
+interwar_artillery:1 "Battlefield Weapons Development"  
+interwar_artillery_desc:0 "As warfare evolves, so too must the weapons used by our forces. Advancements in archery, polearms, and siege engines will provide our armies with improved tools for battle, increasing their effectiveness on the field."  
 
-rocket_artillery3:0 "Fire Catapult Upgrade II"
-rocket_artillery3_desc:0 "Focusing on impact over range, we mount heavier rocks imbued with fire on larger catapults. These fire catapults can operate in teams, allowing for quick reloading and repositioning to keep up the assault."
+artillery1:0 "Standard Archery Equipment"  
+artillery1_desc:0 "Early archery equipment consists of simple wooden bows and basic arrows. While effective, improvements in materials and design can enhance their power and precision."  
 
-rocket_artillery4:0 "Fire Catapult Upgrade III"
-rocket_artillery4_desc:0 "By enhancing the catapult's design, we can launch even heavier, fire-infused rocks over greater distances, giving our forces a strategic advantage in siege warfare."
- 
+artillery2:0 "Improved Archery Equipment I"  
+artillery2_desc:0 "By reinforcing bows with stronger wood and improving fletching techniques, archers can achieve greater accuracy and range in battle."  
+
+artillery3:0 "Improved Archery Equipment II"  
+artillery3_desc:0 "The introduction of composite bows, along with specially crafted arrowheads, allows for increased penetration and overall effectiveness against armored foes."  
+
+artillery4:0 "Mounted Archery Tactics"  
+artillery4_desc:0 "Developing lightweight bows and training archers to fire accurately from horseback or fast-moving units provides an edge in mobility and battlefield adaptability."  
+
+artillery5:0 "Advanced Archery Techniques"  
+artillery5_desc:0 "The latest advancements in archery include precision-crafted arrows, refined bow designs, and enhanced training methods, allowing for superior accuracy and rate of fire."  
+
+mountain_gun:0 "Mountain Archer"
+mountain_gun_desc:0 "Archery tactics adapted for mountainous warfare, featuring specialized bows and arrows designed for high-altitude engagements. These archers excel at ambushes and long-range precision in rugged terrain."
+
+rocket_artillery2:0 "Flame Archer Upgrade I"  
+rocket_artillery2_desc:0 "Archers equipped with fire-enhanced arrows can cause widespread destruction rapidly while maintaining mobility to avoid enemy retaliation."  
+
+rocket_artillery3:0 "Flame Archer Upgrade II"  
+rocket_artillery3_desc:0 "Focusing on impact over range, we develop heavier, more incendiary arrows for our flame archers. These archers operate in coordinated teams, allowing for rapid volleys that engulf enemy ranks in fire."  
+
+rocket_artillery4:0 "Flame Archer Upgrade III"  
+rocket_artillery4_desc:0 "By enhancing bow construction and refining incendiary materials, our flame archers can launch even more devastating fire volleys over greater distances, granting our forces a decisive edge in battle."  
+
 interwar_antiair:0 "Anti-Dragon"
 antiair1:0 "Scorpion Upgrade I"
 antiair1_desc:0 "With faster reloading mechanisms and stronger, more durable bolts, our Scorpions can deliver rapid-fire volleys capable of piercing through the scales of dragons, ensuring increased effectiveness in combat."
@@ -603,20 +604,22 @@ antiair5_desc:0 "The pinnacle of Scorpion development. With refined targeting me
 
 interwar_antitank:0 "Anti-Beast"
 antitank1:0 "Anti-Beast Upgrade"
-antitank1_desc:0 "The importance of effective anti-beast weapons was established in past wars. Introducing a new generation of these weapons will be necessary to counter heavily armored foes such as knights, war elephants, and siege beasts."
+antitank1_desc:0 "The importance of effective anti-beast tactics was established in past wars. Training disciplined Pikemen and equipping them with longer, reinforced pikes will be necessary to counter heavily armored foes such as knights, war elephants, and siege beasts."
 
 antitank2:0 "Anti-Beast II"
-antitank2_desc:0 "Most anti-beast weapons so far have been relatively light. Larger and more powerful ballistae will be required to effectively pierce the armor of heavily protected targets."
+antitank2_desc:0 "Most anti-beast tactics so far have relied on traditional formations. Introducing specialized spear tips, tighter ranks, and improved armor will allow Pikemen to better pierce the hides and armor of the most heavily protected foes."
 
 antitank3:0 "Improved Anti-Beast Upgrade I"
-antitank3_desc:0 "Specialized ammunition, including reinforced and barbed bolts, can increase the effectiveness of anti-beast weapons, making them more lethal against heavily armored war beasts."
+antitank3_desc:0 "Advancements in spear design, including longer shafts and reinforced spearheads, improve the effectiveness of Pikemen against armored cavalry and massive war beasts, making them even deadlier in defensive formations."
 
 antitank4:0 "Improved Anti-Beast Upgrade II"
-antitank4_desc:0 "New and improved anti-beast siege weapons with enhanced range and armor-piercing capabilities can now counter even the largest and most well-armored foes."
+antitank4_desc:0 "New battlefield tactics, superior pike formations, and enhanced equipment have further strengthened our Pikemen, allowing them to effectively halt the charges of even the largest and most well-armored war beasts."
 
 antitank5:0 "Anti-Beast V"
-antitank5_desc:0 "By combining new materials, improved engineering, and more powerful torsion mechanisms, our anti-beast weapons can penetrate nearly any armor, ensuring dominance over enemy war beasts and cavalry alike."
- air_superiority:0 "Air Superiority"
+antitank5_desc:0 "By integrating elite training, advanced formations, and newly forged pikes with superior materials, our Pikemen have become the ultimate defense against enemy cavalry and war beasts, ensuring battlefield supremacy in any engagement."
+
+ 
+air_superiority:0 "Air Superiority"
  air_superiority_desc:0 "Achieving Air Superiority will make it more difficult for enemy bombers to be used against our country, to allow our bombers to be used against our enemies."
  formation_flying:0 "Formation Flying"
  formation_flying_desc:0 "By flying in formation planes can provide support to each other or work together to attack enemies."
@@ -1019,9 +1022,9 @@ mtg_tank_landing_craft_desc:0 "A reinforced landing craft capable of ferrying si
  ARMOUR_TITLE_MEDIUM:0 "KNIGHTS"
  ARMOUR_TITLE_LIGHT:0 "SQUIRES"
  ARMOUR_TITLE_AMPH:0 "AMPHIBIOUS"
- ARTILLERY_TITLE_ROCKET:0 "FIRE CATAPULTS"
+ ARTILLERY_TITLE_ROCKET:0 "FLAME ARCHERS"
  ARTILLERY_TITLE_AT:0 "ANTI-BEAST"
- ARTILLERY_TITLE:0 "CATAPULTS"
+ ARTILLERY_TITLE:0 "ARCHERS"
  ARTILLERT_TITLE_AA:0 "ANTI-DRAGON"
  NAVAL_TITLE_DESTROYERS:0 "LONGSHIPS"
  NAVAL_TITLE_CRUISERS:0 "DROMONS"
@@ -1361,11 +1364,12 @@ sp_armored_lc_naval_engine_conversion_tech_desc:0 "Selective breeding, enhanced 
 sp_armored_lc_transmission_improvements_tech:0 "Beastmaster Command Tactics"
 sp_armored_lc_transmission_improvements_tech_desc:0 "By refining the bond between beastmasters and their War Elephants and War Mammoths, we improve response time, coordination, and overall reliability, ensuring these massive creatures remain steadfast even in the heat of battle."
 
-sp_armored_lc_specialized_field_manuals_tech:0 "War Mammoth Siege Doctrine"
-sp_armored_lc_specialized_field_manuals_tech_desc:0 "Specialized formations and battlefield protocols enable War Mammoths to become highly effective in prolonged engagements, reinforcing defensive lines and devastating enemy positions with sheer mass and discipline."
+sp_armored_lc_specialized_field_manuals_tech:0 "Siege Tower Doctrine"
+sp_armored_lc_specialized_field_manuals_tech_desc:0 "Specialized formations and battlefield protocols enable Siege Towers to become highly effective in prolonged engagements, reinforcing defensive lines and devastating enemy fortifications with massed archery fire and superior positioning."
 
-sp_armored_lc_weapon_fire_control_tech:0 "War Mammoth Heavy Plating"
-sp_armored_lc_weapon_fire_control_tech_desc:0 "Equipping War Mammoths with reinforced barding and protective warplate enhances their resilience against enemy projectiles, while their riders gain superior armor, allowing them to break through enemy formations with unstoppable force."
+sp_armored_lc_weapon_fire_control_tech:0 "Siege Tower Reinforcements"
+sp_armored_lc_weapon_fire_control_tech_desc:0 "Equipping Siege Towers with reinforced plating and defensive enhancements improves their durability against enemy attacks. Their archers and siege crews benefit from improved protection, allowing them to maintain devastating firepower while withstanding counterattacks."  
+
 
 
  sp_armored_engineer_tech:0 "Armored Sappers"
@@ -1380,10 +1384,12 @@ sp_armored_lc_weapon_fire_control_tech_desc:0 "Equipping War Mammoths with reinf
 
  sp_cluster_shells: "Cluster Shells"
  sp_cluster_shells_desc: "Cluster shells disperse multiple submunitions over a wide area, maximizing damage against enemy troops and equipment"
- sp_artillery_rocket_assisted_projectiles_tech: "Reinforced Onager Ammunition"
- sp_artillery_rocket_assisted_projectiles_tech_desc: "Enhanced ammunition for Onagers, designed to improve the strength, durability, and precision of the projectiles. These reinforced projectiles offer greater impact and effectiveness against fortifications and enemy formations."
- sp_artillery_purpose_built_gun_motor_carriages_tech: "Onager Chassis"
- sp_artillery_purpose_built_gun_motor_carriages_tech_desc: "Specialized siege platforms designed to transport and support Onagers, allowing for greater mobility and ease of deployment on the battlefield. These reinforced chassis enable rapid repositioning of powerful siege engines."
+sp_artillery_rocket_assisted_projectiles_tech: "Reinforced Mammoth Ammunition"  
+sp_artillery_rocket_assisted_projectiles_tech_desc: "Enhanced ammunition for Mammoth Archers and Mammoth Scorpions, designed for greater durability and improved aerodynamics. These reinforced projectiles ensure superior impact, increasing their effectiveness against enemy formations and fortifications."  
+
+sp_artillery_purpose_built_gun_motor_carriages_tech: "Mammoth War Harnesses"  
+sp_artillery_purpose_built_gun_motor_carriages_tech_desc: "Specialized war harnesses and reinforced platforms designed to better support Mammoth Archers and Mammoth Scorpions. These enhancements reduce the strain on their supply lines while increasing their battlefield reliability and endurance."  
+
  sp_multi_product_supply_ships: "Multi-Product Supply Ship"
  sp_multi_product_supply_ships_desc: "With the use of the newly produced supply ships, we can ensure smoother transfer of the fuel, ammunition and supplies."
  sp_standard_tenshioned_replenishment_alongside_method: "Standardized Tenshioned Replenishment Alongside Method"
@@ -1400,8 +1406,9 @@ sp_armored_lc_weapon_fire_control_tech_desc:0 "Equipping War Mammoths with reinf
  heavy_battleship2_desc: "An improvement on our earlier super heavy design with stronger weapons and improved fire control systems."
  sp_shock_hardening_techniques: "Enhanced Bolts and Tensioning"
  sp_shock_hardening_techniques_desc: "By strengthening the construction of our Scorpions and sharpening the points of our bolts, we've reduced the likelihood of misfire and increased the damage dealt to flying threats. Improved tensioning of the bowstrings allows for more powerful and accurate shots, making our weapons more reliable and deadly against dragons."
-sp_variable_time_fuze_shells: "Reinforced Catapult Ammunition"
-sp_variable_time_fuze_shells_desc: "By reinforcing and improving the design of our catapult projectiles, we’ve made them more durable and aerodynamic. These stronger, more precise projectiles create greater damage to enemy fortifications and troops, expanding the reach of our siege engines."
+sp_variable_time_fuze_shells: "Reinforced Arrowheads"  
+sp_variable_time_fuze_shells_desc: "By strengthening the design of our arrowheads with improved metallurgy and aerodynamics, we’ve increased their durability and penetration. These enhanced projectiles allow our archers to strike enemy formations and fortifications with greater precision and effectiveness."  
+
 sp_helicopter_transport_pods_tech:0 "Wyvern-Riding Quartermasters"  
 sp_helicopter_transport_pods_tech_desc:0 "Mounted atop mighty wyverns, our quartermasters can swiftly ferry supplies and equipment across any terrain. With these flying beasts at their command, the days of supply trains getting bogged down in the mud are over!"  
 
@@ -1412,10 +1419,13 @@ sp_helicopter_med_evac_tech:0 "Wyvern-Riding Healers"
 sp_helicopter_med_evac_tech_desc:0 "Incoming wounded! We have incoming wounded! Our wyvern-mounted medics can swiftly evacuate the injured from the battlefield, ensuring they receive urgent care before it’s too late.
 
 
- sp_rockets_dual_chamber_rocket_engine_1: "Dual Chamber Rocket Engines"
- sp_rockets_dual_chamber_rocket_engine_1_desc: "By adding a second combustion chamber to the engine, we can improve the flight time and effectiveness of our rocket engines."
- sp_rockets_dual_chamber_rocket_engine_2: "Advanced Dual Chamber Rocket Engines"
- sp_rockets_dual_chamber_rocket_engine_2_desc: "Further refinements of the dual combustion engine may lead to even greater improvements in the design's effectiveness."
+sp_rockets_dual_chamber_rocket_engine_1: "Valyrian Flight Runes"  
+sp_rockets_dual_chamber_rocket_engine_1_desc: "By inscribing ancient Valyrian runes onto our dragons, we can enhance their speed and agility, allowing them to fly faster and strike with greater precision."  
+
+sp_rockets_dual_chamber_rocket_engine_2: "Advanced Valyrian Flight Runes"  
+sp_rockets_dual_chamber_rocket_engine_2_desc: "Further refinement of Valyrian rune magic has unlocked even greater speed and maneuverability for our dragons, making them unmatched in aerial combat."  
+
+
  
  reinforced_wings_mothership: "Reinforced Mothership Wings"
  reinforced_wings_mothership_desc: "Without their mothership, the fighters are essentially stranded in the air, severely limiting their operational effectiveness. Strengthening the mothership's air wings is the most cost-effective strategy to enhance the survivability of the entire squadron."

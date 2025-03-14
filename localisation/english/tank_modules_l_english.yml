@@ -310,30 +310,33 @@ heavy_tank_aa_chassis_3:0 "Advanced Dragon Slayer (Paladin)"
 
 
 
-main_battle_tank_chassis:0 "Templar Mount"
+main_battle_tank_chassis:0 "Elite Knight Mount"
+main_battle_tank_chassis_short:0 "Elite Knight"
 main_battle_tank_chassis_desc:0 "Battlefield experience has shown that the distinction between light, medium, and heavy mounts is fading. Heavier mounts have become more mobile, while lighter ones are increasingly armored and armed. A unified design is the next logical step, creating a versatile and dominant war mount."
 
-modern_tank_chassis:0 "Templar Mount"
+modern_tank_chassis:0 "Elite Knight Mount"
+modern_tank_chassis_short:0 "Elite Knight"
 modern_tank_chassis_desc:0 "Refining past designs, this mount prioritizes speed and maneuverability without sacrificing protection or firepower. Able to fulfill multiple roles, it represents the pinnacle of mounted warfare."
  
-modern_tank_chassis_1:0 "Templar Mount"
+modern_tank_chassis_1:0 "Elite Knight Mount"
 
-modern_tank_artillery_chassis:0 "Mounted Archer (Templar)"
+modern_tank_artillery_chassis:0 "Mounted Archer (Elite Knight)"
 modern_tank_artillery_chassis_desc:0 "A master of horseback archery, trained to strike with divine precision, providing ranged support to the vanguard."
-modern_tank_artillery_chassis_1:0 "Mounted Archer (Templar)"
+modern_tank_artillery_chassis_1:0 "Mounted Archer (Elite Knight)"
 
-modern_tank_destroyer_chassis:0 "Lancer (Templar)"
+modern_tank_destroyer_chassis:0 "Lancer (Elite Knight)"
 modern_tank_destroyer_chassis_desc:0 "A noble warrior wielding a powerful lance, dedicated to piercing through enemy defenses with unshakable resolve."
-modern_tank_destroyer_chassis_1:0 "Lancer (Templar)"
+modern_tank_destroyer_chassis_1:0 "Lancer (Elite Knight)"
 
-modern_tank_aa_chassis:0 "Dragonslayer (Templar)"
+modern_tank_aa_chassis:0 "Dragonslayer (Elite Knight)"
 modern_tank_aa_chassis_desc:0 "An elite warrior trained to bring down aerial threats, wielding divine weapons to slay wyverns and dragons with unwavering precision."
-modern_tank_aa_chassis_1:0 "Dragonslayer (Templar)"
+modern_tank_aa_chassis_1:0 "Dragonslayer (Elite Knight)"
 
 
 
  
  super_heavy_tank_chassis:0 "War Elephant Mount"
+ super_heavy_tank:0 "War Elephant"
  super_heavy_tank_chassis_desc:0 "A colossal war beast, capable of carrying the heaviest armor and the most devastating weaponry. However, its sheer size makes it slow and difficult to maintain."
  super_heavy_tank_chassis_1:0 "War Elephant Mount"
  
