@@ -354,19 +354,19 @@ small_plane_airframe_5_desc:0 "This masterfully bred and trained dragon is capab
  medium_plane_airframe_4:0 "Veteran Medium Dragon"
  medium_plane_airframe_4_desc:0 "A beast of legend, this dragon is one of the most experienced and powerful of its kind. It dominates the battlefield with fire and might."
 
- medium_plane_fighter_airframe_0:0 "Untrained Heavy Dragon Hunter"
+ medium_plane_fighter_airframe_0:0 "Untrained Heavy Hunter Dragon"
  medium_plane_fighter_airframe_0_desc:0 "$medium_plane_airframe_0_desc$"
 
- medium_plane_fighter_airframe_1:0 "Trained Heavy Dragon Hunter"
+ medium_plane_fighter_airframe_1:0 "Trained Heavy Hunter Dragon"
  medium_plane_fighter_airframe_1_desc:0 "$medium_plane_airframe_1_desc$"
 
- medium_plane_fighter_airframe_2:0 "Skilled Heavy Dragon Hunter"
+ medium_plane_fighter_airframe_2:0 "Skilled Heavy Hunter Dragon"
  medium_plane_fighter_airframe_2_desc:0 "$medium_plane_airframe_2_desc$"
 
- medium_plane_fighter_airframe_3:0 "Elite Heavy Dragon Hunter"
+ medium_plane_fighter_airframe_3:0 "Elite Heavy Hunter Dragon"
  medium_plane_fighter_airframe_3_desc:0 "$medium_plane_airframe_3_desc$"
 
- medium_plane_fighter_airframe_4:0 "Veteran Heavy Dragon Hunter"
+ medium_plane_fighter_airframe_4:0 "Veteran Heavy Hunter Dragon"
  medium_plane_fighter_airframe_4_desc:0 "$medium_plane_airframe_4_desc$"
 
 medium_plane_scout_plane_airframe_0:0 "Untrained Scout Dragon"

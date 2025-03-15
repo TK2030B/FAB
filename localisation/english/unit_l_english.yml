@@ -540,8 +540,8 @@ amphibious_heavy_armor_desc:0 "The mightiest of mounted warriors, heavily armore
  category_line_artillery:0 "Archers"  
  category_artillery:0 "Archers & Battlefield Support"  
 
- category_fighter:0 "Dragon Hunter"
- category_heavy_fighter:0 "Heavy Dragon Hunter"
+ category_fighter:0 "Hunter Dragon"
+ category_heavy_fighter:0 "Heavy Hunter Dragon"
  category_cas:0 "War Dragon"
  category_nav_bomber:0 "Storm Dragons"
  category_tac_bomber:0 "Scourge Dragons"
@@ -736,7 +736,7 @@ category_mobile_and_mobile_combat_sup:0 "Mounted Battalions & Battlefield Suppor
 category_support_artillery:0 "Support Archers"  
 category_infantry_and_bicycle:0 "Footmen"  
 category_tank_destroyers:0 "War Beast Slayers"  
-category_self_propelled_artillery:0 "Mobile Siege Weapons"  
+category_self_propelled_artillery:0 "Mobile Ranged Weapons"  
 category_self_propelled_anti_air:0 "Mobile Ballistae"  
  category_helicopter_support_companies: "Helicopter Support Companies"
  jungle_pioneers_support: "Jungle Pioneers Company"
@@ -774,7 +774,7 @@ helicopter_brigade_desc:0 "General-purpose wyvern support brigade, able to provi
 super_heavy_artillery:0 "Siege Towers"  
 super_heavy_artillery_desc:0 "Massive wooden towers mounted on wheels, equipped with archer platforms to rain fire upon enemy ranks while providing cover for advancing troops. Their sheer size and firepower make them devastating, though they are slow and vulnerable to concentrated attacks."  
 
-self_propelled_super_heavy_artillery:0 "Mobile Siege Towers"  
+self_propelled_super_heavy_artillery:0 "Elite Siege Towers"  
 self_propelled_super_heavy_artillery_desc:0 "Heavily fortified siege towers mounted on reinforced platforms for improved mobility. These mobile fortresses can advance while continuously bombarding enemy defenses with massed archery fire and siege weaponry."  
  
 

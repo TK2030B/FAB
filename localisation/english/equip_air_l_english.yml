@@ -1,13 +1,13 @@
 ﻿l_english:
-fighter:0 "Dragon Hunter"
-fighter_equipment_desc:0 "Dragon Hunters are swift and agile, soaring through the skies to engage enemy beasts in brutal aerial duels. They defend their kin, strike down intruders, and ensure dominance over the skies."
+fighter:0 "Hunter Dragon"
+fighter_equipment_desc:0 "Hunter Dragons are swift and agile, soaring through the skies to engage enemy beasts in brutal aerial duels. They defend their kin, strike down intruders, and ensure dominance over the skies."
 
-cv_fighter:1 "Dragon Hunter (Barge)"
-cv_fighter_equipment_desc:0 "These Dragon Hunters are trained to launch from and return to their massive floating sanctuaries, patrolling the skies above their fleet and striking down any who dare approach."
+cv_fighter:1 "Hunter Dragon (Barge)"
+cv_fighter_equipment_desc:0 "These Hunter Dragons are trained to launch from and return to their massive floating sanctuaries, patrolling the skies above their fleet and striking down any who dare approach."
 
-jet_fighter:1 "Dragon Hunter"
-jet_fighter_equipment:0 "Dragon Hunter"
-jet_fighter_equipment_desc:0 "Harnessing newfound speed and unmatched agility, these Dragon Hunters dominate the skies with blistering ferocity, ensuring no foe can challenge their supremacy."
+jet_fighter:1 "Hunter Dragon"
+jet_fighter_equipment:0 "Hunter Dragon"
+jet_fighter_equipment_desc:0 "Harnessing newfound speed and unmatched agility, these Hunter Dragons dominate the skies with blistering ferocity, ensuring no foe can challenge their supremacy."
 
  cas:1 "War Dragon"
  CAS_equipment_desc:0 "War Dragons are trained to swoop down upon the battlefield, unleashing torrents of fire to turn the tide of battle. Their fearsome presence ensures devastation to those who stand against them."
@@ -29,7 +29,7 @@ jet_tac_bomber_equipment:2 "Scourge Dragon"
 jet_tac_bomber_equipment_desc:0 "Faster and more devastating than their predecessors, these dragons strike with unmatched speed, scorching entire battlefields before the enemy can react."
 
  
-heavy_fighter:0 "Heavy Dragon Hunter"
+heavy_fighter:0 "Heavy Hunter Dragon"
 heavy_fighter_equipment_desc:0 "Larger and more powerful than their swifter kin, these dragons are built for endurance and firepower. They excel at escorting their allies across vast distances and bringing down enemy sky-beasts, though their sheer size makes them vulnerable to more agile foes."
 
 strat_bomber:0 "Armageddon Dragon"
@@ -43,9 +43,9 @@ transport_plane:0 "Dragon of Burden"
 transport_plane_equipment_desc:0 "These mighty dragons serve as the lifeline of armies, carrying warriors across vast distances and delivering them deep into enemy territory."
 
  guided_missile:0 "Rocket"
- fighter_equipment:0 "Dragon Hunter"
- cv_fighter_equipment:0 "Barge Dragon Hunter"
- cv_fighter_equipment_short:0 "DB Dragon Hunter"
+ fighter_equipment:0 "Hunter Dragon"
+ cv_fighter_equipment:0 "Barge Hunter Dragon"
+ cv_fighter_equipment_short:0 "DB Hunter Dragon"
  strat_bomber_equipment:0 "Armageddon Dragon"
  rocket_interceptor_equipment:0 "Blitz Dragon"
  rocket_interceptor_equipment_desc:0 "A swift and deadly dragon that relies on short but intense bursts of speed to intercept intruders before vanishing as quickly as it appeared."
@@ -53,33 +53,33 @@ transport_plane_equipment_desc:0 "These mighty dragons serve as the lifeline of 
 suicide_craft_equipment:0 "Fury Dragon"
 suicide_craft_equipment_desc:0 "A dragon consumed by uncontrollable rage, hurling itself at the enemy in a final, devastating act of destruction."
 
-fighter_equipment_0:1 "Dragon Hunter Hatchling"
-fighter_equipment_0_short:0 "Dragon Hunter Hatchling"
+fighter_equipment_0:1 "Hunter Dragon Hatchling"
+fighter_equipment_0_short:0 "Hunter Dragon Hatchling"
 fighter_equipment_0_desc:0 "Young and untested, these dragon hatchlings are still learning the ways of aerial combat. Though small and fragile compared to their elder kin, they are swift and eager, harassing enemy forces with speed and agility."
 
-fighter_equipment_1:0 "Dragon Hunter I"
-fighter_equipment_1_short:0 "Dragon Hunter I"
+fighter_equipment_1:0 "Hunter Dragon I"
+fighter_equipment_1_short:0 "Hunter Dragon I"
 fighter_equipment_1_desc:0 "The methods of dragon warfare have evolved, and so have our hunters. With disciplined training and refined techniques, they have become faster, deadlier, and more coordinated, ensuring aerial superiority over lesser foes."
 
-fighter_equipment_2:0 "Dragon Hunter II"
-fighter_equipment_2_short:0 "Dragon Hunter II"
+fighter_equipment_2:0 "Hunter Dragon II"
+fighter_equipment_2_short:0 "Hunter Dragon II"
 fighter_equipment_2_desc:0 "With each generation, our dragon hunters grow stronger. These battle-hardened drakes have honed their instincts, striking with greater precision and endurance, cementing their dominance over the skies."
 
-fighter_equipment_3:0 "Dragon Hunter III"
-fighter_equipment_3_short:0 "Dragon Hunter III"
+fighter_equipment_3:0 "Hunter Dragon III"
+fighter_equipment_3_short:0 "Hunter Dragon III"
 fighter_equipment_3_desc:0 "The pinnacle of dragon warfare. These seasoned hunters are the fastest, fiercest, and most lethal beings in the sky. Their flames scorch entire formations, and their mastery of flight ensures total aerial supremacy."
  
-heavy_fighter_equipment:0 "Heavy Dragon Hunter"
-heavy_fighter_equipment_1:0 "Heavy Dragon Hunter I"
-heavy_fighter_equipment_1_short:0 "Heavy Dragon Hunter I"
+heavy_fighter_equipment:0 "Heavy Hunter Dragon"
+heavy_fighter_equipment_1:0 "Heavy Hunter Dragon I"
+heavy_fighter_equipment_1_short:0 "Heavy Hunter Dragon I"
 heavy_fighter_equipment_1_desc:0 "Our larger dragons are needed to protect fire-breathing bombardiers on their long journeys into enemy territory. These mighty hunters are slower and less agile than their smaller kin, but their endurance, resilience, and devastating attacks make them formidable guardians of the skies."
 
-heavy_fighter_equipment_2:0 "Heavy Dragon Hunter II"
-heavy_fighter_equipment_2_short:0 "Heavy Dragon Hunter II"
+heavy_fighter_equipment_2:0 "Heavy Hunter Dragon II"
+heavy_fighter_equipment_2_short:0 "Heavy Hunter Dragon II"
 heavy_fighter_equipment_2_desc:0 "The war has shown that our heavy dragons struggle against smaller, more agile foes, yet they excel at tearing through enemy aerial behemoths. This next generation will boast greater firepower, improved endurance, and the ability to scorch both airborne and ground-bound adversaries with impunity."
 
-heavy_fighter_equipment_3:0 "Heavy Dragon Hunter III"
-heavy_fighter_equipment_3_short:0 "Heavy Dragon Hunter III"
+heavy_fighter_equipment_3:0 "Heavy Hunter Dragon III"
+heavy_fighter_equipment_3_short:0 "Heavy Hunter Dragon III"
 heavy_fighter_equipment_3_desc:0 "Our heavy dragons have proven their worth across countless battles, but as enemy threats evolve, so must our hunters. This latest breed will be faster, deadlier, and capable of intercepting even the most elusive of foes, ensuring dominance over both the skies and the battlefield below."
 
 strat_bomber_equipment_1:0 "Armageddon Dragon I"
@@ -162,12 +162,12 @@ CAS_equipment_3:0 "War Dragon III"
 CAS_equipment_3_short:0 "War Dragon III"
 CAS_equipment_3_desc:0 "As enemy defenses grow more formidable, our War Dragons must evolve. The latest generation boasts greater endurance, the ability to withstand even the strongest enemy ballistae, and flames hot enough to melt steel. With these fearsome creatures leading the charge, victory will be assured."
  
-jet_fighter_equipment_1:0 "Dragon Hunter IV"
-jet_fighter_equipment_1_short:0 "Dragon Hunter IV"
+jet_fighter_equipment_1:0 "Hunter Dragon IV"
+jet_fighter_equipment_1_short:0 "Hunter Dragon IV"
 jet_fighter_equipment_1_desc:0 "The skies have long been ruled by dragons, but new advancements have brought forth creatures of unmatched speed and precision. These latest hunters streak through the air faster than any beast before, outpacing even the most formidable winged foes. While their full potential is yet to be realized, traditional aerial combatants stand no chance against them."
 
-jet_fighter_equipment_2:0 "Dragon Hunter V"
-jet_fighter_equipment_2_short:0 "Dragon Hunter V"
+jet_fighter_equipment_2:0 "Hunter Dragon V"
+jet_fighter_equipment_2_short:0 "Hunter Dragon V"
 jet_fighter_equipment_2_desc:0 "Through refined wing designs and lighter, more resilient armor, these hunters now surpass all before them in range, speed, and lethality. Even the greatest of dragons will struggle to escape the talons of these relentless pursuers."
 
  
@@ -206,20 +206,20 @@ cv_CAS_equipment_3_short:1 "DB War Dragon III"
 cv_CAS_equipment_3_desc:0 "A fully matured beast of battle, this war dragon dominates the battlefield, soaring from the decks of great ships to rain destruction upon those below."  
 
  
-cv_fighter_equipment_0:1 "Barge Dragon Hunter Hatchling"
-cv_fighter_equipment_0_short:1 "DB Dragon Hunter Hatchling"
+cv_fighter_equipment_0:1 "Barge Hunter Dragon Hatchling"
+cv_fighter_equipment_0_short:1 "DB Hunter Dragon Hatchling"
 cv_fighter_equipment_0_desc:0 "A young and inexperienced dragon, just beginning to learn the art of aerial combat from the decks of seaborne citadels. Though small, it is swift and eager, defending the fleet from airborne threats and harassing enemy squadrons with nimble strikes."
 
-cv_fighter_equipment_1:0 "Barge Dragon Hunter I"
-cv_fighter_equipment_1_short:1 "DB Dragon Hunter I"
+cv_fighter_equipment_1:0 "Barge Hunter Dragon I"
+cv_fighter_equipment_1_short:1 "DB Hunter Dragon I"
 cv_fighter_equipment_1_desc:0 "A more seasoned hunter, now faster and deadlier. It soars from the decks of great warships, striking with precision to maintain aerial supremacy."  
 
-cv_fighter_equipment_2:0 "Barge Dragon Hunter II"
-cv_fighter_equipment_2_short:1 "DB Dragon Hunter II"
+cv_fighter_equipment_2:0 "Barge Hunter Dragon II"
+cv_fighter_equipment_2_short:1 "DB Hunter Dragon II"
 cv_fighter_equipment_2_desc:0 "Refined and battle-tested, this hunter moves like a shadow and strikes like a storm. It dominates the skies, ensuring the fleet’s protection from above."  
 
-cv_fighter_equipment_3:0 "Barge Dragon Hunter III"
-cv_fighter_equipment_3_short:1 "DB Dragon Hunter III"
+cv_fighter_equipment_3:0 "Barge Hunter Dragon III"
+cv_fighter_equipment_3_short:1 "DB Hunter Dragon III"
 cv_fighter_equipment_3_desc:0 "The ultimate aerial predator, its unmatched speed and weaponry turn the tide of battle. No foe can challenge its rule over the skies."  
 
  
