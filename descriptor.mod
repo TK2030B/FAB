@@ -8,6 +8,6 @@ tags={
 	"Events"
 	"Graphics"
 }
-name="Fire & Blood - A Game of Thrones Mod"
+name="Game of Thrones Legacy"
 picture="thumbnail.png"
 supported_version="1.16.0"

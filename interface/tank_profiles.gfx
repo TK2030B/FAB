@@ -1,0 +1,646 @@
+spriteTypes = {
+
+	spriteType = {
+		name = GFX_generic_light_AAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_AAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ABA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ABA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ABB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ABB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_AAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_AAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ABC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ABC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ACA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ACA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ACB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ACB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ACC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_ACC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BBA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BBA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BAA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BAA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BBC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BBC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BCA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BCA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BCB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BCB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BCC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_light_BCC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_light.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_AAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_AAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_AAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_AAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ABA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ABA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ABB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ABB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ABC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ABC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ACA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ACA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ACB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ACB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ACC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_ACC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BBA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BBA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BAA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BAA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BBC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BBC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BCA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BCA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BCB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BCB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BCC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_BCC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CBA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CBA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CBB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CBB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CBC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CBC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CCA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_medium_CCA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CCB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_medium_CCB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CAA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_medium_CAA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_medium.dds
+	}
+
+
+	spriteType = {
+		name = GFX_generic_heavy_AAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_AAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_AAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_AAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ABA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ABA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ABB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ABB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ABC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ABC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ACA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ACA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ACB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ACB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ACC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_ACC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BBA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BBA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BAA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BAA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BBC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BBC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BCA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BCA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BCB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BCB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BCC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_BCC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CAA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CAA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CCB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CCB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CCA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CCA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CBB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CBB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CBC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CBC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CBA
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CBA_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CAC
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CAC_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+	
+	spriteType = {
+		name = GFX_generic_heavy_CAB
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+	spriteType = {
+		name = GFX_generic_heavy_CAB_camo
+		texturefile = gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy.dds
+	}
+
+
+
+}
