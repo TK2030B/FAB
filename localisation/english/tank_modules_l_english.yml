@@ -76,38 +76,42 @@ tank_interleaved_suspension_desc:0 "Specially crafted for battle, these horsesho
  tank_half_track_suspension:0 "Bronze Horseshoes"
  tank_half_track_suspension_desc:0 "Bronze horseshoes provide better durability and grip than bare hooves, improving movement across rough terrain, though they remain a costly investment."
 
-tank_light_one_man_tank_turret:0 "Basic Saddle"
+tank_light_one_man_tank_turret:0 "Basic Saddle"  
 tank_light_one_man_tank_turret_desc:0 "A simple saddle providing minimal support, requiring the rider to manage balance, control, and combat tasks all at once."  
 
-tank_light_two_man_tank_turret:0 "Reinforced Saddle"
-tank_light_two_man_tank_turret_desc:0 "A sturdier saddle designed for better stability, allowing the rider to focus more on combat while another assists with navigation and control."  
+tank_light_two_man_tank_turret:0 "Reinforced Saddle"  
+tank_light_two_man_tank_turret_desc:0 "A sturdier saddle designed for better stability, allowing the rider to focus more on combat while maintaining control of their mount."  
 
-tank_light_three_man_tank_turret:0 "War Saddle"
-tank_light_three_man_tank_turret_desc:0 "A well-crafted saddle with extra reinforcement and attachments, allowing the rider to focus on combat while support members manage other tasks like reloading and battlefield awareness."  
+tank_light_three_man_tank_turret:0 "War Saddle"  
+tank_light_three_man_tank_turret_desc:0 "A well-crafted saddle with extra reinforcement and attachments, improving stability and allowing the rider to carry additional weapons or supplies for extended engagements."  
 
-tank_light_fixed_superstructure_turret:0 "Light Howdah"
+tank_light_fixed_superstructure_turret:0 "Light Howdah"  
 tank_light_fixed_superstructure_turret_desc:0 "A small, fixed platform mounted on the beast’s back, offering greater stability for ranged attacks but reducing mobility and flexibility in combat."  
+ 
+tank_medium_one_man_tank_turret:0 "Basic Saddle"
+tank_medium_one_man_tank_turret_desc:0 "A simple saddle providing minimal support, requiring the knight to balance, control the steed, and fight all at once."  
 
- 
- tank_medium_one_man_tank_turret:0 "One Man Turret"
- tank_medium_one_man_tank_turret_desc:0 "A small turret barely large enough to hold a single crew member, who is tasked with aiming and loading the main armament as well as keeping watch for targets and threats."
- tank_medium_two_man_tank_turret:0 "Two Man Turret"
- tank_medium_two_man_tank_turret_desc:0 "A turret that allows for two crew members to share the work of operating the armament and observing the situation. It still does not allow for an effective division of labor amongst the crew."
- tank_medium_three_man_tank_turret:0 "Three Man Turret"
- tank_medium_three_man_tank_turret_desc:0 "A turret big enough for the three crew members to divide the tasks of loading and aiming the main armament as well as staying aware of the situation around them."
- tank_medium_fixed_superstructure_turret:1 "Medium Fixed Superstructure"
- tank_medium_fixed_superstructure_turret_desc:0 "A fixed superstructure only allows the main armament to traverse in a small arc without turning the entire vehicle. However, it allows the vehicle to mount a bigger armament while being overall of smaller size, making the vehicle perfect for ambushes."
- 
- tank_heavy_two_man_tank_turret:0 "Two Man Turret"
- tank_heavy_two_man_tank_turret_desc:0 "A turret that allows for two crew members to share the work of operating the armament and observing the situation. It still does not allow for an effective division of labor amongst the crew."
- tank_heavy_three_man_tank_turret:0 "Three Man Turret"
- tank_heavy_three_man_tank_turret_desc:0 "A turret big enough for the three crew members to divide the tasks of loading and aiming the main armament as well as staying aware of the situation around them."
- tank_heavy_fixed_superstructure_turret:1 "Heavy Fixed Superstructure"
- tank_heavy_fixed_superstructure_turret_desc:0 "A fixed superstructure only allows the main armament to traverse in a small arc without turning the entire vehicle. However, it allows the vehicle to mount a bigger armament while being overall of smaller size, making the vehicle perfect for ambushes."
- 
- tank_modern_tank_turret:0 "Modern Turret"
- tank_modern_tank_turret_desc:0 "A well-laid out turret allows three crew members to efficiently operate the main armament and keep track of their surroundings."
- 
+tank_medium_two_man_tank_turret:0 "Reinforced Saddle"
+tank_medium_two_man_tank_turret_desc:0 "A sturdier saddle with improved support, allowing the knight to focus more on combat while maintaining better control over the steed."  
+
+tank_medium_three_man_tank_turret:0 "War Saddle"
+tank_medium_three_man_tank_turret_desc:0 "A specialized saddle designed for battle, featuring additional reinforcements and attachments to help the knight fight more effectively while keeping control over the steed."  
+
+tank_medium_fixed_superstructure_turret:0 "Medium Howdah"
+tank_medium_fixed_superstructure_turret_desc:0 "A fixed battle platform attached to the steed, providing greater stability for heavier weapons at the cost of maneuverability."  
+
+tank_heavy_two_man_tank_turret:0 "Reinforced War Saddle"
+tank_heavy_two_man_tank_turret_desc:0 "A heavily reinforced saddle designed for paladins, offering superior stability and support to help them manage both their weapon and their steed in combat."  
+
+tank_heavy_three_man_tank_turret:0 "Command Saddle"
+tank_heavy_three_man_tank_turret_desc:0 "A masterfully crafted saddle featuring additional support, allowing the paladin to wield powerful weapons more effectively while maintaining complete control over their steed."  
+
+tank_heavy_fixed_superstructure_turret:0 "Heavy Howdah"
+tank_heavy_fixed_superstructure_turret_desc:0 "A heavily reinforced battle platform mounted onto the steed, allowing for the use of powerful weapons while reducing agility and flexibility."  
+
+tank_modern_tank_turret:0 "Grand War Saddle"  
+tank_modern_tank_turret_desc:0 "A finely crafted and reinforced saddle designed for elite knights, offering superior stability and control in battle, allowing for precise strikes and maximum battlefield awareness."  
+
  tank_super_heavy_four_man_tank_turret:0 "Four Man Turret"
  tank_super_heavy_four_man_tank_turret_desc:0 "A massive turret with additional space for a second loader to service the main gun."
  tank_super_heavy_three_man_tank_turret:0 "Three Man Turret"
@@ -160,12 +164,15 @@ tank_light_fixed_superstructure_turret_desc:0 "A small, fixed platform mounted o
  tank_close_support_gun:0 "Close Support Gun"
  tank_close_support_gun_desc:0 "A small weapon designed to fire high-explosive shells against enemy field fortifications to help the infantry on the attack. While capable of engaging tanks, its short barrel and limited ammunition make it unable to deal with more powerful enemy tanks."
  
- tank_radio_1:0 "Basic Radio"
- tank_radio_1_desc:0 "A basic two-way radio allows tanks to coordinate their tactical maneuvers on a small scale."
- tank_radio_2:0 "Improved Radio"
- tank_radio_2_desc:0 "An improved radio allows commanders effective control over larger formations of tanks, permitting large-scale operational maneuvers."
- tank_radio_3:0 "Advanced Radio"
- tank_radio_3_desc:0 "With a more powerful transmitter and better reception, this radio allows communications over dozens of kilometers and in the face of enemy jamming."
+tank_radio_1:0 "Basic Warhorn"  
+tank_radio_1_desc:0 "A simple horn used to signal nearby allies, allowing for basic battlefield coordination in small skirmishes."  
+
+tank_radio_2:0 "Improved Warhorn"  
+tank_radio_2_desc:0 "A larger, more refined warhorn with distinct calls, enabling commanders to issue clear orders and coordinate larger formations effectively."  
+
+tank_radio_3:0 "Advanced Warhorn"  
+tank_radio_3_desc:0 "A masterfully crafted warhorn capable of carrying signals across vast distances, ensuring clear communication even amidst the chaos of battle."  
+
  
  amphibious_drive:0 "Amphibious Training"
  amphibious_drive_desc:0 "Specialized training and equipment allow our cavalry to traverse water obstacles with ease. By using buoyant padding and carefully designed harnesses, our squires and knights can cross rivers or storm beaches without losing their mobility."  
@@ -490,24 +497,24 @@ land_cruiser_chassis_desc:0 "A gargantuan mount, heavily armored and designed to
 land_cruiser_chassis_1:0 "War Mammoth Mount"
 
 
- EQ_MOD_SLOT_lc_main_armament_slot_TITLE: "Main Armament"
- EQ_MOD_SLOT_lc_secondary_armament_slot_TITLE: "Secondary Armament"
- EQ_MOD_SLOT_lc_additional_armament_slot_1_TITLE: "Additional Armament"
- EQ_MOD_SLOT_lc_additional_armament_slot_2_TITLE: "Additional Armament"
- EQ_MOD_SLOT_lc_additional_armament_slot_3_TITLE: "Additional Armament"
- EQ_MOD_SLOT_lc_additional_armament_slot_4_TITLE: "Additional Armament"
+ EQ_MOD_SLOT_lc_main_armament_slot_TITLE: "Main Weapon"
+ EQ_MOD_SLOT_lc_secondary_armament_slot_TITLE: "Secondary Weapon"
+ EQ_MOD_SLOT_lc_additional_armament_slot_1_TITLE: "Additional Weapons"
+ EQ_MOD_SLOT_lc_additional_armament_slot_2_TITLE: "Additional Weapons"
+ EQ_MOD_SLOT_lc_additional_armament_slot_3_TITLE: "Additional Weapons"
+ EQ_MOD_SLOT_lc_additional_armament_slot_4_TITLE: "Additional Weapons"
  EQ_MOD_SLOT_lc_special_features_slot_1_TITLE: "Special Features"
  EQ_MOD_SLOT_lc_special_features_slot_2_TITLE: "Special Features"
  EQ_MOD_SLOT_lc_special_features_slot_3_TITLE: "Special Features"
 
- EQ_MOD_CAT_lc_main_armament_TITLE: "Main Armament"
- EQ_MOD_CAT_lc_secondary_armament_TITLE: "Secondary Armament"
- EQ_MOD_CAT_lc_additional_armament_TITLE: "Additional Armament"
+ EQ_MOD_CAT_lc_main_armament_TITLE: "Main Weapon"
+ EQ_MOD_CAT_lc_secondary_armament_TITLE: "Secondary Weapon"
+ EQ_MOD_CAT_lc_additional_armament_TITLE: "Additional Weapons"
  EQ_MOD_CAT_lc_special_features_TITLE: "Special Features"
- EQ_MOD_CAT_lc_radio_module_TITLE: "Radio Systems"
+ EQ_MOD_CAT_lc_radio_module_TITLE: "Communications"
  EQ_MOD_CAT_lc_structural_features_TITLE: "Structural Features"
  EQ_MOD_CAT_lc_external_features_TITLE: "External Features"
- EQ_MOD_CAT_lc_aerial_deployment_TITLE: "Aerial Deployment"
+ EQ_MOD_CAT_lc_aerial_deployment_TITLE: "Draconic Deployment"
 
  lc_heavy_naval_guns: "Heavy Naval Guns"
  lc_heavy_naval_guns_desc: "The standard main armament for such a massive armored vehicle, these powerful naval-grade cannons are adapted for direct confrontation, delivering devastating firepower against both armored and fortified targets."

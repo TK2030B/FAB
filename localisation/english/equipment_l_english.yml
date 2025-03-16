@@ -976,10 +976,13 @@ modern_tank_aa_equipment_1_desc:0 "The deadliest warriors in the realm, wielding
  tank_reliability_upgrade_desc:1 "Improving reliability leads to less broken down equipment you'll need to replace."
  mech_cost_upgrade:0 "Production Cost"
  mech_cost_upgrade_desc:0 "Optimizations to the design and substitution of less important materials allow the vehicle to be built faster, but suffering slightly more defects."
- tank_engine_upgrade:0 "Engine"
- tank_engine_upgrade_desc:0 "More mobility give tactical and strategic advantages, as well as allowing more armor without being slowed down significantly."
- ac_engine_upgrade:0 "Engine"
- ac_engine_upgrade_desc:0 "More mobility give tactical and strategic advantages, as well as allowing more armor without being slowed down significantly."
+ 
+ tank_engine_upgrade:0 "Breeding"  
+ tank_engine_upgrade_desc:0 "By carefully selecting the strongest and fastest steeds, we can enhance their speed and endurance, allowing them to carry more armor without being slowed down significantly."  
+
+ ac_engine_upgrade:0 "Breeding"  
+ ac_engine_upgrade_desc:0 "Through generations of breeding and conditioning, our mounts become swifter and more resilient, granting us greater tactical and strategic mobility."  
+
  ship_gun_upgrade:0 "Gun"
  ship_gun_upgrade_desc:0 "It's important to have a gun that keep up with enemy armor strength and can penetrate."
  ship_torpedo_upgrade:0 "Torpedo"
@@ -1030,6 +1033,7 @@ modern_tank_aa_equipment_1_desc:0 "The deadliest warriors in the realm, wielding
  plane_cas_upgrade_desc:0 "Improved weapons for attacking ground targets"
  plane_armor_upgrade:0 "Armor"
  plane_armor_upgrade_desc:0 "Self-sealing fuel tanks and armor plates improve survivability."
+ 
  ACTUAL_EQUIPMENT_HEADER:0 "\n\nEquipment:\n"
  ACTUAL_EQUIPMENT_ENTRY:0 " - $NUM|Y0$ of $NAME|Y$"
  ACTUAL_EQUIPMENT_ENTRY_STRING:0 " - $NUM|Y$ of $NAME|Y$"
