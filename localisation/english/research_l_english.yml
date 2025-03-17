@@ -1354,7 +1354,7 @@ mtg_tank_landing_craft_desc:0 "A reinforced landing craft capable of ferrying si
  sp_rockets_improved_rocket_bomber: "$improved_rocket_propelled_bombs$"
  sp_rockets_improved_rocket_bomber_desc: "$improved_rocket_propelled_bombs_desc$"
 
- sp_armored_advanced_flamethrower_tech: "Flaming Arrows"
+ sp_armored_advanced_flamethrower_tech: "Wildfire Arrows"
  sp_armored_advanced_flamethrower_tech_desc: "$advanced_flamethrower_desc$"
  sp_armored_lc_high_impact_obliterator_cannon_tech: "High-Impact Anti-Beast Ballista"
  sp_armored_lc_high_impact_obliterator_cannon_tech_desc: "$lc_high_impact_obliterator_cannon_desc$"

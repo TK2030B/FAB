@@ -19,9 +19,9 @@
  EQ_MOD_CAT_tank_small_main_armament_TITLE:0 "Squire Weapons"
  EQ_MOD_CAT_tank_medium_main_armament_TITLE:0 "Knight Weapons"
  EQ_MOD_CAT_tank_heavy_main_armament_TITLE:0 "Paladin Weapons"
- EQ_MOD_CAT_tank_flamethrower_TITLE:0 "Flame Archery"
+ EQ_MOD_CAT_tank_flamethrower_TITLE:0 "Wildfire Archery"
  EQ_MOD_CAT_tank_super_heavy_main_armament_TITLE:0 "Elephant Weapons"
- EQ_MOD_CAT_tank_special_module_TITLE:0 "Special Modules"
+ EQ_MOD_CAT_tank_special_module_TITLE:0 "Special Equipment"
  EQ_MOD_CAT_tank_radio_module_TITLE:0 "Communications"
  EQ_MOD_CAT_tank_secondary_turret_TITLE:0 "Additional Equipment"
  EQ_MOD_CAT_tank_non_tracked_suspension_type_TITLE:0 "Crude Horseshoes"
@@ -100,10 +100,10 @@ tank_medium_three_man_tank_turret_desc:0 "A specialized saddle designed for batt
 tank_medium_fixed_superstructure_turret:0 "Medium Howdah"
 tank_medium_fixed_superstructure_turret_desc:0 "A fixed battle platform attached to the steed, providing greater stability for heavier weapons at the cost of maneuverability."  
 
-tank_heavy_two_man_tank_turret:0 "Reinforced War Saddle"
+tank_heavy_two_man_tank_turret:0 "Reinforced Saddle"
 tank_heavy_two_man_tank_turret_desc:0 "A heavily reinforced saddle designed for paladins, offering superior stability and support to help them manage both their weapon and their steed in combat."  
 
-tank_heavy_three_man_tank_turret:0 "Command Saddle"
+tank_heavy_three_man_tank_turret:0 "War Saddle"
 tank_heavy_three_man_tank_turret_desc:0 "A masterfully crafted saddle featuring additional support, allowing the paladin to wield powerful weapons more effectively while maintaining complete control over their steed."  
 
 tank_heavy_fixed_superstructure_turret:0 "Heavy Howdah"
@@ -112,57 +112,75 @@ tank_heavy_fixed_superstructure_turret_desc:0 "A heavily reinforced battle platf
 tank_modern_tank_turret:0 "Grand War Saddle"  
 tank_modern_tank_turret_desc:0 "A finely crafted and reinforced saddle designed for elite knights, offering superior stability and control in battle, allowing for precise strikes and maximum battlefield awareness."  
 
- tank_super_heavy_four_man_tank_turret:0 "Four Man Turret"
- tank_super_heavy_four_man_tank_turret_desc:0 "A massive turret with additional space for a second loader to service the main gun."
- tank_super_heavy_three_man_tank_turret:0 "Three Man Turret"
- tank_super_heavy_three_man_tank_turret_desc:0 "A turret big enough for the three crew members to divide the tasks of loading and aiming the main armament as well as staying aware of the situation around them."
+tank_super_heavy_four_man_tank_turret:0 "War Elephant Tower"
+tank_super_heavy_four_man_tank_turret_desc:0 "A massive, reinforced tower mounted atop the war elephant, providing space for additional warriors and archers to support combat operations."
+
+tank_super_heavy_three_man_tank_turret:0 "War Elephant Platform"
+tank_super_heavy_three_man_tank_turret_desc:0 "A large platform secured to the elephant’s back, allowing a knight to maintain battlefield awareness while directing the beast and engaging foes."
+
+tank_heavy_machine_gun:0 "Two-Handed Sword"
+tank_heavy_machine_gun_desc:0 "A mighty weapon, well-suited for cutting down foot soldiers with sweeping blows. While devastating against lightly armored foes, it struggles against heavily armored war beasts."
+
+tank_auto_cannon:0 "Short Sword"
+tank_auto_cannon_desc:0 "A fast and agile weapon, ideal for slashing lightly armored foes. While it can cut through lesser defenses with ease, it struggles against war beasts and heavily armored opponents."
+
+tank_auto_cannon_2:0 "Improved Short Sword"
+tank_auto_cannon_2_desc:0 "A refined version of the short sword, crafted with superior balance and sharper edges, allowing for more effective strikes against lightly armored enemies."
+
+tank_anti_air_cannon:0 "Dragonbane Lance"
+tank_anti_air_cannon_desc:0 "A specialized lance designed to strike at airborne threats, effective at keeping dragons at bay."
+tank_anti_air_cannon_2:0 "Improved Dragonbane Lance"
+tank_anti_air_cannon_2_desc:0 "An enhanced version of the Dragonbane Lance, with greater reach and precision."
+tank_anti_air_cannon_3:0 "Advanced Dragonbane Lance"
+tank_anti_air_cannon_3_desc:0 "A master-crafted Dragonbane Lance, offering unparalleled ability to strike down aerial threats."
+
+tank_medium_howitzer:0 "Knight's Longbow"
+tank_medium_howitzer_desc:0 "A powerful longbow, wielded by knights to provide indirect fire support. Its arrows can rain down upon enemy formations, though it lacks effectiveness against armored war beasts."
+
+tank_medium_howitzer_2:0 "Improved Knight's Longbow"
+tank_medium_howitzer_2_desc:0 "A sturdier and more refined longbow, crafted for greater range and accuracy, enhancing its effectiveness against massed infantry."
+
+tank_heavy_howitzer:0 "Paladin's Greatbow"
+tank_heavy_howitzer_desc:0 "A massive war bow, capable of launching arrows with tremendous force. Its sheer power makes it ideal for devastating enemy formations, though it is cumbersome to use."
+
+tank_small_cannon:0 "Dagger"
+tank_small_cannon_desc:0 "A light and nimble weapon, useful in close quarters and for quick strikes. While versatile, its small size limits its effectiveness against armored opponents."
+
+tank_small_cannon_2:0 "Improved Dagger"
+tank_small_cannon_2_desc:0 "A finely crafted dagger with a sharper edge, allowing for more precise and lethal strikes in battle."
+
+tank_medium_cannon:0 "Knight's Longsword"
+tank_medium_cannon_desc:0 "The weapon of choice for knights, offering a balance of cutting and thrusting capabilities. It is a reliable weapon for any engagement, though it does not excel in specialized combat roles."
+
+tank_medium_cannon_2:0 "Improved Knight's Longsword"
+tank_medium_cannon_2_desc:0 "A finely forged longsword, boasting superior craftsmanship and balance, making it a deadly and versatile weapon on the battlefield."
+
+tank_heavy_cannon:0 "Paladin’s Longsword"
+tank_heavy_cannon_desc:0 "A massive sword wielded by paladins, designed for crushing blows against both infantry and armored foes. Its size and weight make it unwieldy but devastating in skilled hands."
+
+tank_heavy_cannon_2:0 "Improved Paladin’s Longsword"
+tank_heavy_cannon_2_desc:0 "A reforged and tempered longsword, offering superior cutting power and resilience against even the toughest armor."
+
+tank_heavy_cannon_3:0 "Advanced Paladin’s Longsword"
+tank_heavy_cannon_3_desc:0 "A legendary blade, imbued with the finest craftsmanship and enchantments, capable of cleaving through enemy ranks with ease."
+
+tank_high_velocity_cannon:0 "Basic Lance"
+tank_high_velocity_cannon_desc:0 "A lance designed for piercing enemy armor and dealing devastating blows to war beasts. While highly effective in direct charges, it is less useful against foot soldiers."
+
+tank_high_velocity_cannon_2:0 "Improved Lance"
+tank_high_velocity_cannon_2_desc:0 "A more refined and reinforced lance, increasing its durability and penetration power against armored foes."
+
+tank_high_velocity_cannon_3:0 "Advanced Lance"
+tank_high_velocity_cannon_3_desc:0 "A masterwork lance, crafted with precision to maximize armor-piercing potential, making it the pinnacle of anti-war beast weaponry."
+
+tank_close_support_gun:0 "Crossbow"
+tank_close_support_gun_desc:0 "A heavy crossbow designed to fire powerful bolts capable of breaking enemy fortifications and disrupting formations. While highly effective against entrenched foes, its slow reload speed makes it less suitable for direct combat against war beasts."
+
+
+tank_super_heavy_cannon:0 "War Elephant Ballista"
+tank_super_heavy_cannon_desc:0 "A massive siege weapon mounted upon a war elephant, capable of launching enormous bolts with unparalleled force. There are few enemies that can withstand its destructive power."
+
  
- tank_heavy_machine_gun:0 "Heavy Machine Gun"
- tank_heavy_machine_gun_desc:0 "A machine gun provides decent anti-infantry capability for a low cost. Even with special armor-piercing ammunition, its anti-armor performance leaves a lot to be desired."
- flamethrower:0 "Flamethrower"
- flamethrower_desc:0 "A device to project a stream of burning liquid. While very useful in urban combat and against fortifications, it offers no anti-armor capability and has to be used by a specially-trained crew in a separate unit to be effective."
- advanced_flamethrower:0 "Flaming Arrows"
- advanced_flamethrower_desc:0 "By refining the use of fire in warfare, we have developed specialized flaming arrows that can set enemy fortifications, siege equipment, and camps ablaze. These devastating projectiles are ideal for weakening enemy morale and breaking defensive lines."
- tank_auto_cannon:0 "Automatic Cannon"
- tank_auto_cannon_desc:0 "Adapted from a fast-firing anti-air gun, this automatic cannon can lay down a hail of fire that is devastating to soft targets. The small caliber does limit its anti-armor performance."
- tank_auto_cannon_2:0 "Improved Automatic Cannon"
- tank_auto_cannon_2_desc:0 "Adapted from a fast-firing anti-air gun, this automatic cannon can lay down a hail of fire that is devastating to soft targets. The small caliber does limit its anti-armor performance."
- tank_anti_air_cannon:0 "Basic Anti-Air Gun"
- tank_anti_air_cannon_desc:0 "A fast-firing automatic gun designed to engage aircraft. It has limited potential as a fire-support weapon against ground targets."
- tank_anti_air_cannon_2:0 "Improved Anti-Air Gun"
- tank_anti_air_cannon_2_desc:0 "A fast-firing automatic gun designed to engage aircraft. It has limited potential as a fire-support weapon against ground targets."
- tank_anti_air_cannon_3:0 "Advanced Anti-Air Gun"
- tank_anti_air_cannon_3_desc:0 "A fast-firing automatic gun designed to engage aircraft. It has limited potential as a fire-support weapon against ground targets."
- tank_medium_howitzer:0 "Medium Howitzer"
- tank_medium_howitzer_desc:0 "A medium field howitzer adapted to be mounted in a vehicle. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
- tank_medium_howitzer_2:0 "Improved Medium Howitzer"
- tank_medium_howitzer_2_desc:0 "A medium field howitzer adapted to be mounted in a vehicle. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
- tank_heavy_howitzer:0 "Heavy Howitzer"
- tank_heavy_howitzer_desc:0 "A heavy field howitzer adapted to be mounted in a vehicle. Its primary purpose is indirect fire support against soft targets, but it can be fired directly at a target if necessary. Carrying only a small amount of armor-percing ammunition, it is ill-suited for anti-tank work."
- tank_small_cannon:0 "Small Cannon"
- tank_small_cannon_desc:0 "A small and cheap cannon, able to fire both anti-infantry and anti-armor rounds. Its small caliber limits its usefulness."
- tank_small_cannon_2:0 "Improved Small Cannon"
- tank_small_cannon_2_desc:0 "A small and cheap cannon, able to fire both anti-infantry and anti-armor rounds. Its small caliber limits its usefulness."
- tank_medium_cannon:0 "Medium Cannon"
- tank_medium_cannon_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility."
- tank_medium_cannon_2:0 "Improved Medium Cannon"
- tank_medium_cannon_2_desc:0 "A general-purpose weapon well suited to a wide variety of tasks. It excells at neither anti-infantry nor anti-tank work, but it provides a vehicle with a lot of flexibility."
- tank_high_velocity_cannon:0 "Basic High-Velocity Cannon"
- tank_high_velocity_cannon_desc:0 "A cannon specifically designed to achieve a high muzzle velocity. Using specialized ammunition, it has superb anti-armor characteristics, but its performance against soft targets suffers."
- tank_high_velocity_cannon_2:0 "Improved High-Velocity Cannon"
- tank_high_velocity_cannon_2_desc:0 "A cannon specifically designed to achieve a high muzzle velocity. Using specialized ammunition, it has superb anti-armor characteristics, but its performance against soft targets suffers."
- tank_high_velocity_cannon_3:0 "Advanced High-Velocity Cannon"
- tank_high_velocity_cannon_3_desc:0 "A cannon specifically designed to achieve a high muzzle velocity. Using specialized ammunition, it has superb anti-armor characteristics, but its performance against soft targets suffers."
- tank_heavy_cannon:0 "Basic Heavy Cannon"
- tank_heavy_cannon_desc:0 "A weapon that can fire a large shell. With exceptional armor penetration and decent performance against soft targets, its biggest drawbacks are the sheer size and cost, which make it too unwieldly to be mounted in most vehicles not specifically designed to carry it."
- tank_heavy_cannon_2:0 "Improved Heavy Cannon"
- tank_heavy_cannon_2_desc:0 "A weapon that can fire a large shell. With exceptional armor penetration and decent performance against soft targets, its biggest drawbacks are the sheer size and cost, which make it too unwieldly to be mounted in most vehicles not specifically designed to carry it."
- tank_heavy_cannon_3:1 "Advanced Heavy Cannon"
- tank_heavy_cannon_3_desc:0 "A weapon that can fire a large shell. With exceptional armor penetration and decent performance against soft targets, its biggest drawbacks are the sheer size and cost, which make it too unwieldly to be mounted in most vehicles not specifically designed to carry it."
- tank_super_heavy_cannon:0 "Super-Heavy Cannon"
- tank_super_heavy_cannon_desc:0 "An absurdly large weapon with unmatched performance. There are very few things that this weapon can not destroy, and none of them have any business shooting at a tank."
- tank_close_support_gun:0 "Close Support Gun"
- tank_close_support_gun_desc:0 "A small weapon designed to fire high-explosive shells against enemy field fortifications to help the infantry on the attack. While capable of engaging tanks, its short barrel and limited ammunition make it unable to deal with more powerful enemy tanks."
  
 tank_radio_1:0 "Basic Warhorn"  
 tank_radio_1_desc:0 "A simple horn used to signal nearby allies, allowing for basic battlefield coordination in small skirmishes."  
@@ -173,16 +191,30 @@ tank_radio_2_desc:0 "A larger, more refined warhorn with distinct calls, enablin
 tank_radio_3:0 "Advanced Warhorn"  
 tank_radio_3_desc:0 "A masterfully crafted warhorn capable of carrying signals across vast distances, ensuring clear communication even amidst the chaos of battle."  
 
- 
+secondary_turret_hmg:0 "Two-Handed Sword (Secondary)"
+secondary_turret_hmg_desc:0 "A massive two-handed sword carried as a secondary weapon. Though not always at the ready, it provides devastating power when drawn in the heat of battle. However, its size and weight limit its versatility."  
+
+secondary_turret_small_cannon:0 "Dagger (Secondary)"
+secondary_turret_small_cannon_desc:0 "A small but deadly blade, ideal for quick strikes and close encounters. Though not as powerful as larger weapons, its speed and accessibility make it a reliable choice in tight situations."  
+
+secondary_turret_close_support_gun:0 "Crossbow (Auxiliary)"
+secondary_turret_close_support_gun_desc:0 "A smaller crossbow used as an auxiliary weapon, allowing knights to engage additional targets while on the attack. Though its limited arc of fire reduces its overall effectiveness, it provides valuable support in battle."  
+
+flamethrower:0 "Bow (Wildfire)"  
+flamethrower_desc:0 "A bow designed to launch wildfire arrows, setting enemy positions and fortifications ablaze. It is highly effective against unarmored targets but lacks armor-piercing capabilities."  
+
+advanced_flamethrower:0 "Advanced Bow (Wildfire)"  
+advanced_flamethrower_desc:0 "An improved bow using stronger materials, capable of launching more accurate and devastating wildfire arrows to wreak havoc on enemy fortifications and morale."  
+
+tank_rocket_launcher:0 "Bow (Flaming)"  
+tank_rocket_launcher_desc:0 "A bow designed for launching flaming arrows in rapid succession. While highly effective against enemy formations and fortifications, it struggles against heavily armored targets."  
+
+tank_rocket_launcher_2:0 "Improved Bow (Flaming)"  
+tank_rocket_launcher_2_desc:0 "A reinforced bow using stronger materials, allowing for improved accuracy and an increased rate of fire with flaming arrows, making it even more devastating against enemy positions."  
+
+
  amphibious_drive:0 "Amphibious Training"
  amphibious_drive_desc:0 "Specialized training and equipment allow our cavalry to traverse water obstacles with ease. By using buoyant padding and carefully designed harnesses, our squires and knights can cross rivers or storm beaches without losing their mobility."  
-
- secondary_turret_hmg:1 "Heavy Machine Gun"
- secondary_turret_hmg_desc:0 "A heavy machine gun in a secondary turret. The placement of the turret limits its arc of fire, lowering the gun's overall effectiveness, but it does allow the tank to engage more targets. This is particularly useful when on the attack."
- secondary_turret_small_cannon:1 "Small Cannon"
- secondary_turret_small_cannon_desc:0 "A small cannon in a secondary turret. The placement of the turret limits its arc of fire, lowering the gun's overall effectiveness, but it does allow the tank to engage more targets. This is particularly useful when on the attack."
- secondary_turret_close_support_gun:1 "Close Support Gun"
- secondary_turret_close_support_gun_desc:0 "A close support gun in a secondary turret. The placement of the turret limits its arc of fire, lowering the gun's overall effectiveness, but it does allow the tank to engage more targets. This is particularly useful when on the attack."
  
  sloped_armor:0 "Sloped Armor"
  sloped_armor_desc:0 "Armor placed at an angle to an incoming shell has a much greater effective thickness than the same amount of armor placed vertically. It also increases the chance that the shell will simply bounce off harmlessly. However, it requires the entire tank to be designed around it, making the vehicle more difficult to assemble."
@@ -194,6 +226,20 @@ tank_radio_3_desc:0 "A masterfully crafted warhorn capable of carrying signals a
  extra_ammo_storage_desc:0 "Additional racks of ready ammunition allow the tank to stay in the fight much longer without resupply. However, if the armor is penetrated, the results are likely to be catastrophic. This is particularly problematic when attacking."
  wet_ammo_storage:0 "Wet Ammunition Storage"
  wet_ammo_storage_desc:0 "Water jackets added to ammunition racks dramatically reduce the risk of the ammunition exploding after the tank is hit, which is greatly appreciated by the crews."
+
+ squeezebore_adaptor:0 "Squeeze-bore Adaptor"
+ squeezebore_adaptor_desc:0 "A special adaptor at the end of the gun lowers the diameter of the barrel and squeezes a shell down to a smaller caliber. This significantly increases muzzle velocity and thereby the penetration power of the gun. It does require special ammunition made from rare materials."
+ armor_skirts:0 "Armor Skirts"
+ armor_skirts_desc:0 "A set of thin metal plates mounted on the side of the vehicle, giving additional protection against anti-tank rifles and shaped charges."
+ dozer_blade:0 "Dozer Blade"
+ dozer_blade_desc:0 "A dozer blade allows the vehicle to quickly build a fighting position in the field without the support of engineers."
+ auto_loader:0 "Auto Loader"
+ auto_loader_desc:0 "An auomatic mechanism that loads shells and allows the tank to keep a high rate of fire for a prolonged period of time."
+ easy_maintenance:0 "Easy Maintenance"
+ easy_maintenance_desc:0 "Hatches around the vehicle give access to many different components of the vehicle, and allow the crew to perform even complex maintenance fairly easily."
+ additional_machine_guns:0 "Additional Machineguns"
+ additional_machine_guns_desc:0 "A set of machineguns in sponsons and special pintle mounts give the vehicle improved defense against close-in infantry attack."
+ 
  armor_tech_1_tt:0 "Enables Armor Upgrade values of 5 and above."
  armor_tech_2_tt:0 "Enables Armor Upgrade values of 10 and above."
  armor_tech_3_tt:0 "Enables Armor Upgrade values of 15 and above."
@@ -437,23 +483,9 @@ amphibious_tank_chassis_1:0 "Amphibious Mount"
  DESIGNER_CHASSIS_BASE:0 "Chassis: "
  DESIGNER_FROM_MODULES:0 "Modules: "
  DESIGNER_UNSAVED_CHANGES:0 "Unsaved changes: "
- tank_rocket_launcher:0 "Rocket Launcher"
- tank_rocket_launcher_desc:0 "A multi-barrelled launcher for unguided, high-explosive rockets. The high volume of fire gives it excellent performance against soft targets, but even direct hits do little against armored targets."
- tank_rocket_launcher_2:0 "Improved Rocket Launcher"
- tank_rocket_launcher_2_desc:0 "While there are a number of improvements to accuracy, the main advantage of this improved rocket launcher is that it can hold more rockets to fire at the enemy."
+ 
+ 
 
- squeezebore_adaptor:0 "Squeeze-bore Adaptor"
- squeezebore_adaptor_desc:0 "A special adaptor at the end of the gun lowers the diameter of the barrel and squeezes a shell down to a smaller caliber. This significantly increases muzzle velocity and thereby the penetration power of the gun. It does require special ammunition made from rare materials."
- armor_skirts:0 "Armor Skirts"
- armor_skirts_desc:0 "A set of thin metal plates mounted on the side of the vehicle, giving additional protection against anti-tank rifles and shaped charges."
- dozer_blade:0 "Dozer Blade"
- dozer_blade_desc:0 "A dozer blade allows the vehicle to quickly build a fighting position in the field without the support of engineers."
- auto_loader:0 "Auto Loader"
- auto_loader_desc:0 "An auomatic mechanism that loads shells and allows the tank to keep a high rate of fire for a prolonged period of time."
- easy_maintenance:0 "Easy Maintenance"
- easy_maintenance_desc:0 "Hatches around the vehicle give access to many different components of the vehicle, and allow the crew to perform even complex maintenance fairly easily."
- additional_machine_guns:0 "Additional Machineguns"
- additional_machine_guns_desc:0 "A set of machineguns in sponsons and special pintle mounts give the vehicle improved defense against close-in infantry attack."
 
  light_tank_equipment_0:0 "NO Squire Mount"
  medium_tank_equipment_0:0 "NO Knight Mount"
@@ -473,14 +505,15 @@ amphibious_tank_chassis_1:0 "Amphibious Mount"
 
  EQUIPMENT_AMPHIBIOUS:0 "Amphibious Mount"
 
-light_flame_tank:0 "Squire Flame Archer Company"
-light_flame_tank_desc:0 "A company of light-mounted archers, equipped with flaming arrows to provide support in the assault of cities and fortifications."
+light_flame_tank:0 "Squire Wildfire Archers"  
+light_flame_tank_desc:0 "A company of light-mounted archers, equipped with wildfire arrows to ignite enemy positions and fortifications, providing devastating support in assaults."  
 
-medium_flame_tank:0 "Knight Flame Archer Company"
-medium_flame_tank_desc:0 "A company of mid-sized, mounted archers wielding flaming arrows, offering versatile support in the siege and destruction of fortified positions."
+medium_flame_tank:0 "Knight Wildfire Archers"  
+medium_flame_tank_desc:0 "A company of mid-sized, mounted archers wielding wildfire arrows, offering versatile and destructive support in sieges and battlefield engagements."  
 
-heavy_flame_tank:0 "Paladin Flame Archer Company"
-heavy_flame_tank_desc:0 "A company of heavily-armored mounted archers, armed with flaming arrows, specializing in the brutal assault and destruction of enemy cities and fortifications."
+heavy_flame_tank:0 "Paladin Wildfire Archers"  
+heavy_flame_tank_desc:0 "A company of heavily-armored mounted archers, armed with wildfire arrows, specializing in the brutal assault and incineration of enemy cities and fortifications."  
+
 
 light_tank_amphibious_chassis_desc:0 "A squire mount trained for amphibious operations, able to traverse both land and water with ease."
 
