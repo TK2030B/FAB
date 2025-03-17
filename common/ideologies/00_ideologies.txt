@@ -170,8 +170,16 @@ ideologies = {
 			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
+			#Disabled For Now
+			#White_Walker_subideology = {
+			#can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			#}
+			
 			FR_subideology = {
 			}
+			
+			
+
 		}
 
 		dynamic_faction_names = {
@@ -248,7 +256,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 192 192 192 }
+		color = { 192 192 192}
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
