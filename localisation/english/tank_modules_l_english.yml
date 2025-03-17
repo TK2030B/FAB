@@ -248,6 +248,9 @@ auto_loader_desc:0 "A sturdier, reinforced shield provides greater protection ag
 easy_maintenance:0 "Easily Repairable Armor"
 easy_maintenance_desc:0 "Armor designed with modular plates and accessible fastening points ensures that battlefield repairs can be performed swiftly, reducing downtime and increasing longevity."
 
+expanded_fuel_tank:0 "Provision Sack"
+expanded_fuel_tank_desc:0 "A large sack filled with dried meats, hardtack, and other preserved rations, allowing knights and their mounts to travel greater distances without needing to resupply."
+
  
  armor_tech_1_tt:0 "Enables Armor Upgrade values of 5 and above."
  armor_tech_2_tt:0 "Enables Armor Upgrade values of 10 and above."
@@ -523,18 +526,11 @@ medium_flame_tank_desc:0 "A company of mid-sized, mounted archers wielding wildf
 heavy_flame_tank:0 "Paladin Wildfire Archers"  
 heavy_flame_tank_desc:0 "A company of heavily-armored mounted archers, armed with wildfire arrows, specializing in the brutal assault and incineration of enemy cities and fortifications."  
 
-
 light_tank_amphibious_chassis_desc:0 "A squire mount trained for amphibious operations, able to traverse both land and water with ease."
-
 medium_tank_amphibious_chassis_desc:0 "A knight mount specially trained for amphibious warfare, capable of crossing rivers and other bodies of water while maintaining battlefield mobility."
-
 heavy_tank_amphibious_chassis_desc:0 "A paladin mount with advanced amphibious training, designed to support heavy operations across varied terrains, including water."
 
- 
- expanded_fuel_tank:0 "Fuel Drum"
- expanded_fuel_tank_desc:0 "An externally mounted fuel drum designed to extend the operational range of an armored vehicle."
-
- land_cruiser_chassis:0 "War Mammoth Mount"
+land_cruiser_chassis:0 "War Mammoth Mount"
 land_cruiser_chassis_desc:0 "A gargantuan mount, heavily armored and designed to support super-heavy weaponry while withstanding immense battlefield punishment. However, its sheer size results in high food consumption and slow movement."
 land_cruiser_chassis_1:0 "War Mammoth Mount"
 

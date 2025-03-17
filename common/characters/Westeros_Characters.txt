@@ -176,7 +176,7 @@ OT1_Night_King = {
         }
     }
     country_leader = {
-        ideology = FR_subideology
+        ideology = White_Walker_subideology
         id = -1
     }
 }

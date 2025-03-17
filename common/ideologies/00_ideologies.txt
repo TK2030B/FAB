@@ -171,9 +171,9 @@ ideologies = {
 			}
 			
 			#Disabled For Now
-			#White_Walker_subideology = {
-			#can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			#}
+			White_Walker_subideology = {
+			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
 			
 			FR_subideology = {
 			}
