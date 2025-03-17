@@ -212,33 +212,42 @@ tank_rocket_launcher_desc:0 "A bow designed for launching flaming arrows in rapi
 tank_rocket_launcher_2:0 "Improved Bow (Flaming)"  
 tank_rocket_launcher_2_desc:0 "A reinforced bow using stronger materials, allowing for improved accuracy and an increased rate of fire with flaming arrows, making it even more devastating against enemy positions."  
 
+amphibious_drive:0 "Amphibious Training"
+amphibious_drive_desc:0 "Extensive training in crossing rivers and coastal landings ensures that warriors and their mounts can traverse water obstacles with ease. This rigorous preparation allows for swift and coordinated assaults from unexpected directions, catching the enemy off guard."
 
- amphibious_drive:0 "Amphibious Training"
- amphibious_drive_desc:0 "Specialized training and equipment allow our cavalry to traverse water obstacles with ease. By using buoyant padding and carefully designed harnesses, our squires and knights can cross rivers or storm beaches without losing their mobility."  
- 
- sloped_armor:0 "Sloped Armor"
- sloped_armor_desc:0 "Armor placed at an angle to an incoming shell has a much greater effective thickness than the same amount of armor placed vertically. It also increases the chance that the shell will simply bounce off harmlessly. However, it requires the entire tank to be designed around it, making the vehicle more difficult to assemble."
- stabilizer:0 "Stabilizer"
- stabilizer_desc:0 "A mechanical device to keep the gun pointing in the same direction when the tank is moving. While not advanced enough to allow accurate firing on the move, it does allow the gunner to fire accurately during a short stop, without having to re-acquire the target."
- smoke_launchers:0 "Smoke Launchers"
- smoke_launchers_desc:0 "A battery of pyrotechnic devices that can be triggered from inside the tank to create a thick cloud of smoke to hide the tank. Very useful when on the defensive or after driving into an ambush."
- extra_ammo_storage:0 "Extra Ammunition Storage"
- extra_ammo_storage_desc:0 "Additional racks of ready ammunition allow the tank to stay in the fight much longer without resupply. However, if the armor is penetrated, the results are likely to be catastrophic. This is particularly problematic when attacking."
- wet_ammo_storage:0 "Wet Ammunition Storage"
- wet_ammo_storage_desc:0 "Water jackets added to ammunition racks dramatically reduce the risk of the ammunition exploding after the tank is hit, which is greatly appreciated by the crews."
+sloped_armor:0 "Reinforced Platebody"
+sloped_armor_desc:0 "By forging plate armor with layered steel and improved curvature, we can deflect enemy strikes and reduce the impact of piercing attacks, significantly increasing survivability."
 
- squeezebore_adaptor:0 "Squeeze-bore Adaptor"
- squeezebore_adaptor_desc:0 "A special adaptor at the end of the gun lowers the diameter of the barrel and squeezes a shell down to a smaller caliber. This significantly increases muzzle velocity and thereby the penetration power of the gun. It does require special ammunition made from rare materials."
- armor_skirts:0 "Armor Skirts"
- armor_skirts_desc:0 "A set of thin metal plates mounted on the side of the vehicle, giving additional protection against anti-tank rifles and shaped charges."
- dozer_blade:0 "Dozer Blade"
- dozer_blade_desc:0 "A dozer blade allows the vehicle to quickly build a fighting position in the field without the support of engineers."
- auto_loader:0 "Auto Loader"
- auto_loader_desc:0 "An auomatic mechanism that loads shells and allows the tank to keep a high rate of fire for a prolonged period of time."
- easy_maintenance:0 "Easy Maintenance"
- easy_maintenance_desc:0 "Hatches around the vehicle give access to many different components of the vehicle, and allow the crew to perform even complex maintenance fairly easily."
- additional_machine_guns:0 "Additional Machineguns"
- additional_machine_guns_desc:0 "A set of machineguns in sponsons and special pintle mounts give the vehicle improved defense against close-in infantry attack."
+armor_skirts:0 "Reinforced Platelegs"
+armor_skirts_desc:0 "Upgrading leg armor with thickened plates provides additional protection against attacks from the side, making mounted warriors more resilient on the battlefield."
+
+stabilizer:0 "Reinforced Saddle"
+stabilizer_desc:0 "A specially crafted saddle enhances stability during combat, allowing knights to maintain balance while striking more effectively, even on the move."
+
+smoke_launchers:0 "Reinforced Helmet"
+smoke_launchers_desc:0 "A fully enclosed helmet with a visor provides additional defense, reducing the risk of head injuries and improving battlefield awareness."
+
+extra_ammo_storage:0 "Extra Supply Pouches"
+extra_ammo_storage_desc:0 "Carrying additional supplies, such as arrows, javelins, or provisions, allows warriors to last longer in battle but increases their burden, making them more vulnerable if overrun."
+
+wet_ammo_storage:0 "Sacred War Paints"
+wet_ammo_storage_desc:0 "Blessed oils and protective war paints are applied to war beasts and armor to ward off misfortune and bolster the morale of both rider and steed."
+
+dozer_blade:0 "Field Fortification Tools"
+dozer_blade_desc:0 "Equipping knights with spades, axes, and wooden stakes allows them to rapidly construct defensive positions, improving their ability to hold the line."
+
+squeezebore_adaptor:0 "Expert Weapon Craftsmanship"
+squeezebore_adaptor_desc:0 "Forged by master blacksmiths using the finest techniques, these weapons feature superior sharpness and durability, allowing them to penetrate even the toughest armor with ease."
+
+additional_machine_guns:0 "Additional Short Sword"
+additional_machine_guns_desc:0 "Equipping knights with an additional short sword allows for greater versatility in combat, enabling swift counterattacks and improved close-quarters effectiveness."
+
+auto_loader:0 "Reinforced Shield"
+auto_loader_desc:0 "A sturdier, reinforced shield provides greater protection against both melee and ranged attacks, allowing knights to hold their ground more effectively."
+
+easy_maintenance:0 "Easily Repairable Armor"
+easy_maintenance_desc:0 "Armor designed with modular plates and accessible fastening points ensures that battlefield repairs can be performed swiftly, reducing downtime and increasing longevity."
+
  
  armor_tech_1_tt:0 "Enables Armor Upgrade values of 5 and above."
  armor_tech_2_tt:0 "Enables Armor Upgrade values of 10 and above."
