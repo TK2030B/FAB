@@ -554,14 +554,21 @@ land_cruiser_chassis_1:0 "War Mammoth Mount"
  EQ_MOD_CAT_lc_external_features_TITLE: "External Features"
  EQ_MOD_CAT_lc_aerial_deployment_TITLE: "Draconic Deployment"
 
+#Ok this one can be Heavy Naval Siege Weapons, for instance Naval Catapults? Naval Onagers, idk up to you
  lc_heavy_naval_guns: "Heavy Naval Guns"
  lc_heavy_naval_guns_desc: "The standard main armament for such a massive armored vehicle, these powerful naval-grade cannons are adapted for direct confrontation, delivering devastating firepower against both armored and fortified targets."
+ #Siege Trebuchet makes sense cause the actual SH Railway gun is a Trebuchet, but this one isn't wagon pulled, it would be mounted on the mamoth
  lc_super_heavy_railway_gun: "Siege Trebuchet"
- lc_super_heavy_railway_gun_desc: "A massive trebuchet mounted on a reinforced wagon, designed for mobility along caravan routes. This allows for rapid deployment and long-range bombardment of enemy fortifications."
+ lc_super_heavy_railway_gun_desc: "NEEDS DESCRIPTION"
+ 
+ #Ballista makes sense, unless you wanna make it something like an accesory that makes the War Mammoth Battering Ram, like Reinforced Tusks, which would make sense tbh
  lc_high_impact_obliterator_cannon: "High-Impact Anti-Beast Ballista"
  lc_high_impact_obliterator_cannon_desc: "A massive, reinforced ballista designed to fire heavy, armor-piercing bolts capable of skewering even the most heavily protected war beasts and siege engines. Its immense kinetic force makes it a devastating counter to enemy War Elephants and other fortified units."
+ #This one should definitively be a scorpion platform/or a scorpion itself
  lc_heavy_anti_air_platform: "Heavy Anti-Air Platform"
  lc_heavy_anti_air_platform_desc: "A platform mounting multiple high-caliber flak guns, designed to defend against enemy bombers and reconnaissance aircraft that threaten the Land Cruiser."
+ 
+ #These can be anything you like just make sure to remember Artillery = Archers in the mod, Anti-Tank = Anti-Beast, Anti-Air = Anti  Dragon (think scorpions or w/e else could be anti dragon)
  lc_medium_naval_guns: "Medium Naval Guns"
  lc_medium_naval_guns_desc: "Offering a balanced combination of rate of fire and firepower, this guns are effective at engaging lighter vehicles and providing support against unarmored targets."
  lc_hull_mounted_railway_gun: "Hull-Mounted Railway Gun"
@@ -574,22 +581,28 @@ land_cruiser_chassis_1:0 "War Mammoth Mount"
  lc_heavy_anti_air_battery_desc: "An anti-air battery equipped with large-caliber guns to target high-speed and high-altitude aircraft, providing a defensive bubble around the vehicle."
  lc_medium_cannon_turret: "Medium Cannon Turret"
  lc_medium_cannon_turret_desc: "A standard turret-mounted cannon, capable of engaging infantry and light vehicles. Its compact design makes it versatile for close-quarters combat and secondary roles."
+ #Something related to busting castles/trampling infantry/cavalry
  lc_assault_gun: "Assault Gun"
  lc_assault_gun_desc: "Designed for close-range urban warfare and bunker busting. This weapon delivers powerful, high-explosive shells to clear out infantry and hardened targets."
+ #Anything about High velocity and engaging enemy armor should be about enganging War Beasts (Other knights, elephants and mammoths)
  lc_high_velocity_cannon_turret: "High-Velocity Cannon Turret"
  lc_high_velocity_cannon_turret_desc: "A turret fitted with a high-velocity cannon to engage enemy armor. Its smaller size allows it to provide quick and responsive fire support against lighter armored threats."
  lc_light_anti_air_battery: "Light Anti-Air Battery"
  lc_light_anti_air_battery_desc: "A light anti-aircraft battery designed to target low-flying aircraft and protecting the vehicle from strafing runs and dive-bombers."
+ #Flamethrower = Wildfire Archers
  lc_flamethrower_turret: "Flamethrower Turret"
  lc_flamethrower_turret_desc: "A specialized turret that projects a stream of fire, perfect for clearing out fortified positions, infantry, and ambush points. Ideal for close-quarters engagements in dense urban environments."
+ #Rocket Launchers = Regular Flame Archers
  lc_rocket_launcher: "Rocket Launcher"
  lc_rocket_launcher_desc: "A modular rocket system mounted on the Land Cruiser, delivering devastating rocket barrages to suppress enemy defenses and overwhelm large formations."
+ 
  lc_radio_1: "$tank_radio_1$"
  lc_radio_1_desc: "$tank_radio_1_desc$"
  lc_radio_2: "$tank_radio_2$"
  lc_radio_2_desc: "$tank_radio_2_desc$"
  lc_radio_3: "$tank_radio_3$"
  lc_radio_3_desc: "$tank_radio_3_desc$"
+ 
  lc_command_center: "Command Center"
  lc_command_center_desc: "A fully integrated command center that transforms the Land Cruiser into a mobile headquarters, equipped with advanced communication systems to coordinate large-scale military operations."
  lc_radar: "Radar"
