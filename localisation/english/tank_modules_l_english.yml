@@ -566,11 +566,11 @@ lc_heavy_anti_air_platform_desc:0 "A mounted platform equipped with multiple lar
 lc_medium_naval_guns:0 "Medium Naval Ballistae"
 lc_medium_naval_guns_desc:0 "Ballistae adapted from naval warfare, these powerful siege engines provide versatile support, capable of engaging enemy infantry, cavalry, and lighter fortifications with precision."
 
-lc_hull_mounted_railway_gun:0 "Mounted Archer Tower"
-lc_hull_mounted_railway_gun_desc:0 "A fortified archer platform built atop the War Mammoth, allowing a unit of skilled bowmen to rain arrows down upon enemy forces with devastating accuracy."
+lc_hull_mounted_railway_gun:0 "Siege Onager"  
+lc_hull_mounted_railway_gun_desc:0 "A massive torsion-powered siege engine mounted atop a sturdy platform, capable of hurling heavy projectiles with immense force to shatter enemy fortifications and formations alike."  
 
-lc_super_heavy_howitzer:0 "Mammoth Siege Tower"
-lc_super_heavy_howitzer_desc:0 "A reinforced siege tower mounted on the War Mammoth, providing a stable platform for archers and siege engineers to fire from an elevated position, increasing range and effectiveness against fortifications."
+lc_super_heavy_howitzer:0 "Mounted Archer Tower"
+lc_super_heavy_howitzer_desc:0 "A fortified archer platform built atop the War Mammoth, allowing a unit of skilled bowmen to rain arrows down upon enemy forces with devastating accuracy."
 
 lc_heavy_anti_air_battery:0 "Dragon-Killer Scorpion"
 lc_heavy_anti_air_battery_desc:0 "A specialized scorpion reinforced to fire massive bolts capable of piercing dragon hide and keeping the skies clear of enemy aerial threats."
