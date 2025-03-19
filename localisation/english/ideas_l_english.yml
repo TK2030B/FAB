@@ -377,6 +377,53 @@
  igor_kurchatov:0 "Igor Kurchatov"
  sergei_korolev:0 "Sergei Korolev"
  
+ government:1 "Realm"
+ GOT_small_council:1 "Small Council"
+ military_staff:0 "War Council"
+ research_production:0 "Artisan Guild"
+ 
+political_advisor:0 "Royal Advisors"
+
+mobilization_laws:0 "Levy Laws"
+mobilization_laws_desc:0 "Determine how many men can be called to arms in times of war. Stricter laws allow for larger levies but may strain the realm’s economy and stability."
+
+trade_laws:0 "Trade Laws"
+trade_laws_desc:0 "Establish the realm’s trade policy, balancing between economic growth and resource control. Open markets encourage prosperity, while restrictions ensure self-sufficiency."
+
+economy:0 "Economic Laws"
+economy_desc:0 "Set the foundation for the realm’s economic structure, deciding between a free market, a controlled economy, or complete self-reliance to support the war effort."
+
+ 
+GOT_Tradition:0 "Tradition"
+GOT_Tradition_desc:0 "The customs and way of life that define our people, shaped by generations of history and culture."
+
+GOT_Religion:0 "Religion"
+GOT_Religion_desc:0 "The faith that guides our realm, influencing our decisions, diplomacy, and the unity of our people."
+
+GOT_Mode:0 "Game Mode"
+GOT_Mode_desc:0 "Choose between standard Hearts of Iron IV mechanics or the full Game of Thrones experience, complete with immersive features and unique mechanics."
+
+ 
+
+aircraft_manufacturer:0 "Dragonkeepers"
+materiel_manufacturer:0 "Master of the Forge"
+industry_concern:0 "Artisan's Guild"
+army_chief:0 "Lord Commander"
+navy_chief:0 "Master of Ships"
+air_chief:0 "Dragonlord"
+high_command:0 "War Council"
+theorist:0 "Master of Strategy"
+
+idea_group_army_chief:0 "Lord Commander"  
+idea_group_air_chief:0 "Dragonlord"  
+idea_group_navy_chief:0 "Master of Ships"  
+idea_group_tank_manufacturer:0 "Steed Breeders"  
+idea_group_naval_manufacturer:0 "Shipwrights' Guild"  
+idea_group_light_aircraft_manufacturer:0 "Dragonkeepers"  
+idea_group_industrial_concern:0 "Artisan's Guild"  
+
+
+ 
  idea_group_economy:0 "Economic Laws"
  idea_group_economic_desc:0 "Choose an economic policy to shape the prosperity of our realm."
  isolation:0 "Isolation"
@@ -449,13 +496,7 @@
  generic_spy_intel:0 "The Tinker"
  generic_spy_political:0 "The Tailor"
  generic_spy_coup:0 "The Soldier"
- idea_group_army_chief:0 "Chief of Army"
- idea_group_air_chief:0 "Chief of Air Force"
- idea_group_navy_chief:0 "Chief of Navy"
- idea_group_tank_manufacturer:0 "Tank Designer"
- idea_group_naval_manufacturer:1 "Naval Designer"
- idea_group_light_aircraft_manufacturer:1 "Light Aircraft Designer"
- idea_group_industrial_concern:0 "Industrial Concern"
+
  idea_category_country:0 "Country"
  idea_category_country_desc:0 "Adopt ideas/hire ministers to help steer your country"
  idea_category_political:0 "Political Advisors"
@@ -649,21 +690,7 @@
  political_commissars_focus:0 "Political Commissars"
  wartime_industry_focus:0 "Wartime Industry"
  bureau_of_ships_focus:0 "Bureau of Ships"
- government:1 "Laws & Government"
- research_production:0 "Research & Production"
- military_staff:0 "Military Staff"
- political_advisor:0 "Political Advisor"
- mobilization_laws:0 "Conscription Law"
- trade_laws:0 "Trade Law"
- economy:0 "Economy Law"
- aircraft_manufacturer:0 "Aircraft Designer"
- materiel_manufacturer:0 "Materiel Designer"
- industry_concern:0 "Industry Concern"
- army_chief:0 "Chief of Army"
- navy_chief:0 "Chief of Navy"
- air_chief:0 "Chief of Airforce"
- high_command:0 "Military High Command"
- theorist:0 "Theorist"
+ 
  british_austerity_idea:0 "British Austerity"
  ENG_blackouts_idea: "Blackouts"
  ENG_desperate_defense_of_the_homeland: "Desperate Defense of the Homeland"
@@ -2765,3 +2792,98 @@
  damage_to_naval_base_low: "$naval_base$ raided"
  damage_to_naval_base_medium: "$damage_to_naval_base_low$"
  damage_to_naval_base_high: "$damage_to_naval_base_low$"
+
+#GOT Ideas
+
+Religion_Unknown:0 "Unknown Religion"
+Religion_Unknown_desc:0 "A faith shrouded in mystery, its beliefs and customs are unknown to outsiders."
+
+Religion_Old_Gods:0 "Old Gods of the Forest"
+Religion_Old_Gods_desc:0 "An ancient faith, worshipping the nameless spirits of nature through sacred weirwood trees."
+
+Religion_LOL:0 "R'hllor, the Lord of Light"
+Religion_LOL_desc:0 "A fiery god who demands devotion and sacrifice, R'hllor’s followers seek to bring light to the darkness."
+
+Religion_Drowned_God:0 "The Drowned God"
+Religion_Drowned_God_desc:0 "The god of the Ironborn, he demands strength and conquest. 'What is dead may never die!'"
+
+Religion_Great_Other:0 "The Great Other"
+Religion_Great_Other_desc:0 "A god of cold and death, worshipped in secret. It is the sworn enemy of the Lord of Light."
+
+Religion_Many_Faced_God:0 "The Many-Faced God"
+Religion_Many_Faced_God_desc:0 "The god of death, worshipped by the Faceless Men. To them, all gods are but aspects of the same entity."
+
+Religion_The_Seven:0 "The Faith of the Seven"
+Religion_The_Seven_desc:0 "The dominant faith of Westeros, worshipping seven aspects of a single divine entity."
+
+Religion_Great_Stallion:0 "The Great Stallion"
+Religion_Great_Stallion_desc:0 "The Dothraki worship the Great Stallion, who guides them to a glorious future through war and conquest."
+
+Religion_Black_Goat:0 "The Black Goat of Qohor"
+Religion_Black_Goat_desc:0 "A dark and bloodthirsty deity demanding daily sacrifices to ward off disaster."
+
+Tradition_Unknown:0 "Unknown Tradition"
+Tradition_Unknown_desc:0 "A culture and way of life obscured from the annals of history."
+
+Tradition_Ironborn:0 "Ironborn Tradition"
+Tradition_Ironborn_desc:0 "A people of raiders and reavers, the Ironborn live and die by the Old Way of the sea."
+
+Tradition_Dragonlords:0 "Dragonlord Tradition"
+Tradition_Dragonlords_desc:0 "Descendants of Valyria, they wield dragons as weapons and command vast knowledge of ancient sorcery."
+
+Tradition_Stormlands:0 "Stormlands Tradition"
+Tradition_Stormlands_desc:0 "A culture forged by the storms, producing resilient warriors and unwavering loyalty."
+
+Tradition_North:0 "Northman Tradition"
+Tradition_North_desc:0 "Hardened by the cold, the Northmen value honor, duty, and a strong sword arm."
+
+Tradition_Reach:0 "Reachmen Tradition"
+Tradition_Reach_desc:0 "The most fertile land in Westeros has bred a culture of chivalry, knighthood, and feasting."
+
+Tradition_Riverlands:0 "Riverlander Tradition"
+Tradition_Riverlands_desc:0 "A land often ravaged by war, the Riverlands produce adaptable and resilient folk."
+
+Tradition_Westerlands:0 "Westerlander Tradition"
+Tradition_Westerlands_desc:0 "A land of gold and ambition, where wealth and power go hand in hand."
+
+Tradition_Vale:0 "Valemen Tradition"
+Tradition_Vale_desc:0 "Nestled in the mountains, the Vale breeds honorable knights and steadfast warriors."
+
+Tradition_Crownlands:0 "Crownlands Tradition"
+Tradition_Crownlands_desc:0 "The heart of royal power, where politics and courtly intrigue shape the realm."
+
+Tradition_Dorne:0 "Dornish Tradition"
+Tradition_Dorne_desc:0 "A land of fierce warriors and passionate people, where blood feuds and desert resilience define their way of life."
+
+Tradition_White_Walkers:0 "The Others"
+Tradition_White_Walkers_desc:0 "An ancient and terrifying force of ice and death, shrouded in myth and legend."
+
+Tradition_Wildlings:0 "Wildling Tradition"
+Tradition_Wildlings_desc:0 "The Free Folk reject southern laws, living in harsh conditions beyond the Wall and fighting for survival."
+
+Tradition_Braavos:0 "Braavosi Tradition"
+Tradition_Braavos_desc:0 "A culture built on commerce, seafaring, and fierce independence, where even the weakest can rise."
+
+Tradition_Nights_Watch:0 "Night’s Watch Tradition"
+Tradition_Nights_Watch_desc:0 "A sworn brotherhood, standing as the first and last defense against the horrors beyond the Wall."
+
+Tradition_Qohor:0 "Qohorik Tradition"
+Tradition_Qohor_desc:0 "The city of Qohor is known for its master smiths and dark blood magic."
+
+Tradition_Pentos:0 "Pentoshi Tradition"
+Tradition_Pentos_desc:0 "A land of trade and indulgence, ruled by wealthy magisters under the watchful eye of the Free Cities."
+
+Tradition_Dothraki:0 "Dothraki Tradition"
+Tradition_Dothraki_desc:0 "A people of the open plains, where strength is measured in horses and the ability to conquer."
+
+Tradition_Desert:0 "Desert Tradition"
+Tradition_Desert_desc:0 "A people accustomed to arid wastelands, thriving in harsh conditions through survivalist cunning."
+
+Tradition_Slaver:0 "Slaver's Tradition"
+Tradition_Slaver_desc:0 "A culture built upon the institution of slavery, where wealth and power are gained through the suffering of others."
+
+Mode_Vanilla:0 "Vanilla Mode"
+Mode_Vanilla_desc:0 "Play with standard mechanics and balance, following a more traditional experience."
+
+Mode_GOT:0 "Game of Thrones Mode"
+Mode_GOT_desc:0 "A deeply immersive experience, filled with the intrigue, war, and brutal realities of Westeros and beyond."

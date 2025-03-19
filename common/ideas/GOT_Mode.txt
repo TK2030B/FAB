@@ -1,0 +1,34 @@
+ideas = {
+
+	GOT_Mode = {
+		law = yes
+		use_list_view = yes
+
+		GOT_Mode_Vanilla = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+			
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Mode_GOT = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+
+}

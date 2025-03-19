@@ -1,0 +1,250 @@
+ideas = {
+
+	GOT_Tradition = {
+		law = yes
+		use_list_view = yes
+
+		GOT_Tradition_Unknown = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+			
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Ironborn = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Dragonlords = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Stormlands = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_North = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Reach = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Riverlands = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Westerlands = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Vale = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Crownlands = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Dorne = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_White_Walkers = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Wildlings = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Braavos = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Nights_Watch = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Qohor = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Pentos = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Dothraki = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Desert = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Slaver = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+
+}

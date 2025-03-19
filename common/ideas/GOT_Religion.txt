@@ -1,0 +1,118 @@
+ideas = {
+
+	GOT_Religion = {
+		law = yes
+		use_list_view = yes
+
+		GOT_Religion_Unknown = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+			
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_Old_Gods = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_LOL = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_Drowned_God = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_Great_Other = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_Many_Faced_God = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_The_Seven = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_Great_Stallion = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_Black_Goat = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			cancel_if_invalid = no
+		}
+
+
+}
