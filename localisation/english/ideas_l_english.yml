@@ -2795,95 +2795,95 @@ idea_group_industrial_concern:0 "Artisan's Guild"
 
 #GOT Ideas
 
-Religion_Unknown:0 "Unknown Religion"
-Religion_Unknown_desc:0 "A faith shrouded in mystery, its beliefs and customs are unknown to outsiders."
+GOT_Religion_Unknown:0 "Unknown Religion"
+GOT_Religion_Unknown_desc:0 "A faith shrouded in mystery, its beliefs and customs are unknown to outsiders."
 
-Religion_Old_Gods:0 "Old Gods of the Forest"
-Religion_Old_Gods_desc:0 "An ancient faith, worshipping the nameless spirits of nature through sacred weirwood trees."
+GOT_Religion_Old_Gods:0 "Old Gods of the Forest"
+GOT_Religion_Old_Gods_desc:0 "An ancient faith, worshipping the nameless spirits of nature through sacred weirwood trees."
 
-Religion_LOL:0 "R'hllor, the Lord of Light"
-Religion_LOL_desc:0 "A fiery god who demands devotion and sacrifice, R'hllor’s followers seek to bring light to the darkness."
+GOT_Religion_LOL:0 "The Lord of Light"
+GOT_Religion_LOL_desc:0 "A fiery god who demands devotion and sacrifice, R'hllor’s followers seek to bring light to the darkness."
 
-Religion_Drowned_God:0 "The Drowned God"
-Religion_Drowned_God_desc:0 "The god of the Ironborn, he demands strength and conquest. 'What is dead may never die!'"
+GOT_Religion_Drowned_God:0 "The Drowned God"
+GOT_Religion_Drowned_God_desc:0 "The god of the Ironborn, he demands strength and conquest. 'What is dead may never die!'"
 
-Religion_Great_Other:0 "The Great Other"
-Religion_Great_Other_desc:0 "A god of cold and death, worshipped in secret. It is the sworn enemy of the Lord of Light."
+GOT_Religion_Great_Other:0 "The Great Other"
+GOT_Religion_Great_Other_desc:0 "A god of cold and death, worshipped in secret. It is the sworn enemy of the Lord of Light."
 
-Religion_Many_Faced_God:0 "The Many-Faced God"
-Religion_Many_Faced_God_desc:0 "The god of death, worshipped by the Faceless Men. To them, all gods are but aspects of the same entity."
+GOT_Religion_Many_Faced_God:0 "The Many-Faced God"
+GOT_Religion_Many_Faced_God_desc:0 "The god of death, worshipped by the Faceless Men. To them, all gods are but aspects of the same entity."
 
-Religion_The_Seven:0 "The Faith of the Seven"
-Religion_The_Seven_desc:0 "The dominant faith of Westeros, worshipping seven aspects of a single divine entity."
+GOT_Religion_The_Seven:0 "The Faith of the Seven"
+GOT_Religion_The_Seven_desc:0 "The dominant faith of Westeros, worshipping seven aspects of a single divine entity."
 
-Religion_Great_Stallion:0 "The Great Stallion"
-Religion_Great_Stallion_desc:0 "The Dothraki worship the Great Stallion, who guides them to a glorious future through war and conquest."
+GOT_Religion_Great_Stallion:0 "The Great Stallion"
+GOT_Religion_Great_Stallion_desc:0 "The Dothraki worship the Great Stallion, who guides them to a glorious future through war and conquest."
 
-Religion_Black_Goat:0 "The Black Goat of Qohor"
-Religion_Black_Goat_desc:0 "A dark and bloodthirsty deity demanding daily sacrifices to ward off disaster."
+GOT_Religion_Black_Goat:0 "The Black Goat of Qohor"
+GOT_Religion_Black_Goat_desc:0 "A dark and bloodthirsty deity demanding daily sacrifices to ward off disaster."
 
-Tradition_Unknown:0 "Unknown Tradition"
-Tradition_Unknown_desc:0 "A culture and way of life obscured from the annals of history."
+GOT_Tradition_Unknown:0 "Unknown Tradition"
+GOT_Tradition_Unknown_desc:0 "A culture and way of life obscured from the annals of history."
 
-Tradition_Ironborn:0 "Ironborn Tradition"
-Tradition_Ironborn_desc:0 "A people of raiders and reavers, the Ironborn live and die by the Old Way of the sea."
+GOT_Tradition_Ironborn:0 "Ironborn Tradition"
+GOT_Tradition_Ironborn_desc:0 "A people of raiders and reavers, the Ironborn live and die by the Old Way of the sea."
 
-Tradition_Dragonlords:0 "Dragonlord Tradition"
-Tradition_Dragonlords_desc:0 "Descendants of Valyria, they wield dragons as weapons and command vast knowledge of ancient sorcery."
+GOT_Tradition_Dragonlords:0 "Dragonlord Tradition"
+GOT_Tradition_Dragonlords_desc:0 "Descendants of Valyria, they wield dragons as weapons and command vast knowledge of ancient sorcery."
 
-Tradition_Stormlands:0 "Stormlands Tradition"
-Tradition_Stormlands_desc:0 "A culture forged by the storms, producing resilient warriors and unwavering loyalty."
+GOT_Tradition_Stormlands:0 "Stormlands Tradition"
+GOT_Tradition_Stormlands_desc:0 "A culture forged by the storms, producing resilient warriors and unwavering loyalty."
 
-Tradition_North:0 "Northman Tradition"
-Tradition_North_desc:0 "Hardened by the cold, the Northmen value honor, duty, and a strong sword arm."
+GOT_Tradition_North:0 "Northman Tradition"
+GOT_Tradition_North_desc:0 "Hardened by the cold, the Northmen value honor, duty, and a strong sword arm."
 
-Tradition_Reach:0 "Reachmen Tradition"
-Tradition_Reach_desc:0 "The most fertile land in Westeros has bred a culture of chivalry, knighthood, and feasting."
+GOT_Tradition_Reach:0 "Reachmen Tradition"
+GOT_Tradition_Reach_desc:0 "The most fertile land in Westeros has bred a culture of chivalry, knighthood, and feasting."
 
-Tradition_Riverlands:0 "Riverlander Tradition"
-Tradition_Riverlands_desc:0 "A land often ravaged by war, the Riverlands produce adaptable and resilient folk."
+GOT_Tradition_Riverlands:0 "Riverlander Tradition"
+GOT_Tradition_Riverlands_desc:0 "A land often ravaged by war, the Riverlands produce adaptable and resilient folk."
 
-Tradition_Westerlands:0 "Westerlander Tradition"
-Tradition_Westerlands_desc:0 "A land of gold and ambition, where wealth and power go hand in hand."
+GOT_Tradition_Westerlands:0 "Westerlander Tradition"
+GOT_Tradition_Westerlands_desc:0 "A land of gold and ambition, where wealth and power go hand in hand."
 
-Tradition_Vale:0 "Valemen Tradition"
-Tradition_Vale_desc:0 "Nestled in the mountains, the Vale breeds honorable knights and steadfast warriors."
+GOT_Tradition_Vale:0 "Valemen Tradition"
+GOT_Tradition_Vale_desc:0 "Nestled in the mountains, the Vale breeds honorable knights and steadfast warriors."
 
-Tradition_Crownlands:0 "Crownlands Tradition"
-Tradition_Crownlands_desc:0 "The heart of royal power, where politics and courtly intrigue shape the realm."
+GOT_Tradition_Crownlands:0 "Crownlands Tradition"
+GOT_Tradition_Crownlands_desc:0 "The heart of royal power, where politics and courtly intrigue shape the realm."
 
-Tradition_Dorne:0 "Dornish Tradition"
-Tradition_Dorne_desc:0 "A land of fierce warriors and passionate people, where blood feuds and desert resilience define their way of life."
+GOT_Tradition_Dorne:0 "Dornish Tradition"
+GOT_Tradition_Dorne_desc:0 "A land of fierce warriors and passionate people, where blood feuds and desert resilience define their way of life."
 
-Tradition_White_Walkers:0 "The Others"
-Tradition_White_Walkers_desc:0 "An ancient and terrifying force of ice and death, shrouded in myth and legend."
+GOT_Tradition_White_Walkers:0 "The Others"
+GOT_Tradition_White_Walkers_desc:0 "An ancient and terrifying force of ice and death, shrouded in myth and legend."
 
-Tradition_Wildlings:0 "Wildling Tradition"
-Tradition_Wildlings_desc:0 "The Free Folk reject southern laws, living in harsh conditions beyond the Wall and fighting for survival."
+GOT_Tradition_Wildlings:0 "Wildling Tradition"
+GOT_Tradition_Wildlings_desc:0 "The Free Folk reject southern laws, living in harsh conditions beyond the Wall and fighting for survival."
 
-Tradition_Braavos:0 "Braavosi Tradition"
-Tradition_Braavos_desc:0 "A culture built on commerce, seafaring, and fierce independence, where even the weakest can rise."
+GOT_Tradition_Braavos:0 "Braavosi Tradition"
+GOT_Tradition_Braavos_desc:0 "A culture built on commerce, seafaring, and fierce independence, where even the weakest can rise."
 
-Tradition_Nights_Watch:0 "Night’s Watch Tradition"
-Tradition_Nights_Watch_desc:0 "A sworn brotherhood, standing as the first and last defense against the horrors beyond the Wall."
+GOT_Tradition_Nights_Watch:0 "Night’s Watch Tradition"
+GOT_Tradition_Nights_Watch_desc:0 "A sworn brotherhood, standing as the first and last defense against the horrors beyond the Wall."
 
-Tradition_Qohor:0 "Qohorik Tradition"
-Tradition_Qohor_desc:0 "The city of Qohor is known for its master smiths and dark blood magic."
+GOT_Tradition_Qohor:0 "Qohorik Tradition"
+GOT_Tradition_Qohor_desc:0 "The city of Qohor is known for its master smiths and dark blood magic."
 
-Tradition_Pentos:0 "Pentoshi Tradition"
-Tradition_Pentos_desc:0 "A land of trade and indulgence, ruled by wealthy magisters under the watchful eye of the Free Cities."
+GOT_Tradition_Pentos:0 "Pentoshi Tradition"
+GOT_Tradition_Pentos_desc:0 "A land of trade and indulgence, ruled by wealthy magisters under the watchful eye of the Free Cities."
 
-Tradition_Dothraki:0 "Dothraki Tradition"
-Tradition_Dothraki_desc:0 "A people of the open plains, where strength is measured in horses and the ability to conquer."
+GOT_Tradition_Dothraki:0 "Dothraki Tradition"
+GOT_Tradition_Dothraki_desc:0 "A people of the open plains, where strength is measured in horses and the ability to conquer."
 
-Tradition_Desert:0 "Desert Tradition"
-Tradition_Desert_desc:0 "A people accustomed to arid wastelands, thriving in harsh conditions through survivalist cunning."
+GOT_Tradition_Desert:0 "Desert Tradition"
+GOT_Tradition_Desert_desc:0 "A people accustomed to arid wastelands, thriving in harsh conditions through survivalist cunning."
 
-Tradition_Slaver:0 "Slaver's Tradition"
-Tradition_Slaver_desc:0 "A culture built upon the institution of slavery, where wealth and power are gained through the suffering of others."
+GOT_Tradition_Slaver:0 "Slaver's Tradition"
+GOT_Tradition_Slaver_desc:0 "A culture built upon the institution of slavery, where wealth and power are gained through the suffering of others."
 
-Mode_Vanilla:0 "Vanilla Mode"
-Mode_Vanilla_desc:0 "Play with standard mechanics and balance, following a more traditional experience."
+GOT_Mode_Vanilla:0 "Vanilla Mode"
+GOT_Mode_Vanilla_desc:0 "Play with standard mechanics and balance, following a more traditional experience."
 
-Mode_GOT:0 "Game of Thrones Mode"
-Mode_GOT_desc:0 "A deeply immersive experience, filled with the intrigue, war, and brutal realities of Westeros and beyond."
+GOT_Mode_GOT:0 "Role-Play Mode"
+GOT_Mode_GOT_desc:0 "A deeply immersive experience, filled with the intrigue, war, and brutal realities of Westeros and beyond."

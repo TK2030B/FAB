@@ -25,6 +25,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				army_morale_factor = 0.05
+				resistance_growth = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -37,6 +39,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				war_support_factor = 0.05
+				stability_factor = -0.05
+				research_speed_factor = 0.05
+				justify_war_goal_time = -0.10
 			}
 
 			cancel_if_invalid = no
@@ -49,6 +55,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				naval_speed_factor = 0.05
+				navy_submarine_attack_factor = 0.05
+				war_support_factor = 0.05
+				naval_invasion_capacity = 5
 			}
 
 			cancel_if_invalid = no
@@ -61,6 +71,13 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				drift_defence_factor = 1.00			# Harder to influence politically.
+				ai_get_ally_desire_factor = -1000		# Cannot form alliances.
+				political_power_gain = -2			# Does not engage in politics.
+				experience_gain_army = -100.00		# No traditional military training.
+				monthly_population  = -3.5			# Kills or converts population.
+				consumer_goods_factor = 10			# Not focused on economy.
+				command_power_gain = -5			# No structured military leadership.
 			}
 
 			cancel_if_invalid = no
@@ -73,6 +90,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				agency_upgrade_time = -0.10
+				new_operative_slot_bonus = 1
+				stability_factor = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -85,6 +105,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				stability_factor = 0.10
+				justify_war_goal_time = 0.10
 			}
 
 			cancel_if_invalid = no
@@ -97,6 +119,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				modifier_army_sub_unit_cavalry_attack_factor = 0.10
+				army_speed_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -109,6 +133,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				war_support_factor = 0.05
+				monthly_population = 0.05
 			}
 
 			cancel_if_invalid = no

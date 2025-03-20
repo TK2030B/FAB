@@ -25,6 +25,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				naval_speed_factor = 0.05
+				amphibious_invasion = 0.05
+				convoy_raiding_efficiency_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -37,6 +40,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				air_attack_factor = 0.05
+				air_defence_factor = 0.05
+				air_superiority_efficiency = 0.05
+				air_cas_efficiency = 0.05
+				ground_attack_factor = 0.05
+				research_speed_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -49,6 +58,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				army_defence_factor = 0.05
+				air_weather_penalty = -0.10
+				navy_weather_penalty = -0.10
+				land_bunker_effectiveness_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -61,6 +74,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				winter_attrition = -0.15
+				army_morale_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -73,6 +88,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				stability_factor = 0.05
+				monthly_population = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -85,6 +102,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				supply_consumption_factor = -0.05
+				river_crossing_factor = -0.10
 			}
 
 			cancel_if_invalid = no
@@ -97,6 +116,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -107,9 +128,14 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-
+			
 			modifier = {
-			}
+				mountaineers_special_forces_contribution_factor = -0.25
+				modifier_army_sub_unit_mountaineers_defence_factor = 0.15
+				modifier_army_sub_unit_mountaineers_speed_factor = 0.05
+				modifier_army_sub_unit_mountaineers_attack_factor = 0.1
+				land_bunker_effectiveness_factor = 0.05
+			} 
 
 			cancel_if_invalid = no
 		}
@@ -121,6 +147,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				stability_factor = 0.05
+				justify_war_goal_time = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -133,6 +161,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				heat_attrition = -0.10
+				army_speed_factor = 0.05
+				recon_factor = 0.05
+				acclimatization_hot_climate_gain_factor = 0.05
+				supply_consumption_factor = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -145,6 +178,17 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				non_core_manpower = 1.00				# Can recruit from occupied lands (undead army).
+				attrition = -10.00					# Extremely resistant to attrition.
+				ai_focus_aggressive_factor = 2.5		# Highly aggressive AI behavior.
+				land_night_attack = 1.0				# More effective at night.
+				surrender_limit = 1					# Will never surrender.
+				out_of_supply_factor = -1				# Completely ignores supply issues.
+				no_supply_grace = 10000				# Never suffers from lack of supply.
+				supply_consumption_factor = -10			# Uses minimal supply.
+				supply_factor = 1					# Extra supply available.
+				conscription = 1					# Always has soldiers available (reviving dead).
+				winter_attrition = -1				# No winter attrition (cold immunity).
 			}
 
 			cancel_if_invalid = no
@@ -157,6 +201,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				winter_attrition = -0.15
+				supply_consumption_factor = -0.05
+				out_of_supply_factor = -0.05
+				acclimatization_cold_climate_gain_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -169,6 +217,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				trade_opinion_factor = 0.10
+				agency_upgrade_time = -0.10
 			}
 
 			cancel_if_invalid = no
@@ -181,6 +231,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				army_morale_factor = 0.10
+				winter_attrition = -0.10
 			}
 
 			cancel_if_invalid = no
@@ -193,6 +245,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				army_attack_factor = 0.05
+				war_support_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -205,6 +259,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05 
 			}
 
 			cancel_if_invalid = no
@@ -217,6 +273,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				modifier_army_sub_unit_cavalry_attack_factor = 0.05
+				modifier_army_sub_unit_cavalry_speed_factor = 0.10
 			}
 
 			cancel_if_invalid = no
@@ -229,6 +287,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				heat_attrition = -0.15
+				supply_consumption_factor = -0.05
+				recon_factor = 0.05
+				acclimatization_hot_climate_gain_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -241,6 +303,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				monthly_population = 0.05
 			}
 
 			cancel_if_invalid = no

@@ -1,127 +1,127 @@
 spriteTypes = {	
 
 spriteType = {
-	name = "GFX_idea_Religion_Unknown"
+	name = "GFX_idea_GOT_Religion_Unknown"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Unknown.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_Old_Gods"
+	name = "GFX_idea_GOT_Religion_Old_Gods"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Old_Gods.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_LOL"
+	name = "GFX_idea_GOT_Religion_LOL"
 	texturefile = "gfx/interface/ideas/Religion/Religion_LOL.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_Drowned_God"
+	name = "GFX_idea_GOT_Religion_Drowned_God"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Drowned_God.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_Great_Other"
+	name = "GFX_idea_GOT_Religion_Great_Other"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Great_Other.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_Many_Faced_God"
+	name = "GFX_idea_GOT_Religion_Many_Faced_God"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Many_Faced_God.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_The_Seven"
+	name = "GFX_idea_GOT_Religion_The_Seven"
 	texturefile = "gfx/interface/ideas/Religion/Religion_The_Seven.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_Great_Stallion"
+	name = "GFX_idea_GOT_Religion_Great_Stallion"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Great_Stallion.dds"
 }
 spriteType = {
-	name = "GFX_idea_Religion_Black_Goat"
+	name = "GFX_idea_GOT_Religion_Black_Goat"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Black_Goat.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Unknown"
+	name = "GFX_idea_GOT_Tradition_Unknown"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Unknown.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Ironborn"
+	name = "GFX_idea_GOT_Tradition_Ironborn"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Ironborn.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Dragonlords"
+	name = "GFX_idea_GOT_Tradition_Dragonlords"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Dragonlords.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Stormlands"
+	name = "GFX_idea_GOT_Tradition_Stormlands"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Stormlands.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_North"
+	name = "GFX_idea_GOT_Tradition_North"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_North.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Reach"
+	name = "GFX_idea_GOT_Tradition_Reach"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Reach.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Riverlands"
+	name = "GFX_idea_GOT_Tradition_Riverlands"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Riverlands.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Westerlands"
+	name = "GFX_idea_GOT_Tradition_Westerlands"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Westerlands.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Vale"
+	name = "GFX_idea_GOT_Tradition_Vale"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Vale.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Crownlands"
+	name = "GFX_idea_GOT_Tradition_Crownlands"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Crownlands.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Dorne"
+	name = "GFX_idea_GOT_Tradition_Dorne"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Dorne.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_White_Walkers"
+	name = "GFX_idea_GOT_Tradition_White_Walkers"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_White_Walkers.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Wildlings"
+	name = "GFX_idea_GOT_Tradition_Wildlings"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Wildlings.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Braavos"
+	name = "GFX_idea_GOT_Tradition_Braavos"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Braavos.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Nights_Watch"
+	name = "GFX_idea_GOT_Tradition_Nights_Watch"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Nights_Watch.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Qohor"
+	name = "GFX_idea_GOT_Tradition_Qohor"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Qohor.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Pentos"
+	name = "GFX_idea_GOT_Tradition_Pentos"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Pentos.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Dothraki"
+	name = "GFX_idea_GOT_Tradition_Dothraki"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Dothraki.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Desert"
+	name = "GFX_idea_GOT_Tradition_Desert"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Desert.dds"
 }
 spriteType = {
-	name = "GFX_idea_Tradition_Slaver"
+	name = "GFX_idea_GOT_Tradition_Slaver"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Slaver.dds"
 }
 spriteType = {
-	name = "GFX_idea_Mode_Vanilla"
+	name = "GFX_idea_GOT_Mode_Vanilla"
 	texturefile = "gfx/interface/ideas/Mode/Mode_Vanilla.dds"
 }
 spriteType = {
-	name = "GFX_idea_Mode_GOT"
+	name = "GFX_idea_GOT_Mode_GOT"
 	texturefile = "gfx/interface/ideas/Mode/Mode_GOT.dds"
 }
 
