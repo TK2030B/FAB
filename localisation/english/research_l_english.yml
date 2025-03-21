@@ -1053,26 +1053,33 @@ mtg_tank_landing_craft_desc:0 "A reinforced landing craft capable of ferrying si
  amphibious_tank_2:0 "Improved Amphibious Tank"
  amphibious_tank_2_desc:0 "The second generation of amphibious tanks feature better protection and increased fire power."
  NAVAL_TITLE_MINES:0 "SEA TRAP WARFARE"
- basic_naval_mines:0 "Contact Mine"
- basic_naval_mines_desc:0 "A simple floating bomb, anchored to the sea floor. The mine explodes when it comes into contact with a ship."
- improved_naval_mines:0 "Magnetic Mine"
- improved_naval_mines_desc:0 "This sophisticated mine explodes when it detects changes in the magnetic field stemming from a passing ship."
- advanced_naval_mines:0 "Acoustic Mine"
- advanced_naval_mines_desc:0 "This type of naval mine detonates when its sensors detect the noise of a nearby ship."
- modern_naval_mines:0 "Pressure Mine"
- modern_naval_mines_desc:0 "This highly advanced mine detects small changes in water pressure caused by a ship moving nearby."
- degaussing:0 "Degaussing"
- degaussing_desc:0 "By installing powerful electro-magnetic coils, a ship's magentic signature can be dramatically reduced, making it far less vulnerable to magnetic mines."
- submarine_mine_laying:0 "Minelaying Submarine"
- submarine_mine_laying_desc:0 "By installing special equipment to hold and release mines, a specially-designed submarine can deploy mines while submerged and, hopefully, undetected."
- improved_submarine_mine_laying:0 "Torpedo-tube Mine Deployment"
- improved_submarine_mine_laying_desc:0 "Redesigning mines to fit into torpedo tubes allows any submarine to become a minelayer, albeit at the expense of torpedoes carried."
- airdrop_mines:0 "Aerial Minelaying"
- airdrop_mines_desc:0 "By fitting the mines with a small parachute, they can be safely dropped from airplanes, allowing quick and efficient creation of minefields."
+ 
+basic_naval_mines:0 "Floating Sea Trap"  
+basic_naval_mines_desc:0 "A simple yet deadly device—barrels filled with explosives, anchored just beneath the waves. When an enemy ship collides with one, it erupts in a fiery blast, tearing through the hull."  
+
+improved_naval_mines:0 "Tethered Fire Trap"  
+improved_naval_mines_desc:0 "Ingeniously crafted, this trap uses iron chains and weighted anchors to remain hidden below the surface. When a ship disturbs the water above, the trap ignites, setting the sea ablaze."  
+
+advanced_naval_mines:0 "Echoing Death Trap"  
+advanced_naval_mines_desc:0 "A devilish contraption of suspended clay pots filled with volatile substances. Sensitive to the echoes of passing ships, these traps detonate when the vibrations in the water reach them."  
+
+modern_naval_mines:0 "Depth Shock Trap"  
+modern_naval_mines_desc:0 "This refined trap is set to explode when shifts in water pressure signal the passage of a heavy vessel. The ensuing detonation can splinter wooden hulls and drag ships to a watery grave."  
+
+degaussing:0 "Blessed Hull Runes"  
+degaussing_desc:0 "By engraving protective runes and reinforcing the hull with enchanted metals, a ship can slip past certain Sea Traps undetected, greatly reducing the chance of disaster."  
+
+submarine_mine_laying:0 "Pirate Traplayers"  
+submarine_mine_laying_desc:0 "Cunning pirate crews have devised ways to deploy Sea Traps stealthily in the dead of night, ensuring their enemies sail straight into destruction without a clue."  
+
+improved_submarine_mine_laying:0 "Hidden Trap Deployment"  
+improved_submarine_mine_laying_desc:0 "By disguising traps as floating debris or abandoned cargo, pirate ships can scatter deadly hazards without raising suspicion, making any sea passage a perilous gamble."  
+
+airsweep_mines:0 "Dragon Flame-Clearing"  
+airsweep_mines_desc:0 "Trained dragon riders can command their beasts to unleash torrents of fire over the water, igniting and detonating hidden Sea Traps before they can threaten friendly ships."  
+
  airdrop_mines_bba:0 "$airdrop_mines$"
  airdrop_mines_bba_desc:0 "$airdrop_mines_desc$"
- airsweep_mines:0 "Aerial Minesweeping"
- airsweep_mines_desc:0 "Airplanes can be fitted with special equipment to detect and safely detonate naval mines from the air."
  airsweep_mines_bba:0 "$airsweep_mines$"
  airsweep_mines_bba_desc:0 "$airsweep_mines_desc$"
  naval_mines:0 "Mine Warfare Technologies"
@@ -1157,22 +1164,31 @@ improved_heavy_armor_scheme:0 "Weirwood Ship Armor"
 improved_heavy_armor_scheme_desc:1 "Crafted from the sacred Weirwood trees, this armor offers unparalleled resilience. Said to be imbued with ancient power, ships clad in Weirwood are nearly impervious to conventional attacks.\n\nMounting this module on §YWar Galleys§! improves their ability to §Ywithstand enemy damage§!. §YWar Galleys§! and §YLight War Galleys§! are defined by their different §YArmor Schemes§!."  
 
  
- torpedo_advice_tt:0 "\nMounting §YTorpedo Launchers§! on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§! in the §YBattleline§! if they can overwhelm the enemy §YScreening Group§!."
+ torpedo_advice_tt:0 "\nMounting §YHarpoons§! on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§! in the §YBattleline§! if they can overwhelm the enemy §YScreening Group§!."
  
- basic_torpedo:0 "Basic Torpedo"
- basic_torpedo_desc:1 "A self-propelled weapon with an explosive warhead that runs on a pre-determined course until it hits the target below the waterline.\n\nMounting this module on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§!."
- magnetic_detonator:0 "Magnetic Detonator"
- magnetic_detonator_desc:0 "A new detonator detects the shift in the earth's magnetic field when the torpedo passes under the target. An explosion directly under a ship causes much more damage and often breaks the keel of the target, sinking it instantly."
- homing_torpedo:0 "Homing Torpedo"
- homing_torpedo_desc:0 "Equipped with an accoustic detector, the torpedo can home in on the biggest source of noise ahead of it - usually the target."
- electric_torpedo:0 "Electric Torpedo"
- electric_torpedo_desc:0 "Instead of leaving an easily-detected trail of bubbles, a torpedo with an electrical engine remains practically invisible until it hits. This also means that there is no trail leading back to the launching submarine."
- improved_ship_torpedo_launcher:0 "Improved Ship Torpedo Launcher"
- improved_ship_torpedo_launcher_desc:1 "Stronger motors allow more tubes to be installed in a single mount and be trained on target faster.\n\nMounting this module on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§!."
- advanced_ship_torpedo_launcher:0 "Advanced Ship Torpedo Launcher"
- advanced_ship_torpedo_launcher_desc:1 "Larger diameter tubes allow for bigger torpedoes with heavier warheads.\n\nMounting this module on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§!."
- modern_ship_torpedo_launcher:0 "Modern Ship Torpedo Launcher"
- modern_ship_torpedo_launcher_desc:1 "Powerful compressed air charges allow heavier torpedoes to be launched at higher speeds.\n\nMounting this module on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§!."
+basic_torpedo:0 "Basic Harpoon"  
+basic_torpedo_desc:1 "A massive, barbed projectile designed to pierce the hulls of enemy ships or strike down mighty sea beasts. Launched from ballistae or thrown by trained harpooners, these weapons can deal devastating damage to enemy §YCapital Ships§!.\n\nMounting this module on §YLongships§! or §YDromonds§! allows them to cripple larger foes from a distance."  
+
+ 
+magnetic_detonator:0 "Barbed Harpoon"  
+magnetic_detonator_desc:0 "By refining the design of the harpoon’s tip, we ensure deeper penetration and more devastating wounds upon impact. A well-placed shot can pierce a ship’s hull, causing severe flooding and structural failure, sometimes breaking a vessel apart entirely."  
+
+homing_torpedo:0 "Keen-Eyed Harpooners"  
+homing_torpedo_desc:0 "Only the most skilled harpooners are selected to launch these deadly projectiles. With sharper eyes and steadier hands, they can strike true even against fast-moving or evasive targets, ensuring a greater chance of landing a lethal blow."  
+
+electric_torpedo:0 "Silent Approach"  
+electric_torpedo_desc:0 "By using lightweight, well-balanced harpoons and launching from concealed positions, attackers can strike without revealing their presence. The lack of a telltale splash or visible trail ensures the enemy only realizes the danger once it is too late."  
+
+ 
+improved_ship_torpedo_launcher:0 "Improved Harpoon Launcher"  
+improved_ship_torpedo_launcher_desc:1 "Stronger wooden frames and reinforced torsion springs allow for larger harpoon racks and faster reloading, increasing the volume of fire against enemy vessels. \n\nMounting this module on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§!."  
+
+advanced_ship_torpedo_launcher:0 "Advanced Harpoon Launcher"  
+advanced_ship_torpedo_launcher_desc:1 "By refining counterweight mechanisms and using sturdier materials, this launcher can hurl massive harpoons with deadly force, capable of breaching the hulls of even the most formidable warships. \n\nMounting this module on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§!."  
+
+modern_ship_torpedo_launcher:0 "Modern Harpoon Launcher"  
+modern_ship_torpedo_launcher_desc:1 "The pinnacle of siege weaponry at sea, this advanced harpoon launcher employs precision-crafted gears and immense tension to fire barbed projectiles at terrifying speed, ensuring devastating impacts against enemy ships. \n\nMounting this module on §YLongships§! or §YDromonds§! allows them to do significant damage to enemy §YCapital Ships§!."  
+
  
  snorkel_advice_tt:0 "\nMounting §YBlack Sails§! on §YPirate Ships§! dramatically reduces their §YVisibility§!, making them harder to see and engage for enemy ships."
 basic_submarine_snorkel:0 "Basic Black Sails"  
@@ -1204,31 +1220,48 @@ basic_light_shell_desc:0 "A simple, rounded boulder designed for small catapults
 improved_light_shell:0 "Small Catapult Boulder II"  
 improved_light_shell_desc:0 "A refined and hardened boulder, carefully selected for density and impact force. Capable of smashing through reinforced hulls, it grants smaller ships the ability to damage even sturdier opponents."  
 
- basic_medium_battery:0 "Basic Medium Battery"
- basic_medium_battery_desc:1 "A powered turret with two or three guns of medium caliber for use on cruisers. \n\nMounting a §YLight Medium Weapon§! module increases §YLight Gun Attack§!, which helps in engaging enemy §YScreening Ships§!. Mounting a §YMedium Weapon§! module increases §YHeavy Gun Attack§!, which helps with engaging enemy §YCapital Ships§!."
- improved_medium_battery:0 "Improved Medium Battery"
- improved_medium_battery_desc:1 "An improved turret layout allows faster loading while better armor improves survivability. \n\nMounting a §YLight Medium Weapon§! module increases §YLight Gun Attack§!, which helps in engaging enemy §YScreening Ships§!. Mounting a §YMedium Weapon§! module increases §YHeavy Gun Attack§!, which helps with engaging enemy §YCapital Ships§!."
- advanced_medium_battery:0 "Advanced Medium Battery"
- advanced_medium_battery_desc:1 "By integrating power loading and remote power control, modern cruisers can reach rates of fire and accuracy that was hitherto considered impossible.\n\nMounting a §YLight Medium Weapon§! module increases §YLight Gun Attack§!, which helps in engaging enemy §YScreening Ships§!. Mounting a §YMedium Weapon§! module increases §YHeavy Gun Attack§!, which helps with engaging enemy §YCapital Ships§!."
- basic_medium_shell:0 "Armor-Piercing Capped Medium Shell"
- basic_medium_shell_desc:0 "By fitting a ballistic hood, shells can be made more aerodynamic while still maintaining their armor-piercing performance."
- improved_medium_shell:0 "Medium-Caliber Semi-Armor Piercing Shell"
- improved_medium_shell_desc:0 "A compromise between armor-piercing performance and explosive power, this shell does significantly more damage after punching through the weak armor of light ships."
- basic_heavy_battery:0 "Basic Heavy Battery"
- basic_heavy_battery_desc:1 "A gigantic turret housing massive guns under heavy armor. \n\nMounting a §YHeavy Weapon§! module increases a ship's §YHeavy Gun Attack§!, improving performance against enemy §YCapital Ships§!."
- improved_heavy_battery:0 "Improved Heavy Battery"
- improved_heavy_battery_desc:1 "Power Rammers increase the loading speed of heavy guns while automatic flash-tight doors improve safety. \n\nMounting a §YHeavy Weapon§! module increases a ship's §YHeavy Gun Attack§!, improving performance against enemy §YCapital Ships§!."
- advanced_heavy_battery:0 "Advanced Heavy Battery"
- advanced_heavy_battery_desc:1 "Improved Recoil Reduction Mechanisms and delay coils reduce interference of shells in flight and dramatically increase accuracy. \n\nMounting a §YHeavy Weapon§! module increases a ship's §YHeavy Gun Attack§!, improving performance against enemy §YCapital Ships§!."
- basic_heavy_shell:0 "Armor-Piercing Capped Shell"
- basic_heavy_shell_desc:0 "By fitting a ballistic hood, shells can be made more aerodynamic while still maintaining their armor-piercing performance."
- improved_heavy_shell:1 "Super-Heavy Armor Piercing Shell"
- improved_heavy_shell_desc:0 "Weighing well over a ton, these massive shells strike with unprecedented power and pose a dire threat to even the heaviest armor."
+basic_medium_battery:0 "Basic Medium Onager"  
+basic_medium_battery_desc:1 "A sturdy torsion-powered siege engine capable of hurling large stones at enemy ships. Mounted on war galleys, it provides devastating impact against wooden hulls and fortifications alike. \n\nMounting a §YLight Medium Weapon§! module increases §YLight Gun Attack§!, aiding in engagements against enemy §YScreening Ships§!. Mounting a §YMedium Weapon§! module increases §YHeavy Gun Attack§!, helping with engagements against enemy §YCapital Ships§!."  
+
+improved_medium_battery:0 "Improved Medium Onager"  
+improved_medium_battery_desc:1 "A reinforced frame and improved counterweights allow for faster reloading and greater accuracy. More resilient construction enhances survivability in the chaos of battle. \n\nMounting a §YLight Medium Weapon§! module increases §YLight Gun Attack§!, aiding in engagements against enemy §YScreening Ships§!. Mounting a §YMedium Weapon§! module increases §YHeavy Gun Attack§!, helping with engagements against enemy §YCapital Ships§!."  
+
+advanced_medium_battery:0 "Advanced Medium Onager"  
+advanced_medium_battery_desc:1 "By incorporating advanced pulley systems and refined torsion springs, this onager can unleash its payload with unprecedented speed and precision. Enemy ships stand little chance against the relentless bombardment. \n\nMounting a §YLight Medium Weapon§! module increases §YLight Gun Attack§!, aiding in engagements against enemy §YScreening Ships§!. Mounting a §YMedium Weapon§! module increases §YHeavy Gun Attack§!, helping with engagements against enemy §YCapital Ships§!."  
+
+ 
+basic_medium_shell:0 "Medium Onager Boulder I"  
+basic_medium_shell_desc:0 "A carefully shaped stone projectile designed for maximum impact. Its weight and aerodynamic form allow it to breach wooden hulls with devastating force."  
+
+improved_medium_shell:0 "Medium Onager Boulder II"  
+improved_medium_shell_desc:0 "An improved boulder with enhanced shaping for greater accuracy and penetration. This refined design ensures maximum damage upon impact, shattering both hulls and morale alike."  
+
+ 
+basic_heavy_battery:0 "Basic Heavy Onager"  
+basic_heavy_battery_desc:1 "A massive onager capable of launching enormous boulders with devastating force. Designed to breach the hulls of even the sturdiest warships.\n\nMounting a §YHeavy Weapon§! module increases a ship's §YHeavy Gun Attack§!, improving performance against enemy §YCapital Ships§!."  
+
+improved_heavy_battery:0 "Improved Heavy Onager"  
+improved_heavy_battery_desc:1 "Enhanced torsion springs and reinforced arms increase the power and efficiency of this onager, allowing for greater range and more destructive impacts.\n\nMounting a §YHeavy Weapon§! module increases a ship's §YHeavy Gun Attack§!, improving performance against enemy §YCapital Ships§!."  
+
+advanced_heavy_battery:0 "Advanced Heavy Onager"  
+advanced_heavy_battery_desc:1 "State-of-the-art engineering refines the accuracy and loading speed of this colossal war machine, ensuring devastating barrages against the mightiest ships.\n\nMounting a §YHeavy Weapon§! module increases a ship's §YHeavy Gun Attack§!, improving performance against enemy §YCapital Ships§!."  
+
+ 
+basic_heavy_shell:0 "Heavy Onager Boulder I"  
+basic_heavy_shell_desc:0 "Enormous boulders, carefully shaped and weighted, ensure maximum impact force while maintaining stability in flight. Designed to breach the thickest wooden hulls and fortress-like warships."  
+
+improved_heavy_shell:1 "Heavy Onager Boulder II"  
+improved_heavy_shell_desc:0 "Massive, reinforced boulders capable of shattering the strongest defenses. These projectiles land with earth-shaking force, posing a dire threat to even the most heavily armored vessels."  
+
+ 
  secondary_battery_advice_tt:0 "\nA §YSecondary Weapon§! allows §YDromonds§! and §YWar Galleys§! to engage enemy §YScreening Ships§! as secondary targets while dealing damage to another target."
- basic_secondary_battery:0 "Casemate Secondary Battery"
- basic_secondary_battery_desc:1 "Placed in openings along the hull, these smaller guns give the ship some defense against smaller ships, but have a limited field of fire.\n\nMounting a §YSecondary Weapon§! Module gives a §YCruiser§!, §YCarrier§!, or §YHeavy Ship§! a small amount of §YLight Gun Attack§! and allows it to engage a second target."
- improved_secondary_battery:0 "Turreted Secondary Battery"
- improved_secondary_battery_desc:1 "By placing the secondary guns in powered turrets, they gain a much wider field of fire at the expense of heavier weight and reduced stability in heavy seas.\n\nMounting a §YSecondary Weapon§! Module gives a §YCruiser§!, §YCarrier§!, or §YHeavy Ship§! a small amount of §YLight Gun Attack§! and allows it to engage a second target."
+ 
+basic_secondary_battery:0 "Hull-Mounted Secondary Siege Weapons"  
+basic_secondary_battery_desc:1 "Mounted along the ship's hull, these smaller siege engines provide defense against nimble enemy vessels and airborne threats. However, their fixed positions limit their field of fire.\n\nMounting a §YSecondary Weapon§! Module gives a §YDromond§!, §YDragon Barge§!, or §YHeavy Ship§! a small amount of §YLight Gun Attack§! and allows it to engage a second target."  
+
+improved_secondary_battery:0 "Turreted Secondary Siege Weapons"  
+improved_secondary_battery_desc:1 "By placing siege engines on rotating platforms, they gain a wider field of fire, allowing for greater battlefield control. However, the added weight and mechanical complexity reduce overall stability in rough seas.\n\nMounting a §YSecondary Weapon§! Module gives a §YDromond§!, §YDragon Barge§!, or §YHeavy Ship§! a small amount of §YLight Gun Attack§! and allows it to engage a second target."  
+
  
 damage_control_1:0 "Hull Breach Patching I"  
 damage_control_1_desc:0 "Every sailor must be ready to plug breaches in the hull using wooden planks, tar, and cloth before the ship takes on too much water. Quick action can prevent disaster in battle."  
@@ -1252,10 +1285,13 @@ fire_control_methods_3:0 "Attack Coordination III"
 fire_control_methods_3_desc:0 "By marking projectiles with distinct materials and coordinating their fire through flag signals and shouted commands, multiple ships can strike a single target without confusion. A disciplined and well-coordinated fleet can unleash devastating barrages with deadly accuracy."  
 
  
- scout_plane1:0 "Scout Plane I"
- scout_plane1_desc:0 "Gathering intelligence on enemy troop movements and providing reports of enemy naval deployments has been the original mission for airplanes since their first deployment in the Great War, and is still an important mission."
- scout_plane2:0 "Scout Plane II"
- scout_plane2_desc:0 "By developing dedicated planes to aerial surveillance and long-range reconnaissance, we ensure that we gain and maintain an accurate picture of our opponent's intentions and capabilities."
+scout_plane1:0 "Scout Dragon I"  
+scout_plane1_desc:0 "Trained to soar high above the battlefield, these swift dragons serve as invaluable scouts, spotting enemy fleets and troop movements from afar. Their keen eyesight and agility make them essential for gathering intelligence before an engagement."  
+
+scout_plane2:0 "Scout Dragon II"  
+scout_plane2_desc:0 "With advanced training and enhanced endurance, these scout dragons can cover greater distances and provide more detailed reconnaissance. Their ability to track enemy movements ensures our forces remain one step ahead in battle."  
+
+ 
  SURRENDER_REDUCTION_TOOLTIP:0 "Collaboration in $COUNTRY|H$ will reduce their surrender level by $VALUE|+%.0$"
  COLLABORATION_EFFECTS_TOOLTIP:0 "You have $COLLABORATION|+%.0$ collaboration in $COUNTRY|H$. This will reduce their surrender level by $SURRENDER|+%.0$ and will give $COMPLIANCE|+%.0$ compliance when the enemy capitulates which will be used for unlocking additional compliance modifiers."
  COLLABORATION_EFFECTS_OTHER_SIDE_TOOLTIP:0 "$OTHER_COUNTRY|H$ have $COLLABORATION|+%.0$ collaboration in $COUNTRY|H$. This will reduce $COUNTRY|H$'s surrender level by $SURRENDER|+%.0$ and will give $COMPLIANCE|+%.0$ compliance when the enemy capitulates which will be used for unlocking additional compliance modifiers."
@@ -1266,10 +1302,10 @@ fire_control_methods_3_desc:0 "By marking projectiles with distinct materials an
  cat_synth_oil:0 "Homestead Food"
  cat_armored_cars:0 "Chariots"
  cat_special_forces_generic:0 "Special Forces"
- cat_torpedoes:0 "Torpedoes"
- cat_ship_light_battery:0 "Light Batteries"
- cat_ship_medium_battery:0 "Medium Batteries"
- cat_ship_heavy_battery:0 "Heavy Batteries"
+ cat_torpedoes:0 "Harpoons"
+ cat_ship_light_battery:0 "Light Weapons"
+ cat_ship_medium_battery:0 "Medium Weapons"
+ cat_ship_heavy_battery:0 "Heavy Weapons"
  masterful_blitz:0 "Masterful Blitz"
  masterful_blitz_desc:0 "We may not have invented the Blitzkrieg, but we will develop and refine this strategy so that even the most fortified enemy defense lines will not be able to stop the advance of our glorious army."
  penal_infantry:0 "Penal Battalions"
@@ -1283,14 +1319,21 @@ fire_control_methods_3_desc:0 "By marking projectiles with distinct materials an
  early_carrier:0 "Early Carrier (Carrier I)"
  basic_carrier:0 "Basic Carrier (Carrier II)"
  improved_destroyer:0 "Improved Destroyer (Destroyer III)"
- basic_dp_light_battery:0 "Basic Dual-Purpose Battery"
- basic_dp_light_battery_desc:0 "Combining anti-ship and anti-air guns in a single mount allows for more flexibility and saves weight.\n\nMounting this module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, which helps in engaging enemy §YScreening Ships§!. These modules also increase §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!.\nMounting a §YSecondary Weapon§! Module gives a §Y$ship_hull_cruiser$§!, §Y$ship_hull_carrier$§!, or §Y$ship_hull_heavy$§! a small amount of §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§! and allows it to engage a second target."
- improved_dp_light_battery:0 "Improved Dual-Purpose Battery"
- improved_dp_light_battery_desc:0 "Powered fully enclosed Twin gun mounts greatly increase firepower and protection while saving weight.\n\nMounting this module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, which helps in engaging enemy §YScreening Ships§!. These modules also increase §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!. \nMounting a §YSecondary Weapon§! Module gives a §Y$ship_hull_cruiser$§!, §Y$ship_hull_carrier$§!, or §Y$ship_hull_heavy$§! a small amount of §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§! and allows it to engage a second target."
- advanced_dp_light_battery:0 "Advanced Dual-Purpose Battery"
- advanced_dp_light_battery_desc:0 "Automated Rapid fire enclosed gun mounts greatly increase firepower.\n\nMounting this module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, which helps in engaging enemy §YScreening Ships§!. These modules also increase §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!. \nMounting a §YSecondary Weapon§! Module gives a §Y$ship_hull_cruiser$§!, §Y$ship_hull_carrier$§!, or §Y$ship_hull_heavy$§! a small amount of §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§! and allows it to engage a second target."
- basic_dp_medium_battery:0 "Advanced Medium Dual-Purpose Battery"
- basic_dp_medium_battery_desc:0 "Automatic loading Rapid fire Medium enclosed gun Batteries greatly increase firepower.\n\nMounting a §YLight Medium Weapon§! module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, which helps in engaging enemy §YScreening Ships§!. This module also increase §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!."
+ 
+basic_dp_light_battery:0 "Basic Reinforced Ballista"  
+basic_dp_light_battery_desc:0 "A sturdy ballista designed for both ship-to-ship combat and defense against aerial threats such as dragons. Its reinforced frame allows for increased durability and accuracy.\n\nMounting this module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, aiding in engagements against enemy §YScreening Ships§!. These ballistas also enhance §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!, providing defense against airborne foes.\nEquipping a §YSecondary Weapon§! Module grants a §Y$ship_hull_cruiser$§!, §Y$ship_hull_carrier$§!, or §Y$ship_hull_heavy$§! a small boost to §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§! and enables engagement of multiple targets."  
+
+improved_dp_light_battery:0 "Improved Reinforced Ballista"  
+improved_dp_light_battery_desc:0 "A more powerful ballista mounted on a rotating turret, allowing for greater flexibility in targeting both enemy ships and dragons. The improved mechanisms provide faster reloading and increased range.\n\nMounting this module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, aiding in engagements against enemy §YScreening Ships§!. These ballistas also enhance §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!, providing better defense against aerial foes.\nEquipping a §YSecondary Weapon§! Module grants a §Y$ship_hull_cruiser$§!, §Y$ship_hull_carrier$§!, or §Y$ship_hull_heavy$§! a small boost to §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§! and enables engagement of multiple targets."  
+
+advanced_dp_light_battery:0 "Advanced Reinforced Ballista"  
+advanced_dp_light_battery_desc:0 "A state-of-the-art ballista system equipped with an auto-loading mechanism, allowing for rapid-fire capability. This formidable weapon is highly effective against both enemy ships and dragons, ensuring superior battlefield control.\n\nMounting this module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, aiding in engagements against enemy §YScreening Ships§!. These ballistas also enhance §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!, providing top-tier defense against aerial threats.\nEquipping a §YSecondary Weapon§! Module grants a §Y$ship_hull_cruiser$§!, §Y$ship_hull_carrier$§!, or §Y$ship_hull_heavy$§! a small boost to §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§! and enables engagement of multiple targets."  
+
+ 
+basic_dp_medium_battery:0 "Elite Reinforced Ballista"  
+basic_dp_medium_battery_desc:0 "A master-crafted ballista with an advanced auto-loading mechanism, allowing for rapid and precise firing. Its reinforced structure ensures maximum durability, making it highly effective against both enemy ships and dragons.\n\nMounting a §YLight Medium Weapon§! module increases §Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!, aiding in engagements against enemy §YScreening Ships§!. This module also enhances §Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!, providing superior defense against airborne threats."  
+
+ 
  armored_train:0 "$train_equipment_3$"
  railway_gun:0 "$railway_gun_equipment_1$"
  basic_train:0 "$train_equipment_1$"
