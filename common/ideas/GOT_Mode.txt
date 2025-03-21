@@ -140,10 +140,6 @@ ideas = {
 					build_cost_ic = 2.0
 					instant = yes
 				}
-				ship_hull_super_heavy = {
-					build_cost_ic = 2.0
-					instant = yes
-				}
 				ship_hull_cruiser_panzerschiff = {
 					build_cost_ic = 2.0
 					instant = yes
