@@ -198,7 +198,7 @@
  EQUIPMENT_DESIGNER_BELOW_MINIMUM_SPEED:0 "§RMax Speed is below the $SPEED$ minimum§!"
  EQUIPMENT_DESIGNER_WEIGHT_EXCEEDS_THRUST:0 "§RWeight exceeds Thrust§!"
  EQUIPMENT_DESIGNER_WEIGHT_EXCEEDS_THRUST_FOR_MISSIONS:0 "§RWeight exceeds Thrust for these missions:§!"
- EQUIPMENT_DESIGNER_PLANE_ROLE_REQUIRE_WEAPON:0 "Add main armament to give role"
+ EQUIPMENT_DESIGNER_PLANE_ROLE_REQUIRE_WEAPON:0 "Add main weapon to give role"
  EQUIPMENT_DESIGNER_DYNAMIC_VERSION_CHECKBOX_BUTTON_DESC: "§HDisplay Dynamic Version Numbering§!\nWhen checked this variant will display dynamic version numbering beside its name."
  # Specialized names can be provided by appending the archetype/hull token. These will take priority if available. E.g.
  #ship_designer_screen_ship_hull_cruiser: "Light Cruiser"
@@ -246,16 +246,16 @@
  tank_designer_land_cruiser: "War Mammoth (Support Company)"
  tank_designer_land_cruiser_role_disallowed: "Add a module that allows the §HLand Cruiser§! role to be able to switch to it."
 
- plane_designer_fighter:0 "Fighter"
- plane_designer_interceptor:0 "Interceptor"
- plane_designer_tactical_bomber:0 "Tactical Bomber"
- plane_designer_strategic_bomber:0 "Strategic Bomber"
- plane_designer_cas:0 "CAS"
- plane_designer_naval_bomber:0 "Naval Bomber"
- plane_designer_suicide:1 "Suicide Striker"
- plane_designer_scout_plane:0 "Scout"
- plane_designer_maritime_patrol_plane:1 "Naval Patrol Bomber"
- plane_designer_heavy_fighter:0 "Heavy Fighter"
+ plane_designer_fighter:0 "Hunter Dragon"
+ plane_designer_interceptor:0 "Fast Hunter Dragon"
+ plane_designer_tactical_bomber:0 "Scourge Dragon"
+ plane_designer_strategic_bomber:0 "Armageddon Dragon"
+ plane_designer_cas:0 "War Dragon"
+ plane_designer_naval_bomber:0 "Storm Dragon"
+ plane_designer_suicide:1 "Fury Dragon"
+ plane_designer_scout_plane:0 "Scout Dragon"
+ plane_designer_maritime_patrol_plane:1 "Storm Guardian"
+ plane_designer_heavy_fighter:0 "Heavy Dragon Hunter"
 
  # name list themes
  # name list themes -- updated to include country-specific and other new list names
