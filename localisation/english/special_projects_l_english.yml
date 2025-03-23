@@ -216,11 +216,11 @@
 
  ### SPECIALIZATIONS ###
  specialization: "Specialization(s)"
- specialization_nuclear: "Doom of Valyria Research"
+ specialization_nuclear: "Forbidden Library"
  specialization_naval: "Naval Engineering"
  specialization_air: "Aerodynamics and Draconics"
  specialization_land: "Land Warfare"
- specialization_nuclear_short: "Valyria"
+ specialization_nuclear_short: "Library"
  specialization_naval_short: "Naval"
  specialization_air_short: "Draconic"
  specialization_land_short: "Land"
@@ -298,87 +298,117 @@
 ##########################
   ### LAND PROJECTS ###
 ##########################
- sp_land_multi_charge_large_caliber_gun: "Multi-Charge Large Caliber Gun"
- sp_land_multi_charge_large_caliber_gun_desc: "With its multi-charge propulsion system and large caliber, this weapon is capable of delivering devastating bombardment over vast distances."
- sp_land_reward_multi_charge_large_caliber_gun_test_failure: "Catastrophical Explosion"
- sp_land_reward_multi_charge_large_caliber_gun_successful_test_firing: "Successful Firing Test"
- sp_land_reward_multi_charge_large_caliber_gun_breakthrough_in_propulsion_technology: "Breakthrough in Propulsion Technology"
- multi_charge_large_caliber_gun_small_size: "Small-Scale Multi-Charge Caliber Gun"
- sp_multi_charge_large_caliber_gun_small_size_ns: "$multi_charge_large_caliber_gun_small_size$" #Hidden NS: no need for desc
+sp_land_multi_charge_large_caliber_gun: "Siege Weapon Cluster"
+sp_land_multi_charge_large_caliber_gun_desc: "A coordinated battery of siege weapons, including trebuchets and scorpions, capable of launching devastating barrages against enemy fortifications and armies."
+sp_land_reward_multi_charge_large_caliber_gun_test_failure: "Catastrophic Malfunction"
+sp_land_reward_multi_charge_large_caliber_gun_successful_test_firing: "Successful Siege Test"
+sp_land_reward_multi_charge_large_caliber_gun_breakthrough_in_propulsion_technology: "Breakthrough in Siege Engineering"
+multi_charge_large_caliber_gun_small_size: "Small-Scale Siege Weapon Cluster"
+sp_multi_charge_large_caliber_gun_small_size_ns: "$multi_charge_large_caliber_gun_small_size$" #Hidden NS: no need for desc
 
- sp_land_super_heavy_railway_gun: "Super-Heavy Railway Gun"
- sp_land_stronghold_network: "Stronghold Network"
- sp_land_stronghold_network_desc: "A complex network of heavily fortified bunkers and strongpoints, built to withstand intense assaults and protect critical strategic locations from enemy incursions."
- sp_land_flamethrower_tank: "Flamethrower Tank"
- sp_land_military_engineering_vehicles: "Military Engineering Vehicles"
- sp_land_super_heavy_howitzer: "Super-Heavy Howitzer"
- sp_land_super_heavy_howitzer_desc: "A formidable artillery piece boasting a large caliber, that can wreak havoc on enemy defenses with unprecedented destructive force."
- sp_land_self_propelled_super_heavy_howitzer: "Self-Propelled Super-Heavy Howitzer"
- sp_land_self_propelled_super_heavy_howitzer_desc: "A self-propelled massive artillery piece with greater maneuverability on the battlefield than its towed counterpart, while accommodating an even larger caliber."
- sp_land_land_cruiser: "Land Cruiser"
- sp_land_land_cruiser_desc: "A massive armored behemoth designed to dominate the battlefield. With unparalleled size and firepower, this vehicle represents the pinnacle of armored warfare."
- sp_air_radar: "Radar"
- sp_air_radar_desc: "By using pulsed radio waves and detecting their reflections, we will be able to monitor enemy movements from land, air and sea."
- sp_air_centimetric_radar: "Centimetric Radar"
- sp_air_centimetric_radar_desc: "Developing centimetric radar will allow for detection of much smaller targets and the use of much smaller antennae." 
 
- sp_land_reward_land_cruiser_overheating: "Overheating during Trials"
- sp_land_reward_land_cruiser_chassis: "Chassis Stress Failure"
- sp_land_reward_land_cruiser_chassis_desc: "During stress testing, the chassis of the [SpecialProject.GetName] was found to be unable to handle the immense weight, causing structural deformations. The design team is split on whether to add additional reinforcement, which would further increase the vehicle's weight, or to use lighter materials, potentially compromising durability."
- sp_land_reward_option_land_cruiser_chassis_redesign: "Redesign the Chassis Entirely"
- sp_land_reward_option_land_cruiser_chassis_redesign_bonus_name: "Redesigned Chassis"
- sp_land_reward_option_land_cruiser_chassis_reinforce: "Reinforce the Chassis"
- sp_land_reward_option_land_cruiser_chassis_reinforce_bonus_name: "Reinforced Chassis"
- sp_land_reward_option_land_cruiser_chassis_lighter_materials: "Use Lighter Materials"
- sp_land_reward_option_land_cruiser_chassis_lighter_materials_bonus_name: "Lighter Materials for Chassis"
- sp_land_reward_land_cruiser_engine: "Engine Output Insufficient"
- sp_land_reward_land_cruiser_engine_desc: "Early trials show that the prototype's massive frame is putting a strain on the current engine, making the [SpecialProject.GetName] sluggish and unresponsive. The team suggests two options: develop a new, more powerful engine, or attempt modifications to boost the output of the existing one, risking engine failure."
- sp_land_reward_option_land_cruiser_engine_leave: "Leave as Is"
- sp_land_reward_option_land_cruiser_engine_modify: "Modify Current Engine"
- sp_land_reward_option_land_cruiser_engine_modify_bonus_name: "Improved Engine"
- sp_land_reward_option_land_cruiser_engine_new: "Develop a New Engine"
- sp_land_reward_option_land_cruiser_engine_new_bonus_name: "Redesigned Engine"
- sp_land_reward_land_cruiser_turret: "Complex Turret Mechanism"
- sp_land_reward_land_cruiser_turret_desc: "The enormous multi-turret design is causing severe alignment and aiming issues, delaying weapon integration. The engineering team recommends simplifying the turret layout to improve reliability, but doing so will reduce the [SpecialProject.GetName]'s planned firepower."
- sp_land_reward_option_land_cruiser_turret_original: "Keep Original Design"
- sp_land_reward_option_land_cruiser_turret_simplify: "Simplify Turret Design"
- sp_land_reward_option_land_cruiser_turret_simplify_bonus_name: "Simplified Turret Design"
- sp_land_reward_option_land_cruiser_turret_redesign: "Redesign Turret Mechanism"
- sp_land_reward_option_land_cruiser_turret_redesign_bonus_name: "Redesigned Turret Mechanism"
- sp_land_reward_land_cruiser_track: "Track System Failure"
- sp_land_reward_land_cruiser_track_desc: "The weight of the [SpecialProject.GetName] has overwhelmed the track system, leading to constant breakdowns during testing. The options are to reinforce the tracks, which would require significant re-engineering, or reduce the vehicle’s armor to lighten the load."
- sp_land_reward_option_land_cruiser_track_current: "Proceed with Current Tracks"
- sp_land_reward_option_land_cruiser_track_reduce_armor: "Reduce Armor Plating"
- sp_land_reward_option_land_cruiser_track_reduce_armor_bonus_name: "Reduced Armor Plating"
- sp_land_reward_option_land_cruiser_track_reinforce_track: "Reinforce the Track System"
- sp_land_reward_option_land_cruiser_track_reinforce_track_bonus_name: "Reinforced Track System"
- sp_land_reward_land_cruiser_communication: "Communication System Issue"
- sp_land_reward_land_cruiser_communication_desc: "The sheer size of the [SpecialProject.GetName] requires a complex internal communication system to coordinate its crew. The current system is proving inadequate, with orders getting delayed or lost. The team suggests redesigning the internal layout to improve communication flow, or installing a more advanced, yet untested system."
- sp_land_reward_option_land_cruiser_communication_current: "Leave Current System"
- sp_land_reward_option_land_cruiser_communication_new: "Install New Advanced System"
- sp_land_reward_option_land_cruiser_communication_new_bonus_name: "Advanced Communication System"
- sp_land_reward_option_land_cruiser_communication_redesign: "Redesigned Internal Layout"
- sp_land_reward_option_land_cruiser_communication_redesign_bonus_name: "Redesigned Communication System"
- sp_land_reward_land_cruiser_assembly: "Precision Assembly"
- sp_land_reward_land_cruiser_assembly_desc: "During the assembly phase, engineers successfully refined a precision alignment technique for fitting the massive components of the [SpecialProject.GetName], such as the turret ring and hull plating, significantly reducing the risk of mechanical stress fractures. We can integrate this innovative technique throughout the project to increase structural reliability overall. How should we apply it?"
- sp_land_reward_option_land_cruiser_assembly_all: "Across All Assembly Stages"
- sp_land_reward_option_land_cruiser_assembly_bonus_name: "Precision Assembly"
- sp_land_reward_option_land_cruiser_assembly_key: "Only to Key Components"
- sp_land_reward_land_cruiser_suspension: "Hydropneumatic Suspension System"
- sp_land_reward_land_cruiser_suspension_desc: "The team has perfected a cutting-edge hydropneumatic suspension system that balances the immense weight of the [SpecialProject.GetName], ensuring stability and reducing strain on the tracks even when traversing rough terrain. [Character.GetName] is confident that this suspension can be reliably implemented for better performance in the field."
- sp_land_reward_option_land_cruiser_suspension_full: "Full Hydropneumatic Suspension"
- sp_land_reward_option_land_cruiser_suspension_rear: "Limit to Rear Units"
- sp_land_reward_land_cruiser_ammunition: "Ammunition Storage Solution"
- sp_land_reward_land_cruiser_ammunition_desc: "During testing, concerns arose regarding safe storage and transport of the [SpecialProject.GetName]’s high-caliber ammunition, as the standard racks couldn’t handle the explosive shell weight safely. A novel compartmentalized storage system, using reinforced bulkheads and hydraulic loaders, has been proposed, allowing for safer handling and faster shell loading under combat conditions."
- sp_land_reward_option_land_cruiser_ammunition_current: "Maintain Current System"
- sp_land_reward_option_land_cruiser_ammunition_simplified: "Use a Simplified Version"
- sp_land_reward_option_land_cruiser_ammunition_new: "Adopt the New Storage System"
+sp_land_super_heavy_railway_gun: "Siege Trebuchet"  
+sp_land_super_heavy_railway_gun_desc: "A massive trebuchet capable of hurling enormous stones and incendiary projectiles over great distances. Designed to breach even the strongest castle walls, it is the pinnacle of medieval siege warfare."  
 
- sp_land_reward_super_heavy_howitzer_focus_preference: "Design Focus"
- sp_land_reward_super_heavy_howitzer_focus_preference_desc: "As development progresses, a critical decision must be made: We can prioritize fast production and smaller-caliber guns, or we can invest in bigger and heavier guns, sacrificing production efficiency for unparalleled firepower and devastating impact."
- sp_land_reward_option_super_heavy_howitzer_focus_preference_balance: "Keep Balance"
- sp_land_reward_option_super_heavy_howitzer_focus_preference_firepower: "Focus on Firepower"
- sp_land_reward_option_super_heavy_howitzer_focus_preference_production: "Focus on Fast Production"
+ 
+sp_land_stronghold_network: "Great Fortress"  
+sp_land_stronghold_network_desc: "An immense and near-impenetrable fortress, reinforced with towering stone walls, deep moats, and formidable defenses. Designed to withstand even the most relentless sieges, it serves as the ultimate bastion of strength against enemy invasions."  
+
+ 
+sp_land_flamethrower_tank: "Knight Wildfire Archers"  
+sp_land_flamethrower_tank_desc: "Elite knights clad in powerful armor, wielding bows that launch wildfire-tipped arrows. These warriors rain down searing green flames upon enemy ranks, turning the battlefield into an inferno of destruction."  
+
+ 
+sp_land_military_engineering_vehicles: "Utility Knights"
+sp_land_military_engineering_vehicles_desc: "A corps of specialized knights trained for engineering tasks on the battlefield, including fortification construction, trap deployment, and obstacle clearance, ensuring strategic mobility and defensive superiority."
+
+ 
+sp_land_super_heavy_howitzer: "Archer Tower"
+sp_land_super_heavy_howitzer_desc: "A towering fortification manned by skilled archers, capable of unleashing relentless volleys of arrows upon enemy forces and fortifications from great distances."
+
+
+ sp_land_self_propelled_super_heavy_howitzer: "Mobile Archer Tower"
+ sp_land_self_propelled_super_heavy_howitzer_desc: "A massive, mobile fortification engineered for improved battlefield mobility. Equipped with a reinforced platform for archers, it allows for sustained volleys while repositioning more effectively than static defenses."
+
+ 
+ sp_land_land_cruiser: "War Mammoth"
+ sp_land_land_cruiser_desc: "A towering, armored behemoth bred and trained for war. With its immense size and devastating power, the War Mammoth tramples through enemy lines, carrying archers and siege weapons into battle."
+
+sp_land_reward_land_cruiser_overheating: "Exhaustion during Trials"
+sp_land_reward_land_cruiser_overheating_desc: "The War Mammoths have been pushed to their limits during trials, showing signs of extreme fatigue and near
+
+sp_land_reward_land_cruiser_chassis: "War Mammoth Support Failure"
+sp_land_reward_land_cruiser_chassis_desc: "During testing, the War Mammoth's body was found to be unable to handle the immense weight of the archer platform, causing strain and structural damage. The design team is divided on whether to reinforce the mammoth's body with additional support, which would further increase the load, or to reduce the weight of the platform, potentially compromising its effectiveness."
+sp_land_reward_option_land_cruiser_chassis_redesign: "Redesign the War Mammoth's Support System"
+sp_land_reward_option_land_cruiser_chassis_redesign_bonus_name: "Redesigned Support System"
+sp_land_reward_option_land_cruiser_chassis_reinforce: "Reinforce the War Mammoth's Support"
+sp_land_reward_option_land_cruiser_chassis_reinforce_bonus_name: "Reinforced Support System"
+sp_land_reward_option_land_cruiser_chassis_lighter_materials: "Use Lighter Materials for the Platform"
+sp_land_reward_option_land_cruiser_chassis_lighter_materials_bonus_name: "Lighter Materials for the War Mammoth Platform"
+
+ 
+sp_land_reward_land_cruiser_engine: "War Mammoth Speed Insufficient"
+sp_land_reward_land_cruiser_engine_desc: "Early trials show that the War Mammoth's immense size and weight are slowing its movement, making the [SpecialProject.GetName] sluggish and unresponsive on the battlefield. The team suggests two options: modify the War Mammoth's training program to improve its speed and maneuverability, or lighten its burden, risking reduced effectiveness in combat."
+sp_land_reward_option_land_cruiser_engine_leave: "Leave as Is"
+sp_land_reward_option_land_cruiser_engine_modify: "Modify Training Program"
+sp_land_reward_option_land_cruiser_engine_modify_bonus_name: "Improved Training Program"
+sp_land_reward_option_land_cruiser_engine_new: "Develop a New Training Program"
+sp_land_reward_option_land_cruiser_engine_new_bonus_name: "Redesigned Training Program"
+
+ 
+sp_land_reward_land_cruiser_turret: "Complex Archer Tower Mechanism"
+sp_land_reward_land_cruiser_turret_desc: "The enormous design of the archer tower atop the War Mammoth is causing severe alignment and aiming issues, delaying the integration of archery units. The engineering team recommends simplifying the tower layout to improve reliability, but doing so will reduce the [SpecialProject.GetName]'s planned offensive power."
+sp_land_reward_option_land_cruiser_turret_original: "Keep Original Design"
+sp_land_reward_option_land_cruiser_turret_simplify: "Simplify Archer Tower Design"
+sp_land_reward_option_land_cruiser_turret_simplify_bonus_name: "Simplified Archer Tower Design"
+sp_land_reward_option_land_cruiser_turret_redesign: "Redesign Archer Tower Mechanism"
+sp_land_reward_option_land_cruiser_turret_redesign_bonus_name: "Redesigned Archer Tower Mechanism"
+
+ 
+sp_land_reward_land_cruiser_track: "Mammoth Foot Pain"
+sp_land_reward_land_cruiser_track_desc: "The immense weight of the War Mammoth and the rough terrain are causing severe foot pain, delaying progress. The team suggests two options: reinforce the mammoth's boots to better support its massive frame, which would require significant re-engineering, or reduce the overall weight it carries to lessen the strain on its feet."
+sp_land_reward_option_land_cruiser_track_current: "Proceed with Current Footwear"
+sp_land_reward_option_land_cruiser_track_reduce_armor: "Reduce Weight to Ease Strain"
+sp_land_reward_option_land_cruiser_track_reduce_armor_bonus_name: "Reduced Weight"
+sp_land_reward_option_land_cruiser_track_reinforce_track: "Reinforce Mammoth's Footwear"
+sp_land_reward_option_land_cruiser_track_reinforce_track_bonus_name: "Reinforced Footwear"
+
+ 
+sp_land_reward_land_cruiser_communication: "Warhorn Communication Issue"
+sp_land_reward_land_cruiser_communication_desc: "The sheer size of the War Mammoth requires a complex communication system to coordinate its crew. The current use of warhorns is proving inadequate, with orders getting delayed or lost. The team suggests redesigning the internal layout to improve the communication flow, or installing a more advanced, yet untested, system of warhorns."
+sp_land_reward_option_land_cruiser_communication_current: "Leave Current Warhorn System"
+sp_land_reward_option_land_cruiser_communication_new: "Install Advanced Warhorn System"
+sp_land_reward_option_land_cruiser_communication_new_bonus_name: "Advanced Warhorn System"
+sp_land_reward_option_land_cruiser_communication_redesign: "Redesign Communication Layout"
+sp_land_reward_option_land_cruiser_communication_redesign_bonus_name: "Redesigned Warhorn Communication"
+
+ 
+sp_land_reward_land_cruiser_assembly: "Precision Breeding"
+sp_land_reward_land_cruiser_assembly_desc: "During the breeding phase, engineers and beastmasters have successfully refined a precision technique for breeding War Mammoths with enhanced strength, stamina, and resilience. This technique significantly reduces the risk of health issues and injuries during training and battle. We can apply this innovative technique to the entire breeding program or focus it on specific, key beasts. How should we proceed?"
+sp_land_reward_option_land_cruiser_assembly_all: "Across All Breeding Stages"
+sp_land_reward_option_land_cruiser_assembly_bonus_name: "Precision Breeding"
+sp_land_reward_option_land_cruiser_assembly_key: "Only to Key War Mammoths"
+
+ 
+sp_land_reward_land_cruiser_suspension: "Mammoth Footwear Suspension"
+sp_land_reward_land_cruiser_suspension_desc: "The team has developed a specialized footwear suspension system to support the War Mammoth’s massive weight and ensure better mobility on rough terrain. This system will help protect its feet from wear and tear. The question remains whether to equip all four legs with this advanced footwear or limit it to just the hind legs."
+sp_land_reward_option_land_cruiser_suspension_full: "Footwear for All Four Legs"
+sp_land_reward_option_land_cruiser_suspension_rear: "Limit Footwear to Hind Legs"
+
+sp_land_reward_land_cruiser_ammunition: "Projectile Storage Solution"
+sp_land_reward_land_cruiser_ammunition_desc: "During testing, concerns arose regarding the safe storage and transport of the War Mammoth’s projectiles, such as arrows and scorpion bolts, as the standard racks couldn’t handle the weight or size safely. A novel compartmentalized storage system, using reinforced bulkheads and easier access points, has been proposed, allowing for safer handling and faster reloading during combat."
+sp_land_reward_option_land_cruiser_ammunition_current: "Maintain Current Storage System"
+sp_land_reward_option_land_cruiser_ammunition_simplified: "Use a Simplified Version"
+sp_land_reward_option_land_cruiser_ammunition_new: "Adopt the New Storage System"
+
+
+sp_land_reward_super_heavy_howitzer_focus_preference: "Archer Tower Design Focus"
+sp_land_reward_super_heavy_howitzer_focus_preference_desc: "As development progresses, a critical decision must be made: We can prioritize fast construction and smaller projectiles, or we can invest in larger, heavier projectiles and a more imposing tower structure, sacrificing efficiency for unparalleled firepower and devastating impact."
+sp_land_reward_option_super_heavy_howitzer_focus_preference_balance: "Keep a Balanced Design"
+sp_land_reward_option_super_heavy_howitzer_focus_preference_firepower: "Focus on Firepower"
+sp_land_reward_option_super_heavy_howitzer_focus_preference_production: "Focus on Fast Construction"
+
+ 
  sp_land_reward_self_propelled_super_heavy_howitzer_focus_preference: "$sp_land_reward_super_heavy_howitzer_focus_preference$"
  sp_land_reward_self_propelled_super_heavy_howitzer_focus_preference_desc: "$sp_land_reward_super_heavy_howitzer_focus_preference_desc$"
  sp_land_reward_option_self_propelled_super_heavy_howitzer_focus_preference_balance: "$sp_land_reward_option_super_heavy_howitzer_focus_preference_balance$"
@@ -389,20 +419,24 @@
  sp_land_reward_stronghold_network_delayed_by_concrete_shortage: "Delayed by Concrete Shortage"
  sp_land_reward_stronghold_network_underground_rail_systems: "Underground Rail Systems"
  sp_land_reward_stronghold_network_integration_of_anti_blast_doors: "Integration of Anti-Blast Doors"
+
  sp_land_reward_stronghold_network_communication_system_overhaul: "Communication System Overhaul"
  sp_land_reward_stronghold_network_communication_system_overhaul_desc: "While testing the internal communication network of the testing complex, the team identified inefficiencies that could be used to refine similar systems in traditional fort designs."
  sp_land_reward_option_stronghold_network_communication_system_overhaul_standardize: "Standardize"
  sp_land_reward_option_stronghold_network_communication_system_overhaul_further_study: "Further Study"
+ 
  sp_land_reward_stronghold_network_leadership_approach: "Leadership Approach"
  sp_land_reward_stronghold_network_leadership_approach_desc: "As the project advances, [Character.GetName], the lead scientist, must decide how involved [Character.GetSheHe] will be in day-to-day operations. [Character.GetSheHeCap] can choose to oversee construction directly on the field, ensuring precise execution, or remain in the office, focusing on strategy and planning."
  sp_land_reward_option_stronghold_network_leadership_approach_oversee_work_personally: "Oversee Work Personally"
  sp_land_reward_option_stronghold_network_leadership_approach_office_planning: "Office Planning"
+ 
  sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_01: "Breakthrough in Concrete Reinforcement"
  sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_01_desc: "One of the junior engineers has discovered a new reinforcement method that could be applied to standard fortifications. Documenting it now could give our scientists and engineers an edge in future research."
  sp_land_reward_option_stronghold_network_breakthrough_in_concrete_reinforcement_01_apply_and_document_discovery: "Apply and Document Discovery"
  sp_land_reward_option_stronghold_network_breakthrough_in_concrete_reinforcement_01_use_in_current_project: "Use in Current Project"
  sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_02: "$sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_01$"
  sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_02_desc: "A new reinforcement method discovered by one of the junior engineers has been forwarded to an outside research team for further evaluation. While the findings are still under review, the technique can still be applied to the current project if deemed suitable."
+ 
  sp_land_reward_option_stronghold_network_collapse_01: "Collapse During Tunnel Construction"
  sp_land_reward_option_stronghold_network_collapse_01_desc: "A tunnel under one of the main bunkers collapsed unexpectedly, trapping several workers and the lead scientist, [Character.GetName], who was overseeing operations, under the rubble. Emergency measures must be taken to rescue the trapped personnel, but the incident has already caused a delay in overall progress."
  sp_land_reward_option_stronghold_network_collapse_01_prioritize_scientist: "Prioritize our Lead Scientist"
@@ -466,20 +500,28 @@
   ## NUCLEAR PROJECTS ## 
 ##########################
 
- sp_nuclear_reactor: "Nuclear Reactor"
- sp_nuclear_reactor_desc: "Experiments have proven that splitting atoms through fission releases vast amounts of energy, which could be used for power generation. Or perhaps as fuel for bombs..."
- sp_commercial_nuclear_reactor: "Commercial Nuclear Reactor"
- sp_commercial_nuclear_reactor_desc: "Nuclear reactors are good for producing materials for bombs. But the amount of energy produced could instead supply civilian and military industry with power."
- sp_nuclear_engines: "Nuclear Engines"
- sp_nuclear_engines_desc: "Engines that can run forever - without needing to refuel. This is the promise of atomic energy. A promise our engineers say that we are very close to fulfilling."
- sp_nuclear_bomb: "Nuclear Fission Bomb Project"
- sp_nuclear_bomb_desc: "A bomb using the process of nuclear fission to release the stored energy of the atom in one apocalyptic moment. With such a weapon in our arsenal, who would dare oppose us?"
- sp_nuclear_bomb_tt: "Nuclear reactors start producing §YNuclear Bombs§!."
- sp_thermo_nuclear_bomb: "Thermonuclear Bomb"
- sp_thermo_nuclear_bomb_desc: "It is truly hard to imagine anything beyond the fission bomb, but with nuclear fusion, it is possible to create an explosion far larger than anything built before."
- sp_thermo_nuclear_bomb_tt: "Nuclear reactors start producing §YThermonuclear Bombs§!."
- sp_nuclear_warheads: "Nuclear Warheads"
- sp_nuclear_warheads_desc: "By creating condensed nuclear weapons, we will be able to utilize them as a payload upon a wide range of rocket-based launch systems, allowing us to strike across vast distances."
+ sp_nuclear_reactor: "Warlock's Tower"  
+ sp_nuclear_reactor_desc: "A towering structure where the most powerful sorcerers harness forbidden magics, generating immense arcane energy. This energy can be used for grand enchantments—or for devastating weapons of war."  
+
+ sp_commercial_nuclear_reactor: "Oracle's Sanctum"  
+ sp_commercial_nuclear_reactor_desc: "A sacred place where powerful seers channel immense magical energies. While these energies could be used for destructive purposes, they are instead harnessed to empower cities and fortresses, fueling both civilian and military endeavors."  
+
+ sp_nuclear_engines: "Wildfire Engines"  
+ sp_nuclear_engines_desc: "A revolutionary breakthrough in naval propulsion, Wildfire Engines burn with an unquenchable magical flame, granting ships near-limitless endurance. No longer bound by the winds or the oars of rowers, our fleets can now traverse the seas with unprecedented power and speed."  
+
+ 
+ sp_nuclear_bomb: "Wildfire Bomb"  
+ sp_nuclear_bomb_desc: "A terrifying alchemical creation, Wildfire burns hotter than any natural flame, consuming stone, steel, and flesh alike in an unstoppable inferno. With such a weapon at our disposal, entire cities could be reduced to ash in moments."  
+ sp_nuclear_bomb_tt: "Warlock's Towers start producing §YWildfire Bombs§!."  
+
+ sp_thermo_nuclear_bomb: "Cataclysmic Wildfire Bomb"  
+ sp_thermo_nuclear_bomb_desc: "An even deadlier refinement of Wildfire, this bomb engulfs everything in an all-consuming emerald blaze. Once unleashed, it spreads like a tidal wave of destruction, leaving nothing but scorched ruins in its wake."  
+ sp_thermo_nuclear_bomb_tt: "Warlock's Towers start producing §YCataclysmic Wildfire Bombs§!."  
+
+ 
+ sp_nuclear_warheads: "Wildfire Projectiles"  
+ sp_nuclear_warheads_desc: "By refining our Wildfire weapons into more compact and potent forms, we can now launch them using advanced trebuchet systems. With these devastating projectiles, we can lay waste to distant fortresses and entire cities alike."  
+
 
 
 #################################
@@ -572,24 +614,32 @@
 #########################
   ## ROCKET PROJECTS ## 
 #########################
- sp_rockets_experimental_rockets: "Experimental Rockets"
+ sp_rockets_experimental_rockets: "Experimental Blitz Dragons"
  sp_rockets_experimental_rockets_desc: "$experimental_rockets_desc$"
- sp_rockets_flying_bomb: "Flying Bomb"
- sp_rockets_flying_bomb_desc: "An unmanned aircraft, using a rocket engine, carrying a significant payload, should be able to strike fear in the hearts of our enemy, demoralizing them."
- sp_rockets_ballistic_missile: "Ballistic Missile"
- sp_rockets_ballistic_missile_desc: "A guided ballistic missile, capable of delivering a warhead from great distances with unprecedented speed and accuracy."
+ 
+ sp_rockets_flying_bomb: "Basic Trebuchet Boulder"  
+ sp_rockets_flying_bomb_desc: "A massive boulder launched by a trebuchet, capable of devastating enemy fortifications and spreading terror among their ranks."  
 
- sp_rockets_medium_range_ballistic_missile: "MRBM"
- sp_rockets_medium_range_ballistic_missile_desc: "Medium range ballistic missiles shall enable us to deliver a warhead across a continent with astonishing accuracy and devastating impact."
+ 
+ sp_rockets_ballistic_missile: "Basic Fiery Boulder"  
+ sp_rockets_ballistic_missile_desc: "A massive boulder set ablaze and launched by a trebuchet, designed to spread fire and destruction upon enemy fortifications from great distances."  
 
- sp_rockets_long_range_ballistic_missile: "ICBM"
- sp_rockets_long_range_ballistic_missile_desc: "An intercontinental ballistic missile, likely the largest missile we need ever build, capable of delivering a warhead with great accuracy basically anywhere on the globe."
 
- sp_rockets_ground_to_air_missile: "Surface to Air Missiles"
- sp_rockets_ground_to_air_missile_desc: "A large rocket powered anti-air missile, capable of knocking a bomber out of the sky with a single hit. This will shape the future of air defense, for sure."
+ sp_rockets_medium_range_ballistic_missile: "Medium Range Fiery Boulder"  
+ sp_rockets_medium_range_ballistic_missile_desc: "A blazing boulder launched by an advanced trebuchet, capable of reaching distant enemy fortifications with remarkable precision and devastating firepower."  
 
- sp_rocket_interceptor: "Rocket Interceptor"
- sp_rocket_interceptor_desc: "Combining the power of a rocket with the maneuverability of a small chassis, we will create an unmatched interceptor aircraft."
+
+ sp_rockets_long_range_ballistic_missile: "Long Range Wildfire Boulder"  
+ sp_rockets_long_range_ballistic_missile_desc: "A massive enchanted boulder, hurled by an immense trebuchet, soaring across vast distances to set enemy strongholds ablaze with unstoppable wildfire."  
+
+
+ sp_rockets_ground_to_air_missile: "Dragonbane Bolt"  
+ sp_rockets_ground_to_air_missile_desc: "A powerful enchanted bolt, designed to pierce the scales of even the mightiest dragons, ensuring the skies remain under our control."  
+
+
+ sp_rocket_interceptor: "Blitz Dragon"  
+ sp_rocket_interceptor_desc: "A swift and highly maneuverable dragon, harnessing the power of enchanted winds to reach unparalleled speeds and strike down enemies before they can react."  
+
 
 
 ################################
@@ -701,71 +751,88 @@
  sp_rocket_launch_site_choice_reward_reject: "Find a way to make the current site work."
  sp_rocket_launch_site_choice_reward_accept: "We shall invest in a new facility."
 
- SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT: "In order to effectively use $PROJECT|Y$ we need to construct Rocket Site or have Submarines with missile strike capability."
- SP_ROCKET_SITE_REMINDER_PROJECT: "In order to effectively use $PROJECT|Y$ we need to construct Rocket Site."
+ SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT: "In order to effectively use $PROJECT|Y$ we need to construct Siege Weapon Site or have Pirate Ships with siege weapon capability."
+ SP_ROCKET_SITE_REMINDER_PROJECT: "In order to effectively use $PROJECT|Y$ we need to construct Siege Weapon Site."
 ########################
   ## NAVAL PROJECTS ## 
 ########################
- sp_naval_cruiser_submarine: "Cruiser Submarine"
- sp_naval_cruiser_submarine_desc: "A submarine with superior range, designed for traversing long distances, without support, would be ideal for attacking enemy shipping."
- sp_naval_cruiser_submarine_free_design: "Cruiser Submarine"
+sp_naval_cruiser_submarine: "Corsair Ship"  
+sp_naval_cruiser_submarine_desc: "A heavily armed, long-range raiding vessel, designed to prowl the seas without support. Ideal for striking enemy merchant fleets and evading pursuit, it embodies the ruthless spirit of the corsairs."  
+sp_naval_cruiser_submarine_free_design: "Corsair Ship"  
 
- sp_naval_nuclear_submarine: "Nuclear Submarine"
- sp_naval_nuclear_submarine_desc: "We should be able to make nuclear engines small enough to fit in a specialized submarine, making the vessel silent and providing it with extreme range."
- sp_naval_nuclear_submarine_free_design: "Nuclear Submarine"
 
- sp_naval_rocket_launching_submarine: "Missile Launching Submarine"
- sp_naval_rocket_launching_submarine_desc: "By equipping our submarines with missiles, and launch systems, we should be able to hit our enemies' strategic targets anywhere, and with no prior warning."
+sp_naval_nuclear_submarine: "Phantom Ship"  
+sp_naval_nuclear_submarine_desc: "A vessel of legend, the Phantom Ship roams the seas with an unnatural range, striking from the shadows before vanishing without a trace. Some say it is powered by lost Valyrian sorcery, allowing it to sail without wind or oars, forever hunting those who dare to cross its path."  
+sp_naval_nuclear_submarine_free_design: "Phantom Ship"  
+
+
+sp_naval_rocket_launching_submarine: "Pirate Trebuchet"  
+sp_naval_rocket_launching_submarine_desc: "Through ingenious craftsmanship and arcane engineering, we have devised a way to mount massive trebuchets onto our pirate vessels. These terrifying siege engines can hurl explosive payloads at enemy strongholds and fleets from great distances, striking without warning and vanishing into the mists of the open sea."  
+sp_naval_rocket_launching_submarine_free_design: "Pirate Trebuchet"  
+
  
- sp_naval_torpedo_cruiser: "Torpedo Cruiser"
- sp_naval_torpedo_cruiser_desc: "We can inflict significant damage on our enemies' most important and expensive ships, utilizing Torpedo Cruisers, according to the last century's concept - Jeune École."
- JAP_sp_naval_torpedo_cruiser: "Long-Lance Cruiser Integration"
- sp_naval_torpedo_cruiser_free_design: "Torpedo Cruiser"
+sp_naval_torpedo_cruiser: "Pirate-Hunter Dromond"  
+sp_naval_torpedo_cruiser_desc: "Fast and heavily armed, the Pirate-Hunter Dromond is designed to hunt down and destroy enemy raiders. Equipped with reinforced rams and powerful siege weapons, it excels at striking swiftly and crippling larger vessels."  
+sp_naval_torpedo_cruiser_free_design: "Pirate-Hunter Dromond"  
 
- sp_naval_fleet_submarine: "Fleet Submarine"
- sp_naval_fleet_submarine_desc: "A long-range submarine capable of acting as a fleet escort but without the flaws inherent in the design of the previous cruiser submarines."
- sp_naval_fleet_submarine_free_design: "Fleet Submarine"
 
- sp_naval_super_heavy_battleship: "Super Heavy Battleship"
- sp_naval_super_heavy_battleship_desc: "The naval arms race may have diversified in recent years, yet it is hard to deny the sheer majesty of the battleship, and the potential for building even greater behemoths."
- sp_naval_super_heavy_battleship_tt: "Add technology: §YSuper Heavy Hull§!"
- sp_naval_super_heavy_battleship_free_design: "Super Heavy Battleship"
+sp_naval_fleet_submarine: "Flagship of the Corsairs"  
+sp_naval_fleet_submarine_desc: "A formidable long-range raiding vessel, capable of leading corsair fleets in daring strikes across the seas. Unlike earlier designs, it balances endurance and firepower without compromising stealth and speed."  
+sp_naval_fleet_submarine_free_design: "Flagship of the Corsairs"  
 
- sp_naval_nuclear_missile_submarine: "Nuclear Missile Submarine""
- sp_naval_nuclear_missile_submarine_desc: "If we are able to surface a submarine, fire a missile with a nuclear charge, and then submerge again, our first-strike potential becomes almost limitless."
+
+sp_naval_super_heavy_battleship: "Royal War Galley"  
+sp_naval_super_heavy_battleship_desc: "The naval arms race may have shifted, but nothing rivals the sheer dominance of the Royal War Galley. A colossal vessel, adorned with the finest craftsmanship, it serves as both a symbol of power and a devastating force on the seas, capable of crushing lesser ships beneath its reinforced hull."  
+sp_naval_super_heavy_battleship_tt: "Add technology: §YRoyal War Galley Hull§!"  
+sp_naval_super_heavy_battleship_free_design: "Royal War Galley"  
+
+
+sp_naval_nuclear_missile_submarine: "Pirate Doomsday Trebuchet"  
+sp_naval_nuclear_missile_submarine_desc: "A terrifying fusion of ancient Valyrian devastation and piratical ingenuity, the Pirate Doomsday Trebuchet is capable of launching apocalyptic payloads from the seas. With enchanted siege weapons hurling the very essence of the Doom of Valyria, entire cities and fleets can be reduced to ruin before the ship vanishes once more into the mists."  
+sp_naval_nuclear_missile_submarine_free_design: "Pirate Doomsday Trebuchet"  
+
  
- sp_naval_modern_battleship: "Modern Battleship"
- sp_naval_modern_battleship_desc: "Others may believe that the future of the naval combat will be dominated by the carriers, we are here to convince them that they are wrong."
- sp_naval_modern_battleship_free_design: "Modern Battleship"
+sp_naval_modern_battleship: "Elite War Galley"  
+sp_naval_modern_battleship_desc: "While some may claim that naval warfare has shifted towards Dragon Barges and aerial dominance, the Elite War Galley stands as proof that raw power and superior craftsmanship can still rule the seas. With reinforced hulls and devastating firepower, these warships will ensure our supremacy over any fleet that dares challenge us."  
+sp_naval_modern_battleship_free_design: "Elite War Galley"  
 
- sp_naval_midget_submarine: "Midget Submarine"
- sp_naval_midget_submarine_desc: "There exists a niche in our naval capabilities for a lightweight, cheap, and versatile submarine, that could be used for anything from harbor sabotage to convoy raiding."
- sp_naval_midget_submarine_free_design: "Midget Submarine"
 
- sp_naval_nuclear_torpedo: "Nuclear Torpedo"
- sp_naval_nuclear_torpedo_desc: "With the advent of low-yield tactical warheads, long-range torpedos with these warheads attached could theoretically be deployed by any conventional submarine."
+sp_naval_midget_submarine: "Raider Skiff"  
+sp_naval_midget_submarine_desc: "A nimble and elusive vessel, the Raider Skiff is perfect for stealthy operations, from sabotaging enemy harbors to ambushing vulnerable merchant convoys. Light, fast, and easily concealed, these craft strike without warning before slipping away into the fog."  
+sp_naval_midget_submarine_free_design: "Raider Skiff"  
 
- sp_naval_modern_carrier: "Modern Carrier"
- sp_naval_modern_carrier_desc: "With the latest developments on ship-building techniques we could build a new generation of aircarft carriers, with vastly improved size and capabilities."
- sp_naval_modern_carrier_free_design: "Modern Carrier" 
 
- sp_naval_anechoic_tiles: "Anechoic Tiles"
- sp_naval_anechoic_tiles_desc: "This special rubber tiled coating for submarines, which contains small empty spaces between them; reduce the threats of detection by enemy sonars."
- sp_naval_anechoic_tiles_non_mtg_tt: "Enables Submarine Stealth Upgrade value of 6 and 7"
+sp_naval_nuclear_torpedo: "Doomsday Harpoon"  
+sp_naval_nuclear_torpedo_desc: "A weapon of ancient devastation, the Doomsday Harpoon harnesses the forgotten alchemy of Valyria, unleashing an unstoppable force upon enemy vessels. Once launched, there is no escape—only fire and ruin."  
+
+
+sp_naval_modern_carrier: "Elite Dragon Barge"  
+sp_naval_modern_carrier_desc: "With advancements in shipbuilding and dragon-rearing techniques, we can construct a new generation of Dragon Barges, vastly increasing their capacity and capabilities. These floating fortresses will serve as the ultimate platforms for launching devastating aerial assaults, ensuring that our dominion over the skies remains unchallenged."  
+sp_naval_modern_carrier_free_design: "Elite Dragon Barge"  
+
+
+sp_naval_anechoic_tiles: "Black Hull"  
+sp_naval_anechoic_tiles_desc: "By coating our pirate ships in a special pitch-black resin and refining their hull shapes, we can make them nearly invisible at night, allowing them to slip past enemy patrols and strike unseen."  
+sp_naval_anechoic_tiles_non_mtg_tt: "Enables Pirate Ship Stealth Upgrade value of 6 and 7"  
+
  
- sp_naval_aip_engine: "Air-Independent Propulsion"
- sp_naval_aip_engine_desc: "A new propulsion system that could eliminate the weakness of submarines needing to resurface in order to recharge their batteries and replenish oxygen supply."
- sp_naval_aip_engine_non_mtg_tt: "Enables Submarine Engine Upgrade value of 6 and 7"
+sp_naval_aip_engine: "Oars & Sails"  
+sp_naval_aip_engine_desc: "By refining the design of sails and improving rowing efficiency, our ships can travel greater distances without needing to make port, allowing for extended raids and deep-water operations."  
+sp_naval_aip_engine_non_mtg_tt: "Enables Oars & Sails Upgrade value of 6 and 7"  
+
  
- sp_naval_ice_carrier: "Ice Aircraft Carrier"
- sp_naval_ice_carrier_desc: "In order to assert our air superiority over the vast oceans, we need carriers that could store and launch long-range regular airplanes, and not just carrier aircraft. "
- sp_naval_ice_carrier_free_design: "Ice Aircraft Carrier" 
+sp_naval_ice_carrier: "Ice Dragon Barge"  
+sp_naval_ice_carrier_desc: "Forged from enchanted ice that never melts, the Ice Dragon Barge is a floating fortress of the frozen dead. Empowered by White Walker sorcery, this colossal vessel serves as a launch platform for terrifying frost-bound dragons, ensuring that the skies—and the seas—remain under the dominion of the cold."  
+sp_naval_ice_carrier_free_design: "Ice Dragon Barge"  
+
  
- sp_naval_underway_replenishment: "Underway Replenishment"
- sp_naval_underway_replenishment_desc: "Supplying navies far from their home bases were always a limiting factor. With our fleets operating on extreme ranges, we need to develop a new methods for resupply."
+sp_naval_underway_replenishment: "Supply Cogs & Shore Depots"  
+sp_naval_underway_replenishment_desc: "Sustaining fleets on long voyages has always been a challenge. By employing supply cogs to ferry provisions and establishing temporary shore depots along our routes, we can ensure our ships remain stocked with food, water, and armaments, allowing for extended operations far from home."  
+
  
- sp_naval_proximity_fuze: "Proximity Fuze"
- sp_naval_proximity_fuze_desc: "With improved and more reliable radio technology, we can develop new kind of fuzes, that would explode by just being in the proximity of the target, and damaging it."
+sp_naval_proximity_fuze: "Enhanced Bolts & Tensioning"  
+sp_naval_proximity_fuze_desc: "By refining the craftsmanship of our siege engines and naval ballistae, we can develop stronger, more precise bolts with improved tensioning mechanisms. These enhancements allow our ships to strike attacking dragons with greater accuracy and devastating force, ensuring our fleets remain safe from aerial threats."  
+
 
 #################################
   ## NAVAL PROTOTYPE REWARDS ###
@@ -880,42 +947,42 @@
  ### NAVAL ADD_EQUIPMENT_BONUS ###
 ########################################
 
- sp_cruiser_submarine_eq_bonus_range: "Cruiser Submarine - Extended Range"
- sp_cruiser_submarine_eq_bonus_raiding: "Cruiser Submarine - Raiding Efficiency"
- sp_fleet_submarine_eq_bonus_attack: "Fleet Submarine - Offensive Focus"
- sp_fleet_submarine_eq_bonus_reliability: "Fleet Submarine - Structural Focus"
- sp_nuclear_submarine_eq_bonus_ic_reduction: "Nuclear Submarine - Cheaper Construction"
- sp_nuclear_submarine_eq_bonus_quality: "Nuclear Submarine - Quality Focus"
- sp_rocket_submarine_eq_bonus_range_increase: "Missile Launching Submarine - Extended Range"
- sp_rocket_submarine_eq_bonus_reliability: "Missile Launching Submarine - Reliablity Focus"
- sp_rocket_submarine_eq_bonus_stealth: "Missile Launching Submarine - Stealth Focus"
- sp_nuclear_missile_submarine_eq_bonus_stealth: "Nuclear Missile Submarine - Stealth Focus"
- sp_nuclear_missile_submarine_eq_bonus_strength: "Nuclear Missile Submarine - Enchanced Durability"
- sp_midget_submarine_eq_bonus_stealth: "Midget Submarine - Stealth Focus"
- sp_midget_submarine_eq_bonus_reliability: "Midget Submarine - Reliability Focus"
- sp_midget_submarine_eq_bonus_range: "Midget Submarine - Extended Range"
- sp_torpedo_cruiser_eq_bonus_torpedo: "Torpedo Cruiser - Enchanced Torpedo Capability"
- sp_torpedo_cruiser_eq_bonus_light_attack: "Torpedo Cruiser - Light Artillery Improvements"
- sp_super_heavy_battleship_eq_bonus_heavy_attack: "Super Heavy Battleship - Heavy Artillery Improvement"
- sp_super_heavy_battleship_eq_bonus_speed: "Super Heavy Battleship - Improved Engines"
- sp_super_heavy_battleship_eq_bonus_light_attack: "Super Heavy Battleship - Light Artillery Improvement"
- sp_super_heavy_battleship_eq_bonus_armor: "Super Heavy Battleship - Stronger Hull & Armor"
- sp_super_heavy_battleship_eq_bonus_anti_air: "Super Heavy Battleship - Improved Anti-Air"
- sp_super_heavy_battleship_eq_bonus_anti_torpedo: "Super Heavy Battleship - Better Anti-Torpedo Measures"
- sp_modern_battleship_eq_bonus_heavy_attack: "Modern Battleship - Heavy Artillery Improvement"
- sp_modern_battleship_eq_bonus_speed: "Modern Battleship - Better Engines"
- sp_modern_battleship_eq_bonus_light_attack: "Modern Battleship - Light Artillery Improvement"
- sp_modern_battleship_eq_bonus_armor: "Modern Battleship - Reinforced Hull and Armor"
- sp_modern_battleship_eq_bonus_anti_air: "Modern Battleship - Modern Anti-Air Measures"
- sp_modern_battleship_eq_bonus_anti_torpedo: "Modern Battleship - Better Torpedo Damage Control"
- sp_modern_carrier_eq_bonus_detection: "Modern Carrier - Increased Detection and Awareness Capability"
- sp_modern_carrier_eq_bonus_speed: "Modern Carrier - Speed Improvement"
- sp_modern_carrier_eq_bonus_light_attack: "Modern Carrier - Light Ship Detterence"
- sp_modern_carrier_eq_bonus_armor: "Modern Carrier - Modern Carrier Deck Armor"
- sp_modern_carrier_eq_bonus_anti_air: "Modern Carrier - Modern Anti-Air Defense"
- sp_modern_carrier_eq_bonus_anti_torpedo: "Modern Carrier - Increased Torpedo Damage Protection"
- sp_mega_carrier_eq_bonus_weather: "Ice Aircraft Carrier - Increased Resistance to Weather"
- sp_mega_carrier_eq_bonus_strength: "Ice Aircraft Carrier - Stronger Construction"
+ sp_cruiser_submarine_eq_bonus_range: "Corsair Ship - Extended Range"
+ sp_cruiser_submarine_eq_bonus_raiding: "Corsair Ship - Raiding Efficiency"
+ sp_fleet_submarine_eq_bonus_attack: "Flagship of the Corsairs - Offensive Focus"
+ sp_fleet_submarine_eq_bonus_reliability: "Flagship of the Corsairs - Structural Focus"
+ sp_nuclear_submarine_eq_bonus_ic_reduction: "Phantom Ship - Cheaper Construction"
+ sp_nuclear_submarine_eq_bonus_quality: "Phantom Ship - Quality Focus"
+ sp_rocket_submarine_eq_bonus_range_increase: "Pirate Trebuchet - Extended Range"
+ sp_rocket_submarine_eq_bonus_reliability: "Pirate Trebuchet - Reliablity Focus"
+ sp_rocket_submarine_eq_bonus_stealth: "Pirate Trebuchet - Stealth Focus"
+ sp_nuclear_missile_submarine_eq_bonus_stealth: "Pirate Trebuchet - Stealth Focus"
+ sp_nuclear_missile_submarine_eq_bonus_strength: "Pirate Trebuchet - Enchanced Durability"
+ sp_midget_submarine_eq_bonus_stealth: "Raider Skiff - Stealth Focus"
+ sp_midget_submarine_eq_bonus_reliability: "Raider Skiff - Reliability Focus"
+ sp_midget_submarine_eq_bonus_range: "Raider Skiff - Extended Range"
+ sp_torpedo_cruiser_eq_bonus_torpedo: "Pirate-Hunter Dromond - Enchanced Harpoon Capability"
+ sp_torpedo_cruiser_eq_bonus_light_attack: "Pirate-Hunter Dromond - Light Weapon Improvements"
+ sp_super_heavy_battleship_eq_bonus_heavy_attack: "Royal War Galley - Heavy Weapon Improvement"
+ sp_super_heavy_battleship_eq_bonus_speed: "Royal War Galley - Improved Oars & Sails"
+ sp_super_heavy_battleship_eq_bonus_light_attack: "Royal War Galley - Light Weapon Improvement"
+ sp_super_heavy_battleship_eq_bonus_armor: "Royal War Galley - Stronger Hull & Armor"
+ sp_super_heavy_battleship_eq_bonus_anti_air: "Royal War Galley - Improved Anti-Air"
+ sp_super_heavy_battleship_eq_bonus_anti_torpedo: "Royal War Galley - Better Anti-Harpoon Measures"
+ sp_modern_battleship_eq_bonus_heavy_attack: "Elite War Galley - Heavy Weapon Improvement"
+ sp_modern_battleship_eq_bonus_speed: "Elite War Galley - Better Oars & Sails"
+ sp_modern_battleship_eq_bonus_light_attack: "Elite War Galley - Light Weapon Improvement"
+ sp_modern_battleship_eq_bonus_armor: "Elite War Galley - Reinforced Hull and Armor"
+ sp_modern_battleship_eq_bonus_anti_air: "Elite War Galley - Modern Anti-Air Measures"
+ sp_modern_battleship_eq_bonus_anti_torpedo: "Elite War Galley - Better Harpoon Damage Control"
+ sp_modern_carrier_eq_bonus_detection: "Elite Dragon Barge - Increased Detection and Awareness Capability"
+ sp_modern_carrier_eq_bonus_speed: "Elite Dragon Barge - Speed Improvement"
+ sp_modern_carrier_eq_bonus_light_attack: "Elite Dragon Barge - Light Ship Detterence"
+ sp_modern_carrier_eq_bonus_armor: "Elite Dragon Barge - Elite Dragon Barge Deck Armor"
+ sp_modern_carrier_eq_bonus_anti_air: "Elite Dragon Barge - Modern Anti-Air Defense"
+ sp_modern_carrier_eq_bonus_anti_torpedo: "Elite Dragon Barge - Increased Harpoon Damage Protection"
+ sp_mega_carrier_eq_bonus_weather: "Ice Dragon Barge - Increased Resistance to Weather"
+ sp_mega_carrier_eq_bonus_strength: "Ice Dragon Barge - Stronger Construction"
 #########################################
  ## GENERIC NAVAL PROTOTYPE REWARDS ###
 #########################################
@@ -945,36 +1012,48 @@
   ## AIR PROJECTS ## 
 ######################
 
- sp_air_bouncing_bomb: "Bouncing Bomb"
- sp_air_bouncing_bomb_desc: "A bomb that can skip and bounce over water surfaces could be the perfect tool to breach dam defenses, and could prove useful in other situations as well."
+ sp_air_bouncing_bomb: "Molten Lava Dragonfire"
+ sp_air_bouncing_bomb_desc: "A devastating technique where dragons unleash flames so intense they instantly evaporate water and obliterate dams. This specialized form of dragonfire ensures the destruction of critical water defenses, reshaping the battlefield."
  sp_air_bouncing_bomb_completion_tt: "Unlocks §Y$raid_type_dam_bombing_raid$§! and §Y$raid_type_lock_bombing_raid$§!"
 
  sp_air_bouncing_bomb_no_bba: "$sp_air_bouncing_bomb$"
  sp_air_bouncing_bomb_no_bba_desc: "$sp_air_bouncing_bomb_desc$"
 
- sp_air_earthshaker_bomb: "Earthshaker Bomb"
- sp_air_earthshaker_bomb_desc: "A heavy bomb that is constructed in such a way that it penetrates the ground before it detonates, causing massive structural damage to the target."
+ sp_air_earthshaker_bomb: "Molten Burrow Dragonfire"
+ sp_air_earthshaker_bomb_desc: "A terrifying form of dragonfire that seeps deep into fortifications before igniting, incinerating everything and everyone within. No fortress can withstand the sheer intensity of this fire, which turns stone and steel into molten ruin."
+
  sp_air_earthshaker_bomb_completion_tt: "Unlocks §Y$raid_type_mega_gun_emplacement_strike$§! raids"
  sp_air_earthshaker_bomb_no_bba: "$sp_air_earthshaker_bomb$"
  sp_air_earthshaker_bomb_no_bba_desc: "$sp_air_earthshaker_bomb_desc$"
  
- sp_air_intercontinental_bomber: "Intercontinental Bomber"
- sp_air_intercontinental_bomber_desc: "A huge aircraft loaded with bombs and fuel, designed specifically for long-distance high-altitude flying granting it the ability to cross oceans and continents."
+ sp_air_intercontinental_bomber: "Ragnarok Dragon"
+ sp_air_intercontinental_bomber_desc: "A colossal, fire-breathing dragon of apocalyptic might, capable of soaring across vast oceans and continents to unleash devastation upon distant lands. Few can stand against its wrath as it reduces entire cities to ashes from the skies."
 
- sp_air_mothership_aircraft: "Mothership Aircraft"
- sp_air_mothership_aircraft_desc: "A massive aircraft that carries fighter planes into battle, enabling deep escort missions into enemy territory—truly the swarm-lord of the skies."
 
- sp_air_jet_engine: "Jet Engine"
- sp_air_jet_engine_desc: "Jet engines are far more powerful than propeller engines, potentially revolutionizing aircraft design and sparking a new era of aeronautical engineering."
+ sp_air_mothership_aircraft: "Great Broodmother"
+ sp_air_mothership_aircraft_desc: "A titanic dragon matriarch that commands the skies, carrying and nurturing a swarm of smaller dragons to escort and defend her in battle. With her brood at her side, she dominates the heavens, ensuring no enemy remains beyond her fiery reach."
 
- sp_air_axial_jet_engine: "Axial Jet Engine"
- sp_air_axial_jet_engine_desc: "The first jet engines developed can only compress air to a limited degree. It might be possible to line multiple compressors in serial to boost the thrust even further."
 
- sp_air_supersonic_jet: "Supersonic Jet"
- sp_air_supersonic_jet_desc: "Advancements in jet engine technology are paving the way for aircraft capable of reaching Mach 1 and breaking the sound barrier."
+ sp_air_jet_engine: "Enchanted Dragon Wings"
+ sp_air_jet_engine_desc: "Through powerful enchantments and arcane infusions, dragon wings can now propel their mighty forms faster than ever before. This breakthrough in magical aerodynamics ushers in a new era of aerial supremacy."
 
- sp_air_helicopter: "Helicopter"
- sp_air_helicopter_desc: "The development of a helicopter, with its unique ability to hover in place, could offer critical tactical advantage in military operations."
+ sp_air_axial_jet_engine: "Advanced Enchanted Dragon Wings"
+ sp_air_axial_jet_engine_desc: "By layering multiple enchantments and refining the arcane flow within the dragon’s wings, we can amplify their thrust to unprecedented levels, granting even greater speed and endurance in the skies."
+
+ sp_air_supersonic_jet: "Supersonic Small Dragon"
+ sp_air_supersonic_jet_desc: "Through arcane enhancements and refined breeding, we have created a breed of small dragons capable of flying at incredible speeds, surpassing the very limits of sound itself."
+
+
+ sp_air_helicopter: "Wyvern"
+ sp_air_helicopter_desc: "Wyverns, though smaller than true dragons, are agile and versatile aerial mounts. Their speed and maneuverability make them invaluable for reconnaissance, rapid transport, and hit-and-run tactics."
+
+ 
+ sp_air_radar: "Watchtower Network"  
+ sp_air_radar_desc: "By establishing a network of watchtowers, lookout posts, and crow’s nests, we can observe enemy movements across land, sea, and sky, ensuring our forces are always prepared for incoming threats."  
+
+ sp_air_centimetric_radar: "Advanced Watchtower Network"  
+ sp_air_centimetric_radar_desc: "With improved scouting techniques and enhanced optics, our watchtowers, lookout posts, and crow’s nests can now detect even the smallest enemy movements with greater precision."  
+
 
 
 #############################

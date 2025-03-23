@@ -87,8 +87,8 @@ mobile_warfare_desc:0 "The Cavalry Charge Doctrine focuses on speed and maneuver
 delay:0 "Harassing Retreat"
 delay_desc:0 "Even when victory is out of reach, light cavalry can slow the enemy's advance with hit-and-run tactics, skirmishes, and ambushes, buying time for a counterattack."
 
-elastic_defence:0 "Flexible Defense"
-elastic_defence_desc:0 "Rather than holding the line at all costs, a flexible defense allows for controlled retreats, luring the enemy into overextending before launching a decisive countercharge."
+elastic_defence:0 "Feigned Flight"
+elastic_defence_desc:0 "By appearing to retreat, we can lure our foes into reckless pursuit, only to turn and strike when they are most vulnerable."
 
 mobile_infantry:0 "Cavalry Supremacy"
 mobile_infantry_desc:0 "Foot soldiers are too slow to keep up with swift cavalry maneuvers. A focus on warhorses and armored warhorses ensures our forces maintain the speed and momentum needed for battlefield dominance.\n\n"
@@ -579,14 +579,28 @@ advanced_decryption:1 "Cipher Breaking III"
 advanced_decryption_desc:0 "True secrecy is an illusion. With spies placed within enemy courts and shadow networks feeding us information, we can bypass even the most intricate encryptions and learn our enemies' deepest schemes."  
 
  
-experimental_rockets:0 "Esoteric Flight Studies"
-experimental_rockets_desc:0 "By delving into ancient Valyrian scrolls and forbidden experiments, we are beginning to understand the principles of flight beyond mere wings. Through magical infusions and aerodynamic refinement, we can enhance both projectiles and creatures for greater range and precision."
-rocket_engines:0 "Draconic Propulsion"
-rocket_engines_desc:0 "The fusion of Valyrian sorcery and aerodynamics has led to a breakthrough—artificially enhanced projectiles and enchanted dragon breeds capable of unnatural acceleration. Fury Dragons, imbued with Wildfire essence, can now be trained to launch themselves at enemy formations in devastating final attacks."
-improved_rocket_engines:0 "Refined Spellcraft & Flight"
-improved_rocket_engines_desc:0 "Through mastery of the arcane winds and the refining of enchanted payloads, our Fury Dragons and magical projectiles can now reach previously unimaginable distances. Some believe even the heavens themselves may one day be within our grasp."
-advanced_rocket_engines:0 "The Apex of Skyborne Destruction"
-advanced_rocket_engines_desc:0 "With the culmination of Valyrian aeromancy and destructive alchemy, our projectiles can now strike across vast distances with unparalleled precision, while Blitz Dragons—imbued with unnatural speed—can intercept any aerial threat with terrifying efficiency. The sky, once the domain of gods and dragons alone, is now our battlefield."
+experimental_rockets:0 "Ancient Valyrian Studies I"
+experimental_rockets_desc:0 "By delving into ancient Valyrian scrolls and forbidden experiments, we are beginning to uncover lost knowledge of magic and science. The first rediscoveries reveal insights into propulsion, arcane metallurgy, and the mystical forces that once shaped the world."
+
+sp_rockets_improved_guidance:0 "Ancient Valyrian Studies II"
+sp_rockets_improved_guidance_desc:0 "Through deeper study of Valyrian sorcery and aeromantic arts, we have uncovered ways to enhance the accuracy and power of enchanted weaponry. Infused with wildfire-fueled propulsion and guided by arcane sigils, our war engines will strike with devastating precision."
+
+sp_rockets_dual_chamber_rocket_engine_1:0 "Ancient Valyrian Studies III"
+sp_rockets_dual_chamber_rocket_engine_1_desc:0 "The refinement of Valyrian glyphs has granted us new techniques in flight and magical augmentation. Whether enhancing the speed of projectiles or the endurance of creatures, we edge ever closer to reclaiming the power of the ancients."
+
+sp_rockets_dual_chamber_rocket_engine_2:0 "Ancient Valyrian Studies IV"
+sp_rockets_dual_chamber_rocket_engine_2_desc:0 "With the final mysteries of Valyrian lore within our grasp, we now wield lost techniques that push the boundaries of warfare and innovation. From enchanted siege engines to wildfire-infused devastation, we have resurrected the power of a bygone empire."
+
+
+rocket_engines:0 "Ancient Valyrian Studies I"
+rocket_engines_desc:0 "By delving into ancient Valyrian scrolls and forbidden experiments, we are beginning to uncover lost knowledge of magic and science. The first rediscoveries reveal insights into propulsion, arcane metallurgy, and the mystical forces that once shaped the world."
+
+improved_rocket_engines:0 "Ancient Valyrian Studies II"
+improved_rocket_engines_desc:0 "Through deeper study of Valyrian sorcery and aeromantic arts, we have uncovered ways to enhance the accuracy and power of enchanted weaponry. Infused with wildfire-fueled propulsion and guided by arcane sigils, our war engines will strike with devastating precision."
+
+advanced_rocket_engines:0 "Ancient Valyrian Studies III"
+advanced_rocket_engines_desc:0 "The refinement of Valyrian glyphs has granted us new techniques in flight and magical augmentation. Whether enhancing the speed of projectiles or the endurance of creatures, we edge ever closer to reclaiming the power of the ancients."
+
 
 
  atomic_research:0 "The Doom’s Legacy"  
@@ -874,7 +888,7 @@ antitank5_desc:0 "By integrating elite training, advanced formations, and newly 
  submarine_offensive_bs_desc:0 "With perfect coordination between our pirate captains, we can fully commit to the offensive. Let us sink enemy trade convoys faster than they can replace them."
 
  
-trade_interdiction:0 "Raider Warfare"
+trade_interdiction:0 "Trade Plundering"
 trade_interdiction_desc:0 "The sooner we sight a merchant ship, the sooner we can board it and take our spoils. Strike hard, strip them of their riches, and disappear into the mist before their protectors arrive."
 
 unrestricted_submarine_warfare:0 "No Quarter at Sea"
@@ -901,7 +915,7 @@ carrier_operations_desc:0 "The skies are ours. From atop our great dragon barges
 naval_air_operations:0 "Wings of Ruin"
 naval_air_operations_desc:0 "Our sky-riders have mastered the art of war from above. No ship can hide when the horizon darkens with the wings of our fire-born beasts."
  
-base_strike:0 "Port Raids"
+base_strike:0 "Fire and Ash"
 base_strike_desc:0 "The surest way to command the seas is to burn our enemies where they rest. A raid upon their ports will leave them crippled, their ships little more than embers in the tide. When dawn rises, we will be the only fleet left afloat."
 
 carrier_primacy:0 "The Age of Dragons"
@@ -936,84 +950,7 @@ escort_patrols_desc:0 "No ship can slip past the eyes of a true hunter. Our patr
  AIR_TITLE_STRAT_BOMBER:0 "Armageddon\nDragon"
  AIR_TITLE_SCOUT_PLANE:0 "Scout\nDragon"
  
- TITLE_FLEET_IN_BEING:0 "Fleet in Harbor"
- TITLE_TRADE_INTERDICTION:0 "Raider Warfare"
- TITLE_BASE_STRIKE:0 "Port Raids"
- 
- TITLE_BATTLEFIELD_SUPPORT:0 "Battlefield Inferno"
- TITLE_OPERATIONAL_INTEGRITY:0 "Wings of War"
- TITLE_STRATEGIC_DESTRUCTION:0 "Scorched Earth"
- 
-MOBILE_WARFARE_DOCTRINE_LABEL:1 "Cavalry Charge Doctrine"
-MOBILE_WARFARE_DOCTRINE_DESC:0 "This doctrine emphasizes swift cavalry charges to outmaneuver and overwhelm enemy lines with speed and precision."
 
-
-SUPERIOR_FIREPOWER_DOCTRINE_LABEL:1 "Archery Dominance Doctrine"
-SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "This doctrine focuses on the power of ranged units, particularly Archers and War Beasts, to strike from a distance. The aim is to overwhelm the enemy with volleys of arrows and bolts, not by close combat."
-
-GRAND_BATTLEPLAN_DOCTRINE_LABEL:1 "Grand Strategy Doctrine"
-GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "This doctrine focuses on meticulous strategy, where victory comes through superior tactics and foresight rather than sheer numbers."
-
-
-MASS_ASSAULT_DOCTRINE_LABEL:1 "Brute Force Doctrine"
-MASS_ASSAULT_DOCTRINE_DESC:0 "This doctrine relies on sheer numbers and raw power, overwhelming the enemy with relentless waves of Men-at-Arms and knights."  
-
-
-
-MOBILE_WARFARE_DOCTRINE:0 "Cavalry Charge"
-SUPERIOR_FIREPOWER_DOCTRINE:0 "Archery Dominance"
-GRAND_BATTLEPLAN_DOCTRINE:0 "Grand Strategy"
-MASS_ASSAULT_DOCTRINE:0 "Brute Force"
-MASS_ASSAULT_DOCTRINE_DESC:0 "Masterwork weapons are overrated; victory comes from arming a vast host of Men-at-Arms with weapons that are good enough and overwhelming the enemy through sheer numbers."
-
-MOBILE_INFANTRY_LABEL:0 "LIGHT CAVALRY TACTICS"
-MOBILE_INFANTRY_LABEL_TT:0 "Improve speed and organization of Light Cavalry."
-
-BLITZKRIEG_LABEL:0 "THUNDEROUS CHARGE"
-BLITZKRIEG_LABEL_TT:0 "Improve organization and effectiveness of Heavy Cavalry and Knights in battle."
-
-DESPERATE_DEFENSE_LABEL:0 "LAST STAND"
-DESPERATE_DEFENSE_LABEL_TT:0 "Maximize recruitment and defensive tactics, relying on levies and local militias."
-
-MODERN_BLITZKRIEG_LABEL:0 "MASTERFUL CAVALRY WARFARE"
-MODERN_BLITZKRIEG_LABEL_TT:0 "Improve army organization and counter-tactics using elite cavalry forces."
-
-DISPERSED_SUPPORT_LABEL:0 "SCATTERED ARCHERY"
-DISPERSED_SUPPORT_LABEL_TT:0 "Improve organization and effectiveness of Archers spread across the battlefield."
-
-INTEGRATED_SUPPORT_LABEL:0 "COORDINATED FORMATIONS"
-INTEGRATED_SUPPORT_LABEL_TT:0 "Improve organization and effectiveness of support units, including Pikemen and Scorpions."
-
-AIRLAND_BATTLE_LABEL:0 "BEAST & BOW TACTICS"
-AIRLAND_BATTLE_LABEL_TT:0 "Improve attack capabilities of the army through combined arms between War Beasts and Archers."
-
-SHOCK_AND_AWE_LABEL:0 "SHOCK & FEAR"
-SHOCK_AND_AWE_LABEL_TT:0 "Improve general effectiveness of the army through terrifying and overwhelming force."
-
-ASSAULT_LABEL:0 "UNRELENTING CHARGE"
-ASSAULT_LABEL_TT:0 "Focus on direct and frontal attacks with Knights and War Beasts."
-
-INFILTRATION_LABEL:0 "NIGHT RAIDERS"
-INFILTRATION_LABEL_TT:0 "Focus on deception, surprise attacks, and unconventional infantry strategies."
-
-DEEP_BATTLE_LABEL:0 "OVERWHELMING FRONT"
-DEEP_BATTLE_LABEL_TT:0 "Improve support and abilities to strike deep into enemy formations."
-
-MASS_MOBILIZATION_LABEL:0 "LEVY SWARM"
-MASS_MOBILIZATION_LABEL_TT:0 "Maximize recruitment and strength in numbers, relying on vast levied forces."
-
- 
-FLEET_IN_BEING_DESC:0 "A powerful fleet centered around our mighty War Galleys ensures that we dominate the seas. With towering castles of steel and fire, no enemy fleet can hope to match us in direct combat."
-TRADE_INTERDICTION_DESC:0 "Against a stronger naval opponent, we rely on swift Raiders to harass enemy convoys, severing their supply lines and starving their war machine before they can strike back."
-BASE_STRIKE_DESC:0 "With a strong focus on Dragon Barges and their aerial might, no enemy is beyond our reach. Whether striking from the sea or raining fire upon the land, we will bring devastation to all who oppose us."
-
- 
- AIR_SUPERIORITY_DESC:0 "Our Hunter Dragons are the backbone of aerial dominance. They defend our skies, escort Armageddon Dragons on their deadly missions, and tear through enemy fliers to ensure our forces reign supreme above the battlefield."
- BATTLEFIELD_SUPPORT_DESC:0 "By perfecting how our War Dragons coordinate with ground forces, we can incinerate enemy divisions with devastating precision. No foe can withstand the relentless firestorm of our aerial onslaught."
-OPERATIONAL_INTEGRITY_DESC:0 "Scourge Dragons bring unmatched versatility, raining fire upon enemy lines while bolstering ground assaults. Adaptability secures victory."  
- STRATEGIC_DESTRUCTION_DESC:0 "By unleashing our Armageddon Dragons upon the enemy’s heartlands—reducing their industry to cinders, whether under the cover of darkness or in bold daylight—we can cripple their war machine before they can strike back."
-
- 
  base_cost:0 "Base Cost"
  civilian_industry:0 "Civilian industry"
  military_industry:0 "Military industry"
@@ -1047,8 +984,8 @@ OPERATIONAL_INTEGRITY_DESC:0 "Scourge Dragons bring unmatched versatility, raini
  ss_tech:0 "Pirate Ship models"
  tp_tech:0 "Transport models"
  asw_tech:0 "Anti-Piracy Warfare Technology"
- naval_minesweeping:0 "Naval Minesweeping Technology"
- naval_minelaying:0 "Naval Minelaying Technology"
+ naval_minesweeping:0 "Naval Trap Sweeping Technology"
+ naval_minelaying:0 "Sea Trap Laying Technology"
  synth_resources:0 "Homesteads"
  light_fighter:0 "Hunter Dragons"
  cat_heavy_fighter:0 "Heavy Hunter Dragons"
@@ -1129,13 +1066,9 @@ cat_mass_assault:0 "Brute Force Doctrine"
  cat_fleet_in_being:0 "Fleet in Harbor Doctrine"
  cat_trade_interdiction_research:0 "Raider Warfare Doctrine"
  cat_trade_interdiction:0 "Raider Warfare Doctrine"
- cat_fleet_in_being:0 "Fleet in Harbor Doctrine"
  convoy_defense_tree:0 "Merchant Escort Doctrine"
  trade_interdiction_tree:0 "Pirate Warfare Doctrines"
  submarine_doctrine:0 "Pirate Ship Operations Doctrines"
-
-
-
 
 cat_operational_integrity_research:0 "Wings of War Doctrine"
 cat_operational_integrity:0 "Wings of War Doctrine"
@@ -1146,6 +1079,63 @@ battlefield_support_tree:0 "Battlefield Inferno Doctrine"
 battlefield_support_tree_research:0 "Battlefield Inferno Doctrine"
 operational_integrity_tree:0 "Wings of War Doctrine"
 strategic_destruction_tree:0 "Scorched Earth Doctrine"
+
+TITLE_FLEET_IN_BEING:0 "Fleet in Harbor"
+TITLE_TRADE_INTERDICTION:0 "Raider Warfare"
+TITLE_BASE_STRIKE:0 "Port Raids"
+ 
+TITLE_BATTLEFIELD_SUPPORT:0 "Battlefield Inferno"
+TITLE_OPERATIONAL_INTEGRITY:0 "Wings of War"
+TITLE_STRATEGIC_DESTRUCTION:0 "Scorched Earth"
+ 
+MOBILE_WARFARE_DOCTRINE_LABEL:1 "Cavalry Charge Doctrine"
+MOBILE_WARFARE_DOCTRINE_DESC:0 "This doctrine emphasizes swift cavalry charges to outmaneuver and overwhelm enemy lines with speed and precision."
+SUPERIOR_FIREPOWER_DOCTRINE_LABEL:1 "Archery Dominance Doctrine"
+SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "This doctrine focuses on the power of ranged units, particularly Archers and War Beasts, to strike from a distance. The aim is to overwhelm the enemy with volleys of arrows and bolts, not by close combat."
+GRAND_BATTLEPLAN_DOCTRINE_LABEL:1 "Grand Strategy Doctrine"
+GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "This doctrine focuses on meticulous strategy, where victory comes through superior tactics and foresight rather than sheer numbers."
+MASS_ASSAULT_DOCTRINE_LABEL:1 "Brute Force Doctrine"
+MASS_ASSAULT_DOCTRINE_DESC:0 "This doctrine relies on sheer numbers and raw power, overwhelming the enemy with relentless waves of Men-at-Arms and knights."  
+MOBILE_WARFARE_DOCTRINE:0 "Cavalry Charge"
+SUPERIOR_FIREPOWER_DOCTRINE:0 "Archery Dominance"
+GRAND_BATTLEPLAN_DOCTRINE:0 "Grand Strategy"
+MASS_ASSAULT_DOCTRINE:0 "Brute Force"
+
+MOBILE_INFANTRY_LABEL:0 "LIGHT CAVALRY TACTICS"
+MOBILE_INFANTRY_LABEL_TT:0 "Improve speed and organization of Light Cavalry."
+BLITZKRIEG_LABEL:0 "THUNDEROUS CHARGE"
+BLITZKRIEG_LABEL_TT:0 "Improve organization and effectiveness of Heavy Cavalry and Knights in battle."
+DESPERATE_DEFENSE_LABEL:0 "LAST STAND"
+DESPERATE_DEFENSE_LABEL_TT:0 "Maximize recruitment and defensive tactics, relying on levies and local militias."
+MODERN_BLITZKRIEG_LABEL:0 "MASTERFUL CAVALRY WARFARE"
+MODERN_BLITZKRIEG_LABEL_TT:0 "Improve army organization and counter-tactics using elite cavalry forces."
+DISPERSED_SUPPORT_LABEL:0 "SCATTERED ARCHERY"
+DISPERSED_SUPPORT_LABEL_TT:0 "Improve organization and effectiveness of Archers spread across the battlefield."
+INTEGRATED_SUPPORT_LABEL:0 "COORDINATED FORMATIONS"
+INTEGRATED_SUPPORT_LABEL_TT:0 "Improve organization and effectiveness of support units, including Pikemen and Scorpions."
+AIRLAND_BATTLE_LABEL:0 "BEAST & BOW TACTICS"
+AIRLAND_BATTLE_LABEL_TT:0 "Improve attack capabilities of the army through combined arms between War Beasts and Archers."
+SHOCK_AND_AWE_LABEL:0 "SHOCK & FEAR"
+SHOCK_AND_AWE_LABEL_TT:0 "Improve general effectiveness of the army through terrifying and overwhelming force."
+ASSAULT_LABEL:0 "UNRELENTING CHARGE"
+ASSAULT_LABEL_TT:0 "Focus on direct and frontal attacks with Knights and War Beasts."
+INFILTRATION_LABEL:0 "NIGHT RAIDERS"
+INFILTRATION_LABEL_TT:0 "Focus on deception, surprise attacks, and unconventional infantry strategies."
+DEEP_BATTLE_LABEL:0 "OVERWHELMING FRONT"
+DEEP_BATTLE_LABEL_TT:0 "Improve support and abilities to strike deep into enemy formations."
+MASS_MOBILIZATION_LABEL:0 "LEVY SWARM"
+MASS_MOBILIZATION_LABEL_TT:0 "Maximize recruitment and strength in numbers, relying on vast levied forces."
+
+ 
+FLEET_IN_BEING_DESC:0 "A powerful fleet centered around our mighty War Galleys ensures that we dominate the seas. With towering castles of steel and fire, no enemy fleet can hope to match us in direct combat."
+TRADE_INTERDICTION_DESC:0 "Against a stronger naval opponent, we rely on swift Raiders to harass enemy convoys, severing their supply lines and starving their war machine before they can strike back."
+BASE_STRIKE_DESC:0 "With a strong focus on Dragon Barges and their aerial might, no enemy is beyond our reach. Whether striking from the sea or raining fire upon the land, we will bring devastation to all who oppose us."
+
+ 
+ AIR_SUPERIORITY_DESC:0 "Our Hunter Dragons are the backbone of aerial dominance. They defend our skies, escort Armageddon Dragons on their deadly missions, and tear through enemy fliers to ensure our forces reign supreme above the battlefield."
+ BATTLEFIELD_SUPPORT_DESC:0 "By perfecting how our War Dragons coordinate with ground forces, we can incinerate enemy divisions with devastating precision. No foe can withstand the relentless firestorm of our aerial onslaught."
+OPERATIONAL_INTEGRITY_DESC:0 "Scourge Dragons bring unmatched versatility, raining fire upon enemy lines while bolstering ground assaults. Adaptability secures victory."  
+ STRATEGIC_DESTRUCTION_DESC:0 "By unleashing our Armageddon Dragons upon the enemy’s heartlands—reducing their industry to cinders, whether under the cover of darkness or in bold daylight—we can cripple their war machine before they can strike back."
 
 
  
@@ -1624,8 +1614,7 @@ paras_keystone_2_desc: "Our doctrine shall be centered around the mastery of air
  coastal_fort_tech_2_desc: "By expanding our coastal defenses into the very bedrock of cliffs and hillsides, we can create massive battlements capable of withstanding sieges and bombardments from even the greatest naval armadas."  
 
 
- sp_rockets_improved_guidance:0 "Eldritch Targeting"
- sp_rockets_improved_guidance_desc:0 "By delving into ancient Valyrian sorcery and forbidden aeromantic arts, we have uncovered methods to enhance the accuracy and range of our enchanted projectiles. Infused with wildfire-fueled propulsion and guided by arcane sigils, these weapons will strike their targets with devastating precision, ensuring no enemy is safe from our wrath."
+
  sp_rockets_rocket_bomber: "$rocket_propelled_bombs$"
  sp_rockets_rocket_bomber_desc: "$rocket_propelled_bombs_desc$"
  sp_rockets_improved_rocket_bomber: "$improved_rocket_propelled_bombs$"
@@ -1706,11 +1695,7 @@ sp_helicopter_med_evac_tech:0 "Wyvern-Riding Healers"
 sp_helicopter_med_evac_tech_desc:0 "Incoming wounded! We have incoming wounded! Our wyvern-mounted medics can swiftly evacuate the injured from the battlefield, ensuring they receive urgent care before it’s too late.
 
 
-sp_rockets_dual_chamber_rocket_engine_1: "Valyrian Flight Runes"  
-sp_rockets_dual_chamber_rocket_engine_1_desc: "By inscribing ancient Valyrian runes onto our dragons, we can enhance their speed and agility, allowing them to fly faster and strike with greater precision."  
 
-sp_rockets_dual_chamber_rocket_engine_2: "Advanced Valyrian Flight Runes"  
-sp_rockets_dual_chamber_rocket_engine_2_desc: "Further refinement of Valyrian rune magic has unlocked even greater speed and maneuverability for our dragons, making them unmatched in aerial combat."  
 
 
  

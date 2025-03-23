@@ -435,8 +435,8 @@ heavy_ship_nuclear_engine_1:0 "Doomsday Wildfire Engine"
 heavy_ship_nuclear_engine_1_short:0 "Doomsday Engine"  
 heavy_ship_nuclear_engine_1_desc:0 "An awe-inspiring power source drawn from long-lost Valyrian sorcery, this engine grants unstoppable momentum to the mightiest war galleys. However, its unstable nature ensures that a single miscalculation could spell catastrophe."  
 
-carrier_ship_nuclear_engine_1:0 "Ancient Valyrian Wildfire Core"  
-carrier_ship_nuclear_engine_1_short:0 "Wildfire Core"  
+carrier_ship_nuclear_engine_1:0 "Ancient Valyrian Wildfire Engine"  
+carrier_ship_nuclear_engine_1_short:0 "Wildfire Engine"  
 carrier_ship_nuclear_engine_1_desc:0 "The pinnacle of arcane propulsion, this colossal wildfire-powered core fuels the legendary Dragon Barges, ensuring they never falter in their conquest of the seas. Though its power is unmatched, its origins remain shrouded in mystery and danger."  
 
  
@@ -486,6 +486,10 @@ ship_armor_cruiser_3_desc:0 "Utilizing ironwood, one of the toughest known mater
 ship_armor_cruiser_4:0 "Ironwood-Lined Hull"  
 ship_armor_cruiser_4_short:0 "Dromond Armor IV"  
 ship_armor_cruiser_4_desc:0 "A cutting-edge design that layers ironwood over a solid oak frame, creating a nearly impenetrable barrier that can shrug off all but the strongest attacks."  
+
+ship_armor_carrier_deck:0 "Hardwood Flight Deck"  
+ship_armor_carrier_deck_short:0 "Reinforced Decking"  
+ship_armor_carrier_deck_desc:0 "The flight deck is reinforced with layers of the hardest timber, treated and enchanted to withstand the impact of siege weapons and the devastating strikes of enemy dragons. While this offers significant protection, it reduces available space for maneuvering and storage."  
 
  
 ship_armor_ice_carrier_deck_1:0 "Frozen Wyrm Ice Plating"  
