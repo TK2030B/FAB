@@ -590,53 +590,63 @@ sp_nuclear_bomb_information_leak_reward_tt: "Gains Project progress"
 
  
 # Nuclear Reactor
- sp_nuclear_reactor_radioactive_leak_stabilized_reward: "Radioactive Leak - Under Control"
- sp_nuclear_reactor_radioactive_leak_stabilized_reward_desc: "Unfortunately there was a serious incident during the work with the reactor. Thanks to the rapid response by the staff, the damage has been contained and the team was able to get valuable data from the incident."
+sp_nuclear_reactor_radioactive_leak_stabilized_reward: "Wildfire Leak - Under Control"
+sp_nuclear_reactor_radioactive_leak_stabilized_reward_desc: "Unfortunately, there was a serious incident during the work with the Warlock Tower. Thanks to the rapid response by the staff, the damage has been contained and the team was able to gather valuable arcane data from the incident."
+
  
- sp_nuclear_reactor_minor_explosion_reward: "Minor Explosion, No Injuries"
- sp_nuclear_reactor_minor_explosion_reward_desc: "While working on the latest iteration of the nuclear reactor prototype, there was a small incident. A minor explosion occurred, damaging parts of the lab, but the fire that ensued could easily be put out. Once the lab is repaired, work should be able to continue as planned, with only a slight delay."
+sp_nuclear_reactor_minor_explosion_reward: "Minor Explosion, No Injuries"
+sp_nuclear_reactor_minor_explosion_reward_desc: "While working on the latest iteration of the Warlock Tower prototype, a small incident occurred. A minor explosion happened, damaging parts of the lab, but the wildfire it caused was quickly controlled. Once the lab is repaired, work should continue as planned, with only a slight delay."
+
  
- sp_nuclear_reactor_tested_reward: "First Successful Nuclear Reactor Test"
- sp_nuclear_reactor_tested_reward_desc: "Our first nuclear reactor has been successfully tested, proving the feasibility of controlled nuclear fission. This breakthrough promises a new era of energy production, and potentially much more."
- sp_nuclear_reactor_tested_reward_public: "Celebrate the achievement publicly"
- nuclear_reactor_tested_reward_classify: "Keep the information classified for now"
- sp_nuclear_reactor_tested_reward_public_tt: "Other countries might benefit from this"
- sp_nuclear_reactor_tested_tech_bonus: "Received Information on Nuclear Testing"
+sp_nuclear_reactor_tested_reward: "First Successful Warlock Tower Test"
+sp_nuclear_reactor_tested_reward_desc: "Our first Warlock Tower has been successfully tested, proving the feasibility of controlled wildfire energy generation. This breakthrough promises a new era of energy production, and potentially much more."
+sp_nuclear_reactor_tested_reward_public: "Celebrate the achievement publicly"
+sp_nuclear_reactor_tested_reward_classify: "Keep the information classified for now"
+sp_nuclear_reactor_tested_reward_public_tt: "Other countries might benefit from this"
+sp_nuclear_reactor_tested_tech_bonus: "Received Information on Wildfire Testing"
+
  
- sp_commercial_nuclear_reactor_concerns_reward: "Concerns Over Nuclear Safety"
- sp_commercial_nuclear_reactor_concerns_reward_desc: "[Character.GetName] has raised concerns over the lack of filters in the cooling towers of our new reactors. [Character.GetSheHeCap] insists that filters must be added to prevent radiation escaping from the reactor during an emergency. The engineers meanwhile argue they will delay the project significantly."
- sp_commercial_nuclear_reactor_concerns_reward_option_safety: "Add the filters."
- sp_commercial_nuclear_reactor_concerns_reward_option_ignore: "Utter folly!"
+sp_commercial_nuclear_reactor_concerns_reward: "Concerns Over Wildfire Safety"
+sp_commercial_nuclear_reactor_concerns_reward_desc: "[Character.GetName] has raised concerns over the lack of protective measures in the cooling towers of our new Oracle Sanctums. [Character.GetSheHeCap] insists that these measures must be added to prevent wildfire energy from escaping the sanctum during an emergency. The engineers, meanwhile, argue they will delay the project significantly."
+sp_commercial_nuclear_reactor_concerns_reward_option_safety: "Add the protective measures."
+sp_commercial_nuclear_reactor_concerns_reward_option_ignore: "Utter folly!"
+
 
 
  # Nuclear bombs
- sp_nuclear_bomb_test_prototype_reward: "Prototype Bomb"
- sp_nuclear_bomb_test_prototype_reward_desc: "A Prototype Bomb has been produced by [Character.GetName]'s team. Making, and evaluating, a successful test would improve our progress significantly. On the other hand, we have a nuclear bomb now..."
- sp_nuclear_bomb_test_prototype_reward_test_bomb: "Test it under controlled forms"
- sp_nuclear_bomb_test_prototype_reward_keep_bomb: "We can put this to use against our enemies"
+sp_nuclear_bomb_test_prototype_reward: "Prototype Wildfire Bomb"
+sp_nuclear_bomb_test_prototype_reward_desc: "A Prototype Wildfire Bomb has been produced by [Character.GetName]'s team. Testing it successfully under controlled conditions would significantly improve our progress. On the other hand, we now have a powerful weapon at our disposal..."
+sp_nuclear_bomb_test_prototype_reward_test_bomb: "Test it under controlled conditions"
+sp_nuclear_bomb_test_prototype_reward_keep_bomb: "We can use this against our enemies"
+
  
- sp_nuclear_bomb_espionage_threats_reward: "Espionage Threats"
- sp_nuclear_bomb_espionage_threats_reward_desc: "Security officers argue that there is a need to increase security at the site of ¨[SpecialProject.GetName] project and all surrounding activities. The researchers, with [Character.GetName] in the lead, argues that freedom to move about and communicate is vital for the progress."
- sp_nuclear_bomb_espionage_threats_reward_no: "Don't increase security"
- sp_nuclear_bomb_espionage_threats_reward_increase_security: "Increase Security"
- sp_nuclear_bomb_espionage_threats_reward_increase_security_tt: "Increased Security lowers the risk of information theft"
+sp_nuclear_bomb_espionage_threats_reward: "Espionage Threats"
+sp_nuclear_bomb_espionage_threats_reward_desc: "Security officers argue that there is a need to increase security at the site of the [SpecialProject.GetName] project and all surrounding activities. The researchers, led by [Character.GetName], argue that freedom to move about and communicate is vital for progress."
+sp_nuclear_bomb_espionage_threats_reward_no: "Don't increase security"
+sp_nuclear_bomb_espionage_threats_reward_increase_security: "Increase Security"
+sp_nuclear_bomb_espionage_threats_reward_increase_security_tt: "Increased security lowers the risk of information theft"
+
  
- sp_nuclear_bomb_breakthrough_plutonium_reward: "Breakthrough in Plutonium Production"
- sp_nuclear_bomb_breakthrough_plutonium_reward_desc: "Our maesters have made a significant breakthrough in Plutonium production techniques, increasing the efficiency of bomb production. This can hopefully accelerate the development timeline."
+sp_nuclear_bomb_breakthrough_plutonium_reward: "Breakthrough in Wildfire Production"
+sp_nuclear_bomb_breakthrough_plutonium_reward_desc: "Our maesters have made a significant breakthrough in Wildfire production techniques, increasing the efficiency of bomb production. This can hopefully accelerate the development timeline."
+
  
- sp_nuclear_bomb_accident_generic_reward: "Accidental Fire"
- sp_nuclear_bomb_accident_generic_reward_desc: "A fire broke out in one of the warehouses at the facility. Initial investigation points towards it being an accident. But was it really?"
+sp_nuclear_bomb_accident_generic_reward: "Accidental Wildfire"
+sp_nuclear_bomb_accident_generic_reward_desc: "A wildfire broke out in one of the warehouses at the facility. Initial investigation points towards it being an accident. But was it really?"
+
  
- sp_nuclear_bomb_design_choice_reward: "Simple or Complex Bomb Design"
- sp_nuclear_bomb_design_choice_reward_desc: "There are two designs for an atomic weapon being pursued by our maesters and debate has emerged over how to proceed with them. One design, known as the gun type, is far simpler to create but also less efficient in its use of nuclear material. The other is the implosion type, a much more challenging design but theoretically more efficient in its use of nuclear material."
- sp_nuclear_bomb_design_choice_reward_gun_type: "The gun is a safer bet."
- sp_nuclear_bomb_design_choice_reward_implosion: "Implosion is the superior design."
+sp_nuclear_bomb_design_choice_reward: "Simple or Complex Wildfire Bomb Design"
+sp_nuclear_bomb_design_choice_reward_desc: "There are two designs for a wildfire weapon being pursued by our maesters, and debate has emerged over how to proceed with them. One design, known as the combustion type, is far simpler to create but also less efficient in its use of wildfire material. The other is the containment type, a much more challenging design but theoretically more efficient in its use of wildfire material."
+sp_nuclear_bomb_design_choice_reward_gun_type: "The combustion type is a safer bet."
+sp_nuclear_bomb_design_choice_reward_implosion: "Containment is the superior design."
+
 
 # Thermonuclear Bombs
- sp_thermonuclear_bomb_test_reward: "Test Proposal"
- sp_thermonuclear_bomb_test_reward_desc: "In order to confirm the theory behind a thermonuclear bomb, our maesters have requested the opportunity to carry out a test detonation. This would require the allocation of an existing atomic bomb to initiate the chain reaction but would significantly accelerate the progress of the project."
- sp_thermonuclear_bomb_test_reward_option_yes: "Carry out a test."
- sp_thermonuclear_bomb_test_reward_option_no: "We can't spare the material."
+sp_thermonuclear_bomb_test_reward: "Cataclysmic Wildfire Bomb Test Proposal"
+sp_thermonuclear_bomb_test_reward_desc: "In order to confirm the theory behind the cataclysmic wildfire bomb, our maesters have requested the opportunity to carry out a test detonation. This would require the allocation of an existing cataclysmic wildfire bomb to initiate the chain reaction but would significantly accelerate the progress of the project."
+sp_thermonuclear_bomb_test_reward_option_yes: "Carry out a test."
+sp_thermonuclear_bomb_test_reward_option_no: "We can't spare the material."
+
  sp_no_nukes_available_tt: "$sp_thermonuclear_bomb_test_reward_option_no$"
 
 #########################
@@ -691,79 +701,92 @@ sp_nuclear_bomb_information_leak_reward_tt: "Gains Project progress"
  sp_rockets_generic_major_breakthrough_reward_desc: "During the last prototype iteration, we managed to make a major breakthrough."
  #sp_rockets_generic_major_breakthrough_reward_option: "Excellent!"
 
- sp_rockets_generic_avionics_advancements_reward: "Avionics Advancements"
- sp_rockets_generic_avionics_advancements_reward_desc: "During our work we have made many findings in the general Avionics and Aerodynamics field that can benefit our aircraft production."
+ sp_rockets_generic_avionics_advancements_reward: "Draconics Advancements"
+ sp_rockets_generic_avionics_advancements_reward_desc: "During our work we have made many findings in the general Draconics and Aerodynamics field that can benefit our dragon breeding."
  #sp_rockets_generic_avionics_advancements_reward_option: "This will certainly prove useful" 
  
  sp_rockets_experimental_rockets_improved_accuracy_reward: "Accuracy Improvements"
- sp_rockets_experimental_rockets_stability_improvements_reward: "Improved Rocket Flight Stability"
+ sp_rockets_experimental_rockets_stability_improvements_reward: "Improved Blitz Flight Stability"
 
 
  # Flying Bomb
  sp_rocket_design_choice_reward: "Range versus Payload?"
- sp_rocket_design_choice_reward_desc: "When designing our flying bomb, our engineers argue that it is important to decide what the main aim of the design of the bomb is. Do we want to maximize range, or is the payload the most important issue."
+ sp_rocket_design_choice_reward_desc: "When designing our projectiles, our engineers argue that it is important to decide what the main aim of the design of the bomb is. Do we want to maximize range, or is the payload the most important issue."
  sp_rocket_design_choice_reward_balanced: "Balanced"
  sp_rocket_design_choice_reward_range: "Range"
  sp_rocket_design_choice_reward_payload: "Payload"
 
- sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward: "Technical Breakthrough in Pulse jet Design"
- sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward_desc: "Our engineers have overcome significant hurdles in designing the missile's pulse jet engine, crucial for its range and speed."
+sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward: "Technical Breakthrough in Trebuchet Projectile Design"
+sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward_desc: "Our engineers have overcome significant hurdles in designing the trebuchet system that will launch the projectile. This breakthrough will greatly improve the range and accuracy of our boulder."
+
  #sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward_option: "Upward and Onward!"
 
- sp_rockets_flying_bomb_launch_ramp_innovations_reward: "Launch Ramp Innovations"
- sp_rockets_flying_bomb_launch_ramp_innovations_reward_desc: "Our engineers have made significant improvements in the specialized launch ramps necessary for the deployment of the missiles."
- sp_rockets_flying_bomb_launch_ramp_innovations_reward_option: "Good news"
+sp_rockets_flying_bomb_launch_ramp_innovations_reward: "Trebuchet Sling Innovations"
+sp_rockets_flying_bomb_launch_ramp_innovations_reward_desc: "Our engineers have made significant improvements to the trebuchet's sling mechanism, allowing for more efficient launches of the projectiles."
+sp_rockets_flying_bomb_launch_ramp_innovations_reward_option: "Good news"
+
 
  sp_rockets_flying_bomb_mass_production_scaling_reward: "Mass Production Scaling"
  sp_rockets_flying_bomb_mass_production_scaling_reward_desc: "We've successfully managed to to come up with production improvements, that will allow us to scale up to mass production much faster."
  #sp_rockets_flying_bomb_mass_production_scaling_reward_option: "Most beneficial"
 
- sp_rockets_flying_bomb_engine_optimization_breakthrough_reward: "Engine Optimization Breakthrough"
- sp_rockets_flying_bomb_engine_optimization_breakthrough_reward_desc: "Our engineers have managed to significantly improve the pulse jet's range and reliability, enhancing the missile's operational capability."
+sp_rockets_flying_bomb_engine_optimization_breakthrough_reward: "Projectile Launch Mechanism Optimization"
+sp_rockets_flying_bomb_engine_optimization_breakthrough_reward_desc: "Our engineers have significantly improved the trebuchet’s launching mechanism, increasing the range and reliability of the projectiles."
+
  #sp_rockets_flying_bomb_engine_optimization_breakthrough_reward_option: "Some call it luck"
 
- sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward: "Technological Innovation in Guidance Systems"
- sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward_desc: "During the latest round of prototyping, significant improvements have been made to the guidance system's accuracy and jam resistance, advancing our technological edge."
+sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward: "Improved Aiming Mechanism"
+sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward_desc: "Through recent experimentation, we've developed an improved aiming mechanism for our trebuchets, increasing the precision and reducing errors during launches."
+
  #sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward_option: "We are getting closer to achieving our goal"
 
- sp_rockets_flying_bomb_test_flight_failures_reward: "Test Flight Failures"
- sp_rockets_flying_bomb_test_flight_failures_reward_desc: "Early test flights have resulted in failures due to guidance system malfunctions and structural weaknesses. Our maesters have learned a lot from it, but we need to take a step back and rethink."
+sp_rockets_flying_bomb_test_flight_failures_reward: "Test Launch Failures"
+sp_rockets_flying_bomb_test_flight_failures_reward_desc: "Early test launches have resulted in failures due to structural weaknesses and issues with the trebuchet's launch mechanism. While these setbacks are unfortunate, our maesters have learned valuable lessons to improve the design."
+
  #sp_rockets_flying_bomb_test_flight_failures_reward_option: "They say you learn the most from your failures"
 
 
  # Ground to Air
- sp_rockets_ground_control_improvements_reward: "Ground Control Improvements"
- sp_rockets_ground_control_improvements_reward_desc: "[Character.GetName] managed to solve several outstanding issues with the ability to track and control the missile from the ground. This marks a significant step towards being able to target enemy high flying aircraft."
+sp_rockets_ground_control_improvements_reward: "Ground Control Improvements"
+sp_rockets_ground_control_improvements_reward_desc: "[Character.GetName] has resolved several key issues with tracking and controlling the projectiles from the ground. This marks a significant step forward in our ability to accurately target enemy dragons from the ground."
 
- sp_rockets_vertical_launch_reward: "Vertical Launch System"
- sp_rockets_vertical_launch_reward_desc: "After a few failed attempts, [Character.GetName] finally managed to solve the problems around vertical launching of these missiles. The new system should allow the missiles to be launched without problems and reach high altitudes without delay."
 
- sp_rockets_high_speed_flight_control_reward: "High Speed Flight Control"
- sp_rockets_high_speed_flight_control_reward_desc: "We have finally managed to get a working control system that can function at high speeds and react to changing flight dynamics. This knowledge can certainly be  useful in other areas as well."
- sp_rockets_high_speed_flight_control_bonus: "High Speed Flight Controls"
+sp_rockets_vertical_launch_reward: "Vertical Launch System"
+sp_rockets_vertical_launch_reward_desc: "After several failed attempts, [Character.GetName] has finally overcome the challenges of vertical launching. The new system will allow our projectiles to be launched with precision, reaching high altitudes quickly and efficiently, ready to strike at enemy dragons."
 
- sp_rockets_warhead_detonation_mechanisms_reward: "Warhead Detonation Mechanisms"
- sp_rockets_warhead_detonation_mechanisms_reward_desc: "An important part of the whole development is to get the weapon to explode at the right point. It appears that [Character.GetName] has managed to come up with a solution that allows us to detonate it at as favorable time as possible."
- sp_surface_air_missile_warhead_detonation_bonus: "Surface-Air Missile: Improved Warhead Detonation"
+
+sp_rockets_high_speed_flight_control_reward: "High-Speed Flight Control"
+sp_rockets_high_speed_flight_control_reward_desc: "After extensive testing, we have finally perfected a control system capable of handling high-speed flight and adapting to the dynamic forces during flight. This breakthrough could also be applied to enhance our dragons' aerial combat capabilities."
+sp_rockets_high_speed_flight_control_bonus: "Improved Flight Controls"
+
+
+sp_rockets_wildfire_bomb_detonation_mechanisms_reward: "Wildfire Bomb Detonation Mechanisms"
+sp_rockets_wildfire_bomb_detonation_mechanisms_reward_desc: "A critical component of our weapon system is ensuring the wildfire bomb detonates at the most opportune moment. [Character.GetName] has devised a method to trigger the explosion at the most advantageous time, maximizing its devastating effect."
+sp_surface_air_missile_wildfire_bomb_detonation_bonus: "Surface-Air Missile: Enhanced Wildfire Bomb Detonation"
+
  #Ballistic missile
 
- sp_rocket_wind_tunnel_choice_reward: "Engineers Request Wind Tunnel"
- sp_rocket_wind_tunnel_choice_reward_desc: "Engineers on the ballistic missile project have requested the construction of a supersonic wind tunnel to test scale models of their designs earlier. This would rapidly speed up their iteration process and save resources in the long run."
- sp_rocket_wind_tunnel_choice_reward_reject: "The resources are needed elsewhere."
- sp_rocket_wind_tunnel_choice_reward_agree: "Allocate the resources."
+sp_rocket_wind_tunnel_choice_reward: "Engineers Request Target Practice Range"
+sp_rocket_wind_tunnel_choice_reward_desc: "The engineers working on the fiery boulder project have requested the construction of a large-scale target practice range. This will allow them to test the firepower and trajectory of their projectiles, speeding up their ability to refine the design and ensure greater accuracy in their attacks."
+sp_rocket_wind_tunnel_choice_reward_reject: "The resources are better spent elsewhere in these uncertain times."
+sp_rocket_wind_tunnel_choice_reward_agree: "Allocate the resources for the target practice range to aid in the weapon's development."
 
- sp_rocket_glass_wool_choice_reward: "Ice Forming on Reentry"
- sp_rocket_glass_wool_choice_reward_desc: "During the re-entry phase of the rocket's flight, ice seems to be forming around the fuel tanks and interfering with the rocket's internals. Although a setback, our engineers have suggested adding glass wool around the tanks to prevent this from happening in future."
- sp_rocket_glass_wool_choice_reward_accept: "Unfortunate, but necessary."
 
- sp_rocket_guidance_system_choice_reward: "Guidance System"
- sp_rocket_guidance_system_choice_reward_desc: "Our engineers are debating the guidance system for the rocket. Some wish to stick with a tested mechanical computer while others wish to utilize new radio technologies to control and monitor the rocket post launch."
- sp_rocket_guidance_system_choice_reward_mechanical: "Mechanical is reliable."
- sp_rocket_guidance_system_choice_reward_radio: "Radio is the future!"
+sp_rocket_glass_wool_choice_reward: "Fireproofing the Trebuchet"
+sp_rocket_glass_wool_choice_reward_desc: "During testing, the fiery boulders launched by our trebuchets have caused the machines themselves to catch fire, damaging critical components. Our engineers have suggested reinforcing the trebuchet with fire-resistant materials, such as fireproofed wood and metal, to ensure the safety and longevity of the machines during future launches."
+sp_rocket_glass_wool_choice_reward_accept: "Unfortunate, but necessary."
 
- sp_rocket_turbo_pump_froth_reward: "Turbopump Frothing Issue"
- sp_rocket_turbo_pump_froth_reward_desc: "During high altitude testing, an issue regarding the turbopump was isolated. It seems that the lubricant inside the pumps begins to froth under the strenuous conditions which impacts the overall performance and reliability of the current design."
- sp_rocket_turbo_pump_froth_reward_accept: "We have to figure this out!"
+
+sp_rocket_guidance_system_choice_reward: "Aiming System"
+sp_rocket_guidance_system_choice_reward_desc: "Our engineers are debating the best method for improving the accuracy of the trebuchets when launching fiery boulders. Some argue that sticking with traditional, manually-adjusted aiming systems is best, while others suggest introducing new, advanced mechanisms to automate the targeting process and improve precision."
+sp_rocket_guidance_system_choice_reward_manual: "Manual aiming is tried and true."
+sp_rocket_guidance_system_choice_reward_automated: "Automation will bring us precision!"
+
+
+sp_rocket_turbo_pump_froth_reward: "Boulder Friction Problem"
+sp_rocket_turbo_pump_froth_reward_desc: "During trials with the trebuchet, it has come to light that the friction between the fiery boulders and the launch mechanism is causing significant delays in the launching process. The intense heat from the fireboulders seems to be creating a sticky residue that is slowing down the trebuchet's release, affecting the speed and range of the projectile."
+sp_rocket_turbo_pump_froth_reward_accept: "We need to find a solution to this delay!"
+
 
  sp_rocket_relay_failure_reward: "Relay Failure"
  sp_rocket_relay_failure_reward_desc: "A defective relay used for the internal control systems of the rocket was detected while preparing for our test launch. Engineers believe we should replace the relay before carrying on, but concerns are mounting over political ramifications of a delay."
