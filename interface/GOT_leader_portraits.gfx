@@ -1,0 +1,101 @@
+spriteTypes = {
+    # Generals
+    spriteType = {
+        name = "GFX_leader_westeros_general1"
+        texturefile = "gfx/leaders/Westeros/Generals/General1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_general2"
+        texturefile = "gfx/leaders/Westeros/Generals/General2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_general3"
+        texturefile = "gfx/leaders/Westeros/Generals/General3.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_general4"
+        texturefile = "gfx/leaders/Westeros/Generals/General4.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_general5"
+        texturefile = "gfx/leaders/Westeros/Generals/General5.dds"
+    }
+
+    # Lords
+    spriteType = {
+        name = "GFX_leader_westeros_lord1"
+        texturefile = "gfx/leaders/Westeros/Lord1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_lord2"
+        texturefile = "gfx/leaders/Westeros/Lord2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_lord3"
+        texturefile = "gfx/leaders/Westeros/Lord3.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_lord4"
+        texturefile = "gfx/leaders/Westeros/Lord4.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_lord5"
+        texturefile = "gfx/leaders/Westeros/Lord5.dds"
+    }
+
+    # Scientists (Female)
+    spriteType = {
+        name = "GFX_leader_westeros_female_scientist1"
+        texturefile = "gfx/leaders/Westeros/Scientists/Female_Scientist1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_female_scientist2"
+        texturefile = "gfx/leaders/Westeros/Scientists/Female_Scientist2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_female_scientist3"
+        texturefile = "gfx/leaders/Westeros/Scientists/Female_Scientist3.dds"
+    }
+
+    # Scientists (Male)
+    spriteType = {
+        name = "GFX_leader_westeros_male_scientist1"
+        texturefile = "gfx/leaders/Westeros/Scientists/Male_Scientist1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_male_scientist2"
+        texturefile = "gfx/leaders/Westeros/Scientists/Male_Scientist2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_male_scientist3"
+        texturefile = "gfx/leaders/Westeros/Scientists/Male_Scientist3.dds"
+    }
+
+    # Operatives (Female)
+    spriteType = {
+        name = "GFX_leader_westeros_female_operative1"
+        texturefile = "gfx/leaders/Westeros/Operatives/Female_Operative1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_female_operative2"
+        texturefile = "gfx/leaders/Westeros/Operatives/Female_Operative2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_female_operative3"
+        texturefile = "gfx/leaders/Westeros/Operatives/Female_Operative3.dds"
+    }
+
+    # Operatives (Male)
+    spriteType = {
+        name = "GFX_leader_westeros_male_operative1"
+        texturefile = "gfx/leaders/Westeros/Operatives/Male_Operative1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_male_operative2"
+        texturefile = "gfx/leaders/Westeros/Operatives/Male_Operative2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_male_operative3"
+        texturefile = "gfx/leaders/Westeros/Operatives/Male_Operative3.dds"
+    }
+}

@@ -1071,14 +1071,14 @@ sp_naval_proximity_fuzes_preference_b: "Retain Current Ammo Supply"
   ## AIR PROJECTS ## 
 ######################
 
- sp_air_bouncing_bomb: "Molten Lava Dragonfire"
+ sp_air_bouncing_bomb: "Lava Dragonfire"
  sp_air_bouncing_bomb_desc: "A devastating technique where dragons unleash flames so intense they instantly evaporate water and obliterate dams. This specialized form of dragonfire ensures the destruction of critical water defenses, reshaping the battlefield."
  sp_air_bouncing_bomb_completion_tt: "Unlocks §Y$raid_type_dam_bombing_raid$§! and §Y$raid_type_lock_bombing_raid$§!"
 
  sp_air_bouncing_bomb_no_bba: "$sp_air_bouncing_bomb$"
  sp_air_bouncing_bomb_no_bba_desc: "$sp_air_bouncing_bomb_desc$"
 
- sp_air_earthshaker_bomb: "Molten Burrow Dragonfire"
+ sp_air_earthshaker_bomb: "Magma Dragonfire"
  sp_air_earthshaker_bomb_desc: "A terrifying form of dragonfire that seeps deep into fortifications before igniting, incinerating everything and everyone within. No fortress can withstand the sheer intensity of this fire, which turns stone and steel into molten ruin."
 
  sp_air_earthshaker_bomb_completion_tt: "Unlocks §Y$raid_type_mega_gun_emplacement_strike$§! raids"
@@ -1093,10 +1093,10 @@ sp_naval_proximity_fuzes_preference_b: "Retain Current Ammo Supply"
  sp_air_mothership_aircraft_desc: "A titanic dragon matriarch that commands the skies, carrying and nurturing a swarm of smaller dragons to escort and defend her in battle. With her brood at her side, she dominates the heavens, ensuring no enemy remains beyond her fiery reach."
 
 
- sp_air_jet_engine: "Enchanted Dragon Wings"
+ sp_air_jet_engine: "Shadow Dragon Wings"
  sp_air_jet_engine_desc: "Through powerful enchantments and arcane infusions, dragon wings can now propel their mighty forms faster than ever before. This breakthrough in magical aerodynamics ushers in a new era of aerial supremacy."
 
- sp_air_axial_jet_engine: "Advanced Enchanted Dragon Wings"
+ sp_air_axial_jet_engine: "Advanced Shadow Dragon Wings"
  sp_air_axial_jet_engine_desc: "By layering multiple enchantments and refining the arcane flow within the dragon’s wings, we can amplify their thrust to unprecedented levels, granting even greater speed and endurance in the skies."
 
  sp_air_supersonic_jet: "Supersonic Small Dragon"
@@ -1155,96 +1155,107 @@ sp_naval_proximity_fuzes_preference_b: "Retain Current Ammo Supply"
  sp_air_generic_reward_test_failure_3: "Creative Disaster"
 
  # Bouncing Bomb 
- sp_air_bouncing_bomb_backspin_mechanism_reward: "Backspin Mechanism"
- sp_air_bouncing_bomb_backspin_mechanism_reward_desc: "Our maesters have come up with an ingenious solution for stabilizing the bomb once dropped. The mechanism starts a backspin, which keeps it on track to the target." 
- sp_air_bouncing_bomb_backspin_mechanism_reward_option: "Great"
+sp_air_bouncing_bomb_backspin_mechanism_reward: "Dragonfire Flow Control"  
+sp_air_bouncing_bomb_backspin_mechanism_reward_desc: "Our maesters have devised a method to channel the molten dragonfire into a concentrated, controlled flow. This ensures it remains on course, maximizing its destructive impact upon striking its target."  
+sp_air_bouncing_bomb_backspin_mechanism_reward_option: "Great"  
 
- sp_air_bouncing_bomb_training_accidents_reward: "Training Accidents"
- sp_air_bouncing_bomb_training_accidents_reward_desc: "Unfortunately we have lost a few planes when we have tried low altitude approaches. We need to intensify security procedures and training regimen." 
- sp_air_bouncing_bomb_training_accidents_reward_option: "That's most unfortunate"
 
- sp_air_bouncing_bomb_aircraft_modifications_reward: "Aircraft Modifications"
- sp_air_bouncing_bomb_aircraft_modifications_reward_desc: "During the last test run, we finally managed to nail what modifications are needed to the airframe in order for the release mechanism to be properly fitted." 
- sp_air_bouncing_bomb_aircraft_modifications_reward_option: "As long as it works now"
+sp_air_bouncing_bomb_training_accidents_reward: "Dragonflight Accidents"  
+sp_air_bouncing_bomb_training_accidents_reward_desc: "Unfortunately, we have lost a few dragonriders while attempting low-altitude firebombing runs. We must refine our training methods and improve rider safety measures."  
+sp_air_bouncing_bomb_training_accidents_reward_option: "That's most unfortunate"  
 
- sp_air_bouncing_bomb_type_of_explosives_reward: "Type of Explosives"
- sp_air_bouncing_bomb_type_of_explosives_reward_desc: "By using Torpex rather than TNT, we can significantly reduce the sice of the bomb while keeping the explosive power." 
- sp_air_bouncing_bomb_type_of_explosives_reward_option: "This can prove useful"
+
+sp_air_bouncing_bomb_aircraft_modifications_reward: "Dragon Saddle Modifications"  
+sp_air_bouncing_bomb_aircraft_modifications_reward_desc: "During the last test flight, we finally determined the necessary modifications to the dragon saddles and harnesses to ensure the firebombing release mechanism functions properly."  
+sp_air_bouncing_bomb_aircraft_modifications_reward_option: "As long as it works now"  
+
+
+sp_air_bouncing_bomb_type_of_explosives_reward: "Composition of Dragonfire"  
+sp_air_bouncing_bomb_type_of_explosives_reward_desc: "By refining the dragon’s diet and training, we can produce even hotter and more concentrated flames, allowing for smaller but more devastating firebombing attacks."  
+sp_air_bouncing_bomb_type_of_explosives_reward_option: "This can prove useful"  
+
 
  # Earthshaker Bomb
- sp_air_earthshaker_bomb_unique_reward: "Design Direction"
- sp_air_earthshaker_bomb_unique_reward_desc: "During our development process we have realized that we can use our new findings to further enchance our bomb's destructive power. We could focus on improving bomb's precision, or focus on increasing their destructive strength."
- sp_air_earthshaker_bomb_preference_naval_targetting: "Precision is the Key"
- sp_air_earthshaker_bomb_preference_raw_power: "Destructive Power"
- sp_air_earthshaker_bomb_preference_both: "Why Not Both?"
+sp_air_earthshaker_bomb_unique_reward: "Refining Magma Dragonfire"  
+sp_air_earthshaker_bomb_unique_reward_desc: "Through our research into dragonfire, we have discovered ways to further enhance its devastating potential. We could refine it for greater precision, ensuring direct strikes on enemy fortifications, or amplify its intensity to melt through stone and earth with unmatched destructive force."  
+sp_air_earthshaker_bomb_preference_naval_targetting: "Precision is the Key"  
+sp_air_earthshaker_bomb_preference_raw_power: "Unmatched Destruction"  
+sp_air_earthshaker_bomb_preference_both: "Why Not Both?"  
+
 
  # Intercontinental Bomber
- sp_air_intercontinental_bomber_unique_reward: "Long-Range Delivery"
- sp_air_intercontinental_bomber_unique_reward_desc: "In order to make sure our bombers will be able to reach across the continents, we need to decide what should we focus on in order to achieve the most satisfactory results."
- sp_air_intercontinental_bomber_preference_bombing_payload: "Greater Payload"
- sp_air_intercontinental_bomber_preference_balanced: "Small Improvements"
- sp_air_intercontinental_bomber_preference_protection: "Greater Protection"
+sp_air_intercontinental_bomber_unique_reward: "Ragnarok Dragon Enhancements"  
+sp_air_intercontinental_bomber_unique_reward_desc: "To ensure our mighty Ragnarok dragons can unleash devastation across vast distances, we must determine the best improvements to maximize their effectiveness."  
+sp_air_intercontinental_bomber_preference_bombing_payload: "Stronger Firebreath"  
+sp_air_intercontinental_bomber_preference_balanced: "Balanced Enhancements"  
+sp_air_intercontinental_bomber_preference_protection: "Hardened Scales"  
+
 
  # Mothership
- sp_air_mothership_unique_reward: "Peak Mothership Performance"
- sp_air_mothership_unique_reward_desc: "In order to get peak performance from mothership aircraft, we could try to specialize them and increase their capabilities in certain aspects. Question is - on which aspect should we focus on?"
- sp_air_mothership_preference_speed_agility: "Agility and Speed"
- sp_air_mothership_preference_reliability: "Safety and Reliability"
- sp_air_mothership_preference_strength: "Durability and Stronger Guns"
+sp_air_mothership_unique_reward: "Great Broodmother Enhancements"  
+sp_air_mothership_unique_reward_desc: "To ensure the Great Broodmother reaches peak performance, we can enhance her abilities in different ways. Should we focus on increasing her speed and maneuverability, reinforcing her resilience, or ensuring she remains reliable in extended battles?"  
+sp_air_mothership_preference_speed_agility: "Swift and Elusive"  
+sp_air_mothership_preference_reliability: "Endurance and Stability"  
+sp_air_mothership_preference_strength: "Unbreakable and Deadly"  
+
 
  # Jet Engine
- sp_air_jet_engine_unique_reward: "Development Priority"
- sp_air_jet_engine_unique_reward_desc: "We need to make decision, whether we should concentrate our efforts on making the jet engines best suited to our fighters or bombers. We can also try to make them as universal as possible"
- sp_air_jet_engine_preference_fighter: "Fighters"
- sp_air_jet_engine_preference_compromise: "Universal Engines"
- sp_air_jet_engine_preference_bomber: "Bombers"
+sp_air_jet_engine_unique_reward: "Enchantment Focus"  
+sp_air_jet_engine_unique_reward_desc: "We must decide how to best enhance our dragons' flight capabilities. Should we focus on empowering the swift Hunter Dragons, the devastating Scourge Dragons, or aim for a balanced enchantment that benefits all?"  
+sp_air_jet_engine_preference_fighter: "Hunter Dragons"  
+sp_air_jet_engine_preference_compromise: "Universal Enchantments"  
+sp_air_jet_engine_preference_bomber: "Scourge Dragons"  
+
 
  # Axial Jet Engine
- sp_air_axial_jet_engine_unique_reward: "Development Déjà Vu"
- sp_air_axial_jet_engine_unique_reward_desc: "It is happening again. It is happening AGAIN. We are once again standing at the dilemma - should we focus on one type of the planes or try to have a more universal solution"
- sp_air_axial_jet_engine_preference_fighter: "Fighters"
- sp_air_axial_jet_engine_preference_compromise: "Universal Solution"
- sp_air_axial_jet_engine_preference_bomber: "Bombers"
+sp_air_axial_jet_engine_unique_reward: "Enchantment Evolution"  
+sp_air_axial_jet_engine_unique_reward_desc: "It is happening again. It is happening AGAIN. Once more, we face the same dilemma—should we refine our enchantments to enhance the speed and agility of Hunter Dragons, amplify the endurance of Scourge Dragons, or pursue a balanced approach?"  
+sp_air_axial_jet_engine_preference_fighter: "Hunter Dragons"  
+sp_air_axial_jet_engine_preference_compromise: "Universal Enchantments"  
+sp_air_axial_jet_engine_preference_bomber: "Scourge Dragons"  
+
 
  # Supersonic Jet
- sp_air_supersonic_jet_unique_reward: "Cost Concerns"
- sp_air_supersonic_jet_unique_reward_desc: "We realized that the potential costs of supersonic jets may be quite staggering. We could try to lower the costs, stay on the current projected costs or we could go all-in, and use the highest quality materials"
- sp_air_supersonic_jet_preference_cost_reduction: "Lowered Costs"
- sp_air_supersonic_jet_preference_compromise: "This is Fine"
- sp_air_supersonic_jet_preference_cost_increase: "Costs Do Not Matter"
+sp_air_supersonic_jet_unique_reward: "Taming the Tempest"  
+sp_air_supersonic_jet_unique_reward_desc: "We have discovered that enhancing our Supersonic Small Dragons comes at a steep price. We can attempt to reduce the costs through efficiency, maintain our current balance, or spare no expense in using the finest enchantments and materials."  
+sp_air_supersonic_jet_preference_cost_reduction: "Efficiency First"  
+sp_air_supersonic_jet_preference_compromise: "This is Fine"  
+sp_air_supersonic_jet_preference_cost_increase: "Perfection at Any Price"  
+
 
  # Helicopter
- sp_air_helicopter_unique_reward: "Safety Concerns"
- sp_air_helicopter_unique_reward_desc: "This new equipment will be quite exposed to all kinds of danger, making us concerned about it's longevity on the battlefield. We could try to address that by focusing on helicopter..."
- sp_air_helicopter_preference_speed: "Speed and Maneuverability"
- sp_air_helicopter_preference_compromise: "General Safety Precautions"
- sp_air_helicopter_preference_protection: "Increased Armor"
+sp_air_helicopter_unique_reward: "Wyvern Vulnerabilities"  
+sp_air_helicopter_unique_reward_desc: "Our Wyverns will be highly exposed to various threats on the battlefield, raising concerns about their survivability. We must decide whether to enhance their speed and agility, implement general safety measures, or reinforce their hides with stronger natural armor."  
+sp_air_helicopter_preference_speed: "Swifter and More Agile"  
+sp_air_helicopter_preference_compromise: "Balanced Defenses"  
+sp_air_helicopter_preference_protection: "Reinforced Scales"  
+
 
 
  ###########################################
   ### AIR PROJECT EQUIPMENT BONUS NAME ###
  ########################################### 
- sp_earthshaker_bomb_naval_targetting: "Earthshaker Project Integration - Precision"
- sp_earthshaker_bomb_power: "Earthshaker Project Integration - Payload Increase"
- sp_earthshaker_bomb_both: "Earthshaker Project Integration - Precision and Payload"
- sp_air_intercontinental_bomber_bombing_payload: "Intercontinental Bomber - Increased Payload"
- sp_air_intercontinental_bomber_balanced: "Intercontinental Bomber - Reliable Improvements"
- sp_air_intercontinental_bomber_protection: "Intercontinental Bomber - Increased Protection" 
- sp_air_mothership_speed_agility: "Mothership - Improved Speed and Dogfighting Capability "
- sp_air_mothership_balanced: "Mothership - Safety Improvements "
- sp_air_mothership_strength: "Mothership - Stronger Frame and Better Armaments"
- sp_air_jet_engine_fighter: "Jet Engine - Fighter Focus"
- sp_air_jet_engine_compromise: "Jet Engine - General Improvements"
- sp_air_jet_engine_bomber: "Jet Engine - Bomber Focus"
- sp_air_jet_engine_fighter_2: "Axial Jet-Engine - Fighter Focus"
- sp_air_jet_engine_compromise_2: "Axial Jet-Engine - General Improvements"
- sp_air_jet_engine_bomber_2: "Axial Jet-Engine - Bomber Focus"
- sp_air_supersonic_jet_cost_reduction: "Supersonic Jet - Cheaper Construction"
- sp_air_supersonic_jet_compromise: "Supersonic Jet - Small Tweaks"
- sp_air_supersonic_jet_cost_increase: "Supersonic Jet - Highest Quality Materials"
- sp_air_helicopter_speed: "Helicopter - Speed Preference"
- sp_air_helicopter_compromise: "Helicopter - Safety Preference"
- sp_air_helicopter_protection: "Helicopter - Protection from Small-Arms Fire"
+ sp_earthshaker_bomb_naval_targetting: "Magma Dragonfire - Precision"
+ sp_earthshaker_bomb_power: "Magma Dragonfire - Payload Increase"
+ sp_earthshaker_bomb_both: "Magma Dragonfire - Precision and Payload"
+ sp_air_intercontinental_bomber_bombing_payload: "Ragnarok Dragon - Increased Payload"
+ sp_air_intercontinental_bomber_balanced: "Ragnarok Dragon - Reliable Improvements"
+ sp_air_intercontinental_bomber_protection: "Ragnarok Dragon - Increased Protection" 
+ sp_air_mothership_speed_agility: "Great Broodmother - Improved Speed and Dogfighting Capability "
+ sp_air_mothership_balanced: "Great Broodmother - Safety Improvements "
+ sp_air_mothership_strength: "Great Broodmother - Stronger Frame and Better Armaments"
+ sp_air_jet_engine_fighter: "Shadow Wings - Hunter Focus"
+ sp_air_jet_engine_compromise: "Shadow Wings - General Improvements"
+ sp_air_jet_engine_bomber: "Shadow Wings - Scourge Focus"
+ sp_air_jet_engine_fighter_2: "Advanced Shadow Wings - Hunter Focus"
+ sp_air_jet_engine_compromise_2: "Advanced Shadow Wings - General Improvements"
+ sp_air_jet_engine_bomber_2: "Advanced Shadow Wings - Scourge Focus"
+ sp_air_supersonic_jet_cost_reduction: "Supersonic Small Dragon - Cheaper Training"
+ sp_air_supersonic_jet_compromise: "Supersonic Small Dragon - Small Tweaks"
+ sp_air_supersonic_jet_cost_increase: "Supersonic Small Dragon - Highest Quality Training"
+ sp_air_helicopter_speed: "Wyvern - Speed Preference"
+ sp_air_helicopter_compromise: "Wyvern - Safety Preference"
+ sp_air_helicopter_protection: "Wyvern - Protection from Archer Fire"
  
  
 
@@ -1252,28 +1263,28 @@ sp_naval_proximity_fuzes_preference_b: "Retain Current Ammo Supply"
  ### AIR PROJECT TECH BONUS & DESIGN BONUS NAMES ###
 ######################################################
 
- sp_air_supersonic_jet_fighter_free_design: "Supersonic Small Airframe"
- sp_air_jet_tactical_bomber_free_design: "Medium Airframe"
- sp_air_jet_fighter_free_design: "Small Airframe"
- sp_air_air_equipment_tech_bonus: "Special Projects - Aircraft Bonus"
- sp_air_medium_air_tech_bonus: "Special Projects - Medium Aircraft Bonus"
- sp_air_light_air_tech_bonus: "Special Projects - Light Aircraft Bonus"
+ sp_air_supersonic_jet_fighter_free_design: "Supersonic Small Dragon"
+ sp_air_jet_tactical_bomber_free_design: "Medium Dragon"
+ sp_air_jet_fighter_free_design: "Small Dragon"
+ sp_air_air_equipment_tech_bonus: "Special Projects - Dragon Bonus"
+ sp_air_medium_air_tech_bonus: "Special Projects - Medium Dragon Bonus"
+ sp_air_light_air_tech_bonus: "Special Projects - Light Dragon Bonus"
 
  ###### SPECIAL PROJECT TAGS ########
 
- sp_tag_tank: "Tank Projects"
- sp_tag_artillery: "Artillery Projects"
- sp_tag_surface_ship: "Surface Ship Projects"
- sp_tag_submarine: "Submarine Projects"
- sp_tag_nuclear_warfare: "Nuclear Warfare Projects"
- sp_tag_nuclear_power: "Nuclear Power Projects"
- sp_tag_aircraft: "Aircraft Projects"
- sp_tag_helicopter: "Helicopter Projects"
- sp_tag_jet: "Jet Projects"
+ sp_tag_tank: "War Beast Projects"
+ sp_tag_artillery: "Archer Projects"
+ sp_tag_surface_ship: "Non-Pirate Ship Projects"
+ sp_tag_submarine: "Pirate Ship Projects"
+ sp_tag_nuclear_warfare: "Wildfire Warfare Projects"
+ sp_tag_nuclear_power: "Wildfire Power Projects"
+ sp_tag_aircraft: "Dragon Projects"
+ sp_tag_helicopter: "Wyvern Projects"
+ sp_tag_jet: "Shadow Wings Projects"
  sp_tag_bomb: "Bomb Projects"
- sp_tag_rocket: "Rocketry Projects"
- sp_tag_guided_bomb: "Guided Bomb Projects"
- sp_tag_radar: "Radar Projects"
+ sp_tag_rocket: "Projectile Projects"
+ sp_tag_guided_bomb: "Projectile Projects"
+ sp_tag_radar: "Watchtower Projects"
 
 
 
@@ -1295,41 +1306,65 @@ sp_naval_proximity_fuzes_preference_b: "Retain Current Ammo Supply"
  scientist_trait_schrodingers_trait_tt: "Maester XP Gain: §G+10%§!\nScientist XP Gain: §R-10%§!"
  scientist_trait_schrodingers_trait_desc: "Before an observer opens the box, the wave function describing the trait forms a superposition of the states ''good'' and ''bad''"
 
- scientist_trait_aircraft_specialist: "Aircraft Specialist"
- scientist_trait_aircraft_specialist_desc: "A specialist in aerodynamics and aircraft design, capable of developing superior airframes, engines, and designs to dominate the skies."
- scientist_trait_rocketry_specialist: "Rocket Specialist"
- scientist_trait_rocketry_specialist_desc: "Specialized in rocket technology, focusing on the principles of propulsion in ballistic and guided rocketry programs."
- scientist_trait_electronics_specialist: "Electronics Specialist"
- scientist_trait_electronics_specialist_desc: "Specialized in communication, radar, and computing systems, essential for modern warfare."
- scientist_trait_helicopter_expert: "Helicopter Expert"
- scientist_trait_helicopter_expert_desc: "A pioneer in rotary-wing aircraft, specializing in the mechanics of vertical flight, rotor systems, and early helicopter models."
- scientist_trait_jet_expert: "Jet Expert"
- scientist_trait_jet_expert_desc: "An authority on jet propulsion, advancing research into early jet engines and their application in military aircraft."
- scientist_trait_bombs_expert: "Bombs Expert"
- scientist_trait_bombs_expert_desc: "Skilled in developing explosive devices and precision bombs that can be used in new refined strategies for aerial bombing."
- scientist_trait_guidance_systems_expert: "Guidance Systems Expert"
- scientist_trait_guidance_systems_expert_desc: "An expert in the early development of guidance technologies, with experience improving control systems for long-range, unmanned explosive devices."
- scientist_trait_armored_specialist: "Armored Specialist"
- scientist_trait_armored_specialist_desc: "A seasoned engineer specialized on the design and improvement of tanks and other armored vehicles."
- scientist_trait_artillery_specialist: "Artillery Specialist"
- scientist_trait_artillery_specialist_desc: "A specialist in artillery systems with experience in the refinement of long-range firepower and large-caliber guns."
- scientist_trait_submarine_specialist: "Submarine Specialist"
- scientist_trait_submarine_specialist_desc: "A specialist in submarine warfare, focused on the development of new submarines technology to improve their role in stealthy naval operations."
- scientist_trait_surface_ship_specialist: "Surface Ship Specialist"
- scientist_trait_surface_ship_specialist_desc: "Specialized in the design, development and deployment of large surface warships, as well as the research of new technology to equip military vessels."
- scientist_trait_nuclear_specialist: "Nuclear Specialist"
- scientist_trait_nuclear_specialist_desc: "A physicist at the forefront of atomic research, deeply immersed in the study of nuclear fission and chain reactions."
- scientist_trait_nuclear_warfare_expert: "Nuclear Warfare Expert"
- scientist_trait_nuclear_warfare_expert_desc: "An expert in the practical application of nuclear physics to weapon development, specializing in the theory behind atomic bomb design."
- scientist_trait_nuclear_power_expert: "Nuclear Power Expert"
- scientist_trait_nuclear_power_expert_desc: "A leading authority in nuclear physics, versed in the field of nuclear fission with a focus on power generation."
+scientist_trait_aircraft_specialist: "Dragon Specialist"  
+scientist_trait_aircraft_specialist_desc: "A master of dragon husbandry and aerial warfare, capable of breeding, training, and enhancing dragons to dominate the skies."  
+
+scientist_trait_rocketry_specialist: "Blitz Dragon Specialist"  
+scientist_trait_rocketry_specialist_desc: "A specialist in high-speed projectiles and flight dynamics, mastering the principles of enchanted ballistics and long-range aerial weaponry."  
+
+scientist_trait_electronics_specialist: "Communications Specialist"  
+scientist_trait_electronics_specialist_desc: "A specialist in warhorns, watchtowers, beacon systems, and raven couriers, ensuring swift and reliable battlefield coordination."  
+
+ 
+scientist_trait_helicopter_expert: "Wyvern Expert"  
+scientist_trait_helicopter_expert_desc: "A specialist in the breeding, training, and tactics of wyverns, mastering their use for reconnaissance, transport, and aerial warfare."  
+
+ 
+scientist_trait_jet_expert: "Shadow Dragon Expert"  
+scientist_trait_jet_expert_desc: "A specialist in the flight mechanics of dragons, combining arcane enhancements with aerodynamics to maximize speed, maneuverability, and endurance in aerial combat."  
+ 
+
+ 
+scientist_trait_bombs_expert: "Wildfire Bombs Expert"  
+scientist_trait_bombs_expert_desc: "An expert in incendiary and explosive alchemy, specializing in refining and deploying Wildfire-based bombs for devastating aerial assaults."  
+
+ 
+scientist_trait_guidance_systems_expert: "Aiming Mechanisms Expert"  
+scientist_trait_guidance_systems_expert_desc: "An expert in the precision calibration of siege engines, specializing in improving targeting accuracy and control for long-range projectile warfare."  
+
+ 
+scientist_trait_armored_specialist: "War Beast Specialist"  
+scientist_trait_armored_specialist_desc: "A seasoned tactician and handler specializing in the breeding, training, and deployment of war beasts such as knights' steeds, war elephants, and battle-hardened mammoths."  
+
+ 
+scientist_trait_artillery_specialist: "Archery Specialist"  
+scientist_trait_artillery_specialist_desc: "A master of ranged warfare, specializing in the development and refinement of bows, ballistae, and other long-range projectile weapons."  
+
+ 
+scientist_trait_submarine_specialist: "Pirate Ship Specialist"  
+scientist_trait_submarine_specialist_desc: "An expert in naval raiding tactics, specializing in the design and strategy of fast, stealthy vessels used for ambushes and surprise attacks on the high seas."  
+
+ 
+ scientist_trait_surface_ship_specialist: "Ship Specialist"
+ scientist_trait_surface_ship_specialist_desc: "Specialized in the design, development and deployment of large warships, as well as the research of new technology to equip military vessels."
+ 
+scientist_trait_nuclear_specialist: "Wildfire Specialist"  
+scientist_trait_nuclear_specialist_desc: "A master of alchemical and magical infernos, specializing in devastating fire-based weaponry capable of spreading uncontrollable destruction."  
+
+scientist_trait_nuclear_warfare_expert: "Wildfire Warfare Expert"  
+scientist_trait_nuclear_warfare_expert_desc: "An expert in harnessing wildfire-based weaponry for large-scale devastation, specializing in the strategic use of alchemical and magical infernos on the battlefield."  
+
+ 
+scientist_trait_nuclear_power_expert: "Wildfire Power Expert"  
+scientist_trait_nuclear_power_expert_desc: "A leading authority in harnessing wildfire energy, specializing in alchemical and magical combustion for power generation and industrial applications."  
+
 
 
  ############# EVENTS #############
  # Nuclear Projects
- sp_nuclear_project_events.1.t: "Information Leak"
- sp_nuclear_project_events.1.desc: "Although entirely coincidental, our agents in [FROM.GetNameDef] have managed to acquire information about an apparent secret project. A worker involved in development of a secret weapon, an atomic bomb, spoke about his work at a small social gathering where one of our agents were also attending."
- sp_nuclear_project_events.1.a: "This could prove useful"
+sp_nuclear_project_events.1.t: "Information Leak"  
+sp_nuclear_project_events.1.desc: "Although entirely coincidental, our agents in [FROM.GetNameDef] have managed to acquire information about an apparent secret project. A craftsman involved in the development of a powerful incendiary weapon, the Wildfire Bomb, spoke about his work at a small social gathering where one of our agents was also present."  
+sp_nuclear_project_events.1.a: "This could prove useful"  
 
 
 

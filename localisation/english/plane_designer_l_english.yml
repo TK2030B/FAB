@@ -4,11 +4,11 @@ EQ_MOD_CAT_twin_plane_engine_type_TITLE:0 "Medium Wings"
 EQ_MOD_CAT_medium_plane_engine_type_TITLE:0 "Large Wings"  
 EQ_MOD_CAT_quad_large_plane_engine_type_TITLE:0 "Massive Wings"  
 EQ_MOD_CAT_large_plane_engine_type_TITLE:1 "Colossal Wings"  
-EQ_MOD_CAT_plane_jet_engine_type_TITLE:1 "Enchanted Small Wings"  
-EQ_MOD_CAT_twin_plane_jet_engine_type_TITLE:0 "Enchanted Medium Wings"  
-EQ_MOD_CAT_medium_plane_jet_engine_type_TITLE:0 "Enchanted Large Wings"  
-EQ_MOD_CAT_quad_large_plane_jet_engine_type_TITLE:0 "Enchanted Massive Wings"  
-EQ_MOD_CAT_large_plane_jet_engine_type_TITLE:1 "Enchanted Colossal Wings"  
+EQ_MOD_CAT_plane_jet_engine_type_TITLE:1 "Shadow Small Wings"  
+EQ_MOD_CAT_twin_plane_jet_engine_type_TITLE:0 "Shadow Medium Wings"  
+EQ_MOD_CAT_medium_plane_jet_engine_type_TITLE:0 "Shadow Large Wings"  
+EQ_MOD_CAT_quad_large_plane_jet_engine_type_TITLE:0 "Shadow Massive Wings"  
+EQ_MOD_CAT_large_plane_jet_engine_type_TITLE:1 "Shadow Colossal Wings"  
 EQ_MOD_CAT_plane_rocket_engine_type_TITLE:0 "Blitz Wings"  
 
  
@@ -90,15 +90,15 @@ engine_4_6x:0 "Colossal Wings IV"
 engine_4_6x_desc:0 "$engine_1_6x_desc$"  
 
  
-jet_engine_1x:0 "Enchanted Small Wings"  
+jet_engine_1x:0 "Shadow Small Wings"  
 jet_engine_1x_desc:0 "By infusing a dragon’s wings with powerful enchantments, its speed and agility are greatly enhanced, though at a cost to endurance and control."  
-jet_engine_2x:0 "Enchanted Medium Wings"  
+jet_engine_2x:0 "Shadow Medium Wings"  
 jet_engine_2x_desc:0 "$engine_1_2x_desc$"  
-jet_engine_3x:0 "Enchanted Large Wings"  
+jet_engine_3x:0 "Shadow Large Wings"  
 jet_engine_3x_desc:0 "$engine_1_3x_desc$"  
-jet_engine_4x:0 "Enchanted Massive Wings"  
+jet_engine_4x:0 "Shadow Massive Wings"  
 jet_engine_4x_desc:0 "$engine_1_4x_desc$"  
-jet_engine_6x:0 "Enchanted Colossal Wings"  
+jet_engine_6x:0 "Shadow Colossal Wings"  
 jet_engine_6x_desc:0 "$engine_1_6x_desc$"  
 
  
@@ -277,11 +277,11 @@ flying_boat_medium_desc:0 "Through specialized training and adaptations, this dr
 guided_anti_ship_missile:1 "Precise Flame"
 guided_anti_ship_missile_desc:0 "A highly concentrated stream of dragonfire, allowing it to devastate enemy ships with deadly precision. No vessel is safe from this relentless attack."
 
-bouncing_bomb_release: "Scorching Rebound"
-bouncing_bomb_release_desc: "A specialized fire attack where the dragon spits condensed fireballs that skim across the water’s surface before igniting their target. The technique ensures devastating hits against ships and fortified structures."
+bouncing_bomb_release: "Lava Dragonfire"
+bouncing_bomb_release_desc: "A devastating technique where dragons unleash flames so intense they instantly evaporate water and obliterate dams. This specialized form of dragonfire ensures the destruction of critical water defenses, reshaping the battlefield."
 
-earthshaker_bomb_release: "Molten Burrow"
-earthshaker_bomb_release_desc: "A powerful dragonfire blast that strikes the ground and tunnels deep before erupting in a subterranean explosion, collapsing fortifications and causing massive structural damage."
+earthshaker_bomb_release: "Magma Dragonfire"
+earthshaker_bomb_release_desc: "A terrifying form of dragonfire that seeps deep into fortifications before igniting, incinerating everything and everyone within. No fortress can withstand the sheer intensity of this fire, which turns stone and steel into molten ruin."
 
  
 rocket_propelled_bombs: "Blitz Dragonfire"
@@ -639,22 +639,22 @@ range_improvements:0 "Flight Range Improvements"
 range_improvements_desc:0 "While it seems obvious that increasing a dragon's food capacity would allow for longer flights, the challenge lies in enhancing their endurance without compromising their speed and combat effectiveness."
 
 
-sp_centrifugal_jet_tech: "Enchanted Wings"
-sp_centrifugal_jet_tech_desc: "These magical wings are imbued with arcane power, granting the dragon increased agility and speed. The enchanted energy flows through the wings, allowing for greater maneuverability and reduced strain on the dragon during flight, making them easier to maintain and control."
+sp_centrifugal_jet_tech: "Shadow Wings"
+sp_centrifugal_jet_tech_desc: "These magical wings are imbued with arcane power, granting the dragon increased agility and speed. The Shadow energy flows through the wings, allowing for greater maneuverability and reduced strain on the dragon during flight, making them easier to maintain and control."
 
-jet_engine_axial_1x: "Advanced Enchanted Small Wings"
+jet_engine_axial_1x: "Advanced Shadow Small Wings"
 jet_engine_axial_1x_desc: "These small wings, imbued with advanced enchantments, provide enhanced thrust and agility, perfect for swift and nimble dragons."
 
-jet_engine_axial_2x: "Advanced Enchanted Medium Wings"
+jet_engine_axial_2x: "Advanced Shadow Medium Wings"
 jet_engine_axial_2x_desc: "$engine_1_2x_desc$"
 
-jet_engine_axial_3x: "Advanced Enchanted Large Wings"
+jet_engine_axial_3x: "Advanced Shadow Large Wings"
 jet_engine_axial_3x_desc: "$engine_1_3x_desc$"
 
-jet_engine_axial_4x: "Advanced Enchanted Massive Wings"
+jet_engine_axial_4x: "Advanced Shadow Massive Wings"
 jet_engine_axial_4x_desc: "$engine_1_4x_desc$"
 
-jet_engine_axial_6x: "Advanced Enchanted Colossal Wings"
+jet_engine_axial_6x: "Advanced Shadow Colossal Wings"
 jet_engine_axial_6x_desc: "$engine_1_6x_desc$"
 
 

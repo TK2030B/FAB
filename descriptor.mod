@@ -1,4 +1,6 @@
 version="1.0"
+replace_path="common/names"
+replace_path="portraits"
 tags={
 	"Alternative History"
 	"Gameplay"
