@@ -1,0 +1,20 @@
+state={
+	id=132
+	name="STATE_132"
+
+	history={
+		owner = STO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = STO
+	}
+
+	provinces={
+		3291
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

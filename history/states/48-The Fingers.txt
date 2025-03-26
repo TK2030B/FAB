@@ -1,0 +1,23 @@
+
+state={
+	id=48
+	name="STATE_48"
+
+	history={
+		owner = VAL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VAL
+
+	}
+
+	provinces={
+		291 619 1203 1560 1835 2122 2476 2483 2493 
+	}
+	manpower=6763200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

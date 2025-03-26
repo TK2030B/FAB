@@ -1,0 +1,26 @@
+﻿division_template = {
+	name = "Cave People"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Northern Frostfangs Tribesmen"
+		location = 1376
+		division_template = "Cave People"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Southern Frostfangs Tribesmen"
+		location = 1195
+		division_template = "Cave People"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

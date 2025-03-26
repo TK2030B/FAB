@@ -1,0 +1,610 @@
+﻿###########################
+# Free Folk Events
+###########################
+
+add_namespace = wildlings
+
+####################
+#### Event ID's ####
+####################
+### 1 - Raid Bear Island - Fail
+### 2 - Raid Bear Island - Success
+### 3 - Raid Skagos - Fail
+### 4 - Raid Skagos - Success
+### 5 - Raiders Fallen To Death
+### 6 - Raid The Gift - Success
+### 7 - Raid The Bay of Ice - Success
+### 8 - Tribes break free
+### 9 - Tribes become unhappy
+### 10 - Failed raid - event for raided country
+### 11 - Successfull raid - event for raided country
+### 12 - Raid The New Gift - Success
+### 13 - Raid The Gift - Fail
+### 14 - Raid The New Gift - Fail
+### 15 - Raid Bay of Ice - Fail
+### 16 - Northern Tribes Conference
+### 17 - The North has unified
+### 18 - Activity in the Land of Always Winter
+### 19 - Horn of Winter Found
+### 20 - Horn of Winter Not Found
+### 21 - Graves Unearthed
+### 22 - Wall destroyed
+### 23 - Scout team from the north returns
+
+# Raid Bear Island - Fail
+country_event = {
+	id = wildlings.1
+	title = wildlings.1.t
+	desc = wildlings.1.d
+	picture = GFX_report_event_finnish_soldiers_snow
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.1.a
+		army_experience = 1
+		add_stability = -0.03
+		add_manpower = -250
+		hidden_effect = {
+			if = {
+				limit = { any_country = { controls_state = 21 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Raid Bear Island - Success
+country_event = {
+	id = wildlings.2
+	title = wildlings.2.t
+	desc = wildlings.2.d
+	picture = GFX_report_event_spr_civil_war_equipment
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.2.a
+		army_experience = 3
+		add_stability = 0.03
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+		}
+		hidden_effect = {
+			if = {
+				limit = { any_country = { controls_state = 21 } }
+				NOR = { country_event = { id = wildlings.11 } }
+			}
+		}
+	}
+}
+
+# Raid Skagos - Fail
+country_event = {
+	id = wildlings.3
+	title = wildlings.3.t
+	desc = wildlings.3.d
+	picture = GFX_report_event_finnish_soldiers_snow
+
+	is_triggered_only = yes
+
+	option = {
+		army_experience = 1
+		name = wildlings.3.a
+		add_stability = -0.03
+		add_manpower = -250
+		hidden_effect = {
+			if = {
+				limit = { any_country = { controls_state = 14 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Raid Skagos - Success
+country_event = {
+	id = wildlings.4
+	title = wildlings.4.t
+	desc = wildlings.4.d
+	picture = GFX_report_event_spr_civil_war_equipment
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.4.a
+		army_experience = 3
+		add_stability = 0.03
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+		}
+		hidden_effect = {
+			if = {
+				limit = {	any_country = { controls_state = 14 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Raiders Fallen To Death
+country_event = {
+	id = wildlings.5
+	title = wildlings.5.t
+	desc = wildlings.5.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.5.a
+		add_stability = -0.03
+		add_manpower = -500
+	}
+}
+
+# Raid The Gift - Success
+country_event = {
+	id = wildlings.6
+	title = wildlings.6.t
+	desc = wildlings.6.d
+	picture = GFX_report_event_spr_civil_war_equipment
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.6.a
+		army_experience = 3
+		add_stability = 0.03
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+		}
+		hidden_effect = {
+			if = {
+				limit = { any_country = { controls_state = 19 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Raid The Bay of Ice - Success
+country_event = {
+	id = wildlings.7
+	title = wildlings.7.t
+	desc = wildlings.7.d
+	picture = GFX_report_event_spr_civil_war_equipment
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.7.a
+		army_experience = 3
+		add_stability = 0.03
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+		}
+		hidden_effect = {
+			if = {
+				limit = { 	any_country = { controls_state = 21 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Tribes break free
+country_event = {
+	id = wildlings.8
+	title = wildlings.8.t
+	desc = wildlings.8.d
+	picture = GFX_report_event_yugoslavia_partisans
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.8.a
+		add_stability = -0.2
+		if = {
+			limit = {
+				4 = { is_controlled_by = ROOT }
+			}
+			release = FF4
+			retire_character  = WIL_loboda
+			retire_character  = WIL_sigorn
+		#	FF4 = {
+		#		load_oob = FF4_1936
+		#	}
+		#	delete_unit_template_and_units = {
+		#		division_template = "Thenn Tribesmen"
+		#	}
+		}
+		if = {
+			limit = {
+				7 = { is_controlled_by = ROOT }
+			}
+			release = FF6
+		#	FF6 = {
+		#		load_oob = FF6_1936
+		#	}
+		#	delete_unit_template_and_units = {
+		#		division_template = "Nightrunner Tribesmen"
+		#	}
+			if = {
+				limit = {
+					7 = { is_core_of = ROOT }
+				}
+				7 = { remove_core_of = ROOT }
+			}
+		}
+		if = {
+			limit = {
+				10 = { is_controlled_by = ROOT }
+			}
+			release = FF5
+		#	FF5 = {
+		#		load_oob = FF5_1936
+		#	}
+		#	delete_unit_template_and_units = {
+		#		division_template = "Hornfood Tribesmen"
+		#	}
+			if = {
+				limit = {
+					10 = { is_core_of = ROOT }
+				}
+				10 = { remove_core_of = ROOT }
+			}
+		}
+		if = {
+			limit = {
+				9 = { is_controlled_by = ROOT }
+			}
+			release = FF3
+		#	FF3 = {
+		#		load_oob = FF3_1936
+		#	}
+		#	delete_unit_template_and_units = {
+    #		division_template = "Cave People"
+		#	}
+			if = {
+				limit = {
+					9 = { is_core_of = ROOT }
+				}
+				9 = { remove_core_of = ROOT }
+			}
+		}
+		if = {
+			limit = {
+				5 = { is_controlled_by = ROOT }
+			}
+			release = FF2
+		#	FF2 = {
+		#		load_oob = FF2_1936
+		#	}
+		#	delete_unit_template_and_units = {
+		#		division_template = "Frozen Shore Raider"
+		#	}
+			if = {
+				limit = {
+					5 = { is_core_of = ROOT }
+				}
+				5 = { remove_core_of = ROOT }
+			}
+		}
+		if = {
+			limit = {
+				11 = { is_controlled_by = ROOT }
+			}
+			release = FF1
+			retire_character=WIL_karsi
+		#	FF1 = {
+		#		load_oob = FF1_1936
+		#	}
+		#	delete_unit_template_and_units = {
+		#		division_template = "Ice River Tribesmen"
+		#	}
+			if = {
+				limit = {
+					11 = { is_core_of = ROOT }
+				}
+				11 = { remove_core_of = ROOT }
+			}
+		}
+		set_country_flag = WIL_break_up_flg
+		kill_country_leader = yes
+		retire_character=WIL_harma
+		retire_character=WIL_halleck
+		retire_character=WIL_rattleshirt
+		retire_character=WIL_alfyn
+		remove_ideas = giants_in_army
+		hidden_effect = {
+			add_country_leader_role = {
+				character = WIL_anarchism
+				promote_leader = yes
+		    country_leader = {
+		        ideology = anarchist_communism
+		        expire = "1965.1.1.1"
+		        traits = { no_leadership }
+		    }
+			}
+			retire_character=WIL_mance_rayder
+			create_field_marshal = {
+				name = "Tormund Giantsbane"
+				picture = "Portrait_General_Tormund.dds"
+				traits = { winter_specialist hill_fighter }
+				skill = 3
+			}
+		}
+		drop_cosmetic_tag = yes
+		load_focus_tree = generic_focus
+	}
+}
+
+# Tribes become unhappy
+country_event = {
+	id = wildlings.9
+	title = wildlings.9.t
+	desc = wildlings.9.d
+	picture = GFX_report_event_iww_demonstration
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.9.a
+		add_stability = -0.03
+		add_manpower = -150
+	}
+}
+
+# Failed raid - event for raided country
+country_event = {
+	id = wildlings.10
+	title = wildlings.10.t
+	desc = wildlings.10.d
+	picture = GFX_report_event_finnish_soldiers_snow
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.10.a
+		army_experience = 3
+		add_stability = 0.03
+	}
+}
+
+# Successfull raid - event for raided country
+country_event = {
+	id = wildlings.11
+	title = wildlings.11.t
+	desc = wildlings.11.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.11.a
+		army_experience = 1
+		add_stability = -0.03
+		add_manpower = -50
+	}
+}
+
+# Raid The New Gift - Success
+country_event = {
+	id = wildlings.12
+	title = wildlings.12.t
+	desc = wildlings.12.d
+	picture = GFX_report_event_spr_civil_war_equipment
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.7.a
+		army_experience = 3
+		add_stability = 0.03
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+		}
+		hidden_effect = {
+			if = {
+				limit = { any_country = { controls_state = 21 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Raid The Gift - Fail
+country_event = {
+	id = wildlings.13
+	title = wildlings.13.t
+	desc = wildlings.13.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.13.a
+		army_experience = 1
+		add_stability = -0.03
+		add_manpower = -250
+		hidden_effect = {
+			if = {
+				limit = { 	any_country = { controls_state = 19 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Raid The New Gift - Fail
+country_event = {
+	id = wildlings.14
+	title = wildlings.14.t
+	desc = wildlings.14.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.14.a
+		army_experience = 1
+		add_stability = -0.03
+		add_manpower = -250
+		hidden_effect = {
+			if = {
+				limit = {	any_country = { controls_state = 46 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Raid Bay of Ice - Fail
+country_event = {
+	id = wildlings.15
+	title = wildlings.15.t
+	desc = wildlings.15.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.15.a
+		army_experience = 1
+		add_stability = -0.03
+		add_manpower = -250
+		hidden_effect = {
+			if = {
+				limit = { any_country = { controls_state = 263 } }
+				NOR = { country_event = { id = wildlings.10 } }
+			}
+		}
+	}
+}
+
+# Northern Tribes Conference
+country_event = {
+	id = wildlings.16
+	title = wildlings.16.t
+	desc = wildlings.16.d
+	picture = GFX_report_event_military_planning
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.16.a
+		set_country_flag = WIL_retreat_south_flg
+		unlock_national_focus = WIL_retreat_south
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = WIL_free_folk_1
+				add_idea = WIL_free_folk_2
+			}
+		}
+	}
+	option = {
+		name = wildlings.16.b
+		set_country_flag = WIL_stay_north_flg
+		unlock_national_focus = WIL_stay_north
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = WIL_free_folk_1
+				add_idea = WIL_free_folk_3
+			}
+		}
+	}
+}
+
+# The North has unified
+country_event = {
+	id = wildlings.17
+	title = wildlings.17.t
+	desc = wildlings.17.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.17.a
+		add_stability = 0.03
+		add_political_power = 50
+	}
+}
+
+### wildlings.18
+
+# Horn of Winter Found
+country_event = {
+	id = wildlings.19
+	title = wildlings.19.t
+	desc = wildlings.19.d
+	picture = GFX_report_event_horn_found
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.19.a
+			add_war_support = 0.05
+			set_country_flag = WIL_found_horn_flg
+			custom_effect_tooltip = WIL_can_use_horn_tt
+	}
+}
+
+# Horn of Winter Not Found
+country_event = {
+	id = wildlings.20
+	title = wildlings.20.t
+	desc = wildlings.20.d
+	picture = GFX_report_event_digging
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.20.a
+			add_war_support = -0.05
+	}
+}
+
+# Graves Unearthed
+country_event = {
+	id = wildlings.21
+	title = wildlings.21.t
+	desc = wildlings.21.d
+	picture = GFX_report_event_digging
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = WIL
+			focus_progress = {
+		    focus = WIL_horn_of_winter
+		    progress > 0.4
+		}
+	}
+
+	option = {
+		name = wildlings.21.a
+			add_war_support = -0.05
+	}
+}
+
+# Wall destroyed
+country_event = {
+	id = wildlings.22
+	title = wildlings.22.t
+	desc = wildlings.22.d
+	picture = GFX_report_event_digging
+
+	is_triggered_only = yes
+
+	option = {
+		name = wildlings.22.a
+			add_stability = -0.15
+	}
+}

@@ -1,0 +1,39 @@
+﻿division_template = {
+	name = "City Watch"
+	division_names_group = CRO_castles_garrison
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+	}
+	support = 	{
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+units = {				#ca 17k totally
+	division = {
+		name = "East Barracks Garrison"
+		location = 2234
+		division_template = "City Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "West Barracks Garrison"
+		location = 2234
+		division_template = "City Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Red Keep Garrison"
+		location = 2234
+		division_template = "City Watch"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

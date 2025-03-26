@@ -34,9 +34,9 @@
  falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
- neutrality:0 "Traditional Rule"
- neutrality_noun:0 "Traditional"
- neutrality_desc:0 "Traditional Regime"
+ neutrality:0 "Non-Aligned"
+ neutrality_noun:0 "Non-Aligned"
+ neutrality_desc:0 "Authoritarian Regime"
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  oligarchism:0 "Oligarchic"
@@ -47,7 +47,71 @@
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
+
+ ### Political Parties
+ #Westeros
+NOR_neutrality_party:0 "House Stark"  
+NOR_fascism_party:0 "House Stark"  
+NOR_democratic_party:0 "House Stark"  
+NOR_communism_party:0 "House Stark"  
+
+RIV_neutrality_party:0 "House Tully"  
+RIV_fascism_party:0 "House Tully"  
+RIV_democratic_party:0 "House Tully"  
+RIV_communism_party:0 "House Tully"  
+
+VAL_neutrality_party:0 "House Arryn"  
+VAL_fascism_party:0 "House Arryn"  
+VAL_democratic_party:0 "House Arryn"  
+VAL_communism_party:0 "House Arryn"  
+
+IRO_neutrality_party:0 "House Greyjoy"  
+IRO_fascism_party:0 "House Greyjoy"  
+IRO_democratic_party:0 "House Greyjoy"  
+IRO_communism_party:0 "House Greyjoy"  
+
+STO_neutrality_party:0 "House Baratheon"  
+STO_fascism_party:0 "House Baratheon"  
+STO_democratic_party:0 "House Baratheon"  
+STO_communism_party:0 "House Baratheon"  
+
+WES_neutrality_party:0 "House Lannister"  
+WES_fascism_party:0 "House Lannister"  
+WES_democratic_party:0 "House Lannister"  
+WES_communism_party:0 "House Lannister"  
+
+REA_neutrality_party:0 "House Tyrell"  
+REA_fascism_party:0 "House Tyrell"  
+REA_democratic_party:0 "House Tyrell"  
+REA_communism_party:0 "House Tyrell"  
+
+DRA_neutrality_party:0 "House Baratheon"  
+DRA_fascism_party:0 "House Baratheon"  
+DRA_democratic_party:0 "House Baratheon"  
+DRA_communism_party:0 "House Baratheon"  
+
+DOR_neutrality_party:0 "House Martell"  
+DOR_fascism_party:0 "House Martell"  
+DOR_democratic_party:0 "House Martell"  
+DOR_communism_party:0 "House Martell"  
+
+CRO_neutrality_party:0 "House Baratheon"  
+CRO_fascism_party:0 "House Baratheon"  
+CRO_democratic_party:0 "House Baratheon"  
+CRO_communism_party:0 "House Baratheon"  
+
+NWA_neutrality_party:0 "Night's Watch"  
+NWA_fascism_party:0 "Night's Watch"  
+NWA_democratic_party:0 "Night's Watch"  
+NWA_communism_party:0 "Night's Watch"  
+
  
+ #Essos
+ SUI_neutrality_party:0 "House Qo"
+ SUI_neutrality_party_long:0 "The House of Qo"
+ BRA_neutrality_party:0 "House Antaryon"
+ BRA_neutrality_party_long:0 "The House of Antaryon"
+
 #Start of Fab
 
  DR_subideology:0 "Benevolent Rule"
@@ -60,118 +124,3 @@
  NR_subideology_desc:0 "Traditional Rule emphasizes the preservation of age-old institutions, often ruled by monarchy or aristocracy. The ideology holds that stability, continuity, and respect for tradition are paramount in maintaining order. These systems resist drastic change, upholding the old ways as a source of strength and identity, rejecting the chaos of modern revolutionary ideas."
 White_Walker_subideology:0 "The Eternal Night"
 White_Walker_subideology_desc:0 "An unrelenting force of ice and death, the White Walkers seek to extinguish all warmth and life from the world. They do not govern, negotiate, or tolerate opposition—only the cold remains. With every fallen foe reborn as an instrument of their will, their dominion is inevitable, an empire of the undead under an eternal winter."
-
-NO1_communism_party:0 "House Stark"
-NO1_democratic_party:0 "House Stark"
-NO1_fascism_party:0 "House Stark"
-NO1_neutrality_party:0 "House Stark"
-
-RI1_communism_party:0 "House Greyjoy"
-RI1_democratic_party:0 "House Greyjoy"
-RI1_fascism_party:0 "House Greyjoy"
-RI1_neutrality_party:0 "House Greyjoy"
-
-RI2_communism_party:0 "House Tully"
-RI2_democratic_party:0 "House Tully"
-RI2_fascism_party:0 "House Tully"
-RI2_neutrality_party:0 "House Tully"
-
-TW1_communism_party:0 "House Lannister"
-TW1_democratic_party:0 "House Lannister"
-TW1_fascism_party:0 "House Lannister"
-TW1_neutrality_party:0 "House Lannister"
-
-ST1_communism_party:0 "House Baratheon"
-ST1_democratic_party:0 "House Baratheon"
-ST1_fascism_party:0 "House Baratheon"
-ST1_neutrality_party:0 "House Baratheon"
-
-DA1_communism_party:0 "House Martell"
-DA1_democratic_party:0 "House Martell"
-DA1_fascism_party:0 "House Martell"
-DA1_neutrality_party:0 "House Martell"
-
-VA1_communism_party:0 "House Arryn"
-VA1_democratic_party:0 "House Arryn"
-VA1_fascism_party:0 "House Arryn"
-VA1_neutrality_party:0 "House Arryn"
-
-RE1_communism_party:0 "House Tyrell"
-RE1_democratic_party:0 "House Tyrell"
-RE1_fascism_party:0 "House Tyrell"
-RE1_neutrality_party:0 "House Tyrell"
-
-CR1_communism_party:0 "House Baratheon"
-CR1_democratic_party:0 "House Baratheon"
-CR1_fascism_party:0 "House Baratheon"
-CR1_neutrality_party:0 "House Baratheon"
-
-FR1_communism_party:0 "House Frey"
-FR1_democratic_party:0 "House Frey"
-FR1_fascism_party:0 "House Frey"
-FR1_neutrality_party:0 "House Frey"
-
-DR1_communism_party:0 "House Baratheon"
-DR1_democratic_party:0 "House Baratheon"
-DR1_fascism_party:0 "House Baratheon"
-DR1_neutrality_party:0 "House Baratheon"
-
-NW1_communism_party:0 "Night’s Watch"
-NW1_democratic_party:0 "Night’s Watch"
-NW1_fascism_party:0 "Night’s Watch"
-NW1_neutrality_party:0 "Night’s Watch"
-
-WI1_communism_party:0 "Free Folk"
-WI1_democratic_party:0 "Free Folk"
-WI1_fascism_party:0 "Free Folk"
-WI1_neutrality_party:0 "Free Folk"
-
-OT1_communism_party:0 "White Walkers"
-OT1_democratic_party:0 "White Walkers"
-OT1_fascism_party:0 "White Walkers"
-OT1_neutrality_party:0 "White Walkers"
-
-BR1_communism_party:0 "Sealord of Braavos"
-BR1_democratic_party:0 "Sealord of Braavos"
-BR1_fascism_party:0 "Sealord of Braavos"
-BR1_neutrality_party:0 "Sealord of Braavos"
-
-PE1_communism_party:0 "Magister of Pentos"
-PE1_democratic_party:0 "Magister of Pentos"
-PE1_fascism_party:0 "Magister of Pentos"
-PE1_neutrality_party:0 "Magister of Pentos"
-
-TY1_communism_party:0 "Archon of Tyrosh"
-TY1_democratic_party:0 "Archon of Tyrosh"
-TY1_fascism_party:0 "Archon of Tyrosh"
-TY1_neutrality_party:0 "Archon of Tyrosh"
-
-QH1_communism_party:0 "Ruler of Qohor"
-QH1_democratic_party:0 "Ruler of Qohor"
-QH1_fascism_party:0 "Ruler of Qohor"
-QH1_neutrality_party:0 "Ruler of Qohor"
-
-VO1_communism_party:0 "Triarchs of Volantis"
-VO1_democratic_party:0 "Triarchs of Volantis"
-VO1_fascism_party:0 "Triarchs of Volantis"
-VO1_neutrality_party:0 "Triarchs of Volantis"
-
-DS1_communism_party:0 "Great Khal"
-DS1_democratic_party:0 "Great Khal"
-DS1_fascism_party:0 "Great Khal"
-DS1_neutrality_party:0 "Great Khal"
-
-SB1_communism_party:0 "Good Masters of Astapor"
-SB1_democratic_party:0 "Good Masters of Astapor"
-SB1_fascism_party:0 "Good Masters of Astapor"
-SB1_neutrality_party:0 "Good Masters of Astapor"
-
-RW1_communism_party:0 "No Central Ruler"
-RW1_democratic_party:0 "No Central Ruler"
-RW1_fascism_party:0 "No Central Ruler"
-RW1_neutrality_party:0 "No Central Ruler"
-
-UL1_communism_party:0 "No Central Ruler"
-UL1_democratic_party:0 "No Central Ruler"
-UL1_fascism_party:0 "No Central Ruler"
-UL1_neutrality_party:0 "No Central Ruler"

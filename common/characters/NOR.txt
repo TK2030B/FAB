@@ -1,0 +1,91 @@
+characters={
+
+	NOR_ned_stark={
+		name=NOR_ned_stark
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
+	NOR_robb_stark={
+		name=NOR_robb_stark
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Stark_Robb.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Stark_Robb.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	NOR_theon_greyjoy={
+		name=NOR_theon_greyjoy
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Theon_Greyjoy.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Theon_Greyjoy.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	NOR_rodrik_cassel={
+		name=NOR_rodrik_cassel
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Rodrik_Cassel.dds"
+			}
+		}
+		corps_commander={
+			traits = { inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+
+}

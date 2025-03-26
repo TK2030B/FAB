@@ -1,0 +1,26 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = DOT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 3
+		}
+		add_core_of = DOT
+		#victory_points = {
+		#	179 15
+		#}
+	}
+
+	provinces={
+		29 55 104 110 133 160 164 185 197 253 274 284 302 303 399 444 560 689 711 754 828 885 903 916 936 971 1047 1075 1078 1122 1126 1162 1187 1258 1322 1372 1418 1503 1612 1655 1664 1712 1754 1923 2068 2107 2243 2266 2296 2720 2728 2733 2778 2796 2817 2827 2832 2852 4594
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

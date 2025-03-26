@@ -1,0 +1,89 @@
+- fixed WIL wont get any units from their focuses
+- reenabled default oobs for all Westerosi countries
+- added ports to all IRO islands
+- added the idea "Stable Kingdom" to CRO to prevent the Seven Kingdoms from gaining autonomy
+- added 2 Steel and 1 oil to CRO
+
+2
+- STO got there starting units back
+- added an economic basic tree for CRO
+- reworked the event regarding Jon Arryns death
+- added 3 new possible advisors for CRO
+- added the trait hand_of_the_king to VAL_jon_arryn
+- the trait hand_of_the_king now adds 10% PP gain
+- added new events for NOR, WES, STO, CRO, VAL
+- reworked the autonomy system, instead of japanese levels now we have:
+  - High Lordship
+  - Royal Protectorate
+  - Feudal Dominion
+- DRA now starts as "Feudal Dominion"
+- removed CRO idea stable_kingdom again
+- fixed DRA flag being upside down
+- added a new idea for CRO "Indebted Crown"
+- added a new trait "Lavish Lifestyle" to Robert Baratheon
+- gave CRO their convoys back
+- updated economic laws to fix broken consumer goods
+- added a level 1 port to state 42 "Three Sisters"
+- added a level 2 coastal bunker to Dragonstone
+- disabled CRO decision "Replace Hand of the King" for now
+- several loc fixes
+
+3
+- added a 1 point VP to "Three Sisters" called "Sisterton"
+- added a news_event for when a new Hand of the King got apppointed
+- Jon Arryn wont die in January anmyore, now its a random day in February
+- several loc fixes
+- reworked and added a lot of new portraits
+- added a new spy agency for CRO
+- improved and expanded CRO focus tree
+- updated interface to include newest dlcs GFX
+
+4
+- fixed some provinces beeing coastal besides beeing landlocked
+- fixed some provinces beeing landlocked besides beeing coastal
+- made the map-buildings random to include the newest types
+- adjusted the stateview to the new update
+- added support for all new focus icons
+- added newest vanilla intelligence icons
+- updated the air techs to vanilla
+- several smaller interface fixes to include the newest update
+- introduced raids to Westeros / Essos
+- made mios aviable for everyone
+- added all new leader traits since NSB
+- updated all techs to the newest update
+- updated all equipment to the newest update
+- updated scripted_trigger to remove all links to vanilla
+- removed some not needed files from the mod
+- added new dlc models to the game (but without anyone using them)
+
+5
+- added bookmark texts for all countries in the country_selection screen
+- added Lord Varys as CRO advisor (unlockable by focus)
+- added Cersei Lannister as an advisor and activated her right from the start for CRO
+- added 2 new focuses for CRO
+- completely reworked the Irons Islands, expanded the size a little bit and added more detail
+- fixed some province terrain in Dorne and Iron Islands
+- added 3 new provinces in the Iron Islands
+- remade Balon Greyjoys portrait
+- added many new VP for the Iron Islands
+- added a new starting idea for IRO "Neglected Landforces"
+- reworked Iron Islands OOB to better disperse the troops
+- Iron Islands now starts with more infantry and navy tech researched
+- Iron Islands now starts with the doctrine "Fleet in Beeing" already unlocked
+- added more straits to the Iron Islands and the Stepstones
+- reworked the Iron Islands OOB
+- Orkmonts port was changed from 2 to 3
+- raised the ressources amount for all of the Iron Islands massively, now their name finally makes sense
+- Iron Islands now have a starting navy of 100 ships
+- Balon Greyjoy also became an admiral now
+- Harlaw and Great Wyk have a lvl 1 air base now
+- reworked the Stepstones flag
+- neutral Stepstones renamed to "Republic of the Stepstones" 
+- Stepstones now starts with the "Council of the Strait" as its leader
+- added an basic oob for the Stepstones
+- the Stepstones received some coastal artillery to defend their independence from its neighbors
+- removed an arms factory from the 'Grey Gallows'
+- removed some heightmap artefacts
+- Tyrosh now also controlls the 2 islands in the west and thus has its own capital back
+- the autonomy "High Lordship" now gives no military factories to the Overlord namore
+- several loc fixes

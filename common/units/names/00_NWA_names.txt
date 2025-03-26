@@ -1,0 +1,260 @@
+﻿NWA = {
+	fleet_names_template = FLEET_NAME_NWA
+	submarine = {
+		prefix = ""
+		generic = { "NWS-Boot" }
+		unique = {
+			"NWS-1" "NWS-2" "NWS-3" "NWS-4" "NWS-5" "NWS-6" "NWS-7" "NWS-8" "NWS-9" "NWS-10" "NWS-11" "NWS-12" "NWS-13" "NWS-14" "NWS-15" "NWS-16" "NWS-17" "NWS-18" "NWS-19" "NWS-20" "NWS-21" "NWS-22" "NWS-23" "NWS-24" "NWS-25" "NWS-26"
+			"NWS-27" "NWS-28" "NWS-29" "NWS-30" "NWS-31" "NWS-32" "NWS-33" "NWS-34" "NWS-35" "NWS-36" "NWS-37" "NWS-38" "NWS-39" "NWS-40" "NWS-41" "NWS-42" "NWS-43" "NWS-44" "NWS-45" "NWS-46" "NWS-47" "NWS-48" "NWS-49" "NWS-50" "NWS-51" "NWS-52"
+			"NWS-53" "NWS-54" "NWS-55" "NWS-56" "NWS-57" "NWS-58" "NWS-59" "NWS-60" "NWS-61" "NWS-62" "NWS-63" "NWS-64" "NWS-65" "NWS-66" "NWS-67" "NWS-68" "NWS-69" "NWS-70" "NWS-71" "NWS-72" "NWS-73" "NWS-74" "NWS-75" "NWS-76" "NWS-77" "NWS-78"
+			"NWS-79" "NWS-80" "NWS-81" "NWS-82" "NWS-83" "NWS-84" "NWS-85" "NWS-86" "NWS-87" "NWS-88" "NWS-89" "NWS-90" "NWS-91" "NWS-92" "NWS-93" "NWS-94" "NWS-95" "NWS-96" "NWS-97" "NWS-98" "NWS-99" "NWS-100" "NWS-101" "NWS-101" "NWS-102"
+			"NWS-103" "NWS-104" "NWS-105" "NWS-106" "NWS-107" "NWS-108" "NWS-109" "NWS-110" "NWS-111" "NWS-112" "NWS-113" "NWS-114" "NWS-115" "NWS-116" "NWS-117" "NWS-118" "NWS-119" "NWS-120" "NWS-121" "NWS-122" "NWS-123" "NWS-124"
+			"NWS-125" "NWS-126" "NWS-127" "NWS-128" "NWS-129" "NWS-130" "NWS-131" "NWS-132" "NWS-133" "NWS-134" "NWS-135" "NWS-136" "NWS-137" "NWS-138" "NWS-139" "NWS-140" "NWS-141" "NWS-142" "NWS-143" "NWS-144" "NWS-145" "NWS-146"
+			"NWS-147" "NWS-148" "NWS-149" "NWS-150" "NWS-151" "NWS-152" "NWS-153" "NWS-154" "NWS-155" "NWS-156" "NWS-157" "NWS-158" "NWS-159" "NWS-160" "NWS-161" "NWS-162" "NWS-163" "NWS-164" "NWS-165" "NWS-166" "NWS-167" "NWS-168"
+			"NWS-169" "NWS-170" "NWS-171" "NWS-172" "NWS-173" "NWS-174" "NWS-175" "NWS-176" "NWS-177" "NWS-178" "NWS-179" "NWS-180" "NWS-181" "NWS-182" "NWS-183" "NWS-184" "NWS-185" "NWS-186" "NWS-187" "NWS-188" "NWS-189" "NWS-190"
+			"NWS-191" "NWS-192" "NWS-193" "NWS-194" "NWS-195" "NWS-196" "NWS-197" "NWS-198" "NWS-199" "NWS-200" "NWS-201" "NWS-201" "NWS-202" "NWS-203" "NWS-204" "NWS-205" "NWS-206" "NWS-207" "NWS-208" "NWS-209" "NWS-210" "NWS-211"
+			"NWS-212" "NWS-213" "NWS-214" "NWS-215" "NWS-216" "NWS-217" "NWS-218" "NWS-219" "NWS-220" "NWS-221" "NWS-222" "NWS-223" "NWS-224" "NWS-225" "NWS-226" "NWS-227" "NWS-228" "NWS-229" "NWS-230" "NWS-231" "NWS-232" "NWS-233"
+			"NWS-234" "NWS-235" "NWS-236" "NWS-237" "NWS-238" "NWS-239" "NWS-240" "NWS-241" "NWS-242" "NWS-243" "NWS-244" "NWS-245" "NWS-246" "NWS-247" "NWS-248" "NWS-249" "NWS-250" "NWS-251" "NWS-252" "NWS-253" "NWS-254" "NWS-255"
+			"NWS-256" "NWS-257" "NWS-258" "NWS-259" "NWS-260" "NWS-261" "NWS-262" "NWS-263" "NWS-264" "NWS-265" "NWS-266" "NWS-267" "NWS-268" "NWS-269" "NWS-270" "NWS-271" "NWS-272" "NWS-273" "NWS-274" "NWS-275" "NWS-276" "NWS-277"
+			"NWS-278" "NWS-279" "NWS-280" "NWS-281" "NWS-282" "NWS-283" "NWS-284" "NWS-285" "NWS-286" "NWS-287" "NWS-288" "NWS-289" "NWS-290" "NWS-291" "NWS-292" "NWS-293" "NWS-294" "NWS-295" "NWS-296" "NWS-297" "NWS-298" "NWS-299"
+			"NWS-300" "NWS-301" "NWS-302" "NWS-303" "NWS-304" "NWS-305" "NWS-306" "NWS-307" "NWS-308" "NWS-309" "NWS-310" "NWS-311" "NWS-312" "NWS-313" "NWS-314" "NWS-315" "NWS-316" "NWS-317" "NWS-318" "NWS-319" "NWS-320" "NWS-321"
+			"NWS-322" "NWS-323" "NWS-324" "NWS-325" "NWS-326" "NWS-327" "NWS-328" "NWS-331" "NWS-332" "NWS-333" "NWS-334" "NWS-335" "NWS-336" "NWS-337" "NWS-338" "NWS-339" "NWS-340" "NWS-341" "NWS-342" "NWS-343" "NWS-344" "NWS-345"
+			"NWS-346" "NWS-347" "NWS-348" "NWS-349" "NWS-350" "NWS-351" "NWS-352" "NWS-353" "NWS-354" "NWS-355" "NWS-356" "NWS-357" "NWS-358" "NWS-359" "NWS-360" "NWS-361" "NWS-362" "NWS-363" "NWS-364" "NWS-365" "NWS-366" "NWS-367"
+			"NWS-368" "NWS-369" "NWS-370" "NWS-371" "NWS-372" "NWS-373" "NWS-374" "NWS-375" "NWS-376" "NWS-377" "NWS-378" "NWS-379" "NWS-380" "NWS-381" "NWS-382" "NWS-383" "NWS-384" "NWS-385" "NWS-386" "NWS-387" "NWS-388" "NWS-389"
+			"NWS-390" "NWS-391" "NWS-392" "NWS-393" "NWS-394" "NWS-396" "NWS-397" "NWS-398" "NWS-399" "NWS-400" "NWS-401" "NWS-402" "NWS-403" "NWS-404" "NWS-405" "NWS-406" "NWS-407" "NWS-408" "NWS-409" "NWS-410" "NWS-411" "NWS-412"
+			"NWS-413" "NWS-414" "NWS-415" "NWS-416" "NWS-417" "NWS-418" "NWS-419" "NWS-420" "NWS-421" "NWS-422" "NWS-423" "NWS-424" "NWS-425" "NWS-426" "NWS-427" "NWS-428" "NWS-431" "NWS-432" "NWS-433" "NWS-434" "NWS-435" "NWS-436"
+			"NWS-437" "NWS-438" "NWS-439" "NWS-440" "NWS-441" "NWS-442" "NWS-443" "NWS-444" "NWS-445" "NWS-446" "NWS-447" "NWS-448" "NWS-449" "NWS-450" "NWS-451" "NWS-452" "NWS-453" "NWS-454" "NWS-455" "NWS-456" "NWS-457" "NWS-458"
+			"NWS-459" "NWS-460" "NWS-461" "NWS-462" "NWS-463" "NWS-464" "NWS-465" "NWS-466" "NWS-467" "NWS-468" "NWS-469" "NWS-470" "NWS-471" "NWS-472" "NWS-473" "NWS-475" "NWS-476" "NWS-477" "NWS-478" "NWS-479" "NWS-480" "NWS-481"
+			"NWS-482" "NWS-483" "NWS-484" "NWS-485" "NWS-486" "NWS-487" "NWS-488" "NWS-489" "NWS-490" "NWS-491" "NWS-492" "NWS-493" "NWS-501" "NWS-502" "NWS-503" "NWS-504" "NWS-505" "NWS-506" "NWS-507" "NWS-508" "NWS-509" "NWS-510"
+			"NWS-511" "NWS-512" "NWS-513" "NWS-514" "NWS-515" "NWS-516" "NWS-517" "NWS-518" "NWS-519" "NWS-520" "NWS-521" "NWS-522" "NWS-523" "NWS-524" "NWS-525" "NWS-526" "NWS-527" "NWS-528" "NWS-529" "NWS-530" "NWS-531" "NWS-532"
+			"NWS-533" "NWS-534" "NWS-535" "NWS-536" "NWS-537" "NWS-538" "NWS-539" "NWS-540" "NWS-541" "NWS-542" "NWS-543" "NWS-544" "NWS-545" "NWS-546" "NWS-547" "NWS-548" "NWS-549" "NWS-550" "NWS-551" "NWS-552" "NWS-553" "NWS-554"
+			"NWS-555" "NWS-556" "NWS-557" "NWS-558" "NWS-559" "NWS-560" "NWS-561" "NWS-562" "NWS-563" "NWS-564" "NWS-565" "NWS-566" "NWS-567" "NWS-568" "NWS-569" "NWS-570" "NWS-571" "NWS-572" "NWS-573" "NWS-574" "NWS-575" "NWS-576"
+			"NWS-577" "NWS-578" "NWS-579" "NWS-580" "NWS-581" "NWS-582" "NWS-583" "NWS-584" "NWS-585" "NWS-586" "NWS-587" "NWS-588" "NWS-589" "NWS-590" "NWS-591" "NWS-592" "NWS-593" "NWS-594" "NWS-595" "NWS-596" "NWS-597" "NWS-598"
+			"NWS-599" "NWS-600" "NWS-601" "NWS-602" "NWS-603" "NWS-604" "NWS-605" "NWS-606" "NWS-607" "NWS-608" "NWS-609" "NWS-610" "NWS-611" "NWS-612" "NWS-613" "NWS-614" "NWS-615" "NWS-616" "NWS-617" "NWS-618" "NWS-619" "NWS-620"
+			"NWS-621" "NWS-622" "NWS-623" "NWS-624" "NWS-625" "NWS-626" "NWS-627" "NWS-628" "NWS-629" "NWS-630" "NWS-631" "NWS-632" "NWS-633" "NWS-634" "NWS-635" "NWS-636" "NWS-637" "NWS-638" "NWS-639" "NWS-640" "NWS-641" "NWS-642"
+			"NWS-643" "NWS-644" "NWS-645" "NWS-646" "NWS-647" "NWS-648" "NWS-649" "NWS-650" "NWS-651" "NWS-652" "NWS-653" "NWS-654" "NWS-655" "NWS-656" "NWS-657" "NWS-658" "NWS-659" "NWS-660" "NWS-661" "NWS-662" "NWS-663" "NWS-664"
+			"NWS-665" "NWS-666" "NWS-667" "NWS-668" "NWS-669" "NWS-670" "NWS-671" "NWS-672" "NWS-673" "NWS-674" "NWS-675" "NWS-676" "NWS-677" "NWS-678" "NWS-679" "NWS-680" "NWS-681" "NWS-682" "NWS-683" "NWS-701" "NWS-702" "NWS-703"
+			"NWS-704" "NWS-705" "NWS-706" "NWS-707" "NWS-708" "NWS-709" "NWS-710" "NWS-711" "NWS-712" "NWS-713" "NWS-714" "NWS-715" "NWS-716" "NWS-717" "NWS-718" "NWS-719" "NWS-720" "NWS-721" "NWS-722" "NWS-731" "NWS-732" "NWS-733"
+			"NWS-734" "NWS-735" "NWS-736" "NWS-737" "NWS-738" "NWS-739" "NWS-740" "NWS-741" "NWS-742" "NWS-743" "NWS-744" "NWS-745" "NWS-746" "NWS-747" "NWS-748" "NWS-749" "NWS-750" "NWS-751" "NWS-752" "NWS-753" "NWS-754" "NWS-755"
+			"NWS-756" "NWS-757" "NWS-758" "NWS-759" "NWS-760" "NWS-761" "NWS-762" "NWS-763" "NWS-764" "NWS-765" "NWS-766" "NWS-767" "NWS-768" "NWS-771" "NWS-772" "NWS-773" "NWS-774" "NWS-775" "NWS-776" "NWS-777" "NWS-778" "NWS-779"
+			"NWS-792" "NWS-793" "NWS-794" "NWS-795" "NWS-801" "NWS-802" "NWS-803" "NWS-804" "NWS-805" "NWS-806" "NWS-821" "NWS-822" "NWS-825" "NWS-826" "NWS-827" "NWS-828" "NWS-841" "NWS-842" "NWS-843" "NWS-844" "NWS-845" "NWS-846"
+			"NWS-847" "NWS-848" "NWS-849" "NWS-850" "NWS-851" "NWS-852" "NWS-853" "NWS-854" "NWS-855" "NWS-856" "NWS-857" "NWS-858" "NWS-859" "NWS-860" "NWS-861" "NWS-862" "NWS-863" "NWS-864" "NWS-865" "NWS-866" "NWS-867" "NWS-868"
+			"NWS-869" "NWS-870" "NWS-871" "NWS-872" "NWS-873" "NWS-874" "NWS-875" "NWS-876" "NWS-877" "NWS-878" "NWS-879" "NWS-880" "NWS-881" "NWS-883" "NWS-889" "NWS-901" "NWS-903" "NWS-904" "NWS-905" "NWS-907" "NWS-921" "NWS-922"
+			"NWS-923" "NWS-924" "NWS-925" "NWS-926" "NWS-927" "NWS-928" "NWS-929" "NWS-930" "NWS-951" "NWS-952" "NWS-953" "NWS-954" "NWS-955" "NWS-956" "NWS-957" "NWS-958" "NWS-959" "NWS-960" "NWS-961" "NWS-962" "NWS-963" "NWS-964"
+			"NWS-965" "NWS-966" "NWS-967" "NWS-968" "NWS-969" "NWS-970" "NWS-971" "NWS-972" "NWS-973" "NWS-974" "NWS-975" "NWS-976" "NWS-977" "NWS-978" "NWS-979" "NWS-980" "NWS-981" "NWS-982" "NWS-983" "NWS-984" "NWS-985" "NWS-986"
+			"NWS-987" "NWS-988" "NWS-989" "NWS-990" "NWS-991" "NWS-992" "NWS-993" "NWS-994" "NWS-995" "NWS-997" "NWS-998" "NWS-999" "NWS-1000" "NWS-1001" "NWS-1002" "NWS-1003" "NWS-1004" "NWS-1005" "NWS-1006" "NWS-1007" "NWS-1008"
+			"NWS-1009" "NWS-1010" "NWS-1013" "NWS-1014" "NWS-1015" "NWS-1016" "NWS-1017" "NWS-1018" "NWS-1019" "NWS-1020" "NWS-1021" "NWS-1022" "NWS-1023" "NWS-1024" "NWS-1025" "NWS-1051" "NWS-1052" "NWS-1053" "NWS-1054" "NWS-1055"
+			"NWS-1056" "NWS-1057" "NWS-1058" "NWS-1059" "NWS-1060" "NWS-1061" "NWS-1062" "NWS-1063" "NWS-1064" "NWS-1065" "NWS-1101" "NWS-1102" "NWS-1103" "NWS-1104" "NWS-1105" "NWS-1106" "NWS-1107" "NWS-1108" "NWS-1109" "NWS-1110"
+			"NWS-1131" "NWS-1132" "NWS-1161" "NWS-1162" "NWS-1163" "NWS-1164" "NWS-1165" "NWS-1166" "NWS-1167" "NWS-1168" "NWS-1169" "NWS-1170" "NWS-1171" "NWS-1172" "NWS-1191" "NWS-1192" "NWS-1193" "NWS-1194" "NWS-1195" "NWS-1196"
+			"NWS-1197" "NWS-1198" "NWS-1199" "NWS-1200" "NWS-1201" "NWS-1202" "NWS-1203" "NWS-1204" "NWS-1205" "NWS-1206" "NWS-1207" "NWS-1208" "NWS-1209" "NWS-1210" "NWS-1221" "NWS-1222" "NWS-1223" "NWS-1224" "NWS-1225" "NWS-1226"
+			"NWS-1227" "NWS-1228" "NWS-1229" "NWS-1230" "NWS-1231" "NWS-1232" "NWS-1233" "NWS-1234" "NWS-1235" "NWS-1271" "NWS-1272" "NWS-1273" "NWS-1274" "NWS-1275" "NWS-1276" "NWS-1277" "NWS-1278" "NWS-1279" "NWS-1301" "NWS-1302"
+			"NWS-1303" "NWS-1304" "NWS-1305" "NWS-1306" "NWS-1307" "NWS-1308" "NWS-1405" "NWS-1406" "NWS-1407" "NWS-2321" "NWS-2322" "NWS-2323" "NWS-2324" "NWS-2325" "NWS-2326" "NWS-2327" "NWS-2328" "NWS-2329" "NWS-2330" "NWS-2331"
+			"NWS-2332" "NWS-2333" "NWS-2334" "NWS-2335" "NWS-2336" "NWS-2337" "NWS-2338" "NWS-2339" "NWS-2340" "NWS-2341" "NWS-2342" "NWS-2343" "NWS-2344" "NWS-2345" "NWS-2346" "NWS-2347" "NWS-2348" "NWS-2349" "NWS-2350" "NWS-2351"
+			"NWS-2352" "NWS-2353" "NWS-2354" "NWS-2355" "NWS-2356" "NWS-2357" "NWS-2358" "NWS-2359" "NWS-2360" "NWS-2361" "NWS-2362" "NWS-2363" "NWS-2364" "NWS-2365" "NWS-2366" "NWS-2367" "NWS-2368" "NWS-2369" "NWS-2371" "NWS-2501"
+			"NWS-2502" "NWS-2503" "NWS-2504" "NWS-2505" "NWS-2506" "NWS-2507" "NWS-2508" "NWS-2509" "NWS-2510" "NWS-2511" "NWS-2512" "NWS-2513" "NWS-2514" "NWS-2515" "NWS-2516" "NWS-2517" "NWS-2518" "NWS-2519" "NWS-2520" "NWS-2521"
+			"NWS-2522" "NWS-2523" "NWS-2524" "NWS-2525" "NWS-2526" "NWS-2527" "NWS-2528" "NWS-2529" "NWS-2530" "NWS-2531" "NWS-2533" "NWS-2534" "NWS-2535" "NWS-2536" "NWS-2538" "NWS-2539" "NWS-2540" "NWS-2541" "NWS-2542" "NWS-2543"
+			"NWS-2544" "NWS-2545" "NWS-2546" "NWS-2548" "NWS-2551" "NWS-2552" "NWS-3001" "NWS-3002" "NWS-3003" "NWS-3004" "NWS-3005" "NWS-3006" "NWS-3007" "NWS-3008" "NWS-3009" "NWS-3010" "NWS-3011" "NWS-3012" "NWS-3013" "NWS-3014"
+			"NWS-3015" "NWS-3016" "NWS-3017" "NWS-3018" "NWS-3019" "NWS-3020" "NWS-3021" "NWS-3022" "NWS-3023" "NWS-3024" "NWS-3025" "NWS-3026" "NWS-3027" "NWS-3028" "NWS-3029" "NWS-3030" "NWS-3031" "NWS-3032" "NWS-3033" "NWS-3034"
+			"NWS-3035" "NWS-3037" "NWS-3038" "NWS-3039" "NWS-3040" "NWS-3041" "NWS-3044" "NWS-3501" "NWS-3502" "NWS-3503" "NWS-3504" "NWS-3505" "NWS-3506" "NWS-3507" "NWS-3508" "NWS-3509" "NWS-3510" "NWS-3511" "NWS-3512" "NWS-3513"
+			"NWS-3514" "NWS-3515" "NWS-3516" "NWS-3517" "NWS-3518" "NWS-3519" "NWS-3520" "NWS-3521" "NWS-3522" "NWS-3523" "NWS-3524" "NWS-3525" "NWS-3526" "NWS-3527" "NWS-3528" "NWS-3529" "NWS-3530" "NWS-4701" "NWS-4702" "NWS-4703"
+			"NWS-4704" "NWS-4705" "NWS-4706" "NWS-4707" "NWS-4709" "NWS-4710" "NWS-4711" "NWS-4712"
+		}
+	}
+	# CASTLES ALONG THE WALL
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Westwatch" "Shadow Tower" "Sentinel Stand" "Greyguard" "Stonedoor" "Hoarfrost Hill" "Icemark" "Nightfort" "Black Gate" "Deep Lake" "Queensgate" "Castle Black" "Oakenshield" "Woodswatch-by-the-Pool" "Sable Hall" "Rimegate" "Long Barrow" "Torches" "Greenguard" "Eastwatch"
+		}
+	}
+	# LORD COMMANDERS OF THE WATCH
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Runcel Hightower" "Rodrik Flint" "Crowl" "Osric Stark" "Marq Rankenfell" "Tristan Mudd" "Robin Hill" "Hoare" "Orbert Caswell" "Jack Musgood" "Bloodraven" "Brynden Rivers" "Qorgyle"
+		}
+	}
+	# KINGS OF WESTEROS
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Aegon I" "	Aenys I" "Maegor I" "Jaehaerys I" "	Viserys I" "Aegon II" "Aegon III" "Daeron I" "Baelor I" "Viserys II" "Aegon IV" "Daeron II" "Aerys I" "Maekar I" "Aegon V" "Jaehaerys II" "Aerys II" "Robert I"
+ 		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+
+		}
+	}
+  battleship = {
+      prefix = ""
+      generic = { "Battleship" }
+      unique = {
+          "Fat Crow" "Bran"
+      }
+  }
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Flying Crow"
+
+		}
+	}
+
+	air_wing_names_template = AIR_WING_NAME_NWA_FALLBACK
+
+	#Air wings can only be named through archetype
+	fighter_equipment = {
+		prefix = ""
+		generic = { "Squadron NWAF" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	scout_plane_equipment = {
+		prefix = ""
+		generic = { "Squadron NWAS" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = { "Squadron NWAF-J" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	heavy_fighter_equipment = {
+		prefix = ""
+		generic = { "Squadron NWAHF"}
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	CAS_equipment = {
+		prefix = ""
+		generic = { "Squadron NWACS" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = { "Carrier Squadron NWAF" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "Carrier Squadron NWACS" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		generic = { "Carrier Squadron NWANB" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Squadron NWATC" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Squadron NWATB-J" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	nav_bomber_equipment = {
+		prefix = ""
+		generic = { "Squadron NWANB" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Squadron NWASB" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	jet_strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Squadron NWASB-J" }
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "Squadron NWAT"}
+		generic_pattern = AIR_WING_NAME_NWA_GENERIC
+		unique = {
+		}
+	}
+
+
+	infantry = {
+		prefix = ""
+		generic = { "Infantry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_NWA"
+	}
+	#motorized = {
+	#	prefix = ""
+	#	generic = { "" }
+	#	generic_pattern = "UNIT_GENERIC_NAME_NWA"
+	#	unique = {}
+	#}
+	mountaineers = {
+		prefix = ""
+		generic = { "Rangers" }
+		generic_pattern = "UNIT_GENERIC_NAME_NWA"
+		unique = {}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Mounted Rangers" }
+		generic_pattern = "UNIT_GENERIC_NAME_NWA"
+		unique = {}
+	}
+	light_armor = {
+		prefix = ""
+		generic = { "Armored Brigade" }
+		generic_pattern = "UNIT_GENERIC_NAME_NWA"
+		unique = {}
+	}
+	medium_armor = {
+		prefix = ""
+		generic = { "Armored Brigade" }
+		generic_pattern = "UNIT_GENERIC_NAME_NWA"
+		unique = {}
+	}
+}

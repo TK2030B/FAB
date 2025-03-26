@@ -1,0 +1,27 @@
+
+state={
+	id=115
+	name="STATE_115"
+
+	history={
+		owner = REA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		add_core_of = REA
+		victory_points = {
+			1204 20
+		}
+
+	}
+
+	provinces={
+		900 940 1204 1330 1590 1794 1939 2001 2279 2732 2739 2772 2785
+	}
+	manpower=20289600
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,657 @@
+guiTypes = {
+
+containerWindowType = {
+	name = "NWA_gui_wall_display"
+	size = { width = 500 height = 400 }
+	position = { x = 0 y = 0 }
+
+		# THE WALL
+		iconType = {
+			name = "NWA_gui_wall_line"
+			spriteType = "GFX_black_line"
+			orientation = upper_left
+			position = { x = 5 y = 20 }
+
+			alwaystransparent = yes
+		}
+		# COLOUR CASTLES
+		containerWindowType = {
+			name = "NWA_button_westwatch"
+			position = {x=5 y=10}
+			size = { width=500 height=200 }
+
+			# WESTWATCH
+			iconType = {
+				name = "NWA_button_westwatch_green"
+				position = {x=7 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_WESTWATCH_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_westwatch_grey"
+				position = {x=7 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_WESTWATCH_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_white_short"
+				position = {x=15 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_westwatch_loc"
+				position = { x = 6 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_westwatch_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# SHADOW TOWER
+			iconType = {
+				name = "NWA_button_shadow_tower_green"
+				position = {x=33 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_SHADOW_TOWER_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_line_white_long"
+				position = {x=41 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_shadow_tower_loc"
+				position = { x = 36 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_shadow_tower_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# SENTINEL STAND
+			iconType = {
+				name = "NWA_button_sentinel_stand_green"
+				position = {x=59 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_SENTINEL_STAND_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_sentinel_stand_grey"
+				position = {x=59 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_SENTINEL_STAND_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_ss_white_short"
+				position = {x=67 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_sentinel_loc"
+				position = { x = 63 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_sentinel_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# GREYGUARD
+			iconType = {
+				name = "NWA_button_greyguard_green"
+				position = {x=85 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_GREYGUARD_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_greyguard_grey"
+				position = {x=85 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_GREYGUARD_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_gg_white_long"
+				position = {x=93 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_greyguard_loc"
+				position = { x = 87 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_greyguard_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# STONEDOOR
+			iconType = {
+				name = "NWA_button_stonedoor_green"
+				position = {x=111 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_STONEDOOR_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_stonedoor_grey"
+				position = {x=111 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_STONEDOOR_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_sd_white_short"
+				position = {x=119 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_stonedoor_loc"
+				position = { x = 114 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_stonedoor_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# HOARFROST HILL
+			iconType = {
+				name = "NWA_button_hoarfrost_hill_green"
+				position = {x=137 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_HOARFROST_HILL_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_hoarfrost_hill_grey"
+				position = {x=137 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_HOARFROST_HILL_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_hh_white_long"
+				position = {x=145 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_hoarfrost_loc"
+				position = { x = 139 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_hoarfrost_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# ICEMARK
+			iconType = {
+				name = "NWA_button_icemark_green"
+				position = {x=163 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_ICEMARK_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_icemark_grey"
+				position = {x=163 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_ICEMARK_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_im_white_short"
+				position = {x=171 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_icemark_loc"
+				position = { x = 167 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_icemark_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# NIGHTFORT
+			iconType = {
+				name = "NWA_button_nightfort_green"
+				position = {x=189 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_NIGHTFORT_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_nightfort_grey"
+				position = {x=189 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_NIGHTFORT_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_nf_white_long"
+				position = {x=197 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_nightfort_loc"
+				position = { x = 193 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_nightfort_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# DEEP LAKE
+			iconType = {
+				name = "NWA_button_deep_lake_green"
+				position = {x=215 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_DEEP_LAKE_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_deep_lake_grey"
+				position = {x=215 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_DEEP_LAKE_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_dl_white_short"
+				position = {x=223 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_deep_lake_loc"
+				position = { x = 219 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_deep_lake_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# QUEENSGATE
+			iconType = {
+				name = "NWA_button_queensgate_green"
+				position = {x=241 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_QUEENSGATE_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_queensgate_grey"
+				position = {x=241 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_QUEENSGATE_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_qg_white_long"
+				position = {x=249 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_queensgate_loc"
+				position = { x = 242 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_queensgate_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# CASTLE BLACK
+			iconType = {
+				name = "NWA_button_castle_black_green"
+				position = {x=267 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_CASTLE_BLACK_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_line_cb_white_short"
+				position = {x=275 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_castle_black_loc"
+				position = { x = 270 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_castle_black_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# OAKENSHIELD
+			iconType = {
+				name = "NWA_button_oakenshield_green"
+				position = {x=293 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_OAKENSHIELD_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_oakenshield_grey"
+				position = {x=293 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_OAKENSHIELD_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_os_white_long"
+				position = {x=301 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_oakenshield_loc"
+				position = { x = 296 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_oakenshield_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# WOODSWATCH
+			iconType = {
+				name = "NWA_button_woodswatch_green"
+				position = {x=319 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_WOODSWATCH_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_woodswatch_grey"
+				position = {x=319 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_WOODSWATCH_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_wo_white_short"
+				position = {x=327 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_woodswatch_loc"
+				position = { x = 319 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_woodswatch_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# SABLE HALL
+			iconType = {
+				name = "NWA_button_sable_hall_green"
+				position = {x=345 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_SABLE_HALL_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_sable_hall_grey"
+				position = {x=345 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_SABLE_HALL_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_sh_white_long"
+				position = {x=353 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_sable_loc"
+				position = { x = 349 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_sable_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# RIMEGATE
+			iconType = {
+				name = "NWA_button_rimegate_green"
+				position = {x=371 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_RIMEGATE_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_rimegate_grey"
+				position = {x=371 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_RIMEGATE_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_rg_white_short"
+				position = {x=379 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_rimegate_loc"
+				position = { x = 375 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_rimegate_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# LONG BARROW
+			iconType = {
+				name = "NWA_button_long_barrow_green"
+				position = {x=397 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_LONG_BARROW_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_long_barrow_grey"
+				position = {x=397 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_LONG_BARROW_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_lb_white_long"
+				position = {x=405 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_long_barrow_loc"
+				position = { x = 402 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_long_barrow_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# TORCHES
+			iconType = {
+				name = "NWA_button_torches_green"
+				position = {x=423 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_TORCHES_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_torches_grey"
+				position = {x=423 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_TORCHES_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_to_white_short"
+				position = {x=431 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_torches_loc"
+				position = { x = 426 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_torches_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# GREENGUARD
+			iconType = {
+				name = "NWA_button_greenguard_green"
+				position = {x=449 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_GREENGUARD_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_button_greenguard_grey"
+				position = {x=449 y=4}
+				spriteType = GFX_nwa_grey_button
+				pdx_tooltip = "NWA_CASTLE_GREENGUARD_INFO_GREY"
+			}
+			iconType = {
+				name = "NWA_line_gr_white_long"
+				position = {x=457 y=26}
+				spriteType = GFX_white_line_long
+			}
+			instantTextboxType = {
+				name = "NWA_greenguard_loc"
+				position = { x = 452 y = 72 }
+				font = "hoi_16mbs"
+				text = "NWA_greenguard_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# EASTWATCH
+			iconType = {
+				name = "NWA_button_eastwatch_green"
+				position = {x=475 y=4}
+				spriteType = GFX_nwa_green_button
+				pdx_tooltip = "NWA_CASTLE_EASTWATCH_INFO_GREEN"
+			}
+			iconType = {
+				name = "NWA_line_ew_white_short"
+				position = {x=483 y=26}
+				spriteType = GFX_white_line_short
+			}
+			instantTextboxType = {
+				name = "NWA_eastwatch_loc"
+				position = { x = 477 y = 51 }
+				font = "hoi_16mbs"
+				text = "NWA_eastwatch_loc"
+				maxWidth = 30
+				maxHeight = 10
+				format = left
+				vertical_alignment = center
+
+			}
+			# ABBREVIATIONS
+			instantTextboxType = {
+				name = "NWA_castles_loc"
+				position = { x = 10 y = 110 }
+				font = "hoi_16mbs"
+				text = "NWA_castles_loc"
+				maxWidth = 200
+				maxHeight = 250
+				format = left
+				vertical_alignment = top
+
+			}
+			instantTextboxType = {
+				name = "NWA_castles2_loc"
+				position = { x = 250 y = 125 }
+				font = "hoi_16mbs"
+				text = "NWA_castles2_loc"
+				maxWidth = 200
+				maxHeight = 250
+				format = left
+				vertical_alignment = top
+
+			}
+			# LEGEND
+			instantTextboxType = {
+				name = "NWA_legend_loc"
+				position = { x = 10 y = 305 }
+				font = "hoi_16mbs"
+				text = "NWA_legend_loc"
+				maxWidth = 200
+				maxHeight = 250
+				format = left
+				vertical_alignment = top
+
+			}
+			iconType = {
+				name = "NWA_button_sample_grey"
+				position = {x=7 y=325}
+				spriteType = GFX_nwa_grey_button
+			}
+			instantTextboxType = {
+				name = "NWA_legend_grey_loc"
+				position = { x = 30 y = 326 }
+				font = "hoi_16mbs"
+				text = "NWA_legend_grey_loc"
+				maxWidth = 200
+				maxHeight = 250
+				format = left
+				vertical_alignment = top
+
+			}
+		#	iconType = {
+		#		name = "NWA_button_sample_red"
+		#		position = {x=7 y=350}
+		#		spriteType = GFX_red_button
+		#	}
+		#	instantTextboxType = {
+		#		name = "NWA_legend_red_loc"
+		#		position = { x = 40 y = 351 }
+		#		font = "hoi_16mbs"
+		#		text = "NWA_legend_red_loc"
+		#		maxWidth = 200
+		#		maxHeight = 250
+		#		format = left
+		#		vertical_alignment = top
+
+		#	}
+		#	iconType = {
+		#		name = "NWA_button_sample_yellow"
+		#		position = {x=7 y=375}
+		#		spriteType = GFX_yellow_button
+		#	}
+		#	instantTextboxType = {
+		#		name = "NWA_legend_yellow_loc"
+		#		position = { x = 40 y = 376 }
+		#		font = "hoi_16mbs"
+		#		text = "NWA_legend_yellow_loc"
+		#		maxWidth = 200
+		#		maxHeight = 250
+		#		format = left
+		#		vertical_alignment = top
+
+		#	}
+			iconType = {
+				name = "NWA_button_sample_green"
+				position = {x=7 y=350}	#242x325
+				spriteType = GFX_nwa_green_button
+			}
+			instantTextboxType = {
+				name = "NWA_legend_green_loc"
+				position = { x = 30 y = 351 }
+				font = "hoi_16mbs"
+				text = "NWA_legend_green_loc"
+				maxWidth = 200
+				maxHeight = 250
+				format = left
+				vertical_alignment = top
+
+			}
+		}
+	}
+}

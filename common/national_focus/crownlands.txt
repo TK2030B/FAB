@@ -1,0 +1,554 @@
+﻿focus_tree = {
+	id = crownlands_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = CRO
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+
+	default = no
+
+###### Politics Branch
+
+	focus = {
+		id = CRO_schemes_of_iron_throne
+		icon = GFX_focus_westeros_WES_STO
+		x = 5
+		y = 0
+		cost = 10
+		prerequisite = {}
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			hidden_effect = {
+				remove_advisor_role = {
+					character = "CRO_cersei_lannister"
+					slot = political_advisor
+				}
+			}
+			CRO_cersei_lannister = {
+				add_advisor_role = {
+					advisor = {
+						slot = political_advisor
+						can_be_fired = no
+						activate = yes
+						cost = 50
+						idea_token = CRO_cersei_lannister
+						traits = {
+							cersei_queen_2
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = CRO_falcons_fall
+		icon = GFX_focus_hun_assassinate_horthy
+		x = -2
+		y = 1
+		relative_position_id = CRO_schemes_of_iron_throne
+		cost = 5
+		prerequisite = { focus = CRO_schemes_of_iron_throne }
+		mutually_exclusive = { focus = CRO_truth_unveiled }
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = { has_country_flag = CRO_investigation_arryn_finished }
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_stability = -0.05
+			hidden_effect = {
+				country_event = { id = crownlands.4 days = 3 }
+				VAL = { country_event = { id = vale.1 days = 5 } }
+				set_country_flag = CRO_arryn_killed_days_flag
+			}
+			effect_tooltip = {
+				deactivate_advisor = CRO_jon_arryn
+			}
+			custom_effect_tooltip = CRO_arryn_dead_tt
+			custom_effect_tooltip = CRO_investigation_arryn_tt
+		}
+	}
+
+	focus = {
+		id = CRO_truth_unveiled
+		icon = GFX_focus_SWE_refuge_for_revolutionaries
+		x = 3
+		y = 1
+		relative_position_id = CRO_schemes_of_iron_throne
+		cost = 5
+		prerequisite = {}
+		mutually_exclusive = { focus = CRO_falcons_fall }
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+			has_country_flag = CRO_investigation_arryn_finished
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			custom_effect_tooltip = unaviable_path_tt
+		}
+	}
+
+	focus = {
+		id = CRO_kings_last_hunt
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		x = 0
+		y = 1
+		relative_position_id = CRO_falcons_fall
+		cost = 10
+		prerequisite = { focus = CRO_falcons_fall }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag = {
+				flag = CRO_arryn_killed_days_flag
+				days > 175
+			}
+			custom_trigger_tooltip = {
+				tooltip = CRO_arryn_killed_days_tt
+				has_country_flag = {
+					flag = CRO_arryn_killed_days_flag
+					days > 175
+				}
+			}
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			unlock_decision_tooltip = CRO_kill_king_hunting
+		}
+	}
+
+	focus = {
+		id = CRO_intelligence_agency
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 5
+		y = 5
+		cost = 10
+		prerequisite = {}
+		cost = 5
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_intelligence_agency = {
+				name = "B.I.R.D.S."	# Bureau of Intelligence, Reconnaissance, and Defense Strategies
+				icon = GFX_intelligence_agency_logo_cro
+			}
+			CRO_lord_varys = {
+				add_advisor_role = {
+					advisor = {
+						slot = political_advisor
+						cost = 100
+						idea_token = CRO_lord_varys
+						traits = {
+							head_of_intelligence
+						}
+					}
+				}
+			}
+		}
+	}
+
+###### Economic Branch
+
+	focus = {
+		id = CRO_housing_program
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 16
+		y = 0
+		cost = 5
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = {
+				has_idea = CRO_king_hunting_id
+			}
+		}
+		continue_if_invalid = no
+
+		bypass = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.05
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+
+	focus = {
+		id = CRO_invest_kings_landing
+		icon = GFX_goal_generic_fortify_city
+		x = -2
+		y = 1
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_housing_program }
+		mutually_exclusive = { focus = CRO_invest_countryside }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = {
+				has_idea = CRO_king_hunting_id
+			}
+		}
+		continue_if_invalid = no
+
+		bypass = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_invest_countryside
+		icon = GFX_focus_generic_agricultural_subsidies
+		x = 2
+		y = 1
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_housing_program }
+		mutually_exclusive = { focus = CRO_invest_kings_landing }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = {
+				has_idea = CRO_king_hunting_id
+			}
+		}
+		continue_if_invalid = no
+
+		bypass = {
+
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_claim_riverland
+		icon = GFX_focus_POL_reassert_silesian_claims
+		x = -2
+		y = 2
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_invest_kings_landing }
+		mutually_exclusive = { focus = CRO_grain_import_agreement }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_grain_import_agreement
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 0
+		y = 2
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_invest_kings_landing }
+		mutually_exclusive = { focus = CRO_claim_riverland }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_modernize_farming
+		icon = GFX_focus_generic_farmland
+		x = 2
+		y = 2
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_invest_countryside }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_stonedance_iron_mines
+		icon = GFX_focus_generic_steel
+		x = 4
+		y = 2
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_invest_countryside }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_ironclad_industries
+		icon = GFX_focus_generic_tank_production
+		x = -4
+		y = 2
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_invest_kings_landing }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_heart_of_westeros
+		icon = GFX_focus_spa_eliminate_the_carlists
+		x = 0
+		y = 3
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_claim_riverland focus = CRO_grain_import_agreement focus = CRO_modernize_farming }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_roseroad
+		icon = GFX_focus_generic_road_investment
+		x = -2
+		y = 4
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_heart_of_westeros }
+		mutually_exclusive = { focus = CRO_goldroad focus = CRO_kingsroad }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_goldroad
+		icon = GFX_focus_generic_road_investment
+		x = 0
+		y = 4
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_heart_of_westeros }
+		mutually_exclusive = { focus = CRO_roseroad focus = CRO_kingsroad }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CRO_kingsroad
+		icon = GFX_focus_generic_road_investment
+		x = 2
+		y = 4
+		relative_position_id = CRO_housing_program
+		cost = 5
+		prerequisite = { focus = CRO_heart_of_westeros }
+		mutually_exclusive = { focus = CRO_roseroad focus = CRO_goldroad }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		}
+	}
+
+}

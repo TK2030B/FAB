@@ -1,0 +1,23 @@
+
+state={
+	id=217
+	name="STATE_217"
+
+	history={
+		owner = SUI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SUI
+
+	}
+
+	provinces={
+		3352 3360 3369
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

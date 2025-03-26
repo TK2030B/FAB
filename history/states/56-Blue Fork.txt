@@ -1,0 +1,25 @@
+
+state={
+	id=56
+	name="STATE_56"
+	state_category = rural
+
+	history={
+		owner = RIV
+		buildings = {
+			infrastructure = 2
+			1171 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = RIV
+
+	}
+
+	provinces={
+		12 1103 1171 1352 1516 2499 2511
+	}
+	manpower=4649700
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

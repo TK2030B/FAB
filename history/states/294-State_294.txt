@@ -1,0 +1,23 @@
+state={
+	id=294
+	name="STATE_294"
+
+	history={
+		owner = PEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = PEN
+
+	}
+	
+	provinces={
+		246 672 704 1442 1450 1608 1660 1729 2080 2128 2180 2249 2698 2746 2748 2803
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

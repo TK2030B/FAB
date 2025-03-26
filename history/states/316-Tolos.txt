@@ -1,0 +1,27 @@
+
+state={
+	id=316
+	name="STATE_316"
+
+	history={
+		owner = TOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = TOL
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		1154 1877 2911
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

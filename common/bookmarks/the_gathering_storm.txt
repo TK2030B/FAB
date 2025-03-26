@@ -4,76 +4,137 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "NO1"
+		default_country = "CRO"
 		default = yes
-		
-		"NO1"={
-			history = "NO1_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"ST1"={
-			history = "ST1_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"DR1"={
-			history = "DR1_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"CR1"={
-			history = "CR1_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"TW1"={
-			history = "TW1_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"RI1"={
-			history = "RI1_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"RE1"={
-			history = "RE1_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 
+		NOR={
+			history = "NOR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		VAL={
+			history = "VAL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RIV={
+			history = "RIV_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		CRO={
+			history = "CRO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				backward_agriculture
+			}
+			focuses = {
+				#
+			}
+		}
+		WES={
+			history = "WES_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		STO={
+			history = "STO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		REA={
+			history = "REA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
 		}
-
+		DOR={
+			minor = yes
+			history = "DOR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		IRO={
+			minor = yes
+			history = "IRO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		NWA={
+			minor = yes
+			history = "NWA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				crows
+				NWA_three_orders
+				NWA_band_of_criminals
+			}
+			focuses = {
+				NWA_begin_great_ranging
+				NWA_inspect_orders
+				NWA_winter_is_coming
+			}
+		}
+		WIL={
+			minor = yes
+			history = "WIL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

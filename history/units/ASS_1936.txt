@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Asshai Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Asshai Guard"
+		location = 3105
+		division_template = "Asshai Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

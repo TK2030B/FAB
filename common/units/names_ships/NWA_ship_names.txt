@@ -1,0 +1,181 @@
+﻿##### NWAADA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+
+NWA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DD
+
+	for_countries = { NWA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "NWS "
+	fallback_name = "Destroyer %s"
+
+	unique = {
+		"Attacking Crow"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+NWA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { NWA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "NWS "
+	fallback_name = "Light Cruiser %s"
+
+	unique = {
+		"Light Crow"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+NWA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { NWA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "NWS "
+	fallback_name = "Heavy Cruiser %s"
+
+	unique = {
+		"Heavy Crow"
+ 	}
+}
+
+### BATTLESHIP NAMES ###
+NWA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { NWA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "NWS "
+	fallback_name = "Battleship %s"
+
+	unique = {
+		"Fat Crow" "Bran"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+NWA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { NWA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "NWS "
+	fallback_name = "Battlecruiser %s"
+
+	unique = {
+		"Fat Crow" "Bran"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+NWA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { NWA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "NWS "
+	fallback_name = "Carrier %s"
+
+	unique = {
+		"Flying Crow"
+	}
+}
+
+
+### SUBMARINES ###
+NWA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { NWA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "NWS "
+	fallback_name = "Submarine %s"
+
+	unique = {
+		"Sunken Crow"
+	}
+}
+
+### THEME: KINGS OF WESTEROS ###
+NWA_WESTEROS_KINGS = {
+	name = NAME_THEME_KINGS_WESTEROS
+
+	for_countries = { NWA }
+
+	type = ship
+
+	prefix = "NWS "
+
+	unique = {
+		"Aegon I" "	Aenys I" "Maegor I" "Jaehaerys I" "	Viserys I" "Aegon II" "Aegon III" "Daeron I" "Baelor I" "Viserys II" "Aegon IV" "Daeron II" "Aerys I" "Maekar I" "Aegon V" "Jaehaerys II" "Aerys II" "Robert I"
+ 	}
+}
+
+### THEME: LORD COMMANDERS ###
+NWA_LORD_COMMANDERS = {
+	name = NAME_THEME_LORD_COMMANDERS
+
+	for_countries = { NWA }
+
+	type = ship
+
+	prefix = "NWS "
+
+	unique = {
+		"Runcel Hightower" "Rodrik Flint" "Crowl" "Osric Stark" "Marq Rankenfell" "Tristan Mudd" "Robin Hill" "Hoare" "Orbert Caswell" "Jack Musgood" "Bloodraven" "Brynden Rivers" "Qorgyle"
+	}
+}
+
+### THEME: CASTLES ###
+NWA_CASTLES = {
+	name = NAME_THEME_CASTLES_ALONG_WALL
+
+	for_countries = { NWA }
+
+	type = ship
+
+	prefix = "NWS "
+
+	unique = {
+		"Westwatch" "Shadow Tower" "Sentinel Stand" "Greyguard" "Stonedoor" "Hoarfrost Hill" "Icemark" "Nightfort" "Black Gate" "Deep Lake" "Queensgate" "Castle Black" "Oakenshield" "Woodswatch-by-the-Pool" "Sable Hall" "Rimegate" "Long Barrow" "Torches" "Greenguard" "Eastwatch"
+	}
+}
+
+### THEME: GEBERIC ###
+NWA_GENERIC_SHIPS = {
+	name = NAME_THEME_GENERIC_SHIP_NAMES
+
+	for_countries = { NWA }
+
+	type = ship
+
+	prefix = "NWS "
+
+	unique = {
+		"Icebreaker" "Raven's Fury" "Night's End" "Frostfang "Winter's Wake" Northern Star" The Wall's Defender" "Winter's Breath" "Long Night" "Frozen Crusader" "Darkwater" "Snowdrift" "Frostbite" "Winterhawk" "Northwind" "Iceclaw"
+	}
+}

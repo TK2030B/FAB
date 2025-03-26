@@ -1,0 +1,206 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+### The Wall destroyed
+news_event = {
+	id = news.500
+	title = news.500.t
+	desc = news.500.d
+	picture = GFX_news_event_massive_explosion
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.500.a
+	}
+}
+
+### Northern Tribes United
+news_event = {
+	id = news.501
+	title = news.501.t
+	desc = news.501.d
+	picture = GFX_news_event_soviet_soldiers_ruins
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.501.a
+	}
+}
+
+### Jon Arryn Dies
+news_event = {
+	id = news.502
+	title = news.502.t
+	desc = news.502.d
+	picture = GFX_news_event_generic_funeral
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.502.a
+	}
+}
+
+### White walkers seen
+news_event = {
+	id = news.503
+	title = news.503.t
+	desc = news.503.d
+	picture = GFX_news_event_winter_war_dead_soldiers
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.503.a
+		add_stability = -0.01
+	}
+}
+
+### Robert Baratheon Dies
+news_event = {
+	id = news.504
+	title = news.504.t
+	desc = news.504.d
+	picture = GFX_news_event_generic_funeral
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.504.a
+	}
+}
+
+### Liberalist Civil War In NWA
+news_event = {
+	id = news.505
+	title = news.505.t
+	desc = news.505.d
+	picture = GFX_news_event_ger_civil_war
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.505.a
+	}
+}
+
+### Lord Commander Jeor Mormont Death
+news_event = {
+	id = news.506
+	title = news.506.t
+	desc = news.506.d
+	picture = GFX_news_event_generic_funeral
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.506.a
+	}
+}
+
+### Khal Drogo marries Khal Drogo
+news_event = {
+	id = news.507
+	title = news.507.t
+	desc = news.507.d
+	picture = GFX_news_event_royal_visit
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.507.a
+	}
+}
+
+### Ned Stark executed
+news_event = {
+	id = news.508
+	title = news.508.t
+	desc = news.508.d
+	picture = GFX_news_event_royal_visit
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.508.a
+	}
+}
+
+### Dragonstone Intro / set-up
+news_event = {
+	id = news.510
+	title = news.510.t
+	desc = news.510.d
+	picture = GFX_news_event_dragonstone
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.510.a
+
+		113 = {
+			add_dynamic_modifier = {
+				modifier = loyal_dragonstone
+			}
+		}
+		111 = {
+			add_dynamic_modifier = {
+				modifier = loyal_dragonstone
+			}
+		}
+		109 = {
+			add_dynamic_modifier = {
+				modifier = loyal_dragonstone
+			}
+		}
+		22 = {
+			add_dynamic_modifier = {
+				modifier = loyal_dragonstone
+			}
+		}
+		234 = {
+			add_dynamic_modifier = {
+				modifier = loyal_dragonstone
+			}
+		}
+		custom_effect_tooltip = DRA_loyalty_tt
+	#	country_event = { id = test.1 days = 1 }
+	}
+}
+
+### New Hand of the King appointed
+news_event = {
+	id = news.511
+	title = news.511.t
+	desc = news.511.d
+	picture = GFX_news_event_royal_visit
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.511.a
+	}
+}

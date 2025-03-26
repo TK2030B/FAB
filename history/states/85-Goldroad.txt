@@ -1,0 +1,21 @@
+
+state={
+	id=85
+	name="STATE_85"
+	state_category = rural
+
+	history={
+		owner = WES
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = WES
+	}
+
+	provinces={
+		372 409 739 1105 1150 1252 1458 1464 1525 1710 1833 2304 2322 2605 2622 2628
+	}
+	manpower=6974550
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

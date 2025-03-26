@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_decision_cat_wildlings"
+		texturefile = "gfx/interface/decisions/decision_cat_wildlings.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_raiding"
+		texturefile = "gfx/interface/decisions/decision_cat_raiding.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_hand_of_king"
+		texturefile = "gfx/interface/decisions/decision_hand_of_king.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_iron_throne"
+		texturefile = "gfx/interface/decisions/decision_cat_iron_throne.dds"
+	}
+
+}

@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Astapor Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Astapor Guard"
+		location = 593
+		division_template = "Astapor Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

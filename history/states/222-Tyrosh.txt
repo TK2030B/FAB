@@ -1,0 +1,26 @@
+
+state={
+	id=222
+	name="STATE_222"
+
+	history={
+		owner = TYR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = TYR
+
+	}
+
+	provinces={
+		750 2010 2101
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=31
+	name="STATE_31"
+	state_category = large_town
+
+	history={
+		owner = WES
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = WES
+	}
+
+	provinces={
+		1157 1619 1893 1921 2588 2591 2601
+	}
+	manpower=16273950
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

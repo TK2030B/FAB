@@ -1,0 +1,49 @@
+﻿focus_tree = {
+	id = dothraki_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = DOT
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+
+	default = no
+
+###### Politics Branch
+
+	focus = {
+		id = DOT_marry_targaryan
+		icon = GFX_focus_generic_royal_wedding
+		x = 6
+		y = 0
+		cost = 5
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			date > 1936.01.01
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			news_event = news.507
+		}
+	}
+
+}

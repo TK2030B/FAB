@@ -1,0 +1,379 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_forrester"
+		texturefile = "gfx/interface/ideas/idea_forrester.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_whitehill"
+		texturefile = "gfx/interface/ideas/idea_whitehill.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_northtanks"
+		texturefile = "gfx/interface/ideas/idea_sisu2.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_TLY_construction_speed"
+		texturefile = "gfx/interface/ideas/generic_idea_construction.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_TLY_science_effort"
+		texturefile = "gfx/interface/ideas/ideas_generic_science.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_TLY_civilian_economy"
+		texturefile = "gfx/interface/ideas/idea_civ_economy.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_TLY_military_economy"
+		texturefile = "gfx/interface/ideas/idea_military_economy.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_TLY_defensive_doctrine"
+		texturefile = "gfx/interface/ideas/TLY_defensive_doctrine.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_TLY_knights"
+		texturefile = "gfx/interface/ideas/idea_knight.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_IRN_old_way"
+		texturefile = "gfx/interface/ideas/old_way.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_IRN_new_way"
+		texturefile = "gfx/interface/ideas/new_way.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_IRN_quellons_achievements"
+		texturefile = "gfx/interface/ideas/quellons_achievments.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_IRN_imperial_glory"
+		texturefile = "gfx/interface/ideas/IRN_imperial_glory.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_IRN_ironborn_targaryen_loyalists_agents"
+		texturefile = "gfx/interface/ideas/GFX_idea_IRN_ironborn_targaryen_loyalists_agents.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_IRN_ironborn_warrior_traditions"
+		texturefile = "gfx/interface/ideas/IRN_warrior_traditions_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mormont"
+		texturefile = "gfx/interface/ideas/idea_mormont.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_sisu2"
+		texturefile = "gfx/interface/ideas/sisu2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_king_carol_ii_hedonist"
+		texturefile = "gfx/interface/ideas/idea_rom_carol_ii_hedonist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_myrcella"
+		texturefile = "gfx/interface/ideas/idea_myrcella.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slave_requirement"
+		texturefile = "gfx/interface/ideas/idea_service_by_requirement.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_crows"
+		texturefile = "gfx/interface/ideas/idea_crows.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_a_waynwood"
+		texturefile = "gfx/interface/ideas/idea_a_waynwood.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ser_davos"
+		texturefile = "gfx/interface/ideas/idea_ser_davos.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ser_jorah"
+		texturefile = "gfx/interface/ideas/idea_ser_jorah.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_margery"
+		texturefile = "gfx/interface/ideas/idea_margery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_pycelle"
+		texturefile = "gfx/interface/ideas/idea_pycelle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_varys"
+		texturefile = "gfx/interface/ideas/idea_varys.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ilynpayne"
+		texturefile = "gfx/interface/ideas/idea_ilynpayne.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_cersei"
+		texturefile = "gfx/interface/ideas/idea_cersei.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jaime"
+		texturefile = "gfx/interface/ideas/idea_jaime.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_randyl_tarly"
+		texturefile = "gfx/interface/ideas/idea_randyl_tarly.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_melisandre"
+		texturefile = "gfx/interface/ideas/idea_melisandre.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ramsay"
+		texturefile = "gfx/interface/ideas/idea_ramsay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_jojen"
+		texturefile = "gfx/interface/ideas/idea_jojen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_catelyn"
+		texturefile = "gfx/interface/ideas/idea_catelyn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jeremy_rykker"
+		texturefile = "gfx/interface/ideas/idea_jeremy_rykker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nymeria"
+		texturefile = "gfx/interface/ideas/idea_nymeria.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ser_rodrik"
+		texturefile = "gfx/interface/ideas/idea_ser_rodrik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_roose_bolton"
+		texturefile = "gfx/interface/ideas/idea_roose_bolton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_roose_bolton2"
+		texturefile = "gfx/interface/ideas/idea_roose_bolton2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_irri"
+		texturefile = "gfx/interface/ideas/idea_irri.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_septimu"
+		texturefile = "gfx/interface/ideas/idea_septimu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_STN_funds_from_braavos_for_city"
+		texturefile = "gfx/interface/ideas/idea_iron_bank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_STN_time_to_pay_debts"
+		texturefile = "gfx/interface/ideas/idea_iron_bank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_STN_paying_by_their_debts"
+		texturefile = "gfx/interface/ideas/idea_iron_bank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_STN_paying_for_factories"
+		texturefile = "gfx/interface/ideas/idea_iron_bank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_STN_new_strong_realm"
+		texturefile = "gfx/interface/ideas/idea_stannis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_drogon"
+		texturefile = "gfx/interface/ideas/idea_drogon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_vyserion"
+		texturefile = "gfx/interface/ideas/idea_vyserion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_rheagul"
+		texturefile = "gfx/interface/ideas/idea_rheagul.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_drogon_2"
+		texturefile = "gfx/interface/ideas/idea_drogon_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_vyserion_2"
+		texturefile = "gfx/interface/ideas/idea_vyserion_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_rheagul_2"
+		texturefile = "gfx/interface/ideas/idea_rheagul_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_drogon_3"
+		texturefile = "gfx/interface/ideas/idea_drogon_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_vyserion_3"
+		texturefile = "gfx/interface/ideas/idea_vyserion_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_rheagul_3"
+		texturefile = "gfx/interface/ideas/idea_rheagul_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_drogon_4"
+		texturefile = "gfx/interface/ideas/idea_drogon_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_vyserion_4"
+		texturefile = "gfx/interface/ideas/idea_vyserion_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_rheagul_4"
+		texturefile = "gfx/interface/ideas/idea_rheagul_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kinvara"
+		texturefile = "gfx/interface/ideas/idea_kinvara.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_thoros"
+		texturefile = "gfx/interface/ideas/idea_thoros.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_timet"
+		texturefile = "gfx/interface/ideas/idea_timet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_faith_of_7"
+		texturefile = "gfx/interface/ideas/idea_faith_of_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_barristan"
+		texturefile = "gfx/interface/ideas/idea_barristan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_yoren"
+		texturefile = "gfx/interface/ideas/idea_yoren.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tall_men"
+		texturefile = "gfx/interface/ideas/idea_tall_men.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_whitewalkericon"
+		texturefile = "gfx/interface/ideas/idea_whitewalkericon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lordof_light"
+		texturefile = "gfx/interface/ideas/idea_lordof_light.dds"
+	}
+
+	#### roemer9
+	spriteType = {
+		name = "GFX_idea_disorganized_army"
+		texturefile = "gfx/interface/ideas/idea_disorganized_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_giants_in_army"
+		texturefile = "gfx/interface/ideas/idea_giants_in_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_three_orders"
+		texturefile = "gfx/interface/ideas/idea_three_orders.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_crows_in_sky"
+		texturefile = "gfx/interface/ideas/idea_crows_in_sky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_crows_criminals"
+		texturefile = "gfx/interface/ideas/idea_crows_criminals.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wandering_crows_1"
+		texturefile = "gfx/interface/ideas/idea_wandering_crows_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wandering_crows_2"
+		texturefile = "gfx/interface/ideas/idea_wandering_crows_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wandering_crows_3"
+		texturefile = "gfx/interface/ideas/idea_wandering_crows_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NWA_military_order_1"
+		texturefile = "gfx/interface/ideas/idea_NWA_military_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NWA_military_order_2"
+		texturefile = "gfx/interface/ideas/idea_NWA_military_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NWA_military_order_3"
+		texturefile = "gfx/interface/ideas/idea_NWA_military_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_cersei_lannister"
+		texturefile = "gfx/interface/ideas/idea_CRO_cersei_lannister.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_jon_arryn"
+		texturefile = "gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_no_"
+		texturefile = "gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+	}
+
+}

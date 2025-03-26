@@ -1,0 +1,27 @@
+
+state={
+	id=22
+	name="STATE_22"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = CRO
+		victory_points = {
+			3281 3 
+		}
+
+	}
+
+	provinces={
+		292 906 2016 2291 2553 2561 3278 3279 3281 4703 
+	}
+	manpower=1014480
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

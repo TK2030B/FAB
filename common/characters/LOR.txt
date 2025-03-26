@@ -1,0 +1,21 @@
+characters={
+
+	LOR_three_prince_council={
+		name=LOR_three_prince_council
+		portraits={
+			army = {
+				large="gfx/leaders/LOR/Portrait_Three_Prince.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LOR/Portrait_Three_Prince.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=232
+	name="STATE_232"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+
+		}
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		1410 2051 2623 2624 4686 4690 4693 4705 4706 4707 
+	}
+	manpower=1141290
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

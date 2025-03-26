@@ -1,0 +1,35 @@
+
+state={
+	id=141
+	name="STATE_141"
+
+	resources={
+		tungsten=50
+	}
+
+	history={
+		owner = DOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1237 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1237 10
+		}
+		victory_points = {
+			1467 1
+		}
+		add_core_of = DOR
+	}
+
+	provinces={
+		938 1237 1345 1467 1520 1779 1986 2849 2881 2901 2914 4658 4663 4669
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

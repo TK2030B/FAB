@@ -1,0 +1,28 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	history={
+		owner = VAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+
+		}
+		add_core_of = VAL
+		victory_points = {
+			179 15 
+		}
+
+	}
+
+	provinces={
+		179 380 441 458 564 586 635 835 957 1110 1235 1259 1261 1281 1285 1393 1409 1594 1603 1611 1668 1911 1914 1956 2027 2060 2112 2151 2311 2473 2484 2486 2491 2495 2506 2512 2514 2526 2530 2537 2546 2560 
+	}
+	manpower=8454000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

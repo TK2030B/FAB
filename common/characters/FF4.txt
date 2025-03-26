@@ -1,0 +1,65 @@
+characters={
+
+	FF4_styr={
+		name=FF4_styr
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Loboda.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/WIL/Portrait_General_Loboda.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	FF4_loboda={
+		name=FF4_loboda
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Loboda.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	FF4_sigorn={
+		name=FF4_sigorn
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Sigorn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+}

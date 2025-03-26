@@ -1,0 +1,25 @@
+state={
+	id=68
+	name="STATE_68"
+	state_category = small_island
+
+	history={
+		owner = IRO
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			1960 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = IRO
+		victory_points = { 1960 1 }
+	}
+
+	provinces={
+		1960
+	}
+	manpower=1585125
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

@@ -1,0 +1,58 @@
+- reduce dec cost to 50, add equipment + manpower cost
+- early zombie event (late '36) for darkness coming
+- bigger loc for "Search for the horn of winter"
+- add loc for "Graves Unearthed" + "Horn of Winter found"
+- wildling unity drop bcs thenns unhappy when choose to retreat behind wall
+- remove tormund as general once he becomes field marshall + leader
+- bigger range for event before tribes break up + like +5 unity
+- prevent WIL + NWA from liking each other (actually prevent anyone from liking WIL)
+- missing goals shine for recruitment focuses
+- william kircher as cotter pyke
+- fix generic SUI character are white
+- added ships for IRO
+
+- Darkness taking over should be random (bordering) state
+- news event that darkness emerged (NWA)
+- check if Wildling state failed = news event
+- equipment decisions for NWA like for BUL (vanilla) to aquire equipment from SOV (NOR)
+--> mobile + static defense focuses give option to purchase arti + trucks
+- Great Ranging, after started disable decisions (not cat)
+- fix scripted loc (30 was G)
+
+Later
+- White Hart event that ships split from CRO to DRA
+- fix NWA agency icon
+- add Ghaston Grey
+- check news_event.509
+
+Test
+(- check "evacuate" decisions for crash)
+- loc for news.501 + wildling.17
+
+
+AFTER UPDATED:
+- WIL embargoed by Westeros
+
+
+- Wildlings dont break up when AI till strategy implemented
+- add leader trait 'Wildling Hatred' for Alliser Thorne + change so that decision 'Sway Leader Loyalty' cant influence them
+- add timer to liberalist takeover so you cant prepare forever
+- event when NWA civil war communists won event for NOR fires to recall support for NWA (opinion_modifier)
+- make sure ICE actually attacks WIL / NWA
+- make sam technocrat later
+- add HOTD radio
+- decide about new gift
+- alter ice river state to have a sea connection
+
+- add shadow tower route
+- update GUI
+--> also idea 'Failed Northern Expedition' (-0.5 PP, -10% DivOrg)
+
+- decisions dont stop when retreated
+- idea 'Protector of the Realm' should be different icon (Kingdoms in front of crow), 'Protector of the People' should be current icon
+- fix event that DRA gets states with idea "Loyal to Dragonstone" once at war with owner
+- re-check CRO hand of kings (traits;loc;gfx missing)
+
+Music
+------------------
+- Heir of the Dragons for Targaryans

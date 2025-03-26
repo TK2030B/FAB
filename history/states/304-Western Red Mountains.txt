@@ -1,0 +1,25 @@
+
+state={
+	id=304
+	name="STATE_304"
+
+	history={
+		owner = DOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2828 1
+		}
+		add_core_of = DOR
+
+	}
+
+	provinces={
+		1185 1356 1568 1585 1681 1743 1983 2228 2801 2811 2825 2828
+	}
+	manpower=3804300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

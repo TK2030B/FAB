@@ -1,0 +1,85 @@
+﻿focus_tree = {
+	id = leng_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = LEN
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+
+	default = no
+
+###### Politics Branch
+
+	focus = {
+		id = LEN_attack_yti
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 0
+		cost = 5
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			date > 1937.07.01
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			declare_war_on = {
+				target = YTI
+			  type = annex_everything
+			}
+			news_event = news.508
+		}
+	}
+
+	focus = {
+		id = LEN_attack_mrq
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 1
+		cost = 5
+		prerequisite = { focus = LEN_attack_yti }
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			date > 1941.12.01
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			declare_war_on = {
+				target = MRQ
+				type = annex_everything
+			}
+			news_event = news.509
+		}
+	}
+
+}

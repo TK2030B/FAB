@@ -1,0 +1,161 @@
+political_actions = {
+
+#	CRO_appoint_new_hand = {
+#
+#		icon = hand_of_king
+#
+#		available = {
+#			tag = CRO
+#		}
+#
+#		cost = 200
+#
+#		ai_will_do = {
+#			factor = 0
+#		}
+#
+#		visible = {
+#				CRO_no_hand_of_king = { is_political_advisor = no }
+#		}
+#
+#		complete_effect = {
+#			add_stability = -0.05
+#			ROOT = { country_event = crownlands.5 }
+#		}
+#	}
+#	CRO_appoint_new_hand_1 = {
+#
+#		icon = hand_of_king
+#
+#		available = {
+#			tag = CRO
+#		}
+#
+#		cost = 100
+#
+#		ai_will_do = {
+#			factor = 5
+#		}
+#
+#		visible = {
+#			CRO_no_hand_of_king = { is_political_advisor = yes }
+#		}
+#
+#		complete_effect = {
+#			ROOT = { country_event = crownlands.5 }
+#		}
+#	}
+
+}
+
+CRO_iron_throne = {
+
+	CRO_kill_king_hunting = {
+
+		icon = hand_of_king
+
+		available = {
+			tag = CRO
+			has_idea = CRO_king_hunting_id
+		}
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		visible = {
+			has_completed_focus = CRO_kings_last_hunt
+			has_country_leader = {
+				character = CRO_robert_baratheon
+				ruling_only = yes
+			}
+		}
+
+		complete_effect = {
+			ROOT = { country_event = crownlands.1 }
+		}
+	}
+
+	CRO_king_hunting = {
+
+		icon = hand_of_king
+
+		available = {
+			has_country_flag = CRO_king_robert_died
+		}
+
+		activation = {
+			always = no
+		}
+
+		days_mission_timeout = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			effect_tooltip = {
+				remove_ideas = CRO_king_hunting_id
+			}
+			#country_event = { id = crownlands.6 days = 30 }
+		}
+	}
+
+	CRO_king_festival = {
+
+		icon = hand_of_king
+
+		available = {
+			has_country_flag = CRO_king_robert_died
+		}
+
+		activation = {
+			always = no
+		}
+
+		days_mission_timeout = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			effect_tooltip = {
+				remove_ideas = CRO_festival_id
+			}
+		}
+
+	}
+
+	CRO_king_tour = {
+
+		icon = hand_of_king
+
+		available = {
+			has_country_flag = CRO_king_robert_died
+		}
+
+		activation = {
+			always = no
+		}
+
+		days_mission_timeout = 30
+
+		fire_only_once = yes
+
+		complete_effect = {
+		}
+
+		timeout_effect = {
+			effect_tooltip = {
+				remove_ideas = CRO_king_hunting_id
+			}
+		}
+	}
+
+}

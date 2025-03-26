@@ -1,0 +1,73 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { # Country
+	name = GetNWAStatusName
+	text = {
+		trigger = {
+			original_tag = NWA
+			check_variable = {
+				var = NWA_ranging_preparation_status
+				value = 26
+				compare = less_than
+			}
+		}
+		localization_key = NWA_STATUS_BAD
+	}
+	text = {
+		trigger = {
+			original_tag = NWA
+			check_variable = {
+				var = NWA_ranging_preparation_status
+				value = 75
+				compare = greater_than
+			}
+		}
+		localization_key = NWA_STATUS_OK
+	}
+	text = {
+		trigger = {
+			original_tag = NWA
+			check_variable = {
+				var = NWA_ranging_preparation_status
+				value = 25
+				compare = greater_than
+			}
+			check_variable = {
+				var = NWA_ranging_preparation_status
+				value = 76
+				compare = less_than
+			}
+		}
+		localization_key = NWA_STATUS_PERFECT
+	}
+}
+
+defined_text = { # Country
+	name = GetHandHouseName
+	text = {
+		trigger = {
+			has_global_flag = CRO_hand_is_NOR
+		}
+		localization_key = Hand_is_NOR
+	}
+	text = {
+		trigger = {
+			has_global_flag = CRO_hand_is_WES
+		}
+		localization_key = Hand_is_WES
+	}
+	text = {
+		trigger = {
+			has_global_flag = CRO_hand_is_STO
+		}
+		localization_key = Hand_is_STO
+	}
+}

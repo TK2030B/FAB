@@ -1,0 +1,24 @@
+
+state={
+	id=281
+	name="STATE_281"
+
+	history={
+		owner = LOR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LOR
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		58 70 80 137 313 615 616 836 932 942 989 1116 1189 1299 1435 1438 1469 1622 1690 1717 1890 1946 1990 2140 2222 2319 2510 2535 2539 2543 2559 2573 2585 2593 2607 2615 2617 2631 4602
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

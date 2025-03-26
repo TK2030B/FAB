@@ -1,0 +1,24 @@
+state={
+	id=270
+	name="STATE_270"
+
+	history={
+		owner = DOT
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = DOT
+		#victory_points = {
+		#	179 15
+		#}
+	}
+	
+	provinces={
+		71 420 477 490 815 953 1576 1936 1996 2117 2503 2576
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

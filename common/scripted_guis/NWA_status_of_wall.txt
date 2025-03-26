@@ -1,0 +1,195 @@
+scripted_gui = {
+	NWA_status_of_wall_GUI = {
+		window_name = "NWA_gui_wall_display"
+		context_type = decision_category
+
+		visible = { always = yes }
+
+		triggers = {
+
+		# WESTWATCH
+			NWA_button_westwatch_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_westwatch_rebuild
+				}
+			}
+			NWA_button_westwatch_green_visible = {
+				has_country_flag = NWA_westwatch_rebuild
+			}
+
+		# SHADOW TOWER
+			NWA_button_shadow_tower_green_visible = {
+				has_country_flag = NWA_shadow_tower_rebuild
+			}
+
+		# SENTINEL STAND
+			NWA_button_sentinel_stand_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_sentinel_stand_rebuild
+				}
+			}
+			NWA_button_sentinel_stand_green_visible = {
+				has_country_flag = NWA_sentinel_stand_rebuild
+			}
+
+		# GREYGUARD
+			NWA_button_greyguard_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_greyguard_rebuild
+				}
+			}
+			NWA_button_greyguard_green_visible = {
+				has_country_flag = NWA_greyguard_rebuild
+			}
+
+		# STONEDOOR
+			NWA_button_stonedoor_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_stonedoor_rebuild
+				}
+			}
+			NWA_button_stonedoor_green_visible = {
+				has_country_flag = NWA_stonedoor_rebuild
+			}
+
+		# HOARFROST HILL
+			NWA_button_hoarfrost_hill_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_hoarfrost_hill_rebuild
+				}
+			}
+			NWA_button_hoarfrost_hill_green_visible = {
+				has_country_flag = NWA_hoarfrost_hill_rebuild
+			}
+
+		# ICEMARK
+			NWA_button_icemark_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_icemark_rebuild
+				}
+			}
+			NWA_button_icemark_green_visible = {
+				has_country_flag = NWA_icemark_rebuild
+			}
+
+		# NIGHTFORT
+			NWA_button_nightfort_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_nightfort_rebuild
+				}
+			}
+			NWA_button_nightfort_green_visible = {
+				has_country_flag = NWA_nightfort_rebuild
+			}
+
+		# DEEP LAKE
+			NWA_button_deep_lake_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_deep_lake_rebuild
+				}
+			}
+			NWA_button_deep_lake_green_visible = {
+				has_country_flag = NWA_deep_lake_rebuild
+			}
+
+		# QUEENSGATE
+			NWA_button_queensgate_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_queensgate_rebuild
+				}
+			}
+			NWA_button_queensgate_green_visible = {
+				has_country_flag = NWA_queensgate_rebuild
+			}
+
+		# CASTLE BLACK
+			NWA_button_castle_black_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_castle_black_rebuild
+				}
+			}
+			NWA_button_castle_black_green_visible = {
+				has_country_flag = NWA_castle_black_rebuild
+			}
+
+		# OAKENSHIELD
+			NWA_button_oakenshield_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_oakenshield_rebuild
+				}
+			}
+			NWA_button_oakenshield_green_visible = {
+				has_country_flag = NWA_oakenshield_rebuild
+			}
+
+		# WOODSWATCH
+			NWA_button_woodswatch_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_woodswatch_rebuild
+				}
+			}
+			NWA_button_woodswatch_green_visible = {
+				has_country_flag = NWA_woodswatch_rebuild
+			}
+
+		# SABLE HALL
+			NWA_button_sable_hall_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_sable_hall_rebuild
+				}
+			}
+			NWA_button_sable_hall_green_visible = {
+				has_country_flag = NWA_sable_hall_rebuild
+			}
+
+		# RIMEGATE
+			NWA_button_rimegate_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_rimegate_rebuild
+				}
+			}
+			NWA_button_rimegate_green_visible = {
+				has_country_flag = NWA_rimegate_rebuild
+			}
+
+		# LONG BARROW
+			NWA_button_long_barrow_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_long_barrow_rebuild
+				}
+			}
+			NWA_button_long_barrow_green_visible = {
+				has_country_flag = NWA_long_barrow_rebuild
+			}
+
+		# TORCHES
+			NWA_button_torches_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_torches_rebuild
+				}
+			}
+			NWA_button_torches_green_visible = {
+				has_country_flag = NWA_torches_rebuild
+			}
+
+		# GREENGUARD
+			NWA_button_greenguard_grey_visible = {
+				NOT = {
+					has_country_flag = NWA_greenguard_rebuild
+				}
+			}
+			NWA_button_greenguard_green_visible = {
+				has_country_flag = NWA_greenguard_rebuild
+			}
+
+		# EASTWATCH
+			NWA_button_eastwatch_green_visible = {
+				has_country_flag = NWA_eastwatch_rebuild
+			}
+
+		}
+
+		effects = {
+		}
+	}
+}

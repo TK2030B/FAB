@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Pentos City Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Pentos City Guard"
+		location = 2658
+		division_template = "Pentos City Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

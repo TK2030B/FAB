@@ -1,0 +1,26 @@
+state={
+	id=277
+	name="STATE_277"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = BRA
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		259 260 317 322 443 555 736 756 781 786 852 921 959 980 1152 1250 1382 1706 1756 1805 1932 2067 2089 2124 2250 2461 2467 2472 2478 2489 2497 2517 2527 2538 2541 2542 2551 2558 2562 2572 2595 2603
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.0
+}

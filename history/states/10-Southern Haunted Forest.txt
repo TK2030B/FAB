@@ -1,0 +1,26 @@
+
+state={
+	id=10
+	name="STATE_10"
+
+	history={
+		owner = WIL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = FF5
+		victory_points = {
+			1571 3
+		}
+
+	}
+
+	provinces={
+		45 680 958 1337 1535 1571 1967
+	}
+	manpower=139491
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0
+}

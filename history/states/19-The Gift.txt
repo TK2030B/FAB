@@ -1,0 +1,35 @@
+#Represents both Brandons Gift and The New Gift
+state={
+	id=19
+	name="STATE_19"
+
+	history={
+		owner = NWA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			4616 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NWA
+		victory_points = {
+			4619 2	#Moles Town
+		}
+		victory_points = {
+			4618 1	#Queenscrown
+		}
+
+	}
+
+	provinces={
+		138 2179 2349 2350 4615 4616 4617 4618 4619 4620 4621
+	}
+	manpower=45651
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

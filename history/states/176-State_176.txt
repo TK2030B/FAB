@@ -1,0 +1,23 @@
+state={
+	id=176
+	name="STATE_176"
+	provinces={
+		3322
+	}
+
+	history={
+		owner = MRQ
+		buildings = {
+			infrastructure = 1
+			3322 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MRQ
+	}
+
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

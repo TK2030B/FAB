@@ -1,0 +1,86 @@
+characters={
+
+	RIV_hoster_tully={
+		name=RIV_hoster_tully
+		portraits={
+			army = {
+				large="gfx/leaders/RIV/Portrait_Hoster_Tully.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/RIV/Portrait_Hoster_Tully.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	RIV_Brynden_Tully={
+		name=RIV_Brynden_Tully
+		portraits={
+			army = {
+				large="gfx/leaders/RIV/Portrait_Brynden_Tully.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	RIV_Edmure_Tully={
+		name=RIV_Edmure_Tully
+		portraits={
+			army = {
+				large="gfx/leaders/RIV/Portrait_Edmure_Tully.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	RIV_Vince_of_Atranta={
+		name=RIV_Vince_of_Atranta
+		portraits={
+			army = {
+				large="gfx/leaders/RIV/Portrait_Vince_of_Atranta.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+
+
+
+}

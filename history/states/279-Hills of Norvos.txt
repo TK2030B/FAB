@@ -1,0 +1,25 @@
+state={
+	id=279
+	name="STATE_279"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = BRA
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		223 351 493 590 646 678 826 1015 1039 1108 1124 1286 1342 1453 1539 1766 1785 1830 1860 1875 2032 2036 2119 2174 2178 2198 2247 2487 2516 2522 2534 2549 2555 2566 2567 2581 2584 2611
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

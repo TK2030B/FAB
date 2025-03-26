@@ -1,0 +1,23 @@
+state={
+	id=321
+	name="STATE_321"
+
+	history={
+		owner = ULT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ULT
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+	
+	provinces={
+		14 54 109 613 1026 1036 1879 3115
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

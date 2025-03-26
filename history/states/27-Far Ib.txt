@@ -1,0 +1,22 @@
+
+state={
+	id=27
+	name="STATE_27"
+
+	history={
+		owner = IBB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = IBB
+	}
+	provinces={
+		556 1874 2435 3219 3221
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

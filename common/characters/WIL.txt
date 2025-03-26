@@ -1,0 +1,142 @@
+characters={
+
+	WIL_mance_rayder={
+		name=WIL_mance_rayder
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_Mance_Rayder.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/WIL/Portrait_Mance_Rayder.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { defensive_doctrine }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	WIL_ygritte_firekissed={
+		name=WIL_ygritte_firekissed
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Ygritte.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { winter_specialist ranger }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WIL_tormund_giantsbane={
+		name=WIL_tormund_giantsbane
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Tormund.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { winter_specialist hill_fighter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+
+	#### Raiders
+	###########################
+
+	WIL_harma={
+		name=WIL_harma
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_Harma.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	WIL_rattleshirt={
+		name=WIL_rattleshirt
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_Rattleshirt.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	WIL_halleck={
+		name=WIL_halleck
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_Halleck.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	WIL_alfyn={
+		name=WIL_alfyn
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_Rattleshirt.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	WIL_karsi={
+		name=WIL_karsi
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Karsi.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	WIL_loboda={
+		name=WIL_loboda
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Loboda.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	WIL_sigorn={
+		name=WIL_sigorn
+		portraits={
+			army = {
+				large="gfx/leaders/WIL/Portrait_General_Sigorn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	WIL_anarchism={
+		name=WIL_anarchism
+		portraits={
+			civilian = {
+				large="gfx/leaders/WIL/deserted_camp.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+}

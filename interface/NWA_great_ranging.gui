@@ -1,0 +1,47 @@
+guiTypes = {
+
+containerWindowType = {
+	name = "NWA_gui_map_display"
+	size = { width = 500 height = 375 }
+	position = { x = 0 y = 0 }
+
+		# MAP
+		iconType = {
+			name = "NWA_gui_wall_map"
+			spriteType = "GFX_wall_map"
+			orientation = upper_left
+			position = { x = 5 y = 15 }
+
+			alwaystransparent = yes
+		}
+
+		# Castle Markings
+		containerWindowType = {
+			name = "NWA_red_crosses"
+			position = {x=5 y=10}
+			size = { width=500 height=800 }
+
+			# Castle Black
+			iconType = {
+				name = "NWA_cross_castle_black"
+				position = {x=293 y=272}
+				spriteType = GFX_red_cross
+				pdx_tooltip = "NWA_CASTLE_BLACK_INFO"
+			}
+			# Shadow Tower
+			iconType = {
+				name = "NWA_cross_shadow_tower"
+				position = {x=150 y=300}
+				spriteType = GFX_red_cross
+				pdx_tooltip = "NWA_SHADOW_TOWER_INFO"
+			}
+			# Eastwatch
+			iconType = {
+				name = "NWA_cross_eastwatch"
+				position = {x=400 y=273}
+				spriteType = GFX_red_cross
+				pdx_tooltip = "NWA_EASTWATCH_INFO"
+			}
+		}
+	}
+}

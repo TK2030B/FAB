@@ -1,0 +1,27 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = WIL
+		buildings = {
+			infrastructure = 1
+			1615 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = FF2
+
+	}
+
+	provinces={
+		90 159 863 996 1177 1554 1615 2334 2336 4628
+	}
+	manpower=152172
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0
+}

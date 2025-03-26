@@ -1,0 +1,16 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_autonomy_high_lordship_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_high_lordship.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_royal_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_royal_protectorate.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_feudal_dominion_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_integrated_puppet_icon.dds"
+	}
+	
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=258
+	name="STATE_258"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 3
+		}
+		add_core_of = NOR
+		add_core_of = BOL
+
+	}
+
+	provinces={
+		685 721 984 1040 1332 1478 1737 1834 1993 2143 2225 2288 2372 2376 2377 2381 2387
+	}
+	manpower=560430
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

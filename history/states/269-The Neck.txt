@@ -1,0 +1,23 @@
+
+state={
+	id=269
+	name="STATE_269"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NOR
+
+	}
+
+	provinces={
+		62 226 355 964 1239 1246 1263 1276 1331 1505 1607 1665 1677 1725 1777 2038 2148 2196 2446 2447 2448 2451 2455 2456 2462 2463 2464 2466 2469 
+	}
+	manpower=684970
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

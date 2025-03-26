@@ -1,0 +1,29 @@
+
+state={
+	id=139
+	name="STATE_139"
+
+	history={
+		owner = DOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			817 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			817 15
+		}
+		add_core_of = DOR
+	}
+
+	provinces={
+		767 817 1074 1080 1319 1426 1486 1898 2175 2865 2891 4664 4665 4667 4668 4673
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

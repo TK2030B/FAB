@@ -1,0 +1,32 @@
+﻿capital = 330
+
+#oob = "ULT_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+}
+
+set_convoys = 0
+#set_national_unity = 0.85
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=ULT_unknown_leader

@@ -1,0 +1,101 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_event_tommenmargery"
+		texturefile = "gfx/event_pictures/news_event_tommenmargery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_nedstarkking"
+		texturefile = "gfx/event_pictures/news_event_nedstarkking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_goldencompany"
+		texturefile = "gfx/event_pictures/news_event_goldencompany.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_joffreydead"
+		texturefile = "gfx/event_pictures/news_event_joffreydead.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_redcomet"
+		texturefile = "gfx/event_pictures/news_event_redcomet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_nightking"
+		texturefile = "gfx/event_pictures/news_event_nightking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_starkburn"
+		texturefile = "gfx/event_pictures/news_event_starkburn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_drogon"
+		texturefile = "gfx/event_pictures/news_event_drogon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_dinosaur"
+		texturefile = "gfx/event_pictures/news_event_dinosaur.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_dragon_alive"
+		texturefile = "gfx/event_pictures/news_event_dragon_alive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_dragon_dead"
+		texturefile = "gfx/event_pictures/news_event_dragon_dead.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_dragonstone"
+		texturefile = "gfx/event_pictures/news_event_dragonstone.dds"
+	}
+
+	### roemer9
+	spriteType = {
+		name = "GFX_report_event_destroyed_village"
+		texturefile = "gfx/event_pictures/report_event_destroyed_village.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_horn_found"
+		texturefile = "gfx/event_pictures/report_event_horn_found.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_digging"
+		texturefile = "gfx/event_pictures/report_event_digging.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_massive_explosion"
+		texturefile = "gfx/event_pictures/report_event_massive_explosion.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_army_inspection"
+		texturefile = "gfx/event_pictures/report_event_army_inspection.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_massive_explosion"
+		texturefile = "gfx/event_pictures/news_event_massive_explosion.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_winter_war_dead_soldiers"
+		texturefile = "gfx/event_pictures/news_event_winter_war_dead_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_wounded_soldiers"
+		texturefile = "gfx/event_pictures/report_event_wounded_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_nights_watch"
+		texturefile = "gfx/event_pictures/report_event_nights_watch.dds"
+	}
+
+}

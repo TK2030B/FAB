@@ -1,0 +1,41 @@
+WIL_category_raiding = {
+
+	icon = border_conflicts
+	picture = GFX_decision_cat_raiding
+	visible_when_empty = yes
+
+	visible = {
+		has_completed_focus = WIL_invite_raiders
+	}
+
+	priority = 95
+}
+
+WIL_category_tribe_unity = {
+
+	icon = generic_formable_nations
+	picture = GFX_decision_cat_wildlings
+	visible_when_empty = yes
+
+	visible = {
+		original_tag = WIL
+		NOT = {
+			has_country_flag = WIL_break_up_flg
+		}
+	}
+
+	priority = 90
+}
+
+WIL_category_evacuate_north = {
+
+	icon = eng_organize_the_blackshirts
+	picture = GFX_decision_cat_picture_chi_infiltration
+	visible_when_empty = no
+
+	visible = {
+		has_completed_focus = WIL_prepare_resettlement
+	}
+
+	priority = 90
+}

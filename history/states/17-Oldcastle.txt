@@ -1,0 +1,22 @@
+
+state={
+	id=17
+	name="STATE_17"
+	state_category = town
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		1546 1813 1844 2100 2443 2444 2450
+	}
+	manpower=684970
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

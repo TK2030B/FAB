@@ -1,0 +1,25 @@
+
+state={
+	id=99
+	name="STATE_99"
+
+	history={
+		owner = REA
+		buildings = {
+			infrastructure = 3
+			2118 = {
+				naval_base = 7
+			}
+		}
+		add_core_of = REA
+
+	}
+
+	provinces={
+		637 849 853 960 1301 1455 1460 1564 1636 1663 1745 1778 1809 1824 1862 2017 2118 2213 2265 2289 2755 2779 2792 2810 2823 2833 2846 2862 2870 2912
+	}
+	manpower=33477840
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

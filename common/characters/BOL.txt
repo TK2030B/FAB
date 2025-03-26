@@ -1,0 +1,51 @@
+characters={
+
+	BOL_roose_bolton={
+		name=BOL_roose_bolton
+		portraits={
+			army = {
+				large="gfx/leaders/BOL/Portrait_Roose_Bolton.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BOL/Portrait_Roose_Bolton.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { harsh_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
+	BOL_ramsay_snow={
+		name=BOL_ramsay_snow
+		portraits={
+			army = {
+				large="gfx/leaders/BOL/Portrait_Ramsay_Snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BOL/Portrait_Ramsay_Snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { trait_reckless }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+}

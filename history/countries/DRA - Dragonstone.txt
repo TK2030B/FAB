@@ -1,0 +1,53 @@
+﻿capital = 108
+
+oob = "DRA_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "DRA_1936_naval_mtg"
+	else = {
+		set_naval_oob = "DRA_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+}
+
+add_ideas = {
+	extensive_conscription
+}
+
+set_convoys = 30
+#set_national_unity = 0.85
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=DRA_stannis_baratheon
+recruit_character=DRA_Axell_Florent
+recruit_character=DRA_Davos_Seaworth
+#recruit_character=DRA_Saladhoor_San #Will be Added by Event
+
+add_ideas = {
+	GOT_Tradition_Crownlands
+	GOT_Religion_LOL
+}

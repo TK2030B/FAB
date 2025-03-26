@@ -1,0 +1,65 @@
+characters={
+
+	BWB_beric_dondarrion={
+		name=BWB_beric_dondarrion
+		portraits={
+			army = {
+				large="gfx/leaders/BWB/Portrait_Beric_Dondarrion.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BWB/Portrait_Beric_Dondarrion.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	BWB_notch_avery={
+		name=BWB_notch_avery	#Surname 'Avery' is fictious https://awoiaf.westeros.org/index.php/Notch
+		portraits={
+			army = {
+				large="gfx/leaders/BWB/Portrait_Notch_Avery.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander = {
+			traits={ trickster infantry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	BWB_thoros={
+		name=BWB_thoros
+		portraits={
+			army = {
+				large="gfx/leaders/BWB/Portrait_Thoros.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander = {
+			traits={ }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+}

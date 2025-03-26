@@ -1,0 +1,7 @@
+﻿division_template = {
+	name = "Ulthos Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}

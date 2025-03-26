@@ -1,0 +1,25 @@
+state={
+	id=271
+	name="STATE_271"
+
+	history={
+		owner = SAA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SAA
+		#victory_points = {
+		#	179 15
+		#}
+	}
+
+	provinces={
+		119 150 338 432 437 464 669 1144 1182 1820 1913 2094 2582
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

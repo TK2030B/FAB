@@ -2357,7 +2357,7 @@
  sp_tag_jet_speed_factor_tt: " $sp_tag_jet_speed_factor$: $RIGHT|+=%1$"
  sp_tag_rocket_speed_factor: "Blitz Dragon Projects Speed"
  sp_tag_rocket_speed_factor_tt: " $sp_tag_rocket_speed_factor$: $RIGHT|+=%1$"
- sp_tag_bomb_speed_factor: "Bomb Special Projects Speed"
+ sp_tag_bomb_speed_factor: "Projectile Special Projects Speed"
  sp_tag_bomb_speed_factor_tt: " $sp_tag_bomb_speed_factor$: $RIGHT|+=%1$"
  sp_tag_guided_bomb_speed_factor: "Projectile Special Projects Speed"
  sp_tag_guided_bomb_speed_factor_tt: " $sp_tag_guided_bomb_speed_factor$: $RIGHT|+=%1$"

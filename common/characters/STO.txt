@@ -1,0 +1,48 @@
+characters={
+
+	STO_renly_baratheon={
+		name=STO_renly_baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/STO/Portrait_Renly_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/STO/Portrait_Renly_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	STO_Brienne_of_Tarth={
+		name=STO_Brienne_of_Tarth
+		portraits={
+			army = {
+				large="gfx/leaders/STO/Portrait_Brienne_of_Tarth.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+
+}

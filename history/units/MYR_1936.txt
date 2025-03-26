@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Myr City Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Myr City Guard"
+		location = 1995
+		division_template = "Myr City Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,29 @@
+characters={
+
+	FF1_karsi={
+		name=FF1_karsi
+		portraits={
+			army = {
+				large="gfx/leaders/FF1/Portrait_General_Karsi.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/FF1/Portrait_General_Karsi.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+}

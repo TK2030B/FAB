@@ -1,0 +1,26 @@
+scripted_gui = {
+	NWA_great_ranging_GUI = {
+		window_name = "NWA_gui_map_display"
+		context_type = decision_category
+
+		visible = { always = yes }
+
+		triggers = {
+			# Castle Black
+			NWA_cross_castle_black_visible = {
+				always = yes
+			}
+		}
+		triggers = {
+			# Shadow Tower
+			NWA_cross_shadow_tower_visible = {
+				has_country_flag = NWA_shadow_tower_men_send
+			}
+		}
+		triggers = {
+			# Eastwatch
+			NWA_cross_eastwatch_visible = {
+				has_country_flag = NWA_eastwatch_men_send
+			}
+		}
+}

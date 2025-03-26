@@ -1,0 +1,33 @@
+﻿units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Kings Landing Navy"
+		naval_base = 2575 # Kings Landing
+		task_force = {
+			name = "First Fleet"
+			location = 2575 # Kings Landing
+			ship = { name = "King Robert's Hammer" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = CRO version_name = "King Robert Class" } } }
+			ship = { name = "Lionstar" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CRO version_name = "Lionstar Class" } } }
+			ship = { name = "Lady Lyanna" definition = light_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CRO version_name = "Lady Class" } } }
+			ship = { name = "Bold Wind" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+			ship = { name = "Seaswift" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+		}
+		task_force = {
+			name = "Second Fleet"
+			location = 2575 # Kings Landing
+			ship = { name = "Godsgrace" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Prince Aemon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Kingslander" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Lady of Silk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Lady's Shame" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Seaflower" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Lance" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+			ship = { name = "Loyal Man" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+			ship = { name = "Ramshead" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+			ship = { name = "River Arrow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+			ship = { name = "White Hart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+			ship = { name = "Whirlwind" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO version_name = "Seaswift Class" } } }
+		}
+	}
+}

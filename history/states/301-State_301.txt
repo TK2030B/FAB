@@ -1,0 +1,15 @@
+state={
+	id=301
+	name="STATE_301"
+	history={
+		owner = REW
+		add_core_of = REW
+	}
+	provinces={
+		381 1245 1772 2787
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

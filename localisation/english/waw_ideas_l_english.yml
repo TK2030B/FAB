@@ -1,0 +1,48 @@
+﻿l_english:
+# Crownlands
+ backward_agriculture:0 "Outdated Agricultural Industry"
+ backward_agriculture_desc:0 "In the Crownlands, the majority of our farms continue to rely on traditional animal power and manual labor, rather than embracing modern machinery to sustain our nation."
+ indebted_crown:0 "Indebted Crown"
+ indebted_crown_desc:0 "The crown is heavily indebted to the Lannisters, the Iron Bank, and several other lords. Years of endless spending have made it difficult to find ways to finance new projects."
+ CRO_king_hunting_id:0 "Absent Monarch"
+ CRO_king_hunting_id_desc:0 "The King is presently hunting in the Kingswood and is unavailable to attend to political matters."
+ CRO_festival_id:0 "Royal Festivities"
+ CRO_festival_id_desc:0 "The King has organized yet another grand celebration, placing significant strain on our economy."
+# Free Folk
+ giants_in_army:0 "Giants In Our Army"
+ WIL_free_folk_1:0 "Free Folk"
+ WIL_free_folk_2:0 "Free Folk"
+ WIL_free_folk_3:0 "Free Folk"
+ WIL_disorganized_warband:0 "Disorganized Warband"
+ WIL_disorganized_warband_desc:0 "The tribes act as independent units rather than a unified army. Everyone fights for their own, which makes operations on a larger scale harder to succeed."
+ WIL_unrecognized_country:0 "Unrecognized Country"
+ WIL_unrecognized_country_desc:0 "The lords behind there wall tend to forget that we exist and the ones who do choose to ignore us."
+ WIL_volunteers_in_nights_watch:0 "Volunteers in the War"
+ WIL_volunteers_in_nights_watch_desc:0 "The brothers of the Nights Watch are struggling in the civil war. We will provide military assistance by organizing a volunteer force that will fight for the rightful side."
+# Night's Watch
+ NWA_modernization_effort_id:0 "Modernization Effort"
+ NWA_three_orders:0 "Three Orders"
+ NWA_three_orders_desc:0 "The Orders were the backbone of the Nightswatch since its foundation, but in the decades since Jeor Mormont came to power it couldn't keep up with all the changes. Today there are just overly bureaucratic, backward oriented organisations in dire need of reforms."
+ crows:0 "Protectors Of The Realms"
+ NWA_three_orders_1:0 "Three Orders"
+ NWA_three_orders_2:0 "Three Orders"
+ NWA_three_orders_3:0 "Three Orders"
+ NWA_crows_in_sky:0 "Crows In The Sky"
+ NWA_band_of_criminals:0 "Band Of Criminals"
+ NWA_consolidate_power_idea:0 "Consolidate Power"
+ NWA_consolidate_power_idea_desc:0 "The war that has torn our nation asunder has now been won. We must strengthen our position, and methodically eliminate those who dared oppose us."
+ NWA_open_gates:0 "Protectors Of The Free People"
+ NWA_open_gates_desc:0 "The gates of the Nights Watch are open for all free men from beyond the Wall."
+ NWA_military_order_1:0 "Military Order"
+ NWA_military_order_2:0 "Military Order"
+ NWA_military_order_3:0 "Military Order"
+ NWA_military_order_1_con:0 "Military Order"
+ NWA_military_order_2_con:0 "Military Order"
+ NWA_military_order_3_con:0 "Military Order"
+
+# Iron Islands
+ IRO_neglected_landforces:0 "Neglected Landforces"
+ IRO_neglected_landforces_desc:0 "The Ironborn’s pride lies with their navy, which receives the lion's share of resources and attention. The land forces, however, are left to languish with meager funding and outdated equipment. While the fleet dominates the seas, the army remains ill-equipped and undertrained, struggling to match the strength of mainland forces."
+
+### NEW IDEAS ###
+ septon:0 "Septon"

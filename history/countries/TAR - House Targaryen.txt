@@ -1,0 +1,42 @@
+﻿capital = 289
+
+#oob = "TAR_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+}
+
+set_convoys = 30
+#set_national_unity = 0.85
+
+set_popularities = {
+	democratic = 0
+	neutrality = 0
+	communism = 0
+	fascism = 100
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=TAR_Daenerys_Targaryen  
+recruit_character=TAR_Viserys_Targaryen  
+recruit_character=TAR_Jorah_Mormont  
+recruit_character=TAR_Barristan_Selmy  
+recruit_character=TAR_Grey_Worm  
+recruit_character=TAR_Daario_Naharis  
+
+add_ideas = {
+	GOT_Tradition_Dragonlords
+	GOT_Religion_The_Seven
+}

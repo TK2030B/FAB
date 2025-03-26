@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Hornfood Tribesmen"
+	is_locked = yes
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Hornfood Tribesmen"
+		location = 1967
+		division_template = "Hornfood Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Hornfood Tribesmen"
+		location = 1337
+		division_template = "Hornfood Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Hornfood Tribesmen"
+		location = 958
+		division_template = "Hornfood Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

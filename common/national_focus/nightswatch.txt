@@ -1,0 +1,2562 @@
+focus_tree = {
+	id = nightswatch_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = NWA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 275 y = 1000 }
+
+################################
+#### Fortification focuses #####
+################################
+
+	focus = {
+		id = NWA_winter_is_coming
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = NWA_begin_great_ranging }
+		x = 3
+		y = 2
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_country_flag = NWA_ranging_finished
+			OR = {
+				NOT = { has_country_flag = NWA_retreated_flg }
+				AND = {
+					has_country_flag = NWA_retreated_flg
+					any_neighbor_state = {
+						is_controlled_by = ICE
+					}														#too late...
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = NWA_white_walkers_tt
+			}
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_war_support = 0.1
+			add_ideas = war_economy
+		}
+	}
+
+	focus = {
+		id = NWA_reman_abandoned_forts
+		icon = GFX_goal_generic_construct_military
+		relative_position_id = NWA_winter_is_coming
+		x = -2
+		y = 1
+		prerequisite = { focus = NWA_winter_is_coming }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+		unlock_decision_category_tooltip = NWA_wall
+			custom_effect_tooltip = NWA_recruit_wall_garrison_tt
+			hidden_effect = {
+				set_division_force_allow_recruiting = {
+			    division_template = "Wall Garrison"
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_connect_strongpoints
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = NWA_reman_abandoned_forts
+		x = 0
+		y = 1
+		prerequisite = { focus = NWA_reman_abandoned_forts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+				}
+				fallback = yes
+				path = { 4626 2347 4624 684 4627 }
+				start_province = 4626
+				target_province = 4627
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+				}
+				fallback = yes
+				path = { 4626 1534 4625 4623 4622 }
+				start_province = 4626
+				target_province = 4622
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_expand_arms_production
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = NWA_reman_abandoned_forts
+		x = -1
+		y = 2
+		prerequisite = { focus = NWA_connect_strongpoints }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			19 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_fill_storrages
+		icon = GFX_goal_generic_axis_build_infantry
+		relative_position_id = NWA_reman_abandoned_forts
+		x = 1
+		y = 2
+		prerequisite = { focus = NWA_connect_strongpoints }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_stability = -0.05
+			if = {
+				limit = { has_idea = NWA_military_order_1 }
+				swap_ideas = {
+					remove_idea = NWA_military_order_1
+					add_idea = NWA_military_order_1_con
+				}
+			}
+			if = {
+				limit = { has_idea = NWA_military_order_2 }
+				swap_ideas = {
+					remove_idea = NWA_military_order_2
+					add_idea = NWA_military_order_2_con
+				}
+			}
+			if = {
+				limit = { has_idea = NWA_military_order_3 }
+				swap_ideas = {
+					remove_idea = NWA_military_order_3
+					add_idea = NWA_military_order_3_con
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_strenghten_existing_forts
+		icon = GFX_goal_generic_construction
+		relative_position_id = NWA_winter_is_coming
+		x = 2
+		y = 1
+		prerequisite = { focus = NWA_winter_is_coming }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			24 = {
+				add_building_construction = {
+					type = bunker
+					province = 4622
+					level = 1
+					instant_build = yes
+				}
+			}
+			18 = {
+				add_building_construction = {
+					type = bunker
+					province = 4626
+					level = 1
+					instant_build = yes
+				}
+			}
+			25 = {
+				add_building_construction = {
+					type = bunker
+					province = 4627
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_secure_shadow_tower
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = NWA_strenghten_existing_forts
+		x = -2
+		y = 1
+		prerequisite = { focus = NWA_strenghten_existing_forts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			24 = {
+				add_building_construction = {
+					type = bunker
+					province = 4622
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_secure_castle_black
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = NWA_strenghten_existing_forts
+		x = 0
+		y = 1
+		prerequisite = { focus = NWA_strenghten_existing_forts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			18 = {
+				add_building_construction = {
+					type = bunker
+					province = 4626
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_secure_eastwatch
+		icon = GFX_goal_generic_fortify_city
+		relative_position_id = NWA_strenghten_existing_forts
+		x = 2
+		y = 1
+		prerequisite = { focus = NWA_strenghten_existing_forts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			25 = {
+				add_building_construction = {
+					type = bunker
+					province = 4627
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_secure_naval_invasion
+		icon = GFX_focus_generic_coastal_fort
+		relative_position_id = NWA_strenghten_existing_forts
+		x = 0
+		y = 2
+		prerequisite = { focus = NWA_secure_eastwatch }
+		prerequisite = { focus = NWA_secure_shadow_tower }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			19 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+			}
+			24 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+			}
+			25 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	###########################
+	#### Political focuses ####
+	###########################
+
+		focus = {
+			id = NWA_prepare_great_ranging
+			icon = GFX_goal_generic_position_armies
+			x = 18
+			y = 0
+			prerequisite = {}
+			mutually_exclusive = { }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+				has_country_flag = NWA_gared_came_back
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_POLITICAL }
+
+			completion_reward = {
+				add_war_support = 0.05
+				custom_effect_tooltip = NWA_ranging_preparations_tt
+				set_country_flag = NWA_ranging_preparation
+				set_variable = {
+					var = NWA_ranging_preparation_status
+					value = 0
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_begin_great_ranging
+			icon = GFX_nights_watch_army
+			relative_position_id = NWA_prepare_great_ranging
+			x = 0
+			y = 1
+			prerequisite = { focus = NWA_prepare_great_ranging }
+			mutually_exclusive = { }
+			cost = 1
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+				has_manpower > 2499
+				has_equipment = {
+			    infantry_equipment > 2499
+				}
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_POLITICAL }
+
+			completion_reward = {
+				unlock_decision_category_tooltip = NWA_great_ranging
+				set_country_flag = NWA_ranging_began
+				add_manpower = -2500
+				add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = -2500
+				}
+				hidden_effect = {
+					NWA = { country_event = { id = nightswatch.22 days = 30 } }	#Whitetree
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_beaten_but_not_defeated
+			icon = GFX_focus_usa_voter_registration_act
+			relative_position_id = NWA_begin_great_ranging
+			x = -8
+			y = 1
+			prerequisite = { focus = NWA_begin_great_ranging }
+			mutually_exclusive = { focus = NWA_change_system focus = NWA_elect_new_lord_commander }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+				has_country_flag = NWA_ranging_finished
+				has_country_flag = NWA_jeor_lives_flg
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_elect_new_lord_commander
+			icon = GFX_focus_usa_voter_registration_act
+			relative_position_id = NWA_begin_great_ranging
+			x = -4
+			y = 1
+			prerequisite = { focus = NWA_begin_great_ranging }
+			mutually_exclusive = { focus = NWA_change_system focus = NWA_beaten_but_not_defeated }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+				has_country_flag = NWA_ranging_finished
+				has_country_flag = NWA_jeor_dead_flg
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_elect_snow
+			icon = GFX_focus_BUL_form_a_regency_council
+			relative_position_id = NWA_elect_new_lord_commander
+			x = -2
+			y = 1
+			prerequisite = { focus = NWA_elect_new_lord_commander }
+			mutually_exclusive = { focus = NWA_elect_thorne focus = NWA_elect_rast }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_integrate_wildlings
+			icon = GFX_goal_generic_national_unity
+			relative_position_id = NWA_elect_new_lord_commander
+			x = -2
+			y = 3
+			prerequisite = { focus = NWA_elect_snow }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_elect_thorne
+			icon = GFX_focus_BUL_form_a_regency_council
+			relative_position_id = NWA_elect_new_lord_commander
+			x = 0
+			y = 1
+			prerequisite = { focus = NWA_elect_new_lord_commander }
+			mutually_exclusive = { focus = NWA_elect_snow focus = NWA_elect_rast }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_abandon_wildlings
+			icon = GFX_focus_generic_provoke_border_clashes
+			relative_position_id = NWA_elect_new_lord_commander
+			x = 0
+			y = 3
+			prerequisite = { focus = NWA_elect_thorne }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_elect_rast
+			icon = GFX_focus_BUL_form_a_regency_council
+			relative_position_id = NWA_elect_new_lord_commander
+			x = 2
+			y = 1
+			prerequisite = { focus = NWA_elect_new_lord_commander }
+			mutually_exclusive = { focus = NWA_elect_thorne focus = NWA_elect_snow }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+			completion_reward = {
+				custom_effect_tooltip = available_political_advisor
+				show_ideas_tooltip = NWA_karl_tanner
+			}
+		}
+
+		focus = {
+			id = NWA_new_friends
+			icon = GFX_goal_molotov_ribbentrop_pact
+			relative_position_id = NWA_elect_new_lord_commander
+			x = 2
+			y = 2
+			prerequisite = { focus = NWA_elect_rast }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_demand_new_gift
+			icon = GFX_goal_generic_territory_or_war
+			relative_position_id = NWA_elect_new_lord_commander
+			x = 2
+			y = 3
+			prerequisite = { focus = NWA_new_friends }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_ANNEXATION }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_northern_support
+			icon = GFX_goal_tripartite_pact
+			relative_position_id = NWA_elect_new_lord_commander
+			x = -1
+			y = 2
+			prerequisite = { focus = NWA_elect_snow focus = NWA_elect_thorne }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_northern_war_support
+			icon = GFX_goal_generic_small_arms
+			relative_position_id = NWA_elect_new_lord_commander
+			x = -1
+			y = 4
+			prerequisite = { focus = NWA_northern_support }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_change_system
+			icon = GFX_goal_generic_small_arms
+			relative_position_id = NWA_begin_great_ranging
+			x = 4
+			y = 1
+			prerequisite = { focus = NWA_begin_great_ranging }
+			mutually_exclusive = { focus = NWA_elect_new_lord_commander focus = NWA_beaten_but_not_defeated }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+				has_country_flag = NWA_ranging_finished
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			completion_reward = {
+				add_stability = -0.10
+				unlock_decision_category_tooltip = NWA_liberalist_civil_war
+				custom_effect_tooltip = NWA_change_system_path_tt
+				hidden_effect = {
+					country_event = { id = nightswatch.13 days = 3 }
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_expand_internal_support
+			icon = GFX_goal_generic_propaganda
+			relative_position_id = NWA_change_system
+			x = 0
+			y = 1
+			prerequisite = { focus = NWA_change_system }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+				add_political_power = 50
+				NWA_grenn = { add_unit_leader_trait = trait_NWA_wildling_sympathies }
+				NWA_eddison_tollett = { add_unit_leader_trait = trait_NWA_wildling_sympathies }
+				if = {
+					limit = { NWA_jon_snow = { is_unit_leader = yes } }
+					NWA_jon_snow = { add_unit_leader_trait = trait_NWA_wildling_sympathies }
+				}
+				add_timed_idea = { days = 180 idea = communist_influence }
+				custom_effect_tooltip = NWA_unlock_civil_war_decisions_tt
+				hidden_effect = {
+					ROOT = { country_event = { days = 3 id = nightswatch.13 } }
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_befriend_wildlings
+			icon = GFX_goal_generic_improve_relations
+			relative_position_id = NWA_change_system
+			x = -2
+			y = 2
+			prerequisite = { focus = NWA_expand_internal_support }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+				NOT = { WIL = { exists = yes } }
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+				remove_opinion_modifier = {
+					target = WIL
+					modifier = historical_enemies
+				}
+				if = {
+					limit = { NOT = { has_country_flag = NWA_liberalist_civil_war_over } }
+					custom_effect_tooltip = NWA_befriend_WIL_tt
+				}
+				hidden_effect = {
+					WIL = { country_event = nightswatch.14 }
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_contact_brotherhood
+			icon = GFX_focus_generic_manpower
+			relative_position_id = NWA_change_system
+			x = 1
+			y = 2
+			prerequisite = { focus = NWA_expand_internal_support }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+				custom_effect_tooltip = NWA_brotherhood_tt
+				if = {
+					limit = { country_exists = BWB }
+					BWB = { country_event = brotherhood.1 }	#TODO once BWB has chance to exist
+				}
+				else = {
+					set_country_flag = NWA_brotherhood_invited
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_kill_lord_commander
+			icon = GFX_focus_hun_assassinate_horthy
+			relative_position_id = NWA_change_system
+			x = 0
+			y = 3
+			prerequisite = { focus = NWA_expand_internal_support }
+			mutually_exclusive = {  }
+			cost = 5
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+				communism > 0.3
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+				hidden_effect = {
+					if = {
+						limit = { has_country_flag = WIL_accepted_friendship }
+						WIL = { add_ideas = WIL_volunteers_in_nights_watch }
+					}
+					news_event = { days = 3 id = news.505 }
+					set_politics = {
+						ruling_party = communism
+					}
+					country_event = nightswatch.22
+					hidden_effect = { country_event = { id = nightswatch.19 days = 3} }
+					start_civil_war = {
+						ruling_party = communism
+						ideology = neutrality
+						size = 0.1
+						keep_unit_leaders_trigger = {
+								has_trait = trait_NWA_wildling_sympathies
+						}
+					}
+
+					if = {
+						limit = { original_tag = NWA has_government = communism has_idea = NWA_military_order_1 }
+						swap_ideas = {
+							remove_idea = NWA_military_order_1
+							add_idea = volunteer_only
+						}
+					}
+					if = {
+						limit = { original_tag = NWA has_government = communism has_idea = NWA_military_order_2 }
+						swap_ideas = {
+							remove_idea = NWA_military_order_2
+							add_idea = volunteer_only
+						}
+					}
+					if = {
+						limit = { original_tag = NWA has_government = communism has_idea = NWA_military_order_3 }
+						swap_ideas = {
+							remove_idea = NWA_military_order_3
+							add_idea = volunteer_only
+						}
+					}
+					if = {
+						limit = { original_tag = NWA has_government = communism has_idea = NWA_military_order_1_con }
+						swap_ideas = {
+							remove_idea = NWA_military_order_1_con
+							add_idea = volunteer_only
+						}
+					}
+					if = {
+						limit = { original_tag = NWA has_government = communism has_idea = NWA_military_order_2_con }
+						swap_ideas = {
+							remove_idea = NWA_military_order_2_con
+							add_idea = volunteer_only
+						}
+					}
+					if = {
+						limit = { original_tag = NWA has_government = communism has_idea = NWA_military_order_3_con }
+						swap_ideas = {
+							remove_idea = NWA_military_order_3_con
+							add_idea = volunteer_only
+						}
+					}
+				}
+				custom_effect_tooltip = NWA_civil_war_tt
+				if = {
+					limit = { has_country_flag = NWA_brotherhood_invited }
+					ROOT = { country_event = { id = nightswatch.19 days = 3 } }
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_consolidate_power
+			icon = GFX_focus_generic_self_management
+			relative_position_id = NWA_change_system
+			x = 0
+			y = 4
+			prerequisite = { focus = NWA_kill_lord_commander }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+				has_government  = communism
+				has_civil_war = no
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+				add_timed_idea = {
+					idea = NWA_consolidate_power_idea
+					days = 365
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_reform_army
+			icon = GFX_focus_SOV_builder_of_the_red_army
+			relative_position_id = NWA_change_system
+			x = 2
+			y = 5
+			prerequisite = { focus = NWA_consolidate_power }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+				set_division_template_lock = {
+					division_template = "Wall Garrison"
+					is_locked = no
+				}
+				clear_division_template_cap = {
+					division_template = "Wall Garrison"
+				}
+				division_template = {
+			    name = "Defenders Of The People"
+			    division_names_group = USA_INF_01
+			    priority = 1
+			    template_counter = 0
+			    regiments = {
+			        militia = { x = 0 y = 0 }
+			        militia = { x = 0 y = 1 }
+			        militia = { x = 0 y = 2 }
+			    }
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_open_gate_policy
+			icon = GFX_focus_generic_concessions
+			relative_position_id = NWA_change_system
+			x = 0
+			y = 5
+			prerequisite = { focus = NWA_consolidate_power }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_MANPOWER }
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = crows
+					add_idea = NWA_open_gates
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_northern_union
+			icon = GFX_goal_anschluss
+			relative_position_id = NWA_change_system
+			x = -1
+			y = 6
+			prerequisite = { focus = NWA_open_gate_policy }
+			prerequisite = { focus = NWA_befriend_wildlings }
+			mutually_exclusive = { focus = NWA_annex_WIL }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_annex_WIL
+			icon = GFX_goal_anschluss
+			relative_position_id = NWA_change_system
+			x = -3
+			y = 6
+			prerequisite = { focus = NWA_befriend_wildlings }
+			mutually_exclusive = { focus = NWA_northern_union }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_invite_brotherhood
+			icon = GFX_goal_generic_military_deal
+			relative_position_id = NWA_change_system
+			x = 1
+			y = 6
+			prerequisite = { focus = NWA_open_gate_policy }
+			prerequisite = { focus = NWA_contact_brotherhood }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+				if = {
+					limit = { country_exists = BWB }
+					BWB = { country_event = brotherhood.2 } #TODO once BWB has chance to exist
+					custom_effect_tooltip = NWA_brotherhood_invite_effects_tt
+					effect_tooltip = {
+						army_experience = 10
+						add_field_marshal_role = {
+							character = NWA_beric_dondarrion
+							traits = { infantry_leader }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 2
+							planning_skill = 3
+							logistics_skill = 1
+						}
+						add_corps_commander_role = {
+							character = NWA_thoros
+							traits = { }
+							skill = 2
+							attack_skill = 1
+							defense_skill = 1
+							planning_skill = 2
+							logistics_skill = 2
+						}
+						19 = {
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+							}
+							add_extra_state_shared_building_slots = 1
+						}
+					}
+				}
+				else = {
+					army_experience = 10
+					add_field_marshal_role = {
+						character = NWA_beric_dondarrion
+						traits = { infantry_leader }
+						skill = 3
+						attack_skill = 3
+						defense_skill = 2
+						planning_skill = 3
+						logistics_skill = 1
+					}
+					add_corps_commander_role = {
+						character = NWA_thoros
+						traits = { }
+						skill = 2
+						attack_skill = 1
+						defense_skill = 1
+						planning_skill = 2
+						logistics_skill = 2
+					}
+					19 = {
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						add_extra_state_shared_building_slots = 1
+					}
+				}
+			}
+		}
+
+		focus = {
+			id = NWA_stir_liberist_sentiment
+			icon = GFX_goal_generic_demand_territory
+			relative_position_id = NWA_change_system
+			x = 0
+			y = 7
+			prerequisite = { focus = NWA_invite_brotherhood }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_prepare_for_war
+			icon = GFX_goal_generic_occupy_states_ongoing_war
+			relative_position_id = NWA_change_system
+			x = 2
+			y = 7
+			prerequisite = { focus = NWA_invite_brotherhood }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_expand_revolution
+			icon = GFX_goal_generic_territory_or_war
+			relative_position_id = NWA_change_system
+			x = 1
+			y = 8
+			prerequisite = { focus = NWA_stir_liberist_sentiment }
+			prerequisite = { focus = NWA_prepare_for_war }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 0
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = { FOCUS_FILTER_ANNEXATION }
+			completion_reward = {
+			}
+		}
+
+		#Oath section
+		focus = {
+			id = NWA_renew_oath
+			icon = GFX_focus_generic_military_mission
+			relative_position_id = NWA_begin_great_ranging
+			x = 0
+			y = 8
+			prerequisite = { focus = NWA_elect_new_lord_commander focus = NWA_change_system }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_sword
+			icon = GFX_focus_generic_strike_at_democracy1
+			relative_position_id = NWA_renew_oath
+			x = -1
+			y = 1
+			prerequisite = { focus = NWA_renew_oath }
+			mutually_exclusive = { focus = NWA_shield }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_shield
+			icon = GFX_goal_generic_defence
+			relative_position_id = NWA_renew_oath
+			x = 1
+			y = 1
+			prerequisite = { focus = NWA_renew_oath }
+			mutually_exclusive = { focus = NWA_sword }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+		focus = {
+			id = NWA_lift_celibacy
+			icon = GFX_focus_smiling_buddha
+			relative_position_id = NWA_renew_oath
+			x = 0
+			y = 2
+			prerequisite = { focus = NWA_sword focus = NWA_shield }
+			mutually_exclusive = {  }
+			cost = 10
+				ai_will_do = {
+				factor = 1
+			}
+			available = {
+			}
+
+			bypass = {
+
+			}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+			search_filters = {  }
+			completion_reward = {
+			}
+		}
+
+###########################
+#### Military focuses #####
+###########################
+
+	focus = {
+		id = NWA_modernization_efforts
+		icon = GFX_nights_watch_army
+		x = 35
+		y = 0
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = {
+				has_country_leader = {
+					character = NWA_vacant_lord_commander
+					ruling_only = yes
+				}
+				has_country_flag = NWA_ranging_began
+			}
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = NWA_buy_new_weapons
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = NWA_modernization_efforts
+		x = -7
+		y = 1
+		prerequisite = { focus = NWA_modernization_efforts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			country_event = nightswatch.2
+		}
+	}
+
+	focus = {
+		id = NWA_limit_recruitment
+		icon = GFX_single_soldier
+		relative_position_id = NWA_buy_new_weapons
+		x = -1
+		y = 1
+		prerequisite = { focus = NWA_buy_new_weapons }
+		mutually_exclusive = { focus = NWA_expand_recruitment }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			if = {
+				limit = { has_idea = NWA_military_order_1 }
+				swap_ideas = {
+					remove_idea = NWA_military_order_1
+					add_idea = NWA_military_order_3
+				}
+			}
+			if = {
+				limit = { has_idea = NWA_military_order_1_con }
+				swap_ideas = {
+					remove_idea = NWA_military_order_1_con
+					add_idea = NWA_military_order_3_con
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_expand_recruitment
+		icon = GFX_many_soldiers
+		relative_position_id = NWA_buy_new_weapons
+		x = 1
+		y = 1
+		prerequisite = { focus = NWA_buy_new_weapons }
+		mutually_exclusive = { focus = NWA_limit_recruitment }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_stability = -0.05
+			if = {
+				limit = { has_idea = NWA_military_order_1 }
+				swap_ideas = {
+					remove_idea = NWA_military_order_1
+					add_idea = NWA_military_order_2
+				}
+			}
+			if = {
+				limit = { has_idea = NWA_military_order_1_con }
+				swap_ideas = {
+					remove_idea = NWA_military_order_1_con
+					add_idea = NWA_military_order_2_con
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_professional_army
+		icon = GFX_focus_chi_army_reform
+		relative_position_id = NWA_buy_new_weapons
+		x = -1
+		y = 2
+		prerequisite = { focus = NWA_limit_recruitment }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			army_experience = 5
+			remove_ideas = NWA_band_of_criminals
+		}
+	}
+
+	focus = {
+		id = NWA_for_what_we_fight
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = NWA_buy_new_weapons
+		x = 1
+		y = 2
+		prerequisite = { focus = NWA_expand_recruitment }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = NWA_recruitment_essos
+		icon = GFX_recruit_essos
+		relative_position_id = NWA_buy_new_weapons
+		x = 0
+		y = 3
+		prerequisite = { focus = NWA_expand_recruitment focus = NWA_limit_recruitment }
+		prerequisite = { focus = NWA_expand_eastwatch_port }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_equipment = {
+				convoy > 24
+			}
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = NWA_expand_eastwatch_port
+		icon = GFX_goal_generic_construct_naval_dockyard
+		relative_position_id = NWA_modernization_efforts
+		x = -5
+		y = 1
+		prerequisite = { focus = NWA_modernization_efforts }
+		mutually_exclusive = { focus = NWA_build_westwatch_port }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			25 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 684
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_build_westwatch_port
+		icon = GFX_goal_generic_construct_naval_dockyard
+		relative_position_id = NWA_modernization_efforts
+		x = -3
+		y = 1
+		prerequisite = { focus = NWA_modernization_efforts }
+		mutually_exclusive = { focus = NWA_expand_eastwatch_port }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			24 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 1534
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_coast_guard
+		icon = GFX_goal_generic_navy_cruiser
+		relative_position_id = NWA_modernization_efforts
+		x = -4
+		y = 2
+		prerequisite = { focus = NWA_expand_eastwatch_port focus = NWA_build_westwatch_port }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_purchase_ships
+		icon = GFX_focus_generic_destroyer
+		relative_position_id = NWA_modernization_efforts
+		x = -4
+		y = 3
+		prerequisite = { focus = NWA_coast_guard }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			unlock_decision_category_tooltip = NWA_buy_ships
+		}
+	}
+
+	focus = {
+		id = NWA_naval_training_school
+		icon = GFX_focus_generic_little_entente
+		relative_position_id = NWA_modernization_efforts
+		x = -4
+		y = 4
+		prerequisite = { focus = NWA_purchase_ships }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			navy_experience = 10
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_expand_airfield
+		icon = GFX_goal_generic_air_production
+		relative_position_id = NWA_modernization_efforts
+		x = -1
+		y = 1
+		prerequisite = { focus = NWA_modernization_efforts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			24 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_modernize_airfleet
+		icon = GFX_goal_generic_air_fighter
+		relative_position_id = NWA_expand_airfield
+		x = 0
+		y = 1
+		prerequisite = { focus = NWA_expand_airfield }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cas_bomber
+			}
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = cat_scout_plane
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_aeronautical_school
+		icon = GFX_goal_generic_build_airforce
+		relative_position_id = NWA_expand_airfield
+		x = 0
+		y = 2
+		prerequisite = { focus = NWA_modernize_airfleet }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			air_experience = 10
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_crows_rule_sky
+		icon = GFX_crows_rule_sky
+		relative_position_id = NWA_expand_airfield
+		x = 0
+		y = 3
+		prerequisite = { focus = NWA_aeronautical_school }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			add_ideas = NWA_crows_in_sky
+		}
+	}
+
+	focus = {
+		id = NWA_interconnect_bases
+		icon = GFX_goal_generic_radar
+		relative_position_id = NWA_modernization_efforts
+		x = 2
+		y = 1
+		prerequisite = { focus = NWA_modernization_efforts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = NWA_radio
+				bonus = 0.5
+				uses = 1
+				category = signal_company_tech
+			}
+			add_tech_bonus = {
+				name = NWA_radio
+				bonus = 0.5
+				uses = 2
+				category = radar_tech
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_form_mobile_force
+		icon = GFX_goal_generic_army_motorized
+		relative_position_id = NWA_interconnect_bases
+		x = -1
+		y = 1
+		prerequisite = { focus = NWA_interconnect_bases }
+		mutually_exclusive = { focus = NWA_strenghten_static_defenses }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_strenghten_static_defenses
+		icon = GFX_goal_generic_army_artillery
+		relative_position_id = NWA_interconnect_bases
+		x = 1
+		y = 1
+		prerequisite = { focus = NWA_interconnect_bases }
+		mutually_exclusive = { focus = NWA_form_mobile_force }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_study_wildlings_tactics
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = NWA_interconnect_bases
+		x = 0
+		y = 2
+		prerequisite = { focus = NWA_strenghten_static_defenses focus = NWA_form_mobile_force }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_inspect_orders
+		icon = GFX_nights_watch_order1
+		relative_position_id = NWA_modernization_efforts
+		x = 7
+		y = 1
+		prerequisite = { focus = NWA_modernization_efforts }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			NOT = {
+				has_country_leader = {
+					character = NWA_vacant_lord_commander
+					ruling_only = yes
+				}
+				has_country_flag = NWA_ranging_began
+			}
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			country_event = nightswatch.1
+		}
+	}
+
+	focus = {
+		id = NWA_modernize_rangers
+		icon = GFX_nights_watch_order
+		relative_position_id = NWA_inspect_orders
+		x = -2
+		y = 1
+		prerequisite = { focus = NWA_inspect_orders }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			if = {
+				limit = { has_idea = NWA_three_orders }
+				swap_ideas = {
+					add_idea = NWA_three_orders_1
+					remove_idea = NWA_three_orders
+				}
+			}
+			else_if = {
+				limit = { has_idea = NWA_three_orders_1 }
+				swap_ideas = {
+					add_idea = NWA_three_orders_2
+					remove_idea = NWA_three_orders_1
+				}
+			}
+			else = {
+				swap_ideas = {
+					add_idea = NWA_three_orders_3
+					remove_idea = NWA_three_orders_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_ranger_training_school
+		icon = GFX_focus_generic_manpower
+		relative_position_id = NWA_inspect_orders
+		x = -2
+		y = 2
+		prerequisite = { focus = NWA_modernize_rangers }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+			add_tech_bonus = {
+				name = ranger_bonus
+				bonus = 0.5
+				uses = 1
+				category = recon_tech
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_train_builders
+		icon = GFX_goal_generic_position_armies
+		relative_position_id = NWA_inspect_orders
+		x = 0
+		y = 1
+		prerequisite = { focus = NWA_inspect_orders }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			if = {
+				limit = { has_idea = NWA_three_orders }
+				swap_ideas = {
+					add_idea = NWA_three_orders_1
+					remove_idea = NWA_three_orders
+				}
+			}
+			else_if = {
+				limit = { has_idea = NWA_three_orders_1 }
+				swap_ideas = {
+					add_idea = NWA_three_orders_2
+					remove_idea = NWA_three_orders_1
+				}
+			}
+			else = {
+				swap_ideas = {
+					add_idea = NWA_three_orders_3
+					remove_idea = NWA_three_orders_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_develop_moles_town
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = NWA_inspect_orders
+		x = 0
+		y = 2
+		prerequisite = { focus = NWA_train_builders }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			19 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_develop_mining_industry
+		icon = GFX_focus_generic_steel
+		relative_position_id = NWA_inspect_orders
+		x = 0
+		y = 4
+		prerequisite = { focus = NWA_develop_moles_town }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			24 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_connection_to_kingsroad
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = NWA_inspect_orders
+		x = -1
+		y = 3
+		prerequisite = { focus = NWA_develop_moles_town }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {  }
+		completion_reward = {
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+				}
+				fallback = yes
+				path = { 4626 4619 2354 }
+				start_province = 4626
+				target_province = 2354
+			}
+			19 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_develop_gift
+		icon = GFX_goal_generic_construct_civilian
+		relative_position_id = NWA_inspect_orders
+		x = 1
+		y = 3
+		prerequisite = { focus = NWA_develop_moles_town }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			24 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_reform_stewards
+		icon = GFX_goal_generic_production2
+		relative_position_id = NWA_inspect_orders
+		x = 2
+		y = 1
+		prerequisite = { focus = NWA_inspect_orders }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			if = {
+				limit = { has_idea = NWA_three_orders }
+				swap_ideas = {
+					add_idea = NWA_three_orders_1
+					remove_idea = NWA_three_orders
+				}
+			}
+			else_if = {
+				limit = { has_idea = NWA_three_orders_1 }
+				swap_ideas = {
+					add_idea = NWA_three_orders_2
+					remove_idea = NWA_three_orders_1
+				}
+			}
+			else = {
+				swap_ideas = {
+					add_idea = NWA_three_orders_3
+					remove_idea = NWA_three_orders_2
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NWA_research_institute
+		icon = GFX_focus_research
+		relative_position_id = NWA_reform_stewards
+		x = 1
+		y = 1
+		prerequisite = { focus = NWA_reform_stewards }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			num_of_civilian_factories > 4
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = NWA_develop_new_weapons
+		icon = GFX_focus_generic_license_production
+		relative_position_id = NWA_reform_stewards
+		x = 1
+		y = 2
+		prerequisite = { focus = NWA_research_institute }
+		mutually_exclusive = {  }
+		cost = 10
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+		    bonus = 0.5
+		    uses = 1
+		    category = artillery
+			}
+			add_tech_bonus = {
+		    bonus = 0.5
+		    uses = 2
+		    category = infantry_weapons
+			}
+		}
+	}
+
+}

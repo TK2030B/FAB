@@ -1,0 +1,23 @@
+
+state={
+	id=265
+	name="STATE_265"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NOR
+
+	}
+
+	provinces={
+		800 1023 1048 1169 1196 1279 1582 1863 1876 1992 2097 2432 2438 2445 2868 
+	}
+	manpower=560430
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

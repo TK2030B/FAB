@@ -1,0 +1,27 @@
+
+state={
+	id=98
+	name="STATE_98"
+	state_category = town
+
+	resources={
+		steel=8
+	}
+
+	history={
+		owner = WES
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = WES
+
+	}
+
+	provinces={
+		22 122 333 376 392 415 527 724 799 867 948 1147 1380 1428 1808 2321 2533 2548 2550 2552 2570 2597
+	}
+	manpower=9299400
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

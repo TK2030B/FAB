@@ -1,0 +1,817 @@
+characters={
+
+	NWA_eddison_tollett={
+		name=NWA_eddison_tollett
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Edd.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_General_Edd.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	NWA_jon_snow={
+		name=NWA_jon_snow
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	NWA_alliser_thorne={
+		name=NWA_alliser_thorne
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Alliser_Thorne.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Alliser_Thorne.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NWA_alliser_thorne
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	NWA_janos_slynt={
+		name=NWA_janos_slynt
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Janos_Slynt.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Janos_Slynt.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+	NWA_qhorin_halfhand={
+		name=NWA_qhorin_halfhand
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_qhorin_halfhand.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_qhorin_halfhand.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		corps_commander={
+			traits = { media_personality ranger }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	NWA_vacant_lord_commander={
+		name=NWA_vacant_lord_commander
+		portraits={
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_No_Lord_Commander.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	NWA_Samwell_Tarly={
+		name=NWA_Samwell_Tarly
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Samwell_Tarly.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Samwell_Tarly.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	NWA_jeor_mormont={
+		name=NWA_jeor_mormont
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = NWA_jeor_mormont
+			ledger = army
+			allowed = {
+				original_tag = NWA
+			}
+			research_bonus = {
+				cat_grand_battle_plan = 0.15
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+
+	NWA_denys_mallister={
+		name=NWA_denys_mallister
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Denys_Mallister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NWA_denys_mallister
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits = { offensive_doctrine }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	NWA_grenn={
+		name=NWA_grenn
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Grenn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	NWA_jarman_buckwell={
+		name=NWA_jarman_buckwell
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Jarman_Buckwell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	NWA_benjen_stark={
+		name=NWA_benjen_stark
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Benjen_Stark.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { ranger }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor={
+			slot = high_command
+			idea_token = NWA_benjen_stark
+			ledger = army
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				army_commando_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	NWA_stonesnake={
+		name=NWA_stonesnake
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Stonesnake.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { trait_mountaineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	NWA_gared={
+		name=NWA_gared
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Gared.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	NWA_old_tattersalt={
+		name=NWA_old_tattersalt
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Old_Tattersalt.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		navy_leader={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor={
+			slot = high_command
+			idea_token = NWA_old_tattersalt
+			ledger = navy
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	NWA_russ_barleycorn={
+		name=NWA_russ_barleycorn
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_General_Russ_Barleycorn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		navy_leader={
+			traits = { spotter }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+		advisor={
+			slot = high_command
+			idea_token = NWA_russ_barleycorn
+			ledger = navy
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				navy_chief_naval_aviation_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+##################
+#### Advisors ####
+##################
+
+	NWA_bowen_marsh={
+		name=NWA_bowen_marsh
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_bowen_marsh
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				financial_expert
+			}
+		}
+	}
+
+	NWA_ebben={
+		name=NWA_ebben
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_ebben
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				baron_of_terror
+			}
+		}
+	}
+
+	NWA_othell_yarwyck={
+		name=NWA_othell_yarwyck
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_othell_yarwyck
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+
+	NWA_donal_noye={
+		name=NWA_donal_noye
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_donal_noye
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+
+	NWA_donnel_hill={
+		name=NWA_donnel_hill
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_donnel_hill
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				political_dancer
+			}
+		}
+	}
+
+	NWA_cellador={
+		name=NWA_cellador
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_cellador
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				septon
+			}
+		}
+	}
+
+	NWA_kegs={
+		name=NWA_kegs
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_kegs
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				fortification_engineer
+			}
+		}
+	}
+
+	NWA_owen={
+		name=NWA_owen
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_owen
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				economist
+			}
+		}
+	}
+
+	NWA_karl_tanner={
+		name=NWA_karl_tanner
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_karl_tanner
+			allowed = {
+				original_tag = NWA
+			}
+			available={ NWA = { has_completed_focus = NWA_elect_rast } }
+			traits = {
+				fascist_demagogue
+			}
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+		}
+	}
+
+	NWA_tormund_giantsbane={
+		name=NWA_tormund_giantsbane
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = NWA_tormund_giantsbane
+			ledger = army
+			allowed = {
+				original_tag = NWA
+			}
+			research_bonus = {
+				cat_mass_assault = 0.15
+			}
+			traits = {
+				mass_assault_expert
+			}
+		}
+		corps_commander={
+			traits={ defensive_doctrine }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	NWA_notch_avery={
+		name=BWB_notch_avery	#Surname 'Avery' is fictious https://awoiaf.westeros.org/index.php/Notch
+		portraits={
+			army = {
+				large="gfx/leaders/BWB/Portrait_Notch_Avery.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	NWA_beric_dondarrion={
+		name=BWB_beric_dondarrion
+		portraits={
+			army = {
+				large="gfx/leaders/BWB/Portrait_Beric_Dondarrion.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BWB/Portrait_Beric_Dondarrion.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	NWA_thoros={
+		name=BWB_thoros
+		portraits={
+			army = {
+				large="gfx/leaders/BWB/Portrait_Thoros.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	NWA_endrew_tarth={
+		name=NWA_endrew_tarth
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NWA_endrew_tarth
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	NWA_leathers={
+		name=NWA_leathers
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = NWA_leathers
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	#### Navy Chiefs
+
+	NWA_cotter_pyke={
+		name=NWA_cotter_pyke
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = NWA_cotter_pyke
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				navy_fleet_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	NWA_glendon_hewett={
+		name=NWA_glendon_hewett
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = NWA_glendon_hewett
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				navy_chief_commerce_raiding_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+#### Air Chief
+
+	NWA_clydas={
+		name=NWA_clydas
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = NWA_clydas
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				air_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	#### High Command
+
+	NWA_emmett={
+		name=NWA_emmett
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = NWA_emmett
+			ledger = army
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	NWA_spare_boot={
+		name=NWA_spare_boot
+		portraits={
+			army = {
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = NWA_spare_boot
+			ledger = army
+			allowed = {
+				original_tag = NWA
+			}
+			traits = {
+				army_artillery_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+}

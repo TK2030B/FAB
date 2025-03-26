@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Volantis City Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Volantis City Guard"
+		location = 2076
+		division_template = "Volantis City Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

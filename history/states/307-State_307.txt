@@ -1,0 +1,26 @@
+
+state={
+	id=307
+	name="STATE_307"
+
+	history={
+		owner = YTI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = YTI
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		20 57 65 129 178 209 213 221 229 305 379 389 396 453 454 498 506 514 535 577 591 677 710 717 771 777 838 893 919 968 991 1076 1094 1188 1217 1232 1248 1312 1357 1473 1496 1601 1625 1649 1852 1918 1951 2093 2156 2239 2750 2774 2794 2809 2836 2889 2894 2902 2966 2975 4591 4592 4593 4604 4610 4611
+	}
+	manpower=118695000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

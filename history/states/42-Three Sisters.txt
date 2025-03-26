@@ -1,0 +1,27 @@
+
+state={
+	id=42
+	name="STATE_42"
+	state_category = rural
+
+	history={
+		owner = VAL
+		buildings = {
+			infrastructure = 1
+			3226 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VAL
+		victory_points = {
+			3226 1 
+		}
+	}
+
+	provinces={
+		3226 3229 3230
+	}
+	manpower=6763200
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

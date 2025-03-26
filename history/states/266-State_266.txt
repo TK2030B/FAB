@@ -1,0 +1,15 @@
+state={
+	id=266
+	name="STATE_266"
+	history={
+		owner = UNL
+		add_core_of = UNL
+	}
+	provinces={
+		38 139 173 475 502 549 655 729 744 848 1200 1274 1713 1817 1846 2088 2440 2481 2482 2488 2500 2519
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

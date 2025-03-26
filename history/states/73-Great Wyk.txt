@@ -1,0 +1,35 @@
+state={
+	id=73
+	name="STATE_73"
+	state_category = town
+
+	history={
+		owner = IRO
+		buildings = {
+			infrastructure = 2
+			dockyard = 3
+			air_base = 1
+			1440 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = IRO
+		victory_points = { 2492 1 }
+		victory_points = { 1440 2 }
+		victory_points = { 3214 3 }
+		victory_points = { 1814 1 }
+		victory_points = { 3356 3 }
+	}
+
+	resources={
+		steel = 75
+		chromium = 35
+	}
+
+	provinces={
+		1440 1814 2299 2492 3214 3356
+	}
+	manpower=2028960
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

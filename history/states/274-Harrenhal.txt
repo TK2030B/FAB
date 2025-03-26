@@ -1,0 +1,26 @@
+
+state={
+	id=274
+	name="STATE_274"
+	state_category = large_town
+
+	history={
+		owner = RIV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		add_core_of = RIV
+		victory_points = {
+			1676 15
+		}
+	}
+
+	provinces={
+		298 442 520 667 879 1032 1139 1425 1490 1538 1606 1676 1698 1810 1848 1870 1906 1915 1945 1974 1982 2104 2130 2242 2313 2545 2556 2557 2563 2564 2568 2571 2578 2589 2590 2598 2602 2604 2606 3276 4599
+	}
+	manpower=18598800
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_black_line"
+		texturefile = "gfx/interface/nwa_gui/black_line.dds"
+	}
+	spriteType = {
+		name = "GFX_nwa_grey_button"
+		texturefile = "gfx/interface/nwa_gui/nwa_grey_button.dds"
+	}
+	spriteType = {
+		name = "GFX_nwa_green_button"
+		texturefile = "gfx/interface/nwa_gui/nwa_green_button.dds"
+	}
+	spriteType = {
+		name = "GFX_red_button"
+		texturefile = "gfx/interface/nwa_gui/red_button.dds"
+	}
+	spriteType = {
+		name = "GFX_yellow_button"
+		texturefile = "gfx/interface/nwa_gui/yellow_button.dds"
+	}
+	spriteType = {
+		name = "GFX_white_line_short"
+		texturefile = "gfx/interface/nwa_gui/white_line_short.dds"
+	}
+	spriteType = {
+		name = "GFX_white_line_long"
+		texturefile = "gfx/interface/nwa_gui/white_line_long.dds"
+	}
+}

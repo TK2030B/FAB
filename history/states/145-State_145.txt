@@ -1,0 +1,15 @@
+state={
+	id=145
+	name="STATE_145"
+	history={
+		owner = VOL
+		add_core_of = VOL
+	}
+	provinces={
+		3299
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=293
+	name="STATE_293"
+
+	history={
+		owner = MYR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = MYR
+
+	}
+
+	provinces={
+		1447 1894 1995 2201 2708 2711 2730
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

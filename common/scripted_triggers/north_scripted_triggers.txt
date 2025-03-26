@@ -1,0 +1,78 @@
+
+# is_diplomatic_action_valid_TOKEN can be used for diplo action validity checks. if not valid it won't appear
+# scope is target country
+# from is action initatior country
+
+# in some cases this trigger is checked for only initatior country, in that case both from & this is same
+
+is_real_north = {
+	OR = {
+		original_tag = WIL
+		original_tag = FF1
+		original_tag = FF2
+		original_tag = FF3
+		original_tag = FF4
+		original_tag = FF5
+		original_tag = FF6
+	}
+}
+
+is_north = {
+	OR = {
+		original_tag = NOR
+		original_tag = NWA
+		original_tag = BOL
+	}
+}
+
+north_has_unified = {
+	has_completed_focus = WIL_invite_frozen_shore
+	has_completed_focus = WIL_invite_ice_river
+	has_completed_focus = WIL_invite_cave_people
+	has_completed_focus = WIL_invite_nightrunners
+	has_completed_focus = WIL_invite_hornfoot
+	has_completed_focus = WIL_invite_thenns
+}
+
+high_wildling_unity = {
+	check_variable = {
+		var = tribe_unity
+		value = 80
+		compare = greater_than_or_equals
+	}
+}
+
+elected_new_lord_commander = {
+	NWA = {
+		OR = {
+			has_completed_focus = NWA_elect_snow
+			has_completed_focus = NWA_elect_thorne
+			has_completed_focus = NWA_elect_rast
+			has_completed_focus = NWA_change_system
+		}
+	}
+}
+
+all_castles_rebuild = {
+	NWA = {
+		has_country_flag = NWA_westwatch_rebuild
+		has_country_flag = NWA_shadow_tower_rebuild
+		has_country_flag = NWA_sentinel_stand_rebuild
+		has_country_flag = NWA_greyguard_rebuild
+		has_country_flag = NWA_stonedoor_rebuild
+		has_country_flag = NWA_hoarfrost_hill_rebuild
+		has_country_flag = NWA_icemark_rebuild
+		has_country_flag = NWA_nightfort_rebuild
+		has_country_flag = NWA_deep_lake_rebuild
+		has_country_flag = NWA_queensgate_rebuild
+		has_country_flag = NWA_castle_black_rebuild
+		has_country_flag = NWA_oakenshield_rebuild
+		has_country_flag = NWA_woodswatch_rebuild
+		has_country_flag = NWA_sable_hall_rebuild
+		has_country_flag = NWA_rimegate_rebuild
+		has_country_flag = NWA_long_barrow_rebuild
+		has_country_flag = NWA_torches_rebuild
+		has_country_flag = NWA_greenguard_rebuild
+		has_country_flag = NWA_eastwatch_rebuild
+	}
+}

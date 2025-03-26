@@ -1,0 +1,25 @@
+state={
+	id=12
+	name="STATE_12"
+
+	history={
+		owner = WIL
+		victory_points = {
+			2343 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = WIL
+
+	}
+
+	provinces={
+		30 461 612 1395 1417 1600 2337 2338 2341 2343 2346 3210
+	}
+	manpower=240939
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

@@ -1,0 +1,6 @@
+air_wings = {
+	### Wall Patrol Force
+	19 = {
+		medium_plane_scout_plane_airframe_1 =  { owner = "NWA" 	amount = 3 creator = "NOR" version_name = "Shadowcrow" }
+	}
+}

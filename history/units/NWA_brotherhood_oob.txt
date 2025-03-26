@@ -1,0 +1,20 @@
+﻿division_template = {
+	name = "Brotherhood Volunteers"
+	is_locked = yes
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Brotherhod Volunteers"
+		location = 4627 #Eastwatch
+		division_template = "Brotherhood Volunteers"
+		start_equipment_factor = 1
+	}
+}

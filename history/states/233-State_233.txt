@@ -1,0 +1,15 @@
+state={
+	id=233
+	name="STATE_233"
+	history={
+		owner = LEN
+		add_core_of = LEN
+	}
+	provinces={
+		3364
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

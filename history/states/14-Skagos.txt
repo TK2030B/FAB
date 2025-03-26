@@ -1,0 +1,29 @@
+
+state={
+	id=14
+	name="STATE_14"
+	state_category = pastoral
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			1238 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		1238 2169 2340 2345 3211 4681 4682 4683 4684 4685
+	}
+	manpower=435890
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

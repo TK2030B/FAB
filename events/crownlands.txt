@@ -1,0 +1,443 @@
+﻿###########################
+# Crownlands Events
+###########################
+
+add_namespace = crownlands
+
+####################
+#### Event ID's ####
+####################
+### 1 - Robert Baratheon Dies
+
+# Robert Baratheon Dies
+country_event = {
+	id = crownlands.1
+	title = crownlands.1.t
+	desc = crownlands.1.d
+	picture = GFX_report_event_europe_funeral
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 20
+	}
+
+	immediate = {
+		set_country_flag = CRO_king_robert_died
+		unlock_national_focus = CRO_robert_died
+	}
+
+	option = {
+		name = crownlands.1.a
+		add_stability = -0.1
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = CRO_joffrey_baratheon
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = { incompetent_leader }
+			}
+			promote_leader = yes
+		}
+		add_field_marshal_role = {
+			character = CRO_joffrey_baratheon
+			traits = { trait_reckless }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		add_advisor_role = {
+			character = CRO_cersei_lannister
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_cersei_lannister
+				can_be_fired = no
+				traits = {
+					queen_regent
+				}
+			}
+		}
+		WES = {
+			add_opinion_modifier = {
+				modifier = accepted_regency
+				target = ROOT
+			}
+		}
+		NOR = {
+			add_opinion_modifier = {
+				modifier = declined_regency
+				target = ROOT
+			}
+		}
+		hidden_effect = {
+			news_event = { id = news.504 days = 1 }
+		}
+		country_event = { id = crownlands.2 days = 1 }	#Deal with the Starks
+	}
+	option = {	#TODO - for a latter date
+		name = crownlands.1.b
+		add_stability = -0.1
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = NOR_ned_stark
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = { incompetent_leader }
+			}
+			promote_leader = yes
+		}
+		add_field_marshal_role = {
+			character = NOR_ned_stark
+			traits = { trait_reckless }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		NOR = {
+			add_opinion_modifier = {
+				modifier = accepted_regency
+				target = ROOT
+			}
+		}
+		WES = {
+			add_opinion_modifier = {
+				modifier = declined_regency
+				target = ROOT
+			}
+		}
+		hidden_effect = {
+			news_event = { id = news.504 days = 1 }
+		}
+		country_event = { id = crownlands.3 days = 1 }	#Deal with the Lannister
+	}
+}
+
+# Deal With Starks
+country_event = {
+	id = crownlands.2
+	title = crownlands.2.t
+	desc = crownlands.2.d
+	picture = GFX_report_event_german_volunteers
+
+	is_triggered_only = yes
+
+	option = {
+		name = crownlands.2.a	#imprison
+		custom_effect_tooltip = lead_to_war_tt
+	}
+	option = {
+		name = crownlands.2.b	#exile
+	}
+	option = {
+		name = crownlands.2.c	#leave them be
+	}
+}
+
+# Deal With Lannister
+country_event = {
+	id = crownlands.3
+	title = crownlands.3.t
+	desc = crownlands.3.d
+	picture = GFX_report_event_german_volunteers
+
+	is_triggered_only = yes
+
+	option = {
+		name = crownlands.3.a	#imprison
+		custom_effect_tooltip = lead_to_war_tt
+	}
+	option = {
+		name = crownlands.3.b	#exile
+	}
+	option = {
+		name = crownlands.3.c	#leave them be
+	}
+}
+
+# Hand of King is dead
+country_event = {
+	id = crownlands.4
+	title = crownlands.4.t
+	desc = crownlands.4.d
+	picture = GFX_report_event_generic_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = crownlands.4.a
+		add_political_power = -50
+		CRO_jon_arryn = {
+			retire = yes
+		}
+		add_advisor_role = {
+			character = CRO_ned_stark
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_ned_stark
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+		effect_tooltip = {
+			NOR = {
+				add_trait = {
+					character = NOR_ned_stark
+					ideology = despotism
+					trait = hand_of_the_king
+				}
+			}
+		}
+		hidden_effect = {
+			NOR = {
+				country_event = crownlands.5
+			}
+			set_global_flag = CRO_hand_is_NOR
+		}
+	}
+	option = {
+		name = crownlands.4.b
+		add_political_power = -50
+		CRO_jon_arryn = {
+			retire = yes
+		}
+		add_advisor_role = {
+			character = CRO_tywin_lannister
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_tywin_lannister
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+		effect_tooltip = {
+			WES = {
+				add_trait = {
+					character = WES_tywin_lannister
+					ideology = despotism
+					trait = hand_of_the_king
+				}
+			}
+		}
+		hidden_effect = {
+			WES = {
+				country_event = crownlands.5
+			}
+			set_global_flag = CRO_hand_is_WES
+		}
+	}
+	option = {
+		name = crownlands.4.c
+		add_political_power = -50
+		CRO_jon_arryn = {
+			retire = yes
+		}
+		add_advisor_role = {
+			character = CRO_renly_baratheon
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_renly_baratheon
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+		effect_tooltip = {
+			WES = {
+				add_trait = {
+					character = STO_renly_baratheon
+					ideology = despotism
+					trait = hand_of_the_king
+				}
+			}
+		}
+		hidden_effect = {
+			STO = {
+				country_event = crownlands.5
+			}
+			set_global_flag = CRO_hand_is_STO
+		}
+	}
+}
+
+# New Hand Appointed
+country_event = {
+	id = crownlands.5
+	title = crownlands.5.t
+	desc = crownlands.5.d
+	picture = GFX_report_event_NOR_royal_family_exiled
+
+	is_triggered_only = yes
+
+	option = {
+		name = crownlands.5.a
+		if = {
+			limit = { tag = NOR }
+			NOR_ned_stark = {
+				add_trait = {
+					ideology = despotism
+					trait = hand_of_the_king
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = WES }
+			WES_tywin_lannister = {
+				add_trait = {
+					ideology = despotism
+					trait = hand_of_the_king
+				}
+			}
+		}
+		else_if = {
+			limit = { tag = STO }
+			STO_renly_baratheon = {
+				add_trait = {
+					ideology = despotism
+					trait = hand_of_the_king
+				}
+			}
+		}
+		else = {
+			custom_effect_tooltip = report_bug_tt
+		}
+		hidden_effect = {
+				news_event = { id = news.511 days = 7 }
+		}
+	}
+}
+
+# Random lavish event for King Robert
+country_event = {
+	id = crownlands.6
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = crownlands.6.a
+		random_list = {
+			10 = {
+				country_event = crownlands.7
+			}
+			10 = {
+				country_event = crownlands.8
+			}
+			5 = {
+				country_event = crownlands.9
+			}
+		}
+	}
+}
+
+# Random Hunting Event
+country_event = {
+	id = crownlands.7
+	title = crownlands.7.t
+	desc = crownlands.7.d
+	picture = GFX_report_event_royal_visit
+
+	trigger = {
+		tag = CRO
+		date > 1936.1.7
+		has_country_leader = {
+			character = CRO_robert_baratheon
+			ruling_only = yes
+		}
+		NOT = { has_country_flag = CRO_first_fire_hunting }
+	}
+
+	immediate = {
+		hidden_effect = {
+			add_timed_idea = { idea = CRO_king_hunting_id days = 30 }
+			activate_mission = CRO_king_hunting
+		}
+	}
+
+	option = {
+		name = crownlands.7.a
+		effect_tooltip = {
+			activate_mission = CRO_king_hunting
+			add_timed_idea = { idea = CRO_king_hunting_id days = 30 }
+		}
+		hidden_effect = {
+			set_country_flag = CRO_first_fire_hunting
+			country_event = { id = crownlands.6 days = 60 }
+		}
+		custom_effect_tooltip = CRO_king_hunting_tt
+	}
+}
+
+# King holds lavish party
+country_event = {
+	id = crownlands.8
+	title = crownlands.8.t
+	desc = crownlands.8.d
+	picture = GFX_report_event_royal_visit
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_timed_idea = { idea = CRO_festival_id days = 30 }
+			activate_mission = CRO_king_festival
+		}
+	}
+
+	option = {
+		name = crownlands.8.a
+		effect_tooltip = {
+			activate_mission = CRO_king_hunting
+			add_timed_idea = { idea = CRO_festival_id days = 30 }
+		}
+		hidden_effect = {
+			country_event = { id = crownlands.6 days = 60 }
+		}
+	}
+}
+
+# King tours the seven kingdoms
+country_event = {
+	id = crownlands.9
+	title = crownlands.9.t
+	desc = crownlands.9.d
+	picture = GFX_report_event_royal_visit
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_timed_idea = { idea = CRO_king_hunting_id days = 30 }
+			activate_mission = CRO_king_tour
+		}
+	}
+
+	option = {
+		name = crownlands.9.a
+		effect_tooltip = {
+			activate_mission = CRO_king_tour
+			add_timed_idea = { idea = CRO_festival_id days = 30 }
+		}
+		custom_effect_tooltip = CRO_king_hunting_tt
+		hidden_effect = {
+			country_event = { id = crownlands.6 days = 60 }
+		}
+	}
+}

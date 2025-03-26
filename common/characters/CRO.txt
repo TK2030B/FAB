@@ -1,0 +1,377 @@
+characters={
+
+	CRO_robert_baratheon={
+		name=CRO_robert_baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Robert_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Robert_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			traits = { lavish_lifestyle }
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { inflexible_strategist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+	CRO_joffrey_baratheon={
+		name=CRO_joffrey_baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	CRO_empty_throne={
+		name=CRO_empty_throne
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_empty_throne.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_empty_throne.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
+	CRO_jason_slynt={
+		name=CRO_jason_slynt
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Jason_Slynt.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	CRO_barristan_selmy={
+		name=CRO_barristan_selmy
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Barristan_Selmy.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits = { old_guard }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	CRO_jacelyn_bywater={
+		name=CRO_jacelyn_bywater
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Jacelyn_Bywater.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		corps_commander={
+			traits = { inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	CRO_osfryd_kettleblack={
+		name=CRO_osfryd_kettleblack
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Osfryd_Kettleblack.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	CRO_jaime_lannister={
+		name=CRO_jaime_lannister
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Jaime_Lannister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+		CRO_boros_blount={
+		name=CRO_boros_blount
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Boros_Blount.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	CRO_meryn_trant={
+		name=CRO_meryn_trant
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Meryn_Trant.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	CRO_mandon_moore={
+		name=CRO_mandon_moore
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Mandon_Moore.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	CRO_preston_greenfield={
+		name=CRO_preston_greenfield
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Preston_Greenfield.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	CRO_balon_swann={
+		name=CRO_balon_swann
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Balon_Swann.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { panzer_leader } # He was known to be a skilled knight and jouster
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+
+	CRO_cersei_lannister={
+		name=CRO_cersei_lannister
+		portraits={
+			army = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Cersei_Lannister.dds"
+				small="gfx/interface/ideas/idea_CRO_cersei_lannister.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CRO_cersei_lannister
+			can_be_fired = no
+			traits = {
+				cersei_queen_1
+			}
+		}
+	}
+
+	CRO_lord_varys={
+		name=CRO_lord_varys
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+	}
+
+### Hand of King
+
+	CRO_jon_arryn={
+		name=CRO_jon_arryn
+		portraits={
+			army = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CRO_jon_arryn
+			can_be_fired = no
+			traits = {
+				hand_of_the_king
+			}
+		}
+	}
+
+	CRO_ned_stark={
+		name=CRO_ned_stark
+		portraits={
+			army = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CRO_ned_stark
+			can_be_fired = no
+			traits = {
+				hand_of_the_king
+			}
+		}
+	}
+
+	CRO_tywin_lannister={
+		name=CRO_tywin_lannister
+		portraits={
+			army = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CRO_tywin_lannister
+			can_be_fired = no
+			traits = {
+				hand_of_the_king
+			}
+		}
+	}
+
+	CRO_renly_baratheon={
+		name=CRO_renly_baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CRO_renly_baratheon
+			can_be_fired = no
+			traits = {
+				hand_of_the_king
+			}
+		}
+	}
+
+	CRO_no_hand_of_king={
+		name=CRO_no_hand_of_king
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_no_hand_of_king.dds"
+			}
+		}
+	}
+
+}

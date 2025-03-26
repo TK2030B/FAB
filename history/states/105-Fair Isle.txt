@@ -1,0 +1,23 @@
+state={
+	id=105
+	name="STATE_105"
+	state_category = small_island
+
+	history={
+		owner = WES
+		buildings = {
+			infrastructure = 1
+			3274 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = WES
+	}
+
+	provinces={
+		3274
+	}
+	manpower=2324850
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

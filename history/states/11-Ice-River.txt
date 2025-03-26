@@ -1,0 +1,23 @@
+
+state={
+	id=11
+	name="STATE_11"
+
+	history={
+		owner = WIL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = FF1
+
+	}
+
+	provinces={
+		135 4629 4630 4631 4632 4633
+	}
+	manpower=101448
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.0
+}

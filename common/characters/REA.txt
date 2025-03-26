@@ -1,0 +1,105 @@
+characters={
+
+	REA_mace_tyrell={
+		name=REA_mace_tyrell
+		portraits={
+			army = {
+				large="gfx/leaders/REA/Portrait_Mace_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/REA/Portrait_Mace_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	REA_Emmon_Cuy={
+		name=REA_Emmon_Cuy
+		portraits={
+			army = {
+				large="gfx/leaders/REA/Portrait_Emmon_Cuy.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	
+	REA_Garlan_Tyrell={
+		name=REA_Garlan_Tyrell
+		portraits={
+			army = {
+				large="gfx/leaders/REA/Portrait_Garlan_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	REA_Horas_Redwyne={
+		name=REA_Horas_Redwyne
+		portraits={
+			army = {
+				large="gfx/leaders/REA/Portrait_Horas_Redwyne.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	REA_Loras_Tyrell={
+		name=REA_Loras_Tyrell
+		portraits={
+			army = {
+				large="gfx/leaders/REA/Portrait_Loras_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+
+
+
+
+}

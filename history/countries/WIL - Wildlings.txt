@@ -1,0 +1,79 @@
+﻿capital = 13
+
+OOB = "WIL_1936"
+
+set_research_slots = 2
+
+#set_rule = { can_send_volunteers = no }
+
+	add_ideas = {
+		WIL_disorganized_warband
+		WIL_unrecognized_country
+		isolation
+	}
+
+	add_to_variable = {
+		var = tribe_unity
+		value = 30
+	}
+	clamp_variable = {
+		var = tribe_unity
+		min = 0
+		max = 100
+	}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	mass_assault = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		mtg_transport = 1
+	}
+}
+
+add_opinion_modifier = { target = NWA modifier = historical_enemies }
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 100
+	neutrality = 0
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 10
+
+recruit_character=WIL_mance_rayder
+recruit_character=WIL_tormund_giantsbane
+recruit_character=WIL_ygritte_firekissed
+recruit_character=WIL_rattleshirt
+recruit_character=WIL_harma
+recruit_character=WIL_halleck
+recruit_character=WIL_alfyn
+recruit_character=WIL_karsi
+recruit_character=WIL_loboda
+recruit_character=WIL_sigorn
+recruit_character=WIL_anarchism
+
+add_ideas = {  
+	GOT_Tradition_Wildlings
+	GOT_Religion_Old_Gods  
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=308
+	name="STATE_308"
+
+	history={
+		owner = DOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			2926 = {
+				naval_base = 1
+
+			}
+			912 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			4662 1
+		}
+		victory_points = {
+			2926 1
+		}
+		victory_points = {
+			1896 1
+		}
+		victory_points = {
+			912 1
+		}
+		add_core_of = DOR
+
+	}
+
+	provinces={
+		682 912 1574 1635 2190 2895 2896 2904 2910 2926 2928 2930 2932 4659 4660 4662
+	}
+	manpower=7608600
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

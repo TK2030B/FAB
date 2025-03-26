@@ -1,0 +1,26 @@
+
+state={
+	id=297
+	name="STATE_297"
+
+	history={
+		owner = MAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		add_core_of = MAN
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		40 42 53 75 107 141 218 234 251 315 334 360 371 383 413 427 511 585 701 751 778 788 915 973 1033 1042 1053 1089 1159 1260 1272 1280 1307 1370 1391 1396 1451 1542 1562 1684 1701 1748 1755 1780 1807 1910 1955 2050 2164 2166 2221 2241 2276 2298 2682 2688 2696 2713 2717 2724 2725 2741 2749 2759 2763 2764 2765 2773 2775 2780 2781 2782 2786 2791 2800 2824 2847 2861
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

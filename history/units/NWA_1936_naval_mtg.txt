@@ -1,0 +1,15 @@
+﻿units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Black Fleet"
+		naval_base = 4627 # Eastwatch
+		task_force = {
+			name = "Eastwatch Naval Command"
+			location = 4627 # Eastwatch
+			ship = { name = "Storm Crow" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NWA version_name = "Blackbird Class" } } }
+			ship = { name = "Talon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NWA version_name = "Talon Class" } } }
+			ship = { name = "Blackbird" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NWA version_name = "Talon Class" } } }
+		}
+	}
+}

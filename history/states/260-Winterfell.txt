@@ -1,0 +1,26 @@
+
+state={
+	id=260
+	name="STATE_260"
+	state_category = town
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = NOR
+		victory_points = {
+			237 5
+		}
+	}
+
+	provinces={
+		237 255 1064 1439 1531 1689 1718 1825 1867 1887 2052 2084 2290 2388 2389 2400 2414
+	}
+	manpower=809510
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

@@ -1,0 +1,40 @@
+﻿capital = 11
+
+#oob = "FF1_1936"
+
+set_research_slots = 1
+
+add_ideas = {
+	WIL_disorganized_warband
+	WIL_unrecognized_country
+	isolation
+}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	transport = 1
+	mass_assault = 1
+}
+
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 10
+
+recruit_character=FF1_karsi

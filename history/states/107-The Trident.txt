@@ -1,0 +1,23 @@
+
+state={
+	id=107
+	name="STATE_107"
+
+	history={
+		owner = RIV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RIV
+
+	}
+
+	provinces={
+		97 142 207 821 1616 1733 1850 2109 2520 2528 2532 2536 
+	}
+	manpower=16273950
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

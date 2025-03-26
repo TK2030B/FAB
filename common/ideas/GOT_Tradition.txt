@@ -46,6 +46,7 @@ ideas = {
 				air_cas_efficiency = 0.05
 				ground_attack_factor = 0.05
 				research_speed_factor = 0.05
+				max_command_power_mult = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -90,6 +91,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				monthly_population = 0.05
+				production_speed_buildings_factor = 0.05 
 			}
 
 			cancel_if_invalid = no
@@ -135,6 +137,7 @@ ideas = {
 				modifier_army_sub_unit_mountaineers_speed_factor = 0.05
 				modifier_army_sub_unit_mountaineers_attack_factor = 0.1
 				land_bunker_effectiveness_factor = 0.05
+				dig_in_speed_factor = 0.05
 			} 
 
 			cancel_if_invalid = no
@@ -149,6 +152,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				justify_war_goal_time = -0.05
+				political_power_factor = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -166,6 +170,7 @@ ideas = {
 				recon_factor = 0.05
 				acclimatization_hot_climate_gain_factor = 0.05
 				supply_consumption_factor = -0.05
+				army_org_regain = 0.05
 			}
 
 			cancel_if_invalid = no
@@ -205,6 +210,7 @@ ideas = {
 				supply_consumption_factor = -0.05
 				out_of_supply_factor = -0.05
 				acclimatization_cold_climate_gain_factor = 0.05
+				army_org_factor = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -219,6 +225,7 @@ ideas = {
 			modifier = {
 				trade_opinion_factor = 0.10
 				agency_upgrade_time = -0.10
+				trade_laws_cost_factor = -0.10
 			}
 
 			cancel_if_invalid = no
@@ -305,6 +312,7 @@ ideas = {
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				monthly_population = 0.05
+				conscription_factor = 0.05
 			}
 
 			cancel_if_invalid = no

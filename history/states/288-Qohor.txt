@@ -1,0 +1,25 @@
+state={
+	id=288
+	name="STATE_288"
+
+	history={
+		owner = QOH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = QOH
+		#victory_points = {
+		#	179 15
+		#}
+	}
+
+	provinces={
+		88 105 193 285 311 467 522 626 694 719 753 816 1018 1056 1118 1202 1264 1431 1513 1620 1637 1832 1882 1985 2077 2087 2182 2253 2592 2608 2610 2632 2652 2661 2672 2674
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

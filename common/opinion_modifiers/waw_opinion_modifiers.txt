@@ -1,0 +1,19 @@
+opinion_modifiers = {
+
+	supporter_nights_watch = {
+		value = 25
+	}
+	historical_enemies = {
+		value = -50
+	}
+	historical_enemies_1 = {
+		value = -25
+	}
+	accepted_regency = {
+		value = 25
+	}
+	declined_regency = {
+		value = -25
+	}
+
+}

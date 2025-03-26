@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Qohor City Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Qohor City Guard"
+		location = 311
+		division_template = "Qohor City Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

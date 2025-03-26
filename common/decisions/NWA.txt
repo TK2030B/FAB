@@ -1,0 +1,3207 @@
+#Category only allowed for NWA
+NWA_buy_ships = {
+
+	NWA_buy_ships_STA = {
+
+		icon = eng_trade_unions_support
+
+		available = {
+			NOR = {
+				has_war = no
+				has_opinion = {
+					target = ROOT
+					value > 0
+				}
+			}
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			base = 50
+			modifier = {
+				factor = 100
+				OR = {
+					NOR = { has_government = ROOT }
+					AND = {
+						NOT = { NOR = { has_government = fascism } }
+						NOT = { has_government = fascism }
+					}
+				}
+			}
+		}
+
+		visible = {
+			has_completed_focus = NWA_purchase_ships
+			NOR = {
+				exists = yes
+				NOT = { has_war_with = ROOT }
+				has_civil_war = no
+				has_capitulated = no
+				owns_state = 262 #White Harbor
+			}
+			NOT = {	has_country_flag = NWA_ships_purchase_in_progress_flag }
+			NOT = { has_country_flag = NWA_STA_ships_purchase_rejected_flag }
+		}
+		complete_effect = {
+			NOR = {
+				country_event = { id = nightswatch.6 }
+			}
+			set_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	NWA_buy_ships_REA = {
+
+		icon = eng_trade_unions_support
+
+		available = {
+			REA = {
+				has_war = no
+				has_opinion = {
+					target = ROOT
+					value > 0
+				}
+			}
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			base = 50
+			modifier = {
+				factor = 100
+				REA = { has_government = ROOT }
+			}
+		}
+
+		visible = {
+			has_completed_focus = NWA_purchase_ships
+			REA = {
+				exists = yes
+				NOT = { has_war_with = ROOT }
+				has_civil_war = no
+				has_capitulated = no
+				owns_state = 262 #Owns The Arbor
+			}
+			NOT = { has_country_flag = NWA_ships_purchase_in_progress_flag }
+			NOT = { has_country_flag = NWA_STA_ships_purchase_rejected_flag }
+		}
+		complete_effect = {
+			REA = {
+				country_event = { id = nightswatch.6 }
+			}
+			set_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	NWA_buy_ships_GRE = {
+
+		icon = eng_trade_unions_support
+
+		available = {
+			IRO = {
+				has_war = no
+				has_opinion = {
+					target = ROOT
+					value > 0
+				}
+			}
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			base = 50
+			modifier = {
+				factor = 100
+				IRO = { has_government = ROOT }
+			}
+		}
+
+		visible = {
+			has_completed_focus = NWA_purchase_ships
+			IRO = {
+				exists = yes
+				NOT = { has_war_with = ROOT }
+				has_civil_war = no
+				has_capitulated = no
+				owns_state = 88 #Owns Pyke
+			}
+			NOT = { has_country_flag = NWA_ships_purchase_in_progress_flag }
+			NOT = { has_country_flag = NWA_STA_ships_purchase_rejected_flag }
+		}
+		complete_effect = {
+			IRO = {
+				country_event = { id = nightswatch.6 }
+			}
+			set_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of British SUBMARINES construction
+	NWA_STA_submarines_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_STA_submarines_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 365
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = NOR }
+				NOR = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 262 } #Owns White Harbor
+					}
+				}
+			}
+		}
+
+		#On Activation
+		complete_effect ={
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_STA_submarines_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		#Success
+		remove_effect = {
+			hidden_effect = { add_manpower = 600 }
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						NOR = { has_tech = advanced_ship_hull_submarine }
+					}
+					NOR = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = ship_hull_submarine_4
+							name_group = NWA_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								rear_1_custom_slot = ship_torpedo_sub_1
+								front_1_custom_slot = ship_torpedo_sub_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = improved_ship_hull_submarine }
+					}
+					NOR = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = ship_hull_submarine_3
+							name_group = NWA_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								rear_1_custom_slot = ship_torpedo_sub_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = NOR }
+				}
+				else = {
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						NOR = { has_tech = advanced_submarine }
+					}
+					NOR = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_4
+							upgrades = {
+								ship_reliability_upgrade = 3
+								sub_torpedo_upgrade = 3
+								sub_stealth_upgrade = 3
+								sub_engine_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = improved_submarine }
+					}
+					NOR = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_3
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 3
+								sub_stealth_upgrade = 2
+								sub_engine_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = basic_submarine }
+					}
+					NOR = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_2
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 2
+								sub_stealth_upgrade = 2
+								sub_engine_upgrade = 1
+							}
+						}
+					}
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = NOR }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = NOR }
+				}
+				else = {
+					create_equipment_variant = {
+						name = "Delfim Class"
+						type = submarine_2
+						upgrades = {
+							ship_reliability_upgrade = 2
+							sub_torpedo_upgrade = 2
+							sub_stealth_upgrade = 1
+							sub_engine_upgrade = 0
+						}
+					}
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+				}
+			}
+
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.9
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_STA_submarines_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of Italian SUBMARINES construction
+	NWA_REA_submarines_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_REA_submarines_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 365
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = REA }
+				REA = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 262 } #Owns Arbor
+					}
+				}
+			}
+		}
+
+
+		#On Activation
+		complete_effect = {
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_REA_submarines_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		#Success
+		remove_effect = {
+			hidden_effect = { add_manpower = 600 }
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						REA = { has_tech = advanced_ship_hull_submarine }
+					}
+					REA = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = ship_hull_submarine_4
+							name_group = NWA_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								rear_1_custom_slot = ship_torpedo_sub_1
+								front_1_custom_slot = ship_torpedo_sub_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = improved_ship_hull_submarine }
+					}
+					REA = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = ship_hull_submarine_3
+							name_group = NWA_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								rear_1_custom_slot = ship_torpedo_sub_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = REA }
+				}
+				else = {
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						REA = { has_tech = advanced_submarine }
+					}
+					REA = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_4
+							upgrades = {
+								ship_reliability_upgrade = 3
+								sub_torpedo_upgrade = 3
+								sub_stealth_upgrade = 3
+								sub_engine_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = improved_submarine }
+					}
+					REA = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_3
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 3
+								sub_stealth_upgrade = 2
+								sub_engine_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = basic_submarine }
+					}
+					REA = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_2
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 2
+								sub_stealth_upgrade = 2
+								sub_engine_upgrade = 1
+							}
+						}
+					}
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = REA }
+				}
+				else = {
+					REA = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_1
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 2
+								sub_stealth_upgrade = 1
+								sub_engine_upgrade = 0
+							}
+						}
+					}
+					create_ship = { type = submarine_1 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_1 equipment_variant = "Delfim Class" creator = REA }
+					create_ship = { type = submarine_1 equipment_variant = "Delfim Class" creator = REA }
+				}
+			}
+
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.9
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_REA_submarines_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of Italian SUBMARINES construction
+	NWA_GRE_submarines_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_GRE_submarines_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 365
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = IRO }
+				IRO = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 88 } #Pyke
+					}
+				}
+			}
+		}
+
+
+		#On Activation
+		complete_effect = {
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_GRE_submarines_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		#Success
+		remove_effect = {
+			hidden_effect = { add_manpower = 600 }
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						IRO = { has_tech = advanced_ship_hull_submarine }
+					}
+					IRO = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = ship_hull_submarine_4
+							name_group = NWA_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								rear_1_custom_slot = ship_torpedo_sub_1
+								front_1_custom_slot = ship_torpedo_sub_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = ship_hull_submarine_4 equipment_variant = "Delfim Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = improved_ship_hull_submarine }
+					}
+					IRO = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = ship_hull_submarine_3
+							name_group = NWA_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								rear_1_custom_slot = ship_torpedo_sub_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = ship_hull_submarine_3 equipment_variant = "Delfim Class" creator = IRO }
+				}
+				else = {
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+					create_ship = { type = ship_hull_submarine_2 equipment_variant = "Delfim Class" creator = NWA }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						IRO = { has_tech = advanced_submarine }
+					}
+					IRO = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_4
+							upgrades = {
+								ship_reliability_upgrade = 3
+								sub_torpedo_upgrade = 3
+								sub_stealth_upgrade = 3
+								sub_engine_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_4 equipment_variant = "Delfim Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = improved_submarine }
+					}
+					IRO = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_3
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 3
+								sub_stealth_upgrade = 2
+								sub_engine_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_3 equipment_variant = "Delfim Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = basic_submarine }
+					}
+					IRO = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_2
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 2
+								sub_stealth_upgrade = 2
+								sub_engine_upgrade = 1
+							}
+						}
+					}
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_2 equipment_variant = "Delfim Class" creator = IRO }
+				}
+				else = {
+					IRO = {
+						create_equipment_variant = {
+							name = "Delfim Class"
+							type = submarine_1
+							upgrades = {
+								ship_reliability_upgrade = 2
+								sub_torpedo_upgrade = 2
+								sub_stealth_upgrade = 1
+								sub_engine_upgrade = 0
+							}
+						}
+					}
+					create_ship = { type = submarine_1 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_1 equipment_variant = "Delfim Class" creator = IRO }
+					create_ship = { type = submarine_1 equipment_variant = "Delfim Class" creator = IRO }
+				}
+			}
+
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.9
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_GRE_submarines_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of British DESTROYERS construction
+	NWA_STA_destroyers_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_STA_destroyers_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 365
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = NOR }
+				NOR = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 262 } #White Harbor
+					}
+				}
+			}
+		}
+
+		#On Activation
+		complete_effect = {
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_STA_destroyers_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		#Success
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						NOR = { has_tech = advanced_ship_hull_light }
+					}
+					hidden_effect = { add_manpower = 1000 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_4
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_4 equipment_variant = "Vouga Class" creator = NOR }
+					create_ship = { type = ship_hull_light_4 equipment_variant = "Vouga Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = improved_ship_hull_light }
+					}
+					hidden_effect = { add_manpower = 800 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_3
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_3 equipment_variant = "Vouga Class" creator = NOR }
+					create_ship = { type = ship_hull_light_3 equipment_variant = "Vouga Class" creator = NOR }
+				}
+				else = {
+					hidden_effect = { add_manpower = 650 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_2
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_2 equipment_variant = "Vouga Class" creator = NOR }
+					create_ship = { type = ship_hull_light_2 equipment_variant = "Vouga Class" creator = NOR }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						NOR = { has_tech = advanced_destroyer }
+					}
+					hidden_effect = { add_manpower = 500 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_4
+							upgrades = {
+								ship_torpedo_upgrade = 4
+								destroyer_engine_upgrade = 2
+								ship_ASW_upgrade = 3
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_4 equipment_variant = "Vouga Class" creator = NOR }
+					create_ship = { type = destroyer_4 equipment_variant = "Vouga Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = improved_destroyer }
+					}
+					hidden_effect = { add_manpower = 400 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_3
+							upgrades = {
+								ship_torpedo_upgrade = 3
+								destroyer_engine_upgrade = 2
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_3 equipment_variant = "Vouga Class" creator = NOR }
+					create_ship = { type = destroyer_3 equipment_variant = "Vouga Class" creator = NOR }
+				}
+				else = {
+					hidden_effect = { add_manpower = 325 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_2
+							upgrades = {
+								ship_torpedo_upgrade = 2
+								destroyer_engine_upgrade = 1
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_2 equipment_variant = "Vouga Class" creator = NOR }
+					create_ship = { type = destroyer_2 equipment_variant = "Vouga Class" creator = NOR }
+				}
+			}
+
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.10
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_STA_destroyers_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of Italian DESTROYERS construction
+	NWA_REA_destroyers_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_REA_destroyers_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 365
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = REA }
+				REA = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 262 } #Owns Arbor
+					}
+				}
+			}
+		}
+
+		#On Activation
+		complete_effect ={
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_REA_destroyers_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		is_good = yes
+		#Success
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						REA = { has_tech = advanced_ship_hull_light }
+					}
+					hidden_effect = { add_manpower = 1000 }
+					REA = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_4
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_4 equipment_variant = "Vouga Class" creator = REA }
+					create_ship = { type = ship_hull_light_4 equipment_variant = "Vouga Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = improved_ship_hull_light }
+					}
+					hidden_effect = { add_manpower = 800 }
+					REA = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_3
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_3 equipment_variant = "Vouga Class" creator = REA }
+					create_ship = { type = ship_hull_light_3 equipment_variant = "Vouga Class" creator = REA }
+				}
+				else = {
+					hidden_effect = { add_manpower = 650 }
+					REA = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_2
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_2 equipment_variant = "Vouga Class" creator = REA }
+					create_ship = { type = ship_hull_light_2 equipment_variant = "Vouga Class" creator = REA }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						REA = { has_tech = advanced_destroyer }
+					}
+					hidden_effect = { add_manpower = 500 }
+					REA = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_4
+							upgrades = {
+								ship_torpedo_upgrade = 4
+								destroyer_engine_upgrade = 2
+								ship_ASW_upgrade = 3
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_4 equipment_variant = "Vouga Class" creator = REA }
+					create_ship = { type = destroyer_4 equipment_variant = "Vouga Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = improved_destroyer }
+					}
+					hidden_effect = { add_manpower = 400 }
+					REA = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_3
+							upgrades = {
+								ship_torpedo_upgrade = 3
+								destroyer_engine_upgrade = 2
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_3 equipment_variant = "Vouga Class" creator = REA }
+					create_ship = { type = destroyer_3 equipment_variant = "Vouga Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = basic_destroyer }
+					}
+					hidden_effect = { add_manpower = 325 }
+					REA = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_2
+							upgrades = {
+								ship_torpedo_upgrade = 2
+								destroyer_engine_upgrade = 1
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_2 equipment_variant = "Vouga Class" creator = REA }
+					create_ship = { type = destroyer_2 equipment_variant = "Vouga Class" creator = REA }
+				}
+				else = {
+					hidden_effect = { add_manpower = 250 }
+					REA = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_1
+							upgrades = {
+								ship_torpedo_upgrade = 1
+								destroyer_engine_upgrade = 1
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = destroyer_1 equipment_variant = "Vouga Class" creator = REA }
+					create_ship = { type = destroyer_1 equipment_variant = "Vouga Class" creator = REA }
+				}
+			}
+
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.10
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_REA_destroyers_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of Italian DESTROYERS construction
+	NWA_GRE_destroyers_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_GRE_destroyers_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 365
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = IRO }
+				IRO = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 88 } #Owns Arbor
+					}
+				}
+			}
+		}
+
+		#On Activation
+		complete_effect ={
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_GRE_destroyers_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		is_good = yes
+		#Success
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						IRO = { has_tech = advanced_ship_hull_light }
+					}
+					hidden_effect = { add_manpower = 1000 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_4
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_4 equipment_variant = "Vouga Class" creator = IRO }
+					create_ship = { type = ship_hull_light_4 equipment_variant = "Vouga Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = improved_ship_hull_light }
+					}
+					hidden_effect = { add_manpower = 800 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_3
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_3 equipment_variant = "Vouga Class" creator = IRO }
+					create_ship = { type = ship_hull_light_3 equipment_variant = "Vouga Class" creator = IRO }
+				}
+				else = {
+					hidden_effect = { add_manpower = 650 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = ship_hull_light_2
+							name_group = NWA_DD_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_battery_1
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = light_ship_engine_2
+								fixed_ship_torpedo_slot = ship_torpedo_1
+								mid_1_custom_slot = ship_mine_layer_1
+								rear_1_custom_slot = ship_depth_charge_1
+							}
+						}
+					}
+					create_ship = { type = ship_hull_light_2 equipment_variant = "Vouga Class" creator = IRO }
+					create_ship = { type = ship_hull_light_2 equipment_variant = "Vouga Class" creator = IRO }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						IRO = { has_tech = advanced_destroyer }
+					}
+					hidden_effect = { add_manpower = 500 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_4
+							upgrades = {
+								ship_torpedo_upgrade = 4
+								destroyer_engine_upgrade = 2
+								ship_ASW_upgrade = 3
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_4 equipment_variant = "Vouga Class" creator = IRO }
+					create_ship = { type = destroyer_4 equipment_variant = "Vouga Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = improved_destroyer }
+					}
+					hidden_effect = { add_manpower = 400 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_3
+							upgrades = {
+								ship_torpedo_upgrade = 3
+								destroyer_engine_upgrade = 2
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_3 equipment_variant = "Vouga Class" creator = IRO }
+					create_ship = { type = destroyer_3 equipment_variant = "Vouga Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = basic_destroyer }
+					}
+					hidden_effect = { add_manpower = 325 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_2
+							upgrades = {
+								ship_torpedo_upgrade = 2
+								destroyer_engine_upgrade = 1
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = destroyer_2 equipment_variant = "Vouga Class" creator = IRO }
+					create_ship = { type = destroyer_2 equipment_variant = "Vouga Class" creator = IRO }
+				}
+				else = {
+					hidden_effect = { add_manpower = 250 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Vouga Class"
+							type = destroyer_1
+							upgrades = {
+								ship_torpedo_upgrade = 1
+								destroyer_engine_upgrade = 1
+								ship_ASW_upgrade = 2
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = destroyer_1 equipment_variant = "Vouga Class" creator = IRO }
+					create_ship = { type = destroyer_1 equipment_variant = "Vouga Class" creator = IRO }
+				}
+			}
+
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.10
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_GRE_destroyers_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of British LIGHT CRUISER construction
+	NWA_STA_light_cruiser_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_STA_light_cruiser_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 546
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = NOR }
+				NOR = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 262 } #White Harbor
+					}
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_STA_light_cruiser_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		#Success
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						NOR = { has_tech = advanced_ship_hull_cruiser }
+					}
+					hidden_effect = { add_manpower = 1400 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_4
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_4 equipment_variant = "Atlântico Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = improved_ship_hull_cruiser }
+					}
+					hidden_effect = { add_manpower = 1200 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_3
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_3 equipment_variant = "Atlântico Class" creator = NOR }
+				}
+				else = {
+					hidden_effect = { add_manpower = 800 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_2
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_2 equipment_variant = "Atlântico Class" creator = NOR }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						NOR = { has_tech = advanced_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 1140 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_4
+							upgrades = {
+								ship_reliability_upgrade = 4
+								ship_engine_upgrade = 3
+								ship_gun_upgrade = 4
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_4 equipment_variant = "Atlântico Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = improved_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 960 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_3
+							upgrades = {
+								ship_reliability_upgrade = 4
+								ship_engine_upgrade = 2
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_3 equipment_variant = "Atlântico Class" creator = NOR }
+				}
+				else_if = {
+					limit = {
+						NOR = { has_tech = basic_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 800 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_2
+							upgrades = {
+								ship_reliability_upgrade = 3
+								ship_engine_upgrade = 2
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_2 equipment_variant = "Atlântico Class" creator = NOR }
+				}
+				else = {
+					hidden_effect = { add_manpower = 600 }
+					NOR = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_1
+							upgrades = {
+								ship_reliability_upgrade = 2
+								ship_engine_upgrade = 1
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_1 equipment_variant = "Atlântico Class" creator = NOR }
+				}
+			}
+
+			NOR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.11
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_STA_light_cruiser_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of Italian LIGHT CRUISER construction
+	NWA_REA_light_cruiser_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_REA_light_cruiser_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 546
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = REA }
+				REA = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 262 } #Owns Arbor
+					}
+				}
+			}
+		}
+
+		#On Activation
+		complete_effect ={
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_REA_light_cruiser_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		#Success
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						REA = { has_tech = advanced_ship_hull_cruiser }
+					}
+					hidden_effect = { add_manpower = 1400 }
+					REA = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_4
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_4 equipment_variant = "Atlântico Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = improved_ship_hull_cruiser }
+					}
+					hidden_effect = { add_manpower = 1200 }
+					REA = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_3
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_3 equipment_variant = "Atlântico Class" creator = REA }
+				}
+				else = {
+					hidden_effect = { add_manpower = 800 }
+					REA = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_2
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_2 equipment_variant = "Atlântico Class" creator = REA }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						REA = { has_tech = advanced_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 1140 }
+					REA = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_4
+							upgrades = {
+								ship_reliability_upgrade = 4
+								ship_engine_upgrade = 3
+								ship_gun_upgrade = 4
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_4 equipment_variant = "Atlântico Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = improved_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 960 }
+					REA = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_3
+							upgrades = {
+								ship_reliability_upgrade = 4
+								ship_engine_upgrade = 2
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_3 equipment_variant = "Atlântico Class" creator = REA }
+				}
+				else_if = {
+					limit = {
+						REA = { has_tech = basic_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 800 }
+					REA = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_2
+							upgrades = {
+								ship_reliability_upgrade = 3
+								ship_engine_upgrade = 2
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_2 equipment_variant = "Atlântico Class" creator = REA }
+				}
+				else = {
+					hidden_effect = { add_manpower = 600 }
+					REA = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_1
+							upgrades = {
+								ship_reliability_upgrade = 2
+								ship_engine_upgrade = 1
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_1 equipment_variant = "Atlântico Class" creator = REA }
+				}
+			}
+
+			REA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.11
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_REA_light_cruiser_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+	#Mission to track the progress of Italian LIGHT CRUISER construction
+	NWA_GRE_light_cruiser_construction_progress = {
+
+		icon = generic_naval
+
+		allowed = {
+			original_tag = NWA
+		}
+
+		visible = {
+			has_country_flag = NWA_purchase_GRE_light_cruiser_flag
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		days_remove = 546
+
+		cancel_trigger = {
+			OR = {
+				NOT = { country_exists = NWA }
+				NOT = { country_exists = IRO }
+				IRO = {
+					OR = {
+						has_war_with = ROOT
+						has_civil_war = yes
+						has_capitulated = yes
+						NOT = { owns_state = 88 } #Pyke
+					}
+				}
+			}
+		}
+
+		#On Activation
+		complete_effect ={
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+
+		#Fail
+		cancel_effect = {
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			clr_country_flag = NWA_purchase_GRE_light_cruiser_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+
+		#Success
+		remove_effect = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				if = {
+					limit = {
+						IRO = { has_tech = advanced_ship_hull_cruiser }
+					}
+					hidden_effect = { add_manpower = 1400 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_4
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_4 equipment_variant = "Atlântico Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = improved_ship_hull_cruiser }
+					}
+					hidden_effect = { add_manpower = 1200 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_3
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_3 equipment_variant = "Atlântico Class" creator = IRO }
+				}
+				else = {
+					hidden_effect = { add_manpower = 800 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = ship_hull_cruiser_2
+							name_group = NWA_CL_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_light_medium_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_2
+								fixed_ship_armor_slot = empty
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_torpedo_1
+								mid_2_custom_slot = ship_airplane_launcher_1
+								rear_1_custom_slot = ship_light_medium_battery_2
+							}
+						}
+					}
+					create_ship = { type = ship_hull_cruiser_2 equipment_variant = "Atlântico Class" creator = IRO }
+				}
+			}
+			else = { #NO MTG
+				if = {
+					limit = {
+						IRO = { has_tech = advanced_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 1140 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_4
+							upgrades = {
+								ship_reliability_upgrade = 4
+								ship_engine_upgrade = 3
+								ship_gun_upgrade = 4
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_4 equipment_variant = "Atlântico Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = improved_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 960 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_3
+							upgrades = {
+								ship_reliability_upgrade = 4
+								ship_engine_upgrade = 2
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 3
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_3 equipment_variant = "Atlântico Class" creator = IRO }
+				}
+				else_if = {
+					limit = {
+						IRO = { has_tech = basic_light_cruiser }
+					}
+					hidden_effect = { add_manpower = 800 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_2
+							upgrades = {
+								ship_reliability_upgrade = 3
+								ship_engine_upgrade = 2
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_2 equipment_variant = "Atlântico Class" creator = IRO }
+				}
+				else = {
+					hidden_effect = { add_manpower = 600 }
+					IRO = {
+						create_equipment_variant = {
+							name = "Atlântico Class"
+							type = light_cruiser_1
+							upgrades = {
+								ship_reliability_upgrade = 2
+								ship_engine_upgrade = 1
+								ship_gun_upgrade = 3
+								ship_anti_air_upgrade = 2
+							}
+						}
+					}
+					create_ship = { type = light_cruiser_1 equipment_variant = "Atlântico Class" creator = IRO }
+				}
+			}
+
+			IRO = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = -1
+				}
+			}
+			country_event = nightswatch.11
+			set_country_flag = NWA_ships_purchased_flag
+			clr_country_flag = NWA_purchase_GRE_light_cruiser_flag
+			clr_country_flag = NWA_ships_purchase_in_progress_flag
+		}
+	}
+
+}
+
+NWA_wall = {
+
+	# WESTWATCH
+	NWA_rebuild_westwatch = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 24
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 24 }
+			highlight_provinces = {
+				4622
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_westwatch_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_westwatch_rebuild
+			24 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4622
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# SENTINEL STAND
+	NWA_rebuild_sentinel_stand = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 24
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 24 }
+			highlight_provinces = {
+				4623
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_sentinel_stand_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_sentinel_stand_rebuild
+			24 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4623
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# GREYGUARD
+	NWA_rebuild_greyguard = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 24
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 60
+
+		highlight_states = {
+			highlight_state_targets = { state = 24 }
+			highlight_provinces = {
+				4623
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_greyguard_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_greyguard_rebuild
+			24 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4623
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# STONEDOOR
+	NWA_rebuild_stonedoor = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 24
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 24 }
+			highlight_provinces = {
+				4625
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_stonedoor_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_stonedoor_rebuild
+			24 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4625
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# HOARFROST HILL
+	NWA_rebuild_hoarfrost_hill = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 24
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 24 }
+			highlight_provinces = {
+				4625
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_hoarfrost_hill_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_hoarfrost_hill_rebuild
+			24 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4625
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# ICEMARK
+	NWA_rebuild_icemark = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 18
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 18 }
+			highlight_provinces = {
+				1534
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_icemark_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_icemark_rebuild
+			18 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 1534
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# NIGHTFORT
+	NWA_rebuild_nightfort = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 18
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 18 }
+			highlight_provinces = {
+				1534
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_nightfort_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_nightfort_rebuild
+			18 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 1534
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# DEEP LAKE
+	NWA_rebuild_deep_lake = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 18
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 18 }
+			highlight_provinces = {
+				4626
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_deep_lake_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_deep_lake_rebuild
+			18 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4626
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# QUEENSGATE
+	NWA_rebuild_queensgate = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 18
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 18 }
+			highlight_provinces = {
+				4626
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_queensgate_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_queensgate_rebuild
+			18 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4626
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# OAKENSHIELD
+	NWA_rebuild_oakenshield = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 18
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 18 }
+			highlight_provinces = {
+				2347
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_oakenshield_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_oakenshield_rebuild
+			18 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 2347
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# WOODSWATCH
+	NWA_rebuild_woodswatch = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 18
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 18 }
+			highlight_provinces = {
+				2347
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_woodswatch_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_woodswatch_rebuild
+			18 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 2347
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# SABLE HALL
+	NWA_rebuild_sable_hall = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 25
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 25 }
+			highlight_provinces = {
+				4624
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_sable_hall_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_sable_hall_rebuild
+			25 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4624
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# RIMEGATE
+	NWA_rebuild_rimegate = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 25
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 25 }
+			highlight_provinces = {
+				4624
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_rimegate_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_rimegate_rebuild
+			25 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4624
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# LONG BARROW
+	NWA_rebuild_long_barrow = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 25
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 25 }
+			highlight_provinces = {
+				684
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_long_barrow_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_long_barrow_rebuild
+			25 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 684
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# TORCHES
+	NWA_rebuild_torches = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 25
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 25 }
+			highlight_provinces = {
+				684
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_torches_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_torches_rebuild
+			25 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 684
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+	# GREENGUARD
+	NWA_rebuild_greenguard = {
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			controls_state = 25
+			num_of_available_civilian_factories > 0
+		}
+
+		days_remove = 30
+
+		highlight_states = {
+			highlight_state_targets = { state = 25 }
+			highlight_provinces = {
+				4627
+			}
+		}
+
+		modifier = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = NWA_greenguard_rebuild }
+		}
+
+		complete_effect = {
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			set_country_flag = NWA_greenguard_rebuild
+			25 = {
+				add_building_construction = {
+				   type = bunker
+				   level = 1
+				   instant_build = yes
+				   province = 4627
+				}
+			}
+			add_to_variable = {
+		    var = NWA_div_cap_var
+		    value = 1
+		    tooltip = NWA_div_cap_increased_tt
+			}
+			NWA_upgrade_division_cap = yes
+		}
+	}
+
+}
+
+NWA_great_ranging = {
+
+	NWA_ranging_began_mission = {
+
+		icon = eng_blackshirt_march
+		is_good = yes
+		days_mission_timeout = 90
+		fire_only_once = yes
+
+		available = {
+			has_country_flag = NWA_arrived_at_craster
+		}
+		activation = {
+			has_country_flag = NWA_ranging_began
+		}
+		timeout_effect = {
+			NWA = { country_event = nightswatch.23 }
+		}
+	}
+
+	NWA_march_to_fist_mission = {
+
+		icon = eng_blackshirt_march
+		is_good = yes
+		days_mission_timeout = 150
+		fire_only_once = yes
+
+		available = {
+			has_country_flag = NWA_arrived_at_fist
+			NOT = { has_country_flag = NWA_retreated_flg }
+			NOT = { has_decision = NWA_retreat_ranging }
+		}
+
+		activation = {
+			has_country_flag = NWA_arrived_at_craster
+		}
+
+		timeout_effect = {
+			set_country_flag = NWA_arrived_at_fist
+			NWA = { country_event = nightswatch.24 }
+		}
+	}
+
+	NWA_retreat_ranging = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = NWA
+		}
+
+		available = {
+			NOT = { has_country_flag = NWA_retreated_flg }
+			has_country_flag = NWA_arrived_at_craster
+		}
+
+		fire_only_once = yes
+
+		days_remove = 60
+
+		ai_will_do = {
+			base = 0
+		}
+
+		modifier = {
+
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+			add_stability = -0.2
+			set_country_flag = NWA_retreated_flg
+			set_country_flag = NWA_ranging_finished
+			custom_effect_tooltip = NWA_mutinity_tt
+		}
+		remove_effect = {
+			if = {
+				limit = { has_stability < 0.2 }
+				NWA = { country_event = nightswatch.18 }
+			}
+			else = {
+				complete_national_focus = NWA_beaten_but_not_defeated
+			}
+			clr_country_flag = NWA_ranging_began
+			if = {
+				limit = { has_country_flag = NWA_battle_fist_over }
+				add_manpower = 500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+				}
+			}
+			else = {
+				add_manpower = 2500
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+				}
+			}
+		}
+	}
+}
+
+NWA_liberalist_civil_war = {
+
+	NWA_liberalist_speech = {
+
+		icon = eng_propaganda_campaigns
+
+		allowed = {
+			tag = NWA
+		}
+
+		available = {
+			NOT = { has_country_flag = NWA_liberalist_decision_active }
+		}
+
+		cost = 30
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_remove = 37
+
+		modifier = {
+
+		}
+
+		visible = {
+			has_completed_focus = NWA_expand_internal_support
+			NOT = { has_completed_focus = NWA_kill_lord_commander }
+		}
+
+		complete_effect = {
+			set_country_flag = NWA_liberalist_decision_active
+		}
+
+		remove_effect = {
+			add_popularity = {
+					ideology = communism
+					popularity = 0.05
+			}
+			clr_country_flag = NWA_liberalist_decision_active
+		}
+	}
+
+	NWA_sway_leader_loyalty = {
+
+		icon = generic_army_support
+
+		allowed = {
+			tag = NWA
+		}
+
+		available = {
+			NOT = { has_country_flag = NWA_liberalist_decision_active }
+		}
+
+		cost = 30
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_remove = 37
+
+		modifier = {
+
+		}
+
+		visible = {
+			has_completed_focus = NWA_expand_internal_support
+			NOT = { has_completed_focus = NWA_kill_lord_commander }
+		}
+
+		complete_effect = {
+			set_country_flag = NWA_liberalist_decision_active
+		}
+
+		remove_effect = {
+			random_unit_leader = {
+				limit = {
+					NOT = { has_trait = trait_NWA_wildling_sympathies }
+					NOT = { is_character = NWA_jeor_mormont }
+				}
+				add_unit_leader_trait = trait_NWA_wildling_sympathies
+			}
+			clr_country_flag = NWA_liberalist_decision_active
+		}
+
+	}
+
+}

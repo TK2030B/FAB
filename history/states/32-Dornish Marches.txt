@@ -1,0 +1,30 @@
+
+state={
+	id=32
+	name="STATE_32"
+
+	history={
+		owner = STO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			2771 1
+		}
+		victory_points = {
+			1325 1
+		}
+		add_core_of = STO
+
+	}
+
+	provinces={
+		136 258 732 831 839 1325 1416 1432 2146 2702 2715 2726 2734 2735 2738 2751 2761 2771
+	}
+	manpower=4277000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

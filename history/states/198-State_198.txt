@@ -1,0 +1,23 @@
+state={
+	id=198
+	name="STATE_198"
+
+	history={
+		owner = ULT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ULT
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+	
+	provinces={
+		242 412 430 462 497 808 1549 1847 3085 3087 3096 3103
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

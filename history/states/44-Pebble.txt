@@ -1,0 +1,20 @@
+state={
+	id=44
+	name="STATE_44"
+	state_category = small_island
+
+	history={
+		owner = VAL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		3228
+	}
+	manpower=676320
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

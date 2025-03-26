@@ -1,0 +1,30 @@
+state={
+	id=183
+	name="STATE_183"
+
+	resources={
+		rubber=20
+	}
+
+	history={
+		owner = SUI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+		}
+		add_core_of = SUI
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		86 283 546 748 950 1586 1811 2141 3046 3056 3061
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

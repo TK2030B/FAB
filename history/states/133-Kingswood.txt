@@ -1,0 +1,22 @@
+
+state={
+	id=133
+	name="STATE_133"
+
+	history={
+		owner = STO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = STO
+	}
+
+	provinces={
+		161 377 972 1079 1344 2019 2049 2662 2691 2693
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

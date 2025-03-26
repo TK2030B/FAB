@@ -1,0 +1,76 @@
+characters={
+
+	VAL_jon_arryn={
+		name=VAL_jon_arryn
+		portraits={
+			army = {
+				large="gfx/leaders/VAL/Portrait_Jon_Arryn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/VAL/Portrait_Jon_Arryn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			traits = { warden_of_east hand_of_the_king }
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { cavalry_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	VAL_lysa_arryn={
+		name=VAL_lysa_arryn
+		portraits={
+			civilian = {
+				large="gfx/leaders/VAL/Portrait_Lysa_Arryn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	
+	VAL_Vardis_Egen={
+		name=VAL_Vardis_Egen
+		portraits={
+			army = {
+				large="gfx/leaders/VAL/Portrait_Vardis_Egen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VAL_Yohn_Royce={
+		name=VAL_Yohn_Royce
+		portraits={
+			army = {
+				large="gfx/leaders/VAL/Portrait_Yohn_Royce.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+
+}

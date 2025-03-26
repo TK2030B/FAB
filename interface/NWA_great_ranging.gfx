@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wall_map"
+		texturefile = "gfx/interface/nwa_gui/wall_map.dds"
+	}
+	spriteType = {
+		name = "GFX_red_cross"
+		texturefile = "gfx/interface/nwa_gui/red_cross.dds"
+	}
+}

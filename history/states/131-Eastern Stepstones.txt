@@ -1,0 +1,22 @@
+state={
+	id=131
+	name="STATE_131"
+
+	history={
+		owner = STE
+		buildings = {
+			infrastructure = 2
+			1937 = { coastal_bunker = 4 }
+			3293 = { coastal_bunker = 4 }
+		}
+		add_core_of = STE
+	}
+
+	provinces={
+		1937 3292 3293 3294
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

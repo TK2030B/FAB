@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Qarth Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Qarth Guard"
+		location = 1949
+		division_template = "Qarth Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

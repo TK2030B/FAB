@@ -1,0 +1,31 @@
+
+state={
+	id=310
+	name="STATE_310"
+
+	history={
+		owner = YTI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+			1631 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = YTI
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		37 72 76 147 194 196 270 344 397 417 433 452 480 494 509 747 755 805 845 995 1098 1106 1117 1119 1511 1631 1632 1669 1897 2004 2214 2297 2970 2984 3008 3016 3024 3043
+	}
+	manpower=356085000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

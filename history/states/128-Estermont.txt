@@ -1,0 +1,28 @@
+
+state={
+	id=128
+	name="STATE_128"
+	state_category = pastoral
+
+	history={
+		owner = STO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			2784 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			2784 1
+		}
+		add_core_of = STO
+	}
+
+	provinces={
+		2784 3286
+	}
+	manpower=1056750
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

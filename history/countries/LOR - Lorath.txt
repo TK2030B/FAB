@@ -1,0 +1,49 @@
+﻿capital = 61
+
+#oob = "LOR_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+}
+
+#set_convoys = 30
+#set_national_unity = 0.85
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MOR
+		autonomous_state = autonomy_colony
+	}
+	else = {
+		puppet = MOR
+	}
+}
+
+recruit_character=LOR_three_prince_council

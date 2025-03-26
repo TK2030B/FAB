@@ -1,0 +1,25 @@
+
+strategic_region={
+	id=46
+	name="STRATEGICREGION_46"
+	provinces={
+		3392 3415 3421 3476 3482 3537 3543 3556 3585 3621 3635 3637 3667 3703 3709 3713 3724 3736 3757 3768 3773 3791 3798 3820 3850 3874 3907 3935 3943 3953 3960 3962 3975 3987 4027 4070 4075 4108 4111 4124 4142 4146 4162 4163 4169 4204 4206 4232 4268 4277 4284 4301 4309 4326 4330 4331 4355 4364 4388 4431 4444 4486 4505 4524 4529 4536 4541 
+	}
+	naval_terrain=water_deep_ocean
+	weather={
+		period={
+			between={ 0.0 0.0 }
+			temperature={ -10.0 35.0 }
+			temperature_day_night={ 2.0 -2.0 }
+			no_phenomenon=1.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.000
+			blizzard=0.000
+			arctic_water=0.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
+	}
+}

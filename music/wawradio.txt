@@ -1,0 +1,356 @@
+# WaW tracks added by roemer9
+
+music_station = "WAW"
+
+music = {
+	song = "waw_house_stark_theme"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = NOR
+				#	tag = NOR
+				}
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_bastards"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				AND = {
+					OR = {
+						tag = NOR
+					#	tag = ITA # TODO once boltons appear again
+					}
+					has_war = yes
+				}
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_army_of_dead"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = ICE
+					has_war_with = ICE
+				}
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_lannister_pay_debt"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = WES
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_house_targaryan"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = TAR
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_house_tyrell"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = REA
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_house_martell"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = DOR
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_house_tully"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = RIV
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_spoils_of_war"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				has_war = yes
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_house_greyjoy"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = IRO
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_house_arryn"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = VAL
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_watchers_wall"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = NWA
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_thenns"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = WIL
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_kill_crows"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = WIL
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_house_mormont"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = MOR
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_kings_arrival"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = CRO
+					tag = STO
+				}
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_winter_has_come"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			OR = {
+				is_real_north = no
+				has_war = yes
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_victory_does_not_make_us_conquerors"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+				has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "waw_two_swords"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+				has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "waw_the_wall"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = WIL
+					tag = NWA
+				}
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_kneel_for_no_man"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = WIL
+			}
+			has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "waw_my_watch_has_ended"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = NWA
+			}
+			has_war = yes
+		}
+	}
+}
+
+music = {
+	song = "waw_the_nights_watch"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = NWA
+			}
+		}
+	}
+}
+
+music = {
+	song = "waw_winterfell"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = NOR
+			}
+		}
+	}
+}

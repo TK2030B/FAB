@@ -1,0 +1,28 @@
+
+state={
+	id=18
+	name="STATE_18"
+
+	history={
+		owner = NWA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			4626 = {
+				bunker = 1
+			}
+		}
+		add_core_of = NWA
+		victory_points = {
+			4626 10
+		}
+	}
+
+	provinces={
+		1534 2347 4626
+	}
+	manpower=53260
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0
+}

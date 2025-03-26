@@ -1,0 +1,188 @@
+﻿capital = 142
+
+oob = "CRO_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CRO_1936_naval_mtg"
+	else = {
+		set_naval_oob = "CRO_1936_naval_legacy"
+	}
+}
+
+add_ideas = disarmed_nation
+add_ideas = backward_agriculture
+#add_ideas = stable_kingdom
+add_ideas = indebted_crown
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	tech_military_police = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = NOR
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = NOR
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = RIV
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = RIV
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = VAL
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = VAL
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = IRO
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = IRO
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = WES
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = WES
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = REA
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = REA
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = DOR
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = DOR
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = STO
+		autonomous_state = autonomy_high_lordship
+	}
+	else = {
+		puppet = STO
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = DRA
+		autonomous_state = autonomy_feudal_dominion
+	}
+	else = {
+		puppet = DRA
+	}
+}
+
+set_convoys = 150
+#set_national_unity = 0.85
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=CRO_robert_baratheon
+recruit_character=CRO_joffrey_baratheon
+recruit_character=CRO_empty_throne
+recruit_character=CRO_jacelyn_bywater
+recruit_character=CRO_cersei_lannister
+recruit_character=CRO_jon_arryn
+recruit_character=CRO_no_hand_of_king
+recruit_character=CRO_jason_slynt
+recruit_character=CRO_osfryd_kettleblack
+recruit_character=CRO_barristan_selmy
+recruit_character=CRO_jaime_lannister
+recruit_character = CRO_lord_varys
+
+recruit_character=CRO_boros_blount
+recruit_character=CRO_meryn_trant
+recruit_character=CRO_mandon_moore
+recruit_character=CRO_preston_greenfield
+recruit_character=CRO_balon_swann
+
+
+activate_advisor = CRO_jon_arryn
+activate_advisor = CRO_cersei_lannister
+
+# Hands of King
+recruit_character = CRO_ned_stark
+recruit_character = CRO_renly_baratheon
+recruit_character = CRO_tywin_lannister
+
+add_ideas = {
+	GOT_Tradition_Crownlands
+	GOT_Religion_The_Seven
+}

@@ -1,0 +1,23 @@
+state={
+	id=340
+	name="STATE_340"
+
+	history={
+		owner = SOT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOT
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+	
+	provinces={
+		149 422 651 1028 1071 1343 1347 1459 1917 1947 3180 3184 3195
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

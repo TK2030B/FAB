@@ -1,0 +1,66 @@
+characters={
+
+	WES_tywin_lannister={
+		name=WES_tywin_lannister
+		portraits={
+			army = {
+				large="gfx/leaders/WES/Portrait_Tywin_Lannister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/WES/Portrait_Tywin_Lannister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { }
+			skill = 6
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 5
+		}
+	}
+	
+	WES_Gregor_Clegane={
+		name=WES_Gregor_Clegane
+		portraits={
+			army = {
+				large="gfx/leaders/WES/Portrait_Gregor_Clegane.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	WES_Kevan_Lannister={
+		name=WES_Kevan_Lannister
+		portraits={
+			army = {
+				large="gfx/leaders/WES/Portrait_Kevan_Lannister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+
+
+}

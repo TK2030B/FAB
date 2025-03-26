@@ -1,0 +1,36 @@
+########################
+### STATE CATEGORIES ###
+########################
+
+city		6
+enclave		0
+large_city	0
+large_town	5
+megalopolis	12
+metropolis	10
+pastoral	1
+rural		2
+small_island	1
+tiny_island	0
+town		4
+wasteland	0
+
+state_category = xxx
+
+####################
+### FOCUS FILTER ###
+####################
+
+FOCUS_FILTER_POLITICAL
+FOCUS_FILTER_RESEARCH
+FOCUS_FILTER_INDUSTRY
+FOCUS_FILTER_STABILITY
+FOCUS_FILTER_WAR_SUPPORT
+FOCUS_FILTER_MANPOWER
+FOCUS_FILTER_ANNEXATION
+FOCUS_FILTER_INTERNAL_AFFAIRS
+FOCUS_FILTER_TFV_AUTONOMY
+FOCUS_FILTER_ARMY_XP
+FOCUS_FILTER_AIR_XP
+FOCUS_FILTER_NAVY_XP
+FOCUS_FILTER_BALANCE_OF_POWER

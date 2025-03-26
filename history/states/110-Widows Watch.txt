@@ -1,0 +1,21 @@
+
+state={
+	id=110
+	name="STATE_110"
+	state_category = rural
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		562 1009 1155 1593 1957 2045 2259 2404 2408 2421 2427 2428
+	}
+	manpower=622700
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

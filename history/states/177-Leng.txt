@@ -1,0 +1,30 @@
+state={
+	id=177
+	name="STATE_177"
+
+	history={
+		owner = LEN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 6
+			dockyard = 1
+			air_base = 6
+			798 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = LEN
+		#victory_points = {
+		#	2234 30
+		#}
+	}
+
+	provinces={
+		297 318 798 3038 3050
+	}
+	manpower=69254148
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.0
+}

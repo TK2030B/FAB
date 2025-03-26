@@ -1,0 +1,29 @@
+state={
+	id=88
+	name="STATE_88"
+	state_category = city
+
+	history={
+		owner = IRO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+			1544 = {
+				naval_base = 7
+			}
+		}
+		add_core_of = IRO
+		victory_points = { 1544 10 }
+	}
+
+	resources={ steel = 38 }
+
+	provinces={
+		1544 2518
+	}
+	manpower=1775340
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

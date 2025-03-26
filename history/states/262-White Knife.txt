@@ -1,0 +1,25 @@
+
+state={
+	id=262
+	name="STATE_262"
+	state_category = large_town
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 2
+			1541 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = NOR
+
+	}
+
+	provinces={
+		77 945 1183 1253 1388 1541 1591 1658 1763 1977 2034 2171 2407 2415 2417 2420 2422 2425 2429 2430 2431 2437 2439
+	}
+	manpower=1058590
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

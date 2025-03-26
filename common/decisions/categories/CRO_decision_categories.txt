@@ -1,0 +1,14 @@
+################
+##### NWA ######
+################
+
+CRO_iron_throne = {
+	picture = GFX_decision_cat_iron_throne
+	allowed = {
+		original_tag = CRO
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+}

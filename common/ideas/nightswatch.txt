@@ -1,0 +1,217 @@
+ideas = {
+
+	country = {
+
+		crows = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_crows
+
+			rule = {
+				can_guarantee_other_ideologies = no
+				can_send_volunteers = no
+			}
+
+			modifier = {
+				surrender_limit = 1.0
+				political_power_gain = -0.5
+				generate_wargoal_tension = 1.0
+				guarantee_tension = 1.0
+				ai_join_ally_desire_factor = -1.0
+				ai_get_ally_desire_factor = -1.0
+			}
+		}
+
+		NWA_three_orders = {
+
+			picture = three_orders
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				army_org_factor = -0.15
+				production_speed_buildings_factor = -0.15
+				command_power_gain = -0.75
+			}
+		}
+
+		NWA_three_orders_1 = {
+
+			picture = three_orders
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				army_org_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				command_power_gain = -0.5
+			}
+		}
+
+		NWA_three_orders_2 = {
+
+			picture = three_orders
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				army_org_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				command_power_gain = -0.25
+			}
+		}
+
+		NWA_three_orders_3 = {
+
+			picture = three_orders
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+
+		NWA_band_of_criminals = {
+
+			picture = crows_criminals
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				army_org_factor = -0.05
+			}
+		}
+
+		NWA_crows_in_sky = {
+
+			picture = crows_in_sky
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				army_bonus_air_superiority_factor = 0.1
+			}
+		}
+
+	NWA_consolidate_power_idea = {
+			picture = generic_volunteer_expedition_bonus
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = SOV
+			}
+
+			modifier = {
+				neutrality_drift = -0.2
+				stability_weekly = 0.005
+			}
+		}
+
+		NWA_open_gates = {
+				picture = prc_low_popular_support2
+
+				removal_cost = -1
+
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					original_tag = NWA
+				}
+
+				modifier = {
+					weekly_manpower = 500
+				}
+			}
+
+			NWA_failed_northern_expedition = {
+					picture = prc_low_popular_support2
+
+					removal_cost = -1
+
+					allowed = {
+						always = no
+					}
+
+					allowed_civil_war = {
+						original_tag = NWA
+					}
+
+					modifier = {
+						weekly_manpower = 500
+					}
+				}
+
+	}
+
+}

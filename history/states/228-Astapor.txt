@@ -1,0 +1,26 @@
+
+state={
+	id=228
+	name="STATE_228"
+
+	history={
+		owner = SLA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = SLA
+
+	}
+
+	provinces={
+		593 1045 1149 1340 1540 1621 1803 1869 2204 2955 2958 2960 2964 2985 2994
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=143
+	name="STATE_143"
+	state_category = town
+
+	history={
+		owner = REA
+		buildings = {
+			infrastructure = 4
+			2922 = {
+				naval_base = 9
+			}
+		}
+		add_core_of = REA
+
+	}
+
+	provinces={
+		166 2922 2939 3298
+	}
+	manpower=12173760
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

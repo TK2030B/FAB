@@ -1,0 +1,287 @@
+# for every new fort build along the Wall, a new unit can be recruited
+## should be balanced that normally just half can be archieved by player before war
+### there might be a better way to do it, but this should do for now
+NWA_upgrade_division_cap = {
+
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 0
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 2
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 4
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 1
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 3
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 5
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 2
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 4
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 6
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 3
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 5
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 6
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 4
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 6
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 5
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 5
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 7
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 6
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 6
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 8
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 7
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 7
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 9
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 8
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 8
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 10
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 9
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 8
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 10
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 9
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 9
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 11
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 10
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 10
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 12
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 11
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 11
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 13
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 12
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 12
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 14
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 13
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 13
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 15
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 14
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 14
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 16
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 15
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 15
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 17
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 16
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 16
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 18
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 17
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 17
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 19
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 18
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+	    	NWA_div_cap_var > 18
+			}
+			check_variable = {
+	    	NWA_div_cap_var < 20
+			}
+		}
+		set_division_template_cap = {
+			division_template = "Wall Garrison"
+			division_cap = 19
+		}
+	}
+
+}

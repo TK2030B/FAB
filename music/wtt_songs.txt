@@ -1,0 +1,70 @@
+
+music_station = "base_music"
+
+music = {
+	song = "battleofwuhan"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					original_tag = YTI
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = YTI
+			}
+		}
+	}
+
+}
+
+music = {
+	song = "empireofthesun"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					original_tag = LEN
+				}
+			}
+		}
+
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = LEN
+			}
+		}
+	}
+}
+
+music = {
+	song = "warofresistance"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					original_tag = YTI
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = YTI
+			}
+		}
+	}
+
+}

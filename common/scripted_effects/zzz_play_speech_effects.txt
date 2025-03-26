@@ -1,0 +1,5 @@
+##scripted effects to play certain speeches, for easier maintenance
+
+#play_peace_in_our_time_effect = {
+#	hidden_effect = { play_song = "peace_in_our_time" }
+#}

@@ -1,0 +1,23 @@
+state={
+	id=21
+	name="STATE_21"
+	state_category = pastoral
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+			1348 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		1348 1797 2356
+	}
+	manpower=311350
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}

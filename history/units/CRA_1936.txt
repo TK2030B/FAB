@@ -1,0 +1,20 @@
+﻿division_template = {
+	name = "Village Guards"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Casters Keep Guard"
+		location = 580
+		division_template = "Village Guards"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

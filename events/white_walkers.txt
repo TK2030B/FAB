@@ -1,0 +1,222 @@
+﻿###########################
+#### white_walkers Events
+###########################
+
+add_namespace = white_walkers
+
+# Activity in the Land of Always Winter
+country_event = {
+	id = white_walkers.1
+	title = white_walkers.1.t
+	desc = white_walkers.1.d
+	picture = GFX_report_event_destroyed_village
+
+	trigger = {
+		controls_state = 1
+		date > 1936.06.01
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 60 }
+
+	immediate = {
+		hidden_effect = {
+			1 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 1 }
+			}
+			6 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 6 }
+			}
+			if = {
+				limit = {NOT = { tag = WIL } }
+				news_event = { id = news.503 days = 10 }
+			}
+			set_country_flag = ICE_expanded
+		}
+	}
+
+	option = {
+		name = white_walkers.1.a
+		add_manpower = -50
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -50
+		}
+		1 = { add_manpower = -12770 }
+		6 = { add_manpower = -25362 }
+		hidden_effect = {
+			country_event = { id = white_walkers.2 days = 60 }
+		}
+	}
+	option = {
+		name = white_walkers.1.b
+		subtract_from_variable = {
+			var = tribe_unity
+			value = 5
+		}
+		clamp_variable = {
+			var = tribe_unity
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = WIL_reduces_unity
+		1 = { add_manpower = -12770 }
+		6 = { add_manpower = -25362 }
+	}
+}
+
+# Scout team from the north returns
+country_event = {
+	id = white_walkers.2
+	title = white_walkers.2.t
+	desc = white_walkers.2.d
+	picture = GFX_report_event_wounded_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = white_walkers.2.a
+		add_manpower = 12
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 12
+		}
+		add_war_support = 0.03
+	}
+}
+
+# Frozen Shore, Ice River lost, Thenns Valley + Northern Haunted Forest Lost
+country_event = {
+	id = white_walkers.3
+	title = white_walkers.3.t
+	desc = white_walkers.3.d
+	picture = GFX_report_event_destroyed_village
+
+	trigger = {
+		OR = {
+			controls_state = 4
+			controls_state = 5
+			controls_state = 7
+			controls_state = 11
+
+		}
+		date > 1937.06.01
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 60 }
+
+	immediate = {
+		hidden_effect = {
+			4 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 4 }
+			}
+			5 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 5 }
+			}
+			7 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 7 }
+			}
+			11 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 11 }
+			}
+			set_country_flag = ICE_expanded_1
+		}
+	}
+
+	option = {
+		name = white_walkers.3.a
+		5 = { add_manpower = -152172 }
+		11 = { add_manpower = -101448 }
+		4 = { add_manpower = -126810 }
+		7 = { add_manpower = -114129 }
+	}
+}
+
+# Haunted Forest + Frostfangs Lost
+country_event = {
+	id = white_walkers.4
+	title = white_walkers.4.t
+	desc = white_walkers.4.d
+	picture = GFX_report_event_destroyed_village
+
+	trigger = {
+		OR = {
+			controls_state = 9
+			controls_state = 10
+		}
+		date > 1938.06.01
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 60 }
+
+	immediate = {
+		hidden_effect = {
+			9 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 9 }
+			}
+			10 = {
+				add_province_modifier = {
+					static_modifiers = { white_walkers }
+					province = {
+						all_provinces = yes
+					}
+				}
+				ICE = { transfer_state = 10 }
+			}
+			set_country_flag = ICE_expanded_2
+		}
+	}
+
+	option = {
+		name = white_walkers.4.a
+		9 = { add_manpower = -88767 }
+		10 = { add_manpower = -139491 }
+	}
+}

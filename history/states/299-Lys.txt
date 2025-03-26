@@ -1,0 +1,26 @@
+
+state={
+	id=299
+	name="STATE_299"
+
+	history={
+		owner = LYS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = LYS
+
+	}
+
+	provinces={
+		5 224 288 447 559 561 759 803 976 1208 1212 1215 1216 1355 1369 1412 1596 1638 1651 1695 1741 1822 1842 2022 2035 2110 2237 2271 2281 2316 2788 2793 2798 2799 2802 2804 2805 2813 2815 2821 2829 2834 2835 2837 2863 2871 2873 2876 2882 2898 2903 2906 2915 4605 4606 4607 4608
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

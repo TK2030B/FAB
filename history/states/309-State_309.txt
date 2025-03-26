@@ -1,0 +1,15 @@
+state={
+	id=309
+	name="STATE_309"
+	history={
+		owner = REW
+		add_core_of = REW
+	}
+	provinces={
+		35 411 551 578 1207 1572 2840 2864 2907 2927 2948
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

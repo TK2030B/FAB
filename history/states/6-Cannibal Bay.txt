@@ -1,0 +1,22 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = WIL
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		51 94 155 230 1823 2129 2324 3209 4639 4640 4643 4648 4650 4652 4654
+	}
+	manpower=25362
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.0
+}

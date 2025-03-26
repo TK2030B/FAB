@@ -1,0 +1,21 @@
+characters={
+
+	IBB_shadow_council={
+		name=IBB_shadow_council
+		portraits={
+			army = {
+				large="gfx/leaders/IBB/Portrait_Shadow_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/IBB/Portrait_Shadow_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+
+}

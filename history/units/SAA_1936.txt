@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "Saath City Guard"	# represents first part of enlarged divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Saath City Guard"
+		location = 669
+		division_template = "Saath City Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

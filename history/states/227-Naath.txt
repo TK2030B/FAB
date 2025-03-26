@@ -1,0 +1,25 @@
+
+state={
+	id=227
+	name="STATE_227"
+
+	history={
+		owner = NAA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = NAA
+
+	}
+
+	provinces={
+		1838 3365 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

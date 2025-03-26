@@ -1,0 +1,23 @@
+
+state={
+	id=298
+	name="STATE_298"
+
+	history={
+		owner = REA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = REA
+
+	}
+
+	provinces={
+		466 797 1043 1213 1504 1709 1764 1799 2158 2675 2707 
+	}
+	manpower=13188240
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

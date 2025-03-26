@@ -1,0 +1,24 @@
+
+state={
+	id=4
+	name="STATE_4"
+
+	history={
+		owner = WIL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = FF4
+
+	}
+
+	provinces={
+		1085 1362 2329 4638 4641 4642 4644 4645 4647 4649 4651
+	}
+	manpower=126810
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

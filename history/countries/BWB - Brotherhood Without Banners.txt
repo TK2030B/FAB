@@ -1,0 +1,39 @@
+﻿capital = 107
+
+#oob = "CRO_1936"
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "CRO_1936_naval_mtg"
+#	else = {
+#		set_naval_oob = "CRO_1936_naval_legacy"
+#	}
+#}
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 100
+	neutrality = 0
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=BWB_beric_dondarrion
+recruit_character=BWB_notch_avery
+recruit_character=BWB_thoros
+
+add_ideas = {
+	GOT_Religion_LOL
+}

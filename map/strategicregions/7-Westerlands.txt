@@ -1,0 +1,24 @@
+
+strategic_region={
+	id=7
+	name="STRATEGICREGION_7"
+	provinces={
+		22 122 332 333 372 376 392 409 415 445 527 544 724 739 799 867 948 1105 1147 1150 1157 1252 1380 1428 1458 1464 1525 1619 1699 1710 1727 1808 1833 1873 1893 1921 1926 1998 2005 2020 2262 2274 2304 2321 2322 2533 2548 2550 2552 2570 2588 2591 2597 2601 2605 2609 2612 2613 2622 2628 2640 2643 2646 3274 
+	}
+	weather={
+		period={
+			between={ 0.0 0.0 }
+			temperature={ -10.0 35.0 }
+			temperature_day_night={ 2.0 -2.0 }
+			no_phenomenon=1.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.000
+			blizzard=0.000
+			arctic_water=0.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
+	}
+}

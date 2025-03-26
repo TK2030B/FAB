@@ -1,0 +1,50 @@
+################
+##### NWA ######
+################
+
+NWA_buy_ships = {
+	allowed = {
+		original_tag = NWA
+	}
+	visible = {
+		has_completed_focus = NWA_purchase_ships
+	}
+}
+
+NWA_liberalist_civil_war = {
+	allowed = {
+		original_tag = NWA
+	}
+	visible = {
+		has_completed_focus = NWA_change_system
+		NOT = { has_completed_focus = NWA_kill_lord_commander }
+	}
+	visible_when_empty = yes
+}
+
+NWA_wall = {
+
+	allowed = {
+		original_tag = NWA
+	}
+	visible = {
+		has_completed_focus = NWA_reman_abandoned_forts
+	}
+	visible_when_empty = yes
+	scripted_gui = NWA_status_of_wall_GUI
+}
+
+NWA_great_ranging = {
+
+	icon = eng_organize_the_blackshirts
+
+	allowed = {
+		original_tag = NWA
+		NOT = { has_country_flag = NWA_retreated_flg }
+	}
+	visible = {
+		has_country_flag = NWA_ranging_began
+	}
+	visible_when_empty = yes
+	scripted_gui = NWA_great_ranging_GUI
+}

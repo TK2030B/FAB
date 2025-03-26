@@ -1,0 +1,29 @@
+characters={
+
+	OMB_king_test={
+		name=OMB_king_test
+		portraits={
+			army = {
+				large="gfx/leaders/OMB/Portrait_King_of_Omber.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/OMB/Portrait_King_of_Omber.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+		field_marshal={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+}

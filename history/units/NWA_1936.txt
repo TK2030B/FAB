@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Wall Garrison"
+	division_names_group = NWA_castles_garrison
+	template_counter = 06
+	is_locked = yes
+	division_cap = 3
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Shadow Tower Garrison"
+		location = 4622 #Shadow Tower
+		division_template = "Wall Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Castle Black Garrison"
+		location = 4626 #Castle Black
+		division_template = "Wall Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Eastwatch Garrison"
+		location = 4627  #Eastwatch by the sea
+		division_template = "Wall Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "NWA"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 70
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment
+			creator = "NWA"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 70
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "NWA"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 70
+	}
+}
