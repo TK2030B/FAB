@@ -21,3 +21,8 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+add_ideas = {
+    GOT_Tradition_Tribal
+    GOT_Religion_Tribal
+}

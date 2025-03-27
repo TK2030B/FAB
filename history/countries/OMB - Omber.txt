@@ -30,3 +30,8 @@ set_politics = {
 }
 
 recruit_character=OMB_king_test
+
+add_ideas = {
+    GOT_Tradition_Free_City
+    GOT_Religion_LOL
+}

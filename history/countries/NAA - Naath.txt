@@ -25,3 +25,8 @@ set_politics = {
 }
 
 recruit_character=NAA_leader_unknown
+
+add_ideas = {
+    GOT_Tradition_Tribal
+    GOT_Religion_Tribal
+}

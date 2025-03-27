@@ -47,3 +47,8 @@ if = {
 }
 
 recruit_character=LOR_three_prince_council
+
+add_ideas = {
+	GOT_Tradition_Free_City
+	GOT_Religion_Blind_God
+}

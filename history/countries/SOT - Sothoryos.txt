@@ -34,4 +34,6 @@ recruit_character=SOT_unknown_leader_tribal
 
 add_ideas = {
 	closed_economy
+    GOT_Tradition_Tribal
+    GOT_Religion_Tribal
 }

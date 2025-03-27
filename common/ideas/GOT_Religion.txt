@@ -165,6 +165,7 @@ ideas = {
 				research_speed_factor = 0.05  # Valyrians were advanced.
 				war_support_factor = 0.05     # Militaristic dragonlord culture.
 				stability_factor = -0.05      # Polytheistic rivalries and decline.
+				justify_war_goal_time = -0.50
 			}
 
 			cancel_if_invalid = no
