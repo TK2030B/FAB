@@ -1,10 +1,6 @@
 state={
 	id=301
 	name="STATE_301"
-	history={
-		owner = REW
-		add_core_of = REW
-	}
 	provinces={
 		381 1245 1772 2787
 	}
