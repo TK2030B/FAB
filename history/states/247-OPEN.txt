@@ -1,13 +1,7 @@
-
 state={
-	id=29
-	name="STATE_29"
-	history={
-		owner = IBB
-		add_core_of = IBB
-	}
+	id=247
+	name="STATE_247"
 	provinces={
-		3216 3218
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

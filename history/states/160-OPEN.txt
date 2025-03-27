@@ -1,12 +1,8 @@
 state={
-	id=233
-	name="STATE_233"
-	history={
-		owner = LEN
-		add_core_of = LEN
-	}
+	id=160
+	name="STATE_160"
 	provinces={
-		3364
+		
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
