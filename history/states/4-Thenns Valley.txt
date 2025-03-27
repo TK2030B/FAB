@@ -13,6 +13,16 @@ state={
 		add_core_of = FF4
 
 	}
+	
+	resources = {
+		# Thenns Valley
+		oil = 0        # Grain  
+		rubber = 12     # Timber  
+		aluminium = 2   # Copper  
+		steel = 2       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		1085 1362 2329 4638 4641 4642 4644 4645 4647 4649 4651

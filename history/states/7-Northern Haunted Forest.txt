@@ -12,6 +12,16 @@ state={
 		add_core_of = FF6
 
 	}
+	
+	resources = {
+		# Northern Haunted Forest
+		oil = 0        # Grain  
+		rubber = 10     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 1    # Silver  
+	}
 
 	provinces={
 		95 281 2328 2330 2332

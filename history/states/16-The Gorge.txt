@@ -10,6 +10,16 @@ state={
 		add_core_of = WIL
 
 	}
+	
+	resources = {
+		# The Gorge
+		oil = 0        # Grain  
+		rubber = 4     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		1553 2342 2344 2348

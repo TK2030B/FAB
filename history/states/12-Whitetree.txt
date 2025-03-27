@@ -14,6 +14,17 @@ state={
 		add_core_of = WIL
 
 	}
+	
+	resources = {
+		# White Tree
+		oil = 0        # Grain  
+		rubber = 4     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
+
 
 	provinces={
 		30 461 612 1395 1417 1600 2337 2338 2341 2343 2346 3210

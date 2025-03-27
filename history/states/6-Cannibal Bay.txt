@@ -11,6 +11,17 @@ state={
 		}
 
 	}
+	
+	resources = {
+		# Cannibal Bay
+		oil = 0        # Grain  
+		rubber = 5     # Timber  
+		aluminium = 0   # Copper  
+		steel = 0       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
+
 
 	provinces={
 		51 94 155 230 1823 2129 2324 3209 4639 4640 4643 4648 4650 4652 4654

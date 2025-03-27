@@ -17,7 +17,7 @@ state={
 	resources = {
 		# Grey Cliffs
 		oil = 1        # Grain  
-		rubber = 2     # Timber  
+		rubber = 3     # Timber  
 		aluminium = 0   # Copper  
 		steel = 1       # Iron  
 		tungsten = 0    # Gold  

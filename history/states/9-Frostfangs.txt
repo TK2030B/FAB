@@ -2,9 +2,6 @@
 state={
 	id=9
 	name="STATE_9"
-	resources={
-		steel=3.000
-	}
 
 	history={
 		owner = WIL
@@ -14,6 +11,16 @@ state={
 		}
 		add_core_of = FF3
 
+	}
+	
+	resources = {
+		# Frostfangs
+		oil = 0        # Grain  
+		rubber = 3     # Timber  
+		aluminium = 1   # Copper  
+		steel = 2       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 1    # Silver  
 	}
 
 	provinces={

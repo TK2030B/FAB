@@ -12,6 +12,16 @@ state={
 		add_core_of = FF1
 
 	}
+	
+	resources = {
+		# Ice River
+		oil = 1        # Grain  
+		rubber = 10     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		135 4629 4630 4631 4632 4633

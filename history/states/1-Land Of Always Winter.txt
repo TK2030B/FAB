@@ -11,6 +11,16 @@ state={
 		}
 
 	}
+	
+	resources = {
+		# Land of Always Winter
+		oil = 0        # Grain  
+		rubber = 20     # Timber  
+		aluminium = 2   # Copper  
+		steel = 0       # Iron  
+		tungsten = 2    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		117 267 737 983 1095 1267 1310 1378 1697 1970 2325 2326 2327 2331 4646 4653 4655 4656 4657

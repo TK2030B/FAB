@@ -15,6 +15,16 @@ state={
 		}
 
 	}
+	
+	resources = {
+		# Southern Haunted Forest
+		oil = 0        # Grain  
+		rubber = 9     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 1    # Silver  
+	}
 
 	provinces={
 		45 680 958 1337 1535 1571 1967

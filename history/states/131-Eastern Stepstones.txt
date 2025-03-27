@@ -11,6 +11,15 @@ state={
 		}
 		add_core_of = STE
 	}
+	
+	resources = {
+		oil = 0        # Grain  
+		rubber = 3     # Timber  
+		aluminium = 0   # Copper  
+		steel = 0       # Iron  
+		tungsten = 2    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		1937 3292 3293 3294

@@ -15,6 +15,16 @@ state={
 			580 1
 		}
 	}
+	
+	resources = {
+		# Craster's Keep
+		oil = 0        # Grain  
+		rubber = 4     # Timber  
+		aluminium = 0   # Copper  
+		steel = 0       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={ 580 }
 	local_supplies=0.0

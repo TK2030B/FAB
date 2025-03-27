@@ -16,6 +16,16 @@ state={
 		add_core_of = FF2
 
 	}
+	
+	resources = {
+		# Frozen Shore
+		oil = 1        # Grain  
+		rubber = 7     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 1    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		90 159 863 996 1177 1554 1615 2334 2336 4628

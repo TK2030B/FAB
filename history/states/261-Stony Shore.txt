@@ -16,7 +16,7 @@ state={
 	resources = {
 		# Stony Shore
 		oil = 0        # Grain  
-		rubber = 1     # Timber  
+		rubber = 2     # Timber  
 		aluminium = 0   # Copper  
 		steel = 1       # Iron  
 		tungsten = 0    # Gold  

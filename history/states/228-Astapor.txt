@@ -15,6 +15,16 @@ state={
 		add_core_of = SLA
 
 	}
+	
+	resources = {
+		# Slaver's Bay
+		oil = 0        # Grain  
+		rubber = 10    # Timber  
+		aluminium = 60 # Copper  
+		steel = 60     # Iron  
+		tungsten = 80  # Gold  
+		chromium = 40  # Silver  
+	}
 
 	provinces={
 		593 1045 1149 1340 1540 1621 1803 1869 2204 2955 2958 2960 2964 2985 2994
