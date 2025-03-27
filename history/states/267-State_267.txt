@@ -1,6 +1,10 @@
 state={
 	id=267
 	name="STATE_267"
+	history={
+		owner = UNL
+		add_core_of = UNL
+	}
 	provinces={
 		227 304 330 571 588 742 761 785 796 1127 1284 1288 1457 1628 2037 2454 2470 2471
 	}
