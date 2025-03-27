@@ -15,6 +15,16 @@ state={
 		}
 		add_core_of = LYS
 	}
+	
+	resources = {
+		oil = 5       # Grain
+		rubber = 15   # Timber
+		aluminium = 0 # Copper
+		steel = 0     # Iron
+		tungsten = 15 # Gold
+		chromium = 10 # Silver
+	}
+
 
 	provinces={
 		2123 3304

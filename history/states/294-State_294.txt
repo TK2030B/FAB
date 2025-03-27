@@ -13,6 +13,17 @@ state={
 
 	}
 	
+	# Southwestern Quadrant (Agricultural Heartland)
+	resources = {
+		oil = 6        # Grain  
+		rubber = 2     # Timber  
+		aluminium = 0  # Copper  
+		steel = 0      # Iron  
+		tungsten = 5   # Gold  
+		chromium = 2   # Silver  
+	}
+
+	
 	provinces={
 		246 672 704 1442 1450 1608 1660 1729 2080 2128 2180 2249 2698 2746 2748 2803
 	}

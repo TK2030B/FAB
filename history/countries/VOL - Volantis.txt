@@ -30,3 +30,8 @@ set_politics = {
 }
 
 recruit_character=VOL_triarchy
+
+add_ideas = {
+	GOT_Tradition_Slaver
+	GOT_Religion_LOL
+}

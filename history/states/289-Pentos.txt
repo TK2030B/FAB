@@ -14,6 +14,16 @@ state={
 		add_core_of = PEN
 
 	}
+	
+	resources = {
+		oil = 5        # Grain  
+		rubber = 2     # Timber  
+		aluminium = 0  # Copper  
+		steel = 0      # Iron  
+		tungsten = 18  # Gold  
+		chromium = 9   # Silver  
+	}
+
 
 	provinces={
 		128 228 601 674 905 1051 1296 1387 1904 2018 2227 2293 2620 2630 2658 2665 2669 2678 2694
