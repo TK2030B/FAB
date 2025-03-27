@@ -12,6 +12,15 @@ state={
 		add_core_of = RIV
 
 	}
+	
+	resources = {
+		oil = 18         # Grain
+		rubber = 16      # Timber
+		aluminium = 2    # Copper
+		steel = 18       # Iron
+		tungsten = 2     # Gold
+		chromium = 1     # Silver
+	}
 
 	provinces={
 		97 142 207 821 1616 1733 1850 2109 2520 2528 2532 2536 
