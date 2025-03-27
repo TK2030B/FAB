@@ -2,10 +2,6 @@ state={
 	id=313
 	name="STATE_313"
 
-	resources={
-		chromium=120
-	}
-
 	history={
 		owner = QAR
 		buildings = {
