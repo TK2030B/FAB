@@ -20,6 +20,16 @@ state={
 		add_core_of = DOR
 
 	}
+	
+	# Dornish Desert
+	resources = {
+		oil = 0          # Grain
+		rubber = 0       # Timber
+		aluminium = 0    # Copper
+		steel = 0        # Iron
+		tungsten = 0     # Gold
+		chromium = 0     # Silver
+	}
 
 	provinces={
 		307 369 640 779 922 967 1125 1142 1278 1436 1476 1961 2042 2177 2226 2309 2867 2890 2908 2909 2924 2931 4661

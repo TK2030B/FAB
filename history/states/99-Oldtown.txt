@@ -14,6 +14,16 @@ state={
 		add_core_of = REA
 
 	}
+	
+	resources={
+		oil=20       # Grain  
+		rubber=8     # Timber  
+		aluminium=7  # Copper  
+		steel=15     # Iron  
+		tungsten=4   # Gold  
+		chromium=8   # Silver  
+	}
+
 
 	provinces={
 		637 849 853 960 1301 1455 1460 1564 1636 1663 1745 1778 1809 1824 1862 2017 2118 2213 2265 2289 2755 2779 2792 2810 2823 2833 2846 2862 2870 2912

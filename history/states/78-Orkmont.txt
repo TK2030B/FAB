@@ -18,7 +18,14 @@ state={
 		victory_points = { 2219 1 }
 	}
 
-	resources={ steel = 19 }
+	resources={
+		oil=1         # Grain  
+		rubber=1       # Timber  
+		aluminium=1    # Copper  
+		steel=15        # Iron  
+		tungsten=1     # Gold  
+		chromium=1     # Silver  
+	}
 
 	provinces={
 		2219 2498

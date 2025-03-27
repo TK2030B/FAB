@@ -24,6 +24,17 @@ state={
 		}
 		add_core_of = DOR
 	}
+	
+	# Starfall
+	resources = {
+		oil = 1          # Grain
+		rubber = 1       # Timber
+		aluminium = 6    # Copper
+		steel = 4        # Iron
+		tungsten = 6     # Gold
+		chromium = 7     # Silver
+	}
+
 
 	provinces={
 		938 1237 1345 1467 1520 1779 1986 2849 2881 2901 2914 4658 4663 4669

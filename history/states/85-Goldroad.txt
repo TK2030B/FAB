@@ -11,6 +11,16 @@ state={
 		}
 		add_core_of = WES
 	}
+	
+	resources={
+		oil=5         # Grain  
+		rubber=2      # Timber  
+		aluminium=8   # Copper  
+		steel=20      # Iron  
+		tungsten=70   # Gold  
+		chromium=30   # Silver  
+	}
+
 
 	provinces={
 		372 409 739 1105 1150 1252 1458 1464 1525 1710 1833 2304 2322 2605 2622 2628

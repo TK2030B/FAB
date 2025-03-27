@@ -13,6 +13,16 @@ state={
 		add_core_of = CRO
 
 	}
+	
+	resources={
+		oil=1          # Grain  
+		rubber=12      # Timber  
+		aluminium=0    # Copper  
+		steel=2        # Iron  
+		tungsten=0     # Gold  
+		chromium=0     # Silver  
+	}
+
 
 	provinces={
 		659 760 1030 2633 2642 4687 4688 4689 

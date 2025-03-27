@@ -12,6 +12,16 @@ state={
 		add_core_of = DOR
 
 	}
+	
+	# Eastern Red Mountains
+	resources = {
+		oil = 1          # Grain
+		rubber = 1       # Timber
+		aluminium = 8    # Copper
+		steel = 5        # Iron
+		tungsten = 6     # Gold
+		chromium = 8     # Silver
+	}
 
 	provinces={
 		636 963 1027 1358 1408 1598 1702 2776 2797 2831 2841 2851 4677 4678 4679

@@ -18,6 +18,16 @@ state={
 		}
 		add_core_of = DOR
 	}
+	
+	# Ironwood
+	resources = {
+		oil = 2          # Grain
+		rubber = 1       # Timber
+		aluminium = 9    # Copper
+		steel = 7        # Iron
+		tungsten = 9     # Gold
+		chromium = 8     # Silver
+	}
 
 	provinces={
 		767 817 1074 1080 1319 1426 1486 1898 2175 2865 2891 4664 4665 4667 4668 4673

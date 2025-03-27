@@ -33,6 +33,15 @@ state={
 		add_core_of = DOR
 
 	}
+	
+	resources = {
+		oil = 1          # Grain
+		rubber = 1       # Timber
+		aluminium = 7    # Copper
+		steel = 6        # Iron
+		tungsten = 9     # Gold
+		chromium = 8     # Silver
+	}
 
 	provinces={
 		682 912 1574 1635 2190 2895 2896 2904 2910 2926 2928 2930 2932 4659 4660 4662

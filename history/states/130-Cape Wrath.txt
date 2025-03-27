@@ -33,6 +33,15 @@ state={
 		add_core_of = STO
 
 	}
+	
+	resources={
+		oil=3         # Grain  
+		rubber=10     # Timber  
+		aluminium=3   # Copper  
+		steel=8       # Iron  
+		tungsten=1    # Gold  
+		chromium=1    # Silver  
+	}
 
 	provinces={
 		92 880 1290 1784 2043 2131 2232 2258 2736 2740 2752 2762 2767 2777 3289 3290

@@ -22,8 +22,12 @@ state={
 	}
 
 	resources={
-		steel = 56
-		tungsten = 56
+		oil=1         # Grain  
+		rubber=1       # Timber  
+		aluminium=1    # Copper  
+		steel=15        # Iron  
+		tungsten=1     # Gold  
+		chromium=1     # Silver  
 	}
 
 	provinces={

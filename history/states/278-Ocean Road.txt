@@ -19,6 +19,16 @@ state={
 			2609 20
 		}
 	}
+	
+	resources={
+		oil=3         # Grain  
+		rubber=2      # Timber  
+		aluminium=6   # Copper  
+		steel=40      # Iron  
+		tungsten=80   # Gold  
+		chromium=40   # Silver  
+	}
+
 
 	provinces={
 		332 445 544 1699 1727 1873 1926 1998 2005 2020 2262 2274 2609 2612 2613 2640 2643 2646

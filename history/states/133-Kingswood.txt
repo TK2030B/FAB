@@ -11,6 +11,15 @@ state={
 		}
 		add_core_of = STO
 	}
+	
+	resources={
+		oil=8         # Grain  
+		rubber=30     # Timber  
+		aluminium=3   # Copper  
+		steel=2       # Iron  
+		tungsten=0    # Gold  
+		chromium=0    # Silver  
+	}
 
 	provinces={
 		161 377 972 1079 1344 2019 2049 2662 2691 2693
