@@ -18,6 +18,16 @@ state={
 		}
 		add_core_of = NOR
 	}
+	
+	resources = {
+		# Skagos
+		oil = 1        # Grain  
+		rubber = 2     # Timber  
+		aluminium = 0   # Copper  
+		steel = 0       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		1238 2169 2340 2345 3211 4681 4682 4683 4684 4685

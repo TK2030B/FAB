@@ -14,13 +14,13 @@ state={
 		add_core_of = WES
 	}
 	
-	resources={
-		oil=5         # Grain  
-		rubber=1      # Timber  
-		aluminium=5   # Copper  
-		steel=5       # Iron  
-		tungsten=18   # Gold  
-		chromium=6    # Silver  
+	resources = {
+		oil = 3          # Grain
+		rubber = 1       # Timber
+		aluminium = 2    # Copper
+		steel = 3        # Iron
+		tungsten = 10    # Gold
+		chromium = 3     # Silver
 	}
 
 

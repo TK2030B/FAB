@@ -13,6 +13,16 @@ state={
 		}
 		add_core_of = NOR
 	}
+	
+	resources = {
+		# Bear Island
+		oil = 2        # Grain  
+		rubber = 5     # Timber  
+		aluminium = 0   # Copper  
+		steel = 3      # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		1348 1797 2356

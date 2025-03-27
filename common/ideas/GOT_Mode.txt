@@ -33,13 +33,13 @@ ideas = {
 				#production_cost_dockyard_factor = 2.0
 				
 				#Nukes are 2x more Expensive
-				production_cost_nuclear_facility_factor = 2.0
-				production_cost_commercial_nuclear_reactor_factor = 2.0
-				production_cost_nuclear_reactor_heavy_water_factor = 2.0
-				production_cost_nuclear_reactor_factor = 2.0
+				#production_cost_nuclear_facility_factor = 2.0
+				#production_cost_commercial_nuclear_reactor_factor = 2.0
+				#production_cost_nuclear_reactor_heavy_water_factor = 2.0
+				#production_cost_nuclear_reactor_factor = 2.0
 
 				#Naval Bases and Dockyards are 2x More expensive to Prevent Spam
-				production_cost_naval_base_factor = 2.0
+				#production_cost_naval_base_factor = 2.0
 				
 				#Forts are 2x More Expensive, but 2x More Powerful
 				production_cost_bunker_factor = 2.0

@@ -11,6 +11,16 @@ state={
 		}
 		add_core_of = NOR
 	}
+	
+	resources = {
+		# Rams Gate
+		oil = 1        # Grain  
+		rubber = 2     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		543 1160 2192 2423 2424

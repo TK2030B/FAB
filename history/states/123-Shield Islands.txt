@@ -25,14 +25,15 @@ state={
 		add_core_of = REA
 	}
 	
-	resources={
-		oil=5        # Grain  
-		rubber=5     # Timber  
-		aluminium=5  # Copper  
-		steel=5      # Iron  
-		tungsten=1   # Gold  
-		chromium=4   # Silver  
+	resources = {
+		oil = 3          # Grain
+		rubber = 3       # Timber
+		aluminium = 2    # Copper
+		steel = 3        # Iron
+		tungsten = 1     # Gold
+		chromium = 2     # Silver
 	}
+
 
 
 	provinces={

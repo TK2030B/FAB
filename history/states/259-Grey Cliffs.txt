@@ -13,6 +13,17 @@ state={
 		add_core_of = NOR
 
 	}
+	
+	resources = {
+		# Grey Cliffs
+		oil = 1        # Grain  
+		rubber = 2     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
+
 
 	provinces={
 		19 341 643 1198 1508 1522 1543 1673 1903 1976 1988 2206 2255 2278 2306 2355 2357 2362 2365 2368 2371 2374 2383

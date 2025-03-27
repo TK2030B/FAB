@@ -24,9 +24,9 @@ state={
 		oil=3         # Grain  
 		rubber=2      # Timber  
 		aluminium=6   # Copper  
-		steel=40      # Iron  
+		steel=42      # Iron  
 		tungsten=80   # Gold  
-		chromium=40   # Silver  
+		chromium=43   # Silver  
 	}
 
 

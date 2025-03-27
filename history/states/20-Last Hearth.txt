@@ -13,6 +13,16 @@ state={
 		add_core_of = NOR
 
 	}
+	
+	resources = {
+		# Last Hearth
+		oil = 3        # Grain  
+		rubber = 8     # Timber  
+		aluminium = 1   # Copper  
+		steel = 6       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 1    # Silver  
+	}
 
 	provinces={
 		167 654 874 961 1132 1251 1640 1888 1938 2351 2354 2361 2363

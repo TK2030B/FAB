@@ -11,6 +11,16 @@ state={
 		}
 		add_core_of = NOR
 	}
+	
+	resources = {
+		# Sea Dragon Point
+		oil = 1        # Grain  
+		rubber = 2     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		687 920 987 1313 2058 2301 2390 2394

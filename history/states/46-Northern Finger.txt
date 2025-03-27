@@ -12,6 +12,15 @@ state={
 		add_core_of = VAL
 
 	}
+	
+	resources = {
+		oil = 6          # Grain
+		rubber = 12      # Timber
+		aluminium = 1    # Copper
+		steel = 10       # Iron
+		tungsten = 4     # Gold
+		chromium = 2     # Silver
+	}
 
 	provinces={
 		215 929 1987 2465 2468 2477

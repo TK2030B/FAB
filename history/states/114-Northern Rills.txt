@@ -12,6 +12,16 @@ state={
 		add_core_of = NOR
 
 	}
+	
+	resources = {
+		# Northern Rills
+		oil = 2        # Grain  
+		rubber = 5     # Timber  
+		aluminium = 1   # Copper  
+		steel = 4       # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
 
 	provinces={
 		471 1146 1492 1653 2041 2410 2413 2416 2857 4596 4597 
