@@ -139,6 +139,51 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		
+		GOT_Religion_Blind_God = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				intel_to_others = -0.10   # Less likely to be spied on due to secrecy.
+				operative_slot = 1       # More focus on espionage and secrecy.
+				stability_factor = -0.05 # A faith with extreme asceticism might cause instability.
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Religion_Valyrian = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05  # Valyrians were advanced.
+				war_support_factor = 0.05     # Militaristic dragonlord culture.
+				stability_factor = -0.05      # Polytheistic rivalries and decline.
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		GOT_Religion_Tribal = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.20 # 20% faster war goal justification
+				research_speed_factor = -0.20
+			}
+
+			cancel_if_invalid = no
+		}
+
 
 
 }

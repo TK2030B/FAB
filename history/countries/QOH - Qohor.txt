@@ -30,3 +30,8 @@ set_politics = {
 }
 
 recruit_character=QOH_high_lord_test
+
+add_ideas = {  
+	GOT_Tradition_Qohor 
+	GOT_Religion_Black_Goat
+}

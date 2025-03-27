@@ -125,5 +125,27 @@ spriteType = {
 	texturefile = "gfx/interface/ideas/Mode/Mode_GOT.dds"
 }
 
+spriteType = {
+	name = "GFX_idea_GOT_Religion_Blind_God"
+	texturefile = "gfx/interface/ideas/Religion/Religion_Blind_God.dds"
+}
+spriteType = {
+	name = "GFX_idea_GOT_Religion_Valyrian"
+	texturefile = "gfx/interface/ideas/Religion/Religion_Valyrian.dds"
+}
+spriteType = {
+	name = "GFX_idea_GOT_Religion_Tribal"
+	texturefile = "gfx/interface/ideas/Religion/Religion_Tribal.dds"
+}
+spriteType = {
+	name = "GFX_idea_GOT_Tradition_Free_City"
+	texturefile = "gfx/interface/ideas/Tradition/Tradition_Free_City.dds"
+}
+spriteType = {
+	name = "GFX_idea_GOT_Tradition_Tribal"
+	texturefile = "gfx/interface/ideas/Tradition/Tradition_Tribal.dds"
+}
+
+
 
 }

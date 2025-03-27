@@ -18,15 +18,20 @@ set_convoys = 0
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 0
-	neutrality = 100
+	neutrality = 0
+	communism = 100
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 recruit_character=ULT_unknown_leader
+recruit_character=ULT_unknown_leader_tribal
+
+add_ideas = {
+	closed_economy
+}

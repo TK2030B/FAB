@@ -2822,6 +2822,18 @@ GOT_Religion_Great_Stallion_desc:0 "The Dothraki worship the Great Stallion, who
 GOT_Religion_Black_Goat:0 "The Black Goat of Qohor"
 GOT_Religion_Black_Goat_desc:0 "A dark and bloodthirsty deity demanding daily sacrifices to ward off disaster."
 
+ GOT_Religion_Blind_God: "Faith of the Blind God"
+ GOT_Religion_Blind_God_desc: "A mysterious and esoteric faith centered around the worship of a god who sees all but is himself unseen. Its followers value secrecy, fate, and the inevitability of destiny."
+
+ GOT_Religion_Valyrian: "Valyrian Faith"
+ GOT_Religion_Valyrian_desc: "The ancient faith of the Valyrians, centered around dragonlords and fire-worship. Though its influence has waned, it still holds sway among those who honor the old ways."
+ 
+  GOT_Religion_Tribal:0 "Tribal Religion"
+  GOT_Religion_Tribal_desc:0 "A collection of diverse pagan beliefs, rooted in oral traditions and ancestral worship. Without a central authority, these faiths vary greatly from tribe to tribe."
+  
+  GOT_Tradition_Tribal:0 "Tribal Tradition"
+  GOT_Tradition_Tribal_desc:0 "A way of life built around kinship, oral history, and local customs. These traditions emphasize loyalty to the tribe and survival in harsh environments."
+
 GOT_Tradition_Unknown:0 "Unknown Tradition"
 GOT_Tradition_Unknown_desc:0 "A culture and way of life obscured from the annals of history."
 
@@ -2881,6 +2893,9 @@ GOT_Tradition_Desert_desc:0 "A people accustomed to arid wastelands, thriving in
 
 GOT_Tradition_Slaver:0 "Slaver's Tradition"
 GOT_Tradition_Slaver_desc:0 "A culture built upon the institution of slavery, where wealth and power are gained through the suffering of others."
+
+  GOT_Tradition_Free_City: "Free City"
+  GOT_Tradition_Free_City_desc: "A city-state built on trade and independence, valuing commerce above all else. Its governance ensures economic flexibility, lower trade restrictions, and a reduced burden on the state economy."
 
 GOT_Mode_Vanilla:0 "Vanilla Mode"
 GOT_Mode_Vanilla_desc:0 "Play with standard mechanics and balance, following a more traditional experience."
