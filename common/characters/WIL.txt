@@ -33,6 +33,14 @@ characters={
 				large="gfx/leaders/WIL/Portrait_General_Ygritte.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
+			civilian = {
+				large="gfx/leaders/WIL/Portrait_General_Ygritte.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
 		}
 		corps_commander={
 			traits = { winter_specialist ranger }
@@ -51,6 +59,14 @@ characters={
 				large="gfx/leaders/WIL/Portrait_General_Tormund.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
+			civilian = {
+				large="gfx/leaders/WIL/Portrait_General_Tormund.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
 		}
 		corps_commander={
 			traits = { winter_specialist hill_fighter }
@@ -82,6 +98,14 @@ characters={
 				large="gfx/leaders/WIL/Portrait_Rattleshirt.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
+			civilian = {
+				large="gfx/leaders/WIL/Portrait_Rattleshirt.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
 		}
 	}
 	WIL_halleck={

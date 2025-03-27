@@ -328,7 +328,6 @@ ideas = {
 				trade_laws_cost_factor = -0.10  # Lower cost for trade law changes
 				consumer_goods_factor = -0.05   # Frees up consumer goods for production
 				stability_factor = 0.05         # Reflects political stability from wealth
-				civilian_factory_use = -0.05    # More efficient use of civilian factories
 			}
 
 			cancel_if_invalid = no

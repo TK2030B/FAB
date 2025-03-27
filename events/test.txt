@@ -1,4 +1,5 @@
 ﻿add_namespace = test
+add_namespace = ideologychange
 
 #
 country_event = {
@@ -33,5 +34,106 @@ country_event = {
 			type = annex_everything
 			target = CRO
 		}
+	}
+}
+
+country_event = {
+	id = ideologychange.1
+	title = "Ideology Change Tool"
+	desc = "Tool you mass change country ideologies."
+	picture = GFX_report_event_finnish_soldiers_snow
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Benevolent Rule"
+		
+		every_country = {
+			limit = { 
+				NOT= {
+					has_government = democratic 
+				} 
+			}
+			
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+			
+			set_popularities = {
+				democratic = 100
+			}
+			
+		}
+		
+	}
+	
+	option = {
+		name = "Traditional Rule"
+		
+		every_country = {
+			limit = { 
+				NOT= {
+					has_government = neutrality 
+				} 
+			}
+			
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			
+			set_popularities = {
+				neutrality = 100
+			}
+			
+		}
+		
+	}
+	
+	option = {
+		name = "Tyrannical Rule"
+		
+		every_country = {
+			limit = { 
+				NOT= {
+					has_government = fascism 
+				} 
+			}
+			
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			
+			set_popularities = {
+				fascism = 100
+			}
+			
+		}
+		
+	}
+	
+	option = {
+		name = "Tribal Rule"
+		
+		every_country = {
+			limit = { 
+				NOT= {
+					has_government = communism 
+				} 
+			}
+			
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			
+			set_popularities = {
+				communism = 100
+			}
+			
+		}
+		
 	}
 }
