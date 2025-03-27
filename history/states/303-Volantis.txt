@@ -18,12 +18,12 @@ state={
 	
 	resources = {
 		# Volantis
-		oil = 15       # Grain
-		rubber = 8    # Timber
-		aluminium = 3  # Copper
-		steel = 5     # Iron
-		tungsten = 5  # Gold
-		chromium = 5  # Silver
+		oil = 20       # Grain
+		rubber = 10    # Timber
+		aluminium = 5  # Copper
+		steel = 10     # Iron
+		tungsten = 20  # Gold
+		chromium = 12  # Silver
 	}
 
 
