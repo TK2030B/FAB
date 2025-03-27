@@ -2831,6 +2831,26 @@ GOT_Religion_Black_Goat_desc:0 "A dark and bloodthirsty deity demanding daily sa
   GOT_Religion_Tribal:0 "Tribal Religion"
   GOT_Religion_Tribal_desc:0 "A collection of diverse pagan beliefs, rooted in oral traditions and ancestral worship. Without a central authority, these faiths vary greatly from tribe to tribe."
   
+  # New Religions and Traditions
+
+GOT_Religion_Melting_Pot: "Melting Pot of Beliefs"
+GOT_Religion_Melting_Pot_desc: "A mixture of various beliefs and practices from across Essos, blending customs from many cultures to form a distinctive and fluid religious tradition."
+
+GOT_Religion_Ghiscari: "Ghiscari Faith"
+GOT_Religion_Ghiscari_desc: "The faith of the Ghiscari people, worshiping ancient gods, with a focus on power, slavery, and the Great Masters."
+
+GOT_Religion_Far_Eastern: "Far Eastern Faith"
+GOT_Religion_Far_Eastern_desc: "The diverse and enigmatic beliefs of the Far Eastern nations, rooted in ancient spiritual practices and philosophies that differ vastly from the western faiths."
+
+GOT_Tradition_Stepstones: "Pirate Tradition"
+GOT_Tradition_Stepstones_desc: "The Pirate Ways are rooted in a rugged and lawless tradition of piracy, coastal raiding, and the pursuit of freedom. Across the seas, strength, cunning, and ruthlessness are the keys to survival, where survival depends on mastering the waters and living outside the reach of authority."
+
+GOT_Tradition_Far_Eastern: "Far Eastern Tradition"
+GOT_Tradition_Far_Eastern_desc: "A tradition rich in mystical practices, ancestor worship, and a deep connection to the forces of nature, spanning the distant lands of Leng, Yi Ti, and Asshai."
+
+GOT_Tradition_Melting_Pot: "Melting Pot Tradition"
+GOT_Tradition_Melting_Pot_desc: "A combination of various cultural traditions, rituals, and customs brought together by the mixing of diverse peoples from across Essos."
+
   GOT_Tradition_Tribal:0 "Tribal Tradition"
   GOT_Tradition_Tribal_desc:0 "A way of life built around kinship, oral history, and local customs. These traditions emphasize loyalty to the tribe and survival in harsh environments."
 
@@ -2894,7 +2914,7 @@ GOT_Tradition_Desert_desc:0 "A people accustomed to arid wastelands, thriving in
 GOT_Tradition_Slaver:0 "Slaver's Tradition"
 GOT_Tradition_Slaver_desc:0 "A culture built upon the institution of slavery, where wealth and power are gained through the suffering of others."
 
-  GOT_Tradition_Free_City: "Free City"
+  GOT_Tradition_Free_City: "Free City Tradition"
   GOT_Tradition_Free_City_desc: "A city-state built on trade and independence, valuing commerce above all else. Its governance ensures economic flexibility, lower trade restrictions, and a reduced burden on the state economy."
 
 GOT_Mode_Vanilla:0 "Vanilla Mode"

@@ -41,3 +41,8 @@ set_politics = {
 }
 
 recruit_character=STE_council_of_stepstones
+
+add_ideas = {
+	GOT_Tradition_Stepstones
+	GOT_Religion_Melting_Pot
+}

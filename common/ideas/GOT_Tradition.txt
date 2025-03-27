@@ -349,6 +349,58 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		
+		GOT_Tradition_Stepstones = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				naval_damage_factor = 0.10
+				naval_invasion_capacity = 5  # Strong focus on coastal raids and invasions
+				drift_defence_factor = 0.10
+				industrial_capacity_dockyard = 0.05  # Pirates need to maintain and build ships
+				stability_factor = -0.05  # Lawlessness often leads to instability
+				war_support_factor = 0.05  # Ruthlessness in conflict can boost war efforts
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Far_Eastern = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05  # Deep philosophical practices could foster innovation
+				stability_factor = 0.05  # Strong cultural traditions often lead to internal stability
+				consumer_goods_factor = 0.05  # Focus on nature and spirituality reduces material output
+				division_attack_factor = 0.05  # Military philosophy might include strong spiritual practices
+				war_support_factor = -0.10  # Mysticism and distance from the West may reduce war enthusiasm
+			}
+
+			cancel_if_invalid = no
+		}
+
+		GOT_Tradition_Melting_Pot = {
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05  # Blending of cultures can lead to some cohesion
+				war_support_factor = 0.05  # Diverse traditions might give strength in times of war
+				political_power_factor = -0.05  # A melting pot society might slow down political decision-making
+				drift_defence_factor = -0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
 
 
 

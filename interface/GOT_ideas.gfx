@@ -146,6 +146,31 @@ spriteType = {
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Tribal.dds"
 }
 
+spriteType = {
+        name = "GFX_idea_GOT_Religion_Melting_Pot"
+        texturefile = "gfx/interface/ideas/Religion/Religion_Melting_Pot.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GOT_Religion_Ghiscari"
+        texturefile = "gfx/interface/ideas/Religion/Religion_Ghiscari.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GOT_Religion_Far_Eastern"
+        texturefile = "gfx/interface/ideas/Religion/Religion_Far_Eastern.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GOT_Tradition_Stepstones"
+        texturefile = "gfx/interface/ideas/Tradition/Tradition_Stepstones.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GOT_Tradition_Far_Eastern"
+        texturefile = "gfx/interface/ideas/Tradition/Tradition_Far_Eastern.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_GOT_Tradition_Melting_Pot"
+        texturefile = "gfx/interface/ideas/Tradition/Tradition_Melting_Pot.dds"
+    }
+
 
 
 }
