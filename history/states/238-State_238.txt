@@ -5,6 +5,14 @@ state={
 		owner = ULT
 		add_core_of = ULT
 	}
+	resources = {
+		oil = 0        # Grain
+		rubber = 5     # Timber
+		aluminium = 0  # Copper
+		steel = 0      # Iron
+		tungsten = 0   # Gold
+		chromium = 0   # Silver
+	}
 	provinces={
 		3368
 	}

@@ -16,6 +16,15 @@ state={
 		#	2234 30
 		#}
 	}
+	
+	resources = {
+		oil = 0        # Grain
+		rubber = 20    # Timber
+		aluminium = 0  # Copper
+		steel = 0      # Iron
+		tungsten = 0   # Gold
+		chromium = 0   # Silver
+	}
 
 	provinces={
 		17 106 158 188 239 263 277 538 668 725 784 1173 1184 2303 3112 3130 3136 3138 3143
