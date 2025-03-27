@@ -188,16 +188,6 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
-	set_air_oob = "NWA_1936_air_bba"
-	else = {
-		set_air_oob = "NWA_1936_air_legacy"
-	}
-}
-
 add_ideas = {
 	GOT_Tradition_Nights_Watch
 	GOT_Religion_Old_Gods

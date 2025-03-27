@@ -1,6 +1,0 @@
-air_wings = {
-	### Scout planes
-	19 = {
-		scout_plane_equipment_1 = { owner = "NWA" creator = "NOR"	amount = 3 }
-	}
-}
