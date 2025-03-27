@@ -13,6 +13,17 @@ state={
 		#	2234 30
 		#}
 	}
+	
+	resources = {
+		# Lorath Mainland
+		oil = 3       # Grain
+		rubber = 5    # Timber
+		aluminium = 0 # Copper
+		steel = 0     # Iron
+		tungsten = 0  # Gold
+		chromium = 0  # Silver
+	}
+
 
 	provinces={
 		58 70 80 137 313 615 616 836 932 942 989 1116 1189 1299 1435 1438 1469 1622 1690 1717 1890 1946 1990 2140 2222 2319 2510 2535 2539 2543 2559 2573 2585 2593 2607 2615 2617 2631 4602
