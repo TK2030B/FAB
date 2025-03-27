@@ -15,6 +15,16 @@ state={
 		add_core_of = TYR
 
 	}
+	
+	resources = {
+		oil = 15       # Grain
+		rubber = 5     # Timber
+		aluminium = 0  # Copper
+		steel = 10     # Iron
+		tungsten = 25  # Gold
+		chromium = 15  # Silver
+	}
+
 
 	provinces={
 		750 2010 2101

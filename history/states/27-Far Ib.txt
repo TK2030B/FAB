@@ -12,6 +12,16 @@ state={
 		}
 		add_core_of = IBB
 	}
+	# Far Ib
+	resources = {
+		oil = 3        # Grain  
+		rubber = 2     # Timber  
+		steel = 0  
+		tungsten = 0  
+		chromium = 0  
+		aluminium = 0  
+	}
+
 	provinces={
 		556 1874 2435 3219 3221
 	}

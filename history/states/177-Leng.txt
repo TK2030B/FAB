@@ -18,6 +18,16 @@ state={
 		#	2234 30
 		#}
 	}
+	
+	resources = {
+		# Leng Capital Island
+		oil = 4        # Grain  
+		rubber = 6     # Timber  
+		aluminium = 0  # Copper  
+		steel = 3      # Iron  
+		tungsten = 6   # Gold  
+		chromium = 5   # Silver  
+	}
 
 	provinces={
 		297 318 798 3038 3050

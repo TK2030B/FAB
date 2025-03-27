@@ -16,6 +16,16 @@ state={
 		add_core_of = LEN
 
 	}
+	
+	resources = {
+		# Leng Island 2
+		oil = 2        # Grain  
+		rubber = 3     # Timber  
+		aluminium = 0  # Copper  
+		steel = 1      # Iron  
+		tungsten = 2   # Gold  
+		chromium = 2   # Silver  
+	}
 
 	provinces={
 		428 1003 3363 

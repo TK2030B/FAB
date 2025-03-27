@@ -11,6 +11,16 @@ state={
 		}
 		add_core_of = IBB
 	}
+	
+	# New Ibish (Mainland Settlement)
+	resources = {
+		oil = 2        # Grain  
+		rubber = 1     # Timber  
+		steel = 5      # Iron  
+		tungsten = 3   # Gold  
+		chromium = 3   # Silver  
+		aluminium = 0  
+	}
 
 	provinces={
 		2449
