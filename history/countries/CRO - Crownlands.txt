@@ -168,6 +168,13 @@ recruit_character=CRO_jaime_lannister
 recruit_character = CRO_lord_varys
 recruit_character = CRO_Tommen_Baratheon
 recruit_character = CRO_Myrcella_Baratheon
+recruit_character = CRO_Petyr_Baelish
+recruit_character = CRO_Pycelle
+recruit_character = CRO_High_Septon
+recruit_character = CRO_High_Sparrow
+recruit_character = CRO_Bronn
+recruit_character = CRO_Qyburn
+recruit_character = CRO_Tyrion_Lannister
 
 recruit_character=CRO_boros_blount
 recruit_character=CRO_meryn_trant
@@ -177,7 +184,7 @@ recruit_character=CRO_balon_swann
 
 
 activate_advisor = CRO_jon_arryn
-activate_advisor = CRO_cersei_lannister
+#activate_advisor = CRO_cersei_lannister
 
 # Hands of King
 recruit_character = CRO_ned_stark

@@ -4,7 +4,12 @@
 # Political advisors
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = NWA } }
+		NOT = {
+			OR = { 
+				original_tag = NWA 
+				original_tag = CRO
+			} 
+		}
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -34,7 +39,12 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = NWA } }
+		NOT = {
+			OR = { 
+				original_tag = NWA 
+				original_tag = CRO
+			} 
+		}
 		is_dynamic_country = no
 		NOT = {
 			has_allowed_idea_with_traits = { idea = democratic_reformer characters = yes }
@@ -63,7 +73,12 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = NWA } }
+		NOT = {
+			OR = { 
+				original_tag = NWA 
+				original_tag = CRO
+			} 
+		}
 		is_dynamic_country = no
 		NOT = {
 			has_allowed_idea_with_traits = { idea = fascist_demagogue characters = yes }
@@ -92,7 +107,12 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = NWA } }
+		NOT = {
+			OR = { 
+				original_tag = NWA 
+				original_tag = CRO
+			} 
+		}
 		is_dynamic_country = no
 		NOT = {
 			has_allowed_idea_with_traits = { idea = staunch_monarchist characters = yes }
@@ -123,7 +143,12 @@ every_possible_country = {
 	limit = {
 		has_dlc = "La Resistance"
 		# china gets a special one via focus
-		NOT = { OR = { original_tag = NWA } }
+		NOT = {
+			OR = { 
+				original_tag = NWA 
+				original_tag = CRO
+			} 
+		}
 		NOT = {
 			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
 		}
@@ -346,7 +371,12 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = NWA } }
+		NOT = {
+			OR = { 
+				original_tag = NWA 
+				original_tag = CRO
+			} 
+		}
 	}
 	generate_character = {
 		token_base = generic_captain_of_industry # token will be TAG_token_base

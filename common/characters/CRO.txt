@@ -175,6 +175,17 @@ characters={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
 		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_jason_slynt
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { prince_of_terror }
+		}
 		field_marshal={
 			traits = { politically_connected }
 			skill = 2
@@ -369,7 +380,8 @@ characters={
 			idea_token = CRO_cersei_lannister
 			can_be_fired = no
 			traits = {
-				cersei_queen_1
+				#cersei_queen_1
+				princess_of_terror
 			}
 		}
 	}
@@ -380,6 +392,165 @@ characters={
 			civilian = {
 				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
 			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_lord_varys
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+			traits = { head_of_intelligence }
+		}
+	}
+	
+	CRO_Bronn={
+		name=CRO_Bronn
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_Bronn
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { guerilla_warfare_expert }
+		}
+	}
+	
+	CRO_Qyburn={
+		name=CRO_Qyburn
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_Qyburn
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { silent_workhorse }
+		}
+	}
+	
+	CRO_Tyrion_Lannister={
+		name=CRO_Tyrion_Lannister
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_Tyrion_Lannister
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { voice_of_restraint }
+		}
+	}
+	
+	CRO_Petyr_Baelish={
+		name=VAL_Petyr_Baelish
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_Petyr_Baelish
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { financial_expert }
+		}
+	}
+	
+	CRO_Pycelle={
+		name=CRO_Pycelle
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_Pycelle
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { the_academic }
+		}
+	}
+	
+	CRO_High_Septon={
+		name=CRO_High_Septon
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_High_Septon
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { driver_of_the_faithful }
+		}
+	}
+	
+	CRO_High_Sparrow={
+		name=CRO_High_Sparrow
+		portraits={
+			civilian = {
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_High_Sparrow
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { marxist_priest }
 		}
 	}
 
@@ -466,9 +637,8 @@ characters={
 		advisor = {
 			slot = political_advisor
 			idea_token = CRO_renly_baratheon
-			can_be_fired = no
 			traits = {
-				hand_of_the_king
+				popular_figurehead
 			}
 		}
 	}
