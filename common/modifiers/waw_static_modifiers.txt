@@ -8,8 +8,8 @@ wall = { # on Province
 	army_defence_factor = 0.75
 	production_speed_buildings_factor = -1.0
 	army_armor_speed_factor = -1.0
-	#army_cavalry_speed_factor = -1.0
-	modifier_army_sub_unit_cavalry_speed_factor = -1.0
+	army_cavalry_speed_factor = -1.0
+	#modifier_army_sub_unit_cavalry_speed_factor = -1.0
 }
 white_walkers = { # on Province
 	winter_attrition_factor = 1

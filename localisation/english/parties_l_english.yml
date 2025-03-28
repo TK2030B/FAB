@@ -58,7 +58,7 @@ NOR_communism_party:0 "House Stark"
 RIV_neutrality_party:0 "House Tully"  
 RIV_fascism_party:0 "House Tully"  
 RIV_democratic_party:0 "House Tully"  
-RIV_communism_party:0 "Brotherhood Without Banners"  
+RIV_communism_party:0 "House Tully"  
 
 VAL_neutrality_party:0 "House Arryn"  
 VAL_fascism_party:0 "House Arryn"  
@@ -93,7 +93,7 @@ DRA_communism_party:0 "House Baratheon"
 DOR_neutrality_party:0 "House Martell"  
 DOR_fascism_party:0 "House Martell"  
 DOR_democratic_party:0 "House Martell"  
-DOR_communism_party:0 "House Sand"  
+DOR_communism_party:0 "House Martell"  
 
 CRO_neutrality_party:0 "House Baratheon"  
 CRO_fascism_party:0 "House Baratheon"  
@@ -109,8 +109,8 @@ NWA_communism_party:0 "Night's Watch"
  #Essos
  SUI_neutrality_party:0 "House Qo"
  SUI_neutrality_party_long:0 "The House of Qo"
- BRA_neutrality_party:0 "Sealord of Bravos"
- BRA_neutrality_party_long:0 "The Sealord of Bravos"
+ BRA_neutrality_party:0 "House Antaryon"
+ BRA_neutrality_party_long:0 "The House of Antaryon"
 
 #Start of Fab
 
