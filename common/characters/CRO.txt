@@ -17,6 +17,23 @@ characters={
 			traits = { lavish_lifestyle }
 			expire="1965.1.1.1"
 		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_robert_baratheon
+			allowed = {
+				original_tag = CRO
+			}
+			available={ }
+			traits = {
+				staunch_monarchist
+			}
+			do_effect = {
+				NOT = {
+					has_government = neutrality
+				}
+			}
+		}
 		field_marshal={
 			traits = { inflexible_strategist }
 			skill = 3
@@ -39,6 +56,23 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_joffrey_baratheon
+			allowed = {
+				original_tag = CRO
+			}
+			available={ }
+			traits = {
+				fascist_demagogue
+			}
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+		}
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
@@ -57,6 +91,23 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_Tommen_Baratheon
+			allowed = {
+				original_tag = CRO
+			}
+			available={ }
+			traits = {
+				democratic_reformer
+			}
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
@@ -72,7 +123,24 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_CRO_cersei_lannister.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_Myrcella_Baratheon
+			allowed = {
+				original_tag = CRO
+			}
+			available={ }
+			traits = {
+				communist_revolutionary
+			}
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
 			}
 		}
 		country_leader={
