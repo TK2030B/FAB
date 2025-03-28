@@ -16,6 +16,23 @@ characters={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
 		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_eddison_tollett
+			allowed = {
+				original_tag = NWA
+			}
+			available={ }
+			traits = {
+				democratic_reformer
+			}
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
 		corps_commander={
 			traits = { }
 			skill = 3
@@ -36,6 +53,41 @@ characters={
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+	
+	NWA_jon_snow_dissident={
+		name=NWA_jon_snow
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_jon_snow_dissident
+			allowed = {
+				original_tag = NWA
+			}
+			available={ }
+			traits = {
+				communist_revolutionary
+			}
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
 			}
 		}
 	}
@@ -65,10 +117,6 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
 		}
 		field_marshal={
 			traits={ offensive_doctrine }
@@ -121,6 +169,23 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = NWA_qhorin_halfhand
+			allowed = {
+				original_tag = NWA
+			}
+			available={ }
+			traits = {
+				staunch_monarchist
+			}
+			do_effect = {
+				NOT = {
+					has_government = neutrality
+				}
+			}
 		}
 		corps_commander={
 			traits = { media_personality ranger }
@@ -569,7 +634,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=CR_subideology
+			ideology=FR_subideology
 			expire="1965.1.1.1"
 		}
 		advisor={
