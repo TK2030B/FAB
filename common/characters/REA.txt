@@ -88,6 +88,10 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+		}
 		corps_commander={
 			traits = { }
 			skill = 4
@@ -95,6 +99,34 @@ characters={
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 2
+		}
+	}
+	
+	REA_Olenna_Tyrell={
+		name=REA_Olenna_Tyrell
+		portraits={
+			civilian = {
+				large="gfx/leaders/REA/Portrait_Olenna_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	REA_Margaery_Tyrell={
+		name=REA_Margaery_Tyrell
+		portraits={
+			civilian = {
+				large="gfx/leaders/REA/Portrait_Margaery_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
 		}
 	}
 

@@ -36,6 +36,51 @@ characters={
 		}
 	}
 	
+	VAL_lysa_arryn_tyrannical={
+		name=VAL_lysa_arryn
+		portraits={
+			civilian = {
+				large="gfx/leaders/VAL/Portrait_Lysa_Arryn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			traits = { }
+			expire="1965.1.1.1"
+		}
+	}
+	
+	VAL_Robin_Arryn={
+		name=VAL_Robin_Arryn
+		portraits={
+			civilian = {
+				large="gfx/leaders/VAL/Portrait_Robin_Arryn.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			traits = { }
+			expire="1965.1.1.1"
+		}
+	}
+	
+	VAL_Petyr_Baelish={
+		name=VAL_Petyr_Baelish
+		portraits={
+			civilian = {
+				large="gfx/leaders/VAL/Portrait_Petyr_Baelish.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			traits = { }
+			expire="1965.1.1.1"
+		}
+	}
+	
 	VAL_Vardis_Egen={
 		name=VAL_Vardis_Egen
 		portraits={

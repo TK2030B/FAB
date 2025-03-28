@@ -78,8 +78,9 @@ set_politics = {
 recruit_character=IRO_balon_greyjoy
 recruit_character=IRO_Dagmer_Cleftjaw
 recruit_character=IRO_Yara_Greyjoy
-#recruit_character=IRO_Euron_Greyjoy #Euron will be added by event
-#recruit_character=IRO_Victarion_Greyjoy
+recruit_character=IRO_Euron_Greyjoy
+recruit_character=IRO_Theon_Greyjoy
+#recruit_character=IRO_Victarion_Greyjoy #Added by event
 
 
 if = {

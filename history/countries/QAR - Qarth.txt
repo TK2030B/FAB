@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=QAR_pureborn
+recruit_character=QAR_Xaro_Xoan_Daxos
+recruit_character=QAR_Spice_King
+recruit_character=QAR_Pyat_Pree
 
 add_ideas = {
     GOT_Tradition_Free_City

@@ -60,22 +60,27 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
-		corps_commander={
-			traits = { }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
 		}
-		navy_leader={
-			traits = { }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			maneuvering_skill = 4
-			coordination_skill = 4
-		}
+		#Will be made an admiral when he returns
+		#corps_commander={
+		#	traits = { }
+		#	skill = 4
+		#	attack_skill = 4
+		#	defense_skill = 3
+		#	planning_skill = 4
+		#	logistics_skill = 3
+		#}
+		#navy_leader={
+		#	traits = { }
+		#	skill = 4
+		#	attack_skill = 4
+		#	defense_skill = 3
+		#	maneuvering_skill = 4
+		#	coordination_skill = 4
+		#}
 	}
 	
 	IRO_Victarion_Greyjoy={
@@ -104,6 +109,10 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
 		corps_commander={
 			traits = { }
 			skill = 3
@@ -120,6 +129,33 @@ characters={
 			maneuvering_skill = 4
 			coordination_skill = 4
 		}
+	}
+	
+	IRO_Theon_Greyjoy={
+		name=NOR_theon_greyjoy
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Theon_Greyjoy.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Theon_Greyjoy.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+		}
+		#Will be made a General when he returns
+		#corps_commander={
+		#	traits = { }
+		#	skill = 1
+		#	attack_skill = 1
+		#	defense_skill = 1
+		#	planning_skill = 1
+		#	logistics_skill = 1
+		#}
 	}
 
 

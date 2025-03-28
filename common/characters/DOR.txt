@@ -34,6 +34,10 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+		}
 		corps_commander={
 			traits = { }
 			skill = 3
@@ -41,6 +45,42 @@ characters={
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 2
+		}
+	}
+	
+	DOR_Trystane_Martell={
+		name=DOR_Trystane_Martell
+		portraits={
+			army = {
+				large="gfx/leaders/DOR/Portrait_Trystane_Martell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	DOR_Ellaria_Sand={
+		name=DOR_Ellaria_Sand
+		portraits={
+			army = {
+				large="gfx/leaders/DOR/Portrait_Ellaria_Sand.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
 		}
 	}
 

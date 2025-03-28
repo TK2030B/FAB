@@ -41,6 +41,9 @@ recruit_character=NOR_ned_stark
 recruit_character=NOR_robb_stark
 recruit_character=NOR_theon_greyjoy
 recruit_character=NOR_rodrik_cassel
+recruit_character=NOR_Sansa_Stark
+recruit_character=NOR_Bran_Stark
+recruit_character=NOR_Jon_Snow
 
 if = {
 	limit = {

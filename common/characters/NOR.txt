@@ -86,6 +86,60 @@ characters={
 			logistics_skill = 2
 		}
 	}
+	
+	NOR_Sansa_Stark={
+		name=NOR_Sansa_Stark
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Sansa_Stark.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Sansa_Stark.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	NOR_Bran_Stark={
+		name=NOR_Bran_Stark
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Bran_Stark.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Bran_Stark.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	NOR_Jon_Snow={
+		name=NWA_jon_snow
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
+	}
 
 
 }

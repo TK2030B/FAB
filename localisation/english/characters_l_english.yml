@@ -37,6 +37,8 @@
  DRA_Axell_Florent:0 "Axell Florent"
  DRA_Davos_Seaworth:0 "Davos Seaworth"
  DRA_Saladhoor_San:0 "Saladhoor San"
+ DRA_Shireen_Baratheon:0 "Shireen Baratheon"
+ DRA_Melisandre:0 "Melisandre"
 #Iron Islands
  IRO_balon_greyjoy:0 "Balon Greyjoy"
  IRO_Dagmer_Cleftjaw:0 "Dagmer Cleftjaw"
@@ -81,12 +83,16 @@
  NOR_robb_stark:0 "Robb Stark"
  NOR_theon_greyjoy:0 "Theon Greyjoy"
  NOR_rodrik_cassel:0 "Rodrik Cassel"
+ NOR_Bran_Stark:0 "Bran Stark"
+ NOR_Sansa_Stark:0 "Sansa Stark"
 #Reach
  REA_mace_tyrell:0 "Mace Tyrell"
  REA_Emmon_Cuy:0 "Emmon Cuy"
  REA_Garlan_Tyrell:0 "Garlan Tyrell"
  REA_Horas_Redwyne:0 "Horas Redwyne"
  REA_Loras_Tyrell:0 "Loras Tyrell"
+ REA_Olenna_Tyrell:0 "Olenna Tyrell"
+ REA_Margaery_Tyrell:0 "Margaery Tyrell"
 #Riverlands
  RIV_hoster_tully:0 "Hoster Tully"
  RIV_Brynden_Tully:0 "Brynden Tully"
@@ -100,6 +106,8 @@
  VAL_lysa_arryn:0 "Lysa Arryn"
  VAL_Vardis_Egen:0 "Vardis Egen"
  VAL_Yohn_Royce:0 "Yohn Royce"
+ VAL_Robin_Arryn:0 "Robin Arryn"
+ VAL_Petyr_Baelish:0 "Petyr Baelish"
 #Westerlands
  WES_tywin_lannister:0 "Tywin Lannister"
  WES_Gregor_Clegane:0 "Gregor Clegane"
@@ -125,6 +133,8 @@
  #Dorne
  DOR_doran_martell:0 "Doran Martell"
  DOR_Oberyn_Martell:0 "Oberyn Martell"
+ DOR_Trystane_Martell:0 "Trystane Martell"
+ DOR_Ellaria_Sand:0 "Ellaria Sand"
 
 #### Esssos
  BRA_ferrego_antaryon:0 "Ferrego Antaryon"
@@ -145,7 +155,10 @@
  MRQ_governor:0 "Queen"
  YTI_god_emperor:0 "God-Emperor Bu Gai"
  ASS_unknown_leader:0 "Unknown Leader"
- QAR_pureborn:0 "Pureborn"
+ QAR_pureborn:0 "The Thirteen"
+ QAR_Xaro_Xoan_Daxos:0 "Xaro Xoan Daxos"
+ QAR_Spice_King:0 "Spice King"
+ QAR_Pyat_Pree:0 "Pyat Pree"
  LEN_god_empress:0 "God-Empress"
  ULT_unknown_leader:0 "Unknown Leader"
  SOT_unknown_leader:0 "Unknown Leader"
@@ -155,6 +168,8 @@
  MAN_unknown_leader:0 "Unknown Leader"
  DOT_khal_drogo:0 "Khal Drogo"
  DOT_No_Single_Ruler:0 "No Single Ruler"
+ DOT_Khal_Moro:0 "Khal Moro"
+ DOT_Khal_Council:0 "Council of Khals"
  SLA_Masters:0 "Masters"
  REW_Unknown_Leader:0 "Unknown Leader"
  UNL_Unknown_Leader:0 "Unknown Leader"

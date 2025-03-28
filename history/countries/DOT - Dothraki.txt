@@ -31,6 +31,8 @@ set_politics = {
 
 recruit_character=DOT_khal_drogo
 recruit_character=DOT_No_Single_Ruler
+recruit_character=DOT_Khal_Moro
+recruit_character=DOT_Khal_Council
 
 add_ideas = {
 	GOT_Tradition_Dothraki

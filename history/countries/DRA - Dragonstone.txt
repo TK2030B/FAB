@@ -46,6 +46,8 @@ recruit_character=DRA_stannis_baratheon
 recruit_character=DRA_Axell_Florent
 recruit_character=DRA_Davos_Seaworth
 #recruit_character=DRA_Saladhoor_San #Will be Added by Event
+recruit_character=DRA_Melisandre
+recruit_character=DRA_Shireen_Baratheon
 
 add_ideas = {
 	GOT_Tradition_Crownlands

@@ -39,6 +39,46 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	CRO_Tommen_Baratheon={
+		name=CRO_Tommen_Baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	CRO_Myrcella_Baratheon={
+		name=CRO_Myrcella_Baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
 	}
 
 	CRO_empty_throne={
@@ -248,7 +288,7 @@ characters={
 		name=CRO_cersei_lannister
 		portraits={
 			army = {
-				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				large="gfx/leaders/CRO/Portrait_Cersei_Lannister.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian = {

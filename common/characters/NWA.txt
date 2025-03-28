@@ -13,7 +13,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=DR_subideology
 			expire="1965.1.1.1"
 		}
 		corps_commander={
@@ -65,6 +65,10 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
 		}
 		field_marshal={
 			traits={ offensive_doctrine }
@@ -556,8 +560,17 @@ characters={
 		name=NWA_karl_tanner
 		portraits={
 			army = {
+				large="gfx/leaders/NWA/Portrait_Karl_Tanner.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Karl_Tanner.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
 		}
 		advisor={
 			cost = 100

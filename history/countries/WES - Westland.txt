@@ -70,6 +70,8 @@ set_politics = {
 recruit_character=WES_tywin_lannister
 recruit_character=WES_Gregor_Clegane
 recruit_character=WES_Kevan_Lannister
+recruit_character=WES_Cersei_Lannister
+recruit_character=WES_Tyrion_Lannister
 
 
 if = {

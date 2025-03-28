@@ -12,11 +12,64 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
+	}
+	
+	TAR_Danaerys_Targaryen_D={
+		name=TAR_Danaerys_Targaryen
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
 		country_leader={
-			ideology=FR_subideology
+			ideology=DR_subideology
 			expire="1965.1.1.1"
 		}
 	}
+	
+	TAR_Danaerys_Targaryen_C={
+		name=TAR_Danaerys_Targaryen
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	TAR_Danaerys_Targaryen_N={
+		name=TAR_Danaerys_Targaryen
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	
+	
 	
 	TAR_Viserys_Targaryen={
 		name=TAR_Viserys_Targaryen
