@@ -504,6 +504,7 @@ leader_traits = {
 
 	dealbroker = {
 		random = yes
+		sprite = 13
 
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
@@ -538,6 +539,7 @@ leader_traits = {
 
 	permanent_revolutionary = {
 		random = no
+		sprite = 13
 		political_power_factor = -0.15
 		justify_war_goal_time = 0.15
 		subversive_activites_upkeep = -0.3
@@ -574,6 +576,7 @@ leader_traits = {
 
 	railroad_enthusiast = { #Valentin Campa
 		random = no
+		sprite = 13
 		production_speed_rail_way_factor = 0.25
 
 		ai_will_do = {
@@ -794,6 +797,7 @@ leader_traits = {
 
 	tenacious_negotiator = {
 		random = yes
+		sprite = 13
 		political_power_factor = 0.1
 		trade_opinion_factor = 0.25
 	}
@@ -1040,6 +1044,7 @@ leader_traits = {
 
 	strict_austerity_adherent = {
 		random = no
+		sprite = 13
 		stability_factor = -0.15
 		economy_cost_factor = 0.5
 		consumer_goods_factor = -0.30
@@ -1140,6 +1145,7 @@ leader_traits = {
 
 	empire_builder = {
 		random = no
+		sprite = 13
 		war_support_factor = 0.05
 		justify_war_goal_time = -0.25
 	}
@@ -1349,6 +1355,7 @@ leader_traits = {
 
 	gentle_scholar = { #abdulmejid
 		random = no
+		sprite = 13
 		stability_factor = 0.15
 		war_support_factor = -0.1
 		political_advisor_cost_factor = -0.25
@@ -1424,6 +1431,7 @@ leader_traits = {
 
 	the_statist = { #Peker
 		random = no
+		sprite = 13
 		consumer_goods_factor = -0.10
 		political_power_factor = 0.1
 		production_speed_arms_factory_factor = 0.05
@@ -1432,6 +1440,7 @@ leader_traits = {
 
 	the_academic = { #Aydemir
 		random = no
+		sprite = 13
 		consumer_goods_factor = -0.10
 		political_power_factor = 0.1
 		industrial_capacity_factory = 0.05
@@ -1841,6 +1850,7 @@ leader_traits = {
 
 	political_manipulator = { #Bogdan Filov
 		random = no
+		sprite = 13
 		political_power_factor = 0.1
 		join_faction_tension = -0.25
 		fascism_acceptance = 50
@@ -6659,6 +6669,7 @@ leader_traits = {
 	
 	cautious_arbiter = {
 		random = no
+		sprite = 13
 		political_power_factor = 0.10
 		war_support_factor = -0.05
 		communism_acceptance = 30

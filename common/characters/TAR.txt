@@ -29,6 +29,7 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = { queen_of_the_people empire_builder legitimate_heir warmonger headstrong autocratic_imperialist popular_queen protector_of_the_campesinos ideological_crusader freedom_fighter }
 		}
 	}
 	
@@ -47,6 +48,7 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = { queen_of_the_people empire_builder legitimate_heir warmonger headstrong autocratic_imperialist popular_queen protector_of_the_campesinos ideological_crusader freedom_fighter }
 		}
 	}
 	
@@ -65,6 +67,7 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = { queen_of_the_people empire_builder legitimate_heir warmonger headstrong autocratic_imperialist popular_queen protector_of_the_campesinos ideological_crusader freedom_fighter }
 		}
 	}
 	
@@ -86,6 +89,7 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = { inexperienced_imperialist inexperienced_monarch unpopular_monarch disgraced_monarch the_legitimist }
 		}
 	}
 	

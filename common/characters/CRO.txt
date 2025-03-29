@@ -9,12 +9,12 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Robert_Baratheon.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
 			}
 		}
 		country_leader={
 			ideology=NR_subideology
-			traits = { lavish_lifestyle }
+			traits = { lavish_lifestyle headstrong great_war_hero popular_figurehead  } #Need to make a Warrior-King and a Reckless Trait
 			expire="1965.1.1.1"
 		}
 		advisor={
@@ -53,7 +53,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -76,6 +76,7 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = { warmonger underage_monarch unpopular_monarch incompetent_leader dictator }
 		}
 	}
 	
@@ -88,7 +89,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -111,6 +112,7 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = { underage_monarch compassionate_gentleman humble appeaser constitutional_monarch popular_figurehead champion_of_peace_5 the_sacred_king voice_of_restraint }
 		}
 	}
 	
@@ -146,6 +148,7 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = { underage_monarch }
 		}
 	}
 
@@ -169,6 +172,10 @@ characters={
 			army = {
 				large="gfx/leaders/CRO/Portrait_Jason_Slynt.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Jason_Slynt.dds"
+				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
 			}
 		}
 		country_leader={
@@ -202,6 +209,20 @@ characters={
 			army = {
 				large="gfx/leaders/CRO/Portrait_Barristan_Selmy.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = CRO_barristan_selmy
+			allowed = {
+				original_tag = CRO
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 		field_marshal={
@@ -260,6 +281,20 @@ characters={
 			army = {
 				large="gfx/leaders/CRO/Portrait_Jaime_Lannister.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = CRO_jaime_lannister
+			allowed = {
+				original_tag = CRO
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
 			}
 		}
 		corps_commander={
@@ -380,8 +415,8 @@ characters={
 			idea_token = CRO_cersei_lannister
 			can_be_fired = no
 			traits = {
-				#cersei_queen_1
-				princess_of_terror
+				cersei_queen_1
+				#princess_of_terror
 			}
 		}
 	}
@@ -470,7 +505,10 @@ characters={
 			}
 			available = {
 			}
-			traits = { voice_of_restraint }
+			can_be_fired = no
+			traits = {
+				hand_of_the_king
+			}
 		}
 	}
 	
@@ -651,5 +689,86 @@ characters={
 			}
 		}
 	}
+	
+	CRO_Stannis_Baratheon={
+		name=DRA_stannis_baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/DRA/Portrait_Stannis_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/DRA/Portrait_Stannis_Baratheon.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = CRO_Stannis_Baratheon
+			allowed = {
+				original_tag = CRO
+			}
+			traits = {
+				navy_chief_decisive_battle_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	CRO_Mace_Tyrell={
+		name=REA_mace_tyrell
+		portraits={
+			army = {
+				large="gfx/leaders/REA/Portrait_Mace_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/REA/Portrait_Mace_Tyrell.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = CRO_Mace_Tyrell
+			allowed = {
+				original_tag = CRO
+			}
+			traits = {
+				navy_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CRO_Euron_Greyjoy={
+		name=IRO_Euron_Greyjoy
+		portraits={
+			army = {
+				large="gfx/leaders/IRO/Portrait_Euron_Greyjoy.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = CRO_Euron_Greyjoy
+			allowed = {
+				original_tag = CRO
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
 
 }

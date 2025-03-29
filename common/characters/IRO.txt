@@ -15,6 +15,7 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = { warmonger }
 		}
 		field_marshal={
 			traits = { }
@@ -63,6 +64,7 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = { warmonger }
 		}
 		#Will be made an admiral when he returns
 		#corps_commander={

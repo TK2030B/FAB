@@ -406,17 +406,17 @@ GOT_Mode_desc:0 "Choose between standard Hearts of Iron IV mechanics or the full
  
 
 aircraft_manufacturer:0 "Dragonkeepers"
-materiel_manufacturer:0 "Master of the Forge"
+materiel_manufacturer:0 "Master of The Forge"
 industry_concern:0 "Artisan's Guild"
-army_chief:0 "Lord Commander"
-navy_chief:0 "Master of Ships"
+army_chief:0 "Commander of Land Forces"
+navy_chief:0 "Commander of Naval Forces"
 air_chief:0 "Dragonlord"
 high_command:0 "War Council"
 theorist:0 "Master of Strategy"
 
-idea_group_army_chief:0 "Lord Commander"  
+idea_group_army_chief:0 "Commander of Land Forces"
 idea_group_air_chief:0 "Dragonlord"  
-idea_group_navy_chief:0 "Master of Ships"  
+idea_group_navy_chief:0 "Commander of Naval Forces"
 idea_group_tank_manufacturer:0 "Steed Breeders"  
 idea_group_naval_manufacturer:0 "Shipwrights' Guild"  
 idea_group_light_aircraft_manufacturer:0 "Dragonkeepers"  

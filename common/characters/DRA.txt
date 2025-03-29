@@ -15,6 +15,7 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = { legitimate_heir warrior_code unpopular_monarch headstrong indomitable_perseverance great_war_hero strict_austerity_adherent }
 		}
 		field_marshal={
 			traits = { }

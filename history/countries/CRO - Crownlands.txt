@@ -174,22 +174,23 @@ recruit_character = CRO_High_Septon
 recruit_character = CRO_High_Sparrow
 recruit_character = CRO_Bronn
 recruit_character = CRO_Qyburn
-recruit_character = CRO_Tyrion_Lannister
 
 recruit_character=CRO_boros_blount
 recruit_character=CRO_meryn_trant
 recruit_character=CRO_mandon_moore
 recruit_character=CRO_preston_greenfield
 recruit_character=CRO_balon_swann
-
-
+recruit_character=CRO_Stannis_Baratheon
+recruit_character=CRO_Mace_Tyrell
+recruit_character=CRO_Euron_Greyjoy
 activate_advisor = CRO_jon_arryn
-#activate_advisor = CRO_cersei_lannister
+activate_advisor = CRO_cersei_lannister
 
 # Hands of King
 recruit_character = CRO_ned_stark
 recruit_character = CRO_renly_baratheon
 recruit_character = CRO_tywin_lannister
+recruit_character = CRO_Tyrion_Lannister
 
 add_ideas = {
 	GOT_Tradition_Crownlands
