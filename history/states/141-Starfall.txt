@@ -3,10 +3,6 @@ state={
 	id=141
 	name="STATE_141"
 
-	resources={
-		tungsten=50
-	}
-
 	history={
 		owner = DOR
 		buildings = {
