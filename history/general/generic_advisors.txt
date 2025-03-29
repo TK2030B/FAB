@@ -3450,19 +3450,19 @@ every_possible_country = {
 	}
 }
 
-#assault_aviation
+#assault_avaition
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			has_allowed_idea_with_traits = { idea = assault_aviation characters = yes }
+			has_allowed_idea_with_traits = { idea = assault_avaition characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_assault_aviation
+		token_base = generic_assault_avaition
 		advisor = {
 			slot = theorist
-			traits = { assault_aviation }
+			traits = { assault_avaition }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }

@@ -15,6 +15,11 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				reluctant_veteran  
+				stout_defender  
+				voice_of_restraint  
+			}
 		}
 		advisor={
 			cost = 100
@@ -72,6 +77,19 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				warrior_code 
+				stout_defender 
+				reluctant_veteran 
+				great_war_hero 
+				headstrong 
+				indomitable_perseverance 
+				#disdain_for_politicians_2 
+				nationalist_symbol 
+				monarchist_puppet 
+				great_survivor 
+				our_right_to_survive 
+			}
 		}
 		advisor={
 			cost = 100
@@ -102,6 +120,16 @@ characters={
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Alliser_Thorne.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				stout_defender  
+				reluctant_veteran  
+				anti_democrat  
+				dictator  
 			}
 		}
 		advisor={
@@ -236,6 +264,14 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				stout_defender  
+				reluctant_veteran  
+				headstrong  
+				indomitable_perseverance  
+				great_war_hero  
+			}
+
 		}
 		advisor={
 			cost = 100
@@ -632,10 +668,6 @@ characters={
 				large="gfx/leaders/NWA/Portrait_Karl_Tanner.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
 		}
 		advisor={
 			cost = 100

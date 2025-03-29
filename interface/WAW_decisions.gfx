@@ -16,5 +16,9 @@ spriteTypes = {
 		name = "GFX_decision_cat_iron_throne"
 		texturefile = "gfx/interface/decisions/decision_cat_iron_throne.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_cat_game_of_thrones"
+		texturefile = "gfx/interface/decisions/decision_cat_game_of_thrones.dds"
+	}
 
 }

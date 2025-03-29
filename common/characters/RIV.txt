@@ -15,6 +15,15 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				stout_defender  
+				political_dancer  
+				strict_austerity_adherent  
+				reluctant_interventionist  
+				infirm  
+				popular_figurehead  
+			}
+
 		}
 		field_marshal={
 			traits = { }
@@ -37,6 +46,14 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				stout_defender  
+				warrior_code  
+				headstrong  
+				indomitable_perseverance  
+				great_war_hero  
+				experienced_insurgent  
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -59,6 +76,13 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				incompetent_leader  
+				headstrong  
+				stout_defender  
+				reluctant_veteran  
+				unpopular_monarch  
+			}
 		}
 		corps_commander={
 			traits = { }

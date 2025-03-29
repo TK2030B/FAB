@@ -15,7 +15,17 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
-			traits = { warrior_code indomitable_perseverance great_war_hero strict_austerity_adherent }
+			traits = { 
+				warden_of_north 
+				warrior_code 
+				indomitable_perseverance 
+				great_war_hero 
+				strict_austerity_adherent 
+				staunch_monarchist 
+				fortification_engineer 
+				reluctant_veteran 
+			}
+
 		}
 		field_marshal={
 			traits = { }
@@ -37,6 +47,18 @@ characters={
 			civilian = {
 				large="gfx/leaders/NOR/Portrait_Stark_Robb.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				warrior_code 
+				stout_defender 
+				great_war_hero 
+				inexperienced_imperialist 
+				reluctant_veteran 
+				headstrong 
 			}
 		}
 		corps_commander={
@@ -103,6 +125,15 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				popular_figurehead 
+				political_dancer 
+				reluctant_veteran 
+				headstrong 
+				#disdain_for_politicians_2 
+				queen_of_the_people 
+				great_survivor 
+			}
 		}
 	}
 	
@@ -117,10 +148,6 @@ characters={
 				large="gfx/leaders/NOR/Portrait_Bran_Stark.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
-		}
-		country_leader={
-			ideology=DR_subideology
-			expire="1965.1.1.1"
 		}
 	}
 	
@@ -139,6 +166,19 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				warrior_code 
+				stout_defender 
+				reluctant_veteran 
+				great_war_hero 
+				headstrong 
+				indomitable_perseverance 
+				#disdain_for_politicians_2 
+				nationalist_symbol 
+				monarchist_puppet 
+				great_survivor 
+				our_right_to_survive 
+			}
 		}
 	}
 

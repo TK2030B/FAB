@@ -14,7 +14,14 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			traits = { lavish_lifestyle headstrong great_war_hero popular_figurehead hedonist  } #Need to make a Warrior-King and a Reckless Trait
+			 traits = { 
+				lavish_lifestyle 
+				headstrong 
+				great_war_hero 
+				popular_figurehead 
+				hedonist 
+				warmonger 
+			}
 			expire="1965.1.1.1"
 		}
 		advisor={
@@ -76,7 +83,13 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
-			traits = { warmonger underage_monarch unpopular_monarch incompetent_leader dictator }
+			traits = { 
+				warmonger 
+				underage_monarch 
+				unpopular_monarch 
+				incompetent_leader 
+				dictator 
+			}
 		}
 	}
 	
@@ -112,7 +125,16 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
-			traits = { underage_monarch compassionate_gentleman humble appeaser constitutional_monarch popular_figurehead champion_of_peace_5 the_sacred_king voice_of_restraint }
+			traits = { 
+				underage_monarch 
+				compassionate_gentleman 
+				humble 
+				appeaser 
+				constitutional_monarch 
+				popular_figurehead 
+				champion_of_peace_5 
+				voice_of_restraint 
+			}
 		}
 	}
 	
@@ -148,7 +170,10 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
-			traits = { underage_monarch }
+			traits = { 
+				popular_figurehead 
+				constitutional_monarch 
+			}
 		}
 	}
 

@@ -1,0 +1,59 @@
+
+GOT_Game_Decisions = {
+
+	GOT_Give_GOT_Mode_To_New_Countries = {
+		
+		allowed = {
+		}
+
+		available = {
+			has_global_flag = GOT_Mode_GOT
+			any_country = {
+				exists = yes
+				NOT = { 
+					has_idea = GOT_Mode_GOT 
+				}
+				NOT = { 
+					has_idea = GOT_Mode_GOT_Non_BBA
+				}
+			}
+		}
+		
+		visible = {
+			has_global_flag = GOT_Mode_GOT
+			is_ai = yes
+		}
+
+		cost = 0
+		
+		days_re_enable = 30
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			every_country = {
+				limit = {
+					exists = yes
+					NOT = { 
+						has_idea = GOT_Mode_GOT 
+					}
+					NOT = { 
+						has_idea = GOT_Mode_GOT_Non_BBA 
+					}
+				}
+				if = {
+					limit = {
+						has_dlc = "By Blood Alone"
+					}
+					add_ideas = GOT_Mode_GOT
+				}
+				else = {
+					add_ideas = GOT_Mode_GOT_Non_BBA
+				}
+				country_event = { id = Game_Event.4 }
+			}
+		}
+	}
+}

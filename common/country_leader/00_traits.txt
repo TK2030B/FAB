@@ -1804,7 +1804,7 @@ leader_traits = {
 		justify_war_goal_time = -0.15
 		generate_wargoal_tension = -0.5
 		subjects_autonomy_gain = -0.15
-		custom_modifier_tooltip = BUL_ferdinand_subjects_modifier_tt
+		#custom_modifier_tooltip = BUL_ferdinand_subjects_modifier_tt
 	}
 
 	the_bloody_professor = { #Aleksandar Tsankov (NSM)
@@ -1991,7 +1991,7 @@ leader_traits = {
 		neutrality_drift = 0.05
 		political_power_factor = 0.1
 		opinion_gain_monthly_factor = 0.25
-		custom_modifier_tooltip = BUL_bogdan_filov_ideology_neutrality_tt
+		#custom_modifier_tooltip = BUL_bogdan_filov_ideology_neutrality_tt
 	}
 
 	ambitious_negotiator_fascism = {
@@ -2000,7 +2000,7 @@ leader_traits = {
 		fascism_drift = 0.05
 		political_power_factor = 0.1
 		opinion_gain_monthly_factor = 0.25
-		custom_modifier_tooltip = BUL_bogdan_filov_ideology_fascism_tt
+		#custom_modifier_tooltip = BUL_bogdan_filov_ideology_fascism_tt
 	}
 
 
@@ -6731,7 +6731,37 @@ leader_traits = {
 	### roemer9
 	########################
 
+	warden_of_north = {
+		random = no
+		political_power_factor = 0.05
+		army_defence_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	warden_of_west = {
+		random = no
+		political_power_factor = 0.05
+		army_defence_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	warden_of_east = {
+		random = no
+		political_power_factor = 0.05
+		army_defence_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	warden_of_south = {
 		random = no
 		political_power_factor = 0.05
 		army_defence_factor = 0.1

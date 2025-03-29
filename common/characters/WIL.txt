@@ -15,6 +15,14 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				king_beyond_wall
+				revolutionary_general  
+				political_manipulator  
+				freedom_fighter  
+				experienced_insurgent  
+				popular_figurehead  
+			}
 		}
 		field_marshal={
 			traits = { defensive_doctrine }
@@ -41,6 +49,13 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				freedom_fighter  
+				experienced_insurgent  
+				adventurous_daredevil  
+				popular_figurehead  
+				#staunch_monarchist  
+			}
 		}
 		corps_commander={
 			traits = { winter_specialist ranger }
@@ -67,6 +82,15 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				freedom_fighter  
+				experienced_insurgent  
+				warmonger  
+				staunch_monarchist  
+				adventurous_daredevil  
+				popular_figurehead  
+			}
+
 		}
 		corps_commander={
 			traits = { winter_specialist hill_fighter }
@@ -106,6 +130,14 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				freedom_fighter  
+				experienced_insurgent  
+				warmonger  
+				dictator  
+				ambitious_negotiator_fascism  
+				prince_of_terror  
+			}
 		}
 	}
 	WIL_halleck={

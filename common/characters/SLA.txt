@@ -15,6 +15,16 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				dictator  # They ruled through fear and brutality.  
+				economic_organizer  # Their economies were highly structured around slavery and trade.  
+				anti_democrat  # They had no interest in democratic governance.  
+				anti_communist  # They despised Daenerys' attempts to introduce radical social change.  
+				camarilla_leader  # Their power relied on oligarchic councils and secret dealings.  
+				ideological_crusader  # They were fanatically committed to the institution of slavery.  
+				staunch_monarchist  # They upheld rigid, aristocratic rule and resisted populist revolts.  
+				fortification_engineer  # The cities of Slaver’s Bay had strong defensive structures.  
+			}  
 		}
 	}
 

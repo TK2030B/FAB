@@ -14,7 +14,16 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			traits = { warden_of_east hand_of_the_king }
+			traits = { 
+				warden_of_east 
+				hand_of_the_king 
+				stout_defender  
+				man_of_the_nation  
+				political_manipulator  
+				strict_austerity_adherent  
+				indomitable_perseverance  
+				disdain_for_politicians_2  
+			}
 			expire="1965.1.1.1"
 		}
 		field_marshal={
@@ -46,7 +55,12 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			traits = { }
+			traits = {  
+				divisive_absolute_monarch  
+				political_manipulator  
+				infirm  
+				#disdain_for_politicians_2  
+			}
 			expire="1965.1.1.1"
 		}
 	}
@@ -61,7 +75,11 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			traits = { }
+			traits = {  
+				underage_monarch  
+				infirm  
+				incompetent_leader  
+			}
 			expire="1965.1.1.1"
 		}
 	}
@@ -76,7 +94,13 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			traits = { }
+			traits = {  
+				political_manipulator  
+				ambitious_negotiator_neutrality  
+				dealbroker  
+				smooth_talking_charmer  
+				backroom_backstabber  
+			}
 			expire="1965.1.1.1"
 		}
 	}

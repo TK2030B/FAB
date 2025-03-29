@@ -15,7 +15,18 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
-			traits = { legitimate_heir warrior_code unpopular_monarch headstrong indomitable_perseverance great_war_hero strict_austerity_adherent }
+			traits = { 
+				legitimate_heir 
+				warrior_code 
+				unpopular_monarch 
+				headstrong 
+				indomitable_perseverance 
+				strict_austerity_adherent 
+				stout_defender 
+				inexperienced_imperialist 
+				autocratic_imperialist 
+				cornered_fox 
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -78,6 +89,14 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				stout_defender 
+				humble hawk 
+				popular_figurehead 
+				reluctant_veteran 
+				political_dancer 
+				#voice_of_restraint
+			}
 		}
 		corps_commander={
 			traits = { }
@@ -108,6 +127,19 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				theocratic_diplomat 
+				orthodox_rabblerouser 
+				driver_of_the_faithful 
+				the_masses_opium 
+				political_manipulator 
+				emergency_powers 
+				anarchist_zeal 
+				militant_socialist 
+				anti_democrat 
+				silent_workhorse 
+			}
+
 		}
 	}
 	
@@ -122,6 +154,15 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				underage_monarch 
+				legitimate_heir 
+				constitutional_monarch_minor 
+				popular_figurehead 
+				gentle_scholar 
+				#incognito
+			}
+
 		}
 	}
 

@@ -1,0 +1,18 @@
+################
+##### GOT ######
+################
+
+GOT_Game_Decisions = {
+	picture = GFX_decision_cat_game_of_thrones
+	allowed = {
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+	
+	priority = {
+		base = 1000
+	}
+	
+}

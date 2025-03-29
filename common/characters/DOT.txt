@@ -15,6 +15,15 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				warrior_code  # Khal Drogo strictly followed Dothraki warrior traditions, where strength and personal combat prowess determined leadership.  
+				dictator  # As a Khal, he ruled absolutely over his khalasar, with no system of checks and balances.  
+				anti_democrat  # The Dothraki had no concept of democracy; leadership was based on strength and conquest.  
+				warmonger  # Drogo’s entire society was built around raiding, warfare, and military dominance.  
+				spirit_of_genghis  # The Dothraki were inspired by real-world nomadic conquerors, and Drogo exemplified their warlike spirit.  
+				ideological_crusader  # He was deeply committed to Dothraki culture and values, seeing settled peoples as weak and contemptible.  
+				hedonist  # The Dothraki lifestyle embraced feasting, drinking, and taking what one desired, and Drogo indulged freely in these pleasures.  
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -41,6 +50,13 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				warrior_code  # As a Dothraki Khal, he adhered to the warrior traditions of his people.  
+				dictator  # He ruled his khalasar absolutely, with no tolerance for dissent.  
+				anti_democrat  # Like all Dothraki leaders, he had no interest in democracy or shared governance.  
+				warmonger  # As a Khal, his power was based on raiding, conquest, and military strength.  
+				hedonist  # He openly indulged in pleasures, including drinking and women, as seen in his interactions with Daenerys.  
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -67,6 +83,13 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				warrior_code
+				divided_interests
+				our_right_to_survive
+			}
 		}
 	}
 	
@@ -85,6 +108,10 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				warrior_code  # The Dothraki remain a society built around martial strength and horsemanship.  
+				political_dancer  # Managing a council of rival Khals requires skillful negotiation and maintaining a balance of power.    
+			}
 		}
 	}
 

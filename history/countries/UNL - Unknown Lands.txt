@@ -34,6 +34,7 @@ recruit_character=UNL_Unknown_Leader_Tribal
 
 add_ideas = {
 	closed_economy
+	isolation
     GOT_Tradition_Tribal
     GOT_Religion_Tribal
 }

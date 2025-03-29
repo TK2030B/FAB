@@ -15,6 +15,16 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				warden_of_south
+				conservative_grandee 
+				appeaser 
+				indecisive 
+				monarchist_puppet 
+				incompetent_leader 
+				old_figurehead 
+			}
+
 		}
 		field_marshal={
 			traits = { }
@@ -91,6 +101,13 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				warrior_code 
+				stout_defender 
+				warmonger 
+				hedonist 
+				adventurous_daredevil 
+			}
 		}
 		corps_commander={
 			traits = { }
@@ -113,6 +130,16 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				political_manipulator 
+				backroom_backstabber 
+				tenacious_negotiator 
+				sharp_tongued_lawyer 
+				the_foreign_connection 
+				queen_of_the_people 
+				the_director 
+				economic_organizer 
+			}
 		}
 	}
 	
@@ -127,6 +154,14 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = { 
+				queen_of_the_people 
+				political_manipulator 
+				appeaser 
+				popular_figurehead 
+				social_reformer 
+				smooth_talking_charmer 
+			}
 		}
 	}
 

@@ -15,7 +15,15 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
-			traits = { warmonger }
+			traits = {  
+				dictator  
+				warmonger  
+				unpopular_monarch  
+				headstrong  
+				indomitable_perseverance  
+				our_right_to_survive  
+				experienced_insurgent  
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -64,7 +72,19 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
-			traits = { warmonger }
+			traits = {  
+				warmonger  
+				hedonist  
+				fascist_militia_leader  
+				adventurous_daredevil  
+				autocratic_imperialist  
+				political_manipulator  
+				hawk  
+				cornered_fox  
+				baron_of_terror  
+				incognito  
+				anarchist_zeal  
+			}
 		}
 		#Will be made an admiral when he returns
 		#corps_commander={
@@ -114,6 +134,18 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				stout_defender  
+				warrior_code  
+				generallissimo  
+				autocratic_imperialist  
+				conservative_nationalist  
+				reluctant_interventionist  
+				hawk  
+				popular_figurehead  
+				tenacious_negotiator  
+			}
+
 		}
 		corps_commander={
 			traits = { }
@@ -148,6 +180,15 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				incompetent_leader  
+				stout_defender  
+				reluctant_veteran  
+				divided_interests  
+				defeatist  
+				reluctant_interventionist  
+				internal_rivalry  
+			}
 		}
 		#Will be made a General when he returns
 		#corps_commander={
