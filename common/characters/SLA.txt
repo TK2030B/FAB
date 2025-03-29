@@ -23,7 +23,37 @@ characters={
 				camarilla_leader  # Their power relied on oligarchic councils and secret dealings.  
 				ideological_crusader  # They were fanatically committed to the institution of slavery.  
 				staunch_monarchist  # They upheld rigid, aristocratic rule and resisted populist revolts.  
-				fortification_engineer  # The cities of Slaver’s Bay had strong defensive structures.  
+				fortification_engineer  # The cities of Slaver’s Bay had strong defensive structures. 
+				lavish_lifestyle	
+			}  
+		}
+	}
+	
+	SLA_Masters_F={
+		name=SLA_Masters
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Masters.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Masters.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				dictator  # They ruled through fear and brutality.  
+				economic_organizer  # Their economies were highly structured around slavery and trade.  
+				anti_democrat  # They had no interest in democratic governance.  
+				anti_communist  # They despised Daenerys' attempts to introduce radical social change.  
+				camarilla_leader  # Their power relied on oligarchic councils and secret dealings.  
+				ideological_crusader  # They were fanatically committed to the institution of slavery.  
+				staunch_monarchist  # They upheld rigid, aristocratic rule and resisted populist revolts.  
+				fortification_engineer  # The cities of Slaver’s Bay had strong defensive structures. 
+				lavish_lifestyle		
 			}  
 		}
 	}

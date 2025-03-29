@@ -15,6 +15,11 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				autocratic_imperialist  
+				dictator  
+				imperial_sanction  
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -23,6 +28,75 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	
+	LEN_god_empress_N={
+		name=LEN_god_empress
+		portraits={
+			army = {
+				large="gfx/leaders/LEN/Portrait_God_Empress.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LEN/Portrait_God_Empress.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				autocratic_imperialist  
+				dictator  
+				imperial_sanction  
+			}
+		}
+	}
+	
+	LEN_god_empress_C={
+		name=LEN_god_empress
+		portraits={
+			army = {
+				large="gfx/leaders/LEN/Portrait_God_Empress.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LEN/Portrait_God_Empress.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				autocratic_imperialist  
+				dictator  
+				imperial_sanction  
+			}
+		}
+	}
+	
+	LEN_god_empress_D={
+		name=LEN_god_empress
+		portraits={
+			army = {
+				large="gfx/leaders/LEN/Portrait_God_Empress.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LEN/Portrait_God_Empress.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				autocratic_imperialist  
+				dictator  
+				imperial_sanction  
+			}
 		}
 	}
 

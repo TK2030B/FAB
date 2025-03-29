@@ -15,6 +15,13 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				political_manipulator
+				economic_reformer
+				deal_broker
+				staunch_constitutionalist
+				fortification_engineer
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -23,6 +30,31 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	
+	QOH_high_lord_test_F={
+		name=QOH_high_lord_test
+		portraits={
+			army = {
+				large="gfx/leaders/QOH/Portrait_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/QOH/Portrait_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				political_manipulator
+				economic_reformer
+				deal_broker
+				staunch_constitutionalist
+				fortification_engineer
+			}
 		}
 	}
 

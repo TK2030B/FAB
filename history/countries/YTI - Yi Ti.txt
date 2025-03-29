@@ -57,17 +57,20 @@ if = {
 set_convoys = 40
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	fascism = 100
 }
 
 recruit_character=YTI_god_emperor
+recruit_character=YTI_god_emperor_F
+recruit_character=YTI_god_emperor_C
+recruit_character=YTI_god_emperor_D
 
 ### VARIANTS ###
 # 1936 Start #

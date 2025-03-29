@@ -15,6 +15,15 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				dictator  
+				political_manipulator  
+				financial_expert  
+				conservative_grandee  
+				backroom_backstabber  
+				economic_reformer  
+				lavish_lifestyle	
+			}
 		}
 	}
 	
@@ -33,6 +42,18 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				empire_builder  
+				autocratic_imperialist  
+				political_manipulator  
+				popular_figurehead  
+				ambitious_negotiator_fascism  
+				financial_expert  
+				backroom_backstabber  
+				hawk  
+				dictator
+				lavish_lifestyle
+			}
 		}
 	}
 	
@@ -51,6 +72,16 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				dictator 				economic_reformer  
+				financial_expert  
+				political_manipulator  
+				conservative_grandee  
+				war_profiteer  
+				backroom_backstabber
+				lavish_lifestyle				
+			}
+
 		}
 	}
 	
@@ -69,6 +100,14 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				political_manipulator  
+				autocratic_imperialist  
+				ideological_crusader  
+				dictator  
+				#incognito  
+				backroom_backstabber  
+			}
 		}
 	}
 

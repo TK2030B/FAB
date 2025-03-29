@@ -87,9 +87,10 @@ bookmarks = {
 				#
 			}
 		}
-		DOR={
+		
+		TAR={
 			minor = yes
-			history = "DOR_GATHERING_STORM_DESC"
+			history = "TAR_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 				#
@@ -98,17 +99,7 @@ bookmarks = {
 				#
 			}
 		}
-		IRO={
-			minor = yes
-			history = "IRO_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
+
 		NWA={
 			minor = yes
 			history = "NWA_GATHERING_STORM_DESC"
@@ -135,17 +126,7 @@ bookmarks = {
 				#
 			}
 		}
-		TAR={
-			minor = yes
-			history = "TAR_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

@@ -30,6 +30,7 @@ set_politics = {
 }
 
 recruit_character=SLA_Masters
+recruit_character=SLA_Masters_F
 
 add_ideas = {
 	GOT_Tradition_Slaver

@@ -15,6 +15,19 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				dictator  # They ruled with near-absolute power and control.  
+				warrior_code  # Braavos has a long martial tradition and values strength and honor.  
+				autocratic_imperialist  # The Sealord holds imperial ambitions, expanding Braavos' influence.  
+				economic_reformer  # The Sealord is crucial in maintaining Braavos’ wealth and prosperity, especially through the Iron Bank.  
+				fortification_engineer  # Braavos is famous for its strong defensive structures and naval prowess.  
+				mastermind_code_cracker  # The Sealord is skilled in intelligence, secrecy, and political manipulation.  
+				tenacious_negotiator  # The Sealord is adept at securing favorable political and economic deals.  
+				hawk  # The Sealord is shrewd and predatory in seizing opportunities for Braavos.  
+				political_manipulator  # The Sealord navigates the complex political landscape through subtle manipulation.  
+				lavish_lifestyle  # The Sealord enjoys the opulence and wealth of Braavos, symbolizing their power and status.  
+			}
+
 		}
 		field_marshal={
 			traits = { }
@@ -23,6 +36,37 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	
+	BRA_Sealord_of_Bravos_F={
+		name=BRA_Sealord_of_Bravos
+		portraits={
+			army = {
+				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				dictator  # They ruled with near-absolute power and control.  
+				warrior_code  # Braavos has a long martial tradition and values strength and honor.  
+				autocratic_imperialist  # The Sealord holds imperial ambitions, expanding Braavos' influence.  
+				economic_reformer  # The Sealord is crucial in maintaining Braavos’ wealth and prosperity, especially through the Iron Bank.  
+				fortification_engineer  # Braavos is famous for its strong defensive structures and naval prowess.  
+				mastermind_code_cracker  # The Sealord is skilled in intelligence, secrecy, and political manipulation.  
+				tenacious_negotiator  # The Sealord is adept at securing favorable political and economic deals.  
+				hawk  # The Sealord is shrewd and predatory in seizing opportunities for Braavos.  
+				political_manipulator  # The Sealord navigates the complex political landscape through subtle manipulation.  
+				lavish_lifestyle  # The Sealord enjoys the opulence and wealth of Braavos, symbolizing their power and status.  
+			}
+
 		}
 	}
 

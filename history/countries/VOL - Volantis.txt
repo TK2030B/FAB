@@ -17,19 +17,20 @@ set_convoys = 30
 
 set_popularities = {
 	democratic = 0
-	fascism = 0
+	neutrality = 0
 	communism = 0
-	neutrality = 100
+	fascism = 100
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 recruit_character=VOL_triarchy
+recruit_character=VOL_triarchy_F
 
 add_ideas = {
 	GOT_Tradition_Slaver

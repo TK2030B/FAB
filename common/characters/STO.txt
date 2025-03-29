@@ -94,7 +94,8 @@ characters={
 			expire="1965.1.1.1"
 			traits = { 
 				stout_defender 
-				humble hawk 
+				#humble 
+				hawk 
 				popular_figurehead 
 				reluctant_veteran 
 				political_dancer 

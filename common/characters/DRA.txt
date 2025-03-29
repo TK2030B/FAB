@@ -91,7 +91,8 @@ characters={
 			expire="1965.1.1.1"
 			traits = { 
 				stout_defender 
-				humble hawk 
+				#humble 
+				hawk 
 				popular_figurehead 
 				reluctant_veteran 
 				political_dancer 
@@ -134,7 +135,7 @@ characters={
 				the_masses_opium 
 				political_manipulator 
 				emergency_powers 
-				anarchist_zeal 
+				#anarchist_zeal 
 				militant_socialist 
 				anti_democrat 
 				silent_workhorse 
