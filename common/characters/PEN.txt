@@ -16,7 +16,7 @@ characters={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
 			traits = {  
-				collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
+				#collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
 				autocratic_imperialist  # Pentos is ruled with strong authority, and the Prince seeks to expand influence.  
 				economic_organizer  # The Prince ensures Pentos' economy thrives, focusing on trade and stability.  
 				dealbroker  # The Prince is skilled in making deals, both within the city and with foreign powers.  
@@ -55,7 +55,7 @@ characters={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
 			traits = {  
-				collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
+				#collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
 				autocratic_imperialist  # Pentos is ruled with strong authority, and the Prince seeks to expand influence.  
 				economic_organizer  # The Prince ensures Pentos' economy thrives, focusing on trade and stability.  
 				dealbroker  # The Prince is skilled in making deals, both within the city and with foreign powers.  

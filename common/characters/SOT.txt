@@ -23,7 +23,7 @@ characters={
 		}
 	}
 	
-	SOT_unknown_leader_tribal={
+	SOT_unknown_leader_C={
 		name=SOT_unknown_leader
 		portraits={
 			army = {
@@ -37,6 +37,52 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+	}
+	
+	SOT_unknown_leader_D={
+		name=SOT_unknown_leader
+		portraits={
+			army = {
+				large="gfx/leaders/SOT/Portrait_Unknown_Leader.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SOT/Portrait_Unknown_Leader.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+	}
+	
+	SOT_unknown_leader_F={
+		name=SOT_unknown_leader
+		portraits={
+			army = {
+				large="gfx/leaders/SOT/Portrait_Unknown_Leader.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SOT/Portrait_Unknown_Leader.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
 			expire="1965.1.1.1"
 			traits = {
 				no_leadership

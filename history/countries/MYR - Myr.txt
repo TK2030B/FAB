@@ -30,6 +30,8 @@ set_politics = {
 }
 
 recruit_character=MYR_magister
+recruit_character=MYR_magister_D
+recruit_character=MYR_magister_F
 
 add_ideas = {
 	GOT_Tradition_Free_City

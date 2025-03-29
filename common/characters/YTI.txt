@@ -60,32 +60,6 @@ characters={
 		}
 	}
 	
-	YTI_god_emperor_C={
-		name=YTI_god_emperor
-		portraits={
-			army = {
-				large="gfx/leaders/YTI/Portrait_Bu_Gai.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/YTI/Portrait_Bu_Gai.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
-		country_leader={
-			ideology=CR_subideology
-			expire="1965.1.1.1"
-			traits = {  
-				autocratic_imperialist  
-				dictator  
-				imperial_sanction  
-				stout_defender  
-				ideological_crusader  
-				conservative_grandee  
-			}
-		}
-	}
-	
 	YTI_god_emperor_D={
 		name=YTI_god_emperor
 		portraits={

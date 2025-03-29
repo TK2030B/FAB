@@ -30,7 +30,9 @@ set_politics = {
 }
 
 recruit_character=REW_Unknown_Leader
-recruit_character=REW_Unknown_Leader_Tribal
+recruit_character=REW_Unknown_Leader_C
+recruit_character=REW_Unknown_Leader_D
+recruit_character=REW_Unknown_Leader_F
 
 add_ideas = {
 	closed_economy

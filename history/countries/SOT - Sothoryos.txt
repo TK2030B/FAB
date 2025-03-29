@@ -30,7 +30,9 @@ set_politics = {
 }
 
 recruit_character=SOT_unknown_leader
-recruit_character=SOT_unknown_leader_tribal
+recruit_character=SOT_unknown_leader_C
+recruit_character=SOT_unknown_leader_D
+recruit_character=SOT_unknown_leader_F
 
 add_ideas = {
 	closed_economy

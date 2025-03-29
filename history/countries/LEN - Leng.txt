@@ -121,7 +121,6 @@ set_popularities = {
 
 recruit_character=LEN_god_empress
 recruit_character=LEN_god_empress_N
-recruit_character=LEN_god_empress_C
 recruit_character=LEN_god_empress_D
 
 if = {

@@ -15,6 +15,15 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				revolutionary_general  # Beric leads an outlawed rebel force fighting against the established rulers.
+				freedom_fighter  # The BWB fights for the smallfolk and against tyranny, rather than for personal gain.
+				guerrilla_warfare_expert  # The Brotherhood operates using hit-and-run tactics, ambushes, and asymmetrical warfare.
+				indomitable_perseverance  # Despite being killed multiple times, Beric keeps coming back and continuing the fight.
+				staunch_constitutionalist  # The Brotherhood fights to uphold the ideals of justice and the rule of law, even in a lawless time.
+				popular_figurehead  # Among the smallfolk, Beric is seen as a hero and a champion of justice.
+				militant_socialist  # While not explicitly socialist, the Brotherhood redistributes food and wealth from the nobility to the common people.
+			}
 		}
 		field_marshal={
 			traits = { infantry_leader }

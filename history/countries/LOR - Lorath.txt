@@ -47,6 +47,8 @@ if = {
 }
 
 recruit_character=LOR_three_prince_council
+recruit_character=LOR_three_prince_council_F
+recruit_character=LOR_three_prince_council_D
 
 add_ideas = {
 	GOT_Tradition_Free_City

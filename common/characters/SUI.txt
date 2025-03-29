@@ -115,5 +115,35 @@ characters={
 			}
 		}
 	}
+	
+	SUI_Xaro_Xoan_Daxos={
+		name=QAR_Xaro_Xoan_Daxos
+		portraits={
+			army = {
+				large="gfx/leaders/QAR/Portrait_Xaro_Xoan_Daxos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/QAR/Portrait_Xaro_Xoan_Daxos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				empire_builder  
+				autocratic_imperialist  
+				political_manipulator  
+				popular_figurehead  
+				ambitious_negotiator_fascism  
+				financial_expert  
+				backroom_backstabber  
+				hawk  
+				dictator
+				lavish_lifestyle
+			}
+		}
+	}
 
 }

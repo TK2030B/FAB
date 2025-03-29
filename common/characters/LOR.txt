@@ -15,6 +15,69 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				staunch_constitutionalist  # Lorath has a unique governing system with three princes ruling collectively, emphasizing a structured, constitutional rule.
+				political_manipulator  # The three princes must constantly navigate power struggles and internal politics to maintain balance.
+				dealbroker  # As rulers of a small, relatively isolated city, they must rely on negotiations and trade to sustain Lorath.
+				economic_reformer  # Lorath has a history of adapting its economy, shifting from religious austerity to trade and resource exploitation.
+				fortification_engineer  # Lorath is built upon labyrinthine tunnels and natural defenses, making fortifications a key aspect of its survival.
+				tenacious_negotiator  # As a weaker Free City, Lorath must be persistent in securing deals and alliances to maintain independence.
+			}
+
+		}
+	}
+	
+	LOR_three_prince_council_F={
+		name=LOR_three_prince_council
+		portraits={
+			army = {
+				large="gfx/leaders/LOR/Portrait_Three_Prince.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LOR/Portrait_Three_Prince.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				staunch_constitutionalist  # Lorath has a unique governing system with three princes ruling collectively, emphasizing a structured, constitutional rule.
+				political_manipulator  # The three princes must constantly navigate power struggles and internal politics to maintain balance.
+				dealbroker  # As rulers of a small, relatively isolated city, they must rely on negotiations and trade to sustain Lorath.
+				economic_reformer  # Lorath has a history of adapting its economy, shifting from religious austerity to trade and resource exploitation.
+				fortification_engineer  # Lorath is built upon labyrinthine tunnels and natural defenses, making fortifications a key aspect of its survival.
+				tenacious_negotiator  # As a weaker Free City, Lorath must be persistent in securing deals and alliances to maintain independence.
+			}
+
+		}
+	}
+	
+	LOR_three_prince_council_D={
+		name=LOR_three_prince_council
+		portraits={
+			army = {
+				large="gfx/leaders/LOR/Portrait_Three_Prince.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LOR/Portrait_Three_Prince.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				staunch_constitutionalist  # Lorath has a unique governing system with three princes ruling collectively, emphasizing a structured, constitutional rule.
+				political_manipulator  # The three princes must constantly navigate power struggles and internal politics to maintain balance.
+				dealbroker  # As rulers of a small, relatively isolated city, they must rely on negotiations and trade to sustain Lorath.
+				economic_reformer  # Lorath has a history of adapting its economy, shifting from religious austerity to trade and resource exploitation.
+				fortification_engineer  # Lorath is built upon labyrinthine tunnels and natural defenses, making fortifications a key aspect of its survival.
+				tenacious_negotiator  # As a weaker Free City, Lorath must be persistent in securing deals and alliances to maintain independence.
+			}
+
 		}
 	}
 

@@ -41,6 +41,8 @@ set_politics = {
 }
 
 recruit_character=STE_council_of_stepstones
+recruit_character=STE_council_of_stepstones_F
+recruit_character=STE_council_of_stepstones_C
 
 add_ideas = {
 	GOT_Tradition_Stepstones

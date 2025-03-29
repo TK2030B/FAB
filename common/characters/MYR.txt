@@ -15,14 +15,75 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				economic_organizer  # Myr is a hub of trade and renowned for its artisanship, requiring leaders adept at managing and enhancing economic activities.
+				political_manipulator  # Governing a city rich in commerce and navigating complex trade alliances necessitates shrewd political maneuvering.
+				dealbroker  # The Magisters excel in negotiating favorable trade agreements and maintaining profitable relationships with other entities.
+				fortification_engineer  # As a walled city strategically located on the Sea of Myrth, ensuring robust defenses is crucial for protecting its wealth and trade routes.
+				camarilla_leader  # Rule by an elite council involves navigating internal factions and maintaining power through alliances within the oligarchy.
+				backroom_backstabber  # The political landscape of Myr involves intrigue and covert operations to outmaneuver rivals and secure economic advantages.
+				ambitious_negotiator_neutrality  # Myr often seeks to maintain neutrality in conflicts to continue its trade, requiring leaders skilled in negotiating such stances.
+				tenacious_negotiator  # Persistent and determined negotiation tactics are essential for securing advantageous deals in Myr's competitive trade environment.
+			}
+
 		}
-		field_marshal={
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+	}
+	
+	MYR_magister_D={
+		name=MYR_magister
+		portraits={
+			army = {
+				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				economic_organizer  # Myr is a hub of trade and renowned for its artisanship, requiring leaders adept at managing and enhancing economic activities.
+				political_manipulator  # Governing a city rich in commerce and navigating complex trade alliances necessitates shrewd political maneuvering.
+				dealbroker  # The Magisters excel in negotiating favorable trade agreements and maintaining profitable relationships with other entities.
+				fortification_engineer  # As a walled city strategically located on the Sea of Myrth, ensuring robust defenses is crucial for protecting its wealth and trade routes.
+				camarilla_leader  # Rule by an elite council involves navigating internal factions and maintaining power through alliances within the oligarchy.
+				backroom_backstabber  # The political landscape of Myr involves intrigue and covert operations to outmaneuver rivals and secure economic advantages.
+				ambitious_negotiator_neutrality  # Myr often seeks to maintain neutrality in conflicts to continue its trade, requiring leaders skilled in negotiating such stances.
+				tenacious_negotiator  # Persistent and determined negotiation tactics are essential for securing advantageous deals in Myr's competitive trade environment.
+			}
+
+		}
+	}
+	
+	MYR_magister_F={
+		name=MYR_magister
+		portraits={
+			army = {
+				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				economic_organizer  # Myr is a hub of trade and renowned for its artisanship, requiring leaders adept at managing and enhancing economic activities.
+				political_manipulator  # Governing a city rich in commerce and navigating complex trade alliances necessitates shrewd political maneuvering.
+				dealbroker  # The Magisters excel in negotiating favorable trade agreements and maintaining profitable relationships with other entities.
+				fortification_engineer  # As a walled city strategically located on the Sea of Myrth, ensuring robust defenses is crucial for protecting its wealth and trade routes.
+				camarilla_leader  # Rule by an elite council involves navigating internal factions and maintaining power through alliances within the oligarchy.
+				backroom_backstabber  # The political landscape of Myr involves intrigue and covert operations to outmaneuver rivals and secure economic advantages.
+				ambitious_negotiator_neutrality  # Myr often seeks to maintain neutrality in conflicts to continue its trade, requiring leaders skilled in negotiating such stances.
+				tenacious_negotiator  # Persistent and determined negotiation tactics are essential for securing advantageous deals in Myr's competitive trade environment.
+			}
+
 		}
 	}
 
