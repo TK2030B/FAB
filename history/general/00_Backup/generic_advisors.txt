@@ -384,3 +384,30 @@ every_possible_country = {
 		}
 	}
 }
+
+#military_theorist
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		has_allowed_idea_with_traits = { idea = military_theorist characters = yes }
+	}
+	generate_character = {
+		token_base = generic_military_theorist # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { military_theorist }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_europe_generic_land_1 }
+		}
+	}
+}

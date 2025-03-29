@@ -3222,3 +3222,380 @@ every_possible_country = {
 		}
 	}
 }
+
+#military_theorist
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		has_allowed_idea_with_traits = { idea = military_theorist characters = yes }
+	}
+	generate_character = {
+		token_base = generic_military_theorist # token will be TAG_token_base
+		advisor = {
+			slot = theorist
+			traits = { military_theorist }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_europe_generic_land_1 }
+		}
+	}
+}
+
+#mobile_warfare_expert
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = mobile_warfare_expert characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_mobile_warfare_expert
+		advisor = {
+			slot = theorist
+			traits = { mobile_warfare_expert }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#superior_firepower_expert
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = superior_firepower_expert characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_superior_firepower_expert
+		advisor = {
+			slot = theorist
+			traits = { superior_firepower_expert }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#grand_battle_plan_expert
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = grand_battle_plan_expert characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_grand_battle_plan_expert
+		advisor = {
+			slot = theorist
+			traits = { grand_battle_plan_expert }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#mass_assault_expert
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = mass_assault_expert characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_mass_assault_expert
+		advisor = {
+			slot = theorist
+			traits = { mass_assault_expert }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#air_warfare_theorist
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = air_warfare_theorist characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_air_warfare_theorist
+		advisor = {
+			slot = theorist
+			traits = { air_warfare_theorist }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#dive_bomber
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = dive_bomber characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_dive_bomber
+		advisor = {
+			slot = theorist
+			traits = { dive_bomber }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#victory_through_airpower
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = victory_through_airpower characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_victory_through_airpower
+		advisor = {
+			slot = theorist
+			traits = { victory_through_airpower }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#close_air_support_proponent
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = close_air_support_proponent characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_close_air_support_proponent
+		advisor = {
+			slot = theorist
+			traits = { close_air_support_proponent }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#assault_aviation
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = assault_aviation characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_assault_aviation
+		advisor = {
+			slot = theorist
+			traits = { assault_aviation }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#naval_theorist
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = naval_theorist characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_naval_theorist
+		advisor = {
+			slot = theorist
+			traits = { naval_theorist }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#naval_aviation_pioneer
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = naval_aviation_pioneer characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_naval_aviation_pioneer
+		advisor = {
+			slot = theorist
+			traits = { naval_aviation_pioneer }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#grand_fleet_proponent
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = grand_fleet_proponent characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_grand_fleet_proponent
+		advisor = {
+			slot = theorist
+			traits = { grand_fleet_proponent }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#submarine_specialist
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = submarine_specialist characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_submarine_specialist
+		advisor = {
+			slot = theorist
+			traits = { submarine_specialist }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
+
+#blitzkrieg_theorist
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = blitzkrieg_theorist characters = yes }
+		}
+	}
+	generate_character = {
+		token_base = generic_blitzkrieg_theorist
+		advisor = {
+			slot = theorist
+			traits = { blitzkrieg_theorist }
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			ai_will_do = { factor = 0 }
+		}
+		portraits = { army = { small = GFX_idea_europe_generic_land_1 } }
+	}
+}
