@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			traits = { lavish_lifestyle headstrong great_war_hero popular_figurehead  } #Need to make a Warrior-King and a Reckless Trait
+			traits = { lavish_lifestyle headstrong great_war_hero popular_figurehead hedonist  } #Need to make a Warrior-King and a Reckless Trait
 			expire="1965.1.1.1"
 		}
 		advisor={

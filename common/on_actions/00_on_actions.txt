@@ -37,6 +37,10 @@ on_actions = {
 			DRA = {
 				news_event = { id =news.510 days = 1 }	#Set-up for state modifiers
 			}
+			random_country = {
+				limit = { is_ai = no }
+				country_event = { id = Game_Event.1 }
+			}
 		}
 	}
 

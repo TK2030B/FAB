@@ -97,5 +97,9 @@ spriteTypes = {
 		name = "GFX_report_event_nights_watch"
 		texturefile = "gfx/event_pictures/report_event_nights_watch.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_welcome_event"
+		texturefile = "gfx/event_pictures/report_event_welcome_event.dds"
+	}
 
 }

@@ -19,6 +19,9 @@ ideas = {
 		}
 
 		GOT_Mode_GOT = {
+			allowed = {
+				has_dlc = "By Blood Alone"
+			}
 			available = {
 				always = no
 			}
@@ -30,7 +33,6 @@ ideas = {
 				#research_speed_factor = -0.5
 				#production_speed_buildings_factor = -0.50
 				#global_building_slots_factor = -0.50
-				#production_cost_dockyard_factor = 2.0
 				
 				#Nukes are 2x more Expensive
 				#production_cost_nuclear_facility_factor = 2.0
@@ -38,18 +40,22 @@ ideas = {
 				#production_cost_nuclear_reactor_heavy_water_factor = 2.0
 				#production_cost_nuclear_reactor_factor = 2.0
 
-				#Naval Bases and Dockyards are 2x More expensive to Prevent Spam
-				#production_cost_naval_base_factor = 2.0
-				
-				#Forts are 2x More Expensive, but 2x More Powerful
-				production_cost_bunker_factor = 2.0
-				production_cost_coastal_bunker_factor = 2.0
-				land_bunker_effectiveness_factor = 2.0
-				coastal_bunker_effectiveness_factor = 2.0
+				#Naval Bases and Dockyards are +100% More Expensive to Prevent Spam
+				#production_cost_naval_base_factor = 1.0
+				#production_cost_dockyard_factor = 1.0
 				
 				#Anything Dragon Related is 10x More Expensive
+				#production_cost_air_facility_factor = 10.0
 				production_cost_air_base_factor = 10.0
-				production_cost_air_facility_factor = 10.0
+				
+				
+				#Forts are 5x More Expensive, but 5x More Powerful
+				production_cost_bunker_factor = 5.0
+				production_cost_coastal_bunker_factor = 5.0
+				land_bunker_effectiveness_factor = 5.0
+				coastal_bunker_effectiveness_factor = 5.0
+				
+				
 				
 				#Dragons are 10x More Powerful
 				port_strike = 10.0
@@ -86,6 +92,14 @@ ideas = {
 					build_cost_ic = 10.0
 					instant = yes
 				}
+				small_plane_suicide_airframe = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				cv_small_plane_suicide_airframe = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
 				medium_plane_airframe = {
 					build_cost_ic = 10.0
 					instant = yes
@@ -110,72 +124,171 @@ ideas = {
 					build_cost_ic = 10.0
 					instant = yes
 				}
+				scout_plane_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				strat_bomber_intercontinental_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				mothership_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
 				
-				#Ships are 2x as expensive
-				ship_hull_light = {
-					build_cost_ic = 2.0
+
+				
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		GOT_Mode_GOT_Non_BBA = {
+			picture = GOT_Mode_GOT
+			allowed = {
+				NOT = { has_dlc = "By Blood Alone" }
+			}
+			available = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				#Commented out Modifiers are subject to Playtesting and will be added as needed
+				#local_manpower = -0.5
+				#research_speed_factor = -0.5
+				#production_speed_buildings_factor = -0.50
+				#global_building_slots_factor = -0.50
+				
+				
+				#Nukes are 2x more Expensive
+				#production_cost_nuclear_facility_factor = 2.0
+				#production_cost_commercial_nuclear_reactor_factor = 2.0
+				#production_cost_nuclear_reactor_heavy_water_factor = 2.0
+				#production_cost_nuclear_reactor_factor = 2.0
+
+				#Naval Bases and Dockyards are +100% More Expensive to Prevent Spam
+				#production_cost_naval_base_factor = 1.0
+				#production_cost_dockyard_factor = 1.0
+				
+				#Anything Dragon Related is 10x More Expensive
+				#production_cost_air_facility_factor = 10.0
+				production_cost_air_base_factor = 10.0
+				
+				#Forts are 5x More Expensive, but 5x More Powerful
+				production_cost_bunker_factor = 5.0
+				production_cost_coastal_bunker_factor = 5.0
+				land_bunker_effectiveness_factor = 5.0
+				coastal_bunker_effectiveness_factor = 5.0
+				
+				
+				
+				#Dragons are 10x More Powerful
+				port_strike = 10.0
+				air_close_air_support_org_damage_factor = 10.0
+				air_cas_efficiency = 10.0
+				air_cas_present_factor = 10.0
+				air_strategic_bomber_bombing_factor = 10.0
+				army_bonus_air_superiority_factor = 10.0
+				ground_attack_factor = 10.0
+			}
+			#Anything Dragon Related is 10x More Expensive
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_cruiser = {
-					build_cost_ic = 2.0
+
+				jet_fighter_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_heavy = {
-					build_cost_ic = 2.0
+
+				supersonic_fighter_equipment = {
+					build_cost_ic = 100.0
 					instant = yes
 				}
-				ship_hull_submarine = {
-					build_cost_ic = 2.0
+
+				cv_fighter_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_carrier = {
-					build_cost_ic = 2.0
+
+				CAS_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_carrier = {
-					build_cost_ic = 2.0
+
+				cv_CAS_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_carrier = {
-					build_cost_ic = 2.0
+
+				nav_bomber_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_cruiser_panzerschiff = {
-					build_cost_ic = 2.0
+
+				cv_nav_bomber_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_torpedo_cruiser = {
-					build_cost_ic = 2.0
+
+				rocket_interceptor_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				 ship_hull_pre_dreadnought = {
-					build_cost_ic = 2.0
+
+				rocket_suicide_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_cruiser_coastal_defense_ship = {
-					build_cost_ic = 2.0
+
+				tac_bomber_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_cruiser_submarine = {
-					build_cost_ic = 2.0
+
+				jet_tac_bomber_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_midget_submarine = {
-					build_cost_ic = 2.0
+
+				heavy_fighter_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_fleet_submarine = {
-					build_cost_ic = 2.0
+
+				strat_bomber_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_nuclear_submarine = {
-					build_cost_ic = 2.0
+
+				jet_strat_bomber_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
-				ship_hull_mega_carrier = {
-					build_cost_ic = 2.0
+
+
+				transport_plane_equipment = {
+					build_cost_ic = 10.0
 					instant = yes
 				}
+				scout_plane_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				strat_bomber_intercontinental_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				mothership_equipment = {
+					build_cost_ic = 10.0
+					instant = yes
+				}
+				
+
 				
 			}
 

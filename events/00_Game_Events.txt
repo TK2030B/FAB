@@ -1,0 +1,124 @@
+﻿add_namespace = Game_Event
+
+#Welcome Event
+country_event = {
+	id = Game_Event.1
+	title = Game_Event.1.t
+	desc = Game_Event.1.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = Game_Event.1.a
+		
+		add_ideas = GOT_Mode_Vanilla
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			country_event = { id = Game_Event.3 }
+		}
+		
+	}
+	
+	option = {
+		name = Game_Event.1.b
+		
+		country_event = { id = Game_Event.2 }
+		
+	}
+}
+
+#Game Settings
+country_event = {
+	id = Game_Event.2
+	title = Game_Event.2.t
+	desc = Game_Event.2.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = Game_Event.2.a
+		
+		add_ideas = GOT_Mode_Vanilla
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			country_event = { id = Game_Event.3 }
+		}
+		
+	}
+	
+	option = {
+		name = Game_Event.2.b
+		
+		if = {
+			limit = {
+				has_dlc = "By Blood Alone"
+			}
+			add_ideas = GOT_Mode_GOT
+		}
+		else = {
+			add_ideas = GOT_Mode_GOT_Non_BBA
+		}
+		
+		set_global_flag = GOT_Mode_GOT
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			country_event = { id = Game_Event.4 }
+		}
+		
+	}
+}
+
+#Vanilla Mode Chosen
+country_event = {
+	id = Game_Event.3
+	title = Game_Event.3.t
+	desc = Game_Event.3.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = Game_Event.3.a
+		
+		add_ideas = GOT_Mode_Vanilla
+		
+	}
+}
+
+#GOT Mode Chosen
+country_event = {
+	id = Game_Event.4
+	title = Game_Event.4.t
+	desc = Game_Event.4.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = Game_Event.4.a
+		
+		if = {
+			limit = {
+				has_dlc = "By Blood Alone"
+			}
+			add_ideas = GOT_Mode_GOT
+		}
+		else = {
+			add_ideas = GOT_Mode_GOT_Non_BBA
+		}
+		
+		
+		
+	}
+}

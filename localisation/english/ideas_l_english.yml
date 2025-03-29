@@ -403,6 +403,9 @@ GOT_Religion_desc:0 "The faith that guides our realm, influencing our decisions,
 GOT_Mode:0 "Game Mode"
 GOT_Mode_desc:0 "Choose between standard Hearts of Iron IV mechanics or the full Game of Thrones experience, complete with immersive features and unique mechanics."
 
+
+
+
  
 
 aircraft_manufacturer:0 "Dragonkeepers"
@@ -2920,5 +2923,8 @@ GOT_Tradition_Slaver_desc:0 "A culture built upon the institution of slavery, wh
 GOT_Mode_Vanilla:0 "Vanilla Mode"
 GOT_Mode_Vanilla_desc:0 "Play with standard mechanics and balance, following a more traditional experience."
 
-GOT_Mode_GOT:0 "Role-Play Mode"
+GOT_Mode_GOT:0 "Game of Thrones Mode"
 GOT_Mode_GOT_desc:0 "A deeply immersive experience, filled with the intrigue, war, and brutal realities of Westeros and beyond."
+
+GOT_Mode_GOT_Non_BBA:0 "Game of Thrones Mode"
+GOT_Mode_GOT_Non_BBA_desc:0 "A deeply immersive experience, filled with the intrigue, war, and brutal realities of Westeros and beyond."

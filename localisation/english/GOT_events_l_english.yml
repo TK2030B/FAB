@@ -1,0 +1,18 @@
+﻿l_english:
+Game_Event.1.t:0 "Welcome to The Game of Thrones Legacy Mod"
+Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
+Game_Event.1.a:0 "Default Gameplay"
+Game_Event.1.b:0 "Customize Gameplay"
+
+Game_Event.2.t:0 "Gameplay Type"
+Game_Event.2.d:0 "Choose your preferred gameplay experience:\n\n§RVanilla Mode§!: Mechanics remain as close to base HOI4 as possible, offering a more traditional experience.\n\n§RGame of Thrones Mode§!: A more immersive experience with major adjustments:\n- §RDragons§! are §R10× more expensive§! but also §R10× more powerful§!\n- §RForts§! are §R5× more expensive§! but provide §R5× stronger defenses§!\n- Additional tweaks to mechanics for a truly Westerosi feel.\n\nFor the most immersive experience, we recommend §RGame of Thrones Mode§!, but choose whichever mode you enjoy the most!"
+Game_Event.2.a:0 "Vanilla Mode"
+Game_Event.2.b:0 "Game of Thrones Mode"
+
+Game_Event.3.t:0 "Vanilla Mode Chosen"
+Game_Event.3.d:0 "§R[FROM.GetName]§! has selected §RVanilla Mode§!. The game will follow standard HOI4 mechanics with minimal changes."
+Game_Event.3.a:0 "OK"
+
+Game_Event.4.t:0 "Game of Thrones Mode Chosen"
+Game_Event.4.d:0 "§R[FROM.GetName]§! has selected §RGame of Thrones Mode§!. This mode enables immersive mechanics, including powerful but costly §Rdragons§! and heavily fortified §RForts§!, among other adjustments."
+Game_Event.4.a:0 "OK"
