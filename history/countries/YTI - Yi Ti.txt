@@ -1,11 +1,11 @@
 ﻿capital = 310
 
-oob = "YTI_1936"
+#oob = "YTI_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "YTI_1936_naval_mtg"
+		#set_naval_oob = "YTI_1936_naval_mtg"
 	else = {
-		set_naval_oob = "YTI_1936_naval_legacy"
+		#set_naval_oob = "YTI_1936_naval_legacy"
 	}
 }
 

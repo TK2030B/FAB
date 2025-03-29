@@ -1,6 +1,6 @@
 ﻿capital = 88
 
-oob = "IRO_1936"
+#oob = "IRO_1936"
 
 set_research_slots = 2
 
@@ -36,7 +36,7 @@ if = {
 		basic_torpedo = 1
 		improved_ship_torpedo_launcher = 1
 	}
-	set_naval_oob = "IRO_1936_naval_legacy"
+	#set_naval_oob = "IRO_1936_naval_legacy"
 }
 if = {
 	limit = {
@@ -53,7 +53,7 @@ if = {
 		basic_torpedo = 1
 		panzerschiffe = 1
 	}
-	set_naval_oob = "IRO_1936_naval_mtg"
+	#set_naval_oob = "IRO_1936_naval_mtg"
 }
 
 set_convoys = 200

@@ -1,6 +1,6 @@
 ﻿capital = 177
 
-OOB = "LEN_1936"
+#oob = "LEN_1936"
 
 set_research_slots = 2
 
@@ -70,7 +70,7 @@ if = {
 		cruiser_submarines = 1
 		basic_dp_light_battery = 1
 	}
-	set_naval_oob = "LEN_1936_naval"
+	#set_naval_oob = "LEN_1936_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -89,7 +89,7 @@ if = {
 		basic_carrier = 1
 		transport = 1
 	}
-	set_naval_oob = "LEN_1936_naval_legacy"
+	#set_naval_oob = "LEN_1936_naval_legacy"
 }
 
 if = {
