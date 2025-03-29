@@ -15,6 +15,19 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {  
+				collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
+				autocratic_imperialist  # Pentos is ruled with strong authority, and the Prince seeks to expand influence.  
+				economic_organizer  # The Prince ensures Pentos' economy thrives, focusing on trade and stability.  
+				dealbroker  # The Prince is skilled in making deals, both within the city and with foreign powers.  
+				smooth_talking_charmer  # A master of persuasion and diplomacy, winning allies with words.  
+				backroom_backstabber  # Behind the scenes, the Prince engages in political manipulation and subterfuge.  
+				war_industrialist  # The Prince organizes Pentos’ military-industrial base, essential for defense and expansion.  
+				political_manipulator  # The Prince thrives in the subtle art of political maneuvering, bending others to his will.  
+				popular_figurehead  # The Prince's public image is carefully crafted to maintain loyalty among the people.  
+				staunch_constitutionalist  # While wielding power, the Prince still respects Pentos' constitutional structure.  
+				lavish_lifestyle
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -23,6 +36,99 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	
+	PEN_prince_D={
+		name=PEN_prince
+		portraits={
+			army = {
+				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
+				autocratic_imperialist  # Pentos is ruled with strong authority, and the Prince seeks to expand influence.  
+				economic_organizer  # The Prince ensures Pentos' economy thrives, focusing on trade and stability.  
+				dealbroker  # The Prince is skilled in making deals, both within the city and with foreign powers.  
+				smooth_talking_charmer  # A master of persuasion and diplomacy, winning allies with words.  
+				backroom_backstabber  # Behind the scenes, the Prince engages in political manipulation and subterfuge.  
+				war_industrialist  # The Prince organizes Pentos’ military-industrial base, essential for defense and expansion.  
+				political_manipulator  # The Prince thrives in the subtle art of political maneuvering, bending others to his will.  
+				popular_figurehead  # The Prince's public image is carefully crafted to maintain loyalty among the people.  
+				staunch_constitutionalist  # While wielding power, the Prince still respects Pentos' constitutional structure.  
+				lavish_lifestyle
+			}
+		}
+	}
+	
+	PEN_prince_C={
+		name=PEN_prince
+		portraits={
+			army = {
+				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
+				autocratic_imperialist  # Pentos is ruled with strong authority, and the Prince seeks to expand influence.  
+				economic_organizer  # The Prince ensures Pentos' economy thrives, focusing on trade and stability.  
+				dealbroker  # The Prince is skilled in making deals, both within the city and with foreign powers.  
+				smooth_talking_charmer  # A master of persuasion and diplomacy, winning allies with words.  
+				backroom_backstabber  # Behind the scenes, the Prince engages in political manipulation and subterfuge.  
+				war_industrialist  # The Prince organizes Pentos’ military-industrial base, essential for defense and expansion.  
+				political_manipulator  # The Prince thrives in the subtle art of political maneuvering, bending others to his will.  
+				popular_figurehead  # The Prince's public image is carefully crafted to maintain loyalty among the people.  
+				staunch_constitutionalist  # While wielding power, the Prince still respects Pentos' constitutional structure.  
+				lavish_lifestyle
+			}
+		}
+	}
+	
+	PEN_prince_F={
+		name=PEN_prince
+		portraits={
+			army = {
+				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				collaborator_king  # The Prince works closely with other powers, often compromising for survival.  
+				autocratic_imperialist  # Pentos is ruled with strong authority, and the Prince seeks to expand influence.  
+				economic_organizer  # The Prince ensures Pentos' economy thrives, focusing on trade and stability.  
+				dealbroker  # The Prince is skilled in making deals, both within the city and with foreign powers.  
+				smooth_talking_charmer  # A master of persuasion and diplomacy, winning allies with words.  
+				backroom_backstabber  # Behind the scenes, the Prince engages in political manipulation and subterfuge.  
+				war_industrialist  # The Prince organizes Pentos’ military-industrial base, essential for defense and expansion.  
+				political_manipulator  # The Prince thrives in the subtle art of political maneuvering, bending others to his will.  
+				popular_figurehead  # The Prince's public image is carefully crafted to maintain loyalty among the people.  
+				staunch_constitutionalist  # While wielding power, the Prince still respects Pentos' constitutional structure.  
+				lavish_lifestyle
+			}
 		}
 	}
 

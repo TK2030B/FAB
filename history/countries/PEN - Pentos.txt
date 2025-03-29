@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=PEN_prince
+recruit_character=PEN_prince_D
+recruit_character=PEN_prince_F
+recruit_character=PEN_prince_C
 
 add_ideas = {
 	GOT_Tradition_Pentos
