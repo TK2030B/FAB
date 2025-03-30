@@ -29,32 +29,105 @@ characters={
 		}
 	}
 	
-	SLA_Masters_F={
-		name=SLA_Masters
+	SLA_Cleon={
+		name=SLA_Cleon
 		portraits={
 			army = {
-				large="gfx/leaders/SLA/Portrait_Masters.dds"
+				large="gfx/leaders/SLA/Portrait_Cleon.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian = {
-				large="gfx/leaders/SLA/Portrait_Masters.dds"
+				large="gfx/leaders/SLA/Portrait_Cleon.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
-			traits = {  
-				dictator  # They ruled through fear and brutality.  
-				economic_organizer  # Their economies were highly structured around slavery and trade.  
-				anti_democrat  # They had no interest in democratic governance.  
-				anti_communist  # They despised Daenerys' attempts to introduce radical social change.  
-				camarilla_leader  # Their power relied on oligarchic councils and secret dealings.  
-				ideological_crusader  # They were fanatically committed to the institution of slavery.  
-				staunch_monarchist  # They upheld rigid, aristocratic rule and resisted populist revolts.  
-				fortification_engineer  # The cities of Slaver’s Bay had strong defensive structures. 
-				lavish_lifestyle		
-			}  
+			traits = {
+				dictator  # Cleon ruled with absolute power after the fall of the Great Masters.
+				warmonger  # He sought to expand his rule and maintain power through force.
+				inexperienced_imperialist  # He attempted conquests and nation-building but failed due to lack of skill.
+				baron_of_terror  # Cleon relied on fear, executions, and brutal suppression to maintain order.
+				hedonist  # He indulged in luxury and excess after rising to power.
+				ideological_crusader  # Framed himself as a revolutionary against slavery, but his rule became tyrannical.
+			}
+		}
+	}
+	
+	SLA_Freedmen_Council={
+		name=SLA_Freedmen_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
+				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.
+				triumphant_revolutionary  # They have successfully overthrown their former oppressors and now rule as victors.
+				economic_reformer  # A new government led by former slaves would need to rebuild and restructure the economy.
+				staunch_constitutionalist  # Ensuring that power remains with the people rather than slipping into dictatorship.
+			}
+ 
+		}
+	}
+	
+	SLA_Ruling_Council={
+		name=SLA_Ruling_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				economic_reformer  # A responsible ruling council would focus on rebuilding and stabilizing the economy.
+				staunch_constitutionalist  # Dedicated to maintaining fair governance and preventing tyranny.
+				social_reformer  # Seeking to improve society through just laws and progressive policies.
+				freedom_fighter  # Represents their origins in resisting tyranny and establishing a more just rule.
+				voice_of_restraint  # Encourages moderation and diplomacy rather than aggressive expansion or conflict.
+			}
+		}
+	}
+	
+	SLA_Daario_Naharis={
+		name=TAR_Daario_Naharis
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Daario_Naharis.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TAR/Portrait_Daario_Naharis.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				adventurous_daredevil  # Daario is a flamboyant and daring sellsword, known for his boldness in battle.
+				smooth_talking_charmer  # He is charismatic, seductive, and skilled at persuasion.
+				ideological_groupie  # He abandons his old life to follow Daenerys, driven more by personal devotion than deep political belief.
+				warmonger  # A mercenary at heart, Daario enjoys war and combat.
+				backroom_backstabber  # He is cunning and willing to betray former allies, as seen when he kills his co-captains to take control of the Stormcrows.
+			} 
 		}
 	}
 

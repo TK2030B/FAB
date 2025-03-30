@@ -30,7 +30,9 @@ set_politics = {
 }
 
 recruit_character=SLA_Masters
-recruit_character=SLA_Masters_F
+recruit_character=SLA_Cleon
+recruit_character=SLA_Ruling_Council
+recruit_character=SLA_Daario_Naharis
 
 add_ideas = {
 	GOT_Tradition_Slaver
