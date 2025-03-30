@@ -1,5 +1,5 @@
 characters={
-
+	#Plausible Traits as we have very little to go on.
 	TOL_unknown_leader={
 		name=TOL_unknown_leader
 		portraits={
@@ -15,6 +15,11 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				divisive_absolute_monarch
+				political_manipulator
+				internal_rivalry
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -23,6 +28,89 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	
+	TOL_Freedmen_Council={
+		name=SLA_Freedmen_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
+				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.
+				triumphant_revolutionary  # They have successfully overthrown their former oppressors and now rule as victors.
+				economic_reformer  # A new government led by former slaves would need to rebuild and restructure the economy.
+				staunch_constitutionalist  # Ensuring that power remains with the people rather than slipping into dictatorship.
+			}
+ 
+		}
+	}
+	
+	TOL_Ruling_Council={
+		name=SLA_Ruling_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				economic_reformer  # A responsible ruling council would focus on rebuilding and stabilizing the economy.
+				staunch_constitutionalist  # Dedicated to maintaining fair governance and preventing tyranny.
+				social_reformer  # Seeking to improve society through just laws and progressive policies.
+				freedom_fighter  # Represents their origins in resisting tyranny and establishing a more just rule.
+				voice_of_restraint  # Encourages moderation and diplomacy rather than aggressive expansion or conflict.
+			}
+		}
+	}
+	
+	TOL_Warlords_Council={
+		name=SLA_Warlords_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Council_Warlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Council_Warlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				dictator              # Absolute rulers who maintained control through fear and power.
+				warmonger             # Aggressive foreign policy focused on expansion and military conquest.
+				autocratic_imperialist # Seeking expansion and imperial control through absolute power.
+				ideological_crusader  # Fanatically committed to spreading their ideology.
+				hawk                  # Aggressive and expansionist approach to foreign policy.
+				camarilla_leader      # Power exercised through secretive councils and political maneuvering.
+				baron_of_terror       # Ruling through fear, terror, and violent repression.
+				war_industrialist      # Heavy focus on militarization and industrialization to support war efforts.
+				economic_reformer      # Significant intervention in the economy to sustain military and state goals.
+				el_jefe_maximo        # Supreme leader, top of the hierarchical power structure.
+			}
+
+ 
 		}
 	}
 

@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=MOR_governor_test
+recruit_character=MOR_Freedmen_Council
+recruit_character=MOR_Ruling_Council
+recruit_character=MOR_Warlords_Council
 
 add_ideas = {
 	GOT_Tradition_Free_City

@@ -31,6 +31,8 @@ set_politics = {
 
 recruit_character=VOL_triarchy
 recruit_character=VOL_triarchy_F
+recruit_character=VOL_Freedmen_Council
+recruit_character=VOL_Ruling_Council
 
 add_ideas = {
 	GOT_Tradition_Slaver

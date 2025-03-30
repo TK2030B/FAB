@@ -30,6 +30,10 @@ set_politics = {
 }
 
 recruit_character=MAN_unknown_leader
+recruit_character=MAN_Council_High
+recruit_character=MAN_Council_Provisional
+recruit_character=MAN_Council_Dragonlords
+recruit_character=MAN_Council_Targaryen
 
 add_ideas = {
 	GOT_Tradition_Dragonlords

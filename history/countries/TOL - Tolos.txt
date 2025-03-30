@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=TOL_unknown_leader
+recruit_character=TOL_Freedmen_Council
+recruit_character=TOL_Ruling_Council
+recruit_character=TOL_Warlords_Council
 
 add_ideas = {
     GOT_Tradition_Free_City

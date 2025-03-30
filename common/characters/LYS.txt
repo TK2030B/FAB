@@ -83,5 +83,37 @@ characters={
 			}
 		}
 	}
+	
+	LYS_Freedwomen_Council={
+		name=LYS_Freedwomen_Council
+		portraits={
+			army = {
+				large="gfx/leaders/LYS/Portrait_Council_Freedwomen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LYS/Portrait_Council_Freedwomen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				permanent_revolutionary  # Representing their ongoing commitment to revolutionary change.
+				revolutionary_general  # Their ability to lead and inspire in times of conflict, ensuring their revolution thrives.
+				proletariat_internationalist  # Aligning with the broader struggles of the oppressed, forging international alliances.
+				womens_rights_activist  # Advocating for the liberation and empowerment of women as central to their rule.
+				economic_reformer # A new government led by former slaves would need to rebuild and restructure the economy.
+				communist_revolutionary  # Directly ties their rule to communist ideology, pushing for radical societal and economic change.
+				social_revolutionary  # Focused on reshaping societal structures to reflect their ideals of equality and freedom.
+				ideological_crusader  # Driven by a deep ideological commitment to spread their vision of a new society.
+				militant_socialist  # A socialist outlook that is deeply entwined with their military goals, enforcing their revolution.
+				triumphant_revolutionary  # Celebrating the success of their revolution and maintaining their dominance post-overthrow.
+				feminist_ultranationalist  # Emphasizing both gender equality and nationalist pride as part of their revolutionary agenda.
+			}
+ 
+		}
+	}
 
 }

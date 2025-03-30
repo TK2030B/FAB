@@ -10,9 +10,10 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = DOT
-		#victory_points = {
-		#	179 15
-		#}
+		#Vaes Dothrak
+		victory_points = {
+			403 15
+		}
 	}
 	
 	resources = {

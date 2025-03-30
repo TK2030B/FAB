@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=MRQ_governor
+recruit_character=MRQ_Freedmen_Council
+recruit_character=MRQ_Ruling_Council
+recruit_character=MRQ_Warlords_Council
 
 add_ideas = {
     GOT_Tradition_Tribal

@@ -1,5 +1,5 @@
 characters={
-
+	#Plausible Traits for the Ruler of Asshai as we have literally nothing to go on.
 	ASS_unknown_leader={
 		name=ASS_unknown_leader
 		portraits={
@@ -15,6 +15,13 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				dictator
+				political_manipulator
+				autocratic_imperialist
+				sins_of_the_father
+				#incognito #Commented out cause of fascism boost
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -23,6 +30,84 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	
+	ASS_Council_Dark_Warlords={
+		name=ASS_Council_Dark_Warlords
+		portraits={
+			army = {
+				large="gfx/leaders/ASS/Portrait_Council_Dark_Warlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/ASS/Portrait_Council_Dark_Warlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				warmonger
+				baron_of_terror
+				autocratic_imperialist
+				political_manipulator
+				indomitable_perseverance
+			}
+		}
+	}
+	
+	ASS_Council_Dark_Scholars={
+		name=ASS_Council_Dark_Scholars
+		portraits={
+			army = {
+				large="gfx/leaders/ASS/Portrait_Council_Dark_Scholars.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/ASS/Portrait_Council_Dark_Scholars.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				economic_reformer
+				democratic_reformer
+				philosopher_king
+				technocrat
+				social_reformer
+				voice_of_restraint
+			}
+		}
+	}
+	
+	ASS_Council_Dark_Sages={
+		name=ASS_Council_Dark_Sages
+		portraits={
+			army = {
+				large="gfx/leaders/ASS/Portrait_Council_Dark_Sages.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/ASS/Portrait_Council_Dark_Sages.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				permanent_revolutionary
+				militant_socialist
+				proletariat_internationalist
+				anti_democrat
+				revolutionary_general
+				red_army_organizer
+				anti_fascist
+			}
 		}
 	}
 

@@ -31,6 +31,8 @@ set_politics = {
 
 recruit_character=QOH_high_lord_test
 recruit_character=QOH_high_lord_test_F
+recruit_character=QOH_Freedmen_Council
+recruit_character=QOH_Ruling_Council
 
 add_ideas = {  
 	GOT_Tradition_Qohor 

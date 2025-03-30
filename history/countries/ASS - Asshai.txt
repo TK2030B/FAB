@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=ASS_unknown_leader
+recruit_character=ASS_Council_Dark_Warlords
+recruit_character=ASS_Council_Dark_Scholars
+recruit_character=ASS_Council_Dark_Sages
 
 add_ideas = {
 	GOT_Religion_Far_Eastern

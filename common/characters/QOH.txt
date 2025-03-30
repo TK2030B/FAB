@@ -57,5 +57,56 @@ characters={
 			}
 		}
 	}
+	
+	QOH_Freedmen_Council={
+		name=SLA_Freedmen_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
+				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.
+				triumphant_revolutionary  # They have successfully overthrown their former oppressors and now rule as victors.
+				economic_reformer  # A new government led by former slaves would need to rebuild and restructure the economy.
+				staunch_constitutionalist  # Ensuring that power remains with the people rather than slipping into dictatorship.
+			}
+ 
+		}
+	}
+	
+	QOH_Ruling_Council={
+		name=SLA_Ruling_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				economic_reformer  # A responsible ruling council would focus on rebuilding and stabilizing the economy.
+				staunch_constitutionalist  # Dedicated to maintaining fair governance and preventing tyranny.
+				social_reformer  # Seeking to improve society through just laws and progressive policies.
+				freedom_fighter  # Represents their origins in resisting tyranny and establishing a more just rule.
+				voice_of_restraint  # Encourages moderation and diplomacy rather than aggressive expansion or conflict.
+			}
+		}
+	}
 
 }

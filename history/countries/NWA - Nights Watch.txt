@@ -1,6 +1,6 @@
 ﻿capital = 18
 
-##oob = "NWA_1936"	#is loaded now @on_startup, otherwise get deleted instantly since 0% conscription
+#oob = "NWA_1936"	#is loaded now @on_startup, otherwise get deleted instantly since 0% conscription
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	#set_naval_oob = "NWA_1936_naval_mtg"

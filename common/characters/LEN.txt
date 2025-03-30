@@ -76,5 +76,33 @@ characters={
 			}
 		}
 	}
+	
+	LEN_Monks_Council={
+		name=YTI_Monks_Council
+		portraits={
+			army = {
+				large="gfx/leaders/YTI/Portrait_Council_Monks.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/YTI/Portrait_Council_Monks.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				revolutionary_general      # A leader who has fought in or led revolutionary struggles to overthrow the old regime.
+				proletariat_internationalist # Advocates for solidarity and support for the working class globally, a core communist ideal.
+				militant_socialist         # Supports militant action and socialist principles, fitting for a dissident communist leadership.
+				socialist_revolutionary     # Committed to radical socialist reforms and revolutionary change.
+				marxist_philosopher        # A leader influenced by Marxist philosophy, advocating for a classless society.
+				ideological_crusader       # A passionate advocate for spreading and enforcing their ideological beliefs.
+				guerilla_warfare_expert    # Likely reflects the use of unconventional warfare in the pursuit of revolution.
+				communist_revolutionary     # A direct representation of a leader fighting for communist change.
+			}
+		}
+	}
 
 }

@@ -32,6 +32,7 @@ set_politics = {
 recruit_character=LYS_first_magister
 recruit_character=LYS_first_magister_F
 recruit_character=LYS_first_magister_D
+recruit_character=LYS_Freedwomen_Council
 
 add_ideas = {  
 	GOT_Tradition_Free_City

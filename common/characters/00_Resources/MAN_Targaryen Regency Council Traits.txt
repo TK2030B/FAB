@@ -1,0 +1,42 @@
+BENEVOLENT
+
+traits = {
+    conservative_grandee
+    social_reformer
+    economic_reformer
+    dealbroker
+    popular_figurehead
+}
+
+
+TRADITIONAL
+
+traits = {
+    staunch_monarchist
+    legitimate_heir
+    conservative_nationalist
+    protector_of_the_campesinos
+    economic_reformer
+    nationalist_symbol
+}
+
+TYRANNICAL
+
+traits = {
+    fascist_sympathies
+    autocratic_imperialist
+    warmonger
+    anti_communist
+    nationalist_symbol
+}
+
+TRIBAL/DISSIDENT
+
+traits = {
+    proletariat_internationalist
+    revolutionary_general
+    popular_figurehead
+    anti_communist_crusader
+    permanent_revolutionary
+    divided_interests
+}

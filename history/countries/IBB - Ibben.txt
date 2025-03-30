@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=IBB_shadow_council
+recruit_character=IBB_Freedmen_Council
+recruit_character=IBB_Ruling_Council
+recruit_character=IBB_Warlords_Council
 
 add_ideas = {
     GOT_Tradition_Tribal

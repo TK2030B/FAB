@@ -106,6 +106,67 @@ characters={
 		}
 	}
 	
+	SLA_Warlords_Council={
+		name=SLA_Warlords_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Council_Warlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Council_Warlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				dictator              # Absolute rulers who maintained control through fear and power.
+				warmonger             # Aggressive foreign policy focused on expansion and military conquest.
+				autocratic_imperialist # Seeking expansion and imperial control through absolute power.
+				ideological_crusader  # Fanatically committed to spreading their ideology.
+				hawk                  # Aggressive and expansionist approach to foreign policy.
+				camarilla_leader      # Power exercised through secretive councils and political maneuvering.
+				baron_of_terror       # Ruling through fear, terror, and violent repression.
+				war_industrialist      # Heavy focus on militarization and industrialization to support war efforts.
+				economic_reformer      # Significant intervention in the economy to sustain military and state goals.
+				el_jefe_maximo        # Supreme leader, top of the hierarchical power structure.
+			}
+
+ 
+		}
+	}
+	
+	SLA_Notables_Council={
+		name=SLA_Notables_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Council_Notables.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Council_Notables.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				conservative_grandee    # Wealthy, traditional aristocrats focused on maintaining social order.
+				camarilla_leader        # Behind-the-scenes power through secretive political maneuvering.
+				economic_reformer        # Pushing for economic reforms to maintain stability and wealth.
+				man_of_the_nation        # Seen as guardians of traditional values and stability.
+				staunch_constitutionalist # Strong defenders of the constitution and legal frameworks.
+				el_jefe_maximo          # A leader that rises to the top of the council, symbolizing ultimate control.
+				hedonist                # Indulgence in wealth and personal luxury.
+				lavish_lifestyle        # Living opulently, funded by their wealth and influence.
+				popular_figurehead      # Acting as symbolic figures of power and continuity for the nation.
+			}
+		}
+	}
+	
 	SLA_Daario_Naharis={
 		name=TAR_Daario_Naharis
 		portraits={

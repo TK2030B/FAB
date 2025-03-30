@@ -29,7 +29,7 @@ if = {
 		gwtank = 1
 		basic_light_tank = 1
 	}
-	set_oob = "LEN_1936"
+	#set_oob = "LEN_1936"
 }
 if = {
 	limit = {
@@ -39,7 +39,7 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
-	set_oob = "LEN_1936_nsb"
+	#set_oob = "LEN_1936_nsb"
 }
 if = {
 	limit = {
@@ -122,6 +122,7 @@ set_popularities = {
 recruit_character=LEN_god_empress
 recruit_character=LEN_god_empress_N
 recruit_character=LEN_god_empress_D
+recruit_character=LEN_Monks_Council
 
 if = {
 	limit = {

@@ -1,5 +1,5 @@
 characters={
-
+	#Plausible Traits as we have very little to go on.
 	MAN_unknown_leader={
 		name=MAN_unknown_leader
 		portraits={
@@ -15,6 +15,14 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				legitimate_heir
+				staunch_monarchist
+				conservative_nationalist
+				autocratic_imperialist
+				warmonger
+				imperial_sanction
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -23,6 +31,100 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	
+	MAN_Council_High={
+		name=MAN_Council_High
+		portraits={
+			army = {
+				large="gfx/leaders/MAN/Portrait_Council_High.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MAN/Portrait_Council_High.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				staunch_constitutionalist
+				economic_reformer
+				democratic_reformer
+				dealbroker
+				protector_of_the_campesinos
+				popular_figurehead
+			}
+		}
+	}
+	
+	MAN_Council_Provisional={
+		name=MAN_Council_Provisional
+		portraits={
+			army = {
+				large="gfx/leaders/MAN/Portrait_Council_Provisional.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MAN/Portrait_Council_Provisional.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				revolutionary_general
+				permanent_revolutionary
+				militant_socialist
+				anti_democrat
+				fascist_sympathies
+				camarilla_leader
+			}
+		}
+	}
+	
+	MAN_Council_Dragonlords={
+		name=MAN_Council_Dragonlords
+		portraits={
+			army = {
+				large="gfx/leaders/MAN/Portrait_Council_Dragonlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MAN/Portrait_Council_Dragonlords.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				warmonger
+				autocratic_imperialist
+				fascist_sympathies
+				dictator
+				imperial_sanction
+				prince_of_terror
+				indomitable_perseverance
+				hawk
+			}
+		}
+	}
+	
+	MAN_Council_Targaryen={
+		name=MAN_Council_Targaryen
+		portraits={
+			army = {
+				large="gfx/leaders/MAN/Portrait_Council_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MAN/Portrait_Council_Targaryen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
 		}
 	}
 

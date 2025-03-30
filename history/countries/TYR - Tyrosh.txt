@@ -31,6 +31,8 @@ set_politics = {
 
 recruit_character=TYR_archon
 recruit_character=TYR_archon_F
+recruit_character=TYR_Freedmen_Council
+recruit_character=TYR_Ruling_Council
 
 add_ideas = {  
 	GOT_Tradition_Free_City

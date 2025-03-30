@@ -4,11 +4,11 @@ characters={
 		name=STE_council_of_stepstones
 		portraits={
 			army = {
-				large="gfx/leaders/STE/STE_council_of_stepstones.dds"
+				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian = {
-				large="gfx/leaders/STE/STE_council_of_stepstones.dds"
+				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
@@ -28,11 +28,11 @@ characters={
 		name=STE_council_of_stepstones
 		portraits={
 			army = {
-				large="gfx/leaders/STE/STE_council_of_stepstones.dds"
+				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian = {
-				large="gfx/leaders/STE/STE_council_of_stepstones.dds"
+				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
@@ -52,11 +52,11 @@ characters={
 		name=STE_council_of_stepstones
 		portraits={
 			army = {
-				large="gfx/leaders/STE/STE_council_of_stepstones.dds"
+				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian = {
-				large="gfx/leaders/STE/STE_council_of_stepstones.dds"
+				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
@@ -68,6 +68,34 @@ characters={
 				internal_rivalry
 				#anarchist_zeal
 				divided_interests
+			}
+		}
+	}
+	
+	STE_Sailors_Council={
+		name=STE_Sailors_Council
+		portraits={
+			army = {
+				large="gfx/leaders/STE/Portrait_Council_Sailors.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/STE/Portrait_Council_Sailors.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				democratic_crusader      # Dedicated to promoting democratic ideals and ensuring fair representation.
+				social_reformer          # Advocating for social reforms that benefit the people, particularly sailors and workers.
+				compassionate_commoner    # A leader in touch with the common people, especially sailors, showing care and empathy.
+				economist                # Focused on maintaining a sustainable economy and fair wages for the population.
+				popular_figurehead       # A popular symbol of democracy and unity, representing the voice of the people.
+				compassionate_gentleman   # A leader balancing kindness and moral integrity with governance.
+				freedom_fighter          # Advocating for freedom and rights, fighting against oppression.
+				the_gentleman_president  # A dignified leader who governs with moral integrity and care for the people.
 			}
 		}
 	}

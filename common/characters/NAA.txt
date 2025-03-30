@@ -15,6 +15,11 @@ characters={
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
 		}
 	}
 	
@@ -33,6 +38,13 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				permanent_revolutionary
+				proletariat_internationalist
+				protector_of_the_campesinos
+				revolutionary_general
+				ideological_crusader
+			}
 		}
 	}
 	
@@ -51,6 +63,11 @@ characters={
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
 		}
 	}
 	
@@ -69,6 +86,11 @@ characters={
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
 		}
 	}
 	
@@ -87,6 +109,11 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
 		}
 	}
 

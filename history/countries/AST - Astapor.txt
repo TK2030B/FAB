@@ -1,19 +1,11 @@
 ﻿capital = 228
+GOT_start_techs = yes
 
-##oob = "AST_1936"
+#oob = "AST_1936" #is loaded now @on_startup, otherwise get deleted instantly
 
 set_research_slots = 3
 
-set_technology = {
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	gw_artillery = 1
-}
-
 set_convoys = 20
-#set_national_unity = 0.85
 
 set_popularities = {
 	democratic = 0
@@ -30,7 +22,11 @@ set_politics = {
 }
 
 recruit_character=AST_good_masters
+recruit_character=AST_Cleon
+recruit_character=AST_Ruling_Council
+recruit_character=AST_Freedmen_Council
 
 add_ideas = {
 	GOT_Tradition_Slaver
+	GOT_Religion_Ghiscari
 }

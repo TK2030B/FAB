@@ -30,6 +30,9 @@ set_politics = {
 }
 
 recruit_character=OMB_king_test
+recruit_character=OMB_Freedmen_Council
+recruit_character=OMB_Ruling_Council
+recruit_character=OMB_Warlords_Council
 
 add_ideas = {
     GOT_Tradition_Free_City
