@@ -11,21 +11,20 @@ set_convoys = 10
 #set_national_unity = 0.85
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	neutrality = 0
-	communism = 100
+	neutrality = 100
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 recruit_character=NAA_leader_unknown
-recruit_character=NAA_leader_unknown_C
+recruit_character=NAA_leader_unknown_D
+recruit_character=NAA_leader_unknown_F
+recruit_character=NAA_Missandei
 
 add_ideas = {
     GOT_Tradition_Tribal

@@ -18,6 +18,24 @@ characters={
 		}
 	}
 	
+	NAA_Missandei={
+		name=NAA_Missandei
+		portraits={
+			army = {
+				large="gfx/leaders/NAA/Portrait_Missandei.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NAA/Portrait_Missandei.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
 	NAA_leader_unknown_C={
 		name=NAA_leader_unknown
 		portraits={
@@ -32,6 +50,42 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	NAA_leader_unknown_D={
+		name=NAA_leader_unknown
+		portraits={
+			army = {
+				large="gfx/leaders/NAA/Portrait_Council_of_Elders.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NAA/Portrait_Council_of_Elders.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+		}
+	}
+	
+	NAA_leader_unknown_F={
+		name=NAA_leader_unknown
+		portraits={
+			army = {
+				large="gfx/leaders/NAA/Portrait_Council_of_Elders.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NAA/Portrait_Council_of_Elders.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
 			expire="1965.1.1.1"
 		}
 	}
