@@ -31,15 +31,7 @@ on_actions = {
 					}
 				}
 			}
-			NWA = {
-				load_oob = NWA_1936
-			}
-			DOT = {
-				load_oob = DOT_1936
-			}
-			AST = {
-				load_oob = AST_1936
-			}
+			GOT_Handle_Special_OOBS = yes
 			DRA = {
 				news_event = { id =news.510 days = 1 }	#Set-up for state modifiers
 			}

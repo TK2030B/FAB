@@ -1,7 +1,6 @@
 ﻿capital = 289
 GOT_start_techs = yes
-
-##oob = "TAR_1936"
+oob = "Generic"
 
 set_research_slots = 2
 

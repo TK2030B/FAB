@@ -130,6 +130,127 @@ GOT_Targaryen_bonus_techs = {
 	}
 }
 
+GOT_Handle_Special_OOBS = {
+	NWA = {
+		load_oob = NWA_1936
+	}
+	DOT = {
+		load_oob = DOT_1936
+	}
+	AST = {
+		load_oob = AST_1936
+	}
+	QAR = {
+		GOT_Generic_Essos_OOB = yes
+	}
+}
+
 GOT_Generic_Essos_OOB = {
+
+division_template = {
+	name = "Infantry Division"		# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+}
+division_template = {
+	name = "Garrison Division"		# Half-Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Light Cavalry Division"  	# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 3 y = 0 }
+	}
+}
+random_owned_controlled_state = {
+	create_unit = {
+		division = "name = \"1st Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"2nd Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"3rd Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"4th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"5th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"6th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"7th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"8th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"9th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"10th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"1st Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+		owner = ROOT
+	}
+	create_unit = {
+		division = "name = \"2nd Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+		owner = ROOT
+	}
+}
+				
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+}				
+				
 
 }
