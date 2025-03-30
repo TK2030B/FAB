@@ -33,11 +33,11 @@ characters={
 		name=SLA_Cleon
 		portraits={
 			army = {
-				large="gfx/leaders/SLA/Portrait_Cleon.dds"
+				large="gfx/leaders/SLA/Portrait_Cleon_The_Butcher.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian = {
-				large="gfx/leaders/SLA/Portrait_Cleon.dds"
+				large="gfx/leaders/SLA/Portrait_Cleon_The_Butcher.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
