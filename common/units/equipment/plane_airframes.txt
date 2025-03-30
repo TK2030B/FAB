@@ -38,7 +38,7 @@ equipments = {
 		build_cost_ic = 4
 		resources = {
 			aluminium = 2
-			rubber = 1
+			steel = 1
 		}
 
 		lend_lease_cost = 8
@@ -233,7 +233,7 @@ equipments = {
 		build_cost_ic = 5
 		resources = {
 			aluminium = 3
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -310,7 +310,7 @@ equipments = {
 		build_cost_ic = 6
 		resources = {
 			aluminium = 3
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -414,7 +414,7 @@ equipments = {
 		build_cost_ic = 7
 		resources = {
 			aluminium = 4
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -537,7 +537,7 @@ equipments = {
 		build_cost_ic = 10
 		resources = {
 			aluminium = 4
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -828,7 +828,7 @@ equipments = {
 		build_cost_ic = 6
 		resources = {
 			aluminium = 2
-			rubber = 1
+			steel = 1
 		}
 
 		module_slots = {
@@ -1024,7 +1024,7 @@ equipments = {
 		build_cost_ic = 8.5
 		resources = {
 			aluminium = 3
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1100,7 +1100,7 @@ equipments = {
 		build_cost_ic = 9.5
 		resources = {
 			aluminium = 3
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1203,7 +1203,7 @@ equipments = {
 		build_cost_ic = 11
 		resources = {
 			aluminium = 4
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1312,7 +1312,7 @@ equipments = {
 		build_cost_ic = 14.5
 		resources = {
 			aluminium = 4
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1440,7 +1440,7 @@ equipments = {
 		build_cost_ic = 6
 		resources = {
 			aluminium = 2
-			rubber = 1
+			steel = 1
 		}
 
 		module_slots = {
@@ -1686,7 +1686,7 @@ equipments = {
 		build_cost_ic = 8
 		resources = {
 			aluminium = 3
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1817,7 +1817,7 @@ equipments = {
 		build_cost_ic = 10
 		resources = {
 			aluminium = 4
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1965,7 +1965,7 @@ equipments = {
 		build_cost_ic = 13
 		resources = {
 			aluminium = 5
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2125,7 +2125,7 @@ equipments = {
 		build_cost_ic = 14
 		resources = {
 			aluminium = 5
-			rubber = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2299,7 +2299,7 @@ equipments = {
 		build_cost_ic = 16
 		resources = {
 			aluminium = 3
-			rubber = 2
+			steel = 2
 		}
 
 		lend_lease_cost = 12
@@ -2541,7 +2541,7 @@ equipments = {
 		build_cost_ic = 18
 		resources = {
 			aluminium = 3
-			rubber = 2
+			steel = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2681,7 +2681,7 @@ equipments = {
 		build_cost_ic = 20
 		resources = {
 			aluminium = 4
-			rubber = 2
+			steel = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2847,7 +2847,7 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			aluminium = 5
-			rubber = 2
+			steel = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -3013,7 +3013,7 @@ equipments = {
 		build_cost_ic = 23
 		resources = {
 			aluminium = 6
-			rubber = 2
+			steel = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
