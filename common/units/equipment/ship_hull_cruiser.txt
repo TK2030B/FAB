@@ -124,6 +124,7 @@ equipments = {
 		build_cost_ic = 1800
 		resources = {
 			rubber = 1
+			steel = 1
 		}
 		
 		manpower = 600
@@ -160,6 +161,7 @@ equipments = {
 		max_strength = 110
 		resources = {
 			rubber = 2
+			steel = 2
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -232,6 +234,7 @@ equipments = {
 		manpower = 1200
 		resources = {
 			rubber = 2
+			steel = 2
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -317,6 +320,7 @@ equipments = {
 		max_strength = 130
 		resources = {
 			rubber = 3
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -421,6 +425,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 2
+			steel = 2
 		}
 	}
 
@@ -470,6 +475,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 3
+			steel = 3
 		}
 		manpower = 800
 	}
@@ -521,6 +527,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 3
+			steel = 3
 		}
 		manpower = 960
 	}
@@ -573,6 +580,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 4
+			steel = 4
 			chromium = 1
 		}
 		manpower = 1140
@@ -690,6 +698,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 3
+			steel = 3
 		}
 		
 		manpower = 1500
@@ -740,6 +749,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 4
+			steel = 4
 		}		
 		manpower = 1700
 	}
@@ -790,6 +800,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 4
+			steel = 4
 		}		
 		manpower = 1900
 	}
@@ -841,6 +852,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 5
+			steel = 5
 			chromium = 1
 		}		
 		manpower = 2200
@@ -957,6 +969,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 2
+			steel = 2
 		}
 		
 		manpower = 960
@@ -1050,6 +1063,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 3
+			steel = 3
 		}
 		
 		manpower = 960
@@ -1068,6 +1082,7 @@ equipments = {
 		max_strength = 220
 		resources = {
 			rubber = 3
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -1126,6 +1141,7 @@ equipments = {
 		build_cost_ic = 3500
 		resources = {
 			rubber = 3
+			steel = 3
 		}
 
 		hg_attack = 0
@@ -1196,6 +1212,7 @@ equipments = {
 		max_strength = 130
 		resources = {
 			rubber = 3
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit

@@ -111,6 +111,7 @@ equipments = {
 		build_cost_ic = 400
 		resources = {
 			rubber = 2
+			steel = 2
 		}
 		
 		manpower = 250
@@ -172,6 +173,7 @@ equipments = {
 		build_cost_ic = 500
 		resources = {
 			rubber = 2
+			steel = 2
 		}
 		manpower = 325
 	}
@@ -231,6 +233,7 @@ equipments = {
 		
 		resources = {
 			rubber = 3
+			steel = 3
 		}
 
 		surface_detection = 20
@@ -308,6 +311,7 @@ equipments = {
 		build_cost_ic = 600
 		resources = {
 			rubber = 4
+			steel = 4
 			chromium = 1
 		}
 		manpower = 500
@@ -356,6 +360,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 2
+			steel = 2
 		}
 		
 		manpower = 250
@@ -408,6 +413,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 3
+			steel = 3
 		}		
 		manpower = 325
 	}
@@ -459,6 +465,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 3
+			steel = 3
 		}
 		manpower = 400
 	}
@@ -511,6 +518,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 4
+			steel = 4
 			chromium = 1
 		}		
 		manpower = 500

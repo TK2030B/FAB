@@ -83,6 +83,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 1
+			steel = 1
 		}
 		
 		manpower = 200
@@ -141,6 +142,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 2
+			steel = 2
 		}
 	}
 
@@ -191,6 +193,7 @@ equipments = {
 		build_cost_ic = 420
 		resources = {
 			rubber = 2
+			steel = 2
 		}
 	}
 	ship_hull_submarine_4 = {
@@ -240,6 +243,7 @@ equipments = {
 		build_cost_ic = 550
 		resources = {
 			rubber = 3
+			steel = 3
 			chromium = 1
 		}
 	}
@@ -301,6 +305,7 @@ equipments = {
 		build_cost_ic = 490
 		resources = {
 			rubber = 2
+			steel = 2
 		}
 	}
 
@@ -361,6 +366,7 @@ equipments = {
 		build_cost_ic = 650
 		resources = {
 			rubber = 3
+			steel = 3
 		}
 	}
 
@@ -401,6 +407,7 @@ equipments = {
 		build_cost_ic = 150
 		resources = {
 			rubber = 1
+			steel = 1
 		}
 	}
 
@@ -472,6 +479,7 @@ equipments = {
 		build_cost_ic = 1150
 		resources = {
 			rubber = 3
+			steel = 3
 			chromium = 2
 		}
 	}
@@ -517,6 +525,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 1
+			steel = 1
 		}
 		
 		manpower = 200
@@ -562,6 +571,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			rubber = 2
+			steel = 2
 		}
 	}
 	
@@ -604,6 +614,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 2
+			steel = 2
 		}
 	}
 	
@@ -646,6 +657,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			rubber = 3
+			steel = 3
 			chromium = 1
 		}
 	}
@@ -746,6 +758,7 @@ equipments = {
 		build_cost_ic = 490
 		resources = {
 			rubber = 2
+			steel = 2
 		}
 	}
 
@@ -843,6 +856,7 @@ equipments = {
 		build_cost_ic = 650
 		resources = {
 			rubber = 3
+			steel = 3
 		}
 	}
 	midget_submarine = {
@@ -900,6 +914,7 @@ equipments = {
 		build_cost_ic = 150
 		resources = {
 			rubber = 1
+			steel = 1
 		}
 	}
 
@@ -1001,6 +1016,7 @@ equipments = {
 		build_cost_ic = 1150
 		resources = {
 			rubber = 4
+			steel = 4
 			chromium = 2
 		}	
 	}
@@ -1103,6 +1119,7 @@ equipments = {
 		build_cost_ic = 900
 		resources = {
 			rubber = 4
+			steel = 4
 			chromium = 2
 		}	
 	}
@@ -1205,6 +1222,7 @@ equipments = {
 		build_cost_ic = 1450
 		resources = {
 			rubber = 4
+			steel = 4
 			chromium = 2
 		}	
 	}
