@@ -6,10 +6,8 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 3 }
-			infantry = { x = 1 y = 0 }
-			infantry = { x = 1 y = 1 }
-			infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
@@ -25,15 +23,16 @@ division_template = {
 		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
 		marine = { x = 0 y = 2 }
-			marine = { x = 1 y = 0 }
-			marine = { x = 1 y = 1 }
-			marine = { x = 1 y = 2 }
-				marine = { x = 2 y = 0 }
-				marine = { x = 2 y = 1 }
-				marine = { x = 2 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+		marine = { x = 3 y = 0 }
 	}
 }
-	#169k totally
+	#100-150k totally
 units = {
 	division = {
 		name = "Lonely Light Garrison"
@@ -166,15 +165,12 @@ units = {
 }
 
 instant_effect = {
-
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "IRO"
 		}
-		requested_factories = 2
-		progress = 0.50
-		efficiency = 80
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
 	}
-
 }

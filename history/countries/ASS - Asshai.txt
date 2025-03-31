@@ -5,7 +5,7 @@ GOT_start_techs = yes
 set_research_slots = 3
 
 set_convoys = 20
-#set_national_unity = 0.85
+
 
 set_popularities = {
 	democratic = 0

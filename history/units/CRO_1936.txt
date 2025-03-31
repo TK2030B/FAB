@@ -6,8 +6,8 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-			infantry = { x = 1 y = 0 }
-			infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 	support = 	{
 		military_police = { x = 0 y = 0 }
@@ -35,5 +35,16 @@ units = {				#ca 17k totally
 		division_template = "City Watch"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
 	}
 }

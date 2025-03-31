@@ -1,4 +1,73 @@
 GOT_start_techs = {
+
+	if = {
+		limit = {
+			OR = {
+				tag = VAL
+				tag = NOR
+				tag = WES
+				tag = DOR
+				tag = RIV
+				tag = STO
+				tag = REA
+				tag = CRO
+				tag = BRA
+				tag = VOL
+				tag = YTI
+				tag = ASS
+				tag = QAR
+			}
+		}
+		GOT_start_techs_A = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = IRO
+				tag = DRA
+				tag = STE 
+				tag = BWB
+				tag = BOL
+				tag = SUI
+				tag = LOR
+				tag = QOH
+				tag = MYR
+				tag = TYR
+				tag = IBB
+				tag = TOL
+				tag = MAN
+			}
+		}
+		GOT_start_techs_B = yes
+	}
+	else = {
+		GOT_start_techs_C = yes
+	}
+	
+	if = {
+		limit = {
+			tag = TAR
+		}
+		GOT_bonus_techs_TAR = yes
+	}
+	
+	if = {
+		limit = {
+			tag = DOT
+		}
+		GOT_bonus_techs_DOT = yes
+	}
+	
+	if = {
+		limit = {
+			tag = IRO
+		}
+		GOT_bonus_techs_IRO = yes
+	}
+
+}
+
+GOT_start_techs_A = {
 	set_technology = {
 		infantry_weapons = 1
 		tech_mountaineers = 1
@@ -77,15 +146,82 @@ GOT_start_techs = {
 			}
 		}
 	}
+	
+}
+
+GOT_start_techs_B = {
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		gw_artillery = 1
+		basic_train = 1
+		tech_trucks = 1
+		interwar_antitank = 1
+		interwar_antiair = 1
+	}
 	if = {
 		limit = {
-			tag = TAR
+			has_dlc = "No Step Back"
 		}
-		GOT_Targaryen_bonus_techs = yes
+		set_technology = {
+			gwtank_chassis = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "No Step Back" }
+		}
+		set_technology = {
+			gwtank = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = { tag = DOT }
+		}
+		if = {
+			limit = {
+				has_dlc = "Man the Guns"
+			}
+			set_technology = {
+				early_ship_hull_light = 1
+				early_ship_hull_cruiser = 1
+				early_ship_hull_heavy = 1
+				#early_ship_hull_carrier = 1 #Only Targs get them at game start
+				early_ship_hull_submarine = 1
+				mtg_transport = 1
+				basic_battery = 1
+				basic_torpedo = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "Man the Guns" }
+			}
+			set_technology = {
+				early_destroyer = 1
+				early_light_cruiser = 1
+				early_heavy_cruiser = 1
+				early_battlecruiser = 1
+				early_battleship = 1
+				#early_carrier = 1 #Only Targs get them at Game Start
+				early_submarine = 1
+				transport = 1
+			}
+		}
 	}
 }
 
-GOT_Targaryen_bonus_techs = {
+GOT_start_techs_C = {
+	set_technology = {
+		infantry_weapons = 1
+	}
+}
+
+GOT_bonus_techs_TAR = {
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
@@ -134,6 +270,33 @@ GOT_Targaryen_bonus_techs = {
 			strategic_bomber1 = 1
 			heavy_fighter1 = 1
 			scout_plane1 = 1
+		}
+	}
+}
+
+GOT_bonus_techs_DOT = {
+	set_technology = {
+		tech_trucks = 1
+	}
+}
+
+GOT_bonus_techs_IRO = {
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_technology = {
+			basic_ship_hull_submarine = 1
+			marines = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "Man the Guns" }
+		}
+		set_technology = {
+			basic_submarine = 1
+			marines = 1
 		}
 	}
 }
@@ -188,15 +351,15 @@ random_owned_state = {
 		owner = ROOT
 	}
 	create_unit = {
-		division = "name = \"1st Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+		division = "name = \"1st Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
 		owner = ROOT
 	}
 	create_unit = {
-		division = "name = \"2nd Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+		division = "name = \"2nd Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
 		owner = ROOT
 	}
 	create_unit = {
-		division = "name = \"3rd Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+		division = "name = \"3rd Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
 		owner = ROOT
 	}
 }
@@ -232,11 +395,11 @@ load_oob = Generic
 			owner = ROOT
 		}
 		create_unit = {
-			division = "name = \"1st Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+			division = "name = \"1st Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
 			owner = ROOT
 		}
 		create_unit = {
-			division = "name = \"2nd Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+			division = "name = \"2nd Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
 			owner = ROOT
 		}
 	}
@@ -252,7 +415,7 @@ load_oob = Generic
 			is_capital = yes
 		}
 		create_unit = {
-			division = "name = \"1st Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+			division = "name = \"1st Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
 			owner = ROOT
 		}
 	}

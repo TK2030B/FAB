@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Garrison"
-	division_names_group = WES_castles_garrison
+	division_names_group = VAL_castles_garrison
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -12,377 +12,417 @@
 
 division_template = {
 	name = "Infantry Division"
-	division_names_group = WES_castles_garrison
+	division_names_group = VAL_castles_garrison
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-			infantry = { x = 1 y = 0 }
-			infantry = { x = 1 y = 1 }
-			infantry = { x = 1 y = 2 }
-				infantry = { x = 2 y = 0 }
-				infantry = { x = 2 y = 1 }
-				infantry = { x = 2 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
 	}
 }
 
-units = {			#ca 464.970
+division_template = {
+	name = "Mountain Division"
+	division_names_group = VAL_castles_garrison
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+#division_template = {
+#	name = "Armoured Division"
+#
+#	division_names_group = AST_ARM_01
+#
+#	regiments = {
+#		light_armor = { x = 0 y = 0 }
+#		light_armor = { x = 0 y = 1 }
+#			cavalry = { x = 1 y = 0 }
+#			cavalry = { x = 1 y = 1 }
+#			cavalry = { x = 1 y = 2 }
+#	}
+#}
+
+units = {				#ca 380k
+	division = {
+		name = "Eyrie Garrison"
+		location = 179
+		division_template = "Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Three Sisters Garrison"
+		location = 3226
+		division_template = "Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Gulltown Garrison"
+		location = 1787
+		division_template = "Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Runestone Garrison"
+		location = 179
+		division_template = "Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ironoaks Garrison"
+		location = 179
+		division_template = "Garrison"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
 	division = {
 		name = "1st Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "2nd Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "3rd Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "4th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "5th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "6th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "7th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "8th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "9th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "10th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "11th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "12th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "13th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "14th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "15th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "16th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "17th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "18th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "19th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "20th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "21th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "22th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "23th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "24th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "25th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "26th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "27th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "28th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "29th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "30th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "31th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "32th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "33th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "34th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "35th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "36th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "37th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "38th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "39th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "40th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "41th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "42th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "43th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "44th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "45th Infantry Division"
-		location = 2601
+		location = 179
 		division_template = "Infantry Division"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
-	division = {
-		name = "46th Infantry Division"
-		location = 2601
-		division_template = "Infantry Division"
-		#start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "47th Infantry Division"
-		location = 2601
-		division_template = "Infantry Division"
-		#start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "48th Infantry Division"
-		location = 2601
-		division_template = "Infantry Division"
-		#start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "49th Infantry Division"
-		location = 2601
-		division_template = "Infantry Division"
-		#start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Lannisterport Garrison"
-		location = 2601
-		division_template = "Garrison"
-		#start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Fair Isle Garrison"
-		location = 3274
-		division_template = "Garrison"
-		#start_experience_factor = 0.1
-		start_equipment_factor = 1
+#	division = {
+#		name = "Armoured Division"
+#		location = 179
+#		division_template = "Armoured Division"
+#		#start_experience_factor = 0.1
+#		start_equipment_factor = 1
+#	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
 	}
 }
