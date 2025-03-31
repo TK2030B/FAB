@@ -1,6 +1,6 @@
 ﻿capital = 13
 GOT_start_techs = yes
-oob = "WIL_1936"
+#oob = "WIL_1936"	#is loaded now @on_startup, otherwise get deleted instantly since 0% conscription
 
 set_research_slots = 2
 

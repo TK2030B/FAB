@@ -1,5 +1,7 @@
 GOT_start_techs = {
 
+set_rule = { can_create_factions = no }
+
 	if = {
 		limit = {
 			OR = {

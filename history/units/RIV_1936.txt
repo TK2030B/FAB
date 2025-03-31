@@ -69,14 +69,14 @@ units = {
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Seagard"
+		name = "Seagard Garrison"
 		location = 1676
 		division_template = "Garrison"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Stone Hedge"
+		name = "Stone Hedge Garrison"
 		location = 1676
 		division_template = "Garrison"
 		#start_experience_factor = 0.1

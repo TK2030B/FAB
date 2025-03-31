@@ -194,6 +194,7 @@ ideas = {
 				supply_factor = 1					# Extra supply available.
 				conscription = 1					# Always has soldiers available (reviving dead).
 				winter_attrition = -1				# No winter attrition (cold immunity).
+				research_speed_factor = 100.00
 			}
 
 			cancel_if_invalid = no

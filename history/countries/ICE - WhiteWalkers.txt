@@ -1,21 +1,10 @@
 ﻿capital = 1
-
-##oob = "ICE_1936"
+GOT_start_techs = yes
+oob = "ICE_1936"
 
 set_cosmetic_tag = ICE_unknown
 
 set_research_slots = 1
-
-set_technology = {
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	gw_artillery = 1
-	transport = 1
-	mass_assault = 1
-}
-
 
 set_popularities = {
 	democratic = 0
@@ -39,3 +28,8 @@ add_ideas = {
 	GOT_Tradition_White_Walkers
 	GOT_Religion_Great_Other
 }
+
+set_rule = { can_create_factions = no }
+set_rule = { can_join_faction = no }
+set_rule = { can_send_volunteers = no }
+set_rule = { can_puppet = no }

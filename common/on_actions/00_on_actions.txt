@@ -34,11 +34,17 @@ on_actions = {
 			NWA = {
 				load_oob = NWA_1936
 			}
+			WIL = {
+				load_oob = WIL_1936
+			}
 			DOT = {
 				load_oob = DOT_1936
 			}
 			AST = {
 				load_oob = AST_1936
+			}
+			DRA = {
+				load_oob = DRA_1936
 			}
 			every_country = {
 				limit = { 

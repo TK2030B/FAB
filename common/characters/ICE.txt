@@ -13,8 +13,48 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				autokrator
+				no_leadership
+				warrior_code
+				warmonger
+				indomitable_perseverance
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				autokrator
+				no_leadership
+				warrior_code
+				warmonger
+				indomitable_perseverance
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				autokrator
+				no_leadership
+				warrior_code
+				warmonger
+				indomitable_perseverance
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				autokrator
+				no_leadership
+				warrior_code
+				warmonger
+				indomitable_perseverance
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -34,12 +74,40 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=DR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
 		}
 		country_leader={
 			ideology=NR_subideology
 			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
 		}
 	}
 

@@ -1,0 +1,618 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Iron Fleet"			
+		naval_base = 1544 # Pyke
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 1544 # Pyke
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IRO } } }
+		}				
+		task_force = {				
+			name = "Pirate Ship Fleet"			
+			location = 1544 # Pyke
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+			ship = { name = "Pirate Ship" definition = submarine equipment = { submarine_1 = { amount = 1 owner = IRO } } }
+		}				
+	}
+} 
+

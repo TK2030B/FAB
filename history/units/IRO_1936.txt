@@ -161,6 +161,104 @@ units = {
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
+	division = {
+		name = "'Saltcliff' Raiders"
+		location = 764
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Great Wyk' Raiders"
+		location = 3214
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Old Wyk' Raiders"
+		location = 2496
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Blacktyde' Raiders"
+		location = 1960
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Orkmont' Raiders"
+		location = 2498
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Harlaw' Raiders"
+		location = 2504
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Saltcliff' Raiders"
+		location = 764
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Great Wyk' Raiders"
+		location = 3214
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Old Wyk' Raiders"
+		location = 2496
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Blacktyde' Raiders"
+		location = 1960
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Orkmont' Raiders"
+		location = 2498
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Harlaw' Raiders"
+		location = 2504
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Saltcliff' Raiders"
+		location = 764
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "'Great Wyk' Raiders"
+		location = 3214
+		division_template = "Landing Division"
+		#start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
 
 }
 

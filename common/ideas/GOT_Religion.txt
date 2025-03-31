@@ -78,6 +78,7 @@ ideas = {
 				monthly_population  = -3.5			# Kills or converts population.
 				consumer_goods_factor = 10			# Not focused on economy.
 				command_power_gain = -5			# No structured military leadership.
+				research_speed_factor = 100.00
 			}
 
 			cancel_if_invalid = no

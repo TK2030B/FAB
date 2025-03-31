@@ -1,48 +1,11 @@
 ﻿capital = 18
-
+GOT_start_techs = yes
 #oob = "NWA_1936"	#is loaded now @on_startup, otherwise get deleted instantly since 0% conscription
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	#set_naval_oob = "NWA_1936_naval_mtg"
-	else = {
-		#set_naval_oob = "NWA_1936_naval_legacy"
-	}
-}
 
 set_research_slots = 2
 set_stability = 0.3
 set_war_support = 0.4
 set_variable = { NWA_div_cap_var = 0 }
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
-	gw_artillery = 1
-	trench_warfare = 1
-}
-
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_battery = 1
-		basic_cruiser_armor_scheme = 1
-		coastal_defense_ships = 1
-	}
-}
 
 add_ideas = {
 	crows
@@ -119,75 +82,6 @@ recruit_character=NWA_jon_snow_dissident
 
 set_convoys = 10
 #set_national_unity = 0.9
-
-### Ship Variants ###
-## DESTROYERS
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	create_equipment_variant = {
-		name = "Talon Class"
-		type = destroyer_1
-		upgrades = {
-			ship_torpedo_upgrade = 1
-			destroyer_engine_upgrade = 1
-			ship_ASW_upgrade = 1
-			ship_anti_air_upgrade = 1
-		}
-	}
-	# Light Cruisers #
-	create_equipment_variant = {
-		name = "Blackbird Class"
-		type = light_cruiser_1
-		upgrades = {
-			ship_reliability_upgrade = 1
-			ship_engine_upgrade = 1
-			ship_gun_upgrade = 1
-			ship_anti_air_upgrade = 1
-		}
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	# DESTROYER #
-	create_equipment_variant = {
-		name = "Talon Class"
-		type = ship_hull_light_1
-		name_group = NWA_CASTLES
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_depth_charge_1
-		}
-	}
-	create_equipment_variant = {
-		name = "Blackbird Class"
-		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = NWA_LORD_COMMANDERS
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
-		}
-	}
-}
 
 add_ideas = {
 	GOT_Tradition_Nights_Watch
