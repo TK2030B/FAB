@@ -122,3 +122,19 @@ country_event = {
 		
 	}
 }
+
+#Generic Essos OOB
+country_event = {
+	id = Game_Event.5
+	title = Game_Event.5.t
+	desc = Game_Event.5.d
+	picture = GFX_report_event_welcome_event
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		GOT_Generic_Essos_OOB = yes
+	}
+	option = {
+		name = Game_Event.5.a		
+	}
+}

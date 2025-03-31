@@ -4,6 +4,12 @@ state={
 	history={
 		owner = QAR
 		add_core_of = QAR
+		buildings = {
+			infrastructure = 1
+			3311 = {
+				naval_base = 1
+			}
+		}
 	}
 	provinces={
 		3311

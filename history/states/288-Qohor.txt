@@ -8,11 +8,14 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
+			88 = {
+				bunker = 5
+			}
 		}
 		add_core_of = QOH
-		#victory_points = {
-		#	179 15
-		#}
+		victory_points = {
+			88 15
+		}
 	}
 	
 	resources = {

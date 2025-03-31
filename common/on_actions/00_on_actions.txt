@@ -31,7 +31,21 @@ on_actions = {
 					}
 				}
 			}
-			GOT_Handle_Special_OOBS = yes
+			NWA = {
+				load_oob = NWA_1936
+			}
+			DOT = {
+				load_oob = DOT_1936
+			}
+			AST = {
+				load_oob = AST_1936
+			}
+			QAR = {
+				country_event = { id = Game_Event.5 }
+			}
+			QOH = {
+				country_event = { id = Game_Event.5 }
+			}
 			DRA = {
 				news_event = { id =news.510 days = 1 }	#Set-up for state modifiers
 			}

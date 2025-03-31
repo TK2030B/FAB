@@ -1,6 +1,6 @@
 ﻿capital = 313
 GOT_start_techs = yes
-#oob = "Generic_Essos" #Everything Handled by On_Action
+oob = "Generic_Essos"
 
 set_research_slots = 4
 

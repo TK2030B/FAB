@@ -1,5 +1,4 @@
 characters={
-
 	BRA_Sealord_of_Bravos={
 		name=BRA_Sealord_of_Bravos
 		portraits={
@@ -27,32 +26,9 @@ characters={
 				political_manipulator  # The Sealord navigates the complex political landscape through subtle manipulation.  
 				lavish_lifestyle  # The Sealord enjoys the opulence and wealth of Braavos, symbolizing their power and status.  
 			}
-
-		}
-		field_marshal={
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	
-	BRA_Sealord_of_Bravos_F={
-		name=BRA_Sealord_of_Bravos
-		portraits={
-			army = {
-				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
 		}
 		country_leader={
-			ideology=FR_subideology
+			ideology=DR_subideology
 			expire="1965.1.1.1"
 			traits = {  
 				dictator  # They ruled with near-absolute power and control.  
@@ -65,21 +41,6 @@ characters={
 				hawk  # The Sealord is shrewd and predatory in seizing opportunities for Braavos.  
 				political_manipulator  # The Sealord navigates the complex political landscape through subtle manipulation.  
 				lavish_lifestyle  # The Sealord enjoys the opulence and wealth of Braavos, symbolizing their power and status.  
-			}
-
-		}
-	}
-	
-	BRA_Sealord_of_Bravos_C={
-		name=BRA_Sealord_of_Bravos
-		portraits={
-			army = {
-				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -97,24 +58,9 @@ characters={
 				political_manipulator  # The Sealord navigates the complex political landscape through subtle manipulation.  
 				lavish_lifestyle  # The Sealord enjoys the opulence and wealth of Braavos, symbolizing their power and status.  
 			}
-
-		}
-	}
-	
-	BRA_Sealord_of_Bravos_D={
-		name=BRA_Sealord_of_Bravos
-		portraits={
-			army = {
-				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/BRA/Portrait_Sealord_of_Braavos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
 		}
 		country_leader={
-			ideology=DR_subideology
+			ideology=FR_subideology
 			expire="1965.1.1.1"
 			traits = {  
 				dictator  # They ruled with near-absolute power and control.  
@@ -128,8 +74,14 @@ characters={
 				political_manipulator  # The Sealord navigates the complex political landscape through subtle manipulation.  
 				lavish_lifestyle  # The Sealord enjoys the opulence and wealth of Braavos, symbolizing their power and status.  
 			}
-
+		}
+		field_marshal={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
-
 }

@@ -9,11 +9,15 @@ state={
 			industrial_complex = 5
 			arms_factory = 2
 			dockyard = 3
+			125 = {
+				naval_base = 8
+				bunker = 5
+			}
 		}
 		add_core_of = QAR
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			125 30
+		}
 	}
 	
 	resources = {
