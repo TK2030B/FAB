@@ -1,0 +1,333 @@
+﻿division_template = {
+	name = "Wildling Tribesmen"	# represents first part of enlarged divisions
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 3 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Garrison"	# represents first part of enlarged divisions
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Mance Loyalists"
+		location = 2339  #Somewhere in the Frostfangs
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Hardhome Garrison"
+		location = 2071  #Hardhome
+		division_template = "Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+}
