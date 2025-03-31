@@ -1,0 +1,75 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Lannister Fleet"			
+		naval_base = 2609 # Lannister
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 2609 # Lannister
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = WES version_name = "Longship Class" } } }
+		}				
+				
+	}
+} 
+
