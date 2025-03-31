@@ -25,28 +25,6 @@ characters={
 				economic_reformer  
 			}
 		}
-		field_marshal={
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	
-	SUI_baela_qo_C={
-		name=SUI_baela_qo
-		portraits={
-			army = {
-				large="gfx/leaders/SUI/Portrait_Baela_Qo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/SUI/Portrait_Baela_Qo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
@@ -58,20 +36,6 @@ characters={
 				social_reformer  
 				compassionate_commoner  
 				economic_reformer  
-			}
-		}
-	}
-	
-	SUI_baela_qo_D={
-		name=SUI_baela_qo
-		portraits={
-			army = {
-				large="gfx/leaders/SUI/Portrait_Baela_Qo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/SUI/Portrait_Baela_Qo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -87,32 +51,13 @@ characters={
 				economic_reformer  
 			}
 		}
-	}
-	
-	SUI_baela_qo_F={
-		name=SUI_baela_qo
-		portraits={
-			army = {
-				large="gfx/leaders/SUI/Portrait_Baela_Qo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/SUI/Portrait_Baela_Qo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
-			traits = {  
-				humble  
-				political_manipulator  
-				popular_figurehead  
-				protector_of_the_campesinos  
-				social_reformer  
-				compassionate_commoner  
-				economic_reformer  
-			}
+		field_marshal={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	

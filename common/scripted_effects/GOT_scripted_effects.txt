@@ -68,6 +68,14 @@ GOT_start_techs = {
 				transport = 1
 			}
 		}
+		if = {
+			limit = {
+				has_dlc = "La Resistance"
+			}
+			set_technology = {
+				armored_car1 = 1
+			}
+		}
 	}
 	if = {
 		limit = {
@@ -131,50 +139,7 @@ GOT_Targaryen_bonus_techs = {
 }
 
 GOT_Generic_Essos_OOB = {
-
-division_template = {
-	name = "Infantry Division"		# Infantry Division
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-	}
-}
-division_template = {
-	name = "Garrison Division"		# Half-Infantry Division
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-	}
-}
-division_template = {
-	name = "Light Cavalry Division"  	# Cavalry Division
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-		cavalry = { x = 2 y = 2 }
-		cavalry = { x = 3 y = 0 }
-	}
-}
+load_oob = Generic
 random_owned_state = {
 	limit = {
 		ROOT = {
@@ -230,51 +195,15 @@ random_owned_state = {
 		division = "name = \"2nd Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
 		owner = ROOT
 	}
+	create_unit = {
+		division = "name = \"3rd Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+		owner = ROOT
+	}
 }
 }
 
 GOT_Generic_Essos_OOB_B = {
-division_template = {
-	name = "Infantry Division"		# Infantry Division
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-	}
-}
-division_template = {
-	name = "Garrison Division"		# Half-Infantry Division
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-	}
-}
-division_template = {
-	name = "Light Cavalry Division"  	# Cavalry Division
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-		cavalry = { x = 2 y = 2 }
-		cavalry = { x = 3 y = 0 }
-	}
-}
+load_oob = Generic
 	random_owned_state = {
 		limit = {
 			ROOT = {
@@ -301,6 +230,26 @@ division_template = {
 		create_unit = {
 			division = "name = \"5th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
 			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"1st Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"2nd Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"
+			owner = ROOT
+		}
+	}
+}
+
+GOT_Generic_Essos_OOB_C = {
+load_oob = Generic
+	random_owned_state = {
+		limit = {
+			ROOT = {
+				has_full_control_of_state = PREV
+			}
+			is_capital = yes
 		}
 		create_unit = {
 			division = "name = \"1st Garrison Division\" division_template = \"Garrison Division\" start_experience_factor = 0.2"

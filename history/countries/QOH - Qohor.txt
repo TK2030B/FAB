@@ -1,6 +1,6 @@
 ﻿capital = 288
 GOT_start_techs = yes
-oob = "Generic_Essos"
+#OOB Handled by on_actions
 
 set_research_slots = 2
 

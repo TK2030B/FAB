@@ -138,3 +138,35 @@ country_event = {
 		name = Game_Event.5.a		
 	}
 }
+
+#Generic Essos OOB for Smaller Cities
+country_event = {
+	id = Game_Event.6
+	title = Game_Event.6.t
+	desc = Game_Event.6.d
+	picture = GFX_report_event_welcome_event
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		GOT_Generic_Essos_OOB_B = yes
+	}
+	option = {
+		name = Game_Event.6.a		
+	}
+}
+
+#Generic Essos OOB for Tiny Cities
+country_event = {
+	id = Game_Event.7
+	title = Game_Event.7.t
+	desc = Game_Event.7.d
+	picture = GFX_report_event_welcome_event
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		GOT_Generic_Essos_OOB_C = yes
+	}
+	option = {
+		name = Game_Event.7.a		
+	}
+}

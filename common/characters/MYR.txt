@@ -25,21 +25,6 @@ characters={
 				ambitious_negotiator_neutrality  # Myr often seeks to maintain neutrality in conflicts to continue its trade, requiring leaders skilled in negotiating such stances.
 				tenacious_negotiator  # Persistent and determined negotiation tactics are essential for securing advantageous deals in Myr's competitive trade environment.
 			}
-
-		}
-	}
-	
-	MYR_magister_D={
-		name=MYR_magister
-		portraits={
-			army = {
-				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
 		}
 		country_leader={
 			ideology=DR_subideology
@@ -53,21 +38,6 @@ characters={
 				backroom_backstabber  # The political landscape of Myr involves intrigue and covert operations to outmaneuver rivals and secure economic advantages.
 				ambitious_negotiator_neutrality  # Myr often seeks to maintain neutrality in conflicts to continue its trade, requiring leaders skilled in negotiating such stances.
 				tenacious_negotiator  # Persistent and determined negotiation tactics are essential for securing advantageous deals in Myr's competitive trade environment.
-			}
-
-		}
-	}
-	
-	MYR_magister_F={
-		name=MYR_magister
-		portraits={
-			army = {
-				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/MYR/Portrait_Council_of_Merchant_Princes.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -83,10 +53,9 @@ characters={
 				ambitious_negotiator_neutrality  # Myr often seeks to maintain neutrality in conflicts to continue its trade, requiring leaders skilled in negotiating such stances.
 				tenacious_negotiator  # Persistent and determined negotiation tactics are essential for securing advantageous deals in Myr's competitive trade environment.
 			}
-
 		}
 	}
-	
+
 	MYR_Freedmen_Council={
 		name=SLA_Freedmen_Council
 		portraits={

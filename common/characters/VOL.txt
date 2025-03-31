@@ -25,22 +25,6 @@ characters={
 				conservative_grandee  
 				lavish_lifestyle
 			}
-
-
-		}
-	}
-	
-	VOL_triarchy_F={
-		name=VOL_triarchy
-		portraits={
-			army = {
-				large="gfx/leaders/VOL/Portrait_Triarchy.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/VOL/Portrait_Triarchy.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
 		}
 		country_leader={
 			ideology=FR_subideology

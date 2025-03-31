@@ -22,20 +22,6 @@ characters={
 				divided_interests
 			}
 		}
-	}
-	
-	STE_council_of_stepstones_F={
-		name=STE_council_of_stepstones
-		portraits={
-			army = {
-				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
@@ -44,20 +30,6 @@ characters={
 				internal_rivalry
 				#anarchist_zeal
 				divided_interests
-			}
-		}
-	}
-	
-	STE_council_of_stepstones_C={
-		name=STE_council_of_stepstones
-		portraits={
-			army = {
-				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -71,7 +43,7 @@ characters={
 			}
 		}
 	}
-	
+
 	STE_Sailors_Council={
 		name=STE_Sailors_Council
 		portraits={

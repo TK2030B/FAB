@@ -40,11 +40,48 @@ on_actions = {
 			AST = {
 				load_oob = AST_1936
 			}
-			QAR = {
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = QAR
+						tag = PEN
+						tag = VOL
+						tag = BRA
+						tag = IBB
+						tag = YTI
+					}
+				}
 				country_event = { id = Game_Event.5 }
 			}
-			QOH = {
-				country_event = { id = Game_Event.5 }
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = QOH
+						tag = LYS
+						tag = MYR
+						tag = TYR
+						tag = LOR
+						tag = MAN
+						tag = SAA
+						tag = TOL
+						tag = MRQ
+						tag = SUI
+						tag = LEN
+					}
+				}
+				country_event = { id = Game_Event.6 }
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = ELY
+						tag = MOR
+						tag = OMB
+						tag = NAA
+						tag = ASS
+					}	
+				}
+				country_event = { id = Game_Event.7 }
 			}
 			DRA = {
 				news_event = { id =news.510 days = 1 }	#Set-up for state modifiers

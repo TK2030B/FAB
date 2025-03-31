@@ -1,11 +1,8 @@
 ﻿capital = 227
-
-##oob = "NAA_1936"
+GOT_start_techs = yes
+#OOB Handled by on_actions
 
 set_research_slots = 2
-
-set_technology = {
-}
 
 set_convoys = 10
 #set_national_unity = 0.85
@@ -22,8 +19,6 @@ set_politics = {
 }
 
 recruit_character=NAA_leader_unknown
-recruit_character=NAA_leader_unknown_D
-recruit_character=NAA_leader_unknown_F
 recruit_character=NAA_Missandei
 
 add_ideas = {

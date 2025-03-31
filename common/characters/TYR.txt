@@ -27,6 +27,22 @@ characters={
 				camarilla_leader
 				warmonger
 			}
+			country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+				traits = {
+					dictator
+					warrior_code
+					autocratic_imperialist
+					stout_defender
+					political_manipulator
+					backroom_backstabber
+					economic_organizer
+					hawk
+					camarilla_leader
+					warmonger
+				}
+			}
 		}
 		field_marshal={
 			traits = { }
@@ -35,36 +51,6 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-	}
-	
-	TYR_archon_F={
-		name=TYR_archon
-		portraits={
-			army = {
-				large="gfx/leaders/TYR/Portrait_Archon_of_Tyrosh.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/TYR/Portrait_Archon_of_Tyrosh.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
-			traits = {
-				dictator
-				warrior_code
-				autocratic_imperialist
-				stout_defender
-				political_manipulator
-				backroom_backstabber
-				economic_organizer
-				hawk
-				camarilla_leader
-				warmonger
-			}
 		}
 	}
 	

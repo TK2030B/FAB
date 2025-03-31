@@ -1,16 +1,8 @@
 ﻿capital = 293
-
-##oob = "MYR_1936"
+GOT_start_techs = yes
+#OOB Handled by on_actions
 
 set_research_slots = 2
-
-set_technology = {
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	gw_artillery = 1
-}
 
 set_convoys = 10
 #set_national_unity = 0.85
@@ -30,8 +22,6 @@ set_politics = {
 }
 
 recruit_character=MYR_magister
-recruit_character=MYR_magister_D
-recruit_character=MYR_magister_F
 recruit_character=MYR_Freedmen_Council
 
 add_ideas = {

@@ -1,19 +1,10 @@
 ﻿capital = 289
-
-##oob = "PEN_1936"
+GOT_start_techs = yes
+#OOB Handled by on_actions
 
 set_research_slots = 2
 
-set_technology = {
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	gw_artillery = 1
-}
-
 set_convoys = 30
-#set_national_unity = 0.85
 
 set_popularities = {
 	democratic = 0
@@ -30,8 +21,6 @@ set_politics = {
 }
 
 recruit_character=PEN_prince
-recruit_character=PEN_prince_D
-recruit_character=PEN_prince_F
 recruit_character=PEN_Freedmen_Council
 
 add_ideas = {

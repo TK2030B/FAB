@@ -26,20 +26,6 @@ characters={
 				tenacious_negotiator  # Lys' leadership is persistent in securing the best deals and trade agreements for their city.
 			}
 		}
-	}
-	
-	LYS_first_magister_D={
-		name=LYS_first_magister
-		portraits={
-			army = {
-				large="gfx/leaders/LYS/Portrait_Magisters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/LYS/Portrait_Magisters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
@@ -52,20 +38,6 @@ characters={
 				lavish_lifestyle  # The ruling elite of Lys live in luxury, wearing the finest silks and enjoying an opulent existence.
 				ambitious_negotiator_neutrality  # Like Myr, Lys prefers neutrality in conflicts to ensure its wealth and trade remain untouched.
 				tenacious_negotiator  # Lys' leadership is persistent in securing the best deals and trade agreements for their city.
-			}
-		}
-	}
-	
-	LYS_first_magister_F={
-		name=LYS_first_magister
-		portraits={
-			army = {
-				large="gfx/leaders/LYS/Portrait_Magisters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/LYS/Portrait_Magisters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -83,7 +55,6 @@ characters={
 			}
 		}
 	}
-	
 	LYS_Freedwomen_Council={
 		name=LYS_Freedwomen_Council
 		portraits={

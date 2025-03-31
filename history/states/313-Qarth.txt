@@ -11,7 +11,7 @@ state={
 			dockyard = 3
 			125 = {
 				naval_base = 8
-				bunker = 5
+				bunker = 4 #Should be 5 but Mountain only allows 4
 			}
 		}
 		add_core_of = QAR

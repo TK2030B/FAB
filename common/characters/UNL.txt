@@ -21,20 +21,6 @@ characters={
 				divided_interests
 			}
 		}
-	}
-	
-	UNL_Unknown_Leader_C={
-		name=UNL_Unknown_Leader
-		portraits={
-			army = {
-				large="gfx/leaders/UNL/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/UNL/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
@@ -44,20 +30,6 @@ characters={
 				divided_interests
 			}
 		}
-	}
-	
-	UNL_Unknown_Leader_D={
-		name=UNL_Unknown_Leader
-		portraits={
-			army = {
-				large="gfx/leaders/UNL/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/UNL/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
@@ -65,20 +37,6 @@ characters={
 				no_leadership
 				internal_rivalry
 				divided_interests
-			}
-		}
-	}
-	
-	UNL_Unknown_Leader_F={
-		name=UNL_Unknown_Leader
-		portraits={
-			army = {
-				large="gfx/leaders/UNL/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/UNL/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={

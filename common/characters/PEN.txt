@@ -29,28 +29,6 @@ characters={
 				lavish_lifestyle
 			}
 		}
-		field_marshal={
-			traits = { }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	
-	PEN_prince_D={
-		name=PEN_prince
-		portraits={
-			army = {
-				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
@@ -66,20 +44,6 @@ characters={
 				popular_figurehead  # The Prince's public image is carefully crafted to maintain loyalty among the people.  
 				staunch_constitutionalist  # While wielding power, the Prince still respects Pentos' constitutional structure.  
 				lavish_lifestyle
-			}
-		}
-	}
-	
-	PEN_prince_F={
-		name=PEN_prince
-		portraits={
-			army = {
-				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/PEN/Portrait_Prince_of_Pentos.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -98,6 +62,14 @@ characters={
 				staunch_constitutionalist  # While wielding power, the Prince still respects Pentos' constitutional structure.  
 				lavish_lifestyle
 			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 	

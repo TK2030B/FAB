@@ -1,15 +1,8 @@
 ﻿capital = 183
-
-##oob = "SUI_1936"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+GOT_start_techs = yes
+#OOB Handled by on_actions
 
 recruit_character = SUI_baela_qo
-recruit_character = SUI_baela_qo_C
-recruit_character = SUI_baela_qo_D
 recruit_character=SUI_Xaro_Xoan_Daxos
 
 set_convoys = 50
