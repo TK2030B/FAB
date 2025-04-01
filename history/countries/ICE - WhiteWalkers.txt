@@ -28,8 +28,3 @@ add_ideas = {
 	GOT_Tradition_White_Walkers
 	GOT_Religion_Great_Other
 }
-
-set_rule = { can_create_factions = no }
-set_rule = { can_join_factions = no }
-set_rule = { can_send_volunteers = no }
-set_rule = { can_puppet = no }

@@ -13,7 +13,11 @@ state={
 			air_base = 5
 			2575 = {
 				naval_base = 4
+			}
+			2575 = {
 				bunker = 6
+			}
+			2575 = {
 				coastal_bunker = 2
 			}
 

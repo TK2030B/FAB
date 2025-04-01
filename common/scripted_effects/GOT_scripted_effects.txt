@@ -1,6 +1,23 @@
 GOT_start_techs = {
 
-set_rule = { can_create_factions = no }
+	if = {
+		limit = {
+			OR = {
+				tag = ICE
+				tag = REW
+				tag = UNL
+				tag = SOT
+				tag = ULT
+			}
+		}
+		set_rule = { can_create_factions = no }
+		set_rule = { can_join_factions = no }
+		set_rule = { can_send_volunteers = no }
+		set_rule = { can_puppet = no }
+	}
+	else = {
+		set_rule = { can_create_factions = no }
+	}
 
 	if = {
 		limit = {

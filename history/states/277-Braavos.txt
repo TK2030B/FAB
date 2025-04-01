@@ -11,8 +11,6 @@ state={
 			dockyard = 1
 			852 = {
 				naval_base = 10 #Coastal City
-			}
-			852 = {
 				bunker = 3 #Astapor had city walls
 			}
 		}

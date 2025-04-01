@@ -13,9 +13,6 @@
 		militia = { x = 2 y = 2 }
 		militia = { x = 3 y = 0 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }
-	}
 }
 
 division_template = {
