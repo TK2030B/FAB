@@ -1,0 +1,32 @@
+﻿capital = 228
+GOT_start_techs = yes
+#OOB Handled by on_actions
+
+set_research_slots = 3
+
+set_convoys = 20
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=MER_Great_Masters
+recruit_character=MER_Freedmen_Council
+recruit_character=MER_Ruling_Council
+#recruit_character=MER_Daario_Naharis #Added by Event
+#recruit_character=MER_Tyrion_Lannister #Added by Event
+
+add_ideas = {
+	GOT_Tradition_Slaver
+	GOT_Religion_Ghiscari
+}

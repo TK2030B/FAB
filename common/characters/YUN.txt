@@ -22,30 +22,17 @@ characters={
 				political_manipulator  # Known for their cunning political strategies and ability to manipulate situations.
 				fortification_engineer  # Strong defenses to protect their city and their wealth.
 			}
-		}
-	}
-	YUN_Wise_Masters_F={
-		name=YUN_Wise_Masters
-		portraits={
-			army = {
-				large="gfx/leaders/YUN/Portrait_Wise_Masters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/YTI/Portrait_Wise_Masters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
-			traits = {
-				economic_organizer     # Skilled in organizing and controlling the economy, particularly the slave trade.
-				camarilla_leader       # Power exercised through secretive, behind-the-scenes political maneuvering.
-				lavish_lifestyle       # Lived in luxury, enjoying the spoils of their wealth and the slave trade.
-				ideological_crusader   # Strongly committed to preserving the institution of slavery.
-				political_manipulator  # Known for their cunning political strategies and ability to manipulate situations.
-				fortification_engineer  # Strong defenses to protect their city and their wealth.
+			country_leader={
+				ideology=FR_subideology
+				expire="1965.1.1.1"
+				traits = {
+					economic_organizer     # Skilled in organizing and controlling the economy, particularly the slave trade.
+					camarilla_leader       # Power exercised through secretive, behind-the-scenes political maneuvering.
+					lavish_lifestyle       # Lived in luxury, enjoying the spoils of their wealth and the slave trade.
+					ideological_crusader   # Strongly committed to preserving the institution of slavery.
+					political_manipulator  # Known for their cunning political strategies and ability to manipulate situations.
+					fortification_engineer  # Strong defenses to protect their city and their wealth.
+				}
 			}
 		}
 	}

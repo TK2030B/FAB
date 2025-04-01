@@ -24,19 +24,6 @@ characters={
 				fortification_engineer # Strong defenses to secure their hold over the city and prevent uprisings.
 			}
 		}
-	}
-	MER_Great_Masters_F={
-		name=MER_Great_Masters
-		portraits={
-			army = {
-				large="gfx/leaders/MER/Portrait_Great_Masters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/YTI/Portrait_Great_Masters.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
@@ -99,6 +86,59 @@ characters={
 				freedom_fighter  # Represents their origins in resisting tyranny and establishing a more just rule.
 				voice_of_restraint  # Encourages moderation and diplomacy rather than aggressive expansion or conflict.
 			}
+		}
+	}
+	
+	MER_Tyrion_Lannister={
+		name=CRO_Tyrion_Lannister
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Tyrion_Lannister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Tyrion_Lannister.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				constitutional_monarch
+				popular_figurehead
+				economic_reformer
+				social_reformer
+				backroom_backstabber
+				tenacious_negotiator
+				compassionate_gentleman
+				hedonist
+			}
+		}
+	}
+	
+	MER_Daario_Naharis={
+		name=TAR_Daario_Naharis
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Daario_Naharis.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TAR/Portrait_Daario_Naharis.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				adventurous_daredevil  # Daario is a flamboyant and daring sellsword, known for his boldness in battle.
+				smooth_talking_charmer  # He is charismatic, seductive, and skilled at persuasion.
+				ideological_groupie  # He abandons his old life to follow Daenerys, driven more by personal devotion than deep political belief.
+				warmonger  # A mercenary at heart, Daario enjoys war and combat.
+				backroom_backstabber  # He is cunning and willing to betray former allies, as seen when he kills his co-captains to take control of the Stormcrows.
+			} 
 		}
 	}
 }

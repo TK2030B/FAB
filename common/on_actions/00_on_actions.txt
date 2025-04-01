@@ -46,6 +46,7 @@ on_actions = {
 			DRA = {
 				load_oob = DRA_1936
 			}
+			#Wealthy Cities Generic OOB
 			every_country = {
 				limit = { 
 					OR = { 
@@ -55,10 +56,13 @@ on_actions = {
 						tag = BRA
 						tag = IBB
 						tag = YTI
+						tag = YUN
+						tag = MER
 					}
 				}
 				country_event = { id = Game_Event.5 }
 			}
+			#Medium Cities Generic OOB
 			every_country = {
 				limit = { 
 					OR = { 
@@ -77,6 +81,7 @@ on_actions = {
 				}
 				country_event = { id = Game_Event.6 }
 			}
+			#Poor Cities Generic OOB
 			every_country = {
 				limit = { 
 					OR = { 

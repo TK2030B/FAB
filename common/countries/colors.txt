@@ -266,3 +266,13 @@ UNL = {
 	color = rgb { 169 169 169 }
 	color_ui = rgb { 169 169 169 }
 }
+
+YUN = {
+	color = rgb { 176 81 34 }
+	color_ui = rgb { 129 68 38 }
+}
+
+MER = {
+	color = rgb { 204 153 51 }
+	color_ui = rgb { 92 77 38 }
+}

@@ -345,14 +345,6 @@ random_owned_state = {
 		owner = ROOT
 	}
 	create_unit = {
-		division = "name = \"9th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
-		owner = ROOT
-	}
-	create_unit = {
-		division = "name = \"10th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
-		owner = ROOT
-	}
-	create_unit = {
 		division = "name = \"1st Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
 		owner = ROOT
 	}
@@ -390,10 +382,6 @@ load_oob = Generic
 		}
 		create_unit = {
 			division = "name = \"4th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
-			owner = ROOT
-		}
-		create_unit = {
-			division = "name = \"5th Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
 			owner = ROOT
 		}
 		create_unit = {
