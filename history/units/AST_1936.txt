@@ -17,7 +17,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Garrison Division" # Astapor has 600 City Guards, so we have 6000
+	name = "Garrison" # Astapor has 600 City Guards, so we have 6000
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -46,14 +46,6 @@ division_template = {
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 		infantry = { x = 3 y = 0 }
-	}
-	
-	support = { 
-		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-		logistics_company = { x = 0 y = 3 }
-		field_hospital = { x = 0 y = 4 }
 	}
 	
 	priority = 2
@@ -154,7 +146,7 @@ units = {
 	division = {
 		name = "City Guard"
 		location = 1045
-		division_template = "City Guard"
+		division_template = "Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}

@@ -21,6 +21,7 @@ set_rule = { can_create_factions = no }
 			}
 		}
 		GOT_start_techs_A = yes
+		GOT_naval_variants = yes
 	}
 	else_if = {
 		limit = {
@@ -38,9 +39,11 @@ set_rule = { can_create_factions = no }
 				tag = IBB
 				tag = TOL
 				tag = MAN
+				tag = NWA
 			}
 		}
 		GOT_start_techs_B = yes
+		GOT_naval_variants = yes
 	}
 	else = {
 		GOT_start_techs_C = yes
@@ -66,7 +69,7 @@ set_rule = { can_create_factions = no }
 		}
 		GOT_bonus_techs_IRO = yes
 	}
-
+	
 }
 
 GOT_start_techs_A = {
@@ -302,6 +305,43 @@ GOT_bonus_techs_IRO = {
 		}
 	}
 }
+
+GOT_naval_variants = {
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		# Submarines #
+		create_equipment_variant = {
+			name = "Pirate Class"				
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				fixed_ship_engine_slot = sub_ship_engine_1
+				rear_1_custom_slot = empty
+			}
+		}
+		# Destroyers #
+		create_equipment_variant = {
+			name = "Longship Class"				
+			type = ship_hull_light_1
+			name_group = PRU_DD_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_torpedo_1
+			}
+		}
+	}
+}
+
 
 GOT_Generic_Essos_OOB = {
 load_oob = Generic
