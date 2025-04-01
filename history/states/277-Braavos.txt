@@ -9,11 +9,17 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
+			852 = {
+				naval_base = 10 #Coastal City
+			}
+			852 = {
+				bunker = 3 #Astapor had city walls
+			}
 		}
 		add_core_of = BRA
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			852 30
+		}
 	}
 	
 	resources = {
