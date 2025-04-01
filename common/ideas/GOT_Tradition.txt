@@ -28,6 +28,9 @@ ideas = {
 				naval_speed_factor = 0.05
 				amphibious_invasion = 0.05
 				convoy_raiding_efficiency_factor = 0.05
+				justify_war_goal_time = -0.05
+				generate_wargoal_tension = -0.05
+				join_faction_tension = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -47,6 +50,9 @@ ideas = {
 				ground_attack_factor = 0.05
 				research_speed_factor = 0.05
 				max_command_power_mult = 0.05
+				justify_war_goal_time = -0.05
+				generate_wargoal_tension = -0.05
+				join_faction_tension = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -285,6 +291,9 @@ ideas = {
 			modifier = {
 				modifier_army_sub_unit_cavalry_attack_factor = 0.05
 				modifier_army_sub_unit_cavalry_speed_factor = 0.10
+				justify_war_goal_time = -0.05
+				generate_wargoal_tension = -0.05
+				join_faction_tension = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -365,6 +374,9 @@ ideas = {
 				industrial_capacity_dockyard = 0.05  # Pirates need to maintain and build ships
 				stability_factor = -0.05  # Lawlessness often leads to instability
 				war_support_factor = 0.05  # Ruthlessness in conflict can boost war efforts
+				justify_war_goal_time = -0.05
+				generate_wargoal_tension = -0.05
+				join_faction_tension = -0.05
 			}
 
 			cancel_if_invalid = no

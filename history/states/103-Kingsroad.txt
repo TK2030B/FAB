@@ -15,9 +15,16 @@ state={
 			}
 			4701 = {
 				bunker = 3
-			}
-			4701 = {
 				coastal_bunker = 3
+			}
+			4709 = {
+				bunker = 1
+			}
+			4710 = {
+				bunker = 1
+			}
+			4695 = {
+				bunker = 1
 			}
 
 		}

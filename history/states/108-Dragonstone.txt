@@ -16,8 +16,6 @@ state={
 			}
 			2575 = {
 				bunker = 4 #Capped at 4, should be 6
-			}
-			2575 = {
 				coastal_bunker = 6
 			}
 

@@ -61,6 +61,9 @@ ideas = {
 				navy_submarine_attack_factor = 0.05
 				war_support_factor = 0.05
 				naval_invasion_capacity = 5
+				justify_war_goal_time = -0.05
+				generate_wargoal_tension = -0.05
+				join_faction_tension = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -126,6 +129,9 @@ ideas = {
 			modifier = {
 				modifier_army_sub_unit_cavalry_attack_factor = 0.10
 				army_speed_factor = 0.05
+				justify_war_goal_time = -0.05
+				generate_wargoal_tension = -0.05
+				join_faction_tension = -0.05
 			}
 
 			cancel_if_invalid = no
