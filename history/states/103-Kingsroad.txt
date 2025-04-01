@@ -11,8 +11,13 @@ state={
 			arms_factory = 2
 			dockyard = 1
 			4701 = {
-				naval_base = 6
-
+				naval_base = 4
+			}
+			4701 = {
+				bunker = 3
+			}
+			4701 = {
+				coastal_bunker = 3
 			}
 
 		}

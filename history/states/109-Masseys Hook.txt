@@ -15,6 +15,12 @@ state={
 			2621 = {
 				naval_base = 1
 			}
+			2621 = {
+				bunker = 2
+			}
+			2621 = {
+				coastal_bunker = 2
+			}
 		}
 		add_core_of = CRO
 		victory_points = {
