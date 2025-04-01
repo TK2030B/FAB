@@ -40,6 +40,9 @@ set_rule = { can_create_factions = no }
 				tag = TOL
 				tag = MAN
 				tag = NWA
+				tag = MER
+				tag = YUN
+				tag = PEN
 			}
 		}
 		GOT_start_techs_B = yes
