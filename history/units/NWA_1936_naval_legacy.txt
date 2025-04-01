@@ -9,7 +9,7 @@
 			location = 4627 # Eastwatch
 			ship = { name = "Storm Crow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NWA } } }
 			ship = { name = "Talon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NWA } } }
-			ship = { name = "Blackbird" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NWA } } }
+			ship = { name = "Blackbird" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NWA } } }
 		}
 	}
 }

@@ -8,26 +8,26 @@ units= {
 		task_force = {				
 			name = "Longship Fleet"			
 			location = 1038 # Stormlands
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
-			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
+			ship = { name = "Longship20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = STO } } }
 		}				
 				
 	}
