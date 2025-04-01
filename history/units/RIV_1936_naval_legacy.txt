@@ -1,0 +1,45 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Riverlands Fleet"			
+		naval_base = 1171 # Riverlands
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 1171 # Riverlands
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RIV } } }
+		}				
+				
+	}
+} 
+

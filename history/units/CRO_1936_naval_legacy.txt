@@ -1,0 +1,35 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Royal Fleet"			
+		naval_base = 2234 # Royal
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 2234 # Royal
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+			ship = { name = "Longship" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+		}				
+				
+	}
+} 
+

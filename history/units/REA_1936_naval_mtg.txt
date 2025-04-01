@@ -4,10 +4,10 @@ units= {
 	##### Naval OOB #####
 	fleet = {
 		name = "Reach Fleet"			
-		naval_base = 1038 # Reach
+		naval_base = 2118 # Reach
 		task_force = {				
 			name = "Longship Fleet"			
-			location = 1038 # Reach
+			location = 2118 # Reach
 			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REA version_name = "Longship Class" } } }
 			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REA version_name = "Longship Class" } } }
 			ship = { name = "Longship" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = REA version_name = "Longship Class" } } }
