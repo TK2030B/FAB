@@ -7,8 +7,17 @@ state={
 		owner = REA
 		buildings = {
 			infrastructure = 3
+			301 = {
+				bunker = 2  #Golden Grove
+			}
 			1046 = {
 				bunker = 3  #Old Oak
+			}
+			1471 = {
+				bunker = 2  #Bitterbridge
+			}
+			1781 = {
+				bunker = 2  #Tumbleton
 			}
 			2261 = {
 				bunker = 2  #Red Lake
@@ -16,9 +25,17 @@ state={
 		}
 		
 		add_core_of = REA
-		
+		victory_points = {
+			301 10
+		}
 		victory_points = {
 			1046 10
+		}
+		victory_points = {
+			1471 10
+		}
+		victory_points = {
+			1781 10
 		}
 		victory_points = {
 			2261 10
