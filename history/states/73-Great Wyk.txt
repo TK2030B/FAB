@@ -11,6 +11,18 @@ state={
 			1440 = {
 				naval_base = 2
 			}
+			1440 = {
+				bunker = 1
+				coastal_bunker = 1
+			}
+			2492 = {
+				bunker = 1
+				coastal_bunker = 1
+			}
+			3356 = {
+				bunker = 1
+				coastal_bunker = 1
+			}
 		}
 		add_core_of = IRO
 		victory_points = { 2492 1 }

@@ -11,6 +11,10 @@ state={
 			1960 = {
 				naval_base = 2
 			}
+			1960 = {
+				bunker = 2
+				coastal_bunker = 2
+			}
 		}
 		add_core_of = IRO
 		victory_points = { 1960 1 }

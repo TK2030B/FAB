@@ -13,6 +13,22 @@ state={
 			633 = {
 				naval_base = 2
 			}
+			633 = {
+				bunker = 1
+				coastal_bunker = 1
+			}
+			758 = {
+				bunker = 2
+				coastal_bunker = 2
+			}
+			2504 = {
+				bunker = 3
+				coastal_bunker = 3
+			}
+			3269 = {
+				bunker = 2
+				coastal_bunker = 2
+			}
 		}
 		add_core_of = IRO
 		victory_points = { 633 3 } #Grey Garden
