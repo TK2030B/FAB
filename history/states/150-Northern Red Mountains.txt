@@ -7,8 +7,18 @@ state={
 		owner = STO
 		buildings = {
 			infrastructure = 1
+			728 = {
+				bunker = 4
+			}
 			851 = {
 				naval_base = 2
+			}
+			851 = {
+				bunker = 3
+				coastal_bunker = 3
+			}
+			2743 = {
+				bunker = 1
 			}
 		}
 		victory_points = {

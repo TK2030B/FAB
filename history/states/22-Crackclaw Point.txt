@@ -10,7 +10,7 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 			3281 = {
-				bunker = 1
+				bunker = 2 #Brownhollow
 			}
 		}
 		add_core_of = CRO

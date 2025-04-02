@@ -27,7 +27,8 @@ characters={
 				camarilla_leader
 				warmonger
 			}
-			country_leader={
+		}
+		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
 				traits = {
@@ -43,7 +44,6 @@ characters={
 					warmonger
 				}
 			}
-		}
 		field_marshal={
 			traits = { }
 			skill = 1

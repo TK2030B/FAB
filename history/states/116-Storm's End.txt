@@ -12,6 +12,19 @@ state={
 			1038 = {
 				naval_base = 5
 			}
+			1038 = {
+				bunker = 5
+				coastal_bunker = 5
+			}
+			1225 = {
+				bunker = 3
+			}
+			1818 = {
+				bunker = 3
+			}
+			2697 = {
+				bunker = 3
+			}
 		}
 		add_core_of = STO
 		victory_points = {

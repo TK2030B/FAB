@@ -22,7 +22,8 @@ characters={
 				political_manipulator  # Known for their cunning political strategies and ability to manipulate situations.
 				fortification_engineer  # Strong defenses to protect their city and their wealth.
 			}
-			country_leader={
+		}
+		country_leader={
 				ideology=FR_subideology
 				expire="1965.1.1.1"
 				traits = {
@@ -34,7 +35,6 @@ characters={
 					fortification_engineer  # Strong defenses to protect their city and their wealth.
 				}
 			}
-		}
 	}
 	YUN_Freedmen_Council={
 		name=SLA_Freedmen_Council

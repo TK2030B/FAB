@@ -328,34 +328,34 @@ every_possible_country = {
 	}
 }
 
-# strict_austerity_adherent
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = strict_austerity_adherent characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_strict_austerity_adherent # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { strict_austerity_adherent }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_CRO_jon_arryn }
-		}
-	}
-}
+# strict_austerity_adherent #Shelved, too op
+#every_possible_country = {
+#	limit = {
+#		is_dynamic_country = no
+#		NOT = {
+#			has_allowed_idea_with_traits = { idea = strict_austerity_adherent characters = yes }
+#		}
+#	}
+#	generate_character = {
+#		token_base = generic_strict_austerity_adherent # token will be TAG_token_base
+#		advisor = {
+#			slot = political_advisor
+#			traits = { strict_austerity_adherent }
+#			available = {
+#				if = {
+#					limit = { has_dlc = "Man the Guns" }
+#					NOT = { has_autonomy_state = autonomy_supervised_state }
+#				}
+#			}
+#			ai_will_do = {
+#				factor = 0
+#			}
+#		}
+#		portraits = {
+#			army = { small = GFX_idea_CRO_jon_arryn }
+#		}
+#	}
+#}
 
 # popular_figurehead2
 every_possible_country = {

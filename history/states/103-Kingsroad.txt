@@ -14,17 +14,17 @@ state={
 				naval_base = 4
 			}
 			4701 = {
-				bunker = 3
-				coastal_bunker = 3
+				bunker = 2
+				coastal_bunker = 2 #Duskendale
 			}
 			4709 = {
-				bunker = 1
+				bunker = 2  #Hayford
 			}
 			4710 = {
-				bunker = 1
+				bunker = 3 #Stokeworth
 			}
 			4695 = {
-				bunker = 1
+				bunker = 2 #Rosby
 			}
 
 		}

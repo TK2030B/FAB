@@ -9,13 +9,17 @@ state={
 			infrastructure = 3
 			industrial_complex = 2
 			2043 = {
-				naval_base = 5
+				naval_base = 6
 			}
 			2258 = {
 				naval_base = 1
 			}
 			2740 = {
 				naval_base = 3
+			}
+			2740 = {
+				bunker = 3
+				coastal_bunker = 3
 			}
 		}
 		victory_points = {
