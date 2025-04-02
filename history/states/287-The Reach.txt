@@ -10,12 +10,18 @@ state={
 			1046 = {
 				bunker = 3  #Old Oak
 			}
+			2261 = {
+				bunker = 2  #Red Lake
+			}
 		}
 		
 		add_core_of = REA
 		
 		victory_points = {
 			1046 10
+		}
+		victory_points = {
+			2261 10
 		}
 
 	}
