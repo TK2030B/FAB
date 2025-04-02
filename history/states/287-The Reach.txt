@@ -7,9 +7,16 @@ state={
 		owner = REA
 		buildings = {
 			infrastructure = 3
-
+			1046 = {
+				bunker = 3  #Old Oak
+			}
 		}
+		
 		add_core_of = REA
+		
+		victory_points = {
+			1046 10
+		}
 
 	}
 	

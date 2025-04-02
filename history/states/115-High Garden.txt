@@ -9,10 +9,19 @@ state={
 			infrastructure = 3
 			industrial_complex = 3
 			arms_factory = 1
+			1204 = {
+				bunker = 5  #High Garden
+			}
+			2772 = {
+				bunker = 3  #Horn Hill
+			}
 		}
 		add_core_of = REA
 		victory_points = {
 			1204 20
+		}
+		victory_points = {
+			2772 10
 		}
 
 	}
