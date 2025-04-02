@@ -9,9 +9,14 @@ state={
 			infrastructure = 1
 			3274 = {
 				naval_base = 1
+				bunker = 3
+				coastal_bunker = 3
 			}
 		}
 		add_core_of = WES
+		victory_points = {
+			3274 5
+		}
 	}
 	
 	resources = {

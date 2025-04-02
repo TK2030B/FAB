@@ -10,13 +10,28 @@ state={
 			infrastructure = 3
 			industrial_complex = 4
 			arms_factory = 2
+			445 = {
+				bunker = 3
+				coastal_bunker = 3
+			}
+			2274 = {
+				bunker = 1
+			}
 			2609 = {
 				naval_base = 6
+				bunker = 4
+				coastal_bunker = 4
 			}
 		}
 		add_core_of = WES
 		victory_points = {
-			2609 20
+			2609 10
+		}
+		victory_points = {
+			445 5
+		}
+		victory_points = {
+			2274 1
 		}
 	}
 	

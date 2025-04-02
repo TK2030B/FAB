@@ -8,8 +8,24 @@ state={
 		owner = WES
 		buildings = {
 			infrastructure = 2
+			1619 = {
+				naval_base = 2
+				bunker = 3
+				coastal_bunker = 3
+			}
+			2601 = {
+				naval_base = 1
+				bunker = 5
+				coastal_bunker = 5
+			}
 		}
 		add_core_of = WES
+		victory_points = {
+			2601 20
+		}
+		victory_points = {
+			1619 5
+		}
 	}
 	
 	resources={
