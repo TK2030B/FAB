@@ -6793,6 +6793,7 @@ leader_traits = {
 	}
 
 	queen_regent = {
+		sprite = 13
 		random = no
 
 		ai_will_do = {
@@ -6801,6 +6802,7 @@ leader_traits = {
 	}
 
 	hand_of_the_king = {
+		sprite = 13
 		random = no
 		political_power_factor = 0.1
 		ai_will_do = {

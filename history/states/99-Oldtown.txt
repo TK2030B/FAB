@@ -7,12 +7,58 @@ state={
 		owner = REA
 		buildings = {
 			infrastructure = 3
+			1778 = {
+				bunker = 3
+				coastal_bunker = 3 #Three Towers
+			}
 			2118 = {
 				naval_base = 7
 			}
+			2118 = {
+				bunker = 4
+				coastal_bunker = 4 #Oldtown
+			}
+			2265 = {
+				naval_base = 2
+			}
+			2265 = {
+				bunker = 3
+				coastal_bunker = 3 #Sunhouse
+			}
+			2289 = {
+				bunker = 3
+				coastal_bunker = 3 #Bandallon
+			}
+			2792 = {
+				bunker = 4 #Brightwater Keep
+			}
+			2833 = {
+				naval_base = 3
+			}
+			2833 = {
+				bunker = 3
+				coastal_bunker = 3 #Blackcrown
+			}
 		}
 		add_core_of = REA
-
+		victory_points = {
+			1778 10
+		}
+		victory_points = {
+			2118 15
+		}
+		victory_points = {
+			2265 10
+		}
+		victory_points = {
+			2289 10
+		}
+		victory_points = {
+			2792 15
+		}
+		victory_points = {
+			2833 10
+		}
 	}
 	
 	resources={
