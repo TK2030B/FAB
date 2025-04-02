@@ -11,6 +11,10 @@ state={
 			1237 = {
 				naval_base = 1
 			}
+			1237 = {
+				bunker = 4
+				coastal_bunker = 4 #Starfall
+			}
 		}
 		victory_points = {
 			1237 10
@@ -25,10 +29,10 @@ state={
 	resources = {
 		oil = 1          # Grain
 		rubber = 1       # Timber
-		aluminium = 6    # Copper
+		aluminium = 5    # Copper
 		steel = 4        # Iron
-		tungsten = 6     # Gold
-		chromium = 7     # Silver
+		tungsten = 5     # Gold
+		chromium = 6     # Silver
 	}
 
 

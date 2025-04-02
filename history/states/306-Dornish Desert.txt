@@ -7,6 +7,9 @@ state={
 		owner = DOR
 		buildings = {
 			infrastructure = 1
+			2309 = {
+				bunker = 3 #Hellholt
+			}
 		}
 		victory_points = {
 			967 1
@@ -20,12 +23,12 @@ state={
 	
 	# Dornish Desert
 	resources = {
-		oil = 0          # Grain
-		rubber = 0       # Timber
-		aluminium = 0    # Copper
-		steel = 0        # Iron
-		tungsten = 0     # Gold
-		chromium = 0     # Silver
+		oil = 1          # Grain
+		rubber = 1       # Timber
+		aluminium = 6    # Copper
+		steel = 4        # Iron
+		tungsten = 6     # Gold
+		chromium = 6     # Silver
 	}
 
 	provinces={

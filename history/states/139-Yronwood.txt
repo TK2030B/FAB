@@ -12,6 +12,10 @@ state={
 			817 = {
 				naval_base = 2
 			}
+			817 = {
+				bunker = 4
+				coastal_bunker = 4 #Yronwood
+			}
 		}
 		victory_points = {
 			817 15
@@ -23,10 +27,10 @@ state={
 	resources = {
 		oil = 2          # Grain
 		rubber = 1       # Timber
-		aluminium = 9    # Copper
-		steel = 7        # Iron
-		tungsten = 9     # Gold
-		chromium = 8     # Silver
+		aluminium = 8    # Copper
+		steel = 6        # Iron
+		tungsten = 8     # Gold
+		chromium = 7     # Silver
 	}
 
 	provinces={
