@@ -346,7 +346,7 @@ units = {
 	}
 	division = {
 		name = "Lannisport Garrison"
-		location = 2601
+		location = 2609
 		division_template = "Garrison"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -367,14 +367,14 @@ units = {
 	}
 	division = {
 		name = "Golden Tooth Garrison"
-		location = 2601
+		location = 2321
 		division_template = "Garrison"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "Silverhill Garrison"
-		location = 2601
+		location = 2622
 		division_template = "Garrison"
 		#start_experience_factor = 0.1
 		start_equipment_factor = 1
