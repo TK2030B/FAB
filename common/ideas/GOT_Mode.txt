@@ -41,7 +41,7 @@ ideas = {
 				#production_cost_nuclear_reactor_factor = 2.0
 
 				#Naval Bases and Dockyards are +100% More Expensive to Prevent Spam
-				#production_cost_naval_base_factor = 1.0
+				#production_cost_naval_base_factor = 10.0
 				#production_cost_dockyard_factor = 1.0
 				
 				#Anything Dragon Related is 10x More Expensive
@@ -49,11 +49,11 @@ ideas = {
 				production_cost_air_base_factor = 10.0
 				
 				
-				#Forts are 5x More Expensive, but 5x More Powerful
-				production_cost_bunker_factor = 5.0
-				production_cost_coastal_bunker_factor = 5.0
-				land_bunker_effectiveness_factor = 5.0
-				coastal_bunker_effectiveness_factor = 5.0
+				#Forts are 10x More Expensive, but 10x More Powerful
+				production_cost_bunker_factor = 10.0
+				production_cost_coastal_bunker_factor = 10.0
+				#land_bunker_effectiveness_factor = 10.0
+				#coastal_bunker_effectiveness_factor = 10.0
 				
 				
 				
@@ -176,11 +176,11 @@ ideas = {
 				#production_cost_air_facility_factor = 10.0
 				production_cost_air_base_factor = 10.0
 				
-				#Forts are 5x More Expensive, but 5x More Powerful
-				production_cost_bunker_factor = 5.0
-				production_cost_coastal_bunker_factor = 5.0
-				land_bunker_effectiveness_factor = 5.0
-				coastal_bunker_effectiveness_factor = 5.0
+				#Forts are 10x More Expensive, but 10x More Powerful
+				production_cost_bunker_factor = 10.0
+				production_cost_coastal_bunker_factor = 10.0
+				#land_bunker_effectiveness_factor = 10.0
+				#coastal_bunker_effectiveness_factor = 10.0
 				
 				
 				

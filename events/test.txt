@@ -187,10 +187,16 @@ country_event = {
 		}
 		
 		NOR = {
-			create_faction = "Anti-Lannister Forces"
+			create_faction = "Kingdom of the North"
 			add_to_faction = RIV
-			add_to_faction = DRA
-			add_to_faction = STO
+		}
+		
+		DRA = {
+			create_faction = "Dragonstone"
+		}
+		
+		STO = {
+			create_faction = "Stormlands"
 		}
 		
 		WIL = {
