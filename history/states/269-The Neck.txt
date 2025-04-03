@@ -11,7 +11,7 @@ state={
 				bunker = 5
 			}
 			2462 = {
-				bunker = 4
+				bunker = 3 #Should be 4, but capped at 3
 			}
 		}
 		add_core_of = NOR
