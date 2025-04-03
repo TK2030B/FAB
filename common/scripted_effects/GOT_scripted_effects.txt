@@ -370,7 +370,7 @@ GOT_land_variants = {
 			has_dlc = "No Step Back"
 		}
 		create_equipment_variant = {
-			name = "Squire"
+			name = "Novice Squire Mount"
 			type = light_tank_chassis_0
 			parent_version = 0
 			modules = {
@@ -384,7 +384,7 @@ GOT_land_variants = {
 				tank_nsb_engine_upgrade = 2
 				tank_nsb_armor_upgrade = 1
 			}
-			obsolete = yes #used for oob
+			obsolete = no #used for oob
 		}
 	}
 }

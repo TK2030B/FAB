@@ -32,21 +32,49 @@ division_template = {
 	}
 	
 }
+
+division_template = {
+	name = "Squire Division"				# Represents Knights
+	division_names_group = REA_castles_garrison
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
 division_template = {
 	name = "Cavalry Division"
 	#division_names_group = CRO_castles_garrison
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
+	    motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
 		motorized = { x = 2 y = 0 }
-		motorized = { x = 2 y = 1 }
+	    motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
 		motorized = { x = 3 y = 0 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }			
 	}
 }
 
@@ -66,9 +94,9 @@ units = {				#25.362 totally
 		start_equipment_factor = 1
 	}
 	division = {	# ca 2k totally
-		name = "1st Cavalry Division"
+		name = "1st Squire Division"
 		location = 2575
-		division_template = "Cavalry Division"
+		division_template = "Squire Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
