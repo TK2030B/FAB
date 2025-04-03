@@ -10,6 +10,9 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
+			237 = {
+				bunker = 5
+			}
 		}
 		add_core_of = NOR
 		victory_points = {
