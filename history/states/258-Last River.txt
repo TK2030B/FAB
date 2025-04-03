@@ -9,9 +9,15 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 3
+			2387 = {
+				bunker = 5
+			}
 		}
 		add_core_of = NOR
 		add_core_of = BOL
+		victory_points = {
+			2387 15
+		}
 
 	}
 

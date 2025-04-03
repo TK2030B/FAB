@@ -8,8 +8,16 @@ state={
 		owner = NOR
 		buildings = {
 			infrastructure = 1
+			2424 = {
+				naval_base = 1
+				bunker = 3
+				coastal_bunker = 3
+			}
 		}
 		add_core_of = NOR
+		victory_points = {
+			2424 10
+		}
 	}
 	
 	resources = {

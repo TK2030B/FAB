@@ -13,10 +13,16 @@ state={
 			237 = {
 				bunker = 5
 			}
+			2414 = {
+				bunker = 2
+			}
 		}
 		add_core_of = NOR
 		victory_points = {
-			237 5
+			237 20
+		}
+		victory_points = {
+			2414 5
 		}
 	}
 	
