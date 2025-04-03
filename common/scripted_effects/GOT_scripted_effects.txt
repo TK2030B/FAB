@@ -39,6 +39,7 @@ GOT_start_techs = {
 		}
 		GOT_start_techs_A = yes
 		GOT_naval_variants = yes
+		GOT_land_variants = yes
 	}
 	else_if = {
 		limit = {
@@ -64,6 +65,7 @@ GOT_start_techs = {
 		}
 		GOT_start_techs_B = yes
 		GOT_naval_variants = yes
+		GOT_land_variants = yes
 	}
 	else = {
 		GOT_start_techs_C = yes
@@ -358,6 +360,31 @@ GOT_naval_variants = {
 				mid_1_custom_slot = ship_mine_layer_1
 				rear_1_custom_slot = ship_torpedo_1
 			}
+		}
+	}
+}
+
+GOT_land_variants = {
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		create_equipment_variant = {
+			name = "Squire"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_heavy_machine_gun
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 1
+			}
+			obsolete = yes #used for oob
 		}
 	}
 }
