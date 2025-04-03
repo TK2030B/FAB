@@ -10,7 +10,9 @@ state={
 
 		}
 		add_core_of = RIV
-
+		victory_points = {
+			821 5
+		}
 	}
 	
 	resources = {

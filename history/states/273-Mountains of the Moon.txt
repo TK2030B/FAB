@@ -26,9 +26,6 @@ state={
 			1668 = {
 				bunker = 3
 			}
-			2311 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = VAL
 		victory_points = {
@@ -48,9 +45,6 @@ state={
 		}
 		victory_points = {
 			1668 10 
-		}
-		victory_points = {
-			2311 5 
 		}
 
 	}
