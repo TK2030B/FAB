@@ -7,10 +7,14 @@ state={
 		owner = VAL
 		buildings = {
 			infrastructure = 1
-
+			619 = {
+				bunker = 2
+			}
 		}
 		add_core_of = VAL
-
+		victory_points = {
+			619 5
+		}
 	}
 	
 	resources = {

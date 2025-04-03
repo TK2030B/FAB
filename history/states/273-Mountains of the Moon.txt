@@ -9,11 +9,48 @@ state={
 			infrastructure = 2
 			industrial_complex = 3
 			arms_factory = 1
-
+			441 = {
+				bunker = 4
+			}
+			179 = {
+				bunker = 5
+			}
+			1261 = {
+				bunker = 2
+			}
+			1594 = {
+				naval_base = 2
+				bunker = 2
+				coastal_bunker = 2
+			}
+			1668 = {
+				bunker = 3
+			}
+			2311 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = VAL
 		victory_points = {
+			441 10 
+		}
+		victory_points = {
 			179 15 
+		}
+		victory_points = {
+			1110 1 
+		}
+		victory_points = {
+			1261 1 
+		}
+		victory_points = {
+			1594 5 
+		}
+		victory_points = {
+			1668 10 
+		}
+		victory_points = {
+			2311 5 
 		}
 
 	}
