@@ -10,10 +10,16 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
-
+			1894 = {
+				naval_base = 3
+				bunker = 3
+				coastal_bunker = 3
+			}
 		}
 		add_core_of = MYR
-
+		victory_points = {
+			1894 20
+		}
 	}
 	
 	resources = {

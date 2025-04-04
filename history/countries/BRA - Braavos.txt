@@ -2,10 +2,6 @@
 GOT_start_techs = yes
 #OOB Handled by on_actions
 
-set_research_slots = 2
-
-set_convoys = 30
-
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "BRA_1936_naval_mtg"
@@ -14,6 +10,9 @@ if = {
 	}
 }
 
+set_research_slots = 2
+
+set_convoys = 30
 
 set_popularities = {
 	democratic = 0

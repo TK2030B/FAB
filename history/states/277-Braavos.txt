@@ -11,7 +11,8 @@ state={
 			dockyard = 1
 			852 = {
 				naval_base = 10 #Coastal City
-				bunker = 3 #Astapor had city walls
+				bunker = 3
+				coastal_bunker = 3
 			}
 		}
 		add_core_of = BRA

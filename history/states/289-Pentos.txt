@@ -11,9 +11,8 @@ state={
 			dockyard = 2
 			2630 = {
 				naval_base = 6
-			}
-			2630 = {
 				bunker = 4
+				coastal_bunker = 4
 			}
 		}
 		add_core_of = PEN
