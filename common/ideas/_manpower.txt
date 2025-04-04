@@ -14,7 +14,13 @@ ideas = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
 				if = {
 					limit = { tag = NWA }
-					NOT = { OR = { has_idea = NWA_military_order_1 has_idea = NWA_military_order_2 has_idea = NWA_military_order_2 } }
+					NOT = { 
+						OR = { 
+							has_idea = NWA_military_order_1 
+							has_idea = NWA_military_order_2 
+							has_idea = NWA_military_order_2 
+						} 
+					}
 				}
 			}
 
@@ -37,7 +43,13 @@ ideas = {
 				NOT = { has_idea = isolation }
 				if = {
 					limit = { tag = NWA }
-					NOT = { OR = { has_idea = NWA_military_order_1 has_idea = NWA_military_order_2 has_idea = NWA_military_order_2 } }
+					NOT = { 
+						OR = { 
+							has_idea = NWA_military_order_1 
+							has_idea = NWA_military_order_2 
+							has_idea = NWA_military_order_2 
+						} 
+					}
 				}
 			}
 
@@ -72,7 +84,13 @@ ideas = {
 				NOT = { has_idea = isolation }
 				if = {
 					limit = { tag = NWA }
-					NOT = { OR = { has_idea = NWA_military_order_1 has_idea = NWA_military_order_2 has_idea = NWA_military_order_2 } }
+					NOT = { 
+						OR = { 
+							has_idea = NWA_military_order_1 
+							has_idea = NWA_military_order_2 
+							has_idea = NWA_military_order_2 
+						} 
+					}
 				}
 			}
 
@@ -120,7 +138,13 @@ ideas = {
 				has_war_support > 0.2
 				if = {
 					limit = { tag = NWA }
-					NOT = { OR = { has_idea = NWA_military_order_1 has_idea = NWA_military_order_2 has_idea = NWA_military_order_2 } }
+					NOT = { 
+						OR = { 
+							has_idea = NWA_military_order_1 
+							has_idea = NWA_military_order_2 
+							has_idea = NWA_military_order_2 
+						} 
+					}
 				}
 			}
 			ai_will_do = {
@@ -183,7 +207,13 @@ ideas = {
 				}
 				if = {
 					limit = { tag = NWA }
-					NOT = { OR = { has_idea = NWA_military_order_1 has_idea = NWA_military_order_2 has_idea = NWA_military_order_2 } }
+					NOT = { 
+						OR = { 
+							has_idea = NWA_military_order_1 
+							has_idea = NWA_military_order_2 
+							has_idea = NWA_military_order_2 
+						} 
+					}
 				}
 			}
 
@@ -246,7 +276,13 @@ ideas = {
 				#}
 				if = {
 					limit = { tag = NWA }
-					NOT = { OR = { has_idea = NWA_military_order_1 has_idea = NWA_military_order_2 has_idea = NWA_military_order_2 } }
+					NOT = { 
+						OR = { 
+							has_idea = NWA_military_order_1 
+							has_idea = NWA_military_order_2 
+							has_idea = NWA_military_order_2 
+						} 
+					}
 				}
 			}
 
@@ -303,7 +339,13 @@ ideas = {
 				#}
 				if = {
 					limit = { tag = NWA }
-					NOT = { OR = { has_idea = NWA_military_order_1 has_idea = NWA_military_order_2 has_idea = NWA_military_order_2 } }
+					NOT = { 
+						OR = { 
+							has_idea = NWA_military_order_1 
+							has_idea = NWA_military_order_2 
+							has_idea = NWA_military_order_2 
+						} 
+					}
 				}
 			}
 
@@ -357,7 +399,7 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-				has_completed_focus = NWA_kill_lord_commander
+				#has_completed_focus = NWA_kill_lord_commander
 			}
 
 			modifier = {
@@ -380,7 +422,7 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-				has_completed_focus = NWA_kill_lord_commander
+				#has_completed_focus = NWA_kill_lord_commander
 			}
 
 			modifier = {
@@ -404,7 +446,7 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-				has_completed_focus = NWA_kill_lord_commander
+				#has_completed_focus = NWA_kill_lord_commander
 			}
 
 			modifier = {
@@ -428,7 +470,7 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-				has_completed_focus = NWA_kill_lord_commander
+				#has_completed_focus = NWA_kill_lord_commander
 			}
 
 			modifier = {
@@ -451,7 +493,7 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-				has_completed_focus = NWA_kill_lord_commander
+				#has_completed_focus = NWA_kill_lord_commander
 			}
 
 			modifier = {
@@ -475,7 +517,7 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-				has_completed_focus = NWA_kill_lord_commander
+				#has_completed_focus = NWA_kill_lord_commander
 			}
 
 			modifier = {

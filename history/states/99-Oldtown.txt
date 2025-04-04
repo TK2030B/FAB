@@ -13,15 +13,11 @@ state={
 			}
 			2118 = {
 				naval_base = 7
-			}
-			2118 = {
 				bunker = 4
 				coastal_bunker = 4 #Oldtown
 			}
 			2265 = {
 				naval_base = 2
-			}
-			2265 = {
 				bunker = 3
 				coastal_bunker = 3 #Sunhouse
 			}

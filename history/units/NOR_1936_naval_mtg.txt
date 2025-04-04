@@ -4,10 +4,10 @@ units= {
 	##### Naval OOB #####
 	fleet = {
 		name = "Northern Fleet"			
-		naval_base = 1348 # Northern
+		naval_base = 1541 # Northern
 		task_force = {				
 			name = "Longship Fleet"			
-			location = 1348 # Northern
+			location = 1541 # Northern
 			ship = { name = "Longship1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Longship Class" } } }
 			ship = { name = "Longship2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Longship Class" } } }
 			ship = { name = "Longship3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Longship Class" } } }

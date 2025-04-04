@@ -11,23 +11,16 @@ state={
 			arms_factory = 2
 			1661 = {
 				naval_base = 5
-			}
-			1661 = {
 				bunker = 4 #Capped at 4, should be 5
 				coastal_bunker = 5 #Sunspear
 			}
 			4675 = {
 				naval_base = 1
-
-			}
-			4675 = {
 				bunker = 3
 				coastal_bunker = 3 #Ghost Hill
 			}
 			2856 = {
 				naval_base = 1
-			}
-			2856 = {
 				bunker = 3
 				coastal_bunker = 3 #Spottswood
 			}
@@ -37,8 +30,6 @@ state={
 			}
 			4674 = {
 				naval_base = 1
-			}
-			4674 = {
 				bunker = 3
 				coastal_bunker = 3 #The Tor
 			}

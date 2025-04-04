@@ -110,9 +110,9 @@ bookmarks = {
 				NWA_band_of_criminals
 			}
 			focuses = {
-				NWA_begin_great_ranging
-				NWA_inspect_orders
-				NWA_winter_is_coming
+				#NWA_begin_great_ranging
+				#NWA_inspect_orders
+				#NWA_winter_is_coming
 			}
 		}
 		WIL={
