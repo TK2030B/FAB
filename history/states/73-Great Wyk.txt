@@ -10,8 +10,6 @@ state={
 			dockyard = 3
 			1440 = {
 				naval_base = 2
-			}
-			1440 = {
 				bunker = 1
 				coastal_bunker = 1
 			}

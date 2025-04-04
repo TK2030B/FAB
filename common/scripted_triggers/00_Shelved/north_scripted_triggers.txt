@@ -26,12 +26,12 @@ is_north = {
 }
 
 north_has_unified = {
-	has_completed_focus = WIL_invite_frozen_shore
-	has_completed_focus = WIL_invite_ice_river
-	has_completed_focus = WIL_invite_cave_people
-	has_completed_focus = WIL_invite_nightrunners
-	has_completed_focus = WIL_invite_hornfoot
-	has_completed_focus = WIL_invite_thenns
+	#has_completed_focus = WIL_invite_frozen_shore
+	#has_completed_focus = WIL_invite_ice_river
+	#has_completed_focus = WIL_invite_cave_people
+	#has_completed_focus = WIL_invite_nightrunners
+	#has_completed_focus = WIL_invite_hornfoot
+	#has_completed_focus = WIL_invite_thenns
 }
 
 high_wildling_unity = {
@@ -45,10 +45,10 @@ high_wildling_unity = {
 elected_new_lord_commander = {
 	NWA = {
 		OR = {
-			has_completed_focus = NWA_elect_snow
-			has_completed_focus = NWA_elect_thorne
-			has_completed_focus = NWA_elect_rast
-			has_completed_focus = NWA_change_system
+			#has_completed_focus = NWA_elect_snow
+			#has_completed_focus = NWA_elect_thorne
+			#has_completed_focus = NWA_elect_rast
+			#has_completed_focus = NWA_change_system
 		}
 	}
 }

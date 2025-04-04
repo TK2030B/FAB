@@ -9,10 +9,17 @@ state={
 			industrial_complex = 3
 			arms_factory = 1
 			dockyard = 1
+			3287 = {
+				naval_base = 3
+				bunker = 4
+				coastal_bunker = 4
+			}
 
 		}
 		add_core_of = TYR
-
+		victory_points = {
+			3287 20
+		}
 	}
 
 	provinces={

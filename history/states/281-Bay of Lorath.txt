@@ -7,14 +7,8 @@ state={
 		owner = LOR
 		buildings = {
 			infrastructure = 2
-			137 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = LOR
-		victory_points = {
-			137 5
-		}
 	}
 	
 	resources = {

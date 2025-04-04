@@ -11,9 +11,14 @@ state={
 			industrial_complex = 1
 			2123 = {
 				naval_base = 6
+				bunker = 3
+				coastal_bunker = 3
 			}
 		}
 		add_core_of = LYS
+		victory_points = {
+			2123 30
+		}
 	}
 	
 	resources = {
