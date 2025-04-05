@@ -84,6 +84,8 @@ GOT_start_techs = {
 				tag = UNL
 				tag = SOT
 				tag = ULT
+				tag = SUI
+				tag = NAA
 			}
 		}
 		GOT_start_techs_D = yes

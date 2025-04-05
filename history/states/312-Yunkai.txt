@@ -11,6 +11,9 @@ state={
 			arms_factory = 1
 			#dockyard = 1 #Dockyard disabled till it gets a coastal province
 		}
+		victory_points = {
+			1419 1
+		}
 	}
 	resources = {
 		oil = 0        # Grain  

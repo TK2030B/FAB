@@ -1,0 +1,25 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Leng Fleet"			
+		naval_base = 318 # Leng
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 318 # Leng
+			ship = { name = "Longship1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+			ship = { name = "Longship10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LEN } } }
+		}				
+				
+	}
+} 
+

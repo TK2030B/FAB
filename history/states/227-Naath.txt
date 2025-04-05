@@ -9,10 +9,14 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			dockyard = 1
-
+			1838 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = NAA
-
+		victory_points = {
+			1838 10
+		}
 	}
 	
 	resources = {
