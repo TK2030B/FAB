@@ -1,8 +1,23 @@
 state={
 	id=182
 	name="STATE_182"
+	history={
+		owner = UNL
+		buildings = {
+			infrastructure = 1
+			3326 = {
+				naval_base = 7
+				bunker = 4
+				coastal_bunker = 4
+			}
+		}
+		add_core_of = UNL
+		victory_points = {
+			3326 15
+		}
+	}
 	provinces={
-		3326
+		3326 3327
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
