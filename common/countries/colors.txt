@@ -276,3 +276,18 @@ MER = {
 	color = rgb { 204 153 51 }
 	color_ui = rgb { 92 77 38 }
 }
+
+NRV = {
+	color = rgb { 210 170 130 }
+	color_ui = rgb { 210 170 130 }
+}
+
+VLY = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+GHI = {
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
+}

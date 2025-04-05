@@ -1,0 +1,29 @@
+﻿capital = 228
+GOT_start_techs = yes
+
+set_research_slots = 3
+
+set_convoys = 20
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=NRV_Bearded Priests
+recruit_character=NRV_Magisters
+recruit_character=NRV_Freedmen_Council
+
+add_ideas = {
+	GOT_Tradition_Free_City
+	GOT_Religion_Tribal
+}

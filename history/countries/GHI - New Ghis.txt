@@ -1,0 +1,29 @@
+﻿capital = 228
+GOT_start_techs = yes
+
+set_research_slots = 3
+
+set_convoys = 20
+
+set_popularities = {
+	democratic = 0
+	neutrality = 0
+	communism = 0
+	fascism = 100
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=GHI_Masters_Council
+recruit_character=GHI_Freedmen_Council
+recruit_character=GHI_Ruling_Council
+
+add_ideas = {
+	GOT_Tradition_Slaver
+	GOT_Religion_Ghiscari
+}

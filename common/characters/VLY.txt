@@ -1,0 +1,53 @@
+characters={
+
+	VLY_No_Central_Ruler={
+		name=VLY_No_Central_Ruler
+		portraits={
+			army = {
+				large="gfx/leaders/VLY/Portrait_No_Central_Ruler.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/VLY/Portrait_No_Central_Ruler.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+	}
+
+}

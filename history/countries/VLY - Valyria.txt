@@ -1,0 +1,27 @@
+﻿capital = 228
+GOT_start_techs = yes
+
+set_research_slots = 3
+
+set_convoys = 20
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 100
+	neutrality = 0
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+recruit_character=VLY_No_Central_Ruler
+
+add_ideas = {
+	GOT_Tradition_Dragonlords
+	GOT_Religion_Valyrian
+}
