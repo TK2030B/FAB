@@ -1,8 +1,18 @@
 state={
 	id=202
 	name="STATE_202"
+	history={
+		owner = SOT
+		buildings = {
+			infrastructure = 1
+			3338 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SOT
+	}
 	provinces={
-		3338
+		3338 3346 3355 3361 3362 3371 3377 3378 3379
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
