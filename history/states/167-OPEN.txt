@@ -1,8 +1,24 @@
 state={
 	id=167
 	name="STATE_167"
+	history={
+		owner = TAR
+		buildings = {
+			infrastructure = 1
+			905 = {
+			 naval_base = 1
+			}
+
+		}
+		add_core_of = TAR
+		add_core_of = PEN
+		victory_points = {
+			905 5
+		}
+
+	}
 	provinces={
-		
+	 905
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

@@ -4,13 +4,12 @@ state={
 	name="STATE_286"
 
 	history={
-		owner = TAR
+		owner = PEN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = TAR
 		add_core_of = PEN
 
 	}
