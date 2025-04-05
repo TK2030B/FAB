@@ -1,6 +1,16 @@
 state={
 	id=225
 	name="STATE_225"
+	history={
+		owner = SOT
+		buildings = {
+			infrastructure = 1
+			3358 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SOT
+	}
 	provinces={
 		3358
 	}

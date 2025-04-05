@@ -4,31 +4,29 @@ state={
 	name="STATE_221"
 
 	history={
-		owner = LEN
+		owner = MRQ
 		buildings = {
 			infrastructure = 1
 			1003 = {
 				naval_base = 4
-
+			}
+			3349 = {
+				naval_base = 1
+			}
+			3366 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = LEN
+		add_core_of = MRQ
 
 	}
 	
 	resources = {
-		# Leng Island 2
-		oil = 2        # Grain  
-		rubber = 3     # Timber  
-		aluminium = 0  # Copper  
-		steel = 1      # Iron  
-		tungsten = 2   # Gold  
-		chromium = 2   # Silver  
 	}
 
 	provinces={
-		428 1003 3363 
+		428 1003 3349 3363 3366
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

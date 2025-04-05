@@ -33,12 +33,12 @@ state={
 	
 	resources = {
 		# Leng Capital Island
-		oil = 4        # Grain  
-		rubber = 6     # Timber  
+		oil = 7       # Grain  
+		rubber = 12    # Timber  
 		aluminium = 0  # Copper  
-		steel = 3      # Iron  
-		tungsten = 6   # Gold  
-		chromium = 5   # Silver  
+		steel = 5      # Iron  
+		tungsten = 10   # Gold  
+		chromium = 8   # Silver  
 	}
 
 	provinces={

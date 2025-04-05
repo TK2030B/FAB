@@ -1,21 +1,20 @@
 state={
-	id=189
-	name="STATE_189"
-	provinces={
-		3332
-	}
-
+	id=253
+	name="STATE_253"
 	history={
-		owner = MRQ
+		owner = SUI
 		buildings = {
 			infrastructure = 1
-			3332 = {
+			3382 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = MRQ
-	}
+		add_core_of = SUI
 
+	}
+	provinces={
+		3382 3383
+	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural

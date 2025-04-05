@@ -8,11 +8,14 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			dockyard = 1
+			2029 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = SUI
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			2029 10
+		}
 	}
 	
 	resources = {

@@ -1,21 +1,19 @@
 state={
-	id=214
-	name="STATE_214"
-	provinces={
-		3349
-	}
-
+	id=240
+	name="STATE_240"
 	history={
-		owner = LEN
+		owner = SUI
 		buildings = {
 			infrastructure = 1
-			3349 = {
+			568 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = LEN
+		add_core_of = SUI
 	}
-
+	provinces={
+		568 2194 3357 3375 3380
+	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural

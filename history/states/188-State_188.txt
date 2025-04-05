@@ -1,6 +1,16 @@
 state={
 	id=188
 	name="STATE_188"
+	history={
+		owner = SUI
+		buildings = {
+			infrastructure = 1
+			3331 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SUI
+	}
 	provinces={
 		3331
 	}
