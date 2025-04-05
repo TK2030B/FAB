@@ -1,4 +1,4 @@
-﻿capital = 228
+﻿capital = 281
 GOT_start_techs = yes
 
 set_research_slots = 3
@@ -19,7 +19,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character=NRV_Bearded Priests
+recruit_character=NRV_Bearded_Priests
 recruit_character=NRV_Magisters
 recruit_character=NRV_Freedmen_Council
 

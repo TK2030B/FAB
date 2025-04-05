@@ -1,7 +1,7 @@
 characters={
 
-NRV_Bearded Priests={
-		name=NRV_Bearded Priests
+NRV_Bearded_Priests={
+		name=NRV_Bearded_Priests
 		portraits={
 			army = {
 				large="gfx/leaders/NRV/Portrait_Bearded_Priests.dds"
