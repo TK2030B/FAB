@@ -5,14 +5,11 @@ state={
 		owner = VOL
 		buildings = {
 			infrastructure = 1
-			3299 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = VOL
 	}
 	provinces={
-		3299 3300 3301 3303
+		3299 3300 3301 3303 3305
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
