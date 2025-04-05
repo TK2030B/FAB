@@ -1,0 +1,37 @@
+
+state={
+	id=29
+	name="STATE_29"
+	history={
+		owner = LOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			137 = {
+				naval_base = 3
+				bunker = 2
+				coastal_bunker = 2
+			}
+			1830 = {
+				naval_base = 3
+				bunker = 2
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = LOR
+		victory_points = {
+			137 5
+		}
+		victory_points = {
+			1830 5
+		}
+	}
+	provinces={
+		137 1830 2487
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}
