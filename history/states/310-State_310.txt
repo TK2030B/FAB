@@ -11,13 +11,19 @@ state={
 			arms_factory = 2
 			dockyard = 2
 			1631 = {
-				naval_base = 4
+				naval_base = 3
+			}
+			196 = {
+				naval_base = 3
 			}
 		}
 		add_core_of = YTI
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			1631 10
+		}
+		victory_points = {
+			196 20
+		}
 	}
 	
 	resources = {

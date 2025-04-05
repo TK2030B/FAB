@@ -68,6 +68,26 @@ GOT_start_techs = {
 		GOT_naval_variants = yes
 		GOT_land_variants = yes
 	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = DOT
+				tag = WIL
+				tag = FF1
+				tag = FF2
+				tag = FF3
+				tag = FF4
+				tag = FF5
+				tag = FF6
+				tag = ICE
+				tag = REW
+				tag = UNL
+				tag = SOT
+				tag = ULT
+			}
+		}
+		GOT_start_techs_D = yes
+	}
 	else = {
 		GOT_start_techs_C = yes
 	}
@@ -139,10 +159,6 @@ GOT_start_techs_A = {
 				armored_car1 = 1
 			}
 		}
-	if = {
-		limit = {
-			NOT = { tag = DOT }
-		}
 		if = {
 			limit = {
 				has_dlc = "Man the Guns"
@@ -173,8 +189,6 @@ GOT_start_techs_A = {
 				transport = 1
 			}
 		}
-	}
-	
 }
 
 GOT_start_techs_B = {
@@ -206,10 +220,6 @@ GOT_start_techs_B = {
 			gwtank = 1
 		}
 	}
-	if = {
-		limit = {
-			NOT = { tag = DOT }
-		}
 		if = {
 			limit = {
 				has_dlc = "Man the Guns"
@@ -241,7 +251,6 @@ GOT_start_techs_B = {
 			}
 		}
 	}
-}
 
 GOT_start_techs_C = {
 	set_technology = {
@@ -269,6 +278,13 @@ GOT_start_techs_C = {
 				early_destroyer = 1
 			}
 		}
+	}
+}
+
+GOT_start_techs_D = {
+	set_technology = {
+		infantry_weapons = 1
+		mass_assault = 1
 	}
 }
 
