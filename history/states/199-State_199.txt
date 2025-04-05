@@ -7,9 +7,14 @@ state={
 			infrastructure = 1
 			3337 = {
 				naval_base = 1
+				bunker = 1
+				coastal_bunker = 1
 			}
 		}
 		add_core_of = SOT
+		victory_points = {
+			3337 5 
+		}
 	}
 	provinces={
 		3337

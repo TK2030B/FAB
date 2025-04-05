@@ -1,8 +1,15 @@
 state={
 	id=241
 	name="STATE_241"
+	history={
+		owner = ASS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ASS
+	}
 	provinces={
-		
+		3370 3372 3374 3376 	
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
