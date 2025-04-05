@@ -92,6 +92,7 @@ GOT_start_techs = {
 	}
 	else = {
 		GOT_start_techs_C = yes
+		GOT_naval_variants = yes
 	}
 	
 	if = {

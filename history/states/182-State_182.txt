@@ -2,7 +2,7 @@ state={
 	id=182
 	name="STATE_182"
 	history={
-		owner = UNL
+		owner = GHI
 		buildings = {
 			infrastructure = 1
 			3326 = {
@@ -11,7 +11,7 @@ state={
 				coastal_bunker = 4
 			}
 		}
-		add_core_of = UNL
+		add_core_of = GHI
 		victory_points = {
 			3326 15
 		}

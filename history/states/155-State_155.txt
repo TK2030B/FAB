@@ -1,6 +1,13 @@
 state={
 	id=155
 	name="STATE_155"
+	history={
+		owner = VLY
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VLY
+	}
 	provinces={
 		391 1077 2184
 	}

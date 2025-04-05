@@ -4,21 +4,14 @@ state={
 	name="STATE_281"
 
 	history={
-		owner = LOR
+		owner = NRV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = LOR
+		add_core_of = NRV
 	}
 	
 	resources = {
-		# Lorath Mainland
-		oil = 3       # Grain
-		rubber = 5    # Timber
-		aluminium = 0 # Copper
-		steel = 0     # Iron
-		tungsten = 0  # Gold
-		chromium = 0  # Silver
 	}
 
 
