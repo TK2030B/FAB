@@ -112,7 +112,7 @@ on_actions = {
 						original_tag = NWA
 						has_government = communism
 					}
-					has_completed_focus = NWA_change_system
+					#has_completed_focus = NWA_change_system
 					NOT = {
 						any_other_country = {
 							NOT = {

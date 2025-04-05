@@ -3,6 +3,9 @@ state={
 	name="STATE_317"
 	history={
 		owner = UNL
+		buildings = {
+			infrastructure = 1
+		}
 		add_core_of = UNL
 	}
 	provinces={

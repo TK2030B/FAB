@@ -61,6 +61,7 @@ GOT_start_techs = {
 				tag = MER
 				tag = YUN
 				tag = PEN
+				tag = LYS
 			}
 		}
 		GOT_start_techs_B = yes
@@ -131,6 +132,14 @@ GOT_start_techs_A = {
 		}
 	}
 	if = {
+			limit = {
+				has_dlc = "La Resistance"
+			}
+			set_technology = {
+				armored_car1 = 1
+			}
+		}
+	if = {
 		limit = {
 			NOT = { tag = DOT }
 		}
@@ -162,14 +171,6 @@ GOT_start_techs_A = {
 				#early_carrier = 1 #Only Targs get them at Game Start
 				early_submarine = 1
 				transport = 1
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "La Resistance"
-			}
-			set_technology = {
-				armored_car1 = 1
 			}
 		}
 	}
@@ -245,6 +246,29 @@ GOT_start_techs_B = {
 GOT_start_techs_C = {
 	set_technology = {
 		infantry_weapons = 1
+	}
+	if = {
+		limit = {
+			NOT = { tag = DOT }
+		}
+		if = {
+			limit = {
+				has_dlc = "Man the Guns"
+			}
+			set_technology = {
+				early_ship_hull_light = 1
+				basic_battery = 1
+				basic_torpedo = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "Man the Guns" }
+			}
+			set_technology = {
+				early_destroyer = 1
+			}
+		}
 	}
 }
 

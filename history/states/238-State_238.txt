@@ -3,6 +3,9 @@ state={
 	name="STATE_238"
 	history={
 		owner = ULT
+		buildings = {
+			infrastructure = 1
+		}
 		add_core_of = ULT
 	}
 	resources = {

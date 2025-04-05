@@ -1,0 +1,20 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Elyria Fleet"			
+		naval_base = 3302 # Elyria
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 3302 # Elyria
+			ship = { name = "Longship1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ELY } } }
+			ship = { name = "Longship2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ELY } } }
+			ship = { name = "Longship3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ELY } } }
+			ship = { name = "Longship4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ELY } } }
+			ship = { name = "Longship5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ELY } } }
+		}				
+				
+	}
+} 
+

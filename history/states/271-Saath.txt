@@ -8,11 +8,16 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
+			437 = {
+				naval_base = 1
+				bunker = 2
+				coastal_bunker = 2
+			}
 		}
 		add_core_of = SAA
-		#victory_points = {
-		#	179 15
-		#}
+		victory_points = {
+			437 10
+		}
 	}
 	
 	resources = {

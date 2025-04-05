@@ -10,11 +10,16 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
+			1154 = {
+				naval_base = 2
+				bunker = 2
+				coastal_bunker = 2
+			}
 		}
 		add_core_of = TOL
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			1154 10
+		}
 	}
 	
 	resources = {

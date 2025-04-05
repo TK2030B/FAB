@@ -12,6 +12,7 @@ state={
 			125 = {
 				naval_base = 8
 				bunker = 4 #Should be 5 but Mountain only allows 4
+				coastal_bunker = 5
 			}
 		}
 		add_core_of = QAR

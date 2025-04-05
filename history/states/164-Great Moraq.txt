@@ -9,14 +9,20 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 2
-			217 = {
-				naval_base = 6
+			3039 = {
+				naval_base = 1
+			}
+			3084 = {
+				naval_base = 2
 			}
 		}
 		add_core_of = MRQ
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			3039 10
+		}
+		victory_points = {
+			3084 20
+		}
 	}
 	
 	resources = {

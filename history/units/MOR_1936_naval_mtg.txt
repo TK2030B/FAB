@@ -1,0 +1,20 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Morosh Fleet"			
+		naval_base = 622 # Morosh
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 622 # Morosh
+			ship = { name = "Longship1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Longship Class" } } }
+			ship = { name = "Longship2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Longship Class" } } }
+			ship = { name = "Longship3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Longship Class" } } }
+			ship = { name = "Longship4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Longship Class" } } }
+			ship = { name = "Longship5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Longship Class" } } }
+		}				
+				
+	}
+} 
+

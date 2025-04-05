@@ -7,10 +7,17 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
+			2167 = {
+				bunker = 2
+			}
 		}
 		add_core_of = VOL
-
+		victory_points = {
+			2167 10
+		}
+		victory_points = {
+			2721 5
+		}
 	}
 	
 	resources = {

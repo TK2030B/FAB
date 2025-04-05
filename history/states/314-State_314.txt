@@ -4,6 +4,9 @@ state={
 	name="STATE_314"
 	history={
 		owner = REW
+		buildings = {
+			infrastructure = 1
+		}
 		add_core_of = REW
 	}
 	provinces={
