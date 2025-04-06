@@ -27,6 +27,15 @@ state={
 			1830 5
 		}
 	}
+	resources = {
+		# Bay of Lorath
+		oil = 3       # Grain
+		rubber = 5   # Timber
+		aluminium = 0 # Copper
+		steel = 0     # Iron
+		tungsten = 0  # Gold
+		chromium = 0  # Silver
+	}
 	provinces={
 		137 1830 2487
 	}

@@ -24,8 +24,8 @@ state={
 	
 	resources = {
 		# Lorath Island
-		oil = 10       # Grain
-		rubber = 5   # Timber
+		oil = 7       # Grain
+		rubber = 10   # Timber
 		aluminium = 0 # Copper
 		steel = 0     # Iron
 		tungsten = 0  # Gold
