@@ -1,0 +1,45 @@
+
+state={
+	id=239
+	name="STATE_239"
+
+	history={
+		owner = MAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			1201 = {
+				naval_base = 6
+			}
+			2899 = {
+				bunker = 4
+			}
+		}
+		add_core_of = MAN
+		victory_points = {
+			2899 20
+		}
+		victory_points = {
+			1201 5
+		}
+	}
+	
+	resources = {
+		oil = 5       # Grain
+		rubber = 3     # Timber
+		steel = 8     # Iron
+		tungsten = 3   # Gold
+		chromium = 3   # Silver
+		aluminium = 0  # Copper
+	}
+
+
+	provinces={
+	 107 315 474 585 751 788 973 992 1201 1736 1755 1997 2000 2115 2126 2170 2197 2241 2298 2320 2824 2847 2861 2874 2875 2878 2880 2886 2899 2900
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

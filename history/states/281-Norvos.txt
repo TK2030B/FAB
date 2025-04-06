@@ -7,8 +7,14 @@ state={
 		owner = NRV
 		buildings = {
 			infrastructure = 2
+			58 = {
+				bunker = 5
+			}
 		}
 		add_core_of = NRV
+		victory_points = {
+			58 20
+		}
 	}
 	
 	resources = {

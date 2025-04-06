@@ -1,0 +1,18 @@
+state={
+	id=30
+	name="STATE_30"
+	history={
+		owner = VLY
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VLY
+	}
+	provinces={
+	8 326 394 609 868 952 1123 1351 1481 2165 2191 2224 2269 2294 2976 2979
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

@@ -1,9 +1,10 @@
 ﻿capital = 162
 GOT_start_techs = yes
+oob = "Generic"
 
 set_research_slots = 3
 
-set_convoys = 20
+set_convoys = 0
 
 set_popularities = {
 	democratic = 0

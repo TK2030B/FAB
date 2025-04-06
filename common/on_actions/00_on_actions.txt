@@ -77,6 +77,7 @@ on_actions = {
 						tag = MRQ
 						tag = SUI
 						tag = LEN
+						tag = GHI
 					}
 				}
 				country_event = { id = Game_Event.6 }
@@ -90,6 +91,7 @@ on_actions = {
 						tag = OMB
 						tag = NAA
 						tag = ASS
+						tag = NRV
 					}	
 				}
 				country_event = { id = Game_Event.7 }
