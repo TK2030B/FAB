@@ -1,0 +1,20 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Yunkish Fleet"			
+		naval_base = 873 # Yunkish
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 873 # Yunkish
+			ship = { name = "Longship1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YUN } } }
+			ship = { name = "Longship2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YUN } } }
+			ship = { name = "Longship3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YUN } } }
+			ship = { name = "Longship4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YUN } } }
+			ship = { name = "Longship5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YUN } } }
+		}				
+				
+	}
+} 
+
