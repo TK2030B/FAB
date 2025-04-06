@@ -1,0 +1,100 @@
+characters={
+
+NRV_Bearded_Priests={
+		name=NRV_Bearded_Priests
+		portraits={
+			army = {
+				large="gfx/leaders/NRV/Portrait_Bearded_Priests.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NRV/Portrait_Bearded_Priests.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				dictator  # They rule Norvos de facto with absolute power and no oversight.
+				prince_of_terror  # Their authority is enforced through fear and religious rigidity.
+				ideological_crusader  # Zealous enforcers of their "true faith," with roots in religious dissent.
+				backroom_backstabber  # They manipulate the ruling council, who exist only to execute the priests’ will.
+				driver_of_the_faithful  # As high priests, they command both governance and spiritual leadership.
+				priestly_prime_minister  # Represents their religious status and leadership role in governance.
+				the_masses_opium  # Use of religion to pacify and dominate the population fits perfectly here.
+			}
+		}
+	}
+	
+	NRV_Magisters={
+		name=NRV_Magisters
+		portraits={
+			army = {
+				large="gfx/leaders/NRV/Portrait_Magisters.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NRV/Portrait_Magisters.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				conservative_grandee  # Represents the aristocratic, old-guard character of the Magisters.
+				staunch_monarchist  # Devoted to preserving the existing political and religious order.
+				traditionalist_theorist  # Guardians of Norvoshi traditions, laws, and faith from a legalist, not priestly, lens.
+				regional_traditionalist_leader  # Emphasizes their role as city-state stewards upholding regional customs.
+				figurehead_president  # Symbolizes a ceremonial or bureaucratic leadership role in a council structure.
+				compassionate_gentleman  # Traditional, refined, and civic-minded leadership within a rigid framework.
+				economic_reformer  # Though traditional, they may pursue careful reforms to preserve stability.
+			}
+
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				economic_reformer  # Reflects pragmatic governance focused on improving the city-state’s prosperity.
+				compassionate_gentleman  # Suggests civility, benevolence, and care for the populace.
+				professional_crisis_solver  # A level-headed council guiding the city through internal and external challenges.
+				the_academic  # Many Magisters are learned men—this emphasizes education, wisdom, and policy.
+				man_of_the_nation  # Although oligarchic, the Council sees itself as protectors of the city’s legacy and people.
+				dealbroker  # Capable of negotiating trade and peace with outsiders in Norvos’s best interest.
+				voice_of_restraint  # Advocates for moderation, peace, and long-term planning over fanaticism or ambition.
+				connected_citizen  # Embodies a council that stays linked with guilds, merchants, and civic institutions.
+				education_reformer  # Promotes literacy, scholarly pursuits, and rational administration.
+			}
+		}
+	}
+	
+	NRV_Freedmen_Council={
+		name=SLA_Freedmen_Council
+		portraits={
+			army = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
+				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.
+				triumphant_revolutionary  # They have successfully overthrown their former oppressors and now rule as victors.
+				economic_reformer  # A new government led by former slaves would need to rebuild and restructure the economy.
+				staunch_constitutionalist  # Ensuring that power remains with the people rather than slipping into dictatorship.
+			}
+ 
+		}
+	}
+
+
+}

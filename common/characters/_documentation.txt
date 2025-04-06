@@ -1,3 +1,4 @@
+#Character files with a _DEBUG at the end was because they were not loading without it.
 # Character database
 #
 # Historical characters are listed within the `characters` root property. E.g.
