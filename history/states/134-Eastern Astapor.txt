@@ -1,0 +1,33 @@
+state={
+	id=134
+	name="STATE_134"
+	history={
+		owner = AST
+		add_core_of = AST
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
+		victory_points = {
+			1419 1
+		}
+	}
+	resources = {
+		# Slaver's Bay
+		oil = 0        # Grain  
+		rubber = 5    # Timber  
+		aluminium = 30 # Copper  
+		steel = 30     # Iron  
+		tungsten = 40  # Gold  
+		chromium = 20  # Silver  
+	}
+	provinces={
+	 21 189 266 280 342 358 565 714 834 886 889 944 956 982 993 994 1115 1205 1315 1321 1373 1419 1420 1427 1448 1470 1499 1584 1609 1703 1705 1724 1738 1849 1853 1857 1861 1909 1984 2055 2111 2244 2245 2254 2956 2967 2977 2978 2980 2981 2989 2990 2991 2995 2997 2998 3000 3003 3004 3005 3009 3010 3013 3014 3015 3017 3020 3021 3022 3023 3030 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

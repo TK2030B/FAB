@@ -12,20 +12,6 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
-	}
-	
-	TAR_Danaerys_Targaryen_D={
-		name=TAR_Danaerys_Targaryen
-		portraits={
-			army = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
 		country_leader={
 			ideology=DR_subideology
 			expire="1965.1.1.1"
@@ -42,20 +28,6 @@ characters={
 				freedom_fighter  
 				indomitable_perseverance  
 				hawk  
-			}
-		}
-	}
-	
-	TAR_Danaerys_Targaryen_C={
-		name=TAR_Danaerys_Targaryen
-		portraits={
-			army = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
 		country_leader={
@@ -77,42 +49,7 @@ characters={
 			}
 		}
 	}
-	
-	TAR_Danaerys_Targaryen_N={
-		name=TAR_Danaerys_Targaryen
-		portraits={
-			army = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
-		country_leader={
-			ideology=NR_subideology
-			expire="1965.1.1.1"
-			traits = {  
-				queen_of_the_people  
-				empire_builder  
-				legitimate_heir  
-				warmonger  
-				headstrong  
-				autocratic_imperialist  
-				popular_queen  
-				protector_of_the_campesinos  
-				ideological_crusader  
-				freedom_fighter  
-				indomitable_perseverance  
-				hawk  
-			}
-		}
-	}
-	
-	
-	
-	
+
 	TAR_Viserys_Targaryen={
 		name=TAR_Viserys_Targaryen
 		portraits={
@@ -138,7 +75,20 @@ characters={
 				dictator  
 				hedonist  
 			}
-  
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = {  
+				disgraced_monarch  
+				the_legitimist  
+				inexperienced_monarch  
+				unpopular_monarch  
+				inexperienced_imperialist  
+				autocratic_imperialist  
+				dictator  
+				hedonist  
+			}
 		}
 	}
 	

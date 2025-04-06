@@ -26,11 +26,11 @@ state={
 	resources = {
 		# Slaver's Bay
 		oil = 0        # Grain  
-		rubber = 10    # Timber  
-		aluminium = 60 # Copper  
-		steel = 60     # Iron  
-		tungsten = 80  # Gold  
-		chromium = 40  # Silver  
+		rubber = 5    # Timber  
+		aluminium = 30 # Copper  
+		steel = 30     # Iron  
+		tungsten = 40  # Gold  
+		chromium = 20  # Silver  
 	}
 
 	provinces={

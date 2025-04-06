@@ -1,0 +1,18 @@
+state={
+	id=35
+	name="STATE_35"
+	history={
+		owner = UNL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = UNL
+	}
+	provinces={
+		599 818 1153 1375 2021 3222 3223 3224 3225 3227 3231 3232 3233 3234 3235 3236 3237 3238 3240 3241 3242 3243 3244 3245 3246 3247 3248 3249 3253 3254 3255 3256 3257 3258 3259 3260 3261 3262 3263 3264 3265 3266 3267 3268 3270 3271 3272 3273 3275
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}
