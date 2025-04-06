@@ -1,0 +1,20 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Mantarys Fleet"			
+		naval_base = 1201 # Mantarys
+		task_force = {				
+			name = "Longship Fleet"			
+			location = 1201 # Mantarys
+			ship = { name = "Longship1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MAN } } }
+			ship = { name = "Longship2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MAN } } }
+			ship = { name = "Longship3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MAN } } }
+			ship = { name = "Longship4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MAN } } }
+			ship = { name = "Longship5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MAN } } }
+		}				
+				
+	}
+} 
+

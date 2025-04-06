@@ -16,6 +16,15 @@ state={
 			3326 15
 		}
 	}
+	resources = {
+		# New Ghis
+		oil = 3        # Grain
+		rubber = 2     # Timber
+		aluminium = 1  # Copper
+		steel = 5     # Iron
+		tungsten = 0   # Gold
+		chromium = 1   # Silver
+	}
 	provinces={
 		3326 3327
 	}

@@ -1,0 +1,37 @@
+state={
+	id=33
+	name="STATE_33"
+	history={
+		owner = YUN
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1 #Dockyard disabled till it gets a coastal province
+			873 = {
+				naval_base = 6
+				bunker = 4
+				coastal_bunker = 4
+			}
+		}
+		victory_points = {
+			873 20
+		}
+	}
+	resources = {
+		oil = 0        # Grain  
+		rubber = 6    # Timber  
+		aluminium = 25 # Copper  
+		steel = 25     # Iron  
+		tungsten = 35  # Gold  
+		chromium = 15  # Silver  
+	}
+	provinces={
+	 103 162 199 423 431 871 873 1013 1068 1266 1547 1840 1927 2086 2125 2913 2925 2942 2949  
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

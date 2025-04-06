@@ -18,6 +18,13 @@ state={
 	}
 	
 	resources = {
+		# Norvos
+		oil = 5        # Grain
+		rubber = 10    # Timber
+		aluminium = 5  # Copper
+		steel = 15     # Iron
+		tungsten = 2   # Gold
+		chromium = 3   # Silver
 	}
 
 

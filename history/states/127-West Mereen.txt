@@ -1,7 +1,6 @@
-
 state={
-	id=311
-	name="STATE_311"
+	id=127
+	name="STATE_127"
 	history={
 		owner = MER
 		add_core_of = MER
@@ -9,18 +8,9 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
-			dockyard = 1 #Dockyard disabled till it gets a coastal province
-			2015 = {
-				naval_base = 8
-				bunker = 5
-				coastal_bunker = 5
-			}
-		}
-		victory_points = {
-			2015 20
+			dockyard = 1
 		}
 	}
-	
 	resources = {
 		oil = 0        # Grain  
 		rubber = 8    # Timber  
@@ -29,12 +19,11 @@ state={
 		tungsten = 50 # Gold  
 		chromium = 25  # Silver  
 	}
-	
 	provinces={
-	 204 352 356 1556 2015 2806 2814 2819 2830 2839
+	 59 856 1234 1462 1614 1679 1750 2162 2807 2853 2820 2826 2855 2859
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
+	local_supplies=0.0
 }
