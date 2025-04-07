@@ -43,19 +43,14 @@ country_event = {
 	option = {
 		name = Game_Event.2.a
 		
-		add_ideas = GOT_Mode_Vanilla
-		
-		every_other_country = {
-			limit = {
-				exists = yes
-			}
-			country_event = { id = Game_Event.3 }
-		}
+		country_event = { id = Game_Event.8 }
 		
 	}
 	
 	option = {
 		name = Game_Event.2.b
+		
+		set_global_flag = GOT_Mode_GOT
 		
 		if = {
 			limit = {
@@ -67,14 +62,14 @@ country_event = {
 			add_ideas = GOT_Mode_GOT_Non_BBA
 		}
 		
-		set_global_flag = GOT_Mode_GOT
-		
 		every_other_country = {
 			limit = {
 				exists = yes
 			}
 			country_event = { id = Game_Event.4 }
 		}
+		
+		country_event = { id = Game_Event.8 }
 		
 	}
 }
@@ -168,5 +163,92 @@ country_event = {
 	}
 	option = {
 		name = Game_Event.7.a		
+	}
+}
+
+#Sandbox Mode
+country_event = {
+	id = Game_Event.8
+	title = Game_Event.8.t
+	desc = Game_Event.8.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = Game_Event.8.a
+		
+		if = {
+			limit = {
+				AND = {
+					NOT = { 
+						has_global_flag = GOT_Mode_GOT
+					}
+					NOT = { 
+						has_global_flag = GOT_Sandbox_Mode
+					}
+				}
+			}
+			add_ideas = GOT_Mode_Vanilla
+			every_other_country = {
+				limit = {
+					exists = yes
+				}
+				country_event = { id = Game_Event.3 }
+			}
+		}
+		
+	}
+	
+	option = {
+		name = Game_Event.8.b
+		
+		CRO = {
+			end_puppet = DRA
+			end_puppet = NOR
+			end_puppet = RIV
+			end_puppet = VAL
+			end_puppet = WES
+			end_puppet = REA
+			end_puppet = DOR
+			end_puppet = STO
+			end_puppet = IRO
+		}
+		
+		set_global_flag = GOT_Sandbox_Mode
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			country_event = { id = Game_Event.10 }
+		}
+		
+	}
+}
+
+#Realism Mode Chosen
+country_event = {
+	id = Game_Event.9
+	title = Game_Event.9.t
+	desc = Game_Event.9.d
+	picture = GFX_report_event_welcome_event
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = Game_Event.9.a		
+	}
+}
+
+#Sandbox Mode Chosen
+country_event = {
+	id = Game_Event.10
+	title = Game_Event.10.t
+	desc = Game_Event.10.d
+	picture = GFX_report_event_welcome_event
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = Game_Event.10.a		
 	}
 }
