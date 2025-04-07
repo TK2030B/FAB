@@ -1,0 +1,64 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Pirate Fleet"			
+		naval_base = 2248 # Pyke			
+		task_force = {				
+			name = "Pirate Ship Fleet"			
+			location = 2248 # Pyke
+			ship = { name = "Pirate Ship1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship10" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship19" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship20" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship21" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship22" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship24" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship25" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship26" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship29" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship30" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship31" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship32" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship33" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship35" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship36" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship37" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship38" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship39" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship40" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship41" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship42" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship43" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship44" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship45" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship46" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship47" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship49" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+			ship = { name = "Pirate Ship50" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = STE version_name = "Pirate Class" } } }
+		}				
+	}
+} 
+

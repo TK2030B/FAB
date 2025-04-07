@@ -23,6 +23,8 @@ set_politics = {
 recruit_character=VLY_No_Central_Ruler
 
 add_ideas = {
+	closed_economy
+	isolation
 	GOT_Tradition_Dragonlords
 	GOT_Religion_Valyrian
 }
