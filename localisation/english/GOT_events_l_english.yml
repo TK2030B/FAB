@@ -20,7 +20,7 @@ Game_Event.4.a:0 "OK"
 Game_Event.8.t:0 "Sandbox Mode (3/3)"
 Game_Event.8.d:0 "Sandbox Mode is currently §ROFF§!.\n\nThe Seven Kingdoms are puppets of the Crownlands, ensuring strong centralized control under the Iron Throne. Backstabbing and rebellion are much harder, preserving a more faithful political structure.\n\nWould you like to enable Sandbox Mode? This mode includes:\n- Independent Seven Kingdoms, still pledged to the King but no longer puppets.\n- Greater freedom to act independently — start wars, break allegiances, or forge your own destiny.\n- Additional tweaks for a looser, more sandbox-style experience.\n\nRecommendation:\n- For a lore-accurate playthrough, enable Historical Focuses and keep Sandbox Mode OFF.\n- For multiplayer or chaotic roleplay fun, TURN ON Sandbox Mode for maximum freedom!"
 
-Game_Event.8.a:0 "LEAVE IT OFF"
+Game_Event.8.a:0 "LEAVE IT §ROFF§!"
 Game_Event.8.b:0 "TURN §GON§! Sandbox Mode"
 
 Game_Event.10.t:0 "Sandbox Mode Chosen"
