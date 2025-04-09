@@ -2638,6 +2638,12 @@ focus_tree = {
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
 		}
+		mutually_exclusive = {
+			focus = GOT_approach_italy
+		}
+		mutually_exclusive = {
+			focus = GOT_approach_japan
+		}
 		available = {
 			country_exists = DRA
 		}
@@ -2838,12 +2844,6 @@ focus_tree = {
 		prerequisite = {
 			focus = GOT_german_embassy
 		}
-		mutually_exclusive = {
-			focus = GOT_join_japan
-		}
-		mutually_exclusive = {
-			focus = GOT_join_italy
-		}
 		completion_reward = {
 			DRA = {
 				country_event = generic.2
@@ -2890,6 +2890,12 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = GOT_approach_germany
+		}
+		mutually_exclusive = {
+			focus = GOT_approach_japan
 		}
 		available = {
 			country_exists = STO
@@ -3010,6 +3016,12 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = GOT_approach_italy
+		}
+		mutually_exclusive = {
+			focus = GOT_approach_germany
 		}
 		available = {
 			country_exists = CRO
@@ -3156,12 +3168,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = GOT_japanese_embassy
-		}
-		mutually_exclusive = {
-			focus = GOT_join_axis
-		}
-		mutually_exclusive = {
-			focus = GOT_join_italy
 		}
 		completion_reward = {
 			CRO = {

@@ -1,72 +1,287 @@
 ﻿l_english:
 
 ##FOCUS##
-GOT_open_political_sphere:0 "Open the Political Sphere"
-GOT_open_political_sphere_desc:0 "We must open up to any potential political standings in those uncertain times."
-GOT_communist_path:0 "The Path of Equality"
-GOT_send_commissaries_in_army:0 "Send Commissaries Into the Army"
-GOT_send_representatives_in_factories:0 "Send Representatives Into the Factories"
-GOT_red_friday:0 "Red Friday"
-GOT_smuggel_weapons:0 "Smuggle Weapons"
-GOT_sabotage_factories:0 "Sabotage Factories"
-GOT_strenghen_paramilitaries:0 "Strenghen Paramilitary Unions"
+GOT_open_political_sphere:0 "The Game of Thrones"
+GOT_open_political_sphere_desc:0 "The Iron Throne no longer commands the unquestioned loyalty of the realm. Lords scheme, alliances shift, and war looms on the horizon. It is time to decide where we stand—or whether we will make a play for power ourselves."
+
+GOT_communist_path:0 "The Path of Rebellion"
+GOT_communist_path_desc:0 "The old system has oppressed the people for far too long. The time has come to tear down the structures of power that bind us. From the ashes of the old world, we rise in revolt, striking at the heart of the nobility and monarchy. With fire in our hearts and rebellion in our souls, we march toward a new order—a world where the people are free from their chains."
+
+GOT_send_commissaries_in_army:0 "Embed the Tribes in the Armies"
+GOT_send_commissaries_in_army_desc:0 "In order to secure the loyalty of the newly-reformed forces, we must ensure that the tribes are integrated into the military structure. By sending tribal leaders and emissaries to serve alongside the warriors of our armies, we strengthen our unity and solidify the power of the people."
+
+GOT_send_representatives_in_factories:0 "Send Representatives Into the Workshops"
+GOT_send_representatives_in_factories_desc:0 "To ensure the strength of our newly-formed system, it is essential that we place trusted representatives in the heart of our workshops. These emissaries will oversee the workings of the craftsmen, ensuring the prosperity of the people and the eradication of the old elite's influence."
+
+GOT_red_friday:0 "The Red Riot"
+GOT_red_friday_desc:0 "The spark of rebellion has ignited in the hearts of the common folk. In cities and villages alike, the oppressed rise up in anger against the nobility and the old system. Blood stains the streets as the cry for justice and equality echoes through the land. This is a turning point, one way or another—either we quell the riot with force, or we heed the call of the people."
+
+GOT_smuggel_weapons:0 "Smuggle Arms for the Uprising"
+GOT_smuggel_weapons_desc:0 "In order to fuel the revolution, we must gather arms from secretive sources. The roads are fraught with danger, but the weapons we bring into our cause will be the spark that ignites the flames of rebellion. With each hidden blade and shield, we prepare for the day of reckoning."
+
+GOT_sabotage_factories:0 "Sabotage the Workshops"
+GOT_sabotage_factories_desc:0 "The heart of the oppressors' power lies in their forges and workshops. By striking at their workshops, we cripple their ability to arm their forces and continue their reign of tyranny. A few well-placed fires, broken tools, and shattered equipment will slow their war machine and send a message of defiance."
+
+GOT_strenghen_paramilitaries:0 "Strengthen the Militant Factions"
+GOT_strenghen_paramilitaries_desc:0 "To topple the established order, we must forge strong and loyal groups of militants. These factions, born from the oppressed masses, will swell in numbers and gain strength, serving as the backbone of our revolution. With their might and discipline, we can strike fear into the hearts of our enemies and rally the people to our cause."
+
 GOT_revolution:0 "The March on [From.Capital.GetName]"
-GOT_support_unions:0 "Support the Unions"
+GOT_revolution_desc:0 "The time has come to storm the heart of the oppressors. The people, united in their fury, rise up and march towards [From.Capital.GetName], the seat of tyranny. Our banners fly high, and with each step, our strength grows. Victory is within our reach, and the old order will soon be no more."
+
+GOT_support_unions:0 "Champion the Guilds"
+GOT_support_unions_desc:0 "The guilds of the realm represent the backbone of our workforce. Whether in pursuit of justice for the common folk or to ensure the prosperity of the kingdom, we must support these unions. By granting them strength and autonomy, we empower the people and lay the foundation for a future where all may thrive, whether by revolution or reform."
+
 GOT_democratic_path:0 "The Path of Freedom"
-GOT_supporters_in_factories:0 "Supporters in the Factories"
-GOT_support_free_speech:0 "Support the Free Speech"
-GOT_support_workers_movements:0 "Support Worker's Rights Movements"
-GOT_free_press:0 "A Free Press"
-GOT_found_parliament:0 "Found a Parliament"
-GOT_draft_constitution:0 "Draft a Constitution"
-GOT_hold_elections:0 "Hold State Elections"
-GOT_non_alligned_path:0 "The Path of the Old"
+GOT_democratic_path_desc:0 "In a land ruled by the powerful and the elite, a new vision begins to take root. The cry for liberty, justice, and equality calls out from the hearts of the people. This path is one of peace, reform, and the belief that a just government should answer to all its people. By embracing democratic ideals, we can build a brighter future where the will of the common folk is heard."
+
+
+GOT_supporters_in_factories:0 "Rally the Workers"
+GOT_supporters_in_factories_desc:0 "The factories are the lifeblood of the realm’s economy. By rallying the workers to our cause, we can forge a strong alliance between the common folk and the ruling government. Whether through fair treatment or promises of greater power, we will strengthen our support among the laborers and ensure the stability of our economy and society."
+
+GOT_support_free_speech:0 "Champion the Voice of the People"
+GOT_support_free_speech_desc:0 "In a realm bound by ancient laws and traditions, the common folk have long been silenced. By championing the right of every voice to be heard, we can bring justice to the people and strengthen our cause. Allowing the people to speak freely will not only rally support for our rule, but it will also be the first step towards a new order where no voice is ignored."
+
+GOT_support_workers_movements:0 "Champion the Rights of the Common Folk"
+GOT_support_workers_movements_desc:0 "For too long, the labor of the common folk has been exploited by the ruling class. It is time to stand with the workers who toil in the fields and workshops, for their rights must be protected. By supporting their movements, we will forge a stronger, more just realm where the common folk are no longer treated as mere tools of the elite."
+
+GOT_free_press:0 "A Voice for the People"
+GOT_free_press_desc:0 "The power of words is immense, and the truth must be heard. A free press allows the voices of the common folk to rise against the whispers of corruption and tyranny. By supporting the free flow of information, we ensure that the people can speak their minds, and the ruling class can no longer hide their misdeeds in the shadows."
+
+GOT_found_parliament:0 "Establish the Grand Council"
+GOT_found_parliament_desc:0 "In a realm ruled by kings and lords, the voice of the common people must be heard. By establishing the Grand Council, we allow representatives of the realm's diverse factions to come together, offering counsel and shaping the future of the kingdom. This council will ensure that decisions are made not only by the crown but in the interest of all who dwell within our lands."
+
+GOT_draft_constitution:0 "Draft the Sacred Charter"
+GOT_draft_constitution_desc:0 "In the heart of the kingdom, a new foundation must be laid. The Sacred Charter will bind all rulers, lords, and common folk to a common set of laws and principles, ensuring justice and fairness for all. With the drafting of this charter, we seek to enshrine the rights of the people, creating a legacy that will stand for generations to come."
+
+GOT_hold_elections:0 "Call for the Grand Assembly"
+GOT_hold_elections_desc:0 "It is time to gather the voices of the realm. Lords and commoners alike will be summoned to the Grand Assembly, where representatives of the people shall be chosen. The future of the kingdom rests in the hands of those who hold the will of the people, and their votes will decide the fate of the realm."
+
+GOT_non_alligned_path:0 "The Path of Old"
+GOT_non_alligned_path_desc:0 "In an age where new ideologies seek to reshape the realm, we turn our eyes to the old ways—those that have sustained the kingdom through centuries of turmoil. The traditions of the noble houses, the fealty of the lords, and the ancient customs of the land must guide us. There is no place for radical change; only the preservation of what has been built."
+
 GOT_noble_birthright:0 "The Noble Birthright"
+GOT_noble_birthright_desc:0 "The right to rule is bestowed upon us by blood. As the noble houses have held power for generations, so must we defend this sacred birthright. The commoners may rise, but the true strength of the realm lies in the lineage of the noble families, who have long safeguarded the realm’s prosperity. It is time to reaffirm the power of noble birth and ensure that the crown remains in the hands of those who are born to lead."
+
 GOT_rightful_rule:0 "The Rightful Rule"
-GOT_monarchist_general_staff:0 "A Monarchist General Staff"
-GOT_increase_patriotism:0 "Encourage Patriotism"
-GOT_monarchist_politicians:0 "Monarchist Politicians"
-GOT_controlled_opposition:0 "A Controlled Opposition"
-GOT_unite_the_people:0 "Unite the People"
-GOT_nationalist_ideas:0 "Nationalist Ideas"
-GOT_fascist_path:0 "The Path of the Eagle"
+GOT_rightful_rule_desc:0 "The throne belongs to those who are destined by law and tradition to sit upon it. It is not the will of the people, nor the whims of the weak, that should decide who governs. We are the true heirs, and it is time to claim what is rightfully ours. The realm needs a strong, unwavering hand to restore order, and only by embracing our birthright can we secure the future of the kingdom."
+
+GOT_monarchist_general_staff:0 "Monarchist Generals"
+GOT_monarchist_general_staff_desc:0 "To ensure the stability of the realm, we must place our trust in those who uphold the old ways. Monarchist generals, loyal to the crown, will bring military strength and discipline to our cause. With their expertise, we can prepare the realm for any threat, internal or external, and safeguard the throne for generations to come."
+
+GOT_increase_patriotism:0 "Foster Loyalty to the Realm"
+GOT_increase_patriotism_desc:0 "In these troubled times, the strength of the realm lies in the loyalty of its people. We must inspire a renewed sense of devotion to the crown and the kingdom. Through noble deeds, public ceremonies, and stirring speeches, we will unite the people under the banner of the realm and strengthen the ties between the ruler and the ruled."
+
+GOT_monarchist_politicians:0 "Loyalist Nobles and Courtiers"
+GOT_monarchist_politicians_desc:0 "The kingdom's stability relies on the support of those who honor the crown and its ancient rights. We must cultivate a council of nobles and courtiers who are fiercely loyal to the monarchy, ensuring the crown's power remains unchallenged and its authority unquestioned. With their influence, we can secure the throne and guide the realm towards a glorious future."
+
+GOT_controlled_opposition:0 "A Subdued Opposition"
+GOT_controlled_opposition_desc:0 "In order to maintain control over the realm, it is wise to allow some voices of dissent, but only within bounds that we can manage. By ensuring these opposing factions remain contained and loyal to the crown, we can prevent any true threats to our rule while giving the appearance of fair governance. A divided enemy is a weakened enemy."
+
+GOT_unite_the_people:0 "Unite the Kingdom"
+GOT_unite_the_people_desc:0 "The realm is divided, with rival factions and fractured loyalties tearing at its seams. It is time to forge unity under the crown, to bring the people together under one banner. Whether by decree or by force, we shall restore order and strength to the kingdom, ensuring that all kneel to the rightful monarch."
+
+GOT_nationalist_ideas:0 "The Nationalist Creed"
+GOT_nationalist_ideas_desc:0 "A powerful sense of unity and national pride must be instilled in the hearts of our people. The realm must be bound together, not by mere loyalty to a ruler, but by a shared identity and purpose. Whether to defend the crown or to further our dominion, we shall kindle the fire of nationalism in the hearts of the masses."
+
+GOT_fascist_path:0 "The Path of the Iron Fist"
+GOT_fascist_path_desc:0 "Through iron discipline and an unyielding will, we will forge a new order. The realm shall be ruled with an iron fist, where strength and loyalty are paramount. Those who oppose us will be crushed, and the people shall march forward under the banner of power and unity, bound by the force of a singular vision."
+
 GOT_racial_superiority:0 "The Survival of the Strongest"
-GOT_noble_supporters:0 "Sympathisers in the Nobility"
-GOT_assault_multiculturalism:0 "Assault Multiculturalism"
-GOT_massive_propaganda:0 "Massive Propaganda Efforts"
-GOT_paramilitarism:0 "Paramilitarism"
-GOT_leader_principle:0 "The Leader Principle"
-GOT_the_coup:0 "The Coup"
-GOT_ideological_fever:0 "Ideological Fever"
-GOT_successful_revolution:0 "The Triumphant Revolution"
-GOT_purge_army:0 "Purge the Army"
-GOT_five_year_plan:0 "Enact a Five Year Plan"
-GOT_equal_education:0 "Equal Education"
-GOT_collectivisation:0 "Purge Our Political Opponents"
-GOT_mass_mobilisation_commie:0 "The Long Arm of the Revolution"
-GOT_spread_revolution:0 "Spread the Revolution"
-GOT_socialism_in_one_country:0 "Socialism in One Country"
-GOT_new_cabinet:0 "The New Cabinet"
-GOT_strenghen_democratic_spirit:0 "Strenghen the Democratic Spirit"
-GOT_seperation_of_powers:0 "The Seperation of Powers"
-GOT_education_reform:0 "An Education Reform"
+GOT_racial_superiority_desc:0 "In this realm, only the strongest shall endure. We must cleanse the land of the weak and elevate those who are worthy. The weak will fall to the wayside, while the strong rise to rule. This is the law of nature, and it shall govern the future of our people."
+
+GOT_noble_supporters:0 "Sympathizers in the Nobility"
+GOT_noble_supporters_desc:0 "Among the noble houses, there are those who secretly favor our cause. These sympathizers can be our eyes and ears in the halls of power, and with their support, we may gain crucial allies within the highest circles of society. The old order may crumble, but we will be ready to take control."
+
+GOT_assault_multiculturalism:0 "Defend Our Culture"
+GOT_assault_multiculturalism_desc:0 "The foreign influences that have seeped into our land threaten the purity of our people and our way of life. It is time to reclaim our traditions, remove these alien forces, and ensure that our society is united under a single, unshakable culture. The strength of our nation lies in its unity."
+
+GOT_massive_propaganda:0 "The Power of the Word"
+GOT_massive_propaganda_desc:0 "Our cause must be spread across the realm, from the highest tower to the humblest village. With great speeches, banners, and tales of glory, we will convince the people to rally to our banner. The truth will be molded in our favor, and the hearts of the masses will beat as one with our vision."
+
+GOT_paramilitarism:0 "The Iron Fist"
+GOT_paramilitarism_desc:0 "In the name of order and unity, we shall form powerful and disciplined forces that stand outside the realm's traditional military. These elite groups will serve not only to protect our cause but to impose our will upon the land, bringing any dissenters into line with brutal efficiency."
+
+GOT_leader_principle:0 "The Divine Right of the Leader"
+GOT_leader_principle_desc:0 "The strength of our nation lies not in its institutions, but in the singular vision of its leader. Under the divine mantle of leadership, all must rally to one banner, one will. The Leader’s decisions are unquestionable, as their wisdom is ordained by the very gods themselves."
+
+GOT_the_coup:0 "The Coup of the True Monarch"
+GOT_the_coup_desc:0 "The time has come to reclaim the throne from those who defile the rightful rule of our lands. With the strength of our loyal forces, we shall overthrow the weak and corrupt leadership, restoring the kingdom to its true monarch. The moment of reckoning is at hand."
+
+GOT_successful_revolution:0 "The Triumphant Uprising"
+GOT_successful_revolution_desc:0 "The people have risen up in revolt, overthrowing the oppressive aristocracy and destroying the old regime. The revolution is victorious, and now the land is ripe for a new order—one built upon the foundations of equality, justice, and the will of the common folk."
+
+GOT_purge_army:0 "Cleanse the Royalist Forces"
+GOT_purge_army_desc:0 "The remnants of the old regime still linger within the ranks of the army, loyal to the fallen nobility. It is time to rid the military of these traitors and instill new leadership that will serve the people and the revolution."
+
+GOT_five_year_plan:0 "The Great Rebuilding"
+GOT_five_year_plan_desc:0 "To secure the future of the people, we must rebuild our land and economy from the ashes of the old world. A bold, five-year plan will direct our resources toward the common good, ensuring prosperity for all and the downfall of the old elite."
+
+GOT_equal_education:0 "Education for All"
+GOT_equal_education_desc:0 "In the new world, knowledge shall no longer be the privilege of the few. We will ensure that every citizen, from the lowest peasant to the highest artisan, is given the tools to thrive and contribute to our collective strength."
+
+GOT_collectivisation:0 "The Purge of the Nobles"
+GOT_collectivisation_desc:0 "The old nobility, the entrenched aristocracy, and those who oppose our new order must be swept away. Their wealth and lands will be redistributed to the people, and those who remain loyal to the old ways will face the consequences of their defiance."
+
+GOT_mass_mobilisation_commie:0 "The Great March of the People"
+GOT_mass_mobilisation_commie_desc:0 "With the revolution now sweeping across the land, we call upon every able-bodied man and woman to rise in arms. The march towards a new world begins, and no force can stop the will of the people from claiming their future."
+
+GOT_spread_revolution:0 "Spread the Flames of Revolution"
+GOT_spread_revolution_desc:0 "The fire of rebellion has ignited in our lands, and it is time to spread this flame to the farthest corners of the realm. We shall bring the banner of equality and justice to all who suffer under the old order, whether through diplomacy, force, or the word of the people."
+
+GOT_socialism_in_one_country:0 "Forge a Unified Nation"
+GOT_socialism_in_one_country_desc:0 "In this land, we will build the foundations of a new society, one where the power of the people reigns supreme. We do not need the world to join us—our revolution will be self-sustaining. We will forge a strong, unified nation, a beacon of justice that will stand against the forces of oppression."
+
+GOT_new_cabinet:0 "The New Council"
+GOT_new_cabinet_desc:0 "A new era begins with the gathering of wise and trusted advisors. Together, we shall guide the realm towards prosperity and justice, ensuring that the will of the people shapes the course of the kingdom."
+
+GOT_strenghen_democratic_spirit:0 "Fortify the Spirit of Liberty"
+GOT_strenghen_democratic_spirit_desc:0 "The winds of freedom must blow strong across our land. It is time to teach our people the values of fairness and justice, ensuring that democracy takes root and flourishes within our realm."
+
+GOT_seperation_of_powers:0 "The Division of Power"
+GOT_seperation_of_powers_desc:0 "To protect our realm from tyranny, we must divide the powers of the crown, the council, and the judiciary. Only by ensuring that no single hand holds too much sway can we preserve the freedoms of the people."
+
+GOT_education_reform:0 "A Reformation of Knowledge"
+GOT_education_reform_desc:0 "In the pursuit of a just kingdom, an educated populace is key. We shall overhaul our schools and ensure that the wisdom of the realm is passed down to all, from the noble to the commoner."
+
 GOT_home_of_the_free:0 "The Home of the Free"
-GOT_labor_reform_democratic:0 "A Labour Reform"
-GOT_spread_democracy:0 "Carry the Torch"
-GOT_stability:0 "Not Revolution, But Perseveration"
-GOT_help_poor:0 "Help the Poor"
-GOT_strenghen_patriotism:0 "Strenghen Patriotism"
-GOT_martial_law:0 "Enact Martial Law"
-GOT_national_guard:0 "A National Guard"
-GOT_indoctrinate_schools:0 "Indoctrinate the Schools"
-GOT_absolute_obedience:0 "Absolute Obedience"
-GOT_law_of_dictator:0 "The Law of the Dictator"
-GOT_godlike_propaganda:0 "Godlike Propaganda"
-GOT_purge_opposition:0 "Purge the Opposition"
-GOT_military_youth:0 "Military Youth"
+GOT_home_of_the_free_desc:0 "We shall build a sanctuary where the shackles of oppression can no longer hold our people down. A land where the voice of every citizen is heard, and the laws protect the weak and the strong alike."
+
+GOT_labor_reform_democratic:0 "The Labour of the People"
+GOT_labor_reform_democratic_desc:0 "The workers of the realm are the backbone of our kingdom. It is time to ensure that their labor is respected and that their rights are defended, for no man or woman should toil without reward."
+
+GOT_spread_democracy:0 "The Torch of Freedom"
+GOT_spread_democracy_desc:0 "With our kingdom on the path of liberty, it is time to show our neighbors the light of freedom. We shall spread our ideals of democracy, helping others rise up from the darkness of oppression as we have done."
+
+
+GOT_stability:0 "Not Revolution, But Preservation"
+GOT_stability_desc:0 "The realm stands at a crossroads. Rather than tearing it asunder with revolution, we shall preserve the old ways and maintain stability. Through order and strength, we will safeguard the legacy of our ancestors."
+
+GOT_help_poor:0 "Aid for the Downtrodden"
+GOT_help_poor_desc:0 "Even in the most prosperous kingdoms, the poor suffer. It is our duty to provide for the weak and ensure that no one is left to starve or suffer under the weight of poverty. A strong realm is one that cares for all its people."
+
+GOT_strenghen_patriotism:0 "Fortify the Realm's Loyalty"
+GOT_strenghen_patriotism_desc:0 "The strength of the realm lies in the unity of its people. We must cultivate a sense of patriotism, binding the hearts of the common folk and nobles alike in devotion to the crown and the greater good of the kingdom."
+
+GOT_martial_law:0 "Impose Martial Law"
+GOT_martial_law_desc:0 "In times of unrest, the crown must act swiftly and decisively. Martial law shall be declared to restore order, suppress rebellion, and ensure that the forces of chaos do not threaten the kingdom's stability."
+
+GOT_national_guard:0 "Raise a National Guard"
+GOT_national_guard_desc:0 "To defend the realm and preserve order, we shall raise a national guard, loyal only to the crown. These warriors shall serve as the sword and shield of the kingdom, keeping peace among the people and defending against internal threats."
+
+GOT_indoctrinate_schools:0 "Shape the Minds of the Future"
+GOT_indoctrinate_schools_desc:0 "The future of the realm lies in the education of its children. We must ensure that the schools teach not only knowledge but loyalty to the crown, reinforcing the values that have kept the kingdom strong through the ages."
+
+GOT_absolute_obedience:0 "Demand Absolute Obedience"
+GOT_absolute_obedience_desc:0 "A realm divided is a realm weakened. The crown shall demand absolute obedience from all its subjects, ensuring that no dissent can fester and that the kingdom's stability remains unchallenged. The strength of the realm is built on unity and unwavering loyalty."
+
+
+GOT_law_of_dictator:0 "The Law of the Tyrant"
+GOT_law_of_dictator_desc:0 "The realm must bend to the will of a single, unchallenged ruler. The Law of the Tyrant will ensure that all power resides with the crown, and any attempt at rebellion or dissent will be swiftly crushed. The kingdom shall know only one authority—the supreme ruler."
+
+GOT_godlike_propaganda:0 "Divine Propaganda"
+GOT_godlike_propaganda_desc:0 "The people must be made to believe in the divinity of our cause. Propaganda shall glorify our ruler as a god, and the kingdom shall be united in reverence. Through divine speeches and omnipresent symbols, we shall create a state of unquestioning loyalty."
+
+GOT_purge_opposition:0 "Cleanse the Realm"
+GOT_purge_opposition_desc:0 "There can be no tolerance for traitors and those who oppose the will of the crown. It is time to purge the kingdom of those who seek to undermine our rule. Nobles, commoners, and soldiers alike shall learn to fear the consequences of defying the throne."
+
+GOT_military_youth:0 "Raise the Military Youth"
+GOT_military_youth_desc:0 "To secure the future of the kingdom, we must instill the values of loyalty and strength in our youth. We shall raise military academies to train the next generation of warriors, loyal to the crown and ready to die for the glory of the kingdom."
+
 GOT_pure_army:0 "A Pure Army"
-GOT_national_cult:0 "A National Cult"
+GOT_pure_army_desc:0 "Only the strongest and most loyal will serve the crown. We will purge our military ranks of any who are weak, unworthy, or disloyal. Only those who have sworn unbreakable fealty to the throne will wear the armor of the kingdom."
+
+GOT_national_cult:0 "The Cult of the Crown"
+GOT_national_cult_desc:0 "The realm shall be ruled not by a mere king, but by a living legend. We will establish a national cult dedicated to the glorification of the crown, with all subjects expected to worship and revere our ruler as the ultimate source of power and guidance."
+
 GOT_total_dictatorship:0 "Proclaim Total Dictatorship"
+GOT_total_dictatorship_desc:0 "The time for the illusions of a shared rule has passed. It is time to declare total dictatorship, where all authority rests in the hands of a single ruler. The kingdom will know no law except the will of the sovereign, and all must obey without question."
+
+
+GOT_free_market:0 "The Free Market"
+GOT_support_middle_class:0 "Support the Middle Class"
+GOT_minimum_wage:0 "A Minimum Wage"
+GOT_invite_foreign_investors:0 "Invite Foreign Investors"
+GOT_fiscal_reforms:0 "Fiscal Reforms"
+GOT_planned_economy:0 "A Planned Economy"
+GOT_liquidate_unprofital_business:0 "Liquidate Unprofital Businesses"
+GOT_buy_out_dissident_farms:0 "Buy Out Dissident Farms"
+GOT_rations:0 "Ration Valuable Ressources"
+GOT_loosen_restrictions:0 "Loosen the Restrictions"
+GOT_coal_mines:0 "Expand the Coal Mines"
+GOT_tungsten_mines:0 "Expand the Tungsten Mines"
+GOT_optimise_profit:0 "Optimise the Profit"
+GOT_full_speed_ahead:0 "Full Speed Ahead"
+GOT_build_railroads:0 "Build Railroads"
+GOT_mass_urbanisation:0 "Mass Urbanisation"
+GOT_war_economy:0 "A Proper War Economy"
+GOT_university:0 "Fund the University of [From.Capital.GetName]"
+
+
+ GOT_army_efforts:0 "Revitalise the Army"
+ GOT_offensive_army:0 "An Offensive Army"
+ GOT_armoured_cars:0 "Focus Armoured Cars"
+ GOT_tanks:0 "Our First Tank"
+ GOT_decentralised_army:0 "A Decentralised Army"
+ GOT_independent_officers:0 "Independent Officers"
+ GOT_esprit_de_corps:0 "Esprit de Corps"
+ GOT_improve_doctrine:0 "A Fitting Doctrine"
+ GOT_offensive_artillery:0 "Modern Artillery Designs"
+ GOT_light_artillery:0 "Light Artillery Guns"
+ GOT_assault_rifle:0 "The Assault Rifle"
+ GOT_auxilliary_corps:0 "The Auxilliary Corps"
+ GOT_endless_advance:0 "Bring the Fight to 'Em!"
+ GOT_chemicals:0 "The Chemical Warfare"
+ GOT_improve_gas_masks:0 "Improve Our Gasmasks"
+ GOT_defensive_army:0 "A Defensive Army"
+ GOT_never_ending_barrage:0 "A Never Ending Barrage"
+ GOT_heavy_artillery:0 "Heavy Artillery Guns"
+ GOT_centralised_army:0 "A Centralised Army"
+ GOT_order_and_discipline:0 "Order And Discipline"
+ GOT_chain_of_command:0 "A Chain of Command"
+ GOT_better_doctrine:0 "Adapt Our Doctrine"
+ GOT_dig_in_and_pray:0 "Dig In And Pray"
+ GOT_impenetrable_fortress:0 "An Impenetrable Fortress"
+ GOT_no_antiquities:0 "Sort Out the Antiquities"
+ GOT_shovel_for_every_soldier:0 "A Shovel For Every Soldier"
+ GOT_endless_defense:0 "In the Defense of [Root.GetNameDef]"
+ GOT_standardise_designs:0 "Standardised Designs"
+ GOT_streamlined_production:0 "Streamline the Production"
+ GOT_military_academy:0 "The [Root.Capital.GetName] Military Academy"
+
+ GOT_air_force:0 "A New Field of Warfare"
+ GOT_scout_planes:0 "The First Planes"
+ GOT_british_fighters:0 "Buy British Fighters"
+ GOT_daring_pilots:0 "The Most Daring Pilots"
+ GOT_own_fighters:0 "Our Own Fighters"
+ GOT_high_altitude_training:0 "High Altitude Training"
+ GOT_build_airfields:0 "The [Root.Capital.GetName] Airstrip"
+ GOT_anti_air:0 "Our First Anti-Air Guns"
+ GOT_german_zeppeline:0 "Buy German Zeppeline"
+ GOT_larger_bombs:0 "Larger Bombs"
+ GOT_own_bombers:0 "Our Own Models"
+ GOT_night_raids:0 "Night Raids"
+ GOT_proper_doctrine:0 "A Proper Doctrine"
+
+ GOT_new_navy:0 "A New Navy For A New Century"
+ GOT_battlecruisers:0 "Develop New Battlecruisers"
+ GOT_patrol_boats:0 "Patrol Boats"
+ GOT_new_cruisers:0 "Light Cruiser Experiments"
+ GOT_grandest_ships:0 "The Biggest of the Biggest"
+ GOT_dockyards:0 "A Home Port"
+ GOT_cheap_fleet:0 "Cheap And Fast"
+ GOT_expensive_fleet:0 "Expensive But Reliable"
+ GOT_more_dockyards:0 "The Dockyard Expansion Scheme"
+ GOT_trade:0 "A Proper Trade Fleet"
+ GOT_escorts:0 "Escort Our Convoys"
+ GOT_intercept_enemies:0 "Intercept Our Enemies"
+ GOT_coastal_defense:0 "Defend Our Coast"
+ GOT_new_admirality:0 "A New Admirality"
+ GOT_raider_doctrine:0 "The Raider Doctrine"
+ GOT_old_doctrine:0 "Rely On Old Tactics"
+ GOT_marine_infantry:0 "The Marine Infantry Corps"
+ GOT_pride_of_the_fleet:0 "The Pride of the Fleet"
+ GOT_naval_academy:0 "Open the Fleet Academy"
+ 
 
  
  GOT_diplomacy_focus:0 "Our Place In the World"
