@@ -1,0 +1,2868 @@
+focus = {
+		id = md_diplomacy_focus
+		icon = GFX_focus_ron_earth_icon
+		x = 29
+		y = 12
+		cost = 10
+		available = {
+			OR = {
+				has_completed_focus = md_new_cabinet
+				has_completed_focus = md_stability
+				has_completed_focus = md_law_of_dictator
+				has_completed_focus = md_successful_revolution
+				has_completed_focus = md_new_wave_of_extremism
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		allow_branch = {
+		}
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = md_western_approach
+		icon = GFX_align_to_america
+		x = 4
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = md_diplomacy_focus
+		}
+		mutually_exclusive = {
+			focus = md_eastern_bloc
+		}
+		mutually_exclusive = {
+			focus = md_rising_star
+		}
+		mutually_exclusive = {
+			focus = md_arabian_brethren
+		}
+		mutually_exclusive = {
+			focus = md_neutral_focus
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_sino_chinese_pact = no
+				RON_CSTO_faction = no
+				RON_peninsula_shield_force = no
+			}
+		}
+		completion_reward = {
+			every_country = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					PREV = {
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = RI_supports_own_politics
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_military_assistance
+		icon = GFX_goal_generic_military_deal
+		x = 1
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_western_approach
+		}
+		completion_reward = {
+			add_ideas = RI_generic_us_military_support
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = md_joint_training
+		icon = special_forces
+		x = 0
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_military_assistance
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RI_generic_us_military_support
+				add_idea = RI_generic_us_military_support1
+			}
+		}
+	}
+	focus = {
+		id = md_us_weapons
+		icon = trade_with_america
+		x = 1
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_military_assistance
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+				producer = USA
+			}
+		}
+	}
+	focus = {
+		id = md_nato_troops
+		icon = GFX_align_to_nato
+		x = 2
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_military_assistance
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			custom_effect_tooltip = RI_unit_spawn
+			add_manpower = 500
+			hidden_effect = {
+				division_template = {
+					name = "NATO-Division"
+					priority = 2
+					division_names_group = MAN_INF_01
+					regiments = {
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 0
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 2
+						}
+						infantry = {
+							x = 2
+							y = 0
+						}
+						artillery_brigade = {
+							x = 2
+							y = 1
+						}
+						artillery_brigade = {
+							x = 2
+							y = 2
+						}
+					}
+				}
+			}
+			random_owned_state = {
+				limit = {
+					ROOT = {
+						has_full_control_of_state = PREV
+					}
+				}
+				create_unit = {
+					division = "name = \"1. NATO-Division\" division_template = \"NATO-Division\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2. NATO-Division\" division_template = \"NATO-Division\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_joint_military_staff
+		icon = army_officers
+		x = 1
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_joint_training
+		}
+		prerequisite = {
+			focus = md_nato_troops
+		}
+		prerequisite = {
+			focus = md_us_weapons
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RI_generic_us_military_support1
+				add_idea = RI_generic_us_military_support2
+			}
+		}
+	}
+	focus = {
+		id = md_closer_ties_to_usa
+		icon = GFX_align_to_america
+		x = 4
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_western_approach
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_friendly_foreign_policy
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_recognise_israel
+		icon = GFX_align_to_israel
+		x = 3
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_closer_ties_to_usa
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = ISR
+				modifier = RI_country_recognised
+			}
+		}
+	}
+	focus = {
+		id = md_start_map
+		icon = GFX_focus_ron_MAP
+		x = 5
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_closer_ties_to_usa
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = RI_started_talks
+			}
+		}
+	}
+	focus = {
+		id = md_start_excession_talks
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_start_map
+		}
+		prerequisite = {
+			focus = md_recognise_israel
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = md_non_us_ally
+		icon = GFX_goal_generic_alliance
+		x = 8
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_start_excession_talks
+		}
+		mutually_exclusive = {
+			focus = md_join_nato
+		}
+		available = {
+			USA = {
+				has_government = democratic
+			}
+			country_exists = USA
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_NATO_faction = yes
+			}
+		}
+		completion_reward = {
+			give_guarantee = USA
+			USA = {
+				give_guarantee = ROOT
+			}
+		}
+	}
+	focus = {
+		id = md_join_nato
+		icon = GFX_align_to_nato
+		x = 4
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_start_excession_talks
+		}
+		mutually_exclusive = {
+			focus = md_non_us_ally
+		}
+		available = {
+			USA = {
+				has_government = democratic
+			}
+			country_exists = USA
+			is_in_faction = no
+			RON_can_join_nato = yes
+
+		}
+		bypass = {
+			is_in_faction_with = USA
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_NATO_faction = no
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = LAT
+				date < 2004.3.29
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = LIT
+				date < 2004.3.29
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = EST
+				date < 2004.3.29
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = ROM
+				date < 2004.3.29
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = SLO
+				date < 2004.3.29
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = SLV
+				date < 2004.3.29
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = ALB
+				date < 2009.4.1
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = CRO
+				date < 2009.4.1
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = MNT
+				date < 2017.6.5
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = MAC
+				date < 2020.3.27
+			}
+			modifier = {
+				factor = 0
+				is_subject = yes
+			}
+			modifier = {
+				factor = 0
+				USA = {
+					has_capitulated = yes
+				}
+			}
+		}
+		completion_reward = {
+			USA = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = md_approach_eu
+		icon = GFX_align_to_europe
+		x = 7
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_western_approach
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			every_country = {
+				limit = {
+					has_idea = RON_European_Union
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_friendly_foreign_policy
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_europe_investors
+		icon = europe_investors
+		x = 6
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_approach_eu
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = eu_help
+				}
+				swap_ideas = {
+					remove_idea = eu_help
+					add_idea = eu_help1
+				}
+			}
+			else = {
+				add_ideas = eu_help
+			}
+		}
+	}
+	focus = {
+		id = md_work_out_trade_plans
+		icon = trade_with_europe
+		x = 7
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_approach_eu
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			every_country = {
+				if = {
+					limit = {
+						has_idea = RON_European_Union
+					}
+					ROOT = {
+						add_opinion_modifier = {
+							target = PREV
+							modifier = RI_started_trade
+						}
+					}
+				}
+			}
+			add_ideas = free_trade
+		}
+	}
+	focus = {
+		id = md_learn_from_friends
+		icon = europe_research
+		x = 8
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_approach_eu
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = eu_help
+				}
+				swap_ideas = {
+					remove_idea = eu_help
+					add_idea = eu_help1
+				}
+			}
+			else = {
+				add_ideas = eu_help
+			}
+		}
+	}
+	focus = {
+		id = md_european_standards
+		icon = GFX_align_to_europe
+		x = 6
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_learn_from_friends
+		}
+		prerequisite = {
+			focus = md_work_out_trade_plans
+		}
+		prerequisite = {
+			focus = md_europe_investors
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = eu_help1
+				add_idea = eu_help2
+			}
+		}
+	}
+	focus = {
+		id = md_eastern_bloc
+		icon = GFX_align_to_russia
+		x = 14
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = md_diplomacy_focus
+		}
+		mutually_exclusive = {
+			focus = md_western_approach
+		}
+		mutually_exclusive = {
+			focus = md_rising_star
+		}
+		mutually_exclusive = {
+			focus = md_arabian_brethren
+		}
+		mutually_exclusive = {
+			focus = md_neutral_focus
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_sino_chinese_pact = no
+				RON_NATO_faction = no
+				RON_peninsula_shield_force = no
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_own_politics
+			}
+			add_opinion_modifier = {
+				target = BLR
+				modifier = RI_supports_own_politics
+			}
+			add_opinion_modifier = {
+				target = KAZ
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = md_economic_assistance_rus
+		icon = russian_ruble
+		x = 11
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_eastern_bloc
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = rus_economic_help
+		}
+	}
+	focus = {
+		id = md_russian_gas
+		icon = GFX_goal_generic_oil_refinery
+		x = 10
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_economic_assistance_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = rus_economic_help
+				}
+				swap_ideas = {
+					remove_idea = rus_economic_help
+					add_idea = rus_economic_help1
+				}
+			}
+			else = {
+				add_ideas = rus_economic_help1
+			}
+		}
+	}
+	focus = {
+		id = md_set_up_trade_plans
+		icon = trade_deal
+		x = 11
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_economic_assistance_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			RUS = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_started_trade
+				}
+			}
+			BLR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_started_trade
+				}
+			}
+			KAZ = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_started_trade
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_russian_investors
+		icon = trade_deal2
+		x = 12
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_economic_assistance_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = rus_economic_help
+				}
+				swap_ideas = {
+					remove_idea = rus_economic_help
+					add_idea = rus_economic_help1
+				}
+			}
+			else = {
+				add_ideas = rus_economic_help1
+			}
+		}
+	}
+	focus = {
+		id = md_economic_coop_rus
+		icon = money
+		x = 11
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_russian_gas
+		}
+		prerequisite = {
+			focus = md_russian_investors
+		}
+		prerequisite = {
+			focus = md_set_up_trade_plans
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = rus_economic_help1
+				add_idea = rus_economic_help2
+			}
+		}
+	}
+	focus = {
+		id = md_improve_relations_rus
+		icon = GFX_align_to_russia
+		x = 14
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_eastern_bloc
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_friendly_foreign_policy
+			}
+			RUS = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_friendly_foreign_policy
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_befriend_bel
+		icon = GFX_align_to_belarus
+		x = 13
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_improve_relations_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = BLR
+				modifier = RI_friendly_foreign_policy
+			}
+			BLR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_friendly_foreign_policy
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_befriend_kaz
+		icon = GFX_align_to_kazakhstan
+		x = 15
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_improve_relations_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = KAZ
+				modifier = RI_friendly_foreign_policy
+			}
+			KAZ = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_friendly_foreign_policy
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_csto_embassies
+		icon = GFX_goal_generic_major_alliance
+		x = 14
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_befriend_bel
+		}
+		prerequisite = {
+			focus = md_befriend_kaz
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_embassy_established
+			}
+			add_opinion_modifier = {
+				target = BLR
+				modifier = RI_embassy_established
+			}
+			add_opinion_modifier = {
+				target = KAZ
+				modifier = RI_embassy_established
+			}
+		}
+	}
+	focus = {
+		id = md_military_assistance_rus
+		icon = GFX_goal_generic_military_deal
+		x = 17
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_eastern_bloc
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = rus_military_help
+		}
+	}
+	focus = {
+		id = md_russian_planes
+		icon = fighter
+		x = 16
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_military_assistance_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = small_plane_airframe
+				amount = 75
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = medium_plane_airframe
+				amount = 25
+				producer = RUS
+			}
+		}
+	}
+	focus = {
+		id = md_russian_weapons
+		icon = small_arms
+		x = 17
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_military_assistance_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2500
+				producer = RUS
+			}
+		}
+	}
+	focus = {
+		id = md_russian_mercenaries
+		icon = GFX_focus_ron_militia_cap
+		x = 18
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_military_assistance_rus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			custom_effect_tooltip = RI_unit_spawn_rus
+			add_manpower = 500
+			hidden_effect = {
+				division_template = {
+					name = "Russian Mercenaries"
+					priority = 2
+					division_names_group = MAN_INF_01
+					regiments = {
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 0
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 2
+						}
+						infantry = {
+							x = 2
+							y = 0
+						}
+						infantry = {
+							x = 2
+							y = 1
+						}
+						infantry = {
+							x = 2
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 3
+						}
+					}
+				}
+			}
+			random_owned_state = {
+				limit = {
+					ROOT = {
+						has_full_control_of_state = PREV
+					}
+				}
+				create_unit = {
+					division = "name = \"1. Russian Mercenary Division\" division_template = \"Russian Mercenaries\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2. Russian Mercenary Division\" division_template = \"Russian Mercenaries\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"3. Russian Mercenary Division\" division_template = \"Russian Mercenaries\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_military_coop_rus
+		icon = GFX_goal_generic_military_sphere
+		x = 17
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_russian_planes
+		}
+		prerequisite = {
+			focus = md_russian_weapons
+		}
+		prerequisite = {
+			focus = md_russian_mercenaries
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = rus_military_help
+				add_idea = rus_military_help1
+			}
+		}
+	}
+	focus = {
+		id = md_join_csto
+		icon = GFX_align_to_csto
+		x = 13
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = md_military_coop_rus
+		}
+		prerequisite = {
+			focus = md_economic_coop_rus
+		}
+		prerequisite = {
+			focus = md_csto_embassies
+		}
+		mutually_exclusive = {
+			focus = md_non_russian_ally
+		}
+		available = {
+			RUS = {
+				has_government = neutrality
+			}
+			country_exists = RUS
+			is_in_faction = no
+			RON_can_join_csto = yes
+
+		}
+		bypass = {
+			is_in_faction_with = RUS
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_CSTO_faction = no
+			}
+		}
+		completion_reward = {
+			RUS = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = md_non_russian_ally
+		icon = GFX_goal_generic_alliance
+		x = 15
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = md_military_coop_rus
+		}
+		prerequisite = {
+			focus = md_economic_coop_rus
+		}
+		prerequisite = {
+			focus = md_csto_embassies
+		}
+		mutually_exclusive = {
+			focus = md_join_csto
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_CSTO_faction = yes
+			}
+		}
+		completion_reward = {
+			give_guarantee = RUS
+			RUS = {
+				give_guarantee = ROOT
+			}
+		}
+	}
+	focus = {
+		id = md_common_ground
+		icon = improve_relations_red
+		x = 20
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_eastern_bloc
+			focus = md_rising_star
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_friendly_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = CHI
+				modifier = RI_friendly_foreign_policy
+			}
+		}
+	}
+	focus = {
+		id = md_anti_nato_propaganda
+		icon = anti_nato
+		x = 19
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_common_ground
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {
+					target = PREV
+					modifier = RI_hostile_foreign_policy
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_western_sanctions
+		icon = embargo
+		x = 21
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_common_ground
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			every_country = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+				}
+				PREV = {
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = RI_sanctions
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_support_rebels
+		icon = anti_us
+		x = 20
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_western_sanctions
+		}
+		prerequisite = {
+			focus = md_anti_nato_propaganda
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			USA = {
+				add_timed_idea = {
+					idea = RI_rebels
+					days = 365
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_rising_star
+		icon = GFX_align_to_china
+		x = 29
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = md_diplomacy_focus
+		}
+		mutually_exclusive = {
+			focus = md_eastern_bloc
+		}
+		mutually_exclusive = {
+			focus = md_western_approach
+		}
+		mutually_exclusive = {
+			focus = md_arabian_brethren
+		}
+		mutually_exclusive = {
+			focus = md_neutral_focus
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_CSTO_faction = no
+				RON_NATO_faction = no
+				RON_peninsula_shield_force = no
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = PRC
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = md_ask_for_assistance
+		icon = GFX_goal_generic_improve_relations
+		x = 25
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_rising_star
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = md_military_help
+		icon = army_officers
+		x = 23
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_ask_for_assistance
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = RI_chinese_military_help
+		}
+	}
+	focus = {
+		id = md_chinese_volounteers
+		icon = GFX_goal_generic_military_deal
+		x = 22
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_military_help
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			custom_effect_tooltip = RI_unit_spawn
+			add_manpower = 500
+			hidden_effect = {
+				division_template = {
+					name = "Chinese Volounteers"
+					priority = 2
+					division_names_group = MAN_INF_01
+					regiments = {
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 0
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 2
+						}
+						infantry = {
+							x = 2
+							y = 0
+						}
+						infantry = {
+							x = 2
+							y = 1
+						}
+						infantry = {
+							x = 2
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 3
+						}
+					}
+				}
+			}
+			random_owned_state = {
+				limit = {
+					ROOT = {
+						has_full_control_of_state = PREV
+					}
+				}
+				create_unit = {
+					division = "name = \"1. Chinese Volounteer Division\" division_template = \"Chinese Volounteers\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2. Chinese Volounteer Division\" division_template = \"Chinese Volounteers\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"3. Chinese Volounteer Division\" division_template = \"Chinese Volounteers\" start_experience_factor = 2.0"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_chinese_aircraft
+		icon = GFX_focus_chi_flying_tigers
+		x = 24
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_military_help
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = small_plane_airframe
+				amount = 100
+				producer = PRC
+			}
+			add_equipment_to_stockpile = {
+				type = medium_plane_airframe
+				amount = 25
+				producer = PRC
+			}
+		}
+	}
+	focus = {
+		id = md_student_exchange
+		icon = scientific_exchange
+		x = 25
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_ask_for_assistance
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = RI_chinese_students
+		}
+	}
+	focus = {
+		id = md_economic_support
+		icon = money
+		x = 27
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_ask_for_assistance
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = RI_chinese_economic_help
+		}
+	}
+	focus = {
+		id = md_golden_shield_protection
+		icon = golden_shield
+		x = 26
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_economic_support
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = md_AIIB_loans
+		icon = GFX_focus_ron_aiib
+		x = 28
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_economic_support
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RI_chinese_economic_help
+				add_idea = RI_chinese_economic_help1
+			}
+		}
+	}
+	focus = {
+		id = md_join_SCO
+		icon = GFX_focus_ron_sco
+		x = 25
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_chinese_aircraft
+		}
+		prerequisite = {
+			focus = md_chinese_volounteers
+		}
+		prerequisite = {
+			focus = md_student_exchange
+		}
+		prerequisite = {
+			focus = md_golden_shield_protection
+		}
+		prerequisite = {
+			focus = md_AIIB_loans
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RI_chinese_economic_help1
+				add_idea = RI_chinese_economic_help2
+			}
+		}
+	}
+	focus = {
+		id = md_build_up_relations
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		x = 31
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_rising_star
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			PRC = {
+				add_opinion_modifier = {
+					target = PREV
+					modifier = RI_friendly_foreign_policy
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_elaborate_trade_plans
+		icon = trade_with_china
+		x = 30
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_build_up_relations
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = PRC
+				modifier = RI_started_trade
+			}
+		}
+	}
+	focus = {
+		id = md_trade_with_kim
+		icon = trade_with_north_korea
+		x = 30
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_elaborate_trade_plans
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = DPK
+				modifier = RI_started_trade
+			}
+		}
+	}
+	focus = {
+		id = md_support_xi
+		icon = GFX_focus_chi_legislative_yuan
+		x = 32
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_build_up_relations
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			PRC = {
+				add_opinion_modifier = {
+					target = PREV
+					modifier = RI_supports_own_politics
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_support_one_china
+		icon = GFX_focus_chi_one_china_policy
+		x = 32
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_support_xi
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			PRC = {
+				add_opinion_modifier = {
+					target = PREV
+					modifier = RI_supports_own_faction
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_expand_chinese_embassy
+		icon = GFX_focus_prc_proclaim_the_peoples_republic
+		x = 31
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_trade_with_kim
+		}
+		prerequisite = {
+			focus = md_support_one_china
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = PRC
+				modifier = RI_embassy_established
+			}
+		}
+	}
+	focus = {
+		id = md_chinese_faction
+		icon = GFX_align_to_china
+		x = 28
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = md_join_SCO
+		}
+		prerequisite = {
+			focus = md_expand_chinese_embassy
+		}
+		available = {
+			PRC = {
+				has_government = communism
+			}
+			RON_can_join_sino_chinese_pact = yes
+
+			country_exists = PRC
+			is_in_faction = no
+		}
+		bypass = {
+			is_in_faction_with = PRC
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			PRC = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = md_arabian_brethren
+		icon = GFX_focus_ron_islam_flag
+		x = 39
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = md_diplomacy_focus
+		}
+		mutually_exclusive = {
+			focus = md_eastern_bloc
+		}
+		mutually_exclusive = {
+			focus = md_rising_star
+		}
+		mutually_exclusive = {
+			focus = md_western_approach
+		}
+		mutually_exclusive = {
+			focus = md_neutral_focus
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_CSTO_faction = no
+				RON_NATO_faction = no
+				RON_sino_chinese_pact = no
+			}
+		}
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = md_support_sunni
+		icon = GFX_focus_ron_imam
+		x = 36
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_arabian_brethren
+		}
+		mutually_exclusive = {
+			focus = md_support_shia
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				RON_peninsula_shield_force = no
+			}
+		}
+		completion_reward = {
+			SAU = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
+			UAE = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
+			BHR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
+			EGY = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_saudi_friends
+		icon = GFX_align_to_saudi_arabia
+		x = 34
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_sunni
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = UAE
+				modifier = RI_friendly_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = BHR
+				modifier = RI_friendly_foreign_policy
+			}
+		}
+	}
+	focus = {
+		id = md_trade_with_egypt
+		icon = GFX_align_to_egypt
+		x = 34
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_saudi_friends
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = EGY
+				modifier = RI_started_trade
+			}
+		}
+	}
+	focus = {
+		id = md_meet_saudi_king
+		icon = king_saud
+		x = 36
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_sunni
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = SAU
+				modifier = RI_started_talks
+			}
+		}
+	}
+	focus = {
+		id = md_import_saudi_oil
+		icon = oil_trade
+		x = 35
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_meet_saudi_king
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = RI_generic_saudi_oil
+		}
+	}
+	focus = {
+		id = md_open_saudi_mosques
+		icon = GFX_focus_ron_mosque
+		x = 37
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_meet_saudi_king
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_popularity = {
+				popularity = 0.05
+				ideology = islamism
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = md_denounce_qatar
+		icon = GFX_goal_generic_demand_territory
+		x = 36
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_import_saudi_oil
+		}
+		prerequisite = {
+			focus = md_open_saudi_mosques
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = QAT
+				modifier = RI_supports_enemy_faction
+			}
+		}
+	}
+	focus = {
+		id = md_join_peninsula_shield
+		icon = defence
+		x = 36
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = md_trade_with_egypt
+		}
+		prerequisite = {
+			focus = md_denounce_qatar
+		}
+		prerequisite = {
+			focus = md_harbor_extremists
+		}
+		prerequisite = {
+			focus = md_ally_al_qaeda
+		}
+		available = {
+			SAU = {
+				has_government = islamism
+			}
+			RON_can_join_peninsula_shield_force = yes
+
+			country_exists = SAU
+			is_in_faction = no
+		}
+		bypass = {
+			is_in_faction_with = SAU
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			SAU = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = md_recognise_palestine
+		icon = GFX_align_to_palestine
+		x = 38
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_sunni
+			focus = md_support_shia
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			PAL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_country_recognised
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_support_pkk
+		icon = GFX_align_to_pkk
+		x = 40
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_sunni
+			focus = md_support_shia
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			TUR = {
+				add_timed_idea = {
+					idea = RI_rebels
+					days = 365
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_attack_usa
+		icon = attack_america
+		x = 39
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_recognise_palestine
+		}
+		prerequisite = {
+			focus = md_support_pkk
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			USA = {
+				add_timed_idea = {
+					idea = RI_rebels
+					days = 365
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_harbor_extremists
+		icon = GFX_goal_generic_dangerous_deal
+		x = 38
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_attack_usa
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_popularity = {
+				popularity = 0.05
+				ideology = islamism
+			}
+			add_stability = -0.05
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = md_ally_al_qaeda
+		icon = GFX_focus_ron_isis
+		x = 40
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_attack_usa
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 120
+			add_popularity = {
+				popularity = 0.05
+				ideology = islamism
+			}
+		}
+	}
+	focus = {
+		id = md_support_shia
+		icon = GFX_focus_ron_allah
+		x = 42
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_arabian_brethren
+		}
+		mutually_exclusive = {
+			focus = md_support_sunni
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				RON_peninsula_shield_force = yes
+			}
+		}
+		completion_reward = {
+			PER = {
+				add_opinion_modifier = {
+					target = PER
+					modifier = RI_supports_own_faction
+				}
+			}
+			IRQ = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
+			AZR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
+			LEB = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_invite_khamenei
+		icon = khamenei
+		x = 42
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_shia
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = PER
+				modifier = RI_started_talks
+			}
+		}
+	}
+	focus = {
+		id = md_defend_iranian_nukes
+		icon = nuclear_weapons
+		x = 41
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_invite_khamenei
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = md_iranian_sponsors
+		icon = GFX_align_to_iran
+		x = 43
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_invite_khamenei
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = RI_generic_iranian_investors
+		}
+	}
+	focus = {
+		id = md_join_resistance_alliance
+		icon = race_relations
+		x = 42
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_defend_iranian_nukes
+		}
+		prerequisite = {
+			focus = md_iranian_sponsors
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			RON_can_join_md_persian_faction = yes
+		}
+		completion_reward = {
+			PER = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = md_fund_hezbollah
+		icon = GFX_align_to_hezbollah
+		x = 44
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_shia
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = LEB
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = md_expand_iraqi_embassy
+		icon = GFX_goal_generic_major_alliance
+		x = 44
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_fund_hezbollah
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = IRQ
+				modifier = RI_embassy_established
+			}
+		}
+	}
+	focus = {
+		id = md_support_assad
+		icon = GFX_align_to_syria
+		x = 42
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = md_join_resistance_alliance
+		}
+		prerequisite = {
+			focus = md_expand_iraqi_embassy
+		}
+		prerequisite = {
+			focus = md_harbor_extremists
+		}
+		prerequisite = {
+			focus = md_ally_al_qaeda
+		}
+		available = {
+			SYR = {
+				has_war = yes
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			send_equipment = {
+				type = infantry_equipment
+				amount = 1000
+				target = SYR
+			}
+		}
+	}
+	focus = {
+		id = md_neutral_focus
+		icon = neutrality
+		x = 52
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = md_diplomacy_focus
+		}
+		mutually_exclusive = {
+			focus = md_eastern_bloc
+		}
+		mutually_exclusive = {
+			focus = md_rising_star
+		}
+		mutually_exclusive = {
+			focus = md_arabian_brethren
+		}
+		mutually_exclusive = {
+			focus = md_western_approach
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_CSTO_faction = no
+				RON_NATO_faction = no
+				RON_sino_chinese_pact = no
+				RON_peninsula_shield_force = no
+			}
+		}
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = md_prepare_for_war
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 47
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_neutral_focus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = RI_war_preparations
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = md_higher_conscription
+		icon = GFX_focus_ron_MEX_politicised_army
+		x = 46
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_prepare_for_war
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = volunteer_only
+				}
+				add_ideas = limited_conscription
+			}
+			else_if = {
+				limit = {
+					has_idea = limited_conscription
+				}
+				add_ideas = extensive_conscription
+			}
+			else_if = {
+				limit = {
+					has_idea = extensive_conscription
+				}
+				add_ideas = service_by_requirement
+			}
+			else = {
+				add_political_power = 150
+			}
+		}
+	}
+	focus = {
+		id = md_acquire_weapons
+		icon = small_arms5
+		x = 48
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_prepare_for_war
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = {
+				RI_more_weapons
+			}
+		}
+	}
+	focus = {
+		id = md_extend_training
+		icon = small_arms3
+		x = 47
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_acquire_weapons
+		}
+		prerequisite = {
+			focus = md_higher_conscription
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_train_troops
+			}
+		}
+	}
+	focus = {
+		id = md_recognise_israel_neutral
+		icon = GFX_align_to_israel
+		x = 49
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_neutral_focus
+		}
+		mutually_exclusive = {
+			focus = md_recognise_palestine_neutral
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_government = fascism
+			}
+			modifier = {
+				factor = 0
+				has_government = communism
+			}
+		}
+		completion_reward = {
+			ISR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_country_recognised
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_recognise_palestine_neutral
+		icon = GFX_align_to_palestine
+		x = 51
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_neutral_focus
+		}
+		mutually_exclusive = {
+			focus = md_recognise_israel_neutral
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_government = democratic
+			}
+		}
+		completion_reward = {
+			PAL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_country_recognised
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_support_prc
+		icon = GFX_align_to_china
+		x = 53
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_neutral_focus
+		}
+		mutually_exclusive = {
+			focus = md_support_kuomintang
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_government = democratic
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = PRC
+				modifier = RI_supports_own_politics
+			}
+			add_opinion_modifier = {
+				target = CHI
+				modifier = RI_supports_enemy_politics
+			}
+		}
+	}
+	focus = {
+		id = md_support_kuomintang
+		icon = GFX_align_to_taiwan
+		x = 55
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_neutral_focus
+		}
+		mutually_exclusive = {
+			focus = md_support_prc
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_government = communism
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = CHI
+				modifier = RI_supports_own_politics
+			}
+			add_opinion_modifier = {
+				target = PRC
+				modifier = RI_supports_enemy_politics
+			}
+		}
+	}
+	focus = {
+		id = md_support_interventionism
+		icon = GFX_align_to_america
+		x = 51
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_kuomintang
+		}
+		prerequisite = {
+			focus = md_recognise_israel_neutral
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = RI_supports_own_politics
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_enemy_politics
+			}
+			add_opinion_modifier = {
+				target = PRC
+				modifier = RI_supports_enemy_politics
+			}
+		}
+	}
+	focus = {
+		id = md_denounce_aggressions
+		icon = war2_purple
+		x = 53
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_support_prc
+		}
+		prerequisite = {
+			focus = md_recognise_palestine_neutral
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = RI_supports_enemy_politics
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_own_politics
+			}
+			add_opinion_modifier = {
+				target = PRC
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = md_us_businesses
+		icon = america_investors
+		x = 49
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_support_interventionism
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = neutral_economic_help
+				}
+				swap_ideas = {
+					remove_idea = neutral_economic_help
+					add_idea = neutral_economic_help1
+				}
+			}
+			else = {
+				add_ideas = neutral_economic_help
+			}
+		}
+	}
+	focus = {
+		id = md_european_investors
+		icon = europe_investors
+		x = 51
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_support_interventionism
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = neutral_economic_help
+				}
+				swap_ideas = {
+					remove_idea = neutral_economic_help
+					add_idea = neutral_economic_help1
+				}
+			}
+			else = {
+				add_ideas = neutral_economic_help
+			}
+		}
+	}
+	focus = {
+		id = md_saudi_oil
+		icon = oil_trade
+		x = 53
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_denounce_aggressions
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = neutral_economic_help
+				}
+				swap_ideas = {
+					remove_idea = neutral_economic_help
+					add_idea = neutral_economic_help1
+				}
+			}
+			else = {
+				add_ideas = neutral_economic_help
+			}
+		}
+	}
+	focus = {
+		id = md_chinese_loans
+		icon = money
+		x = 55
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_denounce_aggressions
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = eu_help
+				}
+				swap_ideas = {
+					remove_idea = eu_help
+					add_idea = eu_help1
+				}
+			}
+			else = {
+				add_ideas = eu_help
+			}
+		}
+	}
+	focus = {
+		id = md_deterrence
+		icon = skull
+		x = 57
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = md_neutral_focus
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = RI_deterrence_idea
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = md_home_defense
+		icon = defence
+		x = 56
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_deterrence
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			custom_effect_tooltip = MAN_expand_the_imperial_guards_tt
+			add_manpower = 500
+			hidden_effect = {
+				division_template = {
+					name = "Home Defense Division"
+					priority = 2
+					division_names_group = MAN_INF_01
+					regiments = {
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 0
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 2
+						}
+						infantry = {
+							x = 2
+							y = 0
+						}
+						artillery_brigade = {
+							x = 2
+							y = 1
+						}
+						artillery_brigade = {
+							x = 2
+							y = 2
+						}
+					}
+				}
+				random_owned_state = {
+					limit = {
+						ROOT = {
+							has_full_control_of_state = PREV
+						}
+					}
+					create_unit = {
+						division = "name = \"1. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"3. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"4. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_fortification_efforts
+		icon = GFX_goal_generic_fortify_city
+		x = 58
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = md_deterrence
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			hidden_effect = {
+				every_owned_state = {
+					if = {
+						limit = {
+							any_neighbor_state = {
+								NOT = {
+									is_owned_by = ROOT
+								}
+							}
+						}
+						set_building_level = {
+							type = bunker
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+								level < 2
+							}
+						}
+					}
+				}
+			}
+			custom_effect_tooltip = RI_bunkers_built
+		}
+	}
+	focus = {
+		id = md_why_we_fight
+		icon = army_officers
+		x = 57
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = md_fortification_efforts
+		}
+		prerequisite = {
+			focus = md_home_defense
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = {
+				why_we_fight_focus
+			}
+		}
+	}
+	focus = {
+		id = md_our_faction
+		icon = constitution
+		x = 52
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = md_extend_training
+		}
+		prerequisite = {
+			focus = md_us_businesses
+		}
+		prerequisite = {
+			focus = md_european_investors
+		}
+		prerequisite = {
+			focus = md_saudi_oil
+		}
+		prerequisite = {
+			focus = md_chinese_loans
+		}
+		prerequisite = {
+			focus = md_why_we_fight
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+	focus = {
+		id = md_appeasement
+		icon = alliance_blue
+		x = 51
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = md_our_faction
+		}
+		mutually_exclusive = {
+			focus = md_aggressive_foreign_policy
+		}
+		completion_reward = {
+			every_country = {
+				add_opinion_modifier = {
+					modifier = RI_friendly_foreign_policy
+					target = root
+				}
+			}
+		}
+	}
+	focus = {
+		id = md_aggressive_foreign_policy
+		icon = GFX_goal_generic_forceful_treaty
+		x = 53
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = md_our_faction
+		}
+		mutually_exclusive = {
+			focus = md_appeasement
+		}
+		completion_reward = {
+			every_country = {
+				add_opinion_modifier = {
+					modifier = RI_hostile_foreign_policy
+					target = root
+				}
+			}
+		}
+	}

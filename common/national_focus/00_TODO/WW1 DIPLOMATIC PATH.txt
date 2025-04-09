@@ -1,0 +1,1354 @@
+focus = {
+		id = ww1_diplomatic_effort
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 16
+		y = 11
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = ww1_take_position
+		icon = GFX_goal_generic_propaganda
+		x = 8
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = ww1_diplomatic_effort
+		}
+		mutually_exclusive = {
+			focus = ww1_stay_neutral
+		}
+		available = {
+			OR = {
+				is_in_faction = no
+				is_in_faction_with = FRA
+				is_in_faction_with = GER
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = ww1_support_central_powers
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 3
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = ww1_take_position
+		}
+		mutually_exclusive = {
+			focus = ww1_support_entente
+		}
+		bypass = {
+			is_in_faction_with = GER
+		}
+		available = {
+			country_exists = GER
+			OR = {
+				is_in_faction = no
+				is_in_faction_with = GER
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_ww1_central_powers = no
+			}
+			modifier = {
+				factor = 0
+				GER = {
+					has_capitulated = yes
+				}
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_supports_enemy_faction
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_supports_own_faction
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_enemy_faction
+			}
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_supports_own_faction
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_germany
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 1
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_central_powers
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_supports_enemy_country
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_supports_own_country
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_german_politics
+		icon = GFX_focus_support_german_empire
+		x = 0
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_germany
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_supports_enemy_politics
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = ww1_anti_french_propaganda
+		icon = GFX_generic_trade_sanctions
+		x = 2
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_germany
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_sanctions
+			}
+		}
+	}
+	focus = {
+		id = ww1_kaiser_state_visit
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 1
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_german_politics
+		}
+		prerequisite = {
+			focus = ww1_anti_french_propaganda
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			country_event = {
+				id = ww1tree.12
+				days = 1
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_austria_hungary
+		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+		x = 5
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_central_powers
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_enemy_country
+			}
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_supports_own_country
+			}
+		}
+	}
+	focus = {
+		id = ww1_oppose_pan_slavs
+		icon = GFX_focus_wargoal_russian_empire
+		x = 4
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_austria_hungary
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_enemy_politics
+			}
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = ww1_anti_russian_propaganda
+		icon = GFX_generic_trade_sanctions
+		x = 6
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_austria_hungary
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_sanctions
+			}
+		}
+	}
+	focus = {
+		id = ww1_kuk_state_visit
+		icon = GFX_focus_hun_elect_a_king
+		x = 5
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = ww1_anti_russian_propaganda
+		}
+		prerequisite = {
+			focus = ww1_oppose_pan_slavs
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			country_event = {
+				id = ww1tree.13
+				days = 1
+			}
+		}
+	}
+	focus = {
+		id = ww1_join_central_powers
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 3
+		y = 17
+		cost = 10
+		available = {
+			country_exists = GER
+			is_in_faction = no
+			NOT = {
+				has_war_with = GER
+			}
+			RON_can_join_central_powers = yes
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = OTT
+				date < 1914.9.1
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = BUL
+				date < 1915.8.14
+			}
+			modifier = {
+				factor = 0
+				GER = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				is_subject = yes
+			}
+		}
+		prerequisite = {
+			focus = ww1_kaiser_state_visit
+		}
+		prerequisite = {
+			focus = ww1_kuk_state_visit
+		}
+		prerequisite = {
+			focus = ww1_volountaries
+		}
+		completion_reward = {
+			GER = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_entente
+		icon = GFX_goal_support_democracy
+		x = 13
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = ww1_take_position
+		}
+		mutually_exclusive = {
+			focus = ww1_support_central_powers
+		}
+		available = {
+			country_exists = FRA
+			OR = {
+				is_in_faction = no
+				is_in_faction_with = FRA
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_ww1_triple_entente = no
+			}
+			modifier = {
+				factor = 0
+				FRA = {
+					has_capitulated = yes
+				}
+			}
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_supports_enemy_faction
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_supports_own_faction
+			}
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_supports_enemy_faction
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_own_faction
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_france
+		icon = GFX_align_to_france
+		x = 11
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_entente
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_supports_enemy_country
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_supports_own_country
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_french_politics
+		icon = GFX_align_to_france
+		x = 10
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_france
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_supports_enemy_politics
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = ww1_anti_german_propaganda
+		icon = GFX_generic_trade_sanctions
+		x = 12
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_france
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_sanctions
+			}
+		}
+	}
+	focus = {
+		id = ww1_french_official_language
+		icon = GFX_focus_generic_military_academy
+		x = 11
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_french_politics
+		}
+		prerequisite = {
+			focus = ww1_anti_german_propaganda
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_official_language
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_russia
+		icon = GFX_focus_support_russian_empire
+		x = 15
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_entente
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_supports_enemy_country
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_own_country
+			}
+		}
+	}
+	focus = {
+		id = ww1_support_pan_slavs
+		icon = GFX_focus_support_russian_empire
+		x = 14
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_russia
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_supports_enemy_politics
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_supports_own_politics
+			}
+		}
+	}
+	focus = {
+		id = ww1_denounce_austria_hungary
+		icon = GFX_generic_trade_sanctions
+		x = 16
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_russia
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_sanctions
+			}
+		}
+	}
+	focus = {
+		id = ww1_tsar_state_visit
+		icon = GFX_focus_hun_elect_a_king
+		x = 15
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_pan_slavs
+		}
+		prerequisite = {
+			focus = ww1_denounce_austria_hungary
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			country_event = {
+				id = ww1tree.14
+				days = 1
+			}
+		}
+	}
+	focus = {
+		id = ww1_join_entente
+		icon = GFX_align_to_france
+		x = 13
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = ww1_tsar_state_visit
+		}
+		prerequisite = {
+			focus = ww1_french_official_language
+		}
+		prerequisite = {
+			focus = ww1_volountaries
+		}
+		bypass = {
+			is_in_faction_with = FRA
+		}
+		available = {
+			country_exists = FRA
+			is_in_faction = no
+			NOT = {
+				has_war_with = FRA
+			}
+			RON_can_join_entente = yes
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = ENG
+				NOT = {
+					BEL = {
+						has_war_with = GER
+						has_defensive_war = yes
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = JAP
+				date < 1914.6.23
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = ITA
+				date < 1915.3.23
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = USA
+				NOT = {
+					has_global_flag = zimmerman_telegram
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = MNT
+				date < 1914.6.7
+				NOT = {
+					SER = {
+						has_war_with = AUH
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = SER
+				date < 1914.5.28
+				NOT = {
+					has_war_with = AUH
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = POR
+				date < 1916.1.9
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = ROM
+				date < 1916.6.27
+				NOT = {
+					SER = {
+						has_war_with = AUH
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = GRE
+				date < 1917.5.2
+				NOT = {
+					SER = {
+						has_war_with = OTT
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = CHI
+				date < 1917.6.14
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = SIA
+				date < 1917.5.22
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				tag = BRA
+				date < 1917.8.26
+			}
+			modifier = {
+				factor = 0
+				is_subject = yes
+			}
+			modifier = {
+				factor = 0
+				FRA = {
+					has_capitulated = yes
+				}
+			}
+		}
+		completion_reward = {
+			FRA = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = ww1_foreign_officers
+		icon = GFX_focus_support_german_empire
+		x = 8
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_support_central_powers
+			focus = ww1_support_entente
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_foreign_officers_sent
+			}
+		}
+	}
+	focus = {
+		id = ww1_weapon_exports
+		icon = GFX_focus_ger_oppose_hitler
+		x = 8
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_foreign_officers
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = ww1_support_central_powers
+				}
+				send_equipment = {
+					type = infantry_equipment
+					amount = 500
+					target = GER
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = ww1_support_entente
+				}
+				send_equipment = {
+					type = infantry_equipment
+					amount = 500
+					target = FRA
+				}
+			}
+		}
+	}
+	focus = {
+		id = ww1_volountaries
+		icon = GFX_focus_generic_little_entente
+		x = 8
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = ww1_weapon_exports
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_send_volontaries
+			}
+		}
+	}
+	focus = {
+		id = ww1_joint_development
+		icon = GFX_focus_generic_industry_3
+		x = 6
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = ww1_join_central_powers
+			focus = ww1_join_entente
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_development_together
+			}
+			if = {
+				limit = {
+					has_completed_focus = ww1_support_central_powers
+				}
+				#			GER = add_ideas = { RI_development_together }
+			}
+			if = {
+				limit = {
+					has_completed_focus = ww1_support_entente
+				}
+				#			FRA = add_ideas = { RI_development_together }
+			}
+		}
+	}
+	focus = {
+		id = ww1_foreign_attache
+		icon = GFX_focus_ger_oppose_hitler
+		x = 8
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = ww1_join_central_powers
+			focus = ww1_join_entente
+		}
+		completion_reward = {
+			set_country_flag = {
+				flag = ww1_attache
+			}
+			custom_effect_tooltip = RI_attache_interact
+		}
+	}
+	focus = {
+		id = ww1_joint_research
+		icon = GFX_focus_research2
+		x = 10
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = ww1_join_central_powers
+			focus = ww1_join_entente
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ww1_stay_neutral
+		icon = GFX_align_to_switzerland
+		x = 25
+		y = 12
+		cost = 10
+		prerequisite = {
+			focus = ww1_diplomatic_effort
+		}
+		mutually_exclusive = {
+			focus = ww1_take_position
+		}
+		available = {
+			is_in_faction = no
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_ww1_central_powers = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				RON_ww1_triple_entente = yes
+			}
+		}
+		completion_reward = {
+			add_political_power = 2
+		}
+	}
+	focus = {
+		id = ww1_prepare_for_war
+		icon = small_arms
+		x = 19
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = ww1_stay_neutral
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = RI_war_preparations
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = ww1_higher_conscription
+		icon = GFX_focus_generic_little_entente
+		x = 18
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_prepare_for_war
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = volunteer_only
+				}
+				add_ideas = limited_conscription
+			}
+			else_if = {
+				limit = {
+					has_idea = limited_conscription
+				}
+				add_ideas = extensive_conscription
+			}
+			else_if = {
+				limit = {
+					has_idea = extensive_conscription
+				}
+				add_ideas = service_by_requirement
+			}
+			else = {
+				add_political_power = 150
+			}
+		}
+	}
+	focus = {
+		id = ww1_acquire_weapons
+		icon = GFX_focus_generic_combined_arms
+		x = 20
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_prepare_for_war
+		}
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = {
+				RI_more_weapons
+			}
+		}
+	}
+	focus = {
+		id = ww1_extend_training
+		icon = GFX_focus_usa_honor_the_confederacy
+		x = 19
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_acquire_weapons
+		}
+		prerequisite = {
+			focus = ww1_higher_conscription
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_train_troops
+			}
+		}
+	}
+	focus = {
+		id = ww1_role_in_war
+		icon = GFX_focus_hol_war_on_pacifism
+		x = 25
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = ww1_stay_neutral
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_intervention
+			}
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = ww1_sanction_germany
+		icon = GFX_generic_trade_sanctions
+		x = 22
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_role_in_war
+		}
+		mutually_exclusive = {
+			focus = ww1_sell_weapons_to_germany
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_sanctions
+			}
+		}
+	}
+	focus = {
+		id = ww1_sell_weapons_to_germany
+		icon = GFX_focus_ger_oppose_hitler
+		x = 24
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_role_in_war
+		}
+		mutually_exclusive = {
+			focus = ww1_sanction_germany
+		}
+		available = {
+			has_equipment = {
+				infantry_equipment_2 > 500
+			}
+		}
+		completion_reward = {
+			send_equipment = {
+				type = infantry_equipment
+				amount = 500
+				target = GER
+			}
+		}
+	}
+	focus = {
+		id = ww1_sell_weapons_to_france
+		icon = small_arms
+		x = 26
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_role_in_war
+		}
+		mutually_exclusive = {
+			focus = ww1_sanction_france
+		}
+		available = {
+			has_equipment = {
+				infantry_equipment_2 > 500
+			}
+		}
+		completion_reward = {
+			send_equipment = {
+				type = infantry_equipment
+				amount = 500
+				target = FRA
+			}
+		}
+	}
+	focus = {
+		id = ww1_sanction_france
+		icon = GFX_generic_trade_sanctions
+		x = 28
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_role_in_war
+		}
+		mutually_exclusive = {
+			focus = ww1_sell_weapons_to_france
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_sanctions
+			}
+		}
+	}
+	focus = {
+		id = ww1_open_border
+		icon = GFX_focus_prc_infiltration
+		x = 25
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_sell_weapons_to_france
+			focus = ww1_sanction_france
+		}
+		prerequisite = {
+			focus = ww1_sell_weapons_to_germany
+			focus = ww1_sanction_germany
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_war_refugees
+			}
+		}
+	}
+	focus = {
+		id = ww1_deterrence
+		icon = GFX_focus_generic_coastal_fort
+		x = 31
+		y = 13
+		cost = 10
+		prerequisite = {
+			focus = ww1_stay_neutral
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = RI_deterrence_idea
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = ww1_home_defense
+		icon = GFX_focus_generic_home_defense
+		x = 30
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_deterrence
+		}
+		completion_reward = {
+			custom_effect_tooltip = MAN_expand_the_imperial_guards_tt
+			add_manpower = 50000
+			hidden_effect = {
+				division_template = {
+					name = "Home Defense Division"
+					priority = 2
+					division_names_group = MAN_INF_01
+					regiments = {
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 0
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 2
+						}
+						infantry = {
+							x = 2
+							y = 0
+						}
+						artillery_brigade = {
+							x = 2
+							y = 1
+						}
+						artillery_brigade = {
+							x = 2
+							y = 2
+						}
+					}
+				}
+				random_owned_state = {
+					limit = {
+						ROOT = {
+							has_full_control_of_state = PREV
+						}
+					}
+					create_unit = {
+						division = "name = \"1. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"3. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"4. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = ww1_fortification_efforts
+		icon = GFX_goal_generic_construct_military
+		x = 32
+		y = 14
+		cost = 10
+		prerequisite = {
+			focus = ww1_deterrence
+		}
+		completion_reward = {
+			hidden_effect = {
+				every_owned_state = {
+					if = {
+						limit = {
+							any_neighbor_state = {
+								NOT = {
+									is_owned_by = ROOT
+								}
+							}
+						}
+						set_building_level = {
+							type = bunker
+							level = 2
+							province = {
+								all_provinces = yes
+								limit_to_border = yes
+								level < 2
+							}
+						}
+					}
+				}
+			}
+			custom_effect_tooltip = RI_bunkers_built
+		}
+	}
+	focus = {
+		id = ww1_why_we_fight
+		icon = GFX_goal_generic_propaganda
+		x = 31
+		y = 15
+		cost = 10
+		prerequisite = {
+			focus = ww1_fortification_efforts
+		}
+		prerequisite = {
+			focus = ww1_home_defense
+		}
+		completion_reward = {
+			add_ideas = {
+				why_we_fight_focus
+			}
+		}
+	}
+	focus = {
+		id = ww1_our_own_faction
+		icon = GFX_goal_generic_alliance
+		x = 25
+		y = 16
+		cost = 10
+		prerequisite = {
+			focus = ww1_why_we_fight
+		}
+		prerequisite = {
+			focus = ww1_open_border
+		}
+		prerequisite = {
+			focus = ww1_extend_training
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = ww1_appeasement_policy
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 24
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = ww1_our_own_faction
+		}
+		mutually_exclusive = {
+			focus = ww1_aggressive_foreign_policy
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_friendly_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_friendly_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = ENG
+				modifier = RI_friendly_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_friendly_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_friendly_foreign_policy
+			}
+		}
+	}
+	focus = {
+		id = ww1_aggressive_foreign_policy
+		icon = GFX_goal_anti_comintern_pact
+		x = 26
+		y = 17
+		cost = 10
+		prerequisite = {
+			focus = ww1_our_own_faction
+		}
+		mutually_exclusive = {
+			focus = ww1_appeasement_policy
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = AUH
+				modifier = RI_hostile_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = RI_hostile_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = ENG
+				modifier = RI_hostile_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier = RI_hostile_foreign_policy
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = RI_hostile_foreign_policy
+			}
+		}
+	}
+	focus = {
+		id = ww1_intervene
+		icon = GFX_goal_demand_sudetenland
+		x = 26
+		y = 18
+		cost = 10
+		prerequisite = {
+			focus = ww1_aggressive_foreign_policy
+		}
+		available = {
+			GER = { has_war_with = FRA }
+			ROOT = { has_war = no }
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = ww1tree.15
+				days = 1
+			}
+		}
+	}

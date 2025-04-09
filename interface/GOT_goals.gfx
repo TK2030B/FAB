@@ -1,0 +1,144 @@
+spriteTypes = {	
+
+	################
+	##TEMPLATE######
+	################
+
+	SpriteType = {
+		name = "GFX_focus_PLACEHOLDER"
+		texturefile = "gfx/interface/goals/focus_PLACEHOLDER.dds"
+	}
+	
+	################
+	###GENERIC######
+	################
+	
+	SpriteType = {
+		name = "GFX_focus_generic_iron_throne"
+		texturefile = "gfx/interface/goals/generic/focus_generic_iron_throne.dds"
+	}
+	
+	################
+	###LOCATIONS####
+	################
+	
+	SpriteType = {
+		name = "GFX_focus_generic_kings_landing"
+		texturefile = "gfx/interface/goals/locations/focus_generic_kings_landing.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_red_keep"
+		texturefile = "gfx/interface/goals/locations/focus_generic_red_keep.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_sept_of_baelor"
+		texturefile = "gfx/interface/goals/locations/focus_generic_sept_of_baelor.dds"
+	}
+	
+	################
+	###HOUSES#######
+	################
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_arryn"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_arryn.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_baratheon"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_baratheon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_baratheon_joffrey"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_baratheon_joffrey.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_baratheon_renly"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_baratheon_renly.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_baratheon_stannis"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_baratheon_stannis.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_greyjoy"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_greyjoy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_lannister"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_lannister.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_martell"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_martell.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_stark"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_stark.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_targaryen"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_targaryen.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_house_tyrell"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_tyrell.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_gov_pentos"
+		texturefile = "gfx/interface/goals/houses/focus_generic_gov_pentos.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_gov_dothraki"
+		texturefile = "gfx/interface/goals/houses/focus_generic_gov_dothraki.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_stannis_baratheon"
+		texturefile = "gfx/interface/goals/characters/focus_generic_stannis_baratheon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_renly_baratheon"
+		texturefile = "gfx/interface/goals/characters/focus_generic_renly_baratheon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_tommen_baratheon"
+		texturefile = "gfx/interface/goals/characters/focus_generic_tommen_baratheon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_myrcella_baratheon"
+		texturefile = "gfx/interface/goals/characters/focus_generic_myrcella_baratheon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_joffrey_baratheon"
+		texturefile = "gfx/interface/goals/characters/focus_generic_joffrey_baratheon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_robert_baratheon"
+		texturefile = "gfx/interface/goals/characters/focus_generic_robert_baratheon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_eddard_stark"
+		texturefile = "gfx/interface/goals/characters/focus_generic_eddard_stark.dds"
+	}
+	
+}
