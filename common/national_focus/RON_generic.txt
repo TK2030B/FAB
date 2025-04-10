@@ -1899,7 +1899,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_political_power = 150
+			add_political_power = 30
 		}
 	}
 	focus = {
@@ -2285,7 +2285,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_manpower = 1000
+			#add_manpower = 1000
 		}
 	}
 	focus = {
@@ -3228,7 +3228,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_political_power = 2
+			add_political_power = 30
 		}
 	}
 	focus = {
@@ -3280,7 +3280,7 @@ focus_tree = {
 				add_ideas = service_by_requirement
 			}
 			else = {
-				add_political_power = 150
+				add_political_power = 30
 			}
 		}
 	}
@@ -3366,7 +3366,7 @@ focus_tree = {
 			add_ideas = {
 				RI_intervention
 			}
-			add_political_power = 150
+			add_political_power = 30
 		}
 	}
 	focus = {
@@ -3472,13 +3472,12 @@ focus_tree = {
 			focus = GOT_deterrence
 		}
 		completion_reward = {
-			custom_effect_tooltip = MAN_expand_the_imperial_guards_tt
-			add_manpower = 50000
+			custom_effect_tooltip = RI_City_Watch
+			add_manpower = 10000
 			hidden_effect = {
 				division_template = {
-					name = "Home Defense Division"
+					name = "City Watch Division"
 					priority = 2
-					division_names_group = MAN_INF_01
 					regiments = {
 						infantry = {
 							x = 0
@@ -3500,22 +3499,6 @@ focus_tree = {
 							x = 1
 							y = 1
 						}
-						infantry = {
-							x = 1
-							y = 2
-						}
-						infantry = {
-							x = 2
-							y = 0
-						}
-						artillery_brigade = {
-							x = 2
-							y = 1
-						}
-						artillery_brigade = {
-							x = 2
-							y = 2
-						}
 					}
 				}
 				random_owned_state = {
@@ -3525,19 +3508,7 @@ focus_tree = {
 						}
 					}
 					create_unit = {
-						division = "name = \"1. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
-						owner = ROOT
-					}
-					create_unit = {
-						division = "name = \"2. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
-						owner = ROOT
-					}
-					create_unit = {
-						division = "name = \"3. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
-						owner = ROOT
-					}
-					create_unit = {
-						division = "name = \"4. Home Defense Division\" division_template = \"Home Defense Division\" start_experience_factor = 1.0"
+						division = "name = \"City Watch\" division_template = \"City Watch Division\" start_experience_factor = 1.0"
 						owner = ROOT
 					}
 				}
@@ -3568,11 +3539,11 @@ focus_tree = {
 						}
 						set_building_level = {
 							type = bunker
-							level = 2
+							level = 1
 							province = {
 								all_provinces = yes
 								limit_to_border = yes
-								level < 2
+								level < 1
 							}
 						}
 					}
@@ -3629,7 +3600,7 @@ focus_tree = {
 			set_rule = {
 				can_create_factions = yes
 			}
-			add_political_power = 150
+			add_political_power = 30
 		}
 	}
 	
@@ -3816,6 +3787,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = {
+				limited_exports
+			}
+			add_ideas = {
 				RI_no_free_economy
 			}
 		}
@@ -3950,7 +3924,7 @@ focus_tree = {
 			random_owned_state = {
 				add_resource = {
 					type = steel
-					amount = 15
+					amount = 8
 				}
 			}
 		}
@@ -3970,7 +3944,7 @@ focus_tree = {
 			random_owned_state = {
 				add_resource = {
 					type = tungsten
-					amount = 15
+					amount = 8
 				}
 			}
 		}
@@ -4006,12 +3980,6 @@ focus_tree = {
 			focus = GOT_rations
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				name = electronics_bonus
-				bonus = 0.5
-				uses = 1
-				category = electronics
-			}
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 0.5
@@ -4166,7 +4134,7 @@ focus_tree = {
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				set_state_category = city
-				add_manpower = 100000
+				#add_manpower = 100000
 			}
 			random_owned_state = {
 				limit = {
@@ -4337,7 +4305,7 @@ focus_tree = {
 		y = 0
 		cost = 5
 		completion_reward = {
-			army_experience = 100
+			army_experience = 25
 		}
 	}
 	focus = {
@@ -4392,7 +4360,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = armor
 			}
 		}
@@ -4463,7 +4431,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = land_doctrine
 			}
 		}
@@ -4482,7 +4450,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = artillery_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = artillery
 			}
 		}
@@ -4526,7 +4494,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = infantry_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = infantry_weapons
 			}
 			add_equipment_to_stockpile = {
@@ -4555,7 +4523,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = infantry_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = support_tech
 			}
 			add_equipment_to_stockpile = {
@@ -4656,7 +4624,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = artillery
 			}
 		}
@@ -4674,7 +4642,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = artillery
 			}
 		}
@@ -4744,7 +4712,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = land_doctrine
 			}
 		}
@@ -4762,7 +4730,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = support_tech
 			}
 		}
@@ -4806,7 +4774,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = infantry_weapons
 			}
 		}
@@ -4830,7 +4798,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = support_tech
 			}
 			add_equipment_to_stockpile = {
@@ -4987,7 +4955,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			air_experience = 100
+			air_experience = 25
 		}
 	}
 	focus = {
@@ -5066,7 +5034,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = fighter_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				technology = fighter1
 				technology = fighter2
 				technology = fighter3
@@ -5094,10 +5062,10 @@ focus_tree = {
 			focus = GOT_daring_pilots
 		}
 		completion_reward = {
-			air_experience = 100
+			air_experience = 25
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = air_doctrine
 			}
 		}
@@ -5113,7 +5081,7 @@ focus_tree = {
 			focus = GOT_scout_planes
 		}
 		complete_tooltip = {
-			air_experience = 100
+			air_experience = 25
 			if = {
 				limit = {
 					has_country_flag = aviation_effort_AB
@@ -5132,7 +5100,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			air_experience = 100
+			air_experience = 25
 			if = {
 				limit = {
 					capital_scope = {
@@ -5250,7 +5218,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				technology = strategic_bomber1
 				technology = strategic_bomber2
 				technology = strategic_bomber3
@@ -5278,7 +5246,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				technology = strategic_bomber1
 				technology = strategic_bomber2
 				technology = strategic_bomber3
@@ -5354,7 +5322,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			navy_experience = 100
+			navy_experience = 25
 		}
 	}
 	focus = {
@@ -5370,7 +5338,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = bc_tech
 			}
 		}
@@ -5388,7 +5356,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = dd_tech
 			}
 		}
@@ -5406,7 +5374,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = cl_tech
 				category = ca_tech
 			}
@@ -5425,7 +5393,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = bb_tech
 			}
 		}
@@ -5444,7 +5412,7 @@ focus_tree = {
 			focus = GOT_grandest_ships
 		}
 		complete_tooltip = {
-			navy_experience = 100
+			navy_experience = 25
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = dockyard
@@ -5453,7 +5421,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			navy_experience = 100
+			navy_experience = 25
 			if = {
 				limit = {
 					NOT = {
@@ -5572,7 +5540,7 @@ focus_tree = {
 			focus = GOT_expensive_fleet
 		}
 		complete_tooltip = {
-			navy_experience = 100
+			navy_experience = 25
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = dockyard
@@ -5581,7 +5549,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			navy_experience = 100
+			navy_experience = 25
 			if = {
 				limit = {
 					NOT = {
@@ -5714,7 +5682,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = dd_tech
 			}
 		}
@@ -5771,7 +5739,7 @@ focus_tree = {
 			focus = GOT_grandest_ships
 		}
 		completion_reward = {
-			navy_experience = 100
+			navy_experience = 25
 			add_ideas = {
 				RI_admirality
 			}
@@ -5794,12 +5762,12 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				ahead_reduction = 2
-				uses = 2
+				uses = 1
 				category = ss_tech
 			}
 			#			add_tech_bonus = {
 			#				bonus = 0.5.0
-			#				uses = 2
+			#				uses = 1
 			#				category = navy_doctrine
 			#			}
 		}
@@ -5820,13 +5788,13 @@ focus_tree = {
 		completion_reward = {
 			#			add_tech_bonus = {
 			#				bonus = 0.5.0
-			#				uses = 2
+			#				uses = 1
 			#				category = navy_doctrine
 			#			}
 			add_tech_bonus = {
 				name = dd_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 1
 				category = dd_tech
 				category = bc_tech
 				category = bb_tech
