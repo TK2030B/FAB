@@ -29,7 +29,7 @@ focus_tree = {
 
 	focus = {
 		id = GOT_open_political_sphere
-		icon = GFX_goal_generic_major_alliance
+		icon = GFX_focus_generic_iron_throne
 		x = 12
 		y = 0
 		cost = 5
@@ -136,7 +136,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = {
-				id = ww1tree.1
+				id = GOT_Generic.1
 				days = 1
 			}
 		}
@@ -183,7 +183,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = {
-				id = ww1tree.2
+				id = GOT_Generic.2
 				days = 1
 			}
 		}
@@ -226,7 +226,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = {
-				id = ww1tree.3
+				id = GOT_Generic.3
 				days = 1
 			}
 		}
@@ -456,7 +456,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = {
-				id = ww1tree.6
+				id = GOT_Generic.6
 				days = 1
 			}
 		}
@@ -742,7 +742,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = {
-				id = ww1tree.8
+				id = GOT_Generic.8
 				days = 1
 			}
 		}
@@ -939,7 +939,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = {
-				id = ww1tree.10
+				id = GOT_Generic.10
 				days = 1
 			}
 		}
@@ -1659,7 +1659,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_invite_soviet_advisors
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_focus_generic_north
 		x = -16
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
@@ -1680,7 +1680,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_hand_over_tsarists
-		icon = GFX_focus_generic_infiltration
+		icon = GFX_goal_generic_dangerous_deal
 		x = -14
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
@@ -1702,7 +1702,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_support_politics
-		icon = GFX_focus_generic_court
+		icon = GFX_focus_generic_house_stark
 		x = -15
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
@@ -1723,7 +1723,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_expand_communist_influence
-		icon = GFX_focus_generic_join_comintern
+		icon = GFX_focus_generic_house_tully
 		x = -13
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
@@ -1744,7 +1744,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_mutual_guarantees
-		icon = GFX_goal_generic_intelligence_exchange
+		icon = GFX_focus_generic_religion_old_gods
 		x = -14
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
@@ -1810,7 +1810,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_sanction_capitalists
-		icon = GFX_focus_generic_trade_interdiction
+		icon = GFX_focus_generic_joffrey_baratheon
 		x = -12
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
@@ -1846,7 +1846,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_anti_fascist_propaganda
-		icon = GFX_focus_generic_anti_fascist_diplomacy
+		icon = GFX_focus_generic_house_lannister
 		x = -12
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
@@ -1934,7 +1934,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_great_betrayal
-		icon = GFX_goal_generic_attack_allies
+		icon = GFX_focus_generic_house_greyjoy
 		x = -11
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
@@ -1963,7 +1963,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_strike_fascists
-		icon = GFX_focus_generic_anti_fascist_diplomacy
+		icon = GFX_focus_generic_trade_interdiction
 		x = -9
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
@@ -1982,7 +1982,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_strike_soviets
-		icon = GFX_focus_generic_limited_social_mobilization
+		icon = GFX_focus_generic_religion_drowned_god
 		x = -10
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
@@ -2004,7 +2004,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_support_foreign_commies
-		icon = GFX_focus_generic_infiltration
+		icon = GFX_focus_generic_cruiser_submarines
 		x = -8
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
@@ -2024,7 +2024,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_our_socialism
-		icon = GFX_focus_generic_join_comintern
+		icon = GFX_goal_generic_wolf_pack
 		x = -8
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
@@ -2212,7 +2212,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_sanction_extremists
-		icon = GFX_focus_generic_trade_interdiction
+		icon = GFX_focus_generic_robert_baratheon
 		x = -6
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
@@ -2266,7 +2266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_victims_of_extremism
-		icon = GFX_focus_generic_infiltration
+		icon = GFX_focus_generic_meereen
 		x = -3
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
@@ -2290,7 +2290,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_save_haven
-		icon = GFX_goal_support_democracy
+		icon = GFX_focus_generic_meereen
 		x = -4
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
@@ -3371,7 +3371,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_sell_weapons_to_germany
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_house_lannister
 		x = 20
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
@@ -3397,7 +3397,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_sell_weapons_to_france
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_house_stark
 		x = 22
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
@@ -3424,7 +3424,7 @@ focus_tree = {
 
 	focus = {
 		id = GOT_open_border
-		icon = GFX_focus_generic_infiltration
+		icon = GFX_focus_generic_welfare
 		x = 21
 		y = 4
 		relative_position_id = GOT_diplomacy_focus

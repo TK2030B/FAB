@@ -1,0 +1,218 @@
+add_namespace = GOT_Generic
+
+country_event = {
+	id = GOT_Generic.1
+	title = GOT_Generic.1.t
+	desc = GOT_Generic.1.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.1.a
+		add_stability = -0.10
+		add_war_support = -0.20
+	}
+}
+
+country_event = {
+	id = GOT_Generic.2
+	title = GOT_Generic.2.t
+	desc = GOT_Generic.2.desc
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.2.a
+		custom_effect_tooltip = RI_commie_damage
+		hidden_effect = {
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					arms_factory > 0
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 0.6
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					arms_factory > 0
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 0.6
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					arms_factory > 0
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 0.6
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					arms_factory > 0
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 0.6
+				}
+			}
+		}
+		add_stability = -0.20
+	}
+}
+
+country_event = {
+	id = GOT_Generic.3
+	title = GOT_Generic.3.t
+	desc = GOT_Generic.3.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.3.a
+		set_politics = {
+			ruling_party = communism
+		}
+		add_popularity = {
+			popularity = 0.10
+			ideology = communism
+		}
+		country_event = { id = GOT_Generic.4 days = 7 }
+	}
+}
+
+country_event = {
+	id = GOT_Generic.4
+	title = GOT_Generic.4.t
+	desc = GOT_Generic.4.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.4.a
+		add_ideas = RI_political_resistance
+		add_ideas = RI_military_resistance
+	}
+}
+
+
+country_event = {
+	id = GOT_Generic.6
+	title = GOT_Generic.6.t
+	desc = GOT_Generic.6.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.6.a
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_popularity = {
+			popularity = 0.10
+			ideology = democratic
+		}
+		country_event = { id = GOT_Generic.7 days = 7 }
+	}
+}
+
+country_event = {
+	id = GOT_Generic.7
+	title = GOT_Generic.7.t
+	desc = GOT_Generic.7.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.7.a
+		add_ideas = RI_political_resistance
+		add_ideas = RI_military_resistance
+	}
+}
+
+country_event = {
+	id = GOT_Generic.8
+	title = GOT_Generic.8.t
+	desc = GOT_Generic.8.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.8.a
+		set_politics = {
+			ruling_party = neutrality
+		}
+		add_popularity = {
+			popularity = 0.10
+			ideology = neutrality
+		}
+		country_event = { id = GOT_Generic.9 days = 7 }
+	}
+}
+
+country_event = {
+	id = GOT_Generic.9
+	title = GOT_Generic.9.t
+	desc = GOT_Generic.9.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.9.a
+		add_ideas = RI_political_resistance
+		add_ideas = RI_military_resistance
+	}
+}
+
+country_event = {
+	id = GOT_Generic.10
+	title = GOT_Generic.10.t
+	desc = GOT_Generic.10.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.10.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_popularity = {
+			popularity = 0.10
+			ideology = fascism
+		}
+		country_event = { id = GOT_Generic.11 days = 7 }
+	}
+}
+
+country_event = {
+	id = GOT_Generic.11
+	title = GOT_Generic.11.t
+	desc = GOT_Generic.11.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.11.a
+		add_ideas = RI_political_resistance
+		add_ideas = RI_military_resistance
+	}
+}

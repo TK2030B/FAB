@@ -37,6 +37,57 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/locations/focus_generic_sept_of_baelor.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_focus_generic_braavos"
+		texturefile = "gfx/interface/goals/locations/focus_generic_braavos.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_dorne"
+		texturefile = "gfx/interface/goals/locations/focus_generic_dorne.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_meereen"
+		texturefile = "gfx/interface/goals/locations/focus_generic_meereen.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_north"
+		texturefile = "gfx/interface/goals/locations/focus_generic_north.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_qohor"
+		texturefile = "gfx/interface/goals/locations/focus_generic_qohor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_reach"
+		texturefile = "gfx/interface/goals/locations/focus_generic_reach.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_riverlands"
+		texturefile = "gfx/interface/goals/locations/focus_generic_riverlands.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_stormlands"
+		texturefile = "gfx/interface/goals/locations/focus_generic_stormlands.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_vale"
+		texturefile = "gfx/interface/goals/locations/focus_generic_vale.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_westerlands"
+		texturefile = "gfx/interface/goals/locations/focus_generic_westerlands.dds"
+	}
+
+	
 	################
 	###HOUSES#######
 	################
@@ -111,6 +162,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/houses/focus_generic_gov_dothraki.dds"
 	}
 	
+	################
+	###CHARACTERS###
+	################
+	
 	SpriteType = {
 		name = "GFX_focus_generic_stannis_baratheon"
 		texturefile = "gfx/interface/goals/characters/focus_generic_stannis_baratheon.dds"
@@ -145,5 +200,65 @@ spriteTypes = {
 		name = "GFX_focus_generic_eddard_stark"
 		texturefile = "gfx/interface/goals/characters/focus_generic_eddard_stark.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_night_king"
+		texturefile = "gfx/interface/goals/characters/focus_generic_night_king.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_nights_watch"
+		texturefile = "gfx/interface/goals/characters/focus_generic_nights_watch.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_wildlings"
+		texturefile = "gfx/interface/goals/characters/focus_generic_wildlings.dds"
+	}
+	
+	################
+	###RELIGIONS####
+	################
+	
+	SpriteType = {
+		name = "GFX_focus_generic_lord_of_light"
+		texturefile = "gfx/interface/goals/religions/focus_generic_lord_of_light.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_religion_black_goat"
+		texturefile = "gfx/interface/goals/religions/focus_generic_religion_black_goat.dds"
+	}
+	
+	SpriteType = {
+			name = "GFX_focus_generic_religion_drowned_god"
+			texturefile = "gfx/interface/goals/religions/focus_generic_religion_drowned_god.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_focus_generic_religion_many_face_god"
+			texturefile = "gfx/interface/goals/religions/focus_generic_religion_many_face_god.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_focus_generic_religion_old_gods"
+			texturefile = "gfx/interface/goals/religions/focus_generic_religion_old_gods.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_focus_generic_religion_the_great_other"
+			texturefile = "gfx/interface/goals/religions/focus_generic_religion_the_great_other.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_focus_generic_religion_the_great_stallion"
+			texturefile = "gfx/interface/goals/religions/focus_generic_religion_the_great_stallion.dds"
+		}
+		
+	SpriteType = {
+			name = "GFX_focus_generic_religion_the_seven"
+			texturefile = "gfx/interface/goals/religions/focus_generic_religion_the_seven.dds"
+		}
+
 	
 }
