@@ -97,6 +97,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_focus_generic_house_tully"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_tully.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_focus_generic_gov_pentos"
 		texturefile = "gfx/interface/goals/houses/focus_generic_gov_pentos.dds"
 	}
