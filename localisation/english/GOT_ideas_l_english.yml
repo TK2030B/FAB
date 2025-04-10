@@ -1,0 +1,175 @@
+﻿l_english:
+
+ RI_commie_army: "The Tribal Army"
+ RI_commie_army_desc: "Incorporating the tribal leaders into the ranks of the army has brought a unique form of loyalty to the revolution. Instead of relying on political commissars, tribal chiefs are now appointed to oversee the army’s allegiance to the cause. Their influence is deeply rooted in the respect they command within their communities, and their supervision ensures the commitment of the soldiers remains steadfast. The army is now a reflection of our tribal unity, and its strength is as much a symbol of tradition as it is of revolutionary zeal."
+
+ RI_commie_factories: "Tribal Representation in the Workshops"
+ RI_commie_factories_desc: "In an effort to ensure the revolution reaches all corners of society, tribal representatives have been placed within our factories and workshops. These leaders, trusted by their communities, oversee production and labor, ensuring that the workforce remains loyal to the cause. Their presence bridges the gap between the traditional ways of the tribes and the demands of industrial labor, fostering a sense of unity and purpose as we forge the future together."
+
+ RI_commie_paramilitaries: "Militant Factions"
+ RI_commie_paramilitaries_desc: "The revolution has given rise to militant factions, each led by charismatic tribal leaders and dissident groups. These factions operate outside of formal military structures, enforcing the will of the people and protecting the interests of the revolution. While they often act with brutal efficiency, their loyalty to the cause is unquestionable. They serve as both a powerful deterrent to those who oppose the revolution and as a tool to maintain order within the tribes, ensuring that no forces, internal or external, threaten our path forward."
+ 
+ RI_commie_unions: "The Revolutionary Guilds"
+ RI_commie_unions_desc: "The Guilds have become the backbone of our revolutionary society, blending the traditional tribal structures with the demands of the industrial world. Led by tribal chiefs and revolutionary leaders, these guilds not only manage production but also ensure that every member remains loyal to the cause. They serve as both economic engines and centers of resistance, empowering the people to contribute to the revolution while maintaining control over their livelihoods. The Guilds reflect our commitment to preserving tribal unity while advancing the goals of the revolution."
+ 
+ RI_democratic_unions: "The Workers' Unions"
+ RI_democratic_unions_desc: "The Workers' Unions are the cornerstone of our democratic society, representing the collective power of the people. These unions are built on the principles of cooperation and mutual respect, ensuring that workers have a direct voice in the decisions that affect their lives and livelihoods. By giving workers the power to negotiate and advocate for their interests, we foster a fairer, more just society where every citizen is empowered. The Unions are not just a tool for economic progress but a symbol of our commitment to freedom, equality, and democracy."
+
+  RI_democrat_factories: "Unrest in the Workshops"
+  RI_democrat_factories_desc: "Though the factories hum with industry, discontent stirs beneath the surface. The workers whisper of change, emboldened by democratic ideals but frustrated by their lack of power. Without proper representation, the workshops become hotbeds of resistance, their loyalty uncertain and their productivity at risk."
+
+  RI_democrat_factories1: "Empowered Workshops"
+  RI_democrat_factories1_desc: "The voice of the workers has been heard, and the factories now reflect their ideals. With firm representation and a say in how their labor is used, the working class stands behind the government. This shared vision ensures both loyalty and efficiency, anchoring our economy in trust and democratic cooperation."
+
+ RI_free_speech: "The Voice of the People"
+ RI_free_speech_desc: "By promoting free speech, we empower the people to express their thoughts and opinions without fear of repression. This freedom to speak openly not only strengthens our connection with the populace but also fosters an environment where new ideas can thrive. A society where every voice matters is a society that can move forward together, overcoming its challenges with unity and resolve."
+
+  RI_democratic_workers: "The Rights of the Workers"
+  RI_democratic_workers_desc: "By championing the rights of workers, we ensure that those who drive our economy and produce our wealth are treated with dignity and respect. Strengthening the position of the common folk will not only improve their quality of life but will also create a fairer and more prosperous realm. A society that values its workers is a society built to endure."
+
+  RI_free_press: "The Freedom of the Press"
+  RI_free_press_desc: "A free press is the cornerstone of a fair and just society. By protecting the rights of journalists and ensuring the free flow of information, we empower the people to speak truth to power. No longer will the ruling class control the narrative; instead, the voices of the common folk will be heard, and the people will have the power to hold their leaders accountable."
+
+  RI_founded_parliament: "The Grand Council"
+  RI_founded_parliament_desc: "The formation of the Grand Council marks a pivotal moment in our kingdom’s history. No longer will the crown rule alone; instead, a diverse group of representatives will come together to advise and shape the future. This council ensures that the will of the people is considered alongside the royal authority, creating a more balanced and just system of governance for all."
+
+  RI_constitution: "The Sacred Charter"
+  RI_constitution_desc: "The Sacred Charter represents the birth of a new order in our kingdom. This document will establish clear laws and principles, binding all under its rule, from the highest lords to the humblest commoners. By enshrining the rights of the people and ensuring justice for all, this charter will provide a foundation for future generations to build upon, creating a lasting legacy of fairness and order."
+
+  RI_loyal_military: "Loyal Military"
+  RI_loyal_military_desc: "The monarchist generals, loyal to the crown, represent the strength and discipline of our armed forces. Their unwavering loyalty ensures that the military will be a stable force dedicated to protecting the realm and the monarchy. Under their leadership, we can face any threat with confidence, knowing that our military is steadfast in its devotion to the throne."
+  
+  RI_disloyal_military: "Disloyal Military"
+  RI_disloyal_military_desc: "There are those within our military ranks whose loyalty to the crown is in question. These disloyal elements pose a threat to the stability of the realm, and their presence within our forces risks undermining the strength of the monarchy. To secure the future of the kingdom, we must root out these traitors and restore the military to its rightful purpose."
+
+  RI_loyal_people: "Loyal Subjects"
+  RI_loyal_people_desc: "The hearts of the people beat in unison with the crown. A renewed spirit of patriotism spreads across the realm, binding the subjects to their ruler in shared purpose and pride. With loyalty flourishing, the foundation of the kingdom grows ever stronger."
+
+  RI_disloyal_people: "Disloyal Subjects"
+  RI_disloyal_people_desc: "Whispers of dissent echo through the streets and halls of the realm. Discontent simmers among the common folk, their faith in the crown weakened by past grievances and unmet promises. Unless addressed, this unrest could fester into open defiance."
+  
+  RI_monarchist_politics: "Fractured Royal Court"
+  RI_monarchist_politics_desc: "Though the crown still rests upon the monarch's head, the court is rife with scheming nobles and self-serving courtiers. Loyalty is no longer a given, and rival factions quietly vie for influence, threatening the unity and authority of the throne."
+
+  RI_monarchist_politics1: "Unified Royal Court"
+  RI_monarchist_politics1_desc: "The realm's leading nobles and courtiers stand firmly behind the crown. Their loyalty strengthens the monarchy’s grip on power, allowing for decisive leadership and the preservation of the old order against those who seek to undermine it."
+  
+  RI_monarchist_opposition: "Unruly Opposition"
+  RI_monarchist_opposition_desc: "The voices of dissent grow bolder, challenging the crown’s authority in whispers and open defiance alike. Though no single faction dares act alone, their growing unity poses a threat. The opposition may not yet be organized, but their ambition is clear — they seek to loosen the grip of the monarchy over the realm."
+
+  RI_monarchist_opposition1: "Subdued Opposition"
+  RI_monarchist_opposition1_desc: "The opposition exists, but it walks a careful line — loud enough to be noticed, never strong enough to truly threaten us. These controlled dissenters serve a purpose, providing the illusion of balance while remaining firmly under our watchful eye. Their presence pacifies the public, even as the real power remains untouched."
+  
+  RI_just_strongs: "Law of the Strong"
+  RI_just_strongs_desc: "Strength is the highest virtue, and only those who possess it deserve to rule. Compassion is a weakness, and mercy has no place in the forging of a new order. By purging the unworthy and elevating the powerful, we secure a future where only the strongest shape the destiny of the realm."
+  
+  RI_noble_support: "Noble Sympathizers"
+  RI_noble_support_desc: "Whispers in the grand halls speak our name with cautious admiration. Within the ranks of the nobility, allies stir—discontent with the current order and quietly aligning with our vision. These hidden supporters lend us prestige, influence, and access to the corridors of power, preparing the way for a shift in the realm’s future."
+  
+  RI_fascist_paramilitaries: "Iron Order Brigades"
+  RI_fascist_paramilitaries_desc: "Forged in loyalty and hardened by doctrine, these paramilitary forces act as the enforcers of our new order. Answering not to tradition but to purpose, they root out dissent, inspire fear, and ensure absolute obedience. Their presence is a constant reminder that resistance will be crushed swiftly and without mercy."
+  
+  RI_absolute_fuhrer: "Ordained by the Gods"
+  RI_absolute_fuhrer_desc: "The Leader stands above all, chosen by fate and sanctified by divine will. Their vision is law, their word is truth. In this sacred hierarchy, loyalty is not a choice—it is destiny. To question their rule is to defy the heavens themselves."
+  
+  RI_military_resistance: "Military Resistance"
+  RI_military_resistance_desc: "Though the old regime has fallen, its loyalists still fester within our armed forces. Until they are purged, they remain a threat to both unity and victory."
+  
+  RI_five_year_plan: "The Great Rebuilding"
+  RI_five_year_plan_desc: "To secure the future of the people, we must rebuild our land and economy from the ashes of the old world. A bold, five-year plan will direct our resources toward the common good, ensuring prosperity for all and the downfall of the old elite."
+  
+  RI_commie_education: "Education for All"
+  RI_commie_education_desc: "In the new world, knowledge shall no longer be the privilege of the few. We will ensure that every citizen, from the lowest peasant to the highest artisan, is given the tools to thrive and contribute to our collective strength."
+  
+  RI_political_resistance: "Political Resistance"
+  RI_political_resistance_desc: "The old order has left its marks on the hearts and minds of many. These remnants of the past resist our progress, fighting against the ideals we seek to establish. Whether through secret alliances or open opposition, their influence must be eradicated if we are to secure the future for the people."
+  
+  RI_mass_mobilisation_commie_idea: "The People's March"
+  RI_mass_mobilisation_commie_idea_desc: "The revolution is not only a political movement but a call to arms for every citizen to take part in the reshaping of the world. With the masses united in purpose, our enemies will be overrun by the sheer force of our collective will. Every person, from the farmers to the factory workers, will have a role in defending the revolution and ensuring its triumph."
+  
+  RI_spread_revolution_idea: "The Flame of Revolution"
+  RI_spread_revolution_idea_desc: "The revolution that has begun in our land must now spread to the oppressed and downtrodden across the realm. We shall extend the banner of equality, justice, and freedom, whether through persuasion, force, or the movement of the people. The flames of rebellion will rise wherever injustice persists, bringing new hope to those in need of change."
+
+  RI_isolationism: "The Path of Self-Reliance"
+  RI_isolationism_desc: "In this new world, we will focus on the strength of our own people and resources, relying on our own capabilities to ensure the survival and growth of our revolution. Our destiny is not tied to the whims of foreign powers—our future will be shaped within our borders. By embracing self-reliance, we will build a strong and resilient nation, free from the influence of those who wish to suppress us."
+
+  RI_democratic_education: "Education for a New Era"
+  RI_democratic_education_desc: "In a truly just society, education must be accessible to all, regardless of status. We will ensure that every citizen, from the lowest peasant to the highest noble, has access to the knowledge that will shape a brighter future for all. This reformation of education will empower our people, strengthen our economy, and promote equality, helping to build a society where wisdom and innovation flourish."
+
+  RI_home_of_the_free_idea: "Land of Liberty"
+  RI_home_of_the_free_idea_desc: "In this new world, we shall ensure that the rights of every citizen are protected and that no one is above the law. Our society will stand as a beacon of freedom, where justice prevails and all are treated with dignity and respect. This is a land where the weak are given strength and the strong are held accountable, and where every individual can pursue their own happiness without fear of oppression."
+
+  RI_spread_revolution_idea: "The Flame of Revolution"
+  RI_spread_revolution_idea_desc: "The revolution that has begun in our land must now spread to the oppressed and downtrodden across the realm. We shall extend the banner of equality, justice, and freedom, whether through persuasion, force, or the movement of the people. The flames of rebellion will rise wherever injustice persists, bringing new hope to those in need of change."
+
+  RI_spread_democracy: "The Beacon of Liberty"
+  RI_spread_democracy_desc: "As we stand on the firm foundation of liberty and justice, it is our duty to extend a hand to those still in the shadows of tyranny. We will share our ideals of democracy, offering a path to freedom for those who long to break their chains. With our guidance, the light of democracy will shine across the land, illuminating the way for others to follow."
+  
+  RI_helped_poor: "The Care of the People"
+  RI_helped_poor_desc: "Through our efforts to support the poor, we have built a realm where no citizen is abandoned. By ensuring access to food, shelter, and work, we have shown our commitment to the wellbeing of all people. A strong and just kingdom is one that lifts up the most vulnerable, and through these measures, we create a society built on compassion and solidarity."
+  
+  RI_patriotism: "Unyielding Loyalty"
+  RI_patriotism_desc: "The loyalty of the people is the foundation upon which the strength of the realm is built. Through the fostering of patriotism, we have united our citizens in a common cause, ensuring that the will of the crown is carried out with unwavering devotion. This loyalty to the realm will secure our future and ensure that our kingdom stands firm against any challenges."
+  
+  RI_indoctrinated_schools: "Loyal Minds"
+  RI_indoctrinated_schools_desc: "Through careful guidance, we have ensured that the minds of the future are molded in the image of the crown's ideals. Schools now serve as centers of loyalty and discipline, where the children of the realm are taught not only to serve the kingdom but to uphold its enduring values. With this education, we secure a generation that will stand steadfast in defense of the crown."
+  
+  RI_no_questions: "Unquestioning Loyalty"
+  RI_no_questions_desc: "The crown’s will is the law, and all subjects must adhere to it without question. Through absolute obedience, we ensure that no doubts or discontentment can weaken the realm. The unity of our people is unbreakable, for they know their duty is to the crown, above all else."
+  
+  RI_propaganda: "Divine Reverence"
+  RI_propaganda_desc: "Through omnipresent propaganda, the ruler is elevated to the status of a divine figure. The people shall be made to believe in the righteousness of our cause, revering the ruler as the embodiment of the kingdom’s strength and purpose. This constant reinforcement of divine authority will unite the kingdom under one banner of unquestioning loyalty."
+  
+  RI_fascist_youth: "The Vanguard of the Kingdom"
+  RI_fascist_youth_desc: "Our future lies in the hands of the next generation. By establishing military academies, we will raise a new breed of warriors, fiercely loyal to the crown and ready to defend the kingdom at any cost. These youths will be the vanguard of our strength, instilled with the discipline and pride that will ensure the kingdom’s dominance for years to come."
+  
+  RI_fash_cult: "The Cult of the Supreme Leader"
+  RI_fash_cult_desc: "Our nation will not be led by a mere mortal, but by a living deity. The establishment of a national cult will elevate the ruler to divine status, with all subjects pledging unwavering devotion. The crown will be revered as the ultimate source of strength and wisdom, and the ruler’s will shall be absolute. Through rituals and propaganda, the people will be bound to the cult of the leader, ensuring eternal loyalty."
+  
+  RI_total_dictator: "The Absolute Dictator"
+  RI_total_dictator_desc: "The era of shared rule is over. We shall proclaim a total dictatorship, where all power is concentrated in the hands of the sovereign. The will of the ruler will be the only law, and dissent will be crushed without mercy. The people will know no authority but that of their supreme leader, and the realm shall be governed by absolute control."
+  
+  RI_soviet_militaries: "Veterans of the North"
+  RI_soviet_militaries_desc: "The harsh northern lands have forged the toughest warriors. By inviting seasoned officers from the Soviet realm, we aim to strengthen our military with their experience. These hardened captains will teach our soldiers the art of survival, endurance, and discipline under the most extreme conditions, ensuring that our army stands resilient against all threats."
+
+  RI_soviet_militaries2: "Northern Wisdom"
+  RI_soviet_militaries2_desc: "The counsel of Stark bannermen and Northern sages will help steer the direction of our governance. Their advice, honed by harsh winters and turbulent times, will fortify our resolve and sharpen our strategic decisions. With their guidance, we will ensure that our kingdom remains strong, resilient, and prepared for any challenge."
+
+  RI_refugees: "A Refuge for the Displaced"
+  RI_refugees_desc: "In the wake of war and turmoil, we stand as a sanctuary for those fleeing persecution and conflict. Our borders are open to the displaced, and we offer a haven where they can rebuild their lives. By welcoming these refugees, we not only provide them with safety, but also gain the strength and resilience of those who have endured the worst of times."
+  
+  RI_refugees1: "Lifelines for the Lost"
+  RI_refugees1_desc: "As refugees flood across our borders, we extend a hand to those who have lost everything. Our land becomes a new beginning for those who have been shattered by the ravages of war and oppression. Together, we will rebuild a nation stronger and more diverse than ever before."
+  
+  RI_refugees2: "Sanctuary for the Vulnerable"
+  RI_refugees2_desc: "Fleeing from destruction and violence, the refugees seeking shelter in our lands bring with them not only their struggles but also their hopes for a better future. By offering them sanctuary, we prove that compassion and resilience are the bedrock of our strength as a nation."
+  
+  RI_refugees3: "Hope for the Dispossessed"
+  RI_refugees3_desc: "Our kingdom opens its gates to the dispossessed—those who have lost their homes, families, and futures to the chaos of war. In welcoming them, we affirm our commitment to humanity and solidarity, building a society that values the well-being of all its people, no matter their past."
+  
+  RI_refugees4: "A New Beginning"
+  RI_refugees4_desc: "For those who have suffered the ravages of war, our land offers a fresh start. Refugees fleeing persecution, violence, and hardship will find here a new home, where they can contribute to the reconstruction of our society, and in turn, we will benefit from their strength and resilience."
+  
+  RI_refugees5: "Unbroken Spirits"
+  RI_refugees5_desc: "The refugees who come to us, seeking refuge from the horrors of war and repression, bring with them the unbroken spirit of survival. By offering them a place to call home, we demonstrate our strength as a compassionate nation, able to rise above adversity and embrace the world’s most vulnerable."
+
+  RI_more_weapons: "Weapons Procurement"
+  RI_more_weapons_desc: "By actively seeking out more weapons, whether through trade agreements, capturing enemy supplies, or developing new technologies, we ensure our military is better equipped for the challenges ahead. Every weapon we acquire brings us closer to the strength needed to secure victory."
+  
+  RI_train_troops: "Elite Training Programs"
+  RI_train_troops_desc: "The strength of our army lies not just in its numbers, but in the skill and discipline of its soldiers. By expanding and enhancing our training programs, we ensure that our troops are prepared for any challenge, turning them into an unstoppable force on the battlefield."
+
+  RI_intervention: "The Call to Arms"
+  RI_intervention_desc: "The world is in turmoil, and the time has come for us to decide our role. We can no longer stand idle while others fight for their future. It is time to take action, to step into the fray and carve out our own destiny on the battlefield, shaping the future to our will."
+
+  RI_war_refugees: "Sheltering the Displaced"
+  RI_war_refugees_desc: "As the flames of war consume the realm, we must show our humanity. By opening our borders, we provide a refuge for those fleeing the chaos, while gaining a firsthand understanding of the shifting allegiances and circumstances of the war. These refugees may bring valuable insight, and their safety under our banner could turn the tides in our favor."
+
+  RI_deterrence_idea: "Unyielding Resolve"
+  RI_deterrence_idea_desc: "We will ensure that any potential aggressor knows the cost of provoking us. Through strengthening our military and demonstrating our readiness to retaliate decisively, we will establish an unshakable deterrence, forcing others to reconsider before taking hostile actions against us."
+  
+  RI_war_preparations: "Prepare for the Worst"
+  RI_war_preparations_desc: "The winds of war are blowing strong, and we must prepare ourselves for the storm ahead. Whether we face the Lannisters or the Starks, we must ensure that we are ready. Our military must be strengthened, our strategy honed, and our resolve unwavering, for the battles to come will shape the future of the realm."
+  
+  RI_commie_partisans: "Rally the Reavers Abroad"
+  RI_commie_partisans_desc: "The sea is wide and ripe for conquest. We will arm like-minded reavers in foreign lands, that they may burn and plunder in our name. These partisans will spread our revolution through chaos and fire, sowing unrest wherever they go, and bringing the flame of our cause to distant shores."
