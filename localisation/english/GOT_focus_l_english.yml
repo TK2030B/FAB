@@ -197,160 +197,451 @@ GOT_total_dictatorship:0 "Proclaim Total Dictatorship"
 GOT_total_dictatorship_desc:0 "The time for the illusions of a shared rule has passed. It is time to declare total dictatorship, where all authority rests in the hands of a single ruler. The kingdom will know no law except the will of the sovereign, and all must obey without question."
 
 
-GOT_free_market:0 "The Free Market"
-GOT_support_middle_class:0 "Support the Middle Class"
-GOT_minimum_wage:0 "A Minimum Wage"
-GOT_invite_foreign_investors:0 "Invite Foreign Investors"
-GOT_fiscal_reforms:0 "Fiscal Reforms"
-GOT_planned_economy:0 "A Planned Economy"
-GOT_liquidate_unprofital_business:0 "Liquidate Unprofital Businesses"
-GOT_buy_out_dissident_farms:0 "Buy Out Dissident Farms"
-GOT_rations:0 "Ration Valuable Ressources"
-GOT_loosen_restrictions:0 "Loosen the Restrictions"
-GOT_coal_mines:0 "Expand the Coal Mines"
-GOT_tungsten_mines:0 "Expand the Tungsten Mines"
-GOT_optimise_profit:0 "Optimise the Profit"
-GOT_full_speed_ahead:0 "Full Speed Ahead"
-GOT_build_railroads:0 "Build Railroads"
-GOT_mass_urbanisation:0 "Mass Urbanisation"
-GOT_war_economy:0 "A Proper War Economy"
+GOT_free_market:0 "The Guilds' Freedom"
+GOT_free_market_desc:0 "Let the guilds and merchant houses trade without shackles. Prosperity shall flow from liberty, and the realm will thrive through the ambitions of free folk unburdened by the crown’s meddling."
+
+GOT_support_middle_class:0 "Empower the Merchant Folk"
+GOT_support_middle_class_desc:0 "The rising class of merchants, artisans, and tradespeople are the lifeblood of our towns and cities. By empowering them, we ensure a prosperous and self-reliant realm."
+
+GOT_minimum_wage:0 "Set a Fair Wage"
+GOT_minimum_wage_desc:0 "To preserve dignity among the laboring folk, we shall mandate a fair wage—one that provides bread for the table and shelter for the family, without strangling the freedom of trade."
+
+GOT_invite_foreign_investors:0 "Welcome Foreign Coin"
+GOT_invite_foreign_investors_desc:0 "Let envoys and merchant princes from distant lands bring their gold and goods. By opening our ports and cities, we invite trade, riches, and influence into our growing markets."
+
+GOT_fiscal_reforms:0 "Overhaul the Royal Ledgers"
+GOT_fiscal_reforms_desc:0 "A disordered treasury weakens the realm. By reforming our coinage, taxes, and tariffs, we shall restore faith in the crown's coffers and encourage wise investment."
+
+GOT_planned_economy:0 "The Crown's Hand"
+GOT_planned_economy_desc:0 "Let the crown take hold of the realm's destiny. By guiding every field and forge, every mine and mill, we shall build a kingdom where none go hungry, and all serve the greater good."
+
+GOT_liquidate_unprofital_business:0 "Shutter Wasteful Guilds"
+GOT_liquidate_unprofital_business_desc:0 "Guilds that bleed silver with no return are a burden upon the realm. They shall be dissolved, and their tools given to more dutiful hands."
+
+GOT_buy_out_dissident_farms:0 "Seize the Disloyal Fields"
+GOT_buy_out_dissident_farms_desc:0 "Those who sow dissent among the harvest must yield their land. Let the crown take their fields and plant loyalty in their stead."
+
+GOT_rations:0 "Ration the Realm's Bounty"
+GOT_rations_desc:0 "In times of scarcity, the wise ruler ensures no soul starves. Through careful rationing of grain, steel, and salt, the people shall endure and grow strong."
+
+GOT_loosen_restrictions:0 "Ease the Guild Chains"
+GOT_loosen_restrictions_desc:0 "The strict control of every tool and trade can strangle even the noblest plans. A prudent easing of laws will allow loyal guilds to flourish while keeping order."
+
+GOT_coal_mines:0 "Expand the Iron Pits"
+GOT_coal_mines_desc:0 "Iron is the lifeblood of war and labor. We shall dig deeper, hire more miners, and flood the forges with raw ore from the darkest depths of the mountains."
+
+GOT_tungsten_mines:0 "Expand the Gold Mines"
+GOT_tungsten_mines_desc:0 "Gold feeds the treasury and buys the loyalty of nobles and mercenaries alike. Let us delve into the hills and uncover the wealth buried beneath our soil."
+
+GOT_optimise_profit:0 "Tighten the Ledgers"
+GOT_optimise_profit_desc:0 "By cutting waste and increasing the yield of every workshop and caravan, we shall multiply our coin without taxing the people further."
+
+GOT_full_speed_ahead:0 "Forge Without Pause"
+GOT_full_speed_ahead_desc:0 "There can be no delay, no hesitation. Let the forges burn day and night, the roads be built by torchlight, and the kingdom surge into a new golden age."
+
+GOT_build_railroads:0 "Expand the Caravan Roads"
+GOT_build_railroads_desc:0 "Merchants, messengers, and armies all depend on safe and swift passage. By building and guarding new caravan roads, we ensure the veins of the realm flow with goods and strength."
+
+GOT_mass_urbanisation:0 "Raise New Cities"
+GOT_mass_urbanisation_desc:0 "Let the forests fall and the fields be shaped into towns and strongholds. The realm shall not stagnate in thatched huts, but rise in stone and mortar."
+
+GOT_war_economy:0 "Forge a War Economy"
+GOT_war_economy_desc:0 "The realm must gird itself for war. Every forge will make swords, every farm feed soldiers, and every coin be spent on victory."
+
 GOT_university:0 "Fund the University of [From.Capital.GetName]"
+GOT_university_desc:0 "Knowledge is power. By endowing the University of [From.Capital.GetName], we nurture sages, strategists, and stewards to guide the realm into an enlightened future."
 
 
- GOT_army_efforts:0 "Revitalise the Army"
- GOT_offensive_army:0 "An Offensive Army"
- GOT_armoured_cars:0 "Focus Armoured Cars"
- GOT_tanks:0 "Our First Tank"
- GOT_decentralised_army:0 "A Decentralised Army"
- GOT_independent_officers:0 "Independent Officers"
- GOT_esprit_de_corps:0 "Esprit de Corps"
- GOT_improve_doctrine:0 "A Fitting Doctrine"
- GOT_offensive_artillery:0 "Modern Artillery Designs"
- GOT_light_artillery:0 "Light Artillery Guns"
- GOT_assault_rifle:0 "The Assault Rifle"
- GOT_auxilliary_corps:0 "The Auxilliary Corps"
- GOT_endless_advance:0 "Bring the Fight to 'Em!"
- GOT_chemicals:0 "The Chemical Warfare"
- GOT_improve_gas_masks:0 "Improve Our Gasmasks"
- GOT_defensive_army:0 "A Defensive Army"
- GOT_never_ending_barrage:0 "A Never Ending Barrage"
- GOT_heavy_artillery:0 "Heavy Artillery Guns"
- GOT_centralised_army:0 "A Centralised Army"
- GOT_order_and_discipline:0 "Order And Discipline"
- GOT_chain_of_command:0 "A Chain of Command"
- GOT_better_doctrine:0 "Adapt Our Doctrine"
- GOT_dig_in_and_pray:0 "Dig In And Pray"
- GOT_impenetrable_fortress:0 "An Impenetrable Fortress"
- GOT_no_antiquities:0 "Sort Out the Antiquities"
- GOT_shovel_for_every_soldier:0 "A Shovel For Every Soldier"
- GOT_endless_defense:0 "In the Defense of [Root.GetNameDef]"
- GOT_standardise_designs:0 "Standardised Designs"
- GOT_streamlined_production:0 "Streamline the Production"
- GOT_military_academy:0 "The [Root.Capital.GetName] Military Academy"
 
- GOT_air_force:0 "A New Field of Warfare"
- GOT_scout_planes:0 "The First Planes"
- GOT_british_fighters:0 "Buy British Fighters"
- GOT_daring_pilots:0 "The Most Daring Pilots"
- GOT_own_fighters:0 "Our Own Fighters"
- GOT_high_altitude_training:0 "High Altitude Training"
- GOT_build_airfields:0 "The [Root.Capital.GetName] Airstrip"
- GOT_anti_air:0 "Our First Anti-Air Guns"
- GOT_german_zeppeline:0 "Buy German Zeppeline"
- GOT_larger_bombs:0 "Larger Bombs"
- GOT_own_bombers:0 "Our Own Models"
- GOT_night_raids:0 "Night Raids"
- GOT_proper_doctrine:0 "A Proper Doctrine"
+GOT_army_efforts:0 "Revitalise the Host"
+GOT_army_efforts_desc:0 "The realm's armies have grown stagnant, their swords dulled and formations broken. It is time to breathe life into the host once more and prepare for the wars to come."
 
- GOT_new_navy:0 "A New Navy For A New Century"
- GOT_battlecruisers:0 "Develop New Battlecruisers"
- GOT_patrol_boats:0 "Patrol Boats"
- GOT_new_cruisers:0 "Light Cruiser Experiments"
- GOT_grandest_ships:0 "The Biggest of the Biggest"
- GOT_dockyards:0 "A Home Port"
- GOT_cheap_fleet:0 "Cheap And Fast"
- GOT_expensive_fleet:0 "Expensive But Reliable"
- GOT_more_dockyards:0 "The Dockyard Expansion Scheme"
- GOT_trade:0 "A Proper Trade Fleet"
- GOT_escorts:0 "Escort Our Convoys"
- GOT_intercept_enemies:0 "Intercept Our Enemies"
- GOT_coastal_defense:0 "Defend Our Coast"
- GOT_new_admirality:0 "A New Admirality"
- GOT_raider_doctrine:0 "The Raider Doctrine"
- GOT_old_doctrine:0 "Rely On Old Tactics"
- GOT_marine_infantry:0 "The Marine Infantry Corps"
- GOT_pride_of_the_fleet:0 "The Pride of the Fleet"
- GOT_naval_academy:0 "Open the Fleet Academy"
+GOT_offensive_army:0 "The Sword Shall Lead"
+GOT_offensive_army_desc:0 "A realm that does not strike first may never strike at all. Let our strategies favor aggression, and our armies march with purpose and fire in their hearts."
+
+GOT_armoured_cars:0 "Expand the War Chariot Corps"
+GOT_armoured_cars_desc:0 "Swift, terrifying, and armored—war chariots bring death at speed and sow fear among our enemies. We shall produce them in greater numbers and teach our knights to command them."
+
+GOT_tanks:0 "Unleash the Iron Knights"
+GOT_tanks_desc:0 "Heavily armored riders, draped in steel and mounted upon roaring steeds of metal, shall be the hammer of our armies. Let the age of the Iron Knight begin."
+
+GOT_decentralised_army:0 "Empower the Lords Militant"
+GOT_decentralised_army_desc:0 "Let each bannerlord drill their own men and prepare their own strategies. A decentralised host is harder to destroy—and each commander more adaptable in the field."
+
+GOT_independent_officers:0 "Independent Captains"
+GOT_independent_officers_desc:0 "Rigid hierarchies slow the tempo of battle. By granting more authority to battlefield captains, we can act swiftly and decisively in the chaos of war."
+
+GOT_esprit_de_corps:0 "Steel of the Spirit"
+GOT_esprit_de_corps_desc:0 "Discipline, honor, and camaraderie shall be the soul of our soldiers. Through rigorous training and a shared cause, we forge warriors who will not falter."
+
+GOT_improve_doctrine:0 "Codify the Art of War"
+GOT_improve_doctrine_desc:0 "Let scholars and generals work together to refine our doctrine. From ancient battles to recent skirmishes, we shall draw lessons to shape a new way of war."
+
+GOT_offensive_artillery:0 "Advanced Archer Formations"
+GOT_offensive_artillery_desc:0 "The archer is no mere footman with a bow. With modern tactics, fire discipline, and better tools, they shall become a force of destruction from afar."
+
+GOT_light_artillery:0 "Agile Archers"
+GOT_light_artillery_desc:0 "Quick to set, quick to loose, and swift to move—our lighter archer detachments will provide flexible support on every front."
+
+GOT_assault_rifle:0 "The Pike of the New Age"
+GOT_assault_rifle_desc:0 "No longer shall the sword dominate alone. The reach and impact of the pike—reforged with steel, precision, and craftsmanship—shall become the standard of the infantry."
+
+GOT_auxilliary_corps:0 "Raise the Auxiliaries"
+GOT_auxilliary_corps_desc:0 "Support forces from across the realm—be they scouts, medics, engineers, or laborers—shall accompany our main host and ensure our advance never stalls."
+
+GOT_endless_advance:0 "The Endless March"
+GOT_endless_advance_desc:0 "We will not stop. With steel in hand and vengeance in our hearts, our soldiers shall march day and night until the enemy is vanquished or the world burns."
+
+GOT_chemicals:0 "Signal Horn Warfare"
+GOT_chemicals_desc:0 "The old ways of communication are too slow for the new age of war. Warhorns, smoke signals, and eerie sounds sown across the battlefield will instill terror—and cohesion—wherever needed."
+
+GOT_improve_gas_masks:0 "Refine the Warhorn Signals"
+GOT_improve_gas_masks_desc:0 "Improved tuning of our warhorn signals, paired with more resilient signalmen, will allow faster relays between commanders and more robust battle coordination under duress."
+
+ 
+GOT_defensive_army:0 "A Shielded Host"
+GOT_defensive_army_desc:0 "Wars are not won by offense alone. A disciplined, entrenched host can bleed the enemy dry and outlast any storm."
+
+GOT_never_ending_barrage:0 "A Rain Without End"
+GOT_never_ending_barrage_desc:0 "With enough arrows in the sky, daylight itself shall fade. Let our archers rain ceaseless death upon the enemy."
+
+GOT_heavy_artillery:0 "Siege-Bows and Great Arbalests"
+GOT_heavy_artillery_desc:0 "Massive archer platforms and bolt-throwers shall pierce even the thickest armor and batter down castle walls."
+
+GOT_centralised_army:0 "A Host United"
+GOT_centralised_army_desc:0 "One command, one will, one purpose. A centralised host answers swiftly and decisively to its lord’s command."
+
+GOT_order_and_discipline:0 "Marches in Lockstep"
+GOT_order_and_discipline_desc:0 "Drilled from dawn to dusk, our soldiers will march, fight, and die with unwavering discipline and unmatched resolve."
+
+GOT_chain_of_command:0 "Steel in the Chain"
+GOT_chain_of_command_desc:0 "From the highest general to the lowliest footman, each man knows his place. And when the chain is strong, so too is the army."
+
+GOT_better_doctrine:0 "Rethink the Shieldwall"
+GOT_better_doctrine_desc:0 "The old tactics must evolve. From river crossings to ambushes, we shall adapt our formations to meet every threat."
+
+GOT_dig_in_and_pray:0 "Dig Trenches and Pray to the Seven"
+GOT_dig_in_and_pray_desc:0 "Every soldier shall know how to entrench, fortify, and survive. Let the gods hear our prayers from within earthen walls."
+
+GOT_impenetrable_fortress:0 "A Castle Untaken"
+GOT_impenetrable_fortress_desc:0 "Stone, fire, and iron—our fortresses shall stand eternal. No army shall pass, no wall shall fall."
+
+GOT_no_antiquities:0 "Purge the Relics of War"
+GOT_no_antiquities_desc:0 "Old weapons, outdated armor, and obsolete tactics must go. Let us make war with steel of the present, not rust of the past."
+
+GOT_shovel_for_every_soldier:0 "A Shovel in Every Hand"
+GOT_shovel_for_every_soldier_desc:0 "A soldier without a blade is vulnerable. But a soldier without a shovel is already dead. Trenches save lives."
+
+GOT_endless_defense:0 "For the Walls of [Root.GetNameDef]"
+GOT_endless_defense_desc:0 "Every field, every village, every keep shall be defended with the blood and steel of our people. Let the enemy come—we are ready."
+
+GOT_standardise_designs:0 "Forge with Purpose"
+GOT_standardise_designs_desc:0 "Standardised blades, bows, and armor reduce waste and improve training. The forges shall burn in unison."
+
+GOT_streamlined_production:0 "Smooth the Forgework"
+GOT_streamlined_production_desc:0 "From iron mine to smithy to armory, we shall remove all inefficiencies and deliver arms swiftly to the front."
+
+GOT_military_academy:0 "The [Root.Capital.GetName] War College"
+GOT_military_academy_desc:0 "Let the brightest minds of war be trained in our capital, where theory meets discipline and generals are born in parchment before battle."
+
+
+GOT_air_force:0 "Draconic Warfare"
+GOT_air_force_desc:0 "The skies are no longer empty. With dragons under our command, war has ascended to the heavens. Let our foes tremble as fire rains from above."
+
+GOT_scout_planes:0 "Tame the First Sky Serpents"
+GOT_scout_planes_desc:0 "The first of our dragons are small and swift, ideal for scouting enemy movements and testing the limits of aerial command."
+
+GOT_british_fighters:0 "Hatch Foreign-Bred Hunter Dragons"
+GOT_british_fighters_desc:0 "The Westerosi are not the only ones to master the skies. Foreign dragon eggs bred for war can be purchased and trained into swift hunter dragons."
+
+GOT_daring_pilots:0 "The Boldest Dragonriders"
+GOT_daring_pilots_desc:0 "To command a dragon is to risk death with every breath. Only the boldest and most skilled riders can tame the mightiest beasts and wield them in war."
+
+GOT_own_fighters:0 "Breed Our Own Hunter Dragons"
+GOT_own_fighters_desc:0 "No longer shall we rely on foreign breeds. We shall hatch and train our own hunter dragons—swift, agile, and deadly in the sky."
+
+GOT_high_altitude_training:0 "Soaring Above the Clouds"
+GOT_high_altitude_training_desc:0 "The higher the dragon flies, the greater its advantage. Our riders must be trained to endure the freezing heights where breath falters and flames still burn."
+
+GOT_build_airfields:0 "The Dragonpit of [Root.Capital.GetName]"
+GOT_build_airfields_desc:0 "A great stone dragonpit shall be constructed in the capital to house our winged beasts, provide care, and launch them swiftly into the skies."
+
+GOT_anti_air:0 "Scorpions for the Sky"
+GOT_anti_air_desc:0 "Massive scorpions and ballistas will line our battlements, ready to strike down any drake foolish enough to fly above our lands."
+
+GOT_german_zeppeline:0 "Hatch Scourge Dragons"
+GOT_german_zeppeline_desc:0 "Larger dragons bred for terror and devastation—slower, but wielding immense firepower. These siege-born beasts can level castles and set entire towns aflame."
+
+GOT_larger_bombs:0 "Unleash Greater Dragonfire"
+GOT_larger_bombs_desc:0 "With special feed, training, and magical runes, our dragons shall burn hotter and longer—scorching entire battalions with a single breath."
+
+GOT_own_bombers:0 "Breed Our Own Siege Dragons"
+GOT_own_bombers_desc:0 "No longer content with imported monsters, we shall raise our own siege-class dragons—behemoths of scale and fire, bred to bring ruin from the skies."
+
+GOT_night_raids:0 "Wings in the Darkness"
+GOT_night_raids_desc:0 "Under cover of moonlight, our riders shall strike unseen. The enemy will sleep in fear, for flame and death come even in the black of night."
+
+GOT_proper_doctrine:0 "Doctrine of the Skies"
+GOT_proper_doctrine_desc:0 "War in the sky must be fought with as much precision as on land. Our strategists shall develop doctrines for draconic supremacy, ensuring no wing beats in vain."
+
+
+GOT_new_navy:0 "A Fleet Worthy of the Realm"
+GOT_new_navy_desc:0 "The old warships are slow and rotting. A new navy must rise—faster, sturdier, and prepared to defend our shores or project power across the Narrow Sea."
+
+GOT_battlecruisers:0 "Design Swift War Galleys"
+GOT_battlecruisers_desc:0 "Light war galleys—fast and fierce—shall strike like wolves of the sea, harassing enemy ships with speed and precision."
+
+GOT_patrol_boats:0 "Small Patrol Vessels"
+GOT_patrol_boats_desc:0 "Simple, swift patrol boats can keep our coastlines safe from raiders and smugglers, ensuring our waters are watched at all times."
+
+GOT_new_cruisers:0 "Light Dromond Experiments"
+GOT_new_cruisers_desc:0 "We shall experiment with lighter dromonds—more maneuverable and versatile ships that can adapt to many sea-bound roles."
+
+GOT_grandest_ships:0 "Build Leviathans of Wood and Iron"
+GOT_grandest_ships_desc:0 "Let our enemies shudder when they behold the towering hulls of our greatest warships. These will be floating castles, unmatched on the open seas."
+
+GOT_dockyards:0 "Establish a Home Port"
+GOT_dockyards_desc:0 "To build a mighty fleet, we need the docks to match. Our new home port shall become the heart of the navy and a beacon of seafaring strength."
+
+GOT_cheap_fleet:0 "Fast, Cheap, and Deadly"
+GOT_cheap_fleet_desc:0 "Instead of mighty ships, we’ll construct many small and affordable vessels. Strength in numbers shall dominate the tide."
+
+GOT_expensive_fleet:0 "Reliable Masters of the Sea"
+GOT_expensive_fleet_desc:0 "Each ship shall be a masterpiece, crafted with care, built to last, and commanded by the best sailors in the realm."
+
+GOT_more_dockyards:0 "Expand the Shipwrights’ Guild"
+GOT_more_dockyards_desc:0 "More docks, more ships. The Shipwrights’ Guild shall receive coin and workers aplenty to bring forth a true naval age."
+
+GOT_trade:0 "A Merchant Fleet for the Realm"
+GOT_trade_desc:0 "Trade is the lifeblood of the kingdom. We shall build sturdy cogs and swift galleys to ferry goods, wealth, and influence across distant shores."
+
+GOT_escorts:0 "Guard the Trade Cogs"
+GOT_escorts_desc:0 "Unescorted trade ships are easy prey. We shall dispatch armed escorts to protect them from pirates, raiders, and enemy fleets."
+
+GOT_intercept_enemies:0 "Intercept the Foe"
+GOT_intercept_enemies_desc:0 "We shall strike fast and strike first—intercepting enemy fleets before they reach our shores or threaten our cogs."
+
+GOT_coastal_defense:0 "Fortify the Coastline"
+GOT_coastal_defense_desc:0 "From tower beacons to hidden harbors, our coasts shall be defended with shore-based scorpions and small patrol craft."
+
+GOT_new_admirality:0 "Summon the Sea Lords"
+GOT_new_admirality_desc:0 "A new Admiralty shall oversee the naval rebirth. These Sea Lords shall chart our course and lead us to maritime greatness."
+
+GOT_raider_doctrine:0 "The Raider Doctrine"
+GOT_raider_doctrine_desc:0 "We shall adopt the tactics of the Ironborn—hit-and-run strikes, burning ports, and vanishing into the waves before the enemy can retaliate."
+
+GOT_old_doctrine:0 "Stick to the Proven Ways"
+GOT_old_doctrine_desc:0 "There is wisdom in the old ways. Heavy galleys in formation, slow and methodical, yet nearly unstoppable when they close in."
+
+GOT_marine_infantry:0 "Coastal Raiders Corps"
+GOT_marine_infantry_desc:0 "Our best seafarers shall train for landfall assaults—raiding harbors, sabotaging forts, and striking fear into shoreline towns."
+
+GOT_pride_of_the_fleet:0 "Pride of the Fleet"
+GOT_pride_of_the_fleet_desc:0 "Let one mighty flagship lead the way—a vessel fit for kings, unmatched in size and firepower, a symbol of our mastery of the seas."
+
+GOT_naval_academy:0 "Establish the [Root.Capital.GetName] Fleet Academy"
+GOT_naval_academy_desc:0 "We shall train our sea captains in the arts of naval command, navigation, and ship-to-ship warfare at a great Fleet Academy in [Root.Capital.GetName]."
+
  
 
  
- GOT_diplomacy_focus:0 "Our Place In the World"
- GOT_communist_foreign_policy:0 "Rebellion Against the Crown"
- GOT_approach_soviets:0 "Approach the Home Of the Revolution"
- GOT_invite_soviet_officers:0 "Invite Soviet Officers"
- GOT_invite_soviet_advisors:0 "Invite Soviet Advisors"
- GOT_hand_over_tsarists:0 "Hand Over Some Tsarists"
- GOT_support_politics:0 "Support [SOV.GetLeader]'s Politics"
- GOT_expand_communist_influence:0 "Expand the Communist Influence"
- GOT_mutual_guarantees:0 "Offer Mutual Guarantees"
- GOT_join_comintern:0 "Join the Comintern"
- GOT_sanction_capitalists:0 "Sanction Western Capitalists"
- GOT_anti_fascist_propaganda:0 "Anti-Fascist Propaganda"
- GOT_fith_internationale:0 "Form the Fith Internationale"
- GOT_offer_false_alliances:0 "Offer A False Alliance"
- GOT_great_betrayal:0 "The Great Betrayal"
- GOT_strike_fascists:0 "Strike at the Fascists"
- GOT_strike_soviets:0 "Put the Traitors to Justice"
- GOT_support_foreign_commies:0 "Support Communist Partisans"
- GOT_our_socialism:0 "Socialism With [ROOT.GetAdjective] Characteristics"
- GOT_socialist_world_republic:0 "Proclaim the Socialist World's Republic"
+GOT_diplomacy_focus:0 "Our Place in the Realm"
+GOT_diplomacy_focus_desc:0 "The world shifts like snow in a blizzard. We must decide where we stand — as lone wolves, or part of a greater pack."
+
+GOT_communist_foreign_policy:0 "Rebellion Against the Iron Throne"
+GOT_communist_foreign_policy_desc:0 "The South grows decadent and cruel. It is time to cast off the chains of the Iron Throne and raise our own banners, free and proud."
+
+GOT_approach_soviets:0 "House Stark of Winterfell"
+GOT_approach_soviets_desc:0 "The North remembers. House Stark is a beacon of justice and honor in a treacherous world. We shall seek kinship with Winterfell and its allies."
+
+GOT_invite_soviet_officers:0 "Summon Northern Captains"
+GOT_invite_soviet_officers_desc:0 "The North breeds hard men and seasoned warriors. We will bring experienced Northern captains to train our forces in the ways of honor and endurance."
+
+GOT_invite_soviet_advisors:0 "Heed the Words of the North"
+GOT_invite_soviet_advisors_desc:0 "The counsel of Stark bannermen and Northern sages shall guide our governance and sharpen our resolve. Let their wisdom flow like snowmelt into our halls."
+
+GOT_hand_over_tsarists:0 "Banish the Southern Loyalists"
+GOT_hand_over_tsarists_desc:0 "Those who still serve the Iron Throne have no place in our realm. We shall cast them out and prove our loyalty to the North and its cause."
+
+GOT_support_politics:0 "Back [NOR.GetLeader]'s Claim"
+GOT_support_politics_desc:0 "[NOR.GetLeader] stands as a figure of honor and ancient strength. Supporting their rule may secure us a place among the trusted allies of Winterfell."
+
+GOT_expand_communist_influence:0 "Befriend the Tullys"
+GOT_expand_communist_influence_desc:0 "The Riverlands lie at the heart of the realm — proud, battered, and ever loyal. It is time we strengthen our ties with House Tully, uniting wolf and trout beneath banners of shared honor and northern resolve."
+
+
+GOT_mutual_guarantees:0 "Swear by the Old Gods"
+GOT_mutual_guarantees_desc:0 "In the godswood and beneath the heart trees, we swear our bonds. We shall protect the North and they shall guard us in turn, as sacred as an oath to the Old Gods."
+
+GOT_join_comintern:0 "Join Winterfell"
+GOT_join_comintern_desc:0 "The wolves of the North run together. It is time we formally bind ourselves to House Stark and stand as kin, united beneath the direwolf banner."
+
  
- GOT_democratic_foreign_policy:0 "Return of the Dragon"
- GOT_approach_england:0 "Approach the Empire"
- GOT_approach_usa:0 "Approach the United States"
- GOT_approach_france:0 "The Home of Republicanism"
- GOT_expand_trade:0 "Expand the Trade"
- GOT_sanction_extremists:0 "Sanction the Extremists"
- GOT_support_democratic_organisations:0 "Support Democratic Organisations"
- GOT_victims_of_extremism:0 "The Victims of Extremism"
- GOT_save_haven:0 "A Safe Haven"
- GOT_increase_immigration:0 "House Refugees"
- GOT_foreign_scientists:0 "Foreign Scientists"
- GOT_foreign_engineers:0 "Foreign Engineers"
- GOT_join_allies:0 "Join the Allies"
+GOT_sanction_capitalists:0 "Denounce the Bastards of the Throne"
+GOT_sanction_capitalists_desc:0 "The Lannisters claim to rule with gold, but their riches were stolen from the people. We shall not bow to coin-lords and their false kings."
+
+GOT_anti_fascist_propaganda:0 "Expose the Lions' Lies"
+GOT_anti_fascist_propaganda_desc:0 "Let the world know the truth of the lion's roar — all bluster and bloodshed, cloaked in tyranny. The Ironborn bow to no such false idols."
+
+GOT_fith_internationale:0 "House Greyjoy of Pyke"
+GOT_fith_internationale_desc:0 "We do not sow. House Greyjoy has stood apart from the affairs of the mainland for centuries. Now, Pyke shall rise as a power all its own."
+
+GOT_offer_false_alliances:0 "Banish the Mainland Loyalists"
+GOT_offer_false_alliances_desc:0 "We will rid the Iron Islands of their mainland sympathizers. Let them be exiled and cast out. Only the true sons and daughters of Pyke shall stand loyal to our cause."
+
+GOT_great_betrayal:0 "Support [IRO.GetLeader]'s Iron Rule"
+GOT_great_betrayal_desc:0 "[IRO.GetLeader] rules as a true Ironborn should — with fear, fire, and fury. Let all Pyke rally behind them and their glorious ambition."
+
+GOT_strike_fascists:0 "Raid the Stony Shore"
+GOT_strike_fascists_desc:0 "The Stony Shore may be distant, but its riches and defiance are tempting. We will strike at their heart, showing the world that the Ironborn never forget an insult."
+
+GOT_strike_soviets:0 "Swear by the Drowned God"
+GOT_strike_soviets_desc:0 "We raid not just for plunder, but in the name of the Drowned God. The North grows weak and complacent. Their gods are false — ours demands sacrifice. We shall strike at dawn, and the sea shall remember us."
+
+GOT_support_foreign_commies:0 "Rally the Reavers Abroad"
+GOT_support_foreign_commies_desc:0 "The sea is wide and ripe for conquest. We will arm like-minded reavers in foreign lands, that they may burn and plunder in our name."
+
+GOT_our_socialism:0 "The Way of Salt and Iron"
+GOT_our_socialism_desc:0 "We have no need for kings or councils. We take what is ours with fire and blood. This is the Ironborn way — hard, free, and eternal."
+
+GOT_socialist_world_republic:0 "Join Pyke"
+GOT_socialist_world_republic_desc:0 "Let the world hear the call of salt and iron. The seas are ours, and those who would thrive must sail with us. From Pyke we rise, and to Pyke they shall come — allies, reavers, and those who would forsake the mainland's lies."
+
+
  
- GOT_fascist_foreign_policy:0 "The Storm Reigns Again"
- GOT_approach_germany:0 "House Baratheon of Dragonstone"
- GOT_cast_out_jews:0 "The Lord of Light"
- GOT_anit_comintern_pact:0 "Support Stannis"
- GOT_german_embassy:0 "Send Envoy to Dragonstone"
- GOT_join_axis:0 "Join Dragonstone"
- GOT_recognise_franco:0 "Denounce Lannister Bastards"
- GOT_approach_italy:0 "House Baratheon of Storm's End"
- GOT_support_mussolini:0 "Support Renly"
- GOT_our_fascism:0 "Befriend The Tyrells"
- GOT_italian_embassy:0 "Send Envoy to Storm's End"
- GOT_join_italy:0 "Join The Stormlands"
- GOT_approach_japan:0 "House Baratheon of King's Landing"
- GOT_asia_for_asians:0 "Denounce The Starks"
- GOT_recognise_puyi:0 "Recognise King Joffrey"
- GOT_sanction_colonialists:0 "Befriend The Lannisters"
- GOT_japanese_embassy:0 "Send Envoy to King's Landing"
- GOT_join_japan:0 "Join The Crownlands"
+GOT_democratic_foreign_policy:0 "Return of the Dragon"
+GOT_democratic_foreign_policy_desc:0 "The Targaryens’ flame still burns bright in exile. We must rally around their banner to bring justice and peace to the realm."
+
+GOT_approach_england:0 "House Targaryen"
+GOT_approach_england_desc:0 "The tides of time are turning. It is time for the English to stand with the dragon once more."
+
+GOT_approach_usa:0 "Approach Pentos"
+GOT_approach_usa_desc:0 "The wealthy city-state of Pentos may offer aid. Their ships and merchants could support our cause for a return to power."
+
+GOT_approach_france:0 "Approach The Dothraki"
+GOT_approach_france_desc:0 "The Dothraki are strong and untamed, a fitting ally for the return of a true monarch. A new alliance must be forged with the horselords."
+
+GOT_expand_trade:0 "Expand the Trade"
+GOT_expand_trade_desc:0 "To restore House Targaryen’s wealth, we must ensure that trade routes are expanded to Essos and beyond. Their wealth is essential to our restoration."
+
+GOT_sanction_extremists:0 "Denounce the Usurper"
+GOT_sanction_extremists_desc:0 "The usurper’s reign has tainted the realm. We will work with those who seek to remove him from power, no matter the cost."
+
+GOT_support_democratic_organisations:0 "Support Targaryen Loyalists"
+GOT_support_democratic_organisations_desc:0 "Loyalists of the dragon still linger across the land, exiles and refugees alike. It is time to offer them support and unite them under a banner of rightful rule."
+
+GOT_victims_of_extremism:0 "Denounce Slavery"
+GOT_victims_of_extremism_desc:0 "The practice of slavery has caused untold suffering in Essos. We must stand against this injustice and support the liberation of those oppressed under such cruel systems."
+
+GOT_save_haven:0 "A Safe Haven"
+GOT_save_haven_desc:0 "The loyalists of the Targaryens must be protected at all costs. Create a haven for them to rebuild and join our cause."
+
+GOT_increase_immigration:0 "House Refugees"
+GOT_increase_immigration_desc:0 "As House Targaryen returns, we will welcome those who have been displaced by war. They will help us strengthen our ranks."
+
+GOT_foreign_scientists:0 "Foreign Mercenaries"
+GOT_foreign_scientists_desc:0 "Essos is home to skilled mercenaries who have fought in many battles. Their experience and expertise could be invaluable in strengthening our forces and gaining the upper hand in the coming conflict."
+
+GOT_foreign_engineers:0 "Foreign Engineers"
+GOT_foreign_engineers_desc:0 "In Essos, there are engineers who craft wonders. Their expertise could aid us in rebuilding the power of House Targaryen."
+
+GOT_join_allies:0 "Join House Targaryen"
+GOT_join_allies_desc:0 "The time has come to ally with the true rulers of the realm. Under House Targaryen, we will restore peace and justice to Westeros."
+
+
+GOT_fascist_foreign_policy:0 "The Storm Reigns Again"
+GOT_fascist_foreign_policy_desc:0 "The Baratheon legacy must be rebuilt through strength and blood. Our empire will rise again, with fire and fury, in the name of the Stormlands."
+
+GOT_approach_germany:0 "House Baratheon of Dragonstone"
+GOT_approach_germany_desc:0 "The might of Germany can be a valuable ally to our cause. We shall strengthen our bonds with the fascists of the continent, uniting under the banner of power."
+
+GOT_cast_out_jews:0 "The Lord of Light"
+GOT_cast_out_jews_desc:0 "In the name of purity and righteousness, we must cast out the corrupt elements that have infested our land. The Lord of Light guides us in this great cleansing."
+
+GOT_anit_comintern_pact:0 "Support Stannis"
+GOT_anit_comintern_pact_desc:0 "Stannis Baratheon’s iron will is the cornerstone of our movement. Supporting him will give us the strength to crush any foreign threat and ensure our supremacy."
+
+GOT_german_embassy:0 "Send Envoy to Dragonstone"
+GOT_german_embassy_desc:0 "It is time to officially solidify our ties with Germany. An envoy to Dragonstone will ensure the fascist cause is united across the seas."
+
+GOT_join_axis:0 "Join Dragonstone"
+GOT_join_axis_desc:0 "The Axis is a pact of power, uniting nations of strength. Joining the Axis will ensure our dominance, and under the storm’s banner, we will strike at the heart of our enemies."
+
+GOT_recognise_franco:0 "Denounce Lannister Bastards"
+GOT_recognise_franco_desc:0 "The usurper Lannisters have brought shame to the throne. We shall support Franco’s regime as an ally of strength, while denouncing the Lannister impostors as traitors to the realm."
+
+GOT_approach_italy:0 "House Baratheon of Storm's End"
+GOT_approach_italy_desc:0 "The might of Italy is legendary, and with their power, we could bring the Stormlands to new heights. Let us reach out to Mussolini and offer our support in return for his strength."
+
+GOT_support_mussolini:0 "Support Renly"
+GOT_support_mussolini_desc:0 "Renly Baratheon’s charisma and strategic mind can forge a strong alliance with Italy. Together, we can dominate the Mediterranean and spread the storm’s influence."
+
+GOT_our_fascism:0 "Befriend The Tyrells"
+GOT_our_fascism_desc:0 "We must expand our alliances with the Tyrells, forging a strong political marriage that will ensure our rule over the realm. The Stormlands and the Reach shall rise together."
+
+GOT_italian_embassy:0 "Send Envoy to Storm's End"
+GOT_italian_embassy_desc:0 "We must send a diplomatic envoy to Storm’s End to cement our alliance with the Italians. Their military expertise could prove invaluable in our push for dominance."
+
+GOT_join_italy:0 "Join The Stormlands"
+GOT_join_italy_desc:0 "It is time to unite with Italy. Together, the Stormlands and Italy can create an unstoppable force to conquer all of Westeros and beyond."
+
+GOT_approach_japan:0 "House Baratheon of King's Landing"
+GOT_approach_japan_desc:0 "The Rising Sun has much to offer in terms of strength and conquest. We must approach Japan, forging an alliance that will give us an edge against our enemies."
+
+GOT_asia_for_asians:0 "Denounce The Starks"
+GOT_asia_for_asians_desc:0 "The Starks have long claimed the North as their domain. We must reject their misguided notions of honor and instead support the true power of Asia in our bid for global supremacy."
+
+GOT_recognise_puyi:0 "Recognise King Joffrey"
+GOT_recognise_puyi_desc:0 "King Joffrey’s claim is legitimate, and we must recognize him as the true ruler of Westeros. By acknowledging his throne, we shall gain the support of powerful allies."
+
+GOT_sanction_colonialists:0 "Befriend The Lannisters"
+GOT_sanction_colonialists_desc:0 "Though they are traitors, the Lannisters hold power and resources that we need. We must extend a hand to them, using their wealth to fuel our rise."
+
+GOT_japanese_embassy:0 "Send Envoy to King's Landing"
+GOT_japanese_embassy_desc:0 "Our alliance with Japan will provide us with unparalleled military strength. Sending an envoy to King’s Landing will formalize our ties and signal our dominance in the East."
+
+GOT_join_japan:0 "Join The Crownlands"
+GOT_join_japan_desc:0 "Joining Japan will secure our future. The Crownlands will fall under our rule, and together with Japan, we will expand our influence and crush all who dare oppose us."
  
- GOT_stay_neutral:0 "A Time for Caution"
- GOT_prepare_for_war:0 "Prepare for the Worst"
- GOT_higher_conscription:0 "Extend the Conscription"
- GOT_acquire_weapons:0 "Acquire Weapons"
- GOT_extend_training:0 "Proper Military Training"
- GOT_role_in_war:0 "Our Role in the War"
- GOT_sanction_germany:0 "Sanction the Axis"
- GOT_sell_weapons_to_germany:0 "Support the Axis"
- GOT_sell_weapons_to_france:0 "Support the Allies"
- GOT_sanction_france:0 "Sanction the Allies"
- GOT_open_border:0 "Open the Border"
- GOT_deterrence:0 "Deterrence"
- GOT_home_defense:0 "A Home Defense"
- GOT_fortification_efforts:0 "Fortification Efforts"
- GOT_why_we_fight:0 "Why We Fight"
- GOT_our_own_faction:0 "Form Our Own Faction"
+GOT_stay_neutral:0 "A Time for Caution"
+GOT_stay_neutral_desc:0 "The realm is torn apart by war, and we must be prudent. Now is not the time to choose sides, but rather to bide our time and strengthen our position."
+
+GOT_prepare_for_war:0 "Prepare for the Worst"
+GOT_prepare_for_war_desc:0 "The winds of war are blowing strong, and we must prepare ourselves for the storm ahead. Whether we face the Lannisters or the Starks, we must ensure that we are ready."
+
+GOT_higher_conscription:0 "Extend the Conscription"
+GOT_higher_conscription_desc:0 "In uncertain times, we must expand our forces. The more soldiers we have at our disposal, the more secure our future will be. Every able body will be called to arms."
+
+GOT_acquire_weapons:0 "Acquire Weapons"
+GOT_acquire_weapons_desc:0 "The best defense is a good offense. We must procure more weapons, be it through trade or capture. The more firepower we have, the better prepared we will be for whatever comes."
+
+GOT_extend_training:0 "Proper Military Training"
+GOT_extend_training_desc:0 "A well-trained army is a force to be reckoned with. We must ensure that our troops are not only numerous, but also skilled in battle."
+
+GOT_role_in_war:0 "Our Role in the War"
+GOT_role_in_war_desc:0 "While the Great War ravages the realm, we must decide what part we shall play. Will we stand aside, or will we assert ourselves on the battlefield? Our destiny must be our own."
+
+GOT_sell_weapons_to_germany:0 "Deal With The Lannisters"
+GOT_sell_weapons_to_germany_desc:0 "Though their rule is illegitimate, the Lannisters are a force to be reckoned with. To keep them at bay, we shall trade with them, sending weapons in exchange for peace and neutrality."
+
+GOT_sell_weapons_to_france:0 "Deal With The Starks"
+GOT_sell_weapons_to_france_desc:0 "The Starks may be embroiled in their own wars, but there is value in keeping them neutral. We shall send them weapons, ensuring that they leave us out of their conflicts."
+
+GOT_open_border:0 "Open the Border"
+GOT_open_border_desc:0 "In times of chaos, we must show compassion. Opening our borders will provide a safe haven for those fleeing the bloodshed of the War of the Five Kings, while also allowing us to better assess the shifting tides of war."
+
+GOT_deterrence:0 "Deterrence"
+GOT_deterrence_desc:0 "We shall show the world that we are not to be trifled with. By strengthening our military and making it clear that any aggression will be met with swift retaliation, we can deter others from attacking us."
+
+GOT_home_defense:0 "A Home Defense"
+GOT_home_defense_desc:0 "We cannot control the conflicts that rage around us, but we can protect what is ours. Strengthening our defenses is the best way to ensure that our people and land remain safe from invaders."
+
+GOT_fortification_efforts:0 "Fortification Efforts"
+GOT_fortification_efforts_desc:0 "The walls that protect us must be strengthened. Fortifications will allow us to withstand any siege and give us the time we need to make decisions in the face of threats."
+
+GOT_why_we_fight:0 "Why We Fight"
+GOT_why_we_fight_desc:0 "Though we stand apart from the wars of others, we must ask ourselves: what do we stand for? Our neutrality must be built upon principles, and our actions must reflect the reasons we fight, or refuse to fight."
+
+GOT_our_own_faction:0 "Form Our Own Faction"
+GOT_our_own_faction_desc:0 "The time for neutrality may be coming to an end. Perhaps it is time to create our own faction, not as a puppet of others, but as a force to be reckoned with in its own right."
+
