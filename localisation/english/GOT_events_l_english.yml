@@ -26,3 +26,44 @@ Game_Event.8.b:0 "TURN §GON§! Sandbox Mode"
 Game_Event.10.t:0 "Sandbox Mode Chosen"
 Game_Event.10.d:0 "§R[FROM.GetName]§! has selected §RSandbox Mode§!. In this mode, the Seven Kingdoms are no longer puppets of the Crownlands — they are §Rindependent§! realms, still pledged to the Iron Throne, but free to act on their own. This setup allows for more dynamic wars, rebellions, and political maneuvering, making it ideal for sandbox and roleplay-driven games."
 Game_Event.10.a:0 "OK"
+
+ GOT_Generic.1.t: "The Red Riot"
+ GOT_Generic.1.d: "What began as a protest by the smallfolk over food shortages and corrupt local rule quickly escalated into chaos. Armed with little more than tools and torches, the peasants stormed the town square—only to be met with brutal force. The clash left dozens dead, homes ablaze, and tensions at a breaking point. What was meant to be a demonstration has become a symbol of the deep divide festering beneath the surface."
+ GOT_Generic.1.a: "Blood flows in the streets..."
+
+ GOT_Generic.2.t: "Sabotage in the Workshops"
+ GOT_Generic.2.desc: "Under the cover of night, saboteurs slipped into our workshops and smithies, setting fires and smashing what they could not steal. These were no mere thieves—they were agitators, radicals stirred by whispers of rebellion and the blood spilled during the Red Riot. Crucial arms and tools lie in ruin, our ability to equip the realm gravely weakened. The revolution brews not only in the streets, but in the forges as well."
+ GOT_Generic.2.a: "Their treachery will not go unpunished."
+ RI_commie_damage: "Several workshops have been sabotaged."
+ 
+ GOT_Generic.3.t: "The March on [From.Capital.GetName]"
+ GOT_Generic.3.d: "The gates of [From.Capital.GetName] have fallen. What began as scattered unrest in the villages and hamlets has swelled into a full-scale uprising. Peasant militias and dissident banners now fly above the city walls, the old lords either slain or vanished into exile. In their place rise the voices of the common folk—organizing, declaring, demanding. The revolution has not just arrived—it has prevailed."
+ GOT_Generic.3.a: "The people now rule."
+ 
+ GOT_Generic.4.t: "The Backlash of the Old Blood"
+ GOT_Generic.4.d: "Though the revolution triumphed in [From.Capital.GetName], the fires of victory have not yet burned away the old order. Disgraced lords, bannermen, and hardened commanders rally in the hills and strongholds, unwilling to yield to the rule of peasants and radicals. Across the countryside, whispers of counter-rebellion stir. The struggle is not over—the old blood resists, and they do so with steel."
+ GOT_Generic.4.a: "They cling to the past like drowning men to driftwood."
+
+ GOT_Generic.6.t: "The Grand Assembly"
+ GOT_Generic.6.d: "Across the realm, banners were raised—not for war, but for discourse. From lords and learned scribes to guildmasters and village spokesmen, voices gathered in what came to be known as the Grand Assembly. Within its great hall, the people debated, argued, and ultimately decided the course of our nation. Power has shifted—not to the mob, but to the many. A new chapter begins, forged not by the sword, but by the will of the people."
+ GOT_Generic.6.a: "Let the people's voice be our guide."
+ 
+ GOT_Generic.7.t: "The Old Guard Resists"
+ GOT_Generic.7.d: "Though the Assembly now steers the fate of the realm, not all bend the knee to this new order. Noble houses whisper of betrayal, officers mutter about lawless rabble, and some corners of the army begin to stir with discontent. The promise of a more just realm threatens those who once ruled by bloodline and birthright. The road ahead will not be without its saboteurs, both in the shadows and in plain sight."
+ GOT_Generic.7.a: "They fear the future we now build."
+
+ GOT_Generic.8.t: "Unite the Kingdom"
+ GOT_Generic.8.d: "The voices calling for reform have been silenced, and the realm returns to the old ways. A new council has been formed, but its makeup is familiar—those who once held power are back at the helm, pledging to restore the stability that has long been absent. The people watch in uneasy silence as the old order is re-established, though not without whispers of doubt and uncertainty in the streets. For some, the restoration of unity is a blessing; for others, a curse."
+ GOT_Generic.8.a: "Let us restore the rightful order."
+
+ GOT_Generic.9.t: "Discontent Among the People"
+ GOT_Generic.9.d: "The return to tradition has not been welcomed by all. Though the old elites reclaim their positions, there are those who had dreamed of something more—a realm that might break free from its shackles and embrace a new era of opportunity. Now, their hopes lie in tatters, and anger brews in the hearts of the common folk. Protests in the streets and rumors of unrest grow louder, as the dream of change fades beneath the heavy hand of the old guard."
+ GOT_Generic.9.a: "They do not understand what it takes to rule."
+
+ GOT_Generic.10.t: "The Coup of the True Monarch"
+ GOT_Generic.10.d: "The realm has fallen under the iron fist of a single leader. The streets now echo with the sound of disciplined boots and the banners of the new order. The old elites have bent the knee, and the people are expected to fall in line. Though the promise of strength and unity is proclaimed, many question whether this is the dawn of true power or the beginning of a dark chapter in the history of our land."
+ GOT_Generic.10.a: "Strength through unity, power through fear."
+
+ GOT_Generic.11.t: "The Resistance of the Hopeful"
+ GOT_Generic.11.d: "Not all have accepted this new rule. In the shadows, a growing resistance stirs, led by those who once dreamed of freedom and equality. These rebels see the rise of the tyrant as a betrayal of the very values they once held dear. Now, their hopes have turned to anger, and whispers of rebellion grow louder by the day. They will stop at nothing to restore what has been taken from them."
+ GOT_Generic.11.a: "We will not kneel to tyranny."

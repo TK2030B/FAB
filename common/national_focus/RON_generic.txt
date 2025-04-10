@@ -1586,14 +1586,15 @@ focus_tree = {
 		
 		cost = 5
 		available = {
-			has_completed_focus = GOT_revolution
+			is_in_faction = no
 		}
 		ai_will_do = {
 			factor = 10
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_comintern = no
+				GOT_Stark_Faction = no
+				GOT_Ironborn_Faction = no
 			}
 		}
 		prerequisite = {
@@ -1775,16 +1776,18 @@ focus_tree = {
 
 		cost = 5
 		available = {
-			NOR = {
-				has_government = communism
-				is_faction_leader = yes
+			OR = {
+				NOR = {
+					is_faction_leader = yes
+				}
+				tag = NOR
 			}
 			country_exists = NOR
 			is_in_faction = no
 			NOT = {
 				has_war_with = NOR
 			}
-			RON_can_join_comintern = yes
+			GOT_can_join_stark = yes
 
 		}
 		bypass = {
@@ -1803,8 +1806,16 @@ focus_tree = {
 			focus = GOT_invite_soviet_advisors
 		}
 		completion_reward = {
-			NOR = {
-				country_event = generic.2
+			if = {
+				limit = {
+					tag = NOR
+				}
+				create_faction = "Stark Faction"
+			}
+			else = {
+				NOR = {
+					country_event = generic.2
+				}
 			}
 		}
 	}
@@ -2048,16 +2059,18 @@ focus_tree = {
 		y = 6
 		relative_position_id = GOT_diplomacy_focus
 		available = {
-			IRO = {
-				has_government = communism
-				is_faction_leader = yes
+			OR = {
+				IRO = {
+					is_faction_leader = yes
+				}
+				tag = IRO
 			}
 			country_exists = IRO
 			is_in_faction = no
 			NOT = {
 				has_war_with = IRO
 			}
-			RON_can_join_comintern = yes
+			GOT_can_join_greyjoy = yes
 
 		}
 		bypass = {
@@ -2074,8 +2087,16 @@ focus_tree = {
 			focus = GOT_strike_soviets
 		}
 		completion_reward = {
-			IRO = {
-				country_event = generic.2
+			if = {
+				limit = {
+					tag = IRO
+				}
+				create_faction = "Ironborn Faction"
+			}
+			else = {
+				IRO = {
+					country_event = generic.2
+				}
 			}
 		}
 	}
@@ -2088,14 +2109,14 @@ focus_tree = {
 
 		cost = 5
 		available = {
-			has_completed_focus = GOT_new_cabinet
+			is_in_faction = no
 		}
 		ai_will_do = {
 			factor = 10
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_allies = no
+				GOT_Targaryen_Faction = no
 			}
 		}
 		prerequisite = {
@@ -2431,12 +2452,18 @@ focus_tree = {
 
 		cost = 5
 		available = {
-			TAR = {
-				has_government = democratic
+			OR = {
+				TAR = {
+					is_faction_leader = yes
+				}
+				tag = TAR
 			}
 			country_exists = TAR
 			is_in_faction = no
-			RON_can_join_allies = yes
+			NOT = {
+				has_war_with = TAR
+			}
+			GOT_can_join_targaryen = yes
 
 		}
 		bypass = {
@@ -2444,131 +2471,6 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = PEN
-				date < 1941.10.7
-				NOT = {
-					has_war_with = CRO
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = PHI
-				date < 1941.10.7
-				NOT = {
-					has_war_with = CRO
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = DOT
-				date < 1939.7.3
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = POL
-				date < 1939.7.1
-				NOT = {
-					has_war_with = DRA
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = YUG
-				date < 1941.2.6
-				NOT = {
-					has_war_with = DRA
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = GRE
-				date < 1940.8.28
-				NOT = {
-					has_war_with = STO
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = MCO
-				date < 1942.9.1
-				NOT = {
-					has_war_with = STO
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				OR = {
-					tag = BEL
-					tag = HOL
-					tag = LUX
-				}
-				date < 1940.3.10
-				NOT = {
-					has_war_with = DRA
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				OR = {
-					tag = NOR
-					tag = DEN
-				}
-				date < 1940.2.9
-				NOT = {
-					has_war_with = DRA
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = CZE
-				NOT = {
-					has_war_with = DRA
-					has_defensive_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = BRA
-				date < 1942.6.22
-				NOT = {
-					PEN = {
-						has_war_with = DRA
-					}
-				}
-
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = MEX
-				date < 1942.4.1
-				NOT = {
-					PEN = {
-						has_war_with = DRA
-					}
-				}
-			}
 			modifier = {
 				factor = 0
 				is_subject = yes
@@ -2590,8 +2492,16 @@ focus_tree = {
 			focus = GOT_foreign_scientists
 		}
 		completion_reward = {
-			TAR = {
-				country_event = generic.2
+			if = {
+				limit = {
+					tag = TAR
+				}
+				create_faction = "Targaryen Faction"
+			}
+			else = {
+				TAR = {
+					country_event = generic.2
+				}
 			}
 		}
 	}
@@ -2603,6 +2513,9 @@ focus_tree = {
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 5
+		available = {
+			is_in_faction = no
+		}
 		prerequisite = {
 			focus = GOT_diplomacy_focus
 		}
@@ -2620,8 +2533,9 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_axis = no
-				RON_GOT_japan_faction = no
+				GOT_Stannis_Faction = no
+				GOT_Lannister_Faction = no
+				GOT_Renly_Faction = no
 			}
 		}
 		completion_reward = {
@@ -2735,15 +2649,18 @@ focus_tree = {
 
 		cost = 5
 		available = {
-			DRA = {
-				has_government = fascism
+			OR = {
+				DRA = {
+					is_faction_leader = yes
+				}
+				tag = DRA
 			}
 			country_exists = DRA
 			is_in_faction = no
 			NOT = {
 				has_war_with = DRA
 			}
-			RON_can_join_axis = yes
+			GOT_can_join_stannis = yes
 
 		}
 		bypass = {
@@ -2751,86 +2668,6 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1940.7.27
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = STO
-				date < 1940.7.27
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = BUL
-				date < 1941.1.1
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = HUN
-				date < 1940.9.20
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = ROM
-				date < 1940.9.23
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = SLO
-				date < 1940.9.24
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = CRO
-				date < 1941.2.10
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = FIN
-				date < 1941.4.22
-				NOT = {
-					DRA = {
-						has_war_with = NOR
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = IRQ
-				date < 1941.3.2
-				NOT = {
-					has_war_with = TAR
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = SPR
-				date < 1941.1.1
-				NOT = {
-					OR = {
-						TAR = {
-							has_capitulated = yes
-						}
-						TAR = {
-							is_subject = yes
-						}
-						NOT = {
-							country_exists = TAR
-						}
-					}
-				}
-			}
 			modifier = {
 				factor = 0
 				is_subject = yes
@@ -2846,8 +2683,16 @@ focus_tree = {
 			focus = GOT_german_embassy
 		}
 		completion_reward = {
-			DRA = {
-				country_event = generic.2
+			if = {
+				limit = {
+					tag = DRA
+				}
+				create_faction = "Dragonstone Faction"
+			}
+			else = {
+				DRA = {
+					country_event = generic.2
+				}
 			}
 		}
 	}
@@ -2978,15 +2823,19 @@ focus_tree = {
 
 		cost = 5
 		available = {
-			STO = {
-				has_government = fascism
+			OR = {
+				STO = {
+					is_faction_leader = yes
+				}
+				tag = STO
 			}
-			RON_GOT_italy_faction = yes
 			country_exists = STO
 			is_in_faction = no
 			NOT = {
 				has_war_with = STO
 			}
+			GOT_can_join_renly = yes
+
 		}
 		bypass = {
 			is_in_faction_with = STO
@@ -3002,8 +2851,16 @@ focus_tree = {
 			focus = GOT_italian_embassy
 		}
 		completion_reward = {
-			STO = {
-				country_event = generic.2
+			if = {
+				limit = {
+					tag = STO
+				}
+				create_faction = "Stormlands Faction"
+			}
+			else = {
+				STO = {
+					country_event = generic.2
+				}
 			}
 		}
 	}
@@ -3065,7 +2922,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_opinion_modifier = {
-				target = MAN
+				target = CRO
 				modifier = RI_country_recognised
 			}
 		}
@@ -3133,26 +2990,22 @@ focus_tree = {
 
 		cost = 5
 		available = {
-			CRO = {
-				has_government = fascism
-
+			OR = {
+				CRO = {
+					is_faction_leader = yes
+				}
+				tag = CRO
 			}
-			RON_can_join_japan = yes
-
 			country_exists = CRO
 			is_in_faction = no
 			NOT = {
 				has_war_with = CRO
 			}
+			GOT_can_join_lannister = yes
+
 		}
 		ai_will_do = {
 			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				tag = SIA
-				date < 1941.10.21
-			}
 			modifier = {
 				factor = 0
 				is_subject = yes
@@ -3171,8 +3024,16 @@ focus_tree = {
 			focus = GOT_japanese_embassy
 		}
 		completion_reward = {
-			CRO = {
-				country_event = generic.2
+			if = {
+				limit = {
+					tag = CRO
+				}
+				create_faction = "Crownlands Faction"
+			}
+			else = {
+				CRO = {
+					country_event = generic.2
+				}
 			}
 		}
 	}
@@ -3204,27 +3065,27 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_allies = yes
+				GOT_Targaryen_Faction = yes
 			}
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_axis = yes
+				GOT_Stannis_Faction = yes
 			}
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_comintern = yes
+				GOT_Stark_Faction = yes
 			}
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_japan_faction = yes
+				GOT_Lannister_Faction = yes
 			}
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				RON_GOT_chinese_united_front = yes
+				GOT_Ironborn_Faction = yes
 			}
 		}
 		completion_reward = {

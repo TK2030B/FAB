@@ -1,0 +1,217 @@
+GOT_Targaryen_Faction = {
+	OR = {
+		tag = TAR
+	}
+}
+
+GOT_Stannis_Faction = {
+	OR = {
+		tag = DRA
+	}
+}
+
+GOT_Lannister_Faction = {
+	OR = {
+		tag = CRO
+	}
+}
+
+GOT_Renly_Faction = {
+	OR = {
+		tag = STO
+		tag = REA
+	}
+}
+
+GOT_Stark_Faction = {
+	OR = {
+		tag = NOR
+		tag = RIV
+	}
+}
+
+GOT_Ironborn_Faction = {
+	OR = {
+		tag = IRO
+	}
+}
+
+GOT_can_join_targaryen = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			TAR = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				TAR = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				TAR = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				TAR = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_stark = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			NOR = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				NOR = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				NOR = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				NOR = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_greyjoy = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			IRO = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				IRO = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				IRO = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				IRO = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_stannis = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			DRA = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				DRA = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				DRA = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				DRA = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_renly = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			STO = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				STO = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				STO = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				STO = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_lannister = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			CRO = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				CRO = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				CRO = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				CRO = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
