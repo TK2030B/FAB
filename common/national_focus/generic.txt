@@ -42,10 +42,33 @@ focus_tree = {
 			is_subject = no
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 			modifier = {
 				factor = 0
-				date < 1941.1.1
+				is_historical_focus_on = yes
+				NOT = {
+					has_completed_focus = GOT_military_academy
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					has_completed_focus = GOT_university
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					has_completed_focus = GOT_join_comintern
+					has_completed_focus = GOT_socialist_world_republic
+					has_completed_focus = GOT_join_allies
+					has_completed_focus = GOT_join_axis
+					has_completed_focus = GOT_join_italy
+					has_completed_focus = GOT_join_japan
+					has_completed_focus = GOT_open_border
+				}
 			}
 		}
 		completion_reward = {
@@ -71,7 +94,7 @@ focus_tree = {
 			focus = GOT_democratic_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -97,7 +120,7 @@ focus_tree = {
 			focus = GOT_communist_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -115,7 +138,7 @@ focus_tree = {
 			focus = GOT_communist_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -136,7 +159,7 @@ focus_tree = {
 			focus = GOT_send_representatives_in_factories
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			country_event = {
@@ -158,7 +181,7 @@ focus_tree = {
 			focus = GOT_send_representatives_in_factories
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_equipment_to_stockpile = {
@@ -183,7 +206,7 @@ focus_tree = {
 			focus = GOT_support_unions
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			country_event = {
@@ -208,7 +231,7 @@ focus_tree = {
 			focus = GOT_sabotage_factories
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -226,7 +249,7 @@ focus_tree = {
 			focus = GOT_strenghen_paramilitaries
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			country_event = {
@@ -246,7 +269,7 @@ focus_tree = {
 			focus = GOT_democratic_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			if = {
@@ -286,7 +309,7 @@ focus_tree = {
 			focus = GOT_non_alligned_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -312,7 +335,7 @@ focus_tree = {
 			focus = GOT_democratic_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			if = {
@@ -347,7 +370,7 @@ focus_tree = {
 			focus = GOT_democratic_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -371,7 +394,7 @@ focus_tree = {
 			focus = GOT_support_unions
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -392,7 +415,7 @@ focus_tree = {
 			focus = GOT_supporters_in_factories
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = RI_free_speech
@@ -414,7 +437,7 @@ focus_tree = {
 			focus = GOT_supporters_in_factories
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -438,7 +461,7 @@ focus_tree = {
 			focus = GOT_free_press
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -456,7 +479,7 @@ focus_tree = {
 			focus = GOT_draft_constitution
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			country_event = {
@@ -484,7 +507,7 @@ focus_tree = {
 			focus = GOT_democratic_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -510,7 +533,7 @@ focus_tree = {
 			focus = GOT_non_alligned_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -545,7 +568,7 @@ focus_tree = {
 			focus = GOT_non_alligned_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -583,7 +606,7 @@ focus_tree = {
 			focus = GOT_noble_birthright
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			if = {
@@ -624,7 +647,7 @@ focus_tree = {
 			focus = GOT_nationalist_ideas
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			if = {
@@ -662,7 +685,7 @@ focus_tree = {
 			focus = GOT_noble_birthright
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			if = {
@@ -703,7 +726,7 @@ focus_tree = {
 			focus = GOT_increase_patriotism
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			if = {
@@ -742,7 +765,7 @@ focus_tree = {
 			focus = GOT_controlled_opposition
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			country_event = {
@@ -762,7 +785,7 @@ focus_tree = {
 			focus = GOT_fascist_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_war_support = 0.1
@@ -787,7 +810,7 @@ focus_tree = {
 			focus = GOT_democratic_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -813,7 +836,7 @@ focus_tree = {
 			focus = GOT_fascist_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -831,7 +854,7 @@ focus_tree = {
 			focus = GOT_fascist_path
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -855,7 +878,7 @@ focus_tree = {
 			focus = GOT_racial_superiority
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_manpower = -10000
@@ -875,7 +898,7 @@ focus_tree = {
 			focus = GOT_racial_superiority
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -897,7 +920,7 @@ focus_tree = {
 			focus = GOT_racial_superiority
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -921,7 +944,7 @@ focus_tree = {
 			focus = GOT_massive_propaganda
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -939,7 +962,7 @@ focus_tree = {
 			focus = GOT_leader_principle
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			country_event = {
@@ -959,7 +982,7 @@ focus_tree = {
 			focus = GOT_revolution
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -978,7 +1001,7 @@ focus_tree = {
 			focus = GOT_successful_revolution
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = RI_military_resistance
@@ -994,7 +1017,7 @@ focus_tree = {
 			focus = GOT_successful_revolution
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_timed_idea = {
@@ -1019,7 +1042,7 @@ focus_tree = {
 			focus = GOT_five_year_plan
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1040,7 +1063,7 @@ focus_tree = {
 			focus = GOT_five_year_plan
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = {
@@ -1062,7 +1085,7 @@ focus_tree = {
 			focus = GOT_five_year_plan
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1089,7 +1112,7 @@ focus_tree = {
 			focus = GOT_socialism_in_one_country
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1117,7 +1140,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1135,7 +1158,7 @@ focus_tree = {
 			focus = GOT_hold_elections
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -1154,7 +1177,7 @@ focus_tree = {
 			focus = GOT_new_cabinet
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -1176,7 +1199,7 @@ focus_tree = {
 			focus = GOT_new_cabinet
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = {
@@ -1198,7 +1221,7 @@ focus_tree = {
 			focus = GOT_seperation_of_powers
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1219,7 +1242,7 @@ focus_tree = {
 			focus = GOT_seperation_of_powers
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1240,7 +1263,7 @@ focus_tree = {
 			focus = GOT_seperation_of_powers
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -1268,7 +1291,7 @@ focus_tree = {
 			focus = GOT_education_reform
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1286,7 +1309,7 @@ focus_tree = {
 			focus = GOT_unite_the_people
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -1305,7 +1328,7 @@ focus_tree = {
 			focus = GOT_stability
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -1327,7 +1350,7 @@ focus_tree = {
 			focus = GOT_stability
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1348,7 +1371,7 @@ focus_tree = {
 			focus = GOT_strenghen_patriotism
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = RI_political_resistance
@@ -1369,7 +1392,7 @@ focus_tree = {
 			focus = GOT_strenghen_patriotism
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = RI_military_resistance
@@ -1388,7 +1411,7 @@ focus_tree = {
 			focus = GOT_strenghen_patriotism
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1412,7 +1435,7 @@ focus_tree = {
 			focus = GOT_indoctrinate_schools
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1430,7 +1453,7 @@ focus_tree = {
 			focus = GOT_the_coup
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_popularity = {
@@ -1449,7 +1472,7 @@ focus_tree = {
 			focus = GOT_law_of_dictator
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1467,7 +1490,7 @@ focus_tree = {
 			focus = GOT_law_of_dictator
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = {
@@ -1488,7 +1511,7 @@ focus_tree = {
 			focus = GOT_purge_opposition
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1509,7 +1532,7 @@ focus_tree = {
 			focus = GOT_purge_opposition
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			remove_ideas = {
@@ -1530,7 +1553,7 @@ focus_tree = {
 			focus = GOT_purge_opposition
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			add_ideas = {
@@ -1554,7 +1577,7 @@ focus_tree = {
 			focus = GOT_military_youth
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 1600
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -1569,15 +1592,16 @@ focus_tree = {
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 16
 		y = 12
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		available = {
 			is_subject = no
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
-			add_political_power = 120
+			add_political_power = 30
 		}
 	}
 	focus = {
@@ -1588,12 +1612,10 @@ focus_tree = {
 		relative_position_id = GOT_diplomacy_focus
 
 		
-		cost = 5
-		available = {
-			is_in_faction = no
-		}
+		cost = 1
+		
 		ai_will_do = {
-			factor = 10
+			factor = 3200
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -1601,6 +1623,11 @@ focus_tree = {
 				GOT_Ironborn_Faction = no
 			}
 		}
+		
+		available = {
+			is_in_faction = no
+		}
+		
 		prerequisite = {
 			focus = GOT_diplomacy_focus
 		}
@@ -1624,7 +1651,27 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Stark_Faction = no
+			}
+			modifier = {
+				factor = 0
+				NOR = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				NOR = {
+					exists = no
+				}
+			}
+		}
 		prerequisite = {
 			focus = GOT_communist_foreign_policy
 		}
@@ -1634,9 +1681,7 @@ focus_tree = {
 		available = {
 			country_exists = NOR
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_opinion_modifier = {
 				target = NOR
@@ -1651,12 +1696,12 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_soviets
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = RI_soviet_militaries
@@ -1669,12 +1714,12 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_invite_soviet_officers
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -1690,13 +1735,14 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_soviets
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_manpower = -750
 			add_opinion_modifier = {
@@ -1712,13 +1758,14 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_hand_over_tsarists
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_opinion_modifier = {
 				target = NOR
@@ -1733,13 +1780,14 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_hand_over_tsarists
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_popularity = {
 				popularity = 0.1
@@ -1754,16 +1802,17 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_expand_communist_influence
 		}
 		prerequisite = {
 			focus = GOT_support_politics
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			give_guarantee = NOR
 			NOR = {
@@ -1778,11 +1827,31 @@ focus_tree = {
 		y = 6
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				NOR = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				NOR = {
+					exists = no
+				}
+			}
+		}
 		available = {
 			OR = {
-				NOR = {
-					is_faction_leader = yes
+				AND = {
+					NOR = {
+						is_faction_leader = yes
+					}
+					NOR = {
+						is_in_faction = yes
+					}
 				}
 				tag = NOR
 			}
@@ -1797,9 +1866,7 @@ focus_tree = {
 		bypass = {
 			is_in_faction_with = NOR
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		prerequisite = {
 			focus = GOT_mutual_guarantees
 		}
@@ -1814,7 +1881,7 @@ focus_tree = {
 				limit = {
 					tag = NOR
 				}
-				create_faction = "Stark Faction"
+				create_faction = "The King in the North"
 			}
 			else = {
 				NOR = {
@@ -1830,14 +1897,15 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_soviets
 			focus = GOT_fith_internationale
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			every_country = {
 				limit = {
@@ -1860,13 +1928,14 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_sanction_capitalists
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			every_country = {
 				limit = {
@@ -1889,20 +1958,35 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Ironborn_Faction = no
+			}
+			modifier = {
+				factor = 0
+				IRO = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				IRO = {
+					exists = no
+				}
+			}
+		}
 		prerequisite = {
 			focus = GOT_communist_foreign_policy
 		}
 		mutually_exclusive = {
 			focus = GOT_approach_soviets
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
+		
 		completion_reward = {
 			add_political_power = 30
 		}
@@ -1914,7 +1998,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_fith_internationale
 		}
@@ -1944,7 +2031,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_offer_false_alliances
 		}
@@ -1973,7 +2063,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_offer_false_alliances
 		}
@@ -1992,7 +2085,10 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_strike_fascists
 		}
@@ -2014,7 +2110,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_fith_internationale
 		}
@@ -2034,7 +2133,10 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_support_foreign_commies
 		}
@@ -2054,8 +2156,13 @@ focus_tree = {
 		relative_position_id = GOT_diplomacy_focus
 		available = {
 			OR = {
-				IRO = {
-					is_faction_leader = yes
+				AND = {
+					IRO = {
+						is_faction_leader = yes
+					}
+					IRO = {
+						is_in_faction = yes
+					}
 				}
 				tag = IRO
 			}
@@ -2070,7 +2177,22 @@ focus_tree = {
 		bypass = {
 			is_in_faction_with = IRO
 		}
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				IRO = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				IRO = {
+					exists = no
+				}
+			}
+		}
 		prerequisite = {
 			focus = GOT_our_socialism
 		}
@@ -2085,7 +2207,7 @@ focus_tree = {
 				limit = {
 					tag = IRO
 				}
-				create_faction = "Ironborn Faction"
+				create_faction = "The Iron Tide"
 			}
 			else = {
 				IRO = {
@@ -2101,18 +2223,32 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
-		available = {
-			is_in_faction = no
-		}
+		cost = 1
+		
 		ai_will_do = {
-			factor = 10
+			factor = 3200
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 				GOT_Targaryen_Faction = no
 			}
+			modifier = {
+				factor = 0
+				DRA = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				DRA = {
+					exists = no
+				}
+			}
 		}
+		available = {
+			is_in_faction = no
+		}
+		
 		prerequisite = {
 			focus = GOT_diplomacy_focus
 		}
@@ -2136,15 +2272,15 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_democratic_foreign_policy
 		}
 		available = {
 			country_exists = TAR
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_opinion_modifier = {
@@ -2160,16 +2296,17 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_democratic_foreign_policy
 		}
 		available = {
 			country_exists = PEN
 		}
-		ai_will_do = {
-			factor = 10
-		}
+
 		completion_reward = {
 			add_opinion_modifier = {
 				target = PEN
@@ -2184,16 +2321,17 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_democratic_foreign_policy
 		}
 		available = {
 			country_exists = DOT
 		}
-		ai_will_do = {
-			factor = 10
-		}
+
 		completion_reward = {
 			add_opinion_modifier = {
 				target = DOT
@@ -2208,7 +2346,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_england
 		}
@@ -2218,9 +2359,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GOT_approach_usa
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_ideas = free_trade
 		}
@@ -2232,16 +2371,17 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_expand_trade
 		}
 		prerequisite = {
 			focus = GOT_victims_of_extremism
 		}
-		ai_will_do = {
-			factor = 10
-		}
+
 		completion_reward = {
 			every_country = {
 				if = {
@@ -2265,13 +2405,14 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_sanction_extremists
 		}
-		ai_will_do = {
-			factor = 10
-		}
+
 		completion_reward = {
 			add_popularity = {
 				popularity = 0.1
@@ -2286,7 +2427,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_england
 		}
@@ -2295,9 +2439,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = GOT_approach_usa
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			#add_manpower = 1000
@@ -2310,15 +2451,15 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_expand_trade
 		}
 		prerequisite = {
 			focus = GOT_victims_of_extremism
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			if = {
@@ -2342,15 +2483,15 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_expand_trade
 		}
 		prerequisite = {
 			focus = GOT_victims_of_extremism
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			if = {
@@ -2374,12 +2515,12 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_save_haven
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			if = {
@@ -2409,12 +2550,12 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_increase_immigration
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			if = {
@@ -2444,11 +2585,33 @@ focus_tree = {
 		y = 6
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				TAR = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				TAR = {
+					exists = no
+				}
+			}
+		}
+		
 		available = {
 			OR = {
-				TAR = {
-					is_faction_leader = yes
+				AND = {
+					TAR = {
+						is_faction_leader = yes
+					}
+					TAR = {
+						is_in_faction = yes
+					}
 				}
 				tag = TAR
 			}
@@ -2463,19 +2626,7 @@ focus_tree = {
 		bypass = {
 			is_in_faction_with = TAR
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_subject = yes
-			}
-			modifier = {
-				factor = 0
-				TAR = {
-					has_capitulated = yes
-				}
-			}
-		}
+		
 		prerequisite = {
 			focus = GOT_support_democratic_organisations
 		}
@@ -2490,7 +2641,7 @@ focus_tree = {
 				limit = {
 					tag = TAR
 				}
-				create_faction = "Targaryen Faction"
+				create_faction = "Fire and Blood"
 			}
 			else = {
 				TAR = {
@@ -2506,7 +2657,15 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Baratheon_Faction = no
+			}
+		}
 		available = {
 			is_in_faction = no
 		}
@@ -2522,16 +2681,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GOT_stay_neutral
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				GOT_Stannis_Faction = no
-				GOT_Lannister_Faction = no
-				GOT_Renly_Faction = no
-			}
-		}
+		
 		completion_reward = {
 			add_political_power = 30
 		}
@@ -2543,7 +2693,27 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Stannis_Faction = no
+			}
+			modifier = {
+				factor = 0
+				DRA = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				DRA = {
+					exists = no
+				}
+			}
+		}
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
 		}
@@ -2556,9 +2726,7 @@ focus_tree = {
 		available = {
 			country_exists = DRA
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_opinion_modifier = {
 				target = DRA
@@ -2573,13 +2741,14 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_germany
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			every_state = {
 				add_manpower = -1000
@@ -2593,13 +2762,14 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_germany
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_opinion_modifier = {
 				target = NOR
@@ -2614,7 +2784,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_cast_out_jews
 		}
@@ -2624,9 +2797,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GOT_recognise_franco
 		}
-		ai_will_do = {
-			factor = 10
-		}
+		
 		completion_reward = {
 			add_opinion_modifier = {
 				target = DRA
@@ -2641,11 +2812,31 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				DRA = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				DRA = {
+					exists = no
+				}
+			}
+		}
 		available = {
 			OR = {
-				DRA = {
-					is_faction_leader = yes
+				AND = {
+					DRA = {
+						is_faction_leader = yes
+					}
+					DRA = {
+						is_in_faction = yes
+					}
 				}
 				tag = DRA
 			}
@@ -2660,19 +2851,7 @@ focus_tree = {
 		bypass = {
 			is_in_faction_with = DRA
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_subject = yes
-			}
-			modifier = {
-				factor = 0
-				DRA = {
-					has_capitulated = yes
-				}
-			}
-		}
+		
 		prerequisite = {
 			focus = GOT_german_embassy
 		}
@@ -2681,7 +2860,7 @@ focus_tree = {
 				limit = {
 					tag = DRA
 				}
-				create_faction = "Dragonstone Faction"
+				create_faction = "The True King"
 			}
 			else = {
 				DRA = {
@@ -2697,25 +2876,21 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
-		available = {
-			NOT = {
-				tag = SPR
-			}
-			OR = {
-				has_global_flag = nationalist_victory
-			}
-		}
+		cost = 1
 		ai_will_do = {
-			factor = 10
+			factor = 3200
 		}
+		available = {
+
+		}
+		
 		prerequisite = {
 			focus = GOT_approach_germany
 			focus = GOT_approach_italy
 		}
 		completion_reward = {
 			add_opinion_modifier = {
-				target = SPR
+				target = CRO
 				modifier = RI_country_recognised
 			}
 		}
@@ -2727,7 +2902,27 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Renly_Faction = no
+			}
+			modifier = {
+				factor = 0
+				STO = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				STO = {
+					exists = no
+				}
+			}
+		}
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
 		}
@@ -2754,7 +2949,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_italy
 		}
@@ -2772,7 +2970,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_italy
 		}
@@ -2791,7 +2992,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_support_mussolini
 		}
@@ -2815,11 +3019,31 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				STO = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				STO = {
+					exists = no
+				}
+			}
+		}
 		available = {
 			OR = {
-				STO = {
-					is_faction_leader = yes
+				AND = {
+					STO = {
+						is_faction_leader = yes
+					}
+					STO = {
+						is_in_faction = yes
+					}
 				}
 				tag = STO
 			}
@@ -2834,13 +3058,6 @@ focus_tree = {
 		bypass = {
 			is_in_faction_with = STO
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
 		prerequisite = {
 			focus = GOT_italian_embassy
 		}
@@ -2849,7 +3066,7 @@ focus_tree = {
 				limit = {
 					tag = STO
 				}
-				create_faction = "Stormlands Faction"
+				create_faction = "The Storm"
 			}
 			else = {
 				STO = {
@@ -2865,7 +3082,27 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Lannister_Faction = no
+			}
+			modifier = {
+				factor = 0
+				CRO = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				CRO = {
+					exists = no
+				}
+			}
+		}
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
 		}
@@ -2892,7 +3129,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_japan
 		}
@@ -2910,7 +3150,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_japan
 		}
@@ -2928,7 +3171,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_approach_japan
 		}
@@ -2958,7 +3204,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_sanction_colonialists
 		}
@@ -2982,11 +3231,31 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				CRO = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				CRO = {
+					exists = no
+				}
+			}
+		}
 		available = {
 			OR = {
-				CRO = {
-					is_faction_leader = yes
+				AND = {
+					CRO = {
+						is_faction_leader = yes
+					}
+					CRO = {
+						is_in_faction = yes
+					}
 				}
 				tag = CRO
 			}
@@ -2998,19 +3267,7 @@ focus_tree = {
 			GOT_can_join_lannister = yes
 
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_subject = yes
-			}
-			modifier = {
-				factor = 0
-				CRO = {
-					has_capitulated = yes
-				}
-			}
-		}
+		
 		bypass = {
 			is_in_faction_with = CRO
 		}
@@ -3022,7 +3279,7 @@ focus_tree = {
 				limit = {
 					tag = CRO
 				}
-				create_faction = "Crownlands Faction"
+				create_faction = "The Iron Throne"
 			}
 			else = {
 				CRO = {
@@ -3038,7 +3295,30 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Targaryen_Faction = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Stark_Faction = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Ironborn_Faction = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Baratheon_Faction = yes
+			}
+		}
 		prerequisite = {
 			focus = GOT_diplomacy_focus
 		}
@@ -3054,35 +3334,12 @@ focus_tree = {
 		available = {
 			is_in_faction = no
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				GOT_Targaryen_Faction = yes
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				GOT_Stannis_Faction = yes
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				GOT_Stark_Faction = yes
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				GOT_Lannister_Faction = yes
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				GOT_Ironborn_Faction = yes
-			}
-		}
+		
 		completion_reward = {
+			if = {
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
+			}
 			add_political_power = 30
 		}
 	}
@@ -3093,7 +3350,10 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_stay_neutral
 		}
@@ -3111,7 +3371,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_prepare_for_war
 		}
@@ -3146,7 +3409,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_prepare_for_war
 		}
@@ -3193,7 +3459,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_acquire_weapons
 		}
@@ -3213,7 +3482,10 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_stay_neutral
 		}
@@ -3231,7 +3503,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_role_in_war
 		}
@@ -3257,7 +3532,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_role_in_war
 		}
@@ -3284,7 +3562,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_sell_weapons_to_france
 		}
@@ -3304,7 +3585,10 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_stay_neutral
 		}
@@ -3322,7 +3606,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_deterrence
 		}
@@ -3377,7 +3664,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_deterrence
 		}
@@ -3414,7 +3704,10 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
 		prerequisite = {
 			focus = GOT_fortification_efforts
 		}
@@ -3434,7 +3727,14 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
-		cost = 5
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
 		prerequisite = {
 			focus = GOT_why_we_fight
 		}
@@ -3444,12 +3744,10 @@ focus_tree = {
 		prerequisite = {
 			focus = GOT_extend_training
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
+		
+		available = {
+			is_major = yes
+
 		}
 		completion_reward = {
 			set_rule = {
@@ -3466,6 +3764,9 @@ focus_tree = {
 		x = 34
 		y = 0
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		mutually_exclusive = {
 			focus = GOT_planned_economy
 		}
@@ -3485,6 +3786,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_free_market
 		}
@@ -3529,6 +3833,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_support_middle_class
 		}
@@ -3545,6 +3852,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_support_middle_class
 		}
@@ -3618,6 +3928,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_invite_foreign_investors
 		}
@@ -3637,6 +3950,9 @@ focus_tree = {
 		y = 0
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		mutually_exclusive = {
 			focus = GOT_free_market
 		}
@@ -3656,6 +3972,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_planned_economy
 		}
@@ -3682,6 +4001,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_liquidate_unprofital_business
 		}
@@ -3709,6 +4031,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_liquidate_unprofital_business
 		}
@@ -3752,6 +4077,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_rations
 		}
@@ -3771,6 +4099,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_planned_economy
 			focus = GOT_free_market
@@ -3791,6 +4122,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_planned_economy
 			focus = GOT_free_market
@@ -3811,6 +4145,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_tungsten_mines
 		}
@@ -3830,6 +4167,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_invite_foreign_investors
 			focus = GOT_rations
@@ -3853,6 +4193,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_fiscal_reforms
 			focus = GOT_loosen_restrictions
@@ -3978,6 +4321,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_fiscal_reforms
 			focus = GOT_loosen_restrictions
@@ -4060,6 +4406,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_fiscal_reforms
 			focus = GOT_loosen_restrictions
@@ -4140,6 +4489,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_free_market
 		cost = 5
+		ai_will_do = {
+			factor = 800
+		}
 		prerequisite = {
 			focus = GOT_war_economy
 		}
@@ -4159,6 +4511,9 @@ focus_tree = {
 		x = 48
 		y = 0
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		completion_reward = {
 			army_experience = 25
 		}
@@ -4170,6 +4525,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_army_efforts
 		}
@@ -4189,6 +4547,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_offensive_army
 		}
@@ -4208,6 +4569,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_armoured_cars
 		}
@@ -4227,6 +4591,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_offensive_army
 		}
@@ -4243,6 +4610,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_decentralised_army
 		}
@@ -4260,6 +4630,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_decentralised_army
 		}
@@ -4276,6 +4649,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_independent_officers
 		}
@@ -4298,6 +4674,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_offensive_army
 		}
@@ -4317,6 +4696,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_offensive_artillery
 		}
@@ -4336,6 +4718,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_tanks
 		}
@@ -4365,6 +4750,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_light_artillery
 		}
@@ -4394,6 +4782,9 @@ focus_tree = {
 		y = 6
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_auxilliary_corps
 		}
@@ -4417,6 +4808,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_offensive_army
 			focus = GOT_defensive_army
@@ -4436,6 +4830,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_chemicals
 		}
@@ -4454,6 +4851,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_army_efforts
 		}
@@ -4473,6 +4873,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_defensive_army
 		}
@@ -4491,6 +4894,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_never_ending_barrage
 		}
@@ -4509,6 +4915,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_defensive_army
 		}
@@ -4525,6 +4934,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_centralised_army
 		}
@@ -4541,6 +4953,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_centralised_army
 		}
@@ -4558,6 +4973,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_order_and_discipline
 		}
@@ -4579,6 +4997,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_defensive_army
 		}
@@ -4597,6 +5018,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_dig_in_and_pray
 		}
@@ -4613,6 +5037,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_heavy_artillery
 		}
@@ -4641,6 +5068,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_impenetrable_fortress
 		}
@@ -4669,6 +5099,9 @@ focus_tree = {
 		y = 6
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_shovel_for_every_soldier
 		}
@@ -4692,6 +5125,9 @@ focus_tree = {
 		y = 7
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_endless_advance
 			focus = GOT_endless_defense
@@ -4739,6 +5175,9 @@ focus_tree = {
 		y = 7
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_endless_advance
 			focus = GOT_endless_defense
@@ -4786,6 +5225,9 @@ focus_tree = {
 		y = 8
 		relative_position_id = GOT_army_efforts
 		cost = 5
+		ai_will_do = {
+			factor = 400
+		}
 		prerequisite = {
 			focus = GOT_standardise_designs
 		}
@@ -4802,6 +5244,9 @@ focus_tree = {
 		x = 59
 		y = 0
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		cancel_if_invalid = yes #This is here to prevent players from starting it, and then selecting GOT_Mode
 		available = { #This is here to prevent players from starting it, and then selecting GOT_Mode
 			OR = {
@@ -4820,6 +5265,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_air_force
 		}
@@ -4843,6 +5291,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_scout_planes
 		}
@@ -4863,6 +5314,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_british_fighters
 		}
@@ -4879,6 +5333,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_british_fighters
 		}
@@ -4910,6 +5367,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_own_fighters
 		}
@@ -4932,6 +5392,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_scout_planes
 		}
@@ -5019,6 +5482,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_build_airfields
 		}
@@ -5046,6 +5512,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_scout_planes
 		}
@@ -5066,6 +5535,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_german_zeppeline
 		}
@@ -5091,6 +5563,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_german_zeppeline
 		}
@@ -5120,6 +5595,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_own_bombers
 		}
@@ -5147,6 +5625,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_air_force
 		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
 		prerequisite = {
 			focus = GOT_night_raids
 		}
@@ -5170,6 +5651,9 @@ focus_tree = {
 		x = 70
 		y = 0
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		available = {
 			any_state = {
 				is_coastal = yes
@@ -5187,6 +5671,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_new_navy
 		}
@@ -5205,6 +5692,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_new_navy
 		}
@@ -5223,6 +5713,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_new_navy
 		}
@@ -5242,6 +5735,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_new_navy
 		}
@@ -5260,6 +5756,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_battlecruisers
 			focus = GOT_patrol_boats
@@ -5352,6 +5851,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_dockyards
 		}
@@ -5371,6 +5873,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_dockyards
 		}
@@ -5390,6 +5895,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_cheap_fleet
 			focus = GOT_expensive_fleet
@@ -5512,6 +6020,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_battlecruisers
 			focus = GOT_patrol_boats
@@ -5531,6 +6042,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_trade
 		}
@@ -5549,6 +6063,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_trade
 		}
@@ -5568,6 +6085,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_intercept_enemies
 		}
@@ -5587,6 +6107,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_battlecruisers
 			focus = GOT_patrol_boats
@@ -5607,6 +6130,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_new_admirality
 		}
@@ -5634,6 +6160,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_new_admirality
 		}
@@ -5665,6 +6194,9 @@ focus_tree = {
 		y = 4
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_raider_doctrine
 			focus = GOT_old_doctrine
@@ -5686,6 +6218,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_marine_infantry
 		}
@@ -5709,6 +6244,9 @@ focus_tree = {
 		y = 5
 		relative_position_id = GOT_new_navy
 		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
 		prerequisite = {
 			focus = GOT_marine_infantry
 		}

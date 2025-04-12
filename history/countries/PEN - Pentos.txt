@@ -36,15 +36,17 @@ add_ideas = {
 	GOT_Religion_LOL
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = TAR
-		autonomous_state = autonomy_feudal_dominion
-	}
-	else = {
-		puppet = TAR
-	}
-}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = TAR
+#		autonomous_state = autonomy_feudal_dominion
+#	}
+#	else = {
+#		puppet = TAR
+#	}
+#}
+
+give_guarantee = TAR

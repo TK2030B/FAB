@@ -18,114 +18,126 @@ add_ideas = indebted_crown
 set_research_slots = 3
 
 # DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = NOR
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = NOR
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = RIV
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = RIV
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = VAL
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = VAL
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = IRO
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = IRO
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = WES
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = WES
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = REA
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = REA
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = DOR
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = DOR
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = STO
-		autonomous_state = autonomy_high_lordship
-	}
-	else = {
-		puppet = STO
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = DRA
-		autonomous_state = autonomy_feudal_dominion
-	}
-	else = {
-		puppet = DRA
-	}
-}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = NOR
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = NOR
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = RIV
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = RIV
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = VAL
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = VAL
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = IRO
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = IRO
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = WES
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = WES
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = REA
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = REA
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = DOR
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = DOR
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = STO
+#		autonomous_state = autonomy_high_lordship
+#	}
+#	else = {
+#		puppet = STO
+#	}
+#}
+#if = {
+#	limit = {
+#		has_dlc = "Together for Victory"
+#	}
+#	set_autonomy = {
+#		target = DRA
+#		autonomous_state = autonomy_feudal_dominion
+#	}
+#	else = {
+#		puppet = DRA
+#	}
+#}
+
+NOR = { give_guarantee = CRO }
+IRO = { give_guarantee = CRO }
+VAL = { give_guarantee = CRO }
+RIV = { give_guarantee = CRO }
+WES = { give_guarantee = CRO }
+REA = { give_guarantee = CRO }
+STO = { give_guarantee = CRO }
+DOR = { give_guarantee = CRO }
+DRA = { give_guarantee = CRO }
+
+create_faction = "The Iron Throne"
 
 set_convoys = 150
 

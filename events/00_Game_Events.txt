@@ -43,7 +43,16 @@ country_event = {
 	option = {
 		name = Game_Event.2.a
 		
-		country_event = { id = Game_Event.8 }
+		#Added This Temporarily, while Game Event 8 is disabled
+		add_ideas = GOT_Mode_Vanilla
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			country_event = { id = Game_Event.3 }
+		}
+		
+		#country_event = { id = Game_Event.8 }
 		
 	}
 	
@@ -69,7 +78,7 @@ country_event = {
 			country_event = { id = Game_Event.4 }
 		}
 		
-		country_event = { id = Game_Event.8 }
+		#country_event = { id = Game_Event.8 }
 		
 	}
 }

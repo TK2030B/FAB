@@ -172,39 +172,39 @@ country_event = {
 				target = NOR
 				type = annex_everything
 			}
-			declare_war_on = {
-				target = RIV
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = STO
-				type = annex_everything
-			}
+			#declare_war_on = {
+			#	target = RIV
+			#	type = annex_everything
+			#}
+			#declare_war_on = {
+			#	target = STO
+			#	type = annex_everything
+			#}
 			create_faction = "Lannister Family Pact"
 			add_to_faction = WES
-			add_to_faction = IRO
-			add_to_faction = REA
+			#add_to_faction = IRO
+			#add_to_faction = REA
 		}
 		
 		NOR = {
 			create_faction = "Kingdom of the North"
-			add_to_faction = RIV
+			#add_to_faction = RIV
 		}
 		
 		DRA = {
 			create_faction = "Dragonstone"
 		}
 		
-		STO = {
-			create_faction = "Stormlands"
-		}
+		#STO = {
+		#	create_faction = "Stormlands"
+		#}
 		
-		WIL = {
-			declare_war_on = {
-				target = NWA
-				type = annex_everything
-			}
-		}
+		#WIL = {
+		#	declare_war_on = {
+		#		target = NWA
+		#		type = annex_everything
+		#	}
+		#}
 		
 	}
 }

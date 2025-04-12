@@ -48,6 +48,13 @@ units = {				#ca 17k totally
 		start_equipment_factor = 1
 	}
 	division = {
+		name = "Gate of The Gods Garrison"
+		location = 4680
+		division_template = "City Watch"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
 		name = "Lannister Household Guard"
 		location = 2234
 		division_template = "Lannister Household Guard"

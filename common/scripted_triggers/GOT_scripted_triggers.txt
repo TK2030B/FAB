@@ -4,6 +4,14 @@ GOT_Targaryen_Faction = {
 	}
 }
 
+GOT_Baratheon_Faction = {
+	OR = {
+		GOT_Stannis_Faction = yes
+		GOT_Lannister_Faction = yes
+		GOT_Renly_Faction = yes
+	}
+}
+
 GOT_Stannis_Faction = {
 	OR = {
 		tag = DRA
@@ -13,6 +21,7 @@ GOT_Stannis_Faction = {
 GOT_Lannister_Faction = {
 	OR = {
 		tag = CRO
+		tag = WES
 	}
 }
 

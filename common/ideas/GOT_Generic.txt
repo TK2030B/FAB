@@ -489,7 +489,7 @@ ideas = {
 			}
 		}
 		RI_monarchist_politics = {
-			picture = hun_hungarian_monarchy
+			picture = neutrality_idea
 			allowed = {
 				always = no
 			}
@@ -507,7 +507,7 @@ ideas = {
 			}
 		}
 		RI_monarchist_politics1 = {
-			picture = hun_hungarian_monarchy
+			picture = neutrality_idea
 			allowed = {
 				always = no
 			}
@@ -545,7 +545,7 @@ ideas = {
 			}
 		}
 		RI_monarchist_opposition1 = {
-			picture = rom_carol_ii_hedonist
+			picture = neutrality_idea
 			allowed = {
 				always = no
 			}
@@ -1267,7 +1267,7 @@ ideas = {
 			}
 		}
 		RI_army_for_defense = {
-			picture = yug_federal_defense_council
+			picture = generic_reserve_divisions
 			allowed = {
 				always = no
 			}
@@ -1342,7 +1342,7 @@ ideas = {
 			}
 		}
 		RI_army_for_defense2 = {
-			picture = yug_federal_defense_council
+			picture = generic_reserve_divisions
 			allowed = {
 				always = no
 			}
