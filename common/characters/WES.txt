@@ -128,8 +128,8 @@ characters={
 			expire="1965.1.1.1"
 			traits = {  
 				political_manipulator  
-				the_foreign_connection  
-				ambitious_negotiator_neutrality  
+				#the_foreign_connection  
+				#ambitious_negotiator_neutrality  
 				popular_figurehead  
 				economic_reformer  
 				smooth_talking_charmer  
