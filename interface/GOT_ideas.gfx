@@ -170,6 +170,437 @@ spriteType = {
         name = "GFX_idea_GOT_Tradition_Melting_Pot"
         texturefile = "gfx/interface/ideas/Tradition/Tradition_Melting_Pot.dds"
     }
+	
+	spriteType = {
+		name = "GFX_idea_RI_commie_army"
+		texturefile = "gfx/interface/ideas/Generic/RI_commie_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_commie_factories"
+		texturefile = "gfx/interface/ideas/Generic/RI_commie_factories.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_commie_paramilitaries"
+		texturefile = "gfx/interface/ideas/Generic/RI_commie_paramilitaries.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_commie_unions"
+		texturefile = "gfx/interface/ideas/Generic/RI_commie_unions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_democratic_unions"
+		texturefile = "gfx/interface/ideas/Generic/RI_democratic_unions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_democrat_factories"
+		texturefile = "gfx/interface/ideas/Generic/RI_democrat_factories.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_democrat_factories1"
+		texturefile = "gfx/interface/ideas/Generic/RI_democrat_factories1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_free_speech"
+		texturefile = "gfx/interface/ideas/Generic/RI_free_speech.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_democratic_workers"
+		texturefile = "gfx/interface/ideas/Generic/RI_democratic_workers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_free_press"
+		texturefile = "gfx/interface/ideas/Generic/RI_free_press.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_founded_parliament"
+		texturefile = "gfx/interface/ideas/Generic/RI_founded_parliament.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_constitution"
+		texturefile = "gfx/interface/ideas/Generic/RI_constitution.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_loyal_military"
+		texturefile = "gfx/interface/ideas/Generic/RI_loyal_military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_disloyal_military"
+		texturefile = "gfx/interface/ideas/Generic/RI_disloyal_military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_loyal_people"
+		texturefile = "gfx/interface/ideas/Generic/RI_loyal_people.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_disloyal_people"
+		texturefile = "gfx/interface/ideas/Generic/RI_disloyal_people.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_monarchist_politics"
+		texturefile = "gfx/interface/ideas/Generic/RI_monarchist_politics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_monarchist_politics1"
+		texturefile = "gfx/interface/ideas/Generic/RI_monarchist_politics1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_monarchist_opposition"
+		texturefile = "gfx/interface/ideas/Generic/RI_monarchist_opposition.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_monarchist_opposition1"
+		texturefile = "gfx/interface/ideas/Generic/RI_monarchist_opposition1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_just_strongs"
+		texturefile = "gfx/interface/ideas/Generic/RI_just_strongs.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_noble_support"
+		texturefile = "gfx/interface/ideas/Generic/RI_noble_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_fascist_paramilitaries"
+		texturefile = "gfx/interface/ideas/Generic/RI_fascist_paramilitaries.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_absolute_fuhrer"
+		texturefile = "gfx/interface/ideas/Generic/RI_absolute_fuhrer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_military_resistance"
+		texturefile = "gfx/interface/ideas/Generic/RI_military_resistance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_five_year_plan"
+		texturefile = "gfx/interface/ideas/Generic/RI_five_year_plan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_commie_education"
+		texturefile = "gfx/interface/ideas/Generic/RI_commie_education.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_political_resistance"
+		texturefile = "gfx/interface/ideas/Generic/RI_political_resistance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_mass_mobilisation_commie_idea"
+		texturefile = "gfx/interface/ideas/Generic/RI_mass_mobilisation_commie_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_spread_revolution_idea"
+		texturefile = "gfx/interface/ideas/Generic/RI_spread_revolution_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_isolationism"
+		texturefile = "gfx/interface/ideas/Generic/RI_isolationism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_democratic_education"
+		texturefile = "gfx/interface/ideas/Generic/RI_democratic_education.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_home_of_the_free_idea"
+		texturefile = "gfx/interface/ideas/Generic/RI_home_of_the_free_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_spread_democracy"
+		texturefile = "gfx/interface/ideas/Generic/RI_spread_democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_helped_poor"
+		texturefile = "gfx/interface/ideas/Generic/RI_helped_poor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_patriotism"
+		texturefile = "gfx/interface/ideas/Generic/RI_patriotism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_indoctrinated_schools"
+		texturefile = "gfx/interface/ideas/Generic/RI_indoctrinated_schools.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_no_questions"
+		texturefile = "gfx/interface/ideas/Generic/RI_no_questions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_propaganda"
+		texturefile = "gfx/interface/ideas/Generic/RI_propaganda.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_fascist_youth"
+		texturefile = "gfx/interface/ideas/Generic/RI_fascist_youth.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_fash_cult"
+		texturefile = "gfx/interface/ideas/Generic/RI_fash_cult.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_total_dictator"
+		texturefile = "gfx/interface/ideas/Generic/RI_total_dictator.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_soviet_militaries"
+		texturefile = "gfx/interface/ideas/Generic/RI_soviet_militaries.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_soviet_militaries2"
+		texturefile = "gfx/interface/ideas/Generic/RI_soviet_militaries2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_refugees"
+		texturefile = "gfx/interface/ideas/Generic/RI_refugees.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_refugees1"
+		texturefile = "gfx/interface/ideas/Generic/RI_refugees1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_refugees2"
+		texturefile = "gfx/interface/ideas/Generic/RI_refugees2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_refugees3"
+		texturefile = "gfx/interface/ideas/Generic/RI_refugees3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_refugees4"
+		texturefile = "gfx/interface/ideas/Generic/RI_refugees4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_refugees5"
+		texturefile = "gfx/interface/ideas/Generic/RI_refugees5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_more_weapons"
+		texturefile = "gfx/interface/ideas/Generic/RI_more_weapons.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_train_troops"
+		texturefile = "gfx/interface/ideas/Generic/RI_train_troops.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_intervention"
+		texturefile = "gfx/interface/ideas/Generic/RI_intervention.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_war_refugees"
+		texturefile = "gfx/interface/ideas/Generic/RI_war_refugees.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_deterrence_idea"
+		texturefile = "gfx/interface/ideas/Generic/RI_deterrence_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_war_preparations"
+		texturefile = "gfx/interface/ideas/Generic/RI_war_preparations.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_commie_partisans"
+		texturefile = "gfx/interface/ideas/Generic/RI_commie_partisans.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_free_economy"
+		texturefile = "gfx/interface/ideas/Generic/RI_free_economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_more_payment"
+		texturefile = "gfx/interface/ideas/Generic/RI_more_payment.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_better_taxes"
+		texturefile = "gfx/interface/ideas/Generic/RI_better_taxes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_no_free_economy"
+		texturefile = "gfx/interface/ideas/Generic/RI_no_free_economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_no_production_laws"
+		texturefile = "gfx/interface/ideas/Generic/RI_no_production_laws.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_more_resources"
+		texturefile = "gfx/interface/ideas/Generic/RI_more_resources.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_better_research"
+		texturefile = "gfx/interface/ideas/Generic/RI_better_research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_army_for_offense"
+		texturefile = "gfx/interface/ideas/Generic/RI_army_for_offense.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_decentralisation_of_army"
+		texturefile = "gfx/interface/ideas/Generic/RI_decentralisation_of_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_decentralisation_of_army2"
+		texturefile = "gfx/interface/ideas/Generic/RI_decentralisation_of_army2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_esprit_de_corps_idea"
+		texturefile = "gfx/interface/ideas/Generic/RI_esprit_de_corps_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_army_for_offense2"
+		texturefile = "gfx/interface/ideas/Generic/RI_army_for_offense2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_army_for_defense"
+		texturefile = "gfx/interface/ideas/Generic/RI_army_for_defense.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_centralisation_of_army"
+		texturefile = "gfx/interface/ideas/Generic/RI_centralisation_of_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_OrDeR"
+		texturefile = "gfx/interface/ideas/Generic/RI_OrDeR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_centralisation_of_army2"
+		texturefile = "gfx/interface/ideas/Generic/RI_centralisation_of_army2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_you_shall_not_pass"
+		texturefile = "gfx/interface/ideas/Generic/RI_you_shall_not_pass.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_army_for_defense2"
+		texturefile = "gfx/interface/ideas/Generic/RI_army_for_defense2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_standards"
+		texturefile = "gfx/interface/ideas/Generic/RI_standards.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_optimised_production"
+		texturefile = "gfx/interface/ideas/Generic/RI_optimised_production.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_best_pilots"
+		texturefile = "gfx/interface/ideas/Generic/RI_best_pilots.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_biggest_bombs"
+		texturefile = "gfx/interface/ideas/Generic/RI_biggest_bombs.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_bombs_at_night"
+		texturefile = "gfx/interface/ideas/Generic/RI_bombs_at_night.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_more_convoys"
+		texturefile = "gfx/interface/ideas/Generic/RI_more_convoys.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_coastal_forts"
+		texturefile = "gfx/interface/ideas/Generic/RI_coastal_forts.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_admirality"
+		texturefile = "gfx/interface/ideas/Generic/RI_admirality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_naval_academy"
+		texturefile = "gfx/interface/ideas/Generic/RI_naval_academy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_big_fleet"
+		texturefile = "gfx/interface/ideas/Generic/RI_big_fleet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RI_cheap_fleet_idea"
+		texturefile = "gfx/interface/ideas/Generic/RI_cheap_fleet_idea.dds"
+	}
+
 
 
 
