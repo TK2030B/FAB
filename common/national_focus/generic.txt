@@ -1832,7 +1832,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = GOT_Religion_Old_Gods
+			country_event = {
+				id = GOT_Generic.12
+				days = 1
+			}
 		}
 	}
 	focus = {
@@ -2109,7 +2112,10 @@ focus_tree = {
 			focus = GOT_great_betrayal
 		}
 		completion_reward = {
-			add_ideas = GOT_Religion_Drowned_God
+			country_event = {
+				id = GOT_Generic.13
+				days = 1
+			}
 		}
 	}
 	focus = {
@@ -2150,7 +2156,10 @@ focus_tree = {
 			focus = GOT_support_foreign_commies
 		}
 		completion_reward = {
-			add_ideas = GOT_Tradition_Ironborn
+			country_event = {
+				id = GOT_Generic.15
+				days = 1
+			}
 		}
 	}
 	focus = {
@@ -2980,7 +2989,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = GOT_Religion_LOL
+			country_event = {
+				id = GOT_Generic.14
+				days = 1
+			}
 		}
 	}
 	focus = {

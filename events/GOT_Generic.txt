@@ -216,3 +216,191 @@ country_event = {
 		add_ideas = RI_military_resistance
 	}
 }
+
+country_event = {
+	id = GOT_Generic.12
+	title = GOT_Generic.12.t
+	desc = GOT_Generic.12.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.12.a
+		trigger = {
+			NOT = { has_idea = GOT_Religion_Old_Gods }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_stability = -0.10
+		add_ideas = GOT_Religion_Old_Gods
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_idea = GOT_Religion_Old_Gods }
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.12.b
+		add_stability = 0.10
+	}
+	
+	option = {
+		trigger = {
+			has_idea = GOT_Religion_Old_Gods
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.12.c
+		add_stability = 0.10
+	}
+}
+
+country_event = {
+	id = GOT_Generic.13
+	title = GOT_Generic.13.t
+	desc = GOT_Generic.13.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.13.a
+		trigger = {
+			NOT = { has_idea = GOT_Religion_Drowned_God }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_stability = -0.10
+		add_ideas = GOT_Religion_Drowned_God
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_idea = GOT_Religion_Drowned_God }
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.13.b
+		add_stability = 0.10
+	}
+	
+	option = {
+		trigger = {
+			has_idea = GOT_Religion_Drowned_God
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.13.c
+		add_stability = 0.10
+	}
+}
+
+country_event = {
+	id = GOT_Generic.14
+	title = GOT_Generic.14.t
+	desc = GOT_Generic.14.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.14.a
+		trigger = {
+			NOT = { has_idea = GOT_Religion_LOL }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_stability = -0.10
+		add_ideas = GOT_Religion_LOL
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_idea = GOT_Religion_LOL }
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.14.b
+		add_stability = 0.10
+	}
+	
+	option = {
+		trigger = {
+			has_idea = GOT_Religion_LOL
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.14.c
+		add_stability = 0.10
+	}
+}
+
+country_event = {
+	id = GOT_Generic.15
+	title = GOT_Generic.15.t
+	desc = GOT_Generic.15.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Generic.15.a
+		trigger = {
+			NOT = { has_idea = GOT_Tradition_Ironborn }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_stability = -0.10
+		add_ideas = GOT_Tradition_Ironborn
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_idea = GOT_Tradition_Ironborn }
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.15.b
+		add_stability = 0.10
+	}
+	
+	option = {
+		trigger = {
+			has_idea = GOT_Tradition_Ironborn
+		}
+		ai_chance = {
+			base = 100
+		}
+		name = GOT_Generic.15.c
+		add_stability = 0.10
+	}
+}

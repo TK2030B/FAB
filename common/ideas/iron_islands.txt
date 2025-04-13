@@ -4,7 +4,6 @@ ideas = {
 
 		IRO_neglected_landforces = {
 
-			picture = jap_interservice_rivalry_navy_dominant
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1

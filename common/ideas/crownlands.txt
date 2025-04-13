@@ -14,8 +14,6 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_agrarian_reform
-
 			modifier = {
 				recruitable_population_factor = -0.15
 			}
@@ -52,8 +50,6 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = NOR_printing_money
-
 			modifier = {
 				production_speed_infrastructure_factor = -0.5
 				production_speed_rail_way_factor = -0.5
@@ -76,8 +72,6 @@ ideas = {
 
 		CRO_king_hunting_id = {
 
-			picture = ROM_carol_ii_greed
-
 			removal_cost = -1
 			
 			allowed = {
@@ -91,8 +85,6 @@ ideas = {
 		}
 
 		CRO_festival_id = {
-
-			picture = ROM_carol_ii_greed
 
 			removal_cost = -1
 			

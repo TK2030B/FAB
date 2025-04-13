@@ -90,8 +90,6 @@ ideas = {
 
 		WIL_disorganized_warband = {
 
-			picture = disorganized_army
-
 			allowed = {
 				always = no
 			}
@@ -115,8 +113,6 @@ ideas = {
 		}
 
 		WIL_unrecognized_country = {
-
-			picture = generic_spy_political
 
 			allowed = {
 				always = no
