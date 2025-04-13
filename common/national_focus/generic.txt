@@ -1671,6 +1671,16 @@ focus_tree = {
 					exists = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = NOR
+				}
+				NOR = {
+					is_in_faction = no
+					is_faction_leader = no
+				}
+			}
 		}
 		prerequisite = {
 			focus = GOT_communist_foreign_policy
@@ -1683,9 +1693,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_opinion_modifier = {
-				target = NOR
-				modifier = RI_supports_own_faction
+			NOR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
 			}
 		}
 	}
@@ -1745,9 +1757,11 @@ focus_tree = {
 		
 		completion_reward = {
 			add_manpower = -750
-			add_opinion_modifier = {
-				target = NOR
-				modifier = RI_supports_own_politics
+			NOR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
 		}
 	}
@@ -1767,9 +1781,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_opinion_modifier = {
-				target = NOR
-				modifier = RI_supports_own_politics
+			NOR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
 		}
 	}
@@ -1789,9 +1805,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = communism
+			RIV = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
 		}
 	}
@@ -1814,10 +1832,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			give_guarantee = NOR
-			NOR = {
-				give_guarantee = ROOT
-			}
+			add_ideas = GOT_Religion_Old_Gods
 		}
 	}
 	focus = {
@@ -1979,6 +1994,16 @@ focus_tree = {
 					exists = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = IRO
+				}
+				IRO = {
+					is_in_faction = no
+					is_faction_leader = no
+				}
+			}
 		}
 		prerequisite = {
 			focus = GOT_communist_foreign_policy
@@ -1988,7 +2013,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 30
+			IRO = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
+			}
 		}
 	}
 	focus = {
@@ -2006,22 +2036,13 @@ focus_tree = {
 			focus = GOT_fith_internationale
 		}
 		completion_reward = {
-			diplomatic_relation = {
-				country = PEN
-				relation = non_aggression_pact
+			add_manpower = -750
+			IRO = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
-			TAR = { country_event = { days = 1 id = generictree.2 } }
-			DOT = { country_event = { days = 1 id = generictree.2 } }
-			DRA = { country_event = { days = 1 id = generictree.2 } }
-			diplomatic_relation = {
-				country = STO
-				relation = non_aggression_pact
-			}
-			diplomatic_relation = {
-				country = CRO
-				relation = non_aggression_pact
-			}
-			NOR = { country_event = { days = 1 id = generictree.2 } }
 		}
 	}
 	focus = {
@@ -2039,20 +2060,11 @@ focus_tree = {
 			focus = GOT_offer_false_alliances
 		}
 		completion_reward = {
-					create_wargoal = {			
-				expire = 250
-				target = PEN
-				type = annex_everything
-			}
-					create_wargoal = {			
-				expire = 250
-				target = TAR
-				type = annex_everything
-			}
-					create_wargoal = {			
-				expire = 250
-				target = DOT
-				type = annex_everything
+			IRO = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
 		}
 	}
@@ -2071,10 +2083,11 @@ focus_tree = {
 			focus = GOT_offer_false_alliances
 		}
 		completion_reward = {
-					create_wargoal = {			
-				expire = 250
-				target = DRA
-				type = annex_everything
+			NOR = {
+				add_timed_idea = {
+					idea = RI_commie_partisans
+					days = 365
+				}
 			}
 		}
 	}
@@ -2096,11 +2109,7 @@ focus_tree = {
 			focus = GOT_great_betrayal
 		}
 		completion_reward = {
-					create_wargoal = {			
-				expire = 250
-				target = NOR
-				type = annex_everything
-			}
+			add_ideas = GOT_Religion_Drowned_God
 		}
 	}
 	focus = {
@@ -2118,7 +2127,7 @@ focus_tree = {
 			focus = GOT_fith_internationale
 		}
 		completion_reward = {
-			every_country = {
+			every_neighbor_country = {
 				add_timed_idea = {
 					idea = RI_commie_partisans
 					days = 365
@@ -2141,11 +2150,7 @@ focus_tree = {
 			focus = GOT_support_foreign_commies
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.1
-			}
-			add_stability = 0.1
+			add_ideas = GOT_Tradition_Ironborn
 		}
 	}
 	focus = {
@@ -2234,14 +2239,24 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				DRA = {
+				TAR = {
 					has_capitulated = yes
 				}
 			}
 			modifier = {
 				factor = 0
-				DRA = {
+				TAR = {
 					exists = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = TAR
+				}
+				TAR = {
+					is_in_faction = no
+					is_faction_leader = no
 				}
 			}
 		}
@@ -2283,9 +2298,11 @@ focus_tree = {
 			country_exists = TAR
 		}
 		completion_reward = {
-			add_opinion_modifier = {
-				target = TAR
-				modifier = RI_supports_own_country
+			TAR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_country
+				}
 			}
 		}
 	}
@@ -2308,9 +2325,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_opinion_modifier = {
-				target = PEN
-				modifier = RI_supports_own_country
+			PEN = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_country
+				}
 			}
 		}
 	}
@@ -2333,9 +2352,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_opinion_modifier = {
-				target = DOT
-				modifier = RI_supports_own_country
+			DOT = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_country
+				}
 			}
 		}
 	}
@@ -2384,18 +2405,17 @@ focus_tree = {
 
 		completion_reward = {
 			every_country = {
-				if = {
 					limit = {
-						has_government = fascism
+						tag = CRO
+						is_in_faction_with = CRO
 					}
-					ROOT = {
+					PREV = {
 						add_opinion_modifier = {
-							target = PREV
+							target = ROOT
 							modifier = RI_sanctions
 						}
 					}
 				}
-			}
 		}
 	}
 	focus = {
@@ -2414,10 +2434,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = democratic
-			}
+			every_country = {
+					limit = {
+						tag = TAR
+						is_in_faction_with = TAR
+					}
+					PREV = {
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = RI_friendly_foreign_policy
+						}
+					}
+				}
 		}
 	}
 	focus = {
@@ -2441,7 +2469,65 @@ focus_tree = {
 			focus = GOT_approach_usa
 		}
 		completion_reward = {
-			#add_manpower = 1000
+			every_country = {
+				limit = {
+					has_idea = GOT_Tradition_Slaver
+				}
+				PREV = {
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = RI_sanctions
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
+				}
+			}
+			else = {
+				add_ideas = RI_refugees
+			}
 		}
 	}
 	focus = {
@@ -2464,11 +2550,47 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
 					has_idea = RI_refugees1
 				}
 				swap_ideas = {
 					remove_idea = RI_refugees1
 					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
 				}
 			}
 			else = {
@@ -2500,11 +2622,47 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
 					add_idea = RI_refugees2
 				}
 			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
+				}
+			}
 			else = {
-				add_ideas = RI_refugees1
+				add_ideas = RI_refugees
 			}
 		}
 	}
@@ -2525,11 +2683,38 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
 					has_idea = RI_refugees2
 				}
 				swap_ideas = {
 					remove_idea = RI_refugees2
 					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
 				}
 			}
 			else_if = {
@@ -2540,6 +2725,9 @@ focus_tree = {
 					remove_idea = RI_refugees4
 					add_idea = RI_refugees5
 				}
+			}
+			else = {
+				add_ideas = RI_refugees
 			}
 		}
 	}
@@ -2560,11 +2748,29 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
 					has_idea = RI_refugees2
 				}
 				swap_ideas = {
 					remove_idea = RI_refugees2
-					add_idea = RI_refugees4
+					add_idea = RI_refugees3
 				}
 			}
 			else_if = {
@@ -2573,8 +2779,20 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
 					add_idea = RI_refugees5
 				}
+			}
+			else = {
+				add_ideas = RI_refugees
 			}
 		}
 	}
@@ -2713,6 +2931,16 @@ focus_tree = {
 					exists = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = DRA
+				}
+				DRA = {
+					is_in_faction = no
+					is_faction_leader = no
+				}
+			}
 		}
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
@@ -2728,9 +2956,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_opinion_modifier = {
-				target = DRA
-				modifier = RI_supports_own_country
+			DRA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_country
+				}
 			}
 		}
 	}
@@ -2750,9 +2980,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			every_state = {
-				add_manpower = -1000
-			}
+			add_ideas = GOT_Religion_LOL
 		}
 	}
 	focus = {
@@ -2771,9 +2999,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_opinion_modifier = {
-				target = NOR
-				modifier = RI_supports_enemy_faction
+			DRA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_faction
+				}
 			}
 		}
 	}
@@ -2799,9 +3029,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_opinion_modifier = {
-				target = DRA
-				modifier = RI_embassy_established
+			DRA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_embassy_established
+				}
 			}
 		}
 	}
@@ -2889,9 +3121,17 @@ focus_tree = {
 			focus = GOT_approach_italy
 		}
 		completion_reward = {
-			add_opinion_modifier = {
-				target = CRO
-				modifier = RI_country_recognised
+			every_country = {
+				limit = {
+					OR = {
+						tag = CRO
+						is_in_faction_with = CRO
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_hostile_foreign_policy
+				}
 			}
 		}
 	}
@@ -2920,6 +3160,16 @@ focus_tree = {
 				factor = 0
 				STO = {
 					exists = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = STO
+				}
+				STO = {
+					is_in_faction = no
+					is_faction_leader = no
 				}
 			}
 		}
@@ -2957,9 +3207,11 @@ focus_tree = {
 			focus = GOT_approach_italy
 		}
 		completion_reward = {
-			add_opinion_modifier = {
-				target = STO
-				modifier = RI_supports_own_politics
+			STO = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
 		}
 	}
@@ -2978,11 +3230,12 @@ focus_tree = {
 			focus = GOT_approach_italy
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.1
+			REA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
-			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -3006,9 +3259,11 @@ focus_tree = {
 			focus = GOT_recognise_franco
 		}
 		completion_reward = {
-			add_opinion_modifier = {
-				target = STO
-				modifier = RI_embassy_established
+			STO = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_embassy_established
+				}
 			}
 		}
 	}
@@ -3102,6 +3357,16 @@ focus_tree = {
 					exists = no
 				}
 			}
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = CRO
+				}
+				CRO = {
+					is_in_faction = no
+					is_faction_leader = no
+				}
+			}
 		}
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
@@ -3137,9 +3402,17 @@ focus_tree = {
 			focus = GOT_approach_japan
 		}
 		completion_reward = {
-			add_opinion_modifier = {
-				target = STO
-				modifier = RI_supports_own_politics
+			every_country = {
+				limit = {
+					OR = {
+						tag = NOR
+						is_in_faction_with = NOR
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_hostile_foreign_policy
+				}
 			}
 		}
 	}
@@ -3158,9 +3431,11 @@ focus_tree = {
 			focus = GOT_approach_japan
 		}
 		completion_reward = {
-			add_opinion_modifier = {
-				target = CRO
-				modifier = RI_country_recognised
+			CRO = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
 		}
 	}
@@ -3179,21 +3454,11 @@ focus_tree = {
 			focus = GOT_approach_japan
 		}
 		completion_reward = {
-			add_opinion_modifier = {
-				target = TAR
-				modifier = RI_sanctions
-			}
-			add_opinion_modifier = {
-				target = DOT
-				modifier = RI_sanctions
-			}
-			add_opinion_modifier = {
-				target = PEN
-				modifier = RI_sanctions
-			}
-			add_opinion_modifier = {
-				target = HOL
-				modifier = RI_sanctions
+			WES = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_politics
+				}
 			}
 		}
 	}
