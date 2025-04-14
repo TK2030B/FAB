@@ -1,15 +1,25 @@
 characters={
 
+	TAR_Targaryen_Brothers={
+		name=TAR_Targaryen_Brothers
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Targaryen _Brothers.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+	}
+
 	TAR_Danaerys_Targaryen={
 		name=TAR_Danaerys_Targaryen
 		portraits={
 			army = {
 				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
 			}
 			civilian = {
 				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
 			}
 		}
 		country_leader={

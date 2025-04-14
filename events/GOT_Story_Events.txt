@@ -26,7 +26,7 @@ country_event = {
 		
 		hidden_effect = {
 			NOR = {
-				news_event = {
+				country_event = {
 					id = GOT_Story_Country.2
 					days = 1
 				}
@@ -120,7 +120,73 @@ country_event = {
 		name = GOT_Story_Country.3.a
 
 		ai_chance = {
-			factor = 10
+			factor = 75
+		}
+
+		add_stability = -0.05
+		
+		add_opinion_modifier = {
+			target = CRO
+			modifier = RI_visited_capital
+		}
+		
+		NOR_ned_stark = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = NOR_robb_stark
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					warrior_code 
+					great_war_hero 
+					inexperienced_imperialist 
+					reluctant_veteran 
+					headstrong 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		CRO = {
+			country_event = {
+				id = GOT_Diplomatic_Country.1
+				hours = 6
+			}
+		}
+		
+		#Bran's Fall From The Tower
+		hidden_effect = {
+			NOR = {
+				country_event = {
+					id = GOT_Story_Country.5
+					days = 1
+				}
+			}
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.3
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.3.b
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		add_stability = 0.05
@@ -130,15 +196,23 @@ country_event = {
 			modifier = RI_visited_capital
 		}
 		
+		CRO = {
+			country_event = {
+				id = GOT_Diplomatic_Country.2
+				hours = 6
+			}
+		}
+		
+		#Bran's Fall From The Tower
 		hidden_effect = {
 			NOR = {
-				news_event = {
+				country_event = {
 					id = GOT_Story_Country.5
 					days = 1
 				}
 			}
 		}
-
+		
 		every_other_country = {
 			limit = {
 				exists = yes
@@ -152,6 +226,7 @@ country_event = {
 	}
 }
 
+#News Event for Royal Party Arrives in Winterfell
 news_event = {
 	id = GOT_Story_News.3
 	title = GOT_Story_News.3.t
@@ -175,28 +250,52 @@ country_event = {
 		tag = TAR
 		date > 1936.1.1
 		date < 1936.2.1
+		
 	}
 	
 	fire_only_once = yes
 
 	option = {
 		name = GOT_Story_Country.4.a
-
-		ai_chance = {
-			factor = 10
+		
+		trigger = {
+			country_exists = DOT
+			NOT = { has_war_with = DOT }
 		}
 
-		add_stability = 0.05
-
-		every_other_country = {
-			limit = {
-				exists = yes
-			}
-			news_event = {
-				id = GOT_Story_News.4
+		ai_chance = {
+			factor = 75
+		}
+		
+		DOT = {
+			country_event = {
+				id = GOT_Diplomatic_Country.3
 				hours = 6
 			}
 		}
+
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.4.b
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				country_exists = DOT
+				NOT = { has_war_with = DOT }
+			}
+		}
+		
+		country_event = {
+			id = GOT_Alt_Country.1
+			days = 1
+		}
+
+		add_stability = 0.05
 		
 	}
 }

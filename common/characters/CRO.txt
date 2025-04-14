@@ -147,7 +147,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
-				small="gfx/interface/ideas/idea_CRO_cersei_lannister.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
 			}
 		}
 		advisor={
@@ -432,7 +432,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Cersei_Lannister.dds"
-				small="gfx/interface/ideas/idea_CRO_cersei_lannister.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
 			}
 		}
 		advisor = {
@@ -653,14 +653,6 @@ characters={
 				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CRO_ned_stark
-			can_be_fired = no
-			traits = {
-				hand_of_the_king
-			}
-		}
 	}
 
 	CRO_tywin_lannister={
@@ -675,14 +667,6 @@ characters={
 				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CRO_tywin_lannister
-			can_be_fired = no
-			traits = {
-				hand_of_the_king
-			}
-		}
 	}
 
 	CRO_renly_baratheon={
@@ -695,13 +679,6 @@ characters={
 			civilian = {
 				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
 				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = CRO_renly_baratheon
-			traits = {
-				popular_figurehead
 			}
 		}
 	}

@@ -43,15 +43,15 @@ characters={
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 		}
-	}
-	
-	VAL_lysa_arryn_tyrannical={
-		name=VAL_lysa_arryn
-		portraits={
-			civilian = {
-				large="gfx/leaders/VAL/Portrait_Lysa_Arryn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+		country_leader={
+			ideology=NR_subideology
+			traits = {  
+				divisive_absolute_monarch  
+				political_manipulator  
+				infirm  
+				#disdain_for_politicians_2  
 			}
+			expire="1965.1.1.1"
 		}
 		country_leader={
 			ideology=FR_subideology

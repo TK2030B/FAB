@@ -1,0 +1,122 @@
+add_namespace = GOT_Alt_Country
+add_namespace = GOT_Alt_News
+
+#Targaryen Wedding
+country_event = {
+	id = GOT_Alt_Country.1
+	title = GOT_Alt_Country.1.t
+	desc = GOT_Alt_Country.1.d
+	picture = GFX_report_event_GOT_Alt_Country1
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_Country.1.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		TAR_Danaerys_Targaryen = {
+			retire = yes
+		}
+		TAR_Viserys_Targaryen = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = TAR_Targaryen_Brothers
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					autocratic_imperialist  
+					empire_builder  
+					the_legitimist  
+					queen_of_the_people  
+					headstrong  
+					unpopular_monarch  
+					dictator  
+					indomitable_perseverance  
+					warmonger  
+					freedom_fighter  
+				}
+			}
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = DR_subideology
+				traits = {  
+					autocratic_imperialist  
+					empire_builder  
+					the_legitimist  
+					queen_of_the_people  
+					headstrong  
+					unpopular_monarch  
+					dictator  
+					indomitable_perseverance  
+					warmonger  
+					freedom_fighter  
+				}
+			}
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = {  
+					autocratic_imperialist  
+					empire_builder  
+					the_legitimist  
+					queen_of_the_people  
+					headstrong  
+					unpopular_monarch  
+					dictator  
+					indomitable_perseverance  
+					warmonger  
+					freedom_fighter  
+				}
+			}
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					autocratic_imperialist  
+					empire_builder  
+					the_legitimist  
+					queen_of_the_people  
+					headstrong  
+					unpopular_monarch  
+					dictator  
+					indomitable_perseverance  
+					warmonger  
+					freedom_fighter  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		
+		set_global_flag = GOT_Targaryen_Wedding_Flag
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Alt_News.1
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Alt_News.1
+	title = GOT_Alt_News.1.t
+	desc = GOT_Alt_News.1.d
+	picture = GFX_news_event_GOT_Alt_News1
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_News.1.a
+	}
+}

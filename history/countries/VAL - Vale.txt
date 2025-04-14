@@ -28,9 +28,8 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character=VAL_jon_arryn
+#recruit_character=VAL_jon_arryn #Already Dead
 recruit_character=VAL_lysa_arryn
-recruit_character=VAL_lysa_arryn_tyrannical
 recruit_character=VAL_Vardis_Egen
 recruit_character=VAL_Yohn_Royce
 recruit_character=VAL_Robin_Arryn

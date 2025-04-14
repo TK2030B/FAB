@@ -1,0 +1,265 @@
+add_namespace = GOT_Diplomatic_Country
+add_namespace = GOT_Diplomatic_News
+
+#Lord Stark Accepts Becoming Hand of the King
+country_event = {
+	id = GOT_Diplomatic_Country.1
+	title = GOT_Diplomatic_Country.1.t
+	desc = GOT_Diplomatic_Country.1.d
+	picture = GFX_report_event_GOT_Story_Country3
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.1.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = 0.05
+		
+		add_advisor_role = {
+			character = CRO_ned_stark
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_ned_stark
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.1
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Lord Stark Declines Becoming Hand of the King
+country_event = {
+	id = GOT_Diplomatic_Country.2
+	title = GOT_Diplomatic_Country.2.t
+	desc = GOT_Diplomatic_Country.2.d
+	picture = GFX_report_event_GOT_Story_Country3
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.2.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.2
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Viserys offers Drogo Marriage with his sister
+country_event = {
+	id = GOT_Diplomatic_Country.3
+	title = GOT_Diplomatic_Country.3.t
+	desc = GOT_Diplomatic_Country.3.d
+	picture = GFX_report_event_GOT_Story_Country4
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.3.a
+
+		ai_chance = {
+			factor = 70
+		}
+		
+		DOT_No_Single_Ruler = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = DOT_khal_drogo
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					warrior_code  # Khal Drogo strictly followed Dothraki warrior traditions, where strength and personal combat prowess determined leadership.  
+					dictator  # As a Khal, he ruled absolutely over his khalasar, with no system of checks and balances.  
+					anti_democrat  # The Dothraki had no concept of democracy; leadership was based on strength and conquest.  
+					warmonger  # Drogo’s entire society was built around raiding, warfare, and military dominance.  
+					spirit_of_genghis  # The Dothraki were inspired by real-world nomadic conquerors, and Drogo exemplified their warlike spirit.  
+					ideological_crusader  # He was deeply committed to Dothraki culture and values, seeing settled peoples as weak and contemptible.  
+					hedonist  # The Dothraki lifestyle embraced feasting, drinking, and taking what one desired, and Drogo indulged freely in these pleasures.  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_advisor_role = {
+			character = DOT_Danaerys_Targaryen
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = DOT_Danaerys_Targaryen
+				can_be_fired = no
+				traits = {
+					queen
+				}
+			}
+		}
+
+		add_political_power = 25
+		add_stability = -0.05
+		
+		TAR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.4
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.3.b
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_political_power = -25
+		add_stability = 0.05
+		
+		TAR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.5
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Drogo Accepts
+country_event = {
+	id = GOT_Diplomatic_Country.4
+	title = GOT_Diplomatic_Country.4.t
+	desc = GOT_Diplomatic_Country.4.d
+	picture = GFX_report_event_GOT_Story_Country4
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.4.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = 25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.4
+				hours = 6
+			}
+		}
+		
+	}
+	
+}
+
+#Drogo Declines
+country_event = {
+	id = GOT_Diplomatic_Country.5
+	title = GOT_Diplomatic_Country.5.t
+	desc = GOT_Diplomatic_Country.5.d
+	picture = GFX_report_event_GOT_Story_Country4
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.5.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = -25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.3
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Lord Stark Accepts Becoming Hand of the King
+news_event = {
+	id = GOT_Diplomatic_News.1
+	title = GOT_Diplomatic_News.1.t
+	desc = GOT_Diplomatic_News.1.d
+	picture = GFX_news_event_GOT_Story_News3
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.1.a
+	}
+}
+#Lord Declines Becoming Hand of the King
+news_event = {
+	id = GOT_Diplomatic_News.2
+	title = GOT_Diplomatic_News.2.t
+	desc = GOT_Diplomatic_News.2.d
+	picture = GFX_news_event_GOT_Story_News3
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.2.a
+	}
+}
+#Dothraki Decline Marriage Proposal
+news_event = {
+	id = GOT_Diplomatic_News.3
+	title = GOT_Diplomatic_News.3.t
+	desc = GOT_Diplomatic_News.3.d
+	picture = GFX_news_event_GOT_Story_News4
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.3.a
+	}
+}

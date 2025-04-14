@@ -124,9 +124,10 @@ GOT_Story_News.2.d: "Lord Eddard Stark has executed a deserter from the Night’
 GOT_Story_News.2.a: "The North remembers."
 
 #Country Event, the North Gets
-GOT_Story_Country.3.t: "The King's Arrival"
-GOT_Story_Country.3.d: "King Robert Baratheon has arrived in Winterfell with his full court, seeking to name Lord Eddard Stark as the new Hand of the King. This reunion of old friends also brings the Lannisters into the North—for better or worse."
-GOT_Story_Country.3.a: "We shall welcome them."
+GOT_Story_Country.3.t: "The King's Request"
+GOT_Story_Country.3.d: "King Robert Baratheon has arrived in Winterfell with his full court, seeking to name Lord Eddard Stark as the new Hand of the King. This reunion of old friends carries heavy responsibility and political intrigue, particularly with the Lannisters now in the North."
+GOT_Story_Country.3.a: "I will accept the King's request and serve as Hand."
+GOT_Story_Country.3.b: "I must decline. Winterfell needs me more than the South."
 
 #World News Event
 GOT_Story_News.3.t: "A Royal Visit to the North"
@@ -134,10 +135,11 @@ GOT_Story_News.3.d: "King Robert Baratheon has journeyed to Winterfell, requesti
 GOT_Story_News.3.a: "Old friends reunite."
 
 #Country Event, Targaryen Gets
-GOT_Story_Country.4.t: "A Marriage for Power"
-GOT_Story_Country.4.d: "Viserys Targaryen has arranged for his sister, Daenerys, to marry Khal Drogo, the fearsome leader of a massive Dothraki horde. In return, Viserys hopes to gain an army to reclaim the Iron Throne."
-GOT_Story_Country.4.a: "Accept the union"
-GOT_Story_Country.4.b: "Refuse the marriage"
+GOT_Story_Country.4.t: "The Fate of the Targaryen Princess"
+GOT_Story_Country.4.d: "With their exile dragging on and allies growing scarce, Viserys Targaryen seeks a political marriage to strengthen their claim to the Iron Throne. Two options lie before him: offer his sister Daenerys to Khal Drogo in exchange for a powerful Dothraki army, or wed her himself to keep the Targaryen bloodline pure and maintain control within the family."
+GOT_Story_Country.4.a: "Offer Daenerys to Khal Drogo"
+GOT_Story_Country.4.b: "Marry Daenerys to Viserys"
+
 
 #World News Event
 GOT_Story_News.4.t: "A Targaryen Marries a Khal"
@@ -153,3 +155,51 @@ GOT_Story_Country.5.a: "Pray for the boy."
 GOT_Story_News.5.t: "Young Bran’s Fall"
 GOT_Story_News.5.d: "Bran Stark, youngest son of Lord Eddard, has suffered a grave fall from a tower in Winterfell. Though reported as an accident, murmurs of foul play circulate throughout the court."
 GOT_Story_News.5.a: "Dark tidings from the North."
+
+
+#Country Event, the Crownlands Gets
+GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
+GOT_Diplomatic_Country.1.d: "Lord Eddard Stark has accepted the King's request to become the new Hand of the King. His departure from Winterfell marks a significant moment for both the North and the Crownlands, as his honor and loyalty to Robert Baratheon will shape the political landscape of Westeros."
+GOT_Diplomatic_Country.1.a: "We shall welcome his service, for the good of the realm."
+
+#The Previous Event Spawns this one for all the other countries
+GOT_Diplomatic_News.1.t: "A Stark to Serve the King"
+GOT_Diplomatic_News.1.d: "Lord Eddard Stark of Winterfell has accepted King Robert Baratheon's request to become Hand of the King, leaving the North to take up his duties in King's Landing."
+GOT_Diplomatic_News.1.a: "A new Hand of the King has been chosen."
+
+#Country Event, the Crownlands Gets
+GOT_Diplomatic_Country.2.t: "Lord Stark Declines the King's Request"
+GOT_Diplomatic_Country.2.d: "Lord Eddard Stark has declined King Robert Baratheon's request to become the new Hand of the King. This refusal is a blow to the Crown’s plans, as the King’s old friend and trusted ally will not join him in King's Landing. The political ramifications of this decision are yet to be seen."
+GOT_Diplomatic_Country.2.a: "His decision must be respected, though it leaves the realm in an uncertain state."
+
+GOT_Diplomatic_Country.3.t: "The Targaryen Offer"
+GOT_Diplomatic_Country.3.d: "Viserys Targaryen has come to Khal Drogo, offering his sister Daenerys in marriage in exchange for an alliance. The Targaryens seek the might of the Dothraki to help them reclaim the Iron Throne, and this marriage would secure their pact."
+GOT_Diplomatic_Country.3.a: "Accept the marriage proposal and form the alliance"
+GOT_Diplomatic_Country.3.b: "Decline the offer and remain independent"
+
+GOT_Diplomatic_Country.4.t: "Khal Drogo Accepts"
+GOT_Diplomatic_Country.4.d: "Khal Drogo, the fearsome leader of the Dothraki, has agreed to the marriage proposal, pledging his loyalty to House Targaryen. The alliance is sealed, and Daenerys is now to marry Drogo."
+GOT_Diplomatic_Country.4.a: "The alliance is sealed, and Daenerys will marry Khal Drogo."
+
+GOT_Diplomatic_Country.5.t: "Khal Drogo Declines"
+GOT_Diplomatic_Country.5.d: "Khal Drogo has rejected Viserys’s offer, refusing to marry Daenerys in exchange for an alliance. The Dothraki will remain independent, and the Targaryens must find another path to power."
+GOT_Diplomatic_Country.5.a: "The Dothraki have refused the proposal, and the alliance is off."
+
+
+#The Previous Event Spawns this one for all the other countries
+GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
+GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."
+GOT_Diplomatic_News.2.a: "King Robert's request for a Hand has been denied."
+
+#Dothraki Reject Targaryen Proposal World's Perspective
+GOT_Diplomatic_News.3.t: "Dothraki Spurn Targaryen Offer"
+GOT_Diplomatic_News.3.d: "Word spreads across Essos and Westeros that Khal Drogo has rejected Viserys Targaryen’s offer of marriage to his sister Daenerys. The refusal is a major blow to Viserys’ hopes of raising a Dothraki army to reclaim the Iron Throne. Without the strength of the horselords at his back, the exiled prince’s ambitions may falter before they ever take root."
+GOT_Diplomatic_News.3.a: "The Dragon’s cause grows colder"
+
+GOT_Alt_Country.1.t: "A Royal Union for Power"
+GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
+GOT_Alt_Country.1.a: "Celebrate the union and strengthen our claim to the Iron Throne"
+
+GOT_Alt_News.1.t: "Targaryen Siblings Wed in Shocking Union"
+GOT_Alt_News.1.d: "In a surprising move, Daenerys and Viserys Targaryen, the last of the once-great dynasty, have married each other. This controversial union has caused a stir throughout the realm, with many questioning the motivations behind it. The Targaryens are now united in both blood and ambition, setting their sights on the Iron Throne once more."
+GOT_Alt_News.1.a: "The Targaryens have united under one banner—will they now pose a real threat to Westeros?"

@@ -25,7 +25,8 @@ recruit_character=TAR_Viserys_Targaryen
 recruit_character=TAR_Jorah_Mormont  
 recruit_character=TAR_Barristan_Selmy  
 recruit_character=TAR_Grey_Worm  
-recruit_character=TAR_Daario_Naharis  
+recruit_character=TAR_Daario_Naharis
+recruit_character=TAR_Targaryen_Brothers  
 
 add_ideas = {
 	GOT_Tradition_Dragonlords
