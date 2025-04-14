@@ -9,7 +9,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Robert_Baratheon.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		country_leader={
@@ -60,7 +60,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -102,7 +102,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -200,7 +200,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Jason_Slynt.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		country_leader={
@@ -450,7 +450,7 @@ characters={
 		name=CRO_lord_varys
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -478,7 +478,7 @@ characters={
 		name=CRO_Bronn
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -498,7 +498,7 @@ characters={
 		name=CRO_Qyburn
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -518,7 +518,7 @@ characters={
 		name=CRO_Tyrion_Lannister
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -541,7 +541,7 @@ characters={
 		name=VAL_Petyr_Baelish
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -561,7 +561,7 @@ characters={
 		name=CRO_Pycelle
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -581,7 +581,7 @@ characters={
 		name=CRO_High_Septon
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -601,7 +601,7 @@ characters={
 		name=CRO_High_Sparrow
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor={
@@ -628,7 +628,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor = {
@@ -650,7 +650,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor = {
@@ -672,7 +672,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor = {
@@ -694,7 +694,7 @@ characters={
 			}
 			civilian = {
 				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-				small="gfx/interface/ideas/idea_CRO_jon_arryn.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
 		advisor = {

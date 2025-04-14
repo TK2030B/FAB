@@ -1,0 +1,247 @@
+add_namespace = GOT_Story_Country
+add_namespace = GOT_Story_News
+
+country_event = {
+	id = GOT_Story_Country.1
+	title = GOT_Story_Country.1.t
+	desc = GOT_Story_Country.1.d
+	picture = GFX_report_event_GOT_Story_Country1
+
+	trigger = {
+		tag = NWA
+		date > 1936.1.1
+		date < 1936.2.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.1.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.1
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.1
+	title = GOT_Story_News.1.t
+	desc = GOT_Story_News.1.d
+	picture = GFX_news_event_GOT_Story_News1
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.1.a
+	}
+}
+
+country_event = {
+	id = GOT_Story_Country.2
+	title = GOT_Story_Country.2.t
+	desc = GOT_Story_Country.2.d
+	picture = GFX_report_event_GOT_Story_Country2
+
+	trigger = {
+		tag = NOR
+		date > 1936.1.1
+		date < 1936.2.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.2.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = 0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.2
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.2
+	title = GOT_Story_News.2.t
+	desc = GOT_Story_News.2.d
+	picture = GFX_news_event_GOT_Story_News1
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.2.a
+	}
+}
+
+country_event = {
+	id = GOT_Story_Country.3
+	title = GOT_Story_Country.3.t
+	desc = GOT_Story_Country.3.d
+	picture = GFX_report_event_GOT_Story_Country3
+
+	trigger = {
+		tag = NOR
+		date > 1936.1.1
+		date < 1936.2.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.3.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = 0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.3
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.3
+	title = GOT_Story_News.3.t
+	desc = GOT_Story_News.3.d
+	picture = GFX_news_event_GOT_Story_News1
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.3.a
+	}
+}
+
+country_event = {
+	id = GOT_Story_Country.4
+	title = GOT_Story_Country.4.t
+	desc = GOT_Story_Country.4.d
+	picture = GFX_report_event_GOT_Story_Country4
+
+	trigger = {
+		tag = TAR
+		date > 1936.1.1
+		date < 1936.2.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.4.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = 0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.4
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.4
+	title = GOT_Story_News.4.t
+	desc = GOT_Story_News.4.d
+	picture = GFX_news_event_GOT_Story_News1
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.4.a
+	}
+}
+
+country_event = {
+	id = GOT_Story_Country.5
+	title = GOT_Story_Country.5.t
+	desc = GOT_Story_Country.5.d
+	picture = GFX_report_event_GOT_Story_Country5
+
+	trigger = {
+		tag = NOR
+		date > 1936.1.1
+		date < 1936.2.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.5.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.5
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.5
+	title = GOT_Story_News.5.t
+	desc = GOT_Story_News.5.d
+	picture = GFX_news_event_GOT_Story_News1
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.5.a
+	}
+}

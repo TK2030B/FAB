@@ -130,6 +130,10 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
+			#GOT Modifier
+			modifier = {
+				factor = 10
+			}
 		}
 		add_to_faction = FROM
 		FROM = { country_event = { id = generic.3 hours = 6 } }
@@ -153,6 +157,10 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
+			#GOT Modifier
+			modifier = {
+				factor = 10
+			}
 
 		}
 		add_to_faction = FROM
@@ -179,6 +187,10 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
+			#GOT Modifier
+			modifier = {
+				factor = 10
+			}
 		}
 		add_to_faction = FROM
 		FROM = { country_event = { id = generic.3 hours = 6 } }
@@ -218,6 +230,11 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
+			
+			#GOT Modifier
+			modifier = {
+				factor = 10
+			}
 			
 			modifier = {
 				factor = 0.5

@@ -1,105 +1,74 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_news_event_tommenmargery"
-		texturefile = "gfx/event_pictures/news_event_tommenmargery.dds"
+		name = "GFX_"
+		texturefile = "gfx/event_pictures/.dds"
 	}
 
-	spriteType = {
-		name = "GFX_news_event_nedstarkking"
-		texturefile = "gfx/event_pictures/news_event_nedstarkking.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_goldencompany"
-		texturefile = "gfx/event_pictures/news_event_goldencompany.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_joffreydead"
-		texturefile = "gfx/event_pictures/news_event_joffreydead.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_redcomet"
-		texturefile = "gfx/event_pictures/news_event_redcomet.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_nightking"
-		texturefile = "gfx/event_pictures/news_event_nightking.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_starkburn"
-		texturefile = "gfx/event_pictures/news_event_starkburn.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_drogon"
-		texturefile = "gfx/event_pictures/news_event_drogon.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_dinosaur"
-		texturefile = "gfx/event_pictures/news_event_dinosaur.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_dragon_alive"
-		texturefile = "gfx/event_pictures/news_event_dragon_alive.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_dragon_dead"
-		texturefile = "gfx/event_pictures/news_event_dragon_dead.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_dragonstone"
-		texturefile = "gfx/event_pictures/news_event_dragonstone.dds"
-	}
-
-	### roemer9
-	spriteType = {
-		name = "GFX_report_event_destroyed_village"
-		texturefile = "gfx/event_pictures/report_event_destroyed_village.dds"
-	}
-	spriteType = {
-		name = "GFX_report_event_horn_found"
-		texturefile = "gfx/event_pictures/report_event_horn_found.dds"
-	}
-	spriteType = {
-		name = "GFX_report_event_digging"
-		texturefile = "gfx/event_pictures/report_event_digging.dds"
-	}
-	spriteType = {
-		name = "GFX_report_event_massive_explosion"
-		texturefile = "gfx/event_pictures/report_event_massive_explosion.dds"
-	}
-	spriteType = {
-		name = "GFX_report_event_army_inspection"
-		texturefile = "gfx/event_pictures/report_event_army_inspection.dds"
-	}
-	spriteType = {
-		name = "GFX_news_event_massive_explosion"
-		texturefile = "gfx/event_pictures/news_event_massive_explosion.dds"
-	}
-	spriteType = {
-		name = "GFX_news_event_winter_war_dead_soldiers"
-		texturefile = "gfx/event_pictures/news_event_winter_war_dead_soldiers.dds"
-	}
-	spriteType = {
-		name = "GFX_report_event_wounded_soldiers"
-		texturefile = "gfx/event_pictures/report_event_wounded_soldiers.dds"
-	}
-	spriteType = {
-		name = "GFX_report_event_nights_watch"
-		texturefile = "gfx/event_pictures/report_event_nights_watch.dds"
-	}
 	spriteType = {
 		name = "GFX_report_event_welcome_event"
 		texturefile = "gfx/event_pictures/report_event_welcome_event.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_news_event_iron_throne"
+		texturefile = "gfx/event_pictures/news_event_iron_throne.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_iron_throne"
+		texturefile = "gfx/event_pictures/report_event_iron_throne.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country1"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News1"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country2"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News2"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country3"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News3"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country4"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News4"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country5"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News5"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News5.dds"
+	}
+	
 
 }

@@ -91,3 +91,65 @@ Game_Event.10.a:0 "OK"
  GOT_Generic.15.a: "Adopt The Ironborn Tradition"
  GOT_Generic.15.b: "Keep Our Current Tradition"
  GOT_Generic.15.c: "We Already Have That Tradition"
+ 
+ #Country Event, the event 1 Country Gets
+GOT_Story_Country.XXX.t: ""
+GOT_Story_Country.XXX.d: ""
+GOT_Story_Country.XXX.a: ""
+GOT_Story_Country.XXX.b: ""
+
+#The Previous Event Spawns this one for all the other countries
+GOT_Story_News.XXX.t: ""
+GOT_Story_News.XXX.d: ""
+GOT_Story_News.XXX.a: ""
+
+#Country Event, the Night’s Watch Gets
+GOT_Story_Country.1.t: "A Terror in the Woods"
+GOT_Story_Country.1.d: "Our rangers have returned from beyond the Wall, bloodied and terrified. They speak of unnatural creatures with glowing blue eyes—White Walkers, long thought extinct. Most dismiss these as the ramblings of frightened men… but what if they speak the truth?"
+GOT_Story_Country.1.a: "We must remain vigilant."
+
+#World News Event
+GOT_Story_News.1.t: "Rumors of White Walkers in the North"
+GOT_Story_News.1.d: "The Night’s Watch reports strange happenings beyond the Wall—disappearances, corpses, and whispers of ancient evils. Though most of the realm pays little heed, the North stirs uneasily. Could the White Walkers truly have returned?"
+GOT_Story_News.1.a: "The old stories return..."
+
+#Country Event, the North Gets
+GOT_Story_Country.2.t: "The Price of Desertion"
+GOT_Story_Country.2.d: "A man of the Night’s Watch has broken his sacred oath and fled south. Lord Eddard Stark, Warden of the North, has carried out the execution himself, following the old ways. His children watch closely, learning the Stark code: 'He who passes the sentence should swing the sword.'"
+GOT_Story_Country.2.a: "Justice must be done."
+
+#World News Event
+GOT_Story_News.2.t: "The Stark Way"
+GOT_Story_News.2.d: "Lord Eddard Stark has executed a deserter from the Night’s Watch, upholding Northern traditions of justice and personal responsibility. Even his young children bore witness. In the North, honor still holds strong."
+GOT_Story_News.2.a: "The North remembers."
+
+#Country Event, the North Gets
+GOT_Story_Country.3.t: "The King's Arrival"
+GOT_Story_Country.3.d: "King Robert Baratheon has arrived in Winterfell with his full court, seeking to name Lord Eddard Stark as the new Hand of the King. This reunion of old friends also brings the Lannisters into the North—for better or worse."
+GOT_Story_Country.3.a: "We shall welcome them."
+
+#World News Event
+GOT_Story_News.3.t: "A Royal Visit to the North"
+GOT_Story_News.3.d: "King Robert Baratheon has journeyed to Winterfell, requesting that his old comrade, Eddard Stark, serve as the new Hand of the King. The realm watches closely, for where the Lannisters travel, intrigue is sure to follow."
+GOT_Story_News.3.a: "Old friends reunite."
+
+#Country Event, Targaryen Gets
+GOT_Story_Country.4.t: "A Marriage for Power"
+GOT_Story_Country.4.d: "Viserys Targaryen has arranged for his sister, Daenerys, to marry Khal Drogo, the fearsome leader of a massive Dothraki horde. In return, Viserys hopes to gain an army to reclaim the Iron Throne."
+GOT_Story_Country.4.a: "Accept the union"
+GOT_Story_Country.4.b: "Refuse the marriage"
+
+#World News Event
+GOT_Story_News.4.t: "A Targaryen Marries a Khal"
+GOT_Story_News.4.d: "In the lands across the Narrow Sea, Daenerys Targaryen has been wed to Khal Drogo, chieftain of the Dothraki. Her brother, Viserys, believes this alliance will win him an army with which to reclaim Westeros."
+GOT_Story_News.4.a: "The dragon seeks fire and blood."
+
+#Country Event, the North Gets
+GOT_Story_Country.5.t: "A Fall in the Tower"
+GOT_Story_Country.5.d: "Bran Stark has fallen from a tower under mysterious circumstances. He lies unconscious, his fate uncertain. Whispers abound that this was no accident. What secrets lie behind his fall?"
+GOT_Story_Country.5.a: "Pray for the boy."
+
+#World News Event
+GOT_Story_News.5.t: "Young Bran’s Fall"
+GOT_Story_News.5.d: "Bran Stark, youngest son of Lord Eddard, has suffered a grave fall from a tower in Winterfell. Though reported as an accident, murmurs of foul play circulate throughout the court."
+GOT_Story_News.5.a: "Dark tidings from the North."
