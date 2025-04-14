@@ -38,7 +38,7 @@ news_event = {
 	id = GOT_Story_News.XXX
 	title = GOT_Story_News.XXX.t
 	desc = GOT_Story_News.XXX.d
-	picture = GFX_news_event_GOT_Story_News1
+	picture = GFX_news_event_GOT_Story_NewsXXX
 
 	is_triggered_only = yes
 

@@ -1,6 +1,6 @@
 add_namespace = GOT_Story_Country
 add_namespace = GOT_Story_News
-
+#A Terror in the Woods
 country_event = {
 	id = GOT_Story_Country.1
 	title = GOT_Story_Country.1.t
@@ -23,6 +23,15 @@ country_event = {
 		}
 
 		add_stability = -0.05
+		
+		hidden_effect = {
+			NOR = {
+				news_event = {
+					id = GOT_Story_Country.2
+					days = 1
+				}
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -49,20 +58,14 @@ news_event = {
 		name = GOT_Story_News.1.a
 	}
 }
-
+#The Price of Desertion
 country_event = {
 	id = GOT_Story_Country.2
 	title = GOT_Story_Country.2.t
 	desc = GOT_Story_Country.2.d
 	picture = GFX_report_event_GOT_Story_Country2
 
-	trigger = {
-		tag = NOR
-		date > 1936.1.1
-		date < 1936.2.1
-	}
-	
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
 		name = GOT_Story_Country.2.a
@@ -90,7 +93,7 @@ news_event = {
 	id = GOT_Story_News.2
 	title = GOT_Story_News.2.t
 	desc = GOT_Story_News.2.d
-	picture = GFX_news_event_GOT_Story_News1
+	picture = GFX_news_event_GOT_Story_News2
 
 	is_triggered_only = yes
 
@@ -98,7 +101,7 @@ news_event = {
 		name = GOT_Story_News.2.a
 	}
 }
-
+#The King's Arrival
 country_event = {
 	id = GOT_Story_Country.3
 	title = GOT_Story_Country.3.t
@@ -121,6 +124,20 @@ country_event = {
 		}
 
 		add_stability = 0.05
+		
+		add_opinion_modifier = {
+			target = CRO
+			modifier = RI_visited_capital
+		}
+		
+		hidden_effect = {
+			NOR = {
+				news_event = {
+					id = GOT_Story_Country.5
+					days = 1
+				}
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -139,7 +156,7 @@ news_event = {
 	id = GOT_Story_News.3
 	title = GOT_Story_News.3.t
 	desc = GOT_Story_News.3.d
-	picture = GFX_news_event_GOT_Story_News1
+	picture = GFX_news_event_GOT_Story_News3
 
 	is_triggered_only = yes
 
@@ -147,7 +164,7 @@ news_event = {
 		name = GOT_Story_News.3.a
 	}
 }
-
+#A Marriage for Power
 country_event = {
 	id = GOT_Story_Country.4
 	title = GOT_Story_Country.4.t
@@ -188,7 +205,7 @@ news_event = {
 	id = GOT_Story_News.4
 	title = GOT_Story_News.4.t
 	desc = GOT_Story_News.4.d
-	picture = GFX_news_event_GOT_Story_News1
+	picture = GFX_news_event_GOT_Story_News4
 
 	is_triggered_only = yes
 
@@ -196,20 +213,14 @@ news_event = {
 		name = GOT_Story_News.4.a
 	}
 }
-
+#A Fall in the Tower
 country_event = {
 	id = GOT_Story_Country.5
 	title = GOT_Story_Country.5.t
 	desc = GOT_Story_Country.5.d
 	picture = GFX_report_event_GOT_Story_Country5
 
-	trigger = {
-		tag = NOR
-		date > 1936.1.1
-		date < 1936.2.1
-	}
-	
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
 		name = GOT_Story_Country.5.a
@@ -237,7 +248,7 @@ news_event = {
 	id = GOT_Story_News.5
 	title = GOT_Story_News.5.t
 	desc = GOT_Story_News.5.d
-	picture = GFX_news_event_GOT_Story_News1
+	picture = GFX_news_event_GOT_Story_News5
 
 	is_triggered_only = yes
 
