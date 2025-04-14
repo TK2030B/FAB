@@ -409,8 +409,8 @@ country_event = {
 
 	trigger = {
 		tag = NOR
-		date > 1936.1.20
-		date < 1936.2.20
+		date > 1936.2.5
+		date < 1936.3.5
 	}
 	
 	fire_only_once = yes
@@ -435,7 +435,7 @@ country_event = {
 			NWA = {
 				country_event = {
 					id = GOT_Story_Country.12
-					days = 20
+					days = 34
 				}
 			}
 		}
@@ -474,8 +474,8 @@ country_event = {
 
 	trigger = {
 		tag = DOT
-		date > 1936.1.20
-		date < 1936.2.20
+		date > 1936.2.5
+		date < 1936.3.5
 		has_global_flag = GOT_TAR_DOT_Wedding_Flag
 	}
 	
@@ -524,8 +524,8 @@ country_event = {
 
 	trigger = {
 		tag = CRO
-		date > 1936.1.20
-		date < 1936.2.20
+		date > 1936.2.5
+		date < 1936.3.5
 	}
 	
 	fire_only_once = yes
@@ -573,8 +573,8 @@ country_event = {
 
 	trigger = {
 		tag = NOR
-		date > 1936.1.20
-		date < 1936.2.20
+		date > 1936.2.5
+		date < 1936.3.5
 		CRO = { 
 			CRO_ned_stark = { 
 				is_hired_as_advisor = yes
@@ -597,7 +597,7 @@ country_event = {
 			CRO = {
 				country_event = {
 					id = GOT_Story_Country.11
-					days = 20
+					days = 34
 				}
 			}
 		}
@@ -744,8 +744,8 @@ country_event = {
 
 	trigger = {
 		tag = DOT
-		date > 1936.2.10
-		date < 1936.3.10
+		date > 1936.3.10
+		date < 1936.4.10
 		DOT_Danaerys_Targaryen = { 
 			is_hired_as_advisor = yes
 		}
