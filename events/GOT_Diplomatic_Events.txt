@@ -120,7 +120,7 @@ country_event = {
 				idea_token = DOT_Danaerys_Targaryen
 				can_be_fired = no
 				traits = {
-					queen
+					cersei_queen_1
 				}
 			}
 		}
@@ -178,6 +178,8 @@ country_event = {
 		}
 
 		add_political_power = 25
+		
+		set_global_flag = GOT_TAR_DOT_Wedding_Flag
 		
 		every_other_country = {
 			limit = {

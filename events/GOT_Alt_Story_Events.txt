@@ -41,6 +41,11 @@ country_event = {
 					freedom_fighter  
 				}
 			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = TAR_Targaryen_Brothers
 			country_leader = {
 				expire = "1965.1.1"
 				ideology = DR_subideology
@@ -57,6 +62,11 @@ country_event = {
 					freedom_fighter  
 				}
 			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = TAR_Targaryen_Brothers
 			country_leader = {
 				expire = "1965.1.1"
 				ideology = FR_subideology
@@ -73,6 +83,11 @@ country_event = {
 					freedom_fighter  
 				}
 			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = TAR_Targaryen_Brothers
 			country_leader = {
 				expire = "1965.1.1"
 				ideology = NR_subideology
@@ -93,7 +108,7 @@ country_event = {
 		}
 		
 		
-		set_global_flag = GOT_Targaryen_Wedding_Flag
+		set_global_flag = GOT_TAR_Wedding_Flag
 
 		every_other_country = {
 			limit = {
