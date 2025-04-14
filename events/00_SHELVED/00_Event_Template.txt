@@ -5,7 +5,7 @@ country_event = {
 	picture = GFX_report_event_GOT_Story_CountryXXX
 
 	trigger = {
-		tag = XXX
+		tag = ABC
 		date > 1936.1.1
 		date < 1936.2.1
 	}

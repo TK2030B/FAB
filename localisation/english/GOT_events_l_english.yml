@@ -1,8 +1,6 @@
 ﻿l_english:
 GOT_TAR_DOT_Wedding_Flag:0 "Targaryen-Dothraki Marriage"
 GOT_TAR_Wedding_Flag:0 "Targaryen Marriage"
-GOT_Accepted_Hand_of_King_Flag:0 "Accepted Hand of The King"
-
 
 Game_Event.1.t:0 "Welcome (1/3)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -201,6 +199,52 @@ GOT_Story_Country.10.a: "Winterfell must endure."
 GOT_Story_News.10.t: "The Warden Rides South"
 GOT_Story_News.10.d: "Lord Eddard Stark has left Winterfell, answering King Robert’s call to serve as Hand of the King. With him ride his daughters, Sansa and Arya. The Starks are on the move—and the balance of power begins to shift."
 GOT_Story_News.10.a: "The game begins."
+
+GOT_Story_Country.11.t: "Arrival in the Capital"
+GOT_Story_Country.11.d: "We have arrived in King's Landing, and it is everything I remembered—and everything I feared. The Iron Throne looms in its hall, and Jaime Lannister greets us not with courtesy, but with veiled contempt. I must tread carefully. This is a lion's den, not a court of justice."
+GOT_Story_Country.11.a: "I must play their game—for now."
+GOT_Story_Country.11.b: "Let them know the North remembers."
+
+GOT_Story_News.11.t: "Eddard Stark Arrives in King's Landing"
+GOT_Story_News.11.d: "Lord Eddard Stark has arrived in King's Landing to serve as Hand of the King. Tensions already rise, as he confronts Ser Jaime Lannister over past grievances. With wolves among lions, only time will tell who will bleed first."
+GOT_Story_News.11.a: "The Game of Thrones begins in earnest."
+
+GOT_Story_Country.12.t: "Training in the Cold"
+GOT_Story_Country.12.d: "The Wall is cold, and so are the hearts of those who train beside me. These are no noble warriors, just broken boys and former criminals. But I will make something of this—of them. The Night's Watch must be more than it is."
+GOT_Story_Country.12.a: "I’ll be better. I’ll make them better."
+GOT_Story_Country.12.b: "Let them learn the hard way."
+
+GOT_Story_News.12.t: "Jon Snow Begins Training at Castle Black"
+GOT_Story_News.12.d: "Bastard of Winterfell, Jon Snow, has begun training with the Night's Watch. Facing hardship and unworthy peers, he seeks to forge something better from the ragged men of the Wall."
+GOT_Story_News.12.a: "The boy with the wolf’s blood finds his place."
+
+GOT_Story_Country.13.t: "A New Life Within"
+GOT_Story_Country.13.d: "A dream, a sign, a feeling. I am with child—Khal Drogo’s child. The Dothraki say he will be the Stallion Who Mounts the World. Whether prophecy or fantasy, something has changed. I feel stronger. I feel... powerful."
+GOT_Story_Country.13.a: "He shall unite the world."
+GOT_Story_Country.13.b: "A dragon is not afraid of fire."
+
+GOT_Story_News.13.t: "A Dragon is With Child"
+GOT_Story_News.13.d: "Daenerys Targaryen, Khaleesi of the Dothraki, is rumored to be carrying Khal Drogo’s child. The Dothraki speak of prophecy, of a conqueror to come. The world watches and wonders what the last dragon will birth."
+GOT_Story_News.13.a: "The blood of the dragon grows stronger."
+
+GOT_Story_Country.14.t: "The First Lesson"
+GOT_Story_Country.14.d: "Syrio Forel calls it dancing. I call it freedom. For the first time, someone sees me not as a lady to be caged, but as a fighter. He moves like water. I want to move like that. I want to be more than they think I am."
+GOT_Story_Country.14.a: "What do we say to death? Not today."
+GOT_Story_Country.14.b: "Water dancing begins."
+
+GOT_Story_News.14.t: "Arya Stark Trains in Secret"
+GOT_Story_News.14.d: "Though just a child of noble birth, Arya Stark has begun training in the art of swordplay under the guidance of Syrio Forel, former First Sword of Braavos. Her journey diverges from the path expected of highborn girls."
+GOT_Story_News.14.a: "A blade forged in silence."
+
+GOT_Story_Country.15.t: "A Mother in the Lion's Den"
+GOT_Story_Country.15.d: "I have arrived in the capital, unseen and unannounced. The dagger that tried to kill my son still chills my bones. I must find answers, even if they lie buried under Lannister gold. I will do what I must for my children."
+GOT_Story_Country.15.a: "We follow the trail of the dagger."
+GOT_Story_Country.15.b: "Let’s tread carefully in the capital."
+
+GOT_Story_News.15.t: "Lady Catelyn Arrives in King's Landing"
+GOT_Story_News.15.d: "Lady Catelyn Stark has arrived secretly in King's Landing. Whispers suggest she seeks answers about the recent attack on her son. As the Starks and Lannisters circle each other, the realm grows more tense by the day."
+GOT_Story_News.15.a: "The wolves enter the lion's den."
+
 
 
 #Country Event, the Crownlands Gets
