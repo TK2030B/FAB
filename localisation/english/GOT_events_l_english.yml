@@ -245,6 +245,57 @@ GOT_Story_News.15.t: "Lady Catelyn Arrives in King's Landing"
 GOT_Story_News.15.d: "Lady Catelyn Stark has arrived secretly in King's Landing. Whispers suggest she seeks answers about the recent attack on her son. As the Starks and Lannisters circle each other, the realm grows more tense by the day."
 GOT_Story_News.15.a: "The wolves enter the lion's den."
 
+# Event 16 – Jon Snow Defends Samwell
+GOT_Story_Country.16.t: "A Brother Worth Defending"
+GOT_Story_Country.16.d: "Samwell Tarly is no warrior — but that doesn't mean he deserves to be humiliated. I've stepped in to defend him. The other recruits may mock him, but I won't let cruelty go unchallenged. If we're truly brothers of the Night's Watch, then it's time to act like it."
+GOT_Story_Country.16.a: "He deserves better."
+GOT_Story_Country.16.b: "Let him fight his own battles."
+
+GOT_Story_News.16.t: "Snow Shields the Weak"
+GOT_Story_News.16.d: "At Castle Black, Jon Snow has stood up for Samwell Tarly, a new recruit mocked for his softness. The act has begun to change perceptions within the Night’s Watch — perhaps honor still holds sway, even on the Wall."
+GOT_Story_News.16.a: "The boy has a good heart."
+
+# Event 17 – Ned Investigates Jon Arryn’s Death
+GOT_Story_Country.17.t: "A Death That Doesn’t Add Up"
+GOT_Story_Country.17.d: "Jon Arryn’s death was sudden... too sudden. His last words were a warning, and now his book — dry and dusty though it may be — hints at secrets someone might kill to keep buried. I must dig deeper, no matter the danger."
+GOT_Story_Country.17.a: "The truth will out."
+GOT_Story_Country.17.b: "Perhaps I should leave it alone..."
+
+GOT_Story_News.17.t: "Warden of the North Turns Detective"
+GOT_Story_News.17.d: "Lord Eddard Stark has begun probing the suspicious circumstances surrounding Jon Arryn's death. Whispers from King’s Landing hint that something rotten may lie at the heart of the realm."
+GOT_Story_News.17.a: "The game begins."
+
+# Event 18 – Bran’s Recovery and Visions
+GOT_Story_Country.18.t: "Visions from the Wolf-Dream"
+GOT_Story_Country.18.d: "My body is broken, but in dreams I run. The direwolf guides me through a forest of shadow and wind. I don’t understand it yet, but something ancient stirs beneath the surface of my sleep."
+GOT_Story_Country.18.a: "The wolf watches with me."
+GOT_Story_Country.18.b: "They are just dreams..."
+
+GOT_Story_News.18.t: "Crippled Stark Boy Speaks of Strange Dreams"
+GOT_Story_News.18.d: "Bran Stark, recently crippled in a fall, has begun speaking of strange, vivid dreams involving his direwolf and the forests of the North. Some call it madness. Others whisper that the Old Gods are watching."
+GOT_Story_News.18.a: "There’s magic in the blood."
+
+# Event 19 – Catelyn Arrests Tyrion
+GOT_Story_Country.19.t: "A Lion in My Grasp"
+GOT_Story_Country.19.d: "By chance or fate, Tyrion Lannister has fallen into my hands. I’ve accused him of trying to kill my son, and now he will face Stark justice. But Lannisters do not forgive nor forget. War may follow my choice."
+GOT_Story_Country.19.a: "Take him to the Eyrie!"
+GOT_Story_Country.19.b: "Let him go before it's too late..."
+
+GOT_Story_News.19.t: "Lady Stark Seizes Tyrion Lannister"
+GOT_Story_News.19.d: "Catelyn Stark has arrested Tyrion Lannister while traveling through the Vale, accusing him of conspiring to murder her son Bran. The act threatens to destabilize the realm — the lion does not suffer slights lightly."
+GOT_Story_News.19.a: "This means war."
+
+# Event 20 – Viserys' Frustration Grows
+GOT_Story_Country.20.t: "I Am the Dragon!"
+GOT_Story_Country.20.d: "They mock me, ignore me, treat me as less than a king. But I am Viserys of House Targaryen — the rightful ruler of the Seven Kingdoms! Let them cower when I rise. The khal does not understand who I am, but he will learn."
+GOT_Story_Country.20.a: "I will take what is mine with fire and blood."
+GOT_Story_Country.20.b: "I must bide my time..."
+
+GOT_Story_News.20.t: "The Dragon Grows Restless"
+GOT_Story_News.20.d: "Viserys Targaryen, exiled prince of a fallen dynasty, grows increasingly erratic and desperate among the Dothraki. His ambitions burn hot, but his crown is made of dreams and dust — and dragons can be dangerous."
+GOT_Story_News.20.a: "A mad king in the making?"
+
+
 
 
 #Country Event, the Crownlands Gets
