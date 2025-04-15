@@ -182,52 +182,52 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_report_event_GOT_Story_Country16"
-		texturefile = "gfx/event_pictures/Country1/GOT_Story_Country16.dds"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country16.dds"
 	}
 
 	spriteType = {
-		name = "GFX_News1_event_GOT_Story_News16"
-		texturefile = "gfx/event_pictures/News1/GOT_Story_News16.dds"
+		name = "GFX_News_event_GOT_Story_News16"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News16.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_GOT_Story_Country17"
-		texturefile = "gfx/event_pictures/Country1/GOT_Story_Country17.dds"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country17.dds"
 	}
 
 	spriteType = {
-		name = "GFX_News1_event_GOT_Story_News17"
-		texturefile = "gfx/event_pictures/News1/GOT_Story_News17.dds"
+		name = "GFX_News_event_GOT_Story_News17"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News17.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_GOT_Story_Country18"
-		texturefile = "gfx/event_pictures/Country1/GOT_Story_Country18.dds"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country18.dds"
 	}
 
 	spriteType = {
-		name = "GFX_News1_event_GOT_Story_News18"
-		texturefile = "gfx/event_pictures/News1/GOT_Story_News18.dds"
+		name = "GFX_News_event_GOT_Story_News18"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News18.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_GOT_Story_Country19"
-		texturefile = "gfx/event_pictures/Country1/GOT_Story_Country19.dds"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country19.dds"
 	}
 
 	spriteType = {
-		name = "GFX_News1_event_GOT_Story_News19"
-		texturefile = "gfx/event_pictures/News1/GOT_Story_News19.dds"
+		name = "GFX_News_event_GOT_Story_News19"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News19.dds"
 	}
 
 	spriteType = {
 		name = "GFX_report_event_GOT_Story_Country20"
-		texturefile = "gfx/event_pictures/Country1/GOT_Story_Country20.dds"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country20.dds"
 	}
 
 	spriteType = {
-		name = "GFX_News1_event_GOT_Story_News20"
-		texturefile = "gfx/event_pictures/News1/GOT_Story_News20.dds"
+		name = "GFX_News_event_GOT_Story_News20"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News20.dds"
 	}
 	
 	spriteType = {

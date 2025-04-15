@@ -1472,6 +1472,13 @@ country_event = {
 		}
 
 		army_experience = 5
+		
+		VAL = {
+			country_event = {
+				id = GOT_Story_Country.23
+				days = 5
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -1557,12 +1564,8 @@ country_event = {
 	desc = GOT_Story_Country.25.d
 	picture = GFX_report_event_GOT_Story_Country25
 
-	trigger = {
-		tag = VAL
-		date > 1936.5.20
-		date < 1936.6.20
-		has_global_flag = GOT_Tyrion_Captured_Flag
-	}
+	#Triggered by Event 23
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 
