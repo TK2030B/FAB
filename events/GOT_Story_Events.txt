@@ -704,10 +704,19 @@ country_event = {
 		name = GOT_Story_Country.12.a
 
 		ai_chance = {
-			factor = 10
+			factor = 75
+			modifier = {
+				factor = 100
+				has_completed_focus = GOT_communist_path
+			}
 		}
 
 		army_experience = 5
+		
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
 
 		every_other_country = {
 			limit = {
@@ -717,6 +726,30 @@ country_event = {
 				id = GOT_Story_News.12
 				hours = 6
 			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.12.b
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 100
+				has_completed_focus = GOT_fascist_path
+			}
+		}
+
+		army_experience = 5
+		
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
 		}
 		
 	}
@@ -902,10 +935,19 @@ country_event = {
 		name = GOT_Story_Country.16.a
 
 		ai_chance = {
-			factor = 10
+			factor = 80
+			modifier = {
+				factor = 100
+				has_completed_focus = GOT_communist_path
+			}
 		}
 
 		army_experience = 5
+		
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
 
 		every_other_country = {
 			limit = {
@@ -916,6 +958,30 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.16.b
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 100
+				has_completed_focus = GOT_fascist_path
+			}
+		}
+		
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+
+		army_experience = 5
 		
 	}
 }
@@ -957,10 +1023,17 @@ country_event = {
 		name = GOT_Story_Country.17.a
 
 		ai_chance = {
-			factor = 10
+			factor = 85
 		}
 
 		add_political_power = 25
+		
+		WES = {
+			add_opinion_modifier = {
+				target = NOR
+				modifier = RI_hostile_foreign_policy
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -971,6 +1044,21 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.17.b
+
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_political_power = -25
 		
 	}
 }
@@ -1062,10 +1150,18 @@ country_event = {
 		name = GOT_Story_Country.19.a
 
 		ai_chance = {
-			factor = 10
+			factor = 75
+		}
+		
+		WES = {
+			add_opinion_modifier = {
+				target = RIV
+				modifier = RI_hostile_foreign_policy
+			}
 		}
 
 		add_war_support = 0.05
+		add_political_power = 25
 
 		every_other_country = {
 			limit = {
@@ -1076,6 +1172,25 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+		set_global_flag = GOT_Tyrion_Captured_Flag
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.19.b
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_war_support = -0.05
+		add_political_power = -25
+
 		
 	}
 }
@@ -1119,8 +1234,16 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		DOT = {
+			add_opinion_modifier = {
+				target = TAR
+				modifier = RI_hostile_foreign_policy
+			}
+		}
 
 		add_stability = -0.05
+		add_war_support = 0.05
 
 		every_other_country = {
 			limit = {
@@ -1131,6 +1254,25 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.20.b
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		DOT = {
+			add_opinion_modifier = {
+				target = TAR
+				modifier = RI_friendly_foreign_policy
+			}
+		}
+
+		add_stability = 0.05
+		add_war_support = -0.05
 		
 	}
 }
@@ -1145,5 +1287,331 @@ news_event = {
 
 	option = {
 		name = GOT_Story_News.20.a
+	}
+}
+
+# Event 21 – Ned Resigns as Hand of the King
+country_event = {
+	id = GOT_Story_Country.21
+	title = GOT_Story_Country.21.t
+	desc = GOT_Story_Country.21.d
+	picture = GFX_report_event_GOT_Story_Country21
+
+	trigger = {
+		tag = CRO
+		date > 1936.5.20
+		date < 1936.6.20
+		CRO = { 
+			CRO_ned_stark = { 
+				is_hired_as_advisor = yes
+			}
+		}
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.21.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.21
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.21
+	title = GOT_Story_News.21.t
+	desc = GOT_Story_News.21.d
+	picture = GFX_news_event_GOT_Story_News21
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.21.a
+	}
+}
+
+# Event 22 – Jaime Attacks Ned in the Streets
+country_event = {
+	id = GOT_Story_Country.22
+	title = GOT_Story_Country.22.t
+	desc = GOT_Story_Country.22.d
+	picture = GFX_report_event_GOT_Story_Country22
+
+	trigger = {
+		tag = CRO
+		date > 1936.5.20
+		date < 1936.6.20
+		CRO = { 
+			CRO_ned_stark = { 
+				is_hired_as_advisor = yes
+			}
+		}
+		has_global_flag = GOT_Tyrion_Captured_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.22.a
+
+		ai_chance = {
+			factor = 70
+		}
+
+		add_stability = -0.05
+		add_war_support = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.22
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.22.b
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		trigger = {
+			NOT = {
+				is_in_faction_with = WES
+			}
+		}
+
+		add_stability = -0.05
+		add_war_support = 0.05
+		
+		create_wargoal = {
+			type = annex_everything
+			target = WES
+			expire = 100
+		}
+		
+		NOR = {
+			country_event = {
+				id = generic.5
+				hours = 6
+			}
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.22
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.22
+	title = GOT_Story_News.22.t
+	desc = GOT_Story_News.22.d
+	picture = GFX_news_event_GOT_Story_News22
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.22.a
+	}
+}
+
+# Event 23 – Tyrion’s Journey to the Eyrie
+country_event = {
+	id = GOT_Story_Country.23
+	title = GOT_Story_Country.23.t
+	desc = GOT_Story_Country.23.d
+	picture = GFX_report_event_GOT_Story_Country23
+
+	trigger = {
+		tag = NOR
+		date > 1936.5.20
+		date < 1936.6.20
+		has_global_flag = GOT_Tyrion_Captured_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.23.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		army_experience = 5
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.23
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.23
+	title = GOT_Story_News.23.t
+	desc = GOT_Story_News.23.d
+	picture = GFX_news_event_GOT_Story_News23
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.23.a
+	}
+}
+
+# Event 24 – The Mountain Loses Control
+country_event = {
+	id = GOT_Story_Country.24
+	title = GOT_Story_Country.24.t
+	desc = GOT_Story_Country.24.d
+	picture = GFX_report_event_GOT_Story_Country24
+
+	trigger = {
+		tag = CRO
+		date > 1936.5.20
+		date < 1936.6.20
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.24.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		army_experience = 5
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.24
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.24
+	title = GOT_Story_News.24.t
+	desc = GOT_Story_News.24.d
+	picture = GFX_news_event_GOT_Story_News24
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.24.a
+	}
+}
+
+# Event 25 – Lysa and Robin Arryn Revealed (Vale POV)
+country_event = {
+	id = GOT_Story_Country.25
+	title = GOT_Story_Country.25.t
+	desc = GOT_Story_Country.25.d
+	picture = GFX_report_event_GOT_Story_Country25
+
+	trigger = {
+		tag = VAL
+		date > 1936.5.20
+		date < 1936.6.20
+		has_global_flag = GOT_Tyrion_Captured_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.25.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = 25
+		add_stability = -0.05
+		
+		WES = {
+			add_opinion_modifier = {
+				target = VAL
+				modifier = RI_hostile_foreign_policy
+			}
+		}
+		
+		NOR = {
+			add_opinion_modifier = {
+				target = VAL
+				modifier = RI_friendly_foreign_policy
+			}
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.25
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.25
+	title = GOT_Story_News.25.t
+	desc = GOT_Story_News.25.d
+	picture = GFX_news_event_GOT_Story_News25
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.25.a
 	}
 }

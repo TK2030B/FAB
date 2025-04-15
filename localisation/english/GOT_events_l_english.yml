@@ -1,6 +1,7 @@
 ﻿l_english:
 GOT_TAR_DOT_Wedding_Flag:0 "Targaryen-Dothraki Marriage"
 GOT_TAR_Wedding_Flag:0 "Targaryen Marriage"
+GOT_Tyrion_Captured_Flag:0 "Tyrion Captured"
 
 Game_Event.1.t:0 "Welcome (1/3)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -294,6 +295,57 @@ GOT_Story_Country.20.b: "I must bide my time..."
 GOT_Story_News.20.t: "The Dragon Grows Restless"
 GOT_Story_News.20.d: "Viserys Targaryen, exiled prince of a fallen dynasty, grows increasingly erratic and desperate among the Dothraki. His ambitions burn hot, but his crown is made of dreams and dust — and dragons can be dangerous."
 GOT_Story_News.20.a: "A mad king in the making?"
+
+# Event 21 – Ned Resigns as Hand of the King
+GOT_Story_Country.21.t: "I Will Not Be an Assassin"
+GOT_Story_Country.21.d: "King Robert has ordered the assassination of Daenerys Targaryen. I will not spill the blood of a child, no matter who commands it. If this is what being Hand of the King means, then I want no part of it."
+GOT_Story_Country.21.a: "I resign my post."
+GOT_Story_Country.21.b: "Fine. I’ll obey… for now."
+
+GOT_Story_News.21.t: "Eddard Stark Resigns as Hand"
+GOT_Story_News.21.d: "Eddard Stark has resigned from his post as Hand of the King following a dispute with Robert Baratheon over the fate of Daenerys Targaryen. Tensions grow within the royal court as Ned Stark chooses principle over power."
+GOT_Story_News.21.a: "This court is growing more dangerous by the day..."
+
+# Event 22 – Jaime Attacks Ned in the Streets
+GOT_Story_Country.22.t: "Steel in the Streets"
+GOT_Story_Country.22.d: "After I refused to return Tyrion, Jaime Lannister confronted me in the streets. The fight was fierce, and I held my own—until one of his men stabbed me in the leg. There is no honor left in King’s Landing."
+GOT_Story_Country.22.a: "We must tread carefully… for now."
+GOT_Story_Country.22.b: "This means war."
+
+GOT_Story_News.22.t: "Brawl in King’s Landing"
+GOT_Story_News.22.d: "Jaime Lannister attacked Eddard Stark and his men in the streets of the capital. Though Stark was wounded, the tension between House Stark and House Lannister has now erupted into bloodshed."
+GOT_Story_News.22.a: "A storm is coming."
+
+# Event 23 – Tyrion’s Journey to the Eyrie
+GOT_Story_Country.23.t: "The High Road"
+GOT_Story_Country.23.d: "Lady Stark is taking me to her sister in the Eyrie. The road is long and treacherous, but I may still have a trick or two to keep my head. The Vale is not known for mercy, and neither am I."
+GOT_Story_Country.23.a: "Let them underestimate me."
+GOT_Story_Country.23.b: "There must be a way out of this..."
+
+GOT_Story_News.23.t: "Tyrion Taken East"
+GOT_Story_News.23.d: "Catelyn Stark is escorting Tyrion Lannister across the mountains of the Vale to face justice in the Eyrie. Many believe this move will escalate tensions between Houses Stark and Lannister beyond reconciliation."
+GOT_Story_News.23.a: "The game grows bloodier still."
+
+# Event 24 – The Mountain Loses Control
+GOT_Story_Country.24.t: "A Beast Unleashed"
+GOT_Story_Country.24.d: "Ser Gregor Clegane lost control after a defeat at the joust, murdering his horse and nearly striking down Ser Loras. He had to be restrained before the King ordered his exile. This is no knight — he is a monster in armor."
+GOT_Story_Country.24.a: "He’s too dangerous to remain here."
+GOT_Story_Country.24.b: "We could use a weapon like him..."
+
+GOT_Story_News.24.t: "Blood on the Tourney Grounds"
+GOT_Story_News.24.d: "Ser Gregor Clegane's outburst at the royal tournament has shocked the court. His violent display ended with his exile and confirmed fears about the dangerous state of Westeros’ knights."
+GOT_Story_News.24.a: "There are fewer and fewer true knights."
+
+# Event 25 – Lysa and Robin Arryn Revealed (Vale POV)
+GOT_Story_Country.25.t: "My Sister Brings a Lion"
+GOT_Story_Country.25.d: "Catelyn has arrived at the Eyrie, dragging a Lannister in chains behind her. She demands justice — but justice has long since become personal. The dwarf Tyrion will pay for what they’ve done to my husband. No one will harm us again. Not while the gates are closed."
+GOT_Story_Country.25.a: "Throw him in the sky cells."
+GOT_Story_Country.25.b: "We will have no part in this."
+
+GOT_Story_News.25.t: "Justice Awaits in the Eyrie"
+GOT_Story_News.25.d: "Catelyn Stark has reached the Eyrie and presented Tyrion Lannister to her sister, Lady Lysa Arryn. But all is not well in the mountain stronghold. Madness and suspicion seem to rule more than law."
+GOT_Story_News.25.a: "The Vale grows strange and silent."
+
 
 
 

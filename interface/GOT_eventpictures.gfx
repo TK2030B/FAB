@@ -229,5 +229,55 @@ spriteTypes = {
 		name = "GFX_News1_event_GOT_Story_News20"
 		texturefile = "gfx/event_pictures/News1/GOT_Story_News20.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country21"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country21.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News21"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News21.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country22"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country22.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News22"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News22.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country23"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country23.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News23"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News23.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country24"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country24.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News24"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News24.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_GOT_Story_Country25"
+		texturefile = "gfx/event_pictures/Country/GOT_Story_Country25.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GOT_Story_News25"
+		texturefile = "gfx/event_pictures/News/GOT_Story_News25.dds"
+	}
 
 }
