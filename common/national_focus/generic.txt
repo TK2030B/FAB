@@ -1595,6 +1595,11 @@ focus_tree = {
 		cost = 1
 		ai_will_do = {
 			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = { has_global_flag = GOT_King_Robert_Dead_Flag }
+			}
 		}
 		available = {
 			is_subject = no
