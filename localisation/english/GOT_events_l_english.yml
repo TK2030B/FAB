@@ -656,8 +656,10 @@ GOT_Story_News.53.a: "A dangerous line crossed."
 
 #Country Event
 GOT_Story_Country.54.t: "King Robert Dies"
-GOT_Story_Country.54.d: "Robert Baratheon is dead. The king passed in his chambers after days of agony. Eddard Stark stood at his side until the final breath. The boar that wounded him was slain — but so too is the man who once ruled with laughter and fury. Now begins the question of who shall wear the crown."
-GOT_Story_Country.54.a: "The king is dead."
+GOT_Story_Country.54.d: "Robert Baratheon is dead. The king passed in his chambers after days of agony. Eddard Stark stood at his side until the final breath. The boar that wounded him was slain — but so too is the man who once ruled with laughter and fury. Now begins the question of who shall rule until a new monarch is crowned: the king’s hand, Eddard Stark, or Queen Cersei herself?"
+GOT_Story_Country.54.a: "Lord Stark shall serve as Regent."
+GOT_Story_Country.54.b: "Cersei will take the regency."
+
 
 #News Event
 GOT_Story_News.54.t: "King Robert Baratheon Has Died"
