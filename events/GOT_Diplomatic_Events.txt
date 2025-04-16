@@ -226,6 +226,524 @@ country_event = {
 	}
 }
 
+#They Have Captured Tyrion
+country_event = {
+	id = GOT_Diplomatic_Country.6
+	title = GOT_Diplomatic_Country.6.t
+	desc = GOT_Diplomatic_Country.6.d
+	picture = GFX_report_event_GOT_Story_Country20
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.6.a
+
+		ai_chance = {
+			factor = 75
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = RIV
+			expire = 100
+		}
+		
+		add_war_support = 0.10
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.4
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.6.b
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_stability = -0.05
+		
+		
+	}
+}
+
+country_event = {
+	id = GOT_Diplomatic_Country.7
+	title = GOT_Diplomatic_Country.7.t
+	desc = GOT_Diplomatic_Country.7.d
+	picture = GFX_report_event_GOT_Story_Country46
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.7.a
+
+		ai_chance = {
+			factor = 80
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = CRO
+			expire = 100
+		}
+		
+		add_war_support = 0.10
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.7.b
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = { has_war_with = CRO }
+			}
+		}
+
+		add_war_support = 0.10
+		
+		
+	}
+}
+#Who Shall Wear the Crown?
+country_event = {
+	id = GOT_Diplomatic_Country.8
+	title = GOT_Diplomatic_Country.8.t
+	desc = GOT_Diplomatic_Country.8.d
+	picture = GFX_report_event_iron_throne
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.8.a #Joffrey
+
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+				is_historical_focus_on = no
+			}
+		}
+		
+		CRO_ned_stark = {
+			retire = yes
+		}
+		NOR = {
+			country_event = {
+				id = GOT_Alt_Country.4
+				hours = 6
+			}
+		}
+		add_country_leader_role = {
+			character = CRO_joffrey_baratheon
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					warmonger 
+					underage_monarch 
+					unpopular_monarch 
+					incompetent_leader 
+					dictator 
+				}
+			}
+			promote_leader = yes
+		}
+				
+		news_event = {
+			id = GOT_Diplomatic_News.5
+			days = 1
+		}
+		
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.8.b #Stannis
+
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+				is_historical_focus_on = no
+			}
+		}
+		#Lord Stark gets arrested 100% for historical AI
+		if = {
+			limit = {
+				is_ai = yes
+				is_historical_focus_on = yes
+			}
+			country_event = {
+				id = GOT_Story_Country.36
+				hours = 6
+			}
+		}
+		#For Players, or Non Historical AI, Stannis has a 40% chance of success
+		else = {
+			WES = {
+				country_event = {
+					id = GOT_Diplomatic_Country.10
+					days = 1
+				}
+			}
+			
+			CRO_ned_stark = {
+				retire = yes
+			}
+			add_country_leader_role = {
+				character = CRO_stannis_baratheon
+					country_leader={
+					ideology=NR_subideology
+					expire="1965.1.1.1"
+					traits = { 
+						legitimate_heir 
+						warrior_code 
+						unpopular_monarch 
+						headstrong 
+						indomitable_perseverance 
+						strict_austerity_adherent 
+						stout_defender 
+						inexperienced_imperialist 
+						autocratic_imperialist 
+						cornered_fox 
+					}
+				}
+				promote_leader = yes
+			}
+			random_list = {
+				60 = {
+					start_civil_war = {
+						ideology = fascism
+						size = 0.6
+					}
+				}
+				40 = {
+					
+				}
+			}
+			
+			news_event = {
+				id = GOT_Diplomatic_News.5
+				days = 1
+			}
+			
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.8.c #Renly
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+				is_historical_focus_on = no
+			}
+		}
+		
+		WES = {
+			country_event = {
+				id = GOT_Diplomatic_Country.10
+				days = 1
+			}
+		}
+		
+		CRO_ned_stark = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = CRO_renly_baratheon
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					lavish_lifestyle 
+					stout_defender 
+					socialite_connections 
+					hedonist 
+					popular_figurehead 
+					man_of_the_nation 
+					ambitious_negotiator_neutrality 
+					reluctant_veteran 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		random_list = {
+			40 = {
+				start_civil_war = {
+					ideology = fascism
+					size = 0.4
+				}
+			}
+			60 = {
+					
+			}
+		}
+		
+		news_event = {
+			id = GOT_Diplomatic_News.5
+			days = 1
+		}
+
+		
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.8.e #Ned
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+				is_historical_focus_on = no
+			}
+		}
+		
+		add_political_power = 25
+		
+		WES = {
+			country_event = {
+				id = GOT_Diplomatic_Country.10
+				days = 1
+			}
+		}
+		
+		random_list = {
+			50 = {
+				start_civil_war = {
+					ideology = fascism
+					size = 0.5
+				}
+			}
+			50 = {
+					
+			}
+		}
+
+		
+		
+	}
+}
+
+
+#The Lioness Roars
+country_event = {
+	id = GOT_Diplomatic_Country.9
+	title = GOT_Diplomatic_Country.9.t
+	desc = GOT_Diplomatic_Country.9.d
+	picture = GFX_report_event_iron_throne
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.9.a #Cersei Remains as Regent
+
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		add_political_power = 25
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.9.b #Joffrey
+
+		ai_chance = {
+			factor = 50
+		}
+
+		CRO_cersei_lannister = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = CRO_joffrey_baratheon
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					warmonger 
+					underage_monarch 
+					unpopular_monarch 
+					incompetent_leader 
+					dictator 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Diplomatic_News.5
+			days = 1
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.9.c #Tommen
+
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		CRO_cersei_lannister = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = CRO_Tommen_Baratheon
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					underage_monarch 
+					compassionate_gentleman 
+					#humble 
+					appeaser 
+					constitutional_monarch 
+					popular_figurehead 
+					champion_of_peace_5 
+					voice_of_restraint 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Diplomatic_News.5
+			days = 1
+		}
+
+		
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.9.e #Myrcella
+
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		CRO_cersei_lannister = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = CRO_Myrcella_Baratheon
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					popular_figurehead 
+					constitutional_monarch 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Diplomatic_News.5
+			days = 1
+		}
+		
+	}
+}
+
+
+#Lord Stark has usurped the Throne
+country_event = {
+	id = GOT_Diplomatic_Country.10
+	title = GOT_Diplomatic_Country.10.t
+	desc = GOT_Diplomatic_Country.10.d
+	picture = GFX_report_event_iron_throne
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.10.a
+
+		ai_chance = {
+			factor = 65
+		}
+		
+		if = {
+			limit = {
+				is_in_faction_with = CRO
+			}
+			leave_faction = yes
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = CRO
+			expire = 100
+		}
+		
+		add_war_support = 0.10
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.10.b
+
+		ai_chance = {
+			factor = 35
+		}
+
+		add_stability = -0.05
+		
+		
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -263,5 +781,32 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.3.a
+	}
+}
+#Westerlands Mobilizes for War
+news_event = {
+	id = GOT_Diplomatic_News.4
+	title = GOT_Diplomatic_News.4.t
+	desc = GOT_Diplomatic_News.4.d
+	picture = GFX_news_event_GOT_Story_News20
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.4.a
+	}
+}
+#Generic Crowned King
+news_event = {
+	id = GOT_Diplomatic_News.5
+	title = GOT_Diplomatic_News.5.t
+	desc = GOT_Diplomatic_News.5.d
+	picture = GFX_news_event_iron_throne
+
+	is_triggered_only = yes
+	is_major = yes
+
+	option = {
+		name = GOT_Diplomatic_News.5.a
 	}
 }

@@ -203,10 +203,6 @@ characters={
 				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}
-		country_leader={
-			ideology=NR_subideology
-			expire="1965.1.1.1"
-		}
 		advisor={
 			cost = 100
 			slot = political_advisor
@@ -628,14 +624,14 @@ characters={
 	}
 
 	CRO_ned_stark={
-		name=CRO_ned_stark
+		name=NOR_ned_stark
 		portraits={
 			army = {
-				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 			civilian = {
-				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
 				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}

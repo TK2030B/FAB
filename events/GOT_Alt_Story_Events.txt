@@ -123,6 +123,119 @@ country_event = {
 	}
 }
 
+#Eddard Stark Joins Night Watch
+country_event = {
+	id = GOT_Alt_Country.2
+	title = GOT_Alt_Country.2.t
+	desc = GOT_Alt_Country.2.d
+	picture = GFX_report_event_GOT_Alt_Country2
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_Country.2.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_field_marshal_role = {
+			character = NWA_ned_stark
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Alt_News.2
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Lord Stark Free
+country_event = {
+	id = GOT_Alt_Country.3
+	title = GOT_Alt_Country.3.t
+	desc = GOT_Alt_Country.3.d
+	picture = GFX_report_event_GOT_Alt_Country2
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_Country.3.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_political_power = 25
+		
+	}
+}
+
+#Eddard Stark Returns to Winterfell
+country_event = {
+	id = GOT_Alt_Country.4
+	title = GOT_Alt_Country.4.t
+	desc = GOT_Alt_Country.4.d
+	picture = GFX_report_event_GOT_Alt_Country4
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_Country.4.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		NOR_robb_stark = {
+			retire = yes
+		}
+		add_country_leader_role = {
+			character = NOR_ned_stark
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					warden_of_north 
+					warrior_code 
+					indomitable_perseverance 
+					great_war_hero 
+					strict_austerity_adherent 
+					staunch_monarchist 
+					fortification_engineer 
+					reluctant_veteran 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_political_power = 25
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Alt_News.4
+				hours = 6
+			}
+		}
+		
+	}
+}
+
 news_event = {
 	id = GOT_Alt_News.1
 	title = GOT_Alt_News.1.t
@@ -133,5 +246,31 @@ news_event = {
 
 	option = {
 		name = GOT_Alt_News.1.a
+	}
+}
+
+news_event = {
+	id = GOT_Alt_News.2
+	title = GOT_Alt_News.2.t
+	desc = GOT_Alt_News.2.d
+	picture = GFX_news_event_GOT_Alt_News2
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_News.2.a
+	}
+}
+
+news_event = {
+	id = GOT_Alt_News.4
+	title = GOT_Alt_News.4.t
+	desc = GOT_Alt_News.4.d
+	picture = GFX_news_event_GOT_Alt_News4
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_News.4.a
 	}
 }

@@ -2,6 +2,10 @@
 GOT_TAR_DOT_Wedding_Flag:0 "Targaryen-Dothraki Marriage"
 GOT_TAR_Wedding_Flag:0 "Targaryen Marriage"
 GOT_Tyrion_Captured_Flag:0 "Tyrion Captured"
+GOT_Lord_Stark_Investigation_Flag:0 "Lord Stark's Investigation"
+GOT_Lord_Stark_Arrested_Flag:0 "Lord Stark Arrested"
+GOT_Dany_Pregnant_Flag:0 "Danaerys Pregnant"
+GOT_King_Robert_Dead_Flag:0 "King Robert Is Dead"
 
 Game_Event.1.t:0 "Welcome (1/3)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -299,8 +303,9 @@ GOT_Story_News.20.a: "A mad king in the making?"
 # Event 21 – Ned Resigns as Hand of the King
 GOT_Story_Country.21.t: "I Will Not Be an Assassin"
 GOT_Story_Country.21.d: "King Robert has ordered the assassination of Daenerys Targaryen. I will not spill the blood of a child, no matter who commands it. If this is what being Hand of the King means, then I want no part of it."
-GOT_Story_Country.21.a: "I resign my post."
-GOT_Story_Country.21.b: "Fine. I’ll obey… for now."
+GOT_Story_Country.21.a: "I will have no part in it."
+GOT_Story_Country.21.b: "I resign my post."
+
 
 GOT_Story_News.21.t: "Eddard Stark Resigns as Hand"
 GOT_Story_News.21.d: "Eddard Stark has resigned from his post as Hand of the King following a dispute with Robert Baratheon over the fate of Daenerys Targaryen. Tensions grow within the royal court as Ned Stark chooses principle over power."
@@ -346,7 +351,318 @@ GOT_Story_News.25.t: "Justice Awaits in the Eyrie"
 GOT_Story_News.25.d: "Catelyn Stark has reached the Eyrie and presented Tyrion Lannister to her sister, Lady Lysa Arryn. But all is not well in the mountain stronghold. Madness and suspicion seem to rule more than law."
 GOT_Story_News.25.a: "The Vale grows strange and silent."
 
+# Event 26
+# Country Event
+GOT_Story_Country.26.t: "Trial by Combat in the Eyrie"
+GOT_Story_Country.26.d: "Accused and imprisoned by Lady Lysa Arryn, I demanded a trial by combat. Against all odds, Bronn volunteered to champion my cause—and triumphed against Ser Vardis Egen. I am free once more, thanks to wit, luck, and a sellsword’s sword."
+GOT_Story_Country.26.a: "Let the gods judge… and Bronn fight."
 
+# News Event
+GOT_Story_News.26.t: "Tyrion Lannister Wins Trial by Combat"
+GOT_Story_News.26.d: "At the Eyrie, Tyrion Lannister demanded a trial by combat to escape execution. In a tense duel, the cunning Bronn defeated Ser Vardis Egen, securing Tyrion’s release from Lady Lysa’s court."
+GOT_Story_News.26.a: "A bold gamble, well played."
+
+# Event 27
+# Country Event
+GOT_Story_Country.27.t: "The Bastards of Baratheon"
+GOT_Story_Country.27.d: "My investigation into the lineage of Robert’s children led to an inescapable truth: none of them bear the Baratheon look. Their black hair is absent. The seed is strong, they said—yet here, the seed is false. This truth could shatter the realm."
+GOT_Story_Country.27.a: "The children are not Robert’s…"
+
+# News Event
+GOT_Story_News.27.t: "Lord Stark Uncovers a Dangerous Secret"
+GOT_Story_News.27.d: "While acting as Hand of the King, Lord Eddard Stark discovered troubling inconsistencies in the lineage of King Robert’s heirs. Whispers of bastardy now threaten the fragile balance of power in King’s Landing."
+GOT_Story_News.27.a: "Dark truths in bright halls."
+
+# Event 28
+# Country Event
+GOT_Story_Country.28.t: "The Heart of a Stallion"
+GOT_Story_Country.28.d: "In the eyes of the Dothraki, strength is proven in blood and will. I knelt and consumed the heart of a stallion, raw and beating. I did not waver. I did not fail. They believe my child will be the stallion who mounts the world."
+GOT_Story_Country.28.a: "Blood and strength. For the future."
+
+# News Event
+GOT_Story_News.28.t: "Daenerys Passes the Dothraki Trial"
+GOT_Story_News.28.d: "Daenerys Targaryen completed a sacred Dothraki ritual, consuming a raw horse heart before a crowd. Her unflinching resolve impressed the nomadic warriors, who now speak of her unborn child as a prophesied conqueror."
+GOT_Story_News.28.a: "A queen of fire and blood."
+
+# Event 29
+# Country Event
+GOT_Story_Country.29.t: "A Crown for a King"
+GOT_Story_Country.29.d: "Viserys demanded his crown—and Drogo gave it to him. A crown of molten gold. He screamed until he could scream no more. Fire cannot kill a dragon… but gold, it seems, can."
+GOT_Story_Country.29.a: "He was no dragon."
+
+# News Event
+GOT_Story_News.29.t: "Viserys Targaryen Killed by Molten Gold"
+GOT_Story_News.29.d: "In a shocking display of Dothraki justice, Khal Drogo executed Viserys Targaryen by pouring molten gold over his head. His demand for a crown was met—fatally."
+GOT_Story_News.29.a: "A crown of fire."
+
+# Event 30
+# Country Event
+GOT_Story_Country.30.t: "The King Goes Hunting"
+GOT_Story_Country.30.d: "Tired of the schemes and serpents in King’s Landing, Robert has left for a hunt. He leaves me the throne, the politics, and the danger. The realm is mine to steward… and to protect."
+GOT_Story_Country.30.a: "May the gods watch over him."
+
+# News Event
+GOT_Story_News.30.t: "King Robert Departs for the Hunt"
+GOT_Story_News.30.d: "Seeking respite from the turmoil of court, King Robert Baratheon has left King’s Landing for a hunting trip. Lord Eddard Stark, Hand of the King, remains behind to govern in his stead."
+GOT_Story_News.30.a: "A quiet court—or a storm ahead?"
+
+# Event 31
+# Country Event
+GOT_Story_Country.31.t: "Lord Stark Confronts the Queen"
+GOT_Story_Country.31.d: "Eddard Stark confronted Queen Cersei Lannister in private, revealing that he had uncovered the truth about her children’s parentage. He gave her a warning, offering her the chance to flee before King Robert's return. But the Queen did not flee—she held her ground."
+GOT_Story_Country.31.a: "The game is now afoot."
+
+# News Event
+GOT_Story_News.31.t: "Eddard Stark Confronts Queen Cersei"
+GOT_Story_News.31.d: "Lord Eddard Stark has confronted Queen Cersei Lannister over the legitimacy of her children, revealing his knowledge of her relationship with Ser Jaime. Reports suggest he offered her a chance to escape the capital before Robert Baratheon's return, but the Queen stood firm."
+GOT_Story_News.31.a: "A confrontation with grave consequences."
+
+# Event 32
+# Country Event
+GOT_Story_Country.32.t: "Jon Snow Joins the Night's Watch"
+GOT_Story_Country.32.d: "At the heart of the Haunted Forest, beneath the ancient weirwood tree, Jon Snow and Samwell Tarly took their vows and pledged their lives to the Night’s Watch. Their words echoed solemnly through the snow-covered trees, marking their transformation into sworn brothers of the Wall."
+GOT_Story_Country.32.a: "Honor in the darkness."
+
+# News Event
+GOT_Story_News.32.t: "Jon Snow Sworn into the Night’s Watch"
+GOT_Story_News.32.d: "Jon Snow and Samwell Tarly have taken their sacred vows beneath the weirwood tree, becoming full members of the Night's Watch. The solemn oath binds them to a life of duty and sacrifice at the edge of the known world."
+GOT_Story_News.32.a: "The Wall gains new brothers."
+
+# Event 33
+# Country Event
+GOT_Story_Country.33.t: "Khal Drogo Vows to Conquer Westeros"
+GOT_Story_Country.33.d: "After a cowardly attempt on Daenerys Targaryen’s life, Khal Drogo gathered his khalasar. With his blade slick with the blood of the assassin and fury in his voice, he swore vengeance upon the usurpers across the Narrow Sea. Before thousands of warriors and followers, he promised the Iron Throne for his unborn son. Yet even vengeance has paths — and Drogo must choose how soon and how fiercely he will ride."
+GOT_Story_Country.33.a: "We ride at dawn — Westeros will burn!" 
+GOT_Story_Country.33.b: "One day, they will feel my fury."
+GOT_Story_Country.33.c: "The khaleesi lives — let their shame be enough."
+
+# News Event
+GOT_Story_News.33.t: "Khal Drogo Declares Invasion of Westeros"
+GOT_Story_News.33.d: "In response to an attempt on Daenerys Targaryen’s life, Khal Drogo has vowed to lead his khalasar across the Narrow Sea and conquer Westeros. His fury burns hot, and his riders prepare for war."
+GOT_Story_News.33.a: "The Dothraki are coming."
+
+# Event 34
+# Country Event
+GOT_Story_Country.34.t: "Tywin Lannister Appears"
+GOT_Story_Country.34.d: "Tywin Lannister has entered the scene in characteristic fashion—skinning a stag while lecturing his son, Ser Jaime, about legacy and power. The symbolism was unmistakable. The Lion does not sleep while others vie for the throne."
+GOT_Story_Country.34.a: "The true power of the West."
+
+# News Event
+GOT_Story_News.34.t: "Tywin Lannister Steps into the Game"
+GOT_Story_News.34.d: "Tywin Lannister, Lord of Casterly Rock, has made his presence known. In a grim display, he was seen skinning a stag as he discussed strategy with his son Jaime, a symbolic statement to the Baratheons—and the realm."
+GOT_Story_News.34.a: "The Lion sharpens his claws."
+
+# Event 35
+# Country Event
+GOT_Story_Country.35.t: "Assassination Attempt on Daenerys"
+GOT_Story_Country.35.d: "An assassin attempted to poison Daenerys Targaryen in the market of Vaes Dothrak. The plot was foiled by Ser Jorah Mormont, who intercepted the poisoned goblet moments before she drank. The reach of Westerosi politics has crossed the Narrow Sea."
+GOT_Story_Country.35.a: "Westeros strikes from afar."
+
+# News Event
+GOT_Story_News.35.t: "Daenerys Survives Assassination Attempt"
+GOT_Story_News.35.d: "Daenerys Targaryen narrowly escaped an attempt on her life after an assassin tried to poison her in Vaes Dothrak. Thanks to the swift intervention of Ser Jorah Mormont, the attempt failed. The source of the order is widely believed to lie in Westeros."
+GOT_Story_News.35.a: "The dragon lives."
+
+# Event 36
+# Country Event
+GOT_Story_Country.36.t: "Eddard Stark Arrested"
+GOT_Story_Country.36.d: "After King Robert’s death, Eddard Stark attempted to install Stannis Baratheon as the rightful heir. However, Littlefinger betrayed him, and the Gold Cloaks turned against him. Joffrey Baratheon claimed the Iron Throne, and Lord Stark was seized in the throne room."
+GOT_Story_Country.36.a: "The wolf is in chains."
+
+# News Event
+GOT_Story_News.36.t: "Lord Stark Arrested in King’s Landing"
+GOT_Story_News.36.d: "Following Robert Baratheon’s death, Eddard Stark moved to support Stannis as the legitimate heir. In a shocking betrayal, Lord Baelish turned on him, and the Gold Cloaks arrested him under Queen Cersei’s orders. Joffrey now sits the Iron Throne."
+GOT_Story_News.36.a: "Treachery in the capital."
+
+# Event 37
+# Country Event
+GOT_Story_Country.37.t: "Arya Escapes the Red Keep"
+GOT_Story_Country.37.d: "In the chaos following Lord Eddard Stark’s arrest, Arya Stark managed to evade Lannister guards inside the Red Keep. With the help of her Braavosi sword instructor, Syrio Forel, Arya fled the training yard. Syrio stayed behind to face the approaching guards, buying her precious time to escape into the city."
+GOT_Story_Country.37.a: "The wolf cub slips away."
+
+# News Event
+GOT_Story_News.37.t: "Arya Stark Flees the Red Keep"
+GOT_Story_News.37.d: "Arya Stark, daughter of the imprisoned Eddard Stark, is reported to have escaped capture within the Red Keep. Her sword instructor, Syrio Forel, allegedly confronted Lannister guards to ensure her escape. Her whereabouts are now unknown."
+GOT_Story_News.37.a: "The North remembers."
+
+# Event 38
+# Country Event
+GOT_Story_Country.38.t: "The King's Demand"
+
+GOT_Story_Country.38.d: "With Eddard Stark imprisoned in King’s Landing, a royal raven has arrived in Winterfell. Acting under Queen Cersei’s authority, the Crown demands that Robb Stark swear fealty to King Joffrey and cease all hostile movements. Lords great and small have gathered at Winterfell, torn between loyalty and vengeance. Robb must now decide whether to bend the knee... or call the banners."
+GOT_Story_Country.38.a: "Call the banners."  
+GOT_Story_Country.38.b: "We will not fight. I shall bend the knee—for now."
+
+
+# News Event
+GOT_Story_News.38.t: "The North Marches to War"
+GOT_Story_News.38.d: "Robb Stark, son of Eddard Stark, has called his banners in response to his father’s imprisonment by the Lannisters. Thousands of Northern warriors now rally under the Stark sigil. A storm is brewing in the Riverlands."
+GOT_Story_News.38.a: "The young wolf leads the pack."
+
+# Event 39
+# Country Event
+GOT_Story_Country.39.t: "Jon Snow Battles a Wight"
+GOT_Story_Country.39.d: "An undead wight infiltrated Castle Black and attacked Lord Commander Mormont in the night. Jon Snow, reacting swiftly, used fire to destroy the creature and save the Commander. The dead walk, and the Night’s Watch now faces a far greater threat beyond the Wall."
+GOT_Story_Country.39.a: "The Long Night stirs."
+
+# News Event
+GOT_Story_News.39.t: "Undead at Castle Black"
+GOT_Story_News.39.d: "A wight—a reanimated corpse—was discovered within Castle Black. The creature attacked the Lord Commander but was destroyed by Jon Snow. The event has sent shockwaves through the Night’s Watch, raising dire questions about what lies beyond the Wall."
+GOT_Story_News.39.a: "Darkness approaches."
+
+# Event 40
+# Country Event
+GOT_Story_Country.40.t: "Daenerys Witnesses a Dothraki Raid"
+GOT_Story_Country.40.d: "As Khal Drogo led his khalasar in raiding a Lhazareen village, Daenerys Targaryen watched in horror. The brutality of the Dothraki way of war clashed with her growing sense of justice. Her protest halted the taking of women, sowing tension between her and Drogo’s bloodriders."
+GOT_Story_Country.40.a: "Fire and mercy."
+
+# News Event
+GOT_Story_News.40.t: "Dothraki Pillage Lhazareen Village"
+GOT_Story_News.40.d: "Khal Drogo’s khalasar has ravaged a peaceful Lhazareen village. Sources report that Daenerys Targaryen, who accompanied the khalasar, intervened to stop the abuse of captives. Her growing influence over the Dothraki is raising eyebrows—and opposition."
+GOT_Story_News.40.a: "The dragon shows compassion."
+
+# Event 41
+# Country Event
+GOT_Story_Country.41.t: "Tyrion Aligns with the Hill Tribes"
+GOT_Story_Country.41.d: "While crossing the Vale of Arryn, Tyrion Lannister encountered the Hill Tribes. Facing death or diplomacy, he offered them gold, weapons, and land in exchange for their allegiance. The tribes accepted. Now, these fierce warriors march under the Lannister banner."
+GOT_Story_Country.41.a: "Unlikely allies."
+
+# News Event
+GOT_Story_News.41.t: "Tyrion Lannister Secures Hill Tribe Support"
+GOT_Story_News.41.d: "Tyrion Lannister has emerged from the Vale accompanied by a force of Hill Tribe warriors. He is said to have promised them gold and lands in exchange for loyalty. The political landscape of Westeros grows ever more unpredictable."
+GOT_Story_News.41.a: "Deals struck in the mountains."
+
+#Country Event
+GOT_Story_Country.42.t: "Robb Stark Captures Jaime Lannister"
+GOT_Story_Country.42.d: "Our gamble paid off. The feint at the Green Fork cost us two thousand men, but it drew Tywin's attention. In the Whispering Wood, Robb ambushed Jaime Lannister's host and took the Kingslayer prisoner. The North now holds a powerful bargaining chip."
+GOT_Story_Country.42.a: "The Young Wolf shows his teeth."
+
+#News Event
+GOT_Story_News.42.t: "Jaime Lannister Captured!"
+GOT_Story_News.42.d: "In a daring nighttime maneuver near the Whispering Wood, Robb Stark led a surprise attack that routed the Lannister forces and resulted in the capture of Jaime Lannister himself. With the Kingslayer in chains, the balance of power in the War of the Five Kings has shifted dramatically."
+GOT_Story_News.42.a: "The North strikes back!"
+
+#Country Event
+GOT_Story_Country.43.t: "Arya Spots Eddard"
+GOT_Story_Country.43.d: "Blending into the crowd near the Great Sept of Baelor, Arya Stark spotted her father being dragged up the steps. Yoren of the Night’s Watch recognized her and quickly whisked her away before the Lannisters could find her. Her journey is about to take a darker turn."
+GOT_Story_Country.43.a: "She must stay hidden."
+
+#News Event
+GOT_Story_News.43.t: "Stark Girl Vanishes in the Crowd"
+GOT_Story_News.43.d: "As Eddard Stark was led toward the Sept of Baelor, reports suggest his youngest daughter, Arya, was seen among the crowd. While guards searched the square, she seemingly disappeared without a trace. Her fate remains unknown."
+GOT_Story_News.43.a: "Another Stark escapes."
+
+#Country Event
+GOT_Story_Country.44.t: "Sansa Pleads for Ned's Life"
+GOT_Story_Country.44.d: "Sansa Stark has begged King Joffrey to show mercy, believing her father's confession will spare his life. Cersei and the court seemed moved, but Joffrey's whims are as dangerous as ever. The fate of Eddard Stark hangs in the balance."
+GOT_Story_Country.44.a: "Let us hope he listens."
+
+#News Event
+GOT_Story_News.44.t: "Sansa Begs for Mercy"
+GOT_Story_News.44.d: "In the Red Keep’s throne room, Sansa Stark fell to her knees before King Joffrey, pleading for her father’s life. Witnesses claim the queen and court were stirred by her words — but whether the boy king will heed them remains to be seen."
+GOT_Story_News.44.a: "A daughter's desperate plea."
+
+#Country Event
+GOT_Story_Country.45.t: "Eddard Stark Confesses"
+GOT_Story_Country.45.d: "Before a roaring crowd at the Sept of Baelor, Eddard Stark confessed to treason. It was a lie — but one he spoke to protect his daughters. The realm waited for Joffrey’s promised mercy, but the king’s cruelty is never far beneath the surface."
+GOT_Story_Country.45.a: "He did it for his family."
+
+#News Event
+GOT_Story_News.45.t: "Eddard Stark Admits Treason"
+GOT_Story_News.45.d: "Before thousands gathered outside the Great Sept of Baelor, Eddard Stark publicly confessed to treason. Many expected clemency — a life spared in exchange for dishonor. But the court watched with bated breath to see how Joffrey would respond."
+GOT_Story_News.45.a: "A shocking confession."
+
+#Country Event
+GOT_Story_Country.46.t: "The Fate of Eddard Stark"
+GOT_Story_Country.46.d: "Eddard Stark stands accused of treason, having confessed—under duress—to plotting against King Joffrey. The realm expected clemency, and Queen Cersei, Grand Maester Pycelle, and even Lord Varys urged mercy. Sending Stark to the Wall would remove him from the game of thrones while sparing the realm further unrest. But others demand blood, seeing Stark's death as necessary to assert royal authority and break the will of rebellious lords. What is to be done with this traitor, Your Grace?"
+GOT_Story_Country.46.a: "Off with his head. Let the traitor die."
+GOT_Story_Country.46.b: "Let him take the black. Send him to the Wall."
+
+
+#News Event
+GOT_Story_News.46.t: "Ned Stark Beheaded!"
+GOT_Story_News.46.d: "In a shocking turn, King Joffrey ordered the execution of Eddard Stark despite his confession. The former Hand of the King was beheaded before the Sept of Baelor. The North is sure to rise in fury, and the realm plunges deeper into war."
+GOT_Story_News.46.a: "The king's justice, or madness?"
+
+#Country Event
+GOT_Story_Country.47.t: "Robb Stark Is Declared King in the North"
+GOT_Story_Country.47.d: "Ned Stark is dead, but the North remembers. In the great hall of Riverrun, the Northern and Riverland lords cast aside their fealty to the Iron Throne. Greatjon Umber speaks first, but others follow. One by one, they raise swords and goblets and hail Robb Stark as King in the North — the first in centuries."
+GOT_Story_Country.47.a: "The King in the North!"
+
+#News Event
+GOT_Story_News.47.t: "A New King in the North!"
+GOT_Story_News.47.d: "In the aftermath of Eddard Stark’s execution, the North has risen. The great houses of the North and Riverlands have sworn fealty not to Renly or Stannis, but to Robb Stark. 'The King in the North,' they call him — a name not spoken in generations. Westeros edges closer to full civil war."
+GOT_Story_News.47.a: "The North breaks away."
+
+#Country Event
+GOT_Story_Country.48.t: "Daenerys Walks into the Flames"
+GOT_Story_Country.48.d: "The fire roars as Drogo's pyre consumes the night. Daenerys steps forward, placing her dragon eggs among the flames. As gasps rise from the onlookers, she walks calmly into the inferno. Her face is resolute. No one stops her. No one dares. The Dothraki fall silent. They expect death. But something ancient stirs."
+GOT_Story_Country.48.a: "Blood of the dragon."
+
+#News Event
+GOT_Story_News.48.t: "The Dragon Queen Steps Into Fire"
+GOT_Story_News.48.d: "Daenerys Targaryen has done the unthinkable. At the funeral of Khal Drogo, she walked into the flames with her dragon eggs — and did not scream. Witnesses report she was consumed by fire. No body was found in the ashes. Some whisper of fire magic. Others, of madness. None know what it means — yet."
+GOT_Story_News.48.a: "Fire and fate."
+
+#Country Event
+GOT_Story_Country.49.t: "Jon Snow Tries to Desert the Night’s Watch"
+GOT_Story_Country.49.d: "News of Ned Stark’s death reached Castle Black like a bitter wind. Grief clouded Jon Snow’s judgment, and he slipped away in the night, bound south to join Robb’s war. But his brothers — Sam, Grenn, and Pyp — rode hard and caught him just before the border. Friendship and oaths prevailed. Jon returned."
+GOT_Story_Country.49.a: "He chose his duty."
+
+#News Event
+GOT_Story_News.49.t: "Jon Snow Caught Fleeing South"
+GOT_Story_News.49.d: "Grieving his father's execution, Jon Snow abandoned his post at Castle Black. He was later intercepted by fellow members of the Night’s Watch before he crossed into the south. Snow has returned, but the incident has raised questions about his loyalty and the burden the oath imposes."
+GOT_Story_News.49.a: "Even honor wavers."
+
+#Country Event
+GOT_Story_Country.50.t: "Catelyn Confronts Jaime Lannister"
+GOT_Story_Country.50.d: "In the Northern camp, Catelyn Stark demands answers from the man who tried to murder her son. Jaime Lannister, chained and bloodied, meets her accusations with smug deflection and sarcasm. But beneath the smirk, his eyes flicker — with arrogance, with guilt, or perhaps fear."
+GOT_Story_Country.50.a: "He’s not as clever as he thinks."
+
+#News Event
+GOT_Story_News.50.t: "Catelyn Questions the Kingslayer"
+GOT_Story_News.50.d: "In a tent of the Northern host, Lady Catelyn Stark confronted Jaime Lannister, who remains a prisoner after his capture at Whispering Wood. She demanded the truth of Bran’s fall. The Kingslayer offered little more than insolence, but whispers say the exchange left a mark — on them both."
+GOT_Story_News.50.a: "Tension behind enemy lines."
+
+#Country Event
+GOT_Story_Country.51.t: "Daenerys and the Birth of the Dragons"
+GOT_Story_Country.51.d: "At dawn, the pyre has burned to embers. Daenerys Targaryen stands unharmed in the ashes, smoke curling around her bare skin. Nestled against her body are three living dragons — the first in centuries. The Dothraki kneel in awe. Jorah Mormont bows his head. Fire has birthed something ancient and terrible."
+GOT_Story_Country.51.a: "Mother of Dragons."
+
+#News Event
+GOT_Story_News.51.t: "Dragons Return to the World"
+GOT_Story_News.51.d: "The impossible has occurred. Daenerys Targaryen emerged from Drogo’s funeral pyre alive, bearing three infant dragons. Magic long thought dead has returned to the world. The Dothraki now kneel before her not as khaleesi, but as something more. The world may never be the same."
+GOT_Story_News.51.a: "A legend reborn."
+
+#Country Event
+GOT_Story_Country.52.t: "King Robert Wounded by the Boar"
+GOT_Story_Country.52.d: "The royal hunt has ended in tragedy. Deep in the forest, King Robert Baratheon was gored by a wild boar. His men arrived too late to prevent the worst of the injury. Bloodied and near unconscious, the king was rushed back to the Red Keep. His condition is grave. Whispers of succession already stir in the halls."
+GOT_Story_Country.52.a: "The hunt was a disaster."
+
+#News Event
+GOT_Story_News.52.t: "King Robert Gravely Injured on Royal Hunt"
+GOT_Story_News.52.d: "King Robert Baratheon has suffered a mortal wound while hunting in the Kingswood. The royal party reports a vicious struggle with a wild boar. Though the beast was slain, it left the king severely wounded. He has returned to the capital, where healers now fight to save his life. Tensions rise in court as the question of succession looms."
+GOT_Story_News.52.a: "A realm on edge."
+
+#Country Event
+GOT_Story_Country.53.t: "Robert Orders Daenerys’ Death"
+GOT_Story_Country.53.d: "The Small Council has turned to blood. News of Daenerys Targaryen’s pregnancy drove King Robert to fury. Slamming his goblet, he demanded her assassination, despite Lord Eddard Stark’s fierce objections. Lines are drawn. Robert sees only threats. Ned sees honor. But the order stands — the girl must die."
+GOT_Story_Country.53.a: "He’s made his decision."
+
+#News Event
+GOT_Story_News.53.t: "King Orders Targaryen Girl Assassinated"
+GOT_Story_News.53.d: "Tensions flared within the Small Council as King Robert Baratheon gave the order to have Daenerys Targaryen killed. Rumors of her carrying a child — a potential heir of House Targaryen — sparked fear of rebellion from across the sea. Lord Eddard Stark opposed the move, but the rest of the council stood behind the king. The wheels of death have turned."
+GOT_Story_News.53.a: "A dangerous line crossed."
+
+#Country Event
+GOT_Story_Country.54.t: "King Robert Dies"
+GOT_Story_Country.54.d: "Robert Baratheon is dead. The king passed in his chambers after days of agony. Eddard Stark stood at his side until the final breath. The boar that wounded him was slain — but so too is the man who once ruled with laughter and fury. Now begins the question of who shall wear the crown."
+GOT_Story_Country.54.a: "The king is dead."
+
+#News Event
+GOT_Story_News.54.t: "King Robert Baratheon Has Died"
+GOT_Story_News.54.d: "The king is dead. Robert Baratheon succumbed to wounds sustained in a hunting accident. The realm mourns, but even as bells toll, courtiers whisper. Who will succeed him? Will it be his son, Joffrey? Or another claimant? Westeros stands on the edge of uncertainty, with storm clouds brewing."
+GOT_Story_News.54.a: "A crown without a king."
 
 
 
@@ -378,6 +694,38 @@ GOT_Diplomatic_Country.5.t: "Khal Drogo Declines"
 GOT_Diplomatic_Country.5.d: "Khal Drogo has rejected Viserys’s offer, refusing to marry Daenerys in exchange for an alliance. The Dothraki will remain independent, and the Targaryens must find another path to power."
 GOT_Diplomatic_Country.5.a: "The Dothraki have refused the proposal, and the alliance is off."
 
+GOT_Diplomatic_Country.6.t: "They Have My Son"
+GOT_Diplomatic_Country.6.d: "News has reached us from the Vale — or more precisely, from Catelyn Stark. She has taken Tyrion captive and accuses him of attempting to murder her son. This is an affront to our House. Tyrion’s safety is not assured, and House Lannister does not sit idle when wronged. The time has come to decide whether we let this insult go unanswered, or make the North pay for laying hands on a lion."
+GOT_Diplomatic_Country.6.a: "Summon the banners! We ride for war!"
+GOT_Diplomatic_Country.6.b: "He is cunning. He will find a way to survive."
+
+GOT_Diplomatic_Country.7.t: "The Death of Eddard Stark"
+GOT_Diplomatic_Country.7.d: "A raven from King's Landing has brought terrible news. Lord Eddard Stark has been executed on the orders of King Joffrey Baratheon. The North is in shock — their lord, Warden of the North, butchered like a common traitor in the capital he served loyally. Robb Stark must decide how the North shall respond to this unforgivable act."
+GOT_Diplomatic_Country.7.a: "This is war. We ride south at once."
+GOT_Diplomatic_Country.7.b: "We will mourn him... for now."
+GOT_Diplomatic_Country.7.c: "He will be avenged."
+
+GOT_Diplomatic_Country.8.t: "Who Shall Wear the Crown?"
+GOT_Diplomatic_Country.8.d: "With King Robert’s death, the fate of the realm rests heavy upon me. As Lord Regent, I must choose who will succeed him. Joffrey is named in Robert’s will, but doubts gnaw at my conscience. Stannis holds the lawful claim. Renly has support, though little right. And some whisper that I should claim the crown myself — but I am no king. Perhaps the realm needs not a monarch, but a steady hand to guide it through the storm."
+GOT_Diplomatic_Country.8.a: "Joffrey Baratheon shall be king."
+GOT_Diplomatic_Country.8.b: "The crown rightfully belongs to Stannis."
+GOT_Diplomatic_Country.8.c: "Renly has the backing to rule."
+GOT_Diplomatic_Country.8.e: "The realm needs no king — only a regent."
+
+
+GOT_Diplomatic_Country.9.t: "The Lioness Roars"
+GOT_Diplomatic_Country.9.d: "With Eddard Stark defeated and Robert dead, the path to the Iron Throne lies clear. I can maintain control as Regent, letting the realm believe power rests in their king’s hands — whoever he or she may be. Joffrey is the rightful heir, though his temper worries even me. Tommen is kind and easily guided. Myrcella, though a girl, has a mind sharper than her brothers’. Or perhaps it's best I simply hold the reins myself, without the formality of a crown. The choice is mine. And I will not be questioned."
+GOT_Diplomatic_Country.9.a: "Remain Queen Regent — let the child rule in name only."
+GOT_Diplomatic_Country.9.b: "Crown Joffrey Baratheon as King."
+GOT_Diplomatic_Country.9.c: "Crown Tommen Baratheon as King."
+GOT_Diplomatic_Country.9.e: "Crown Myrcella Baratheon as Queen."
+
+GOT_Diplomatic_Country.10.t: "Lord Stark's Betrayal"
+GOT_Diplomatic_Country.10.d: "Word has reached us that Lord Eddard Stark, acting as Regent, has spurned the clear line of succession. Instead of honoring Prince Joffrey’s claim, he has moved to crown another — Stannis, Renly, or even rule in Robert’s stead. This is nothing short of treason. The time has come to decide our response. Shall we strike swiftly and secure the capital, or wait for the opportune moment?"
+GOT_Diplomatic_Country.10.a: "Summon our banners. We march on King’s Landing!"
+GOT_Diplomatic_Country.10.b: "Patience. Our time will come."
+
+
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -389,6 +737,16 @@ GOT_Diplomatic_News.3.t: "Dothraki Spurn Targaryen Offer"
 GOT_Diplomatic_News.3.d: "Word spreads across Essos and Westeros that Khal Drogo has rejected Viserys Targaryen’s offer of marriage to his sister Daenerys. The refusal is a major blow to Viserys’ hopes of raising a Dothraki army to reclaim the Iron Throne. Without the strength of the horselords at his back, the exiled prince’s ambitions may falter before they ever take root."
 GOT_Diplomatic_News.3.a: "The Dragon’s cause grows colder"
 
+GOT_Diplomatic_News.4.t: "Lions March to War"
+GOT_Diplomatic_News.4.d: "The fragile peace of the Seven Kingdoms has been shattered. Following the capture of Tyrion Lannister by Catelyn Stark, Lord Tywin Lannister has raised his banners and declared war on the Riverlands, where Catelyn's host sought refuge. The Westerlands see this act as a grave insult and a threat to the power of House Lannister. Armies are already on the move, and the realm braces for what may become a bloody conflict between two of its great houses."
+GOT_Diplomatic_News.4.a: "War comes to Westeros once more."
+
+GOT_Diplomatic_News.5.t: "[CRO.GetLeader] Crowned Ruler of the Seven Kingdoms"
+GOT_Diplomatic_News.5.d: "In a moment of great ceremony and consequence, [CRO.GetLeader] has been crowned as the ruler of the Seven Kingdoms, taking the titles of King of the Andals and the First Men, Lord of the Seven Kingdoms, and Protector of the Realm. The court rejoices, the bells of King’s Landing toll, and the banners of [CRO.GetRulingParty] rise high above the Red Keep. Yet whispers stir across the land — not all are content with this new sovereign. A new chapter begins in the Song of Ice and Fire."
+GOT_Diplomatic_News.5.a: "A new ruler rises."
+
+
+
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
 GOT_Alt_Country.1.a: "Celebrate the union and strengthen our claim to the Iron Throne"
@@ -396,3 +754,23 @@ GOT_Alt_Country.1.a: "Celebrate the union and strengthen our claim to the Iron T
 GOT_Alt_News.1.t: "Targaryen Siblings Wed in Shocking Union"
 GOT_Alt_News.1.d: "In a surprising move, Daenerys and Viserys Targaryen, the last of the once-great dynasty, have married each other. This controversial union has caused a stir throughout the realm, with many questioning the motivations behind it. The Targaryens are now united in both blood and ambition, setting their sights on the Iron Throne once more."
 GOT_Alt_News.1.a: "The Targaryens have united under one banner—will they now pose a real threat to Westeros?"
+
+GOT_Alt_Country.2.t: "Lord Stark Takes the Black"
+GOT_Alt_Country.2.d: "Eddard Stark, once Lord of Winterfell and Hand of the King, has arrived at Castle Black. Sentenced to take the black instead of execution, he now joins our ancient order. His presence is both a boon and a burden — some men respect him, others fear what he represents. Still, he has taken the vows, and he is one of us now."
+GOT_Alt_Country.2.a: "The realm forgets, but the Wall remembers."
+
+GOT_Alt_News.2.t: "Eddard Stark Takes the Black"
+GOT_Alt_News.2.d: "In a surprising act of mercy, King Joffrey has spared Eddard Stark's life, sending him to take the black instead of facing the headsman’s sword. Once a lord and a Hand of the King, he is now a brother of the Night’s Watch. Some see this as a wise decision to avoid rebellion, others as weakness. Regardless, the realm watches, and remembers."
+GOT_Alt_News.2.a: "The North may yet stay its wrath."
+
+GOT_Alt_Country.3.t: "Lord Stark is Spared"
+GOT_Alt_Country.3.d: "Word has reached us that Lord Eddard Stark has been spared execution. As part of a political compromise, he has taken the black and joined the Night’s Watch. Though he will never again return to Winterfell or wield his sword in the North’s defense, he lives — and for that, many are grateful. The North breathes a sigh of relief."
+GOT_Alt_Country.3.a: "He lives. That is enough."
+
+GOT_Alt_Country.4.t: "The Lord of Winterfell Returns"
+GOT_Alt_Country.4.d: "Eddard Stark has returned to Winterfell. Not in chains, nor as a broken man exiled to the Wall, but as Lord Stark of House Stark — free, alive, and bearing the weight of all that has passed. His return is a balm to the North, a sign that honor has not yet perished from the realm. Though his time in captivity has left its mark, his presence alone steadies the hearts of our people."
+GOT_Alt_Country.4.a: "Winterfell stands strong once more."
+
+GOT_Alt_News.4.t: "Lord Stark Returns to Winterfell"
+GOT_Alt_News.4.d: "In a shocking turn, Eddard Stark has been released from captivity and allowed to return to the North. The Lord of Winterfell rides once more through the gates of his ancestral home, greeted with cheers from bannermen and smallfolk alike. Though the war has stained the realm with blood and broken oaths, this act — rare in mercy and even rarer in politics — offers a glimmer of peace. Whether this signals the end of hostilities or simply a pause, the North now rallies behind its lord."
+GOT_Alt_News.4.a: "The North remembers."

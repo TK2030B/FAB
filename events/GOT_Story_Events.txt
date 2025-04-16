@@ -794,6 +794,8 @@ country_event = {
 		}
 
 		add_stability = 0.05
+		
+		set_global_flag = GOT_Dany_Pregnant_Flag
 
 		every_other_country = {
 			limit = {
@@ -888,8 +890,7 @@ country_event = {
 		}
 
 		add_stability = -0.05
-		
-		#Secret Meeting Shouldn't Be Public Knowledge
+		#Secret Meeting
 		#every_other_country = {
 		#	limit = {
 		#		exists = yes
@@ -1028,6 +1029,8 @@ country_event = {
 
 		add_political_power = 25
 		
+		set_global_flag = GOT_Lord_Stark_Investigation_Flag
+		
 		WES = {
 			add_opinion_modifier = {
 				target = NOR
@@ -1047,7 +1050,7 @@ country_event = {
 		
 	}
 	
-	option = {
+	option = { 	
 		name = GOT_Story_Country.17.b
 
 		ai_chance = {
@@ -1081,7 +1084,7 @@ country_event = {
 	id = GOT_Story_Country.18
 	title = GOT_Story_Country.18.t
 	desc = GOT_Story_Country.18.d
-	picture = GFX_report_event_GOT_Story_Country18
+	picture = GFX_report_event_GOT_Story_Country19
 
 	trigger = {
 		tag = NOR
@@ -1117,7 +1120,7 @@ news_event = {
 	id = GOT_Story_News.18
 	title = GOT_Story_News.18.t
 	desc = GOT_Story_News.18.d
-	picture = GFX_news_event_GOT_Story_News18
+	picture = GFX_news_event_GOT_Story_News19
 
 	is_triggered_only = yes
 
@@ -1131,7 +1134,7 @@ country_event = {
 	id = GOT_Story_Country.19
 	title = GOT_Story_Country.19.t
 	desc = GOT_Story_Country.19.d
-	picture = GFX_report_event_GOT_Story_Country19
+	picture = GFX_report_event_GOT_Story_Country20
 
 	trigger = {
 		tag = NOR
@@ -1162,6 +1165,15 @@ country_event = {
 
 		add_war_support = 0.05
 		add_political_power = 25
+		
+		hidden_effect = {
+			WES = {
+				country_event = {
+					id = GOT_Diplomatic_Country.6
+					days = 3
+				}
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -1199,7 +1211,7 @@ news_event = {
 	id = GOT_Story_News.19
 	title = GOT_Story_News.19.t
 	desc = GOT_Story_News.19.d
-	picture = GFX_news_event_GOT_Story_News19
+	picture = GFX_news_event_GOT_Story_News20
 
 	is_triggered_only = yes
 
@@ -1213,7 +1225,7 @@ country_event = {
 	id = GOT_Story_Country.20
 	title = GOT_Story_Country.20.t
 	desc = GOT_Story_Country.20.d
-	picture = GFX_report_event_GOT_Story_Country20
+	picture = GFX_report_event_GOT_Story_Country18
 
 	trigger = {
 		tag = TAR
@@ -1281,7 +1293,7 @@ news_event = {
 	id = GOT_Story_News.20
 	title = GOT_Story_News.20.t
 	desc = GOT_Story_News.20.d
-	picture = GFX_news_event_GOT_Story_News20
+	picture = GFX_news_event_GOT_Story_News18
 
 	is_triggered_only = yes
 
@@ -1297,29 +1309,49 @@ country_event = {
 	desc = GOT_Story_Country.21.d
 	picture = GFX_report_event_GOT_Story_Country21
 
-	trigger = {
-		tag = CRO
-		date > 1936.5.20
-		date < 1936.6.20
-		CRO = { 
-			CRO_ned_stark = { 
-				is_hired_as_advisor = yes
-			}
-		}
-		has_global_flag = GOT_TAR_DOT_Wedding_Flag
-	}
-	
-	fire_only_once = yes
+	#Triggered by Robert Ordering The Assassination
+	is_triggered_only = yes
 
 	option = {
 		name = GOT_Story_Country.21.a
 
 		ai_chance = {
-			factor = 10
+			factor = 80
+		}
+		
+		hidden_effect = {
+			DOT = { 
+				country_event = {
+					id = GOT_Story_Country.35
+					days = 37
+				}
+			}
 		}
 
-		add_stability = -0.05
+		add_political_power = 25
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.21.b
 
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		hidden_effect = {
+			DOT = { 
+				country_event = {
+					id = GOT_Story_Country.35
+					days = 37
+				}
+			}
+		}
+		
 		every_other_country = {
 			limit = {
 				exists = yes
@@ -1329,6 +1361,8 @@ country_event = {
 				hours = 6
 			}
 		}
+
+		add_political_power = -25
 		
 	}
 }
@@ -1616,5 +1650,1768 @@ news_event = {
 
 	option = {
 		name = GOT_Story_News.25.a
+	}
+}
+#Trial by Combat in the Eyrie
+country_event = {
+	id = GOT_Story_Country.26
+	title = GOT_Story_Country.26.t
+	desc = GOT_Story_Country.26.d
+	picture = GFX_report_event_GOT_Story_Country26
+
+	trigger = {
+		tag = VAL
+		date > 1936.6.25
+		date < 1936.7.25
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.26.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.26
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.26
+	title = GOT_Story_News.26.t
+	desc = GOT_Story_News.26.d
+	picture = GFX_news_event_GOT_Story_News26
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.26.a
+	}
+}
+#The Bastards of Baratheon
+country_event = {
+	id = GOT_Story_Country.27
+	title = GOT_Story_Country.27.t
+	desc = GOT_Story_Country.27.d
+	picture = GFX_report_event_GOT_Story_Country27
+
+	trigger = {
+		tag = CRO
+		date > 1936.6.25
+		date < 1936.7.25
+		has_global_flag = GOT_Lord_Stark_Investigation_Flag
+		CRO = { 
+			CRO_ned_stark = { 
+				is_hired_as_advisor = yes
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.27.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.27
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.27
+	title = GOT_Story_News.27.t
+	desc = GOT_Story_News.27.d
+	picture = GFX_news_event_GOT_Story_News27
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.27.a
+	}
+}
+#The Heart of a Stallion
+country_event = {
+	id = GOT_Story_Country.28
+	title = GOT_Story_Country.28.t
+	desc = GOT_Story_Country.28.d
+	picture = GFX_report_event_GOT_Story_Country28
+
+	trigger = {
+		tag = DOT
+		date > 1936.6.25
+		date < 1936.7.25
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.28.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = 0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.28
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.28
+	title = GOT_Story_News.28.t
+	desc = GOT_Story_News.28.d
+	picture = GFX_news_event_GOT_Story_News28
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.28.a
+	}
+}
+#A Crown for a King
+country_event = {
+	id = GOT_Story_Country.29
+	title = GOT_Story_Country.29.t
+	desc = GOT_Story_Country.29.d
+	picture = GFX_report_event_GOT_Story_Country29
+
+	trigger = {
+		tag = DOT
+		date > 1936.6.25
+		date < 1936.7.25
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.29.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.29
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.29
+	title = GOT_Story_News.29.t
+	desc = GOT_Story_News.29.d
+	picture = GFX_news_event_GOT_Story_News29
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.29.a
+	}
+}
+#The King Goes Hunting
+country_event = {
+	id = GOT_Story_Country.30
+	title = GOT_Story_Country.30.t
+	desc = GOT_Story_Country.30.d
+	picture = GFX_report_event_GOT_Story_Country30
+
+	trigger = {
+		tag = CRO
+		date > 1936.6.25
+		date < 1936.7.25
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.30.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+		
+		hidden_effect = {
+			CRO = {
+				country_event = {
+					id = GOT_Story_Country.52
+					days = 2
+				}
+			}
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.30
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.30
+	title = GOT_Story_News.30.t
+	desc = GOT_Story_News.30.d
+	picture = GFX_news_event_GOT_Story_News30
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.30.a
+	}
+}
+
+#Lord Stark Confronts the Queen
+country_event = {
+	id = GOT_Story_Country.31
+	title = GOT_Story_Country.31.t
+	desc = GOT_Story_Country.31.d
+	picture = GFX_report_event_GOT_Story_Country31
+
+	trigger = {
+		tag = CRO
+		date > 1936.8.1
+		date < 1936.9.1
+		has_global_flag = GOT_Lord_Stark_Investigation_Flag
+		CRO = { 
+			CRO_ned_stark = { 
+				is_hired_as_advisor = yes
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.31.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.31
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Lord Stark Confronts the Queen
+news_event = {
+	id = GOT_Story_News.31
+	title = GOT_Story_News.31.t
+	desc = GOT_Story_News.31.d
+	picture = GFX_news_event_GOT_Story_News31
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.31.a
+	}
+}
+#Jon Snow Joins the Night's Watch
+country_event = {
+	id = GOT_Story_Country.32
+	title = GOT_Story_Country.32.t
+	desc = GOT_Story_Country.32.d
+	picture = GFX_report_event_GOT_Story_Country32
+
+	trigger = {
+		tag = NWA
+		date > 1936.8.1
+		date < 1936.9.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.32.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		army_experience = 5
+		
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.32
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Jon Snow Joins the Night's Watch
+news_event = {
+	id = GOT_Story_News.32
+	title = GOT_Story_News.32.t
+	desc = GOT_Story_News.32.d
+	picture = GFX_news_event_GOT_Story_News32
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.32.a
+	}
+}
+#Khal Drogo Vows to Conquer Westeros
+country_event = {
+	id = GOT_Story_Country.33
+	title = GOT_Story_Country.33.t
+	desc = GOT_Story_Country.33.d
+	picture = GFX_report_event_GOT_Story_Country33
+
+	#Triggered by 35, Assassination Attempt on Daenerys
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.33.a
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = CRO
+			expire = 100
+		}
+
+		add_war_support = 0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.33
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.33.b
+
+		ai_chance = {
+			factor = 60
+		}
+
+		add_war_support = 0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.33
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.33.c
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_war_support = -0.05
+		
+	}
+}
+#Khal Drogo Vows to Conquer Westeros
+news_event = {
+	id = GOT_Story_News.33
+	title = GOT_Story_News.33.t
+	desc = GOT_Story_News.33.d
+	picture = GFX_news_event_GOT_Story_News33
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.33.a
+	}
+}
+#Tywin Lannister Appears
+country_event = {
+	id = GOT_Story_Country.34
+	title = GOT_Story_Country.34.t
+	desc = GOT_Story_Country.34.d
+	picture = GFX_report_event_GOT_Story_Country34
+
+	trigger = {
+		tag = WES
+		date > 1936.8.1
+		date < 1936.9.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.34.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = 25
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.34
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Tywin Lannister Appears
+news_event = {
+	id = GOT_Story_News.34
+	title = GOT_Story_News.34.t
+	desc = GOT_Story_News.34.d
+	picture = GFX_news_event_GOT_Story_News34
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.34.a
+	}
+}
+#Assassination Attempt on Daenerys
+country_event = {
+	id = GOT_Story_Country.35
+	title = GOT_Story_Country.35.t
+	desc = GOT_Story_Country.35.d
+	picture = GFX_report_event_GOT_Story_Country35
+
+	trigger = {
+		tag = DOT
+		date > 1936.8.1
+		date < 1936.9.1
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.35.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = {
+			DOT = {
+				country_event = {
+					id = GOT_Story_Country.33
+					days = 1
+				}
+			}
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.35
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Assassination Attempt on Daenerys
+news_event = {
+	id = GOT_Story_News.35
+	title = GOT_Story_News.35.t
+	desc = GOT_Story_News.35.d
+	picture = GFX_news_event_GOT_Story_News35
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.35.a
+	}
+}
+#Eddard Stark Arrested
+country_event = {
+	id = GOT_Story_Country.36
+	title = GOT_Story_Country.36.t
+	desc = GOT_Story_Country.36.d
+	picture = GFX_report_event_GOT_Story_Country36
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.36.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+		
+		CRO_ned_stark = {
+			retire = yes
+		}
+		
+		add_country_leader_role = {
+			character = CRO_cersei_lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		set_global_flag = GOT_Lord_Stark_Arrested_Flag
+		
+		country_event = {
+			id = GOT_Diplomatic_Country.9
+			days = 1
+		}
+		
+		
+		hidden_effect = {
+			NOR = {
+				country_event = {
+					id = GOT_Story_Country.38
+					days = 3
+				}
+			}
+		}
+		
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.36
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Eddard Stark Arrested
+news_event = {
+	id = GOT_Story_News.36
+	title = GOT_Story_News.36.t
+	desc = GOT_Story_News.36.d
+	picture = GFX_news_event_GOT_Story_News36
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.36.a
+	}
+}
+#Arya Escapes the Red Keep
+country_event = {
+	id = GOT_Story_Country.37
+	title = GOT_Story_Country.37.t
+	desc = GOT_Story_Country.37.d
+	picture = GFX_report_event_GOT_Story_Country37
+
+	trigger = {
+		tag = CRO
+		date > 1936.9.5
+		date < 1936.10.5
+		has_global_flag = GOT_Lord_Stark_Arrested_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.37.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = -25
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.37
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Arya Escapes the Red Keep
+news_event = {
+	id = GOT_Story_News.37
+	title = GOT_Story_News.37.t
+	desc = GOT_Story_News.37.d
+	picture = GFX_news_event_GOT_Story_News37
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.37.a
+	}
+}
+#Robb Stark Calls the Banners
+country_event = {
+	id = GOT_Story_Country.38
+	title = GOT_Story_Country.38.t
+	desc = GOT_Story_Country.38.d
+	picture = GFX_report_event_GOT_Story_Country38
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GOT_Story_Country.38.a
+
+		ai_chance = {
+			factor = 70
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = CRO
+			expire = 100
+		}
+		
+		add_war_support = 0.10
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.38
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.38.b
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_stability = -0.05
+		
+		
+	}
+
+}
+#Robb Stark Calls the Banners
+news_event = {
+	id = GOT_Story_News.38
+	title = GOT_Story_News.38.t
+	desc = GOT_Story_News.38.d
+	picture = GFX_news_event_GOT_Story_News38
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.38.a
+	}
+}
+#Jon Snow Battles a Wight
+country_event = {
+	id = GOT_Story_Country.39
+	title = GOT_Story_Country.39.t
+	desc = GOT_Story_Country.39.d
+	picture = GFX_report_event_GOT_Story_Country39
+
+	trigger = {
+		tag = NWA
+		date > 1936.9.5
+		date < 1936.10.5
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.39.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		army_experience = 5
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.39
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Jon Snow Battles a Wight
+news_event = {
+	id = GOT_Story_News.39
+	title = GOT_Story_News.39.t
+	desc = GOT_Story_News.39.d
+	picture = GFX_news_event_GOT_Story_News39
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.39.a
+	}
+}
+#Daenerys Witnesses a Dothraki Raid
+country_event = {
+	id = GOT_Story_Country.40
+	title = GOT_Story_Country.40.t
+	desc = GOT_Story_Country.40.d
+	picture = GFX_report_event_GOT_Story_Country40
+
+	trigger = {
+		tag = DOT
+		date > 1936.9.5
+		date < 1936.10.5
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.40.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		army_experience = 5
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.40
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Daenerys Witnesses a Dothraki Raid
+news_event = {
+	id = GOT_Story_News.40
+	title = GOT_Story_News.40.t
+	desc = GOT_Story_News.40.d
+	picture = GFX_news_event_GOT_Story_News40
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.40.a
+	}
+}
+
+#Tyrion Aligns with the Hill Tribes
+country_event = {
+	id = GOT_Story_Country.41
+	title = GOT_Story_Country.41.t
+	desc = GOT_Story_Country.41.d
+	picture = GFX_report_event_GOT_Story_Country41
+
+	trigger = {
+		tag = WES
+		date > 1936.9.5
+		date < 1936.10.5
+		has_global_flag = GOT_Tyrion_Captured_Flag
+		
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.41.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		army_experience = 5
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.41
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Tyrion Aligns with the Hill Tribes
+news_event = {
+	id = GOT_Story_News.41
+	title = GOT_Story_News.41.t
+	desc = GOT_Story_News.41.d
+	picture = GFX_news_event_GOT_Story_News41
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.41.a
+	}
+}
+#Robb Stark Captures Jaime Lannister
+country_event = {
+	id = GOT_Story_Country.42
+	title = GOT_Story_Country.42.t
+	desc = GOT_Story_Country.42.d
+	picture = GFX_report_event_GOT_Story_Country42
+
+	trigger = {
+		tag = NOR
+		date > 1936.10.10
+		date < 1936.11.10
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.42.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = 25
+		army_experience = 5
+		add_war_support = 0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.42
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Robb Stark Captures Jaime Lannister
+news_event = {
+	id = GOT_Story_News.42
+	title = GOT_Story_News.42.t
+	desc = GOT_Story_News.42.d
+	picture = GFX_news_event_GOT_Story_News42
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.42.a
+	}
+}
+#Arya Spots Eddard
+country_event = {
+	id = GOT_Story_Country.43
+	title = GOT_Story_Country.43.t
+	desc = GOT_Story_Country.43.d
+	picture = GFX_report_event_GOT_Story_Country43
+
+	trigger = {
+		tag = CRO
+		date > 1936.10.10
+		date < 1936.11.10
+		has_global_flag = GOT_Lord_Stark_Arrested_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.43.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.43
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Arya Spots Eddard
+news_event = {
+	id = GOT_Story_News.43
+	title = GOT_Story_News.43.t
+	desc = GOT_Story_News.43.d
+	picture = GFX_news_event_GOT_Story_News43
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.43.a
+	}
+}
+#Sansa Pleads for Ned's Life
+country_event = {
+	id = GOT_Story_Country.44
+	title = GOT_Story_Country.44.t
+	desc = GOT_Story_Country.44.d
+	picture = GFX_report_event_GOT_Story_Country44
+
+	trigger = {
+		tag = CRO
+		date > 1936.10.10
+		date < 1936.11.10
+		has_global_flag = GOT_Lord_Stark_Arrested_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.44.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.44
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Sansa Pleads for Ned's Life
+news_event = {
+	id = GOT_Story_News.44
+	title = GOT_Story_News.44.t
+	desc = GOT_Story_News.44.d
+	picture = GFX_news_event_GOT_Story_News44
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.44.a
+	}
+}
+#Eddard Stark Confesses
+country_event = {
+	id = GOT_Story_Country.45
+	title = GOT_Story_Country.45.t
+	desc = GOT_Story_Country.45.d
+	picture = GFX_report_event_GOT_Story_Country45
+
+	trigger = {
+		tag = CRO
+		date > 1936.10.10
+		date < 1936.11.10
+		has_global_flag = GOT_Lord_Stark_Arrested_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.45.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.45
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Eddard Stark Confesses
+news_event = {
+	id = GOT_Story_News.45
+	title = GOT_Story_News.45.t
+	desc = GOT_Story_News.45.d
+	picture = GFX_news_event_GOT_Story_News45
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.45.a
+	}
+}
+#Ned Stark is Executed
+country_event = {
+	id = GOT_Story_Country.46
+	title = GOT_Story_Country.46.t
+	desc = GOT_Story_Country.46.d
+	picture = GFX_report_event_GOT_Story_Country46
+
+	trigger = {
+		tag = CRO
+		date > 1936.10.10
+		date < 1936.11.10
+		has_global_flag = GOT_Lord_Stark_Arrested_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.46.a
+
+		ai_chance = {
+			factor = 80
+		}
+
+		add_stability = -0.05
+		
+		hidden_effect = {
+			NOR = {
+				country_event = {
+					id = GOT_Diplomatic_Country.7
+					days = 3
+				}
+			}
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.46
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.46.b
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_stability = -0.05
+		
+		hidden_effect = {
+			NWA = {
+				country_event = {
+					id = GOT_Alt_Country.2
+					days = 3
+				}
+			}
+			NOR = {
+				country_event = {
+					id = GOT_Alt_Country.3
+					days = 3
+				}
+			}
+		}
+		
+	}
+}
+#Ned Stark is Executed
+news_event = {
+	id = GOT_Story_News.46
+	title = GOT_Story_News.46.t
+	desc = GOT_Story_News.46.d
+	picture = GFX_news_event_GOT_Story_News46
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.46.a
+	}
+}
+#Robb Stark Is Declared King in the North
+country_event = {
+	id = GOT_Story_Country.47
+	title = GOT_Story_Country.47.t
+	desc = GOT_Story_Country.47.d
+	picture = GFX_report_event_GOT_Story_Country47
+
+	trigger = {
+		tag = NOR
+		date > 1936.11.15
+		date < 1936.12.15
+		has_war_with = CRO
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.47.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.47
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Robb Stark Is Declared King in the North
+news_event = {
+	id = GOT_Story_News.47
+	title = GOT_Story_News.47.t
+	desc = GOT_Story_News.47.d
+	picture = GFX_news_event_GOT_Story_News47
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.47.a
+	}
+}
+#Daenerys Walks into the Flames
+country_event = {
+	id = GOT_Story_Country.48
+	title = GOT_Story_Country.48.t
+	desc = GOT_Story_Country.48.d
+	picture = GFX_report_event_GOT_Story_Country48
+
+	trigger = {
+		tag = DOT
+		date > 1936.11.15
+		date < 1936.12.15
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.48.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		hidden_effect = {
+			DOT = {
+				country_event = {
+					id = GOT_Story_Country.51
+					days = 2
+				}
+			}
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.48
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Daenerys Walks into the Flames
+news_event = {
+	id = GOT_Story_News.48
+	title = GOT_Story_News.48.t
+	desc = GOT_Story_News.48.d
+	picture = GFX_news_event_GOT_Story_News48
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.48.a
+	}
+}
+#Jon Snow Tries to Desert the Night’s Watch
+country_event = {
+	id = GOT_Story_Country.49
+	title = GOT_Story_Country.49.t
+	desc = GOT_Story_Country.49.d
+	picture = GFX_report_event_GOT_Story_Country49
+
+	trigger = {
+		tag = NWA
+		date > 1936.11.15
+		date < 1936.12.15
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.49.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.49
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Jon Snow Tries to Desert the Night’s Watch
+news_event = {
+	id = GOT_Story_News.49
+	title = GOT_Story_News.49.t
+	desc = GOT_Story_News.49.d
+	picture = GFX_news_event_GOT_Story_News49
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.49.a
+	}
+}
+#Catelyn Confronts Jaime Lannister
+country_event = {
+	id = GOT_Story_Country.50
+	title = GOT_Story_Country.50.t
+	desc = GOT_Story_Country.50.d
+	picture = GFX_report_event_GOT_Story_Country50
+
+	trigger = {
+		tag = NOR
+		date > 1936.11.15
+		date < 1936.12.15
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.50.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.50
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Catelyn Confronts Jaime Lannister
+news_event = {
+	id = GOT_Story_News.50
+	title = GOT_Story_News.50.t
+	desc = GOT_Story_News.50.d
+	picture = GFX_news_event_GOT_Story_News50
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.50.a
+	}
+}
+#Daenerys and the Birth of the Dragons
+country_event = {
+	id = GOT_Story_Country.51
+	title = GOT_Story_Country.51.t
+	desc = GOT_Story_Country.51.d
+	picture = GFX_report_event_GOT_Story_Country51
+	#Triggered by Daenerys Walks into the Flames
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_Country.51.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		air_experience = 5
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.51
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Daenerys and the Birth of the Dragons
+news_event = {
+	id = GOT_Story_News.51
+	title = GOT_Story_News.51.t
+	desc = GOT_Story_News.51.d
+	picture = GFX_news_event_GOT_Story_News51
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.51.a
+	}
+}
+#King Robert Wounded by the Boar
+country_event = {
+	id = GOT_Story_Country.52
+	title = GOT_Story_Country.52.t
+	desc = GOT_Story_Country.52.d
+	picture = GFX_report_event_GOT_Story_Country52
+
+	#Triggered by him going on a Hunt
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_Country.52.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = -0.05
+		
+		hidden_effect = {
+			CRO = {
+				country_event = {
+					id = GOT_Story_Country.54
+					days = 2
+				}
+			}
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.52
+				hours = 6
+			}
+		}
+		
+	}
+}
+#King Robert Wounded by the Boar
+news_event = {
+	id = GOT_Story_News.52
+	title = GOT_Story_News.52.t
+	desc = GOT_Story_News.52.d
+	picture = GFX_news_event_GOT_Story_News52
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.52.a
+	}
+}
+
+#Robert Orders Daenerys’ Death
+country_event = {
+	id = GOT_Story_Country.53
+	title = GOT_Story_Country.53.t
+	desc = GOT_Story_Country.53.d
+	picture = GFX_report_event_GOT_Story_Country53
+
+	trigger = {
+		tag = CRO
+		date > 1936.6.25
+		date < 1936.7.25
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
+		has_global_flag = GOT_Dany_Pregnant_Flag
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.53.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		
+			
+		if = {
+			limit = {
+				CRO = { 
+					CRO_ned_stark = { 
+						is_hired_as_advisor = yes
+					}
+				}
+			}
+			country_event = {
+				id = GOT_Story_Country.21
+				days = 1
+			}
+		}
+		else = {
+			DOT = { 
+				country_event = {
+					id = GOT_Story_Country.35
+					days = 37
+				}
+			}
+		}
+
+		add_stability = -0.05
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.53
+				hours = 6
+			}
+		}
+		
+	}
+}
+#Robert Orders Daenerys’ Death
+news_event = {
+	id = GOT_Story_News.53
+	title = GOT_Story_News.53.t
+	desc = GOT_Story_News.53.d
+	picture = GFX_news_event_GOT_Story_News53
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.53.a
+	}
+}
+#King Robert Dies
+country_event = {
+	id = GOT_Story_Country.54
+	title = GOT_Story_Country.54.t
+	desc = GOT_Story_Country.54.d
+	picture = GFX_report_event_GOT_Story_Country54
+
+	#Triggered by him getting wounded
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_Country.54.a
+
+		ai_chance = {
+			factor = 75
+		}
+
+		add_stability = -0.05
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = CRO_ned_stark
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					warden_of_north 
+					warrior_code 
+					indomitable_perseverance 
+					great_war_hero 
+					strict_austerity_adherent 
+					staunch_monarchist 
+					fortification_engineer 
+					reluctant_veteran 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		country_event = {
+			id = GOT_Diplomatic_Country.8
+			days = 1
+		}
+		
+		set_global_flag = GOT_King_Robert_Dead_Flag
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.54
+				hours = 6
+			}
+		}
+		
+		every_other_country = {
+			limit = {
+				has_guaranteed = CRO
+			}
+			diplomatic_relation = {
+				country = CRO
+				relation = guarantee
+				active = no
+			}
+		}
+		
+		
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.54.b
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_stability = -0.05
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = CRO_cersei_lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					has_global_flag = GOT_Lord_Stark_Investigation_Flag
+				}
+				country_event = {
+					id = GOT_Story_Country.36
+					hours = 6
+				}
+			}
+			else = {
+				CRO_ned_stark = {
+					retire = yes
+				}
+				NOR = {
+					country_event = {
+						id = GOT_Alt_Country.4
+						hours = 6
+					}
+				}
+				CRO = {
+					country_event = {
+						id = GOT_Diplomatic_Country.9
+						days = 1
+					}
+				}
+			}
+		}
+		
+		set_global_flag = GOT_King_Robert_Dead_Flag
+		
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.54
+				hours = 6
+			}
+		}
+		
+		every_other_country = {
+			limit = {
+				has_guaranteed = CRO
+			}
+			diplomatic_relation = {
+				country = CRO
+				relation = guarantee
+				active = no
+			}
+		}
+		
+	}
+}
+#King Robert Dies
+news_event = {
+	id = GOT_Story_News.54
+	title = GOT_Story_News.54.t
+	desc = GOT_Story_News.54.d
+	picture = GFX_news_event_GOT_Story_News54
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.54.a
 	}
 }

@@ -1,5 +1,27 @@
 characters={
 
+	NWA_ned_stark={
+		name=NOR_ned_stark
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
 	NWA_eddison_tollett={
 		name=NWA_eddison_tollett
 		portraits={
@@ -49,20 +71,6 @@ characters={
 	}
 
 	NWA_jon_snow={
-		name=NWA_jon_snow
-		portraits={
-			army = {
-				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			civilian = {
-				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-		}
-	}
-	
-	NWA_jon_snow_dissident={
 		name=NWA_jon_snow
 		portraits={
 			army = {
