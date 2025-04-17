@@ -1361,6 +1361,10 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+		CRO_ned_stark = {
+			retire = yes
+		}
 
 		add_political_power = -25
 		
@@ -3266,6 +3270,12 @@ country_event = {
 
 	option = {
 		name = GOT_Story_Country.54.a
+		
+		trigger = {
+			CRO_ned_stark = { 
+				is_hired_as_advisor = yes
+			}
+		}
 
 		ai_chance = {
 			factor = 75
@@ -3361,27 +3371,34 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_global_flag = GOT_Lord_Stark_Investigation_Flag
+					CRO_ned_stark = { 
+						is_hired_as_advisor = yes
+					}
 				}
-				country_event = {
-					id = GOT_Story_Country.36
-					hours = 6
-				}
-			}
-			else = {
-				CRO_ned_stark = {
-					retire = yes
-				}
-				NOR = {
+				if = {
+					limit = {
+						has_global_flag = GOT_Lord_Stark_Investigation_Flag
+					}
 					country_event = {
-						id = GOT_Alt_Country.4
+						id = GOT_Story_Country.36
 						hours = 6
 					}
 				}
-				CRO = {
-					country_event = {
-						id = GOT_Diplomatic_Country.9
-						days = 1
+				else = {
+					CRO_ned_stark = {
+						retire = yes
+					}
+					NOR = {
+						country_event = {
+							id = GOT_Alt_Country.4
+							hours = 6
+						}
+					}
+					CRO = {
+						country_event = {
+							id = GOT_Diplomatic_Country.9
+							days = 1
+						}
 					}
 				}
 			}
