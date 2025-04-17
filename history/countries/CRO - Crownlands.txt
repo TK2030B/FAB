@@ -137,7 +137,7 @@ STO = { give_guarantee = CRO }
 DOR = { give_guarantee = CRO }
 DRA = { give_guarantee = CRO }
 
-create_faction = "The Iron Throne"
+#create_faction = "The Iron Throne" #Created by Focus/Event
 
 set_convoys = 150
 

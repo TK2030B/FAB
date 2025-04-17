@@ -2375,6 +2375,13 @@ country_event = {
 			factor = 70
 		}
 		
+		if = {
+			limit = {
+				is_in_faction_with = CRO
+			}
+			leave_faction = yes
+		}
+		
 		create_wargoal = {
 			type = annex_everything
 			target = CRO

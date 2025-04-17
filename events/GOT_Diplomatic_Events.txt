@@ -278,7 +278,7 @@ country_event = {
 		
 	}
 }
-
+#Ned Stark is executed
 country_event = {
 	id = GOT_Diplomatic_Country.7
 	title = GOT_Diplomatic_Country.7.t
@@ -292,6 +292,13 @@ country_event = {
 
 		ai_chance = {
 			factor = 80
+		}
+		
+		if = {
+			limit = {
+				is_in_faction_with = CRO
+			}
+			leave_faction = yes
 		}
 		
 		create_wargoal = {
@@ -315,6 +322,13 @@ country_event = {
 				NOT = { has_war_with = CRO }
 			}
 		}
+		
+		if = {
+			limit = {
+				is_in_faction_with = CRO
+			}
+			leave_faction = yes
+		}
 
 		add_war_support = 0.10
 		
@@ -332,6 +346,8 @@ country_event = {
 
 	option = {
 		name = GOT_Diplomatic_Country.8.a #Joffrey
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 40
@@ -370,17 +386,26 @@ country_event = {
 			}
 			promote_leader = yes
 		}
+		
+		
 				
 		news_event = {
 			id = GOT_Diplomatic_News.5
 			days = 1
 		}
-		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "The Iron Throne"
+		}
 		
 	}
 	
 	option = {
 		name = GOT_Diplomatic_Country.8.b #Stannis
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 40
@@ -399,6 +424,12 @@ country_event = {
 			country_event = {
 				id = GOT_Story_Country.36
 				hours = 6
+			}
+			if = {
+				limit = {
+					is_in_faction = no
+				}
+				create_faction = "The Iron Throne"
 			}
 		}
 		#For Players, or Non Historical AI, Stannis has a 40% chance of success
@@ -456,6 +487,8 @@ country_event = {
 	
 	option = {
 		name = GOT_Diplomatic_Country.8.c #Renly
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 10
@@ -522,6 +555,8 @@ country_event = {
 	
 	option = {
 		name = GOT_Diplomatic_Country.8.e #Ned
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 10
@@ -574,6 +609,8 @@ country_event = {
 
 	option = {
 		name = GOT_Diplomatic_Country.9.a #Cersei Remains as Regent
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 40
@@ -584,11 +621,20 @@ country_event = {
 		}
 		
 		add_political_power = 25
+		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "The Iron Throne"
+		}
 
 	}
 	
 	option = {
 		name = GOT_Diplomatic_Country.9.b #Joffrey
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 50
@@ -618,10 +664,19 @@ country_event = {
 			days = 1
 		}
 		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "The Iron Throne"
+		}
+		
 	}
 	
 	option = {
 		name = GOT_Diplomatic_Country.9.c #Tommen
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 5
@@ -657,6 +712,13 @@ country_event = {
 			id = GOT_Diplomatic_News.5
 			days = 1
 		}
+		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "The Iron Throne"
+		}
 
 		
 		
@@ -664,6 +726,8 @@ country_event = {
 	
 	option = {
 		name = GOT_Diplomatic_Country.9.e #Myrcella
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
 
 		ai_chance = {
 			factor = 5
@@ -694,6 +758,13 @@ country_event = {
 			days = 1
 		}
 		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "The Iron Throne"
+		}
+		
 	}
 }
 
@@ -719,6 +790,13 @@ country_event = {
 				is_in_faction_with = CRO
 			}
 			leave_faction = yes
+		}
+		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "The Lion’s Court"
 		}
 		
 		create_wargoal = {

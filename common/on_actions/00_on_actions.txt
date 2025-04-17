@@ -452,6 +452,25 @@ on_actions = {
 			#	}
 			#	country_event = { id = soviet.54 }
 			#}
+			#Crownlands Switches Kings, then it is proclaimed
+			if = {
+				limit = { 
+					tag = CRO 
+					NOT = {
+						has_country_leader = {
+							name = "Robert Baratheon"
+							ruling_only = yes
+						}
+					}
+					NOT = { has_global_flag = GOT_New_Monarch_Chosen_Flag }
+				}
+				set_global_flag = GOT_New_Monarch_Chosen_Flag
+					
+				news_event = {
+					id = GOT_Diplomatic_News.5
+					days = 1
+				}
+			}
 		}
 	}
 
