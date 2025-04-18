@@ -14,7 +14,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_AST_advanced_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/SAF_AST_NZL_infantry_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/infantry3.dds"
 	}	
 	
 	SpriteType = {
@@ -49,7 +49,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_AST_improved_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/AST_infantry_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/infantry2.dds"
 	}	
 	
 	SpriteType = {
@@ -64,7 +64,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_AST_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/ENG_infantry_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/infantry1.dds"
 	}	
 	
 	SpriteType = {
@@ -122,7 +122,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_AST_gwtank_medium"
-		texturefile = "gfx/interface/technologies/tfv_shared_gwtank.dds"
+		texturefile = "gfx/interface/technologies/gwtank.dds"
 	}
 
 	SpriteType = {
@@ -208,17 +208,17 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_AST_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
 	}
 		
 	### RAJ tanks ###	
@@ -455,79 +455,79 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_AST_CAS2_medium"
-		texturefile = "gfx/interface/technologies/AST_CAS2.dds"
+		texturefile = "gfx/interface/technologies/CAS1.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_AST_CAS3_medium"
-		texturefile = "gfx/interface/technologies/ENG_heavy_fighter2.dds"
+		texturefile = "gfx/interface/technologies/CAS1.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_fighter3_medium"
-		texturefile = "gfx/interface/technologies/AST_fighter3.dds"
+		texturefile = "gfx/interface/technologies/fighter1.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_fighter1_medium"
-		texturefile = "gfx/interface/technologies/AST_fighter1.dds"
+		texturefile = "gfx/interface/technologies/fighter1.dds"
 	}
 	
 	### AST tanks ###	
 
 	SpriteType = {
 		name = "GFX_AST_basic_light_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_basic_light_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_AST_improved_light_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_imp_light_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_advanced_light_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_adv_light_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_basic_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_basic_main_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_improved_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_imp_main_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_AST_advanced_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_adv_main_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_AST_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_main_battle_tank.dds"
+		texturefile = "gfx/interface/technologies/main_battle_tank.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_AST_basic_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_basic_heavy_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_heavy_tank.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_AST_improved_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_imp_heavy_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_heavy_tank.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_AST_advanced_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_adv_heavy_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_heavy_tank.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_AST_super_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/AST_superheavy_tank.dds"
+		texturefile = "gfx/interface/technologies/super_heavy_tank.dds"
 	}	
 	
 }
