@@ -9,12 +9,25 @@ GOT_War_Participant = {
 		tag = NOR
 		tag = RIV
 		tag = IRO
+		tag = DOR
 	}
 }
 
 GOT_Targaryen_Faction = {
 	OR = {
 		tag = TAR
+		AND = {
+			tag = REA
+			GOT_Olenna_Is_Lady_of_REA = yes
+		}
+		AND = {
+			tag = IRO
+			GOT_Yara_Is_Lady_of_IRO = yes
+		}
+		AND = {
+			tag = DOR
+			GOT_Ellaria_Is_Lady_of_DOR = yes
+		}
 	}
 }
 
@@ -33,6 +46,10 @@ GOT_Stannis_Faction = {
 			GOT_Stannis_Is_King = yes
 		}
 		tag = DRA
+		AND = {
+			tag = STO
+			GOT_Stannis_Is_Lord_of_STO = yes
+		}
 	}
 }
 
@@ -40,6 +57,16 @@ GOT_Lannister_Faction = {
 	OR = {
 		tag = WES
 		tag = CRO
+		AND = {
+			tag = REA
+			GOT_Joffrey_Is_King = yes
+			GOT_Renly_Is_Lord_of_STO = no
+		}
+		AND = {
+			tag = IRO
+			GOT_Cersei_Is_Queen = yes
+			GOT_Euron_Is_Lord_of_IRO = yes
+		}
 	}
 	GOT_Lannister_Is_King = yes
 }
@@ -50,8 +77,14 @@ GOT_Renly_Faction = {
 			tag = CRO
 			GOT_Renly_Is_King = yes
 		}
-		tag = STO
-		tag = REA
+		AND = {
+			tag = STO
+			GOT_Renly_Is_Lord_of_STO = yes
+		}
+		AND = {
+			tag = REA
+			GOT_Renly_Is_Lord_of_STO = yes
+		}
 	}
 }
 
@@ -270,6 +303,69 @@ GOT_Renly_Is_King = {
 	}
 }
 
+GOT_Renly_Is_Lord_of_STO = {
+	STO = {
+		has_country_leader = {
+			name = "Renly Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Stannis_Is_Lord_of_STO = {
+	STO = {
+		has_country_leader = {
+			name = "Stannis Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Stannis_Is_Lord_of_DRA = {
+	DRA = {
+		has_country_leader = {
+			name = "Stannis Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Euron_Is_Lord_of_IRO = {
+	IRO = {
+		has_country_leader = {
+			name = "Euron Greyjoy"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Yara_Is_Lady_of_IRO = {
+	IRO = {
+		has_country_leader = {
+			name = "Yara Greyjoy"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Olenna_Is_Lady_of_REA = {
+	REA = {
+		has_country_leader = {
+			name = "Olenna Tyrell"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Ellaria_Is_Lady_of_DOR = {
+	DOR = {
+		has_country_leader = {
+			name = "Ellaria Sand"
+			ruling_only = yes
+		}
+	}
+}
+
 GOT_Lannister_Is_King = {
 	OR = {
 		CRO = {
@@ -295,6 +391,24 @@ GOT_Lannister_Is_King = {
 				name = "Cersei Lannister"
 				ruling_only = yes
 			}
+		}
+	}
+}
+
+GOT_Cersei_Is_Queen = {
+	CRO = {
+		has_country_leader = {
+			name = "Cersei Lannister"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Joffrey_Is_King = {
+	CRO = {
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
 		}
 	}
 }
