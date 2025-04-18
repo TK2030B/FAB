@@ -1244,8 +1244,10 @@ country_event = {
 		name = GOT_Story_Country.20.a
 
 		ai_chance = {
-			factor = 10
+			factor = 85
 		}
+		
+		set_global_flag = GOT_Viserys_Insults_Dothraki_Flag
 		
 		DOT = {
 			add_opinion_modifier = {
@@ -1273,7 +1275,11 @@ country_event = {
 		name = GOT_Story_Country.20.b
 
 		ai_chance = {
-			factor = 10
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		
 		DOT = {
@@ -1771,6 +1777,11 @@ country_event = {
 		tag = DOT
 		date > 1936.6.25
 		date < 1936.7.25
+		DOT = { 
+			DOT_Danaerys_Targaryen = { 
+				is_hired_as_advisor = yes
+			}
+		}
 	}
 	
 	fire_only_once = yes
@@ -1820,6 +1831,18 @@ country_event = {
 		tag = DOT
 		date > 1936.6.25
 		date < 1936.7.25
+		DOT = { 
+			DOT_Danaerys_Targaryen = { 
+				is_hired_as_advisor = yes
+			}
+		}
+		has_global_flag = GOT_Viserys_Insults_Dothraki_Flag
+		TAR = { 
+			has_country_leader = {
+				name = "Viserys Targaryen"
+				ruling_only = yes
+			}
+		}
 	}
 	
 	fire_only_once = yes
@@ -1828,10 +1851,17 @@ country_event = {
 		name = GOT_Story_Country.29.a
 
 		ai_chance = {
-			factor = 10
+			factor = 70
 		}
 
 		add_stability = -0.05
+		
+		TAR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.11
+				hours = 6
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -1839,6 +1869,28 @@ country_event = {
 			}
 			news_event = {
 				id = GOT_Story_News.29
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.29.b
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_stability = 0.05
+		
+		TAR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.12
 				hours = 6
 			}
 		}
@@ -2178,13 +2230,7 @@ country_event = {
 	desc = GOT_Story_Country.35.d
 	picture = GFX_report_event_GOT_Story_Country35
 
-	trigger = {
-		tag = DOT
-		date > 1936.8.1
-		date < 1936.9.1
-	}
-	
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
 		name = GOT_Story_Country.35.a
@@ -2496,6 +2542,11 @@ country_event = {
 		tag = DOT
 		date > 1936.9.5
 		date < 1936.10.5
+		DOT = { 
+			DOT_Danaerys_Targaryen = { 
+				is_hired_as_advisor = yes
+			}
+		}
 	}
 	
 	fire_only_once = yes
@@ -2941,6 +2992,11 @@ country_event = {
 		tag = DOT
 		date > 1936.11.15
 		date < 1936.12.15
+		DOT = { 
+			DOT_Danaerys_Targaryen = { 
+				is_hired_as_advisor = yes
+			}
+		}
 	}
 	
 	fire_only_once = yes
@@ -3204,7 +3260,7 @@ country_event = {
 		name = GOT_Story_Country.53.a
 
 		ai_chance = {
-			factor = 10
+			factor = 80
 		}
 		
 		
@@ -3242,6 +3298,22 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.53.b
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		add_stability = 0.05
+
 		
 	}
 }

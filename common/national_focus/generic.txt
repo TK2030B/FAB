@@ -1628,7 +1628,7 @@ focus_tree = {
 				GOT_Ironborn_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Stark_Faction = no
 				GOT_Ironborn_Faction = no
@@ -1671,7 +1671,7 @@ focus_tree = {
 				GOT_Stark_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Stark_Faction = no
 			}
@@ -2002,7 +2002,7 @@ focus_tree = {
 				GOT_Ironborn_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Ironborn_Faction = no
 			}
@@ -2268,7 +2268,7 @@ focus_tree = {
 				GOT_Targaryen_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Targaryen_Faction = no
 			}
@@ -2919,7 +2919,7 @@ focus_tree = {
 				GOT_Baratheon_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Baratheon_Faction = no
 			}
@@ -2960,7 +2960,7 @@ focus_tree = {
 				GOT_Stannis_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Stannis_Faction = no
 			}
@@ -3199,7 +3199,7 @@ focus_tree = {
 				GOT_Renly_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Renly_Faction = no
 			}
@@ -3399,7 +3399,7 @@ focus_tree = {
 				GOT_Lannister_Faction = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_Lannister_Faction = no
 			}
@@ -3648,7 +3648,7 @@ focus_tree = {
 				GOT_War_Participant = yes
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.01
 				is_historical_focus_on = no
 				GOT_War_Participant = yes
 			}
@@ -4084,8 +4084,10 @@ focus_tree = {
 
 		}
 		completion_reward = {
+			remove_idea = neutrality_idea
 			set_rule = {
 				can_create_factions = yes
+				can_join_factions = yes
 			}
 			add_political_power = 30
 		}

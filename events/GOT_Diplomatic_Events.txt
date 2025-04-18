@@ -882,6 +882,98 @@ country_event = {
 	}
 }
 
+#Daenaerys becomes Head of House Targaryen
+country_event = {
+	id = GOT_Diplomatic_Country.11
+	title = GOT_Diplomatic_Country.11.t
+	desc = GOT_Diplomatic_Country.11.d
+	picture = GFX_report_event_GOT_Story_Country29
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.11.a
+
+		ai_chance = {
+			factor = 65
+		}
+		
+		add_stability = -0.05
+		
+		kill_country_leader = yes
+		
+	}
+	
+}
+
+#Viserys Humiliated
+country_event = {
+	id = GOT_Diplomatic_Country.12
+	title = GOT_Diplomatic_Country.12.t
+	desc = GOT_Diplomatic_Country.12.d
+	picture = GFX_report_event_GOT_Story_Country29
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.12.a
+
+		ai_chance = {
+			factor = 65
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = DOT
+		}
+		
+		add_war_support = 0.10
+		
+		add_opinion_modifier = {
+			target = DOT
+			modifier = RI_super_hostile_foreign_policy
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.6
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.12.b
+
+		ai_chance = {
+			factor = 35
+		}
+		
+		add_stability = -0.05
+		
+		add_opinion_modifier = {
+			target = DOT
+			modifier = RI_super_hostile_foreign_policy
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.6
+				hours = 6
+			}
+		}
+		
+	}
+	
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -946,5 +1038,18 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.5.a
+	}
+}
+#Viserys Humiliated
+news_event = {
+	id = GOT_Diplomatic_News.6
+	title = GOT_Diplomatic_News.6.t
+	desc = GOT_Diplomatic_News.6.d
+	picture = GFX_news_event_GOT_Story_News29
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.6.a
 	}
 }
