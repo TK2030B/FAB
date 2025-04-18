@@ -425,15 +425,10 @@ country_event = {
 				id = GOT_Story_Country.36
 				hours = 6
 			}
-			if = {
-				limit = {
-					is_in_faction = no
-				}
-				create_faction = "The Iron Throne"
-			}
 		}
 		#For Players, or Non Historical AI, Stannis has a 40% chance of success
 		else = {
+			#Westerlands Notified of Usurpation Attempt
 			WES = {
 				country_event = {
 					id = GOT_Diplomatic_Country.10
@@ -441,48 +436,81 @@ country_event = {
 				}
 			}
 			
-			CRO_ned_stark = {
-				retire = yes
-			}
-			add_country_leader_role = {
-				character = CRO_stannis_baratheon
-					country_leader={
-					ideology=NR_subideology
-					expire="1965.1.1.1"
-					traits = { 
-						legitimate_heir 
-						warrior_code 
-						unpopular_monarch 
-						headstrong 
-						indomitable_perseverance 
-						strict_austerity_adherent 
-						stout_defender 
-						inexperienced_imperialist 
-						autocratic_imperialist 
-						cornered_fox 
+			#40% Chance Coup Success, 30% Ned Stark Arrested, 30% Civil War
+			random_list = {
+				#Coup Success
+				40 = {
+					CRO_ned_stark = {
+						retire = yes
+					}
+					add_country_leader_role = {
+						character = CRO_stannis_baratheon
+							country_leader={
+							ideology=NR_subideology
+							expire="1965.1.1.1"
+							traits = { 
+								legitimate_heir 
+								warrior_code 
+								unpopular_monarch 
+								headstrong 
+								indomitable_perseverance 
+								strict_austerity_adherent 
+								stout_defender 
+								inexperienced_imperialist 
+								autocratic_imperialist 
+								cornered_fox 
+							}
+						}
+						promote_leader = yes
+					}
+					news_event = {
+						id = GOT_Diplomatic_News.5
+						days = 1
 					}
 				}
-				promote_leader = yes
-			}
-			random_list = {
-				60 = {
+				#Civil War
+				30 = {
+					CRO_ned_stark = {
+						retire = yes
+					}
+					add_country_leader_role = {
+						character = CRO_stannis_baratheon
+							country_leader={
+							ideology=NR_subideology
+							expire="1965.1.1.1"
+							traits = { 
+								legitimate_heir 
+								warrior_code 
+								unpopular_monarch 
+								headstrong 
+								indomitable_perseverance 
+								strict_austerity_adherent 
+								stout_defender 
+								inexperienced_imperialist 
+								autocratic_imperialist 
+								cornered_fox 
+							}
+						}
+						promote_leader = yes
+					}
 					start_civil_war = {
 						ideology = fascism
-						size = 0.6
+						size = 0.65
+					}
+					news_event = {
+						id = GOT_Diplomatic_News.5
+						days = 1
 					}
 				}
-				40 = {
-					
+				#Ned Stark Arrested
+				30 = {
+					country_event = {
+						id = GOT_Story_Country.36
+						hours = 6
+					}
 				}
 			}
-			
-			news_event = {
-				id = GOT_Diplomatic_News.5
-				days = 1
-			}
-			
-		}
-		
+		}	
 	}
 	
 	option = {
@@ -503,6 +531,7 @@ country_event = {
 			}
 		}
 		
+		#Westerlands Notified of Usurpation Attempt
 		WES = {
 			country_event = {
 				id = GOT_Diplomatic_Country.10
@@ -510,47 +539,75 @@ country_event = {
 			}
 		}
 		
-		CRO_ned_stark = {
-			retire = yes
-		}
-		add_country_leader_role = {
-			character = CRO_renly_baratheon
-				country_leader={
-				ideology=NR_subideology
-				expire="1965.1.1.1"
-				traits = { 
-					lavish_lifestyle 
-					stout_defender 
-					socialite_connections 
-					hedonist 
-					popular_figurehead 
-					man_of_the_nation 
-					ambitious_negotiator_neutrality 
-					reluctant_veteran 
+		random_list = {
+			#Coup Success
+			60 = {
+				CRO_ned_stark = {
+					retire = yes
+				}
+				add_country_leader_role = {
+					character = CRO_renly_baratheon
+						country_leader={
+						ideology=NR_subideology
+						expire="1965.1.1.1"
+						traits = { 
+							lavish_lifestyle 
+							stout_defender 
+							socialite_connections 
+							hedonist 
+							popular_figurehead 
+							man_of_the_nation 
+							ambitious_negotiator_neutrality 
+							reluctant_veteran 
+						}
+					}
+					promote_leader = yes
+				}
+				news_event = {
+					id = GOT_Diplomatic_News.5
+					days = 1
 				}
 			}
-			promote_leader = yes
-		}
-		
-		random_list = {
-			40 = {
+			#Civil War
+			20 = {
+				CRO_ned_stark = {
+					retire = yes
+				}
+				add_country_leader_role = {
+					character = CRO_renly_baratheon
+						country_leader={
+						ideology=NR_subideology
+						expire="1965.1.1.1"
+						traits = { 
+							lavish_lifestyle 
+							stout_defender 
+							socialite_connections 
+							hedonist 
+							popular_figurehead 
+							man_of_the_nation 
+							ambitious_negotiator_neutrality 
+							reluctant_veteran 
+						}
+					}
+					promote_leader = yes
+				}
 				start_civil_war = {
 					ideology = fascism
-					size = 0.4
+					size = 0.55
+				}	
+				news_event = {
+					id = GOT_Diplomatic_News.5
+					days = 1
 				}
 			}
-			60 = {
-					
+			#Ned Stark Arrested
+			20 = {
+				country_event = {
+					id = GOT_Story_Country.36
+					hours = 6
+				}	
 			}
 		}
-		
-		news_event = {
-			id = GOT_Diplomatic_News.5
-			days = 1
-		}
-
-		
-		
 	}
 	
 	option = {
@@ -588,7 +645,10 @@ country_event = {
 				}
 			}
 			50 = {
-					
+				country_event = {
+					id = GOT_Story_Country.36
+					hours = 6
+				}	
 			}
 		}
 

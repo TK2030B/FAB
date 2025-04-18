@@ -445,3 +445,24 @@ GOT_Ned_Is_King = {
 		}
 	}
 }
+
+GOT_Westeros_Countries = {
+	OR = {
+		tag = TAR
+		tag = CRO
+		tag = WES
+		tag = DRA
+		tag = STO
+		tag = REA
+		tag = NOR
+		tag = RIV
+		tag = IRO
+		tag = DOR
+		tag = VAL
+		tag = WIL
+	}
+}
+
+GOT_Essos_Countries = {
+	GOT_Westeros_Countries = no
+}

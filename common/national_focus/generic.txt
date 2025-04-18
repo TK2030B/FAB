@@ -1598,6 +1598,7 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				NOT = { has_global_flag = GOT_New_Monarch_Chosen_Flag }
+				GOT_Westeros_Countries = yes
 			}
 		}
 		available = {
