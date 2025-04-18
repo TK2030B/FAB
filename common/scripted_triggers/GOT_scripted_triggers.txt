@@ -1,3 +1,17 @@
+GOT_War_Participant = {
+	OR = {
+		tag = TAR
+		tag = CRO
+		tag = WES
+		tag = DRA
+		tag = STO
+		tag = REA
+		tag = NOR
+		tag = RIV
+		tag = IRO
+	}
+}
+
 GOT_Targaryen_Faction = {
 	OR = {
 		tag = TAR
