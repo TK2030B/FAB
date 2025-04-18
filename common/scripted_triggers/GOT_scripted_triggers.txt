@@ -48,7 +48,10 @@ GOT_Stannis_Faction = {
 		tag = DRA
 		AND = {
 			tag = STO
-			GOT_Stannis_Is_Lord_of_STO = yes
+			OR = {
+				GOT_Stannis_Is_Lord_of_STO = yes
+				GOT_Shireen_Is_Lady_of_STO = yes
+			}
 		}
 	}
 }
@@ -257,29 +260,32 @@ GOT_can_join_renly = {
 
 GOT_can_join_lannister = {
 	OR = {
-		OR = {
-			has_government = neutrality
-			CRO = { 
-				has_government = neutrality 
-			}
-			AND = {
-				has_government = communism
+		AND = {
+			OR = {
+				has_government = neutrality
 				CRO = { 
-					has_government = communism 
+					has_government = neutrality 
 				}
-			}
-			AND = {
-				has_government = democratic
-				CRO = { 
+				AND = {
+					has_government = communism
+					CRO = { 
+						has_government = communism 
+					}
+				}
+				AND = {
 					has_government = democratic
+					CRO = { 
+						has_government = democratic
+					}
+				}
+				AND = {
+					has_government = fascism
+					CRO = { 
+						has_government = fascism 
+					}
 				}
 			}
-			AND = {
-				has_government = fascism
-				CRO = { 
-					has_government = fascism 
-				}
-			}
+			GOT_Lannister_Is_King = yes
 		}
 		is_ai = no
 	}
@@ -316,6 +322,24 @@ GOT_Stannis_Is_Lord_of_STO = {
 	STO = {
 		has_country_leader = {
 			name = "Stannis Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Shireen_Is_Lady_of_STO = {
+	STO = {
+		has_country_leader = {
+			name = "Shireen Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Shireen_Is_Lady_of_DRA = {
+	DRA = {
+		has_country_leader = {
+			name = "Shireen Baratheon"
 			ruling_only = yes
 		}
 	}
