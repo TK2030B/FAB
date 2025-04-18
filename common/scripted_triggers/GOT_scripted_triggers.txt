@@ -30,12 +30,7 @@ GOT_Stannis_Faction = {
 	OR = {
 		AND = {
 			tag = CRO
-			CRO = {
-				has_country_leader = {
-					name = "Stannis Baratheon"
-					ruling_only = yes
-				}
-			}
+			GOT_Stannis_Is_King = yes
 		}
 		tag = DRA
 	}
@@ -46,44 +41,14 @@ GOT_Lannister_Faction = {
 		tag = WES
 		tag = CRO
 	}
-	OR = {
-		CRO = {
-			has_country_leader = {
-				name = "Joffrey Baratheon"
-				ruling_only = yes
-			}
-		}
-		CRO = {
-			has_country_leader = {
-				name = "Tommen Baratheon"
-				ruling_only = yes
-			}
-		}
-		CRO = {
-			has_country_leader = {
-				name = "Myrcella Baratheon"
-				ruling_only = yes
-			}
-		}
-		CRO = {
-			has_country_leader = {
-				name = "Cersei Lannister"
-				ruling_only = yes
-			}
-		}
-	}
+	GOT_Lannister_Is_King = yes
 }
 
 GOT_Renly_Faction = {
 	OR = {
 		AND = {
 			tag = CRO
-			CRO = {
-				has_country_leader = {
-					name = "Renly Baratheon"
-					ruling_only = yes
-				}
-			}
+			GOT_Renly_Is_King = yes
 		}
 		tag = STO
 		tag = REA
@@ -94,12 +59,7 @@ GOT_Stark_Faction = {
 	OR = {
 		AND = {
 			tag = CRO
-			CRO = {
-				has_country_leader = {
-					name = "Ned Stark"
-					ruling_only = yes
-				}
-			}
+			GOT_Ned_Is_King = yes
 		}
 		tag = NOR
 		tag = RIV
@@ -289,5 +249,61 @@ GOT_can_join_lannister = {
 			}
 		}
 		is_ai = no
+	}
+}
+
+GOT_Stannis_Is_King = {
+	CRO = {
+		has_country_leader = {
+			name = "Stannis Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Renly_Is_King = {
+	CRO = {
+		has_country_leader = {
+			name = "Renly Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Lannister_Is_King = {
+	OR = {
+		CRO = {
+			has_country_leader = {
+				name = "Joffrey Baratheon"
+				ruling_only = yes
+			}
+		}
+		CRO = {
+			has_country_leader = {
+				name = "Tommen Baratheon"
+				ruling_only = yes
+			}
+		}
+		CRO = {
+			has_country_leader = {
+				name = "Myrcella Baratheon"
+				ruling_only = yes
+			}
+		}
+		CRO = {
+			has_country_leader = {
+				name = "Cersei Lannister"
+				ruling_only = yes
+			}
+		}
+	}
+}
+
+GOT_Ned_Is_King = {
+	CRO = {
+		has_country_leader = {
+			name = "Renly Baratheon"
+			ruling_only = yes
+		}
 	}
 }

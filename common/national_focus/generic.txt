@@ -1626,6 +1626,12 @@ focus_tree = {
 				GOT_Stark_Faction = no
 				GOT_Ironborn_Faction = no
 			}
+			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
+				GOT_Stark_Faction = no
+				GOT_Ironborn_Faction = no
+			}
 		}
 		
 		available = {
@@ -1661,6 +1667,11 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
+				GOT_Stark_Faction = no
+			}
+			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
 				GOT_Stark_Faction = no
 			}
 			modifier = {
@@ -1990,6 +2001,11 @@ focus_tree = {
 				GOT_Ironborn_Faction = no
 			}
 			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
+				GOT_Ironborn_Faction = no
+			}
+			modifier = {
 				factor = 0
 				IRO = {
 					has_capitulated = yes
@@ -2248,6 +2264,11 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
+				GOT_Targaryen_Faction = no
+			}
+			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
 				GOT_Targaryen_Faction = no
 			}
 			modifier = {
@@ -2896,6 +2917,11 @@ focus_tree = {
 				is_historical_focus_on = yes
 				GOT_Baratheon_Faction = no
 			}
+			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
+				GOT_Baratheon_Faction = no
+			}
 		}
 		available = {
 			is_in_faction = no
@@ -2930,6 +2956,11 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
+				GOT_Stannis_Faction = no
+			}
+			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
 				GOT_Stannis_Faction = no
 			}
 			modifier = {
@@ -3167,6 +3198,11 @@ focus_tree = {
 				GOT_Renly_Faction = no
 			}
 			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
+				GOT_Renly_Faction = no
+			}
+			modifier = {
 				factor = 0
 				STO = {
 					has_capitulated = yes
@@ -3359,6 +3395,11 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
+				GOT_Lannister_Faction = no
+			}
+			modifier = {
+				factor = 0.1
+				is_historical_focus_on = no
 				GOT_Lannister_Faction = no
 			}
 			modifier = {
