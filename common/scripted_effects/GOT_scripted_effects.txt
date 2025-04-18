@@ -136,6 +136,7 @@ GOT_start_techs_A = {
 		gw_artillery = 1
 		basic_train = 1
 		tech_trucks = 1
+		motorised_infantry = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
 	}
