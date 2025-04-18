@@ -3368,6 +3368,11 @@ country_event = {
 			promote_leader = yes
 		}
 		
+		country_event = {
+			id = GOT_Diplomatic_Country.9
+			days = 1
+		}
+		
 		hidden_effect = {
 			if = {
 				limit = {
@@ -3392,12 +3397,6 @@ country_event = {
 						country_event = {
 							id = GOT_Alt_Country.4
 							hours = 6
-						}
-					}
-					CRO = {
-						country_event = {
-							id = GOT_Diplomatic_Country.9
-							days = 1
 						}
 					}
 				}

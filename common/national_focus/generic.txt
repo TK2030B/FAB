@@ -4452,6 +4452,9 @@ focus_tree = {
 			factor = 800
 		}
 		prerequisite = {
+			focus = GOT_optimise_profit
+		}
+		prerequisite = {
 			focus = GOT_invite_foreign_investors
 			focus = GOT_rations
 		}
