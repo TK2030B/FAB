@@ -242,7 +242,7 @@ generic_infantry_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = { armor }
@@ -511,7 +511,7 @@ generic_assault_guns_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = { light_tank_artillery_chassis medium_tank_artillery_chassis heavy_tank_artillery_chassis }
@@ -824,7 +824,7 @@ generic_mobile_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = { armor }
@@ -1045,7 +1045,7 @@ generic_medium_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_2
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = { mio_cat_eq_all_medium_tank }
@@ -1282,7 +1282,7 @@ generic_heavy_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = { mio_cat_eq_all_heavy_tank }
@@ -1533,7 +1533,7 @@ generic_tank_refurbishment_plant_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -1825,7 +1825,7 @@ generic_task_force_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -2085,7 +2085,7 @@ generic_battle_line_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_2
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -2853,7 +2853,7 @@ generic_submarine_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -3179,7 +3179,7 @@ generic_black_sea_fleet_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_2
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -3488,7 +3488,7 @@ generic_refurbishment_repair_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -4040,7 +4040,7 @@ generic_light_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -4382,7 +4382,7 @@ generic_medium_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -4705,7 +4705,7 @@ generic_heavy_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_2
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -5000,7 +5000,7 @@ generic_cas_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -5257,7 +5257,7 @@ generic_naval_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -5531,7 +5531,7 @@ generic_multi_role_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -5883,7 +5883,7 @@ generic_high_agility_fighter_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -6159,7 +6159,7 @@ generic_range_focused_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {
@@ -7088,7 +7088,7 @@ generic_support_equipment_organization = {
 	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = { infantry_equipment support_equipment }
@@ -7669,7 +7669,7 @@ generic_armored_car_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 		has_dlc = "La Resistance"
 	}
 
@@ -7883,7 +7883,7 @@ generic_helicopter_organization = {
 	icon = GFX_idea_generic_helicopter_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		#always = no # Archetype only - countries using it have their own verisons
 		has_dlc = "Gotterdammerung"
 	}
 

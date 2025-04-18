@@ -1522,8 +1522,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ################################
 #### GENERAL TANK DESIGNER ####
 ################################
- generic_tank_organization: "Steedmaster"
- generic_mio_initial_trait_standardized_production: "Standardized Production"
+ generic_tank_organization: "Cavalier’s Guild"
+ generic_mio_initial_trait_standardized_production: "Standardized Breeding"
  generic_mio_trait_simplified_suspension: "Simplified Suspension"
  generic_mio_trait_crew_ergonomics: "Crew Ergonomics"
  generic_mio_trait_improved_tracks: "Improved Tracks"
@@ -1704,7 +1704,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ##################################
 #### ESCORT SHIP MANUFACTURER ####
 ##################################
- generic_escort_ship_organization: "Escort Ship Manufacturer"
+ generic_escort_ship_organization: "Escort Fleet Shipwrights"
  generic_mio_initial_trait_escort_fleet: "Escort Fleet"
  generic_mio_trait_submarine_hunters: "Submarine Hunters"
  generic_mio_trait_high_speed_mine_hunting_equipment: "High-Speed Mine-Hunting Equipment"
@@ -1718,7 +1718,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ##################################
 #### RAIDER SHIP MANUFACTURER ####
 ##################################
- generic_raider_ship_organization: "Raider Ship Manufacturer"
+ generic_raider_ship_organization: "Raiding Shipwrights"
  generic_mio_initial_trait_raiding_fleet: "Raiding Fleet"
  generic_mio_trait_long_range_raiding: "Long Range Raiding"
  generic_mio_trait_high_speed_raiding: "High Speed Raiding"
@@ -1811,8 +1811,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 #######################################
 #### GENERAL AIRCRAFT MANUFACTURER ####
 #######################################
- generic_general_aircraft_organization: "General Aircraft Manufacturer"
- generic_mio_initial_trait_general_aircraft_designer: "General Aircraft Designer"
+ generic_general_aircraft_organization: "Order of the Dragonkeepers"
+ generic_mio_initial_trait_general_aircraft_designer: "Dragonkeepers"
  generic_mio_trait_conservative_designs: "Conservative Designs"
  generic_mio_trait_fighter_aircraft_specialists: "Fighter Aircraft Specialists"
  generic_mio_trait_high_speed_design: "High-Speed Design"
@@ -2010,7 +2010,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ############################################
 ############ ARTLLERY MANUFRACTURER ########
 ############################################
- generic_artillery_organization: "Artillery Manufacturer"
+ generic_artillery_organization: "Master Bowyer's Guild"
  generic_mio_initial_trait_artillery_manufacturer: "$generic_artillery_organization$"
  generic_mio_trait_mobile_limbers: "Mobile Limbers"
  generic_mio_trait_stable_platforms: "Stable Platforms"
@@ -2029,8 +2029,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ##################################
 #### Infantry Weapons         ####
 ##################################
- generic_infantry_equipment_organization: "Infantry Equipment Manufacturer"
- generic_mio_initial_trait_infantry_manufacturer: "Infantry Weapons Manufacturer"
+ generic_infantry_equipment_organization: "Swordsmiths' Guild"
+ generic_mio_initial_trait_infantry_manufacturer: "Sword Forge"
  generic_mio_trait_drum_pattern_sights: "Drum Pattern Sights"
  generic_mio_trait_reinforced_stocks: "Reinforced Stocks"
  generic_mio_trait_bolt_action: "Bolt-Action Rifles"
@@ -2048,8 +2048,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ##################################
 #### Mot/Mech                 ####
 ##################################
- generic_motorized_mechanized_organization: "Motorized Manufacturer"
- generic_mio_initial_trait_motorized_mechanized_manufacturer: "Automotive Manufacturer"
+ generic_motorized_mechanized_organization: "Order of the Warhorse Breeders"
+ generic_mio_initial_trait_motorized_mechanized_manufacturer: "Warhorse Breeder"
  generic_mio_trait_composite_cargo_bed: "Composite Cargo Bed"
  generic_mio_trait_steel_cargo_bed: "Steel Cargo Bed"
  generic_mio_trait_all_wheel_drive: "All Wheel Drive"

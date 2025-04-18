@@ -465,6 +465,17 @@ on_actions = {
 					NOT = { has_global_flag = GOT_New_Monarch_Chosen_Flag }
 				}
 				set_global_flag = GOT_New_Monarch_Chosen_Flag
+				
+				every_other_country = {
+					limit = {
+						has_guaranteed = CRO
+					}
+					diplomatic_relation = {
+						country = CRO
+						relation = guarantee
+						active = no
+					}
+				}
 					
 				news_event = {
 					id = GOT_Diplomatic_News.5
