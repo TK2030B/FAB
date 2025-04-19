@@ -356,8 +356,8 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 			modifier = {
-				factor = 0.1
-				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+				factor = 10
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
 			}
 		}
 		
@@ -409,8 +409,8 @@ country_event = {
 		ai_chance = {
 			factor = 40
 			modifier = {
-				factor = 0.1
-				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+				factor = 10
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
 			}
 		}
 		#Lord Stark gets arrested 100% for historical AI
@@ -523,8 +523,8 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 			modifier = {
-				factor = 0.1
-				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+				factor = 10
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
 			}
 		}
 		
@@ -619,8 +619,8 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 			modifier = {
-				factor = 0.1
-				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+				factor = 10
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
 			}
 		}
 		
