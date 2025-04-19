@@ -130,9 +130,11 @@ country_event = {
 			modifier = RI_visited_capital
 		}
 		
-		NOR_ned_stark = {
-			retire = yes
+		remove_country_leader_role = {
+			character = NOR_ned_stark
+			ideology = NR_subideology
 		}
+		
 		add_country_leader_role = {
 			character = NOR_robb_stark
 			country_leader = {

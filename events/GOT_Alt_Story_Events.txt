@@ -198,9 +198,9 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		
-		NOR_robb_stark = {
-			retire = yes
+		remove_country_leader_role = {
+			character = NOR_robb_stark
+			ideology = NR_subideology
 		}
 		add_country_leader_role = {
 			character = NOR_ned_stark
