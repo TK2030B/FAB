@@ -17,6 +17,8 @@ country_event = {
 			factor = 10
 		}
 		
+		add_threat = 5
+		
 		TAR_Danaerys_Targaryen = {
 			retire = yes
 		}
@@ -139,6 +141,8 @@ country_event = {
 			factor = 10
 		}
 		
+		add_threat = 3
+		
 		add_field_marshal_role = {
 			character = NWA_ned_stark
 			traits = { }
@@ -179,6 +183,7 @@ country_event = {
 		}
 		
 		add_political_power = 25
+		add_threat = 4
 		
 	}
 }
@@ -222,6 +227,7 @@ country_event = {
 		}
 		
 		add_political_power = 25
+		add_threat = 6
 
 		every_other_country = {
 			limit = {

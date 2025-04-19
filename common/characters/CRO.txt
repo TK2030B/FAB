@@ -655,11 +655,11 @@ characters={
 		name=CRO_renly_baratheon
 		portraits={
 			army = {
-				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				large="gfx/leaders/STO/Portrait_Renly_Baratheon.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
 			civilian = {
-				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+				large="gfx/leaders/STO/Portrait_Renly_Baratheon.dds"
 				small="gfx/interface/ideas/characters/idea_CRO_jon_arryn.dds"
 			}
 		}

@@ -1915,7 +1915,7 @@ focus_tree = {
 				limit = {
 					tag = NOR
 				}
-				create_faction = "The King in the North"
+				create_faction = "Wolves of the North"
 			}
 			else = {
 				NOR = {
@@ -6479,12 +6479,20 @@ focus_tree = {
 			focus = GOT_old_doctrine
 		}
 		completion_reward = {
+		
 			add_tech_bonus = {
 				bonus = 0.5
-				ahead_reduction = 2
 				uses = 1
 				category = ss_tech
 			}
+			
+			#add_tech_bonus = {
+			#	bonus = 0.5
+			#	ahead_reduction = 2
+			#	uses = 1
+			#	category = ss_tech
+			#}
+			
 			#			add_tech_bonus = {
 			#				bonus = 0.5.0
 			#				uses = 1
@@ -6570,9 +6578,14 @@ focus_tree = {
 			focus = GOT_more_dockyards
 		}
 		completion_reward = {
-			custom_effect_tooltip = RI_battleship_tp
-			hidden_effect = {
-				load_oob = "GOT_pride_of_fleet_2"
+			#custom_effect_tooltip = RI_battleship_tp
+			#hidden_effect = {
+			#	load_oob = "GOT_pride_of_fleet_2"
+			#}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
 			}
 		}
 	}

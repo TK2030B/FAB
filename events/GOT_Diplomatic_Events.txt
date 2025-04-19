@@ -91,6 +91,8 @@ country_event = {
 			factor = 70
 		}
 		
+		add_threat = 3
+		
 		DOT_No_Single_Ruler = {
 			retire = yes
 		}
@@ -245,10 +247,11 @@ country_event = {
 		create_wargoal = {
 			type = annex_everything
 			target = RIV
-			expire = 100
+			expire = 365
 		}
 		
 		add_war_support = 0.10
+		add_threat = 5
 		
 		every_other_country = {
 			limit = {
@@ -301,13 +304,27 @@ country_event = {
 			leave_faction = yes
 		}
 		
-		create_wargoal = {
-			type = annex_everything
-			target = CRO
-			expire = 100
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "Wolves of the North"
+		}
+		
+		if = {
+			limit = {
+				country_exists = CRO
+				NOT = { has_war_with = CRO }
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = CRO
+				expire = 365
+			}
 		}
 		
 		add_war_support = 0.10
+		add_threat = 10
 		
 	}
 	
@@ -361,6 +378,8 @@ country_event = {
 			}
 		}
 		
+		add_threat = 2
+		
 		CRO_ned_stark = {
 			retire = yes
 		}
@@ -413,6 +432,9 @@ country_event = {
 				has_global_flag = GOT_Lord_Stark_Investigation_Flag
 			}
 		}
+		
+		add_threat = 2
+		
 		#Lord Stark gets arrested 100% for historical AI
 		if = {
 			limit = {
@@ -528,6 +550,8 @@ country_event = {
 			}
 		}
 		
+		add_threat = 2
+		
 		#Westerlands Notified of Usurpation Attempt
 		WES = {
 			country_event = {
@@ -624,6 +648,8 @@ country_event = {
 			}
 		}
 		
+		add_threat = 2
+		
 		add_political_power = 25
 		
 		WES = {
@@ -676,6 +702,7 @@ country_event = {
 			}
 		}
 		
+		add_threat = 2
 		add_political_power = 25
 		
 		if = {
@@ -742,6 +769,8 @@ country_event = {
 			}
 		}
 		
+		add_threat = 2
+		
 		CRO_cersei_lannister = {
 			retire = yes
 		}
@@ -792,6 +821,8 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
+		
+		add_threat = 2
 		
 		CRO_cersei_lannister = {
 			retire = yes
@@ -858,10 +889,11 @@ country_event = {
 		create_wargoal = {
 			type = annex_everything
 			target = CRO
-			expire = 100
+			expire = 365
 		}
 		
 		add_war_support = 0.10
+		add_threat = 8
 		
 	}
 	
@@ -895,6 +927,7 @@ country_event = {
 		}
 		
 		add_stability = -0.05
+		add_threat = 4
 		
 		kill_country_leader = yes
 		
@@ -1030,7 +1063,7 @@ news_event = {
 	picture = GFX_news_event_iron_throne
 
 	is_triggered_only = yes
-	is_major = yes
+	major = yes
 
 	option = {
 		name = GOT_Diplomatic_News.5.a

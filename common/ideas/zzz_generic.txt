@@ -869,6 +869,13 @@ ideas = {
 				}
 			}
 			
+			#Added by GOT
+			on_remove = {
+				set_rule = { 
+					can_join_factions = yes
+				}
+			}
+			
 			removal_cost = -1
 	
 			modifier = {
