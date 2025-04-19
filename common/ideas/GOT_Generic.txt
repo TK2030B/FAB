@@ -1809,4 +1809,233 @@ ideas = {
 		}
 
 	}
+	
+	industrial_concern = {
+		generic_railway_company = {
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = railway_company limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			traits = { railway_company }
+		}
+		generic_bank = {
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = central_bank limit = 1 }
+				}
+			}
+			available = {
+			}
+			visible = {
+				
+			}
+			cost = 150
+			removal_cost = 10
+			research_bonus = {
+			}
+			traits = { central_bank } 
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		generic_construction_company = {
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = construction_company limit = 1 }
+				}
+			}
+
+			available = {
+			}
+
+			visible = {
+			}
+
+			cost = 150
+			removal_cost = 10
+
+			traits = { construction_company }
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+		
+		generic_mining_company = {
+			
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = mining_company limit = 1 }
+				}
+			}
+			
+			available = {
+			}
+
+			visible = {
+			}
+			
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+			
+			traits = { mining_company }
+		}
+		
+		generic_oil_extraction_company = { 
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = oil_extraction_company_trait limit = 1 }
+				}
+			}
+			
+			available = {
+			}
+
+			visible = {
+			}
+			
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				synth_resources = 0.15
+			}
+		
+			traits = { oil_extraction_company_trait } 
+
+			modifier = {
+
+			}
+		}
+		
+		generic_maritime_company = { 
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = merchant_marine_manufacturer limit = 1 }
+				}
+			}
+			
+			available = {
+			}
+
+			visible = {
+			}
+			
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+		
+			traits = { merchant_marine_manufacturer } 
+
+			modifier = {
+				
+			}
+		}
+		
+		generic_resource_development_company = { 
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = resource_development_company limit = 1 }
+				}
+			}
+			
+			available = {
+			}
+
+			visible = {
+			}
+			
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				
+			}
+		
+			traits = { resource_development_company } 
+
+			modifier = {
+				
+			}
+		}
+
+		generic_transport_company = { 
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = transport_company limit = 1 }
+				}
+			}
+			
+			available = {
+			}
+
+			visible = {
+			}
+			
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				
+			}
+		
+			traits = { transport_company } 
+
+			modifier = {
+				
+			}
+		}
+
+		generic_civilian_airway_company = { 
+
+			allowed = {
+				NOT = {
+					has_allowed_idea_with_traits = { idea = civilian_airway_company limit = 1 }
+				}
+			}
+			
+			available = {
+			}
+
+			visible = {
+			}
+			
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+				air_equipment = 0.05
+			}
+		
+			traits = { civilian_airway_company } 
+
+			modifier = {
+			}
+		}
+
+
+		
+	}
+	
 }

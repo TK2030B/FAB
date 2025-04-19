@@ -1522,8 +1522,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ################################
 #### GENERAL TANK DESIGNER ####
 ################################
- generic_tank_organization: "Cavalier’s Guild"
- generic_mio_initial_trait_standardized_production: "Standardized Breeding"
+ generic_tank_organization: "Steed Breeder"
+ generic_mio_initial_trait_standardized_production: "Steed Breeder"
  generic_mio_trait_simplified_suspension: "Simplified Suspension"
  generic_mio_trait_crew_ergonomics: "Crew Ergonomics"
  generic_mio_trait_improved_tracks: "Improved Tracks"
@@ -1540,8 +1540,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ################################
 #### INFANTRY TANK DESIGNER ####
 ################################
- generic_infantry_tank_organization: "Infantry Tank Manufacturer"
- generic_mio_initial_trait_infantry_tanks_designer: "Infantry Tanks Designer"
+ generic_infantry_tank_organization: "Support Steed Breeder"
+ generic_mio_initial_trait_infantry_tanks_designer: "Support Steed Breeder"
  generic_mio_trait_single_engine: "Single Engine"
  generic_mio_trait_dual_engine_redundancy: "Dual-Engine Redundency"
  generic_mio_trait_interleaved_track_wheels: "Interleaved Track Wheels"
@@ -1562,8 +1562,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ################################
 #### MOBILE TANK DESIGNER ######
 ################################
- generic_mobile_tank_organization: "Mobile Tank Manufacturer"
- generic_mio_initial_trait_fast_tanks_designer: "Fast Tanks Designer"
+ generic_mobile_tank_organization: "Fast Steed Breeder"
+ generic_mio_initial_trait_fast_tanks_designer: "Fast Steed Breeder"
  generic_mio_trait_improved_boogies: "Improved Boogies"
  generic_mio_engine_optimization: "Engine Optimization"
  generic_mio_reduced_fuel_usage: "Reduced Fuel Usage"
@@ -1581,8 +1581,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ################################
 #### MEDIUM TANK DESIGNER ######
 ################################
- generic_medium_tank_organization: "Medium Tank Manufacturer"
- generic_mio_initial_trait_medium_tank_designer: "Medium Tank Designer"
+ generic_medium_tank_organization: "Order of Knights"
+ generic_mio_initial_trait_medium_tank_designer: "Order of Knights"
  generic_mio_trait_power_traverse: "Power Traverse"
  generic_mio_trait_all_round_cupola: "All-Round Cupola"
  generic_mio_trait_simplified_turret_design: "Simplified Turret Design"
@@ -1601,8 +1601,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 ################################
 ##### HEAVY TANK DESIGNER ######
 ################################
- generic_heavy_tank_organization: "Heavy Tank Manufacturer"
- generic_mio_initial_trait_heavy_tank_designer: "Heavy Tank Designer"
+ generic_heavy_tank_organization: "Order of Paladins"
+ generic_mio_initial_trait_heavy_tank_designer: "Order of Paladins"
  generic_mio_trait_wide_tracks: "Wide Tracks"
  generic_mio_trait_fire_extinguishers: "Fire Extinguishers"
  generic_mio_trait_one_piece_hull_side_coverings: "One-Piece Hull Side Coverings"
@@ -1621,8 +1621,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
 #####################################
 ##### TANK REFURBISHMENT PLANT ######
 #####################################
- generic_tank_refurbishment_plant_organization: "Tank Refurbishment Plant"
- generic_mio_initial_trait_tank_refurbishment_plant: "Tank Refurbishment Plant"
+ generic_tank_refurbishment_plant_organization: "Knight's Forge"
+ generic_mio_initial_trait_tank_refurbishment_plant: "Knight's Forge"
  generic_mio_trait_enemy_tank_refitting: "Enemy Tank Refitting"
  generic_mio_trait_efficient_scrap_recycling: "Efficient Scrap Recycling"
  generic_mio_trait_high_volume_smelter: "High-Volume Smelter"
@@ -1640,8 +1640,8 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
  #####################################
  ##### ASSAULT GUNS MANUFACTURER #####
  #####################################
- generic_assault_guns_organization: "Assault Guns Manufacturer"
- generic_mio_initial_trait_assault_guns_organization: "Assault Guns Manufacturer"
+ generic_assault_guns_organization: "Mounted Archery Guild"
+ generic_mio_initial_trait_assault_guns_organization: "Mounted Archery Guild"
  generic_mio_trait_light_assault_gun_improvements: "Mobile Artillery"
  generic_mio_trait_light_assault_gun_anti_tank_combo: "High-Explosive Armor-Piercing Ammunition"
  generic_mio_trait_light_assault_gun_improved_cannon_stabilization: "Improved Cannon Stabilization"

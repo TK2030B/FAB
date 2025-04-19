@@ -83,7 +83,7 @@
  support_equipment_manufacturer:0 "Support Equipment Designer"
  motorized_equipment_manufacturer:0 "Motorized Equipment Designer"
  naval_manufacturer:0 "Ship Designer"
- industrial_concern:0 "Industrial Concern"
+ industrial_concern:0 "Artisan’s Craftsmanship"
  railway_company:0 "Railway Company"
  improved_railway_company: "Efficient Railway Company"
  oil_extraction_company_trait: "Oil Extraction Company"
@@ -92,7 +92,7 @@
  resource_development_company: "Resource Development Company"
  transport_company: "Transport Investment Company"
  civilian_airway_company: "Civilian Airway Company"
- electronics_concern:0 "Electronics Concern"
+ electronics_concern:0 "Maester’s Innovation"
  electronics_developer:0 "Electronics Developer"
  
  army_chief_defensive_1:1 "Army Defense\n(Specialist)"

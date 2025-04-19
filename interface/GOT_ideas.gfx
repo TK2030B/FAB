@@ -600,6 +600,52 @@ spriteType = {
 		name = "GFX_idea_RI_cheap_fleet_idea"
 		texturefile = "gfx/interface/ideas/Generic/RI_cheap_fleet_idea.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_bank"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_bank.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_railway_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_railway_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_construction_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_construction_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_mining_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_mining_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_oil_extraction_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_oil_extraction_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_maritime_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_maritime_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_resource_development_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_resource_development_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_transport_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_transport_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_civilian_airway_company"
+		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_civilian_airway_company.dds"
+	}
+
 
 
 

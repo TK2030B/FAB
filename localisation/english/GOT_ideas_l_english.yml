@@ -257,3 +257,34 @@
 
   RI_cheap_fleet_idea: "Fast, Cheap and Deadly"
   RI_cheap_fleet_idea_desc: "In times of war, we must prioritize speed and efficiency. By constructing a fleet of swift, cost-effective vessels, we will overwhelm our enemies with relentless speed and firepower, all while conserving resources for the battles to come."
+
+l_english:
+
+generic_railway_company:0 "Wagonwright’s Brotherhood"
+generic_railway_company_desc:0 "The Wagonwright’s Brotherhood is a skilled fellowship of engineers and craftsmen responsible for building and maintaining the wagons, carts, and supply trains that carry the realm’s lifeblood across treacherous terrain. From heavy baggage trains to swift messenger carts, their handiwork enables both armies and merchants to move swiftly along the caravan routes."
+
+
+
+ generic_bank:0 "Iron Bank of Braavos"
+ generic_bank_desc:0 "The Iron Bank does not forget. With vast reserves of coin and influence spanning continents, the Iron Bank of Braavos lends only to those it deems trustworthy… or those it wishes to control. Their support can tip the scales of power—though such favors come with a price."
+
+ generic_construction_company:0 "Mason’s Guild"
+ generic_construction_company_desc:0 "Master builders of castles, roads, and halls, the Mason’s Guild brings together the finest stoneworkers and architects in the realm. Their precision and craftsmanship ensure swift, sturdy construction—whether for humble villages or towering strongholds."
+
+ generic_mining_company:0 "Mining Consortium"
+ generic_mining_company_desc:0 "Deep beneath the mountains, the Mining Consortium extracts the precious ores, gems, and metals that fuel the realm’s economy and forge its weapons. Their knowledge of the earth is unmatched, and their efforts are the backbone of any war effort."
+
+ generic_oil_extraction_company:0 "Farmer’s Guild"
+ generic_oil_extraction_company_desc:0 "The Farmer’s Guild oversees the cultivation, storage, and distribution of grain—the lifeblood of the smallfolk and armies alike. In times of peace they feed the realm; in times of war, they feed the war machine."
+
+ generic_maritime_company:0 "Guild of Maritime Traders"
+ generic_maritime_company_desc:0 "From the Jade Sea to the Sunset Sea, the Guild of Maritime Traders commands a network of merchant ships that ferry goods, gold, and gossip. Their fleets ensure that distant ports remain tied together, bringing prosperity—and sometimes intrigue—to every harbor they touch."
+
+ generic_resource_development_company:0 "Resource Merchants’ Consortium"
+ generic_resource_development_company_desc:0 "An alliance of seasoned merchants and resource brokers, the Consortium specializes in organizing the gathering and distribution of vital materials. Their influence ensures that timber, ore, and stone flow where they are needed most."
+
+generic_transport_company:0 "Merchant Guild"
+generic_transport_company_desc:0 "The Merchant Guild orchestrates trade across land and sea. Their influence spans bustling trade posts, caravan rest stops, and admiralty ports, ensuring goods and gold flow efficiently between distant markets. With contracts stretching from the Free Cities to the great houses, they form the economic backbone of the realm."
+
+ generic_civilian_airway_company:0 "Order of the Dragonkeepers"
+ generic_civilian_airway_company_desc:0 "The ancient Order of the Dragonkeepers was entrusted with the care, training, and breeding of dragons. Though their kind is rare, their return would shake the balance of power across the realm. With their knowledge of draconic lore, the skies may once again belong to fire and scale."
