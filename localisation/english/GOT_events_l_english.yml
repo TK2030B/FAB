@@ -670,14 +670,14 @@ GOT_Story_News.54.t: "King Robert Baratheon Has Died"
 GOT_Story_News.54.d: "The king is dead. Robert Baratheon succumbed to wounds sustained in a hunting accident. The realm mourns, but even as bells toll, courtiers whisper. Who will succeed him? Will it be his son, Joffrey? Or another claimant? Westeros stands on the edge of uncertainty, with storm clouds brewing."
 GOT_Story_News.54.a: "A crown without a king."
 
-GOT_Story_Country.55.t "The Great Khal is wounded."
-GOT_Story_Country.55.d "In a brutal confrontation with Mago, Drogo has been gravely injured. The blood of our Khal spills upon the sands, and the future of the Dothraki is uncertain. The Khal's strength is unmatched, but even the strongest fall. Will the blood of his khalasar be enough to bring him back from the brink of death?"
-GOT_Story_Country.55.a "We must try to heal him!"
-GOT_Story_Country.55.b "His legacy will live on through a new leader."
+GOT_Story_Country.55.t: "The Great Khal is wounded."
+GOT_Story_Country.55.d: "In a brutal confrontation with Mago, Drogo has been gravely injured. The blood of our Khal spills upon the sands, and the future of the Dothraki is uncertain. The Khal's strength is unmatched, but even the strongest fall. Will the blood of his khalasar be enough to bring him back from the brink of death?"
+GOT_Story_Country.55.a: "We must try to heal him!"
+GOT_Story_Country.55.b: "His legacy will live on through a new leader."
 
-GOT_Story_News.55.t "Khal Drogo Wounded in Duel with Mago"
-GOT_Story_News.55.d "Khal Drogo, the mighty leader of the Dothraki, was severely injured in a one-on-one fight with his rival, Mago. The outcome of the duel has left many questioning the future of the Dothraki horde. If Drogo succumbs to his injuries, the Dothraki may face a tumultuous period of leadership struggles and uncertainty."
-GOT_Story_News.55.a "Will the Khal's horde survive this blow?"
+GOT_Story_News.55.t: "Khal Drogo Wounded in Duel with Mago"
+GOT_Story_News.55.d: "Khal Drogo, the mighty leader of the Dothraki, was severely injured in a one-on-one fight with his rival, Mago. The outcome of the duel has left many questioning the future of the Dothraki horde. If Drogo succumbs to his injuries, the Dothraki may face a tumultuous period of leadership struggles and uncertainty."
+GOT_Story_News.55.a: "Will the Khal's horde survive this blow?"
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
@@ -746,6 +746,17 @@ GOT_Diplomatic_Country.12.t: "The Dragon Mocked"
 GOT_Diplomatic_Country.12.d: "They laughed at me. The blood of the dragon — laughed at like a jester in a savage court. I demanded my crown, as is my right, and they dared to lay hands on me. The khal treats me like a beggar, my sister forgets her place, and the Dothraki mutter in their barbarous tongue. But I will not be broken. I am the dragon. And they will learn that fire does not bend — it burns."
 GOT_Diplomatic_Country.12.a: "They will all pay. One day, I will show them."
 GOT_Diplomatic_Country.12.b: "No... not yet. I must be patient. I must endure."
+
+GOT_Diplomatic_Country.13.t:0 "The Khal Lives!"
+GOT_Diplomatic_Country.13.d:0 "Drogo breathes! Though the wound was deep and the night long, the blood of the Great Stallion flows strong in his veins. Our Khal has risen from his mat, his gaze fierce, his grip firm. The witch’s magic may have played a part, but it was Drogo’s spirit that defeated death itself. The khalasar rejoices — their leader has returned."
+GOT_Diplomatic_Country.13.a:0 "He rides again!"
+
+GOT_Diplomatic_Country.14.t:0 "The Khal Is Dead"
+GOT_Diplomatic_Country.14.d:0 "Khal Drogo, the Great Khal, has fallen. His blood spills no more, his strength is gone. Songs will be sung of his conquests and the fear he struck across the lands. But now, the khalasar stands at a crossroads — bloodriders murmur, and the mares whinny nervously. The Great Khal is no more. Who shall lead us now?"
+GOT_Diplomatic_Country.14.a:0 "We shall follow the Khaleesi, the Mother of Dragons!"
+GOT_Diplomatic_Country.14.b:0 "Khal Moro should lead us, his strength is undeniable!"
+GOT_Diplomatic_Country.14.c:0 "We do not need a single ruler. We are free to lead ourselves!"
+
 
 
 #The Previous Event Spawns this one for all the other countries
