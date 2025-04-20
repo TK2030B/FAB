@@ -5,7 +5,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/TAR/Portrait_Targaryen _Brothers.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -101,11 +101,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/TAR/Portrait_Viserys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/TAR/Portrait_Viserys_Targaryen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -171,7 +171,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/TAR/Portrait_Jorah_Mormont.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -189,7 +189,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/TAR/Portrait_Barristan_Selmy.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		field_marshal={
@@ -207,7 +207,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/TAR/Portrait_Grey_Worm.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -225,7 +225,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/TAR/Portrait_Daario_Naharis.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={

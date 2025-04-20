@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WES/Portrait_Tywin_Lannister.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/WES/Portrait_Tywin_Lannister.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -42,7 +42,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WES/Portrait_Gregor_Clegane.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		field_marshal={
@@ -60,7 +60,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WES/Portrait_Kevan_Lannister.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -89,7 +89,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/CRO/Portrait_Cersei_Lannister.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Cersei_Lannister.dds"
@@ -116,11 +116,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/CRO/Portrait_Tyrion_Lannister.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/CRO/Portrait_Tyrion_Lannister.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={

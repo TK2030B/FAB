@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/STE/Portrait_Stepstones_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -49,11 +49,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/STE/Portrait_Council_Sailors.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/STE/Portrait_Council_Sailors.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={

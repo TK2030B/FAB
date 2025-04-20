@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/DOT/Portrait_Khal_Drogo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/DOT/Portrait_Khal_Drogo.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -54,11 +54,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/DOT/Portrait_Khal_Moro.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/DOT/Portrait_Khal_Moro.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -87,11 +87,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/DOT/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/DOT/Portrait_Unknown_Leader.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -112,11 +112,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/DOT/Portrait_Khal_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/DOT/Portrait_Khal_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={

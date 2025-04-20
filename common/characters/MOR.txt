@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/MOR/Portrait_Governor.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/MOR/Portrait_Governor.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -39,11 +39,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/SLA/Portrait_Council_Freedmen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -65,11 +65,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/SLA/Portrait_Ruling_Council.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -90,11 +90,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/SLA/Portrait_Council_Warlords.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/SLA/Portrait_Council_Warlords.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={

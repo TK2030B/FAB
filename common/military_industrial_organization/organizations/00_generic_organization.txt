@@ -12,7 +12,7 @@
 
 # GENERIC TANK MANUFACTURER - Based on Daimler Benz
 generic_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_1
+	icon = GFX_idea_generic_motorized_equipment_manufacturer_3
 
 	allowed = {
 	}
@@ -239,7 +239,7 @@ generic_tank_organization = {
 
 # INFANTRY TANK DESIGNER  - Based on Renault (FRA)
 generic_infantry_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
+	icon = GFX_idea_generic_tank_manufacturer_1
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -508,7 +508,7 @@ generic_infantry_tank_organization = {
 
 # ASSAULT GUNS DESIGNER / MANUFACTURER
 generic_assault_guns_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
+	icon = GFX_idea_generic_tank_manufacturer_2
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -821,7 +821,7 @@ generic_assault_guns_organization = {
 
 # MOBILE TANK DESIGNER / FAST TANK DESIGNER - Based on Hotchkiss (FRA)
 generic_mobile_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
+	icon = GFX_idea_generic_motorized_equipment_manufacturer_3
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -1042,7 +1042,7 @@ generic_mobile_tank_organization = {
 
 # MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
 generic_medium_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_2
+	icon = GFX_idea_generic_tank_manufacturer_4
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -1279,7 +1279,7 @@ generic_medium_tank_organization = {
 
 # HEAVY TANK DESIGNER - Based on KV (SOV)
 generic_heavy_tank_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
+	icon = GFX_idea_generic_tank_manufacturer_4
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -1530,8 +1530,7 @@ generic_heavy_tank_organization = {
 
 ### TANK REFURBISHMENT PLANT - Based on Mytishchi
 generic_tank_refurbishment_plant_organization = {
-	icon = GFX_idea_generic_tank_manufacturer_3
-
+	icon = GFX_idea_generic_tank_manufacturer_5
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
 	}
@@ -2850,7 +2849,7 @@ generic_raider_ship_organization = {
 
 #SUBMARINE MANUFACTURER - Based on Canteri Navali Tosi (ITA)
 generic_submarine_organization = {
-	icon = GFX_idea_generic_naval_manufacturer_1
+	icon = GFX_idea_generic_naval_manufacturer_4
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -4037,7 +4036,7 @@ generic_general_aircraft_organization = {
 
 #LIGHT AIRCRAFT MANUFACTURER - Based on MESSERSCHMIDT (GER)
 generic_light_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
+	icon = GFX_idea_generic_air_manufacturer_5
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -4997,7 +4996,7 @@ generic_heavy_aircraft_organization = {
 
 #CAS AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
 generic_cas_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
+	icon = GFX_idea_generic_air_manufacturer_6
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -5254,7 +5253,7 @@ generic_cas_aircraft_organization = {
 
 #NAVAL AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
 generic_naval_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
+	icon = GFX_idea_generic_air_manufacturer_7
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -5528,7 +5527,7 @@ generic_naval_aircraft_organization = {
 
 #MULTI-ROLE AIRCRAFT MANUFACTURER - Based on Savoia Marchetti (ITA) & Republic
 generic_multi_role_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_3
+	icon = GFX_idea_generic_air_manufacturer_4
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -5880,7 +5879,7 @@ generic_multi_role_aircraft_organization = {
 
 #HIGH AGILITY FIGHTER AIRCRAFT MANUFACTURER - Based on Supermarine (ENG)
 generic_high_agility_fighter_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
+	icon = GFX_idea_generic_air_manufacturer_5
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons
@@ -6156,7 +6155,7 @@ generic_high_agility_fighter_aircraft_organization = {
 
 #RANGE FOCUSED AIRCRAFT MANUFACTURER - Based on North American, Lockheed, Fiat Aviazione
 generic_range_focused_aircraft_organization = {
-	icon = GFX_idea_generic_air_manufacturer_1
+	icon = GFX_idea_generic_air_manufacturer_8
 
 	allowed = {
 		#always = no # Archetype only - countries using it have their own verisons

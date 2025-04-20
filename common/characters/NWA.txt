@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NOR/Portrait_Stark_Ned.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		field_marshal={
@@ -27,11 +27,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Edd.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_General_Edd.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -75,11 +75,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -123,11 +123,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Alliser_Thorne.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Alliser_Thorne.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -169,11 +169,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Janos_Slynt.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Janos_Slynt.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -195,11 +195,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_qhorin_halfhand.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_qhorin_halfhand.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -238,7 +238,7 @@ characters={
 		portraits={
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_No_Lord_Commander.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -248,11 +248,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Samwell_Tarly.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Samwell_Tarly.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -262,11 +262,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -311,7 +311,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Denys_Mallister.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -343,7 +343,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Grenn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -361,7 +361,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Jarman_Buckwell.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -379,7 +379,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Benjen_Stark.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -412,7 +412,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Stonesnake.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -430,7 +430,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Gared.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -440,7 +440,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Old_Tattersalt.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		navy_leader={
@@ -473,7 +473,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_General_Russ_Barleycorn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		navy_leader={
@@ -509,7 +509,7 @@ characters={
 		name=NWA_bowen_marsh
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -529,7 +529,7 @@ characters={
 		name=NWA_ebben
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -549,7 +549,7 @@ characters={
 		name=NWA_othell_yarwyck
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -569,7 +569,7 @@ characters={
 		name=NWA_donal_noye
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -589,7 +589,7 @@ characters={
 		name=NWA_donnel_hill
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -609,7 +609,7 @@ characters={
 		name=NWA_cellador
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -629,7 +629,7 @@ characters={
 		name=NWA_kegs
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -649,7 +649,7 @@ characters={
 		name=NWA_owen
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -670,11 +670,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Karl_Tanner.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/NWA/Portrait_Karl_Tanner.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -701,7 +701,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -734,7 +734,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/BWB/Portrait_Notch_Avery.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -744,11 +744,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/BWB/Portrait_Beric_Dondarrion.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/BWB/Portrait_Beric_Dondarrion.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -758,7 +758,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/BWB/Portrait_Thoros.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -767,7 +767,7 @@ characters={
 		name=NWA_endrew_tarth
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -790,7 +790,7 @@ characters={
 		name=NWA_leathers
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -815,7 +815,7 @@ characters={
 		name=NWA_cotter_pyke
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -838,7 +838,7 @@ characters={
 		name=NWA_glendon_hewett
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -863,7 +863,7 @@ characters={
 		name=NWA_clydas
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -888,7 +888,7 @@ characters={
 		name=NWA_emmett
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={
@@ -912,7 +912,7 @@ characters={
 		name=NWA_spare_boot
 		portraits={
 			army = {
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		advisor={

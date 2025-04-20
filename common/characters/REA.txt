@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/REA/Portrait_Mace_Tyrell.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/REA/Portrait_Mace_Tyrell.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -41,7 +41,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/REA/Portrait_Emmon_Cuy.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -59,7 +59,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/REA/Portrait_Garlan_Tyrell.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -77,7 +77,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/REA/Portrait_Horas_Redwyne.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -95,7 +95,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/REA/Portrait_Loras_Tyrell.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -124,7 +124,7 @@ characters={
 		portraits={
 			civilian = {
 				large="gfx/leaders/REA/Portrait_Olenna_Tyrell.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -148,7 +148,7 @@ characters={
 		portraits={
 			civilian = {
 				large="gfx/leaders/REA/Portrait_Margaery_Tyrell.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={

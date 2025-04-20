@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_Mance_Rayder.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/WIL/Portrait_Mance_Rayder.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -39,11 +39,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_General_Ygritte.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/WIL/Portrait_General_Ygritte.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -72,11 +72,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_General_Tormund.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/WIL/Portrait_General_Tormund.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -111,7 +111,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_Harma.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -120,11 +120,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_Rattleshirt.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/WIL/Portrait_Rattleshirt.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -145,7 +145,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_Halleck.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -154,7 +154,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_Rattleshirt.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -163,7 +163,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_General_Karsi.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -172,7 +172,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_General_Loboda.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -181,7 +181,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/WIL/Portrait_General_Sigorn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}
@@ -190,7 +190,7 @@ characters={
 		portraits={
 			civilian = {
 				large="gfx/leaders/WIL/deserted_camp.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 	}

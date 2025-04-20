@@ -380,7 +380,17 @@ mio_header_tandem_rotor: "Tandem Rotor"
  #  #### # ## ##      # # #  #  #  #     #### ###  #    #### ##   #    #   ###  ##   #  
  #  #  # #  # # #     #   #  #  #  #     #  # #  # #  # #  # #    #    #   #    #     # 
  #  #  # #  # # #     #   # ###  ##      #  # #  #  ##  #  # ###  #    #   #    ### ##  
-
+ 
+generic_mio_trait_light_tank_improvements: "Squire Steed Enhancements" # Upgrades to make the mount quicker and more agile in battle
+generic_mio_trait_medium_tank_improvements: "Knightly Steed Enhancements" # Refining the balance between speed and defense for the warhorse
+generic_mio_trait_heavy_tank_improvements: "Paladin Steed Enhancements" # Reinforcing the noble steed for heavy combat and endurance
+generic_mio_trait_production_division: "Knightly Forge Division" # A specialized division focused on the production of armored steeds
+generic_mio_trait_improved_wheel_protection: "Reinforced Hooves" # Strengthening the hooves and wheels for better protection against hostile terrain
+generic_mio_trait_standardized_turrets: "Uniform Saddle-Ring Designs" # Standardizing saddle rings for smoother, more reliable knight mobility
+generic_mio_trait_gun_improvements: "Lance Refinements" # Enhancing the knights' lances and ranged capabilities in battle
+generic_mio_trait_modular_construction: "Saddlework Customization" # Allowing for customized mounts and saddlery for every knight's needs
+generic_mio_trait_speed_improvements: "Swift Hoofbeats" # Enhancing the speed of the warhorse for rapid maneuvers and faster engagements
+generic_mio_trait_improved_protection: "Reinforced Barding" # Strengthening the barding to protect the steed from heavier blows
 
 ################################
 #### GENERAL TANK DESIGNER ####
@@ -403,30 +413,30 @@ mio_header_tandem_rotor: "Tandem Rotor"
 ################################
 #### INFANTRY TANK DESIGNER ####
 ################################
- generic_infantry_tank_organization: "Support Steed Breeder"
- generic_mio_initial_trait_infantry_tanks_designer: "Support Steed Breeder"
- generic_mio_trait_single_engine: "Enduring Warhorse"
- generic_mio_trait_dual_engine_redundancy: "Twin-Bloodline Stock"
- generic_mio_trait_interleaved_track_wheels: "Cloven Hooves"
- generic_mio_trait_overlapped_track_wheels: "Broad Hooves"
- generic_mio_trait_battle_tank_specifications: "War Steed Doctrine"
- generic_mio_trait_adaptable_turret_ring: "Adjustable Saddle Frame"
- generic_mio_trait_turret_sights: "Sharpened Rider's Gaze"
- generic_mio_trait_close_support_role: "Knight-Infantry Tactics"
- generic_mio_trait_anti_tank_role: "Lancer Discipline"
- generic_mio_trait_adaptable_chassis: "Versatile Mount Breeding"
- generic_mio_trait_light_tank_specialization: "Squire Mounts"
- generic_mio_trait_medium_tank_specialization: "Knightly Mounts"
- generic_mio_trait_heavy_tank_specialization: "Paladin Warhorses"
- generic_mio_trait_thick_armor: "Barding Plating"
- generic_mio_trait_even_thicker_armor: "Fortified Barding"
 
+generic_infantry_tank_organization: "Infantry Support Knights"
+generic_mio_initial_trait_infantry_tanks_designer: "Infantry Support Knights"
+generic_mio_trait_single_engine: "Enduring Warhorse"
+generic_mio_trait_dual_engine_redundancy: "Twin-Bloodline Stock"
+generic_mio_trait_interleaved_track_wheels: "Cloven Hooves"
+generic_mio_trait_overlapped_track_wheels: "Broad Hooves"
+generic_mio_trait_battle_tank_specifications: "War Steed Doctrine"
+generic_mio_trait_adaptable_turret_ring: "Adjustable Saddle Frame"
+generic_mio_trait_turret_sights: "Sharpened Rider's Gaze"
+generic_mio_trait_close_support_role: "Knight-Infantry Tactics"
+generic_mio_trait_anti_tank_role: "Lancer Discipline"
+generic_mio_trait_adaptable_chassis: "Versatile Mount Breeding"
+generic_mio_trait_light_tank_specialization: "Squire Mounts"
+generic_mio_trait_medium_tank_specialization: "Knightly Mounts"
+generic_mio_trait_heavy_tank_specialization: "Paladin Warhorses"
+generic_mio_trait_thick_armor: "Barding Plating"
+generic_mio_trait_even_thicker_armor: "Fortified Barding"
 
 ################################
 #### MOBILE TANK DESIGNER ######
 ################################
- generic_mobile_tank_organization: "Fast Steed Breeder"
- generic_mio_initial_trait_fast_tanks_designer: "Fast Steed Breeder"
+generic_mobile_tank_organization: "Fast Steed Breeder"
+generic_mio_initial_trait_fast_tanks_designer: "Fast Steed Breeder"
 generic_mio_trait_improved_boogies: "Swifter Hoofbeats"
 generic_mio_engine_optimization: "Mastery of the Steed’s Heart"
 generic_mio_reduced_fuel_usage: "Feeding the Steed with Less"
@@ -534,92 +544,115 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 ######################################
  generic_task_force_ship_organization: "Fleet Shipwrights"
  generic_mio_initial_trait_task_force_ship_builders: "Fleet Shipwrights"
- generic_mio_trait_long_range_cruising: "Long Range Cruising"
- generic_mio_trait_high_speed_cruising: "High Speed Cruising"
- generic_mio_trait_splinter_protection: "Splinter Protection"
- generic_mio_trait_transom_stern: "Transom Stern"
- generic_mio_trait_underway_replenishment_equipment: "Underway Replenishment Equipment"
- generic_mio_trait_secondary_fire_director_control: "Secondary Fire Director Control"
- generic_mio_trait_flight_deck_edge_aa_mounts: "Flight Deck Edge AA Mounts"
- generic_mio_trait_gyro_stabilized_mounts: "Gyro-Stabilized Mounts"
- generic_mio_trait_rapid_fire_guns: "Rapid Fire Guns"
- generic_mio_trait_advanced_fitting_works: "Advanced Fitting Works"
- generic_mio_trait_carrier_flight_operations_center: "Carrier Flight Operations Center"
- generic_mio_trait_primary_fire_director_control: "Primary Fire Director Control"
- generic_mio_trait_high_velocity_guns: "High Velocity Guns"
+ generic_mio_trait_long_range_cruising: "Far-Seas Endurance Craft"
+ generic_mio_trait_high_speed_cruising: "Fleet-Footed Hull Designs"
+ generic_mio_trait_splinter_protection: "Oak-Hide Reinforcements"
+ generic_mio_trait_transom_stern: "Sturdy Sterncraft"
+ generic_mio_trait_underway_replenishment_equipment: "Mid-Voyage Resupply Rigs"
+ generic_mio_trait_secondary_fire_director_control: "Auxiliary Volley Command"
+ generic_mio_trait_flight_deck_edge_aa_mounts: "Scorpion Nests Along the Deck"
+ generic_mio_trait_gyro_stabilized_mounts: "Gyroscopic Ballista Mounts"
+ generic_mio_trait_rapid_fire_guns: "Swift-Shooting Siege Engines"
+ generic_mio_trait_advanced_fitting_works: "Mastercrafted Hull Fittings"
+ generic_mio_trait_carrier_flight_operations_center: "Dragonmaster's Deck Command"
+ generic_mio_trait_primary_fire_director_control: "Main Volley Coordination"
+ generic_mio_trait_high_velocity_guns: "High-Tension War Engines"
 
 #######################################
 #### BATTLE LINE SHIP MANUFACTURER ####
 #######################################
- generic_greatship_shipwrights: "Greatship Shipwrights"
- generic_mio_initial_trait_greatship_builders: "Greatship Shipwrights"
- generic_mio_trait_external_armor_belt: "External Armor Belt"
- generic_mio_trait_internal_armor_belt: "Internal Armor Belt"
- generic_mio_trait_hardened_critical_components: "Hardened Critical Components"
- generic_mio_trait_advanced_hydrodynamic_design: "Advanced Hydrodynamic Design"
- generic_mio_trait_advanced_armor_design: "Advanced Armor Design"
- generic_mio_trait_anti_air_layout: "Anti-Air Layout Trait"
- generic_mio_trait_secondary_battery_layout: "Secondary Battery Layout"
- generic_mio_trait_combat_information_center: "Combat Information Center"
- generic_mio_trait_primary_battery_layout: "Primary Battery Layout"
- generic_mio_trait_super_heavy_shells: "Super-Heavy Shells"
- generic_mio_trait_semi_armor_piercing_shells: "Semi-Armor-Piercing Shells"
+generic_task_force_ship_organization: "Greatship Shipwrights Guild"
+generic_mio_initial_trait_task_force_ship_builders: "Greatship Shipwrights"
+
+generic_mio_trait_long_range_cruising: "Long Voyage Hulls"  # Greatships built for long journeys, capable of enduring extended travel across vast seas.
+generic_mio_trait_high_speed_cruising: "Swift Sailing Vessels"  # Greatships designed for speed, capable of outrunning most threats on the high seas.
+generic_mio_trait_splinter_protection: "Reinforced Wooden Plating"  # Ships outfitted with thick, reinforced wood to resist splintering and damage.
+generic_mio_trait_transom_stern: "Broad Stern Design"  # Ships with a broad, sturdy stern for improved balance and handling in rough seas.
+generic_mio_trait_underway_replenishment_equipment: "Sea-Borne Supply Lines"  # Capabilities for replenishing supplies while at sea, ensuring long-term expeditions.
+generic_mio_trait_secondary_fire_director_control: "Secondary Battle Command"  # Additional command stations for directing secondary fire during combat.
+generic_mio_trait_flight_deck_edge_aa_mounts: "Scorpion Anti-Dragon Defenses"  # Mounted scorpions along the ship’s deck to defend against aerial dragon threats.
+generic_mio_trait_gyro_stabilized_mounts: "Stable Weapon Mounts"  # Weapons mounted with stabilization systems to reduce sway and improve accuracy in battle.
+generic_mio_trait_rapid_fire_guns: "Ballistae Volley"  # Greatships equipped with ballistae designed for quick, successive fire to overwhelm enemies.
+generic_mio_trait_advanced_fitting_works: "Master Craftsmen's Work"  # Exquisite craftsmanship in ship fitting, ensuring durability and operational efficiency.
+generic_mio_trait_carrier_flight_operations_center: "Sea Command Center"  # A central hub for coordinating air operations from the deck of the greatship.
+generic_mio_trait_primary_fire_director_control: "Primary Battle Command"  # The main command center for directing primary weapon fire during naval combat.
+generic_mio_trait_high_velocity_guns: "Catapult Barrage"  # Advanced catapults capable of launching heavy projectiles at high velocity.
+
+
+generic_battle_line_ship_organization: "Grand Warship Shipwrights"
+generic_mio_initial_trait_battle_line_ship_organization: "Grand Warship Constructors"
+generic_mio_initial_trait_battle_line_ship_builders: "Grand Warship Builders"
+
+generic_mio_trait_external_armor_belt: "Outer Hull Reinforcement"  
+generic_mio_trait_internal_armor_belt: "Inner Bulkhead Reinforcement"  
+generic_mio_trait_hardened_critical_components: "Reinforced Vital Compartments"
+generic_mio_trait_advanced_hydrodynamic_design: "Streamlined Hullwork"  
+generic_mio_trait_advanced_armor_design: "Layered Timber Plating"
+
+generic_mio_trait_anti_air_layout: "Scorpion Array Decks"  # Anti-dragon defense
+generic_mio_trait_secondary_battery_layout: "Auxiliary Ballistae Platforms"
+generic_mio_trait_combat_information_center: "Battle Command Deck"
+generic_mio_trait_primary_battery_layout: "Main Catapult Array"
+
+generic_mio_trait_super_heavy_shells: "Siege Boulders"
+generic_mio_trait_semi_armor_piercing_shells: "Reinforced Iron-Tipped Projectiles"
+
 
 ##################################
 #### ESCORT SHIP MANUFACTURER ####
 ##################################
  generic_escort_ship_organization: "Escort Fleet Shipwrights"
  generic_mio_initial_trait_escort_fleet: "Escort Fleet"
- generic_mio_trait_submarine_hunters: "Submarine Hunters"
- generic_mio_trait_high_speed_mine_hunting_equipment: "High-Speed Mine-Hunting Equipment"
- generic_mio_trait_fleet_escorts: "Fleet Escorts"
- generic_mio_trait_anti_air_ships: "Anti-Air Ships"
- generic_mio_trait_escort_in_force: "Escort in Force"
- generic_mio_trait_improved_anti_air_gun_mounting: "Improved Anti-Air Gun Mounting"
- generic_mio_trait_mass_production: "Mass Production"
- generic_mio_trait_improved_light_gun_mounting: "Improved Light Gun Mounting"
+ generic_mio_trait_submarine_hunters: "Pirate Ship Hunters"
+ generic_mio_trait_high_speed_mine_hunting_equipment: "Swift Sea Trap Sweepers"
+ generic_mio_trait_fleet_escorts: "Fleetward Guardians"
+ generic_mio_trait_anti_air_ships: "Skywatch Scorpion Ships"
+ generic_mio_trait_escort_in_force: "Oaken Vanguard"
+ generic_mio_trait_improved_anti_air_gun_mounting: "Enhanced Scorpion Platforms"
+ generic_mio_trait_mass_production: "Shipwright Guild Assembly Lines"
+ generic_mio_trait_improved_light_gun_mounting: "Refined Light Catapult Mounts"
 
 ##################################
 #### RAIDER SHIP MANUFACTURER ####
 ##################################
  generic_raider_ship_organization: "Raiding Shipwrights"
  generic_mio_initial_trait_raiding_fleet: "Raiding Fleet"
- generic_mio_trait_long_range_raiding: "Long Range Raiding"
- generic_mio_trait_high_speed_raiding: "High Speed Raiding"
- generic_mio_trait_diesel_powerplants: "Diesel Powerplants"
- generic_mio_trait_high_speed_operation_stores: "High-Speed Operation Stores"
- generic_mio_trait_raiding_capital_ships: "Raiding Capital Ships"
- generic_mio_trait_long_range_engagement_ethos: "Long Range Engagement Ethos"
- generic_mio_trait_high_quality_optics: "High-Quality Optics"
- generic_mio_trait_raider_escort_requirements: "Raider Escort Requirements"
- generic_mio_trait_unescorted_raider_requirements: "Unescorted Raider Requirements"
- generic_mio_trait_raiding_cruisers: "Raiding Cruisers"
- generic_mio_trait_raiding_submarines: "Raiding Submarines"
- generic_mio_trait_spotting_tops: "Spotting Tops"
- generic_mio_trait_large_torpedo_banks: "Large Torpedo Banks"
- generic_mio_trait_mass_produced_raiders: "Mass-Produced Raiders"
+ generic_mio_trait_long_range_raiding: "Deepsea Reaving Doctrine"
+ generic_mio_trait_high_speed_raiding: "Swift Sails and Light Hulls"
+ generic_mio_trait_diesel_powerplants: "Enhanced Oar Rigs"
+ generic_mio_trait_high_speed_operation_stores: "Fleetward Supply Casks"
+ generic_mio_trait_raiding_capital_ships: "Dreadhulks of the Deep"
+ generic_mio_trait_long_range_engagement_ethos: "Shadow Sea Tactics"
+ generic_mio_trait_high_quality_optics: "Sharpeye Lookouts"
+ generic_mio_trait_raider_escort_requirements: "Shielded Reaver Wings"
+ generic_mio_trait_unescorted_raider_requirements: "Loneblade Raiders"
+ generic_mio_trait_raiding_cruisers: "Dromond Marauders"
+ generic_mio_trait_raiding_submarines: "Corsair Ghostships"
+ generic_mio_trait_spotting_tops: "Crow’s Nest Scouts"
+ generic_mio_trait_large_torpedo_banks: "Great Harpoon Arrays"
+ generic_mio_trait_mass_produced_raiders: "Shipwright Chainyards"
 
 ##############################
 ### SUBMARINE MANUFACTURER ###
 ##############################
- generic_pirate_fleet_shipwrights: "Pirate Shipwrights"
- generic_mio_initial_trait_pirate_ship_designers: "Pirate Shipwrights"
- generic_mio_trait_decalin_fueled_torpedo: "Decalin Fueled Torpedo"
- generic_mio_trait_efficient_fuel_engines: "Efficient Fuel Engines"
- generic_mio_trait_highly_efficient_diesel_electric_propulsion_systems: "Highly Efficient Diesel-Electric Propulsion Systems"
- generic_mio_trait_high_powered_engines: "High-Powered Engines"
- generic_mio_trait_open_cycle_propulsion: "Open-Cycle Propulsion"
- generic_mio_trait_experimental_anechoic_tiles: "Experimental Anechoic Tiles"
- generic_mio_trait_improved_torpedo_detonators: "Improved Torpedo Detonators"
- generic_mio_trait_simplified_pressure_hull_design: "Simplified Pressure Hull Design"
- generic_mio_trait_advanced_periscope: "Advanced Periscope"
- generic_mio_trait_emergency_main_ballast_tank_blow: "Emergency Main Ballast Tank Blow"
- generic_mio_trait_radar_warning_receiver: "Radar Warning Receiver"
- generic_mio_trait_crash_dive_flood_tanks: "Crash-Dive Flood Tanks"
- generic_mio_trait_submarine_mass_production: "Submarine Mass Production"
- generic_mio_trait_advanced_sonar: "Advanced Sonar"
- generic_mio_trait_deck_guns: "Deck Guns"
- generic_mio_trait_high_capacity_mine_storage: "High-Capacity Mine Storage"
+ generic_submarine_organization: "Pirate Shipwrights"
+ generic_mio_initial_trait_submarine_designer: "Pirate Shipwrights"
+ generic_mio_trait_decalin_fueled_torpedo: "Oil-Fired Harpoon Guns"
+ generic_mio_trait_efficient_fuel_engines: "Streamlined Sails and Oar Crews"
+ generic_mio_trait_highly_efficient_diesel_electric_propulsion_systems: "Wind-Oared Hybrid Rigging"
+ generic_mio_trait_high_powered_engines: "Giant Galley Power Trains"
+ generic_mio_trait_open_cycle_propulsion: "Open-Hull Drive System"
+ generic_mio_trait_experimental_anechoic_tiles: "Black-Hull Coating"
+ generic_mio_trait_improved_torpedo_detonators: "Barbed Harpoon Tips"
+ generic_mio_trait_simplified_pressure_hull_design: "Simplified Hull Frames"
+ generic_mio_trait_advanced_periscope: "Long-Eye Lookouts"
+ generic_mio_trait_emergency_main_ballast_tank_blow: "Quick-Flood Compartments"
+ generic_mio_trait_radar_warning_receiver: "Flare-Watch Riggers"
+ generic_mio_trait_crash_dive_flood_tanks: "Rapid Dive Chambers"
+ generic_mio_trait_submarine_mass_production: "Ghostship Assembly Docks"
+ generic_mio_trait_advanced_sonar: "Whalebone Echo-Sounders"
+ generic_mio_trait_deck_guns: "Deckside Siege Ballistas"
+ generic_mio_trait_high_capacity_mine_storage: "Sea Trap Crate Holds"
 
 
 ##############################
@@ -627,40 +660,40 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 ##############################
  generic_black_sea_fleet_organization: "Royal Sea Wardens"
  generic_mio_initial_trait_black_sea_fleet_designer: "Royal Sea Wardens"
- generic_mio_trait_submarine_hunters_black_sea: "Submarine Hunters"
- generic_mio_trait_efficient_patrolling_scheme: "Efficient Patrolling Scheme"
- generic_mio_trait_advanced_sub_scanners: "Advanced Sub-Scanners"
- generic_mio_trait_high_altitute_catapult: "High-Altitude Catapult"
- generic_mio_trait_light_armor_piercing_guns: "Armor-Piercing Guns"
- generic_mio_trait_brass_case_reloader: "Brass-Case Reloader"
- generic_mio_trait_anti_air_defense: "Anti-Air Defense"
- generic_mio_trait_heavy_guns: "Heavy Guns"
- generic_mio_advanced_periscope: "Advanced Periscope"
- generic_mio_trait_piercing_rounds: "Piercing Rounds"
- generic_mio_trait_base_defense: "Base Defense"
- generic_mio_trait_state_sponsored_growth: "State Sponsored Growth"
- generic_mio_trait_state_sponsored_research: "State Sponsored Research"
- generic_mio_trait_24h_shifts: "24h Shifts"
- generic_mio_trait_state_subsidizing: "State Subsidizing"
- generic_mio_trait_deck_guns_black_sea: "Deck Guns"
+ generic_mio_trait_submarine_hunters_black_sea: "Pirate Ship Hunters"
+ generic_mio_trait_efficient_patrolling_scheme: "Sea-Watch Formations"
+ generic_mio_trait_advanced_sub_scanners: "Deepwater Scrying Arrays"
+ generic_mio_trait_high_altitute_catapult: "Dragon Platform Catapults"
+ generic_mio_trait_light_armor_piercing_guns: "Light Siege Ballistas"
+ generic_mio_trait_brass_case_reloader: "Quick-Load Crank Systems"
+ generic_mio_trait_anti_air_defense: "Anti-Dragon Watchtowers"
+ generic_mio_trait_heavy_guns: "Heavy Onagers"
+ generic_mio_advanced_periscope: "Eagle-Eye Lookouts"
+ generic_mio_trait_piercing_rounds: "Reinforced Stone Bolts"
+ generic_mio_trait_base_defense: "Harbor Fortifications"
+ generic_mio_trait_state_sponsored_growth: "Crown-Funded Expansion"
+ generic_mio_trait_state_sponsored_research: "Royal Inventors’ Guild"
+ generic_mio_trait_24h_shifts: "Round-the-Clock Dock Crews"
+ generic_mio_trait_state_subsidizing: "Crown Subsidies"
+ generic_mio_trait_deck_guns_black_sea: "Deck-Mounted Scorpions"
 
 
 
 
  generic_refurbishment_repair_organization: "Shipwright’s Yard"
  generic_mio_refurbishment_repair_organization: "$generic_refurbishment_repair_organization$"
- generic_mio_trait_heavy_armored_hull: "Heavy Armored Hull"
- generic_mio_trait_isolated_firemains: "Isolated Firemains"
- generic_mio_trait_counter_flooding_system: "Counter Flooding Systems"
- generic_mio_trait_anti_torpedo_bulge: "Anti-Torpedo Bulge"
- generic_mio_trait_foam_fire_extinguishers: "Foam Fire Extinguishers"
- generic_mio_trait_bulkhead_shoring_procedure: "Bulkhead Shoring Procedure"
- generic_mio_trait_high_powered_steering: "High Powered Steering"
- generic_mio_trait_flooding_boundries: "Flooding Boundries"
- generic_mio_trait_protected_pumps: "Protected Pumps"
- generic_mio_trait_advanced_scanners: "Advanced Scanners"
- generic_mio_trait_capital_destroyer_shells: "Capital Destroyer Shells"
- generic_mio_trait_naval_all_purpose_defense_systems: "All-Purpose Defense Systems"
+ generic_mio_trait_heavy_armored_hull: "Reinforced Timber Hull"
+ generic_mio_trait_isolated_firemains: "Partitioned Water Channels"
+ generic_mio_trait_counter_flooding_system: "Counter-Flood Bilgework"
+ generic_mio_trait_anti_torpedo_bulge: "Harpoon-Dampening Hull Fins"
+ generic_mio_trait_foam_fire_extinguishers: "Alchemical Firefoam Barrels"
+ generic_mio_trait_bulkhead_shoring_procedure: "Bulkhead Bracing Routines"
+ generic_mio_trait_high_powered_steering: "Runed Rudder Enhancements"
+ generic_mio_trait_flooding_boundries: "Watertight Deck Seals"
+ generic_mio_trait_protected_pumps: "Reinforced Bilge Pumps"
+ generic_mio_trait_advanced_scanners: "Sea-Witch Spotters"
+ generic_mio_trait_capital_destroyer_shells: "Siegebreaker Bolts"
+ generic_mio_trait_naval_all_purpose_defense_systems: "Runes of All-Sphere Defense"
 
 
 
@@ -677,104 +710,103 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 #######################################
  generic_general_aircraft_organization: "Order of the Dragonkeepers"
  generic_mio_initial_trait_general_aircraft_designer: "Dragonkeepers"
- generic_mio_trait_conservative_designs: "Conservative Designs"
- generic_mio_trait_fighter_aircraft_specialists: "Fighter Aircraft Specialists"
- generic_mio_trait_high_speed_design: "High-Speed Design"
+ generic_mio_trait_conservative_designs: "Ancient Breeding Techniques"
+ generic_mio_trait_fighter_aircraft_specialists: "Hunter Dragon Trainers"
+ generic_mio_trait_high_speed_design: "Swift Dragon Training"
  generic_mio_trait_agility_wing_design: "Agility Wing Design"
- generic_mio_trait_fighter_aircraft_production: "Fighter Aircraft Production"
- generic_mio_trait_bomber_aircraft_specialists: "Bomber Aircraft Specialists"
- generic_mio_trait_bomb_trucks: "Bomb Trucks"
- generic_mio_trait_fast_bombers: "Fast Bombers"
- generic_mio_trait_bomber_aircraft_production: "Bomber Aircraft Production"
- generic_mio_trait_naval_aircraft_specialists: "Naval Aircraft Specialists"
- generic_mio_trait_naval_strike: "Naval Strike"
- generic_mio_trait_naval_air_patrol: "Naval Air Patrol"
- generic_mio_trait_naval_aircraft_production: "Naval Aircraft Production"
-
+ generic_mio_trait_fighter_aircraft_production: "Hunter Dragon Production"
+ generic_mio_trait_bomber_aircraft_specialists: "Scourge Dragon Breeders"
+ generic_mio_trait_bomb_trucks: "Incinerate Cavalry"
+ generic_mio_trait_fast_bombers: "Blazing Flight Bombers"
+ generic_mio_trait_bomber_aircraft_production: "Scourge Dragon Production"
+ generic_mio_trait_naval_aircraft_specialists: "Storm Dragon Trainers"
+ generic_mio_trait_naval_strike: "Storm Dragon Strike"
+ generic_mio_trait_naval_air_patrol: "Storm Dragon Patrol"
+ generic_mio_trait_naval_aircraft_production: "Storm Dragon Production"
 
 #####################################
 #### LIGHT AIRCRAFT MANUFACTURER ####
 #####################################
  generic_light_aircraft_organization: "Small Dragon Breeders"
  generic_mio_initial_trait_light_aircraft_designer: "Small Dragon Breeders"
- generic_mio_trait_expanded_production_facilities: "Expanded Production Facilities"
- generic_mio_trait_fixed_tailwheels: "Fixed Tailwheels"
- generic_mio_trait_removable_wings: "Removable Wings"
- generic_mio_trait_liquid_cooled_engines: "Liquid-Cooled Engines"
- generic_mio_trait_maritime_duties: "Maritime Duties"
- generic_mio_trait_advanced_aerodynamics: "Advanced Aerodynamics"
- generic_mio_trait_fuselage_ordinance_rack: "Fuselage Ordinance Rack"
- generic_mio_trait_ongoing_developmental_upgrades: "Ongoing Developmental Upgrades"
- generic_mio_trait_heavier_airframe: "Heavier Airframe"
- generic_mio_trait_maximum_wing_loads: "Maximum Wing Loads"
- generic_mio_trait_gun_pods: "Gun Pods"
- generic_mio_trait_multi_purpose_aircraft: "Multi-Purpose Aircraft"
- generic_mio_trait_fighter_specialization: "Fighter Specialization"
- generic_mio_trait_close_air_support_specialization: "Close Air Support Specialization"
- generic_mio_trait_flexible_design: "Flexible Design"
- generic_mio_trait_fighter_expertise: "Fighter Expertise"
- generic_mio_trait_close_air_support_expertise: "Close Air Support Expertise"
+ generic_mio_trait_expanded_production_facilities: "Expanded Dragon Hatcheries"
+ generic_mio_trait_fixed_tailwheels: "Fixed Hind Legs"
+ generic_mio_trait_removable_wings: "Detachable Wings"
+ generic_mio_trait_liquid_cooled_engines: "Breath-Cooled Wings"
+ generic_mio_trait_maritime_duties: "Sea Patrol Dragons"
+ generic_mio_trait_advanced_aerodynamics: "Aerodynamic Dragon Design"
+ generic_mio_trait_fuselage_ordinance_rack: "Food Storage Rack"  # Fuel is replaced with Food
+ generic_mio_trait_ongoing_developmental_upgrades: "Ongoing Breeding Enhancements"
+ generic_mio_trait_heavier_airframe: "Reinforced Bone Frame"
+ generic_mio_trait_maximum_wing_loads: "Maximum Wing Carrying Capacity"
+ generic_mio_trait_gun_pods: "Claws, Teeth, and Dragonfire"
+ generic_mio_trait_multi_purpose_aircraft: "Versatile Dragonbreeds"
+ generic_mio_trait_fighter_specialization: "Hunter Dragon Training"
+ generic_mio_trait_close_air_support_specialization: "War Dragon Ground Support"
+ generic_mio_trait_flexible_design: "Adaptive Wing Design"
+ generic_mio_trait_fighter_expertise: "Expert Hunter Dragon Skills"
+ generic_mio_trait_close_air_support_expertise: "Elite War Dragon Tactics"
 
 ######################################
 #### MEDIUM AIRCRAFT MANUFACTURER ####
 ######################################
  generic_medium_aircraft_organization: "Medium Dragon Breeders"
  generic_mio_initial_trait_multi_role_tactical_aircraft: "Medium Dragon Breeders"
- generic_mio_trait_narrow_build: "Narrow Build"
- generic_mio_trait_mixed_material_construction: "Mixed Material Construction"
- generic_mio_trait_multi_role_transport: "Multi-Role Transport"
- generic_mio_trait_refined_engines: "Refined Engines"
- generic_mio_trait_twin_tail: "Twin-Tail"
- generic_mio_trait_reinforced_wing_braces: "Reinforced Wing Braces"
- generic_mio_trait_expanded_cockpit: "Expanded Cockpit"
- generic_mio_trait_metal_nose_replacement: "Metal Nose Replacement"
- generic_mio_trait_streamlined_fuselage: "Streamlined Fuselage"
- generic_mio_trait_extra_machine_guns: "Extra Machine Guns"
- generic_mio_trait_adaptable_build: "Adaptable Build"
- generic_mio_trait_heavy_fighter_specialization: "Heavy Fighter Specialization"
- generic_mio_trait_tactical_bomber_specialization: "Tactical Bomber Specialization"
- generic_mio_trait_skip_bombing: "Skip Bombing"
- generic_mio_trait_high_frequency_direction_finding: "High-Frequency Direction Finding"
+ generic_mio_trait_narrow_build: "Streamlined Dragon Physique"
+ generic_mio_trait_mixed_material_construction: "Hybrid Scale-Bone Structure"
+ generic_mio_trait_multi_role_transport: "Versatile Carrier Dragons"
+ generic_mio_trait_refined_engines: "Refined Wing Structure"
+ generic_mio_trait_twin_tail: "Twin-Tail Adaptation"
+ generic_mio_trait_reinforced_wing_braces: "Reinforced Wing Joints"
+ generic_mio_trait_expanded_cockpit: "Extended Saddle Harness"
+ generic_mio_trait_metal_nose_replacement: "Armored Skull Plate"
+ generic_mio_trait_streamlined_fuselage: "Sleek Body Shape"
+ generic_mio_trait_extra_machine_guns: "Extra Claws and Talons"
+ generic_mio_trait_adaptable_build: "Flexible Dragonframe"
+ generic_mio_trait_heavy_fighter_specialization: "Heavy Hunter Dragon Focus"
+ generic_mio_trait_tactical_bomber_specialization: "Scourge Dragon Specialization"
+ generic_mio_trait_skip_bombing: "Precision Fireblasting"
+ generic_mio_trait_high_frequency_direction_finding: "Long-Range Rider Bond"
 
 #####################################
 #### HEAVY AIRCRAFT MANUFACTURER ####
 #####################################
  generic_heavy_aircraft_organization: "Large Dragon Breeders"
  generic_mio_initial_trait_heavy_aircraft_designer: "Large Dragon Breeders"
- generic_mio_trait_reinforced_frames: "Reinforced Frames"
- generic_mio_trait_transport_conversions: "Transport Conversions"
- generic_mio_trait_standardized_alloys: "Standardized Alloys"
- generic_mio_trait_drop_hammer_alloy_straining: "Drop-Hammer Alloy Straining"
- generic_mio_trait_refined_secondary_aluminium: "Refined Secondary Aluminium"
- generic_mio_trait_high_quality_aluminium_alloys: "High-Quality Aluminium Alloys"
- generic_mio_trait_pressurized_cockpit: "Pressurized Cockpit"
- generic_mio_trait_advanced_turbochargers: "Advanced Turbochargers"
- generic_mio_trait_extended_rear_fuselage: "Extended Rear Fuselage"
- generic_mio_trait_auto_levelled_bombsights: "Auto-Levelled Bombsights"
- generic_mio_trait_air_deployed_sonobuoys: "Air-Deployed Sonobuoys"
- generic_mio_trait_cockpit_controlled_remote_gun_turrets: "Cockpit-Controlled Remote Gun Turrets"
- generic_mio_trait_flying_fortress: "Flying Fortress"
- generic_mio_trait_advanced_instruments: "Advanced Instruments"
+ generic_mio_trait_reinforced_frames: "Fortified Dragon Bones"
+ generic_mio_trait_transport_conversions: "Beast of Burden Training"
+ generic_mio_trait_standardized_alloys: "Standardized Scale Conditioning"
+ generic_mio_trait_drop_hammer_alloy_straining: "Hammer-Tempered Scale Forging"
+ generic_mio_trait_refined_secondary_aluminium: "Purified Scale Inlays"
+ generic_mio_trait_high_quality_aluminium_alloys: "High-Grade Reinforced Scales"
+ generic_mio_trait_pressurized_cockpit: "Sealed Rider Capsule"
+ generic_mio_trait_advanced_turbochargers: "Enhanced Wind-Channeling Ridges"
+ generic_mio_trait_extended_rear_fuselage: "Lengthened Tail Structure"
+ generic_mio_trait_auto_levelled_bombsights: "Fireblast Precision Sighting"
+ generic_mio_trait_air_deployed_sonobuoys: "Sky-Dropped Echo Stones"
+ generic_mio_trait_cockpit_controlled_remote_gun_turrets: "Telepathic Fang Guidance"
+ generic_mio_trait_flying_fortress: "Skyborne Juggernaut"
+ generic_mio_trait_advanced_instruments: "Arcane Flight Instruments"
 
 ###################################
 #### CAS AIRCRAFT MANUFACTURER ####
 ###################################
  generic_cas_aircraft_organization: "War Dragon Breeders"
  generic_mio_initial_trait_cas_aircraft_designer: "War Dragon Breeders"
- generic_mio_trait_selectional_construction: "Selectional Construction"
- generic_mio_trait_low_altitude_attacks: "Low Altitude Attacks"
- generic_mio_trait_canopies_and_firewalls: "Canopies and Firewalls"
- generic_mio_trait_automatic_pull_out: "Automatic Pull-Out"
- generic_mio_trait_integrated_armor_designs: "Integrated Armor Designs"
- generic_mio_trait_gull_wings: "Gull Wings"
- generic_mio_trait_reinforced_wings: "Reinforced Wings"
- generic_mio_trait_heavily_armed_aircraft: "Heavily Armed Aircraft"
- generic_mio_trait_air_brakes: "Air Brakes"
- generic_mio_trait_wingborne_fuel_tanks: "Wingborne Fuel Tanks"
- generic_mio_trait_bombs: "Bombs"
- generic_mio_trait_rockets: "Rockets"
- generic_mio_heat_bombs: "HEAT Bombs"
- generic_mio_cluster_bombs: "Cluster Bombs"
+ generic_mio_trait_selectional_construction: "Selective Hatchery Craft"
+ generic_mio_trait_low_altitude_attacks: "Swooping Strikes"
+ generic_mio_trait_canopies_and_firewalls: "Rider Domes and Flame Wards"
+ generic_mio_trait_automatic_pull_out: "Instinctive Retreat Reflex"
+ generic_mio_trait_integrated_armor_designs: "Hardened Scale Integration"
+ generic_mio_trait_gull_wings: "Sickle-Wing Formation"
+ generic_mio_trait_reinforced_wings: "Scale-Fortified Wings"
+ generic_mio_trait_heavily_armed_aircraft: "Overclawed Warforms"
+ generic_mio_trait_air_brakes: "Wing Flare Braking"
+ generic_mio_trait_wingborne_fuel_tanks: "Wing-Carried Feed Sacks"
+ generic_mio_trait_bombs: "Fireblasts"
+ generic_mio_trait_rockets: "Flame Spears"
+ generic_mio_heat_bombs: "Molten Burst Fireblasts"
+ generic_mio_cluster_bombs: "Swarmburst Fireblasts"
 
 
 #####################################
@@ -782,19 +814,19 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 #####################################
  generic_naval_aircraft_organization: "Storm Dragon Breeders"
  generic_mio_initial_trait_naval_aircraft_designer: "Storm Dragon Breeders"
- generic_mio_trait_navigation_equipment: "Navigation Equipment"
- generic_mio_trait_patrol_fuel_tanks: "Patrol Fuel Tanks"
- generic_mio_trait_internal_torpedo_mountings: "Internal Torpedo Mountings"
- generic_mio_trait_high_speed_torpedo_release: "High-Speed Torpedo Relase"
- generic_mio_trait_reinforced_fuselage: "Reinforced Fuselage"
- generic_mio_agility_wing_design: "Agility Wing Design"
- generic_mio_strength_wing_design: "Strength Wing Design"
- generic_mio_high_capacity_ammunition_stores: "High-Capacity Ammunition Stores"
- generic_mio_larger_bomb_loads: "Larger Bomb Loads"
- generic_mio_air_cooled_engines: "Air-Cooled Engines"
- generic_mio_multi_stage_super_charger: "Multi-Stage Super Charger"
- generic_mio_water_injection: "Water Injection"
- generic_mio_advanced_materials: "Advanced Materials"
+ generic_mio_trait_navigation_equipment: "Tempest Tracking Talismans"
+ generic_mio_trait_patrol_fuel_tanks: "Long-Flight Feed Sacks"
+ generic_mio_trait_internal_torpedo_mountings: "Internal Stormfang Chambers"
+ generic_mio_trait_high_speed_torpedo_release: "Rapid Stormfang Unleashing"
+ generic_mio_trait_reinforced_fuselage: "Armored Underbelly"
+ generic_mio_agility_wing_design: "Hurricane-Wing Form"
+ generic_mio_strength_wing_design: "Typhoon-Wing Reinforcement"
+ generic_mio_high_capacity_ammunition_stores: "Expanded Flame Pouch"
+ generic_mio_larger_bomb_loads: "Overcharged Fireblasts"
+ generic_mio_air_cooled_engines: "Sky-Breathing Wings"
+ generic_mio_multi_stage_super_charger: "Stormsurge Amplifiers"
+ generic_mio_water_injection: "Mistfire Enhancers"
+ generic_mio_advanced_materials: "Runed Scale Plating"
 
 
 ##########################################
@@ -802,22 +834,22 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 ##########################################
  generic_multi_role_aircraft_organization: "Versatile Dragon Breeders"
  generic_mio_initial_trait_multi_role_aircraft_designer: "Versatile Dragon Breeders"
- generic_mio_trait_armored_cockpit: "Armored Cockpit"
- generic_mio_trait_escort_designs: "Escort Designs"
- generic_mio_trait_light_airframe: "Light Airframe"
- generic_mio_trait_medium_airframe: "Medium Airframe"
- generic_mio_trait_hardened_frames: "Hardened Frames"
- generic_mio_trait_belly_shackles: "Belly Shackles"
- generic_mio_trait_oversized_propeller: "Oversized Propeller"
- generic_mio_trait_variable_pitch_propellers: "Variable Pitch Propellers"
- generic_mio_trait_upgraded_air_air_weapons: "Upgraded Air-Air Weapons"
- generic_mio_trait_reinforced_wing_hardpoints: "Reinforced Wing Hardpoints"
- generic_mio_trait_transport_duties: "Transport Duties"
- generic_mio_trait_upgraded_engines: "Upgraded Engines"
- generic_mio_trait_not_enough_guns_never_enough_guns: "Not Enough Guns, Never Enough Guns"
- generic_mio_trait_lengthened_wings: "Lengthened Wings"
- generic_mio_trait_bubble_canopy: "Bubble Canopy"
- generic_mio_trait_bomber_specialization: "Bomber Specialization"
+ generic_mio_trait_armored_cockpit: "Fortified Saddle"
+ generic_mio_trait_escort_designs: "Guardian Flight Patterns"
+ generic_mio_trait_light_airframe: "Streamlined Scale Frame"
+ generic_mio_trait_medium_airframe: "Balanced Scale Frame"
+ generic_mio_trait_hardened_frames: "Reinforced Bone Structure"
+ generic_mio_trait_belly_shackles: "Underbelly Harness Racks"
+ generic_mio_trait_oversized_propeller: "Overgrown Wing-Spurs"
+ generic_mio_trait_variable_pitch_propellers: "Adaptive Wing Angles"
+ generic_mio_trait_upgraded_air_air_weapons: "Enhanced Claws and Fangs"
+ generic_mio_trait_reinforced_wing_hardpoints: "Fortified Wing Sockets"
+ generic_mio_trait_transport_duties: "Skyburden Carriers"
+ generic_mio_trait_upgraded_engines: "Empowered Wing Muscles"
+ generic_mio_trait_not_enough_guns_never_enough_guns: "More Fangs, Always More Fangs"
+ generic_mio_trait_lengthened_wings: "Wingspan Extension Rites"
+ generic_mio_trait_bubble_canopy: "Windsight Dome"
+ generic_mio_trait_bomber_specialization: "Scourgefire Mastery"
 
 
 ####################################################
@@ -825,41 +857,42 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 ####################################################
  generic_high_agility_fighter_aircraft_organization: "High Agility Hunter Dragon Breeders"
  generic_mio_initial_trait_high_agility_fighters_designer: "High Agility Hunter Dragon Breeders"
- generic_mio_trait_bigger_engines: "Bigger Engines"
- generic_mio_trait_cantilever_wing_structure: "Cantilever Wing Structure"
- generic_mio_trait_minimum_weapon_requirements: "Minimum Weapon Requirements"
- generic_mio_trait_fabric_skin: "Fabric Skin"
- generic_mio_trait_metal_skin: "Metal Skin"
- generic_mio_trait_shortened_wings: "Shortened Wings"
- generic_mio_trait_high_octane_fuels: "High Octane Fuels"
- generic_mio_trait_interceptor: "Interceptor"
- generic_mio_trait_gunboat: "Gunboat"
- generic_mio_trait_fuel_injection_engines: "Fuel Injection Engines"
- generic_mio_trait_stiffened_wings: "Stiffened Wings"
- generic_mio_trait_subsidiary_suppliers: "Subsidiary Suppliers"
- generic_mio_trait_fighter_interceptors: "Fighter Interceptors"
+ generic_mio_trait_bigger_engines: "Enlarged Wing Muscles"
+ generic_mio_trait_cantilever_wing_structure: "Free-Glide Wing Bones"
+ generic_mio_trait_minimum_weapon_requirements: "Streamlined Fangload"
+ generic_mio_trait_fabric_skin: "Lightscale Hide"
+ generic_mio_trait_metal_skin: "Ironscale Armor"
+ generic_mio_trait_shortened_wings: "Snub-Wing Mutation"
+ generic_mio_trait_high_octane_fuels: "Drakefire Elixirs"
+ generic_mio_trait_interceptor: "Sky-Pounce Instincts"
+ generic_mio_trait_gunboat: "Clawboat Configuration"
+ generic_mio_trait_fuel_injection_engines: "Bloodfire Infusion"
+ generic_mio_trait_stiffened_wings: "Braced Wingbones"
+ generic_mio_trait_subsidiary_suppliers: "Broodling Workshops"
+ generic_mio_trait_fighter_interceptors: "Aerial Hunter Packs"
 
 
-#############################################
-#### RANGE FOCUSED AIRCRAFT MANUFACTURER ####
-#############################################
+#######################################################
+#### RANGE FOCUSED DRAGON BREEDERS ####
+#######################################################
  generic_range_focused_aircraft_organization: "Range Focused Dragon Breeders"
  generic_mio_initial_trait_range_focused_aircraft_designer: "Range Focused Dragon Breeders"
- generic_mio_trait_large_rudders_and_flaps: "Large Rudders and Flaps"
- generic_mio_trait_variable_dihedral: "Variable Dihedral"
- generic_mio_trait_high_capacity_ammunition: "High Capacity Ammunition"
- generic_mio_trait_extra_cargo_doors: "Extra Cargo Doors"
- generic_mio_trait_improved_air_frame_strength: "Improved Air Frame Strength"
- generic_mio_trait_glider_hook_modifications: "Glider Hook Modifications"
- generic_mio_trait_advanced_production_techniques: "Advanced Production Techniques"
- generic_mio_trait_low_drag_wings: "Low Drag Wings"
- generic_mio_trait_strafing_techniques: "Strafing Techniques"
- generic_mio_trait_long_range_modifications: "Long Range Modifications"
- generic_mio_trait_anti_interception_tactics: "Anti Interception Tactics"
- generic_mio_trait_high_explosive_payload: "High Explosive Payload"
- generic_mio_trait_long_range_fighters: "Long Range Fighters"
- generic_mio_trait_heavy_fighters: "Heavy Fighters"
- generic_mio_trait_tactical_bombers: "Tactical Bombers"
+ generic_mio_trait_large_rudders_and_flaps: "Broad Wing-Fins"
+ generic_mio_trait_variable_dihedral: "Adjustable Wing Arch"
+ generic_mio_trait_high_capacity_ammunition: "Deep Fang Reserve"
+ generic_mio_trait_extra_cargo_doors: "Extended Saddle Packs"
+ generic_mio_trait_improved_air_frame_strength: "Reinforced Spine Structure"
+ generic_mio_trait_glider_hook_modifications: "Sky-Hitch Claw Adaptations"
+ generic_mio_trait_advanced_production_techniques: "Enhanced Broodcraft Rituals"
+ generic_mio_trait_low_drag_wings: "Streamlined Skyfins"
+ generic_mio_trait_strafing_techniques: "Swooping Scorch Runs"
+ generic_mio_trait_long_range_modifications: "Endurance-Bred Anatomy"
+ generic_mio_trait_anti_interception_tactics: "Cloudveil Maneuvers"
+ generic_mio_trait_high_explosive_payload: "Volcanic Breath Glands"
+ generic_mio_trait_long_range_fighters: "Farflight Hunter Dragons"
+ generic_mio_trait_heavy_fighters: "Heavy Hunter Dragons"
+ generic_mio_trait_tactical_bombers: "Scourge Dragons"
+
 
 
 
@@ -876,109 +909,110 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 ############################################
  generic_artillery_organization: "Master Bowyer's Guild"
  generic_mio_initial_trait_artillery_manufacturer: "$generic_artillery_organization$"
- generic_mio_trait_mobile_limbers: "Mobile Limbers"
- generic_mio_trait_stable_platforms: "Stable Platforms"
- generic_mio_trait_improved_hydraulic_recoil_system: "Hydraulic Recoil System"
- generic_mio_trait_improved_direct_fire_targeting: "Improved Direct Fire Targeting"
- generic_mio_trait_advanced_anti_air_targeting: "Advanced Anti-Air Targeting"
- generic_mio_trait_advanced_trajectory_calculations: "Advanced Trajectory Calculations"
- generic_mio_trait_sliding_breech_block: "Sliding Beach Block"
- generic_mio_trait_rapid_fire: "Rapid Fire"
- generic_mio_trait_advanced_barrel_forging: "Advanced Barrel Forging" #ALSO FOR INFANTRY WEAPONS
- generic_mio_trait_big_guns: "Big Guns"
- generic_mio_trait_gun_mass_production: "Gun Mass Production"
- generic_mio_trait_super_charges: "Super Charges"
- generic_mio_trait_light_weight_barrels: "Light Weight Barrels"
-
+ generic_mio_trait_mobile_limbers: "Swift Quiver Wagons"
+ generic_mio_trait_stable_platforms: "Reinforced Firing Rests"
+ generic_mio_trait_improved_hydraulic_recoil_system: "Rune-Guided Recoil Dampeners"
+ generic_mio_trait_improved_direct_fire_targeting: "Hawk-Eye Targeting Charms"
+ generic_mio_trait_advanced_anti_air_targeting: "Skyshot Hex Patterns"
+ generic_mio_trait_advanced_trajectory_calculations: "Astrologic Trajectory Charts"
+ generic_mio_trait_sliding_breech_block: "Quick-Draw Load Notches"
+ generic_mio_trait_rapid_fire: "Volley Discipline"
+ generic_mio_trait_advanced_barrel_forging: "Elven Barrelcraft" #works for both bows and guns
+ generic_mio_trait_big_guns: "Titanstring Siege Bows"
+ generic_mio_trait_gun_mass_production: "Fletcher’s Assembly Line"
+ generic_mio_trait_super_charges: "Dragonspine Arrows"
+ generic_mio_trait_light_weight_barrels: "Featherwood Shafts"
+ 
 ##################################
 #### Infantry Weapons         ####
 ##################################
  generic_infantry_equipment_organization: "Swordsmiths' Guild"
  generic_mio_initial_trait_infantry_manufacturer: "Sword Forge"
- generic_mio_trait_drum_pattern_sights: "Drum Pattern Sights"
- generic_mio_trait_reinforced_stocks: "Reinforced Stocks"
- generic_mio_trait_bolt_action: "Bolt-Action Rifles"
- generic_mio_trait_semi_auto: "Semi-Auto Rifles"
- generic_mio_trait_medium_machineguns: "Medium Machine Guns Production"
- generic_mio_trait_mass_rifle_production: "Mass Rifle Production"
- generic_mio_trait_quality_materials: "Quality Materials"
- generic_mio_trait_improved_small_arms_bullet_design: "Improved Small Arms Bullet Design"
- generic_mio_trait_armor_piercing_rounds: "Armor-Piercing Rounds"
- generic_mio_trait_heavy_anti_armor_ammunition: "Heavy Anti-Armor Ammunition"
- generic_mio_trait_vehicle_mounted_capabilities: "Vehicle Mounted Capabilities"
- generic_mio_trait_rubber_cushioned_buttpad: "Improved Rifle Recoil"
- generic_mio_trait_anti_vechicle_land_mines: "Anti-Vehicle Land Mines"
+ generic_mio_trait_drum_pattern_sights: "Ornate Pommel Balancing"
+ generic_mio_trait_reinforced_stocks: "Reinforced Hilts"
+ generic_mio_trait_bolt_action: "Forged Longswords"
+ generic_mio_trait_semi_auto: "Quickblade Shortswords"
+ generic_mio_trait_medium_machineguns: "Runed Warhammers"
+ generic_mio_trait_mass_rifle_production: "Mass Smithing Techniques"
+ generic_mio_trait_quality_materials: "Mithril-Laced Steel"
+ generic_mio_trait_improved_small_arms_bullet_design: "Sharpened Edge Geometry"
+ generic_mio_trait_armor_piercing_rounds: "Dragonfang Piercers"
+ generic_mio_trait_heavy_anti_armor_ammunition: "Heavy Lance Heads"
+ generic_mio_trait_vehicle_mounted_capabilities: "Knight-Spear Fittings"
+ generic_mio_trait_rubber_cushioned_buttpad: "Shock-Absorbing Grip Wraps"
+ generic_mio_trait_anti_vechicle_land_mines: "Caltrops & Cavalry Traps"
 
 ##################################
 #### Mot/Mech                 ####
 ##################################
  generic_motorized_mechanized_organization: "Order of the Warhorse Breeders"
  generic_mio_initial_trait_motorized_mechanized_manufacturer: "Warhorse Breeder"
- generic_mio_trait_composite_cargo_bed: "Composite Cargo Bed"
- generic_mio_trait_steel_cargo_bed: "Steel Cargo Bed"
- generic_mio_trait_all_wheel_drive: "All Wheel Drive"
- generic_mio_trait_attached_wood_gas_generator: "Attached Wood Gas Generator"
- generic_mio_trait_high_powered_engine: "High-Powered Engine"
- generic_mio_trait_medium_machinegun_mounts: "Side-Mounted Medium Machine Guns"
- generic_mio_trait_armored_pulpit_mount: "Armored Pulpit Mount"
- generic_mio_trait_heavy_machinegun_mount: "Heavy Mounted Machine Gun"
- generic_mio_trait_advanced_artillery_racks: "Advanced Artillery Racks"
- generic_mio_trait_mounted_light_anti_tank_gun: "Mounted Light Anti-Tank Gun"
- generic_mio_trait_open_chassi: "Open Chassi"
- generic_mio_trait_closed_chassi: "Closed Chassi"
- generic_mio_trait_bulletproof_panels: "Bulletproof panels"
- generic_mio_trait_light_flame_projectors: "Light Flame Projectors"
- generic_mio_trait_land_mine_racks: "Land Mine Racks"
+ generic_mio_trait_composite_cargo_bed: "Saddlebags & Beast-Pulled Sleds"
+ generic_mio_trait_steel_cargo_bed: "Armored Beast Harnesses"
+ generic_mio_trait_all_wheel_drive: "Sure-Footed Steeds"
+ generic_mio_trait_attached_wood_gas_generator: "Runed Saddle Packs"
+ generic_mio_trait_high_powered_engine: "Thunderhoof Lineage"
+ generic_mio_trait_medium_machinegun_mounts: "Mounted Crossbow Rigs"
+ generic_mio_trait_armored_pulpit_mount: "Knight’s Turret Harness"
+ generic_mio_trait_heavy_machinegun_mount: "Heavy Ballista Mount"
+ generic_mio_trait_advanced_artillery_racks: "Siege Bolt Quivers"
+ generic_mio_trait_mounted_light_anti_tank_gun: "Lance Chariot Attachment"
+ generic_mio_trait_open_chassi: "Open-Back Saddle Frame"
+ generic_mio_trait_closed_chassi: "Enclosed Rider Howdah"
+ generic_mio_trait_bulletproof_panels: "Reinforced Beast-Barding"
+ generic_mio_trait_light_flame_projectors: "Firebelch Runes"
+ generic_mio_trait_land_mine_racks: "Saddlebag Caltrip Dispensers"
 
 ##################################
 #### Support Eq               ####
 ##################################
- generic_support_equipment_organization: "Support Equipment Manufacturer"
- generic_mio_initial_trait_support_equipment_manufacturer: "Support Equipment Manufacturer"
- generic_mio_trait_material_recycling: "Material Recycling"
- generic_mio_trait_scrap_melting: "Scrap Melting"
- generic_mio_trait_high_quality_material_blend: "High-Quality Material Blend"
- generic_mio_trait_research_program: "Research Program"
- generic_mio_trait_efficient_scale_up: "Efficient Scale-up"
- generic_mio_trait_private_scientists_program: "Private Scientists Program"
- generic_mio_trait_private_tenders: "Private Tenders"
- generic_mio_trait_anti_tank_rifle: "Anti-Tank Rifle"
- generic_mio_trait_single_shot_man_portable_anti_tank_system: "Single-Shot Man-Portable Anti-Tank System"
- generic_mio_trait_small_sidearms: "Small Sidearms"
- generic_mio_trait_light_mortar: "Light Mortar"
- generic_mio_trait_pontoons: "Pontoons"
+ generic_support_equipment_organization: "Master Craftsmen's Guild"
+ generic_mio_initial_trait_support_equipment_manufacturer: "Master Craftsmen's Guild"
+ generic_mio_trait_material_recycling: "Reforging of Materials"
+ generic_mio_trait_scrap_melting: "Recycling and Smelting"
+ generic_mio_trait_high_quality_material_blend: "Finely Forged Metals"
+ generic_mio_trait_research_program: "Tactical Equipment Development"
+ generic_mio_trait_efficient_scale_up: "Mass Production of Arms"
+ generic_mio_trait_private_scientists_program: "Private Armament Workshops"
+ generic_mio_trait_private_tenders: "Mercenary Contracts"
+ generic_mio_trait_anti_tank_rifle: "Lance of Beast Slaying"  # Antagonistic weapons to deal with mounted war beasts or knights
+ generic_mio_trait_single_shot_man_portable_anti_tank_system: "Portable Crossbow of Piercing" # For anti-armor, use crossbows
+ generic_mio_trait_small_sidearms: "Dagger & Short Sword"
+ generic_mio_trait_light_mortar: "Hand-Crafted Bombs"  # Mortar-like explosive devices
+ generic_mio_trait_pontoons: "Wooden River Crossing Platforms" # For crossing bodies of water
 
 ##################################
 #### ARMORED CAR MANUFACTURER ####
 ##################################
- generic_armored_car_organization: "Armored Car Manufacturer"
- generic_mio_initial_trait_armored_car_manufacturer: "Armored Car Designer"
- generic_mio_trait_flash_suppressor: "Flash Suppressor"
- generic_mio_trait_glacis_armor: "Glacis Armor"
- generic_mio_trait_heavy_anti_tank_rifle: "Heavy Mounted Anti-Tank Rifle"
- generic_mio_trait_light_anti_personnel_machinegun: "Light Anti-Personnel Machine-Gun"
- generic_mio_trait_combat_group: "Combat Group"
- generic_mio_trait_machine_gun_group: "Machine Gun Group"
- generic_mio_trait_transceiver_station: "Transceiver Station"
- generic_mio_trait_water_tank: "Water Tank"
- generic_mio_trait_reinforced_suspension: "Reinforced Suspension"
- generic_mio_trait_reverser: "Reverser"
- generic_mio_trait_officer_support_car: "Officer Support Car"
- generic_mio_trait_heavy_anti_tank_gun: "Heavy Anti-Tank Gun"
- generic_mio_trait_reinforced_wheels: "Reinforced Wheels"
+ generic_armored_car_organization: "War Chariot Forge"
+ generic_mio_initial_trait_armored_car_manufacturer: "War Chariot Designer"
+ generic_mio_trait_flash_suppressor: "Camouflaged Equipment"  # To avoid revealing positions
+ generic_mio_trait_glacis_armor: "Sloped Armor Plating"  # Used on chariots for deflection
+ generic_mio_trait_heavy_anti_tank_rifle: "Heavy Lance"  # Large mounted lance to combat knights and armored beasts
+ generic_mio_trait_light_anti_personnel_machinegun: "Spear Thrower"  # Mechanized archers or spear-throwing units
+ generic_mio_trait_combat_group: "Battle Formation"  # Group tactics for chariots or war beasts
+ generic_mio_trait_machine_gun_group: "Archer Formation"  # Mounted archers or archers in protective formations
+ generic_mio_trait_transceiver_station: "Signal Horn Station"  # Communication for coordinating attacks or retreats
+ generic_mio_trait_water_tank: "Water Barrel"  # For chariot refreshment, could also be for putting out fires
+ generic_mio_trait_reinforced_suspension: "Reinforced Axles"  # Strengthening of chariot wheels and frame
+ generic_mio_trait_reverser: "Reversing Cables"  # To pull chariots out of dangerous situations
+ generic_mio_trait_officer_support_car: "Commander’s Chariot"  # Special chariots for officers to lead from the front
+ generic_mio_trait_heavy_anti_tank_gun: "Great War Bow"  # A massive bow designed to take down heavily armored targets
+ generic_mio_trait_reinforced_wheels: "Iron-Clad Wheels"  # Armored wheels for extra protection and mobility
+
 
 #################################
 #### HELICOPTER MANUFACTURER ####
 #################################
-generic_helicopter_organization: "Wyvern Breeders"
+generic_helicopter_organization: "Wyvern Breeders' Guild"
 generic_mio_initial_trait_helicopter_manufacturer: "Wyvern Breeders"
-generic_mio_trait_tandem_rotor_innovations: "Tandem Rotor Innovations"
-generic_mio_trait_single_rotor_innovations: "Single Rotor Innovations"
-generic_mio_trait_side_venting_exhaust: "Side-Venting Exhaust"
-generic_mio_trait_improved_engine: "Improved Engine"
-generic_mio_trait_extra_seating: "Extra Seating"
-generic_mio_trait_co_axial_rotors: "Co-Axial Rotors"
-generic_mio_trait_mass_production_certification: "Mass Production Certification"
+generic_mio_trait_tandem_rotor_innovations: "Enhanced Wing Strength"  # Wyverns with stronger, more powerful wings for better flight control and endurance.
+generic_mio_trait_single_rotor_innovations: "Agile Wing Adaptations"  # Wyverns with adapted wings for greater agility in flight, making them fast and nimble.
+generic_mio_trait_side_venting_exhaust: "Wind-Guided Venting"  # Natural vents in the wyverns' body that help them control airflow and speed during maneuvers.
+generic_mio_trait_improved_engine: "Enhanced Wyvern Flight Musculature"  # Wyverns with naturally enhanced muscles that give them greater flight power and endurance.
+generic_mio_trait_extra_seating: "Extra Rider Seats"  # Wyverns capable of carrying additional riders or soldiers during battle.
+generic_mio_trait_co_axial_rotors: "Coiled Wing Combat Wyvern"  # Wyverns with specialized wing structures that provide enhanced stability and control during combat.
+generic_mio_trait_mass_production_certification: "Mass Breeding Certification"  # Wyverns bred in large numbers for the battlefield, enabling rapid deployment.
 
 
 ########### DEBUG #############

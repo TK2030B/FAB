@@ -645,6 +645,71 @@ spriteType = {
 		name = "GFX_idea_generic_civilian_airway_company"
 		texturefile = "gfx/interface/ideas/Industrial_Concerns/idea_generic_civilian_airway_company.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_4"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_tank_manufacturer_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_tank_manufacturer_5"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_tank_manufacturer_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_naval_manufacturer_4"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_naval_manufacturer_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_4"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_air_manufacturer_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_5"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_air_manufacturer_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_6"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_air_manufacturer_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_7"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_air_manufacturer_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_8"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_air_manufacturer_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_air_manufacturer_9"
+		texturefile = "gfx/interface/ideas/Military_Industrial_Organizations/idea_generic_air_manufacturer_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Generic_Military_Advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Generic_Civilian_Advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Generic_Military_Advisor_Female"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor_Female.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Generic_Civilian_Advisor_Female"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor_Female.dds"
+	}
 
 
 

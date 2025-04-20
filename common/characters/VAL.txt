@@ -5,11 +5,11 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/VAL/Portrait_Jon_Arryn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
 				large="gfx/leaders/VAL/Portrait_Jon_Arryn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -40,7 +40,7 @@ characters={
 		portraits={
 			civilian = {
 				large="gfx/leaders/VAL/Portrait_Lysa_Arryn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor_Female.dds"
 			}
 		}
 		country_leader={
@@ -70,7 +70,7 @@ characters={
 		portraits={
 			civilian = {
 				large="gfx/leaders/VAL/Portrait_Robin_Arryn.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -89,7 +89,7 @@ characters={
 		portraits={
 			civilian = {
 				large="gfx/leaders/VAL/Portrait_Petyr_Baelish.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
 			}
 		}
 		country_leader={
@@ -110,7 +110,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/VAL/Portrait_Vardis_Egen.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
@@ -128,7 +128,7 @@ characters={
 		portraits={
 			army = {
 				large="gfx/leaders/VAL/Portrait_Yohn_Royce.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander={
