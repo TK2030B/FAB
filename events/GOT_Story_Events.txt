@@ -2564,7 +2564,7 @@ news_event = {
 		name = GOT_Story_News.39.a
 	}
 }
-#Daenerys Witnesses a Dothraki Raid
+#Daenerys Witnesses a Dothraki Raid Lazareen Village
 country_event = {
 	id = GOT_Story_Country.40
 	title = GOT_Story_Country.40.t
@@ -2593,6 +2593,13 @@ country_event = {
 
 		army_experience = 5
 		add_threat = 2
+		
+		hidden_effect = {
+			country_event = {
+				id = GOT_Story_Country.55
+				hours = 6 
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -3562,5 +3569,114 @@ news_event = {
 
 	option = {
 		name = GOT_Story_News.54.a
+	}
+}
+
+#Drogo Fights Mago
+country_event = {
+	id = GOT_Story_Country.55
+	title = GOT_Story_Country.55.t
+	desc = GOT_Story_Country.55.d
+	picture = GFX_report_event_GOT_Story_Country55
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_Country.55.a
+
+		ai_chance = {
+			factor = 80
+		}
+
+		add_stability = -0.05
+		
+		hidden_effect = {
+			#Khal Drogo Dies 100% for historical AI
+			if = {
+				limit = {
+					is_ai = yes
+					is_historical_focus_on = yes
+				}
+				country_event = {
+					id = GOT_Diplomatic_Country.14
+					days = 71
+				}
+			}
+			#For Players
+			else = {
+				#25% He Lives, 75% He Dies
+				random_list = {
+					25 = {
+						country_event = {
+							id = GOT_Diplomatic_Country.13
+							days = 71
+						}
+					}
+					75 = {
+						country_event = {
+							id = GOT_Diplomatic_Country.14
+							days = 71
+						}
+					}
+				}
+			}
+		}
+
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.55
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.55.b
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		add_stability = -0.05
+		
+		hidden_effect = {
+			country_event = {
+				id = GOT_Diplomatic_Country.14
+				hours = 6
+			}
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.55
+				hours = 6
+			}
+		}
+
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.55
+	title = GOT_Story_News.55.t
+	desc = GOT_Story_News.55.d
+	picture = GFX_news_event_GOT_Story_News55
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.55.a
 	}
 }

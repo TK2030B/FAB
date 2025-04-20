@@ -123,22 +123,22 @@ GOT_start_techs_A = {
 	set_technology = {
 		infantry_weapons = 1
 		tech_mountaineers = 1
-		marines = 1
-		paratroopers = 1
+		#marines = 1
+		#paratroopers = 1
 		tech_support = 1
 		tech_engineers = 1
 		tech_recon = 1
-		tech_field_hospital = 1
-		tech_logistics_company = 1
-		tech_military_police = 1
-		tech_signal_company = 1
-		tech_maintenance_company = 1
+		#tech_field_hospital = 1
+		#tech_logistics_company = 1
+		#tech_military_police = 1
+		#tech_signal_company = 1
+		#tech_maintenance_company = 1
 		gw_artillery = 1
 		basic_train = 1
 		tech_trucks = 1
 		motorised_infantry = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
+		#interwar_antitank = 1
+		#interwar_antiair = 1
 	}
 	if = {
 		limit = {
@@ -156,14 +156,14 @@ GOT_start_techs_A = {
 			gwtank = 1
 		}
 	}
-	if = {
-			limit = {
-				has_dlc = "La Resistance"
-			}
-			set_technology = {
-				armored_car1 = 1
-			}
-		}
+		#if = {
+		#	limit = {
+		#		has_dlc = "La Resistance"
+		#	}
+		#	set_technology = {
+		#		armored_car1 = 1
+		#	}
+		#}
 		if = {
 			limit = {
 				has_dlc = "Man the Guns"
@@ -206,8 +206,8 @@ GOT_start_techs_B = {
 		gw_artillery = 1
 		basic_train = 1
 		tech_trucks = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
+		#interwar_antitank = 1
+		#interwar_antiair = 1
 	}
 	if = {
 		limit = {

@@ -50,6 +50,26 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/News_Alt/GOT_Alt_News4.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_report_event_GOT_Alt_Country5"
+		texturefile = "gfx/event_pictures/Country_Alt/GOT_Alt_Country5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GOT_Alt_News5"
+		texturefile = "gfx/event_pictures/News_Alt/GOT_Alt_News6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_GOT_Alt_Country6"
+		texturefile = "gfx/event_pictures/Country_Alt/GOT_Alt_Country6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GOT_Alt_News6"
+		texturefile = "gfx/event_pictures/News_Alt/GOT_Alt_News6.dds"
+	}
+	
 	################
 	### SEASON 1 ###
 	################
@@ -564,6 +584,15 @@ spriteTypes = {
 		spriteType = {
 			name = "GFX_news_event_GOT_Story_News54"
 			texturefile = "gfx/event_pictures/News/GOT_Story_News54.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_report_event_GOT_Story_Country55"
+			texturefile = "gfx/event_pictures/Country/GOT_Story_Country55.dds"
+		}
+		spriteType = {
+			name = "GFX_news_event_GOT_Story_News55"
+			texturefile = "gfx/event_pictures/News/GOT_Story_News55.dds"
 		}
 
 

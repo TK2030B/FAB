@@ -280,3 +280,31 @@ news_event = {
 		name = GOT_Alt_News.4.a
 	}
 }
+
+#Daenerys Becomes Leader of the Dothraki
+news_event = {
+	id = GOT_Alt_News.5
+	title = GOT_Alt_News.5.t
+	desc = GOT_Alt_News.5.d
+	picture = GFX_news_event_GOT_Alt_News5
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_News.5.a
+	}
+}
+
+#Khal Moro Becomes Leader of the Dothraki
+news_event = {
+	id = GOT_Alt_News.6
+	title = GOT_Alt_News.6.t
+	desc = GOT_Alt_News.6.d
+	picture = GFX_news_event_GOT_Alt_News6
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_News.6.a
+	}
+}

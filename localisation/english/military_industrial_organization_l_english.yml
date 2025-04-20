@@ -542,28 +542,9 @@ generic_mio_trait_assault_gun_improved_tracks: "Ironclad Hooves" # Reinforced tr
 ######################################
 #### TASK FORCE SHIP MANUFACTURER ####
 ######################################
- generic_task_force_ship_organization: "Fleet Shipwrights"
- generic_mio_initial_trait_task_force_ship_builders: "Fleet Shipwrights"
- generic_mio_trait_long_range_cruising: "Far-Seas Endurance Craft"
- generic_mio_trait_high_speed_cruising: "Fleet-Footed Hull Designs"
- generic_mio_trait_splinter_protection: "Oak-Hide Reinforcements"
- generic_mio_trait_transom_stern: "Sturdy Sterncraft"
- generic_mio_trait_underway_replenishment_equipment: "Mid-Voyage Resupply Rigs"
- generic_mio_trait_secondary_fire_director_control: "Auxiliary Volley Command"
- generic_mio_trait_flight_deck_edge_aa_mounts: "Scorpion Nests Along the Deck"
- generic_mio_trait_gyro_stabilized_mounts: "Gyroscopic Ballista Mounts"
- generic_mio_trait_rapid_fire_guns: "Swift-Shooting Siege Engines"
- generic_mio_trait_advanced_fitting_works: "Mastercrafted Hull Fittings"
- generic_mio_trait_carrier_flight_operations_center: "Dragonmaster's Deck Command"
- generic_mio_trait_primary_fire_director_control: "Main Volley Coordination"
- generic_mio_trait_high_velocity_guns: "High-Tension War Engines"
 
-#######################################
-#### BATTLE LINE SHIP MANUFACTURER ####
-#######################################
 generic_task_force_ship_organization: "Greatship Shipwrights Guild"
 generic_mio_initial_trait_task_force_ship_builders: "Greatship Shipwrights"
-
 generic_mio_trait_long_range_cruising: "Long Voyage Hulls"  # Greatships built for long journeys, capable of enduring extended travel across vast seas.
 generic_mio_trait_high_speed_cruising: "Swift Sailing Vessels"  # Greatships designed for speed, capable of outrunning most threats on the high seas.
 generic_mio_trait_splinter_protection: "Reinforced Wooden Plating"  # Ships outfitted with thick, reinforced wood to resist splintering and damage.
@@ -577,6 +558,11 @@ generic_mio_trait_advanced_fitting_works: "Master Craftsmen's Work"  # Exquisite
 generic_mio_trait_carrier_flight_operations_center: "Sea Command Center"  # A central hub for coordinating air operations from the deck of the greatship.
 generic_mio_trait_primary_fire_director_control: "Primary Battle Command"  # The main command center for directing primary weapon fire during naval combat.
 generic_mio_trait_high_velocity_guns: "Catapult Barrage"  # Advanced catapults capable of launching heavy projectiles at high velocity.
+
+#######################################
+#### BATTLE LINE SHIP MANUFACTURER ####
+#######################################
+
 
 
 generic_battle_line_ship_organization: "Grand Warship Shipwrights"

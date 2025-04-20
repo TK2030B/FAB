@@ -670,7 +670,14 @@ GOT_Story_News.54.t: "King Robert Baratheon Has Died"
 GOT_Story_News.54.d: "The king is dead. Robert Baratheon succumbed to wounds sustained in a hunting accident. The realm mourns, but even as bells toll, courtiers whisper. Who will succeed him? Will it be his son, Joffrey? Or another claimant? Westeros stands on the edge of uncertainty, with storm clouds brewing."
 GOT_Story_News.54.a: "A crown without a king."
 
+GOT_Story_Country.55.t "The Great Khal is wounded."
+GOT_Story_Country.55.d "In a brutal confrontation with Mago, Drogo has been gravely injured. The blood of our Khal spills upon the sands, and the future of the Dothraki is uncertain. The Khal's strength is unmatched, but even the strongest fall. Will the blood of his khalasar be enough to bring him back from the brink of death?"
+GOT_Story_Country.55.a "We must try to heal him!"
+GOT_Story_Country.55.b "His legacy will live on through a new leader."
 
+GOT_Story_News.55.t "Khal Drogo Wounded in Duel with Mago"
+GOT_Story_News.55.d "Khal Drogo, the mighty leader of the Dothraki, was severely injured in a one-on-one fight with his rival, Mago. The outcome of the duel has left many questioning the future of the Dothraki horde. If Drogo succumbs to his injuries, the Dothraki may face a tumultuous period of leadership struggles and uncertainty."
+GOT_Story_News.55.a "Will the Khal's horde survive this blow?"
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
@@ -763,6 +770,15 @@ GOT_Diplomatic_News.6.t: "The Dragon Mocked"
 GOT_Diplomatic_News.6.d: "In a display as tragic as it was pathetic, Viserys Targaryen confronted Khal Drogo with fire in his eyes and wine on his breath. Demanding his crown, he earned only scorn. Yet the khal showed mercy — or perhaps indifference. Stripped of dignity but spared his life, the so-called dragon now slinks among the Dothraki, a broken prince without a throne, mocked even by slaves."
 GOT_Diplomatic_News.6.a: "The dragon mewls, but does not roar."
 
+GOT_Diplomatic_News.7.t:0 "The Great Khal Rises Again"
+GOT_Diplomatic_News.7.d:0 "Against all odds, Khal Drogo has survived his near-fatal wounds. Whispers of dark magic swirl among the traders of Essos, with some claiming the blood of the witch saved him. Others speak of a will so strong, even death could not claim him. Whatever the truth, the horse-lords of the Great Grass Sea once more rally behind their unbroken leader. The world watches as the mighty Khalasar rides again."
+GOT_Diplomatic_News.7.a:0 "The Stallion Who Mounts the World endures."
+
+GOT_Diplomatic_News.8.t:0 "The Great Khal Falls"
+GOT_Diplomatic_News.8.d:0 "Khal Drogo, once the fiercest rider of the Dothraki and a terror across the grasslands of Essos, has succumbed to his wounds. His death casts a long shadow over the future of the Dothraki, as rival bloodriders eye his khalasar with ambition. Rumors spread of turmoil and fractured loyalties, and the silver-haired foreign queen said to ride beside him has vanished from the public eye. A new era of uncertainty begins for the horse-lords."
+GOT_Diplomatic_News.8.a:0 "The Grass Sea runs red with blood."
+
+
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
@@ -791,3 +807,12 @@ GOT_Alt_Country.4.a: "Winterfell stands strong once more."
 GOT_Alt_News.4.t: "Lord Stark Returns to Winterfell"
 GOT_Alt_News.4.d: "In a shocking turn, Eddard Stark has been released from captivity and allowed to return to the North. The Lord of Winterfell rides once more through the gates of his ancestral home, greeted with cheers from bannermen and smallfolk alike. Though the war has stained the realm with blood and broken oaths, this act — rare in mercy and even rarer in politics — offers a glimmer of peace. Whether this signals the end of hostilities or simply a pause, the North now rallies behind its lord."
 GOT_Alt_News.4.a: "The North remembers."
+
+GOT_Alt_News.5.t: "Khaleesi Rises Among the Dothraki"
+GOT_Alt_News.5.d: "Following the death of Khal Drogo, an unprecedented shift has taken place in the Dothraki leadership. Daenerys Targaryen, the Khaleesi and widow of the fallen Khal, has taken command of the great khalasar. Her claim, backed by fire, blood, and defiance of tradition, has stunned observers across the known world. The Dothraki now ride under a foreign-born queen."
+GOT_Alt_News.5.a: "Fire rides with the Dothraki."
+
+GOT_Alt_News.6.t: "Khal Moro Unites the Khalasar"
+GOT_Alt_News.6.d: "In the aftermath of Khal Drogo’s death, Khal Moro, a respected and feared bloodrider, has claimed leadership over the Dothraki. Many within the khalasar have rallied to his side, valuing tradition and strength in uncertain times. The horse lords ride once again under a seasoned warrior, and the world watches to see which direction Moro will lead them."
+GOT_Alt_News.6.a: "Another Khal rises from the ashes."
+

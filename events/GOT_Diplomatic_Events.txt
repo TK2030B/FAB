@@ -93,8 +93,9 @@ country_event = {
 		
 		add_threat = 3
 		
-		DOT_No_Single_Ruler = {
-			retire = yes
+		remove_country_leader_role = {
+			character = DOT_No_Single_Ruler
+			ideology = CR_subideology
 		}
 		add_country_leader_role = {
 			character = DOT_khal_drogo
@@ -1003,6 +1004,254 @@ country_event = {
 	
 }
 
+#Khal Drogo Lives
+country_event = {
+	id = GOT_Diplomatic_Country.13
+	title = GOT_Diplomatic_Country.13.t
+	desc = GOT_Diplomatic_Country.13.d
+	picture = GFX_report_event_GOT_Story_Country55
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.13.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_stability = 0.05
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.7
+				hours = 6
+			}
+		}
+		
+	}
+	
+}
+
+#Khal Drogo Dies
+country_event = {
+	id = GOT_Diplomatic_Country.14
+	title = GOT_Diplomatic_Country.14.t
+	desc = GOT_Diplomatic_Country.14.d
+	picture = GFX_report_event_GOT_Story_Country55
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GOT_Diplomatic_Country.14.a
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		add_stability = -0.05
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = DOT_Danaerys_Targaryen
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					queen_of_the_people  
+					empire_builder  
+					legitimate_heir  
+					warmonger  
+					headstrong  
+					autocratic_imperialist  
+					popular_queen  
+					protector_of_the_campesinos  
+					ideological_crusader  
+					freedom_fighter  
+					indomitable_perseverance  
+					hawk  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = DOT_Danaerys_Targaryen
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					queen_of_the_people  
+					empire_builder  
+					legitimate_heir  
+					warmonger  
+					headstrong  
+					autocratic_imperialist  
+					popular_queen  
+					protector_of_the_campesinos  
+					ideological_crusader  
+					freedom_fighter  
+					indomitable_perseverance  
+					hawk  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.8
+				hours = 6
+			}
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Alt_News.5
+				hours = 6
+			}
+		}
+		
+	}
+
+	option = {
+		name = GOT_Diplomatic_Country.14.b
+
+		ai_chance = {
+			factor = 55
+		}
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = DOT_Khal_Moro
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					warrior_code  # As a Dothraki Khal, he adhered to the warrior traditions of his people.  
+					dictator  # He ruled his khalasar absolutely, with no tolerance for dissent.  
+					anti_democrat  # Like all Dothraki leaders, he had no interest in democracy or shared governance.  
+					warmonger  # As a Khal, his power was based on raiding, conquest, and military strength.  
+					hedonist  # He openly indulged in pleasures, including drinking and women, as seen in his interactions with Daenerys.  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = DOT_Khal_Moro
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					warrior_code  # As a Dothraki Khal, he adhered to the warrior traditions of his people.  
+					dictator  # He ruled his khalasar absolutely, with no tolerance for dissent.  
+					anti_democrat  # Like all Dothraki leaders, he had no interest in democracy or shared governance.  
+					warmonger  # As a Khal, his power was based on raiding, conquest, and military strength.  
+					hedonist  # He openly indulged in pleasures, including drinking and women, as seen in his interactions with Daenerys.  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.8
+				hours = 6
+			}
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Alt_News.6
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.14.c
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = DOT_No_Single_Ruler
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {
+					no_leadership
+					internal_rivalry
+					warrior_code
+					divided_interests
+					our_right_to_survive
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = DOT_No_Single_Ruler
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {
+					no_leadership
+					internal_rivalry
+					warrior_code
+					divided_interests
+					our_right_to_survive
+				}
+			}
+			promote_leader = yes
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.8
+				hours = 6
+			}
+		}
+		
+	}
+	
+	
+	
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -1080,5 +1329,33 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.6.a
+	}
+}
+
+#Khal Drogo Lives
+news_event = {
+	id = GOT_Diplomatic_News.7
+	title = GOT_Diplomatic_News.7.t
+	desc = GOT_Diplomatic_News.7.d
+	picture = GFX_news_event_GOT_Story_News55
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.7.a
+	}
+}
+
+#Khal Drogo Dies
+news_event = {
+	id = GOT_Diplomatic_News.8
+	title = GOT_Diplomatic_News.8.t
+	desc = GOT_Diplomatic_News.8.d
+	picture = GFX_news_event_GOT_Story_News55
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.8.a
 	}
 }
