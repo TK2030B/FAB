@@ -1087,217 +1087,217 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_YUN_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/shx_artillery_1.dds"
+		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/prc_infantry_weapons1.dds"
+		texturefile = "gfx/interface/technologies/infantry1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/chi_motorised_infantry.dds"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/chi_mechanised_infantry.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/chi_mechanised_infantry2.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/chi_mechanised_infantry3.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_motorised_equipment_medium"
-		texturefile = "gfx/interface/technologies/chi_motorised_infantry.dds"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/chi_motorised_infantry.dds"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/chi_basic_equipment.dds"
+		texturefile = "gfx/interface/technologies/infantry_equipment_0.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_improved_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/chi_improved_infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/infantry2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_advanced_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/chi_advanced_infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/infantry3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/chi_early_fighter.dds"
+		texturefile = "gfx/interface/technologies/fighter1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_early_bomber_medium"
-		texturefile = "gfx/interface/technologies/chi_early_bomber.dds"
+		texturefile = "gfx/interface/technologies/early_bomber.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_fighter1_medium"
-		texturefile = "gfx/interface/technologies/chi_fighter1.dds"
+		texturefile = "gfx/interface/technologies/fighter1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_fighter2_medium"
-		texturefile = "gfx/interface/technologies/chi_fighter2.dds"
+		texturefile = "gfx/interface/technologies/fighter1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_fighter3_medium"
-		texturefile = "gfx/interface/technologies/chi_fighter3.dds"
+		texturefile = "gfx/interface/technologies/fighter1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_heavy_fighter1_medium"
-		texturefile = "gfx/interface/technologies/chi_heavy_fighter1.dds"
+		texturefile = "gfx/interface/technologies/heavy_fighter1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_heavy_fighter2_medium"
-		texturefile = "gfx/interface/technologies/chi_heavy_fighter2.dds"
+		texturefile = "gfx/interface/technologies/heavy_fighter1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_heavy_fighter3_medium"
-		texturefile = "gfx/interface/technologies/chi_heavy_fighter3.dds"
+		texturefile = "gfx/interface/technologies/heavy_fighter1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_CAS1_medium"
-		texturefile = "gfx/interface/technologies/chi_cas1.dds"
+		texturefile = "gfx/interface/technologies/CAS1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_CAS2_medium"
-		texturefile = "gfx/interface/technologies/chi_cas2.dds"
+		texturefile = "gfx/interface/technologies/CAS1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_CAS3_medium"
-		texturefile = "gfx/interface/technologies/chi_cas3.dds"
+		texturefile = "gfx/interface/technologies/CAS1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/chi_tactical_bomber1.dds"
+		texturefile = "gfx/interface/technologies/tactical_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/chi_tactical_bomber2.dds"
+		texturefile = "gfx/interface/technologies/tactical_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_tactical_bomber3_medium"
-		texturefile = "gfx/interface/technologies/chi_tactical_bomber3.dds"
+		texturefile = "gfx/interface/technologies/tactical_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/chi_strategic_bomber1.dds"
+		texturefile = "gfx/interface/technologies/strategic_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_strategic_bomber2_medium"
-		texturefile = "gfx/interface/technologies/chi_strategic_bomber2.dds"
+		texturefile = "gfx/interface/technologies/strategic_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_strategic_bomber3_medium"
-		texturefile = "gfx/interface/technologies/chi_strategic_bomber3.dds"
+		texturefile = "gfx/interface/technologies/strategic_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/chi_naval_bomber1.dds"
+		texturefile = "gfx/interface/technologies/naval_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_naval_bomber2_medium"
-		texturefile = "gfx/interface/technologies/chi_naval_bomber2.dds"
+		texturefile = "gfx/interface/technologies/naval_bomber1.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_YUN_naval_bomber3_medium"
-		texturefile = "gfx/interface/technologies/chi_naval_bomber3.dds"
+		texturefile = "gfx/interface/technologies/naval_bomber1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_advanced_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_adv_heavy_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_heavy_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_advanced_light_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_adv_light_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_advanced_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_adv_medium_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_basic_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_basic_heavy_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_heavy_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_basic_light_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_basic_light_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_basic_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_basic_medium_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_gwtank_medium"
-		texturefile = "gfx/interface/technologies/chi_gwtank.dds"
+		texturefile = "gfx/interface/technologies/gwtank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_improved_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_imp_heavy_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_heavy_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_improved_light_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_imp_light_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_improved_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_imp_medium_tank.dds"
+		texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_main_battle_tank.dds"
+		texturefile = "gfx/interface/technologies/main_battle_tank.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_YUN_super_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/chi_superheavy_tank.dds"
+		texturefile = "gfx/interface/technologies/super_heavy_tank.dds"
 	}
 
 	### SIK
