@@ -1,0 +1,39 @@
+####
+# BISMARCK
+####
+entity = { 
+	name = "GER_battleship_entity"
+	pdxmesh = "generic_submarine_mesh" 
+	
+	default_state = idle
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack"}
+	
+	scale = 3.5
+}
+entity = {
+	clone = "GER_battleship_entity"
+	name = "ENG_battleship_entity"
+}
+entity = {
+	clone = "GER_battleship_entity"
+	name = "ITA_battleship_entity"
+}
+entity = {
+	clone = "GER_battleship_entity"
+	name = "USA_battleship_entity"
+}
+entity = {
+	clone = "GER_battleship_entity"
+	name = "FRA_battleship_entity"
+}
+entity = {
+	clone = "GER_battleship_entity"
+	name = "SOV_battleship_entity"
+}
+entity = {
+	clone = "GER_battleship_entity"
+	name = "JAP_battleship_entity"
+}
+
