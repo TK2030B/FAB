@@ -39,11 +39,11 @@ characters={
 		name=TAR_Danaerys_Targaryen
 		portraits={
 			army = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				large="gfx/leaders/DOT/Portrait_Danaerys_Targaryen.dds"
 				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
 			}
 			civilian = {
-				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				large="gfx/leaders/DOT/Portrait_Danaerys_Targaryen.dds"
 				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
 			}
 		}
