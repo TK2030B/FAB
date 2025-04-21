@@ -185,7 +185,7 @@ recruit_character=CRO_balon_swann
 recruit_character=CRO_Stannis_Baratheon
 recruit_character=CRO_Mace_Tyrell
 recruit_character=CRO_Euron_Greyjoy
-activate_advisor = CRO_jon_arryn
+recruit_character = CRO_sandor_clegane
 activate_advisor = CRO_cersei_lannister
 
 # Hands of King

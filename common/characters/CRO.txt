@@ -417,6 +417,29 @@ characters={
 			logistics_skill = 2
 		}
 	}
+	
+	CRO_sandor_clegane={
+		name=CRO_sandor_clegane
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Sandor_Clegane.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Sandor_Clegane.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 3          # A skilled warrior, but lacks deep strategic expertise.
+			attack_skill = 4    # Known for his ferocity and combat ability.
+			defense_skill = 2   # Not particularly known for defensive tactics but competent in protecting himself.
+			planning_skill = 1  # Sandor isn't a planner; he relies on immediate action and instinct rather than strategy.
+			logistics_skill = 1 # Not associated with logistics or supply management, as he's a straightforward fighter.
+		}
+
+	}
 
 
 	CRO_cersei_lannister={

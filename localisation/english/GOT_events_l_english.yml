@@ -670,14 +670,523 @@ GOT_Story_News.54.t: "King Robert Baratheon Has Died"
 GOT_Story_News.54.d: "The king is dead. Robert Baratheon succumbed to wounds sustained in a hunting accident. The realm mourns, but even as bells toll, courtiers whisper. Who will succeed him? Will it be his son, Joffrey? Or another claimant? Westeros stands on the edge of uncertainty, with storm clouds brewing."
 GOT_Story_News.54.a: "A crown without a king."
 
+#Country Event
 GOT_Story_Country.55.t: "The Great Khal is wounded."
 GOT_Story_Country.55.d: "In a brutal confrontation with Mago, Drogo has been gravely injured. The blood of our Khal spills upon the sands, and the future of the Dothraki is uncertain. The Khal's strength is unmatched, but even the strongest fall. Will the blood of his khalasar be enough to bring him back from the brink of death?"
 GOT_Story_Country.55.a: "We must try to heal him!"
 GOT_Story_Country.55.b: "His legacy will live on through a new leader."
 
+#News Event
 GOT_Story_News.55.t: "Khal Drogo Wounded in Duel with Mago"
 GOT_Story_News.55.d: "Khal Drogo, the mighty leader of the Dothraki, was severely injured in a one-on-one fight with his rival, Mago. The outcome of the duel has left many questioning the future of the Dothraki horde. If Drogo succumbs to his injuries, the Dothraki may face a tumultuous period of leadership struggles and uncertainty."
 GOT_Story_News.55.a: "Will the Khal's horde survive this blow?"
+
+##########
+#SEASON 2#
+##########
+
+#1. Tyrion Arrives in King's Landing as Hand of the King
+GOT_Story_Country.100.t: "Tyrion Lannister has arrived in King's Landing to assume his role as Hand of the King."
+GOT_Story_Country.100.d: "The news of Tyrion's appointment spreads throughout the capital. His arrival causes a stir, especially among Cersei's supporters. The relationship between the two is already tense, as Tyrion is quick to assert his authority and criticize Cersei's handling of the kingdom."
+GOT_Story_Country.100.a: "Tyrion begins his reign by criticizing Cersei's governance."
+GOT_Story_Country.100.b: "A new power struggle is about to begin in the capital."
+
+GOT_Story_News.100.t: "Tyrion Lannister arrives in King's Landing as Hand of the King, causing unrest in the capital."
+GOT_Story_News.100.d: "The new Hand of the King, Tyrion Lannister, arrives at the Red Keep, much to the displeasure of his sister Cersei. His critical approach to the kingdom's affairs marks the beginning of a tense period in King's Landing."
+GOT_Story_News.100.a: "A new Hand has arrived, and the royal family is divided."
+
+#2. Stannis Baratheon Declares His Claim to the Throne
+GOT_Story_Country.101.t: "Stannis Baratheon, guided by Melisandre, declares his claim to the Iron Throne."
+GOT_Story_Country.101.d: "Stannis openly challenges Joffrey's legitimacy, sending letters across the realm to reveal the truth of his birth. Meanwhile, his advisor Maester Cressen attempts to stop Melisandre's influence, but tragically dies in the process, exposing her mysterious powers."
+GOT_Story_Country.101.a: "Stannis makes his claim to the throne known across the Seven Kingdoms."
+GOT_Story_Country.101.b: "The battle for the Iron Throne intensifies as Stannis' challenge begins."
+
+GOT_Story_News.101.t: "Stannis Baratheon claims the Iron Throne, revealing Joffrey's illegitimacy."
+GOT_Story_News.101.d: "Stannis Baratheon declares himself the rightful king and accuses Joffrey of being a bastard. His claim is supported by the mysterious powers of Melisandre, who is becoming an increasingly influential figure."
+GOT_Story_News.101.a: "A new contender for the throne rises in the form of Stannis Baratheon."
+
+#3. Robb Stark Sends Peace Terms to King's Landing
+GOT_Story_Country.102.t: "Robb Stark sends peace terms to King's Landing."
+GOT_Story_Country.102.d: "Robb, King in the North, demands the return of his sisters and the recognition of Northern independence from King Joffrey. Despite his mother's concerns, he is also considering an alliance with Balon Greyjoy."
+GOT_Story_Country.102.a: "Robb seeks peace, but his demands could tear the realm apart."
+GOT_Story_Country.102.b: "The North is willing to negotiate, but only on its own terms."
+
+GOT_Story_News.102.t: "Robb Stark sends an offer of peace to King's Landing, demanding the return of his sisters."
+GOT_Story_News.102.d: "King Robb Stark's peace terms are sent to King's Landing, with the North's demands for independence at the forefront. The future of the kingdom could hinge on the response from the capital."
+GOT_Story_News.102.a: "Will the Stark offer be accepted, or will it lead to further conflict?"
+
+#4. The Night's Watch Visits Craster's Keep
+GOT_Story_Country.103.t: "The Night's Watch arrives at Craster's Keep."
+GOT_Story_Country.103.d: "Beyond the Wall, the men of the Night's Watch seek shelter at Craster's Keep, where they find both hospitality and hostility. Craster, a wildling with strange customs, provides shelter but makes it clear that he does not welcome Jon Snow or his companions."
+GOT_Story_Country.103.a: "The journey beyond the Wall continues, but tensions are rising."
+GOT_Story_Country.103.b: "Dangerous secrets lie beyond the Wall, and the Night's Watch is about to learn some of them."
+
+GOT_Story_News.103.t: "The Night's Watch has arrived at Craster's Keep, setting the stage for future conflict."
+GOT_Story_News.103.d: "The Night's Watch faces increasing challenges beyond the Wall, and their stay at Craster's Keep reveals troubling tensions that may have long-lasting consequences."
+GOT_Story_News.103.a: "The Night's Watch is on the move, and dark secrets are being uncovered."
+
+#5. Daenerys Struggles in the Red Waste
+GOT_Story_Country.104.t: "Daenerys Targaryen struggles to survive in the Red Waste."
+GOT_Story_Country.104.d: "Daenerys and her khalasar fight for survival in the harsh Red Waste. With dwindling supplies and little hope, she sends her bloodriders in different directions to find refuge. This marks the beginning of her long journey to reclaim her birthright."
+GOT_Story_Country.104.a: "Daenerys faces a harsh reality as her journey becomes a struggle for survival."
+GOT_Story_Country.104.b: "The Red Waste may be a desert, but Daenerys' determination will take her to places she never imagined."
+
+GOT_Story_News.104.t: "Daenerys Targaryen struggles to survive in the Red Waste, marking a dark chapter in her journey."
+GOT_Story_News.104.d: "Daenerys' journey through the Red Waste is perilous, and her small khalasar faces the dangers of starvation and dehydration. Yet, her resolve to reclaim the Iron Throne remains unshaken."
+GOT_Story_News.104.a: "Daenerys is fighting for survival, but her journey has only just begun."
+
+# Theon's Return to the Iron Islands
+GOT_Story_Country.105.t: "Theon's Return to the Iron Islands"
+GOT_Story_Country.105.d: "I return to the Iron Islands after nine years as a Stark ward, hoping to gain my father's support for Robb Stark's war efforts. Yet, Balon rejects my proposal and mocks my time with the Starks, revealing his own ambitions to reclaim the Iron Islands' independence."
+GOT_Story_Country.105.a: "We are alone in this struggle, and the Starks are not our allies."
+GOT_Story_Country.105.b: "Perhaps we shall not gain the support we seek, but our ambition remains."
+
+GOT_Story_News.105.t: "Theon Greyjoy Returns to the Iron Islands"
+GOT_Story_News.105.d: "Theon Greyjoy, after nine years away from the Iron Islands, returns, seeking to persuade his father, Balon, to support Robb Stark's cause. However, Balon rejects him and reveals his own plans for the Iron Islands' independence."
+
+# Arya Confides in Gendry
+GOT_Story_Country.106.t: "Arya Confides in Gendry"
+GOT_Story_Country.106.d: "While traveling north with Yoren and other Night's Watch recruits, I reveal my true identity to Gendry, the illegitimate son of King Robert Baratheon. Our bond strengthens as we share secrets and fears, setting the stage for a future alliance."
+GOT_Story_Country.106.a: "Gendry is now someone I trust deeply. Our alliance could become key to our survival."
+GOT_Story_Country.106.b: "I have never known someone like him. It is good to have a confidant in these dark times."
+
+GOT_Story_News.106.t: "Arya Confides in Gendry"
+GOT_Story_News.106.d: "Arya Stark, traveling north with Yoren's group, reveals her true identity to Gendry, the bastard son of King Robert Baratheon. The two grow closer, and a potential alliance begins to form between them."
+GOT_Story_News.106.a: "Arya's bond with Gendry may prove crucial."
+
+
+# Tyrion Replaces Janos Slynt with Bronn
+GOT_Story_Country.107.t: "Tyrion Replaces Janos Slynt with Bronn"
+GOT_Story_Country.107.d: "In King's Landing, I continue to assert my power as Hand of the King. After confronting Janos Slynt about his involvement in Robert Baratheon's bastard massacre, I dismiss him and appoint Bronn as the new commander of the City Watch to ensure loyalty and control over the city's forces."
+GOT_Story_Country.107.a: "Janos was a failure. Bronn will be a far more reliable ally in these turbulent times."
+GOT_Story_Country.107.b: "This is just the beginning. More changes are needed to secure my authority."
+
+GOT_Story_News.107.t: "Tyrion Replaces Janos Slynt with Bronn"
+GOT_Story_News.107.d: "Tyrion Lannister, Hand of the King, replaces Janos Slynt as commander of the City Watch, appointing Bronn in his place. This move solidifies Tyrion's control over King's Landing and its security forces."
+GOT_Story_News.107.a: "Bronn now commands the City's security."
+
+# Jon Snow Discovers Craster's Secret
+GOT_Story_Country.108.t: "Jon Snow Discovers Craster's Secret"
+GOT_Story_Country.108.d: "While staying at Craster's Keep, I become suspicious of the wildling Craster. I discover that he sacrifices his male offspring to the White Walkers. When I confront him about it, I am knocked unconscious, highlighting the dangers and moral complexities beyond the Wall."
+GOT_Story_Country.108.a: "I cannot ignore what I've learned. Something must be done about Craster."
+GOT_Story_Country.108.b: "The truth is more terrifying than I could have imagined. I will have to find a way to survive the dangers up here."
+
+GOT_Story_News.108.t: "Jon Snow Discovers Craster's Secret"
+GOT_Story_News.108.d: "Jon Snow uncovers the horrifying secret of Craster, a wildling living beyond the Wall. Craster sacrifices his male children to the White Walkers, a shocking revelation that raises new dangers for the Night's Watch."
+GOT_Story_News.108.a: "The Night's Watch must confront Craster's treachery before it's too late."
+
+# Melisandre Seduces Stannis
+GOT_Story_Country.109.t: "Melisandre Seduces Stannis"
+GOT_Story_Country.109.d: "On Dragonstone, the Red Priestess Melisandre attempts to seduce me, promising a son and victory in my quest for the Iron Throne. She emphasizes the power of the Lord of Light and the sacrifices required, deepening her influence over my decisions."
+GOT_Story_Country.109.a: "Her power is undeniable, but I am not sure I can trust her completely."
+GOT_Story_Country.109.b: "Victory may be within my grasp, but I wonder what price I will have to pay."
+
+GOT_Story_News.109.t: "Melisandre Seduces Stannis"
+GOT_Story_News.109.d: "On Dragonstone, Melisandre, the Red Priestess, seduces Stannis Baratheon, convincing him of the Lord of Light's power. This act further secures her influence over Stannis as he pursues his claim to the Iron Throne."
+GOT_Story_News.109.a: "Stannis's connection to Melisandre could prove pivotal in his quest for the throne."
+
+# Theon's Baptism and Allegiance to the Ironborn
+GOT_Story_Country.110.t: "Theon's Baptism and Allegiance to the Ironborn"
+GOT_Story_Country.110.d: "I choose to align myself with my father, Balon Greyjoy, and the Ironborn, rejecting my Stark upbringing. I undergo a baptism in the faith of the Drowned God, symbolizing my commitment to the Iron Islands' cause."
+GOT_Story_Country.110.a: "This is my destiny. The Starks no longer hold sway over me."
+GOT_Story_Country.110.b: "The Ironborn will be my new family. I will prove my worth to them."
+
+GOT_Story_News.110.t: "Theon Greyjoy Backs the Ironborn"
+GOT_Story_News.110.d: "Theon Greyjoy has rejected his Stark upbringing and pledged allegiance to his father, Balon Greyjoy, and the Ironborn. He has undergone a baptism in the faith of the Drowned God, marking his full commitment to their cause."
+GOT_Story_News.110.a: "Theon's loyalty to the Ironborn marks a break from his past life."
+
+# Tyrion's Deception to Uncover the Spy
+GOT_Story_Country.111.t: "Tyrion's Deception to Uncover the Spy"
+GOT_Story_Country.111.d: "I set a trap for the Small Council by giving different members conflicting plans regarding Princess Myrcella's marriage. When Cersei confronts me about the plan I shared with Maester Pycelle, I identify Pycelle as the informant leaking information to the Queen."
+GOT_Story_Country.111.a: "Trust is a rare commodity here, but I have exposed the betrayer."
+GOT_Story_Country.111.b: "Pycell's betrayal will not go unpunished. I must remain vigilant."
+
+GOT_Story_News.111.t: "Tyrion Exposes Maester Pycelle's Betrayal"
+GOT_Story_News.111.d: "Tyrion Lannister uncovers Maester Pycelle's betrayal after testing the Small Council with conflicting marriage plans for Princess Myrcella. Pycelle's role as a spy for Queen Cersei has been revealed."
+GOT_Story_News.111.a: "Tyrion's cunning reveals the treachery lurking within the Small Council."
+
+# Brienne of Tarth Joins Renly's Kingsguard
+GOT_Story_Country.112.t: "Brienne of Tarth Joins Renly's Kingsguard"
+GOT_Story_Country.112.d: "At a tournament in Renly Baratheon's camp, I defeat Ser Loras Tyrell in combat. Impressed by my prowess, Renly grants me a place in his Kingsguard. This marks the beginning of my unwavering loyalty to him."
+GOT_Story_Country.112.a: "I have earned my place in Renly's court. I will serve him faithfully."
+GOT_Story_Country.112.b: "The road ahead is difficult, but my honor compels me to follow Renly."
+
+GOT_Story_News.112.t: "Brienne of Tarth Joins Renly's Kingsguard"
+GOT_Story_News.112.d: "Brienne of Tarth, a fierce warrior, joins Renly Baratheon's Kingsguard after defeating Ser Loras Tyrell in a tournament. Her unwavering loyalty to Renly is now assured."
+GOT_Story_News.112.a: "Brienne’s loyalty to Renly is cemented, and her skills are now at his service."
+
+# Arya's Group Attacked; Yoren's Death
+GOT_Story_Country.113.t: "Arya's Group Attacked; Yoren's Death"
+GOT_Story_Country.113.d: "While traveling with Yoren and other Night's Watch recruits, we are ambushed by Lannister soldiers. During the attack, Yoren is killed defending us. In a moment of quick thinking, I protect Gendry by misleading our captors, claiming that a slain boy was him."
+GOT_Story_Country.113.a: "Yoren's death will not be in vain. I must lead us to safety."
+GOT_Story_Country.113.b: "I had to make a difficult choice, but Gendry must survive for the good of us all."
+
+GOT_Story_News.113.t: "Arya's Group Attacked; Yoren Falls"
+GOT_Story_News.113.d: "Arya Stark's group of Night's Watch recruits is ambushed by Lannister soldiers. Yoren is killed while defending them. In an attempt to protect Gendry, Arya misleads their captors, claiming that a dead boy was him."
+GOT_Story_News.113.a: "Yoren’s death marks a turning point for Arya, who takes on a leadership role."
+
+# Bran's Direwolf Dreams
+GOT_Story_Country.114.t: "Bran's Direwolf Dreams"
+GOT_Story_Country.114.d: "I continue to experience vivid dreams in which I inhabit the body of my direwolf, Summer. These dreams hint at the developing warging abilities within me, a rare and mystical skill in Westeros."
+GOT_Story_Country.114.a: "I am more connected to Summer than ever before. There is a power in this bond."
+GOT_Story_Country.114.b: "I must learn to control these dreams, for they may unlock abilities I have yet to understand."
+
+GOT_Story_News.114.t: "Bran Stark's Strange Dreams"
+GOT_Story_News.114.d: "Bran Stark continues to experience strange and vivid dreams where he inhabits the body of his direwolf, Summer. These dreams are believed to be the first signs of his developing warging abilities, a mystical skill thought to be long lost in Westeros."
+GOT_Story_News.114.a: "Bran’s strange dreams may signify the awakening of an ancient power within him."
+
+# Robb Stark's Victory at the Battle of Oxcross
+GOT_Story_Country.115.t: "Robb Stark's Victory at the Battle of Oxcross"
+GOT_Story_Country.115.d: "My forces have achieved a significant victory over the Lannisters at the Battle of Oxcross. This triumph solidifies my position as King in the North and strengthens my campaign against the Lannisters."
+GOT_Story_Country.115.a: "The Lannisters will not break me. This victory is just the beginning."
+GOT_Story_Country.115.b: "My cause is now more just than ever. The North will rise."
+
+GOT_Story_News.115.t: "Robb Stark's Triumph at Oxcross"
+GOT_Story_News.115.d: "Robb Stark has won a decisive victory over the Lannisters at the Battle of Oxcross, further solidifying his authority as King in the North and strengthening his campaign."
+GOT_Story_News.115.a: "Robb’s victory at Oxcross has earned him the respect and loyalty of the North."
+
+# Tyrion Lannister's Political Maneuvering
+GOT_Story_Country.116.t: "Tyrion Lannister's Political Maneuvering"
+GOT_Story_Country.116.d: "In King's Landing, I continue to consolidate power as Hand of the King. I manipulate the Small Council by planting false information to identify the source of leaks, showcasing my strategic mind."
+GOT_Story_Country.116.a: "The game of thrones is full of deception, and I will master it."
+GOT_Story_Country.116.b: "I must stay steps ahead of those who would undermine me."
+
+GOT_Story_News.116.t: "Tyrion Lannister Outmaneuvers the Small Council"
+GOT_Story_News.116.d: "Tyrion Lannister, the Hand of the King, skillfully manipulates the Small Council by planting false information to uncover the source of leaks, further solidifying his control over King's Landing."
+GOT_Story_News.116.a: "Tyrion’s political savvy continues to outplay his opponents in King's Landing."
+
+# Brienne of Tarth's Allegiance to Renly Baratheon
+GOT_Story_Country.117.t: "Brienne of Tarth's Allegiance to Renly Baratheon"
+GOT_Story_Country.117.d: "I pledge my loyalty to Renly Baratheon after defeating Ser Loras Tyrell in combat. My unwavering dedication to Renly marks a significant moment in my character development."
+GOT_Story_Country.117.a: "Renly is a worthy leader. I will protect him with my life."
+GOT_Story_Country.117.b: "My oath to Renly is unbreakable. No foe shall stand before me."
+
+GOT_Story_News.117.t: "Brienne of Tarth Swears Allegiance to Renly Baratheon"
+GOT_Story_News.117.d: "Brienne of Tarth, after a fierce battle with Ser Loras Tyrell, swears her unwavering loyalty to Renly Baratheon, marking a defining moment in her character and future allegiance."
+GOT_Story_News.117.a: "Brienne of Tarth has pledged herself to Renly Baratheon, shifting the balance of power in the War of the Five Kings."
+
+# Daenerys Targaryen's Alliance with Xaro Xhoan Daxos
+GOT_Story_Country.118.t: "Daenerys Targaryen's Alliance with Xaro Xhoan Daxos"
+GOT_Story_Country.118.d: "In Qarth, I form an alliance with the wealthy merchant Xaro Xhoan Daxos. This partnership provides me with the resources needed to continue my quest to reclaim the Iron Throne."
+GOT_Story_Country.118.a: "Xaro's wealth will aid me, but I must remain cautious in trusting him."
+GOT_Story_Country.118.b: "This alliance is another step closer to my rightful throne."
+
+GOT_Story_News.118.t: "Daenerys Targaryen Forms Alliance with Xaro Xhoan Daxos"
+GOT_Story_News.118.d: "Daenerys Targaryen has struck a deal with the merchant Xaro Xhoan Daxos in Qarth, securing valuable resources for her campaign to reclaim the Iron Throne."
+GOT_Story_News.118.a: "Daenerys Targaryen's alliance with Xaro Xhoan Daxos strengthens her claim to the throne."
+
+# Arya Stark's Clever Deception
+GOT_Story_Country.119.t: "Arya Stark's Clever Deception"
+GOT_Story_Country.119.d: "While traveling north with Yoren and other Night's Watch recruits, I deceive Lannister soldiers by claiming that a slain boy was Gendry, thereby protecting him from capture. This act showcases my growing resourcefulness and determination."
+GOT_Story_Country.119.a: "I have learned much in these difficult times. Gendry will not fall into their hands."
+GOT_Story_Country.119.b: "I will not let the Lannisters break me or my companions."
+
+GOT_Story_News.119.t: "Arya Stark Outwits Lannister Soldiers"
+GOT_Story_News.119.d: "Arya Stark, traveling with a group of Night's Watch recruits, cleverly deceives Lannister soldiers by claiming a slain boy is Gendry, protecting him from capture."
+GOT_Story_News.119.a: "Arya Stark has proven her cunning by deceiving Lannister soldiers and protecting her companions."
+
+# Renly Baratheon's Death
+GOT_Story_Country.120.t: "Renly Baratheon's Death"
+GOT_Story_Country.120.d: "Renly Baratheon has been killed by a shadow assassin birthed by Melisandre, Stannis Baratheon's Red Priestess. This marks the end of Renly's claim to the Iron Throne and shifts the power dynamics in the War of the Five Kings."
+GOT_Story_Country.120.a: "The game of thrones has claimed another contender. The war rages on."
+GOT_Story_Country.120.b: "Renly's death brings Stannis closer to the throne, but the battle is far from over."
+
+GOT_Story_News.120.t: "Renly Baratheon Killed by Shadow Assassin"
+GOT_Story_News.120.d: "Renly Baratheon, once a major contender for the Iron Throne, has been killed by a shadow assassin created by Melisandre, Stannis Baratheon's Red Priestess. This act significantly alters the balance of power in the War of the Five Kings."
+GOT_Story_News.120.a: "Renly Baratheon is dead, and with his death, the War of the Five Kings becomes even more unpredictable."
+
+# Catelyn Stark's Alliance with Renly
+GOT_Story_Country.121.t: "Catelyn Stark's Alliance with Renly"
+GOT_Story_Country.121.d: "Catelyn Stark seeks an alliance with Renly Baratheon, offering Robb Stark's support in exchange for Renly's recognition of the North's independence. This political maneuver showcases Catelyn's strategic acumen and her commitment to her family's cause."
+GOT_Story_Country.121.a: "An alliance with Renly may strengthen our position, but we must be careful in these treacherous times."
+GOT_Story_Country.121.b: "The North deserves independence, and I will do whatever it takes to secure it."
+
+GOT_Story_News.121.t: "Catelyn Stark Seeks Alliance with Renly Baratheon"
+GOT_Story_News.121.d: "Catelyn Stark has approached Renly Baratheon with a proposal of alliance, offering Robb Stark's support in exchange for Renly's recognition of the North's independence."
+GOT_Story_News.121.a: "Catelyn Stark's diplomatic efforts may bring Renly Baratheon into the fold, strengthening Robb Stark's cause."
+
+# Tyrion Lannister's Investigation into the "Wildfire"
+GOT_Story_Country.122.t: "Tyrion Lannister's Investigation into the 'Wildfire'"
+GOT_Story_Country.122.d: "In King's Landing, I investigate the secret weapon, 'wildfire,' that King Joffrey plans to use against Stannis. This discovery underscores the brewing tensions in the city and my efforts to prepare for the impending siege."
+GOT_Story_Country.122.a: "We must be ready for Stannis' assault. The wildfire is our greatest advantage."
+GOT_Story_Country.122.b: "I will make sure that we are prepared, no matter the cost."
+
+GOT_Story_News.122.t: "Tyrion Lannister Investigates King's Landing's Wildfire"
+GOT_Story_News.122.d: "Tyrion Lannister, the Hand of the King, has begun an investigation into the wildfire weapon that King Joffrey plans to use in the defense of King's Landing, signaling an escalation of tensions ahead of the expected siege by Stannis."
+GOT_Story_News.122.a: "Tyrion Lannister's investigation into wildfire raises concerns about the true nature of King's Landing's preparations for Stannis."
+
+# Jaqen H'ghar's Debt to Arya Stark
+GOT_Story_Country.123.t: "Jaqen H'ghar's Debt to Arya Stark"
+GOT_Story_Country.123.d: "Jaqen H'ghar, a mysterious prisoner, offers to kill three people of Arya Stark's choosing as repayment for saving his life. This encounter introduces Arya to the concept of the Faceless Men and sets the stage for her future transformation."
+GOT_Story_Country.123.a: "This is a debt unlike any other, and I must be careful in how I choose to use it."
+GOT_Story_Country.123.b: "The Faceless Men are a dangerous and powerful force. I will learn from them."
+
+GOT_Story_News.123.t: "Jaqen H'ghar Offers Debt to Arya Stark"
+GOT_Story_News.123.d: "Jaqen H'ghar, a mysterious man in the Night's Watch, offers Arya Stark a dangerous gift: the ability to choose three people to kill in repayment for saving his life. This event introduces Arya to the deadly world of the Faceless Men."
+GOT_Story_News.123.a: "Jaqen H'ghar's deadly offer may change the course of Arya Stark's journey forever."
+
+# Daenerys Targaryen's Encounter with the Warlocks
+GOT_Story_Country.124.t: "Daenerys Targaryen's Encounter with the Warlocks"
+GOT_Story_Country.124.d: "In Qarth, I meet the Warlocks of the House of the Undying, who promise me knowledge and power. However, their motives are unclear, and I must tread carefully in this mystical encounter."
+GOT_Story_Country.124.a: "The Warlocks offer me power, but their intentions are a mystery. I must be cautious."
+GOT_Story_Country.124.b: "This encounter may grant me the strength I need to rule, but at what cost?"
+
+GOT_Story_News.124.t: "Daenerys Targaryen Encounters the Warlocks"
+GOT_Story_News.124.d: "Daenerys Targaryen has met with the Warlocks of the House of the Undying in Qarth, who have promised her power and knowledge. However, the true nature of their intentions remains uncertain."
+GOT_Story_News.124.a: "Daenerys Targaryen's encounter with the Warlocks may grant her newfound strength, but their mysterious motives are cause for concern."
+
+
+
+# Theon Greyjoy Seizes Winterfell
+GOT_Story_Country.125.t: "Theon Greyjoy Seizes Winterfell"
+GOT_Story_Country.125.d: "Theon Greyjoy betrays the Starks by capturing Winterfell, marking a significant turning point in his character arc. He executes Ser Rodrik Cassel and faces resistance from the locals."
+GOT_Story_Country.125.a: "I have taken Winterfell, but the resistance is fierce. The North may never forgive me."
+GOT_Story_Country.125.b: "Winterfell is mine, but at what cost? The people will not yield easily."
+
+GOT_Story_News.125.t: "Theon Greyjoy Captures Winterfell"
+GOT_Story_News.125.d: "Theon Greyjoy has seized control of Winterfell, betraying the Starks and executing Ser Rodrik Cassel. His actions have ignited fierce resistance from the people of the North."
+GOT_Story_News.125.a: "The capture of Winterfell by Theon Greyjoy has thrown the North into turmoil. His betrayal will not be forgotten."
+
+# Jon Snow Captures Ygritte
+GOT_Story_Country.126.t: "Jon Snow Captures Ygritte"
+GOT_Story_Country.126.d: "Beyond the Wall, Jon Snow and his companions ambush a wildling outpost. Jon captures Ygritte, a fierce wildling woman, who challenges his beliefs and loyalties."
+GOT_Story_Country.126.a: "I have captured Ygritte, but her defiance only makes me question my own loyalties."
+GOT_Story_Country.126.b: "Ygritte is a fierce opponent. I will have to be careful how I deal with her."
+
+GOT_Story_News.126.t: "Jon Snow Captures Wildling Ygritte"
+GOT_Story_News.126.d: "Jon Snow and his companions have ambushed a wildling outpost beyond the Wall, capturing Ygritte, a fierce wildling woman. This event challenges Jon's beliefs and his loyalties to the Night's Watch."
+GOT_Story_News.126.a: "Jon Snow's capture of the wildling Ygritte raises questions about his loyalty to the Night's Watch as his personal conflict deepens."
+
+# King's Landing Riots Against Joffrey
+GOT_Story_Country.127.t: "King's Landing Riots Against Joffrey"
+GOT_Story_Country.127.d: "In King's Landing, worsening conditions lead to a riot during King Joffrey's procession through Flea Bottom. The situation escalates when Joffrey is slapped by his uncle, Tyrion Lannister, highlighting the growing unrest among the populace."
+GOT_Story_Country.127.a: "The people are restless, and Joffrey's cruelty will be his downfall."
+GOT_Story_Country.127.b: "This riot is a warning. If we do not act swiftly, the situation will spiral out of control."
+
+GOT_Story_News.127.t: "Riots Erupt in King's Landing Against Joffrey"
+GOT_Story_News.127.d: "Riots have broken out in King's Landing during King Joffrey's procession through Flea Bottom. The situation worsened when Joffrey was slapped by his uncle, Tyrion Lannister, indicating growing unrest among the common folk."
+GOT_Story_News.127.a: "The slap by Tyrion Lannister marks a turning point in Joffrey’s reign, as the unrest in King's Landing continues to escalate."
+
+# Daenerys Discovers Her Dragons Are Stolen
+GOT_Story_Country.128.t: "Daenerys Discovers Her Dragons Are Stolen"
+GOT_Story_Country.128.d: "In Qarth, Daenerys Targaryen returns to find that most of her Dothraki have been killed and her dragons have been stolen. This setback forces her to confront the challenges of trust and betrayal in her quest to reclaim the Iron Throne."
+GOT_Story_Country.128.a: "My dragons are gone, and my people are dead. This betrayal cuts deep."
+GOT_Story_Country.128.b: "I will not let this setback define me. I will find my dragons, no matter the cost."
+
+GOT_Story_News.128.t: "Daenerys Targaryen's Dragons Stolen in Qarth"
+GOT_Story_News.128.d: "Daenerys Targaryen has returned to Qarth to discover that her dragons have been stolen, and most of her Dothraki have been killed. This betrayal forces Daenerys to confront new challenges in her quest to reclaim the Iron Throne."
+GOT_Story_News.128.a: "Daenerys faces a devastating blow as her dragons are stolen, and her Dothraki are slaughtered, throwing her path to the Iron Throne into chaos."
+
+# Bran and Rickon Stark Escape Winterfell
+GOT_Story_Country.129.t: "Bran and Rickon Stark Escape Winterfell"
+GOT_Story_Country.129.d: "With Winterfell under siege, Bran and Rickon Stark escape the city to ensure their survival. Their departure marks a significant moment in their journey and the shifting power dynamics in the North."
+GOT_Story_Country.129.a: "We must leave Winterfell behind if we are to survive. The North may never be the same."
+GOT_Story_Country.129.b: "The journey ahead will be perilous, but we have no other choice."
+
+GOT_Story_News.129.t: "Bran and Rickon Stark Flee Winterfell"
+GOT_Story_News.129.d: "With Winterfell under siege, Bran and Rickon Stark have escaped the city to ensure their survival. Their departure marks a pivotal moment in the Stark family's struggle for control of the North."
+GOT_Story_News.129.a: "Bran and Rickon Stark have fled Winterfell, signaling a crucial shift in the power dynamics of the North as the Starks’ struggle for control intensifies."
+
+# Theon Greyjoy Discovers Bran and Rickon's Escape
+GOT_Story_Country.130.t: "Bran and Rickon Escape Winterfell"
+GOT_Story_Country.130.d: "Theon Greyjoy wakes to find that Bran and Rickon Stark have escaped Winterfell with the help of Osha. This discovery sets off a chain of events leading to Theon's increasing desperation and brutality."
+GOT_Story_Country.130.a: "They’ve escaped... I must act quickly before my control unravels."
+GOT_Story_Country.130.b: "This is a humiliation I cannot allow. The North must fear me."
+
+GOT_Story_News.130.t: "Bran and Rickon Stark Escape Winterfell"
+GOT_Story_News.130.d: "Bran and Rickon Stark have escaped from Winterfell with the help of Osha. Theon Greyjoy, now in control of the castle, faces a growing crisis of legitimacy and control."
+GOT_Story_News.130.a:"The escape of Bran and Rickon Stark marks a significant blow to Theon Greyjoy's control over Winterfell. The situation grows more unstable for him with each passing day."
+
+# Jon Snow and Qhorin Halfhand Captured by Wildlings
+GOT_Story_Country.131.t: "Jon Snow and Qhorin Captured by Wildlings"
+GOT_Story_Country.131.d: "Beyond the Wall, Jon Snow and Qhorin Halfhand are captured by the wildlings. This event tests Jon's loyalties, forcing him to weigh his vows against survival."
+GOT_Story_Country.131.a: "We are surrounded. I must find a way to survive—and learn."
+GOT_Story_Country.131.b: "If I am to live, I must gain their trust. Even if it means betraying my brothers."
+
+GOT_Story_News.131.t: "Jon Snow Captured Beyond the Wall"
+GOT_Story_News.131.d: "Jon Snow and Qhorin Halfhand have been captured by the wildlings beyond the Wall. This development casts uncertainty over the Night's Watch’s mission and Jon’s fate."
+GOT_Story_News.131.a: "Jon Snow and Qhorin Halfhand's capture by the wildlings beyond the Wall raises serious concerns about the future of the Night's Watch and the dangers lurking in the far north."
+
+# Catelyn Stark's Arrest for Jaime's Release
+GOT_Story_Country.132.t: "Catelyn Arrested for Releasing Jaime"
+GOT_Story_Country.132.d: "Catelyn Stark is arrested for secretly releasing Jaime Lannister from captivity, believing he could be traded for her daughters. Her actions undermine Robb’s authority and spark internal discord."
+GOT_Story_Country.132.a: "I did what any mother would do... even if it cost me everything."
+GOT_Story_Country.132.b: "This was not treason—it was hope. But now, I must face the consequences."
+
+GOT_Story_News.132.t: "Catelyn Stark Arrested"
+GOT_Story_News.132.d: "Catelyn Stark has been arrested for releasing Jaime Lannister, an act that defied King Robb’s authority. The Northern command now faces internal conflict at a critical moment in the war."
+GOT_Story_News.132.a: "Catelyn Stark's arrest for releasing Jaime Lannister threatens to undermine Robb Stark’s authority."
+
+# Arya Stark Coerces Jaqen H’ghar
+GOT_Story_Country.133.t: "Arya Forces Jaqen to Help Them Escape"
+GOT_Story_Country.133.d: "Arya Stark coerces Jaqen H'ghar into helping her, Gendry, and Hot Pie escape from Harrenhal. Her boldness and clever manipulation mark a critical step in her evolution toward vengeance."
+GOT_Story_Country.133.a: "A girl has a name—and a plan."
+GOT_Story_Country.133.b: "Jaqen owes me a life. He will help us, or face the consequences."
+
+GOT_Story_News.133.t: "Arya Escapes Harrenhal"
+GOT_Story_News.133.d: "With the help of the mysterious assassin Jaqen H'ghar, Arya Stark has escaped from Harrenhal alongside Gendry and Hot Pie. Her growing boldness signals a dark transformation ahead."
+GOT_Story_News.133.a: "Her increasing boldness hints at the darker path she is on."
+
+# Cersei Lannister Tries to Blackmail Tyrion
+GOT_Story_Country.134.t: "Cersei Blackmails Tyrion"
+GOT_Story_Country.134.d: "Cersei Lannister abducts Ros, believing her to be Tyrion’s secret lover, in an attempt to blackmail him. Her scheme reveals the depths of Lannister intrigue and Cersei’s increasing ruthlessness."
+GOT_Story_Country.134.a: "She thinks Ros matters to me... she's wrong, but she’ll regret this."
+GOT_Story_Country.134.b: "Cersei is playing a dangerous game. I must hit back smarter and harder."
+
+GOT_Story_News.134.t: "Cersei Moves Against Tyrion"
+GOT_Story_News.134.d: "Queen Cersei Lannister has abducted Ros in a bid to blackmail Tyrion, whom she suspects of betrayal. The Lannister family continues to fracture amid growing tensions in King’s Landing."
+GOT_Story_News.134.a: "Tensions in King’s Landing continue to rise."
+
+# Theon Greyjoy's Deception of Bran and Rickon
+GOT_Story_Country.135.t: "Theon's Cruel Deception"
+GOT_Story_Country.135.d: "To solidify his rule over Winterfell, Theon Greyjoy executes two innocent farm boys and presents their charred bodies as those of Bran and Rickon Stark. His deception crushes hope in the North and marks a brutal turn in his rule."
+GOT_Story_Country.135.a: "They’ll believe the Starks are dead. Fear will secure my grip."
+GOT_Story_Country.135.b: "This is the price of power. Let them mourn false graves."
+
+GOT_Story_News.135.t: "Stark Heirs Presumed Dead"
+GOT_Story_News.135.d: "Theon Greyjoy has displayed two charred bodies at Winterfell, claiming them to be Bran and Rickon Stark. The North grieves what seems to be the end of House Stark's line."
+GOT_Story_News.135.a: "The North mourns the presumed death of its heirs."
+
+# Tyrion Plans King's Landing Defense
+GOT_Story_Country.136.t: "Tyrion Prepares for Siege"
+GOT_Story_Country.136.d: "With Stannis Baratheon’s fleet approaching, Tyrion Lannister and Bronn prepare the defense of King’s Landing. Their tactical planning reveals both urgency and ingenuity in the face of overwhelming odds."
+GOT_Story_Country.136.a: "Every detail must be perfect. We’ll give them a fiery welcome."
+GOT_Story_Country.136.b: "They expect us to cower. Instead, we’ll burn them at sea."
+
+GOT_Story_News.136.t: "King's Landing Braces for War"
+GOT_Story_News.136.d: "Tyrion Lannister has begun preparing defenses for King’s Landing as Stannis Baratheon’s siege draws near. Bronn’s command of the city guard and Tyrion’s tactics may decide the city’s fate."
+GOT_Story_News.136.a: "King’s Landing prepares for an imminent siege."
+
+# Cersei Blackmails Tyrion with Ros (Expanded Context)
+GOT_Story_Country.137.t: "Cersei Uses Ros as Leverage"
+GOT_Story_Country.137.d: "Believing Ros to be Tyrion’s lover, Cersei Lannister abducts her to pressure Tyrion into keeping King Joffrey out of harm’s way. This manipulative act underscores Cersei’s ruthlessness and devotion to her son."
+GOT_Story_Country.137.a: "She thinks this will sway me. She's wrong—but I’ll play along."
+GOT_Story_Country.137.b: "Let her believe she’s won. I’ll protect Ros, and strike back later."
+
+GOT_Story_News.137.t: "Cersei Takes Hostage to Blackmail Tyrion"
+GOT_Story_News.137.d: "Cersei Lannister has abducted Ros, believing her to be Tyrion’s mistress. Her goal: ensure Tyrion keeps King Joffrey off the battlefield. The game of thrones grows deadlier by the day."
+GOT_Story_News.137.a: "Cersei escalates her war with Tyrion."
+
+# Daenerys Refuses to Leave Without Her Dragons
+GOT_Story_Country.138.t: "Daenerys Stands Her Ground in Qarth"
+GOT_Story_Country.138.d: "Despite mounting danger, Daenerys Targaryen refuses to leave Qarth without her dragons. Her resolve marks a critical moment in her transformation into a determined and unyielding leader."
+GOT_Story_Country.138.a: "I will not leave my children behind. Qarth will burn if I must."
+GOT_Story_Country.138.b: "The dragons are mine. No walls or warlocks will keep them from me."
+
+GOT_Story_News.138.t: "Daenerys Refuses to Flee Qarth"
+GOT_Story_News.138.d: "Daenerys Targaryen has declared her intent to remain in Qarth until her stolen dragons are recovered. Her unshakable will is earning her both allies and enemies within the city."
+GOT_Story_News.138.a: "Daenerys vows to stay in Qarth and reclaim her dragons."
+
+# Robb Stark Responds to Jaime’s Escape
+GOT_Story_Country.139.t: "Robb Responds to Jaime's Escape"
+GOT_Story_Country.139.d: "Robb Stark, returning from the Crag with Lady Talisa, learns of Jaime Lannister’s escape. Furious, he decides to redirect his forces toward confronting Tywin Lannister. The tides of war are shifting once more."
+GOT_Story_Country.139.a: "Jaime is gone—but I won’t lose momentum. Tywin must be stopped."
+GOT_Story_Country.139.b: "Catelyn has betrayed me, but the war cannot pause. We move."
+
+GOT_Story_News.139.t: "Robb Stark Redirects His Forces"
+GOT_Story_News.139.d: "In response to Jaime Lannister’s escape, Robb Stark is altering his military campaign to strike against Tywin Lannister. This strategic shift may reshape the conflict in the Riverlands and beyond."
+GOT_Story_News.139.a: "Robb Stark shifts focus to Tywin Lannister after Jaime's escape."
+
+# Battle of Blackwater
+GOT_Story_Country.140.t: "The Battle of Blackwater"
+GOT_Story_Country.140.d: "Stannis Baratheon's fleet descends upon King's Landing, sparking a brutal siege. Tyrion Lannister commands the defense, unleashing wildfire in a calculated and devastating strike. The battle is turned only by the last-minute arrival of Tywin Lannister and House Tyrell."
+GOT_Story_Country.140.a: "The city held. Fire and steel defended it."
+GOT_Story_Country.140.b: "Victory came at a cost—but we survived."
+
+GOT_Story_News.140.t: "Stannis Defeated at Blackwater"
+GOT_Story_News.140.d: "King’s Landing has withstood the siege. Tyrion Lannister’s defense, aided by wildfire and the late arrival of Tywin Lannister and the Tyrells, routed Stannis Baratheon’s forces in a decisive clash on the Blackwater."
+GOT_Story_News.140.a: "Stannis Baratheon suffers a crushing defeat at Blackwater."
+
+# Cersei’s Emotional Collapse
+GOT_Story_Country.141.t: "Cersei Faces the End"
+GOT_Story_Country.141.d: "With battle raging outside, Queen Cersei withdraws to the Red Keep, where she reveals her deepest fears to Sansa Stark. Her despair and fatalism shed light on the cost of power and survival in a man's world."
+GOT_Story_Country.141.a: "I was taught to fear. Now I teach others."
+GOT_Story_Country.141.b: "The lioness protects her cub—even in madness."
+
+GOT_Story_News.141.t: "Cersei’s Fragile Moment"
+GOT_Story_News.141.d: "As the battle for King’s Landing unfolded, Queen Cersei prepared for defeat. Her private conversations reveal a woman haunted by power, fear, and a mother’s desperation."
+GOT_Story_News.141.a: "Cersei’s vulnerability becomes apparent in her moments of fear and doubt."
+
+# The Hound Abandons the Fight
+GOT_Story_Country.142.t: "The Hound Walks Away"
+GOT_Story_Country.142.d: "Amid the chaos of the siege, Sandor Clegane grows disillusioned with the carnage and cowardice. Rejecting his role and King Joffrey's command, he abandons the battlefield, walking away from the war and the crown."
+GOT_Story_Country.142.a: "To hell with the king. I’m done."
+GOT_Story_Country.142.b: "There’s no honor in this bloodbath."
+
+GOT_Story_News.142.t: "The Hound Quits King's Guard"
+GOT_Story_News.142.d: "Sandor Clegane, once Joffrey Baratheon’s sworn protector, has fled the battlefield during the siege. His open renunciation of the crown casts doubt on the King’s command and the morale of his forces."
+GOT_Story_News.142.a: "The Hound’s departure shakes the faith of the king’s men."
+
+# Joffrey’s Cowardice Exposed
+GOT_Story_Country.143.t: "Joffrey Abandons the Front"
+GOT_Story_Country.143.d: "As the enemy closes in, King Joffrey Baratheon abandons the walls of King’s Landing, retreating to safety and leaving the fighting to others. His cowardice is laid bare, undermining the authority he so viciously demands."
+GOT_Story_Country.143.a: "Let the others bleed. The king must be preserved."
+GOT_Story_Country.143.b: "I am the king. I don't have to fight."
+
+GOT_Story_News.143.t: "King Joffrey Flees the Battle"
+GOT_Story_News.143.d: "During the siege of King’s Landing, King Joffrey fled the front lines, choosing safety over valor. His retreat has ignited whispers of cowardice in the court and among the commoners."
+GOT_Story_News.143.a: "Joffrey’s cowardice undermines his authority."
+
+# Tyrion’s Defense Strategy Shines
+GOT_Story_Country.144.t: "Tyrion’s Fire and Fury"
+GOT_Story_Country.144.d: "With the city on the brink, Tyrion Lannister's bold tactics—including the use of wildfire—deliver devastating blows to Stannis’s fleet. Though wounded in the fighting, his leadership may have saved the capital."
+GOT_Story_Country.144.a: "I fought for this city. Let them remember that."
+GOT_Story_Country.144.b: "They laughed at me—until I burned a fleet."
+
+GOT_Story_News.144.t: "Tyrion Lannister Wounds Stannis's Fleet"
+GOT_Story_News.144.d: "Tyrion Lannister's command of the city’s defenses and his daring use of wildfire devastated Stannis Baratheon's armada. Though injured, his strategic brilliance earned him unlikely praise in the aftermath of victory."
+GOT_Story_News.144.a: "Tyrion’s victory bolsters his standing in King’s Landing."
+
+# Robb Marries Talisa
+GOT_Story_Country.145.t: "A Stark Wedding in Secret"
+GOT_Story_Country.145.d: "Robb Stark weds Talisa Maegyr in a private ceremony, defying his oath to House Frey. His personal choice over political duty risks alienating key allies and sets a dangerous precedent for the future of the North."
+GOT_Story_Country.145.a: "Love over duty—what could go wrong?"
+GOT_Story_Country.145.b: "We chose each other, not war."
+
+GOT_Story_News.145.t: "Robb Stark Marries Talisa"
+GOT_Story_News.145.d: "Robb Stark has secretly married Talisa Maegyr, breaking his betrothal to House Frey. While love may have triumphed, this decision could have dire political consequences for the North."
+GOT_Story_News.145.a: "Robb’s marriage may spark conflict with House Frey."
+
+# Joffrey and Margaery Betrothal
+GOT_Story_Country.146.t: "A Royal Engagement"
+GOT_Story_Country.146.d: "King Joffrey Baratheon announces his engagement to Margaery Tyrell, discarding his prior promise to wed Sansa Stark. The alliance with House Tyrell solidifies the Lannisters’ position in the realm."
+GOT_Story_Country.146.a: "Sansa served her purpose. Now it’s Margaery’s turn."
+GOT_Story_Country.146.b: "A union of beauty and power."
+
+GOT_Story_News.146.t: "King Joffrey Engaged to Margaery Tyrell"
+GOT_Story_News.146.d: "King Joffrey has officially proposed to Margaery Tyrell, daughter of House Tyrell. The match strengthens Lannister-Tyrell relations but leaves Sansa Stark politically abandoned."
+GOT_Story_News.146.a: "Joffrey’s engagement solidifies Lannister-Tyrell ties."
+
+# Arya and Jaqen Part Ways
+GOT_Story_Country.147.t: "Valar Morghulis"
+GOT_Story_Country.147.d: "Arya Stark parts ways with Jaqen H'ghar, who leaves her with a mysterious iron coin and the cryptic phrase 'Valar Morghulis.' Their encounter hints at paths yet to come and Arya’s growing connection to the Faceless Men."
+GOT_Story_Country.147.a: "All men must die. But not today."
+GOT_Story_Country.147.b: "A name can still be whispered to the wind."
+
+GOT_Story_News.147.t: "Arya Stark Vanishes From Riverlands"
+GOT_Story_News.147.d: "Arya Stark has disappeared following her encounter with a mysterious assassin. Rumors of strange tokens and foreign phrases spark whispers of magic and vengeance in the war-torn Riverlands."
+GOT_Story_News.147.a: "Arya’s disappearance stirs fear and mystery in the Riverlands."
+
+# Daenerys Faces the Warlocks
+GOT_Story_Country.148.t: "The Dragons Are Mine"
+GOT_Story_Country.148.d: "Daenerys Targaryen storms the House of the Undying to reclaim her dragons from the warlocks of Qarth. Her determination and magical bond with the creatures assert her growing power as Mother of Dragons."
+GOT_Story_Country.148.a: "Fire cannot kill a dragon."
+GOT_Story_Country.148.b: "You will not cage what was born to burn."
+
+GOT_Story_News.148.t: "Daenerys Targaryen Reclaims Her Dragons"
+GOT_Story_News.148.d: "In a daring confrontation in Qarth, Daenerys Targaryen has defeated the warlocks of the House of the Undying. Her dragons have returned to her, and her legend continues to grow."
+GOT_Story_News.148.a: "Daenerys’s victory in Qarth marks a turning point in her quest."
+
+# Jon Snow’s Path Beyond the Wall
+GOT_Story_Country.149.t: "The King-Beyond-the-Wall Awaits"
+GOT_Story_Country.149.d: "Captured by the Free Folk, Jon Snow prepares to meet Mance Rayder. His journey into the lands beyond the Wall begins in earnest, as he starts to understand the world of the wildlings."
+GOT_Story_Country.149.a: "If I must be a crow among wolves, so be it."
+GOT_Story_Country.149.b: "To lead them, I must walk among them."
+
+GOT_Story_News.149.t: "Jon Snow Taken North"
+GOT_Story_News.149.d: "Jon Snow, a brother of the Night’s Watch, has been taken by wildlings. He is rumored to be on his way to meet Mance Rayder, the elusive King-Beyond-the-Wall. What fate awaits him among the Free Folk is unknown."
+GOT_Story_News.149.a: "Jon Snow’s capture raises questions about his loyalties and future."
+
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
