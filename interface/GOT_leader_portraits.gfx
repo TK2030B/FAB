@@ -20,27 +20,17 @@ spriteTypes = {
         name = "GFX_leader_westeros_general5"
         texturefile = "gfx/leaders/Westeros/Generals/General5.dds"
     }
-
-    # Lords
-    spriteType = {
-        name = "GFX_leader_westeros_lord1"
-        texturefile = "gfx/leaders/Westeros/Lord1.dds"
+	 spriteType = {
+        name = "GFX_leader_westeros_general6"
+        texturefile = "gfx/leaders/Westeros/Generals/General6.dds"
     }
-    spriteType = {
-        name = "GFX_leader_westeros_lord2"
-        texturefile = "gfx/leaders/Westeros/Lord2.dds"
+	 spriteType = {
+        name = "GFX_leader_westeros_general7"
+        texturefile = "gfx/leaders/Westeros/Generals/General7.dds"
     }
-    spriteType = {
-        name = "GFX_leader_westeros_lord3"
-        texturefile = "gfx/leaders/Westeros/Lord3.dds"
-    }
-    spriteType = {
-        name = "GFX_leader_westeros_lord4"
-        texturefile = "gfx/leaders/Westeros/Lord4.dds"
-    }
-    spriteType = {
-        name = "GFX_leader_westeros_lord5"
-        texturefile = "gfx/leaders/Westeros/Lord5.dds"
+	 spriteType = {
+        name = "GFX_leader_westeros_general8"
+        texturefile = "gfx/leaders/Westeros/Generals/General8.dds"
     }
 
     # Scientists (Female)

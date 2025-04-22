@@ -845,45 +845,46 @@ GOT_Story_News.115.t: "Robb Stark's Triumph at Oxcross"
 GOT_Story_News.115.d: "Robb Stark has won a decisive victory over the Lannisters at the Battle of Oxcross, further solidifying his authority as King in the North and strengthening his campaign."
 GOT_Story_News.115.a: "Robb’s victory at Oxcross has earned him the respect and loyalty of the North."
 
-# Tyrion Lannister's Political Maneuvering
-GOT_Story_Country.116.t: "Tyrion Lannister's Political Maneuvering"
-GOT_Story_Country.116.d: "In King's Landing, I continue to consolidate power as Hand of the King. I manipulate the Small Council by planting false information to identify the source of leaks, showcasing my strategic mind."
-GOT_Story_Country.116.a: "The game of thrones is full of deception, and I will master it."
-GOT_Story_Country.116.b: "I must stay steps ahead of those who would undermine me."
+# Joffrey's Cruelty and Tyrion's Defiance
+GOT_Story_Country.116.t: "Joffrey's Cruelty and Tyrion's Defiance"
+GOT_Story_Country.116.d: "King Joffrey has unleashed brutal cruelty upon Sansa Stark and others in court. I, Tyrion Lannister, have intervened to protect Sansa and retaliate by sending Joffrey 'gifts' that expose his sadism. My actions reaffirm my role as the only voice of reason in King’s Landing."
+GOT_Story_Country.116.a: "Joffrey’s madness must be contained—for the realm’s sake."
+GOT_Story_Country.116.b: "If no one else will act, then I shall."
 
-GOT_Story_News.116.t: "Tyrion Lannister Outmaneuvers the Small Council"
-GOT_Story_News.116.d: "Tyrion Lannister, the Hand of the King, skillfully manipulates the Small Council by planting false information to uncover the source of leaks, further solidifying his control over King's Landing."
-GOT_Story_News.116.a: "Tyrion’s political savvy continues to outplay his opponents in King's Landing."
+GOT_Story_News.116.t: "Tyrion Lannister Confronts King Joffrey"
+GOT_Story_News.116.d: "Following King Joffrey’s violent outburst toward Sansa Stark and others, Tyrion Lannister, Hand of the King, intervened boldly. His defiance marks a rare check on the young king’s cruelty."
+GOT_Story_News.116.a: "Tyrion proves once again that he is the lone adult in the capital."
 
-# Brienne of Tarth's Allegiance to Renly Baratheon
-GOT_Story_Country.117.t: "Brienne of Tarth's Allegiance to Renly Baratheon"
-GOT_Story_Country.117.d: "I pledge my loyalty to Renly Baratheon after defeating Ser Loras Tyrell in combat. My unwavering dedication to Renly marks a significant moment in my character development."
-GOT_Story_Country.117.a: "Renly is a worthy leader. I will protect him with my life."
-GOT_Story_Country.117.b: "My oath to Renly is unbreakable. No foe shall stand before me."
+# Arya Stark Taken to Harrenhal
+GOT_Story_Country.117.t: "Arya Stark Taken to Harrenhal"
+GOT_Story_Country.117.d: "Captured by the Lannisters, I have been taken to Harrenhal—a place of torture and death. Each night I whisper the names of those I will one day kill. I must stay strong and wait for my moment."
+GOT_Story_Country.117.a: "Ser Gregor and the Lannisters will pay in time."
+GOT_Story_Country.117.b: "I will survive this. I have to."
 
-GOT_Story_News.117.t: "Brienne of Tarth Swears Allegiance to Renly Baratheon"
-GOT_Story_News.117.d: "Brienne of Tarth, after a fierce battle with Ser Loras Tyrell, swears her unwavering loyalty to Renly Baratheon, marking a defining moment in her character and future allegiance."
-GOT_Story_News.117.a: "Brienne of Tarth has pledged herself to Renly Baratheon, shifting the balance of power in the War of the Five Kings."
+GOT_Story_News.117.t: "Arya Stark Among Captives at Harrenhal"
+GOT_Story_News.117.d: "Arya Stark, presumed lost, has been taken prisoner and brought to Harrenhal. The infamous ruin, now a Lannister stronghold, subjects captives to brutal interrogations under Ser Gregor Clegane."
+GOT_Story_News.117.a: "The legacy of Harrenhal grows darker still."
 
-# Daenerys Targaryen's Alliance with Xaro Xhoan Daxos
-GOT_Story_Country.118.t: "Daenerys Targaryen's Alliance with Xaro Xhoan Daxos"
-GOT_Story_Country.118.d: "In Qarth, I form an alliance with the wealthy merchant Xaro Xhoan Daxos. This partnership provides me with the resources needed to continue my quest to reclaim the Iron Throne."
-GOT_Story_Country.118.a: "Xaro's wealth will aid me, but I must remain cautious in trusting him."
-GOT_Story_Country.118.b: "This alliance is another step closer to my rightful throne."
+# Daenerys Targaryen Reaches Qarth
+GOT_Story_Country.118.t: "Daenerys Targaryen Reaches Qarth"
+GOT_Story_Country.118.d: "After crossing the Red Waste, I have reached the gates of Qarth. Though denied at first, I force the city’s rulers to open their gates. My dragons have begun to inspire both fear and awe."
+GOT_Story_Country.118.a: "None will deny me again—not with dragons at my side."
+GOT_Story_Country.118.b: "Qarth is but a stepping stone to the Iron Throne."
 
-GOT_Story_News.118.t: "Daenerys Targaryen Forms Alliance with Xaro Xhoan Daxos"
-GOT_Story_News.118.d: "Daenerys Targaryen has struck a deal with the merchant Xaro Xhoan Daxos in Qarth, securing valuable resources for her campaign to reclaim the Iron Throne."
-GOT_Story_News.118.a: "Daenerys Targaryen's alliance with Xaro Xhoan Daxos strengthens her claim to the throne."
+GOT_Story_News.118.t: "Daenerys Targaryen Gains Entry to Qarth"
+GOT_Story_News.118.d: "After a perilous journey across the Red Waste, Daenerys Targaryen has entered Qarth. The city’s rulers, initially hesitant, granted her entry upon witnessing her dragons—the first seen in centuries."
+GOT_Story_News.118.a: "Daenerys Targaryen’s legend continues to grow."
 
-# Arya Stark's Clever Deception
-GOT_Story_Country.119.t: "Arya Stark's Clever Deception"
-GOT_Story_Country.119.d: "While traveling north with Yoren and other Night's Watch recruits, I deceive Lannister soldiers by claiming that a slain boy was Gendry, thereby protecting him from capture. This act showcases my growing resourcefulness and determination."
-GOT_Story_Country.119.a: "I have learned much in these difficult times. Gendry will not fall into their hands."
-GOT_Story_Country.119.b: "I will not let the Lannisters break me or my companions."
+# Melisandre's Shadow Birth
+GOT_Story_Country.119.t: "Melisandre's Shadow Birth"
+GOT_Story_Country.119.d: "I, Davos Seaworth, have smuggled Melisandre beneath Storm’s End as commanded. There, in darkness and shadow, she gave birth to a terrible creature. I do not understand her power, but I fear it may change the war."
+GOT_Story_Country.119.a: "This is no ordinary war… we fight with shadow and fire."
+GOT_Story_Country.119.b: "If this is Stannis’s path to victory, may the gods help us."
 
-GOT_Story_News.119.t: "Arya Stark Outwits Lannister Soldiers"
-GOT_Story_News.119.d: "Arya Stark, traveling with a group of Night's Watch recruits, cleverly deceives Lannister soldiers by claiming a slain boy is Gendry, protecting him from capture."
-GOT_Story_News.119.a: "Arya Stark has proven her cunning by deceiving Lannister soldiers and protecting her companions."
+GOT_Story_News.119.t: "Dark Magic Unleashed Beneath Storm's End"
+GOT_Story_News.119.d: "Rumors spread of strange rituals performed by Melisandre beneath Storm’s End. Witnesses claim a creature of shadow was born under cover of night, sparking whispers of black magic in service of Stannis Baratheon."
+GOT_Story_News.119.a: "The War of the Five Kings now has more than men to fear."
+
 
 # Renly Baratheon's Death
 GOT_Story_Country.120.t: "Renly Baratheon's Death"

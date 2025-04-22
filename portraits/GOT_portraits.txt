@@ -6,11 +6,9 @@ default = {
             "GFX_leader_westeros_general3"
             "GFX_leader_westeros_general4"
             "GFX_leader_westeros_general5"
-            "GFX_leader_westeros_lord1"
-            "GFX_leader_westeros_lord2"
-            "GFX_leader_westeros_lord3"
-            "GFX_leader_westeros_lord4"
-            "GFX_leader_westeros_lord5"
+			"GFX_leader_westeros_general6"
+			"GFX_leader_westeros_general7"
+			"GFX_leader_westeros_general8"
         }
 	}
 	
@@ -21,11 +19,9 @@ default = {
             "GFX_leader_westeros_general3"
             "GFX_leader_westeros_general4"
             "GFX_leader_westeros_general5"
-            "GFX_leader_westeros_lord1"
-            "GFX_leader_westeros_lord2"
-            "GFX_leader_westeros_lord3"
-            "GFX_leader_westeros_lord4"
-            "GFX_leader_westeros_lord5"
+			"GFX_leader_westeros_general6"
+			"GFX_leader_westeros_general7"
+			"GFX_leader_westeros_general8"
         }
 	}
 	
@@ -37,11 +33,9 @@ default = {
 				"GFX_leader_westeros_general3"
 				"GFX_leader_westeros_general4"
 				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_lord1"
-				"GFX_leader_westeros_lord2"
-				"GFX_leader_westeros_lord3"
-				"GFX_leader_westeros_lord4"
-				"GFX_leader_westeros_lord5"
+				"GFX_leader_westeros_general6"
+				"GFX_leader_westeros_general7"
+				"GFX_leader_westeros_general8"
 			}
 		}
 		democratic = {
@@ -51,11 +45,9 @@ default = {
 				"GFX_leader_westeros_general3"
 				"GFX_leader_westeros_general4"
 				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_lord1"
-				"GFX_leader_westeros_lord2"
-				"GFX_leader_westeros_lord3"
-				"GFX_leader_westeros_lord4"
-				"GFX_leader_westeros_lord5"
+				"GFX_leader_westeros_general6"
+				"GFX_leader_westeros_general7"
+				"GFX_leader_westeros_general8"
 			}
 		}
 		fascism = {
@@ -65,11 +57,9 @@ default = {
 				"GFX_leader_westeros_general3"
 				"GFX_leader_westeros_general4"
 				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_lord1"
-				"GFX_leader_westeros_lord2"
-				"GFX_leader_westeros_lord3"
-				"GFX_leader_westeros_lord4"
-				"GFX_leader_westeros_lord5"
+				"GFX_leader_westeros_general6"
+				"GFX_leader_westeros_general7"
+				"GFX_leader_westeros_general8"
 			}
 		}
 		neutrality = {
@@ -79,11 +69,9 @@ default = {
 				"GFX_leader_westeros_general3"
 				"GFX_leader_westeros_general4"
 				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_lord1"
-				"GFX_leader_westeros_lord2"
-				"GFX_leader_westeros_lord3"
-				"GFX_leader_westeros_lord4"
-				"GFX_leader_westeros_lord5"
+				"GFX_leader_westeros_general6"
+				"GFX_leader_westeros_general7"
+				"GFX_leader_westeros_general8"
 			}
 		}
 	}
