@@ -449,6 +449,31 @@ country_event = {
 		}
 		#For Players, or Non Historical AI, Stannis has a 40% chance of success
 		else = {
+
+		#If The Crownlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If Crownlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = DRA }
+			}
+			leave_faction = yes
+			#Event asking them to join their faction
+			DRA = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}	
+		
 			#Westerlands Notified of Usurpation Attempt
 			WES = {
 				country_event = {
@@ -552,6 +577,30 @@ country_event = {
 		}
 		
 		add_threat = 2
+		
+		#If The Crownlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If Crownlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = STO }
+			}
+			leave_faction = yes
+			#Event asking them to join their faction
+			STO = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
 		
 		#Westerlands Notified of Usurpation Attempt
 		WES = {
@@ -1256,6 +1305,73 @@ country_event = {
 	
 }
 
+#The Issue of the Tournament
+country_event = {
+	id = GOT_Diplomatic_Country.15
+	title = GOT_Diplomatic_Country.15.t
+	desc = GOT_Diplomatic_Country.15.d
+	picture = GFX_report_event_GOT_Story_Country150
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.15.a
+
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 1.2
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = {
+					has_war_with = CRO
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = CRO
+				expire = 365
+			}
+		}
+		else = {
+			add_war_support = 0.05
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.15.b
+
+		ai_chance = {
+			factor = 40
+		}
+		
+		add_war_support = -0.05
+		army_experience = 5
+		add_political_power = 25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.10
+				hours = 6
+			}
+		}
+		
+
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -1361,5 +1477,31 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.8.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.9
+	title = GOT_Diplomatic_News.9.t
+	desc = GOT_Diplomatic_News.9.d
+	picture = GFX_news_event_iron_throne
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.9.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.10
+	title = GOT_Diplomatic_News.10.t
+	desc = GOT_Diplomatic_News.10.d
+	picture = GFX_news_event_GOT_Story_News150
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.10.a
 	}
 }

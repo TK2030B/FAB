@@ -1,5 +1,12 @@
 add_namespace = GOT_Story_Country
 add_namespace = GOT_Story_News
+
+
+############
+##SEASON 1##
+############
+
+
 #A Terror in the Woods
 country_event = {
 	id = GOT_Story_Country.1
@@ -2996,11 +3003,13 @@ country_event = {
 		name = GOT_Story_Country.47.a
 
 		ai_chance = {
-			factor = 10
+			factor = 90
 		}
 
 		add_stability = -0.05
 		add_threat = 10
+		
+		set_global_flag = GOT_King_In_The_North
 
 		every_other_country = {
 			limit = {
@@ -3011,6 +3020,21 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.47.b
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_stability = 0.05
 		
 	}
 }
@@ -3679,4 +3703,2839 @@ news_event = {
 	option = {
 		name = GOT_Story_News.55.a
 	}
+}
+
+############
+##SEASON 2##
+############
+#1. Tyrion Arrives in King's Landing as Hand of the King
+country_event = {
+    id = GOT_Story_Country.100
+    title = GOT_Story_Country.100.t
+    desc = GOT_Story_Country.100.d
+    picture = GFX_report_event_GOT_Story_Country100
+
+    trigger = {
+        tag = CRO
+        date > 1937.1.5
+        date < 1937.2.5
+		is_in_faction_with = WES
+		GOT_Lannister_Is_King = yes
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.100.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_political_power = 25
+		
+		add_advisor_role = {
+			character = CRO_Tyrion_Lannister
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_Tyrion_Lannister
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.100
+                hours = 6
+            }
+        }
+    }
+}
+#1. Tyrion Arrives in King's Landing as Hand of the King
+news_event = {
+    id = GOT_Story_News.100
+    title = GOT_Story_News.100.t
+    desc = GOT_Story_News.100.d
+    picture = GFX_news_event_GOT_Story_News100
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.100.a
+    }
+}
+#2. Stannis Baratheon Declares His Claim to the Throne
+country_event = {
+    id = GOT_Story_Country.101
+    title = GOT_Story_Country.101.t
+    desc = GOT_Story_Country.101.d
+    picture = GFX_report_event_GOT_Story_Country101
+
+    trigger = {
+        tag = DRA
+		date > 1937.1.5
+        date < 1937.2.5
+		country_exists = CRO
+		CRO = {
+			is_subject = no
+		}
+		is_subject = no
+		#Obviously not Robert or Himself on the throne for him to make this decision
+		NOT = {
+			CRO = {
+				has_country_leader = {
+					name = "Robert Baratheon"
+					ruling_only = yes
+				}
+			}
+			CRO = {
+				has_country_leader = {
+					name = "Stannis Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.101.a
+
+        ai_chance = {
+            factor = 70
+			 modifier = {
+				factor = 1.35    # Boosts base 70 to 95 (70 * 1.35 = 94.5)
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+			}
+			modifier = {
+				factor = 0.71    # Reduces base 70 to ~50 (70 * 0.71 ≈ 50)
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+			}
+        }
+		
+		add_threat = 10
+        add_stability = -0.05
+        add_political_power = -50
+        add_war_support = 0.05
+		
+		set_country_flag = GOT_Claimed_Iron_Throne_Flag
+		
+		#If Dragonstone is in a faction with the Crownlands, then he leaves
+		if = {
+			limit = {
+				is_in_faction_with = CRO
+			}
+			leave_faction = yes
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = CRO
+			expire = 365
+		}
+		#Every other country informed of Stannis claim
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.101
+                hours = 6
+            }
+        }
+    }
+	
+	option = {
+        name = GOT_Story_Country.101.b
+		
+		trigger = {
+			NOT = {
+				has_war_with = CRO
+			}
+		}
+
+        ai_chance = {
+            factor = 30
+			modifier = {
+				factor = 0.166   # Lowers 30 to ~5 (30 * 0.166 = ~5)
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+			}
+			modifier = {
+				factor = 1.67    # Raises 30 to ~50 (30 * 1.67 ≈ 50)
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        add_stability = 0.05
+        add_political_power = 25
+		
+		set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Dragonstone is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If Dragonstone is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			CRO = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+		
+		#Everyone gets the generic Bend the Knee Event
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.9
+                hours = 6
+            }
+        }
+    }
+}
+#2. Stannis Baratheon Declares His Claim to the Throne
+news_event = {
+    id = GOT_Story_News.101
+    title = GOT_Story_News.101.t
+    desc = GOT_Story_News.101.d
+    picture = GFX_news_event_GOT_Story_News101
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.101.a
+    }
+}
+#3. Robb Stark Sends Peace Terms to King's Landing
+country_event = {
+    id = GOT_Story_Country.102
+    title = GOT_Story_Country.102.t
+    desc = GOT_Story_Country.102.d
+    picture = GFX_report_event_GOT_Story_Country102
+
+    trigger = {
+        tag = NOR
+		date > 1937.1.5
+        date < 1937.2.5
+		has_war_with = CRO
+		has_war_with = WES
+		CRO = { is_in_faction_with = WES }
+		has_global_flag = GOT_King_In_The_North
+		surrender_progress < 0.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.102.a
+
+        ai_chance = {
+            factor = 40
+        }
+
+        add_war_support = -0.05
+		
+		every_other_country = {
+            limit = {
+                is_in_faction_with = CRO
+				is_faction_leader = yes
+            }
+           country_event = {
+                id = BPD_Better_Peace_Deals_Country.1
+                hours = 6
+            }
+        }
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.102
+                hours = 6
+            }
+        }
+    }
+	
+	option = {
+        name = GOT_Story_Country.102.b
+
+        ai_chance = {
+            factor = 60
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        add_war_support = 0.05
+		
+    }
+}
+#3. Robb Stark Sends Peace Terms to King's Landing
+news_event = {
+    id = GOT_Story_News.102
+    title = GOT_Story_News.102.t
+    desc = GOT_Story_News.102.d
+    picture = GFX_news_event_GOT_Story_News102
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.102.a
+    }
+}
+#4. The Night's Watch Visits Craster's Keep
+country_event = {
+    id = GOT_Story_Country.103
+    title = GOT_Story_Country.103.t
+    desc = GOT_Story_Country.103.d
+    picture = GFX_report_event_GOT_Story_Country103
+
+    trigger = {
+        tag = NWA
+		date > 1937.1.5
+        date < 1937.2.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.103.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.103
+                hours = 6
+            }
+        }
+    }
+}
+#4. The Night's Watch Visits Craster's Keep
+news_event = {
+    id = GOT_Story_News.103
+    title = GOT_Story_News.103.t
+    desc = GOT_Story_News.103.d
+    picture = GFX_news_event_GOT_Story_News103
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.103.a
+    }
+}
+#5. Daenerys Struggles in the Red Waste
+country_event = {
+    id = GOT_Story_Country.104
+    title = GOT_Story_Country.104.t
+    desc = GOT_Story_Country.104.d
+    picture = GFX_report_event_GOT_Story_Country104
+
+    trigger = {
+        tag = TAR
+		date > 1937.1.5
+        date < 1937.2.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.104.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.104
+                hours = 6
+            }
+        }
+    }
+}
+#5. Daenerys Struggles in the Red Waste
+news_event = {
+    id = GOT_Story_News.104
+    title = GOT_Story_News.104.t
+    desc = GOT_Story_News.104.d
+    picture = GFX_news_event_GOT_Story_News104
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.104.a
+    }
+}
+# Theon's Return to the Iron Islands
+country_event = {
+    id = GOT_Story_Country.105
+    title = GOT_Story_Country.105.t
+    desc = GOT_Story_Country.105.d
+    picture = GFX_report_event_GOT_Story_Country105
+
+    trigger = {
+        tag = IRO
+        date > 1937.2.5
+        date < 1937.3.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.105.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_political_power = 25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.105
+                hours = 6
+            }
+        }
+    }
+}
+# Theon's Return to the Iron Islands
+news_event = {
+    id = GOT_Story_News.105
+    title = GOT_Story_News.105.t
+    desc = GOT_Story_News.105.d
+    picture = GFX_news_event_GOT_Story_News105
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.105.a
+    }
+}
+# Arya Confides in Gendry
+country_event = {
+    id = GOT_Story_Country.106
+    title = GOT_Story_Country.106.t
+    desc = GOT_Story_Country.106.d
+    picture = GFX_report_event_GOT_Story_Country106
+
+    trigger = {
+        tag = NOR
+        date > 1937.2.5
+        date < 1937.3.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.106.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.106
+                hours = 6
+            }
+        }
+    }
+}
+# Arya Confides in Gendry
+news_event = {
+    id = GOT_Story_News.106
+    title = GOT_Story_News.106.t
+    desc = GOT_Story_News.106.d
+    picture = GFX_news_event_GOT_Story_News106
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.106.a
+    }
+}
+# Tyrion Replaces Janos Slynt with Bronn
+country_event = {
+    id = GOT_Story_Country.107
+    title = GOT_Story_Country.107.t
+    desc = GOT_Story_Country.107.d
+    picture = GFX_report_event_GOT_Story_Country107
+
+    trigger = {
+        tag = CRO
+        date > 1937.2.5
+        date < 1937.3.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.107.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.107
+                hours = 6
+            }
+        }
+    }
+}
+# Tyrion Replaces Janos Slynt with Bronn
+news_event = {
+    id = GOT_Story_News.107
+    title = GOT_Story_News.107.t
+    desc = GOT_Story_News.107.d
+    picture = GFX_news_event_GOT_Story_News107
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.107.a
+    }
+}
+# Jon Snow Discovers Craster's Secret
+country_event = {
+    id = GOT_Story_Country.108
+    title = GOT_Story_Country.108.t
+    desc = GOT_Story_Country.108.d
+    picture = GFX_report_event_GOT_Story_Country108
+
+    trigger = {
+        tag = NOR
+        date > 1937.2.5
+        date < 1937.3.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.108.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.108
+                hours = 6
+            }
+        }
+    }
+}
+# Jon Snow Discovers Craster's Secret
+news_event = {
+    id = GOT_Story_News.108
+    title = GOT_Story_News.108.t
+    desc = GOT_Story_News.108.d
+    picture = GFX_news_event_GOT_Story_News108
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.108.a
+    }
+}
+# Melisandre Seduces Stannis
+country_event = {
+    id = GOT_Story_Country.109
+    title = GOT_Story_Country.109.t
+    desc = GOT_Story_Country.109.d
+    picture = GFX_report_event_GOT_Story_Country109
+
+    trigger = {
+        tag = DRA
+        date > 1937.2.5
+        date < 1937.3.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.109.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.109
+                hours = 6
+            }
+        }
+    }
+}
+# Melisandre Seduces Stannis
+news_event = {
+    id = GOT_Story_News.109
+    title = GOT_Story_News.109.t
+    desc = GOT_Story_News.109.d
+    picture = GFX_news_event_GOT_Story_News109
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.109.a
+    }
+}
+# Theon's Baptism and Allegiance to the Ironborn
+country_event = {
+    id = GOT_Story_Country.110
+    title = GOT_Story_Country.110.t
+    desc = GOT_Story_Country.110.d
+    picture = GFX_report_event_GOT_Story_Country110
+
+    trigger = {
+        tag = IRO
+        date > 1937.3.10
+        date < 1937.4.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.110.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.110
+                hours = 6
+            }
+        }
+    }
+}
+# Theon's Baptism and Allegiance to the Ironborn
+news_event = {
+    id = GOT_Story_News.110
+    title = GOT_Story_News.110.t
+    desc = GOT_Story_News.110.d
+    picture = GFX_news_event_GOT_Story_News110
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.110.a
+    }
+}
+# Tyrion's Deception to Uncover the Spy
+country_event = {
+    id = GOT_Story_Country.111
+    title = GOT_Story_Country.111.t
+    desc = GOT_Story_Country.111.d
+    picture = GFX_report_event_GOT_Story_Country111
+
+    trigger = {
+        tag = CRO
+        date > 1937.3.10
+        date < 1937.4.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.111.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+		add_political_power = 25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.111
+                hours = 6
+            }
+        }
+    }
+}
+# Tyrion's Deception to Uncover the Spy
+news_event = {
+    id = GOT_Story_News.111
+    title = GOT_Story_News.111.t
+    desc = GOT_Story_News.111.d
+    picture = GFX_news_event_GOT_Story_News111
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.111.a
+    }
+}
+# Brienne of Tarth Joins Renly's Kingsguard
+country_event = {
+    id = GOT_Story_Country.112
+    title = GOT_Story_Country.112.t
+    desc = GOT_Story_Country.112.d
+    picture = GFX_report_event_GOT_Story_Country112
+
+    trigger = {
+        tag = STO
+        date > 1937.3.10
+        date < 1937.4.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.112.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		army_experience = 5
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.112
+                hours = 6
+            }
+        }
+    }
+}
+# Brienne of Tarth Joins Renly's Kingsguard
+news_event = {
+    id = GOT_Story_News.112
+    title = GOT_Story_News.112.t
+    desc = GOT_Story_News.112.d
+    picture = GFX_news_event_GOT_Story_News112
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.112.a
+    }
+}
+# Arya's Group Attacked; Yoren's Death
+country_event = {
+    id = GOT_Story_Country.113
+    title = GOT_Story_Country.113.t
+    desc = GOT_Story_Country.113.d
+    picture = GFX_report_event_GOT_Story_Country113
+
+    trigger = {
+        tag = NWA
+        date > 1937.3.10
+        date < 1937.4.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.113.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.113
+                hours = 6
+            }
+        }
+    }
+}
+# Arya's Group Attacked; Yoren's Death
+news_event = {
+    id = GOT_Story_News.113
+    title = GOT_Story_News.113.t
+    desc = GOT_Story_News.113.d
+    picture = GFX_news_event_GOT_Story_News113
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.113.a
+    }
+}
+# Bran's Direwolf Dreams
+country_event = {
+    id = GOT_Story_Country.114
+    title = GOT_Story_Country.114.t
+    desc = GOT_Story_Country.114.d
+    picture = GFX_report_event_GOT_Story_Country114
+
+    trigger = {
+        tag = NOR
+        date > 1937.3.10
+        date < 1937.4.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.114.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.114
+                hours = 6
+            }
+        }
+    }
+}
+# Bran's Direwolf Dreams
+news_event = {
+    id = GOT_Story_News.114
+    title = GOT_Story_News.114.t
+    desc = GOT_Story_News.114.d
+    picture = GFX_news_event_GOT_Story_News114
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.114.a
+    }
+}
+# Robb Stark's Victory at the Battle of Oxcross
+country_event = {
+    id = GOT_Story_Country.115
+    title = GOT_Story_Country.115.t
+    desc = GOT_Story_Country.115.d
+    picture = GFX_report_event_GOT_Story_Country115
+
+    trigger = {
+        tag = NOR
+        date > 1937.4.15
+        date < 1937.5.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.115.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_war_support = 0.05
+		air_experience = 5
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.115
+                hours = 6
+            }
+        }
+    }
+}
+# Robb Stark's Victory at the Battle of Oxcross
+news_event = {
+    id = GOT_Story_News.115
+    title = GOT_Story_News.115.t
+    desc = GOT_Story_News.115.d
+    picture = GFX_news_event_GOT_Story_News115
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.115.a
+    }
+}
+# Joffrey's Cruelty and Tyrion's Defiance
+country_event = {
+    id = GOT_Story_Country.116
+    title = GOT_Story_Country.116.t
+    desc = GOT_Story_Country.116.d
+    picture = GFX_report_event_GOT_Story_Country116
+
+    trigger = {
+        tag = CRO
+        date > 1937.4.15
+        date < 1937.5.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.116.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.116
+                hours = 6
+            }
+        }
+    }
+}
+# Joffrey's Cruelty and Tyrion's Defiance
+news_event = {
+    id = GOT_Story_News.116
+    title = GOT_Story_News.116.t
+    desc = GOT_Story_News.116.d
+    picture = GFX_news_event_GOT_Story_News116
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.116.a
+    }
+}
+# Arya Stark Taken to Harrenhal
+country_event = {
+    id = GOT_Story_Country.117
+    title = GOT_Story_Country.117.t
+    desc = GOT_Story_Country.117.d
+    picture = GFX_report_event_GOT_Story_Country117
+
+    trigger = {
+        tag = NOR
+        date > 1937.4.15
+        date < 1937.5.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.117.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.117
+                hours = 6
+            }
+        }
+    }
+}
+# Arya Stark Taken to Harrenhal
+news_event = {
+    id = GOT_Story_News.117
+    title = GOT_Story_News.117.t
+    desc = GOT_Story_News.117.d
+    picture = GFX_news_event_GOT_Story_News117
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.117.a
+    }
+}
+# Daenerys Targaryen Reaches Qarth
+country_event = {
+    id = GOT_Story_Country.118
+    title = GOT_Story_Country.118.t
+    desc = GOT_Story_Country.118.d
+    picture = GFX_report_event_GOT_Story_Country118
+
+    trigger = {
+        tag = TAR
+        date > 1937.4.15
+        date < 1937.5.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.118.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.118
+                hours = 6
+            }
+        }
+    }
+}
+# Daenerys Targaryen Reaches Qarth
+news_event = {
+    id = GOT_Story_News.118
+    title = GOT_Story_News.118.t
+    desc = GOT_Story_News.118.d
+    picture = GFX_news_event_GOT_Story_News118
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.118.a
+    }
+}
+# Melisandre's Shadow Birth
+country_event = {
+    id = GOT_Story_Country.119
+    title = GOT_Story_Country.119.t
+    desc = GOT_Story_Country.119.d
+    picture = GFX_report_event_GOT_Story_Country119
+
+    trigger = {
+        tag = DRA
+        date > 1937.4.15
+        date < 1937.5.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.119.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.119
+                hours = 6
+            }
+        }
+    }
+}
+# Melisandre's Shadow Birth
+news_event = {
+    id = GOT_Story_News.119
+    title = GOT_Story_News.119.t
+    desc = GOT_Story_News.119.d
+    picture = GFX_news_event_GOT_Story_News119
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.119.a
+    }
+}
+# Renly Baratheon's Death
+country_event = {
+    id = GOT_Story_Country.120
+    title = GOT_Story_Country.120.t
+    desc = GOT_Story_Country.120.d
+    picture = GFX_report_event_GOT_Story_Country120
+
+    trigger = {
+        tag = STO
+        date > 1937.5.20
+        date < 1937.6.20
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.120.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.120
+                hours = 6
+            }
+        }
+    }
+}
+# Renly Baratheon's Death
+news_event = {
+    id = GOT_Story_News.120
+    title = GOT_Story_News.120.t
+    desc = GOT_Story_News.120.d
+    picture = GFX_news_event_GOT_Story_News120
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.120.a
+    }
+}
+# Catelyn Stark's Alliance with Renly
+country_event = {
+    id = GOT_Story_Country.121
+    title = GOT_Story_Country.121.t
+    desc = GOT_Story_Country.121.d
+    picture = GFX_report_event_GOT_Story_Country121
+
+    trigger = {
+        tag = STO
+        date > 1937.5.20
+        date < 1937.6.20
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.121.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_political_power = 25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.121
+                hours = 6
+            }
+        }
+    }
+}
+# Catelyn Stark's Alliance with Renly
+news_event = {
+    id = GOT_Story_News.121
+    title = GOT_Story_News.121.t
+    desc = GOT_Story_News.121.d
+    picture = GFX_news_event_GOT_Story_News121
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.121.a
+    }
+}
+# Tyrion Lannister's Investigation into the "Wildfire"
+country_event = {
+    id = GOT_Story_Country.122
+    title = GOT_Story_Country.122.t
+    desc = GOT_Story_Country.122.d
+    picture = GFX_report_event_GOT_Story_Country122
+
+    trigger = {
+        tag = CRO
+        date > 1937.5.20
+        date < 1937.6.20
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.122.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_war_support = 0.05
+		army_experience = 5
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.122
+                hours = 6
+            }
+        }
+    }
+}
+# Tyrion Lannister's Investigation into the "Wildfire"
+news_event = {
+    id = GOT_Story_News.122
+    title = GOT_Story_News.122.t
+    desc = GOT_Story_News.122.d
+    picture = GFX_news_event_GOT_Story_News122
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.122.a
+    }
+}
+# Jaqen H'ghar's Debt to Arya Stark
+country_event = {
+    id = GOT_Story_Country.123
+    title = GOT_Story_Country.123.t
+    desc = GOT_Story_Country.123.d
+    picture = GFX_report_event_GOT_Story_Country123
+
+    trigger = {
+        tag = NOR
+        date > 1937.5.20
+        date < 1937.6.20
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.123.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.123
+                hours = 6
+            }
+        }
+    }
+}
+# Jaqen H'ghar's Debt to Arya Stark
+news_event = {
+    id = GOT_Story_News.123
+    title = GOT_Story_News.123.t
+    desc = GOT_Story_News.123.d
+    picture = GFX_news_event_GOT_Story_News123
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.123.a
+    }
+}
+# Daenerys Targaryen's Encounter with the Warlocks
+country_event = {
+    id = GOT_Story_Country.124
+    title = GOT_Story_Country.124.t
+    desc = GOT_Story_Country.124.d
+    picture = GFX_report_event_GOT_Story_Country124
+
+    trigger = {
+        tag = TAR
+        date > 1937.5.20
+        date < 1937.6.20
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.124.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.124
+                hours = 6
+            }
+        }
+    }
+}
+# Daenerys Targaryen's Encounter with the Warlocks
+news_event = {
+    id = GOT_Story_News.124
+    title = GOT_Story_News.124.t
+    desc = GOT_Story_News.124.d
+    picture = GFX_news_event_GOT_Story_News124
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.124.a
+    }
+}
+# Theon Greyjoy Seizes Winterfell
+country_event = {
+    id = GOT_Story_Country.125
+    title = GOT_Story_Country.125.t
+    desc = GOT_Story_Country.125.d
+    picture = GFX_report_event_GOT_Story_Country125
+
+    trigger = {
+        tag = IRO
+        date > 1937.6.25
+        date < 1937.7.25
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.125.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_war_support = 0.05
+		add_political_power = 25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.125
+                hours = 6
+            }
+        }
+    }
+}
+# Theon Greyjoy Seizes Winterfell
+news_event = {
+    id = GOT_Story_News.125
+    title = GOT_Story_News.125.t
+    desc = GOT_Story_News.125.d
+    picture = GFX_news_event_GOT_Story_News125
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.125.a
+    }
+}
+# Jon Snow Captures Ygritte
+country_event = {
+    id = GOT_Story_Country.126
+    title = GOT_Story_Country.126.t
+    desc = GOT_Story_Country.126.d
+    picture = GFX_report_event_GOT_Story_Country126
+
+    trigger = {
+        tag = NWA
+        date > 1937.6.25
+        date < 1937.7.25
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.126.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.126
+                hours = 6
+            }
+        }
+    }
+}
+# Jon Snow Captures Ygritte
+news_event = {
+    id = GOT_Story_News.126
+    title = GOT_Story_News.126.t
+    desc = GOT_Story_News.126.d
+    picture = GFX_news_event_GOT_Story_News126
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.126.a
+    }
+}
+# King's Landing Riots Against Joffrey
+country_event = {
+    id = GOT_Story_Country.127
+    title = GOT_Story_Country.127.t
+    desc = GOT_Story_Country.127.d
+    picture = GFX_report_event_GOT_Story_Country127
+
+    trigger = {
+        tag = CRO
+        date > 1937.6.25
+        date < 1937.7.25
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.127.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.127
+                hours = 6
+            }
+        }
+    }
+}
+# King's Landing Riots Against Joffrey
+news_event = {
+    id = GOT_Story_News.127
+    title = GOT_Story_News.127.t
+    desc = GOT_Story_News.127.d
+    picture = GFX_news_event_GOT_Story_News127
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.127.a
+    }
+}
+# Daenerys Discovers Her Dragons Are Stolen
+country_event = {
+    id = GOT_Story_Country.128
+    title = GOT_Story_Country.128.t
+    desc = GOT_Story_Country.128.d
+    picture = GFX_report_event_GOT_Story_Country128
+
+    trigger = {
+        tag = TAR
+        date > 1937.6.25
+        date < 1937.7.25
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.128.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.128
+                hours = 6
+            }
+        }
+    }
+}
+# Daenerys Discovers Her Dragons Are Stolen
+news_event = {
+    id = GOT_Story_News.128
+    title = GOT_Story_News.128.t
+    desc = GOT_Story_News.128.d
+    picture = GFX_news_event_GOT_Story_News128
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.128.a
+    }
+}
+# Bran and Rickon Stark Escape Winterfell
+country_event = {
+    id = GOT_Story_Country.129
+    title = GOT_Story_Country.129.t
+    desc = GOT_Story_Country.129.d
+    picture = GFX_report_event_GOT_Story_Country129
+
+    trigger = {
+        tag = NOR
+        date > 1937.6.25
+        date < 1937.7.25
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.129.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_political_power = 25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.129
+                hours = 6
+            }
+        }
+    }
+}
+# Bran and Rickon Stark Escape Winterfell
+news_event = {
+    id = GOT_Story_News.129
+    title = GOT_Story_News.129.t
+    desc = GOT_Story_News.129.d
+    picture = GFX_news_event_GOT_Story_News129
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.129.a
+    }
+}
+# Theon Greyjoy Discovers Bran and Rickon's Escape
+country_event = {
+    id = GOT_Story_Country.130
+    title = GOT_Story_Country.130.t
+    desc = GOT_Story_Country.130.d
+    picture = GFX_report_event_GOT_Story_Country130
+
+    trigger = {
+        tag = IRO
+        date > 1937.8.1
+        date < 1937.9.1
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.130.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+		add_war_support = -0.05
+		add_political_power = -25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.130
+                hours = 6
+            }
+        }
+    }
+}
+# Theon Greyjoy Discovers Bran and Rickon's Escape
+news_event = {
+    id = GOT_Story_News.130
+    title = GOT_Story_News.130.t
+    desc = GOT_Story_News.130.d
+    picture = GFX_news_event_GOT_Story_News130
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.130.a
+    }
+}
+# Jon Snow and Qhorin Halfhand Captured by Wildlings
+country_event = {
+    id = GOT_Story_Country.131
+    title = GOT_Story_Country.131.t
+    desc = GOT_Story_Country.131.d
+    picture = GFX_report_event_GOT_Story_Country131
+
+    trigger = {
+        tag = NWA
+        date > 1937.8.1
+        date < 1937.9.1
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.131.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.131
+                hours = 6
+            }
+        }
+    }
+}
+# Jon Snow and Qhorin Halfhand Captured by Wildlings
+news_event = {
+    id = GOT_Story_News.131
+    title = GOT_Story_News.131.t
+    desc = GOT_Story_News.131.d
+    picture = GFX_news_event_GOT_Story_News131
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.131.a
+    }
+}
+# Catelyn Stark's Arrest for Jaime's Release
+country_event = {
+    id = GOT_Story_Country.132
+    title = GOT_Story_Country.132.t
+    desc = GOT_Story_Country.132.d
+    picture = GFX_report_event_GOT_Story_Country132
+
+    trigger = {
+        tag = NOR
+        date > 1937.8.1
+        date < 1937.9.1
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.132.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+		add_war_support = -0.05
+		add_political_power = -25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.132
+                hours = 6
+            }
+        }
+    }
+}
+# Catelyn Stark's Arrest for Jaime's Release
+news_event = {
+    id = GOT_Story_News.132
+    title = GOT_Story_News.132.t
+    desc = GOT_Story_News.132.d
+    picture = GFX_news_event_GOT_Story_News132
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.132.a
+    }
+}
+# Arya Stark Coerces Jaqen H’ghar
+country_event = {
+    id = GOT_Story_Country.133
+    title = GOT_Story_Country.133.t
+    desc = GOT_Story_Country.133.d
+    picture = GFX_report_event_GOT_Story_Country133
+
+    trigger = {
+        tag = NOR
+        date > 1937.8.1
+        date < 1937.9.1
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.133.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.133
+                hours = 6
+            }
+        }
+    }
+}
+# Arya Stark Coerces Jaqen H’ghar
+news_event = {
+    id = GOT_Story_News.133
+    title = GOT_Story_News.133.t
+    desc = GOT_Story_News.133.d
+    picture = GFX_news_event_GOT_Story_News133
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.133.a
+    }
+}
+# Cersei Lannister Tries to Blackmail Tyrion
+country_event = {
+    id = GOT_Story_Country.134
+    title = GOT_Story_Country.134.t
+    desc = GOT_Story_Country.134.d
+    picture = GFX_report_event_GOT_Story_Country134
+
+    trigger = {
+        tag = CRO
+        date > 1937.8.1
+        date < 1937.9.1
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.134.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.134
+                hours = 6
+            }
+        }
+    }
+}
+# Cersei Lannister Tries to Blackmail Tyrion
+news_event = {
+    id = GOT_Story_News.134
+    title = GOT_Story_News.134.t
+    desc = GOT_Story_News.134.d
+    picture = GFX_news_event_GOT_Story_News134
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.134.a
+    }
+}
+# Theon Greyjoy's Deception of Bran and Rickon
+country_event = {
+    id = GOT_Story_Country.135
+    title = GOT_Story_Country.135.t
+    desc = GOT_Story_Country.135.d
+    picture = GFX_report_event_GOT_Story_Country135
+
+    trigger = {
+        tag = IRO
+        date > 1937.9.5
+        date < 1937.10.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.135.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+		add_war_support = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.135
+                hours = 6
+            }
+        }
+    }
+}
+# Theon Greyjoy's Deception of Bran and Rickon
+news_event = {
+    id = GOT_Story_News.135
+    title = GOT_Story_News.135.t
+    desc = GOT_Story_News.135.d
+    picture = GFX_news_event_GOT_Story_News135
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.135.a
+    }
+}
+# Tyrion Plans King's Landing Defense
+country_event = {
+    id = GOT_Story_Country.136
+    title = GOT_Story_Country.136.t
+    desc = GOT_Story_Country.136.d
+    picture = GFX_report_event_GOT_Story_Country136
+
+    trigger = {
+        tag = CRO
+        date > 1937.9.5
+        date < 1937.10.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.136.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_war_support = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.136
+                hours = 6
+            }
+        }
+    }
+}
+# Tyrion Plans King's Landing Defense
+news_event = {
+    id = GOT_Story_News.136
+    title = GOT_Story_News.136.t
+    desc = GOT_Story_News.136.d
+    picture = GFX_news_event_GOT_Story_News136
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.136.a
+    }
+}
+# Cersei Blackmails Tyrion with Ros (Expanded Context)
+country_event = {
+    id = GOT_Story_Country.137
+    title = GOT_Story_Country.137.t
+    desc = GOT_Story_Country.137.d
+    picture = GFX_report_event_GOT_Story_Country137
+
+    trigger = {
+        tag = CRO
+        date > 1937.9.5
+        date < 1937.10.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.137.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.137
+                hours = 6
+            }
+        }
+    }
+}
+# Cersei Blackmails Tyrion with Ros (Expanded Context)
+news_event = {
+    id = GOT_Story_News.137
+    title = GOT_Story_News.137.t
+    desc = GOT_Story_News.137.d
+    picture = GFX_news_event_GOT_Story_News137
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.137.a
+    }
+}
+# Daenerys Refuses to Leave Without Her Dragons
+country_event = {
+    id = GOT_Story_Country.138
+    title = GOT_Story_Country.138.t
+    desc = GOT_Story_Country.138.d
+    picture = GFX_report_event_GOT_Story_Country138
+
+    trigger = {
+        tag = TAR
+        date > 1937.9.5
+        date < 1937.10.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.138.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.138
+                hours = 6
+            }
+        }
+    }
+}
+# Daenerys Refuses to Leave Without Her Dragons
+news_event = {
+    id = GOT_Story_News.138
+    title = GOT_Story_News.138.t
+    desc = GOT_Story_News.138.d
+    picture = GFX_news_event_GOT_Story_News138
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.138.a
+    }
+}
+# Robb Stark Responds to Jaime’s Escape
+country_event = {
+    id = GOT_Story_Country.139
+    title = GOT_Story_Country.139.t
+    desc = GOT_Story_Country.139.d
+    picture = GFX_report_event_GOT_Story_Country139
+
+    trigger = {
+        tag = NOR
+        date > 1937.9.5
+        date < 1937.10.5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.139.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+		add_war_support = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.139
+                hours = 6
+            }
+        }
+    }
+}
+# Robb Stark Responds to Jaime’s Escape
+news_event = {
+    id = GOT_Story_News.139
+    title = GOT_Story_News.139.t
+    desc = GOT_Story_News.139.d
+    picture = GFX_news_event_GOT_Story_News139
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.139.a
+    }
+}
+# Battle of Blackwater
+country_event = {
+    id = GOT_Story_Country.140
+    title = GOT_Story_Country.140.t
+    desc = GOT_Story_Country.140.d
+    picture = GFX_report_event_GOT_Story_Country140
+
+    trigger = {
+        tag = DRA
+        date > 1937.10.10
+        date < 1937.11.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.140.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_war_support = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.140
+                hours = 6
+            }
+        }
+    }
+}
+# Battle of Blackwater
+news_event = {
+    id = GOT_Story_News.140
+    title = GOT_Story_News.140.t
+    desc = GOT_Story_News.140.d
+    picture = GFX_news_event_GOT_Story_News140
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.140.a
+    }
+}
+# Cersei’s Emotional Collapse
+country_event = {
+    id = GOT_Story_Country.141
+    title = GOT_Story_Country.141.t
+    desc = GOT_Story_Country.141.d
+    picture = GFX_report_event_GOT_Story_Country141
+
+    trigger = {
+        tag = CRO
+        date > 1937.10.10
+        date < 1937.11.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.141.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.141
+                hours = 6
+            }
+        }
+    }
+}
+# Cersei’s Emotional Collapse
+news_event = {
+    id = GOT_Story_News.141
+    title = GOT_Story_News.141.t
+    desc = GOT_Story_News.141.d
+    picture = GFX_news_event_GOT_Story_News141
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.141.a
+    }
+}
+# The Hound Abandons the Fight
+country_event = {
+    id = GOT_Story_Country.142
+    title = GOT_Story_Country.142.t
+    desc = GOT_Story_Country.142.d
+    picture = GFX_report_event_GOT_Story_Country142
+
+    trigger = {
+        tag = CRO
+        date > 1937.10.10
+        date < 1937.11.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.142.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.142
+                hours = 6
+            }
+        }
+    }
+}
+# The Hound Abandons the Fight
+news_event = {
+    id = GOT_Story_News.142
+    title = GOT_Story_News.142.t
+    desc = GOT_Story_News.142.d
+    picture = GFX_news_event_GOT_Story_News142
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.142.a
+    }
+}
+# Joffrey’s Cowardice Exposed
+country_event = {
+    id = GOT_Story_Country.143
+    title = GOT_Story_Country.143.t
+    desc = GOT_Story_Country.143.d
+    picture = GFX_report_event_GOT_Story_Country143
+
+    trigger = {
+        tag = CRO
+        date > 1937.10.10
+        date < 1937.11.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.143.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+		add_war_support = -0.05
+		add_political_power = -25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.143
+                hours = 6
+            }
+        }
+    }
+}
+# Joffrey’s Cowardice Exposed
+news_event = {
+    id = GOT_Story_News.143
+    title = GOT_Story_News.143.t
+    desc = GOT_Story_News.143.d
+    picture = GFX_news_event_GOT_Story_News143
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.143.a
+    }
+}
+# Tyrion’s Defense Strategy Shines
+country_event = {
+    id = GOT_Story_Country.144
+    title = GOT_Story_Country.144.t
+    desc = GOT_Story_Country.144.d
+    picture = GFX_report_event_GOT_Story_Country144
+
+    trigger = {
+        tag = CRO
+        date > 1937.10.10
+        date < 1937.11.10
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.144.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_war_support = 0.05
+		army_experience = 5
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.144
+                hours = 6
+            }
+        }
+    }
+}
+# Tyrion’s Defense Strategy Shines
+news_event = {
+    id = GOT_Story_News.144
+    title = GOT_Story_News.144.t
+    desc = GOT_Story_News.144.d
+    picture = GFX_news_event_GOT_Story_News144
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.144.a
+    }
+}
+## Robb Marries Talisa
+country_event = {
+    id = GOT_Story_Country.145
+    title = GOT_Story_Country.145.t
+    desc = GOT_Story_Country.145.d
+    picture = GFX_report_event_GOT_Story_Country145
+
+    trigger = {
+        tag = NOR
+        date > 1937.11.15
+        date < 1937.12.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.145.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+		add_war_support = -0.05
+		add_political_power = -25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.145
+                hours = 6
+            }
+        }
+    }
+}
+## Robb Marries Talisa
+news_event = {
+    id = GOT_Story_News.145
+    title = GOT_Story_News.145.t
+    desc = GOT_Story_News.145.d
+    picture = GFX_news_event_GOT_Story_News145
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.145.a
+    }
+}
+# Joffrey and Margaery Betrothal
+country_event = {
+    id = GOT_Story_Country.146
+    title = GOT_Story_Country.146.t
+    desc = GOT_Story_Country.146.d
+    picture = GFX_report_event_GOT_Story_Country146
+
+    trigger = {
+        tag = CRO
+        date > 1937.11.15
+        date < 1937.12.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.146.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+		add_political_power = 25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.146
+                hours = 6
+            }
+        }
+    }
+}
+# Joffrey and Margaery Betrothal
+news_event = {
+    id = GOT_Story_News.146
+    title = GOT_Story_News.146.t
+    desc = GOT_Story_News.146.d
+    picture = GFX_news_event_GOT_Story_News146
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.146.a
+    }
+}
+# Arya and Jaqen Part Ways
+country_event = {
+    id = GOT_Story_Country.147
+    title = GOT_Story_Country.147.t
+    desc = GOT_Story_Country.147.d
+    picture = GFX_report_event_GOT_Story_Country147
+
+    trigger = {
+        tag = NOR
+        date > 1937.11.15
+        date < 1937.12.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.147.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = 0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.147
+                hours = 6
+            }
+        }
+    }
+}
+# Arya and Jaqen Part Ways
+news_event = {
+    id = GOT_Story_News.147
+    title = GOT_Story_News.147.t
+    desc = GOT_Story_News.147.d
+    picture = GFX_news_event_GOT_Story_News147
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.147.a
+    }
+}
+# Daenerys Faces the Warlocks
+country_event = {
+    id = GOT_Story_Country.148
+    title = GOT_Story_Country.148.t
+    desc = GOT_Story_Country.148.d
+    picture = GFX_report_event_GOT_Story_Country148
+
+    trigger = {
+        tag = TAR
+        date > 1937.11.15
+        date < 1937.12.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.148.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        add_stability = -0.05
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.148
+                hours = 6
+            }
+        }
+    }
+}
+# Daenerys Faces the Warlocks
+news_event = {
+    id = GOT_Story_News.148
+    title = GOT_Story_News.148.t
+    desc = GOT_Story_News.148.d
+    picture = GFX_news_event_GOT_Story_News148
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.148.a
+    }
+}
+# Jon Snow’s Path Beyond the Wall
+country_event = {
+    id = GOT_Story_Country.149
+    title = GOT_Story_Country.149.t
+    desc = GOT_Story_Country.149.d
+    picture = GFX_report_event_GOT_Story_Country149
+
+    trigger = {
+        tag = NWA
+        date > 1937.11.15
+        date < 1937.12.15
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.149.a
+
+        ai_chance = {
+            factor = 10
+        }
+
+        army_experience = 5
+		political_power = 25
+
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.149
+                hours = 6
+            }
+        }
+    }
+}
+# Jon Snow’s Path Beyond the Wall
+news_event = {
+    id = GOT_Story_News.149
+    title = GOT_Story_News.149.t
+    desc = GOT_Story_News.149.d
+    picture = GFX_news_event_GOT_Story_News149
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.149.a
+    }
+}
+
+#Renly Baratheon Declares His Claim to the Throne
+country_event = {
+    id = GOT_Story_Country.150
+    title = GOT_Story_Country.150.t
+    desc = GOT_Story_Country.150.d
+    picture = GFX_report_event_GOT_Story_Country150
+
+    trigger = {
+        tag = STO
+		date > 1937.1.5
+        date < 1937.2.5
+		country_exists = CRO
+		OR = {
+			CRO = {
+				is_subject = no
+			}
+			CRO = {
+				is_subject_of = DRA
+			}
+		}
+		is_subject = no
+		#Obviously not Robert or Himself on the throne for him to make this decision
+		NOT = {
+			CRO = {
+				has_country_leader = {
+					name = "Robert Baratheon"
+					ruling_only = yes
+				}
+			}
+			CRO = {
+				has_country_leader = {
+					name = "Renly Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.150.a
+
+        ai_chance = {
+            factor = 40
+			modifier = {
+				factor = 1.35
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+			}
+			modifier = {
+				factor = 0.6
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+			}
+        }
+
+		add_threat = 10
+        add_stability = -0.05
+        add_political_power = -50
+        add_war_support = 0.05
+		
+		set_country_flag = GOT_Claimed_Iron_Throne_Flag
+		
+		#If Dragonstone is in a faction with the Crownlands, then he leaves
+		if = {
+			limit = {
+				is_in_faction_with = CRO
+			}
+			leave_faction = yes
+		}
+		
+		#Tournament or War Event
+		country_event = {
+                id = GOT_Diplomatic_Country.15
+                hours = 6
+        }
+
+		#Every other country informed of Renly claim
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.150
+                hours = 6
+            }
+        }
+    }
+	
+	option = {
+        name = GOT_Story_Country.150.b
+		
+		trigger = {
+			NOT = {
+				has_war_with = CRO
+			}
+		}
+
+        ai_chance = {
+            factor = 30
+			modifier = {
+				factor = 0.5
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+			}
+			modifier = {
+				factor = 1.4
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        add_stability = 0.05
+        add_political_power = 25
+		
+		set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Stormlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			CRO = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+		
+		#Everyone gets the generic Bend the Knee Event
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.9
+                hours = 6
+            }
+        }
+    }
+	
+	 # Option to bend the knee to Stannis if he's declared himself king
+    option = {
+        name = GOT_Story_Country.150.c
+		
+		ai_chance = {
+            factor = 30
+			modifier = {
+				factor = 1.1
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+			}
+			modifier = {
+				factor = 1.2
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        trigger = {
+			NOT = {
+				has_war_with = DRA
+			}
+			OR = {
+				DRA = {
+					has_country_flag = GOT_Claimed_Iron_Throne_Flag
+				}
+				CRO = {
+					has_country_leader = {
+						name = "Stannis Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+        }
+
+        add_stability = 0.10
+        add_political_power = 50
+
+        set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Stormlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = DRA }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			DRA = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+        # Inform the world that Renly bent the knee to Stannis
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.150
+                hours = 6
+            }
+        }
+    }
+}
+#Renly Baratheon Declares His Claim to the Throne
+news_event = {
+    id = GOT_Story_News.150
+    title = GOT_Story_News.150.t
+    desc = GOT_Story_News.150.d
+    picture = GFX_news_event_GOT_Story_News150
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Story_News.150.a
+    }
 }
