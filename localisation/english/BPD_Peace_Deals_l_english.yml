@@ -1,0 +1,151 @@
+﻿l_english:
+
+ #Decisions
+ 
+BPD_Peace_Deal_Manager:0 "Royal Council of Peace"
+BPD_Peace_Deal_Manager_desc:0 "Convene the Royal Council to determine the terms of peace in times of war. Through this sacred assembly, you may dispatch envoys to propose truces, demand tribute, reclaim rightful lands, or confirm control of contested realms. Wield the authority of your crown to forge a lasting accord or press your enemies into submission.\n§YDecisions are only available during times of war.§!\n§YYou may dispatch but one peace envoy per moon.§!"
+
+show_hide_peace_decisions:0 "Reveal/Conceal Realm Peace Proposals"
+
+ 
+BPD_demand_surrender_td_attacker:0 "Total Conquest of [FROM.GetName]"
+BPD_demand_surrender_td_attacker_desc:0 "Our banners fly high and the foe is weakened. It is time to summon their envoys and demand full submission. Should [FROM.GetAdjective] lords yield, all lands under our banners—along with those we rightfully claim—shall be sworn to our crown. This is no mere truce, but a reckoning to carve our name into history. Yet should [FROM.GetLeader] resist, the fires of war shall rage anew, fiercer than before."
+
+BPD_restore_status_quo_td_attacker:0 "Propose a White Peace to [FROM.GetName]"
+BPD_restore_status_quo_td_attacker_desc:0 "Send a missive to [FROM.GetName], proposing a return to the ways of old, before the clashing of swords began. This accord would see all lands and holdings restored to their rightful lords as they stood before war's dawn—an end to bloodshed without victor or vanquished."
+
+BPD_secure_our_claims_td_attacker:0 "Press Our Claims Against [FROM.GetName]"
+BPD_secure_our_claims_td_attacker_desc:0 "Dispatch emissaries to [FROM.GetName], demanding surrender of lands that by law, blood, or divine right belong to us. We seek not their utter ruin, but only that which is ours by ancestral claim or rightful inheritance. Let them yield, and the war may end swiftly and honorably."
+
+BPD_peace_current_borders_td_attacker:0 "Propose Peace at the Current Frontiers"
+BPD_peace_current_borders_td_attacker_desc:0 "Offer to end the war with borders fixed as they now lie. The clash of steel has led to a deadlock, and further blood may be spilled to no avail. Let both realms recognize the lines drawn in battle as the new order of things, and thus bring the swords to rest."
+
+BPD_secure_our_claims_td_loser:0 "Cede Claims to [FROM.GetName]"
+BPD_secure_our_claims_td_loser_desc:0 "In hopes of ending this ruinous war, offer to yield to the demands of [FROM.GetName] by granting them the lands they claim. Though it wounds our pride, such a concession may yet save our realm from greater suffering."
+
+BPD_total_surrender_td_loser:0 "Bend the Knee to [FROM.GetName]"
+BPD_total_surrender_td_loser_desc:0 "In face of certain defeat, send word of our total submission to [FROM.GetName]. We shall relinquish all lands seized by their armies, as well as any they claim by right or heritage. This act, though bitter, may spare our people from further misery and bring peace to a realm bathed in blood."
+
+BPD_War_Longer_Than_6_tt:0 "Has warred with §Y[FROM.GetName]§! for over §Ysix moons§!"
+
+
+ #Events
+ 
+ BPD_Better_Peace_Deals_Country.x.t:0 ""
+ BPD_Better_Peace_Deals_Country.x.d:0 ""
+ BPD_Better_Peace_Deals_Country.x.a:1 "OK"
+ 
+ BPD_Better_Peace_Deals_Country.1.t:0 "[FROM.GetName] Seeks a Return to the Old Borders"
+ BPD_Better_Peace_Deals_Country.1.d:0 "A rider has arrived from the court of [FROM.GetName], bearing a sealed scroll with [FROM.GetLeader]'s crest. Within, [FROM.GetLeader] proposes a cessation of hostilities and a return to the lands held by each realm before war was declared. Though many have perished and blood has soaked the soil, [FROM.GetName] argues that no decisive blow has been struck. They bid us restore the old borders and end the strife ere more lives are lost in vain. Shall we accept this missive of peace, or raise the banners once more?"
+ BPD_Better_Peace_Deals_Country.1.a:1 "We accept—let the swords rest."
+ BPD_Better_Peace_Deals_Country.1.b:1 "Let them come—we fight on."
+
+ BPD_Better_Peace_Deals_Country.2.t:0 "[FROM.GetName] Demands Our Lands"
+ BPD_Better_Peace_Deals_Country.2.d:0 "An envoy bearing [FROM.GetLeader]'s banner has come before our court, demanding lands that [FROM.GetName] claims by right of blood and history. These lands, they say, are theirs by ancient claim and sacred oath. While they offer peace in return, accepting would see our realm diminished. Do we bow to their demands in the name of peace, or steel ourselves for further war?"
+ BPD_Better_Peace_Deals_Country.2.a:1 "Let them have what they claim—peace is worth the price."
+ BPD_Better_Peace_Deals_Country.2.b:1 "Never—we shall not yield an inch of our soil."
+
+ BPD_Better_Peace_Deals_Country.3.t:0 "[FROM.GetName] Seeks Peace on the Present Borders"
+ BPD_Better_Peace_Deals_Country.3.d:0 "A herald of [FROM.GetName] has arrived under a flag of truce. Their lord proposes to end this bitter war by making peace along the current lines of control. [FROM.GetLeader] claims further bloodshed is senseless, and that both our realms would benefit from peace. Accepting would grant them all they now hold. The question lies heavy before us: do we accept this offer, or continue our campaign?"
+ BPD_Better_Peace_Deals_Country.3.a:1 "Let us end it here—the lands they hold are theirs."
+ BPD_Better_Peace_Deals_Country.3.b:1 "No peace until all is reclaimed."
+
+ BPD_Better_Peace_Deals_Country.4.t:0 "[FROM.GetName] Demands Our Surrender"
+ BPD_Better_Peace_Deals_Country.4.d:0 "A grim ultimatum has reached us from [FROM.GetLeader]. With sword in hand and fire at our gates, they demand our total surrender—our castles, our towns, and our lands. They will accept nothing less than complete submission, and offer us no quarter. Shall we bend the knee, or stand proud until our last breath?"
+ BPD_Better_Peace_Deals_Country.4.a:1 "We yield—better a broken peace than a ruined realm."
+ BPD_Better_Peace_Deals_Country.4.b:1 "We shall never kneel—death before dishonor!"
+
+ BPD_Better_Peace_Deals_Country.5.t:0 "[FROM.GetName] Offers Us Lands for Peace"
+ BPD_Better_Peace_Deals_Country.5.d:0 "A missive has come from [FROM.GetLeader], offering us land we claim as rightfully ours. In exchange, they seek an end to the war. It is a rare gesture, showing their desperation—or wisdom. Accepting would bring our people new lands and an end to bloodshed. Will we take what is offered, or press our advantage further?"
+ BPD_Better_Peace_Deals_Country.5.a:1 "We accept their offer and the land with it."
+ BPD_Better_Peace_Deals_Country.5.b:1 "We want more—this war is not yet done."
+
+ BPD_Better_Peace_Deals_Country.6.t:0 "[FROM.GetName] Offers Their Surrender"
+ BPD_Better_Peace_Deals_Country.6.d:0 "With sword arm weary and banners tattered, [FROM.GetName] offers surrender. They cede to us all they hold, and even the lands we have long claimed. [FROM.GetLeader] seeks to halt the march of war and begs us to accept their terms. Shall we take their lands and end the war—or march further still?"
+ BPD_Better_Peace_Deals_Country.6.a:1 "We accept—they shall kneel."
+ BPD_Better_Peace_Deals_Country.6.b:1 "We shall take everything—no mercy."
+
+ 
+BPD_Better_Peace_Deals_Country.7.t:0 "[FROM.GetName] Accepts the Offer of Peace"
+BPD_Better_Peace_Deals_Country.7.d:0 "It has been agreed by [FROM.GetName] to [ROOT.GetName]'s proposal for a peace wherein both sides shall return to the borders held before the strife. The conflict thus ends, and peace shall reign once more, as all things are restored to their former state. The warring of our nations ceases, and the banner of tranquility now flies in place of the banners of battle."
+BPD_Better_Peace_Deals_Country.7.a:1 "A joyous peace has been struck."
+
+BPD_Better_Peace_Deals_Country.8.t:0 "[FROM.GetName] Declines the Offer of Peace"
+BPD_Better_Peace_Deals_Country.8.d:0 "[FROM.GetName] has rejected [ROOT.GetName]'s offer to restore the lands to what they were ere the conflict. Thus, the war doth endure, for neither side is willing to yield. [FROM.GetLeader] may see this as a chance to press further, whilst [ROOT.GetLeader] must prepare for the trials of continued conflict."
+BPD_Better_Peace_Deals_Country.8.a:1 "The War Endures..."
+
+BPD_Better_Peace_Deals_Country.9.t:0 "[FROM.GetName] Accepts the Offer of Peace"
+BPD_Better_Peace_Deals_Country.9.d:0 "It has been accepted by [FROM.GetName] that the lands claimed by [ROOT.GetName] shall be ceded, bringing an end to the war. The proposed territories shall now belong to [ROOT.GetName], marking a shift in the balance of the realm. With this accord, the fighting shall cease and peace shall settle once more."
+BPD_Better_Peace_Deals_Country.9.a:1 "A fair settlement has been made."
+
+BPD_Better_Peace_Deals_Country.10.t:0 "[FROM.GetName] Declines the Offer of Peace"
+BPD_Better_Peace_Deals_Country.10.d:0 "[FROM.GetName] has refused to yield the lands we demanded. Now [ROOT.GetLeader] must choose: shall they continue the war, or accept the unyielding spirit of their foes? The path ahead may lead to more bloodshed, and both must prepare for the coming battles."
+BPD_Better_Peace_Deals_Country.10.a:1 "The War Endures..."
+
+BPD_Better_Peace_Deals_Country.11.t:0 "[FROM.GetName] Accepts the Offer of Peace"
+BPD_Better_Peace_Deals_Country.11.d:0 "[FROM.GetName] has agreed to [ROOT.GetName]'s peace, based upon the present state of the frontlines. The borders now drawn shall stand as the new peace, and the conflict ends with the lands held as they are. Hostilities shall cease, and our lands shall know no more strife."
+BPD_Better_Peace_Deals_Country.11.a:1 "A new peace is wrought."
+
+BPD_Better_Peace_Deals_Country.12.t:0 "[FROM.GetName] Declines the Offer of Peace"
+BPD_Better_Peace_Deals_Country.12.d:0 "[FROM.GetName] has rejected [ROOT.GetName]'s offer to end the war and set the frontiers as they stand. The war thus continues, as neither side shall relent. [FROM.GetLeader] may strive to gain further, whilst [ROOT.GetLeader] prepares for more bloodshed."
+BPD_Better_Peace_Deals_Country.12.a:1 "The War Endures..."
+
+BPD_Better_Peace_Deals_Country.13.t:0 "[FROM.GetName] Surrenders"
+BPD_Better_Peace_Deals_Country.13.d:0 "[FROM.GetName] has surrendered to the demands of [ROOT.GetName], agreeing to cease all hostilities and surrender any lands held by force. [FROM.GetAdjective] forces shall lay down their arms, and the lands of [FROM.GetName] shall be given to [ROOT.GetName]. With this, the conflict is ended, though the lands taken by force shall remain with [ROOT.GetName]."
+BPD_Better_Peace_Deals_Country.13.a:1 "A bitter peace has been wrought."
+
+BPD_Better_Peace_Deals_Country.14.t:0 "[FROM.GetName] Refuses To Surrender"
+BPD_Better_Peace_Deals_Country.14.d:0 "[FROM.GetName] has refused to bow to the demands of [ROOT.GetName], unwilling to surrender their lands and accept the new borders. [FROM.GetLeader] doth claim victory is yet within their grasp, and thus the war shall continue, with both sides girding for further and harsher struggle."
+BPD_Better_Peace_Deals_Country.14.a:1 "The War Endures..."
+
+ 
+BPD_Better_Peace_Deals_Country.15.t:0 "[FROM.GetName] Accepts the Peace Agreement"
+BPD_Better_Peace_Deals_Country.15.d:0 "[FROM.GetName] has accepted [ROOT.GetName]'s proposal for the cession of lands. The promised territories shall be yielded, bringing an end to the strife, with [FROM.GetName] gaining dominion over the land. This accord signifies a great change in the realm’s borders, and the hostilities shall now cease."
+BPD_Better_Peace_Deals_Country.15.a:1 "Good Fortune"
+
+BPD_Better_Peace_Deals_Country.16.t:0 "[FROM.GetName] Declines the Peace Offering"
+BPD_Better_Peace_Deals_Country.16.d:0 "[FROM.GetName] has rejected [ROOT.GetName]'s offer of territorial exchange. The war shall endure, as both sides remain at odds. [FROM.GetLeader] doth press forward with the campaign, whilst [ROOT.GetLeader] may consider further measures to end the conflict."
+BPD_Better_Peace_Deals_Country.16.a:1 "The Struggle Continues..."
+
+BPD_Better_Peace_Deals_Country.17.t:0 "[FROM.GetName] Accepts Our Surrender"
+BPD_Better_Peace_Deals_Country.17.d:0 "[FROM.GetName] has agreed to [ROOT.GetName]'s terms of surrender. The present borders shall now be recognized, and all lands held or claimed by [FROM.GetName] shall be surrendered unto them. Thus, the war doth come to its end, but at the heavy cost of great territorial loss. Our defeat is now sealed, and we must endure the consequences."
+BPD_Better_Peace_Deals_Country.17.a:1 "We Had No Choice..."
+
+BPD_Better_Peace_Deals_Country.18.t:0 "[FROM.GetName] Declines Our Surrender"
+BPD_Better_Peace_Deals_Country.18.d:0 "[FROM.GetName] has refused [ROOT.GetName]'s offer of surrender, rejecting peace on the present frontiers. [FROM.GetLeader] is unsatisfied with the terms and doth seek to continue the war, striving for further gains. The conflict shall carry on, as neither side is willing to settle the present dispute. [ROOT.GetLeader] must now brace for renewed strife."
+BPD_Better_Peace_Deals_Country.18.a:1 "The Struggle Continues..."
+
+BPD_Better_Peace_Deals_Country.90.t:0 "[FROM.GetName] Accepts the Peace Agreement"
+BPD_Better_Peace_Deals_Country.90.d:0 "[FROM.GetName] has accepted our faction leader's demand for the surrender of territories. The lands shall be yielded, and thus, the war shall end, with [ROOT.GetName] taking possession of the claimed regions. This pact marks a notable change in the realm’s borders, bringing the hostilities to an end."
+BPD_Better_Peace_Deals_Country.90.a:1 "Good Fortune"
+
+BPD_Better_Peace_Deals_Country.101.t:0 "[FROM.GetName] Signs the Ceasefire"
+BPD_Better_Peace_Deals_Country.101.d:0 "Our faction leader has agreed to [FROM.GetName]'s proposal for peace based on the present borders. The gains and losses of territories are now formalized, ending the conflict, and the present borders shall stand as the new order. The hostilities between our realms are now at an end."
+BPD_Better_Peace_Deals_Country.101.a:1 "Good Fortune"
+
+BPD_Better_Peace_Deals_Country.110.t:0 "[FROM.GetName] Accepts the Peace Agreement"
+BPD_Better_Peace_Deals_Country.110.d:0 "[FROM.GetName] has agreed to our faction leader's proposal for peace, based upon the present frontlines. The boundaries, once shifting, now stand firm, and with this agreement, the war shall cease. The hostilities between our realms are now at an end."
+BPD_Better_Peace_Deals_Country.110.a:1 "Good Fortune"
+
+BPD_Better_Peace_Deals_Country.131.t:0 "[FROM.GetName] Surrenders"
+BPD_Better_Peace_Deals_Country.131.d:0 "[FROM.GetName] has agreed to our faction leader's demand for surrender. The terms dictate that [FROM.GetAdjective] forces shall cease all hostilities and relinquish dominion over any occupied lands. Any territories claimed or held by [ROOT.GetName] shall be surrendered, marking a notable shift in the realm's borders. The war doth end, but at the cost of yielding much to [ROOT.GetAdjective] demands."
+BPD_Better_Peace_Deals_Country.131.a:1 "Good Fortune"
+
+ 
+ BPD_Better_Peace_Deals_Country.171.t:0 "[FROM.GetName] Accepts Our Surrender"
+BPD_Better_Peace_Deals_Country.171.d:0 "[FROM.GetName] has agreed to our faction leader's terms of surrender. The present frontiers shall now be recognized as the new borders, and all lands claimed or held by [FROM.GetName] shall be yielded unto them. Thus, with this solemn accord, the war is brought to its end, yet at the heavy cost of great territorial sacrifice on our part. Our defeat is now sealed, and we must endure the consequences."
+BPD_Better_Peace_Deals_Country.171.a:1 "We Had No Choice..."
+
+BPD_Better_Peace_Deals_Country.151.t:0 "[FROM.GetName] Signs the Ceasefire"
+BPD_Better_Peace_Deals_Country.151.d:0 "Our faction leader has accepted [FROM.GetName]'s proposal for the cession of lands. The agreed-upon territories shall be surrendered, ending the strife with [ROOT.GetName] gaining dominion over the land. This accord doth mark a significant change in the borders of the realms and bringeth the hostilities to their conclusion."
+BPD_Better_Peace_Deals_Country.151.a:1 "Good Fortune"
+
+ BPD_Better_Peace_Deals_Country.1001.t:0 "AI Acceptance of Peace Deals"
+ BPD_Better_Peace_Deals_Country.1001.d:0 "Adjust how the AI evaluates and responds to peace deals in your game.\nChoose the setting that best fits your preferred level of challenge and realism.\n\n- **AI Carefully Weighs Options**: With this option, the AI evaluates peace deals based on a range of strategic factors, making its decisions more nuanced and reflective of the broader context of the war. This setting provides a realistic and challenging gameplay experience, where each peace deal can significantly influence the outcome of the conflict.\n\n- **AI Increased Chance to Accept**: This setting gives the AI more of an equal (50-50) chance of either accepting or declining peace deals.\n\n- **AI Always Accepts Peace Deals**: Selecting this option ensures that the AI will accept any peace deal offered. This simplifies the peace negotiation process and brings a swift conclusion to wars, making it ideal for players who prefer a more straightforward and less challenging experience.\n\n- **AI Never Accepts Peace Deals**: This option ensures the AI will always refuse peace deals, which can be useful in multiplayer games where players want to negotiate peace without worrying about AI exploits. The AI will continue fighting until one side is decisively defeated, ensuring an intense, prolonged conflict."
+ BPD_Better_Peace_Deals_Country.1001.a:0 "AI Carefully Weighs Options"
+ BPD_Better_Peace_Deals_Country.1001.b:0 "AI Increased Chance to Accept"
+ BPD_Better_Peace_Deals_Country.1001.c:0 "AI Always Accepts Peace Deals"
+ BPD_Better_Peace_Deals_Country.1001.e:0 "AI Never Accepts Peace Deals"
+ 
+BPD_Peace_Cooldown:0 "Initiated Peace Negotiations"
+BPD_Peace_Cooldown_desc:0 "The country has formally initiated peace talks with its adversaries. Diplomatic channels are now focused on the ongoing negotiations, preventing any further proposals for the next 30 days as both sides assess their positions and prepare for future offers."

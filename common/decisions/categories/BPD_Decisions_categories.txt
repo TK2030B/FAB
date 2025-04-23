@@ -1,0 +1,16 @@
+
+BPD_Peace_Deal_Manager = {
+	picture = GFX_decision_cat_BPD_Peace_Deal_Manager
+	icon = eng_move_to_secure_the_dominions
+	
+	#Medium Priority so it doesn't obscure other decisions
+	priority = {
+		base = 500
+	}
+
+	allowed = {
+	}
+
+	visible = {
+	}
+}

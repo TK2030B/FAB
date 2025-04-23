@@ -1,0 +1,423 @@
+BPD_Peace_Deal_Manager = {
+
+	show_hide_peace_decisions = {
+        priority = 100
+        visible = { always = yes }
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        complete_effect = { 
+            if = {
+                limit = { has_country_flag = show_peace_decisions }
+                clr_country_flag = show_peace_decisions
+            }
+            else = {
+                set_country_flag = show_peace_decisions
+            }
+        }
+    }
+	
+	BPD_demand_surrender_td_attacker = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			NOT = { has_country_flag = show_peace_decisions }
+			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
+        }
+        target_trigger = {
+            FROM = {
+                has_war_with = ROOT
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+            }
+        }
+        cost = 25
+		modifier = { }
+		#days_re_enable = 30
+		#days_remove = 30
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+		
+			NOT = { has_idea = BPD_Peace_Cooldown }
+		
+			surrender_progress < 0.1
+		
+			OR = {
+				is_in_faction = no
+				is_faction_leader = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = BPD_War_Longer_Than_6_tt
+				war_length_with = {
+					tag = FROM
+					months > 5
+				}
+			}
+			
+			OR = {
+				FROM = { 
+				surrender_progress > 0.69 
+				}
+				any_country = {
+						is_major = yes
+						has_war_with = ROOT
+						is_in_faction_with = FROM
+						has_capitulated = yes
+					}
+			}
+
+        }
+		complete_effect = {
+			#set_country_flag = BPD_Peace_Deal_Cooldown
+			FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.4 hours = 6 } }
+			add_timed_idea = {
+				idea = BPD_Peace_Cooldown
+				days = 30
+			}
+		}
+		#remove_effect = {
+		#	clr_country_flag = BPD_Peace_Deal_Cooldown
+		#}
+    }
+	
+	BPD_secure_our_claims_td_attacker = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			NOT = { has_country_flag = show_peace_decisions }
+			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
+        }
+        target_trigger = {
+            FROM = {
+                has_war_with = ROOT
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+            }
+        }
+        cost = 25
+		modifier = { }
+		#days_re_enable = 30
+		#days_remove = 30
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+		
+			NOT = { has_idea = BPD_Peace_Cooldown }
+		
+			surrender_progress < 0.1
+		
+			OR = {
+				is_in_faction = no
+				is_faction_leader = yes
+			}
+		
+			custom_trigger_tooltip = {
+				tooltip = BPD_War_Longer_Than_6_tt
+				war_length_with = {
+					tag = FROM
+					months > 5
+				}
+			}
+			
+				OR = {
+					FROM = { 
+					surrender_progress > 0.34
+					}
+					any_country = {
+						is_major = yes
+						has_war_with = ROOT
+						is_in_faction_with = FROM
+						has_capitulated = yes
+					}
+				}
+
+        }
+		complete_effect = {
+			#set_country_flag = BPD_Peace_Deal_Cooldown
+			FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.2 hours = 6 } }
+			add_timed_idea = {
+				idea = BPD_Peace_Cooldown
+				days = 30
+			}
+		}
+		#remove_effect = {
+		#	clr_country_flag = BPD_Peace_Deal_Cooldown
+		#}
+    }
+	
+	BPD_peace_current_borders_td_attacker = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			NOT = { has_country_flag = show_peace_decisions }
+			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
+        }
+        target_trigger = {
+            FROM = {
+                has_war_with = ROOT
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+            }
+        }
+        cost = 25
+		modifier = { }
+		#days_re_enable = 30
+		#days_remove = 30
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+		
+			NOT = { has_idea = BPD_Peace_Cooldown }
+		
+			surrender_progress < 0.5
+		
+			OR = {
+				is_in_faction = no
+				is_faction_leader = yes
+			}
+		
+			custom_trigger_tooltip = {
+				tooltip = BPD_War_Longer_Than_6_tt
+				war_length_with = {
+					tag = FROM
+					months > 5
+				}
+			}
+
+        }
+		complete_effect = {
+			#set_country_flag = BPD_Peace_Deal_Cooldown
+			FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.3 hours = 6 } }
+			add_timed_idea = {
+				idea = BPD_Peace_Cooldown
+				days = 30
+			}
+		}
+		#remove_effect = {
+		#	clr_country_flag = BPD_Peace_Deal_Cooldown
+		#}
+    }
+
+	BPD_restore_status_quo_td_attacker = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			NOT = { has_country_flag = show_peace_decisions }
+			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
+        }
+        target_trigger = {
+            FROM = {
+                has_war_with = ROOT
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+            }
+        }
+        cost = 25
+		modifier = { }
+		#days_re_enable = 30
+		#days_remove = 30
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+		
+		NOT = { has_idea = BPD_Peace_Cooldown }
+		
+		surrender_progress < 0.5
+		
+			OR = {
+				is_in_faction = no
+				is_faction_leader = yes
+			}
+		
+			custom_trigger_tooltip = {
+				tooltip = BPD_War_Longer_Than_6_tt
+				war_length_with = {
+					tag = FROM
+					months > 5
+				}
+			}
+
+        }
+		complete_effect = {
+			#set_country_flag = BPD_Peace_Deal_Cooldown
+			FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.1 hours = 6 } }
+			add_timed_idea = {
+				idea = BPD_Peace_Cooldown
+				days = 30
+			}
+		}
+		#remove_effect = {
+		#	clr_country_flag = BPD_Peace_Deal_Cooldown
+		#}
+    }
+	
+	BPD_secure_our_claims_td_loser = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			NOT = { has_country_flag = show_peace_decisions }
+			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
+        }
+        target_trigger = {
+            FROM = {
+                has_war_with = ROOT
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+            }
+        }
+        cost = 25
+		modifier = { }
+		#days_re_enable = 30
+		#days_remove = 30
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+		
+			NOT = { has_idea = BPD_Peace_Cooldown }
+		
+			surrender_progress < 0.7
+		
+			OR = {
+				is_in_faction = no
+				is_faction_leader = yes
+			}
+		
+			OR = {
+				has_defensive_war_with = FROM
+				custom_trigger_tooltip = {
+					tooltip = BPD_War_Longer_Than_6_tt
+					war_length_with = {
+						tag = FROM
+						months > 5
+					}
+				}
+			}
+
+        }
+		complete_effect = {
+			#set_country_flag = BPD_Peace_Deal_Cooldown
+			FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.5 hours = 6 } }
+			add_timed_idea = {
+				idea = BPD_Peace_Cooldown
+				days = 30
+			}
+		}
+		#remove_effect = {
+		#	clr_country_flag = BPD_Peace_Deal_Cooldown
+		#}
+    }
+	
+	BPD_total_surrender_td_loser = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			NOT = { has_country_flag = show_peace_decisions }
+			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
+        }
+        target_trigger = {
+            FROM = {
+                has_war_with = ROOT
+				OR = {
+					is_in_faction = no
+					is_faction_leader = yes
+				}
+            }
+        }
+        cost = 25
+		modifier = { }
+		#days_re_enable = 30
+		#days_remove = 30
+		
+		ai_will_do = {
+			factor = 0
+		}
+
+        available = {
+		
+			NOT = { has_idea = BPD_Peace_Cooldown }
+		
+			OR = {
+				is_in_faction = no
+				is_faction_leader = yes
+			}
+		
+			OR = {
+				has_defensive_war_with = FROM
+				custom_trigger_tooltip = {
+					tooltip = BPD_War_Longer_Than_6_tt
+					war_length_with = {
+						tag = FROM
+						months > 5
+					}
+				}
+			}
+
+        }
+		complete_effect = {
+			#set_country_flag = BPD_Peace_Deal_Cooldown
+			FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.6 hours = 6 } }
+			add_timed_idea = {
+				idea = BPD_Peace_Cooldown
+				days = 30
+			}
+		}
+		#remove_effect = {
+		#	clr_country_flag = BPD_Peace_Deal_Cooldown
+		#}
+    }
+	
+
+	
+}
