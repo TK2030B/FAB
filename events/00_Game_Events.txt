@@ -54,6 +54,8 @@ country_event = {
 		
 		#country_event = { id = Game_Event.8 }
 		
+		country_event = { id = BPD_Better_Peace_Deals_Country.1001 }
+		
 	}
 	
 	option = {
@@ -79,6 +81,8 @@ country_event = {
 		}
 		
 		#country_event = { id = Game_Event.8 }
+		
+		country_event = { id = BPD_Better_Peace_Deals_Country.1001 }
 		
 	}
 }
