@@ -1,6 +1,6 @@
 state={
-	id=340
-	name="STATE_340"
+	id=40
+	name="STATE_40"
 
 	history={
 		owner = SOT
@@ -23,7 +23,7 @@ state={
 	}
 	
 	provinces={
-		149 422 651 1028 1071 1343 1347 1459 1917 1947 3180 3184 3195
+		27 212 395 600 691 1101 1423 2039 2240 3182
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
