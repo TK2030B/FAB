@@ -1,0 +1,21 @@
+division_template = {
+	name = "Theons Raiders"
+	division_names_group = IRO_castles_garrison
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Theon's Batallion"
+		location = 237
+		division_template = "Theons Raiders"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+
+}

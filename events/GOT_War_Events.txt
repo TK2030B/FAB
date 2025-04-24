@@ -56,3 +56,54 @@ country_event = {
 	}
 
 }
+
+#Invasion of the North
+	id = GOT_Wars_Country.3
+	title = GOT_Wars_Country.3.t
+	desc = GOT_Wars_Country.3.d
+	picture = GFX_report_event_Iron_Fleet
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Wars_Country.3.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		if = {
+			limit = {
+				IRO = { is_ai = yes }
+			}
+			load_oob = IRO_North_Invasion	
+		}
+		
+		add_war_support = 0.05
+		army_experience = 5
+		navy_experience = 5
+			
+	}
+
+}
+
+#Iron Invasion of Blackwater Imminent!
+country_event = {
+	id = GOT_Wars_Country.4
+	title = GOT_Wars_Country.4.t
+	desc = GOT_Wars_Country.4.d
+	picture = GFX_report_event_Iron_Fleet
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Wars_Country.4.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_war_support = 0.1
+
+	}
+
+}

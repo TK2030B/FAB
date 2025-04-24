@@ -59,7 +59,7 @@ GOT_Game_Decisions = {
 			}
 		}
 
-		days_remove = 9
+		days_remove = 14
 
 		complete_effect = {
 			set_country_flag = EW_Operation
@@ -75,6 +75,152 @@ GOT_Game_Decisions = {
 					} 
 				}
 				country_event = { id = GOT_Wars_Country.2 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	IRO_invasion_of_the_north = {
+		icon = generic_army_support
+
+		available = { 
+			tag = IRO
+			date > 1937.1.1
+			date < 1938.5.20
+			surrender_progress < 0.1
+			has_war_with = NOR
+			NOT = { has_country_flag = EW_Ironborn_Invasion }
+		}
+		
+		allowed = {
+			tag = IRO
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_country_flag = EW_Ironborn_Invasion }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = NOR
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = RIV
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1937.4.8
+			}
+		}
+
+		days_remove = 14
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			set_country_flag = EW_Ironborn_Invasion
+			IRO = {
+				country_event = { id = GOT_Wars_Country.3 days = 1 random_days = 7 }	
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = NOR
+						is_in_faction_with = NOR
+					} 
+				}
+				country_event = { id = GOT_Wars_Country.4 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	IRO_invasion_of_winterfell = {
+		icon = generic_army_support
+
+		available = { 
+			tag = IRO
+			date > 1937.1.1
+			date < 1938.6.25
+			surrender_progress < 0.1
+			has_war_with = NOR
+			has_country_flag = GOT_Theon_Returns_Flag
+			NOT = { has_country_flag = EW_Ironborn_Invasion_Winterfell }
+			
+			any_state = {
+				is_controlled_by = IRO
+				is_core_of = NOR
+			}
+			
+		}
+		
+		allowed = {
+			tag = IRO
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_country_flag = EW_Ironborn_Invasion_Winterfell }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = NOR
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = RIV
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1937.6.25
+			}
+		}
+
+		days_remove = 14
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			set_country_flag = EW_Ironborn_Invasion_Winterfell
+			IRO = {
+				country_event = { id = GOT_Story_Country.125 hours = 6 }	
 			}
 		}
 		
