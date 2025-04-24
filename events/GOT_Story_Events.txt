@@ -3914,14 +3914,9 @@ country_event = {
 		}
 		
 		#Everyone gets the generic Bend the Knee Event
-        every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.9
-                hours = 6
-            }
+        news_event = {
+			id = GOT_Diplomatic_News.9
+			hours = 6
         }
     }
 	
@@ -3992,14 +3987,9 @@ country_event = {
 		}
 
         # Inform the world that Stannis bent the knee to Renly
-        every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.12
-                hours = 6
-            }
+        news_event = {
+			id = GOT_Diplomatic_News.12
+			hours = 6
         }
     }
 }
@@ -4203,7 +4193,7 @@ country_event = {
     trigger = {
         tag = NOR
         date > 1937.2.5
-        date < 1937.3.5
+        date < 1938.2.5
 		has_war_with = WES
 		NOT = {
 			has_war_with = IRO
@@ -5165,14 +5155,9 @@ country_event = {
 		}
 
         # Inform the world that Renly bent the knee to Stannis
-        every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.11
-                hours = 6
-            }
+        news_event = {
+			id = GOT_Diplomatic_News.11
+			hours = 6
         }
 		
 		every_other_country = {
@@ -5411,14 +5396,9 @@ country_event = {
 		}
 		
 		#Everyone gets the generic Bend the Knee Event
-        every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.9
-                hours = 6
-            }
+        news_event = {
+			id = GOT_Diplomatic_News.9
+			hours = 6
         }
 		
 		every_other_country = {
@@ -7119,14 +7099,9 @@ country_event = {
 		}
 		
 		#Everyone gets the generic Bend the Knee Event
-        every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.9
-                hours = 6
-            }
+        news_event = {
+			id = GOT_Diplomatic_News.9
+			hours = 6
         }
     }
 	
@@ -7197,14 +7172,9 @@ country_event = {
 		}
 
         # Inform the world that Renly bent the knee to Stannis
-        every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.11
-                hours = 6
-            }
+        news_event = {
+			id = GOT_Diplomatic_News.11
+			hours = 6
         }
     }
 }

@@ -324,6 +324,20 @@ country_event = {
 			}
 		}
 		
+		if = {
+			limit = {
+				country_exists = WES
+				NOT = { has_war_with = WES }
+				WES = { has_war_with = RIV }
+				GOT_Lannister_Is_King = yes
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = WES
+				expire = 365
+			}
+		}
+		
 		add_war_support = 0.10
 		add_threat = 10
 		
@@ -1573,14 +1587,9 @@ country_event = {
 			logistics_skill = 2
 		}
 		
-		every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.12
-                hours = 6
-            }
+		news_event = {
+			id = GOT_Diplomatic_News.12
+			hours = 6
         }
 		
     }
@@ -1705,14 +1714,9 @@ country_event = {
 		}
 
         # Inform the world that the knee to Stannis
-        every_other_country = {
-            limit = {
-                exists = yes
-            }
-            news_event = {
-                id = GOT_Diplomatic_News.11
-                hours = 6
-            }
+        news_event = {
+			id = GOT_Diplomatic_News.11
+			hours = 6
         }
 
     }
@@ -1947,6 +1951,7 @@ news_event = {
 	picture = GFX_news_event_iron_throne
 
 	is_triggered_only = yes
+	major = yes
 
 	option = {
 		name = GOT_Diplomatic_News.9.a
@@ -1973,6 +1978,7 @@ news_event = {
 	picture = GFX_news_event_iron_throne
 
 	is_triggered_only = yes
+	major = yes
 
 	option = {
 		name = GOT_Diplomatic_News.11.a
@@ -1986,6 +1992,7 @@ news_event = {
 	picture = GFX_news_event_iron_throne
 
 	is_triggered_only = yes
+	major = yes
 
 	option = {
 		name = GOT_Diplomatic_News.12.a

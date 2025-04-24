@@ -694,14 +694,14 @@ GOT_Story_News.55.a: "Will the Khal's horde survive this blow?"
 ##########
 
 #1. Tyrion Arrives in King's Landing as Hand of the King
-GOT_Story_Country.100.t: "Tyrion Lannister has arrived in King's Landing to assume his role as Hand of the King."
+GOT_Story_Country.100.t: "Tyrion arrives in King's Landing"
 GOT_Story_Country.100.d: "The news of Tyrion's appointment spreads throughout the capital. His arrival causes a stir, especially among Cersei's supporters. The relationship between the two is already tense, as Tyrion is quick to assert his authority and criticize Cersei's handling of the kingdom."
 GOT_Story_Country.100.a: "Tyrion begins his reign by criticizing Cersei's governance."
 GOT_Story_Country.100.b: "A new power struggle is about to begin in the capital."
 
-GOT_Story_News.100.t: "Tyrion Lannister arrives in King's Landing as Hand of the King, causing unrest in the capital."
+GOT_Story_News.100.t: "Tyrion arrives in King's Landing"
 GOT_Story_News.100.d: "The new Hand of the King, Tyrion Lannister, arrives at the Red Keep, much to the displeasure of his sister Cersei. His critical approach to the kingdom's affairs marks the beginning of a tense period in King's Landing."
-GOT_Story_News.100.a: "A new Hand has arrived, and the royal family is divided."
+GOT_Story_News.100.a: "A new Hand has arrived"
 
 # 2. The Question of the Throne
 GOT_Story_Country.101.t: "The Question of the Throne"
@@ -712,9 +712,9 @@ GOT_Story_Country.101.c: "[STO.GetLeader] is beloved. I will bend the knee—for
 
 
 
-GOT_Story_News.101.t: "Stannis Baratheon claims the Iron Throne, revealing Joffrey's illegitimacy."
+GOT_Story_News.101.t: "Stannis Baratheon claims the Iron Throne"
 GOT_Story_News.101.d: "Stannis Baratheon declares himself the rightful king and accuses Joffrey of being a bastard. His claim is supported by the mysterious powers of Melisandre, who is becoming an increasingly influential figure."
-GOT_Story_News.101.a: "A new contender for the throne rises in the form of Stannis Baratheon."
+GOT_Story_News.101.a: "A new contender for the throne rises."
 
 #3. Robb Stark Sends Peace Terms to King's Landing
 GOT_Story_Country.102.t: "The Matter of Peace with the Iron Throne"
