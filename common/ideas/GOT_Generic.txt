@@ -3,7 +3,6 @@ ideas = {
 	country = {
 	
 		WES_Professional_Lannister_Army = {
-			picture = RI_army_for_offense
 			allowed = {
 				always = no
 			}

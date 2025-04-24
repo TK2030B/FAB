@@ -77,5 +77,9 @@ spriteTypes = {
 		name = "GFX_idea_CRO_jon_arryn"
 		texturefile = "gfx/interface/ideas/Characters/idea_CRO_jon_arryn.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_WES_Professional_Lannister_Army"
+		texturefile = "gfx/interface/ideas/National_Spirits/idea_WES_Professional_Lannister_Army.dds"
+	}
 
 }
