@@ -329,7 +329,6 @@ country_event = {
 				country_exists = WES
 				NOT = { has_war_with = WES }
 				WES = { has_war_with = RIV }
-				GOT_Lannister_Is_King = yes
 			}
 			create_wargoal = {
 				type = annex_everything

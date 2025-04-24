@@ -1,6 +1,21 @@
 ideas = {
 
 	country = {
+	
+		WES_Professional_Lannister_Army = {
+			picture = RI_army_for_offense
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_defence_factor = 0.2
+				army_org_factor = 0.2
+				max_dig_in_factor = 0.2
+			}
+		}
 		
 		RI_commie_army = {
 			#picture = jap_the_unthinkable_option
