@@ -1,7 +1,7 @@
-add_namespace = GOT_War_Country
-add_namespace = GOT_War_News
+add_namespace = GOT_Wars_Country
+add_namespace = GOT_Wars_News
 
-#Invasion of Blackwater Bay
+##Invasion of Blackwater Bay
 country_event = {
 	id = GOT_Wars_Country.1
 	title = GOT_Wars_Country.1.t
@@ -17,12 +17,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		if = {
-			limit = {
-				DRA = { is_ai = yes }
-			}
-			load_oob = DRA_Blackwater		
-		}
+		load_oob = DRA_Blackwater	
 		
 		add_war_support = 0.05
 		army_experience = 5
@@ -56,7 +51,7 @@ country_event = {
 	}
 
 }
-
+#
 #Invasion of the North
 	id = GOT_Wars_Country.3
 	title = GOT_Wars_Country.3.t
@@ -72,12 +67,7 @@ country_event = {
 			factor = 1000
 		}
 		
-		if = {
-			limit = {
-				IRO = { is_ai = yes }
-			}
-			load_oob = IRO_North_Invasion	
-		}
+		load_oob = IRO_North_Invasion	
 		
 		add_war_support = 0.05
 		army_experience = 5

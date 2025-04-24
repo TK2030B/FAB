@@ -5705,12 +5705,7 @@ country_event = {
             factor = 10
         }
 
-        if = {
-			limit = {
-				IRO = { is_ai = yes }
-			}
-			load_oob = IRO_Winterfell_Invasion	
-		}
+       load_oob = IRO_Winterfell_Invasion	
 		
 		add_war_support = 0.05
 		army_experience = 5
