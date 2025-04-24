@@ -329,6 +329,7 @@ country_event = {
 				country_exists = WES
 				NOT = { has_war_with = WES }
 				WES = { has_war_with = RIV }
+				WES = { is_ai = no }
 			}
 			create_wargoal = {
 				type = annex_everything
@@ -1461,6 +1462,25 @@ country_event = {
         add_war_support = 0.10
 		set_country_flag = GOT_Theon_Returns_Flag
 		
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+		
 		create_wargoal = {
 			type = annex_everything
 			target = NOR
@@ -1523,6 +1543,22 @@ country_event = {
         add_stability = 0.05
         add_war_support = 0.05
 		
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = NOR }
+			}
+			leave_faction = yes
+			#Gets event asking them to join their faction
+			NOR = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+		
 		create_wargoal = {
 			type = annex_everything
 			target = WES
@@ -1539,6 +1575,25 @@ country_event = {
         add_political_power = -25
         add_stability = -0.05
         add_war_support = 0.10
+		
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
 		
 		create_wargoal = {
 			type = annex_everything
@@ -1587,7 +1642,7 @@ country_event = {
 		}
 		
 		news_event = {
-			id = GOT_Diplomatic_News.12
+			id = GOT_Diplomatic_News.13
 			hours = 6
         }
 		
