@@ -1322,6 +1322,14 @@ GOT_Diplomatic_Country.20.a: "Pledge ourselves to Stannis."
 GOT_Diplomatic_Country.20.b: "Side with the Crown—marry Margaery to Joffrey."
 GOT_Diplomatic_Country.20.c: "Return to the Reach. Let them all kill each other."
 
+GOT_Diplomatic_Country.21.t: "The Fall of Winterfell"
+GOT_Diplomatic_Country.21.d: "A raven has arrived with grim news: Theon Greyjoy has betrayed House Stark and seized Winterfell. Our ancestral home is in enemy hands, and Bran and Rickon are missing. Lords loyal to us are furious, and many demand vengeance. We must decide how to respond to this outrage."
+GOT_Diplomatic_Country.21.a: "I will take back Winterfell and hang Theon myself!"
+GOT_Diplomatic_Country.21.b: "Winterfell is lost, but we must stay the course in the war."
+
+GOT_Diplomatic_Country.21.tt1: "§RWinterfell has fallen. House Stark vows vengeance.§!"
+GOT_Diplomatic_Country.21.tt2: "§YWe stay focused on the southern war.§!"
+
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
 GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."

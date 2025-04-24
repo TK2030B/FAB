@@ -5718,9 +5718,11 @@ country_event = {
 
     trigger = {
         tag = IRO
-        date > 1937.6.25
-        date < 1937.7.25
+        date > 1937.1.25
+        date < 1938.6.25
 		has_war_with = NOR
+		controls_province = 237
+		has_country_flag = GOT_Theon_Returns_Flag
     }
 
     fire_only_once = yes
@@ -5735,6 +5737,13 @@ country_event = {
         add_stability = 0.05
 		add_war_support = 0.05
 		add_political_power = 25
+		
+		NOR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.21
+				hours = 6
+			}
+		}
 
         every_other_country = {
             limit = {
@@ -6468,8 +6477,13 @@ country_event = {
 
     trigger = {
         tag = DRA
-        date > 1937.10.10
-        date < 1937.11.10
+        date > 1937.1.10
+        date < 1938.10.10
+		has_war_with = CRO
+		OR = {
+		controls_province = 4697
+		controls_province = 1410
+		}
     }
 
     fire_only_once = yes
@@ -6680,6 +6694,7 @@ country_event = {
 			is_hired_as_advisor = yes
 		}
 		has_war_with = DRA
+		controls_state = 142
     }
 
     fire_only_once = yes

@@ -1798,6 +1798,40 @@ country_event = {
 	
 }
 
+#Robb Learns of Theons Betrayal
+country_event = {
+    id = GOT_Diplomatic_Country.21
+    title = GOT_Diplomatic_Country.21.t
+    desc = GOT_Diplomatic_Country.21.d
+    picture = GFX_report_event_GOT_Story_Country125
+
+    is_triggered_only = yes
+
+    option = {
+        name = GOT_Diplomatic_Country.21.a
+        # Flavor: Vow vengeance
+        ai_chance = {
+            factor = 60
+        }
+        add_political_power = -50
+        add_war_support = 0.05
+        add_stability = -0.05
+        custom_effect_tooltip = GOT_Diplomatic_Country.20.tt1
+        # You could later trigger retaliation events here.
+    }
+    option = {
+        name = GOT_Diplomatic_Country.21.b
+        # Flavor: Focus on the war effort
+        ai_chance = {
+            factor = 30
+        }
+        add_political_power = 20
+        add_stability = 0.03
+        custom_effect_tooltip = GOT_Diplomatic_Country.20.tt2
+    }
+}
+
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
