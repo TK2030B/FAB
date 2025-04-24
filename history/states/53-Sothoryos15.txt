@@ -1,13 +1,13 @@
 state={
-	id=326
-	name="STATE_326"
+	id=53
+	name="STATE_53"
 
 	history={
-		owner = ULT
+		owner = SOT
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = ULT
+		add_core_of = SOT
 		#victory_points = {
 		#	2234 30
 		#}
@@ -15,7 +15,7 @@ state={
 	
 	resources = {
 		oil = 0        # Grain
-		rubber = 20    # Timber
+		rubber = 10    # Timber
 		aluminium = 0  # Copper
 		steel = 0      # Iron
 		tungsten = 0   # Gold
@@ -23,7 +23,7 @@ state={
 	}
 	
 	provinces={
-		23 28 434 483 508 531 579 649 787 887 966 1034 1413 1494 1530 1579 1595 1789 2202 3145 3148
+		120 390 440 515 521 536 811 829 846 913 1158 1291 1323 1468 1533 1761
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
