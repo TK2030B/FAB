@@ -1373,6 +1373,8 @@ country_event = {
 		army_experience = 5
 		add_political_power = 25
 		
+		set_country_flag = GOT_Hosted_Tournament_Flag
+		
 		every_other_country = {
 			limit = {
 				exists = yes
