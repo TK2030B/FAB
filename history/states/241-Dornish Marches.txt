@@ -1,0 +1,46 @@
+
+state={
+	id=241
+	name="STATE_241"
+
+	history={
+		owner = REA
+		buildings = {
+			infrastructure = 3
+			1709 = {
+				bunker = 2  #Grassy Vale
+			}
+			1799 = {
+				bunker = 2  #Ashford
+			}
+
+		}
+		add_core_of = REA
+		
+		victory_points = {
+			1709 10
+		}
+		victory_points = {
+			1799 10
+		}
+
+	}
+	
+	resources={
+		oil=10       # Grain  
+		rubber=5     # Timber  
+		aluminium=4  # Copper  
+		steel=8      # Iron  
+		tungsten=1   # Gold  
+		chromium=3   # Silver  
+	}
+
+
+	provinces={
+		466 797 1043 1213 1504 1709 1764 1799 2158 2675 2707 
+	}
+	manpower=13188240
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=95
+	name="STATE_95"
+
+	history={
+		owner = TOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1154 = {
+				naval_base = 2
+				bunker = 2
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = TOL
+		victory_points = {
+			1154 10
+		}
+	}
+	
+	resources = {
+		oil = 10       # Grain
+		rubber = 5     # Timber
+		aluminium = 0  # Copper
+		steel = 10     # Iron
+		tungsten = 5   # Gold
+		chromium = 5   # Silver
+	}
+
+
+	provinces={
+		1154 1877 2911
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

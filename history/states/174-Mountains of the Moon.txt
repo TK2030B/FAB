@@ -1,0 +1,68 @@
+
+state={
+	id=174
+	name="STATE_174"
+
+	history={
+		owner = VAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			441 = {
+				bunker = 4
+			}
+			179 = {
+				bunker = 5
+			}
+			1261 = {
+				bunker = 2
+			}
+			1594 = {
+				naval_base = 2
+				bunker = 2
+				coastal_bunker = 2
+			}
+			1668 = {
+				bunker = 3
+			}
+		}
+		add_core_of = VAL
+		victory_points = {
+			441 10 
+		}
+		victory_points = {
+			179 15 
+		}
+		victory_points = {
+			1110 1 
+		}
+		victory_points = {
+			1261 1 
+		}
+		victory_points = {
+			1594 5 
+		}
+		victory_points = {
+			1668 10 
+		}
+
+	}
+	
+	resources = {
+		oil = 8          # Grain
+		rubber = 40      # Timber
+		aluminium = 3    # Copper
+		steel = 70       # Iron
+		tungsten = 10    # Gold
+		chromium = 6     # Silver
+	}
+
+	provinces={
+		179 380 441 458 564 586 635 835 957 1110 1235 1259 1261 1281 1285 1393 1409 1594 1603 1611 1668 1911 1914 1956 2027 2060 2112 2151 2311 2473 2484 2486 2491 2495 2506 2512 2514 2526 2530 2537 2546 2560 
+	}
+	manpower=8454000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

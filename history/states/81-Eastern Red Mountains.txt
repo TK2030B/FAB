@@ -1,0 +1,32 @@
+state={
+	id=81
+	name="STATE_81"
+
+	history={
+		owner = DOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = DOR
+
+	}
+	
+	# Eastern Red Mountains
+	resources = {
+		oil = 1          # Grain
+		rubber = 1       # Timber
+		aluminium = 7    # Copper
+		steel = 5        # Iron
+		tungsten = 5     # Gold
+		chromium = 7     # Silver
+	}
+
+	provinces={
+		636 963 1027 1358 1408 1598 1702 2776 2797 2831 2841 2851 4677 4678 4679
+	}
+	manpower=2536200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=170
+	name="STATE_170"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+			2446 = {
+				bunker = 5
+			}
+			2462 = {
+				bunker = 3 #Should be 4, but capped at 3
+			}
+		}
+		add_core_of = NOR
+		victory_points = {
+			2446 15
+		}
+		victory_points = {
+			2462 10
+		}
+	}
+	
+	resources = {
+		# The Neck
+		oil = 2        # Grain  
+		rubber = 3     # Timber  
+		aluminium = 0   # Copper  
+		steel = 1      # Iron  
+		tungsten = 0    # Gold  
+		chromium = 0    # Silver  
+	}
+
+	provinces={
+		62 226 355 964 1239 1246 1263 1276 1331 1505 1607 1665 1677 1725 1777 2038 2148 2196 2446 2447 2448 2451 2455 2456 2462 2463 2464 2466 2469 
+	}
+	manpower=684970
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

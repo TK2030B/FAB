@@ -1,0 +1,54 @@
+
+state={
+	id=197
+	name="STATE_197"
+	state_category = city
+
+	history={
+		owner = WES
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			445 = {
+				bunker = 3
+				coastal_bunker = 3
+			}
+			2274 = {
+				bunker = 1
+			}
+			2609 = {
+				naval_base = 6
+				bunker = 4
+				coastal_bunker = 4
+			}
+		}
+		add_core_of = WES
+		victory_points = {
+			2609 10
+		}
+		victory_points = {
+			445 5
+		}
+		victory_points = {
+			2274 1
+		}
+	}
+	
+	resources={
+		oil=3         # Grain  
+		rubber=2      # Timber  
+		aluminium=6   # Copper  
+		steel=42      # Iron  
+		tungsten=80   # Gold  
+		chromium=43   # Silver  
+	}
+
+
+	provinces={
+		332 445 544 1699 1727 1873 1926 1998 2005 2020 2262 2274 2609 2612 2613 2640 2643 2646
+	}
+	manpower=11624250
+	buildings_max_level_factor=1.000
+	local_supplies=0.0
+}
