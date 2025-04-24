@@ -1104,6 +1104,16 @@ spriteTypes = {
 			name = "GFX_news_event_GOT_Story_News150"
 			texturefile = "gfx/event_pictures/News/GOT_Story_News150.dds"
 		}
+		
+		spriteType = {
+			name = "GFX_report_event_Janos_Wall"
+			texturefile = "gfx/event_pictures/Country/report_event_Janos_Wall.dds"
+		}
+
+		spriteType = {
+			name = "GFX_news_event_Janos_Wall"
+			texturefile = "gfx/event_pictures/News/news_event_Janos_Wall.dds"
+		}
 
 
 

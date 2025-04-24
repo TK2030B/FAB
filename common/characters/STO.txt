@@ -37,6 +37,28 @@ characters={
 		}
 	}
 	
+	STO_Cortnay_Penrose={
+		name=STO_Cortnay_Penrose
+		portraits={
+			army = {
+				large="gfx/leaders/STO/Portrait_Cortnay_Penrose.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/STO/Portrait_Cortnay_Penrose.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
 	STO_Brienne_of_Tarth={
 		name=STO_Brienne_of_Tarth
 		portraits={
@@ -44,14 +66,6 @@ characters={
 				large="gfx/leaders/STO/Portrait_Brienne_of_Tarth.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
-		}
-		corps_commander={
-			traits = { }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
 		}
 	}
 	
@@ -134,5 +148,46 @@ characters={
 		}
 	}
 
+	STO_joffrey_baratheon={
+		name=CRO_joffrey_baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+	}
+	
+	STO_Tommen_Baratheon={
+		name=CRO_Tommen_Baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+	}
+	
+	STO_Myrcella_Baratheon={
+		name=CRO_Myrcella_Baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
+			}
+		}
+	}
 
 }

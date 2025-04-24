@@ -441,6 +441,7 @@ country_event = {
 			limit = {
 				is_ai = yes
 				is_historical_focus_on = yes
+				NOT = { has_global_flag = GOT_Sandbox_Mode }
 			}
 			country_event = {
 				id = GOT_Story_Country.36
@@ -1372,6 +1373,431 @@ country_event = {
 	}
 }
 
+country_event = {
+    id = GOT_Diplomatic_Country.16
+    title = GOT_Diplomatic_Country.16.t
+    desc = GOT_Diplomatic_Country.16.d
+    picture = GFX_report_event_GOT_Story_Country105
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Diplomatic_Country.16.a
+        ai_chance = {
+            factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+        add_political_power = 50
+        add_stability = 0.05
+        add_war_support = 0.05
+		set_country_flag = GOT_Theon_Returns_Flag
+		
+		#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = NOR }
+			}
+			leave_faction = yes
+			#Gets event asking them to join their faction
+			NOR = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = WES
+			expire = 365
+		}
+
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.105
+                hours = 6
+            }
+        }
+    }
+
+    option = {
+        name = GOT_Diplomatic_Country.16.b
+        ai_chance = {
+            factor = 40
+        }
+        add_political_power = -25
+        add_stability = -0.05
+        add_war_support = 0.10
+		set_country_flag = GOT_Theon_Returns_Flag
+		
+		create_wargoal = {
+			type = annex_everything
+			target = NOR
+			expire = 365
+		}
+
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.105
+                hours = 6
+            }
+        }
+		
+    }
+
+    option = {
+        name = GOT_Diplomatic_Country.16.c
+        ai_chance = {
+            factor = 35
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+        add_stability = 0.05
+		set_country_flag = GOT_Theon_Returns_Flag
+		
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.105
+                hours = 6
+            }
+        }
+		
+    }
+}
+
+country_event = {
+    id = GOT_Diplomatic_Country.17
+    title = GOT_Diplomatic_Country.17.t
+    desc = GOT_Diplomatic_Country.17.d
+    picture = GFX_report_event_GOT_Story_Country105
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Diplomatic_Country.17.a
+        ai_chance = {
+            factor = 10
+        }
+        add_political_power = 50
+        add_stability = 0.05
+        add_war_support = 0.05
+		
+		create_wargoal = {
+			type = annex_everything
+			target = WES
+			expire = 365
+		}
+
+    }
+
+    option = {
+        name = GOT_Diplomatic_Country.17.b
+        ai_chance = {
+            factor = 50
+        }
+        add_political_power = -25
+        add_stability = -0.05
+        add_war_support = 0.10
+		
+		create_wargoal = {
+			type = annex_everything
+			target = NOR
+			expire = 365
+		}
+		
+    }
+
+    option = {
+        name = GOT_Diplomatic_Country.17.c
+        ai_chance = {
+            factor = 40
+        }
+        add_stability = 0.05
+		
+    }
+}
+
+#Janos Slynt Arrives at the Wall
+country_event = {
+    id = GOT_Diplomatic_Country.18
+    title = GOT_Diplomatic_Country.18.t
+    desc = GOT_Diplomatic_Country.18.d
+    picture = GFX_report_event_Janos_Wall
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Diplomatic_Country.18.c
+        ai_chance = {
+            factor = 10
+        }
+        add_stability = -0.05
+		add_political_power = -5
+		
+		add_field_marshal_role = {
+		  character = NWA_janos_slynt
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.12
+                hours = 6
+            }
+        }
+		
+    }
+}
+#King Renly Survives
+country_event = {
+    id = GOT_Diplomatic_Country.19
+    title = GOT_Diplomatic_Country.19.t
+    desc = GOT_Diplomatic_Country.19.d
+    picture = GFX_report_event_GOT_Story_Country120
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Diplomatic_Country.19.a
+        ai_chance = {
+            factor = 30
+        }
+        add_stability = -0.05
+		
+		create_wargoal = {
+			type = annex_everything
+			target = DRA
+			expire = 365
+		}
+		
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.14
+                hours = 6
+            }
+        }
+
+    }
+
+    option = {
+        name = GOT_Diplomatic_Country.19.b
+        ai_chance = {
+            factor = 70
+        }
+        add_stability = 0.05
+		
+		create_wargoal = {
+			type = annex_everything
+			target = CRO
+			expire = 365
+		}
+		
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.14
+                hours = 6
+            }
+        }
+		
+    }
+	
+}
+
+#Tyrell Reaction to Renly's Death
+country_event = {
+    id = GOT_Diplomatic_Country.20
+    title = GOT_Diplomatic_Country.20.t
+    desc = GOT_Diplomatic_Country.20.d
+    picture = GFX_report_event_GOT_Story_Country120
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Diplomatic_Country.20.a
+        ai_chance = {
+            factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+        add_political_power = -50
+		
+		if = {
+			limit = {
+				has_war_with = DRA
+			}
+			DRA = {
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.1
+					hours = 1
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+		
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = DRA }
+			}
+			leave_faction = yes
+			#Gets event asking them to join their faction
+			DRA = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+        # Inform the world that the knee to Stannis
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.11
+                hours = 6
+            }
+        }
+
+    }
+	
+	option = {
+        name = GOT_Diplomatic_Country.20.b
+        ai_chance = {
+            factor = 60
+        }
+        add_political_power = -25
+		
+		if = {
+			limit = {
+				has_war_with = CRO
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.1
+					hours = 1
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+		
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+    }
+
+    option = {
+        name = GOT_Diplomatic_Country.20.c
+        ai_chance = {
+            factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+		
+		add_stability = 0.05
+		
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+		
+		if = {
+			limit = {
+				is_in_faction = yes
+			}
+			leave_faction = yes
+		}
+		
+    }
+	
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -1503,5 +1929,57 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.10.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.11
+	title = GOT_Diplomatic_News.11.t
+	desc = GOT_Diplomatic_News.11.d
+	picture = GFX_news_event_iron_throne
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.11.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.12
+	title = GOT_Diplomatic_News.12.t
+	desc = GOT_Diplomatic_News.12.d
+	picture = GFX_news_event_iron_throne
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.12.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.13
+	title = GOT_Diplomatic_News.13.t
+	desc = GOT_Diplomatic_News.13.d
+	picture = GFX_news_event_Janos_Wall
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.13.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.14
+	title = GOT_Diplomatic_News.14.t
+	desc = GOT_Diplomatic_News.14.d
+	picture = GFX_news_event_GOT_Story_News120
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.14.a
 	}
 }

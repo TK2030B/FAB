@@ -10,14 +10,18 @@ GOT_New_Monarch_Chosen_Flag:0 "New Monarch Chosen"
 GOT_Viserys_Insults_Dothraki_Flag:0 "Viserys Insults Dothraki"
 GOT_Claimed_Iron_Throne_Flag:0 "Claimed The Throne"
 GOT_Bent_The_Knee_Flag:0 "Bent The Knee"
-GOT_King_In_The_North:0 "King in The North"
+GOT_King_In_The_North_Flag:0 "King in The North"
+GOT_Theon_Returns_Flag:0 "Theon Has Returned"
+GOT_Arya_Escapes_Flag:0 "Arya Escapes"
+GOT_Melisandre_Seduces_Stannis:0 "Melisandre Seduces Stannis"
+GOT_Robb_Marries_Talissa_Flag:0 "Robb Marries Talissa"
 
-Game_Event.1.t:0 "Welcome (1/3)"
+Game_Event.1.t:0 "Welcome (1/4)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
 Game_Event.1.a:0 "Vanilla Gameplay"
 Game_Event.1.b:0 "Customize Gameplay"
 
-Game_Event.2.t:0 "Game of Thrones Mode (2/3)"
+Game_Event.2.t:0 "Game of Thrones Mode (2/4)"
 Game_Event.2.d:0 "Game of Thrones Mode is currently §ROFF§!.\n\nYou're playing with mechanics that closely follow base HOI4, offering a more traditional gameplay experience.\n\nWould you like to enable Game of Thrones Mode? This immersive mode introduces major changes:\n- Dragons are 10× more expensive but also 10× more powerful\n- Additional tweaks to mechanics for a truly Westerosi feel.\n\nRecommendation: Enable this mode for a more epic and thematic experience — or keep it off if you prefer a classic HOI4 base."
 Game_Event.2.a:0 "LEAVE IT §ROFF§!"
 Game_Event.2.b:0 "TURN §GON§!"
@@ -30,8 +34,9 @@ Game_Event.4.t:0 "Game of Thrones Mode Chosen"
 Game_Event.4.d:0 "§R[FROM.GetName]§! has selected §RGame of Thrones Mode§!. This mode enables immersive mechanics, including powerful but costly §Rdragons§! and heavily fortified §RForts§!, among other adjustments."
 Game_Event.4.a:0 "OK"
 
-Game_Event.8.t:0 "Sandbox Mode (3/3)"
-Game_Event.8.d:0 "Sandbox Mode is currently §ROFF§!.\n\nThe Seven Kingdoms are puppets of the Crownlands, ensuring strong centralized control under the Iron Throne. Backstabbing and rebellion are much harder, preserving a more faithful political structure.\n\nWould you like to enable Sandbox Mode? This mode includes:\n- Independent Seven Kingdoms, still pledged to the King but no longer puppets.\n- Greater freedom to act independently — start wars, break allegiances, or forge your own destiny.\n- Additional tweaks for a looser, more sandbox-style experience.\n\nRecommendation:\n- For a lore-accurate playthrough, enable Historical Focuses and keep Sandbox Mode OFF.\n- For multiplayer or chaotic roleplay fun, TURN ON Sandbox Mode for maximum freedom!"
+Game_Event.8.t:0 "Sandbox Mode (3/4)"
+Game_Event.8.d:0 "Sandbox Mode is currently §ROFF§!.\n\nIn standard historical play, the Seven Kingdoms follow a more scripted path, with outcomes closely tied to canon events from the lore. This ensures a more stable and narrative-driven experience.\n\nEnabling Sandbox Mode changes this\n- Assassinations, coups, and alternate outcomes become possible, allowing more reactive and emergent storytelling — even with Historical Focuses turned on.\n- AI nations still follow their historical decisions, but players have the freedom to forge their own destiny.\n\nRecommendation:\n- For a lore-faithful experience: enable Game of Thrones Mode, keep Sandbox Mode §ROFF§, and turn Historical AI §GON§.\n- For chaotic multiplayer or creative roleplay: turn Sandbox Mode §GON§ and Historical AI §ROFF§ — or mix and match to create your ideal balance of narrative and freedom!"
+
 
 Game_Event.8.a:0 "LEAVE IT §ROFF§!"
 Game_Event.8.b:0 "TURN §GON§! Sandbox Mode"
@@ -700,9 +705,11 @@ GOT_Story_News.100.a: "A new Hand has arrived, and the royal family is divided."
 
 # 2. The Question of the Throne
 GOT_Story_Country.101.t: "The Question of the Throne"
-GOT_Story_Country.101.d: "The realm is fractured, and the boy who sits the Iron Throne—[CRO.GetLeader]—has no rightful claim. My blood is true. I am Robert’s heir, and the Seven Kingdoms should be mine by law. Yet, to rise is to plunge Westeros into war. Melisandre urges me onward, whispering of destiny in her flames, while old Cressen warns of ruin. The time has come to choose: will Dragonstone rise to claim its birthright, or kneel to a bastard and preserve a fragile peace?"
+GOT_Story_Country.101.d: "The realm is fractured, and the usurper who sits the Iron Throne—[CRO.GetLeader]—has no rightful claim. My blood is true. I am Robert’s heir, and the Seven Kingdoms should be mine by law. Yet, to rise is to plunge Westeros into war. Melisandre urges me onward, whispering of destiny in her flames, while old Cressen warns of ruin. The time has come to choose: will Dragonstone rise to claim its birthright, or kneel to a bastard and preserve a fragile peace?"
 GOT_Story_Country.101.a: "I will claim what is mine by right."
 GOT_Story_Country.101.b: "Let [CRO.GetLeader] keep the throne—for now."
+GOT_Story_Country.101.c: "[STO.GetLeader] is beloved. I will bend the knee—for the realm."
+
 
 
 GOT_Story_News.101.t: "Stannis Baratheon claims the Iron Throne, revealing Joffrey's illegitimacy."
@@ -740,10 +747,10 @@ GOT_Story_News.104.d: "Daenerys' journey through the Red Waste is perilous, and 
 GOT_Story_News.104.a: "Daenerys is fighting for survival, but her journey has only just begun."
 
 # Theon's Return to the Iron Islands
-GOT_Story_Country.105.t: "Theon's Return to the Iron Islands"
-GOT_Story_Country.105.d: "I return to the Iron Islands after nine years as a Stark ward, hoping to gain my father's support for Robb Stark's war efforts. Yet, Balon rejects my proposal and mocks my time with the Starks, revealing his own ambitions to reclaim the Iron Islands' independence."
-GOT_Story_Country.105.a: "We are alone in this struggle, and the Starks are not our allies."
-GOT_Story_Country.105.b: "Perhaps we shall not gain the support we seek, but our ambition remains."
+GOT_Story_Country.105.t: "The Ironborn Question"
+GOT_Story_Country.105.d:"Victory in the South may hinge on alliances forged in the North. Some counsel sending Theon Greyjoy to Pyke with generous terms: if his father Balon joins our cause, he shall be rewarded with Casterly Rock at war’s end. Theon, raised among us as a ward and brother, might sway his father’s iron heart. But trust is a fragile thing, and blood calls to blood. Should we risk empowering a man who might yet remember where he truly belongs? Or keep Theon close, where we can be sure of his loyalty?"
+GOT_Story_Country.105.a: "Send Theon to Pyke with our offer."
+GOT_Story_Country.105.b: "Keep Theon close. He is not yet truly one of us."
 
 GOT_Story_News.105.t: "Theon Greyjoy Returns to the Iron Islands"
 GOT_Story_News.105.d: "Theon Greyjoy, after nine years away from the Iron Islands, returns, seeking to persuade his father, Balon, to support Robb Stark's cause. However, Balon rejects him and reveals his own plans for the Iron Islands' independence."
@@ -760,10 +767,11 @@ GOT_Story_News.106.a: "Arya's bond with Gendry may prove crucial."
 
 
 # Tyrion Replaces Janos Slynt with Bronn
-GOT_Story_Country.107.t: "Tyrion Replaces Janos Slynt with Bronn"
-GOT_Story_Country.107.d: "In King's Landing, I continue to assert my power as Hand of the King. After confronting Janos Slynt about his involvement in Robert Baratheon's bastard massacre, I dismiss him and appoint Bronn as the new commander of the City Watch to ensure loyalty and control over the city's forces."
-GOT_Story_Country.107.a: "Janos was a failure. Bronn will be a far more reliable ally in these turbulent times."
-GOT_Story_Country.107.b: "This is just the beginning. More changes are needed to secure my authority."
+GOT_Story_Country.107.t: "The Commander of the City Watch"
+GOT_Story_Country.107.d: "In King's Landing, I continue to assert my power as Hand of the King. After confronting Janos Slynt about his involvement in Robert Baratheon's bastard massacre, I now face a choice. His loyalty is in question, and I must decide: should I send him to the Wall to distance him from power, or keep him as the commander of the City Watch, where his influence could either prove useful or become a liability?"
+GOT_Story_Country.107.a: "Send Janos to the Wall. His time as commander is over."
+GOT_Story_Country.107.b: "Keep him as commander of the City Watch—for now."
+
 
 GOT_Story_News.107.t: "Tyrion Replaces Janos Slynt with Bronn"
 GOT_Story_News.107.d: "Tyrion Lannister, Hand of the King, replaces Janos Slynt as commander of the City Watch, appointing Bronn in his place. This move solidifies Tyrion's control over King's Landing and its security forces."
@@ -782,12 +790,11 @@ GOT_Story_News.108.a: "The Night's Watch must confront Craster's treachery befor
 # Melisandre Seduces Stannis
 GOT_Story_Country.109.t: "Melisandre Seduces Stannis"
 GOT_Story_Country.109.d: "On Dragonstone, the Red Priestess Melisandre attempts to seduce me, promising a son and victory in my quest for the Iron Throne. She emphasizes the power of the Lord of Light and the sacrifices required, deepening her influence over my decisions."
-GOT_Story_Country.109.a: "Her power is undeniable, but I am not sure I can trust her completely."
-GOT_Story_Country.109.b: "Victory may be within my grasp, but I wonder what price I will have to pay."
+GOT_Story_Country.109.a: "A king must do his duty... vigorously."
 
 GOT_Story_News.109.t: "Melisandre Seduces Stannis"
 GOT_Story_News.109.d: "On Dragonstone, Melisandre, the Red Priestess, seduces Stannis Baratheon, convincing him of the Lord of Light's power. This act further secures her influence over Stannis as he pursues his claim to the Iron Throne."
-GOT_Story_News.109.a: "Stannis's connection to Melisandre could prove pivotal in his quest for the throne."
+GOT_Story_News.109.a: "Stannis Baratheon has found a new kind of fire on Dragonstone."
 
 # Theon's Baptism and Allegiance to the Ironborn
 GOT_Story_Country.110.t: "Theon's Baptism and Allegiance to the Ironborn"
@@ -880,25 +887,28 @@ GOT_Story_News.118.d: "After a perilous journey across the Red Waste, Daenerys T
 GOT_Story_News.118.a: "Daenerys Targaryen’s legend continues to grow."
 
 # Melisandre's Shadow Birth
-GOT_Story_Country.119.t: "Melisandre's Shadow Birth"
-GOT_Story_Country.119.d: "I, Davos Seaworth, have smuggled Melisandre beneath Storm’s End as commanded. There, in darkness and shadow, she gave birth to a terrible creature. I do not understand her power, but I fear it may change the war."
-GOT_Story_Country.119.a: "This is no ordinary war… we fight with shadow and fire."
-GOT_Story_Country.119.b: "If this is Stannis’s path to victory, may the gods help us."
+GOT_Story_Country.119.t: "Stannis Considers Renly's Fate"
+GOT_Story_Country.119.d: "On Dragonstone, with the shadow of Melisandre's powers lingering in the air, I find myself with a difficult decision. Renly, my younger brother and rival for the Iron Throne, poses a threat to my claim. His forces are strong, and his ambition cannot be underestimated. The shadow birthed by Melisandre has already proven its power, but I must decide how to handle Renly—whether to strike swiftly and assassinate him, engage in open war, or wait until the Lannisters are dealt with before confronting him."
+GOT_Story_Country.119.a: "Renly must be eliminated."
+GOT_Story_Country.119.b: "Let us march to war with Renly."
+GOT_Story_Country.119.c: "Renly will be dealt with later."
 
 GOT_Story_News.119.t: "Dark Magic Unleashed Beneath Storm's End"
 GOT_Story_News.119.d: "Rumors spread of strange rituals performed by Melisandre beneath Storm’s End. Witnesses claim a creature of shadow was born under cover of night, sparking whispers of black magic in service of Stannis Baratheon."
-GOT_Story_News.119.a: "The War of the Five Kings now has more than men to fear."
+GOT_Story_News.119.a: "The night is dark and full of terrors."
 
 
 # Renly Baratheon's Death
-GOT_Story_Country.120.t: "Renly Baratheon's Death"
-GOT_Story_Country.120.d: "Renly Baratheon has been killed by a shadow assassin birthed by Melisandre, Stannis Baratheon's Red Priestess. This marks the end of Renly's claim to the Iron Throne and shifts the power dynamics in the War of the Five Kings."
-GOT_Story_Country.120.a: "The game of thrones has claimed another contender. The war rages on."
-GOT_Story_Country.120.b: "Renly's death brings Stannis closer to the throne, but the battle is far from over."
+GOT_Story_Country.120.t:0 "Renly Baratheon's Death"
+GOT_Story_Country.120.d:0 "Renly Baratheon has been slain — struck down by a shadow assassin birthed by the Red Priestess Melisandre, in service to his brother, Stannis Baratheon. His death has shattered the unity of the Stormlands and left its future uncertain. Some call for allegiance to Stannis, the last Baratheon brother. Others argue for pledging loyalty to the Crown in King’s Landing. And some whisper that a true lord is not needed at all — only a strong hand to keep the Stormlands together in the chaos."
+GOT_Story_Country.120.a:0 "Swear fealty to Stannis — the rightful King."
+GOT_Story_Country.120.b:0 "Pledge loyalty to the Crown and protect our lands."
+GOT_Story_Country.120.c:0 "Let a Castellan rule — we stand alone in the storm."
+
 
 GOT_Story_News.120.t: "Renly Baratheon Killed by Shadow Assassin"
 GOT_Story_News.120.d: "Renly Baratheon, once a major contender for the Iron Throne, has been killed by a shadow assassin created by Melisandre, Stannis Baratheon's Red Priestess. This act significantly alters the balance of power in the War of the Five Kings."
-GOT_Story_News.120.a: "Renly Baratheon is dead, and with his death, the War of the Five Kings becomes even more unpredictable."
+GOT_Story_News.120.a: "Renly Baratheon is dead.."
 
 # Catelyn Stark's Alliance with Renly
 GOT_Story_Country.121.t: "Catelyn Stark's Alliance with Renly"
@@ -908,7 +918,7 @@ GOT_Story_Country.121.b: "The North deserves independence, and I will do whateve
 
 GOT_Story_News.121.t: "Catelyn Stark Seeks Alliance with Renly Baratheon"
 GOT_Story_News.121.d: "Catelyn Stark has approached Renly Baratheon with a proposal of alliance, offering Robb Stark's support in exchange for Renly's recognition of the North's independence."
-GOT_Story_News.121.a: "Catelyn Stark's diplomatic efforts may bring Renly Baratheon into the fold, strengthening Robb Stark's cause."
+GOT_Story_News.121.a: "The Wolves grow stronger."
 
 # Tyrion Lannister's Investigation into the "Wildfire"
 GOT_Story_Country.122.t: "Tyrion Lannister's Investigation into the 'Wildfire'"
@@ -918,7 +928,7 @@ GOT_Story_Country.122.b: "I will make sure that we are prepared, no matter the c
 
 GOT_Story_News.122.t: "Tyrion Lannister Investigates King's Landing's Wildfire"
 GOT_Story_News.122.d: "Tyrion Lannister, the Hand of the King, has begun an investigation into the wildfire weapon that King Joffrey plans to use in the defense of King's Landing, signaling an escalation of tensions ahead of the expected siege by Stannis."
-GOT_Story_News.122.a: "Tyrion Lannister's investigation into wildfire raises concerns about the true nature of King's Landing's preparations for Stannis."
+GOT_Story_News.122.a: "This raises concerns."
 
 # Jaqen H'ghar's Debt to Arya Stark
 GOT_Story_Country.123.t: "Jaqen H'ghar's Debt to Arya Stark"
@@ -928,7 +938,7 @@ GOT_Story_Country.123.b: "The Faceless Men are a dangerous and powerful force. I
 
 GOT_Story_News.123.t: "Jaqen H'ghar Offers Debt to Arya Stark"
 GOT_Story_News.123.d: "Jaqen H'ghar, a mysterious man in the Night's Watch, offers Arya Stark a dangerous gift: the ability to choose three people to kill in repayment for saving his life. This event introduces Arya to the deadly world of the Faceless Men."
-GOT_Story_News.123.a: "Jaqen H'ghar's deadly offer may change the course of Arya Stark's journey forever."
+GOT_Story_News.123.a: "This may change Arya Stark's journey forever."
 
 # Daenerys Targaryen's Encounter with the Warlocks
 GOT_Story_Country.124.t: "Daenerys Targaryen's Encounter with the Warlocks"
@@ -938,7 +948,7 @@ GOT_Story_Country.124.b: "This encounter may grant me the strength I need to rul
 
 GOT_Story_News.124.t: "Daenerys Targaryen Encounters the Warlocks"
 GOT_Story_News.124.d: "Daenerys Targaryen has met with the Warlocks of the House of the Undying in Qarth, who have promised her power and knowledge. However, the true nature of their intentions remains uncertain."
-GOT_Story_News.124.a: "Daenerys Targaryen's encounter with the Warlocks may grant her newfound strength, but their mysterious motives are cause for concern."
+GOT_Story_News.124.a: "Their mysterious motives are cause for concern."
 
 
 
@@ -950,7 +960,7 @@ GOT_Story_Country.125.b: "Winterfell is mine, but at what cost? The people will 
 
 GOT_Story_News.125.t: "Theon Greyjoy Captures Winterfell"
 GOT_Story_News.125.d: "Theon Greyjoy has seized control of Winterfell, betraying the Starks and executing Ser Rodrik Cassel. His actions have ignited fierce resistance from the people of the North."
-GOT_Story_News.125.a: "The capture of Winterfell by Theon Greyjoy has thrown the North into turmoil. His betrayal will not be forgotten."
+GOT_Story_News.125.a: "His betrayal will not be forgotten."
 
 # Jon Snow Captures Ygritte
 GOT_Story_Country.126.t: "Jon Snow Captures Ygritte"
@@ -960,7 +970,7 @@ GOT_Story_Country.126.b: "Ygritte is a fierce opponent. I will have to be carefu
 
 GOT_Story_News.126.t: "Jon Snow Captures Wildling Ygritte"
 GOT_Story_News.126.d: "Jon Snow and his companions have ambushed a wildling outpost beyond the Wall, capturing Ygritte, a fierce wildling woman. This event challenges Jon's beliefs and his loyalties to the Night's Watch."
-GOT_Story_News.126.a: "Jon Snow's capture of the wildling Ygritte raises questions about his loyalty to the Night's Watch as his personal conflict deepens."
+GOT_Story_News.126.a: "Should his loyalty to the Watch be questioned?"
 
 # King's Landing Riots Against Joffrey
 GOT_Story_Country.127.t: "King's Landing Riots Against Joffrey"
@@ -970,7 +980,7 @@ GOT_Story_Country.127.b: "This riot is a warning. If we do not act swiftly, the 
 
 GOT_Story_News.127.t: "Riots Erupt in King's Landing Against Joffrey"
 GOT_Story_News.127.d: "Riots have broken out in King's Landing during King Joffrey's procession through Flea Bottom. The situation worsened when Joffrey was slapped by his uncle, Tyrion Lannister, indicating growing unrest among the common folk."
-GOT_Story_News.127.a: "The slap by Tyrion Lannister marks a turning point in Joffrey’s reign, as the unrest in King's Landing continues to escalate."
+GOT_Story_News.127.a: "The unrest in King's Landing continues to escalate."
 
 # Daenerys Discovers Her Dragons Are Stolen
 GOT_Story_Country.128.t: "Daenerys Discovers Her Dragons Are Stolen"
@@ -980,7 +990,7 @@ GOT_Story_Country.128.b: "I will not let this setback define me. I will find my 
 
 GOT_Story_News.128.t: "Daenerys Targaryen's Dragons Stolen in Qarth"
 GOT_Story_News.128.d: "Daenerys Targaryen has returned to Qarth to discover that her dragons have been stolen, and most of her Dothraki have been killed. This betrayal forces Daenerys to confront new challenges in her quest to reclaim the Iron Throne."
-GOT_Story_News.128.a: "Daenerys faces a devastating blow as her dragons are stolen, and her Dothraki are slaughtered, throwing her path to the Iron Throne into chaos."
+GOT_Story_News.128.a: "Daenerys faces a devastating blow."
 
 # Bran and Rickon Stark Escape Winterfell
 GOT_Story_Country.129.t: "Bran and Rickon Stark Escape Winterfell"
@@ -990,7 +1000,7 @@ GOT_Story_Country.129.b: "The journey ahead will be perilous, but we have no oth
 
 GOT_Story_News.129.t: "Bran and Rickon Stark Flee Winterfell"
 GOT_Story_News.129.d: "With Winterfell under siege, Bran and Rickon Stark have escaped the city to ensure their survival. Their departure marks a pivotal moment in the Stark family's struggle for control of the North."
-GOT_Story_News.129.a: "Bran and Rickon Stark have fled Winterfell, signaling a crucial shift in the power dynamics of the North as the Starks’ struggle for control intensifies."
+GOT_Story_News.129.a: "The Starks’ struggle for control intensifies."
 
 # Theon Greyjoy Discovers Bran and Rickon's Escape
 GOT_Story_Country.130.t: "Bran and Rickon Escape Winterfell"
@@ -1000,7 +1010,7 @@ GOT_Story_Country.130.b: "This is a humiliation I cannot allow. The North must f
 
 GOT_Story_News.130.t: "Bran and Rickon Stark Escape Winterfell"
 GOT_Story_News.130.d: "Bran and Rickon Stark have escaped from Winterfell with the help of Osha. Theon Greyjoy, now in control of the castle, faces a growing crisis of legitimacy and control."
-GOT_Story_News.130.a:"The escape of Bran and Rickon Stark marks a significant blow to Theon Greyjoy's control over Winterfell. The situation grows more unstable for him with each passing day."
+GOT_Story_News.130.a: "The situation grows more unstable for him with each passing day."
 
 # Jon Snow and Qhorin Halfhand Captured by Wildlings
 GOT_Story_Country.131.t: "Jon Snow and Qhorin Captured by Wildlings"
@@ -1010,7 +1020,7 @@ GOT_Story_Country.131.b: "If I am to live, I must gain their trust. Even if it m
 
 GOT_Story_News.131.t: "Jon Snow Captured Beyond the Wall"
 GOT_Story_News.131.d: "Jon Snow and Qhorin Halfhand have been captured by the wildlings beyond the Wall. This development casts uncertainty over the Night's Watch’s mission and Jon’s fate."
-GOT_Story_News.131.a: "Jon Snow and Qhorin Halfhand's capture by the wildlings beyond the Wall raises serious concerns about the future of the Night's Watch and the dangers lurking in the far north."
+GOT_Story_News.131.a: "This raises serious concerns about the future of the Night's Watch."
 
 # Catelyn Stark's Arrest for Jaime's Release
 GOT_Story_Country.132.t: "Catelyn Arrested for Releasing Jaime"
@@ -1020,7 +1030,7 @@ GOT_Story_Country.132.b: "This was not treason—it was hope. But now, I must fa
 
 GOT_Story_News.132.t: "Catelyn Stark Arrested"
 GOT_Story_News.132.d: "Catelyn Stark has been arrested for releasing Jaime Lannister, an act that defied King Robb’s authority. The Northern command now faces internal conflict at a critical moment in the war."
-GOT_Story_News.132.a: "Catelyn Stark's arrest for releasing Jaime Lannister threatens to undermine Robb Stark’s authority."
+GOT_Story_News.132.a: "This threatens to undermine Robb Stark’s authority."
 
 # Arya Stark Coerces Jaqen H’ghar
 GOT_Story_Country.133.t: "Arya Forces Jaqen to Help Them Escape"
@@ -1030,7 +1040,7 @@ GOT_Story_Country.133.b: "Jaqen owes me a life. He will help us, or face the con
 
 GOT_Story_News.133.t: "Arya Escapes Harrenhal"
 GOT_Story_News.133.d: "With the help of the mysterious assassin Jaqen H'ghar, Arya Stark has escaped from Harrenhal alongside Gendry and Hot Pie. Her growing boldness signals a dark transformation ahead."
-GOT_Story_News.133.a: "Her increasing boldness hints at the darker path she is on."
+GOT_Story_News.133.a: "Her boldness increases."
 
 # Cersei Lannister Tries to Blackmail Tyrion
 GOT_Story_Country.134.t: "Cersei Blackmails Tyrion"
@@ -1285,6 +1295,32 @@ GOT_Diplomatic_Country.14.c:0 "We do not need a single ruler. We are free to lea
  GOT_Diplomatic_Country.15.a: "We ride to war. The Iron Throne will be ours by right."
  GOT_Diplomatic_Country.15.b: "Let the banners rest for now. We will host a grand tournament."
 
+GOT_Diplomatic_Country.16.t: "Theon's Offer"
+GOT_Diplomatic_Country.16.d: "The boy returns, cloaked in the wolf’s banners and burdened with Stark terms. He dares speak of peace and promises—offering Casterly Rock in exchange for our blades. Robb Stark would have us bind our fate to his, claiming it is the surest path to power. But we are Ironborn. We do not make deals—we take. Theon's loyalty is uncertain, his presence a reminder of our past defeat. Still, the offer is tempting. The time has come to choose: ally with the wolves, strike while they are distracted, or wait until the sea favors our strength."
+GOT_Diplomatic_Country.16.a: "We shall sail with the Starks—for now."
+GOT_Diplomatic_Country.16.b: "The North is weak. We take what is ours!"
+GOT_Diplomatic_Country.16.c: "Now is not the time for war."
+
+GOT_Diplomatic_Country.17.t: "The Ironborn Path"
+GOT_Diplomatic_Country.17.d: "No envoy has come. No raven bears an offer. The North wages its war alone, leaving the Iron Islands to plot their own course. Balon Greyjoy sees weakness on all shores—chaos in the Westerlands, division in the North. Our fleets are ready. The men hunger for salt and plunder. The question now is not if we strike, but where: shall we raid the Westerlands while their golden lion sleeps, strike the North as vengeance for the old rebellion, or bide our time and await a more favorable tide?"
+GOT_Diplomatic_Country.17.a: "We raid the Westerlands—they are ripe for plunder!"
+GOT_Diplomatic_Country.17.b: "The North never broke us—we will remind them of that."
+GOT_Diplomatic_Country.17.c: "Let the storm pass. Our time will come."
+
+GOT_Diplomatic_Country.18.t: "A New Recruit from King's Landing"
+GOT_Diplomatic_Country.18.d: "A black carriage rolls through the gates of Castle Black, bearing a man dressed more for court than for the cold. Janos Slynt, former Commander of the City Watch in King's Landing, arrives under royal command to take the black. Though he comes with titles and boasts of past glories, few here trust a man who served coin before honor."
+GOT_Diplomatic_Country.18.a: "He will learn humility like the rest."
+
+GOT_Diplomatic_Country.19.t: "King Renly Survives"
+GOT_Diplomatic_Country.19.d: "Despite being grievously injured by the shadow birthed by Melisandre, I have survived. The pain is unbearable, but my ambition remains undeterred. Now, I must decide whether to seek vengeance against my brother Stannis for his treachery, or focus on securing the Crownlands for my claim to the throne."
+GOT_Diplomatic_Country.19.a: "It is time for retribution!"
+GOT_Diplomatic_Country.19.b: "The Crownlands are more important now"
+
+GOT_Diplomatic_Country.20.t: "Renly Baratheon Assassinated!"
+GOT_Diplomatic_Country.20.d: "Renly Baratheon, the favored claimant of House Tyrell in the War of the Five Kings, has been slain by sorcery—cut down by a shadow birthed by Melisandre, priestess of R'hllor and ally of Stannis Baratheon. With their political betrothal shattered and their chosen king gone, House Tyrell must now decide its course: side with Stannis, align with the Iron Throne, or return to the Reach and stand aloof from this chaos."
+GOT_Diplomatic_Country.20.a: "Pledge ourselves to Stannis."
+GOT_Diplomatic_Country.20.b: "Side with the Crown—marry Margaery to Joffrey."
+GOT_Diplomatic_Country.20.c: "Return to the Reach. Let them all kill each other."
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -1317,12 +1353,29 @@ GOT_Diplomatic_News.8.d:0 "Khal Drogo, once the fiercest rider of the Dothraki a
 GOT_Diplomatic_News.8.a:0 "The Grass Sea runs red with blood."
 
 GOT_Diplomatic_News.9.t: "[FROM.GetName] Bends the Knee"
-GOT_Diplomatic_News.9.d: "In a move that will surely echo throughout the Seven Kingdoms, [FROM.GetLeader] has sworn fealty to [CRO.GetLeader], the ruler of the Iron Throne. With this act of submission, [FROM.GetNameDef] acknowledges [CRO.GetNameDef] as the rightful sovereign, setting aside claims or resistance in favor of unity under the crown."
+GOT_Diplomatic_News.9.d: "In a move that will surely echo throughout the Seven Kingdoms, [FROM.GetLeader] has sworn fealty to [CRO.GetLeader], the ruler of the Iron Throne. With this act of submission, [FROM.GetNameDef] acknowledges [CRO.GetLeader] as the rightful sovereign, setting aside claims or resistance in favor of unity under the crown."
 GOT_Diplomatic_News.9.a: "The realm watches and whispers."
 
  GOT_Diplomatic_News.10.t: "[FROM.GetName] Hosts Tournament"
  GOT_Diplomatic_News.10.d: "Rather than marching his host to King's Landing, [FROM.GetLeader] of [FROM.GetName] has declared that a great tourney shall be held in celebration of his claim to the Iron Throne. Nobles from across the realm are invited to test their mettle in jousts and melees, while alliances are forged behind silken curtains.\n\nMany wonder if this show of peace is a strategic pause—or a sign of weakness. Whatever the reason, the drums of war fall silent, for now."
  GOT_Diplomatic_News.10.a: "A curious move by [FROM.GetLeader]..."
+ 
+GOT_Diplomatic_News.11.t: "[FROM.GetName] Bends the Knee"
+GOT_Diplomatic_News.11.d: "In a move that will surely echo throughout the Seven Kingdoms, [FROM.GetLeader] has sworn fealty to [DRA.GetLeader], the rightful ruler of the Iron Throne. With this act of submission, [FROM.GetNameDef] acknowledges [DRA.GetLeader] as the rightful sovereign, setting aside claims or resistance in favor of unity under the crown."
+GOT_Diplomatic_News.11.a: "The realm watches and whispers."
+
+GOT_Diplomatic_News.12.t: "[FROM.GetName] Bends the Knee"
+GOT_Diplomatic_News.12.d: "In a move that will surely echo throughout the Seven Kingdoms, [FROM.GetLeader] has sworn fealty to [STO.GetLeader], the rightful ruler of the Iron Throne. With this act of submission, [FROM.GetNameDef] acknowledges [STO.GetLeader] as the rightful sovereign, setting aside claims or resistance in favor of unity under the crown."
+GOT_Diplomatic_News.12.a: "The realm watches and whispers."
+
+GOT_Diplomatic_News.13.t: "Janos Slynt Sent to the Wall"
+GOT_Diplomatic_News.13.d: "In a shocking display of royal authority, Janos Slynt, once Commander of the City Watch and a key enforcer of Lannister rule in King’s Landing, has been stripped of his rank and exiled to the Night’s Watch. His fall from grace was swift—banished by order of the acting Hand, Tyrion Lannister, following accusations of corruption and cowardice. Whispers across the capital speak of a power shift within the Red Keep, as old loyalties are tested and new alliances rise."
+GOT_Diplomatic_News.13.a: "A harsh fate... but a just one."
+
+GOT_Diplomatic_News.14.t: "Renly Baratheon Survives the Shadow's Attack"
+GOT_Diplomatic_News.14.d: "In a surprising turn of events, Renly Baratheon has survived the grievous injuries inflicted upon him by the shadow birthed by Melisandre. Despite his near-death experience, he has emerged from the ordeal, and the world now wonders how he will proceed in his quest for the Iron Throne."
+GOT_Diplomatic_News.14.a: "Renly Baratheon lives! Will he seek revenge or press forward with his claim?"
+
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."

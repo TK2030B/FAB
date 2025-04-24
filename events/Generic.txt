@@ -231,6 +231,11 @@ country_event = {
 		ai_chance = {
 			base = 100
 			
+			#GOT Modifier
+			modifier = {
+				factor = 10
+			}
+			
 			modifier = {
 				factor = 0.5
 				has_war = no
@@ -703,6 +708,11 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
+			
+			#GOT Modifier
+			modifier = {
+				factor = 10
+			}
 			
 			modifier = {
 				factor = 0.5

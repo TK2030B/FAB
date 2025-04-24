@@ -12,5 +12,6 @@ BPD_Peace_Deal_Manager = {
 	}
 
 	visible = {
+		NOT = { has_global_flag = BPD_Disable_Them_Completely }
 	}
 }

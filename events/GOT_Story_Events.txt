@@ -2422,6 +2422,7 @@ country_event = {
 		}
 
 		add_political_power = -25
+		set_global_flag = GOT_Arya_Escapes_Flag
 
 		every_other_country = {
 			limit = {
@@ -2750,7 +2751,7 @@ country_event = {
 		tag = CRO
 		date > 1936.10.10
 		date < 1936.11.10
-		has_global_flag = GOT_Lord_Stark_Arrested_Flag
+		has_global_flag = GOT_Arya_Escapes_Flag
 	}
 	
 	fire_only_once = yes
@@ -3009,7 +3010,7 @@ country_event = {
 		add_stability = -0.05
 		add_threat = 10
 		
-		set_global_flag = GOT_King_In_The_North
+		set_global_flag = GOT_King_In_The_North_Flag
 
 		every_other_country = {
 			limit = {
@@ -3864,13 +3865,13 @@ country_event = {
 		}
 
         ai_chance = {
-            factor = 30
+            factor = 25
 			modifier = {
-				factor = 0.166   # Lowers 30 to ~5 (30 * 0.166 = ~5)
+				factor = 0.2   # 25 * 0.2 = 5
 				has_global_flag = GOT_Lord_Stark_Investigation_Flag
 			}
 			modifier = {
-				factor = 1.67    # Raises 30 to ~50 (30 * 1.67 ≈ 50)
+				factor = 2.0   # 25 * 2.0 = 50
 				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
 			}
 			modifier = {
@@ -3900,8 +3901,12 @@ country_event = {
 			}
 			leave_faction = yes
 			#Crownlands gets event asking them to join their faction
-			CRO = {
-				country_event = {
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
@@ -3915,6 +3920,84 @@ country_event = {
             }
             news_event = {
                 id = GOT_Diplomatic_News.9
+                hours = 6
+            }
+        }
+    }
+	
+	# Option to bend the knee to Renly if he's declared himself king
+    option = {
+        name = GOT_Story_Country.101.c
+		
+		ai_chance = {
+            factor = 5
+			modifier = {
+				factor = 0.5   # 5 * 0.5 = 2.5 → investigation makes this even less likely
+				has_global_flag = GOT_Lord_Stark_Investigation_Flag
+			}
+			modifier = {
+				factor = 2.0   # 5 * 2.0 = 10 → without investigation, slightly more plausible
+				NOT = { has_global_flag = GOT_Lord_Stark_Investigation_Flag }
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        trigger = {
+			NOT = {
+				has_war_with = STO
+			}
+			OR = {
+				STO = {
+					has_country_flag = GOT_Claimed_Iron_Throne_Flag
+				}
+				CRO = {
+					has_country_leader = {
+						name = "Renly Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+        }
+
+        add_stability = 0.10
+        add_political_power = 50
+
+        set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Dragonstone is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If Dragonstone is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = STO }
+			}
+			leave_faction = yes
+			#Stormlands gets event asking them to join their faction
+			STO = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+        # Inform the world that Stannis bent the knee to Renly
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.12
                 hours = 6
             }
         }
@@ -3947,8 +4030,9 @@ country_event = {
 		has_war_with = CRO
 		has_war_with = WES
 		CRO = { is_in_faction_with = WES }
-		has_global_flag = GOT_King_In_The_North
+		has_global_flag = GOT_King_In_The_North_Flag
 		surrender_progress < 0.5
+		NOT = { has_global_flag = BPD_Disable_Them_Completely }
     }
 
     fire_only_once = yes
@@ -4071,6 +4155,7 @@ country_event = {
         tag = TAR
 		date > 1937.1.5
         date < 1937.2.5
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
     }
 
     fire_only_once = yes
@@ -4116,9 +4201,14 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country105
 
     trigger = {
-        tag = IRO
+        tag = NOR
         date > 1937.2.5
         date < 1937.3.5
+		has_war_with = WES
+		NOT = {
+			has_war_with = IRO
+		}
+		country_exists = IRO
     }
 
     fire_only_once = yes
@@ -4127,21 +4217,36 @@ country_event = {
         name = GOT_Story_Country.105.a
 
         ai_chance = {
-            factor = 10
+            factor = 70
         }
-
-        add_stability = 0.05
-		add_political_power = 25
-
-        every_other_country = {
-            limit = {
-                exists = yes
+		
+		IRO = {
+			country_event = {
+                id = GOT_Diplomatic_Country.16
+                days = 7
             }
-            news_event = {
-                id = GOT_Story_News.105
-                hours = 6
-            }
+		}
+		
+    }
+	
+	option = {
+        name = GOT_Story_Country.105.b
+
+        ai_chance = {
+            factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
         }
+		
+		IRO = {
+			country_event = {
+                id = GOT_Diplomatic_Country.17
+                days = 7
+            }
+		}
+
     }
 }
 # Theon's Return to the Iron Islands
@@ -4168,6 +4273,8 @@ country_event = {
         tag = NOR
         date > 1937.2.5
         date < 1937.3.5
+		has_war_with = WES
+		has_global_flag = GOT_Arya_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -4205,7 +4312,7 @@ news_event = {
         name = GOT_Story_News.106.a
     }
 }
-# Tyrion Replaces Janos Slynt with Bronn
+# The Commander of the City Watch
 country_event = {
     id = GOT_Story_Country.107
     title = GOT_Story_Country.107.t
@@ -4224,10 +4331,21 @@ country_event = {
         name = GOT_Story_Country.107.a
 
         ai_chance = {
-            factor = 10
+            factor = 80
         }
 
-        add_stability = 0.05
+        add_stability = -0.05
+		
+		CRO_jason_slynt = {
+			retire = yes
+		}
+		
+		NWA = { 
+			country_event = {
+				id = GOT_Diplomatic_Country.18
+				days = 14
+			}
+		}
 
         every_other_country = {
             limit = {
@@ -4239,7 +4357,23 @@ country_event = {
             }
         }
     }
+
+    option = {
+        name = GOT_Story_Country.107.b
+
+        ai_chance = {
+            factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        add_stability = 0.05
+		
+    }
 }
+
 # Tyrion Replaces Janos Slynt with Bronn
 news_event = {
     id = GOT_Story_News.107
@@ -4261,7 +4395,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country108
 
     trigger = {
-        tag = NOR
+        tag = NWA
         date > 1937.2.5
         date < 1937.3.5
     }
@@ -4312,6 +4446,10 @@ country_event = {
         tag = DRA
         date > 1937.2.5
         date < 1937.3.5
+		has_country_leader = {
+			name = "Stannis Baratheon"
+			ruling_only = yes
+		}
     }
 
     fire_only_once = yes
@@ -4323,7 +4461,9 @@ country_event = {
             factor = 10
         }
 
-        add_stability = -0.05
+        add_political_power = 69
+		
+		set_country_flag = GOT_Melisandre_Seduces_Stannis
 
         every_other_country = {
             limit = {
@@ -4360,6 +4500,7 @@ country_event = {
         tag = IRO
         date > 1937.3.10
         date < 1937.4.10
+		has_country_flag = GOT_Theon_Returns_Flag
     }
 
     fire_only_once = yes
@@ -4408,6 +4549,9 @@ country_event = {
         tag = CRO
         date > 1937.3.10
         date < 1937.4.10
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
     }
 
     fire_only_once = yes
@@ -4457,6 +4601,7 @@ country_event = {
         tag = STO
         date > 1937.3.10
         date < 1937.4.10
+		has_country_flag = GOT_Claimed_Iron_Throne_Flag
     }
 
     fire_only_once = yes
@@ -4470,6 +4615,15 @@ country_event = {
 
         add_stability = 0.05
 		army_experience = 5
+		
+		add_corps_commander_role = {
+		  character = STO_Brienne_of_Tarth
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
 
         every_other_country = {
             limit = {
@@ -4506,6 +4660,7 @@ country_event = {
         tag = NWA
         date > 1937.3.10
         date < 1937.4.10
+		has_global_flag = GOT_Arya_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -4602,6 +4757,8 @@ country_event = {
         tag = NOR
         date > 1937.4.15
         date < 1937.5.15
+		has_war_with = WES
+		surrender_progress < 0.10
     }
 
     fire_only_once = yes
@@ -4652,6 +4809,10 @@ country_event = {
         tag = CRO
         date > 1937.4.15
         date < 1937.5.15
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
+		has_war_with = NOR
     }
 
     fire_only_once = yes
@@ -4700,6 +4861,7 @@ country_event = {
         tag = NOR
         date > 1937.4.15
         date < 1937.5.15
+		has_global_flag = GOT_Arya_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -4748,6 +4910,7 @@ country_event = {
         tag = TAR
         date > 1937.4.15
         date < 1937.5.15
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
     }
 
     fire_only_once = yes
@@ -4796,6 +4959,9 @@ country_event = {
         tag = DRA
         date > 1937.4.15
         date < 1937.5.15
+		has_country_flag = GOT_Melisandre_Seduces_Stannis
+		has_country_flag = GOT_Claimed_Iron_Throne_Flag
+		STO = { has_country_flag = GOT_Claimed_Iron_Throne_Flag }
     }
 
     fire_only_once = yes
@@ -4804,8 +4970,47 @@ country_event = {
         name = GOT_Story_Country.119.a
 
         ai_chance = {
-            factor = 10
+            factor = 60
         }
+		
+		#Renly Dies 100% for historical AI
+		if = {
+			limit = {
+				STO = { is_ai = yes }
+				is_historical_focus_on = yes
+				NOT = { has_global_flag = GOT_Sandbox_Mode }
+			}
+			STO = { 
+				country_event = {
+					id = GOT_Story_Country.120
+					days = 14
+				}
+			}
+		}
+		#For Players, or Non Historical AI, Renly has a chance to survive
+		else = {
+		#50% Chance Renly Dies, 50% Renly Survives
+			random_list = {
+				#Renly Dies
+				50 = {
+					STO = { 
+						country_event = {
+							id = GOT_Story_Country.120
+							days = 14
+						}
+					}
+				}
+				#Renly Survives
+				50 = {
+					STO = { 
+						country_event = {
+							id = GOT_Diplomatic_Country.19
+							days = 14
+						}
+					}
+				}
+			}
+		}
 
         add_stability = -0.05
 
@@ -4818,6 +5023,42 @@ country_event = {
                 hours = 6
             }
         }
+    }
+	
+	option = {
+        name = GOT_Story_Country.119.b
+
+        ai_chance = {
+            factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+		
+		add_war_support = 0.05
+		
+		create_wargoal = {
+			type = annex_everything
+			target = STO
+			expire = 365
+		}
+		
+    }
+	
+	option = {
+        name = GOT_Story_Country.119.c
+
+        ai_chance = {
+            factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+		
+		add_war_support = -0.05
+		
     }
 }
 # Melisandre's Shadow Birth
@@ -4840,24 +5081,101 @@ country_event = {
     desc = GOT_Story_Country.120.d
     picture = GFX_report_event_GOT_Story_Country120
 
-    trigger = {
-        tag = STO
-        date > 1937.5.20
-        date < 1937.6.20
-    }
-
-    fire_only_once = yes
-
-    option = {
-        name = GOT_Story_Country.120.a
-
+    is_triggered_only = yes
+	
+	option = {
+        name = GOT_Story_Country.120.a  # Swear fealty to Stannis
         ai_chance = {
-            factor = 10
+            factor = 60
         }
+		
+		if = {
+			limit = {
+				is_in_faction_with = REA
+			}
+			REA = {
+			   country_event = {
+					id = GOT_Diplomatic_Country.20
+					hours = 6
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				has_war_with = DRA
+			}
+			DRA = {
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.1
+					hours = 1
+				}
+			}
+		}
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = STO_Stannis_Baratheon
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					legitimate_heir 
+					warrior_code 
+					unpopular_monarch 
+					headstrong 
+					indomitable_perseverance 
+					strict_austerity_adherent 
+					stout_defender 
+					inexperienced_imperialist 
+					autocratic_imperialist 
+					cornered_fox 
+				}
+			}
+			promote_leader = yes
+		}
 
-        add_stability = -0.05
+        add_political_power = -50
+		
+		 set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Stormlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
 
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = DRA }
+			}
+			leave_faction = yes
+			#Dragonstone gets event asking them to join their faction
+			DRA = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+        # Inform the world that Renly bent the knee to Stannis
         every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.11
+                hours = 6
+            }
+        }
+		
+		every_other_country = {
             limit = {
                 exists = yes
             }
@@ -4866,6 +5184,307 @@ country_event = {
                 hours = 6
             }
         }
+		
+    }
+
+    option = {
+        name = GOT_Story_Country.120.b  # Swear loyalty to the Iron Throne
+        ai_chance = {
+            factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+		
+		if = {
+			limit = {
+				is_in_faction_with = REA
+			}
+			REA = {
+			   country_event = {
+					id = GOT_Diplomatic_Country.20
+					hours = 6
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				has_war_with = CRO
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.1
+					hours = 1
+				}
+			}
+		}
+
+		kill_country_leader = yes
+
+
+        if = {
+            limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Joffrey Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = STO_Stannis_Baratheon
+				ideology = FR_subideology
+			}
+			add_country_leader_role = {
+				character = STO_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = STO_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+			limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Tommen Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = STO_Shireen_Baratheon
+				ideology = DR_subideology
+			}
+			add_country_leader_role = {
+				character = CRO_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = CRO_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = DR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+           limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Myrcella Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = STO_Davos_Seaworth
+				ideology = CR_subideology
+			}
+			add_country_leader_role = {
+				character = CRO_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = CRO_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = CR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else = {
+			add_country_leader_role = {
+				character = STO_Cortnay_Penrose
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						stout_defender
+						indomitable_perseverance
+						hardened_officer
+						conservative_grandee
+					}
+				}
+				promote_leader = yes
+			}
+        }
+
+        add_political_power = -25
+        add_stability = -0.05
+		
+		set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Stormlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			disband_faction = yes
+		}
+
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+		
+		#Everyone gets the generic Bend the Knee Event
+        every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Diplomatic_News.9
+                hours = 6
+            }
+        }
+		
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.120
+                hours = 6
+            }
+        }
+		
+    }
+
+    option = {
+        name = GOT_Story_Country.120.c  # Let a castellan rule independently
+        ai_chance = {
+            factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+		
+		if = {
+			limit = {
+				is_in_faction_with = REA
+			}
+			REA = {
+			   country_event = {
+					id = GOT_Diplomatic_Country.20
+					hours = 6
+				}
+			}
+		}
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = STO_Cortnay_Penrose
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					stout_defender
+					indomitable_perseverance
+					hardened_officer
+					conservative_grandee
+				}
+			}
+			promote_leader = yes
+		}
+
+        add_stability = 0.05
+        add_war_support = -0.05
+		
+		every_other_country = {
+            limit = {
+                exists = yes
+            }
+            news_event = {
+                id = GOT_Story_News.120
+                hours = 6
+            }
+        }
+		
     }
 }
 # Renly Baratheon's Death
@@ -4892,6 +5511,14 @@ country_event = {
         tag = STO
         date > 1937.5.20
         date < 1937.6.20
+		NOT = {
+			has_war_with = NOR
+		}
+		country_exists = NOR
+		has_country_leader = {
+			name = "Renly Baratheon"
+			ruling_only = yes
+		}
     }
 
     fire_only_once = yes
@@ -4941,6 +5568,10 @@ country_event = {
         tag = CRO
         date > 1937.5.20
         date < 1937.6.20
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
+		has_war_with = DRA
     }
 
     fire_only_once = yes
@@ -4991,6 +5622,7 @@ country_event = {
         tag = NOR
         date > 1937.5.20
         date < 1937.6.20
+		has_global_flag = GOT_Arya_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -5039,6 +5671,7 @@ country_event = {
         tag = TAR
         date > 1937.5.20
         date < 1937.6.20
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
     }
 
     fire_only_once = yes
@@ -5087,6 +5720,7 @@ country_event = {
         tag = IRO
         date > 1937.6.25
         date < 1937.7.25
+		has_war_with = NOR
     }
 
     fire_only_once = yes
@@ -5185,6 +5819,7 @@ country_event = {
         tag = CRO
         date > 1937.6.25
         date < 1937.7.25
+		has_war_with = NOR
     }
 
     fire_only_once = yes
@@ -5233,6 +5868,7 @@ country_event = {
         tag = TAR
         date > 1937.6.25
         date < 1937.7.25
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
     }
 
     fire_only_once = yes
@@ -5281,6 +5917,7 @@ country_event = {
         tag = NOR
         date > 1937.6.25
         date < 1937.7.25
+		has_war_with = IRO
     }
 
     fire_only_once = yes
@@ -5330,6 +5967,7 @@ country_event = {
         tag = IRO
         date > 1937.8.1
         date < 1937.9.1
+		has_war_with = NOR
     }
 
     fire_only_once = yes
@@ -5428,6 +6066,7 @@ country_event = {
         tag = NOR
         date > 1937.8.1
         date < 1937.9.1
+		has_war_with = WES
     }
 
     fire_only_once = yes
@@ -5478,6 +6117,7 @@ country_event = {
         tag = NOR
         date > 1937.8.1
         date < 1937.9.1
+		has_global_flag = GOT_Arya_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -5526,6 +6166,10 @@ country_event = {
         tag = CRO
         date > 1937.8.1
         date < 1937.9.1
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
+		has_war_with = DRA
     }
 
     fire_only_once = yes
@@ -5574,6 +6218,7 @@ country_event = {
         tag = IRO
         date > 1937.9.5
         date < 1937.10.5
+		has_war_with = NOR
     }
 
     fire_only_once = yes
@@ -5623,6 +6268,9 @@ country_event = {
         tag = CRO
         date > 1937.9.5
         date < 1937.10.5
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
     }
 
     fire_only_once = yes
@@ -5672,6 +6320,10 @@ country_event = {
         tag = CRO
         date > 1937.9.5
         date < 1937.10.5
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
+		has_war_with = DRA
     }
 
     fire_only_once = yes
@@ -5720,6 +6372,7 @@ country_event = {
         tag = TAR
         date > 1937.9.5
         date < 1937.10.5
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
     }
 
     fire_only_once = yes
@@ -5768,6 +6421,7 @@ country_event = {
         tag = NOR
         date > 1937.9.5
         date < 1937.10.5
+		has_war_with = WES
     }
 
     fire_only_once = yes
@@ -5864,6 +6518,8 @@ country_event = {
         tag = CRO
         date > 1937.10.10
         date < 1937.11.10
+		has_war_with = DRA
+		surrender_progress > 30
     }
 
     fire_only_once = yes
@@ -5912,6 +6568,7 @@ country_event = {
         tag = CRO
         date > 1937.10.10
         date < 1937.11.10
+		has_war_with = DRA
     }
 
     fire_only_once = yes
@@ -5922,6 +6579,10 @@ country_event = {
         ai_chance = {
             factor = 10
         }
+		
+		CRO_sandor_clegane = {
+			retire = yes
+		}
 
         add_stability = -0.05
 
@@ -5960,6 +6621,11 @@ country_event = {
         tag = CRO
         date > 1937.10.10
         date < 1937.11.10
+		has_war_with = DRA
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
     }
 
     fire_only_once = yes
@@ -6010,6 +6676,10 @@ country_event = {
         tag = CRO
         date > 1937.10.10
         date < 1937.11.10
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
+		has_war_with = DRA
     }
 
     fire_only_once = yes
@@ -6060,6 +6730,8 @@ country_event = {
         tag = NOR
         date > 1937.11.15
         date < 1937.12.15
+		has_war_with = WES
+		is_in_faction_with = RIV
     }
 
     fire_only_once = yes
@@ -6074,6 +6746,8 @@ country_event = {
         add_stability = -0.05
 		add_war_support = -0.05
 		add_political_power = -25
+		
+		set_global_flag = GOT_Robb_Marries_Talissa_Flag
 
         every_other_country = {
             limit = {
@@ -6110,6 +6784,7 @@ country_event = {
         tag = CRO
         date > 1937.11.15
         date < 1937.12.15
+		is_in_faction_with = REA
     }
 
     fire_only_once = yes
@@ -6159,6 +6834,7 @@ country_event = {
         tag = NOR
         date > 1937.11.15
         date < 1937.12.15
+		has_global_flag = GOT_Arya_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -6207,6 +6883,7 @@ country_event = {
         tag = TAR
         date > 1937.11.15
         date < 1937.12.15
+		has_global_flag = GOT_TAR_DOT_Wedding_Flag
     }
 
     fire_only_once = yes
@@ -6338,8 +7015,8 @@ country_event = {
         name = GOT_Story_Country.150.a
 
         ai_chance = {
-            factor = 40
-			modifier = {
+            factor = 70
+			 modifier = {
 				factor = 1.35
 				has_global_flag = GOT_Lord_Stark_Investigation_Flag
 			}
@@ -6392,7 +7069,7 @@ country_event = {
 		}
 
         ai_chance = {
-            factor = 30
+            factor = 15
 			modifier = {
 				factor = 0.5
 				has_global_flag = GOT_Lord_Stark_Investigation_Flag
@@ -6428,8 +7105,12 @@ country_event = {
 			}
 			leave_faction = yes
 			#Crownlands gets event asking them to join their faction
-			CRO = {
-				country_event = {
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
@@ -6453,7 +7134,7 @@ country_event = {
         name = GOT_Story_Country.150.c
 		
 		ai_chance = {
-            factor = 30
+            factor = 15
 			modifier = {
 				factor = 1.1
 				has_global_flag = GOT_Lord_Stark_Investigation_Flag
@@ -6520,7 +7201,7 @@ country_event = {
                 exists = yes
             }
             news_event = {
-                id = GOT_Story_News.150
+                id = GOT_Diplomatic_News.11
                 hours = 6
             }
         }

@@ -690,6 +690,19 @@ country_event = {
 				factor = 0
 				has_global_flag = BPD_Always_Accept
 			}
+			modifier = {
+				factor = 0
+				ROOT = { 
+					OR = { 
+						tag = CRO
+						tag = WES
+					}
+				}
+				FROM = { 
+					tag = NOR
+				}
+				is_historical_focus_on = yes
+			}
 		}
 		
 		add_war_support = 0.05
@@ -5354,26 +5367,11 @@ country_event = {
 			factor = 50
 		}
 		
-		
-		
-		
-	}
-	
-	option = {
-		#50-50 Chance to Accept
-		name = "BPD_Better_Peace_Deals_Country.1001.b"
-
-		ai_chance = {
-			factor = 0
-		}
-		
-		set_global_flag = BPD_Equalizer
-		
 	}
 	
 	option = {
 		#AI Always Accepts Peace Deals
-		name = "BPD_Better_Peace_Deals_Country.1001.c"
+		name = "BPD_Better_Peace_Deals_Country.1001.b"
 
 		ai_chance = {
 			factor = 0
@@ -5385,13 +5383,25 @@ country_event = {
 	
 	option = {
 		#AI Never Accepts Peace Deals
-		name = "BPD_Better_Peace_Deals_Country.1001.e"
+		name = "BPD_Better_Peace_Deals_Country.1001.c"
 
 		ai_chance = {
 			factor = 0
 		}
 		
 		set_global_flag = BPD_Never_Accept
+		
+	}
+	
+	option = {
+		#AI Never Accepts Peace Deals
+		name = "BPD_Better_Peace_Deals_Country.1001.e"
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		set_global_flag = BPD_Disable_Them_Completely
 		
 	}
 

@@ -12,14 +12,6 @@ characters={
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
-		field_marshal={
-			traits = { }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 3
-		}
 	}
 
 	NWA_eddison_tollett={
@@ -176,18 +168,6 @@ characters={
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
-		}
-		field_marshal={
-			traits={ politically_connected }
-			skill = 2
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-		}
 	}
 
 	NWA_qhorin_halfhand={
@@ -201,10 +181,6 @@ characters={
 				large="gfx/leaders/NWA/Portrait_qhorin_halfhand.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
-		}
-		country_leader={
-			ideology=NR_subideology
-			expire="1965.1.1.1"
 		}
 		advisor={
 			cost = 100

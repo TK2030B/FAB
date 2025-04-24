@@ -43,18 +43,7 @@ country_event = {
 	option = {
 		name = Game_Event.2.a
 		
-		#Added This Temporarily, while Game Event 8 is disabled
-		add_ideas = GOT_Mode_Vanilla
-		every_other_country = {
-			limit = {
-				exists = yes
-			}
-			country_event = { id = Game_Event.3 }
-		}
-		
-		#country_event = { id = Game_Event.8 }
-		
-		country_event = { id = BPD_Better_Peace_Deals_Country.1001 }
+		country_event = { id = Game_Event.8 }
 		
 	}
 	
@@ -80,9 +69,7 @@ country_event = {
 			country_event = { id = Game_Event.4 }
 		}
 		
-		#country_event = { id = Game_Event.8 }
-		
-		country_event = { id = BPD_Better_Peace_Deals_Country.1001 }
+		country_event = { id = Game_Event.8 }
 		
 	}
 }
@@ -211,22 +198,12 @@ country_event = {
 			}
 		}
 		
+		country_event = { id = BPD_Better_Peace_Deals_Country.1001 }
+		
 	}
 	
 	option = {
 		name = Game_Event.8.b
-		
-		CRO = {
-			end_puppet = DRA
-			end_puppet = NOR
-			end_puppet = RIV
-			end_puppet = VAL
-			end_puppet = WES
-			end_puppet = REA
-			end_puppet = DOR
-			end_puppet = STO
-			end_puppet = IRO
-		}
 		
 		set_global_flag = GOT_Sandbox_Mode
 		
@@ -236,6 +213,8 @@ country_event = {
 			}
 			country_event = { id = Game_Event.10 }
 		}
+		
+		country_event = { id = BPD_Better_Peace_Deals_Country.1001 }
 		
 	}
 }

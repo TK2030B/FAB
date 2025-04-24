@@ -28,6 +28,22 @@ characters={
 				cornered_fox 
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				legitimate_heir 
+				warrior_code 
+				unpopular_monarch 
+				headstrong 
+				indomitable_perseverance 
+				strict_austerity_adherent 
+				stout_defender 
+				inexperienced_imperialist 
+				autocratic_imperialist 
+				cornered_fox 
+			}
+		}
 		field_marshal={
 			traits = { }
 			skill = 4

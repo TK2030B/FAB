@@ -1,7 +1,8 @@
 ﻿l_english:
 
  #Decisions
- 
+BPD_Disable_Them_Completely:0 "Peace Deals Disabled"
+
 BPD_Peace_Deal_Manager:0 "Royal Council of Peace"
 BPD_Peace_Deal_Manager_desc:0 "Convene the Royal Council to determine the terms of peace in times of war. Through this sacred assembly, you may dispatch envoys to propose truces, demand tribute, reclaim rightful lands, or confirm control of contested realms. Wield the authority of your crown to forge a lasting accord or press your enemies into submission.\n§YDecisions are only available during times of war.§!\n§YYou may dispatch but one peace envoy per moon.§!"
 
@@ -140,12 +141,13 @@ BPD_Better_Peace_Deals_Country.151.t:0 "[FROM.GetName] Signs the Ceasefire"
 BPD_Better_Peace_Deals_Country.151.d:0 "Our faction leader has accepted [FROM.GetName]'s proposal for the cession of lands. The agreed-upon territories shall be surrendered, ending the strife with [ROOT.GetName] gaining dominion over the land. This accord doth mark a significant change in the borders of the realms and bringeth the hostilities to their conclusion."
 BPD_Better_Peace_Deals_Country.151.a:1 "Good Fortune"
 
- BPD_Better_Peace_Deals_Country.1001.t:0 "AI Acceptance of Peace Deals"
- BPD_Better_Peace_Deals_Country.1001.d:0 "Adjust how the AI evaluates and responds to peace deals in your game.\nChoose the setting that best fits your preferred level of challenge and realism.\n\n- **AI Carefully Weighs Options**: With this option, the AI evaluates peace deals based on a range of strategic factors, making its decisions more nuanced and reflective of the broader context of the war. This setting provides a realistic and challenging gameplay experience, where each peace deal can significantly influence the outcome of the conflict.\n\n- **AI Increased Chance to Accept**: This setting gives the AI more of an equal (50-50) chance of either accepting or declining peace deals.\n\n- **AI Always Accepts Peace Deals**: Selecting this option ensures that the AI will accept any peace deal offered. This simplifies the peace negotiation process and brings a swift conclusion to wars, making it ideal for players who prefer a more straightforward and less challenging experience.\n\n- **AI Never Accepts Peace Deals**: This option ensures the AI will always refuse peace deals, which can be useful in multiplayer games where players want to negotiate peace without worrying about AI exploits. The AI will continue fighting until one side is decisively defeated, ensuring an intense, prolonged conflict."
- BPD_Better_Peace_Deals_Country.1001.a:0 "AI Carefully Weighs Options"
- BPD_Better_Peace_Deals_Country.1001.b:0 "AI Increased Chance to Accept"
- BPD_Better_Peace_Deals_Country.1001.c:0 "AI Always Accepts Peace Deals"
- BPD_Better_Peace_Deals_Country.1001.e:0 "AI Never Accepts Peace Deals"
+BPD_Better_Peace_Deals_Country.1001.t:0 "Peace Deals (4/4)"
+BPD_Better_Peace_Deals_Country.1001.d:0 "Adjust how the AI evaluates and responds to peace deals in your game. Choose the setting that best fits your preferred level of challenge and realism.\n\n- **AI Carefully Weighs Options**: The AI evaluates peace deals based on a wide range of strategic and situational factors. Expect more realistic and varied decisions, where the outcome of each proposal depends on the broader context of the war.\n\n- **AI Always Accepts Peace Deals**: The AI will automatically accept any peace deal offered, regardless of circumstances. Ideal for players who prefer fast, simplified conclusions to conflicts.\n\n- **AI Never Accepts Peace Deals**: The AI will automatically reject all peace offers, continuing to fight until total victory or defeat. This setting can be useful for multiplayer or those who want prolonged wars.\n\n- **Disable Peace Deal System**: Disables the custom peace deal mechanics entirely. The game will revert to default behavior or rely on other mod systems."
+BPD_Better_Peace_Deals_Country.1001.a:0 "AI Carefully Weighs Options"
+BPD_Better_Peace_Deals_Country.1001.b:0 "AI Always Accepts Peace Deals"
+BPD_Better_Peace_Deals_Country.1001.c:0 "AI Never Accepts Peace Deals"
+BPD_Better_Peace_Deals_Country.1001.e:0 "Disable Peace Deal System"
+
  
 BPD_Peace_Cooldown:0 "Initiated Peace Negotiations"
 BPD_Peace_Cooldown_desc:0 "The country has formally initiated peace talks with its adversaries. Diplomatic channels are now focused on the ongoing negotiations, preventing any further proposals for the next 30 days as both sides assess their positions and prepare for future offers."
