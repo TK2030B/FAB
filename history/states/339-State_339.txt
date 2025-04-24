@@ -1,6 +1,6 @@
 state={
-	id=47
-	name="STATE_47"
+	id=339
+	name="STATE_339"
 
 	history={
 		owner = SOT
@@ -21,9 +21,9 @@ state={
 		tungsten = 0   # Gold
 		chromium = 0   # Silver
 	}
-	
+
 	provinces={
-		149 422 651 1028 1071 1343 1347 1459 1917 1947 3180 3184 3195
+		448 666 1133 1529 1812 1954 1979 3187 3193
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
