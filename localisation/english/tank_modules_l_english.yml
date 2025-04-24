@@ -8,7 +8,7 @@
  MODULE_ALLOWED_ROLE_IS_FORBIDDEN_BY_ANOTHER_MODULE:0 "The role $ROLE|H$ is £trigger_yes£ by module $ALLOWING_MODULE|H$ but is £trigger_no£ by module $FORBIDDING_MODULE|H$.\n\n"
 
  ### EQUIPMENT MODULE CATEGORIES ###
- EQ_MOD_CAT_tank_engine_type_TITLE:0 "Beast Type"
+ EQ_MOD_CAT_tank_engine_type_TITLE:0 "Knight Type"
  EQ_MOD_CAT_tank_armor_type_TITLE:0 "Armor Type"
  EQ_MOD_CAT_tank_suspension_type_TITLE:1 "Fitted Horseshoes"
  EQ_MOD_CAT_tank_light_turret_type_TITLE:0 "Squire Saddle Type"
@@ -31,7 +31,7 @@
  EQ_MOD_SLOT_turret_type_slot_TITLE:0 "Saddle"
  EQ_MOD_SLOT_suspension_type_slot_TITLE:0 "Horseshoe"
  EQ_MOD_SLOT_armor_type_slot_TITLE:0 "Armor"
- EQ_MOD_SLOT_engine_type_slot_TITLE:0 "Beast"
+ EQ_MOD_SLOT_engine_type_slot_TITLE:0 "Knight"
  EQ_MOD_SLOT_special_type_slot_1_TITLE:0 "Special Features"
  EQ_MOD_SLOT_special_type_slot_2_TITLE:0 "Special Features"
  EQ_MOD_SLOT_special_type_slot_3_TITLE:0 "Special Features"
@@ -119,10 +119,10 @@ tank_super_heavy_three_man_tank_turret:0 "War Elephant Platform"
 tank_super_heavy_three_man_tank_turret_desc:0 "A large platform secured to the elephant’s back, allowing a knight to maintain battlefield awareness while directing the beast and engaging foes."
 
 tank_heavy_machine_gun:0 "Two-Handed Sword"
-tank_heavy_machine_gun_desc:0 "A mighty weapon, well-suited for cutting down foot soldiers with sweeping blows. While devastating against lightly armored foes, it struggles against heavily armored war beasts."
+tank_heavy_machine_gun_desc:0 "A mighty weapon, well-suited for cutting down foot soldiers with sweeping blows. While devastating against lightly armored foes, it struggles against heavily armored knights."
 
 tank_auto_cannon:0 "Short Sword"
-tank_auto_cannon_desc:0 "A fast and agile weapon, ideal for slashing lightly armored foes. While it can cut through lesser defenses with ease, it struggles against war beasts and heavily armored opponents."
+tank_auto_cannon_desc:0 "A fast and agile weapon, ideal for slashing lightly armored foes. While it can cut through lesser defenses with ease, it struggles against knights and heavily armored opponents."
 
 tank_auto_cannon_2:0 "Improved Short Sword"
 tank_auto_cannon_2_desc:0 "A refined version of the short sword, crafted with superior balance and sharper edges, allowing for more effective strikes against lightly armored enemies."
@@ -135,7 +135,7 @@ tank_anti_air_cannon_3:0 "Advanced Dragonbane Lance"
 tank_anti_air_cannon_3_desc:0 "A master-crafted Dragonbane Lance, offering unparalleled ability to strike down aerial threats."
 
 tank_medium_howitzer:0 "Knight's Longbow"
-tank_medium_howitzer_desc:0 "A powerful longbow, wielded by knights to provide indirect fire support. Its arrows can rain down upon enemy formations, though it lacks effectiveness against armored war beasts."
+tank_medium_howitzer_desc:0 "A powerful longbow, wielded by knights to provide indirect fire support. Its arrows can rain down upon enemy formations, though it lacks effectiveness against armored knights."
 
 tank_medium_howitzer_2:0 "Improved Knight's Longbow"
 tank_medium_howitzer_2_desc:0 "A sturdier and more refined longbow, crafted for greater range and accuracy, enhancing its effectiveness against massed infantry."
@@ -165,16 +165,16 @@ tank_heavy_cannon_3:0 "Advanced Paladin’s Longsword"
 tank_heavy_cannon_3_desc:0 "A legendary blade, imbued with the finest craftsmanship and enchantments, capable of cleaving through enemy ranks with ease."
 
 tank_high_velocity_cannon:0 "Basic Lance"
-tank_high_velocity_cannon_desc:0 "A lance designed for piercing enemy armor and dealing devastating blows to war beasts. While highly effective in direct charges, it is less useful against foot soldiers."
+tank_high_velocity_cannon_desc:0 "A lance designed for piercing enemy armor and dealing devastating blows to knights. While highly effective in direct charges, it is less useful against foot soldiers."
 
 tank_high_velocity_cannon_2:0 "Improved Lance"
 tank_high_velocity_cannon_2_desc:0 "A more refined and reinforced lance, increasing its durability and penetration power against armored foes."
 
 tank_high_velocity_cannon_3:0 "Advanced Lance"
-tank_high_velocity_cannon_3_desc:0 "A masterwork lance, crafted with precision to maximize armor-piercing potential, making it the pinnacle of anti-war beast weaponry."
+tank_high_velocity_cannon_3_desc:0 "A masterwork lance, crafted with precision to maximize armor-piercing potential, making it the pinnacle of anti-knight weaponry."
 
 tank_close_support_gun:0 "Crossbow"
-tank_close_support_gun_desc:0 "A heavy crossbow designed to fire powerful bolts capable of breaking enemy fortifications and disrupting formations. While highly effective against entrenched foes, its slow reload speed makes it less suitable for direct combat against war beasts."
+tank_close_support_gun_desc:0 "A heavy crossbow designed to fire powerful bolts capable of breaking enemy fortifications and disrupting formations. While highly effective against entrenched foes, its slow reload speed makes it less suitable for direct combat against knights."
 
 
 tank_super_heavy_cannon:0 "War Elephant Ballista"
@@ -231,7 +231,7 @@ extra_ammo_storage:0 "Extra Supply Pouches"
 extra_ammo_storage_desc:0 "Carrying additional supplies, such as arrows, javelins, or provisions, allows warriors to last longer in battle but increases their burden, making them more vulnerable if overrun."
 
 wet_ammo_storage:0 "Sacred War Paints"
-wet_ammo_storage_desc:0 "Blessed oils and protective war paints are applied to war beasts and armor to ward off misfortune and bolster the morale of both rider and steed."
+wet_ammo_storage_desc:0 "Blessed oils and protective war paints are applied to knights and armor to ward off misfortune and bolster the morale of both rider and steed."
 
 dozer_blade:0 "Field Fortification Tools"
 dozer_blade_desc:0 "Equipping knights with spades, axes, and wooden stakes allows them to rapidly construct defensive positions, improving their ability to hold the line."
@@ -424,7 +424,7 @@ modern_tank_aa_chassis_1:0 "Dragonslayer (Elite Knight)"
  
  super_heavy_tank_chassis:0 "War Elephant Mount"
  super_heavy_tank:0 "War Elephant"
- super_heavy_tank_chassis_desc:0 "A colossal war beast, capable of carrying the heaviest armor and the most devastating weaponry. However, its sheer size makes it slow and difficult to maintain."
+ super_heavy_tank_chassis_desc:0 "A colossal knight, capable of carrying the heaviest armor and the most devastating weaponry. However, its sheer size makes it slow and difficult to maintain."
  super_heavy_tank_chassis_1:0 "War Elephant Mount"
  
 super_heavy_tank_artillery_chassis_desc:0 "A massive war elephant, equipped with the heaviest armor and a platform for skilled archers, designed to rain deadly volleys upon enemy forces. However, its size makes it slow and cumbersome on the battlefield."
@@ -466,8 +466,8 @@ amphibious_tank_chassis_desc:0 "A specially adapted mount designed for operation
 amphibious_tank_chassis_1:0 "Amphibious Mount"
 
  
- gwtank_chassis: "War Beast Domestication"
- gwtank_chassis_desc: "Throughout history, war beasts have played a crucial role in battle, but only through rigorous breeding, training, and armored enhancements can they become true instruments of war. As conflicts grow larger, the need for well-trained and disciplined war beasts and their riders becomes ever more apparent."
+ gwtank_chassis: "Steed Domestication"
+ gwtank_chassis_desc: "Throughout history, knights have played a crucial role in battle, but only through rigorous breeding, training, and armored enhancements can they become true instruments of war. As conflicts grow larger, the need for well-trained and disciplined knights and their riders becomes ever more apparent."
  armor_tech_1:0 "Basic Armor Protection"
  armor_tech_1_desc:0 "Armor of old was crafted to withstand swords, arrows, and the occasional mace blow. However, as battlefield weapons grow stronger, warriors must reinforce their protection with heavier mail and sturdier shields."
 
@@ -594,7 +594,7 @@ lc_light_anti_air_battery:0 "Light Anti-Dragon Scorpion"
 lc_light_anti_air_battery_desc:0 "A smaller, more mobile scorpion designed to provide rapid and precise fire against enemy wyverns, smaller dragons, and aerial cavalry."
 
 lc_flamethrower_turret:0 "Wildfire Archers"
-lc_flamethrower_turret_desc:0 "A unit of archers equipped with wildfire-tipped arrows, capable of igniting enemy positions, setting war beasts ablaze, and creating chaos on the battlefield."
+lc_flamethrower_turret_desc:0 "A unit of archers equipped with wildfire-tipped arrows, capable of igniting enemy positions, setting knights ablaze, and creating chaos on the battlefield."
 
 lc_rocket_launcher:0 "Flame Archers"
 lc_rocket_launcher_desc:0 "A contingent of archers trained in launching fire arrows in volleys, spreading destruction across enemy ranks and setting siege engines and fortifications aflame."

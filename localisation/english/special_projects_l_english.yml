@@ -474,7 +474,7 @@ sp_land_reward_option_stronghold_network_collapse_02_desc: "A tunnel beneath one
  sp_land_generic_reward_armor_tech_1: "Pioneering Techniques"
  sp_land_generic_reward_armor_tech_2: "Innovative Advancements"
  sp_land_generic_reward_armor_tech_3: "Experimental Methodology"
- sp_land_generic_reward_option_armor_tech_bonus_name: "Experimental War Beast Research"
+ sp_land_generic_reward_option_armor_tech_bonus_name: "Experimental Knight Research"
 
  sp_land_generic_reward_artillery_tech_1: "$sp_land_generic_reward_armor_tech_1$"
  sp_land_generic_reward_artillery_tech_2: "$sp_land_generic_reward_armor_tech_2$"
@@ -1272,7 +1272,7 @@ sp_air_helicopter_preference_protection: "Reinforced Scales"
 
  ###### SPECIAL PROJECT TAGS ########
 
- sp_tag_tank: "War Beast Projects"
+ sp_tag_tank: "Knight Projects"
  sp_tag_artillery: "Archer Projects"
  sp_tag_surface_ship: "Non-Pirate Ship Projects"
  sp_tag_submarine: "Pirate Ship Projects"
@@ -1333,8 +1333,8 @@ scientist_trait_guidance_systems_expert: "Aiming Mechanisms Expert"
 scientist_trait_guidance_systems_expert_desc: "An expert in the precision calibration of siege engines, specializing in improving targeting accuracy and control for long-range projectile warfare."  
 
  
-scientist_trait_armored_specialist: "War Beast Specialist"  
-scientist_trait_armored_specialist_desc: "A seasoned tactician and handler specializing in the breeding, training, and deployment of war beasts such as knights' steeds, war elephants, and battle-hardened mammoths."  
+scientist_trait_armored_specialist: "Knight Specialist"  
+scientist_trait_armored_specialist_desc: "A seasoned tactician and handler specializing in the breeding, training, and deployment of knights such as knights' steeds, war elephants, and battle-hardened mammoths."  
 
  
 scientist_trait_artillery_specialist: "Archery Specialist"  

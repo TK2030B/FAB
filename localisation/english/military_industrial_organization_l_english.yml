@@ -311,7 +311,7 @@ mio_header_light_aircraft: "Small Dragons"
 mio_header_medium_aircraft: "Medium Dragons"
 mio_header_motorized: "Warhorses"
 mio_header_mechanized: "Armored Warhorses"
-mio_header_anti_tank: "Anti-Beast"
+mio_header_anti_tank: "Anti-Knight"
 mio_header_protection: "Protection"
 mio_header_specialization: "Specialization"
 mio_header_light_assault_gun_department: "Light Assault Gun Department"
@@ -961,7 +961,7 @@ generic_mio_trait_semi_armor_piercing_shells: "Reinforced Iron-Tipped Projectile
  generic_mio_trait_efficient_scale_up: "Mass Production of Arms"
  generic_mio_trait_private_scientists_program: "Private Armament Workshops"
  generic_mio_trait_private_tenders: "Mercenary Contracts"
- generic_mio_trait_anti_tank_rifle: "Lance of Beast Slaying"  # Antagonistic weapons to deal with mounted war beasts or knights
+ generic_mio_trait_anti_tank_rifle: "Lance of Knight Slaying"  # Antagonistic weapons to deal with mounted knights or knights
  generic_mio_trait_single_shot_man_portable_anti_tank_system: "Portable Crossbow of Piercing" # For anti-armor, use crossbows
  generic_mio_trait_small_sidearms: "Dagger & Short Sword"
  generic_mio_trait_light_mortar: "Hand-Crafted Bombs"  # Mortar-like explosive devices
@@ -976,7 +976,7 @@ generic_mio_trait_semi_armor_piercing_shells: "Reinforced Iron-Tipped Projectile
  generic_mio_trait_glacis_armor: "Sloped Armor Plating"  # Used on chariots for deflection
  generic_mio_trait_heavy_anti_tank_rifle: "Heavy Lance"  # Large mounted lance to combat knights and armored beasts
  generic_mio_trait_light_anti_personnel_machinegun: "Spear Thrower"  # Mechanized archers or spear-throwing units
- generic_mio_trait_combat_group: "Battle Formation"  # Group tactics for chariots or war beasts
+ generic_mio_trait_combat_group: "Battle Formation"  # Group tactics for chariots or knights
  generic_mio_trait_machine_gun_group: "Archer Formation"  # Mounted archers or archers in protective formations
  generic_mio_trait_transceiver_station: "Signal Horn Station"  # Communication for coordinating attacks or retreats
  generic_mio_trait_water_tank: "Water Barrel"  # For chariot refreshment, could also be for putting out fires

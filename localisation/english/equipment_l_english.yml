@@ -4,19 +4,19 @@ tank_armor_upgrade:0 "Armor"
 tank_armor_upgrade_desc:0 "Stronger barding provides greater protection against enemy weapons, though it may slow the beast down."  
 
 tank_gun_upgrade:0 "Weapon"  
-tank_gun_upgrade_desc:0 "Ensuring our knights and war beasts wield weapons capable of piercing enemy defenses is crucial for battlefield supremacy."  
+tank_gun_upgrade_desc:0 "Ensuring our knights wield weapons capable of piercing enemy defenses is crucial for battlefield supremacy."  
 
 tank_aa_upgrade:0 "AD Armament"  
 tank_aa_upgrade_desc:0 "Equipping our forces with weapons designed to strike down flying beasts ensures dominance over the skies."  
 
 tank_at_upgrade:0 "AB Armament"  
-tank_at_upgrade_desc:0 "Our war beasts and cavalry must be armed with weapons that can counter the mightiest enemy creatures and their riders."  
+tank_at_upgrade_desc:0 "Our knights and cavalry must be armed with weapons that can counter the mightiest enemy creatures and their riders."  
 
 tank_art_upgrade:0 "Bow Armament"  
 tank_art_upgrade_desc:0 "Enhancing our knights’ ranged weaponry allows them to deliver devastating volleys upon their foes from a distance."  
 
 tank_reliability_upgrade:0 "Beast Care"  
-tank_reliability_upgrade_desc:0 "Proper care and maintenance of our war beasts improve their resilience, reducing the risk of exhaustion or injury in battle."  
+tank_reliability_upgrade_desc:0 "Proper care and maintenance of our knights improve their resilience, reducing the risk of exhaustion or injury in battle."  
  
 tank_engine_upgrade:0 "Training"  
 tank_engine_upgrade_desc:0 "Through rigorous training, our steeds become faster and more enduring, allowing them to carry more armor without being significantly slowed down."  
@@ -165,7 +165,7 @@ sh_battleship_desc:0 "The mightiest warship to ever sail, clad in the thickest a
  support_equipment_1:0 "Support Equipment"
  support_equipment_1_desc:0 "Hammers, hatchets, tents, and other tools essential for maintaining supply lines and supporting troops."
  EQUIPMENT_DESIGNER_DESC:0 "Designed by: $DESIGNER|Y$"
- EQUIPMENT_ARMOR:0 "War Beast"
+ EQUIPMENT_ARMOR:0 "Knight"
  EQUIPMENT_MOTORIZED:1 "Warhorse"
  EQUIPMENT_MECHANIZED:0 "Armored Warhorse"
  EQUIPMENT_INFANTRY:0 "Infantry"
@@ -188,7 +188,7 @@ sh_battleship_desc:0 "The mightiest warship to ever sail, clad in the thickest a
  EQUIPMENT_SUPPORT:0 "Support"
  EQUIPMENT_ANTI_AIR:0 "Anti-Dragon"
  EQUIPMENT_ARTILLERY:0 "Ranged"
- EQUIPMENT_ANTI_TANK:0 "Anti-Beast"
+ EQUIPMENT_ANTI_TANK:0 "Anti-Knight"
  EQUIPMENT_ROCKET:0 "Rocket"
  EQUIPMENT_FLAME:0 "Flame"
  EQUIPMENT_MISSILE:0 "Boulder"
@@ -254,11 +254,11 @@ light_tank_destroyer_equipment_1_desc:0 "Young squires armed with lances, traine
 
 light_tank_destroyer_equipment_2:0 "Squire Lancers II"  
 light_tank_destroyer_equipment_2_short:0 "Lancers II"  
-light_tank_destroyer_equipment_2_desc:0 "More experienced squires, equipped with reinforced lances and superior riding skills. They now pose a greater threat to enemy cavalry and monstrous war beasts, striking with deadly accuracy before retreating to safety."  
+light_tank_destroyer_equipment_2_desc:0 "More experienced squires, equipped with reinforced lances and superior riding skills. They now pose a greater threat to enemy cavalry and monstrous knights, striking with deadly accuracy before retreating to safety."  
 
 light_tank_destroyer_equipment_3:0 "Squire Lancers III"  
 light_tank_destroyer_equipment_3_short:0 "Lancers III"  
-light_tank_destroyer_equipment_3_desc:0 "Elite squire lancers, trained in the art of precise strikes against the largest of enemy mounts. Their tactics and improved equipment allow them to challenge even the most formidable of knights and war beasts in battle."  
+light_tank_destroyer_equipment_3_desc:0 "Elite squire lancers, trained in the art of precise strikes against the largest of enemy mounts. Their tactics and improved equipment allow them to challenge even the most formidable of knights in battle."  
 
 light_tank_aa_equipment:0 "Squire Dragon Slayers"  
 light_tank_aa_equipment_short:0 "Dragon Slayers"  
@@ -270,7 +270,7 @@ light_tank_aa_equipment_1_desc:0 "A fresh force of squire dragon slayers, armed 
 
 light_tank_aa_equipment_2:0 "Squire Dragon Slayers II"  
 light_tank_aa_equipment_2_short:0 "Dragon Slayers II"  
-light_tank_aa_equipment_2_desc:0 "With superior dragonbane weapons and refined tactics, these squires can strike down war beasts and airborne foes before they reach their targets. Their discipline ensures that even the mightiest of flying threats can be countered."  
+light_tank_aa_equipment_2_desc:0 "With superior dragonbane weapons and refined tactics, these squires can strike down knights and airborne foes before they reach their targets. Their discipline ensures that even the mightiest of flying threats can be countered."  
 
 light_tank_aa_equipment_3:0 "Squire Dragon Slayers III"  
 light_tank_aa_equipment_3_short:0 "Dragon Slayers III"  
@@ -338,7 +338,7 @@ medium_tank_aa_equipment_2_desc:0 "With superior training and enhanced weaponry,
 
 medium_tank_aa_equipment_3:0 "Knight Dragon Slayers III"  
 medium_tank_aa_equipment_3_short:0 "Dragon Slayers III"  
-medium_tank_aa_equipment_3_desc:0 "The most elite of their kind, these knights wield enchanted greatbows and fire piercing bolts capable of striking down even the largest flying war beasts. Their legend is feared across the battlefield."  
+medium_tank_aa_equipment_3_desc:0 "The most elite of their kind, these knights wield enchanted greatbows and fire piercing bolts capable of striking down even the largest flying knights. Their legend is feared across the battlefield."  
  
 heavy_tank_equipment:0 "Paladin"
 heavy_tank_equipment_desc:0 "Paladins are heavily armored knights, clad in near-impenetrable steel, capable of smashing through enemy lines and holding the battlefield against all challengers."
@@ -389,10 +389,10 @@ heavy_tank_aa_equipment_3_short:0 "Dragon Slayers III"
 heavy_tank_aa_equipment_3_desc:0 "The ultimate dragonslayers, wielding legendary weapons capable of piercing the toughest dragon scales and striking with divine precision."
  
 super_heavy_tank_equipment:0 "War Elephants"
-super_heavy_tank_equipment_desc:0 "These massive, heavily armored war beasts are the pinnacle of battlefield dominance. Towering over the battlefield, they trample enemy formations, shrug off arrows and spears, and carry powerful siege weapons upon their backs. However, their immense size makes them slow and difficult to maneuver, and few bridges can support their weight."
+super_heavy_tank_equipment_desc:0 "These massive, heavily armored elephants are the pinnacle of battlefield dominance. Towering over the battlefield, they trample enemy formations, shrug off arrows and spears, and carry powerful siege weapons upon their backs. However, their immense size makes them slow and difficult to maneuver, and few bridges can support their weight."
 super_heavy_tank_equipment_1:0 "War Elephants"
 super_heavy_tank_equipment_1_short:0 "War Elephants"
-super_heavy_tank_equipment_1_desc:0 "These massive, heavily armored war beasts are the pinnacle of battlefield dominance. Towering over the battlefield, they trample enemy formations, shrug off arrows and spears, and carry powerful siege weapons upon their backs. However, their immense size makes them slow and difficult to maneuver, and few bridges can support their weight."
+super_heavy_tank_equipment_1_desc:0 "These massive, heavily armored elephants are the pinnacle of battlefield dominance. Towering over the battlefield, they trample enemy formations, shrug off arrows and spears, and carry powerful siege weapons upon their backs. However, their immense size makes them slow and difficult to maneuver, and few bridges can support their weight."
 
  
 super_heavy_tank_artillery_equipment:0 "War Elephant Mounted Archers"
@@ -482,8 +482,8 @@ modern_tank_aa_equipment_1_desc:0 "The deadliest warriors in the realm, wielding
  armored_car_equipment_1_desc:0 "An improved internal layout and better balance allow for increased speed and additional weaponry, making these chariots more effective in both scouting and skirmishes."  
  armored_car_equipment_2:0 "Improved Chariot"  
  armored_car_equipment_2_desc:0 "As battlefield conditions change, chariots are now being equipped with heavier weapons and reinforced armor to combat enemy light cavalry and maintain battlefield mobility."  
- armored_car_at_equipment:0 "Anti-Beast Chariot"  
- armored_car_at_equipment_desc:0 "War chariots will inevitably face enemy war beasts in combat. Developing a special anti-beast variant, equipped with reinforced spears and mounted crossbows, gives them a fighting chance against these massive foes."  
+ armored_car_at_equipment:0 "Anti-Knight Chariot"  
+ armored_car_at_equipment_desc:0 "War chariots will inevitably face enemy knights in combat. Developing a special anti-knight variant, equipped with reinforced spears and mounted crossbows, gives them a fighting chance against these massive foes."  
 
  ACTUAL_EQUIPMENT_HEADER:0 "\n\nEquipment:\n"
  ACTUAL_EQUIPMENT_ENTRY:0 " - $NUM|Y0$ of $NAME|Y$"
@@ -582,17 +582,17 @@ artillery_equipment_3_desc:0 "The latest advancements in archery include composi
  
 anti_tank_equipment:0 "Pikemen Equipment"
 anti_tank_equipment_short:0 "Pikemen Gear"
-anti_tank_equipment_desc:0 "Pikemen are the primary defense against charging cavalry and monstrous war beasts. Their long pikes allow them to strike first, breaking enemy charges and forming a near-impenetrable wall of spears."
+anti_tank_equipment_desc:0 "Pikemen are the primary defense against charging cavalry and monstrous knights. Their long pikes allow them to strike first, breaking enemy charges and forming a near-impenetrable wall of spears."
 
 anti_tank_equipment_1:0 "Pikemen Equipment"
 anti_tank_equipment_1_short:0 "Pikemen Gear"
 anti_tank_equipment_1_desc:0 "Basic gear for Pikemen, consisting of long, sturdy pikes and reinforced armor. This equipment allows them to hold their ground against charging cavalry and large beasts, providing a crucial defense for any army."
 
 anti_tank_equipment_2:0 "Improved Pikemen Equipment"
-anti_tank_equipment_2_desc:0 "Enhanced pike designs, stronger spearheads, and improved armor allow these Pikemen to fight more effectively against even the heaviest cavalry and monstrous war beasts."
+anti_tank_equipment_2_desc:0 "Enhanced pike designs, stronger spearheads, and improved armor allow these Pikemen to fight more effectively against even the heaviest cavalry and monstrous knights."
 
 anti_tank_equipment_3:0 "Advanced Pikemen Equipment"
-anti_tank_equipment_3_desc:0 "The finest pike formations are supported by expertly crafted weapons and superior armor, making these Pikemen the ultimate counter to war beasts and elite cavalry. Their discipline and weaponry ensure devastating results against charging foes."
+anti_tank_equipment_3_desc:0 "The finest pike formations are supported by expertly crafted weapons and superior armor, making these Pikemen the ultimate counter to knights and elite cavalry. Their discipline and weaponry ensure devastating results against charging foes."
 
 
 rocket_artillery_equipment:0 "Flame Archery Equipment"  

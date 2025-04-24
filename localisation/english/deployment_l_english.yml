@@ -53,10 +53,10 @@
  UPGRADES_EMPTY:0 "§GNo current requests for upgrade.§!"
  group_infantry_title:0 "Infantry Regiments"  
  group_mobile_title:0 "Cavalry Regiments"  
- group_armor_title:0 "War Beast Regiments"  
+ group_armor_title:0 "Knight Regiments"  
  group_combat_support_title:0 "Infantry Support Regiments"  
  group_mobile_combat_support_title:0 "Cavalry Support Regiments"  
- group_armor_combat_support_title:0 "War Beast Support Regiments"  
+ group_armor_combat_support_title:0 "Knight Support Regiments"  
  group_support_title:0 "Support Units"  
 
  NEW_GROUP_ADDITIONAL_COST:0 "New group $VALUE|H0$£army_experience£"
