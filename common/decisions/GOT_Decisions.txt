@@ -1,6 +1,88 @@
 
 GOT_Game_Decisions = {
 
+	DRA_battle_of_blackwater_bay = {
+		icon = generic_army_support
+
+		available = { 
+			tag = DRA
+			date > 1937.1.1
+			date < 1938.10.10
+			surrender_progress < 0.1
+			has_war_with = CRO
+			142 = { CONTROLLER = { has_war_with = ROOT } }
+			NOT = { has_country_flag = EW_Battle_of_Blackwater_Bay }
+		}
+		
+		allowed = {
+			tag = DRA
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_country_flag = EW_Battle_of_Blackwater_Bay }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = CRO
+			attack_bonus_against = 0.25
+		}
+		
+		targeted_modifier = {
+			tag = WES
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1937.10.3
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_in_faction_with = STO }
+				NOT = { controls_state = 116 }
+			}
+		}
+
+		days_remove = 9
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			set_country_flag = EW_Battle_of_Blackwater_Bay
+			DRA = {
+				country_event = { id = GOT_Wars_Country.1 days = 1 random_days = 7 }	
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = CRO
+						is_in_faction_with = CRO
+					} 
+				}
+				country_event = { id = GOT_Wars_Country.2 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+
 	GOT_Give_GOT_Mode_To_New_Countries = {
 		
 		allowed = {

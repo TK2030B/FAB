@@ -6475,18 +6475,7 @@ country_event = {
     desc = GOT_Story_Country.140.d
     picture = GFX_report_event_GOT_Story_Country140
 
-    trigger = {
-        tag = DRA
-        date > 1937.1.10
-        date < 1938.10.10
-		has_war_with = CRO
-		OR = {
-		controls_province = 4697
-		controls_province = 1410
-		}
-    }
-
-    fire_only_once = yes
+    is_triggered_only = yes
 
     option = {
         name = GOT_Story_Country.140.a

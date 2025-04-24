@@ -1,0 +1,58 @@
+add_namespace = GOT_War_Country
+add_namespace = GOT_War_News
+
+#Invasion of Blackwater Bay
+country_event = {
+	id = GOT_Wars_Country.1
+	title = GOT_Wars_Country.1.t
+	desc = GOT_Wars_Country.1.d
+	picture = GFX_report_event_Stannis_Fleet
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Wars_Country.1.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		if = {
+			limit = {
+				DRA = { is_ai = yes }
+			}
+			load_oob = DRA_Blackwater		
+		}
+		
+		add_war_support = 0.05
+		army_experience = 5
+		navy_experience = 5
+		
+		country_event = { id = GOT_Story_Country.140 hours = 6 }
+		
+		
+			
+	}
+
+}
+
+#Stannis Invasion of Blackwater Imminent!
+country_event = {
+	id = GOT_Wars_Country.2
+	title = GOT_Wars_Country.2.t
+	desc = GOT_Wars_Country.2.d
+	picture = GFX_report_event_Stannis_Fleet
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Wars_Country.2.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_war_support = 0.1
+
+	}
+
+}
