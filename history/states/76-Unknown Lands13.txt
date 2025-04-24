@@ -1,6 +1,6 @@
 state={
-	id=301
-	name="STATE_301"
+	id=76
+	name="STATE_76"
 	history={
 		owner = UNL
 		buildings = {
@@ -9,7 +9,7 @@ state={
 		add_core_of = UNL
 	}
 	provinces={
-		381 1245 1772 2787
+		3 43 98 176 186 261 436 524 699 827 1001 1694 1751 1769 2943 2959 2971 2993 3027 3031 3033
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
