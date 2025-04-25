@@ -296,11 +296,12 @@ GOT_Game_Decisions = {
 			NOT = { is_in_faction_with = RIV }
 			country_exists = RIV
 			surrender_progress < 0.1
-			is_faction_leader = yes
+			has_global_flag = GOT_Sandbox_Mode
 		}
 
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
+			has_global_flag = GOT_Sandbox_Mode
 		}
 
 		cost = 0
