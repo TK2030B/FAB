@@ -62,6 +62,94 @@ spriteTypes = {
         name = "GFX_leader_westeros_admiral5"
         texturefile = "gfx/leaders/Westeros/Admirals/Admiral5.dds"
     }
+	
+	# Tyrannical
+    spriteType = {
+        name = "GFX_leader_westeros_Tyrannical1"
+        texturefile = "gfx/leaders/Westeros/Tyrannical/Tyrannical1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Tyrannical2"
+        texturefile = "gfx/leaders/Westeros/Tyrannical/Tyrannical2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Tyrannical3"
+        texturefile = "gfx/leaders/Westeros/Tyrannical/Tyrannical3.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Tyrannical4"
+        texturefile = "gfx/leaders/Westeros/Tyrannical/Tyrannical4.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Tyrannical5"
+        texturefile = "gfx/leaders/Westeros/Tyrannical/Tyrannical5.dds"
+    }
+	
+	# Traditional
+    spriteType = {
+        name = "GFX_leader_westeros_Traditional1"
+        texturefile = "gfx/leaders/Westeros/Traditional/Traditional1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Traditional2"
+        texturefile = "gfx/leaders/Westeros/Traditional/Traditional2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Traditional3"
+        texturefile = "gfx/leaders/Westeros/Traditional/Traditional3.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Traditional4"
+        texturefile = "gfx/leaders/Westeros/Traditional/Traditional4.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Traditional5"
+        texturefile = "gfx/leaders/Westeros/Traditional/Traditional5.dds"
+    }
+	
+	# Benevolent
+    spriteType = {
+        name = "GFX_leader_westeros_Benevolent1"
+        texturefile = "gfx/leaders/Westeros/Benevolent/Benevolent1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Benevolent2"
+        texturefile = "gfx/leaders/Westeros/Benevolent/Benevolent2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Benevolent3"
+        texturefile = "gfx/leaders/Westeros/Benevolent/Benevolent3.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Benevolent4"
+        texturefile = "gfx/leaders/Westeros/Benevolent/Benevolent4.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Benevolent5"
+        texturefile = "gfx/leaders/Westeros/Benevolent/Benevolent5.dds"
+    }
+	
+	# Dissident
+    spriteType = {
+        name = "GFX_leader_westeros_Dissident1"
+        texturefile = "gfx/leaders/Westeros/Dissident/Dissident1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Dissident2"
+        texturefile = "gfx/leaders/Westeros/Dissident/Dissident2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Dissident3"
+        texturefile = "gfx/leaders/Westeros/Dissident/Dissident3.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Dissident4"
+        texturefile = "gfx/leaders/Westeros/Dissident/Dissident4.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_Dissident5"
+        texturefile = "gfx/leaders/Westeros/Dissident/Dissident5.dds"
+    }
 
     # Scientists (Female)
     spriteType = {

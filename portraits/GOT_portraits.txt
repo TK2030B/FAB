@@ -27,78 +27,38 @@ default = {
 	political = {
 		communism = {
 			male = {
-				"GFX_leader_westeros_general1"
-				"GFX_leader_westeros_general2"
-				"GFX_leader_westeros_general3"
-				"GFX_leader_westeros_general4"
-				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_general6"
-				"GFX_leader_westeros_general7"
-				"GFX_leader_westeros_general8"
-				"GFX_leader_westeros_general9"
-				"GFX_leader_westeros_general10"
-				"GFX_leader_westeros_admiral1"
-				"GFX_leader_westeros_admiral2"
-				"GFX_leader_westeros_admiral3"
-				"GFX_leader_westeros_admiral4"
-				"GFX_leader_westeros_admiral5"
+				"GFX_leader_westeros_Dissident1"
+				"GFX_leader_westeros_Dissident2"
+				"GFX_leader_westeros_Dissident3"
+				"GFX_leader_westeros_Dissident4"
+				"GFX_leader_westeros_Dissident5"
 			}
 		}
 		democratic = {
 			male = {
-				"GFX_leader_westeros_general1"
-				"GFX_leader_westeros_general2"
-				"GFX_leader_westeros_general3"
-				"GFX_leader_westeros_general4"
-				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_general6"
-				"GFX_leader_westeros_general7"
-				"GFX_leader_westeros_general8"
-				"GFX_leader_westeros_general9"
-				"GFX_leader_westeros_general10"
-				"GFX_leader_westeros_admiral1"
-				"GFX_leader_westeros_admiral2"
-				"GFX_leader_westeros_admiral3"
-				"GFX_leader_westeros_admiral4"
-				"GFX_leader_westeros_admiral5"
+				"GFX_leader_westeros_Benevolent1"
+				"GFX_leader_westeros_Benevolent2"
+				"GFX_leader_westeros_Benevolent3"
+				"GFX_leader_westeros_Benevolent4"
+				"GFX_leader_westeros_Benevolent5"
 			}
 		}
 		fascism = {
 			male = {
-				"GFX_leader_westeros_general1"
-				"GFX_leader_westeros_general2"
-				"GFX_leader_westeros_general3"
-				"GFX_leader_westeros_general4"
-				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_general6"
-				"GFX_leader_westeros_general7"
-				"GFX_leader_westeros_general8"
-				"GFX_leader_westeros_general9"
-				"GFX_leader_westeros_general10"
-				"GFX_leader_westeros_admiral1"
-				"GFX_leader_westeros_admiral2"
-				"GFX_leader_westeros_admiral3"
-				"GFX_leader_westeros_admiral4"
-				"GFX_leader_westeros_admiral5"
+				"GFX_leader_westeros_Tyrannical1"
+				"GFX_leader_westeros_Tyrannical2"
+				"GFX_leader_westeros_Tyrannical3"
+				"GFX_leader_westeros_Tyrannical4"
+				"GFX_leader_westeros_Tyrannical5"
 			}
 		}
 		neutrality = {
 			male = {
-				"GFX_leader_westeros_general1"
-				"GFX_leader_westeros_general2"
-				"GFX_leader_westeros_general3"
-				"GFX_leader_westeros_general4"
-				"GFX_leader_westeros_general5"
-				"GFX_leader_westeros_general6"
-				"GFX_leader_westeros_general7"
-				"GFX_leader_westeros_general8"
-				"GFX_leader_westeros_general9"
-				"GFX_leader_westeros_general10"
-				"GFX_leader_westeros_admiral1"
-				"GFX_leader_westeros_admiral2"
-				"GFX_leader_westeros_admiral3"
-				"GFX_leader_westeros_admiral4"
-				"GFX_leader_westeros_admiral5"
+				"GFX_leader_westeros_Traditional1"
+				"GFX_leader_westeros_Traditional2"
+				"GFX_leader_westeros_Traditional3"
+				"GFX_leader_westeros_Traditional4"
+				"GFX_leader_westeros_Traditional5"
 			}
 		}
 	}
