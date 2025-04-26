@@ -32,6 +32,36 @@ spriteTypes = {
         name = "GFX_leader_westeros_general8"
         texturefile = "gfx/leaders/Westeros/Generals/General8.dds"
     }
+	spriteType = {
+        name = "GFX_leader_westeros_general9"
+        texturefile = "gfx/leaders/Westeros/Generals/General9.dds"
+    }
+	 spriteType = {
+        name = "GFX_leader_westeros_general10"
+        texturefile = "gfx/leaders/Westeros/Generals/General10.dds"
+    }
+	
+	# Admirals
+    spriteType = {
+        name = "GFX_leader_westeros_admiral1"
+        texturefile = "gfx/leaders/Westeros/Admirals/Admiral1.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_admiral2"
+        texturefile = "gfx/leaders/Westeros/Admirals/Admiral2.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_admiral3"
+        texturefile = "gfx/leaders/Westeros/Admirals/Admiral3.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_admiral4"
+        texturefile = "gfx/leaders/Westeros/Admirals/Admiral4.dds"
+    }
+    spriteType = {
+        name = "GFX_leader_westeros_admiral5"
+        texturefile = "gfx/leaders/Westeros/Admirals/Admiral5.dds"
+    }
 
     # Scientists (Female)
     spriteType = {

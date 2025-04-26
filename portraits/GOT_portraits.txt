@@ -9,19 +9,18 @@ default = {
 			"GFX_leader_westeros_general6"
 			"GFX_leader_westeros_general7"
 			"GFX_leader_westeros_general8"
+			"GFX_leader_westeros_general9"
+			"GFX_leader_westeros_general10"
         }
 	}
 	
 	navy = {
 		male = {
-            "GFX_leader_westeros_general1"
-            "GFX_leader_westeros_general2"
-            "GFX_leader_westeros_general3"
-            "GFX_leader_westeros_general4"
-            "GFX_leader_westeros_general5"
-			"GFX_leader_westeros_general6"
-			"GFX_leader_westeros_general7"
-			"GFX_leader_westeros_general8"
+			"GFX_leader_westeros_admiral1"
+            "GFX_leader_westeros_admiral2"
+            "GFX_leader_westeros_admiral3"
+            "GFX_leader_westeros_admiral4"
+            "GFX_leader_westeros_admiral5"
         }
 	}
 	
@@ -36,6 +35,13 @@ default = {
 				"GFX_leader_westeros_general6"
 				"GFX_leader_westeros_general7"
 				"GFX_leader_westeros_general8"
+				"GFX_leader_westeros_general9"
+				"GFX_leader_westeros_general10"
+				"GFX_leader_westeros_admiral1"
+				"GFX_leader_westeros_admiral2"
+				"GFX_leader_westeros_admiral3"
+				"GFX_leader_westeros_admiral4"
+				"GFX_leader_westeros_admiral5"
 			}
 		}
 		democratic = {
@@ -48,6 +54,13 @@ default = {
 				"GFX_leader_westeros_general6"
 				"GFX_leader_westeros_general7"
 				"GFX_leader_westeros_general8"
+				"GFX_leader_westeros_general9"
+				"GFX_leader_westeros_general10"
+				"GFX_leader_westeros_admiral1"
+				"GFX_leader_westeros_admiral2"
+				"GFX_leader_westeros_admiral3"
+				"GFX_leader_westeros_admiral4"
+				"GFX_leader_westeros_admiral5"
 			}
 		}
 		fascism = {
@@ -60,6 +73,13 @@ default = {
 				"GFX_leader_westeros_general6"
 				"GFX_leader_westeros_general7"
 				"GFX_leader_westeros_general8"
+				"GFX_leader_westeros_general9"
+				"GFX_leader_westeros_general10"
+				"GFX_leader_westeros_admiral1"
+				"GFX_leader_westeros_admiral2"
+				"GFX_leader_westeros_admiral3"
+				"GFX_leader_westeros_admiral4"
+				"GFX_leader_westeros_admiral5"
 			}
 		}
 		neutrality = {
@@ -72,6 +92,13 @@ default = {
 				"GFX_leader_westeros_general6"
 				"GFX_leader_westeros_general7"
 				"GFX_leader_westeros_general8"
+				"GFX_leader_westeros_general9"
+				"GFX_leader_westeros_general10"
+				"GFX_leader_westeros_admiral1"
+				"GFX_leader_westeros_admiral2"
+				"GFX_leader_westeros_admiral3"
+				"GFX_leader_westeros_admiral4"
+				"GFX_leader_westeros_admiral5"
 			}
 		}
 	}
