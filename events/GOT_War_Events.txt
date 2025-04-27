@@ -53,6 +53,7 @@ country_event = {
 }
 #
 #Invasion of the North
+country_event = {
 	id = GOT_Wars_Country.3
 	title = GOT_Wars_Country.3.t
 	desc = GOT_Wars_Country.3.d
