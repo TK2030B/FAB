@@ -133,6 +133,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						FROM = { GOT_Targaryen_Faction = yes }
+						ROOT = { tag = TAR }
+					}
+					AND = {
+						FROM = { GOT_Stannis_Faction = yes }
+						ROOT = { tag = DRA }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = CRO }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = WES }
+					}
+					AND = {
+						FROM = { GOT_Renly_Faction = yes }
+						ROOT = { tag = REA }
+					}
+					AND = {
+						FROM = { GOT_Stark_Faction = yes }
+						ROOT = { tag = NOR }
+					}
+					AND = {
+						FROM = { GOT_Ironborn_Faction = yes }
+						ROOT = { tag = IRO }
+					}
+				}
 			}
 		}
 		add_to_faction = FROM
@@ -160,6 +190,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						FROM = { GOT_Targaryen_Faction = yes }
+						ROOT = { tag = TAR }
+					}
+					AND = {
+						FROM = { GOT_Stannis_Faction = yes }
+						ROOT = { tag = DRA }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = CRO }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = WES }
+					}
+					AND = {
+						FROM = { GOT_Renly_Faction = yes }
+						ROOT = { tag = REA }
+					}
+					AND = {
+						FROM = { GOT_Stark_Faction = yes }
+						ROOT = { tag = NOR }
+					}
+					AND = {
+						FROM = { GOT_Ironborn_Faction = yes }
+						ROOT = { tag = IRO }
+					}
+				}
 			}
 
 		}
@@ -190,6 +250,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						FROM = { GOT_Targaryen_Faction = yes }
+						ROOT = { tag = TAR }
+					}
+					AND = {
+						FROM = { GOT_Stannis_Faction = yes }
+						ROOT = { tag = DRA }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = CRO }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = WES }
+					}
+					AND = {
+						FROM = { GOT_Renly_Faction = yes }
+						ROOT = { tag = REA }
+					}
+					AND = {
+						FROM = { GOT_Stark_Faction = yes }
+						ROOT = { tag = NOR }
+					}
+					AND = {
+						FROM = { GOT_Ironborn_Faction = yes }
+						ROOT = { tag = IRO }
+					}
+				}
 			}
 		}
 		add_to_faction = FROM
@@ -234,6 +324,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						FROM = { GOT_Targaryen_Faction = yes }
+						ROOT = { tag = TAR }
+					}
+					AND = {
+						FROM = { GOT_Stannis_Faction = yes }
+						ROOT = { tag = DRA }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = CRO }
+					}
+					AND = {
+						FROM = { GOT_Lannister_Faction = yes }
+						ROOT = { tag = WES }
+					}
+					AND = {
+						FROM = { GOT_Renly_Faction = yes }
+						ROOT = { tag = REA }
+					}
+					AND = {
+						FROM = { GOT_Stark_Faction = yes }
+						ROOT = { tag = NOR }
+					}
+					AND = {
+						FROM = { GOT_Ironborn_Faction = yes }
+						ROOT = { tag = IRO }
+					}
+				}
 			}
 			
 			modifier = {
@@ -590,6 +710,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						ROOT = { GOT_Targaryen_Faction = yes }
+						FROM = { tag = TAR }
+					}
+					AND = {
+						ROOT = { GOT_Stannis_Faction = yes }
+						FROM = { tag = DRA }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = CRO }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = WES }
+					}
+					AND = {
+						ROOT = { GOT_Renly_Faction = yes }
+						FROM = { tag = REA }
+					}
+					AND = {
+						ROOT = { GOT_Stark_Faction = yes }
+						FROM = { tag = NOR }
+					}
+					AND = {
+						ROOT = { GOT_Ironborn_Faction = yes }
+						FROM = { tag = IRO }
+					}
+				}
 			}
 		}
 		FROM = {
@@ -627,6 +777,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						ROOT = { GOT_Targaryen_Faction = yes }
+						FROM = { tag = TAR }
+					}
+					AND = {
+						ROOT = { GOT_Stannis_Faction = yes }
+						FROM = { tag = DRA }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = CRO }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = WES }
+					}
+					AND = {
+						ROOT = { GOT_Renly_Faction = yes }
+						FROM = { tag = REA }
+					}
+					AND = {
+						ROOT = { GOT_Stark_Faction = yes }
+						FROM = { tag = NOR }
+					}
+					AND = {
+						ROOT = { GOT_Ironborn_Faction = yes }
+						FROM = { tag = IRO }
+					}
+				}
 			}
 		}
 		FROM = { 
@@ -662,6 +842,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						ROOT = { GOT_Targaryen_Faction = yes }
+						FROM = { tag = TAR }
+					}
+					AND = {
+						ROOT = { GOT_Stannis_Faction = yes }
+						FROM = { tag = DRA }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = CRO }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = WES }
+					}
+					AND = {
+						ROOT = { GOT_Renly_Faction = yes }
+						FROM = { tag = REA }
+					}
+					AND = {
+						ROOT = { GOT_Stark_Faction = yes }
+						FROM = { tag = NOR }
+					}
+					AND = {
+						ROOT = { GOT_Ironborn_Faction = yes }
+						FROM = { tag = IRO }
+					}
+				}
 			}
 		}
 		FROM = { 
@@ -712,6 +922,36 @@ country_event = {
 			#GOT Modifier
 			modifier = {
 				factor = 10
+				OR = {
+					AND = {
+						ROOT = { GOT_Targaryen_Faction = yes }
+						FROM = { tag = TAR }
+					}
+					AND = {
+						ROOT = { GOT_Stannis_Faction = yes }
+						FROM = { tag = DRA }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = CRO }
+					}
+					AND = {
+						ROOT = { GOT_Lannister_Faction = yes }
+						FROM = { tag = WES }
+					}
+					AND = {
+						ROOT = { GOT_Renly_Faction = yes }
+						FROM = { tag = REA }
+					}
+					AND = {
+						ROOT = { GOT_Stark_Faction = yes }
+						FROM = { tag = NOR }
+					}
+					AND = {
+						ROOT = { GOT_Ironborn_Faction = yes }
+						FROM = { tag = IRO }
+					}
+				}
 			}
 			
 			modifier = {
