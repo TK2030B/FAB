@@ -6846,5 +6846,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	oil_extraction_company_trait = {
+
+		country_resource_oil = 20 
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 }
