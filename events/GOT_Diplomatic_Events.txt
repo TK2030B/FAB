@@ -470,7 +470,7 @@ country_event = {
 			limit = {
 				is_faction_leader = yes
 			}
-			disband_faction = yes
+			dismantle_faction = yes
 		}
 
 		#If Crownlands is a faction member, but not the leader, then he just leaves
@@ -598,7 +598,7 @@ country_event = {
 			limit = {
 				is_faction_leader = yes
 			}
-			disband_faction = yes
+			dismantle_faction = yes
 		}
 
 		#If Crownlands is a faction member, but not the leader, then he just leaves
@@ -1418,7 +1418,7 @@ country_event = {
 			limit = {
 				is_faction_leader = yes
 			}
-			disband_faction = yes
+			dismantle_faction = yes
 		}
 
 		#If is a faction member, but not the leader, then he just leaves
@@ -1751,7 +1751,7 @@ country_event = {
 			limit = {
 				is_faction_leader = yes
 			}
-			disband_faction = yes
+			dismantle_faction = yes
 		}
 		
 		if = {
@@ -1804,7 +1804,7 @@ country_event = {
 			limit = {
 				is_faction_leader = yes
 			}
-			disband_faction = yes
+			dismantle_faction = yes
 		}
 		
 		if = {
@@ -1844,7 +1844,7 @@ country_event = {
 			limit = {
 				is_faction_leader = yes
 			}
-			disband_faction = yes
+			dismantle_faction = yes
 		}
 		
 		if = {
