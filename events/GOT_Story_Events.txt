@@ -7194,7 +7194,7 @@ news_event = {
 ############
 ##SEASON 3##
 ############
-# 
+# GOT_Story_Country.201 – Meeting Mance Rayder
 country_event = { 
     id = GOT_Story_Country.201 
     title = GOT_Story_Country.201.t 
@@ -7231,7 +7231,7 @@ country_event = {
     } 
 } 
  
-# 
+# GOT_Story_News.201 – A Crow Among Wildlings
 news_event = { 
     id = GOT_Story_News.201 
     title = GOT_Story_News.201.t 
@@ -7245,7 +7245,7 @@ news_event = {
     } 
 } 
  
-# 
+# GOT_Story_Country.202 – Tyrion Confronts Tywin Lannister
 country_event = { 
     id = GOT_Story_Country.202 
     title = GOT_Story_Country.202.t 
@@ -7282,7 +7282,7 @@ country_event = {
     } 
 } 
  
-# 
+# GOT_Story_Country.202 – Tyrion Confronts Tywin Lannister 
 news_event = { 
     id = GOT_Story_News.202 
     title = GOT_Story_News.202.t 
@@ -7296,7 +7296,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Arrives in Astapor
 country_event = { 
     id = GOT_Story_Country.203 
     title = GOT_Story_Country.203.t 
@@ -7333,7 +7333,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Arrives in Astapor 
 news_event = { 
     id = GOT_Story_News.203 
     title = GOT_Story_News.203.t 
@@ -7347,7 +7347,7 @@ news_event = {
     } 
 } 
  
-# 
+# Davos Imprisoned at Dragonstone
 country_event = { 
     id = GOT_Story_Country.204 
     title = GOT_Story_Country.204.t 
@@ -7384,7 +7384,7 @@ country_event = {
     } 
 } 
  
-# 
+# Davos Imprisoned at Dragonstone
 news_event = { 
     id = GOT_Story_News.204 
     title = GOT_Story_News.204.t 
@@ -7398,7 +7398,7 @@ news_event = {
     } 
 } 
  
-# 
+# Robb Stark Finds Harrenhal Abandoned
 country_event = { 
     id = GOT_Story_Country.205 
     title = GOT_Story_Country.205.t 
@@ -7435,7 +7435,7 @@ country_event = {
     } 
 } 
  
-# 
+# Robb Stark Finds Harrenhal Abandoned
 news_event = { 
     id = GOT_Story_News.205 
     title = GOT_Story_News.205.t 
@@ -7449,7 +7449,7 @@ news_event = {
     } 
 } 
  
-# 
+# Bran Meets Jojen and Meera Reed
 country_event = { 
     id = GOT_Story_Country.206 
     title = GOT_Story_Country.206.t 
@@ -7486,7 +7486,7 @@ country_event = {
     } 
 } 
  
-# 
+# Bran Meets Jojen and Meera Reed
 news_event = { 
     id = GOT_Story_News.206 
     title = GOT_Story_News.206.t 
@@ -7500,7 +7500,7 @@ news_event = {
     } 
 } 
  
-# 
+# Arya Captured by the Brotherhood Without Banners
 country_event = { 
     id = GOT_Story_Country.207 
     title = GOT_Story_Country.207.t 
@@ -7537,7 +7537,7 @@ country_event = {
     } 
 } 
  
-# 
+# Arya Captured by the Brotherhood Without Banners
 news_event = { 
     id = GOT_Story_News.207 
     title = GOT_Story_News.207.t 
@@ -7551,7 +7551,7 @@ news_event = {
     } 
 } 
  
-# 
+# Sansa Confides in Lady Olenna Tyrell
 country_event = { 
     id = GOT_Story_Country.208 
     title = GOT_Story_Country.208.t 
@@ -7588,7 +7588,7 @@ country_event = {
     } 
 } 
  
-# 
+# Sansa Confides in Lady Olenna Tyrell
 news_event = { 
     id = GOT_Story_News.208 
     title = GOT_Story_News.208.t 
@@ -7602,7 +7602,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jaime and Brienne Captured
 country_event = { 
     id = GOT_Story_Country.209 
     title = GOT_Story_Country.209.t 
@@ -7639,7 +7639,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jaime and Brienne Captured
 news_event = { 
     id = GOT_Story_News.209 
     title = GOT_Story_News.209.t 
@@ -7653,7 +7653,7 @@ news_event = {
     } 
 } 
  
-# 
+# Robb Stark Learns of Winterfell's Destruction
 country_event = { 
     id = GOT_Story_Country.210 
     title = GOT_Story_Country.210.t 
@@ -7690,7 +7690,7 @@ country_event = {
     } 
 } 
  
-# 
+# Robb Stark Learns of Winterfell's Destruction
 news_event = { 
     id = GOT_Story_News.210 
     title = GOT_Story_News.210.t 
@@ -7704,7 +7704,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jaime Lannister Loses His Sword Hand 
 country_event = { 
     id = GOT_Story_Country.211 
     title = GOT_Story_Country.211.t 
@@ -7741,7 +7741,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jaime Lannister Loses His Sword Hand
 news_event = { 
     id = GOT_Story_News.211 
     title = GOT_Story_News.211.t 
@@ -7755,7 +7755,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tyrion Becomes Master of Coin
 country_event = { 
     id = GOT_Story_Country.212 
     title = GOT_Story_Country.212.t 
@@ -7792,7 +7792,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tyrion Becomes Master of Coin
 news_event = { 
     id = GOT_Story_News.212 
     title = GOT_Story_News.212.t 
@@ -7806,7 +7806,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Negotiates for the Unsullied
 country_event = { 
     id = GOT_Story_Country.213 
     title = GOT_Story_Country.213.t 
@@ -7843,7 +7843,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Negotiates for the Unsullied
 news_event = { 
     id = GOT_Story_News.213 
     title = GOT_Story_News.213.t 
@@ -7857,7 +7857,7 @@ news_event = {
     } 
 } 
  
-# 
+# Robb Stark Attends His Grandfather's Funeral
 country_event = { 
     id = GOT_Story_Country.214 
     title = GOT_Story_Country.214.t 
@@ -7894,7 +7894,7 @@ country_event = {
     } 
 } 
  
-# 
+# Robb Stark Attends His Grandfather's Funeral
 news_event = { 
     id = GOT_Story_News.214 
     title = GOT_Story_News.214.t 
@@ -7908,7 +7908,7 @@ news_event = {
     } 
 } 
  
-# 
+# Arya Parts Ways with Hot Pie
 country_event = { 
     id = GOT_Story_Country.215 
     title = GOT_Story_Country.215.t 
@@ -7945,7 +7945,7 @@ country_event = {
     } 
 } 
  
-# 
+# Arya Parts Ways with Hot Pie
 news_event = { 
     id = GOT_Story_News.215 
     title = GOT_Story_News.215.t 
@@ -7959,7 +7959,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Liberates Astapor
 country_event = { 
     id = GOT_Story_Country.216 
     title = GOT_Story_Country.216.t 
@@ -7996,7 +7996,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Liberates Astapor
 news_event = { 
     id = GOT_Story_News.216 
     title = GOT_Story_News.216.t 
@@ -8010,7 +8010,7 @@ news_event = {
     } 
 } 
  
-# 
+# Mutiny at Craster's Keep
 country_event = { 
     id = GOT_Story_Country.217 
     title = GOT_Story_Country.217.t 
@@ -8047,7 +8047,7 @@ country_event = {
     } 
 } 
  
-# 
+# Mutiny at Craster's Keep
 news_event = { 
     id = GOT_Story_News.217 
     title = GOT_Story_News.217.t 
@@ -8061,7 +8061,7 @@ news_event = {
     } 
 } 
  
-# 
+# Varys Enacts Long-Planned Revenge
 country_event = { 
     id = GOT_Story_Country.218 
     title = GOT_Story_Country.218.t 
@@ -8098,7 +8098,7 @@ country_event = {
     } 
 } 
  
-# 
+# Varys Enacts Long-Planned Revenge
 news_event = { 
     id = GOT_Story_News.218 
     title = GOT_Story_News.218.t 
@@ -8112,7 +8112,7 @@ news_event = {
     } 
 } 
  
-# 
+# Arya Witnesses the Hound's Judgment
 country_event = { 
     id = GOT_Story_Country.219 
     title = GOT_Story_Country.219.t 
@@ -8149,7 +8149,7 @@ country_event = {
     } 
 } 
  
-# 
+# Arya Witnesses the Hound's Judgment
 news_event = { 
     id = GOT_Story_News.219 
     title = GOT_Story_News.219.t 
@@ -8163,7 +8163,7 @@ news_event = {
     } 
 } 
  
-# 
+# Theon's Betrayal and Recapture
 country_event = { 
     id = GOT_Story_Country.220 
     title = GOT_Story_Country.220.t 
@@ -8200,7 +8200,7 @@ country_event = {
     } 
 } 
  
-# 
+# Theon's Betrayal and Recapture
 news_event = { 
     id = GOT_Story_News.220 
     title = GOT_Story_News.220.t 
@@ -8214,7 +8214,7 @@ news_event = {
     } 
 } 
  
-# 
+# The Hound Defeats Beric Dondarrion in Trial by Combat
 country_event = { 
     id = GOT_Story_Country.221 
     title = GOT_Story_Country.221.t 
@@ -8251,7 +8251,7 @@ country_event = {
     } 
 } 
  
-# 
+# The Hound Defeats Beric Dondarrion in Trial by Combat
 news_event = { 
     id = GOT_Story_News.221 
     title = GOT_Story_News.221.t 
@@ -8265,7 +8265,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jaime Lannister Reveals the Truth About Killing the Mad King
 country_event = { 
     id = GOT_Story_Country.222 
     title = GOT_Story_Country.222.t 
@@ -8302,7 +8302,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jaime Lannister Reveals the Truth About Killing the Mad King
 news_event = { 
     id = GOT_Story_News.222 
     title = GOT_Story_News.222.t 
@@ -8316,7 +8316,7 @@ news_event = {
     } 
 } 
  
-# 
+# Robb Stark Executes Lord Karstark, Losing Key Allies
 country_event = { 
     id = GOT_Story_Country.223 
     title = GOT_Story_Country.223.t 
@@ -8353,7 +8353,7 @@ country_event = {
     } 
 } 
  
-# 
+# Robb Stark Executes Lord Karstark, Losing Key Allies
 news_event = { 
     id = GOT_Story_News.223 
     title = GOT_Story_News.223.t 
@@ -8367,7 +8367,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jon Snow and Ygritte’s Relationship Deepens
 country_event = { 
     id = GOT_Story_Country.224 
     title = GOT_Story_Country.224.t 
@@ -8404,7 +8404,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jon Snow and Ygritte’s Relationship Deepens
 news_event = { 
     id = GOT_Story_News.224 
     title = GOT_Story_News.224.t 
@@ -8418,7 +8418,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tywin Lannister Arranges Marriages to Counter the Tyrells
 country_event = { 
     id = GOT_Story_Country.225 
     title = GOT_Story_Country.225.t 
@@ -8455,7 +8455,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tywin Lannister Arranges Marriages to Counter the Tyrells
 news_event = { 
     id = GOT_Story_News.225 
     title = GOT_Story_News.225.t 
@@ -8469,7 +8469,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jon Snow and Ygritte Scale the Wall
 country_event = { 
     id = GOT_Story_Country.226 
     title = GOT_Story_Country.226.t 
@@ -8506,7 +8506,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jon Snow and Ygritte Scale the Wall
 news_event = { 
     id = GOT_Story_News.226 
     title = GOT_Story_News.226.t 
@@ -8520,7 +8520,7 @@ news_event = {
     } 
 } 
  
-# 
+# Littlefinger Delivers the 'Chaos Is a Ladder' Speech
 country_event = { 
     id = GOT_Story_Country.227 
     title = GOT_Story_Country.227.t 
@@ -8557,7 +8557,7 @@ country_event = {
     } 
 } 
  
-# 
+# Littlefinger Delivers the 'Chaos Is a Ladder' Speech
 news_event = { 
     id = GOT_Story_News.227 
     title = GOT_Story_News.227.t 
@@ -8571,7 +8571,7 @@ news_event = {
     } 
 } 
  
-# 
+# Melisandre Acquires Gendry
 country_event = { 
     id = GOT_Story_Country.228 
     title = GOT_Story_Country.228.t 
@@ -8608,7 +8608,7 @@ country_event = {
     } 
 } 
  
-# 
+# Melisandre Acquires Gendry
 news_event = { 
     id = GOT_Story_News.228 
     title = GOT_Story_News.228.t 
@@ -8622,7 +8622,7 @@ news_event = {
     } 
 } 
  
-# 
+# Robb Stark Seeks Alliance with House Frey
 country_event = { 
     id = GOT_Story_Country.229 
     title = GOT_Story_Country.229.t 
@@ -8659,7 +8659,7 @@ country_event = {
     } 
 } 
  
-# 
+# Robb Stark Seeks Alliance with House Frey
 news_event = { 
     id = GOT_Story_News.229 
     title = GOT_Story_News.229.t 
@@ -8673,7 +8673,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tyrion Informs Sansa of Their Betrothal
 country_event = { 
     id = GOT_Story_Country.230 
     title = GOT_Story_Country.230.t 
@@ -8710,7 +8710,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tyrion Informs Sansa of Their Betrothal
 news_event = { 
     id = GOT_Story_News.230 
     title = GOT_Story_News.230.t 
@@ -8724,7 +8724,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jaime Rescues Brienne from the Bear Pit
 country_event = { 
     id = GOT_Story_Country.231 
     title = GOT_Story_Country.231.t 
@@ -8761,7 +8761,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jaime Rescues Brienne from the Bear Pit
 news_event = { 
     id = GOT_Story_News.231 
     title = GOT_Story_News.231.t 
@@ -8775,7 +8775,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Confronts Yunkai's Emissary
 country_event = { 
     id = GOT_Story_Country.232 
     title = GOT_Story_Country.232.t 
@@ -8812,7 +8812,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Confronts Yunkai's Emissary
 news_event = { 
     id = GOT_Story_News.232 
     title = GOT_Story_News.232.t 
@@ -8826,7 +8826,7 @@ news_event = {
     } 
 } 
  
-# 
+# Robb Stark Learns of Talisa's Pregnancy
 country_event = { 
     id = GOT_Story_Country.233 
     title = GOT_Story_Country.233.t 
@@ -8863,7 +8863,7 @@ country_event = {
     } 
 } 
  
-# 
+# Robb Stark Learns of Talisa's Pregnancy
 news_event = { 
     id = GOT_Story_News.233 
     title = GOT_Story_News.233.t 
@@ -8877,7 +8877,7 @@ news_event = {
     } 
 } 
  
-# 
+# Arya is Captured by the Hound
 country_event = { 
     id = GOT_Story_Country.234 
     title = GOT_Story_Country.234.t 
@@ -8914,7 +8914,7 @@ country_event = {
     } 
 } 
  
-# 
+# Arya is Captured by the Hound
 news_event = { 
     id = GOT_Story_News.234 
     title = GOT_Story_News.234.t 
@@ -8928,7 +8928,7 @@ news_event = {
     } 
 } 
  
-# 
+# Theon's Torture Intensifies
 country_event = { 
     id = GOT_Story_Country.235 
     title = GOT_Story_Country.235.t 
@@ -8965,7 +8965,7 @@ country_event = {
     } 
 } 
  
-# 
+# Theon's Torture Intensifies
 news_event = { 
     id = GOT_Story_News.235 
     title = GOT_Story_News.235.t 
@@ -8979,7 +8979,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tyrion and Sansa's Uncomfortable Wedding
 country_event = { 
     id = GOT_Story_Country.236 
     title = GOT_Story_Country.236.t 
@@ -9016,7 +9016,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tyrion and Sansa's Uncomfortable Wedding
 news_event = { 
     id = GOT_Story_News.236 
     title = GOT_Story_News.236.t 
@@ -9030,7 +9030,7 @@ news_event = {
     } 
 } 
  
-# 
+# Melisandre's Ritual with Gendry
 country_event = { 
     id = GOT_Story_Country.237 
     title = GOT_Story_Country.237.t 
@@ -9067,7 +9067,7 @@ country_event = {
     } 
 } 
  
-# 
+# Melisandre's Ritual with Gendry
 news_event = { 
     id = GOT_Story_News.237 
     title = GOT_Story_News.237.t 
@@ -9081,7 +9081,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Gains a New Ally in Daario Naharis
 country_event = { 
     id = GOT_Story_Country.238 
     title = GOT_Story_Country.238.t 
@@ -9118,7 +9118,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Gains a New Ally in Daario Naharis
 news_event = { 
     id = GOT_Story_News.238 
     title = GOT_Story_News.238.t 
@@ -9132,7 +9132,7 @@ news_event = {
     } 
 } 
  
-# 
+# Samwell Tarly Kills a White Walker
 country_event = { 
     id = GOT_Story_Country.239 
     title = GOT_Story_Country.239.t 
@@ -9169,7 +9169,7 @@ country_event = {
     } 
 } 
  
-# 
+# Samwell Tarly Kills a White Walker
 news_event = { 
     id = GOT_Story_News.239 
     title = GOT_Story_News.239.t 
@@ -9183,7 +9183,7 @@ news_event = {
     } 
 } 
  
-# 
+# Arya and the Hound's Journey Continues
 country_event = { 
     id = GOT_Story_Country.240 
     title = GOT_Story_Country.240.t 
@@ -9220,7 +9220,7 @@ country_event = {
     } 
 } 
  
-# 
+# Arya and the Hound's Journey Continues
 news_event = { 
     id = GOT_Story_News.240 
     title = GOT_Story_News.240.t 
@@ -9234,7 +9234,7 @@ news_event = {
     } 
 } 
  
-# 
+# The Red Wedding
 country_event = { 
     id = GOT_Story_Country.241 
     title = GOT_Story_Country.241.t 
@@ -9271,7 +9271,7 @@ country_event = {
     } 
 } 
  
-# 
+# The Red Wedding
 news_event = { 
     id = GOT_Story_News.241 
     title = GOT_Story_News.241.t 
@@ -9285,7 +9285,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jon Snow's Loyalty Tested
 country_event = { 
     id = GOT_Story_Country.242 
     title = GOT_Story_Country.242.t 
@@ -9322,7 +9322,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jon Snow's Loyalty Tested
 news_event = { 
     id = GOT_Story_News.242 
     title = GOT_Story_News.242.t 
@@ -9336,7 +9336,7 @@ news_event = {
     } 
 } 
  
-# 
+# Bran’s Warging Ability Emerges
 country_event = { 
     id = GOT_Story_Country.243 
     title = GOT_Story_Country.243.t 
@@ -9373,7 +9373,7 @@ country_event = {
     } 
 } 
  
-# 
+# Bran’s Warging Ability Emerges
 news_event = { 
     id = GOT_Story_News.243 
     title = GOT_Story_News.243.t 
@@ -9387,7 +9387,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Plans the Invasion of Yunkai
 country_event = { 
     id = GOT_Story_Country.244 
     title = GOT_Story_Country.244.t 
@@ -9424,7 +9424,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Plans the Invasion of Yunkai
 news_event = { 
     id = GOT_Story_News.244 
     title = GOT_Story_News.244.t 
@@ -9438,7 +9438,7 @@ news_event = {
     } 
 } 
  
-# 
+# Samwell Tarly and Gilly’s Journey
 country_event = { 
     id = GOT_Story_Country.245 
     title = GOT_Story_Country.245.t 
@@ -9475,7 +9475,7 @@ country_event = {
     } 
 } 
  
-# 
+# Samwell Tarly and Gilly’s Journey
 news_event = { 
     id = GOT_Story_News.245 
     title = GOT_Story_News.245.t 
