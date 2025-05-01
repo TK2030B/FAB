@@ -1891,6 +1891,154 @@ country_event = {
     }
 }
 
+#Tyrion asks for Casterly Rock
+country_event = {
+	id = GOT_Diplomatic_Country.22
+	title = GOT_Diplomatic_Country.22.t
+	desc = GOT_Diplomatic_Country.22.d
+	picture = GFX_report_event_GOT_Story_Country202 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.22.a
+
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		remove_country_leader_role = {
+			character = WES_tywin_lannister
+			ideology = NR_subideology
+		}
+		add_country_leader_role = {
+			character = WES_Tyrion_Lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					political_manipulator  
+					#the_foreign_connection  
+					#ambitious_negotiator_neutrality  
+					popular_figurehead  
+					economic_reformer  
+					smooth_talking_charmer  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		CRO = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.23
+                hours = 6 
+            } 
+        } 
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.15
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.22.b
+
+		ai_chance = {
+			factor = 85
+		}
+		
+		CRO = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.24
+                hours = 6 
+            } 
+        } 
+
+	}
+}
+
+#Tywin Accepts
+country_event = {
+	id = GOT_Diplomatic_Country.23
+	title = GOT_Diplomatic_Country.23.t
+	desc = GOT_Diplomatic_Country.23.d
+	picture = GFX_report_event_GOT_Story_Country202 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.23.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		remove_advisor_role = {
+			character = "CRO_Tyrion_Lannister"
+			slot = political_advisor
+		}
+		
+		add_advisor_role = {
+			character = CRO_tywin_lannister
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_tywin_lannister
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+		
+		add_political_power = 25
+		add_stability = 0.05
+
+	}
+}
+
+#Tywin Declines
+country_event = {
+	id = GOT_Diplomatic_Country.24
+	title = GOT_Diplomatic_Country.24.t
+	desc = GOT_Diplomatic_Country.24.d
+	picture = GFX_report_event_GOT_Story_Country202 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.24.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_political_power = -25
+		add_stability = 0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.202 
+                hours = 6 
+            } 
+        } 
+
+	}
+}
 
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
@@ -1999,7 +2147,7 @@ news_event = {
 		name = GOT_Diplomatic_News.8.a
 	}
 }
-
+#Bends the Knee to the Crownlands
 news_event = {
 	id = GOT_Diplomatic_News.9
 	title = GOT_Diplomatic_News.9.t
@@ -2026,7 +2174,7 @@ news_event = {
 		name = GOT_Diplomatic_News.10.a
 	}
 }
-
+#Bends the Knee to Dragonstone
 news_event = {
 	id = GOT_Diplomatic_News.11
 	title = GOT_Diplomatic_News.11.t
@@ -2040,7 +2188,7 @@ news_event = {
 		name = GOT_Diplomatic_News.11.a
 	}
 }
-
+#Bends the Knee to Stormlands
 news_event = {
 	id = GOT_Diplomatic_News.12
 	title = GOT_Diplomatic_News.12.t
@@ -2078,5 +2226,19 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.14.a
+	}
+}
+
+#New Lord of Casterly Rock
+news_event = {
+	id = GOT_Diplomatic_News.15
+	title = GOT_Diplomatic_News.15.t
+	desc = GOT_Diplomatic_News.15.d
+	picture = GFX_news_event_Casterly_Rock
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.15.a
 	}
 }

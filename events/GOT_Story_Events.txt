@@ -7194,7 +7194,7 @@ news_event = {
 ############
 ##SEASON 3##
 ############
-# GOT_Story_Country.201 – Meeting Mance Rayder
+#Meeting Mance Rayder
 country_event = { 
     id = GOT_Story_Country.201 
     title = GOT_Story_Country.201.t 
@@ -7202,7 +7202,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country201 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
+		date > 1938.1.1
+        date < 1938.2.1
+		country_exists = WIL
     } 
  
     fire_only_once = yes 
@@ -7214,10 +7217,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -7231,7 +7231,7 @@ country_event = {
     } 
 } 
  
-# GOT_Story_News.201 – A Crow Among Wildlings
+#Meeting Mance Rayder
 news_event = { 
     id = GOT_Story_News.201 
     title = GOT_Story_News.201.t 
@@ -7245,7 +7245,7 @@ news_event = {
     } 
 } 
  
-# GOT_Story_Country.202 – Tyrion Confronts Tywin Lannister
+#Tyrion Confronts Tywin Lannister
 country_event = { 
     id = GOT_Story_Country.202 
     title = GOT_Story_Country.202.t 
@@ -7253,7 +7253,19 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country202 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1938.1.1
+        date < 1938.2.1
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
+		WES = { 
+			has_country_leader = {
+				name = "Tywin Lannister"
+				ruling_only = yes
+			}
+		}
+		is_in_faction_with = WES
     } 
  
     fire_only_once = yes 
@@ -7262,27 +7274,43 @@ country_event = {
         name = GOT_Story_Country.202.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 60 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+		add_political_power = 25
+		
+		modifier = {
+			factor = 0
+			is_historical_focus_on = yes
+		}
  
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.202 
+        WES = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.22
                 hours = 6 
             } 
         } 
     } 
+	
+	 option = { 
+        name = GOT_Story_Country.202.b
+ 
+        ai_chance = { 
+            factor = 40 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+		
+		add_stability = 0.05 
+		add_political_power = -25
+  
+    } 
 } 
  
-# GOT_Story_Country.202 – Tyrion Confronts Tywin Lannister 
+#Tyrion Confronts Tywin Lannister
 news_event = { 
     id = GOT_Story_News.202 
     title = GOT_Story_News.202.t 
@@ -7304,7 +7332,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country203 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
+		date > 1938.1.1
+        date < 1938.2.1
     } 
  
     fire_only_once = yes 
@@ -7316,10 +7346,10 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 25         # She's gaining influence and establishing presence.
+		add_stability = -0.05            # A temporary hit to order as her arrival disrupts the local status quo.
+		add_war_support = 0.10           # Her military ambitions become clear, rallying support.
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -7355,7 +7385,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country204 
  
     trigger = { 
-        tag = ABC 
+        tag = DRA
+		date > 1938.1.1
+        date < 1938.2.1
     } 
  
     fire_only_once = yes 
@@ -7367,10 +7399,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		add_political_power = -25      # Losing a key advisor weakens the king’s hand politically.
+		add_stability = -0.05           # Discontent within the court and among common folk loyal to Davos.
+		add_war_support = -0.05         # Davos is a stabilizing figure in wartime; his absence is felt.
  
         every_other_country = { 
             limit = { 
@@ -7406,7 +7437,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country205 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
+		date > 1938.1.1
+        date < 1938.2.1
     } 
  
     fire_only_once = yes 
@@ -7418,10 +7451,10 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		add_political_power = 25         # Securing the castle gives Robb a slight strategic edge.
+		add_stability = -0.05            # The grim sight of corpses and mystery undermines morale.
+		add_war_support = 0.05           # Holding Harrenhal is a symbolic win for the Northern cause.
+		army_experience = 5          # Gained from seizing and inspecting a major fortification.
  
         every_other_country = { 
             limit = { 
@@ -7457,7 +7490,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country206 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.2.5
+        date < 1938.3.5
     } 
  
     fire_only_once = yes 
@@ -7470,9 +7505,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -7508,7 +7540,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country207 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.2.5
+        date < 1938.3.5
     } 
  
     fire_only_once = yes 
@@ -7520,10 +7554,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		add_stability = -0.05            # Uncertainty and concern for Arya shake civilian morale.
+		add_political_power = -25        # A political headache for Robb or the regency council.
  
         every_other_country = { 
             limit = { 
@@ -7559,7 +7591,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country208 
  
     trigger = { 
-        tag = ABC 
+        tag = REA
+		date > 1938.2.5
+        date < 1938.3.5
     } 
  
     fire_only_once = yes 
@@ -7571,10 +7605,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 25              # Sansa begins learning the game of thrones.
+		add_stability = 0.05                  # Strength through new relationships and mentorship.
  
         every_other_country = { 
             limit = { 
@@ -7610,7 +7642,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country209 
  
     trigger = { 
-        tag = ABC 
+        tag = WES
+		date > 1938.2.5
+        date < 1938.3.5
     } 
  
     fire_only_once = yes 
@@ -7622,10 +7656,10 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		add_stability = -0.05                 # A shocking blow to noble pride and internal order.
+		add_war_support = -0.05               # Losing a top commander in the field is demoralizing.
+		add_command_power = -25              # Strategic planning suffers in his absence.
+		add_political_power = -25            # Damage control begins—what do we tell the realm?
  
         every_other_country = { 
             limit = { 
@@ -7661,7 +7695,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country210 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.2.5
+        date < 1938.3.5
     } 
  
     fire_only_once = yes 
@@ -7673,10 +7709,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.10 
  
         every_other_country = { 
             limit = { 
@@ -7712,7 +7745,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country211 
  
     trigger = { 
-        tag = ABC 
+        tag = WES 
+		date > 1938.3.10
+        date < 1938.4.10
     } 
  
     fire_only_once = yes 
@@ -7724,10 +7759,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05                  # Loss of a key figure (Jaime) weakens internal stability.
+		add_war_support = -0.05                 # A blow to the morale of the Lannister forces; they may struggle with this loss.
  
         every_other_country = { 
             limit = { 
@@ -7763,7 +7796,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country212 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1938.3.10
+        date < 1938.4.10		
     } 
  
     fire_only_once = yes 
@@ -7776,9 +7811,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -7814,7 +7847,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country213 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1938.3.10
+        date < 1938.4.10
     } 
  
     fire_only_once = yes 
@@ -7826,10 +7861,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -7865,7 +7898,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country214 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.3.10
+        date < 1938.4.10
     } 
  
     fire_only_once = yes 
@@ -7877,10 +7912,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		add_stability = 0.05                   # A moment of reflection, providing Robb and the North with a small boost in stability.
+		add_war_support = 0.05                  # Robb’s dedication to his family and the North could rally the people to his cause.
  
         every_other_country = { 
             limit = { 
@@ -7916,7 +7949,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country215 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.3.10
+        date < 1938.4.10
     } 
  
     fire_only_once = yes 
@@ -7929,9 +7964,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -7967,7 +7999,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country216 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
+		date > 1938.4.15
+        date < 1938.5.15
     } 
  
     fire_only_once = yes 
@@ -8018,7 +8052,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country217 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
+		date > 1938.4.15
+        date < 1938.5.15
     } 
  
     fire_only_once = yes 
@@ -8030,10 +8066,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -8069,7 +8103,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country218 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1938.4.15
+        date < 1938.5.15
     } 
  
     fire_only_once = yes 
@@ -8080,11 +8116,8 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+  
+        add_stability = 0.05  
  
         every_other_country = { 
             limit = { 
@@ -8120,7 +8153,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country219 
  
     trigger = { 
-        tag = ABC 
+        tag = RIV
+		date > 1938.4.15
+        date < 1938.5.15
     } 
  
     fire_only_once = yes 
@@ -8133,9 +8168,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8171,7 +8203,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country220 
  
     trigger = { 
-        tag = ABC 
+        tag = IRO 
+		date > 1938.4.15
+        date < 1938.5.15
     } 
  
     fire_only_once = yes 
@@ -8183,10 +8217,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -8222,7 +8255,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country221 
  
     trigger = { 
-        tag = ABC 
+        tag = RIV 
+		date > 1938.5.20
+        date < 1938.6.20
     } 
  
     fire_only_once = yes 
@@ -8235,9 +8270,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8273,7 +8305,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country222 
  
     trigger = { 
-        tag = ABC 
+        tag = WES
+		date > 1938.5.20
+        date < 1938.6.20
     } 
  
     fire_only_once = yes 
@@ -8286,9 +8320,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8324,7 +8355,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country223 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.5.20
+        date < 1938.6.20
     } 
  
     fire_only_once = yes 
@@ -8336,10 +8369,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -8375,7 +8407,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country224 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1938.5.20
+        date < 1938.6.20
     } 
  
     fire_only_once = yes 
@@ -8388,9 +8422,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8426,7 +8457,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country225 
  
     trigger = { 
-        tag = ABC 
+        tag = WES 
+		date > 1938.5.20
+        date < 1938.6.20
     } 
  
     fire_only_once = yes 
@@ -8439,9 +8472,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8477,7 +8508,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country226 
  
     trigger = { 
-        tag = ABC 
+        tag = WIL
+		date > 1938.6.25
+        date < 1938.7.25
     } 
  
     fire_only_once = yes 
@@ -8489,9 +8522,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -8528,7 +8559,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country227 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1938.6.25
+        date < 1938.7.25
     } 
  
     fire_only_once = yes 
@@ -8539,11 +8572,8 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
+
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8579,7 +8609,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country228 
  
     trigger = { 
-        tag = ABC 
+        tag = DRA
+		date > 1938.6.25
+        date < 1938.7.25
     } 
  
     fire_only_once = yes 
@@ -8591,10 +8623,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8630,7 +8659,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country229 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.6.25
+        date < 1938.7.25
     } 
  
     fire_only_once = yes 
@@ -8645,7 +8676,6 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8681,7 +8711,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country230 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1938.6.25
+        date < 1938.7.25
     } 
  
     fire_only_once = yes 
@@ -8694,9 +8726,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8732,7 +8762,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country231 
  
     trigger = { 
-        tag = ABC 
+        tag = WES
+		date > 1938.8.1
+        date < 1938.9.1
     } 
  
     fire_only_once = yes 
@@ -8744,9 +8776,6 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -8783,7 +8812,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country232 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1938.8.1
+        date < 1938.9.1
     } 
  
     fire_only_once = yes 
@@ -8795,10 +8826,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8834,7 +8862,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country233 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.8.1
+        date < 1938.9.1
     } 
  
     fire_only_once = yes 
@@ -8847,9 +8877,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -8885,7 +8912,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country234 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.8.1
+        date < 1938.9.1
     } 
  
     fire_only_once = yes 
@@ -8897,10 +8926,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -8936,7 +8962,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country235 
  
     trigger = { 
-        tag = ABC 
+        tag = IRO
+		date > 1938.8.1
+        date < 1938.9.1
     } 
  
     fire_only_once = yes 
@@ -8948,10 +8976,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -8987,7 +9013,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country236 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1938.9.5
+        date < 1938.10.5
     } 
  
     fire_only_once = yes 
@@ -8999,10 +9027,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -9038,7 +9063,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country237 
  
     trigger = { 
-        tag = ABC 
+        tag = DRA
+		date > 1938.9.5
+        date < 1938.10.5
     } 
  
     fire_only_once = yes 
@@ -9050,10 +9077,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9089,7 +9113,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country238 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1938.9.5
+        date < 1938.10.5
     } 
  
     fire_only_once = yes 
@@ -9103,8 +9129,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9140,7 +9164,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country239 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1938.9.5
+        date < 1938.10.5
     } 
  
     fire_only_once = yes 
@@ -9154,7 +9180,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -9191,7 +9216,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country240 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.9.5
+        date < 1938.10.5
     } 
  
     fire_only_once = yes 
@@ -9204,9 +9231,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9242,7 +9266,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country241 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.10.10
+        date < 1938.11.10
     } 
  
     fire_only_once = yes 
@@ -9254,10 +9280,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -9293,7 +9318,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country242 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1938.10.10
+        date < 1938.11.10
     } 
  
     fire_only_once = yes 
@@ -9307,8 +9334,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9344,7 +9369,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country243 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.10.10
+        date < 1938.11.10
     } 
  
     fire_only_once = yes 
@@ -9356,10 +9383,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        air_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9395,7 +9419,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country244 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1938.10.10
+        date < 1938.11.10
     } 
  
     fire_only_once = yes 
@@ -9407,10 +9433,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9446,7 +9469,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country245 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1938.10.10
+        date < 1938.11.10
     } 
  
     fire_only_once = yes 
@@ -9459,9 +9484,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9489,7 +9511,7 @@ news_event = {
     } 
 } 
  
-# 
+# The Aftermath of the Red Wedding
 country_event = { 
     id = GOT_Story_Country.246 
     title = GOT_Story_Country.246.t 
@@ -9497,7 +9519,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country246 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1938.11.15
+        date < 1938.12.15
     } 
  
     fire_only_once = yes 
@@ -9509,10 +9533,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -9526,7 +9549,7 @@ country_event = {
     } 
 } 
  
-# 
+# The Aftermath of the Red Wedding
 news_event = { 
     id = GOT_Story_News.246 
     title = GOT_Story_News.246.t 
@@ -9540,7 +9563,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jon Snow's Return to the Wall
 country_event = { 
     id = GOT_Story_Country.247 
     title = GOT_Story_Country.247.t 
@@ -9548,7 +9571,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country247 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
+		date > 1938.11.15
+        date < 1938.12.15
     } 
  
     fire_only_once = yes 
@@ -9562,7 +9587,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -9577,7 +9601,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jon Snow's Return to the Wall
 news_event = { 
     id = GOT_Story_News.247 
     title = GOT_Story_News.247.t 
@@ -9591,7 +9615,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys’s Liberation of Yunkai
 country_event = { 
     id = GOT_Story_Country.248 
     title = GOT_Story_Country.248.t 
@@ -9599,7 +9623,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country248 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1938.11.15
+        date < 1938.12.15
     } 
  
     fire_only_once = yes 
@@ -9614,7 +9640,6 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9628,7 +9653,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys’s Liberation of Yunkai
 news_event = { 
     id = GOT_Story_News.248 
     title = GOT_Story_News.248.t 
@@ -9642,7 +9667,7 @@ news_event = {
     } 
 } 
  
-# 
+# Stannis’s Decision to Aid the Wall
 country_event = { 
     id = GOT_Story_Country.249 
     title = GOT_Story_Country.249.t 
@@ -9650,7 +9675,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country249 
  
     trigger = { 
-        tag = ABC 
+        tag = DRA
+		date > 1938.11.15
+        date < 1938.12.15
     } 
  
     fire_only_once = yes 
@@ -9664,8 +9691,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9679,7 +9704,7 @@ country_event = {
     } 
 } 
  
-# 
+# Stannis’s Decision to Aid the Wall
 news_event = { 
     id = GOT_Story_News.249 
     title = GOT_Story_News.249.t 
@@ -9693,7 +9718,7 @@ news_event = {
     } 
 } 
  
-# 
+# Bran’s Encounter with Samwell Tarly
 country_event = { 
     id = GOT_Story_Country.250 
     title = GOT_Story_Country.250.t 
@@ -9701,7 +9726,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country250 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
+		date > 1938.11.15
+        date < 1938.12.15
     } 
  
     fire_only_once = yes 
@@ -9714,9 +9741,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9730,7 +9754,7 @@ country_event = {
     } 
 } 
  
-# 
+# Bran’s Encounter with Samwell Tarly
 news_event = { 
     id = GOT_Story_News.250 
     title = GOT_Story_News.250.t 
@@ -9747,7 +9771,7 @@ news_event = {
 ############
 ##SEASON 4##
 ############
-# 
+# Tywin Lannister Melts Down Ned Stark’s Sword
 country_event = { 
     id = GOT_Story_Country.301 
     title = GOT_Story_Country.301.t 
@@ -9755,7 +9779,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country301 
  
     trigger = { 
-        tag = ABC 
+        tag = WES
+		date > 1939.1.1
+        date < 1939.2.1
     } 
  
     fire_only_once = yes 
@@ -9768,8 +9794,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -9784,7 +9808,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tywin Lannister Melts Down Ned Stark’s Sword
 news_event = { 
     id = GOT_Story_News.301 
     title = GOT_Story_News.301.t 
@@ -9798,7 +9822,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jaime Lannister's Strained Relationship with His Family
 country_event = { 
     id = GOT_Story_Country.302 
     title = GOT_Story_Country.302.t 
@@ -9806,7 +9830,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country302 
  
     trigger = { 
-        tag = ABC 
+        tag = WES 
+		date > 1939.1.1
+        date < 1939.2.1
     } 
  
     fire_only_once = yes 
@@ -9818,10 +9844,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -9835,7 +9858,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jaime Lannister's Strained Relationship with His Family
 news_event = { 
     id = GOT_Story_News.302 
     title = GOT_Story_News.302.t 
@@ -9849,7 +9872,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Targaryen Approaches Meereen
 country_event = { 
     id = GOT_Story_Country.303 
     title = GOT_Story_Country.303.t 
@@ -9857,7 +9880,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country303 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
+		date > 1939.1.1
+        date < 1939.2.1
     } 
  
     fire_only_once = yes 
@@ -9871,8 +9896,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9886,7 +9909,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Targaryen Approaches Meereen
 news_event = { 
     id = GOT_Story_News.303 
     title = GOT_Story_News.303.t 
@@ -9900,7 +9923,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tyrion Lannister Welcomes Prince Oberyn Martell
 country_event = { 
     id = GOT_Story_Country.304 
     title = GOT_Story_Country.304.t 
@@ -9908,7 +9931,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country304 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1939.1.1
+        date < 1939.2.1
     } 
  
     fire_only_once = yes 
@@ -9920,10 +9945,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9937,7 +9959,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tyrion Lannister Welcomes Prince Oberyn Martell
 news_event = { 
     id = GOT_Story_News.304 
     title = GOT_Story_News.304.t 
@@ -9951,7 +9973,7 @@ news_event = {
     } 
 } 
  
-# 
+# Arya Stark and Sandor Clegane's Journey
 country_event = { 
     id = GOT_Story_Country.305 
     title = GOT_Story_Country.305.t 
@@ -9959,7 +9981,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country305 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.1.1
+        date < 1939.2.1
     } 
  
     fire_only_once = yes 
@@ -9972,9 +9996,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -9988,7 +10009,7 @@ country_event = {
     } 
 } 
  
-# 
+# Arya Stark and Sandor Clegane's Journey
 news_event = { 
     id = GOT_Story_News.305 
     title = GOT_Story_News.305.t 
@@ -10002,7 +10023,7 @@ news_event = {
     } 
 } 
  
-# 
+# Joffrey Baratheon Dies at His Wedding Feast
 country_event = { 
     id = GOT_Story_Country.306 
     title = GOT_Story_Country.306.t 
@@ -10010,7 +10031,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country306 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.2.5
+        date < 1939.3.5
     } 
  
     fire_only_once = yes 
@@ -10022,10 +10045,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -10039,7 +10060,7 @@ country_event = {
     } 
 } 
  
-# 
+# Joffrey Baratheon Dies at His Wedding Feast
 news_event = { 
     id = GOT_Story_News.306 
     title = GOT_Story_News.306.t 
@@ -10053,7 +10074,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tyrion Lannister's Arrest
 country_event = { 
     id = GOT_Story_Country.307 
     title = GOT_Story_Country.307.t 
@@ -10061,7 +10082,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country307 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1939.2.5
+        date < 1939.3.5
     } 
  
     fire_only_once = yes 
@@ -10073,10 +10096,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -10090,7 +10111,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tyrion Lannister's Arrest
 news_event = { 
     id = GOT_Story_News.307 
     title = GOT_Story_News.307.t 
@@ -10104,7 +10125,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Sansa Stark's Escape
 country_event = { 
     id = GOT_Story_Country.308 
     title = GOT_Story_Country.308.t 
@@ -10112,7 +10133,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country308 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.2.5
+        date < 1939.3.5
     } 
  
     fire_only_once = yes 
@@ -10124,10 +10147,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -10141,7 +10162,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Sansa Stark's Escape
 news_event = { 
     id = GOT_Story_News.308 
     title = GOT_Story_News.308.t 
@@ -10155,7 +10176,7 @@ news_event = {
     } 
 } 
  
-# 
+# Ramsay Snow Hunts a Woman
 country_event = { 
     id = GOT_Story_Country.309 
     title = GOT_Story_Country.309.t 
@@ -10163,7 +10184,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country309 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.2.5
+        date < 1939.3.5
     } 
  
     fire_only_once = yes 
@@ -10175,10 +10198,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -10192,7 +10212,7 @@ country_event = {
     } 
 } 
  
-# 
+# Ramsay Snow Hunts a Woman
 news_event = { 
     id = GOT_Story_News.309 
     title = GOT_Story_News.309.t 
@@ -10206,7 +10226,7 @@ news_event = {
     } 
 } 
  
-# 
+# Bran Stark's Vision
 country_event = { 
     id = GOT_Story_Country.310 
     title = GOT_Story_Country.310.t 
@@ -10214,7 +10234,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country310 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.2.5
+        date < 1939.3.5
     } 
  
     fire_only_once = yes 
@@ -10226,10 +10248,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        air_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -10243,7 +10262,7 @@ country_event = {
     } 
 } 
  
-# 
+# Bran Stark's Vision
 news_event = { 
     id = GOT_Story_News.310 
     title = GOT_Story_News.310.t 
@@ -10257,7 +10276,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tyrion Lannister Faces Imminent Trial
 country_event = { 
     id = GOT_Story_Country.311 
     title = GOT_Story_Country.311.t 
@@ -10265,7 +10284,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country311 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.3.10
+        date < 1939.4.10
     } 
  
     fire_only_once = yes 
@@ -10277,10 +10298,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -10294,7 +10313,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tyrion Lannister Faces Imminent Trial
 news_event = { 
     id = GOT_Story_News.311 
     title = GOT_Story_News.311.t 
@@ -10308,7 +10327,7 @@ news_event = {
     } 
 } 
  
-# 
+# Sansa Stark Escapes King's Landing
 country_event = { 
     id = GOT_Story_Country.312 
     title = GOT_Story_Country.312.t 
@@ -10316,7 +10335,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country312 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.3.10
+        date < 1939.4.10
     } 
  
     fire_only_once = yes 
@@ -10328,10 +10349,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -10345,7 +10364,7 @@ country_event = {
     } 
 } 
  
-# 
+# Sansa Stark Escapes King's Landing
 news_event = { 
     id = GOT_Story_News.312 
     title = GOT_Story_News.312.t 
@@ -10359,7 +10378,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jaime Lannister's Controversial Actions
 country_event = { 
     id = GOT_Story_Country.313 
     title = GOT_Story_Country.313.t 
@@ -10367,7 +10386,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country313 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.3.10
+        date < 1939.4.10
     } 
  
     fire_only_once = yes 
@@ -10379,10 +10400,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -10396,7 +10414,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jaime Lannister's Controversial Actions
 news_event = { 
     id = GOT_Story_News.313 
     title = GOT_Story_News.313.t 
@@ -10410,7 +10428,7 @@ news_event = {
     } 
 } 
  
-# 
+# Daenerys Targaryen's Siege of Meereen
 country_event = { 
     id = GOT_Story_Country.314 
     title = GOT_Story_Country.314.t 
@@ -10418,7 +10436,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country314 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1939.3.10
+        date < 1939.4.10
     } 
  
     fire_only_once = yes 
@@ -10430,10 +10450,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -10447,7 +10464,7 @@ country_event = {
     } 
 } 
  
-# 
+# Daenerys Targaryen's Siege of Meereen
 news_event = { 
     id = GOT_Story_News.314 
     title = GOT_Story_News.314.t 
@@ -10461,7 +10478,7 @@ news_event = {
     } 
 } 
  
-# 
+# Wildling Raid and the Boy's Warning
 country_event = { 
     id = GOT_Story_Country.315 
     title = GOT_Story_Country.315.t 
@@ -10469,7 +10486,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country315 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.3.10
+        date < 1939.4.10
     } 
  
     fire_only_once = yes 
@@ -10481,10 +10500,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
+        add_stability = -0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -10498,7 +10515,7 @@ country_event = {
     } 
 } 
  
-# 
+# Wildling Raid and the Boy's Warning
 news_event = { 
     id = GOT_Story_News.315 
     title = GOT_Story_News.315.t 
@@ -10512,7 +10529,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jaime Entrusts Brienne with a Mission
 country_event = { 
     id = GOT_Story_Country.316 
     title = GOT_Story_Country.316.t 
@@ -10520,7 +10537,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country316 
  
     trigger = { 
-        tag = ABC 
+        tag = WES
+		date > 1939.4.15
+        date < 1939.5.15
     } 
  
     fire_only_once = yes 
@@ -10533,9 +10552,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -10549,7 +10565,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jaime Entrusts Brienne with a Mission
 news_event = { 
     id = GOT_Story_News.316 
     title = GOT_Story_News.316.t 
@@ -10563,7 +10579,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Daenerys Conquers Meereen
 country_event = { 
     id = GOT_Story_Country.317 
     title = GOT_Story_Country.317.t 
@@ -10571,7 +10587,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country317 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
+		date > 1939.4.15
+        date < 1939.5.15
     } 
  
     fire_only_once = yes 
@@ -10600,7 +10618,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Daenerys Conquers Meereen
 news_event = { 
     id = GOT_Story_News.317 
     title = GOT_Story_News.317.t 
@@ -10614,7 +10632,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jon Snow Leads Expedition to Craster’s Keep
 country_event = { 
     id = GOT_Story_Country.318 
     title = GOT_Story_Country.318.t 
@@ -10622,7 +10640,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country318 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.4.15
+        date < 1939.5.15
     } 
  
     fire_only_once = yes 
@@ -10634,9 +10654,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -10651,7 +10669,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jon Snow Leads Expedition to Craster’s Keep
 news_event = { 
     id = GOT_Story_News.318 
     title = GOT_Story_News.318.t 
@@ -10665,7 +10683,7 @@ news_event = {
     } 
 } 
  
-# 
+# Brienne and Podrick Begin Their Journey
 country_event = { 
     id = GOT_Story_Country.319 
     title = GOT_Story_Country.319.t 
@@ -10673,7 +10691,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country319 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.4.15
+        date < 1939.5.15
     } 
  
     fire_only_once = yes 
@@ -10685,9 +10705,6 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -10702,7 +10719,7 @@ country_event = {
     } 
 } 
  
-# 
+# Brienne and Podrick Begin Their Journey
 news_event = { 
     id = GOT_Story_News.319 
     title = GOT_Story_News.319.t 
@@ -10716,7 +10733,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Tyrion’s Trial Looms
 country_event = { 
     id = GOT_Story_Country.320 
     title = GOT_Story_Country.320.t 
@@ -10724,7 +10741,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country320 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.4.15
+        date < 1939.5.15
     } 
  
     fire_only_once = yes 
@@ -10736,10 +10755,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -10753,7 +10770,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Tyrion’s Trial Looms
 news_event = { 
     id = GOT_Story_News.320 
     title = GOT_Story_News.320.t 
@@ -10767,7 +10784,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tommen Is Crowned King
 country_event = { 
     id = GOT_Story_Country.321 
     title = GOT_Story_Country.321.t 
@@ -10775,7 +10792,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country321 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.5.20
+        date < 1939.6.20
     } 
  
     fire_only_once = yes 
@@ -10788,9 +10807,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -10804,7 +10821,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tommen Is Crowned King
 news_event = { 
     id = GOT_Story_News.321 
     title = GOT_Story_News.321.t 
@@ -10818,7 +10835,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Sansa and Littlefinger Arrive at the Eyrie
 country_event = { 
     id = GOT_Story_Country.322 
     title = GOT_Story_Country.322.t 
@@ -10826,7 +10843,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country322 
  
     trigger = { 
-        tag = ABC 
+        tag = VAL 
+		date > 1939.5.20
+        date < 1939.6.20
     } 
  
     fire_only_once = yes 
@@ -10839,9 +10858,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -10855,7 +10872,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Sansa and Littlefinger Arrive at the Eyrie
 news_event = { 
     id = GOT_Story_News.322 
     title = GOT_Story_News.322.t 
@@ -10869,7 +10886,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Jon Snow Attacks Craster's Keep
 country_event = { 
     id = GOT_Story_Country.323 
     title = GOT_Story_Country.323.t 
@@ -10877,7 +10894,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country323 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.5.20
+        date < 1939.6.20
     } 
  
     fire_only_once = yes 
@@ -10889,9 +10908,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -10906,7 +10923,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Jon Snow Attacks Craster's Keep
 news_event = { 
     id = GOT_Story_News.323 
     title = GOT_Story_News.323.t 
@@ -10920,7 +10937,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Daenerys Decides to Stay in Meereen
 country_event = { 
     id = GOT_Story_Country.324 
     title = GOT_Story_Country.324.t 
@@ -10928,7 +10945,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country324 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1939.5.20
+        date < 1939.6.20
     } 
  
     fire_only_once = yes 
@@ -10941,9 +10960,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_war_support = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -10957,7 +10974,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Daenerys Decides to Stay in Meereen
 news_event = { 
     id = GOT_Story_News.324 
     title = GOT_Story_News.324.t 
@@ -10971,7 +10988,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Revelation of Jon Arryn’s Murder
 country_event = { 
     id = GOT_Story_Country.325 
     title = GOT_Story_Country.325.t 
@@ -10979,7 +10996,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country325 
  
     trigger = { 
-        tag = ABC 
+        tag = VAL 
+		date > 1939.5.20
+        date < 1939.6.20
     } 
  
     fire_only_once = yes 
@@ -10991,10 +11010,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11008,7 +11025,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Revelation of Jon Arryn’s Murder
 news_event = { 
     id = GOT_Story_News.325 
     title = GOT_Story_News.325.t 
@@ -11022,7 +11039,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Tyrion's Trial for Joffrey’s Murder
 country_event = { 
     id = GOT_Story_Country.326 
     title = GOT_Story_Country.326.t 
@@ -11030,7 +11047,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country326 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.6.25
+        date < 1939.7.25
     } 
  
     fire_only_once = yes 
@@ -11042,10 +11061,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11059,7 +11076,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Tyrion's Trial for Joffrey’s Murder
 news_event = { 
     id = GOT_Story_News.326 
     title = GOT_Story_News.326.t 
@@ -11073,7 +11090,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Shae’s Devastating Testimony
 country_event = { 
     id = GOT_Story_Country.327 
     title = GOT_Story_Country.327.t 
@@ -11081,7 +11098,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country327 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1939.6.25
+        date < 1939.7.25
     } 
  
     fire_only_once = yes 
@@ -11093,10 +11112,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11110,7 +11127,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Shae’s Devastating Testimony
 news_event = { 
     id = GOT_Story_News.327 
     title = GOT_Story_News.327.t 
@@ -11124,7 +11141,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Stannis Baratheon’s Negotiation with the Iron Bank
 country_event = { 
     id = GOT_Story_Country.328 
     title = GOT_Story_Country.328.t 
@@ -11132,7 +11149,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country328 
  
     trigger = { 
-        tag = ABC 
+        tag = DRA
+		date > 1939.6.25
+        date < 1939.7.25
     } 
  
     fire_only_once = yes 
@@ -11144,10 +11163,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11161,7 +11178,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Stannis Baratheon’s Negotiation with the Iron Bank
 news_event = { 
     id = GOT_Story_News.328 
     title = GOT_Story_News.328.t 
@@ -11175,7 +11192,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Yara Greyjoy’s Attempted Rescue of Theon
 country_event = { 
     id = GOT_Story_Country.329 
     title = GOT_Story_Country.329.t 
@@ -11183,7 +11200,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country329 
  
     trigger = { 
-        tag = ABC 
+        tag = IRO
+		date > 1939.6.25
+        date < 1939.7.25
     } 
  
     fire_only_once = yes 
@@ -11195,9 +11214,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
+        add_stability = -0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -11212,7 +11230,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Yara Greyjoy’s Attempted Rescue of Theon
 news_event = { 
     id = GOT_Story_News.329 
     title = GOT_Story_News.329.t 
@@ -11226,7 +11244,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Daenerys Targaryen’s Struggles in Meereen
 country_event = { 
     id = GOT_Story_Country.330 
     title = GOT_Story_Country.330.t 
@@ -11234,7 +11252,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country330 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
+		date > 1939.6.25
+        date < 1939.7.25
     } 
  
     fire_only_once = yes 
@@ -11246,10 +11266,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11263,7 +11281,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Daenerys Targaryen’s Struggles in Meereen
 news_event = { 
     id = GOT_Story_News.330 
     title = GOT_Story_News.330.t 
@@ -11277,7 +11295,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Littlefinger Kills Lysa Arryn
 country_event = { 
     id = GOT_Story_Country.331 
     title = GOT_Story_Country.331.t 
@@ -11285,7 +11303,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country331 
  
     trigger = { 
-        tag = ABC 
+        tag = VAL
+		date > 1939.8.1
+        date < 1939.9.1
     } 
  
     fire_only_once = yes 
@@ -11297,10 +11317,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -11314,7 +11331,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Littlefinger Kills Lysa Arryn
 news_event = { 
     id = GOT_Story_News.331 
     title = GOT_Story_News.331.t 
@@ -11328,7 +11345,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Tyrion Finds an Unexpected Champion
 country_event = { 
     id = GOT_Story_Country.332 
     title = GOT_Story_Country.332.t 
@@ -11336,7 +11353,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country332 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
+		date > 1939.8.1
+        date < 1939.9.1
     } 
  
     fire_only_once = yes 
@@ -11349,7 +11368,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
         army_experience = 5 
  
@@ -11365,7 +11383,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Tyrion Finds an Unexpected Champion
 news_event = { 
     id = GOT_Story_News.332 
     title = GOT_Story_News.332.t 
@@ -11379,7 +11397,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Arya Stark and the Hound Encounter Rorge
 country_event = { 
     id = GOT_Story_Country.333 
     title = GOT_Story_Country.333.t 
@@ -11387,7 +11405,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country333 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.8.1
+        date < 1939.9.1
     } 
  
     fire_only_once = yes 
@@ -11399,9 +11419,6 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -11416,7 +11433,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Arya Stark and the Hound Encounter Rorge
 news_event = { 
     id = GOT_Story_News.333 
     title = GOT_Story_News.333.t 
@@ -11430,7 +11447,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Sansa Stark Confronts Littlefinger
 country_event = { 
     id = GOT_Story_Country.334 
     title = GOT_Story_Country.334.t 
@@ -11438,7 +11455,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country334 
  
     trigger = { 
-        tag = ABC 
+        tag = VAL
+		date > 1939.8.1
+        date < 1939.9.1
     } 
  
     fire_only_once = yes 
@@ -11450,10 +11469,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11467,7 +11484,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Sansa Stark Confronts Littlefinger
 news_event = { 
     id = GOT_Story_News.334 
     title = GOT_Story_News.334.t 
@@ -11481,7 +11498,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Brienne and Podrick Learn Arya's Whereabouts
 country_event = { 
     id = GOT_Story_Country.335 
     title = GOT_Story_Country.335.t 
@@ -11489,7 +11506,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country335 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
+		date > 1939.8.1
+        date < 1939.9.1
     } 
  
     fire_only_once = yes 
@@ -11501,9 +11520,6 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -11518,7 +11534,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Brienne and Podrick Learn Arya's Whereabouts
 news_event = { 
     id = GOT_Story_News.335 
     title = GOT_Story_News.335.t 
@@ -11532,7 +11548,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Oberyn Martell's Trial by Combat
 country_event = { 
     id = GOT_Story_Country.336 
     title = GOT_Story_Country.336.t 
@@ -11540,7 +11556,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country336 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1939.9.5
+        date < 1939.10.5
     } 
  
     fire_only_once = yes 
@@ -11552,9 +11570,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
+        add_stability = -0.05 
         army_experience = 5 
  
         every_other_country = { 
@@ -11569,7 +11585,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Oberyn Martell's Trial by Combat
 news_event = { 
     id = GOT_Story_News.336 
     title = GOT_Story_News.336.t 
@@ -11583,7 +11599,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Tyrion's Death Sentence
 country_event = { 
     id = GOT_Story_Country.337 
     title = GOT_Story_Country.337.t 
@@ -11591,7 +11607,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country337 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1939.9.5
+        date < 1939.10.5
     } 
  
     fire_only_once = yes 
@@ -11603,10 +11621,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11620,7 +11636,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Tyrion's Death Sentence
 news_event = { 
     id = GOT_Story_News.337 
     title = GOT_Story_News.337.t 
@@ -11634,7 +11650,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Sansa Stark's Transformation
 country_event = { 
     id = GOT_Story_Country.338 
     title = GOT_Story_Country.338.t 
@@ -11642,7 +11658,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country338 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.9.5
+        date < 1939.10.5
     } 
  
     fire_only_once = yes 
@@ -11654,10 +11672,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -11671,7 +11686,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Sansa Stark's Transformation
 news_event = { 
     id = GOT_Story_News.338 
     title = GOT_Story_News.338.t 
@@ -11685,7 +11700,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Daenerys Targaryen's Decision
 country_event = { 
     id = GOT_Story_Country.339 
     title = GOT_Story_Country.339.t 
@@ -11693,7 +11708,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country339 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
+		date > 1939.9.5
+        date < 1939.10.5
     } 
  
     fire_only_once = yes 
@@ -11706,9 +11723,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -11722,7 +11737,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Daenerys Targaryen's Decision
 news_event = { 
     id = GOT_Story_News.339 
     title = GOT_Story_News.339.t 
@@ -11736,7 +11751,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Wildlings Attack Mole's Town
 country_event = { 
     id = GOT_Story_Country.340 
     title = GOT_Story_Country.340.t 
@@ -11744,7 +11759,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country340 
  
     trigger = { 
-        tag = ABC 
+        tag = WIL 
+		date > 1939.9.5
+        date < 1939.10.5
     } 
  
     fire_only_once = yes 
@@ -11758,7 +11775,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -11773,7 +11789,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Wildlings Attack Mole's Town
 news_event = { 
     id = GOT_Story_News.340 
     title = GOT_Story_News.340.t 
@@ -11787,7 +11803,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Wildlings Launch a Coordinated Assault on Castle Black
 country_event = { 
     id = GOT_Story_Country.341 
     title = GOT_Story_Country.341.t 
@@ -11795,7 +11811,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country341 
  
     trigger = { 
-        tag = ABC 
+        tag = WIL 
+		date > 1939.10.10
+        date < 1939.11.10
     } 
  
     fire_only_once = yes 
@@ -11807,10 +11825,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -11824,7 +11839,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Wildlings Launch a Coordinated Assault on Castle Black
 news_event = { 
     id = GOT_Story_News.341 
     title = GOT_Story_News.341.t 
@@ -11838,7 +11853,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Pyp and Grenn's Heroic Last Stand
 country_event = { 
     id = GOT_Story_Country.342 
     title = GOT_Story_Country.342.t 
@@ -11846,7 +11861,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country342 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.10.10
+        date < 1939.11.10
     } 
  
     fire_only_once = yes 
@@ -11860,7 +11877,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -11875,7 +11891,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Pyp and Grenn's Heroic Last Stand
 news_event = { 
     id = GOT_Story_News.342 
     title = GOT_Story_News.342.t 
@@ -11889,7 +11905,7 @@ news_event = {
     } 
 } 
  
-# 
+# Jon Snow Faces Ygritte in a Tragic Reunion
 country_event = { 
     id = GOT_Story_Country.343 
     title = GOT_Story_Country.343.t 
@@ -11897,7 +11913,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country343 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.10.10
+        date < 1939.11.10
     } 
  
     fire_only_once = yes 
@@ -11909,10 +11927,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -11926,7 +11942,7 @@ country_event = {
     } 
 } 
  
-# 
+# Jon Snow Faces Ygritte in a Tragic Reunion
 news_event = { 
     id = GOT_Story_News.343 
     title = GOT_Story_News.343.t 
@@ -11940,7 +11956,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Tormund Captured and Taken Prisoner
 country_event = { 
     id = GOT_Story_Country.344 
     title = GOT_Story_Country.344.t 
@@ -11948,7 +11964,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country344 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.10.10
+        date < 1939.11.10
     } 
  
     fire_only_once = yes 
@@ -11962,7 +11980,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -11977,7 +11994,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Tormund Captured and Taken Prisoner
 news_event = { 
     id = GOT_Story_News.344 
     title = GOT_Story_News.344.t 
@@ -11991,7 +12008,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Jon Plans to Confront Mance Rayder
 country_event = { 
     id = GOT_Story_Country.345 
     title = GOT_Story_Country.345.t 
@@ -11999,7 +12016,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country345 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.10.10
+        date < 1939.11.10
     } 
  
     fire_only_once = yes 
@@ -12011,10 +12030,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -12028,7 +12044,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Jon Plans to Confront Mance Rayder
 news_event = { 
     id = GOT_Story_News.345 
     title = GOT_Story_News.345.t 
@@ -12042,7 +12058,7 @@ news_event = {
     } 
 } 
  
-# 
+# Tyrion Kills Tywin and Shae
 country_event = { 
     id = GOT_Story_Country.346 
     title = GOT_Story_Country.346.t 
@@ -12050,7 +12066,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country346 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
+		date > 1939.11.15
+        date < 1939.12.15
     } 
  
     fire_only_once = yes 
@@ -12062,10 +12080,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -12079,7 +12095,7 @@ country_event = {
     } 
 } 
  
-# 
+# Tyrion Kills Tywin and Shae
 news_event = { 
     id = GOT_Story_News.346 
     title = GOT_Story_News.346.t 
@@ -12093,7 +12109,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Daenerys Chains Her Dragons
 country_event = { 
     id = GOT_Story_Country.347 
     title = GOT_Story_Country.347.t 
@@ -12101,7 +12117,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country347 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
+		date > 1939.11.15
+        date < 1939.12.15
     } 
  
     fire_only_once = yes 
@@ -12113,10 +12131,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
+        add_stability = -0.05 
+        add_war_support = -0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -12130,7 +12147,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Daenerys Chains Her Dragons
 news_event = { 
     id = GOT_Story_News.347 
     title = GOT_Story_News.347.t 
@@ -12144,7 +12161,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Bran Meets the Children of the Forest
 country_event = { 
     id = GOT_Story_Country.348 
     title = GOT_Story_Country.348.t 
@@ -12152,7 +12169,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country348 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.11.15
+        date < 1939.12.15
     } 
  
     fire_only_once = yes 
@@ -12165,9 +12184,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -12181,7 +12197,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Bran Meets the Children of the Forest
 news_event = { 
     id = GOT_Story_News.348 
     title = GOT_Story_News.348.t 
@@ -12195,7 +12211,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Arya Leaves the Hound to Die
 country_event = { 
     id = GOT_Story_Country.349 
     title = GOT_Story_Country.349.t 
@@ -12203,7 +12219,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country349 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
+		date > 1939.11.15
+        date < 1939.12.15
     } 
  
     fire_only_once = yes 
@@ -12215,10 +12233,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -12232,7 +12247,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Arya Leaves the Hound to Die
 news_event = { 
     id = GOT_Story_News.349 
     title = GOT_Story_News.349.t 
@@ -12246,7 +12261,7 @@ news_event = {
     } 
 } 
  
-# 
+ # Jon Snow Faces Stannis Baratheon
 country_event = { 
     id = GOT_Story_Country.350 
     title = GOT_Story_Country.350.t 
@@ -12254,7 +12269,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country350 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
+		date > 1939.11.15
+        date < 1939.12.15
     } 
  
     fire_only_once = yes 
@@ -12266,10 +12283,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -12283,7 +12298,7 @@ country_event = {
     } 
 } 
  
-# 
+ # Jon Snow Faces Stannis Baratheon
 news_event = { 
     id = GOT_Story_News.350 
     title = GOT_Story_News.350.t 

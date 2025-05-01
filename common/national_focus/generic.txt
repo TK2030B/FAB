@@ -4443,11 +4443,11 @@ focus_tree = {
 			focus = GOT_free_market
 		}
 		completion_reward = {
-			random_owned_state = {
-				add_resource = {
-					type = steel
-					amount = 8
-				}
+			add_tech_bonus = {
+				name = excavation_bonus
+				bonus = 0.50
+				uses = 1
+				category = excavation_tech
 			}
 		}
 	}
@@ -4466,11 +4466,11 @@ focus_tree = {
 			focus = GOT_free_market
 		}
 		completion_reward = {
-			random_owned_state = {
-				add_resource = {
-					type = tungsten
-					amount = 8
-				}
+			add_tech_bonus = {
+				name = excavation_bonus
+				bonus = 0.50
+				uses = 1
+				category = excavation_tech
 			}
 		}
 	}

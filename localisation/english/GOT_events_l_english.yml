@@ -1230,11 +1230,12 @@ GOT_Story_News.201.d: "In a shocking turn of events, Jon Snow, a sworn brother o
 GOT_Story_News.201.a: "Has the Night’s Watch lost one of its own?"
 
  
-# GOT_Story_Country.202 – Tyrion Confronts Tywin Lannister
-GOT_Story_Country.202.t: "Tyrion Confronts Tywin Lannister"
-GOT_Story_Country.202.d: "I stood before my father, bruised but defiant, expecting at least a word of recognition for my role in saving King’s Landing from Stannis Baratheon. I bled for this city. I commanded its defense. Yet all I received was cold dismissal. He denied me Casterly Rock, the legacy I’ve long yearned for, and reminded me once again that I am no true son in his eyes. His scorn cuts deeper than any blade."
-GOT_Story_Country.202.a: "He’ll regret underestimating me."
-GOT_Story_Country.202.b: "Let him keep his Rock. I’ll forge my own path."
+# GOT_Story_Country.202 – The Issue of Casterly Rock
+GOT_Story_Country.202.t: "The Issue of Casterly Rock"
+GOT_Story_Country.202.d: "Casterly Rock—seat of House Lannister, the ancestral home I’ve never been permitted to call my own. Though I played no small part in saving King’s Landing, my father remains cold and unyielding. Still, part of me wonders: should I ask him for what is rightfully mine? To be Lord of Casterly Rock, to claim the legacy denied to me all my life? Or is it better to let the matter lie, knowing full well the scorn such a request might bring?"
+GOT_Story_Country.202.a: "I will ask him. It is mine by right."
+GOT_Story_Country.202.b: "No… it's not worth the humiliation."
+
 
 # GOT_Story_News.202 – Tyrion Spurned by His Father
 GOT_Story_News.202.t: "Tyrion Spurned by His Father"
@@ -1246,7 +1247,7 @@ GOT_Story_News.202.b: "House Lannister cracks from within."
 # Daenerys Arrives in Astapor
 GOT_Story_Country.203.t: "A Blade in the Shadows"
 GOT_Story_Country.203.d: "Astapor stinks of blood and desperation. The Unsullied stand like statues—perfect soldiers for a queen with no army. As I weighed the price of freedom against the gold in my coffers, death nearly found me in the form of a manticore. Ser Barristan Selmy—once of Robert’s Kingsguard—struck it down and knelt before me, offering not just his sword, but his faith. I may have come here seeking soldiers, but I have found something far more valuable: loyalty."
-GOT_Story_Country.203.a: "Selmy’s service is an honor I will not forget."
+GOT_Story_Country.203.a: "Selmy’s service is an honor."
 
 # Daenerys Arrives in Astapor
 GOT_Story_News.203.t: "The Queen Gains a Sword"
@@ -1736,605 +1737,457 @@ GOT_Story_News.250.a: "Bran’s encounter with Samwell Tarly has provided both g
 ############
 ##SEASON 4##
 ############
-# 
-GOT_Story_Country.301.t: "" 
-GOT_Story_Country.301.d: "" 
-GOT_Story_Country.301.a: "" 
-GOT_Story_Country.301.b: "" 
- 
-# 
-GOT_Story_News.301.t: "" 
-GOT_Story_News.301.d: "" 
-GOT_Story_News.301.a: "" 
-GOT_Story_News.301.b: "" 
- 
-# 
-GOT_Story_Country.302.t: "" 
-GOT_Story_Country.302.d: "" 
-GOT_Story_Country.302.a: "" 
-GOT_Story_Country.302.b: "" 
- 
-# 
-GOT_Story_News.302.t: "" 
-GOT_Story_News.302.d: "" 
-GOT_Story_News.302.a: "" 
-GOT_Story_News.302.b: "" 
- 
-# 
-GOT_Story_Country.303.t: "" 
-GOT_Story_Country.303.d: "" 
-GOT_Story_Country.303.a: "" 
-GOT_Story_Country.303.b: "" 
- 
-# 
-GOT_Story_News.303.t: "" 
-GOT_Story_News.303.d: "" 
-GOT_Story_News.303.a: "" 
-GOT_Story_News.303.b: "" 
- 
-# 
-GOT_Story_Country.304.t: "" 
-GOT_Story_Country.304.d: "" 
-GOT_Story_Country.304.a: "" 
-GOT_Story_Country.304.b: "" 
- 
-# 
-GOT_Story_News.304.t: "" 
-GOT_Story_News.304.d: "" 
-GOT_Story_News.304.a: "" 
-GOT_Story_News.304.b: "" 
- 
-# 
-GOT_Story_Country.305.t: "" 
-GOT_Story_Country.305.d: "" 
-GOT_Story_Country.305.a: "" 
-GOT_Story_Country.305.b: "" 
- 
-# 
-GOT_Story_News.305.t: "" 
-GOT_Story_News.305.d: "" 
-GOT_Story_News.305.a: "" 
-GOT_Story_News.305.b: "" 
- 
-# 
-GOT_Story_Country.306.t: "" 
-GOT_Story_Country.306.d: "" 
-GOT_Story_Country.306.a: "" 
-GOT_Story_Country.306.b: "" 
- 
-# 
-GOT_Story_News.306.t: "" 
-GOT_Story_News.306.d: "" 
-GOT_Story_News.306.a: "" 
-GOT_Story_News.306.b: "" 
- 
-# 
-GOT_Story_Country.307.t: "" 
-GOT_Story_Country.307.d: "" 
-GOT_Story_Country.307.a: "" 
-GOT_Story_Country.307.b: "" 
- 
-# 
-GOT_Story_News.307.t: "" 
-GOT_Story_News.307.d: "" 
-GOT_Story_News.307.a: "" 
-GOT_Story_News.307.b: "" 
- 
-# 
-GOT_Story_Country.308.t: "" 
-GOT_Story_Country.308.d: "" 
-GOT_Story_Country.308.a: "" 
-GOT_Story_Country.308.b: "" 
- 
-# 
-GOT_Story_News.308.t: "" 
-GOT_Story_News.308.d: "" 
-GOT_Story_News.308.a: "" 
-GOT_Story_News.308.b: "" 
- 
-# 
-GOT_Story_Country.309.t: "" 
-GOT_Story_Country.309.d: "" 
-GOT_Story_Country.309.a: "" 
-GOT_Story_Country.309.b: "" 
- 
-# 
-GOT_Story_News.309.t: "" 
-GOT_Story_News.309.d: "" 
-GOT_Story_News.309.a: "" 
-GOT_Story_News.309.b: "" 
- 
-# 
-GOT_Story_Country.310.t: "" 
-GOT_Story_Country.310.d: "" 
-GOT_Story_Country.310.a: "" 
-GOT_Story_Country.310.b: "" 
- 
-# 
-GOT_Story_News.310.t: "" 
-GOT_Story_News.310.d: "" 
-GOT_Story_News.310.a: "" 
-GOT_Story_News.310.b: "" 
- 
-# 
-GOT_Story_Country.311.t: "" 
-GOT_Story_Country.311.d: "" 
-GOT_Story_Country.311.a: "" 
-GOT_Story_Country.311.b: "" 
- 
-# 
-GOT_Story_News.311.t: "" 
-GOT_Story_News.311.d: "" 
-GOT_Story_News.311.a: "" 
-GOT_Story_News.311.b: "" 
- 
-# 
-GOT_Story_Country.312.t: "" 
-GOT_Story_Country.312.d: "" 
-GOT_Story_Country.312.a: "" 
-GOT_Story_Country.312.b: "" 
- 
-# 
-GOT_Story_News.312.t: "" 
-GOT_Story_News.312.d: "" 
-GOT_Story_News.312.a: "" 
-GOT_Story_News.312.b: "" 
- 
-# 
-GOT_Story_Country.313.t: "" 
-GOT_Story_Country.313.d: "" 
-GOT_Story_Country.313.a: "" 
-GOT_Story_Country.313.b: "" 
- 
-# 
-GOT_Story_News.313.t: "" 
-GOT_Story_News.313.d: "" 
-GOT_Story_News.313.a: "" 
-GOT_Story_News.313.b: "" 
- 
-# 
-GOT_Story_Country.314.t: "" 
-GOT_Story_Country.314.d: "" 
-GOT_Story_Country.314.a: "" 
-GOT_Story_Country.314.b: "" 
- 
-# 
-GOT_Story_News.314.t: "" 
-GOT_Story_News.314.d: "" 
-GOT_Story_News.314.a: "" 
-GOT_Story_News.314.b: "" 
- 
-# 
-GOT_Story_Country.315.t: "" 
-GOT_Story_Country.315.d: "" 
-GOT_Story_Country.315.a: "" 
-GOT_Story_Country.315.b: "" 
- 
-# 
-GOT_Story_News.315.t: "" 
-GOT_Story_News.315.d: "" 
-GOT_Story_News.315.a: "" 
-GOT_Story_News.315.b: "" 
- 
-# 
-GOT_Story_Country.316.t: "" 
-GOT_Story_Country.316.d: "" 
-GOT_Story_Country.316.a: "" 
-GOT_Story_Country.316.b: "" 
- 
-# 
-GOT_Story_News.316.t: "" 
-GOT_Story_News.316.d: "" 
-GOT_Story_News.316.a: "" 
-GOT_Story_News.316.b: "" 
- 
-# 
-GOT_Story_Country.317.t: "" 
-GOT_Story_Country.317.d: "" 
-GOT_Story_Country.317.a: "" 
-GOT_Story_Country.317.b: "" 
- 
-# 
-GOT_Story_News.317.t: "" 
-GOT_Story_News.317.d: "" 
-GOT_Story_News.317.a: "" 
-GOT_Story_News.317.b: "" 
- 
-# 
-GOT_Story_Country.318.t: "" 
-GOT_Story_Country.318.d: "" 
-GOT_Story_Country.318.a: "" 
-GOT_Story_Country.318.b: "" 
- 
-# 
-GOT_Story_News.318.t: "" 
-GOT_Story_News.318.d: "" 
-GOT_Story_News.318.a: "" 
-GOT_Story_News.318.b: "" 
- 
-# 
-GOT_Story_Country.319.t: "" 
-GOT_Story_Country.319.d: "" 
-GOT_Story_Country.319.a: "" 
-GOT_Story_Country.319.b: "" 
- 
-# 
-GOT_Story_News.319.t: "" 
-GOT_Story_News.319.d: "" 
-GOT_Story_News.319.a: "" 
-GOT_Story_News.319.b: "" 
- 
-# 
-GOT_Story_Country.320.t: "" 
-GOT_Story_Country.320.d: "" 
-GOT_Story_Country.320.a: "" 
-GOT_Story_Country.320.b: "" 
- 
-# 
-GOT_Story_News.320.t: "" 
-GOT_Story_News.320.d: "" 
-GOT_Story_News.320.a: "" 
-GOT_Story_News.320.b: "" 
- 
-# 
-GOT_Story_Country.321.t: "" 
-GOT_Story_Country.321.d: "" 
-GOT_Story_Country.321.a: "" 
-GOT_Story_Country.321.b: "" 
- 
-# 
-GOT_Story_News.321.t: "" 
-GOT_Story_News.321.d: "" 
-GOT_Story_News.321.a: "" 
-GOT_Story_News.321.b: "" 
- 
-# 
-GOT_Story_Country.322.t: "" 
-GOT_Story_Country.322.d: "" 
-GOT_Story_Country.322.a: "" 
-GOT_Story_Country.322.b: "" 
- 
-# 
-GOT_Story_News.322.t: "" 
-GOT_Story_News.322.d: "" 
-GOT_Story_News.322.a: "" 
-GOT_Story_News.322.b: "" 
- 
-# 
-GOT_Story_Country.323.t: "" 
-GOT_Story_Country.323.d: "" 
-GOT_Story_Country.323.a: "" 
-GOT_Story_Country.323.b: "" 
- 
-# 
-GOT_Story_News.323.t: "" 
-GOT_Story_News.323.d: "" 
-GOT_Story_News.323.a: "" 
-GOT_Story_News.323.b: "" 
- 
-# 
-GOT_Story_Country.324.t: "" 
-GOT_Story_Country.324.d: "" 
-GOT_Story_Country.324.a: "" 
-GOT_Story_Country.324.b: "" 
- 
-# 
-GOT_Story_News.324.t: "" 
-GOT_Story_News.324.d: "" 
-GOT_Story_News.324.a: "" 
-GOT_Story_News.324.b: "" 
- 
-# 
-GOT_Story_Country.325.t: "" 
-GOT_Story_Country.325.d: "" 
-GOT_Story_Country.325.a: "" 
-GOT_Story_Country.325.b: "" 
- 
-# 
-GOT_Story_News.325.t: "" 
-GOT_Story_News.325.d: "" 
-GOT_Story_News.325.a: "" 
-GOT_Story_News.325.b: "" 
- 
-# 
-GOT_Story_Country.326.t: "" 
-GOT_Story_Country.326.d: "" 
-GOT_Story_Country.326.a: "" 
-GOT_Story_Country.326.b: "" 
- 
-# 
-GOT_Story_News.326.t: "" 
-GOT_Story_News.326.d: "" 
-GOT_Story_News.326.a: "" 
-GOT_Story_News.326.b: "" 
- 
-# 
-GOT_Story_Country.327.t: "" 
-GOT_Story_Country.327.d: "" 
-GOT_Story_Country.327.a: "" 
-GOT_Story_Country.327.b: "" 
- 
-# 
-GOT_Story_News.327.t: "" 
-GOT_Story_News.327.d: "" 
-GOT_Story_News.327.a: "" 
-GOT_Story_News.327.b: "" 
- 
-# 
-GOT_Story_Country.328.t: "" 
-GOT_Story_Country.328.d: "" 
-GOT_Story_Country.328.a: "" 
-GOT_Story_Country.328.b: "" 
- 
-# 
-GOT_Story_News.328.t: "" 
-GOT_Story_News.328.d: "" 
-GOT_Story_News.328.a: "" 
-GOT_Story_News.328.b: "" 
- 
-# 
-GOT_Story_Country.329.t: "" 
-GOT_Story_Country.329.d: "" 
-GOT_Story_Country.329.a: "" 
-GOT_Story_Country.329.b: "" 
- 
-# 
-GOT_Story_News.329.t: "" 
-GOT_Story_News.329.d: "" 
-GOT_Story_News.329.a: "" 
-GOT_Story_News.329.b: "" 
- 
-# 
-GOT_Story_Country.330.t: "" 
-GOT_Story_Country.330.d: "" 
-GOT_Story_Country.330.a: "" 
-GOT_Story_Country.330.b: "" 
- 
-# 
-GOT_Story_News.330.t: "" 
-GOT_Story_News.330.d: "" 
-GOT_Story_News.330.a: "" 
-GOT_Story_News.330.b: "" 
- 
-# 
-GOT_Story_Country.331.t: "" 
-GOT_Story_Country.331.d: "" 
-GOT_Story_Country.331.a: "" 
-GOT_Story_Country.331.b: "" 
- 
-# 
-GOT_Story_News.331.t: "" 
-GOT_Story_News.331.d: "" 
-GOT_Story_News.331.a: "" 
-GOT_Story_News.331.b: "" 
- 
-# 
-GOT_Story_Country.332.t: "" 
-GOT_Story_Country.332.d: "" 
-GOT_Story_Country.332.a: "" 
-GOT_Story_Country.332.b: "" 
- 
-# 
-GOT_Story_News.332.t: "" 
-GOT_Story_News.332.d: "" 
-GOT_Story_News.332.a: "" 
-GOT_Story_News.332.b: "" 
- 
-# 
-GOT_Story_Country.333.t: "" 
-GOT_Story_Country.333.d: "" 
-GOT_Story_Country.333.a: "" 
-GOT_Story_Country.333.b: "" 
- 
-# 
-GOT_Story_News.333.t: "" 
-GOT_Story_News.333.d: "" 
-GOT_Story_News.333.a: "" 
-GOT_Story_News.333.b: "" 
- 
-# 
-GOT_Story_Country.334.t: "" 
-GOT_Story_Country.334.d: "" 
-GOT_Story_Country.334.a: "" 
-GOT_Story_Country.334.b: "" 
- 
-# 
-GOT_Story_News.334.t: "" 
-GOT_Story_News.334.d: "" 
-GOT_Story_News.334.a: "" 
-GOT_Story_News.334.b: "" 
- 
-# 
-GOT_Story_Country.335.t: "" 
-GOT_Story_Country.335.d: "" 
-GOT_Story_Country.335.a: "" 
-GOT_Story_Country.335.b: "" 
- 
-# 
-GOT_Story_News.335.t: "" 
-GOT_Story_News.335.d: "" 
-GOT_Story_News.335.a: "" 
-GOT_Story_News.335.b: "" 
- 
-# 
-GOT_Story_Country.336.t: "" 
-GOT_Story_Country.336.d: "" 
-GOT_Story_Country.336.a: "" 
-GOT_Story_Country.336.b: "" 
- 
-# 
-GOT_Story_News.336.t: "" 
-GOT_Story_News.336.d: "" 
-GOT_Story_News.336.a: "" 
-GOT_Story_News.336.b: "" 
- 
-# 
-GOT_Story_Country.337.t: "" 
-GOT_Story_Country.337.d: "" 
-GOT_Story_Country.337.a: "" 
-GOT_Story_Country.337.b: "" 
- 
-# 
-GOT_Story_News.337.t: "" 
-GOT_Story_News.337.d: "" 
-GOT_Story_News.337.a: "" 
-GOT_Story_News.337.b: "" 
- 
-# 
-GOT_Story_Country.338.t: "" 
-GOT_Story_Country.338.d: "" 
-GOT_Story_Country.338.a: "" 
-GOT_Story_Country.338.b: "" 
- 
-# 
-GOT_Story_News.338.t: "" 
-GOT_Story_News.338.d: "" 
-GOT_Story_News.338.a: "" 
-GOT_Story_News.338.b: "" 
- 
-# 
-GOT_Story_Country.339.t: "" 
-GOT_Story_Country.339.d: "" 
-GOT_Story_Country.339.a: "" 
-GOT_Story_Country.339.b: "" 
- 
-# 
-GOT_Story_News.339.t: "" 
-GOT_Story_News.339.d: "" 
-GOT_Story_News.339.a: "" 
-GOT_Story_News.339.b: "" 
- 
-# 
-GOT_Story_Country.340.t: "" 
-GOT_Story_Country.340.d: "" 
-GOT_Story_Country.340.a: "" 
-GOT_Story_Country.340.b: "" 
- 
-# 
-GOT_Story_News.340.t: "" 
-GOT_Story_News.340.d: "" 
-GOT_Story_News.340.a: "" 
-GOT_Story_News.340.b: "" 
- 
-# 
-GOT_Story_Country.341.t: "" 
-GOT_Story_Country.341.d: "" 
-GOT_Story_Country.341.a: "" 
-GOT_Story_Country.341.b: "" 
- 
-# 
-GOT_Story_News.341.t: "" 
-GOT_Story_News.341.d: "" 
-GOT_Story_News.341.a: "" 
-GOT_Story_News.341.b: "" 
- 
-# 
-GOT_Story_Country.342.t: "" 
-GOT_Story_Country.342.d: "" 
-GOT_Story_Country.342.a: "" 
-GOT_Story_Country.342.b: "" 
- 
-# 
-GOT_Story_News.342.t: "" 
-GOT_Story_News.342.d: "" 
-GOT_Story_News.342.a: "" 
-GOT_Story_News.342.b: "" 
- 
-# 
-GOT_Story_Country.343.t: "" 
-GOT_Story_Country.343.d: "" 
-GOT_Story_Country.343.a: "" 
-GOT_Story_Country.343.b: "" 
- 
-# 
-GOT_Story_News.343.t: "" 
-GOT_Story_News.343.d: "" 
-GOT_Story_News.343.a: "" 
-GOT_Story_News.343.b: "" 
- 
-# 
-GOT_Story_Country.344.t: "" 
-GOT_Story_Country.344.d: "" 
-GOT_Story_Country.344.a: "" 
-GOT_Story_Country.344.b: "" 
- 
-# 
-GOT_Story_News.344.t: "" 
-GOT_Story_News.344.d: "" 
-GOT_Story_News.344.a: "" 
-GOT_Story_News.344.b: "" 
- 
-# 
-GOT_Story_Country.345.t: "" 
-GOT_Story_Country.345.d: "" 
-GOT_Story_Country.345.a: "" 
-GOT_Story_Country.345.b: "" 
- 
-# 
-GOT_Story_News.345.t: "" 
-GOT_Story_News.345.d: "" 
-GOT_Story_News.345.a: "" 
-GOT_Story_News.345.b: "" 
- 
-# 
-GOT_Story_Country.346.t: "" 
-GOT_Story_Country.346.d: "" 
-GOT_Story_Country.346.a: "" 
-GOT_Story_Country.346.b: "" 
- 
-# 
-GOT_Story_News.346.t: "" 
-GOT_Story_News.346.d: "" 
-GOT_Story_News.346.a: "" 
-GOT_Story_News.346.b: "" 
- 
-# 
-GOT_Story_Country.347.t: "" 
-GOT_Story_Country.347.d: "" 
-GOT_Story_Country.347.a: "" 
-GOT_Story_Country.347.b: "" 
- 
-# 
-GOT_Story_News.347.t: "" 
-GOT_Story_News.347.d: "" 
-GOT_Story_News.347.a: "" 
-GOT_Story_News.347.b: "" 
- 
-# 
-GOT_Story_Country.348.t: "" 
-GOT_Story_Country.348.d: "" 
-GOT_Story_Country.348.a: "" 
-GOT_Story_Country.348.b: "" 
- 
-# 
-GOT_Story_News.348.t: "" 
-GOT_Story_News.348.d: "" 
-GOT_Story_News.348.a: "" 
-GOT_Story_News.348.b: "" 
- 
-# 
-GOT_Story_Country.349.t: "" 
-GOT_Story_Country.349.d: "" 
-GOT_Story_Country.349.a: "" 
-GOT_Story_Country.349.b: "" 
- 
-# 
-GOT_Story_News.349.t: "" 
-GOT_Story_News.349.d: "" 
-GOT_Story_News.349.a: "" 
-GOT_Story_News.349.b: "" 
- 
-# 
-GOT_Story_Country.350.t: "" 
-GOT_Story_Country.350.d: "" 
-GOT_Story_Country.350.a: "" 
-GOT_Story_Country.350.b: "" 
- 
-# 
-GOT_Story_News.350.t: "" 
-GOT_Story_News.350.d: "" 
-GOT_Story_News.350.a: "" 
-GOT_Story_News.350.b: "" 
+
+ # Tywin Lannister Melts Down Ned Stark’s Sword
+ GOT_Story_Country.301.t: "Two Swords Forged from One"
+ GOT_Story_Country.301.d: "In a display of Lannister supremacy, Tywin Lannister has overseen the melting of Ned Stark’s Valyrian steel greatsword, Ice, forging two new swords from its remnants. One is given to Jaime, who refuses to abandon the Kingsguard, and the other to King Joffrey. The act serves as both a practical reforging and a symbolic obliteration of House Stark’s legacy."
+ GOT_Story_Country.301.a: "The Starks fall, the Lannisters rise."
+
+ GOT_Story_News.301.t: "House Stark’s Legacy Reforged into Lannister Steel"
+ GOT_Story_News.301.d: "In King’s Landing, Tywin Lannister has melted the great Valyrian steel sword of Ned Stark, creating two new blades. One is offered to Jaime Lannister, who refuses to return to Casterly Rock, while the other is gifted to King Joffrey. The gesture not only arms the Lannisters, but also desecrates the memory of House Stark’s honor."
+ GOT_Story_News.301.a: "The old world burns in Lannister forges."
+
+ # Jaime Lannister's Strained Relationship with His Family
+ GOT_Story_Country.302.t: "Jaime Returns to a Changed Family"
+ GOT_Story_Country.302.d: "After escaping captivity, Jaime Lannister returns to King’s Landing, only to be met with cold disdain. His father is disappointed by his refusal to abandon the Kingsguard, Joffrey ridicules his diminished status, and Cersei is repulsed by both his maimed body and his clinging to their secret bond. Jaime's homecoming is anything but warm."
+ GOT_Story_Country.302.a: "The Kingslayer finds no refuge in his own house."
+
+ GOT_Story_News.302.t: "Jaime Lannister’s Return Fractures House Unity"
+ GOT_Story_News.302.d: "Despite surviving imprisonment and maiming, Jaime Lannister’s return to the capital has only deepened the rifts within House Lannister. Tywin sees him as disobedient, Joffrey mocks him publicly, and Cersei keeps him at emotional arm’s length. Once a proud lion, Jaime now limps through a pride that barely recognizes him."
+ GOT_Story_News.302.a: "Even lions devour their wounded."
+
+ # Daenerys Targaryen Approaches Meereen
+ GOT_Story_Country.303.t: "Meereen Awaits Daenerys"
+ GOT_Story_Country.303.d: "Daenerys marches toward Meereen, the last and greatest of the slaver cities. Along the road, she finds the bodies of crucified slave children — a grim warning from the city’s masters. Unshaken, she presses onward, vowing to free the oppressed and punish the cruel. The dragon queen's conquest continues, one chain at a time."
+ GOT_Story_Country.303.a: "Their cruelty will be their downfall."
+
+ GOT_Story_News.303.t: "Daenerys Nears Meereen, Slaver City Trembles"
+ GOT_Story_News.303.d: "With her Unsullied, freedmen, and dragons, Daenerys Targaryen nears Meereen. Her march is lined with crucified slave children, meant to break her spirit — but the queen shows no fear. Her path is justice and fire, and Meereen’s walls may not stand long against either."
+ GOT_Story_News.303.a: "The last of the slaver cities may soon fall."
+
+ # Tyrion Lannister Welcomes Prince Oberyn Martell
+ GOT_Story_Country.304.t: "The Viper Arrives in King's Landing"
+ GOT_Story_Country.304.d: "Tyrion Lannister meets Prince Oberyn Martell, a sharp-tongued and dangerous arrival from Dorne. Though invited for Joffrey’s wedding, Oberyn’s true purpose is vengeance — for the brutal murder of his sister Elia and her children, allegedly by Lannister hands. A new player enters the game, with venom in his veins."
+ GOT_Story_Country.304.a: "The Red Viper hisses in the capital."
+
+ GOT_Story_News.304.t: "Oberyn Martell Arrives in King’s Landing"
+ GOT_Story_News.304.d: "Prince Oberyn of Dorne has come to King’s Landing under the guise of a wedding guest, but few believe he is here merely to celebrate. His rage toward the Lannisters simmers just beneath the surface, and his arrival threatens to disrupt the fragile balance of power in the capital."
+ GOT_Story_News.304.a: "A viper walks the halls of the Red Keep."
+
+ # Arya Stark and Sandor Clegane's Journey
+ GOT_Story_Country.305.t: "Arya Reclaims Her Sword and Her Vengeance"
+ GOT_Story_Country.305.d: "While traveling with Sandor Clegane, Arya Stark spots Polliver at an inn — the man who killed her friend Lommy and stole her sword, Needle. After a violent skirmish, Arya kills Polliver with the same words he once used, reclaiming her blade and taking another step down the path of vengeance."
+ GOT_Story_Country.305.a: "A name crossed off the list."
+
+ GOT_Story_News.305.t: "Arya Stark Strikes Down Polliver"
+ GOT_Story_News.305.d: "In the Riverlands, Arya Stark has reunited with her stolen sword by killing Polliver, the Lannister man-at-arms who once murdered her friend. Her journey with Sandor Clegane continues, but this latest act of revenge signals how far the young Stark girl has drifted from innocence."
+ GOT_Story_News.305.a: "A girl has a name — and a purpose."
+
+ # Joffrey Baratheon Dies at His Wedding Feast
+ GOT_Story_Country.306.t: "The Lion Falls at the Wedding Feast"
+ GOT_Story_Country.306.d: "King Joffrey Baratheon has died during his wedding celebration. After cruelly mocking his uncle Tyrion and flaunting his power, Joffrey drank from a poisoned cup of wine and collapsed, choking and bleeding as chaos erupted. In her grief and fury, Queen Cersei accused Tyrion of murder, and the king’s death leaves the Iron Throne shrouded in uncertainty."
+ GOT_Story_Country.306.a: "The lion’s roar is silenced."
+
+ GOT_Story_News.306.t: "King Joffrey Dead – The Purple Wedding Ends in Chaos"
+ GOT_Story_News.306.d: "The young and ruthless King Joffrey Baratheon has died at his own wedding feast in a shocking and brutal fashion. Poisoned before the eyes of Westeros' most powerful lords and ladies, his sudden demise has thrown the realm into fresh chaos. Cersei has accused Tyrion Lannister of the crime, and King’s Landing braces for the fallout."
+ GOT_Story_News.306.a: "A royal toast turns fatal."
+
+ # Tyrion Lannister's Arrest
+ GOT_Story_Country.307.t: "Tyrion in Chains"
+ GOT_Story_Country.307.d: "Though he pleads innocence, Tyrion Lannister has been arrested and charged with regicide for the poisoning of King Joffrey. With no trial date yet set and little hope for a fair hearing, Tyrion faces a grim future, surrounded by enemies and betrayed by fate."
+ GOT_Story_Country.307.a: "Innocence means nothing in King's Landing."
+
+ GOT_Story_News.307.t: "Tyrion Lannister Accused of King’s Murder"
+ GOT_Story_News.307.d: "In the wake of King Joffrey’s shocking death, Tyrion Lannister has been taken into custody, accused of orchestrating the poisoning. Known for his wit and political cunning, Tyrion has long made enemies at court — and now finds himself the perfect scapegoat for a grief-stricken crown."
+ GOT_Story_News.307.a: "The Imp stands alone."
+
+ # Sansa Stark's Escape
+ GOT_Story_Country.308.t: "Sansa Slips the Lion’s Cage"
+ GOT_Story_Country.308.d: "With King Joffrey dead and the city in disarray, Sansa Stark has fled King’s Landing. Guided by Ser Dontos Hollard, she escaped through the castle grounds and boarded a ship bound for freedom. Her sudden disappearance only adds to the confusion, and her fate now lies in the hands of those who pulled the strings behind the curtain."
+ GOT_Story_Country.308.a: "Freedom tastes of salt air."
+
+ GOT_Story_News.308.t: "Sansa Stark Disappears After King’s Death"
+ GOT_Story_News.308.d: "In the wake of King Joffrey’s death, Sansa Stark has vanished from King’s Landing. Rumors swirl of a hidden plot behind her escape, possibly orchestrated by those with deeper ambitions. Once a prisoner of courtly games, the daughter of House Stark may now be a player in her own right."
+ GOT_Story_News.308.a: "The wolf slips through the cracks."
+
+ # Ramsay Snow Hunts a Woman
+ GOT_Story_Country.309.t: "A Hunt Without Honor"
+ GOT_Story_Country.309.d: "Ramsay Snow has led another sadistic hunt, chasing a woman named Tansy through the woods with his dogs and companion Miranda. The thrill of the pursuit ends with her bloody death, reinforcing Ramsay’s ruthless nature and his perverse sense of power. Even Roose Bolton begins to question his bastard son’s brutal methods."
+ GOT_Story_Country.309.a: "Monsters are born of men like these."
+
+ GOT_Story_News.309.t: "Ramsay Snow’s Cruelty on Full Display"
+ GOT_Story_News.309.d: "In the North, Ramsay Snow continues to demonstrate the depths of his depravity. Reports tell of a hunt where a terrified woman was released into the woods only to be hunted down and killed. Such behavior has sparked concern even within House Bolton, though Ramsay remains unchecked for now."
+ GOT_Story_News.309.a: "Some men should not bear names."
+
+ # Bran Stark's Vision
+ GOT_Story_Country.310.t: "Visions at the Weirwood"
+ GOT_Story_Country.310.d: "At the foot of a weirwood tree, Bran Stark has experienced a powerful and mysterious vision. He glimpsed shadows of the past, symbols of power, and cryptic images of what may lie ahead. Though cryptic and jarring, the vision confirms that his journey toward becoming the Three-Eyed Raven has truly begun."
+ GOT_Story_Country.310.a: "The tree whispers truth."
+
+ GOT_Story_News.310.t: "Bran Stark’s Sight Beyond Sight"
+ GOT_Story_News.310.d: "Far beyond the Wall, Bran Stark has tapped into strange and ancient magic. His recent vision at a weirwood tree has deepened his connection to the old powers of the North. Though few understand his path, those who know of it fear the changes it may bring."
+ GOT_Story_News.310.a: "The old gods stir."
+
+ # Tyrion Lannister Faces Imminent Trial
+ GOT_Story_Country.311.t: "Tyrion Demands Trial by Combat"
+ GOT_Story_Country.311.d: "Still imprisoned following the death of King Joffrey, Tyrion Lannister receives a visit from his brother Jaime. Though urged to flee the city, Tyrion chooses instead to remain and face trial. Convinced he will not receive justice through the court, he demands a trial by combat, gambling his life on the sword once again."
+ GOT_Story_Country.311.a: "Let steel speak for justice."
+
+ GOT_Story_News.311.t: "Tyrion Lannister Demands Trial by Combat"
+ GOT_Story_News.311.d: "Imprisoned and charged with regicide, Tyrion Lannister has rejected a standard trial, instead invoking his right to trial by combat. This unexpected move has shocked the court of King’s Landing and set the stage for another brutal spectacle in the capital."
+ GOT_Story_News.311.a: "Blood will decide guilt."
+
+ # Sansa Stark Escapes King's Landing
+ GOT_Story_Country.312.t: "Littlefinger Reveals His Hand"
+ GOT_Story_Country.312.d: "Sansa Stark has fled King’s Landing aboard a ship arranged by Ser Dontos Hollard. However, her savior proves to be a pawn of Petyr Baelish, who kills Dontos to tie up loose ends. With Sansa now in his custody, Littlefinger’s long-laid plans begin to take shape — though his true intentions remain cloaked in shadows."
+ GOT_Story_Country.312.a: "From one game to another."
+
+ GOT_Story_News.312.t: "Sansa Stark Escapes; Dontos Dead"
+ GOT_Story_News.312.d: "The whereabouts of Sansa Stark are once again unknown following her escape from King’s Landing. Witnesses say she was seen with Ser Dontos Hollard, who has since turned up dead. Rumors point to the involvement of Petyr Baelish, but few know where the young wolf has gone."
+ GOT_Story_News.312.a: "Littlefinger always plays the long game."
+
+ # Jaime Lannister's Controversial Actions
+ GOT_Story_Country.313.t: "Jaime Crosses a Line"
+ GOT_Story_Country.313.d: "In a moment fraught with grief and confusion, Jaime Lannister forces himself on Cersei beside their son’s corpse. The act, brutal and unsettling, speaks to the tangled emotions and decaying morals in King’s Landing. It casts a dark cloud over Jaime’s redemption arc and further strains his bond with his sister."
+ GOT_Story_Country.313.a: "Honor, shattered in the Sept."
+
+ GOT_Story_News.313.t: "Controversy at the Sept of Baelor"
+ GOT_Story_News.313.d: "Disturbing accounts have emerged from the Great Sept of Baelor, where Jaime Lannister reportedly forced himself upon Queen Cersei beside the body of their dead son. Though the truth remains hidden to the public, the rumors point to a rot deep within the royal household."
+ GOT_Story_News.313.a: "Power makes monsters."
+
+ # Daenerys Targaryen's Siege of Meereen
+ GOT_Story_Country.314.t: "Breaker of Chains"
+ GOT_Story_Country.314.d: "Daenerys Targaryen has begun her assault on Meereen, the last great slaver city in the bay. Refusing to shed blood at the gates, she instead catapults broken slave collars into the city, a clear message to the oppressed within: freedom is coming. Her title, 'Breaker of Chains,' is no longer a mere name — it is a mission."
+ GOT_Story_Country.314.a: "Fire will set them free."
+
+ GOT_Story_News.314.t: "Daenerys Begins Siege of Meereen"
+ GOT_Story_News.314.d: "Outside the walls of Meereen, Daenerys Targaryen has launched her campaign to liberate the city’s slaves. By hurling thousands of broken collars into the city, she calls the slaves to rise and claim their freedom. Her crusade against slavery continues to shake Slaver’s Bay."
+ GOT_Story_News.314.a: "The breaker of chains marches on."
+
+ # Wildling Raid and the Boy's Warning
+ GOT_Story_Country.315.t: "A Village Burned, a Warning Sent"
+ GOT_Story_Country.315.d: "South of the Wall, wildlings led by Tormund and the cannibal Thenns have raided and slaughtered a village. In a chilling gesture, they spared a single boy, sending him to Castle Black with news of the massacre. The Night’s Watch now knows the wildling threat draws ever closer — and bloodier."
+ GOT_Story_Country.315.a: "The storm approaches."
+
+ GOT_Story_News.315.t: "Wildlings Massacre Village, Send Message"
+ GOT_Story_News.315.d: "A devastating wildling raid has left a village in the North in ashes. Survivors are nonexistent, save for one boy sent to Castle Black with grim tidings. Led by Tormund Giantsbane and Thenn cannibals, the wildlings make clear their campaign will be one of terror and blood."
+ GOT_Story_News.315.a: "The Wall will soon be tested."
+
+ 
+# Jaime Entrusts Brienne with a Mission
+ GOT_Story_Country.316.t: "Oathkeeper"
+ GOT_Story_Country.316.d: "Jaime Lannister, torn between loyalty to his family and a growing sense of honor, gives Brienne of Tarth a Valyrian steel sword—his father's gift—and names it Oathkeeper. He tasks her with finding Sansa Stark and protecting her from harm, providing her with a letter to Lady Stark as proof of her mission’s sincerity."
+ GOT_Story_Country.316.a: "A knight true in all but name."
+
+ GOT_Story_News.316.t: "Jaime Sends Brienne to Protect Sansa Stark"
+ GOT_Story_News.316.d: "In a quiet but meaningful act, Jaime Lannister has armed Brienne of Tarth with a Valyrian steel sword and sent her to find and protect Sansa Stark. As King’s Landing drowns in politics and suspicion, this mission represents a rare act of loyalty and honor."
+ GOT_Story_News.316.a: "A vow still means something to some."
+
+ # Daenerys Conquers Meereen
+ GOT_Story_Country.317.t: "Justice for the Slaves"
+ GOT_Story_Country.317.d: "Daenerys Targaryen has captured Meereen, completing her conquest of Slaver’s Bay. In retribution for the atrocities committed by the city’s masters, she orders 163 of them crucified—mirroring the fate they inflicted upon slave children. Her rule begins not with mercy, but with fire and blood."
+ GOT_Story_Country.317.a: "Justice, not mercy."
+
+ GOT_Story_News.317.t: "Daenerys Captures Meereen, Crucifies Masters"
+ GOT_Story_News.317.d: "With Meereen fallen, Daenerys Targaryen now holds all of Slaver’s Bay. Her decision to crucify 163 former masters in revenge for their cruelty has sent a chilling message across Essos: the breaker of chains is also the bringer of reckoning."
+ GOT_Story_News.317.a: "The dragon queen delivers judgment."
+
+ # Jon Snow Leads Expedition to Craster’s Keep
+ GOT_Story_Country.318.t: "The Bastards at Craster's Keep"
+ GOT_Story_Country.318.d: "Jon Snow has been granted permission to lead a band of loyal brothers to Craster's Keep, where mutineers have turned the outpost into a den of lawlessness. Determined to restore the honor of the Night's Watch and prevent further disgrace, Jon prepares for the dangerous mission."
+ GOT_Story_Country.318.a: "We are the sword in the darkness."
+
+ GOT_Story_News.318.t: "Jon Snow Leads Night’s Watch Expedition"
+ GOT_Story_News.318.d: "In the wake of growing tensions beyond the Wall, Jon Snow has taken a small group of men north to deal with the mutineers at Craster’s Keep. The journey is perilous, but Snow’s resolve remains firm as he seeks to uphold the Night’s Watch’s fading honor."
+ GOT_Story_News.318.a: "The North remembers its oath."
+
+ # Brienne and Podrick Begin Their Journey
+ GOT_Story_Country.319.t: "A Knight and Her Squire"
+ GOT_Story_Country.319.d: "Brienne of Tarth, now armed with Oathkeeper, sets out on her quest to find Sansa Stark. By her side is the unlikely squire Podrick Payne. Though inexperienced, Podrick’s loyalty is unquestionable. Together, they begin a journey that will test their resolve, their beliefs, and their bond."
+ GOT_Story_Country.319.a: "Honor rides with us."
+
+ GOT_Story_News.319.t: "Brienne and Podrick Begin Their Quest"
+ GOT_Story_News.319.d: "Brienne of Tarth and her squire, Podrick Payne, have departed King’s Landing in search of Sansa Stark. As chaos and suspicion swirl through the realm, the quiet determination of this unlikely duo may yet serve a noble purpose."
+ GOT_Story_News.319.a: "A vow keeps them moving."
+
+ # Tyrion’s Trial Looms
+ GOT_Story_Country.320.t: "The Trial Approaches"
+ GOT_Story_Country.320.d: "Still confined in the Red Keep, Tyrion Lannister awaits his trial for the murder of King Joffrey. Accusations mount and allies dwindle, but Tyrion remains defiant. He knows the trial is a farce—but if justice cannot be found in truth, perhaps it will be found in combat."
+ GOT_Story_Country.320.a: "They want a monster? I'll show them one."
+
+ GOT_Story_News.320.t: "Tyrion Lannister Awaits Trial"
+ GOT_Story_News.320.d: "Tyrion Lannister remains in chains, facing charges of regicide. As witnesses are gathered and political alliances shift, the trial looms large over King’s Landing. The Imp, ever defiant, may yet find a way to turn the game in his favor."
+ GOT_Story_News.320.a: "A Lannister’s fate hangs in the balance."
+ 
+# Tommen Is Crowned King
+ GOT_Story_Country.321.t: "First of His Name"
+ GOT_Story_Country.321.d: "With King Joffrey dead, Tommen Baratheon is crowned King of the Seven Kingdoms. Younger, gentler, and more pliable than his predecessor, Tommen becomes the focus of Cersei’s renewed political maneuvering. She begins laying plans for his future, including a marriage to Margaery Tyrell."
+ GOT_Story_Country.321.a: "A boy wears the crown, but who rules?"
+
+ GOT_Story_News.321.t: "Tommen Baratheon Crowned King"
+ GOT_Story_News.321.d: "Tommen Baratheon has officially been crowned King of the Seven Kingdoms. With the realm still reeling from Joffrey’s assassination, many hope Tommen’s reign will be a gentler one. Yet behind the throne, Cersei Lannister already begins shaping his rule."
+ GOT_Story_News.321.a: "Long live the king… for now."
+
+ # Sansa and Littlefinger Arrive at the Eyrie
+ GOT_Story_Country.322.t: "The Ascent to the Eyrie"
+ GOT_Story_Country.322.d: "Sansa Stark, now under the protection of Petyr Baelish, arrives at the Eyrie. They are greeted by Lysa Arryn, whose behavior quickly turns unstable. In a chilling confession, Lysa reveals she murdered her husband Jon Arryn at Petyr’s urging, and now accuses Sansa of seducing him. Sansa denies it, but the seeds of paranoia are planted."
+ GOT_Story_Country.322.a: "The Eyrie is no safe haven."
+
+ GOT_Story_News.322.t: "Sansa Reaches the Eyrie with Littlefinger"
+ GOT_Story_News.322.d: "Far from the eyes of Westeros, Sansa Stark has arrived at the Eyrie with Petyr Baelish. Lady Lysa Arryn, now revealed as Jon Arryn’s true killer, welcomes them with a volatile blend of affection and suspicion. The Vale, it seems, has its own shadows."
+ GOT_Story_News.322.a: "Secrets and lies roost in the Eyrie."
+
+ # Jon Snow Attacks Craster's Keep
+ GOT_Story_Country.323.t: "The Mutiny Ends"
+ GOT_Story_Country.323.d: "Jon Snow leads a successful assault on Craster’s Keep, putting an end to the mutineers who betrayed the Night’s Watch. The mission, though grim, restores a measure of honor to the order. Ghost is recovered, and the bodies of fallen brothers are avenged."
+ GOT_Story_Country.323.a: "For the Watch."
+
+ GOT_Story_News.323.t: "Jon Snow Crushes Mutineers at Craster’s Keep"
+ GOT_Story_News.323.d: "Jon Snow and his loyal companions have destroyed the mutineers at Craster’s Keep. The Night’s Watch regains a sliver of dignity with the victory, though the cost of betrayal still lingers. Among the ruins, a direwolf howls once more."
+ GOT_Story_News.323.a: "Justice in the cold."
+
+ # Daenerys Decides to Stay in Meereen
+ GOT_Story_Country.324.t: "Queen of Meereen"
+ GOT_Story_Country.324.d: "Daenerys Targaryen, now ruling Meereen, chooses to stay and govern rather than sail for Westeros. She learns that both Astapor and Yunkai have descended into chaos after her departure. Realizing that she must first learn to rule, she resolves to remain and bring lasting justice to Slaver’s Bay."
+ GOT_Story_Country.324.a: "Before conquering Westeros, I must master Meereen."
+
+ GOT_Story_News.324.t: "Daenerys Stays in Meereen"
+ GOT_Story_News.324.d: "Rather than pursuing the Iron Throne, Daenerys Targaryen has decided to remain in Meereen and establish order. Her crusade against slavery continues, but ruling proves more complex than conquest. Across the sea, her decision echoes with both relief and concern."
+ GOT_Story_News.324.a: "The mother of dragons chooses stability."
+
+ # Revelation of Jon Arryn’s Murder
+ GOT_Story_Country.325.t: "The Seed of the War"
+ GOT_Story_Country.325.d: "A stunning revelation: Jon Arryn’s death—long believed to be the work of the Lannisters—was actually orchestrated by Lysa Arryn at the urging of Petyr Baelish. His murder set off the chain of events that led to the War of the Five Kings. The entire realm, it seems, has been dancing to Littlefinger’s tune."
+ GOT_Story_Country.325.a: "Chaos isn't a pit. Chaos is a ladder."
+
+ GOT_Story_News.325.t: "The Truth About Jon Arryn’s Death"
+ GOT_Story_News.325.d: "The murder of Jon Arryn, which triggered the fall of House Stark and the War of the Five Kings, has been revealed as the work of Lysa Arryn and Petyr Baelish. This hidden truth alters the very foundations of recent history. One man’s whisper started it all."
+ GOT_Story_News.325.a: "Littlefinger’s game runs deep."
+ 
+ # Tyrion's Trial for Joffrey’s Murder
+ GOT_Story_Country.326.t: "The Trial of Tyrion Lannister"
+ GOT_Story_Country.326.d: "Tyrion Lannister faces trial for the murder of King Joffrey Baratheon. The proceedings are heavily biased, with false testimonies from Ser Meryn Trant and Grand Maester Pycelle. In the end, Tyrion demands a trial by combat, a shocking move that leaves the court in stunned silence."
+ GOT_Story_Country.326.a: "The game is rigged, but Tyrion plays on."
+
+ GOT_Story_News.326.t: "Tyrion Lannister’s Trial Begins"
+ GOT_Story_News.326.d: "Tyrion Lannister stands trial for the murder of King Joffrey. As the court hears testimonies from false witnesses, Tyrion’s fate seems sealed. But with a bold move, he demands a trial by combat, turning the court’s proceedings into chaos."
+ GOT_Story_News.326.a: "The lion’s last stand?"
+
+ # Shae’s Devastating Testimony
+ GOT_Story_Country.327.t: "Betrayal in the Courtroom"
+ GOT_Story_Country.327.d: "Shae, Tyrion’s former lover, testifies against him, falsely claiming that he conspired with Sansa to murder Joffrey. Her betrayal strikes Tyrion deeply, as he had once tried to protect her. The court believes her lies, pushing Tyrion to the brink of despair."
+ GOT_Story_Country.327.a: "The one who loved him betrays him."
+
+ GOT_Story_News.327.t: "Shae’s Betrayal"
+ GOT_Story_News.327.d: "Shae’s damning testimony against Tyrion Lannister has left the court in disbelief. Her lies about Tyrion’s involvement in Joffrey’s murder have pushed him closer to a fate he cannot avoid. Her betrayal is a devastating blow to a man already on the edge."
+ GOT_Story_News.327.a: "Love turned to poison."
+
+ # Stannis Baratheon’s Negotiation with the Iron Bank
+ GOT_Story_Country.328.t: "Stannis Seeks Funds"
+ GOT_Story_Country.328.d: "Stannis Baratheon and Davos Seaworth visit the Iron Bank of Braavos, hoping to secure funds for Stannis’s war effort. Initially hesitant, the bank agrees to lend Stannis the gold after Davos convinces them of the Lannisters’ unpaid debts. This marks a crucial turning point in Stannis’s campaign."
+ GOT_Story_Country.328.a: "A debt owed to the Iron Bank."
+
+ GOT_Story_News.328.t: "Iron Bank Lends Gold to Stannis"
+ GOT_Story_News.328.d: "The Iron Bank of Braavos has agreed to fund Stannis Baratheon’s campaign against the Lannisters, signaling a shift in the balance of power. With the Lannisters in debt and Stannis now backed by gold, the war is far from over."
+ GOT_Story_News.328.a: "Gold and power, but at what cost?"
+
+ # Yara Greyjoy’s Attempted Rescue of Theon
+ GOT_Story_Country.329.t: "The Broken Bond"
+ GOT_Story_Country.329.d: "Yara Greyjoy leads a daring rescue mission to free her brother, Theon, from the Dreadfort. Despite infiltrating the castle and finding him, Theon is so broken by Ramsay’s torture that he refuses to leave. Yara is forced to retreat, leaving Theon behind, a shadow of his former self."
+ GOT_Story_Country.329.a: "A rescue denied."
+
+ GOT_Story_News.329.t: "Yara Greyjoy Fails to Free Theon"
+ GOT_Story_News.329.d: "Yara Greyjoy’s attempt to rescue her brother, Theon, from Ramsay Bolton’s clutches has failed. Theon, broken by torture, refuses to escape, leaving Yara no choice but to retreat. The Greyjoys’ hopes for a reunion have crumbled."
+ GOT_Story_News.329.a: "A family torn apart."
+
+ # Daenerys Targaryen’s Struggles in Meereen
+ GOT_Story_Country.330.t: "Challenges in Meereen"
+ GOT_Story_Country.330.d: "In Meereen, Daenerys Targaryen faces growing challenges in her rule. A dragon kills a goat herder’s animals, leading to tensions with the locals. Daenerys agrees to bury the father of Hizdahr zo Loraq, a critic of her actions, symbolizing her struggle to balance justice with mercy."
+ GOT_Story_Country.330.a: "The weight of a queen’s choices."
+
+ GOT_Story_News.330.t: "Daenerys Faces Challenges in Meereen"
+ GOT_Story_News.330.d: "As Daenerys Targaryen’s rule over Meereen faces rising difficulties, she must decide how to balance justice and mercy. After one of her dragons kills a goat herder’s animals, Daenerys agrees to bury the father of a critic, Hizdahr zo Loraq, showing her willingness to negotiate."
+ GOT_Story_News.330.a: "Ruling a city is more complicated than conquering one."
+ 
+ # Littlefinger Kills Lysa Arryn
+ GOT_Story_Country.331.t: "Littlefinger’s Betrayal"
+ GOT_Story_Country.331.d: "In a shocking twist, Petyr Baelish (Littlefinger) pushes Lysa Arryn through the Moon Door, causing her death. This action solidifies his control over the Vale and reveals his long-standing manipulation of events, including orchestrating Jon Arryn’s death that set the series’ events in motion."
+ GOT_Story_Country.331.a: "A door closed for Lysa, an empire built for Littlefinger."
+
+ GOT_Story_News.331.t: "Lysa Arryn’s Death"
+ GOT_Story_News.331.d: "Petyr Baelish has killed Lysa Arryn by pushing her through the Moon Door, a ruthless move to secure his power over the Vale. This shocking act comes after years of manipulation and marks another chapter in Baelish’s dangerous game of power."
+ GOT_Story_News.331.a: "The Moon Door claims another victim."
+
+ # Tyrion Finds an Unexpected Champion
+ GOT_Story_Country.332.t: "Tyrion’s Unexpected Champion"
+ GOT_Story_Country.332.d: "Facing trial by combat, Tyrion Lannister struggles to find a suitable champion. Just as hope seems lost, Prince Oberyn Martell steps forward to fight in Tyrion’s place, motivated by his desire for revenge against the Mountain, whom he believes killed his sister."
+ GOT_Story_Country.332.a: "Revenge served in the form of a champion."
+
+ GOT_Story_News.332.t: "Oberyn Martell Takes Tyrion’s Cause"
+ GOT_Story_News.332.d: "In a surprising move, Prince Oberyn Martell volunteers to be Tyrion Lannister’s champion for the trial by combat. Oberyn’s decision is driven by his thirst for revenge against the Mountain, whom he holds responsible for his sister’s death."
+ GOT_Story_News.332.a: "The fight for justice begins."
+
+ # Arya Stark and the Hound Encounter Rorge
+ GOT_Story_Country.333.t: "Arya Strikes Again"
+ GOT_Story_Country.333.d: "While traveling with the Hound, Arya Stark encounters a dying man named Rorge, who is on her kill list. Without hesitation, Arya kills him with her sword, Needle, marking another step in her evolution into a skilled assassin."
+ GOT_Story_Country.333.a: "A list marked, another name crossed off."
+
+ GOT_Story_News.333.t: "Arya Kills Rorge"
+ GOT_Story_News.333.d: "Arya Stark has struck again. This time, she kills Rorge, a man on her kill list, with a swift blow from her sword, Needle. This act further transforms Arya into the ruthless assassin she is becoming."
+ GOT_Story_News.333.a: "The list grows shorter, the assassin grows stronger."
+
+ # Sansa Stark Confronts Littlefinger
+ GOT_Story_Country.334.t: "Sansa Confronts Littlefinger"
+ GOT_Story_Country.334.d: "Sansa Stark confronts Littlefinger at the Eyrie about his role in the destruction of her family. He reveals his twisted affection for her mother, Catelyn Stark, and admits his involvement in Jon Arryn’s death, deepening Sansa’s understanding of the treacherous politics she’s caught in."
+ GOT_Story_Country.334.a: "The game of power becomes clearer for Sansa."
+
+ GOT_Story_News.334.t: "Littlefinger’s Confession"
+ GOT_Story_News.334.d: "In a tense confrontation at the Eyrie, Littlefinger reveals to Sansa Stark his manipulation behind the downfall of her family and his hand in Jon Arryn’s death. This revelation marks a turning point for Sansa as she learns the harsh realities of power and betrayal."
+ GOT_Story_News.334.a: "Sansa learns the cost of power."
+
+ # Brienne and Podrick Learn Arya's Whereabouts
+ GOT_Story_Country.335.t: "Brienne’s New Quest"
+ GOT_Story_Country.335.d: "Brienne of Tarth and her squire, Podrick Payne, stop at an inn, where they meet Hot Pie, who informs them that Arya Stark is traveling with the Hound. This revelation sets Brienne on a new mission to find Arya, leading her towards the Vale."
+ GOT_Story_Country.335.a: "The hunt for Arya begins anew."
+
+ GOT_Story_News.335.t: "Brienne Learns of Arya’s Location"
+ GOT_Story_News.335.d: "Brienne of Tarth has learned that Arya Stark is traveling with the Hound. With this new information, Brienne sets her sights on the Vale, determined to find Arya and bring her to safety."
+ GOT_Story_News.335.a: "A new quest begins for Brienne."
+ 
+ # Oberyn Martell's Trial by Combat
+ GOT_Story_Country.336.t: "Oberyn Martell’s Trial by Combat"
+ GOT_Story_Country.336.d: "Prince Oberyn Martell volunteers to be Tyrion Lannister’s champion in the trial by combat against Gregor 'The Mountain' Clegane. Seeking vengeance for the deaths of his sister and her children, Oberyn gains the upper hand but is brutally killed, leading to Tyrion’s death sentence."
+ GOT_Story_Country.336.a: "Revenge costs Oberyn his life."
+
+ GOT_Story_News.336.t: "Oberyn Martell’s Brutal Death"
+ GOT_Story_News.336.d: "Prince Oberyn Martell has been killed in his duel with the Mountain, ending his quest for vengeance for the death of his sister and her children. His death results in Tyrion Lannister being sentenced to death for regicide."
+ GOT_Story_News.336.a: "Vengeance ends in blood."
+
+ # Tyrion's Death Sentence
+ GOT_Story_Country.337.t: "Tyrion’s Fate Sealed"
+ GOT_Story_Country.337.d: "After Oberyn’s death, Tyrion Lannister is found guilty of poisoning King Joffrey and sentenced to death. Despite his earlier demand for a trial by combat, the court’s decision is swift, leaving Tyrion’s future uncertain."
+ GOT_Story_Country.337.a: "Tyrion’s life hangs by a thread."
+
+ GOT_Story_News.337.t: "Tyrion Found Guilty"
+ GOT_Story_News.337.d: "Tyrion Lannister has been sentenced to death for the murder of King Joffrey, following his failed trial by combat. With Oberyn Martell dead, Tyrion’s fate now lies in the hands of his enemies."
+ GOT_Story_News.337.a: "A death sentence proclaimed."
+
+ # Sansa Stark's Transformation
+ GOT_Story_Country.338.t: "Sansa Stark Embraces Her Identity"
+ GOT_Story_Country.338.d: "Sansa Stark reveals her true identity to the lords of the Vale, confirming she is not Alayne Stone but Sansa Stark. This marks a turning point in her character, showing her decision to take control of her destiny amidst Petyr Baelish’s manipulations."
+ GOT_Story_Country.338.a: "Sansa steps into her true self."
+
+ GOT_Story_News.338.t: "Sansa Stark’s Revelation"
+ GOT_Story_News.338.d: "Sansa Stark has revealed her true identity as she declares herself the trueborn daughter of House Stark to the lords of the Vale. This marks the beginning of her transformation as she embraces her role in the political landscape of Westeros."
+ GOT_Story_News.338.a: "A Stark revelation in the Vale."
+
+ # Daenerys Targaryen's Decision
+ GOT_Story_Country.339.t: "Daenerys Exiles Ser Jorah"
+ GOT_Story_Country.339.d: "Daenerys Targaryen, upon learning of Ser Jorah Mormont’s betrayal as a spy for King Robert Baratheon, exiles him from Meereen. This decision reflects her commitment to justice and maintaining control over her empire, despite the personal cost."
+ GOT_Story_Country.339.a: "Justice demands a heavy price."
+
+ GOT_Story_News.339.t: "Daenerys Exiles Jorah"
+ GOT_Story_News.339.d: "Daenerys Targaryen has exiled Ser Jorah Mormont after learning of his betrayal as a spy. This decision underscores her resolve to uphold justice, even as she faces difficult choices in her rule over Meereen."
+ GOT_Story_News.339.a: "A betrayal leads to exile."
+
+ # Wildlings Attack Mole's Town
+ GOT_Story_Country.340.t: "Wildlings Attack Mole's Town"
+ GOT_Story_Country.340.d: "The Wildlings, led by Styr and Tormund, launch a brutal attack on Mole’s Town. The town is pillaged and its inhabitants slaughtered, signaling the growing threat from the north and foreshadowing the impending conflict at the Wall."
+ GOT_Story_Country.340.a: "The north grows darker."
+
+ GOT_Story_News.340.t: "Wildlings Raid Mole’s Town"
+ GOT_Story_News.340.d: "Mole’s Town has been attacked by the Wildlings, led by Styr and Tormund. The raid results in widespread death and destruction, highlighting the increasing danger the Night’s Watch faces from the north."
+ GOT_Story_News.340.a: "The Wildlings make their move."
+ 
+ # Wildlings Launch a Coordinated Assault on Castle Black
+ GOT_Story_Country.341.t: "Wildlings Attack Castle Black"
+ GOT_Story_Country.341.d: "Mance Rayder’s united wildling army launches a coordinated assault on Castle Black. Giants and mammoths storm the outer gate while Thenns led by Styr breach the inner defenses. Overwhelmed, the Night’s Watch faces disaster, and Jon Snow steps up to lead after Janos Slynt’s cowardice."
+ GOT_Story_Country.341.a: "Castle Black faces its greatest threat."
+
+ GOT_Story_News.341.t: "Wildlings Assault Castle Black"
+ GOT_Story_News.341.d: "Mance Rayder’s wildling army has attacked Castle Black in a brutal, two-pronged assault. With giants, mammoths, and Thenns at the gates, the Night’s Watch is pushed to the brink, and Jon Snow assumes command."
+ GOT_Story_News.341.a: "The Wall is under siege."
+
+ # Pyp and Grenn's Heroic Last Stand
+ GOT_Story_Country.342.t: "Pyp and Grenn’s Sacrifice"
+ GOT_Story_Country.342.d: "Pyp is killed by Ygritte while manning a crossbow, and Grenn dies heroically while holding the inner gate against a giant. His final moments are marked by the recitation of the Night’s Watch vow, a testament to duty and sacrifice."
+ GOT_Story_Country.342.a: "Duty until death."
+
+ GOT_Story_News.342.t: "The Heroic Deaths of Pyp and Grenn"
+ GOT_Story_News.342.d: "The Night’s Watch has lost two brave men: Pyp, killed by Ygritte, and Grenn, who perished heroically while holding the inner gate against a giant. Their sacrifices will not be forgotten."
+ GOT_Story_News.342.a: "Fallen heroes of the Wall."
+
+ # Jon Snow Faces Ygritte in a Tragic Reunion
+ GOT_Story_Country.343.t: "Jon Snow’s Tragic Reunion with Ygritte"
+ GOT_Story_Country.343.d: "After defeating Styr in single combat, Jon Snow faces Ygritte. She hesitates to kill him, but Olly shoots her from behind. Jon cradles her as she dies, torn between love and duty."
+ GOT_Story_Country.343.a: "Love lost on the Wall."
+
+ GOT_Story_News.343.t: "Jon Snow and Ygritte's Tragic Reunion"
+ GOT_Story_News.343.d: "Jon Snow and Ygritte have their tragic reunion as she hesitates to kill him. In a cruel twist of fate, Olly’s arrow strikes her, and Jon is left to mourn her loss, symbolizing the harsh realities of duty over love."
+ GOT_Story_News.343.a: "A love ended by duty."
+
+ # Tormund Captured and Taken Prisoner
+ GOT_Story_Country.344.t: "Tormund Captured"
+ GOT_Story_Country.344.d: "Despite his injuries, Tormund is captured by Jon Snow’s orders. His capture marks a key shift in the power dynamics at the Wall, giving the Night’s Watch a strategic advantage."
+ GOT_Story_Country.344.a: "The Wildling leader falls."
+
+ GOT_Story_News.344.t: "Tormund Taken Prisoner"
+ GOT_Story_News.344.d: "Tormund, a key leader of the Wildlings, has been captured by Jon Snow’s orders. This shift in power at the Wall signals a new phase in the conflict between the Night’s Watch and the Wildlings."
+ GOT_Story_News.344.a: "A Wildling leader bound."
+
+ # Jon Plans to Confront Mance Rayder
+ GOT_Story_Country.345.t: "Jon Plans to Confront Mance Rayder"
+ GOT_Story_Country.345.d: "With the immediate threat at Castle Black repelled, Jon Snow resolves to confront Mance Rayder beyond the Wall. Before departing, he entrusts his sword, Longclaw, to Samwell Tarly, passing on the weight of responsibility."
+ GOT_Story_Country.345.a: "Jon moves beyond the Wall."
+
+ GOT_Story_News.345.t: "Jon Snow Prepares to Confront Mance Rayder"
+ GOT_Story_News.345.d: "Jon Snow has made plans to confront Mance Rayder beyond the Wall, aiming to prevent further attacks. Before leaving, he passes Longclaw to Samwell Tarly, symbolizing the trust and responsibility placed upon him."
+ GOT_Story_News.345.a: "A new mission for Jon Snow."
+ 
+# Tyrion Kills Tywin and Shae
+ GOT_Story_Country.346.t: "Tyrion Kills Tywin and Shae"
+ GOT_Story_Country.346.d: "In a dramatic and ironic twist, Tyrion Lannister escapes his death sentence with the help of Jaime, who frees him from his cell. Tyrion confronts his father, Tywin, in the privy and kills him with a crossbow. He also kills Shae, his former lover, who betrayed him during his trial. Tyrion's revenge is complete."
+ GOT_Story_Country.346.a: "A son’s revenge."
+
+ GOT_Story_News.346.t: "Tyrion’s Revenge"
+ GOT_Story_News.346.d: "Tyrion Lannister has exacted his revenge, killing his father Tywin with a crossbow and his former lover Shae for her betrayal. This shocking act of retribution follows his escape from his death sentence."
+ GOT_Story_News.346.a: "The lion’s revenge."
+
+ # Daenerys Chains Her Dragons
+ GOT_Story_Country.347.t: "Daenerys Chains Her Dragons"
+ GOT_Story_Country.347.d: "After one of her dragons kills a child in Meereen, Daenerys Targaryen is forced to chain her dragons in the catacombs beneath the city. This marks a turning point in Daenerys’s struggle to control her power and the weight of leadership."
+ GOT_Story_Country.347.a: "The cost of power."
+
+ GOT_Story_News.347.t: "Daenerys Binds Her Dragons"
+ GOT_Story_News.347.d: "Daenerys Targaryen has chained her dragons beneath Meereen after one of them killed a child. This difficult decision highlights the growing responsibility of her rule and the dangers of her unchecked power."
+ GOT_Story_News.347.a: "The dragons are bound."
+
+ # Bran Meets the Children of the Forest
+ GOT_Story_Country.348.t: "Bran Meets the Children of the Forest"
+ GOT_Story_Country.348.d: "Bran Stark and his companions reach the ancient weirwood tree from his visions, where they meet the Children of the Forest. These mysterious beings reveal their role in creating the White Walkers, marking a crucial moment in Bran’s journey toward understanding his destiny."
+ GOT_Story_Country.348.a: "The Children of the Forest."
+
+ GOT_Story_News.348.t: "Bran Encounters the Children of the Forest"
+ GOT_Story_News.348.d: "Bran Stark has encountered the Children of the Forest at the ancient weirwood tree, where the origins of the White Walkers are revealed. Bran's path to understanding his mystical destiny has just begun."
+ GOT_Story_News.348.a: "The ancient beings revealed."
+
+ # Arya Leaves the Hound to Die
+ GOT_Story_Country.349.t: "Arya Leaves the Hound to Die"
+ GOT_Story_Country.349.d: "In a cold and decisive moment, Arya Stark abandons Sandor ‘The Hound’ Clegane, leaving him to die from his injuries. This act marks Arya’s transformation into a more ruthless character. She then sails for Braavos, setting the stage for a new chapter in her journey."
+ GOT_Story_Country.349.a: "The wolf leaves the hound."
+
+ GOT_Story_News.349.t: "Arya Leaves the Hound"
+ GOT_Story_News.349.d: "Arya Stark has left Sandor ‘The Hound’ Clegane to die from his wounds. This marks a significant shift in Arya’s character as she embraces a harsher path, now bound for Braavos."
+ GOT_Story_News.349.a: "A cold farewell."
+
+ # Jon Snow Faces Stannis Baratheon
+ GOT_Story_Country.350.t: "Jon Snow Faces Stannis Baratheon"
+ GOT_Story_Country.350.d: "After the wildlings' attack on the Wall, Jon Snow seeks to negotiate peace with Mance Rayder. However, Stannis Baratheon arrives with his army, defeating the wildlings. Jon now faces the complexities of leadership and the harsh realities of war."
+ GOT_Story_Country.350.a: "The battle for the Wall."
+
+ GOT_Story_News.350.t: "Stannis Baratheon Defeats the Wildlings"
+ GOT_Story_News.350.d: "Stannis Baratheon has defeated the wildlings at the Wall, putting an end to their threat. Jon Snow is left to reconcile the challenges of leadership and the changing landscape of the conflict."
+ GOT_Story_News.350.a: "The Wall stands firm."
 
 
 #Country Event, the Crownlands Gets
@@ -2455,6 +2308,23 @@ GOT_Diplomatic_Country.21.b: "Winterfell is lost, but we must stay the course in
 GOT_Diplomatic_Country.21.tt1: "§RWinterfell has fallen. House Stark vows vengeance.§!"
 GOT_Diplomatic_Country.21.tt2: "§YWe stay focused on the southern war.§!"
 
+# GOT_Diplomatic_Country.22 – Tyrion Requests Casterly Rock
+GOT_Diplomatic_Country.22.t: "A Request from Tyrion"
+GOT_Diplomatic_Country.22.d: "Tyrion, ever hungry for recognition, has approached me with a bold request: he wishes to be named Lord of Casterly Rock. Despite his cunning and recent service, the idea of placing my legacy in his hands is almost laughable. Yet, for all his flaws, he is still a Lannister by blood. Do I grant him what he desires—or remind him, once again, of his place?"
+GOT_Diplomatic_Country.22.a: "Very well. He shall be Lord of Casterly Rock."
+GOT_Diplomatic_Country.22.b: "I would rather let myself be consumed by maggots."
+
+# GOT_Diplomatic_Country.23 – Tywin Grants Casterly Rock
+GOT_Diplomatic_Country.23.t: "Granted Casterly Rock"
+GOT_Diplomatic_Country.23.d: "I half-expected mockery. A scornful laugh. A reminder of every insult I’ve ever suffered. But instead, he agreed. Tywin Lannister—my father—has granted me Casterly Rock. The seat of our house. The legacy I was never meant to hold. Perhaps this is a ploy, or a test. Perhaps he’s finally seen my worth. Either way, I’ve claimed what I was always denied."
+GOT_Diplomatic_Country.23.a: "So it’s finally mine…"
+
+# GOT_Diplomatic_Country.24 – Tywin Rejects the Request
+GOT_Diplomatic_Country.24.t: "Rejected by My Father"
+GOT_Diplomatic_Country.24.d: "I dared to ask. To claim what any other son would consider his birthright. But Tywin, in all his contempt, dismissed me without hesitation. No explanation. No pretense. Just cold, measured disdain. He said he would rather let himself be consumed by maggots. I should have expected nothing else—but still, it burns."
+GOT_Diplomatic_Country.24.a: "One day, he’ll regret this."
+
+
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
 GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."
@@ -2508,6 +2378,11 @@ GOT_Diplomatic_News.13.a: "A harsh fate... but a just one."
 GOT_Diplomatic_News.14.t: "Renly Baratheon Survives the Shadow's Attack"
 GOT_Diplomatic_News.14.d: "In a surprising turn of events, Renly Baratheon has survived the grievous injuries inflicted upon him by the shadow birthed by Melisandre. Despite his near-death experience, he has emerged from the ordeal, and the world now wonders how he will proceed in his quest for the Iron Throne."
 GOT_Diplomatic_News.14.a: "Renly Baratheon lives! Will he seek revenge or press forward with his claim?"
+
+# GOT_Diplomatic_News.15 – New Lord of Casterly Rock
+GOT_Diplomatic_News.15.t: "[WES.GetLeader] Named Lord of Casterly Rock"
+GOT_Diplomatic_News.15.d: "In a move few anticipated, [WES.GetLeader] has been granted the title of Lord of Casterly Rock, the ancestral seat of House Lannister. Long denied the recognition afforded to other Lannisters, [WES.GetLeader] now stands as the master of one of the most powerful strongholds in Westeros. The decision has stirred whispers throughout the realm—some speak of justice, others of folly."
+GOT_Diplomatic_News.15.a: "A new lion rises at the Rock."
 
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"

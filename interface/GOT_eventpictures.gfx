@@ -21,6 +21,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_news_event_Casterly_Rock"
+		texturefile = "gfx/event_pictures/News/news_event_Casterly_Rock.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_Casterly_Rock"
+		texturefile = "gfx/event_pictures/Country/report_event_Casterly_Rock.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_event_GOT_Alt_Country1"
 		texturefile = "gfx/event_pictures/Country_Alt/GOT_Alt_Country1.dds"
 	}
