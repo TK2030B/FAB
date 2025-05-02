@@ -4,6 +4,7 @@ GOT_TAR_Wedding_Flag:0 "Targaryen Marriage"
 GOT_Tyrion_Captured_Flag:0 "Tyrion Captured"
 GOT_Lord_Stark_Investigation_Flag:0 "Lord Stark's Investigation"
 GOT_Lord_Stark_Arrested_Flag:0 "Lord Stark Arrested"
+GOT_Lord_Stark_Executed_Flag:0 "Lord Stark Executed"
 GOT_Dany_Pregnant_Flag:0 "Danaerys Pregnant"
 GOT_King_Robert_Dead_Flag:0 "King Robert Is Dead"
 GOT_New_Monarch_Chosen_Flag:0 "New Monarch Chosen"
@@ -13,10 +14,16 @@ GOT_Bent_The_Knee_Flag:0 "Bent The Knee"
 GOT_King_In_The_North_Flag:0 "King in The North"
 GOT_Theon_Returns_Flag:0 "Theon Has Returned"
 GOT_Arya_Escapes_Flag:0 "Arya Escapes"
+GOT_Sansa_Escapes_Flag:0 "Sansa Escapes"
 GOT_Melisandre_Seduces_Stannis:0 "Melisandre Seduces Stannis"
 GOT_Robb_Marries_Talissa_Flag:0 "Robb Marries Talissa"
 GOT_Hosted_Tournament_Flag:0 "Hosted Tournament"
 GOT_Theon_Grabs_Winterfell_Flag:0 "Winterfell Occupied By Ironborn"
+GOT_Battle_of_Blackwater_Flag:0 "Battle of Blackwater Bay"
+GOT_Sansa_In_Kings_Landing:0 "Sansa In King's Landing"
+GOT_Purple_Wedding_Flag:0 "Purple Wedding"
+GOT_Jaime_Captured_Flag:0 "Jaime Captured"
+GOT_NOR_FRE_Promise_Flag:0 "Robb Promises To Marry Frey Daughter"
 
 Game_Event.1.t:0 "Welcome (1/4)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -690,6 +697,17 @@ GOT_Story_Country.55.b: "His legacy will live on through a new leader."
 GOT_Story_News.55.t: "Khal Drogo Wounded in Duel with Mago"
 GOT_Story_News.55.d: "Khal Drogo, the mighty leader of the Dothraki, was severely injured in a one-on-one fight with his rival, Mago. The outcome of the duel has left many questioning the future of the Dothraki horde. If Drogo succumbs to his injuries, the Dothraki may face a tumultuous period of leadership struggles and uncertainty."
 GOT_Story_News.55.a: "Will the Khal's horde survive this blow?"
+
+#Robb Promises
+GOT_Story_Country.56.t: "A Deal With House Frey?"
+GOT_Story_Country.56.d: "The army has reached the banks of the Trident, and the Twins—the only crossing within leagues—lie ahead. Lord Walder Frey controls the bridge, and while he is a bannerman of the Tullys, his loyalty is fickle. He has agreed to let us cross, but only if we promise a betrothal between one of his daughters and the Lord of Winterfell. It is a bitter price to pay, but the alternative is a long detour south, which would delay our march and sap the strength of our forces before they ever reach the battlefield.\n\nTime is not on our side. Do we bind ourselves to House Frey for the sake of swift passage?"
+GOT_Story_Country.56.a: "A lord must do his duty. We’ll promise the Frey girl."
+GOT_Story_Country.56.b: "I won’t be bought with marriage. We take the long way around."
+
+GOT_Story_News.56.t: "The Young Wolf Seals a Pact"
+GOT_Story_News.56.d: "News has spread throughout the realm that Robb Stark, the Young Wolf and King in the North, has struck a deal with Lord Walder Frey. In exchange for safe passage across the Twins and the vital crossing of the Trident, Robb has pledged to marry one of Lord Frey's many daughters.\n\nThough some call it a shrewd political move, others whisper that the proud son of Eddard Stark has sacrificed honor for advantage. With the Freys now tied to the Northern cause—at least for now—Robb’s army marches swiftly south, unimpeded by the river that has halted so many before.\n\nWhether this alliance will hold or fray under the weight of ambition and broken promises remains to be seen."
+GOT_Story_News.56.a: "The game of thrones waits for no one."
+
 
 ##########
 #SEASON 2#
@@ -2383,6 +2401,10 @@ GOT_Diplomatic_News.14.a: "Renly Baratheon lives! Will he seek revenge or press 
 GOT_Diplomatic_News.15.t: "[WES.GetLeader] Named Lord of Casterly Rock"
 GOT_Diplomatic_News.15.d: "In a move few anticipated, [WES.GetLeader] has been granted the title of Lord of Casterly Rock, the ancestral seat of House Lannister. Long denied the recognition afforded to other Lannisters, [WES.GetLeader] now stands as the master of one of the most powerful strongholds in Westeros. The decision has stirred whispers throughout the realm—some speak of justice, others of folly."
 GOT_Diplomatic_News.15.a: "A new lion rises at the Rock."
+
+GOT_Diplomatic_News.16.t: "House Frey Bars the Bridge"
+GOT_Diplomatic_News.16.d: "Tensions rise along the Trident as word spreads that Lord Walder Frey has denied passage to Robb Stark and his Northern host. The cause? A refusal by Robb to accept Frey’s terms—chief among them, a marriage pact to one of his daughters.\n\nObservers note that while the Twins offer the most direct route south, the Lord of the Crossing has never been one to act without gain. With negotiations collapsed, the North must now find another way forward—one that could cost them precious time, supplies, and perhaps the momentum of their campaign.\n\nSome whisper that Robb Stark has made a noble choice, preserving his freedom and pride. Others question the wisdom of alienating a powerful house for the sake of personal honor."
+GOT_Diplomatic_News.16.a: "The river remains uncrossed—for now."
 
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"

@@ -192,14 +192,6 @@ characters={
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
-		field_marshal={
-			traits = { }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 5
-			logistics_skill = 4
-		}
 	}
 	
 	TAR_Grey_Worm={
@@ -227,14 +219,6 @@ characters={
 				large="gfx/leaders/TAR/Portrait_Daario_Naharis.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
-		}
-		corps_commander={
-			traits = { }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
 		}
 	}
 

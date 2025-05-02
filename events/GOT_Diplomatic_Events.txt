@@ -2242,3 +2242,16 @@ news_event = {
 		name = GOT_Diplomatic_News.15.a
 	}
 }
+
+news_event = {
+	id = GOT_Diplomatic_News.16
+	title = GOT_Diplomatic_News.16.t
+	desc = GOT_Diplomatic_News.16.d
+	picture = GFX_news_event_GOT_Story_News56
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.16.a
+	}
+}

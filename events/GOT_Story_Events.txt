@@ -676,6 +676,8 @@ country_event = {
 				}
 			}
 		}
+		
+		set_global_flag = GOT_Sansa_In_Kings_Landing
 
 		every_other_country = {
 			limit = {
@@ -2699,6 +2701,10 @@ country_event = {
 		date > 1936.10.10
 		date < 1936.11.10
 		has_war_with = WES
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
 	}
 	
 	fire_only_once = yes
@@ -2714,6 +2720,8 @@ country_event = {
 		army_experience = 5
 		add_war_support = 0.05
 		add_threat = 6
+		
+		set_global_flag = GOT_Jaime_Captured_Flag
 
 		every_other_country = {
 			limit = {
@@ -2924,6 +2932,8 @@ country_event = {
 				}
 			}
 		}
+		
+		set_global_flag = GOT_Lord_Stark_Executed_Flag
 
 		every_other_country = {
 			limit = {
@@ -2991,7 +3001,7 @@ country_event = {
 		tag = NOR
 		date > 1936.11.15
 		date < 1936.12.15
-		has_war_with = CRO
+		has_war_with = WES
 		has_country_leader = {
 			name = "Robb Stark"
 			ruling_only = yes
@@ -3177,6 +3187,7 @@ country_event = {
 		date > 1936.11.15
 		date < 1936.12.15
 		has_war_with = WES
+		has_global_flag = GOT_Jaime_Captured_Flag
 	}
 	
 	fire_only_once = yes
@@ -3706,6 +3717,100 @@ news_event = {
 	}
 }
 
+#Robb Promises to Marry Walder Frey's Daughters
+country_event = {
+	id = GOT_Story_Country.56
+	title = GOT_Story_Country.56.t
+	desc = GOT_Story_Country.56.d
+	picture = GFX_report_event_GOT_Story_Country56
+
+	trigger = { 
+        tag = NOR
+		is_in_faction_with = RIV
+		has_war_with = WES
+		date > 1936.10.10
+        date < 1936.11.10
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
+    } 
+
+	option = {
+		name = GOT_Story_Country.56.a
+
+		ai_chance = {
+			factor = 85
+		}
+		
+		add_timed_idea = {
+			idea = RI_granted_crossing
+			days = 30
+		}
+
+		add_stability = 0.05
+		set_global_flag = GOT_NOR_FRE_Promise_Flag
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Story_News.56
+				hours = 6
+			}
+		}
+		
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.56.b
+
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		add_timed_idea = {
+			idea = RI_denied_crossing
+			days = 90
+		}
+		
+		add_stability = -0.05
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.16
+				hours = 6
+			}
+		}
+		
+		
+
+		
+	}
+}
+
+news_event = {
+	id = GOT_Story_News.56
+	title = GOT_Story_News.56.t
+	desc = GOT_Story_News.56.d
+	picture = GFX_news_event_GOT_Story_News56
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Story_News.56.a
+	}
+}
+
 ############
 ##SEASON 2##
 ############
@@ -4023,6 +4128,10 @@ country_event = {
 		has_global_flag = GOT_King_In_The_North_Flag
 		surrender_progress < 0.5
 		NOT = { has_global_flag = BPD_Disable_Them_Completely }
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
     }
 
     fire_only_once = yes
@@ -4749,6 +4858,10 @@ country_event = {
         date < 1937.5.15
 		has_war_with = WES
 		surrender_progress < 0.10
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
     }
 
     fire_only_once = yes
@@ -4799,6 +4912,10 @@ country_event = {
         tag = CRO
         date > 1937.4.15
         date < 1937.5.15
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
 		CRO_Tyrion_Lannister = { 
 			is_hired_as_advisor = yes
 		}
@@ -5271,7 +5388,7 @@ country_event = {
 				ideology = DR_subideology
 			}
 			add_country_leader_role = {
-				character = CRO_Tommen_Baratheon
+				character = STO_Tommen_Baratheon
 				country_leader = {
 					expire = "1965.1.1"
 					ideology = NR_subideology
@@ -5289,7 +5406,7 @@ country_event = {
 				promote_leader = yes
 			}
 			add_country_leader_role = {
-				character = CRO_Tommen_Baratheon
+				character = STO_Tommen_Baratheon
 				country_leader = {
 					expire = "1965.1.1"
 					ideology = DR_subideology
@@ -5321,7 +5438,7 @@ country_event = {
 				ideology = CR_subideology
 			}
 			add_country_leader_role = {
-				character = CRO_Myrcella_Baratheon
+				character = STO_Myrcella_Baratheon
 				country_leader = {
 					expire = "1965.1.1"
 					ideology = NR_subideology
@@ -5333,7 +5450,7 @@ country_event = {
 				promote_leader = yes
 			}
 			add_country_leader_role = {
-				character = CRO_Myrcella_Baratheon
+				character = STO_Myrcella_Baratheon
 				country_leader = {
 					expire = "1965.1.1"
 					ideology = CR_subideology
@@ -5802,6 +5919,10 @@ country_event = {
         date > 1937.6.25
         date < 1937.7.25
 		has_war_with = NOR
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
     }
 
     fire_only_once = yes
@@ -5914,6 +6035,8 @@ country_event = {
 
         add_stability = 0.05
 		add_political_power = 25
+		
+		set_global_flag = GOT_Bran_Escapes_Flag
 		
 		hidden_effect = {
 			IRO = {
@@ -6052,6 +6175,7 @@ country_event = {
         date > 1937.8.1
         date < 1937.9.1
 		has_war_with = WES
+		has_global_flag = GOT_Jaime_Captured_Flag
     }
 
     fire_only_once = yes
@@ -6204,6 +6328,7 @@ country_event = {
         date > 1937.9.5
         date < 1937.10.5
 		has_war_with = NOR
+		has_global_flag = GOT_Bran_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -6407,6 +6532,11 @@ country_event = {
         date > 1937.9.5
         date < 1937.10.5
 		has_war_with = WES
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
+		has_global_flag = GOT_Jaime_Captured_Flag
     }
 
     fire_only_once = yes
@@ -6461,6 +6591,7 @@ country_event = {
         }
 
         add_war_support = 0.05
+		set_global_flag = GOT_Battle_of_Blackwater_Flag
 
         every_other_country = {
             limit = {
@@ -6765,6 +6896,10 @@ country_event = {
         date > 1937.11.15
         date < 1937.12.15
 		is_in_faction_with = REA
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
     }
 
     fire_only_once = yes
@@ -7335,6 +7470,7 @@ country_event = {
         tag = TAR 
 		date > 1938.1.1
         date < 1938.2.1
+		country_exists = AST
     } 
  
     fire_only_once = yes 
@@ -7350,6 +7486,15 @@ country_event = {
 		add_stability = -0.05            # A temporary hit to order as her arrival disrupts the local status quo.
 		add_war_support = 0.10           # Her military ambitions become clear, rallying support.
 		add_threat = 1
+		
+		add_field_marshal_role = {
+			character = TAR_Barristan_Selmy
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
  
         every_other_country = { 
             limit = { 
@@ -7388,6 +7533,7 @@ country_event = {
         tag = DRA
 		date > 1938.1.1
         date < 1938.2.1
+		has_global_flag = GOT_Battle_of_Blackwater_Flag
     } 
  
     fire_only_once = yes 
@@ -7440,6 +7586,15 @@ country_event = {
         tag = NOR 
 		date > 1938.1.1
         date < 1938.2.1
+		has_war_with = WES
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
+		OR = { 
+			is_in_faction_with = RIV
+			RIV = { exists = no }
+		}
     } 
  
     fire_only_once = yes 
@@ -7493,6 +7648,7 @@ country_event = {
         tag = NOR
 		date > 1938.2.5
         date < 1938.3.5
+		has_global_flag = GOT_Bran_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -7543,6 +7699,7 @@ country_event = {
         tag = NOR
 		date > 1938.2.5
         date < 1938.3.5
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -7594,6 +7751,8 @@ country_event = {
         tag = REA
 		date > 1938.2.5
         date < 1938.3.5
+		is_in_faction_with = CRO
+		has_global_flag = GOT_Sansa_In_Kings_Landing
     } 
  
     fire_only_once = yes 
@@ -7645,6 +7804,8 @@ country_event = {
         tag = WES
 		date > 1938.2.5
         date < 1938.3.5
+		has_war_with = NOR
+		has_global_flag = GOT_Jaime_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -7698,6 +7859,12 @@ country_event = {
         tag = NOR
 		date > 1938.2.5
         date < 1938.3.5
+		has_global_flag = GOT_Theon_Grabs_Winterfell_Flag
+		has_war_with = IRO
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -7748,6 +7915,8 @@ country_event = {
         tag = WES 
 		date > 1938.3.10
         date < 1938.4.10
+		has_war_with = NOR
+		has_global_flag = GOT_Jaime_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -7799,6 +7968,15 @@ country_event = {
         tag = CRO
 		date > 1938.3.10
         date < 1938.4.10		
+		GOT_Lannister_Is_King = yes
+		NOT = {
+			WES = { 
+				has_country_leader = {
+					name = "Tyrion Lannister"
+					ruling_only = yes
+				}
+			}
+		}
     } 
  
     fire_only_once = yes 
@@ -7812,6 +7990,37 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = 25 
+		
+		remove_advisor_role = {
+			character = "CRO_Tyrion_Lannister"
+			slot = political_advisor
+		}
+		
+		add_advisor_role = {
+			character = CRO_tywin_lannister
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_tywin_lannister
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+		
+		add_advisor_role = {
+			character = CRO_Tyrion_Lannister
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = CRO_Tyrion_Lannister
+				can_be_fired = no
+				traits = {
+					master_of_coin
+				}
+			}
+		}
  
         every_other_country = { 
             limit = { 
@@ -7850,6 +8059,7 @@ country_event = {
         tag = TAR
 		date > 1938.3.10
         date < 1938.4.10
+		country_exists = AST
     } 
  
     fire_only_once = yes 
@@ -7899,8 +8109,13 @@ country_event = {
  
     trigger = { 
         tag = NOR
+		is_in_faction_with = RIV
 		date > 1938.3.10
         date < 1938.4.10
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -7952,6 +8167,7 @@ country_event = {
         tag = NOR
 		date > 1938.3.10
         date < 1938.4.10
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -8156,6 +8372,7 @@ country_event = {
         tag = RIV
 		date > 1938.4.15
         date < 1938.5.15
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -8206,6 +8423,8 @@ country_event = {
         tag = IRO 
 		date > 1938.4.15
         date < 1938.5.15
+		has_war_with = NOR
+		has_global_flag = GOT_Theon_Grabs_Winterfell_Flag
     } 
  
     fire_only_once = yes 
@@ -8308,6 +8527,7 @@ country_event = {
         tag = WES
 		date > 1938.5.20
         date < 1938.6.20
+		has_global_flag = GOT_Jaime_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -8358,6 +8578,11 @@ country_event = {
         tag = NOR
 		date > 1938.5.20
         date < 1938.6.20
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
+		has_war_with = WES
     } 
  
     fire_only_once = yes 
@@ -8662,6 +8887,12 @@ country_event = {
         tag = NOR
 		date > 1938.6.25
         date < 1938.7.25
+		is_in_faction_with = RIV
+		has_war_with = WES
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -8714,6 +8945,7 @@ country_event = {
         tag = CRO
 		date > 1938.6.25
         date < 1938.7.25
+		has_global_flag = GOT_Sansa_In_Kings_Landing
     } 
  
     fire_only_once = yes 
@@ -8765,6 +8997,7 @@ country_event = {
         tag = WES
 		date > 1938.8.1
         date < 1938.9.1
+		has_global_flag = GOT_Jaime_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -8865,6 +9098,11 @@ country_event = {
         tag = NOR
 		date > 1938.8.1
         date < 1938.9.1
+		has_war_with = WES
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -8915,6 +9153,7 @@ country_event = {
         tag = NOR
 		date > 1938.8.1
         date < 1938.9.1
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -8965,6 +9204,8 @@ country_event = {
         tag = IRO
 		date > 1938.8.1
         date < 1938.9.1
+		has_war_with = NOR
+		has_global_flag = GOT_Theon_Grabs_Winterfell_Flag
     } 
  
     fire_only_once = yes 
@@ -9016,6 +9257,7 @@ country_event = {
         tag = CRO 
 		date > 1938.9.5
         date < 1938.10.5
+		has_global_flag = GOT_Sansa_In_Kings_Landing
     } 
  
     fire_only_once = yes 
@@ -9116,6 +9358,7 @@ country_event = {
         tag = TAR
 		date > 1938.9.5
         date < 1938.10.5
+		controls_state = 228
     } 
  
     fire_only_once = yes 
@@ -9129,6 +9372,15 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
+		
+		add_corps_commander_role = {
+			character = TAR_Daario_Naharis
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
  
         every_other_country = { 
             limit = { 
@@ -9219,6 +9471,7 @@ country_event = {
         tag = NOR
 		date > 1938.9.5
         date < 1938.10.5
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -9269,6 +9522,7 @@ country_event = {
         tag = NOR
 		date > 1938.10.10
         date < 1938.11.10
+		has_war_with = WES
     } 
  
     fire_only_once = yes 
@@ -9321,6 +9575,7 @@ country_event = {
         tag = NWA
 		date > 1938.10.10
         date < 1938.11.10
+		country_exists = WIL
     } 
  
     fire_only_once = yes 
@@ -9372,6 +9627,7 @@ country_event = {
         tag = NOR
 		date > 1938.10.10
         date < 1938.11.10
+		has_global_flag = GOT_Bran_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -9422,6 +9678,8 @@ country_event = {
         tag = TAR
 		date > 1938.10.10
         date < 1938.11.10
+		country_exists = YUN
+		controls_state = 228
     } 
  
     fire_only_once = yes 
@@ -9434,6 +9692,12 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		
+		create_wargoal = {
+			type = annex_everything
+			target = YUN
+			expire = 365
+		}
  
         every_other_country = { 
             limit = { 
@@ -9626,6 +9890,7 @@ country_event = {
         tag = TAR
 		date > 1938.11.15
         date < 1938.12.15
+		controls_state = 33
     } 
  
     fire_only_once = yes 
@@ -9729,6 +9994,7 @@ country_event = {
         tag = NOR 
 		date > 1938.11.15
         date < 1938.12.15
+		has_global_flag = GOT_Bran_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -9782,6 +10048,7 @@ country_event = {
         tag = WES
 		date > 1939.1.1
         date < 1939.2.1
+		has_global_flag = GOT_Lord_Stark_Executed_Flag
     } 
  
     fire_only_once = yes 
@@ -9833,6 +10100,7 @@ country_event = {
         tag = WES 
 		date > 1939.1.1
         date < 1939.2.1
+		has_global_flag = GOT_Jaime_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -9883,6 +10151,8 @@ country_event = {
         tag = TAR 
 		date > 1939.1.1
         date < 1939.2.1
+		country_exists = MER
+		controls_state = 33
     } 
  
     fire_only_once = yes 
@@ -9934,6 +10204,10 @@ country_event = {
         tag = CRO 
 		date > 1939.1.1
         date < 1939.2.1
+		country_exists = DOR
+		CRO_Tyrion_Lannister = { 
+			is_hired_as_advisor = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -9984,6 +10258,7 @@ country_event = {
         tag = NOR
 		date > 1939.1.1
         date < 1939.2.1
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -10034,6 +10309,11 @@ country_event = {
         tag = CRO
 		date > 1939.2.5
         date < 1939.3.5
+		is_in_faction_with = REA
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -10047,6 +10327,29 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		
+		set_global_flag = GOT_Purple_Wedding_Flag
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+				character = CRO_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
  
         every_other_country = { 
             limit = { 
@@ -10085,6 +10388,7 @@ country_event = {
         tag = CRO 
 		date > 1939.2.5
         date < 1939.3.5
+		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -10098,6 +10402,11 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		
+		remove_advisor_role = {
+			character = "CRO_Tyrion_Lannister"
+			slot = political_advisor
+		}
  
         every_other_country = { 
             limit = { 
@@ -10136,6 +10445,8 @@ country_event = {
         tag = CRO
 		date > 1939.2.5
         date < 1939.3.5
+		has_global_flag = GOT_Purple_Wedding_Flag
+		has_global_flag = GOT_Sansa_In_Kings_Landing
     } 
  
     fire_only_once = yes 
@@ -10149,6 +10460,8 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		
+		set_global_flag = GOT_Sansa_Escapes_Flag
  
         every_other_country = { 
             limit = { 
@@ -10237,6 +10550,7 @@ country_event = {
         tag = NOR
 		date > 1939.2.5
         date < 1939.3.5
+		has_global_flag = GOT_Bran_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -10287,6 +10601,7 @@ country_event = {
         tag = CRO
 		date > 1939.3.10
         date < 1939.4.10
+		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -10338,6 +10653,7 @@ country_event = {
         tag = NOR
 		date > 1939.3.10
         date < 1939.4.10
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -10349,8 +10665,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
-        add_political_power = -25 
+        add_stability = 0.05 
+        add_political_power = 25 
  
         every_other_country = { 
             limit = { 
@@ -10389,6 +10705,8 @@ country_event = {
         tag = CRO
 		date > 1939.3.10
         date < 1939.4.10
+		GOT_Lannister_Is_King = yes
+		has_global_flag = GOT_Jaime_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -10439,6 +10757,7 @@ country_event = {
         tag = TAR
 		date > 1939.3.10
         date < 1939.4.10
+		country_exists = MER
     } 
  
     fire_only_once = yes 
@@ -10451,6 +10770,12 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		
+		create_wargoal = {
+			type = annex_everything
+			target = MER
+			expire = 365
+		}
  
         every_other_country = { 
             limit = { 
@@ -10489,6 +10814,7 @@ country_event = {
         tag = NWA
 		date > 1939.3.10
         date < 1939.4.10
+		country_exists = WIL
     } 
  
     fire_only_once = yes 
@@ -10540,6 +10866,7 @@ country_event = {
         tag = WES
 		date > 1939.4.15
         date < 1939.5.15
+		has_global_flag = GOT_Jaime_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -10590,6 +10917,7 @@ country_event = {
         tag = TAR 
 		date > 1939.4.15
         date < 1939.5.15
+		controls_state = 89
     } 
  
     fire_only_once = yes 
@@ -10744,6 +11072,7 @@ country_event = {
         tag = CRO
 		date > 1939.4.15
         date < 1939.5.15
+		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -10795,6 +11124,11 @@ country_event = {
         tag = CRO
 		date > 1939.5.20
         date < 1939.6.20
+		has_government = neutrality
+		has_country_leader = {
+			name = "Tommen Baratheon"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -10808,6 +11142,8 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = 25 
+		
+		set_global_flag = GOT_New_Monarch_Chosen_Flag
  
         every_other_country = { 
             limit = { 
@@ -10846,6 +11182,7 @@ country_event = {
         tag = VAL 
 		date > 1939.5.20
         date < 1939.6.20
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -10948,6 +11285,7 @@ country_event = {
         tag = TAR
 		date > 1939.5.20
         date < 1939.6.20
+		controls_state = 89
     } 
  
     fire_only_once = yes 
@@ -10999,6 +11337,7 @@ country_event = {
         tag = VAL 
 		date > 1939.5.20
         date < 1939.6.20
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -11050,6 +11389,7 @@ country_event = {
         tag = CRO
 		date > 1939.6.25
         date < 1939.7.25
+		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -11101,6 +11441,7 @@ country_event = {
         tag = CRO 
 		date > 1939.6.25
         date < 1939.7.25
+		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -11203,6 +11544,8 @@ country_event = {
         tag = IRO
 		date > 1939.6.25
         date < 1939.7.25
+		has_war_with = NOR
+		has_global_flag = GOT_Theon_Grabs_Winterfell_Flag
     } 
  
     fire_only_once = yes 
@@ -11306,6 +11649,12 @@ country_event = {
         tag = VAL
 		date > 1939.8.1
         date < 1939.9.1
+		has_global_flag = GOT_Sansa_Escapes_Flag
+		
+		has_country_leader = {
+			name = "Lysa Arryn"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -11356,6 +11705,7 @@ country_event = {
         tag = CRO
 		date > 1939.8.1
         date < 1939.9.1
+		has_country_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -11408,6 +11758,7 @@ country_event = {
         tag = NOR
 		date > 1939.8.1
         date < 1939.9.1
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -11458,6 +11809,7 @@ country_event = {
         tag = VAL
 		date > 1939.8.1
         date < 1939.9.1
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -11509,6 +11861,7 @@ country_event = {
         tag = NOR 
 		date > 1939.8.1
         date < 1939.9.1
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -11559,6 +11912,7 @@ country_event = {
         tag = CRO 
 		date > 1939.9.5
         date < 1939.10.5
+		has_country_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -11610,6 +11964,7 @@ country_event = {
         tag = CRO 
 		date > 1939.9.5
         date < 1939.10.5
+		has_country_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -11661,6 +12016,7 @@ country_event = {
         tag = NOR
 		date > 1939.9.5
         date < 1939.10.5
+		has_country_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -11711,6 +12067,7 @@ country_event = {
         tag = TAR 
 		date > 1939.9.5
         date < 1939.10.5
+		controls_state = 89
     } 
  
     fire_only_once = yes 
@@ -11724,6 +12081,8 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = -25 
+		
+		remove_unit_leader = TAR_Jorah_Mormont
  
         every_other_country = { 
             limit = { 
@@ -11826,6 +12185,12 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		
+		create_wargoal = {
+			type = annex_everything
+			target = NWA
+			expire = 365
+		}
  
         every_other_country = { 
             limit = { 
@@ -11864,6 +12229,7 @@ country_event = {
         tag = NWA
 		date > 1939.10.10
         date < 1939.11.10
+		has_war_with = WIL
     } 
  
     fire_only_once = yes 
@@ -11916,6 +12282,7 @@ country_event = {
         tag = NWA
 		date > 1939.10.10
         date < 1939.11.10
+		has_war_with = WIL
     } 
  
     fire_only_once = yes 
@@ -11967,6 +12334,7 @@ country_event = {
         tag = NWA
 		date > 1939.10.10
         date < 1939.11.10
+		has_war_with = WIL
     } 
  
     fire_only_once = yes 
@@ -12019,6 +12387,7 @@ country_event = {
         tag = NWA
 		date > 1939.10.10
         date < 1939.11.10
+		has_war_with = WIL
     } 
  
     fire_only_once = yes 
@@ -12069,6 +12438,7 @@ country_event = {
         tag = CRO 
 		date > 1939.11.15
         date < 1939.12.15
+		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -12120,6 +12490,7 @@ country_event = {
         tag = TAR
 		date > 1939.11.15
         date < 1939.12.15
+		controls_state = 89
     } 
  
     fire_only_once = yes 
@@ -12172,6 +12543,7 @@ country_event = {
         tag = NOR
 		date > 1939.11.15
         date < 1939.12.15
+		has_global_flag = GOT_Bran_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -12222,6 +12594,7 @@ country_event = {
         tag = NOR
 		date > 1939.11.15
         date < 1939.12.15
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 

@@ -2,6 +2,34 @@ ideas = {
 
 	country = {
 	
+		RI_granted_crossing = {
+			picture = RI_you_shall_not_pass
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_speed_factor = 0.10
+			}
+		}
+		
+		RI_denied_crossing = {
+			picture = RI_you_shall_not_pass
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_speed_factor = -0.30
+				army_org_regain = -0.10
+				supply_consumption_factor = -0.15
+			}
+		}
+	
 		WES_Professional_Lannister_Army = {
 			allowed = {
 				always = no

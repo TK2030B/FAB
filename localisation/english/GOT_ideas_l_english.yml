@@ -291,3 +291,9 @@ generic_transport_company_desc:0 "The Merchant Guild orchestrates trade across l
 
 WES_Professional_Lannister_Army:0 "Professional Lannister Army"
 WES_Professional_Lannister_Army_desc:0 "Funded by the vast wealth of Casterly Rock and drilled to perfection under Tywin Lannister’s command, the Lannister army stands as one of the most disciplined and effective fighting forces in Westeros. With gold buying steel and fear enforcing order, their red-cloaked legions march with precision, pride, and the unshakable belief that lions do not concern themselves with the opinions of sheep."
+
+RI_granted_crossing: "Crossing Secured"
+RI_granted_crossing_desc: "Walder Frey has agreed to let our host cross the Twins. Though the price was steep—a marriage pact—the crossing allows our armies to march swiftly south without delay. For now, House Frey stands beside us, and the river no longer bars our path."
+
+RI_denied_crossing: "Crossing Denied"
+RI_denied_crossing_desc: "Our refusal to meet Lord Walder Frey’s terms has cost us dearly. With the Twins barred to our army, we are forced to take a treacherous detour far to the south. Morale wavers and supplies run thin as the campaign slows to a crawl."

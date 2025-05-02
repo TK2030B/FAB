@@ -605,6 +605,19 @@ spriteTypes = {
 			texturefile = "gfx/event_pictures/News/GOT_Story_News55.dds"
 		}
 		
+		 
+		spriteType = { 
+			name = "GFX_report_event_GOT_Story_Country56" 
+			texturefile = "gfx/event_pictures/Country/GOT_Story_Country56.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_GOT_Story_News56" 
+			texturefile = "gfx/event_pictures/News/GOT_Story_News56.dds" 
+		} 
+ 
+
+		
 		spriteType = {
 			name = "GFX_report_event_GOT_Story_Country100"
 			texturefile = "gfx/event_pictures/Country/GOT_Story_Country100.dds"

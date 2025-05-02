@@ -6847,6 +6847,12 @@ leader_traits = {
 		}
 	}
 	
+	master_of_coin = {
+		sprite = 13
+		random = no
+		consumer_goods_factor = -0.10
+	}
+	
 	oil_extraction_company_trait = {
 
 		country_resource_oil = 20 
