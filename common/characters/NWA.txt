@@ -660,7 +660,11 @@ characters={
 			allowed = {
 				original_tag = NWA
 			}
-			available={ NWA = { has_completed_focus = NWA_elect_rast } }
+			available={ 
+			
+			#NWA = { has_completed_focus = NWA_elect_rast } 
+			
+			}
 			traits = {
 				fascist_demagogue
 			}

@@ -50,7 +50,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { ruthless }  # Optional custom trait if you have one; otherwise, leave empty
+			traits = { }  # Optional custom trait if you have one; otherwise, leave empty
 			skill = 2
 			attack_skill = 3
 			defense_skill = 2
@@ -63,16 +63,16 @@ characters={
 		name=FRE_Lothar_Frey
 		portraits={
 			army = {
-				large="gfx/leaders/FRE/Portrait_Walder_Rivers.dds"
+				large="gfx/leaders/FRE/Portrait_Lothar_Frey.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
-				large="gfx/leaders/FRE/Portrait_Walder_Rivers.dds"
+				large="gfx/leaders/FRE/Portrait_Lothar_Frey.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		corps_commander = {
-			traits = { ruthless }  # Optional; "ruthless" reflects his cold and calculating nature
+			traits = { }  # Optional; "ruthless" reflects his cold and calculating nature
 			skill = 3
 			attack_skill = 3       # Competent in battle, but not exceptional
 			defense_skill = 3      # Has experience, but isn't a master tactician
