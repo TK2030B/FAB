@@ -15,11 +15,12 @@ state={
 			}
 		}
 		add_core_of = RIV
+		add_core_of = FRE
 		victory_points = {
-			243 15
+			243 14
 		}
 		victory_points = {
-			1972 15
+			1972 16
 		}
 	}
 	

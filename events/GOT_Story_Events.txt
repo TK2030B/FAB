@@ -3735,6 +3735,8 @@ country_event = {
 			ruling_only = yes
 		}
     } 
+	
+	fire_only_once = yes
 
 	option = {
 		name = GOT_Story_Country.56.a
@@ -12082,7 +12084,9 @@ country_event = {
         add_stability = 0.05 
         add_political_power = -25 
 		
-		remove_unit_leader = TAR_Jorah_Mormont
+		TAR_Jorah_Mormont = {
+			retire = yes
+		}
  
         every_other_country = { 
             limit = { 

@@ -1,0 +1,84 @@
+characters={
+
+	FRE_Walder_Frey={
+		name=FRE_Walder_Frey
+		portraits={
+			army = {
+				large="gfx/leaders/FRE/Portrait_Walder_Frey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/FRE/Portrait_Walder_Frey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				political_manipulator
+				ruthless
+				mastermind_code_cracker
+				dealbroker
+				backroom_backstabber
+			}
+
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				political_manipulator
+				ruthless
+				mastermind_code_cracker
+				dealbroker
+				backroom_backstabber
+			}
+		}
+	}
+
+	FRE_Walder_Rivers={
+		name=FRE_Walder_Rivers
+		portraits={
+			army = {
+				large="gfx/leaders/FRE/Portrait_Walder_Rivers.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/FRE/Portrait_Walder_Rivers.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ruthless }  # Optional custom trait if you have one; otherwise, leave empty
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	FRE_Lothar_Frey={
+		name=FRE_Lothar_Frey
+		portraits={
+			army = {
+				large="gfx/leaders/FRE/Portrait_Walder_Rivers.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/FRE/Portrait_Walder_Rivers.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ruthless }  # Optional; "ruthless" reflects his cold and calculating nature
+			skill = 3
+			attack_skill = 3       # Competent in battle, but not exceptional
+			defense_skill = 3      # Has experience, but isn't a master tactician
+			planning_skill = 4     # Strong at planning, given his role in the Red Wedding
+			logistics_skill = 2    # Decent, but not known for exceptional organization
+		}
+	}
+
+}

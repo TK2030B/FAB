@@ -14,7 +14,32 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			traits = {  }
+			traits = { 
+				dictator
+				warmonger
+				ruthless
+				eager_collaborator
+			}
+			expire="1965.1.1.1"
+		}
+		country_leader={
+			ideology=FR_subideology
+			traits = { 
+				dictator
+				warmonger
+				ruthless
+				eager_collaborator
+			}
+			expire="1965.1.1.1"
+		}
+		country_leader={
+			ideology=CR_subideology
+			traits = { 
+				dictator
+				warmonger
+				ruthless
+				eager_collaborator
+			}
 			expire="1965.1.1.1"
 		}
 		field_marshal={

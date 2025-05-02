@@ -1,0 +1,30 @@
+﻿capital = 173
+GOT_start_techs = yes
+oob = "Generic"
+
+set_research_slots = 3
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_convoys = 25
+
+recruit_character=FRE_Walder_Frey
+recruit_character=FRE_Walder_Rivers
+recruit_character=FRE_Lothar_Frey
+
+add_ideas = {  
+	GOT_Tradition_Riverlands  
+	GOT_Religion_The_Seven  
+}
