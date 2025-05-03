@@ -3630,8 +3630,8 @@ country_event = {
 			#Khal Drogo Dies 100% for historical AI
 			if = {
 				limit = {
-					is_ai = yes
 					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
 				}
 				country_event = {
 					id = GOT_Diplomatic_Country.14
@@ -5101,7 +5101,6 @@ country_event = {
 		#Renly Dies 100% for historical AI
 		if = {
 			limit = {
-				STO = { is_ai = yes }
 				is_historical_focus_on = yes
 				NOT = { has_global_flag = GOT_Sandbox_Mode }
 			}
@@ -12136,7 +12135,7 @@ country_event = {
         name = GOT_Story_Country.332.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 60 
         } 
  
         add_war_support = 0.05 
@@ -12152,6 +12151,23 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.332.b 
+ 
+        ai_chance = { 
+            factor = 40 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+		
+		set_global_flag = GOT_Tyrion_On_His_Own
+ 
+        add_war_support = -0.05 
+		
+    }
 } 
  
  # Tyrion Finds an Unexpected Champion
@@ -12337,7 +12353,7 @@ country_event = {
         tag = CRO 
 		date > 1939.9.5
         date < 1940.9.5
-		has_country_flag = GOT_Oberyn_Tyrions_Champion
+		has_global_flag = GOT_Oberyn_Tyrions_Champion
     } 
  
     fire_only_once = yes 
@@ -12349,18 +12365,74 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
-        army_experience = 5 
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.336 
-                hours = 6 
-            } 
-        } 
+        #Oberyn Dies 100% for historical AI
+		if = {
+			limit = {
+				is_historical_focus_on = yes
+				NOT = { has_global_flag = GOT_Sandbox_Mode }
+			}
+			DOR = { 
+				country_event = {
+					id = GOT_Diplomatic_Country.31
+					hours = 6
+				}
+			}
+			set_global_flag = GOT_Oberyn_Dies
+			every_other_country = { 
+				limit = { 
+					exists = yes 
+				} 
+				news_event = { 
+					id = GOT_Story_News.336 
+					hours = 6 
+				} 
+			} 
+		}
+		#For Non Historical AI, Oberyn has a chance to survive
+		else = {
+		#55% Chance Oberyn Dies, 45% Renly Survives
+			random_list = {
+				#Oberyn Dies
+				55 = {
+					DOR = { 
+						country_event = {
+							id = GOT_Diplomatic_Country.31
+							hours = 6
+						}
+					}
+					set_global_flag = GOT_Oberyn_Dies
+					every_other_country = { 
+						limit = { 
+							exists = yes 
+						} 
+						news_event = { 
+							id = GOT_Story_News.336 
+							hours = 6 
+						} 
+					}
+				}
+				#Oberyn Survives
+				45 = {
+					DOR = { 
+						country_event = {
+							id = GOT_Diplomatic_Country.32
+							hours = 6
+						}
+					}
+					every_other_country = { 
+						limit = { 
+							exists = yes 
+						} 
+						news_event = { 
+							id = GOT_Diplomatic_News.20
+							hours = 6 
+						} 
+					}
+				}
+			}
+		}
+		
+		
     } 
 } 
  
@@ -12389,7 +12461,10 @@ country_event = {
         tag = CRO 
 		date > 1939.9.5
         date < 1940.9.5
-		has_country_flag = GOT_Purple_Wedding_Flag
+		OR = {
+			has_global_flag = GOT_Tyrion_On_His_Own
+			has_global_flag = GOT_Oberyn_Dies
+		} 
     } 
  
     fire_only_once = yes 
@@ -12602,6 +12677,7 @@ country_event = {
         tag = WIL 
 		date > 1939.10.10
         date < 1939.11.10
+		NOT = { owns_state = 18 }
     } 
  
     fire_only_once = yes 
@@ -12615,10 +12691,22 @@ country_event = {
  
         add_war_support = 0.05 
 		
-		create_wargoal = {
-			type = annex_everything
-			target = NWA
-			expire = 365
+		18 = {
+			OWNER = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = take_state_focus
+						expire = 0
+						generator = { 18 }
+					}
+					add_ai_strategy = {
+						type = conquer
+						id = PREV
+						value = 200
+					}
+				}
+			}
 		}
  
         every_other_country = { 
@@ -12768,6 +12856,7 @@ country_event = {
 		date > 1939.10.10
         date < 1940.10.10
 		has_war_with = WIL
+		controls_state = 18
     } 
  
     fire_only_once = yes 
@@ -12782,6 +12871,13 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         army_experience = 5 
+		
+		WIL = { 
+			country_event = {
+				id = GOT_Diplomatic_Country.33
+				hours = 6
+			}
+		}
  
         every_other_country = { 
             limit = { 

@@ -329,7 +329,6 @@ country_event = {
 				country_exists = WES
 				NOT = { has_war_with = WES }
 				WES = { has_war_with = RIV }
-				WES = { is_ai = no }
 			}
 			create_wargoal = {
 				type = annex_everything
@@ -453,7 +452,6 @@ country_event = {
 		#Lord Stark gets arrested 100% for historical AI
 		if = {
 			limit = {
-				is_ai = yes
 				is_historical_focus_on = yes
 				NOT = { has_global_flag = GOT_Sandbox_Mode }
 			}
@@ -2395,6 +2393,98 @@ country_event = {
 	}
 }
 
+#Oberyn Dies
+country_event = {
+	id = GOT_Diplomatic_Country.31
+	title = GOT_Diplomatic_Country.31.t
+	desc = GOT_Diplomatic_Country.31.d
+	picture = GFX_report_event_GOT_Story_Country336 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.31.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_stability = -0.10
+		add_war_support = 0.05
+		add_political_power = -50
+		
+		DOR_Oberyn_Martell = {
+			retire = yes
+		}
+		
+		add_country_leader_role = {
+			character = DOR_Ellaria_Sand
+			country_leader={
+				ideology=FR_subideology
+				expire="1965.1.1.1"
+				traits = {  
+					hedonist  
+					warmonger  
+					political_manipulator  
+				}
+			}
+			promote_leader = yes
+		}
+
+	}
+}
+
+#Oberyn Lives
+country_event = {
+	id = GOT_Diplomatic_Country.32
+	title = GOT_Diplomatic_Country.32.t
+	desc = GOT_Diplomatic_Country.32.d
+	picture = GFX_report_event_GOT_Story_Country336 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.32.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_stability = 0.10
+		add_war_support = 0.05
+		add_political_power = 50
+
+	}
+}
+
+#Tormund Captured
+country_event = {
+	id = GOT_Diplomatic_Country.33
+	title = GOT_Diplomatic_Country.33.t
+	desc = GOT_Diplomatic_Country.33.d
+	picture = GFX_report_event_GOT_Story_Country344
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.33.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		WIL_tormund_giantsbane = {
+			retire = yes
+		}
+		
+		add_stability = -0.10  # Wildling stability decreases due to the loss of their leader
+		add_war_support = -0.05  # The will to fight is diminished temporarily
+		add_political_power = 50  # Might be given as compensation to another Wildling leader for rallying the people or keeping order
+
+
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -2647,5 +2737,18 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.19.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.20
+	title = GOT_Diplomatic_News.20.t
+	desc = GOT_Diplomatic_News.20.d
+	picture = GFX_news_event_GOT_Story_News336 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.20.a
 	}
 }

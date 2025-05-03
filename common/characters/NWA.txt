@@ -61,6 +61,28 @@ characters={
 			logistics_skill = 3
 		}
 	}
+	
+	NWA_Pypar={
+		name=NWA_Pypar
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Pypar.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Pypar.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 
 	NWA_jon_snow={
 		name=NWA_jon_snow
