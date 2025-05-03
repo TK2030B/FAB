@@ -173,6 +173,10 @@ characters={
 				large="gfx/leaders/TAR/Portrait_Jorah_Mormont.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
 		}
 		corps_commander={
 			traits = { }

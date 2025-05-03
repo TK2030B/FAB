@@ -22,6 +22,8 @@ set_convoys = 25
 
 recruit_character=BEA_Maege_Mormont
 recruit_character=BEA_Lyanna_Mormont
+recruit_character=BEA_Jorah_Mormont
+recruit_character=BEA_Jeor_Mormont
 
 
 add_ideas = {

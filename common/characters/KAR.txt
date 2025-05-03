@@ -23,6 +23,17 @@ characters={
 				autocratic_imperialist
 			}
 		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				warmonger
+				staunch_monarchist
+				sins_of_the_father
+				hardened_officer
+				autocratic_imperialist
+			}
+		}
 		field_marshal={
 			traits = { }
 			skill = 2
