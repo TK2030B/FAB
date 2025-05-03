@@ -2146,6 +2146,9 @@ country_event = {
 			type = annex_everything
 		}
 		
+		add_state_claim = 228
+		add_state_claim = 134
+		
 		load_oob = TAR_Unsullied
 		
 		add_political_power = 25

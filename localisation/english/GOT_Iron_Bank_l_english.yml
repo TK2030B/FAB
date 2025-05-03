@@ -1,0 +1,43 @@
+﻿l_english:
+
+GOT_Iron_Bank_Country.1.t:0 "[FROM.GetName] Requests a Loan"
+GOT_Iron_Bank_Country.1.d:0 "[FROM.GetName] has formally requested a loan from the Iron Bank of Braavos. Their representatives claim they have the strength and legitimacy to triumph in the wars to come, and argue that the current regime’s debts remain unpaid. The Iron Bank must now decide whether to invest in their cause—or wait for a safer opportunity."
+GOT_Iron_Bank_Country.1.a:0 "Lend them the gold—profit lies in backing winners."
+GOT_Iron_Bank_Country.1.b:0 "Too unstable. We shall not fund them."
+
+GOT_Iron_Bank_Country.2.t:0 "The Iron Bank Grants Us a Loan"
+GOT_Iron_Bank_Country.2.d:0 "The Iron Bank of Braavos has agreed to finance our campaign. A sizable sum of gold has been dispatched, along with the unspoken expectation that we will repay our debt—one way or another. This funding could be the key to turning the tide."
+GOT_Iron_Bank_Country.2.a:0 "Their investment will not be in vain."
+
+GOT_Iron_Bank_Country.3.t:0 "The Iron Bank Denies Us a Loan"
+GOT_Iron_Bank_Country.3.d:0 "Our appeal to the Iron Bank of Braavos has been rejected. Citing uncertainty and risk, they have refused to support our cause with gold. We must now find another way forward—without Braavosi coin."
+GOT_Iron_Bank_Country.3.a:0 "So be it. We fight on without them."
+
+GOT_Iron_Bank_Country.4.t:0 "The Iron Bank Demands Repayment"
+GOT_Iron_Bank_Country.4.d:0 "The time has come to repay our debt to the Iron Bank of Braavos. As always, the Braavosi are punctual and uncompromising in financial matters. Failure to meet our obligations could have dire consequences—reputation, credit, and even support from Braavos itself may be at stake."
+GOT_Iron_Bank_Country.4.a:0 "Pay them. We honor our debts."
+GOT_Iron_Bank_Country.4.b:0 "We cannot—or will not—pay."
+
+GOT_Iron_Bank_Country.5.t:0 "[FROM.GetName] Begins Repaying the Loan"
+GOT_Iron_Bank_Country.5.d:0 "True to their word, [FROM.GetName] has begun repaying the gold loaned to them by the Iron Bank of Braavos. While interest continues to accrue, this gesture reinforces their reputation as a credible and honorable borrower in the eyes of the Braavosi."
+GOT_Iron_Bank_Country.5.a:0 "The Bank always remembers."
+
+GOT_Iron_Bank_News.2.t:0 "Iron Bank Grants Loan to [FROM.GetName]"
+GOT_Iron_Bank_News.2.d:0 "In a move with far-reaching implications, the Iron Bank of Braavos has extended a loan to [FROM.GetName]. Known for its calculating precision and ruthless enforcement of debts, the Iron Bank’s backing is seen as a powerful endorsement. Many now wonder whether this financial support will shift the balance in the wars to come."
+GOT_Iron_Bank_News.2.a:0 "A bold investment from Braavos."
+
+GOT_Iron_Bank_News.3.t:0 "Iron Bank Denies Loan to [FROM.GetName]"
+GOT_Iron_Bank_News.3.d:0 "The Iron Bank of Braavos has declined a request for financial support from [FROM.GetName]. Citing instability and uncertainty, the Braavosi bankers have opted to withhold their gold—for now. The refusal may have significant consequences for [FROM.GetAdjective] ambitions in the ongoing conflict."
+GOT_Iron_Bank_News.3.a:0 "The Iron Bank chooses caution."
+
+GOT_Iron_Bank_Loan:0 "Iron Bank Loan Disbursed"
+GOT_Iron_Bank_Loan_desc:0 "We have disbursed a large sum of gold to a foreign power. While this reduces domestic strain for now, repayment is expected in full—with interest."
+
+GOT_Iron_Bank_Loan_Reciever:0 "Iron Bank Loan Received"
+GOT_Iron_Bank_Loan_Reciever_desc:0 "The Iron Bank of Braavos has extended us a loan. It brings short-term relief, but the price will come due—and the Iron Bank always collects."
+
+GOT_Iron_Bank_Repaying_Loan:0 "Repaying the Iron Bank"
+GOT_Iron_Bank_Repaying_Loan_desc:0 "We have begun repaying the loan granted by the Iron Bank. Our economy bears the burden, but refusal is not an option—the Iron Bank remembers."
+
+GOT_Iron_Bank_Repaying_Loan_Reciever:0 "Loan Repayment Incoming"
+GOT_Iron_Bank_Repaying_Loan_Reciever_desc:0 "The debtor has begun repayment. Gold is flowing back into our coffers, just as agreed. The Iron Bank profits when its bets pay off."

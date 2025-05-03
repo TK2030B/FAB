@@ -2025,9 +2025,11 @@ GOT_Story_News.250.a: "Bran’s encounter with Samwell Tarly has provided both g
  GOT_Story_News.327.a: "Love turned to poison."
 
  # Stannis Baratheon’s Negotiation with the Iron Bank
- GOT_Story_Country.328.t: "Stannis Seeks Funds"
- GOT_Story_Country.328.d: "Stannis Baratheon and Davos Seaworth visit the Iron Bank of Braavos, hoping to secure funds for Stannis’s war effort. Initially hesitant, the bank agrees to lend Stannis the gold after Davos convinces them of the Lannisters’ unpaid debts. This marks a crucial turning point in Stannis’s campaign."
- GOT_Story_Country.328.a: "A debt owed to the Iron Bank."
+GOT_Story_Country.328.t:0 "The Iron Bank of Braavos"
+GOT_Story_Country.328.d:0 "With resources dwindling and the war dragging on, the question arises—should we appeal to the Iron Bank of Braavos for a loan? Davos argues that their gold could make the difference in our struggle, but others warn of the consequences of indebting ourselves to Braavos. The decision now rests with Stannis."
+GOT_Story_Country.328.a:0 "Send Davos—we need the gold to win this war."
+GOT_Story_Country.328.b:0 "We fight with what we have. We don’t need Braavosi gold."
+
 
  GOT_Story_News.328.t: "Iron Bank Lends Gold to Stannis"
  GOT_Story_News.328.d: "The Iron Bank of Braavos has agreed to fund Stannis Baratheon’s campaign against the Lannisters, signaling a shift in the balance of power. With the Lannisters in debt and Stannis now backed by gold, the war is far from over."

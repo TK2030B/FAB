@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+	
+		GOT_Iron_Bank_Loan = {
+			picture = RI_better_taxes
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		GOT_Iron_Bank_Loan_Reciever = {
+			picture = RI_better_taxes
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			on_remove = {
+				if = {
+					limit = {
+						country_exists = BRA
+						NOT = { has_war_with = BRA }
+					}
+					country_event = {
+						id = GOT_Iron_Bank_Country.4
+						hours = 6
+					}
+				}
+			}
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		GOT_Iron_Bank_Repaying_Loan = {
+			picture = RI_better_taxes
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+		}
+		
+		GOT_Iron_Bank_Repaying_Loan_Reciever = {
+			picture = RI_better_taxes
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = -0.20
+			}
+		}
+		
+	}
+	
+}

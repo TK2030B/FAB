@@ -3951,6 +3951,21 @@ country_event = {
 			target = CRO
 			expire = 365
 		}
+		
+		#Davos Made Hand of The King
+		add_advisor_role = {
+			character = DRA_Davos_Seaworth
+			activate = yes
+			advisor = {
+				slot = political_advisor
+				idea_token = DRA_Davos_Seaworth
+				can_be_fired = no
+				traits = {
+					hand_of_the_king
+				}
+			}
+		}
+		
 		#Every other country informed of Stannis claim
         every_other_country = {
             limit = {
@@ -8249,7 +8264,7 @@ country_event = {
         tag = TAR 
 		date > 1938.4.15
         date < 1939.4.15
-		controls_state = 228
+		228 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -9255,7 +9270,7 @@ country_event = {
         tag = YUN
 		date > 1938.8.1
         date < 1939.8.1
-		TAR = { controls_state = 228 } 
+		TAR = { 228 = { is_controlled_by_ROOT_or_subject = yes } } 
 		NOT = { has_war_with = TAR } 
     } 
  
@@ -9578,8 +9593,8 @@ country_event = {
     trigger = { 
         tag = TAR
 		date > 1938.9.5
-        date < 1938.10.5
-		controls_state = 228
+        date < 1939.9.5
+		228 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -9900,7 +9915,8 @@ country_event = {
 		date > 1938.10.10
         date < 1939.10.10
 		country_exists = YUN
-		controls_state = 228
+		228 = { is_controlled_by_ROOT_or_subject = yes }
+		NOT = { has_non_aggression_pact_with = YUN }
     } 
  
     fire_only_once = yes 
@@ -9913,6 +9929,9 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		
+		add_state_claim = 33
+		add_state_claim = 91
 		
 		create_wargoal = {
 			type = annex_everything
@@ -10114,7 +10133,7 @@ country_event = {
         tag = TAR
 		date > 1938.11.15
         date < 1939.11.15
-		controls_state = 33
+		33 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -10494,7 +10513,7 @@ country_event = {
 		date > 1939.1.1
         date < 1940.1.1
 		country_exists = MER
-		controls_state = 33
+		33 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -11121,6 +11140,10 @@ country_event = {
 			target = MER
 			expire = 365
 		}
+		
+		add_state_claim = 89
+		add_state_claim = 127
+		
  
         every_other_country = { 
             limit = { 
@@ -11262,7 +11285,7 @@ country_event = {
         tag = TAR 
 		date > 1939.4.15
         date < 1940.4.15
-		controls_state = 89
+		89 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -11630,8 +11653,7 @@ country_event = {
         tag = TAR
 		date > 1939.5.20
         date < 1940.5.20
-		controls_state = 89
-		has_war = no
+		owns_state = 89
     } 
  
     fire_only_once = yes 
@@ -11645,6 +11667,9 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = -0.05 
+		
+		add_state_core = 89
+		add_state_core = 127
  
         every_other_country = { 
             limit = { 
@@ -11839,6 +11864,8 @@ country_event = {
         tag = DRA
 		date > 1939.6.25
         date < 1939.7.25
+		country_exists = BRA
+		NOT = { has_war_with = BRA } 
     } 
  
     fire_only_once = yes 
@@ -11847,22 +11874,35 @@ country_event = {
         name = GOT_Story_Country.328.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 70 
         } 
  
         add_stability = -0.05 
         add_political_power = -25 
  
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
+        BRA = { 
             news_event = { 
-                id = GOT_Story_News.328 
+                id = GOT_Iron_Bank_Country.1 
                 hours = 6 
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.328.b
+ 
+        ai_chance = { 
+            factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}			
+        } 
+ 
+        add_stability = 0.05 
+        add_political_power = 25 
+
+    }
 } 
  
  # Stannis Baratheon’s Negotiation with the Iron Bank
@@ -11943,7 +11983,7 @@ country_event = {
         tag = TAR 
 		date > 1939.6.25
         date < 1940.6.25
-		controls_state = 89
+		89 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -12454,7 +12494,7 @@ country_event = {
         tag = TAR 
 		date > 1939.9.5
         date < 1940.9.5
-		controls_state = 89
+		89 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -12883,7 +12923,7 @@ country_event = {
         tag = TAR
 		date > 1939.11.15
         date < 1940.11.15
-		controls_state = 89
+		89 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 

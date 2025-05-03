@@ -2170,6 +2170,16 @@ spriteTypes = {
 			name = "GFX_news_event_Iron_Fleet"
 			texturefile = "gfx/event_pictures/News/news_event_Iron_Fleet.dds"
 		}
+		
+		spriteType = {
+			name = "GFX_report_event_Iron_Bank"
+			texturefile = "gfx/event_pictures/Country/report_event_Iron_Bank.dds"
+		}
+
+		spriteType = {
+			name = "GFX_news_event_Iron_Bank"
+			texturefile = "gfx/event_pictures/News/news_event_Iron_Bank.dds"
+		}
 
 
 

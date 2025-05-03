@@ -1,0 +1,294 @@
+add_namespace = GOT_Iron_Bank_Country
+add_namespace = GOT_Iron_Bank_News
+
+#FROM Asks for Loan
+country_event = {
+	id = GOT_Iron_Bank_Country.1
+	title = GOT_Iron_Bank_Country.1.t
+	desc = GOT_Iron_Bank_Country.1.d
+	picture = GFX_report_event_Iron_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Iron_Bank_Country.1.a
+
+		ai_chance = {
+			factor = 40
+			modifier = {
+				add = 50
+				FROM = { surrender_progress < 0.11 }
+			}
+			modifier = {
+				add = 40
+				FROM = { surrender_progress > 0.10 }
+				FROM = { surrender_progress < 0.21 }
+			}
+			modifier = {
+				add = 30
+				FROM = { surrender_progress > 0.20 }
+				FROM = { surrender_progress < 0.31 }
+			}
+			modifier = {
+				add = 20
+				FROM = { surrender_progress > 0.30 }
+				FROM = { surrender_progress < 0.41 }
+			}
+			modifier = {
+				add = 10
+				FROM = { surrender_progress > 0.40 }
+				FROM = { surrender_progress < 0.51 }
+			}
+			modifier = {
+				add = 10
+				FROM = { has_stability > 0.50 }
+				FROM = { has_stability < 0.61 }
+			}
+			modifier = {
+				add = 20
+				FROM = { has_stability > 0.60 }
+				FROM = { has_stability < 0.71 }
+			}
+			modifier = {
+				add = 30
+				FROM = { has_stability > 0.70 }
+				FROM = { has_stability < 0.81 }
+			}
+			modifier = {
+				add = 40
+				FROM = { has_stability > 0.80 }
+				FROM = { has_stability < 0.91 }
+			}
+			modifier = {
+				add = 50
+				FROM = { has_stability > 0.90 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { has_civil_war = yes }
+			}
+			modifier = {
+				factor = 2
+				FROM = { 
+					DRA_Davos_Seaworth = { 
+						is_hired_as_advisor = yes
+					} 	
+				}
+			}
+		}
+		
+		add_timed_idea = {
+			idea = GOT_Iron_Bank_Loan
+			days = 365
+		}
+		
+		FROM = { 
+			id = GOT_Iron_Bank_Country.2
+			hours = 6 
+        } 
+		
+	}
+	
+	option = {
+		name = GOT_Iron_Bank_Country.b.a
+
+		ai_chance = {
+			factor = 60
+			modifier = {
+				add = 10
+				FROM = { surrender_progress > 0.50 }
+				FROM = { surrender_progress < 0.61 }
+			}
+			modifier = {
+				add = 20
+				FROM = { surrender_progress > 0.60 }
+				FROM = { surrender_progress < 0.71 }
+			}
+			modifier = {
+				add = 30
+				FROM = { surrender_progress > 0.70 }
+				FROM = { surrender_progress < 0.81 }
+			}
+			modifier = {
+				add = 40
+				FROM = { surrender_progress > 0.80 }
+				FROM = { surrender_progress < 0.91 }
+			}
+			modifier = {
+				add = 40
+				FROM = { has_stability < 0.11 }
+			}
+			modifier = {
+				add = 30
+				FROM = { has_stability > 0.10 }
+				FROM = { has_stability < 0.21 }
+			}
+			modifier = {
+				add = 20
+				FROM = { has_stability > 0.20 }
+				FROM = { has_stability < 0.31 }
+			}
+			modifier = {
+				add = 10
+				FROM = { has_stability > 0.30 }
+				FROM = { has_stability < 0.41 }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { has_civil_war = yes }
+			}
+		}
+		
+		FROM = { 
+			id = GOT_Iron_Bank_Country.3
+			hours = 6 
+        }
+		
+	}
+}
+
+#Loan Granted
+country_event = {
+	id = GOT_Iron_Bank_Country.2
+	title = GOT_Iron_Bank_Country.2.t
+	desc = GOT_Iron_Bank_Country.2.d
+	picture = GFX_report_event_Iron_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Iron_Bank_Country.2.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_timed_idea = {
+			idea = GOT_Iron_Bank_Loan_Reciever
+			days = 365
+		}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Iron_Bank_News.2
+                hours = 6 
+            } 
+        }
+		
+	}
+}
+
+#Loan Denied
+country_event = {
+	id = GOT_Iron_Bank_Country.3
+	title = GOT_Iron_Bank_Country.3.t
+	desc = GOT_Iron_Bank_Country.3.d
+	picture = GFX_report_event_Iron_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Iron_Bank_Country.3.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Iron_Bank_News.3
+                hours = 6 
+            } 
+        }
+		
+	}
+}
+
+#Time to Repay Loan
+country_event = {
+	id = GOT_Iron_Bank_Country.4
+	title = GOT_Iron_Bank_Country.4.t
+	desc = GOT_Iron_Bank_Country.4.d
+	picture = GFX_report_event_Iron_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Iron_Bank_Country.4.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_timed_idea = {
+			idea = GOT_Iron_Bank_Repaying_Loan
+			days = 365
+		}
+		
+		BRA = {
+			country_event = {
+				id = GOT_Iron_Bank_Country.5
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Starts Repaying Loan
+country_event = {
+	id = GOT_Iron_Bank_Country.5
+	title = GOT_Iron_Bank_Country.5.t
+	desc = GOT_Iron_Bank_Country.5.d
+	picture = GFX_report_event_Iron_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Iron_Bank_Country.5.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_timed_idea = {
+			idea = GOT_Iron_Bank_Repaying_Loan_Reciever
+			days = 365
+		}
+		
+	}
+}
+
+#Iron Bank Grants Loan To FROM
+news_event = {
+	id = GOT_Iron_Bank_News.2
+	title = GOT_Iron_Bank_News.2.t
+	desc = GOT_Iron_Bank_News.2.d
+	picture = GFX_news_event_Iron_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Iron_Bank_News.2.a
+	}
+}
+
+#Iron Denies Loan To FROM
+news_event = {
+	id = GOT_Iron_Bank_News.3
+	title = GOT_Iron_Bank_News.3.t
+	desc = GOT_Iron_Bank_News.3.d
+	picture = GFX_news_event_Iron_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Iron_Bank_News.3.a
+	}
+}

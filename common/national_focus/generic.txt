@@ -3984,7 +3984,7 @@ focus_tree = {
 						}
 					}
 					create_unit = {
-						division = "name = \"City Watch\" division_template = \"City Watch Division\" start_experience_factor = 1.0"
+						division = "name = \"City Watch\" division_template = \"City Watch Division\" start_experience_factor = 0.0"
 						owner = ROOT
 					}
 				}
@@ -4006,29 +4006,12 @@ focus_tree = {
 			focus = GOT_deterrence
 		}
 		completion_reward = {
-			hidden_effect = {
-				every_owned_state = {
-					if = {
-						limit = {
-							any_neighbor_state = {
-								NOT = {
-									is_owned_by = ROOT
-								}
-							}
-						}
-						set_building_level = {
-							type = bunker
-							level = 1
-							province = {
-								all_provinces = yes
-								limit_to_border = yes
-								level < 1
-							}
-						}
-					}
-				}
+			add_tech_bonus = {
+				name = fortification_bonus
+				bonus = 0.50
+				uses = 1
+				category = cat_fortification
 			}
-			custom_effect_tooltip = RI_bunkers_built
 		}
 	}
 	focus = {
