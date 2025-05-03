@@ -25,6 +25,13 @@ GOT_Purple_Wedding_Flag:0 "Purple Wedding"
 GOT_Jaime_Captured_Flag:0 "Jaime Captured"
 GOT_NOR_FRE_Promise_Flag:0 "Robb Promises To Marry Frey Daughter"
 GOT_Dany_In_Astapor:0 "Danaerys In Astapor"
+GOT_Karhold_Released:0 "Karstarks On Map"
+GOT_Edmure_To_Marry_Roslin_Flag:0 "Edmure Promised To Roslin"
+GOT_Freys_Insulted_Flag:0 "Frey's Insulted"
+GOT_Sansa_To_Marry_Tyrion_Flag:0 "Sansa Promised To Tyrion"
+GOT_Robb_Honors_Marriage_Flag:0 "Robb Honors Marriage Pact"
+GOT_Theon_Captured_Flag:0 "Theon Captured"
+GOT_Oberyn_Tyrions_Champion:0 "Oberyn Tyrion's Champion"
 
 Game_Event.1.t:0 "Welcome (1/4)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -1175,9 +1182,10 @@ GOT_Story_News.144.a: "Tyrion’s victory bolsters his standing in King’s Land
 
 # Robb Marries Talisa
 GOT_Story_Country.145.t: "A Stark Wedding in Secret"
-GOT_Story_Country.145.d: "Robb Stark weds Talisa Maegyr in a private ceremony, defying his oath to House Frey. His personal choice over political duty risks alienating key allies and sets a dangerous precedent for the future of the North."
-GOT_Story_Country.145.a: "Love over duty—what could go wrong?"
-GOT_Story_Country.145.b: "We chose each other, not war."
+GOT_Story_Country.145.d: "I stand at a crossroads between love and duty. Talisa Maegyr has captured my heart, yet my promise to House Frey still lingers—a fragile pact that could decide the fate of the North. To follow my heart is to risk the wrath of the Freys; to honor the alliance may cost me personal happiness, but preserve the strength of our cause."
+GOT_Story_Country.145.a: "Marry Talisa Maegyr—follow my heart."
+GOT_Story_Country.145.b: "Marry Roslin Frey—honor the alliance."
+
 
 GOT_Story_News.145.t: "Robb Stark Marries Talisa"
 GOT_Story_News.145.d: "Robb Stark has secretly married Talisa Maegyr, breaking his betrothal to House Frey. While love may have triumphed, this decision could have dire political consequences for the North."
@@ -1470,9 +1478,11 @@ GOT_Story_News.222.d: "Jaime Lannister has confessed to the true reason behind h
 GOT_Story_News.222.a: "Jaime Lannister’s confession changes the narrative surrounding the Mad King’s death."
 
 # Robb Stark Executes Lord Karstark, Losing Key Allies
-GOT_Story_Country.223.t: "Robb Stark’s Difficult Decision"
-GOT_Story_Country.223.d: "It was a moment that shook me to my core. Lord Karstark, in his rage, murdered two captive Lannister boys, and I could not let this treason go unpunished. I executed him, despite the counsel of my advisors. The cost was great—Karstark's forces have left me, and our position is weaker. But I will not tolerate disloyalty. To strengthen my position, I now seek an alliance with House Frey, through the marriage of my uncle Edmure Tully to one of Lord Walder Frey’s daughters."
-GOT_Story_Country.223.a: "I must secure my position, even at the cost of old alliances."
+ GOT_Story_Country.223.t: "Robb Stark’s Difficult Decision"
+ GOT_Story_Country.223.d: "It was a moment that shook me to my core. Lord Karstark, in his rage, murdered two captive Lannister boys, and I could not let this treason go unpunished. The consequences of my decision are great, and my advisors are divided. I have three choices before me: I could execute Lord Karstark, send a message of unwavering justice, but risk losing his forces and weakening my position. Alternatively, I could hold him hostage, keeping him alive and ensuring his forces remain loyal, but under my control. Or, perhaps, I could pardon him, showing mercy to maintain our alliances, but this would come at the cost of political power and risk losing the trust of my other bannermen."
+ GOT_Story_Country.223.a: "Execute Lord Karstark"
+ GOT_Story_Country.223.b: "Hold Lord Karstark hostage"
+ GOT_Story_Country.223.c: "Pardon Lord Karstark"
 
 # Robb Stark Executes Lord Karstark, Losing Key Allies
 GOT_Story_News.223.t: "Robb Stark Executes Lord Karstark, Faces Loss of Key Allies"
@@ -1532,8 +1542,10 @@ GOT_Story_News.228.a: "The red priestess’s plans grow ever more mysterious wit
 
 # Robb Stark Seeks Alliance with House Frey
 GOT_Story_Country.229.t: "Robb Stark Negotiates with House Frey"
-GOT_Story_Country.229.d: "I sought to mend the rift with House Frey, and their terms were clear: a formal apology from me, the transfer of Harrenhal, and the marriage of my uncle Edmure Tully to one of Lord Walder Frey’s daughters. I initially resisted, but the Blackfish’s words, my mother’s reproaches, and the threat of Frey’s wrath left me no choice. Edmure reluctantly agreed, and the marriage will take place."
-GOT_Story_Country.229.a: "In the game of alliances, sometimes sacrifices must be made."
+GOT_Story_Country.229.d: "I sought to mend the rift with House Frey, and their terms were clear: a formal apology from me, the transfer of Harrenhal, and the marriage of my uncle Edmure Tully to one of Lord Walder Frey’s daughters. I initially resisted, but the Blackfish’s words, my mother’s reproaches, and the threat of Frey’s wrath left me no choice. Edmure reluctantly agreed, and the marriage will take place—unless I choose a different path."
+GOT_Story_Country.229.a: "Agree to their demands"
+GOT_Story_Country.229.b: "We don't need the Freys"
+
 
 # Robb Stark Seeks Alliance with House Frey
 GOT_Story_News.229.t: "Robb Stark Forms New Alliance with House Frey"
@@ -1734,9 +1746,10 @@ GOT_Story_News.248.d: "Daenerys Targaryen has liberated the city of Yunkai, free
 GOT_Story_News.248.a: "Daenerys’s triumph in Yunkai has bolstered her influence, heralding her as a beacon of hope."
 
 # Stannis’s Decision to Aid the Wall
-GOT_Story_Country.249.t: "Stannis’s Decision to Aid the Wall"
-GOT_Story_Country.249.d: "After learning of the White Walkers' imminent threat, Stannis Baratheon decides to march north and assist the Night's Watch. Though he initially ordered the execution of Gendry, Davos Seaworth intervened, ensuring Gendry’s escape. Stannis, now recognizing the urgency of the situation, agrees to help defend the Wall against the coming danger."
-GOT_Story_Country.249.a: "Stannis has set his eyes on the Wall, rallying to face the growing threat of the White Walkers."
+GOT_Story_Country.249.t: "Stannis's Dilemma at the Wall"
+GOT_Story_Country.249.d: "News from the North speaks of the Night's Watch being overwhelmed by the wildlings and rumors of an even darker threat beyond the Wall. Stannis Baratheon, ever driven by duty and destiny, stands at a crossroads. With the realm in chaos, aiding the Wall could earn him the favor of the gods—and the people—but it would divert resources from his campaign for the Iron Throne. Some urge immediate action to crush the wildling host, while others argue the Wall is not his concern."
+GOT_Story_Country.249.a: "March north and attack the wildlings before it's too late."
+GOT_Story_Country.249.b: "The Wall is not our concern. Let them fend for themselves."
 
 # Stannis’s Decision to Aid the Wall
 GOT_Story_News.249.t: "Stannis to Aid the Wall Against the White Walkers"
@@ -1753,6 +1766,13 @@ GOT_Story_News.250.t: "Bran Stark Meets Samwell Tarly at the Nightfort"
 GOT_Story_News.250.d: "Bran Stark and his companions have crossed paths with Samwell Tarly and Gilly at the Nightfort. Samwell, recognizing Bran as Jon Snow’s brother, offers valuable advice and dragonglass weapons to help protect against the dangers beyond the Wall. Samwell also reveals a secret passage that will aid Bran’s journey to the north."
 GOT_Story_News.250.a: "Bran’s encounter with Samwell Tarly has provided both guidance and protection as he continues his journey beyond the Wall."
 
+ GOT_Story_Country.251.t: "The Passing of Lord Hoster"
+ GOT_Story_Country.251.d: "Lord Hoster Tully, Warden of the Trident and Lord of Riverrun, has passed away after a long illness. A generation of the Riverlands mourns the death of a steady and honorable ruler who held the realm together through times of peace and war. With his passing, the weight of leadership falls upon Edmure Tully. The Blackfish has returned to Riverrun, and the funeral rites will soon be held upon the waters. Change is upon the Riverlands—and the banners must rally once more."
+ GOT_Story_Country.251.a: "He kept the Riverlands united. May he rest in peace."
+
+ GOT_Story_News.251.t: "Lord Hoster Tully Dies"
+ GOT_Story_News.251.d: "Lord Hoster Tully of Riverrun, longtime Warden of the Trident and Lord Paramount of the Riverlands, has died after a prolonged illness. Revered as a cautious yet firm leader, his passing marks the end of an era for the Riverlands. His son, Edmure Tully, is expected to assume his titles. Lord Brynden 'Blackfish' Tully has returned to Riverrun for the funeral, where traditional river rites will be observed. As the tides of Westeros shift, many wonder what course the Riverlands will chart without Hoster’s guiding hand."
+ GOT_Story_News.251.a: "A lord has fallen. The Riverlands mourn."
 
 ############
 ##SEASON 4##
@@ -2421,6 +2441,14 @@ GOT_Diplomatic_News.15.a: "A new lion rises at the Rock."
 GOT_Diplomatic_News.16.t: "House Frey Bars the Bridge"
 GOT_Diplomatic_News.16.d: "Tensions rise along the Trident as word spreads that Lord Walder Frey has denied passage to Robb Stark and his Northern host. The cause? A refusal by Robb to accept Frey’s terms—chief among them, a marriage pact to one of his daughters.\n\nObservers note that while the Twins offer the most direct route south, the Lord of the Crossing has never been one to act without gain. With negotiations collapsed, the North must now find another way forward—one that could cost them precious time, supplies, and perhaps the momentum of their campaign.\n\nSome whisper that Robb Stark has made a noble choice, preserving his freedom and pride. Others question the wisdom of alienating a powerful house for the sake of personal honor."
 GOT_Diplomatic_News.16.a: "The river remains uncrossed—for now."
+
+GOT_Diplomatic_News.17.t: "Robb Stark Detains Lord Karstark"
+GOT_Diplomatic_News.17.d: "In a controversial move, King Robb Stark of the North has chosen to imprison Lord Rickard Karstark rather than execute him for the murder of two Lannister prisoners. While some view this as a wise attempt to preserve unity among his bannermen, others see it as a dangerous show of indecision. The Karstark host has broken away from the Stark army, raising tensions across the North. Whether this gamble will preserve the Northern alliance or invite further instability remains to be seen."
+GOT_Diplomatic_News.17.a: "The North begins to fracture..."
+
+GOT_Diplomatic_News.18.t: "Robb Stark Pardons Lord Karstark"
+GOT_Diplomatic_News.18.d: "In a stunning decision, King Robb Stark has chosen to pardon Lord Rickard Karstark for the murder of two Lannister prisoners. The move has shocked many across Westeros—some see it as a necessary act of pragmatism to maintain unity in the North, while others view it as a grave mistake that undermines Robb’s authority. While the Karstarks remain in his ranks, murmurs of doubt now spread through his bannermen. Forgiveness, it seems, carries its own cost."
+GOT_Diplomatic_News.18.a: "Mercy—or weakness?"
 
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"

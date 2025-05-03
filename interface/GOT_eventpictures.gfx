@@ -1628,6 +1628,16 @@ spriteTypes = {
 			name = "GFX_news_event_GOT_Story_News250" 
 			texturefile = "gfx/event_pictures/News/GOT_Story_News250.dds" 
 		} 
+		
+		spriteType = { 
+			name = "GFX_report_event_GOT_Story_Country251" 
+			texturefile = "gfx/event_pictures/Country/GOT_Story_Country251.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_GOT_Story_News251" 
+			texturefile = "gfx/event_pictures/News/GOT_Story_News251.dds" 
+		} 
 		 
 		spriteType = { 
 			name = "GFX_report_event_GOT_Story_Country301" 

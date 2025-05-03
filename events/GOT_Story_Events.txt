@@ -6854,7 +6854,7 @@ country_event = {
         name = GOT_Story_Country.145.a
 
         ai_chance = {
-            factor = 10
+            factor = 65
         }
 
         add_stability = -0.05
@@ -6873,6 +6873,32 @@ country_event = {
             }
         }
     }
+	
+	option = {
+        name = GOT_Story_Country.145.b
+		
+		trigger = {
+			has_global_flag = GOT_NOR_FRE_Promise_Flag
+		}
+
+        ai_chance = {
+            factor = 35
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        add_stability = 0.05
+		add_war_support = 0.05
+		add_political_power = 25
+		
+		set_global_flag = GOT_Robb_Honors_Marriage_Flag
+
+
+    }
+	
+			
 }
 ## Robb Marries Talisa
 news_event = {
@@ -8123,18 +8149,7 @@ country_event = {
     desc = GOT_Story_Country.214.d 
     picture = GFX_report_event_GOT_Story_Country214 
  
-    trigger = { 
-        tag = NOR
-		is_in_faction_with = RIV
-		date > 1938.3.10
-        date < 1938.4.10
-		has_country_leader = {
-			name = "Robb Stark"
-			ruling_only = yes
-		}
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes 
  
     option = { 
         name = GOT_Story_Country.214.a 
@@ -8233,7 +8248,8 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1938.4.15
-        date < 1938.5.15
+        date < 1939.4.15
+		controls_state = 228
     } 
  
     fire_only_once = yes 
@@ -8287,6 +8303,10 @@ country_event = {
         tag = NWA 
 		date > 1938.4.15
         date < 1938.5.15
+		has_country_leader = {
+			name = "Jeor Mormont"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -8300,6 +8320,23 @@ country_event = {
  
         add_stability = -0.05 
         add_war_support = -0.05 
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+			character = NWA_alliser_thorne
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					stout_defender  
+					reluctant_veteran  
+					anti_democrat  
+					dictator  
+				}
+			}
+			promote_leader = yes
+		}
  
         every_other_country = { 
             limit = { 
@@ -8336,8 +8373,9 @@ country_event = {
  
     trigger = { 
         tag = CRO 
-		date > 1938.4.15
-        date < 1938.5.15
+		date > 1938.6.25
+        date < 1938.7.25
+		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
     fire_only_once = yes 
@@ -8441,6 +8479,7 @@ country_event = {
         date < 1938.5.15
 		has_war_with = NOR
 		has_global_flag = GOT_Theon_Grabs_Winterfell_Flag
+		NOT = { controls_state = 156 }
     } 
  
     fire_only_once = yes 
@@ -8455,6 +8494,8 @@ country_event = {
         add_stability = -0.05 
         add_war_support = -0.05 
         add_political_power = -25 
+		
+		set_global_flag = GOT_Theon_Captured_Flag
  
         every_other_country = { 
             limit = { 
@@ -8493,6 +8534,7 @@ country_event = {
         tag = RIV 
 		date > 1938.5.20
         date < 1938.6.20
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -8582,48 +8624,164 @@ news_event = {
         name = GOT_Story_News.222.a 
     } 
 } 
- 
-# Robb Stark Executes Lord Karstark, Losing Key Allies
-country_event = { 
-    id = GOT_Story_Country.223 
-    title = GOT_Story_Country.223.t 
-    desc = GOT_Story_Country.223.d 
-    picture = GFX_report_event_GOT_Story_Country223 
- 
-    trigger = { 
+ # Robb Stark Executes Lord Karstark, Losing Key Allies
+country_event = {
+    id = GOT_Story_Country.223
+    title = GOT_Story_Country.223.t
+    desc = GOT_Story_Country.223.d
+    picture = GFX_report_event_GOT_Story_Country223
+
+    trigger = {
         tag = NOR
-		date > 1938.5.20
+        date > 1938.5.20
         date < 1938.6.20
-		has_country_leader = {
-			name = "Robb Stark"
-			ruling_only = yes
+        has_country_leader = {
+            name = "Robb Stark"
+            ruling_only = yes
+        }
+        has_war_with = WES
+		OR = {
+			AND = {
+				NOT = { country_exists = KAR }
+				NOR = { owns_state = 154 }
+			}
+			NOT = { KAR = { is_puppet_of = NOR } }
 		}
-		has_war_with = WES
-    } 
- 
-    fire_only_once = yes 
- 
-    option = { 
-        name = GOT_Story_Country.223.a 
- 
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Story_Country.223.a  # Execute Lord Karstark
+        ai_chance = { factor = 40 }
+		
+		set_country_flag = GOT_Karhold_Released
+
+        add_stability = -0.05
+        add_political_power = -25
+        add_war_support = -0.05
+		
+		release = KAR
+		end_puppet = KAR
+		
+		transfer_units_fraction = {
+			target = KAR
+			size = 0.2
+			stockpile_ratio = 0.2
+			army_ratio = 0.2
+			navy_ratio = 0.2
+			air_ratio = 0.2
+		}
+
+        KAR = {
+			if  = {
+				limit = {
+					has_country_leader = {
+						name = "Rickard Karstark"
+						ruling_only = yes
+					}
+				}
+				kill_country_leader = yes
+				add_country_leader_role = {
+					character = KAR_Harald_Karstark
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = {
+							legitimate_heir
+							inexperienced_imperialist
+							autocratic_imperialist
+							collaborator_king
+							sins_of_the_father
+						}
+					}
+					promote_leader = yes
+				}
+			}
+            leave_faction = yes
+			if  = {
+				limit = {
+					has_war_with = CRO
+				}
+				every_country = {
+					limit = { is_in_faction_with = CRO }
+					white_peace = KAR
+					set_truce = { target = KAR days = 365 }
+				}
+				KAR = {
+					white_peace = CRO
+					set_truce = { target = CRO days = 365 }
+				}
+			}
+            add_opinion_modifier = {
+				target = NOR
+				modifier = RI_super_hostile_foreign_policy
+			}
+        }
+
+        every_other_country = {
+            limit = { exists = yes }
+            news_event = { id = GOT_Story_News.223 hours = 6 }
+        }
+    }
+
+    option = {
+        name = GOT_Story_Country.223.b  # Hold Lord Karstark hostage
         ai_chance = { 
-            factor = 10 
-        } 
- 
-        add_stability = -0.05 
-        add_war_support = -0.05 
-        add_political_power = -25 
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.223 
-                hours = 6 
-            } 
-        } 
-    } 
+			factor = 30 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		set_country_flag = GOT_Karhold_Released
+
+        add_political_power = -15
+		
+		release = KAR
+		puppet = KAR
+		
+		transfer_units_fraction = {
+			target = KAR
+			size = 0.2
+			stockpile_ratio = 0.2
+			army_ratio = 0.2
+			navy_ratio = 0.2
+			air_ratio = 0.2
+		}
+
+        KAR = {
+			add_opinion_modifier = {
+				target = NOR
+				modifier = RI_hostile_foreign_policy
+			}
+        }
+
+        every_other_country = {
+            limit = { exists = yes }
+            news_event = { id = GOT_Diplomatic_News.17 hours = 6 }
+        }
+    }
+
+    option = {
+        name = GOT_Story_Country.223.c  # Pardon Lord Karstark
+        ai_chance = { 
+			factor = 30 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+        add_political_power = -40
+        add_stability = 0.02
+
+        every_other_country = {
+            limit = { exists = yes }
+            news_event = { id = GOT_Diplomatic_News.18 hours = 6 }
+        }
+    }
 } 
  
 # Robb Stark Executes Lord Karstark, Losing Key Allies
@@ -8701,6 +8859,8 @@ country_event = {
         tag = WES 
 		date > 1938.5.20
         date < 1938.6.20
+		is_in_faction_with = TYR
+		has_global_flag = GOT_Sansa_In_Kings_Landing
     } 
  
     fire_only_once = yes 
@@ -8714,6 +8874,8 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = 25 
+		
+		set_global_flag = GOT_Sansa_To_Marry_Tyrion_Flag
  
         every_other_country = { 
             limit = { 
@@ -8909,6 +9071,14 @@ country_event = {
 			name = "Robb Stark"
 			ruling_only = yes
 		}
+		RIV = {
+			has_country_leader = {
+				name = "Edmure Tully"
+				ruling_only = yes
+			}
+		}
+		has_global_flag = GOT_Robb_Marries_Talissa_Flag
+		has_global_flag = GOT_NOR_FRE_Promise_Flag
     } 
  
     fire_only_once = yes 
@@ -8917,8 +9087,10 @@ country_event = {
         name = GOT_Story_Country.229.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 80 
         } 
+		
+		set_global_flag = GOT_Edmure_To_Marry_Roslin_Flag
  
         add_stability = 0.05 
         add_war_support = 0.05 
@@ -8934,6 +9106,25 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.229.b 
+ 
+        ai_chance = { 
+            factor = 20 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+		
+		set_global_flag = GOT_Freys_Insulted_Flag
+ 
+        add_stability = -0.05 
+        add_war_support = -0.05 
+        add_political_power = -25 
+  
+    }
 } 
  
 # Robb Stark Seeks Alliance with House Frey
@@ -8961,7 +9152,7 @@ country_event = {
         tag = CRO
 		date > 1938.6.25
         date < 1938.7.25
-		has_global_flag = GOT_Sansa_In_Kings_Landing
+		has_global_flag = GOT_Sansa_To_Marry_Tyrion_Flag
     } 
  
     fire_only_once = yes 
@@ -9064,6 +9255,7 @@ country_event = {
         tag = TAR
 		date > 1938.8.1
         date < 1938.9.1
+		controls_state = 228
     } 
  
     fire_only_once = yes 
@@ -9119,6 +9311,7 @@ country_event = {
 			name = "Robb Stark"
 			ruling_only = yes
 		}
+		has_global_flag = GOT_Robb_Marries_Talissa_Flag
     } 
  
     fire_only_once = yes 
@@ -9221,7 +9414,7 @@ country_event = {
 		date > 1938.8.1
         date < 1938.9.1
 		has_war_with = NOR
-		has_global_flag = GOT_Theon_Grabs_Winterfell_Flag
+		has_global_flag = GOT_Theon_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -9273,7 +9466,7 @@ country_event = {
         tag = CRO 
 		date > 1938.9.5
         date < 1938.10.5
-		has_global_flag = GOT_Sansa_In_Kings_Landing
+		has_global_flag = GOT_Sansa_To_Marry_Tyrion_Flag
     } 
  
     fire_only_once = yes 
@@ -9693,7 +9886,7 @@ country_event = {
     trigger = { 
         tag = TAR
 		date > 1938.10.10
-        date < 1938.11.10
+        date < 1939.10.10
 		country_exists = YUN
 		controls_state = 228
     } 
@@ -9905,7 +10098,7 @@ country_event = {
     trigger = { 
         tag = TAR
 		date > 1938.11.15
-        date < 1938.12.15
+        date < 1939.11.15
 		controls_state = 33
     } 
  
@@ -9958,7 +10151,13 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1938.11.15
-        date < 1938.12.15
+        date < 1939.11.15
+		NWA = { has_war_with = WIL } 
+		NOT = { has_war_with = NWA } 
+		has_country_leader = {
+			name = "Stannis Baratheon"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -9967,11 +10166,17 @@ country_event = {
         name = GOT_Story_Country.249.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 65 
         } 
  
-        add_stability = 0.05 
+        add_stability = -0.05 
         add_war_support = 0.05 
+		
+		create_wargoal = {
+			type = annex_everything
+			target = WIL
+			expire = 365
+		}
  
         every_other_country = { 
             limit = { 
@@ -9982,7 +10187,23 @@ country_event = {
                 hours = 6 
             } 
         } 
-    } 
+    }
+
+	option = { 
+        name = GOT_Story_Country.249.b 
+ 
+        ai_chance = { 
+            factor = 35
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = -0.05 
+		
+    }	
 } 
  
 # Stannis’s Decision to Aid the Wall
@@ -10047,6 +10268,96 @@ news_event = {
  
     option = { 
         name = GOT_Story_News.250.a 
+    } 
+} 
+
+# Death of Hoster Tully
+country_event = { 
+    id = GOT_Story_Country.251 
+    title = GOT_Story_Country.251.t 
+    desc = GOT_Story_Country.251.d 
+    picture = GFX_report_event_GOT_Story_Country251 
+ 
+    trigger = { 
+        tag = RIV
+		date > 1938.3.10
+        date < 1938.4.10
+		has_country_leader = {
+			name = "Hoster Tully"
+			ruling_only = yes
+		}
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.251.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = -0.05 
+		
+		kill_country_leader = yes
+		
+		add_country_leader_role = {
+				character = RIV_Edmure_Tully
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {  
+						incompetent_leader  
+						headstrong  
+						stout_defender  
+						reluctant_veteran  
+						unpopular_monarch  
+					}
+				}
+				promote_leader = yes
+			}
+		
+		if = { 
+            limit = { 
+				NOR = {
+					has_country_leader = {
+						name = "Robb Stark"
+						ruling_only = yes
+					}
+					NOT = { has_war_with = RIV }
+				}
+            } 
+			NOR = {
+				country_event = { 
+					id = GOT_Story_Country.214  
+					hours = 6 
+				} 
+			}
+        }
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.251 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# Death of Hoster Tully
+news_event = { 
+    id = GOT_Story_News.251 
+    title = GOT_Story_News.251.t 
+    desc = GOT_Story_News.251.d 
+    picture = GFX_news_event_GOT_Story_News251 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.251.a 
     } 
 } 
 
@@ -10166,7 +10477,7 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1939.1.1
-        date < 1939.2.1
+        date < 1940.1.1
 		country_exists = MER
 		controls_state = 33
     } 
@@ -10223,6 +10534,9 @@ country_event = {
 		country_exists = DOR
 		CRO_Tyrion_Lannister = { 
 			is_hired_as_advisor = yes
+		}
+		NOT = { 
+			has_war_with = DOR
 		}
     } 
  
@@ -10324,7 +10638,7 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1939.2.5
-        date < 1939.3.5
+        date < 1940.2.5
 		is_in_faction_with = REA
 		has_country_leader = {
 			name = "Joffrey Baratheon"
@@ -10403,7 +10717,7 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1939.2.5
-        date < 1939.3.5
+        date < 1940.2.5
 		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
@@ -10460,7 +10774,7 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1939.2.5
-        date < 1939.3.5
+        date < 1940.2.5
 		has_global_flag = GOT_Purple_Wedding_Flag
 		has_global_flag = GOT_Sansa_In_Kings_Landing
     } 
@@ -10616,7 +10930,7 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1939.3.10
-        date < 1939.4.10
+        date < 1940.3.10
 		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
@@ -10668,7 +10982,7 @@ country_event = {
     trigger = { 
         tag = NOR
 		date > 1939.3.10
-        date < 1939.4.10
+        date < 1940.3.10
 		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -10772,7 +11086,7 @@ country_event = {
     trigger = { 
         tag = TAR
 		date > 1939.3.10
-        date < 1939.4.10
+        date < 1940.3.10
 		country_exists = MER
     } 
  
@@ -10932,7 +11246,7 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1939.4.15
-        date < 1939.5.15
+        date < 1940.4.15
 		controls_state = 89
     } 
  
@@ -11087,7 +11401,7 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1939.4.15
-        date < 1939.5.15
+        date < 1940.4.15
 		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
@@ -11139,7 +11453,7 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1939.5.20
-        date < 1939.6.20
+        date < 1940.5.20
 		has_government = neutrality
 		has_country_leader = {
 			name = "Tommen Baratheon"
@@ -11197,7 +11511,7 @@ country_event = {
     trigger = { 
         tag = VAL 
 		date > 1939.5.20
-        date < 1939.6.20
+        date < 1940.5.20
 		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -11300,8 +11614,9 @@ country_event = {
     trigger = { 
         tag = TAR
 		date > 1939.5.20
-        date < 1939.6.20
+        date < 1940.5.20
 		controls_state = 89
+		has_war = no
     } 
  
     fire_only_once = yes 
@@ -11352,7 +11667,7 @@ country_event = {
     trigger = { 
         tag = VAL 
 		date > 1939.5.20
-        date < 1939.6.20
+        date < 1940.5.20
 		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -11404,7 +11719,7 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1939.6.25
-        date < 1939.7.25
+        date < 1940.6.25
 		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
@@ -11456,7 +11771,7 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1939.6.25
-        date < 1939.7.25
+        date < 1940.6.25
 		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
@@ -11560,8 +11875,7 @@ country_event = {
         tag = IRO
 		date > 1939.6.25
         date < 1939.7.25
-		has_war_with = NOR
-		has_global_flag = GOT_Theon_Grabs_Winterfell_Flag
+		has_global_flag = GOT_Theon_Captured_Flag
     } 
  
     fire_only_once = yes 
@@ -11613,7 +11927,8 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1939.6.25
-        date < 1939.7.25
+        date < 1940.6.25
+		controls_state = 89
     } 
  
     fire_only_once = yes 
@@ -11683,6 +11998,40 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		
+		kill_country_leader = yes
+		
+			add_country_leader_role = {
+				character = VAL_Petyr_Baelish
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {  
+						political_manipulator  
+						ambitious_negotiator_neutrality  
+						dealbroker  
+						smooth_talking_charmer  
+						backroom_backstabber  
+					}
+				}
+				promote_leader = yes
+			}
+			
+			add_country_leader_role = {
+				character = VAL_Petyr_Baelish
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = {  
+						political_manipulator  
+						ambitious_negotiator_neutrality  
+						dealbroker  
+						smooth_talking_charmer  
+						backroom_backstabber  
+					}
+				}
+				promote_leader = yes
+			}
  
         every_other_country = { 
             limit = { 
@@ -11718,10 +12067,12 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country332 
  
     trigger = { 
-        tag = CRO
+        tag = DOR
 		date > 1939.8.1
-        date < 1939.9.1
+        date < 1940.8.1
 		has_country_flag = GOT_Purple_Wedding_Flag
+		country_exists = CRO
+		NOT = { has_war_with = CRO } 
     } 
  
     fire_only_once = yes 
@@ -11733,9 +12084,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_war_support = 0.05 
+		set_global_flag = GOT_Oberyn_Tyrions_Champion
  
         every_other_country = { 
             limit = { 
@@ -11824,8 +12174,12 @@ country_event = {
     trigger = { 
         tag = VAL
 		date > 1939.8.1
-        date < 1939.9.1
+        date < 1940.8.1
 		has_global_flag = GOT_Sansa_Escapes_Flag
+		has_country_leader = {
+			name = "Petyr Baelish"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -11927,8 +12281,8 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1939.9.5
-        date < 1939.10.5
-		has_country_flag = GOT_Purple_Wedding_Flag
+        date < 1940.9.5
+		has_country_flag = GOT_Oberyn_Tyrions_Champion
     } 
  
     fire_only_once = yes 
@@ -11979,7 +12333,7 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1939.9.5
-        date < 1939.10.5
+        date < 1940.9.5
 		has_country_flag = GOT_Purple_Wedding_Flag
     } 
  
@@ -11994,6 +12348,8 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		
+		set_global_flag = GOT_Tyrion_Death_Sentence
  
         every_other_country = { 
             limit = { 
@@ -12031,7 +12387,7 @@ country_event = {
     trigger = { 
         tag = NOR
 		date > 1939.9.5
-        date < 1939.10.5
+        date < 1940.9.5
 		has_country_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -12082,7 +12438,7 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1939.9.5
-        date < 1939.10.5
+        date < 1940.9.5
 		controls_state = 89
     } 
  
@@ -12246,7 +12602,7 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1939.10.10
-        date < 1939.11.10
+        date < 1940.10.10
 		has_war_with = WIL
     } 
  
@@ -12262,6 +12618,10 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         army_experience = 5 
+		
+		NWA_grenn = {
+			retire = yes
+		}
  
         every_other_country = { 
             limit = { 
@@ -12299,7 +12659,7 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1939.10.10
-        date < 1939.11.10
+        date < 1940.10.10
 		has_war_with = WIL
     } 
  
@@ -12351,7 +12711,7 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1939.10.10
-        date < 1939.11.10
+        date < 1940.10.10
 		has_war_with = WIL
     } 
  
@@ -12404,7 +12764,7 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1939.10.10
-        date < 1939.11.10
+        date < 1940.10.10
 		has_war_with = WIL
     } 
  
@@ -12455,8 +12815,8 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1939.11.15
-        date < 1939.12.15
-		has_global_flag = GOT_Purple_Wedding_Flag
+        date < 1940.11.15
+		has_global_flag = GOT_Tyrion_Death_Sentence
     } 
  
     fire_only_once = yes 
@@ -12507,7 +12867,7 @@ country_event = {
     trigger = { 
         tag = TAR
 		date > 1939.11.15
-        date < 1939.12.15
+        date < 1940.11.15
 		controls_state = 89
     } 
  
@@ -12662,7 +13022,9 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1939.11.15
-        date < 1939.12.15
+        date < 1940.11.15
+		has_war_with = WIL
+		DRA = { has_war_with = WIL } 
     } 
  
     fire_only_once = yes 
