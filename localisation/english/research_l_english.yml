@@ -1230,7 +1230,7 @@ airsweep_mines:0 "Dragon Flame-Clearing"
 airsweep_mines_desc:0 "Trained dragon riders can command their beasts to unleash torrents of fire over the water, igniting and detonating hidden Sea Traps before they can threaten friendly ships."  
 
 airdrop_mines:0 "Dragon-Dropped Sea Traps"
-airdrop_mines_desc:0 "Send forth our dragons to soar over enemy waters, releasing deadly sea traps from the skies. These enchanted devices float beneath the waves, poised to cripple any unwary vessel."
+airdrop_mines_desc:0 "Send forth our dragons to soar over enemy waters, releasing deadly sea traps from the skies. These devices float beneath the waves, poised to cripple any unwary vessel."
 
  airdrop_mines_bba:0 "$airdrop_mines$"
  airdrop_mines_bba_desc:0 "$airdrop_mines_desc$"
