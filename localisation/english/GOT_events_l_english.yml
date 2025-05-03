@@ -1574,9 +1574,11 @@ GOT_Story_News.231.d: "Jaime Lannister, on his way out of Harrenhal, risked his 
 GOT_Story_News.231.a: "Jaime Lannister's brave rescue of Brienne marks a turning point in their relationship."
 
 # Daenerys Confronts Yunkai's Emissary
-GOT_Story_Country.232.t: "Daenerys Confronts Yunkai’s Emissary"
-GOT_Story_Country.232.d: "Upon arriving at Yunkai, I was greeted by Grazdan mo Eraz, their emissary, who offered gold and ships in exchange for my departure. I refused his offer, stating that the city's slaves must be freed. When Grazdan refused, I made it clear that I would take the city by force if necessary. I will not be swayed from my goal to end slavery."
-GOT_Story_Country.232.a: "My path is clear—no offer of gold or ships can deter me from freeing the slaves."
+GOT_Story_Country.232.t: "The Dragon Queen Approaches"
+GOT_Story_Country.232.d: "Word has reached us that Daenerys Targaryen has seized the city of Astapor and now commands a formidable army of 8,000 Unsullied. Her strength grows with each step she takes, and her crusade against slavery threatens all who profit from the old ways. Perhaps it would be wise to offer her gold and ships in exchange for peace—while we still can."
+GOT_Story_Country.232.a: "Make the offer—perhaps she will be satisfied with wealth and passage."
+GOT_Story_Country.232.b: "We are Yunkai—we do not bow to dragonspawn."
+
 
 # Daenerys Confronts Yunkai's Emissary
 GOT_Story_News.232.t: "Daenerys Declines Yunkai's Emissary's Offer"
@@ -2378,6 +2380,21 @@ GOT_Diplomatic_Country.24.a: "One day, he’ll regret this."
  GOT_Diplomatic_Country.27.d: "Astapor has rejected our offer. They refuse to part with the Unsullied, fearing vulnerability. They would rather hold on to their slave army than embrace the gift of a dragon. It is a bold insult. We could sail away and bide our time—or we could unleash fire and blood upon them now."
  GOT_Diplomatic_Country.27.a: "They will regret this. Prepare to attack Astapor."
  GOT_Diplomatic_Country.27.b: "Very well. Let them have their slaves… for now."
+ 
+GOT_Diplomatic_Country.28.t:0 "An Offer from Yunkai"
+GOT_Diplomatic_Country.28.d:0 "An emissary from Yunkai has arrived under a banner of peace. Bearing word from the Wise Masters, he offers one hundred ships and promises of non-aggression in exchange for our departure. They claim they wish to avoid bloodshed, though their chains still rattle in the streets. Shall we accept their offer of ships and stand down—for now—or continue our march and bring fire and blood to the city?"
+GOT_Diplomatic_Country.28.a:0 "Accept the ships and their pact—for now."
+GOT_Diplomatic_Country.28.b:0 "I will not make pacts with slavers. Prepare for war."
+
+GOT_Diplomatic_Country.29.t:0 "The Dragon Queen Accepts"
+GOT_Diplomatic_Country.29.d:0 "Our emissary has returned with unexpected news: Daenerys Targaryen has agreed to our terms. She will leave Yunkai unharmed in exchange for one hundred ships and a promise of non-aggression. Though her dragons remain at her side, it seems—for now—that fire and blood have been stayed by gold and diplomacy."
+GOT_Diplomatic_Country.29.a:0 "A wise outcome. Let us hope it lasts."
+
+GOT_Diplomatic_Country.30.t:0 "The Dragon Queen Refuses"
+GOT_Diplomatic_Country.30.d:0 "Our emissary has failed. Daenerys Targaryen rejected our offer of gold and ships without hesitation. She means to bring war upon us, and soon the hammer of her Unsullied and the fire of her dragons may fall upon our gates. The Masters grow restless—some urge a preemptive strike, while others argue we should wait and fortify the city."
+GOT_Diplomatic_Country.30.a:0 "Strike first before she gathers her full strength."
+GOT_Diplomatic_Country.30.b:0 "Do nothing—let her make the first move."
+
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -2449,6 +2466,11 @@ GOT_Diplomatic_News.17.a: "The North begins to fracture..."
 GOT_Diplomatic_News.18.t: "Robb Stark Pardons Lord Karstark"
 GOT_Diplomatic_News.18.d: "In a stunning decision, King Robb Stark has chosen to pardon Lord Rickard Karstark for the murder of two Lannister prisoners. The move has shocked many across Westeros—some see it as a necessary act of pragmatism to maintain unity in the North, while others view it as a grave mistake that undermines Robb’s authority. While the Karstarks remain in his ranks, murmurs of doubt now spread through his bannermen. Forgiveness, it seems, carries its own cost."
 GOT_Diplomatic_News.18.a: "Mercy—or weakness?"
+
+GOT_Diplomatic_News.19.t:0 "Daenerys Accepts the Yunkish Offer"
+GOT_Diplomatic_News.19.d:0 "Envoys from Yunkai have come bearing gold, ships, and promises of peace, pleading with Daenerys Targaryen to spare their city in exchange for tribute. Though the Khaleesi had vowed to end slavery, her advisors weighed the offer carefully. In the end, Daenerys chose to accept the Yunkish proposal—for now. The slaves remain shackled, but her forces grow stronger. Whether this was mercy, pragmatism, or a temporary truce remains to be seen."
+GOT_Diplomatic_News.19.a:0 "She has accepted their offer—for now."
+
 
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"

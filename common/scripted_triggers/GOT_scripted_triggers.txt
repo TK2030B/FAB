@@ -10,6 +10,8 @@ GOT_War_Participant = {
 		tag = RIV
 		tag = IRO
 		tag = DOR
+		tag = FRE
+		tag = BOL
 	}
 }
 
@@ -60,6 +62,8 @@ GOT_Lannister_Faction = {
 	OR = {
 		tag = WES
 		tag = CRO
+		tag = BOL
+		tag = FRE
 		AND = {
 			tag = REA
 			GOT_Joffrey_Is_King = yes

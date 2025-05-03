@@ -9252,10 +9252,11 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country232 
  
     trigger = { 
-        tag = TAR
+        tag = YUN
 		date > 1938.8.1
-        date < 1938.9.1
-		controls_state = 228
+        date < 1939.8.1
+		TAR = { controls_state = 228 } 
+		NOT = { has_war_with = TAR } 
     } 
  
     fire_only_once = yes 
@@ -9264,20 +9265,31 @@ country_event = {
         name = GOT_Story_Country.232.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 60 
         } 
- 
-        add_war_support = 0.05 
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.232 
+		
+		TAR = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.28
                 hours = 6 
             } 
+        }
+ 
+        add_war_support = -0.05 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.232.b 
+ 
+        ai_chance = { 
+            factor = 40 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
         } 
+		
+        add_war_support = 0.05 
     } 
 } 
  
@@ -9992,9 +10004,12 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country246 
  
     trigger = { 
-        tag = NOR
+        tag = BOL
 		date > 1938.11.15
-        date < 1938.12.15
+        date < 1939.11.15
+		country_exists = FRE
+		NOT = { country_exists = RIV } 
+		NOT = { country_exists = NOR } 
     } 
  
     fire_only_once = yes 
@@ -10006,9 +10021,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
-        add_war_support = -0.05 
-        add_political_power = -25 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
  
         every_other_country = { 
             limit = { 

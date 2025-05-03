@@ -2234,6 +2234,164 @@ country_event = {
 	}
 }
 
+#Yunkai Offers Ships and Gold
+country_event = {
+	id = GOT_Diplomatic_Country.28
+	title = GOT_Diplomatic_Country.28.t
+	desc = GOT_Diplomatic_Country.28.d
+	picture = GFX_report_event_GOT_Story_Country232  
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.28.a
+
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		add_equipment_to_stockpile = {
+			type = convoy
+			amount = 100
+		}
+		
+		diplomatic_relation = {
+			country = YUN
+			relation = non_aggression_pact
+			active = yes
+		}
+		
+		set_truce = { target = YUN days = 365 }
+		
+		YUN = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.29
+                hours = 6 
+            } 
+        } 
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.28.b
+
+		ai_chance = {
+			factor = 30
+		}
+		
+		YUN = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.30
+                hours = 6 
+            } 
+        } 
+
+	}
+}
+
+#Dragon Queen Accepts
+country_event = {
+	id = GOT_Diplomatic_Country.29
+	title = GOT_Diplomatic_Country.29.t
+	desc = GOT_Diplomatic_Country.29.d
+	picture = GFX_report_event_GOT_Story_Country232  
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.29.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_political_power = 25
+		add_stability = 0.05
+		
+		add_equipment_to_stockpile = {
+			type = convoy
+			amount = -100
+		}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.19 
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
+#Dragon Queen Declines
+country_event = {
+	id = GOT_Diplomatic_Country.30
+	title = GOT_Diplomatic_Country.30.t
+	desc = GOT_Diplomatic_Country.30.d
+	picture = GFX_report_event_GOT_Story_Country232  
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.30.a
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = TAR
+			expire = 365
+		}
+		
+		add_war_support = 0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.232 
+                hours = 6 
+            } 
+        }
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.30.b
+
+		ai_chance = {
+			factor = 70
+		}
+		
+		add_war_support = -0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.232 
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -2473,5 +2631,18 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.16.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.19
+	title = GOT_Diplomatic_News.19.t
+	desc = GOT_Diplomatic_News.19.d
+	picture = GFX_news_event_GOT_Story_News232 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.19.a
 	}
 }
