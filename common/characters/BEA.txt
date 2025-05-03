@@ -1,0 +1,71 @@
+characters={
+
+	BEA_Maege_Mormont={
+		name=BEA_Maege_Mormont
+		portraits={
+			army = {
+				large="gfx/leaders/BEA/Portrait_Maege_Mormont.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor_Female.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BEA/Portrait_Maege_Mormont.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor_Female.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				warrior_code
+				stout_defender
+				autocratic_imperialist
+				indomitable_perseverance
+				hardened_officer
+				staunch_monarchist
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				warrior_code
+				stout_defender
+				autocratic_imperialist
+				indomitable_perseverance
+				hardened_officer
+				#staunch_monarchist
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	BEA_Lyanna_Mormont={
+		name=BEA_Lyanna_Mormont
+		portraits={
+			army = {
+				large="gfx/leaders/BEA/Portrait_Lyanna_Mormont.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor_Female.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BEA/Portrait_Lyanna_Mormont.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor_Female.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+}

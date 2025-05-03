@@ -1,0 +1,119 @@
+characters={
+
+	UMB_Greatjon_Umber={
+		name=UMB_Greatjon_Umber
+		portraits={
+			army = {
+				large="gfx/leaders/UMB/Portrait_Greatjon_Umber.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/UMB/Portrait_Greatjon_Umber.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				warrior_code
+				warmonger
+				hardened_officer
+				stout_defender
+				disdain_for_politicians_2
+				indomitable_perseverance
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				warrior_code
+				warmonger
+				hardened_officer
+				stout_defender
+				disdain_for_politicians_2
+				indomitable_perseverance
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	UMB_Smalljon_Umber={
+		name=UMB_Smalljon_Umber
+		portraits={
+			army = {
+				large="gfx/leaders/UMB/Portrait_Smalljon_Umber.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/UMB/Portrait_Smalljon_Umber.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				eager_collaborator
+				collaborator_king
+				warmonger
+				inexperienced_imperialist
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	
+	UMB_Ned_Umber={
+		name=UMB_Ned_Umber
+		portraits={
+			army = {
+				large="gfx/leaders/UMB/Portrait_Ned_Umber.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/UMB/Portrait_Ned_Umber.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				underage_monarch
+				stout_defender
+				defeatist
+				no_leadership
+				sins_of_the_father
+				constitutional_monarch_minor
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				underage_monarch
+				stout_defender
+				defeatist
+				no_leadership
+				sins_of_the_father
+				constitutional_monarch_minor
+			}
+		}
+	}
+
+}

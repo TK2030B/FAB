@@ -248,8 +248,8 @@ STE = {
 }
 
 BOL = {
-	color = rgb { 46 46 46 }
-	color_ui = rgb { 46 46 46 }
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
 }
 
 TAR = {
@@ -295,4 +295,19 @@ VLY = {
 GHI = {
 	color = rgb { 139 0 0 }
 	color_ui = rgb { 139 0 0 }
+}
+
+UMB = {
+	color = rgb { 139 69 19 }
+	color_ui = rgb { 139 69 19 }
+}
+
+BEA = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
+}
+
+KAR = {
+	color = rgb { 40 40 40 }
+	color_ui = rgb { 40 40 40 }
 }

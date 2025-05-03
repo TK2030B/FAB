@@ -17,6 +17,7 @@ state={
 			1348 10
 		}
 		add_core_of = NOR
+		add_core_of = BEA
 	}
 	
 	resources = {

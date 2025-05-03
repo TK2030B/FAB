@@ -13,6 +13,7 @@ state={
 			}
 		}
 		add_core_of = NOR
+		add_core_of = UMB
 		victory_points = {
 			2361 10
 		}

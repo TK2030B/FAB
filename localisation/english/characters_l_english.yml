@@ -1,12 +1,30 @@
 ﻿l_english:
-# House Bolton
+ # House Bolton
  BOL_roose_bolton:0 "Roose Bolton"
  BOL_ramsay_snow:0 "Ramsay Snow"
+ BOL_Wolkan:0 "Wolkan"
+ BOL_Locke:0 "Locke"
 
-# House Frey
-FRE_Walder_Frey: "Walder Frey"
-FRE_Walder_Rivers: "Walder Rivers"
-FRE_Lothar_Frey: "Lothar Frey"
+ # House Frey
+ FRE_Walder_Frey: "Walder Frey"
+ FRE_Walder_Rivers: "Walder Rivers"
+ FRE_Lothar_Frey: "Lothar Frey"
+ FRE_Roslin_Frey: "Roslin Frey"
+
+ # House Umber
+ UMB_Greatjon_Umber:0 "Greatjon Umber"
+ UMB_Smalljon_Umber:0 "Smalljon Umber"
+ UMB_Ned_Umber:0 "Ned Umber"
+
+ # House Karstark
+ KAR_Rickard_Karstark:0 "Rickard Karstark"
+ KAR_Harald_Karstark:0 "Harald Karstark"
+ KAR_Alys_Karstark:0 "Alys Karstark"
+
+ # House Mormont
+ BEA_Lyanna_Mormont:0 "Lyanna Mormont"
+ BEA_Maege_Mormont:0 "Maege Mormont"
+
 
 # Brotherhood Without Banners
  BWB_beric_dondarrion:0 "Beric Dondarrion"

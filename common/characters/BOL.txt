@@ -18,21 +18,6 @@ characters={
 			traits = { 
 				political_manipulator
 				backroom_backstabber
-				ruthless
-				autocratic_imperialist
-				warmonger
-				empire_builder
-				the_director
-				generalissimo
-			}
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
-			traits = { 
-				political_manipulator
-				backroom_backstabber
-				ruthless
 				autocratic_imperialist
 				warmonger
 				empire_builder
@@ -62,8 +47,83 @@ characters={
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				dictator
+				warmonger
+				cornered_fox
+				baron_of_terror
+				hedonist
+				sins_of_the_father
+			}
+		}
 		corps_commander={
 			traits = { trait_reckless }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	
+	BOL_Wolkan={
+		name=BOL_Wolkan
+		portraits={
+			army = {
+				large="gfx/leaders/BOL/Portrait_Wolkan.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BOL/Portrait_Wolkan.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				the_director
+				political_chameleon
+				silent_workhorse
+				professional_crisis_solver
+				gentle_scholar
+				political_manipulator
+				#incognito
+			}
+
+		}
+	}
+	
+	BOL_Locke={
+		name=BOL_Locke
+		portraits={
+			army = {
+				large="gfx/leaders/BOL/Portrait_Locke.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/BOL/Portrait_Locke.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				warmonger
+				backroom_backstabber
+				political_manipulator
+				generalissimo
+				baron_of_terror
+				the_bloody_professor
+				sins_of_the_father
+			}
+		}
+		corps_commander={
+			traits = { }
 			skill = 3
 			attack_skill = 4
 			defense_skill = 3

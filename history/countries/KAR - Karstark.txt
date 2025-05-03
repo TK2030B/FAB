@@ -1,0 +1,31 @@
+﻿capital = 154
+GOT_start_techs = yes
+oob = "Generic"
+
+set_research_slots = 3
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_convoys = 25
+
+recruit_character=KAR_Rickard_Karstark
+recruit_character=KAR_Harald_Karstark
+recruit_character=KAR_Alys_Karstark
+
+add_ideas = {
+	GOT_Tradition_North
+	GOT_Religion_Old_Gods
+}
+

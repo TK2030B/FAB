@@ -1,0 +1,101 @@
+characters={
+
+	KAR_Rickard_Karstark={
+		name=KAR_Rickard_Karstark
+		portraits={
+			army = {
+				large="gfx/leaders/KAR/Portrait_Rickard_Karstark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/KAR/Portrait_Rickard_Karstark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1.1"
+			traits = { 
+				warmonger
+				staunch_monarchist
+				sins_of_the_father
+				hardened_officer
+				autocratic_imperialist
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	
+	KAR_Harald_Karstark={
+		name=KAR_Harald_Karstark
+		portraits={
+			army = {
+				large="gfx/leaders/KAR/Portrait_Harald_Karstark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/KAR/Portrait_Harald_Karstark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				legitimate_heir
+				inexperienced_imperialist
+				autocratic_imperialist
+				collaborator_king
+				sins_of_the_father
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	KAR_Alys_Karstark={
+		name=KAR_Alys_Karstark
+		portraits={
+			army = {
+				large="gfx/leaders/KAR/Portrait_Alys_Karstark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor_Female.dds"
+			}
+			civilian = {
+				large="gfx/leaders/KAR/Portrait_Alys_Karstark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor_Female.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				political_manipulator
+				backroom_backstabber
+				popular_figurehead
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				political_manipulator
+				backroom_backstabber
+				popular_figurehead
+			}
+		}
+	}
+
+}

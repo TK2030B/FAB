@@ -17,23 +17,11 @@ characters={
 			expire="1965.1.1.1"
 			traits = { 
 				political_manipulator
-				ruthless
 				mastermind_code_cracker
 				dealbroker
 				backroom_backstabber
 			}
 
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1.1"
-			traits = { 
-				political_manipulator
-				ruthless
-				mastermind_code_cracker
-				dealbroker
-				backroom_backstabber
-			}
 		}
 	}
 
@@ -47,6 +35,17 @@ characters={
 			civilian = {
 				large="gfx/leaders/FRE/Portrait_Walder_Rivers.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				backroom_backstabber
+				warmonger
+				sins_of_the_father
+				baron_of_terror
+				eager_collaborator
 			}
 		}
 		corps_commander = {
@@ -71,6 +70,18 @@ characters={
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				backroom_backstabber
+				political_manipulator
+				warmonger
+				the_director
+				sins_of_the_father
+				baron_of_terror
+			}
+		}
 		corps_commander = {
 			traits = { }  # Optional; "ruthless" reflects his cold and calculating nature
 			skill = 3
@@ -78,6 +89,31 @@ characters={
 			defense_skill = 3      # Has experience, but isn't a master tactician
 			planning_skill = 4     # Strong at planning, given his role in the Red Wedding
 			logistics_skill = 2    # Decent, but not known for exceptional organization
+		}
+	}
+	
+	FRE_Roslin_Frey={
+		name=FRE_Roslin_Frey
+		portraits={
+			army = {
+				large="gfx/leaders/FRE/Portrait_Roslin_Frey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor_Female.dds"
+			}
+			civilian = {
+				large="gfx/leaders/FRE/Portrait_Roslin_Frey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor_Female.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1.1"
+			traits = {
+				political_manipulator
+				conservative_nationalist
+				backroom_backstabber
+				tenacious_negotiator
+				popular_figurehead
+			}
 		}
 	}
 

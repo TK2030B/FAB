@@ -15,13 +15,15 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.10.14"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 25
 
 recruit_character=BOL_roose_bolton
 recruit_character=BOL_ramsay_snow
+recruit_character=BOL_Wolkan
+recruit_character=BOL_Locke
 
 add_ideas = {
 	GOT_Tradition_North
