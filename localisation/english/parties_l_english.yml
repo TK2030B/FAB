@@ -107,6 +107,31 @@ NWA_fascism_party:0 "Night's Watch"
 NWA_democratic_party:0 "Night's Watch"  
 NWA_communism_party:0 "Night's Watch"  
 
+FRE_neutrality_party:0 "House Frey"  
+FRE_fascism_party:0 "House Frey"  
+FRE_democratic_party:0 "House Frey"  
+FRE_communism_party:0 "House Frey" 
+
+BEA_neutrality_party:0 "House Mormont"  
+BEA_fascism_party:0 "House Mormont"  
+BEA_democratic_party:0 "House Mormont"  
+BEA_communism_party:0 "House Mormont" 
+
+BOL_neutrality_party:0 "House Bolton"  
+BOL_fascism_party:0 "House Bolton"  
+BOL_democratic_party:0 "House Bolton"  
+BOL_communism_party:0 "House Bolton" 
+
+UMB_neutrality_party:0 "House Umber"  
+UMB_fascism_party:0 "House Umber"  
+UMB_democratic_party:0 "House Umber"  
+UMB_communism_party:0 "House Umber" 
+
+KAR_neutrality_party:0 "House Karstark"  
+KAR_fascism_party:0 "House Karstark"  
+KAR_democratic_party:0 "House Karstark"  
+KAR_communism_party:0 "House Karstark" 
+
  
  #Essos
  SUI_neutrality_party:0 "House Qo"

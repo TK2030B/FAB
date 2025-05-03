@@ -76,19 +76,20 @@ characters={
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
-				large="gfx/leaders/NWA/Portrait_Jeor_mormont.dds"
+				large="gfx/leaders/TAR/Portrait_Jorah_Mormont.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
 		country_leader={
 			ideology=CR_subideology
 			expire="1965.1.1.1"
-			traits = {  
-				stout_defender  
-				reluctant_veteran  
-				headstrong  
-				indomitable_perseverance  
-				great_war_hero  
+			traits = {
+				exiled_revolutionary
+				sins_of_the_father
+				reluctant_veteran
+				compassionate_gentleman
+				cornered_fox
+				dealbroker
 			}
 		}
 	}
@@ -108,13 +109,12 @@ characters={
 		country_leader={
 			ideology=FR_subideology
 			expire="1965.1.1.1"
-			traits = {
-				exiled_revolutionary
-				sins_of_the_father
-				reluctant_veteran
-				compassionate_gentleman
-				cornered_fox
-				dealbroker
+			traits = {  
+				stout_defender  
+				reluctant_veteran  
+				headstrong  
+				indomitable_perseverance  
+				great_war_hero  
 			}
 		}
 	}
