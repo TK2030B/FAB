@@ -2040,6 +2040,200 @@ country_event = {
 	}
 }
 
+#Dany Offers to Buy Unsullied
+country_event = {
+	id = GOT_Diplomatic_Country.25
+	title = GOT_Diplomatic_Country.25.t
+	desc = GOT_Diplomatic_Country.25.d
+	picture = GFX_report_event_GOT_Story_Country213  
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.25.a
+
+		ai_chance = {
+			factor = 70
+		}
+		
+		if = {
+			limit = {
+				has_dlc = "By Blood Alone"
+			}
+			set_technology = {
+				bba_early_transport_plane = 1
+				iw_small_airframe = 1
+				iw_medium_airframe = 1
+				iw_large_airframe = 1
+				early_bombs = 1
+				air_torpedoe_1 = 1
+				aa_lmg = 1
+				engines_1 = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "By Blood Alone" }
+			}
+			set_technology = {
+				early_transport_plane = 1
+				early_fighter = 1
+				cv_early_fighter = 1
+				early_bomber = 1
+				fighter1 = 1
+				cv_fighter1 = 1
+				CAS1 = 1
+				tactical_bomber1 = 1
+				naval_bomber1 = 1
+				strategic_bomber1 = 1
+				heavy_fighter1 = 1
+				scout_plane1 = 1
+			}
+		}
+		
+		delete_unit_template_and_units = {
+			division_template = "Unsullied Division L"
+		}
+		
+		TAR = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.26
+                hours = 6 
+            } 
+        } 
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.25.b
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		TAR = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.27
+                hours = 6 
+            } 
+        } 
+
+	}
+}
+
+#Astapor Accepts
+country_event = {
+	id = GOT_Diplomatic_Country.26
+	title = GOT_Diplomatic_Country.26.t
+	desc = GOT_Diplomatic_Country.26.d
+	picture = GFX_report_event_GOT_Story_Country213  
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.26.a
+
+		ai_chance = {
+			factor = 70
+		}
+		
+		declare_war_on = {
+			target = AST
+			type = annex_everything
+		}
+		
+		load_oob = TAR_Unsullied
+		
+		add_political_power = 25
+		add_stability = 0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.213 
+                hours = 6 
+            } 
+        }
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.26.b
+		
+		trigger = {
+			owns_state = 905
+		}
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		load_oob = TAR_Unsullied_Pentos
+		
+		add_political_power = 25
+		add_stability = 0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.213 
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
+#Astapor Declines
+country_event = {
+	id = GOT_Diplomatic_Country.27
+	title = GOT_Diplomatic_Country.27.t
+	desc = GOT_Diplomatic_Country.27.d
+	picture = GFX_report_event_GOT_Story_Country213  
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.27.a
+
+		ai_chance = {
+			factor = 80
+		}
+		
+		create_wargoal = {
+			type = annex_everything
+			target = AST
+			expire = 365
+		}
+		
+		add_war_support = 0.05
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.27.b
+
+		ai_chance = {
+			factor = 20
+		}
+		
+		add_war_support = -0.05
+
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1

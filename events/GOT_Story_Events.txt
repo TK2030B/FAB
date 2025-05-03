@@ -7479,6 +7479,8 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
+		set_country_flag = GOT_Dany_In_Astapor
  
         add_political_power = 25         # She's gaining influence and establishing presence.
 		add_stability = -0.05            # A temporary hit to order as her arrival disrupts the local status quo.
@@ -7532,6 +7534,8 @@ country_event = {
 		date > 1938.1.1
         date < 1938.2.1
 		has_global_flag = GOT_Battle_of_Blackwater_Flag
+		NOT = { owns_state = 142 } 
+		NOT = { CRO = { is_subject_of = DRA  } }
     } 
  
     fire_only_once = yes 
@@ -8058,29 +8062,43 @@ country_event = {
 		date > 1938.3.10
         date < 1938.4.10
 		country_exists = AST
+		has_country_flag = GOT_Dany_In_Astapor
+		NOT = { has_war_with = AST }
     } 
  
     fire_only_once = yes 
  
-    option = { 
+    option = {
         name = GOT_Story_Country.213.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 90 
         } 
  
         add_war_support = 0.05 
-        add_political_power = 25 
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.213 
+        add_political_power = -25 
+		
+		AST = { 
+            country_event = { 
+                id = GOT_Diplomatic_Country.25
                 hours = 6 
             } 
         } 
+    } 
+	
+	option = {
+        name = GOT_Story_Country.213.b 
+ 
+        ai_chance = { 
+            factor = 10 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+ 
+        add_war_support = -0.05 
+        add_political_power = 25 
     } 
 } 
  

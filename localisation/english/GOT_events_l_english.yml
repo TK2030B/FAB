@@ -24,6 +24,7 @@ GOT_Sansa_In_Kings_Landing:0 "Sansa In King's Landing"
 GOT_Purple_Wedding_Flag:0 "Purple Wedding"
 GOT_Jaime_Captured_Flag:0 "Jaime Captured"
 GOT_NOR_FRE_Promise_Flag:0 "Robb Promises To Marry Frey Daughter"
+GOT_Dany_In_Astapor:0 "Danaerys In Astapor"
 
 Game_Event.1.t:0 "Welcome (1/4)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -1366,9 +1367,10 @@ GOT_Story_News.212.d: "In a surprise move, Tywin Lannister has appointed his son
 GOT_Story_News.212.a: "A new Master of Coin—will Tyrion turn the kingdom’s finances around?"
 
 # Daenerys Negotiates for the Unsullied
-GOT_Story_Country.213.t: "The Price of Power"
-GOT_Story_Country.213.d: "The Unsullied are within my grasp. I’ve struck a deal with the slavers of Astapor: one of my dragons for their entire army. They wanted more, but I also demanded Missandei, the translator, as part of the bargain. Now, with the Unsullied at my side, my conquest of Slaver’s Bay is closer than ever. But I am aware—this deal comes at a high price. I must not lose my way."
-GOT_Story_Country.213.a: "I will lead the Unsullied, and they will follow."
+ GOT_Story_Country.213.t: "The Price of Power"
+ GOT_Story_Country.213.d: "The Unsullied are within my grasp. The slavers of Astapor demand one of my dragons in exchange for their entire army: 8,000 fully trained Unsullied and 5,000 more still in training. They balked at my counter-demands but relented when I insisted on including Missandei, their translator. It is a steep price—one of my children—for an army. Yet with the Unsullied at my side, the conquest of Slaver’s Bay could become a reality. The question now is whether the cost is worth it."
+ GOT_Story_Country.213.a: "I will give them a dragon and take the Unsullied."
+ GOT_Story_Country.213.b: "No deal. I will find another way to free them."
 
 # Daenerys Negotiates for the Unsullied
 GOT_Story_News.213.t: "Daenerys Targaryen Secures the Unsullied"
@@ -2342,6 +2344,20 @@ GOT_Diplomatic_Country.24.t: "Rejected by My Father"
 GOT_Diplomatic_Country.24.d: "I dared to ask. To claim what any other son would consider his birthright. But Tywin, in all his contempt, dismissed me without hesitation. No explanation. No pretense. Just cold, measured disdain. He said he would rather let himself be consumed by maggots. I should have expected nothing else—but still, it burns."
 GOT_Diplomatic_Country.24.a: "One day, he’ll regret this."
 
+ GOT_Diplomatic_Country.25.t: "The Dragon Queen’s Offer"
+ GOT_Diplomatic_Country.25.d: "Daenerys Targaryen has offered us a deal: one of her dragons in exchange for our Unsullied — 8,000 fully trained soldiers and 5,000 more still in training. With such a creature, we could unlock the secrets of dragonkind and begin studying their power for ourselves. But without the Unsullied, Astapor would be left nearly defenseless. Accepting could bring us knowledge beyond imagining—or doom at the hands of the Targaryens if they choose to take what we refuse to sell."
+ GOT_Diplomatic_Country.25.a: "Accept the deal. The dragon will be ours."
+ GOT_Diplomatic_Country.25.b: "Refuse. We cannot leave ourselves exposed."
+ 
+  GOT_Diplomatic_Country.26.t: "The Unsullied Are Ours"
+ GOT_Diplomatic_Country.26.d: "The slavers of Astapor have agreed to the deal. One of our dragons now rests in their hands, and in return, the Unsullied—13,000 strong—stand ready to march under our banner. Missandei, once their translator, now joins us as well. Yet the city is vulnerable. Stripped of its elite troops and gorging on the promise of dragon power, Astapor lies wide open. Should we keep our word… or strike while their defenses are down?"
+ GOT_Diplomatic_Country.26.a: "They are slavers. We strike now and burn them to the ground."
+ GOT_Diplomatic_Country.26.b: "We've made our deal. Sail for Pentos with the Unsullied."
+ 
+ GOT_Diplomatic_Country.27.t: "A Foolish Refusal"
+ GOT_Diplomatic_Country.27.d: "Astapor has rejected our offer. They refuse to part with the Unsullied, fearing vulnerability. They would rather hold on to their slave army than embrace the gift of a dragon. It is a bold insult. We could sail away and bide our time—or we could unleash fire and blood upon them now."
+ GOT_Diplomatic_Country.27.a: "They will regret this. Prepare to attack Astapor."
+ GOT_Diplomatic_Country.27.b: "Very well. Let them have their slaves… for now."
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
