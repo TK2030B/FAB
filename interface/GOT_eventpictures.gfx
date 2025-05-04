@@ -2180,6 +2180,36 @@ spriteTypes = {
 			name = "GFX_news_event_Iron_Bank"
 			texturefile = "gfx/event_pictures/News/news_event_Iron_Bank.dds"
 		}
+		
+		spriteType = {
+			name = "GFX_report_event_Roslin_Edmure"
+			texturefile = "gfx/event_pictures/Country/report_event_Roslin_Edmure.dds"
+		}
+
+		spriteType = {
+			name = "GFX_news_event_Roslin_Edmure"
+			texturefile = "gfx/event_pictures/News/news_event_Roslin_Edmure.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_report_event_Roslin_Robb"
+			texturefile = "gfx/event_pictures/Country/report_event_Roslin_Robb.dds"
+		}
+
+		spriteType = {
+			name = "GFX_news_event_Roslin_Robb"
+			texturefile = "gfx/event_pictures/News/news_event_Roslin_Robb.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_report_event_The_Great_Betrayal"
+			texturefile = "gfx/event_pictures/Country/report_event_The_Great_Betrayal.dds"
+		}
+
+		spriteType = {
+			name = "GFX_news_event_The_Great_Betrayal"
+			texturefile = "gfx/event_pictures/News/news_event_The_Great_Betrayal.dds"
+		}
 
 
 

@@ -9752,11 +9752,18 @@ country_event = {
     title = GOT_Story_Country.241.t 
     desc = GOT_Story_Country.241.d 
     picture = GFX_report_event_GOT_Story_Country241 
+	
+	hidden = yes
  
     trigger = { 
         tag = NOR
 		date > 1938.10.10
-        date < 1938.11.10
+        date < 1939.10.10
+		is_in_faction_with = RIV
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
 		has_war_with = WES
     } 
  
@@ -9768,34 +9775,99 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
+		#If Robb Doesn't Cross at the Twins
+		if = {
+			limit = {
+				NOT = { has_global_flag = GOT_NOR_FRE_Promise_Flag }
+			}
+			random_list = {
+				#35% Chance of a Great Betrayal
+				35 = {
+					country_event = {
+						id = GOT_Diplomatic_Country.34
+						hours = 6
+					}	
+				}
+				#65% Chance of Nothing Happening
+				65 = {
+					
+				}
+			}
+		}
+		#If Robb Crosses and then Honors his Wedding to Roslin
+		else_if = {
+			limit = {
+				has_global_flag = GOT_NOR_FRE_Promise_Flag
+				has_global_flag = GOT_Robb_Honors_Marriage_Flag
+			}
+			random_list = {
+				#85% Wedding Happens Normally
+				85 = {
+					country_event = {
+						id = GOT_Diplomatic_Country.36
+						hours = 6
+					}
+				}
+				#15% Red Wedding Cause Walder Frey is a Sneaky Bastard
+				15 = {
+					country_event = {
+						id = GOT_Diplomatic_Country.37
+						hours = 6
+					}	
+				}
+			}
+		}
+		#If Robb Crosses and then Breaks his Vows, but promises Edmure to Roslin
+		else_if = {
+			limit = {
+				has_global_flag = GOT_NOR_FRE_Promise_Flag
+				has_global_flag = GOT_Robb_Marries_Talissa_Flag
+				has_global_flag = GOT_Edmure_To_Marry_Roslin_Flag
+			}
+			if = {
+				limit = {
+					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
+				}
+				country_event = {
+					id = GOT_Diplomatic_Country.39
+					hours = 6
+				}
+			}
+			#For Non-Historical/Sandbox 50-50
+			else = {
+				random_list = {
+					#50% Wedding Happens Normally
+					50 = {
+						country_event = {
+							id = GOT_Diplomatic_Country.38
+							hours = 6
+						}
+					}
+					#50% Red Wedding Cause Walder Frey is a Sneaky Bastard
+					50 = {
+						country_event = {
+							id = GOT_Diplomatic_Country.39
+							hours = 6
+						}	
+					}
+				}
+			}
+		}
+		#If Robb Crosses and then Breaks his Vows, and spurns the freys
+		else_if = {
+			limit = {
+				has_global_flag = GOT_NOR_FRE_Promise_Flag
+				has_global_flag = GOT_Robb_Marries_Talissa_Flag
+				has_global_flag = GOT_Freys_Insulted_Flag
+			}
+			country_event = {
+				id = GOT_Diplomatic_Country.35
+				hours = 6
+			}	
+		}
  
-        add_stability = -0.05 
-        add_war_support = -0.05 
-        add_political_power = -25 
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.241 
-                hours = 6 
-            } 
-        } 
-    } 
-} 
- 
-# The Red Wedding
-news_event = { 
-    id = GOT_Story_News.241 
-    title = GOT_Story_News.241.t 
-    desc = GOT_Story_News.241.d 
-    picture = GFX_news_event_GOT_Story_News241 
- 
-    is_triggered_only = yes 
- 
-    option = { 
-        name = GOT_Story_News.241.a 
     } 
 } 
  
@@ -12763,6 +12835,10 @@ country_event = {
         army_experience = 5 
 		
 		NWA_grenn = {
+			retire = yes
+		}
+		
+		NWA_Pypar = {
 			retire = yes
 		}
  

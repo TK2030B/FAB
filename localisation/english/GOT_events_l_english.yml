@@ -2411,6 +2411,30 @@ GOT_Diplomatic_Country.33.t: "Tormund Captured"
 GOT_Diplomatic_Country.33.d: "Tormund Giantsbane, the legendary leader of the Free Folk, has been captured by our enemies. This loss sends a wave of despair through the Wildling ranks, for he was a symbol of our strength and hope. As the prisoner's fate is sealed, we must decide how to proceed: rally behind another leader or fall into disarray."
 GOT_Diplomatic_Country.33.a: "We will fight on—Tormund’s spirit lives within us."
 
+GOT_Diplomatic_Country.34.t:0 "The Great Betrayal"
+GOT_Diplomatic_Country.34.d:0 "We have not yet triumphed over the Lannisters, but now the wolves have begun to turn on one another.\n\nThe Freys, who we once considered allies, have kept their distance since our refusal to cross at the Twins. Yet now, the Freys have betrayed us, revealing their true loyalties. Even worse, our own bannermen, the Boltons, have cast aside their loyalty to the North. Lord Roose Bolton has turned his back on his vows, and now marches with our enemies.\n\nWhile we continue to fight for the realm, our enemies have turned against us from within."
+GOT_Diplomatic_Country.34.a:0 "Treachery in our midst!"
+
+GOT_Diplomatic_Country.35.t:0 "The Great Betrayal"
+GOT_Diplomatic_Country.35.d:0 "We have not yet triumphed over the Lannisters, but now the wolves have begun to turn on one another.\n\nThe Freys, who we once considered allies, have waited in vain for the marriage we promised. Yet, when Lord Walder Frey presented his terms for forgiveness, we spurned him, rejecting his demands outright. Now, the Freys have revealed their true loyalties, and our former bannermen, the Boltons, have followed suit. Lord Roose Bolton has betrayed us, casting aside his loyalty and marching with our enemies.\n\nWhile we fight on for the realm, our enemies, once within our own ranks, now rise in revolt against us."
+GOT_Diplomatic_Country.35.a:0 "Treachery from within!"
+
+GOT_Diplomatic_Country.36.t:0 "A Bond of Steel and Blood"
+GOT_Diplomatic_Country.36.d:0 "In a rare moment of peace, Robb Stark has honored his pact with House Frey. The marriage to Roslin Frey is now sealed, strengthening the ties between the North and the Riverlands.\n\nThough the war against the Lannisters rages on, this union offers a glimpse of hope and stability in the North. It is a reminder that alliances, once forged, hold the power to outlast the storm of battle."
+GOT_Diplomatic_Country.36.a:0 "The North stands united."
+
+GOT_Diplomatic_Country.37.t:0 "The Red Wedding"
+GOT_Diplomatic_Country.37.d:0 "What was meant to be a union of peace and strength has turned into a massacre. As Robb Stark and Roslin Frey exchanged vows, the Freys turned on us with ruthless violence. House Frey, long discontent with the terms of their alliance, has betrayed us in the most horrific fashion. Our banners fall as traitors strike from within.\n\nThe North is now in mourning. The blood spilled at the Twins will never be washed clean, and the price of betrayal will echo across the realms."
+GOT_Diplomatic_Country.37.a:0 "A betrayal of blood."
+
+GOT_Diplomatic_Country.38.t:0 "A Union of the Riverlands"
+GOT_Diplomatic_Country.38.d:0 "Edmure Tully has taken Roslin Frey as his bride, securing the bond between House Tully and House Frey. With this marriage, the Riverlands hope to regain some stability amidst the growing storm that threatens the realm.\n\nThough the war with the Lannisters rages on, and the scars of betrayal linger, this union marks a new chapter for the Riverlands. We must now face our future together, hoping that this alliance will bring the peace we desperately need."
+GOT_Diplomatic_Country.38.a:0 "A future united."
+
+GOT_Diplomatic_Country.39.t:0 "The Red Wedding"
+GOT_Diplomatic_Country.39.d:0 "What was meant to be a union of peace and strength has turned into a massacre. As Edmure Tully and Roslin Frey exchanged vows, the Freys turned on us with ruthless violence. House Frey, long discontent with the terms of their alliance, has betrayed us in the most horrific fashion. Our banners fall as traitors strike from within.\n\nThe North is now in mourning. The blood spilled at the Twins will never be washed clean, and the price of betrayal will echo across the realms."
+GOT_Diplomatic_Country.39.a:0 "A betrayal of blood."
+
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
 GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."
@@ -2491,6 +2515,25 @@ GOT_Diplomatic_News.20.t:0 "The Viper Strikes True"
 GOT_Diplomatic_News.20.d:0 "In a shocking outcome to Tyrion Lannister’s trial by combat, Prince Oberyn Martell—known as the Red Viper—has defeated Ser Gregor Clegane, the Mountain. Oberyn not only survived the brutal duel but emerged victorious, avenging his sister’s death and securing Tyrion’s freedom. The spectacle has sent ripples across Westeros, altering perceptions of both Dorne and the Lannisters."
 GOT_Diplomatic_News.20.a:0 "A Martell never forgets."
 
+GOT_Diplomatic_News.21.t:0 "The Great Betrayal"
+GOT_Diplomatic_News.21.d:0 "In a shocking turn of events, the Freys and the Boltons have turned against their former allies in the North. Lord Roose Bolton has cast aside his allegiance to House Stark, and House Frey, once loyal to the Tullys, has joined him in rebellion.\n\nWhile the North remains embroiled in its struggle with the Lannisters, it now faces an even greater danger from within. This betrayal will undoubtedly change the course of the war."
+GOT_Diplomatic_News.21.a:0 "The wolves turn on each other."
+
+GOT_Diplomatic_News.22.t:0 "A Marriage in the North"
+GOT_Diplomatic_News.22.d:0 "In a surprising turn of events, Robb Stark, King in the North, has honored his pact with the Freys, marrying Roslin Frey in a grand ceremony. The union is seen as a strategic move to solidify the alliance between the North and the Riverlands.\n\nWith the Lannister forces still pressing against the North, many wonder whether this marriage will bring stability or whether it will be a fleeting moment of peace before the next storm."
+GOT_Diplomatic_News.22.a:0 "The North's bonds grow stronger."
+
+GOT_Diplomatic_News.23.t:0 "The Red Wedding"
+GOT_Diplomatic_News.23.d:0 "In a shocking act of treachery, House Frey has slaughtered Robb Stark and his bannermen at the wedding feast meant to unite them. What was intended to be a marriage of alliance between the North and the Riverlands has instead become one of the bloodiest betrayals in history. The Freys, led by Walder Frey, have turned against their sworn allies in the most brutal of ways, and the North is now in turmoil.\n\nThe repercussions of this betrayal are sure to be felt across the Seven Kingdoms, and the Riverlands, once again, lie in ruins."
+GOT_Diplomatic_News.23.a:0 "The North weeps for its king."
+
+GOT_Diplomatic_News.24.t:0 "The Riverlands Unite"
+GOT_Diplomatic_News.24.d:0 "In an unexpected turn of events, Edmure Tully has married Roslin Frey, consolidating the Riverlands' alliance with House Frey. After the betrayal by the Freys at the Red Wedding, this marriage seems to signal a new direction for the Riverlands, one that hopes to heal old wounds and restore stability to the region.\n\nThough the Tullys and Freys remain united, questions linger about the future of the North and its relationship with the Riverlands."
+GOT_Diplomatic_News.24.a:0 "The Riverlands find strength in unity."
+
+GOT_Diplomatic_News.25.t:0 "The Red Wedding"
+GOT_Diplomatic_News.25.d:0 "In a shocking act of treachery, House Frey has slaughtered Robb Stark and his bannermen at the wedding feast meant to unite them. What was intended to be a marriage of alliance between the North and the Riverlands has instead become one of the bloodiest betrayals in history. The Freys, led by Walder Frey, have turned against their sworn allies in the most brutal of ways. While Edmure Tully, the last hope of the Riverlands, was taken prisoner, the North is left in turmoil.\n\nThe repercussions of this betrayal are sure to be felt across the Seven Kingdoms, and the Riverlands, once again, lie in ruins."
+GOT_Diplomatic_News.25.a:0 "The North weeps for its king."
 
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"
