@@ -8670,6 +8670,7 @@ country_event = {
         ai_chance = { factor = 40 }
 		
 		set_country_flag = GOT_Karhold_Released
+		set_country_flag = GOT_Lord_Karstark_Executed
 
         add_stability = -0.05
         add_political_power = -25
@@ -9765,6 +9766,9 @@ country_event = {
 			ruling_only = yes
 		}
 		has_war_with = WES
+		WES = {
+			has_capitulated = no
+		}
     } 
  
     fire_only_once = yes 
@@ -10767,6 +10771,10 @@ country_event = {
 		
 		kill_country_leader = yes
 		
+		CRO_joffrey_baratheon = {
+			retire = yes
+		}
+		
 		add_country_leader_role = {
 				character = CRO_Tommen_Baratheon
 				country_leader = {
@@ -10785,6 +10793,23 @@ country_event = {
 				}
 				promote_leader = yes
 			}
+			
+		add_country_leader_role = {
+			character = CRO_cersei_lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			}
+			promote_leader = yes
+		}
  
         every_other_country = { 
             limit = { 

@@ -542,3 +542,212 @@ load_oob = Generic
 		}
 	}
 }
+
+GOT_The_Great_Betrayal = {
+
+		NOR = {
+			#House Bolton
+			release = BOL
+			end_puppet = BOL
+			
+			transfer_units_fraction = {
+				target = BOL
+				size = 0.5
+				stockpile_ratio = 0.5
+				army_ratio = 0.5
+				navy_ratio = 0.5
+				air_ratio = 0.5
+			}
+		}
+
+        BOL = {
+            leave_faction = yes
+			if  = {
+				limit = {
+					has_war_with = CRO
+				}
+				every_country = {
+					limit = { is_in_faction_with = CRO }
+					white_peace = BOL
+					set_truce = { target = BOL days = 365 }
+				}
+				BOL = {
+					white_peace = CRO
+					set_truce = { target = CRO days = 365 }
+				}
+			}
+			declare_war_on = {
+				target = NOR
+				type = civil_war
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = NOR
+				} 
+				add_core_of = BOL
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = BOL
+				} 
+				add_core_of = NOR
+			}
+        }
+		
+		NOR = {
+			#House Karstark
+			if = {
+				limit = {
+					KAR = { is_subject_of = NOR }
+				}
+				end_puppet = KAR
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_country_flag = GOT_Karhold_Released }
+			}
+			NOR = { release = KAR }
+			BOL = {
+				transfer_units_fraction = {
+					target = KAR
+					size = 0.4
+					stockpile_ratio = 0.4
+					army_ratio = 0.4
+					navy_ratio = 0.4
+					air_ratio = 0.4
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				country_exists = KAR
+			}
+			KAR = {
+				leave_faction = yes
+				if  = {
+					limit = {
+						has_war_with = CRO
+					}
+					every_country = {
+						limit = { is_in_faction_with = CRO }
+						white_peace = KAR
+						set_truce = { target = KAR days = 365 }
+					}
+					KAR = {
+						white_peace = CRO
+						set_truce = { target = CRO days = 365 }
+					}
+				}
+				if = {
+					limit = {
+						NOR = { has_country_flag = GOT_Lord_Karstark_Executed }
+					}
+					declare_war_on = {
+						target = NOR
+						type = civil_war
+					}
+				}
+				every_state = { 
+					limit = { 
+						is_core_of = KAR
+					} 
+					add_core_of = NOR
+				}
+			}
+		}
+		
+		NOR = {
+			#House Umber
+			release = UMB
+			end_puppet = UMB
+		}
+		
+			BOL = {
+				transfer_units_fraction = {
+					target = UMB
+					size = 0.2
+					stockpile_ratio = 0.2
+					army_ratio = 0.2
+					navy_ratio = 0.2
+					air_ratio = 0.2
+				}
+			}
+
+        UMB = {
+            leave_faction = yes
+			if  = {
+				limit = {
+					has_war_with = CRO
+				}
+				every_country = {
+					limit = { is_in_faction_with = CRO }
+					white_peace = UMB
+					set_truce = { target = UMB days = 365 }
+				}
+				UMB = {
+					white_peace = CRO
+					set_truce = { target = CRO days = 365 }
+				}
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = UMB
+				} 
+				add_core_of = NOR
+			}
+        }
+		
+		#Riverlands
+		RIV = {
+			#House Frey
+			release = FRE
+			end_puppet = FRE
+			
+			transfer_units_fraction = {
+				target = FRE
+				size = 0.4
+				stockpile_ratio = 0.4
+				army_ratio = 0.4
+				navy_ratio = 0.4
+				air_ratio = 0.4
+			}
+
+			FRE = {
+				leave_faction = yes
+				if  = {
+					limit = {
+						has_war_with = CRO
+					}
+					every_country = {
+						limit = { is_in_faction_with = CRO }
+						white_peace = FRE
+						set_truce = { target = FRE days = 365 }
+					}
+					FRE = {
+						white_peace = CRO
+						set_truce = { target = CRO days = 365 }
+					}
+				}
+				declare_war_on = {
+					target = RIV
+					type = civil_war
+				}
+				every_state = { 
+					limit = { 
+						is_core_of = RIV
+					} 
+					add_core_of = FRE
+				}
+				every_state = { 
+					limit = { 
+						is_core_of = FRE
+					} 
+					add_core_of = RIV
+				}
+			}
+		}
+
+}

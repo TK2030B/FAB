@@ -2485,6 +2485,272 @@ country_event = {
 	}
 }
 
+#The Great Betrayal
+country_event = {
+	id = GOT_Diplomatic_Country.34
+	title = GOT_Diplomatic_Country.34.t
+	desc = GOT_Diplomatic_Country.34.d
+	picture = GFX_report_event_The_Great_Betrayal
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.34.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		GOT_The_Great_Betrayal = yes
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.21
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
+#The Great Betrayal
+country_event = {
+	id = GOT_Diplomatic_Country.35
+	title = GOT_Diplomatic_Country.35.t
+	desc = GOT_Diplomatic_Country.35.d
+	picture = GFX_report_event_The_Great_Betrayal
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.35.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		GOT_The_Great_Betrayal = yes
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.21
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
+#Robb-Roslin Wedding
+country_event = {
+	id = GOT_Diplomatic_Country.36
+	title = GOT_Diplomatic_Country.36.t
+	desc = GOT_Diplomatic_Country.36.d
+	picture = GFX_report_event_Roslin_Robb
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.36.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_political_power = 25
+		add_stability = 0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.22
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
+#The Red Wedding
+country_event = {
+	id = GOT_Diplomatic_Country.37
+	title = GOT_Diplomatic_Country.37.t
+	desc = GOT_Diplomatic_Country.37.d
+	picture = GFX_report_event_GOT_Story_Country241 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.37.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		GOT_The_Great_Betrayal = yes
+		
+		NOR = {
+		
+			kill_country_leader = yes
+			
+			NOR_robb_stark = {
+				retire = yes
+			}
+			
+			add_country_leader_role = {
+				character = NOR_Bran_Stark
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {
+						gentle_scholar
+						constitutional_monarch
+						infirm
+						voice_of_restraint
+					}
+				}
+				promote_leader = yes
+			}
+			
+			add_country_leader_role = {
+				character = NOR_Bran_Stark
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = DR_subideology
+					traits = {
+						gentle_scholar
+						constitutional_monarch
+						infirm
+						voice_of_restraint
+					}
+				}
+				promote_leader = yes
+			}
+		}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.23
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
+#Edmure-Roslin Wedding
+country_event = {
+	id = GOT_Diplomatic_Country.38
+	title = GOT_Diplomatic_Country.38.t
+	desc = GOT_Diplomatic_Country.38.d
+	picture = GFX_report_event_Roslin_Edmure
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.38.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_political_power = 25
+		add_stability = 0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.24
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
+#The Red Wedding
+country_event = {
+	id = GOT_Diplomatic_Country.39
+	title = GOT_Diplomatic_Country.39.t
+	desc = GOT_Diplomatic_Country.39.d
+	picture = GFX_report_event_GOT_Story_Country241 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.39.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		GOT_The_Great_Betrayal = yes
+		
+		NOR = {
+		
+			kill_country_leader = yes
+			
+			NOR_robb_stark = {
+				retire = yes
+			}
+			
+			add_country_leader_role = {
+				character = NOR_Bran_Stark
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {
+						gentle_scholar
+						constitutional_monarch
+						infirm
+						voice_of_restraint
+					}
+				}
+				promote_leader = yes
+			}
+			
+			add_country_leader_role = {
+				character = NOR_Bran_Stark
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = DR_subideology
+					traits = {
+						gentle_scholar
+						constitutional_monarch
+						infirm
+						voice_of_restraint
+					}
+				}
+				promote_leader = yes
+			}
+		}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.25
+                hours = 6 
+            } 
+        }
+
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -2750,5 +3016,70 @@ news_event = {
 
 	option = {
 		name = GOT_Diplomatic_News.20.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.21
+	title = GOT_Diplomatic_News.21.t
+	desc = GOT_Diplomatic_News.21.d
+	picture = GFX_news_event_The_Great_Betrayal
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.21.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.22
+	title = GOT_Diplomatic_News.22.t
+	desc = GOT_Diplomatic_News.22.d
+	picture = GFX_news_event_Roslin_Robb
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.22.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.23
+	title = GOT_Diplomatic_News.23.t
+	desc = GOT_Diplomatic_News.23.d
+	picture = GFX_news_event_GOT_Story_News241
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.23.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.24
+	title = GOT_Diplomatic_News.24.t
+	desc = GOT_Diplomatic_News.24.d
+	picture = GFX_news_event_Roslin_Edmure
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.24.a
+	}
+}
+
+news_event = {
+	id = GOT_Diplomatic_News.25
+	title = GOT_Diplomatic_News.25.t
+	desc = GOT_Diplomatic_News.25.d
+	picture = GFX_news_event_GOT_Story_News241
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_News.25.a
 	}
 }
