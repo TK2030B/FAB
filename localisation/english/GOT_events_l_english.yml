@@ -2461,6 +2461,22 @@ GOT_Diplomatic_Country.42.b: "Jaime will return to Casterly Rock."
 GOT_Diplomatic_Country.42.c: "Cersei will rule in her own name—or her child's."
 GOT_Diplomatic_Country.42.e: "Let the Crown assume control of the Rock."
 
+GOT_Diplomatic_Country.43.t:0 "A Request from Pentos"
+GOT_Diplomatic_Country.43.d:0 "A diplomatic raven arrives from the Magisters of Pentos. With great courtesy and acknowledgment of past hospitality, they note that House Targaryen has now secured lands of its own, and respectfully request the return of Illyrio Mopatis' mansion. They emphasize that this request comes not from malice, but from the understanding that their generous gesture of asylum is no longer necessary now that the Targaryens are no longer destitute wanderers."
+GOT_Diplomatic_Country.43.a:0 "They sheltered us in our time of need. We shall withdraw peacefully."
+GOT_Diplomatic_Country.43.b:0 "This mansion is ours now. Tell them to come and take it."
+GOT_Diplomatic_Country.43.c:0 "An insult! We will strike first and teach them their place."
+
+GOT_Diplomatic_Country.44.t:0 "Illyrio's Mansion Reclaimed"
+GOT_Diplomatic_Country.44.d:0 "Word has arrived that House Targaryen has departed Illyrio’s Mansion in good faith. With their own lands secured, they have relinquished their former refuge without dispute. The estate has now returned to Pentoshi administration. Though simple in nature, this gesture marks a symbolic end to the era of their dependency — and a quiet relief for our court."
+GOT_Diplomatic_Country.44.a:0 "Let the mansion be restored to its old purpose."
+
+GOT_Diplomatic_Country.45.t:0 "Targaryens Refuse to Vacate Illyrio’s Mansion"
+GOT_Diplomatic_Country.45.d:0 "Our request was met not with understanding, but with defiance. House Targaryen has refused to leave Illyrio’s Mansion, insisting on remaining despite their newfound holdings. This disregard for our sovereignty is a troubling sign. Some urge immediate action, while others counsel patience — for now."
+GOT_Diplomatic_Country.45.a:0 "They leave us no choice. We’ll take it by force."
+GOT_Diplomatic_Country.45.b:0 "We’ll let it slide — for now."
+
+
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
 GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."
@@ -2555,6 +2571,15 @@ GOT_Diplomatic_News.25.a:0 "The North weeps for its king."
 GOT_Diplomatic_News.26.t:0 "Daario Remains Loyal to Yunkai"
 GOT_Diplomatic_News.26.d:0 "In a surprising turn of events, Daario Naharis and the Second Sons have chosen to remain loyal to Yunkai, despite the growing influence of Daenerys Targaryen. The Second Sons, once feared as mercenaries in the service of the Mother of Dragons, will now continue to fight for the Slavers. This unexpected decision could change the balance of power in Slaver's Bay, and Daenerys will now have to face the formidable force of the Second Sons as she continues her struggle."
 
+GOT_Diplomatic_News.27.t:0 "House Targaryen Leaves Illyrio's Mansion"
+GOT_Diplomatic_News.27.d:0 "In a gesture of gratitude and respect, House Targaryen has peacefully vacated the estate of Illyrio Mopatis in Pentos. The mansion, which served as a sanctuary during their years of exile, is once again in the hands of its original owner. Many in Essos see this as a symbol of the Targaryens' rising power and independence — no longer beggars seeking shelter, but rulers reclaiming their place in the world."
+GOT_Diplomatic_News.27.a:0 "A chapter ends; another begins."
+
+GOT_Diplomatic_News.28.t:0 "House Targaryen Refuses to Leave Illyrio’s Mansion"
+GOT_Diplomatic_News.28.d:0 "Despite Pentos' formal request, House Targaryen has refused to vacate the estate granted to them in exile by Illyrio Mopatis. Though they now command lands of their own, the Targaryens have chosen to remain in the mansion — a move seen by many as high-handed and provocative. Whispers swirl in the Free Cities; will Pentos tolerate this insult to its sovereignty, or will it take action to reclaim what is rightfully theirs?"
+GOT_Diplomatic_News.28.a:0 "The dragon grows bold."
+
+
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
 GOT_Alt_Country.1.a: "Celebrate the union and strengthen our claim to the Iron Throne"
@@ -2647,6 +2672,54 @@ GOT_Location_Country.10.t: "A New Ruler for Pyke"
 GOT_Location_Country.10.d: "Amid the windswept cliffs of Pyke, the Iron Islands are set to witness the rise of a new ruler. The seastone chair, long a symbol of the harsh and proud ways of House Greyjoy, awaits its new occupant. The salt and steel of the Ironborn fill the air as bannermen and raiders make their way to the fortress by the sea. Yet while some welcome the new ruler, the Ironborn are a people who respect strength above all else, and not all will bend the knee so easily."
 GOT_Location_Country.10.a: "The tide rises with a new captain."
 
+GOT_Location_Country.11.t: "House Baratheon of King's Landing"
+GOT_Location_Country.11.d: "House Baratheon, a great and powerful house of Westeros, has its seat in King’s Landing, where the Baratheons serve as the ruling family of the Seven Kingdoms. The Baratheons rose to power during Robert’s Rebellion, when Lord Robert Baratheon claimed the Iron Throne after overthrowing the Targaryen dynasty. Robert’s rule has been marked by a heavy hand, while his brothers, Stannis and Renly, each maintain their own ambition and rivalry. Though the Baratheons enjoy wealth and power, their rule is fragile, with threats brewing within the realm, from the North to the capital itself. As of now, Robert Baratheon, King of the Andals and Protector of the Realm, sits on the Iron Throne. His reign, however, is surrounded by growing intrigue, and his health and decision-making are in decline, with whispers of troubles that may shake the foundation of his kingdom."
+GOT_Location_Country.11.a: "Ours is the Fury."
+
+GOT_Location_Country.12.t: "House Lannister"
+GOT_Location_Country.12.d: "House Lannister of Casterly Rock is one of the wealthiest and most influential families in the Seven Kingdoms. The Lannisters’ rise to prominence began with the legendary Lann the Clever, who tricked the Casterlys out of their ancestral seat. With vast riches from their gold mines, House Lannister has held significant power for generations. As of now, Tywin Lannister serves as the head of the house, a ruthless and calculating ruler who commands great respect. Tywin’s children, Jaime, Cersei, and Tyrion, each play critical roles in the political maneuvering at King’s Landing. Despite their immense wealth and power, the Lannisters are embroiled in dangerous games of politics and intrigue, with their family’s honor and future on the line."
+GOT_Location_Country.12.a: "Hear Me Roar!"
+
+
+GOT_Location_Country.13.t: "House Stark"
+GOT_Location_Country.13.d: "House Stark of Winterfell is one of the oldest and most noble houses in the North, known for their resilience and honor. Descended from the First Men, the Starks have ruled over the North for millennia. Their seat, Winterfell, stands as a symbol of their enduring legacy. As of the beginning of Robert's Rebellion, Eddard Stark, the current Lord of Winterfell, is a man of great integrity and honor, famed for his loyalty and sense of justice. The Stark family is fiercely protective of the North, with Eddard's children—Robb, Sansa, Arya, Bran, and Rickon—carrying the weight of their house's future on their shoulders. With the looming threat of the growing tension in Westeros, House Stark faces its greatest challenges yet."
+GOT_Location_Country.13.a: "Winter is Coming"
+
+
+GOT_Location_Country.14.t: "House Baratheon of Storm's End"
+GOT_Location_Country.14.d: "House Baratheon of Storm's End is a powerful family with a legacy of strength and pride. Founded by Orys Baratheon, a half-brother of Aegon the Conqueror, they have long ruled the Stormlands from their ancestral seat at Storm's End. At the start of the War of the Five Kings, Renly Baratheon, the younger brother of King Robert Baratheon, rules Storm's End. Renly is known for his charisma and his ambition, seeking to claim the Iron Throne for himself. As the youngest of the Baratheon brothers, Renly's ambitions bring him into conflict with his older brother Stannis and the ruling king, Robert. Storm's End is a place where the storms are fierce, but so too are the Baratheons who call it home."
+GOT_Location_Country.14.a: "Ours is the Fury"
+
+
+GOT_Location_Country.15.t: "House Arryn"
+GOT_Location_Country.15.d: "House Arryn rules the Vale of Arryn from the impregnable Eyrie. The family has a long history of guarding the eastern borders of the Seven Kingdoms. At the beginning of the War of the Five Kings, House Arryn is ruled by Jon Arryn, Warden of the East, who is a respected figure. However, with Jon’s sudden death, his young wife, Lysa Arryn, has taken control. The Vale is a land of lofty mountains and formidable defenses, and House Arryn’s strength lies in its strategic position and its loyal bannermen. The Eyrie stands as a symbol of their power and isolation, untouched by the turmoil that engulfs the rest of Westeros."
+GOT_Location_Country.15.a: "As High as Honor"
+
+
+GOT_Location_Country.16.t: "House Martell"
+GOT_Location_Country.16.d: "House Martell rules the hot and arid region of Dorne, located in the southernmost part of Westeros. The Martells have long been known for their fierce independence and pride. As of Season 1, House Martell is led by Prince Doran Martell, who governs Dorne with wisdom and caution. However, after the death of the previous ruler, his younger brother, Oberyn Martell, seeks to take matters into his own hands. The Martells are loyal to the Targaryens due to their shared history, but tensions with the rest of the Seven Kingdoms are palpable. Dorne’s ruling family has a reputation for honoring their traditions and fighting for their rights, with the famous words 'Unbowed, Unbent, Unbroken' serving as a testament to their enduring strength."
+GOT_Location_Country.16.a: "Unbowed, Unbent, Unbroken"
+
+
+GOT_Location_Country.17.t: "House Tyrell"
+GOT_Location_Country.17.d: "House Tyrell is one of the most powerful houses in the Seven Kingdoms, ruling the fertile and prosperous region of the Reach. Known for their wealth, influence, and vast armies, the Tyrells are led by Mace Tyrell, though much of the actual political power resides with his ambitious and calculating mother, Olenna Tyrell. House Tyrell has always been loyal to the Iron Throne, seeking to maintain their position as the most influential house after House Lannister. The Tyrells are also known for their strategic marriages, with Margaery Tyrell betrothed to King Renly Baratheon at the start of the series, and later, Queen to King Joffrey Baratheon. With the abundance of their lands, House Tyrell seeks to expand its influence, though they must balance their relationship with the Lannisters and their growing ambitions."
+GOT_Location_Country.17.a: "Growing Strong"
+
+
+GOT_Location_Country.18.t: "House Tully"
+GOT_Location_Country.18.d: "House Tully rules the Riverlands from their seat, Riverrun. Known for their honor and strong family bonds, the Tullys are led by Hoster Tully, though much of the daily affairs are overseen by his son, Edmure Tully. House Tully’s motto is ‘Family, Duty, Honor,’ a reflection of their strong sense of duty to their kin and their realm. The Tullys are loyal to the Iron Throne, and at the start of the series, they are deeply involved in the political intrigues of King Robert Baratheon’s court, as they arrange a marriage between Catelyn Tully and Eddard Stark. With the Riverlands often caught between the ambitions of the Lannisters and the Baratheons, House Tully faces constant challenges but remains a formidable and respected force in Westeros."
+GOT_Location_Country.18.a: "Family, Duty, Honor"
+
+
+GOT_Location_Country.19.t: "House Baratheon of Dragonstone"
+GOT_Location_Country.19.d: "House Baratheon of Dragonstone is ruled by Stannis Baratheon, the younger brother of King Robert Baratheon. While Robert rules from King's Landing, Stannis holds the fortress of Dragonstone, located on a rocky island off the coast of Westeros. Known for his stern sense of duty and honor, Stannis is often seen as the least charismatic of the Baratheon brothers, yet his unwavering sense of justice makes him a formidable figure. His devotion to the Iron Throne and the law is matched only by his desire for power. At the start of the series, Stannis is watching the political landscape from Dragonstone, feeling slighted by Robert's neglect of his claims to power. As tensions rise, Stannis is on the verge of taking more aggressive action to secure his future."
+GOT_Location_Country.19.a: "Ours is the Fury"
+
+
+GOT_Location_Country.20.t: "House Greyjoy"
+GOT_Location_Country.20.d: "House Greyjoy of Pyke is one of the Great Houses of Westeros, ruling over the Iron Islands. Known for their seafaring culture, the Ironborn follow the Old Way, a harsh and raiding lifestyle that places great value on strength and independence. House Greyjoy is currently ruled by Balon Greyjoy, a man whose aspirations have led him to challenge the stability of the Iron Throne. With Robert Baratheon’s reign weakening, Balon seeks to reclaim the power of the Iron Islands and restore its former glory. His earlier rebellion was crushed, but his ambitions remain strong, and at the start of the series, he plots his next move. His two sons, Asha and Theon, have different views on their house’s future, adding tension within the family."
+GOT_Location_Country.20.a: "We Do Not Sow"
+
 
 GOT_Location_News.1.t: "[CRO.GetLeader] Crowned King of the Seven Kingdoms"
 GOT_Location_News.1.d: "In a moment of grandeur and gravity, [CRO.GetLeader] has been crowned as King of the Andals and the First Men, Lord of the Seven Kingdoms, and Protector of the Realm. King’s Landing erupts in celebration, with the great bells of the Sept ringing out over the city and banners of [CRO.GetRulingParty] unfurling atop the Red Keep. Across the realm, some kneel with loyalty, while others eye the Iron Throne with quiet defiance. The game of thrones is far from over."
@@ -2690,13 +2763,14 @@ GOT_Location_News.10.t: "[VAL.GetLeader] Named Lady of the Eyrie"
 GOT_Location_News.10.d: "In a decision that has left the Vale abuzz, [VAL.GetLeader] has been named Lady of the Eyrie, ruling from the ancient seat of House Arryn. As the first woman to hold this title in the Eyrie’s long history, she faces both praise and skepticism. Some view this as a bold and just move, while others question whether the fragility of the Eyrie’s political position will remain intact under this new rule. The future of the Vale now rests in her hands."
 GOT_Location_News.10.a: "A new lady rises in the mountains."
 
-GOT_Location_News.11.t: "[DOR.GetLeader] Named Lord of Sunspear"
-GOT_Location_News.11.d: "In a decision that reverberates through the burning sands, [DOR.GetLeader] has been named Lord of Sunspear, the ancestral seat of House Martell. The sun-scorched city now falls under the rule of a new leader, and with it, the fate of Dorne. Some celebrate the appointment as a return to the glory of House Martell, while others whisper that it may bring further tension between the traditionalists and those who seek change. In the heat of Dorne, change is always on the horizon."
+GOT_Location_News.11.t: "[DOR.GetLeader] Named Prince of Sunspear"
+GOT_Location_News.11.d: "In a decision that echoes across the sands, [DOR.GetLeader] has been named Prince of Sunspear, the heart of House Martell. The sun-baked city now falls under new leadership, and with it, the fate of Dorne. Some celebrate the appointment as a return to House Martell’s glory, while others whisper of rising tensions between the traditionalists and reformists. In Dorne, change is always a matter of time."
 GOT_Location_News.11.a: "A new sun rises over Dorne."
 
-GOT_Location_News.12.t: "[DOR.GetLeader] Named Lady of Sunspear"
-GOT_Location_News.12.d: "In a bold and historic move, [DOR.GetLeader] has been named Lady of Sunspear, taking the seat of House Martell in a region long ruled by men. The news has spread like wildfire through the desert, with some hailing the decision as a step toward equality, while others question whether a woman can maintain the fragile balance of power in Dorne. Regardless, House Martell’s legacy now finds new leadership in the scorching sun."
+GOT_Location_News.12.t: "[DOR.GetLeader] Named Princess of Sunspear"
+GOT_Location_News.12.d: "In a bold and historic decision, [DOR.GetLeader] has been named Princess of Sunspear, taking the seat of House Martell in a realm long ruled by men. The news spreads rapidly through the desert, with some hailing the decision as a stride toward equality, while others question whether a woman can preserve the delicate balance of power in Dorne. Regardless, House Martell’s legacy finds new leadership beneath the scorching sun."
 GOT_Location_News.12.a: "Dorne bows to a new matriarch."
+
 
 GOT_Location_News.13.t: "[REA.GetLeader] Named Lord of Highgarden"
 GOT_Location_News.13.d: "In a move that has left the Reach buzzing with speculation, [REA.GetLeader] has been named Lord of Highgarden, the majestic seat of House Tyrell. The lush fields and fertile lands of the Reach now fall under the rule of a new leader, whose ability to manage the powerful bannermen of the region will be tested. While some see this as the return of stability, others are wary of what this new leadership might mean for the future of the Reach."
@@ -2722,10 +2796,10 @@ GOT_Location_News.18.t: "[DRA.GetLeader] Named Lady of Dragonstone"
 GOT_Location_News.18.d: "In a move that has ignited both admiration and doubt, [DRA.GetLeader] has been named Lady of Dragonstone, the ancient stronghold of House Targaryen. As the first woman to claim the title, she now commands the island’s storied legacy and the potential return of dragons to the realm. While some praise the appointment as a bold step forward, others fear that the island’s traditions and strength may be weakened under her leadership. Dragonstone’s future now rests in her hands."
 GOT_Location_News.18.a: "Dragonstone welcomes a new matriarch."
 
-GOT_Location_News.19.t: "[IRO.GetLeader] Named Lord of Pyke"
-GOT_Location_News.19.d: "In a decision that echoes across the Iron Islands, [IRO.GetLeader] has been named Lord of Pyke, the ancestral seat of House Greyjoy. The Ironborn now look to a new ruler, one who will guide them through the turbulent waters of the Sunset Sea. While some view this as a return to the strength of the Greyjoy legacy, others question whether the Iron Islands can survive under a new hand. The sea winds howl as the Ironborn prepare for a new era."
+GOT_Location_News.19.t: "[IRO.GetLeader] Named Lord Reaper of Pyke"
+GOT_Location_News.19.d: "In a decision that reverberates across the Iron Islands, [IRO.GetLeader] has been named Lord Reaper of Pyke, the ancestral seat of House Greyjoy. The Ironborn now look to a new ruler, one who will guide them through the turbulent waters of the Sunset Sea. While some view this as a return to the strength of the Greyjoy legacy, others question whether the Iron Islands can survive under a new hand. The sea winds howl as the Ironborn prepare for a new era."
 GOT_Location_News.19.a: "A new iron lord rises from the waves."
 
-GOT_Location_News.20.t: "[IRO.GetLeader] Named Lady of Pyke"
-GOT_Location_News.20.d: "In an unprecedented move, [IRO.GetLeader] has been named Lady of Pyke, claiming the seat of House Greyjoy. As the first woman to rule the Iron Islands, she faces both the harsh traditions of her people and the challenges of leading a kingdom bound by the sea. Some praise the appointment as a sign of change and progress, while others question if a woman can truly lead the Ironborn. The waves crash, but the future of Pyke now rests in her hands."
+GOT_Location_News.20.t: "[IRO.GetLeader] Named Lady Reaper of Pyke"
+GOT_Location_News.20.d: "In an unprecedented move, [IRO.GetLeader] has been named Lady Reaper of Pyke, claiming the seat of House Greyjoy. As the first woman to rule the Iron Islands, she faces both the harsh traditions of her people and the challenges of leading a kingdom bound by the sea. Some praise the appointment as a sign of change and progress, while others question if a woman can truly lead the Ironborn. The waves crash, but the future of Pyke now rests in her hands."
 GOT_Location_News.20.a: "Pyke bows to a new matriarch."

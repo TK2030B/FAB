@@ -3171,6 +3171,172 @@ country_event = {
 	
 }
 
+# Targaryen Asylum Ends
+country_event = { 
+    id = GOT_Diplomatic_Country.43
+    title = GOT_Diplomatic_Country.43.t 
+    desc = GOT_Diplomatic_Country.43.d 
+    picture = GFX_report_event_GOT_Story_Country4
+ 
+    is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Diplomatic_Country.43.a 
+ 
+        ai_chance = { 
+            factor = 60 
+        } 
+ 
+        PEN = { 
+			country_event = { 
+				id = GOT_Diplomatic_Country.44
+				hours = 6 
+			}
+        } 
+    } 
+	
+	option = { 
+        name = GOT_Diplomatic_Country.43.b 
+ 
+        ai_chance = { 
+            factor = 25 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+		
+		PEN = { 
+			country_event = { 
+				id = GOT_Diplomatic_Country.45
+				hours = 6 
+			}
+        } 
+ 
+ 
+    } 
+	
+	option = { 
+        name = GOT_Diplomatic_Country.43.c 
+ 
+        ai_chance = { 
+            factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+		
+		create_wargoal = {
+			type = annex_everything
+			target = PEN
+			expire = 365
+		}
+		
+		PEN = { 
+			country_event = { 
+				id = GOT_Diplomatic_Country.45
+				hours = 6 
+			}
+        } 
+ 
+ 
+    }
+}
+
+# Targaryen's Agree to Leave
+country_event = { 
+    id = GOT_Diplomatic_Country.44
+    title = GOT_Diplomatic_Country.44.t 
+    desc = GOT_Diplomatic_Country.44.d 
+    picture = GFX_report_event_GOT_Story_Country4
+ 
+    is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Diplomatic_Country.44.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+		
+		TAR = { 
+			remove_state_core = 167
+		} 
+		
+		set_state_owner = 167
+		add_state_core = 167
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.27
+                hours = 6 
+            } 
+        } 
+    } 
+}
+
+# Targaryen's Decline
+country_event = { 
+    id = GOT_Diplomatic_Country.45
+    title = GOT_Diplomatic_Country.45.t 
+    desc = GOT_Diplomatic_Country.45.d 
+    picture = GFX_report_event_GOT_Story_Country4
+ 
+    is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Diplomatic_Country.45.a 
+ 
+        ai_chance = { 
+            factor = 40 
+        } 
+		
+		create_wargoal = {
+			type = annex_everything
+			target = TAR
+			expire = 365
+		}
+		
+		add_war_support = 0.05
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.28
+                hours = 6 
+            } 
+        } 
+    } 
+	
+	option = { 
+        name = GOT_Diplomatic_Country.45.b 
+ 
+        ai_chance = { 
+            factor = 60 
+        } 
+		
+		add_war_support = -0.05
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.28
+                hours = 6 
+            } 
+        }
+ 
+ 
+    } 
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -3490,5 +3656,33 @@ news_event = {
  
     option = { 
         name = GOT_Diplomatic_News.26.a 
+    } 
+} 
+
+#Targaryen Asylum Ends
+news_event = { 
+    id = GOT_Diplomatic_News.27 
+    title = GOT_Diplomatic_News.27.t 
+    desc = GOT_Diplomatic_News.27.d 
+    picture = GFX_news_event_GOT_Story_News4 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Diplomatic_News.27.a 
+    } 
+} 
+
+#Targaryens Refuse to Leave
+news_event = { 
+    id = GOT_Diplomatic_News.28 
+    title = GOT_Diplomatic_News.28.t 
+    desc = GOT_Diplomatic_News.28.d 
+    picture = GFX_news_event_GOT_Story_News4 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Diplomatic_News.28.a 
     } 
 } 

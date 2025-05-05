@@ -7,11 +7,15 @@ GOT_Game_Decisions = {
 		available = { 
 			tag = DRA
 			date > 1937.1.1
-			date < 1938.10.10
+			date < 1945.1.1
 			surrender_progress < 0.1
 			has_war_with = CRO
 			142 = { CONTROLLER = { has_war_with = ROOT } }
 			NOT = { has_country_flag = EW_Battle_of_Blackwater_Bay }
+			has_country_leader = {
+				name = "Stannis Baratheon"
+				ruling_only = yes
+			}
 		}
 		
 		allowed = {
@@ -89,7 +93,7 @@ GOT_Game_Decisions = {
 		available = { 
 			tag = IRO
 			date > 1937.1.1
-			date < 1938.5.20
+			date < 1945.1.1
 			surrender_progress < 0.1
 			has_war_with = NOR
 			NOT = { has_country_flag = EW_Ironborn_Invasion }
@@ -165,7 +169,7 @@ GOT_Game_Decisions = {
 		available = { 
 			tag = IRO
 			date > 1937.1.1
-			date < 1938.6.25
+			date < 1945.1.1
 			surrender_progress < 0.1
 			has_war_with = NOR
 			has_country_flag = GOT_Theon_Returns_Flag
@@ -281,27 +285,31 @@ GOT_Game_Decisions = {
 		}
 	}
 	
-	IRO_Invasion_of_RIV = {
+	PEN_End_Targaryen_Asylum = {
 		icon = generic_army_support
 		
 		allowed = {
-			tag = IRO
+			tag = PEN
 		}
 
 		available = {
-			tag = IRO
-			date > 1938.1.1
-			date < 1939.2.5
-			NOT = { has_war_with = RIV }
-			NOT = { is_in_faction_with = RIV }
-			country_exists = RIV
+			tag = PEN
+			date > 1936.1.1
+			date < 1945.1.1
+			NOT = { has_war_with = TAR }
+			country_exists = TAR
 			surrender_progress < 0.1
-			has_global_flag = GOT_Sandbox_Mode
+			TAR = { owns_state = 167 }
+			TAR = { 
+				any_owned_state = {
+					NOT = { state = 167 }
+				}
+			}
+			is_subject = no
 		}
 
 		visible = {
 			NOT = { has_country_flag = EW_Operation }
-			has_global_flag = GOT_Sandbox_Mode
 		}
 
 		cost = 0
@@ -310,14 +318,10 @@ GOT_Game_Decisions = {
 
 		ai_will_do = {
 			factor = 1000
-			modifier = {
-				factor = 0
-				date < 1938.2.5
-			}
 		}
 
 		days_remove = 7
-		war_with_on_remove = RIV
+		war_with_on_remove = TAR
 
 		complete_effect = {
 			set_country_flag = EW_Operation
@@ -325,10 +329,8 @@ GOT_Game_Decisions = {
 		
 		remove_effect = {
 			clr_country_flag = EW_Operation
-			create_wargoal = {
-				type = annex_everything
-				target = RIV
-				expire = 365
+			TAR = {
+				country_event = { id = GOT_Diplomatic_Country.43 }
 			}
 		}
 	}

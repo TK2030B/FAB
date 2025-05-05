@@ -422,6 +422,198 @@ country_event = {
 	}
 }
 
+
+#Crowned King
+country_event = {
+	id = GOT_Location_Country.11
+	title = GOT_Location_Country.11.t
+	desc = GOT_Location_Country.11.d
+	picture = GFX_report_event_Red_Keep
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.11.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Casterly Rock
+country_event = {
+	id = GOT_Location_Country.12
+	title = GOT_Location_Country.12.t
+	desc = GOT_Location_Country.12.d
+	picture = GFX_report_event_Casterly_Rock
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.12.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Winterfell
+country_event = {
+	id = GOT_Location_Country.13
+	title = GOT_Location_Country.13.t
+	desc = GOT_Location_Country.13.d
+	picture = GFX_report_event_Winterfell
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.13.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Storms End
+country_event = {
+	id = GOT_Location_Country.14
+	title = GOT_Location_Country.14.t
+	desc = GOT_Location_Country.14.d
+	picture = GFX_report_event_Storms_End
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.14.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Eyrie
+country_event = {
+	id = GOT_Location_Country.15
+	title = GOT_Location_Country.15.t
+	desc = GOT_Location_Country.15.d
+	picture = GFX_report_event_Eyrie
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.15.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Sunspear
+country_event = {
+	id = GOT_Location_Country.16
+	title = GOT_Location_Country.16.t
+	desc = GOT_Location_Country.16.d
+	picture = GFX_report_event_Sunspear
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.16.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Highgarden
+country_event = {
+	id = GOT_Location_Country.17
+	title = GOT_Location_Country.17.t
+	desc = GOT_Location_Country.17.d
+	picture = GFX_report_event_Highgarden
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.17.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Riverrun
+country_event = {
+	id = GOT_Location_Country.18
+	title = GOT_Location_Country.18.t
+	desc = GOT_Location_Country.18.d
+	picture = GFX_report_event_Riverrun
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.18.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Dragonstone
+country_event = {
+	id = GOT_Location_Country.19
+	title = GOT_Location_Country.19.t
+	desc = GOT_Location_Country.19.d
+	picture = GFX_report_event_Dragonstone
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.19.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Pyke
+country_event = {
+	id = GOT_Location_Country.20
+	title = GOT_Location_Country.20.t
+	desc = GOT_Location_Country.20.d
+	picture = GFX_report_event_Pyke
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.20.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+
 #Generic Crowned King
 news_event = {
 	id = GOT_Location_News.1
