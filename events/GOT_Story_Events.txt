@@ -10005,8 +10005,8 @@ country_event = {
  
         add_war_support = 0.05 
 		
-		add_state_claim = 33
-		add_state_claim = 91
+		add_state_core = 33
+		add_state_core = 91
 		
 		create_wargoal = {
 			type = annex_everything
@@ -11237,8 +11237,8 @@ country_event = {
 			expire = 365
 		}
 		
-		add_state_claim = 89
-		add_state_claim = 127
+		add_state_core = 89
+		add_state_core = 127
 		
  
         every_other_country = { 
@@ -11763,9 +11763,6 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = -0.05 
-		
-		add_state_core = 89
-		add_state_core = 127
  
         every_other_country = { 
             limit = { 
