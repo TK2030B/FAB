@@ -298,6 +298,10 @@ country_event = {
 			factor = 80
 		}
 		
+		NOR_ned_stark = {
+			retire = yes
+		}
+		
 		if = {
 			limit = {
 				is_in_faction_with = CRO
@@ -357,6 +361,10 @@ country_event = {
 				is_historical_focus_on = yes
 				NOT = { has_war_with = CRO }
 			}
+		}
+		
+		NOR_ned_stark = {
+			retire = yes
 		}
 		
 		if = {
