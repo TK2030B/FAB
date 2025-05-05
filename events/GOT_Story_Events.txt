@@ -5294,6 +5294,11 @@ country_event = {
 			hours = 6
         }
 		
+		country_event = {
+			id = GOT_Location_Country.4
+			hours = 6
+		}
+		
 		every_other_country = {
             limit = {
                 exists = yes
@@ -5534,6 +5539,11 @@ country_event = {
 			id = GOT_Diplomatic_News.9
 			hours = 6
         }
+		
+		country_event = {
+			id = GOT_Location_Country.4
+			hours = 6
+		}
 		
 		every_other_country = {
             limit = {
@@ -8387,8 +8397,8 @@ country_event = {
  
     trigger = { 
         tag = CRO 
-		date > 1938.6.25
-        date < 1938.7.25
+		date > 1939.11.15
+        date < 1940.11.15
 		has_global_flag = GOT_Purple_Wedding_Flag
     } 
  
@@ -8402,6 +8412,12 @@ country_event = {
         } 
   
         add_stability = 0.05  
+		
+		CRO_lord_varys = {
+			retire = yes
+		}
+		
+		set_global_flag = GOT_Varys_Fled_Flag
  
         every_other_country = { 
             limit = { 
@@ -9589,6 +9605,8 @@ country_event = {
     title = GOT_Story_Country.238.t 
     desc = GOT_Story_Country.238.d 
     picture = GFX_report_event_GOT_Story_Country238 
+	
+	hidden = yes
  
     trigger = { 
         tag = TAR
@@ -9605,28 +9623,44 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
 		
-		add_corps_commander_role = {
-			character = TAR_Daario_Naharis
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-		}
+			if = {
+				limit = {
+					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
+				}
+				TAR= {
+					country_event = {
+						id = GOT_Diplomatic_Country.40
+						hours = 6
+					}
+				}
+			}
+			#For Non-Historical/Sandbox 70-30
+			else = {
+				random_list = {
+					#70% Defects Normally
+					70 = {
+						TAR = {
+							country_event = {
+								id = GOT_Diplomatic_Country.40
+								hours = 6
+							}
+						}
+					}
+					#30% Stays Loyal to Yunkai
+					30 = {
+						YUN = {
+							country_event = {
+								id = GOT_Diplomatic_Country.41
+								hours = 6
+							}
+						}	
+					}
+				}
+			}
  
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.238 
-                hours = 6 
-            } 
-        } 
+        
     } 
 } 
  
@@ -10443,6 +10477,11 @@ country_event = {
 				} 
 			}
         }
+		
+		country_event = {
+			id = GOT_Location_Country.8
+			hours = 6
+		}
  
         every_other_country = { 
             limit = { 
@@ -11596,6 +11635,7 @@ country_event = {
     } 
  
     fire_only_once = yes 
+	hidden = yes
  
     option = { 
         name = GOT_Story_Country.321.a 
@@ -11603,21 +11643,12 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_political_power = 25 
 		
-		set_global_flag = GOT_New_Monarch_Chosen_Flag
+		country_event = {
+			id = GOT_Location_Country.1
+			hours = 6
+		}
  
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.321 
-                hours = 6 
-            } 
-        } 
     } 
 } 
  
@@ -11629,6 +11660,7 @@ news_event = {
     picture = GFX_news_event_GOT_Story_News321 
  
     is_triggered_only = yes 
+	major = yes
  
     option = { 
         name = GOT_Story_News.321.a 
@@ -13314,3 +13346,83 @@ news_event = {
     } 
 } 
  
+# Tywin Assassinated
+country_event = { 
+    id = GOT_Story_Country.351 
+    title = GOT_Story_Country.351.t 
+    desc = GOT_Story_Country.351.d 
+    picture = GFX_report_event_GOT_Story_Country351 
+ 
+    trigger = { 
+        tag = CRO 
+		date > 1939.11.15
+        date < 1940.11.15
+		has_global_flag = GOT_Purple_Wedding_Flag
+		has_global_flag = GOT_Tyrion_Death_Sentence
+		has_global_flag = GOT_Varys_Fled_Flag
+		CRO = { 
+			CRO_tywin_lannister = { 
+				is_hired_as_advisor = yes
+			}
+		}
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.351.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+		
+		CRO_tywin_lannister = {
+			retire = yes
+		}
+  
+        add_stability = -0.20  
+		add_political_power = -100
+		
+		if = { 
+            limit = { 
+               WES = {
+					has_country_leader = {
+						name = "Tywin Lannister"
+						ruling_only = yes
+					}
+				} 
+            } 
+            WES = {
+				country_event = { 
+					id = GOT_Diplomatic_Country.42
+					hours = 6 
+				} 
+			}
+        } 
+		
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.351
+                hours = 6 
+            } 
+        } 
+    } 
+}
+
+
+# Tywin Assassinated
+news_event = { 
+    id = GOT_Story_News.351
+    title = GOT_Story_News.351.t 
+    desc = GOT_Story_News.351.d 
+    picture = GFX_news_event_GOT_Story_News351 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.351.a 
+    } 
+} 

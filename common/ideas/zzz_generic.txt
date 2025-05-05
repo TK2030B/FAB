@@ -862,19 +862,19 @@ ideas = {
 			}
 			
 			#Added by GOT
-			on_add = {
-				set_rule = { 
-					can_create_factions = no
-					can_join_factions = no
-				}
-			}
+			#on_add = {
+			#	set_rule = { 
+			#		can_create_factions = no
+			#		can_join_factions = no
+			#	}
+			#}
 			
 			#Added by GOT
-			on_remove = {
-				set_rule = { 
-					can_join_factions = yes
-				}
-			}
+			#on_remove = {
+			#	set_rule = { 
+			#		can_join_factions = yes
+			#	}
+			#}
 			
 			removal_cost = -1
 	

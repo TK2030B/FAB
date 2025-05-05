@@ -340,6 +340,11 @@ country_event = {
 		add_war_support = 0.10
 		add_threat = 10
 		
+		country_event = {
+			id = GOT_Location_Country.3
+			hours = 6
+		}
+		
 	}
 	
 	option = {
@@ -362,6 +367,11 @@ country_event = {
 		}
 
 		add_war_support = 0.10
+		
+		country_event = {
+			id = GOT_Location_Country.3
+			hours = 6
+		}
 		
 		
 	}
@@ -421,9 +431,9 @@ country_event = {
 		
 		
 				
-		news_event = {
-			id = GOT_Diplomatic_News.5
-			days = 1
+		country_event = {
+			id = GOT_Location_Country.1
+			hours = 6
 		}
 		if = {
 			limit = {
@@ -522,9 +532,9 @@ country_event = {
 						}
 						promote_leader = yes
 					}
-					news_event = {
-						id = GOT_Diplomatic_News.5
-						days = 1
+					country_event = {
+						id = GOT_Location_Country.1
+						hours = 6
 					}
 				}
 				#Civil War
@@ -556,9 +566,9 @@ country_event = {
 						ideology = fascism
 						size = 0.65
 					}
-					news_event = {
-						id = GOT_Diplomatic_News.5
-						days = 1
+					country_event = {
+						id = GOT_Location_Country.1
+						hours = 6
 					}
 				}
 				#Ned Stark Arrested
@@ -647,9 +657,9 @@ country_event = {
 					}
 					promote_leader = yes
 				}
-				news_event = {
-					id = GOT_Diplomatic_News.5
-					days = 1
+				country_event = {
+					id = GOT_Location_Country.1
+					hours = 6
 				}
 			}
 			#Civil War
@@ -679,9 +689,9 @@ country_event = {
 					ideology = fascism
 					size = 0.55
 				}	
-				news_event = {
-					id = GOT_Diplomatic_News.5
-					days = 1
+				country_event = {
+					id = GOT_Location_Country.1
+					hours = 6
 				}
 			}
 			#Ned Stark Arrested
@@ -805,9 +815,9 @@ country_event = {
 			promote_leader = yes
 		}
 		
-		news_event = {
-			id = GOT_Diplomatic_News.5
-			days = 1
+		country_event = {
+			id = GOT_Location_Country.1
+			hours = 6
 		}
 		
 		if = {
@@ -856,9 +866,9 @@ country_event = {
 			promote_leader = yes
 		}
 		
-		news_event = {
-			id = GOT_Diplomatic_News.5
-			days = 1
+		country_event = {
+			id = GOT_Location_Country.1
+			hours = 6
 		}
 		
 		if = {
@@ -903,9 +913,9 @@ country_event = {
 			promote_leader = yes
 		}
 		
-		news_event = {
-			id = GOT_Diplomatic_News.5
-			days = 1
+		country_event = {
+			id = GOT_Location_Country.1
+			hours = 6
 		}
 		
 		if = {
@@ -1937,14 +1947,9 @@ country_event = {
             } 
         } 
 		
-		every_other_country = {
-			limit = {
-				exists = yes
-			}
-			news_event = {
-				id = GOT_Diplomatic_News.15
-				hours = 6
-			}
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
 		}
 
 	}
@@ -2144,8 +2149,8 @@ country_event = {
 			type = annex_everything
 		}
 		
-		add_state_claim = 228
-		add_state_claim = 134
+		add_state_core = 228
+		add_state_core = 134
 		
 		load_oob = TAR_Unsullied
 		
@@ -2751,6 +2756,421 @@ country_event = {
 	}
 }
 
+# Daenerys Gains a New Ally in Daario Naharis
+country_event = { 
+    id = GOT_Diplomatic_Country.40 
+    title = GOT_Diplomatic_Country.40.t 
+    desc = GOT_Diplomatic_Country.40.d 
+    picture = GFX_report_event_GOT_Story_Country238 
+ 
+    is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Diplomatic_Country.40.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+		
+		add_corps_commander_role = {
+			character = TAR_Daario_Naharis
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		
+		load_oob = TAR_Second_Sons
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.238 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+
+# Yunkai Gains a New Ally in Daario Naharis
+country_event = { 
+    id = GOT_Diplomatic_Country.41 
+    title = GOT_Diplomatic_Country.41.t 
+    desc = GOT_Diplomatic_Country.41.d 
+    picture = GFX_report_event_GOT_Story_Country238 
+ 
+    is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Diplomatic_Country.41.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+		
+		add_corps_commander_role = {
+			character = YUN_Daario_Naharis
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		
+		load_oob = YUN_Second_Sons
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.26
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+
+#Tywin Assassinated Who Rules
+country_event = {
+	id = GOT_Diplomatic_Country.42
+	title = GOT_Diplomatic_Country.42.t
+	desc = GOT_Diplomatic_Country.42.d
+	picture = GFX_report_event_GOT_Story_Country351
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.42.a
+
+		ai_chance = {
+			factor = 60
+		}
+		
+		kill_country_leader = yes
+		remove_country_leader_role = {
+			character = WES_tywin_lannister
+			ideology = NR_subideology
+		}
+		add_country_leader_role = {
+			character = WES_Kevan_Lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					autocratic_imperialist  
+					political_manipulator  
+					professional_crisis_solver  
+					hardened_officer  
+					strict_austerity_adherent  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.42.b
+
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		kill_country_leader = yes
+		remove_country_leader_role = {
+			character = WES_tywin_lannister
+			ideology = NR_subideology
+		}
+		add_country_leader_role = {
+			character = WES_Jaime_Lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {
+					stout_defender              # He’s one of the best swordsmen in Westeros and known for defending his king, even if controversially.
+					great_war_hero              # Despite the dishonor, his slaying of the Mad King arguably saved thousands and marked him as a decisive force in war.
+					disgraced_monarch           # As the Kingslayer and an accused oath-breaker, his honor and reputation are deeply damaged.
+					infirm                      # Symbolic of his lost sword hand, which deeply limits his former capabilities.
+					hawk                        # Still favors aggressive action when needed and isn’t shy of violence.
+					camarilla_leader            # Close ties to elite factions at court like Cersei, Tywin, and later Brienne — reflects insider power dynamics.
+					sins_of_the_father          # Deeply shaped and burdened by Tywin Lannister’s legacy and expectations.
+				}
+
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.42.c
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		kill_country_leader = yes
+		remove_country_leader_role = {
+			character = WES_tywin_lannister
+			ideology = NR_subideology
+		}
+		add_country_leader_role = {
+			character = WES_Cersei_Lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					the_foreign_connection  
+					ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.42.e
+
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		kill_country_leader = yes
+		remove_country_leader_role = {
+			character = WES_tywin_lannister
+			ideology = NR_subideology
+		}
+		
+		if = {
+            limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Joffrey Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = WES_Cersei_Lannister
+				ideology = FR_subideology
+			}
+			add_country_leader_role = {
+				character = WES_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = WES_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+			limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Tommen Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = WES_Kevan_Lannister
+				ideology = DR_subideology
+			}
+			add_country_leader_role = {
+				character = WES_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = WES_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = DR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+           limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Myrcella Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = WES_Tyrion_Lannister
+				ideology = CR_subideology
+			}
+			add_country_leader_role = {
+				character = WES_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = WES_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = CR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+		else_if = {
+           limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
+			}
+			add_country_leader_role = {
+				character = WES_Cersei_Lannister
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {  
+						dictator  
+						political_manipulator  
+						autocratic_imperialist  
+						the_foreign_connection  
+						ambitious_negotiator_fascism  
+						princess_of_terror  
+					}
+
+				}
+				promote_leader = yes
+			}
+        }
+        else = {
+			add_country_leader_role = {
+				character = WES_Kevan_Lannister
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {  
+						autocratic_imperialist  
+						political_manipulator  
+						professional_crisis_solver  
+						hardened_officer  
+						strict_austerity_adherent  
+					}
+				}
+				promote_leader = yes
+			}
+        }
+
+		
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
+		}
+
+	}
+	
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -2803,20 +3223,7 @@ news_event = {
 		name = GOT_Diplomatic_News.4.a
 	}
 }
-#Generic Crowned King
-news_event = {
-	id = GOT_Diplomatic_News.5
-	title = GOT_Diplomatic_News.5.t
-	desc = GOT_Diplomatic_News.5.d
-	picture = GFX_news_event_iron_throne
 
-	is_triggered_only = yes
-	major = yes
-
-	option = {
-		name = GOT_Diplomatic_News.5.a
-	}
-}
 #Viserys Humiliated
 news_event = {
 	id = GOT_Diplomatic_News.6
@@ -2940,19 +3347,7 @@ news_event = {
 	}
 }
 
-#New Lord of Casterly Rock
-news_event = {
-	id = GOT_Diplomatic_News.15
-	title = GOT_Diplomatic_News.15.t
-	desc = GOT_Diplomatic_News.15.d
-	picture = GFX_news_event_Casterly_Rock
 
-	is_triggered_only = yes
-
-	option = {
-		name = GOT_Diplomatic_News.15.a
-	}
-}
 
 news_event = {
 	id = GOT_Diplomatic_News.16
@@ -3083,3 +3478,17 @@ news_event = {
 		name = GOT_Diplomatic_News.25.a
 	}
 }
+
+# Yunkai Gains a New Ally in Daario Naharis
+news_event = { 
+    id = GOT_Diplomatic_News.26 
+    title = GOT_Diplomatic_News.26.t 
+    desc = GOT_Diplomatic_News.26.d 
+    picture = GFX_news_event_GOT_Story_News238 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Diplomatic_News.26.a 
+    } 
+} 

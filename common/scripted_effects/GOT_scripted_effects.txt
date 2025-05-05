@@ -3,21 +3,41 @@ GOT_start_techs = {
 	if = {
 		limit = {
 			OR = {
+				tag = NWA
+				tag = WIL
+				tag = CRA
 				tag = ICE
-				tag = REW
-				tag = UNL
-				tag = SOT
+				tag = FF1
+				tag = FF2
+				tag = FF3
+				tag = FF4
+				tag = FF5
+				tag = FF6
+				tag = SUI
+				tag = IBB
+				tag = NAA
+				tag = ASS
 				tag = ULT
+				tag = UNL
+				tag = LEN
+				tag = OMB
+				tag = DOT
+				tag = REW
+				tag = SOT
+				tag = VLY
+				tag = QOH
+				tag = NRV
+				tag = MOR
+				tag = SAA
+				tag = MAN
 			}
 		}
-		set_rule = { can_create_factions = no }
-		set_rule = { can_join_factions = no }
-		set_rule = { can_send_volunteers = no }
-		set_rule = { can_puppet = no }
+		add_ideas = {
+			RI_neutrality_idea
+		}
 	}
-	else = {
-		set_rule = { can_create_factions = no }
-	}
+
+	set_rule = { can_create_factions = no }
 
 	if = {
 		limit = {

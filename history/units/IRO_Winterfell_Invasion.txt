@@ -10,7 +10,7 @@ division_template = {
 units = {
 
 	division = {
-		name = "Theon's Batallion"
+		name = "Theons Raiders"
 		location = 237
 		division_template = "Theons Raiders"
 		start_experience_factor = 0.1

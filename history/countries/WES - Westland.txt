@@ -33,6 +33,10 @@ recruit_character=WES_Gregor_Clegane
 recruit_character=WES_Kevan_Lannister
 recruit_character=WES_Cersei_Lannister
 recruit_character=WES_Tyrion_Lannister
+recruit_character=WES_Jaime_Lannister
+recruit_character = WES_joffrey_baratheon
+recruit_character = WES_Tommen_Baratheon
+recruit_character = WES_Myrcella_Baratheon
 
 add_ideas = {  
 	GOT_Tradition_Westerlands  

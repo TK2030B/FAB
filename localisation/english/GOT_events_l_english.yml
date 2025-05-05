@@ -34,6 +34,7 @@ GOT_Theon_Captured_Flag:0 "Theon Captured"
 GOT_Oberyn_Tyrions_Champion:0 "Oberyn Tyrion's Champion"
 GOT_Tyrion_On_His_Own:0 "Tyrion Doesn't Have a Champion"
 GOT_Lord_Karstark_Executed:0 "Lord Karstark Executed"
+GOT_Varys_Fled_Flag:0 "Varys Has Fled"
 
 Game_Event.1.t:0 "Welcome (1/4)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -2236,6 +2237,15 @@ GOT_Story_Country.328.b:0 "We fight with what we have. We don’t need Braavosi 
  GOT_Story_News.350.d: "Stannis Baratheon has defeated the wildlings at the Wall, putting an end to their threat. Jon Snow is left to reconcile the challenges of leadership and the changing landscape of the conflict."
  GOT_Story_News.350.a: "The Wall stands firm."
 
+#Tywin Assassinated
+GOT_Story_Country.351.t: "The Lion Falls"
+GOT_Story_Country.351.d: "Lord Tywin Lannister is dead. Shot with a crossbow by his own son, Tyrion, the news has shattered the foundations of our power. The man who held the realm together through sheer will and ruthless cunning now lies cold in the Sept. His death leaves a dangerous vacuum—one that many will seek to fill. The Red Keep has never felt so uncertain."
+GOT_Story_Country.351.a: "The kingdom trembles."
+
+#Tywin Assassinated 
+GOT_Story_News.351.t: "Tywin Lannister Assassinated"
+GOT_Story_News.351.d: "A shocking turn of events has shaken Westeros to its core: Tywin Lannister, Lord of Casterly Rock and Hand of the King, has been assassinated. Sources within King’s Landing claim the killer was none other than his own son, Tyrion, who escaped imprisonment and vanished shortly after. The death of the realm’s most powerful man leaves Westeros without its master strategist, and the consequences are already rippling through the noble houses."
+GOT_Story_News.351.a: "A lion slain in his den."
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
@@ -2436,6 +2446,21 @@ GOT_Diplomatic_Country.39.t:0 "The Red Wedding"
 GOT_Diplomatic_Country.39.d:0 "What was meant to be a union of peace and strength has turned into a massacre. As Edmure Tully and Roslin Frey exchanged vows, the Freys turned on us with ruthless violence. House Frey, long discontent with the terms of their alliance, has betrayed us in the most horrific fashion. Our banners fall as traitors strike from within.\n\nThe North is now in mourning. The blood spilled at the Twins will never be washed clean, and the price of betrayal will echo across the realms."
 GOT_Diplomatic_Country.39.a:0 "A betrayal of blood."
 
+GOT_Diplomatic_Country.40.t: "Daenerys Gains a New Ally in Daario Naharis"
+GOT_Diplomatic_Country.40.d: "Outside Yunkai, I sought the allegiance of the Second Sons, a mercenary company. Their leader, Mero, dismissed me, but his lieutenant, Daario Naharis, killed Mero and another commander, presenting their heads to me. He pledged the loyalty of the Second Sons to my cause, adding another valuable ally to my army."
+GOT_Diplomatic_Country.40.a: "Daario’s loyalty gives me a powerful mercenary force, one that could turn the tide."
+
+GOT_Diplomatic_Country.41.t:0 "Daario Remains Loyal"
+GOT_Diplomatic_Country.41.d:0 "Despite Daenerys Targaryen's overtures and her growing power in Slaver’s Bay, Daario Naharis and the Second Sons have chosen to honor their original contract and remain in service to Yunkai. Whether out of greed, pragmatism, or deeper loyalty, Daario’s decision is a significant victory for our cause. The Second Sons will continue to serve as a sword for our interests, and the Mother of Dragons will have to face us without their steel."
+GOT_Diplomatic_Country.41.a:0 "Good. Let her come."
+
+GOT_Diplomatic_Country.42.t: "Our Father, Fallen"
+GOT_Diplomatic_Country.42.d: "Lord Tywin Lannister is dead—cut down by the very son he once disinherited. His murder has left a void at the heart of House Lannister, and with it, a dangerous question: who shall inherit the Rock?\n\nKevan Lannister stands as a loyal and steady hand. Jaime, the Kingslayer, is still a son of the Rock—but bound to the Kingsguard. Cersei, ever proud, may claim the mantle herself, or through her surviving children. And in the capital, some whisper that the Crown should take direct control of the Westerlands until the chaos subsides.\n\nThe Lion's roar has quieted. Now comes the struggle for its echo."
+GOT_Diplomatic_Country.42.a: "Kevan Lannister shall lead the West."
+GOT_Diplomatic_Country.42.b: "Jaime will return to Casterly Rock."
+GOT_Diplomatic_Country.42.c: "Cersei will rule in her own name—or her child's."
+GOT_Diplomatic_Country.42.e: "Let the Crown assume control of the Rock."
+
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
 GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."
@@ -2449,10 +2474,6 @@ GOT_Diplomatic_News.3.a: "The Dragon’s cause grows colder"
 GOT_Diplomatic_News.4.t: "Lions March to War"
 GOT_Diplomatic_News.4.d: "The fragile peace of the Seven Kingdoms has been shattered. Following the capture of Tyrion Lannister by Catelyn Stark, Lord Tywin Lannister has raised his banners and declared war on the Riverlands, where Catelyn's host sought refuge. The Westerlands see this act as a grave insult and a threat to the power of House Lannister. Armies are already on the move, and the realm braces for what may become a bloody conflict between two of its great houses."
 GOT_Diplomatic_News.4.a: "War comes to Westeros once more."
-
-GOT_Diplomatic_News.5.t: "[CRO.GetLeader] Crowned Ruler of the Seven Kingdoms"
-GOT_Diplomatic_News.5.d: "In a moment of great ceremony and consequence, [CRO.GetLeader] has been crowned as the ruler of the Seven Kingdoms, taking the titles of King of the Andals and the First Men, Lord of the Seven Kingdoms, and Protector of the Realm. The court rejoices, the bells of King’s Landing toll, and the banners of [CRO.GetRulingParty] rise high above the Red Keep. Yet whispers stir across the land — not all are content with this new sovereign. A new chapter begins in the Song of Ice and Fire."
-GOT_Diplomatic_News.5.a: "A new ruler rises."
 
 GOT_Diplomatic_News.6.t: "The Dragon Mocked"
 GOT_Diplomatic_News.6.d: "In a display as tragic as it was pathetic, Viserys Targaryen confronted Khal Drogo with fire in his eyes and wine on his breath. Demanding his crown, he earned only scorn. Yet the khal showed mercy — or perhaps indifference. Stripped of dignity but spared his life, the so-called dragon now slinks among the Dothraki, a broken prince without a throne, mocked even by slaves."
@@ -2489,11 +2510,6 @@ GOT_Diplomatic_News.13.a: "A harsh fate... but a just one."
 GOT_Diplomatic_News.14.t: "Renly Baratheon Survives the Shadow's Attack"
 GOT_Diplomatic_News.14.d: "In a surprising turn of events, Renly Baratheon has survived the grievous injuries inflicted upon him by the shadow birthed by Melisandre. Despite his near-death experience, he has emerged from the ordeal, and the world now wonders how he will proceed in his quest for the Iron Throne."
 GOT_Diplomatic_News.14.a: "Renly Baratheon lives! Will he seek revenge or press forward with his claim?"
-
-# GOT_Diplomatic_News.15 – New Lord of Casterly Rock
-GOT_Diplomatic_News.15.t: "[WES.GetLeader] Named Lord of Casterly Rock"
-GOT_Diplomatic_News.15.d: "In a move few anticipated, [WES.GetLeader] has been granted the title of Lord of Casterly Rock, the ancestral seat of House Lannister. Long denied the recognition afforded to other Lannisters, [WES.GetLeader] now stands as the master of one of the most powerful strongholds in Westeros. The decision has stirred whispers throughout the realm—some speak of justice, others of folly."
-GOT_Diplomatic_News.15.a: "A new lion rises at the Rock."
 
 GOT_Diplomatic_News.16.t: "House Frey Bars the Bridge"
 GOT_Diplomatic_News.16.d: "Tensions rise along the Trident as word spreads that Lord Walder Frey has denied passage to Robb Stark and his Northern host. The cause? A refusal by Robb to accept Frey’s terms—chief among them, a marriage pact to one of his daughters.\n\nObservers note that while the Twins offer the most direct route south, the Lord of the Crossing has never been one to act without gain. With negotiations collapsed, the North must now find another way forward—one that could cost them precious time, supplies, and perhaps the momentum of their campaign.\n\nSome whisper that Robb Stark has made a noble choice, preserving his freedom and pride. Others question the wisdom of alienating a powerful house for the sake of personal honor."
@@ -2536,6 +2552,8 @@ GOT_Diplomatic_News.25.t:0 "The Red Wedding"
 GOT_Diplomatic_News.25.d:0 "In a shocking act of treachery, House Frey has slaughtered Robb Stark and his bannermen at the wedding feast meant to unite them. What was intended to be a marriage of alliance between the North and the Riverlands has instead become one of the bloodiest betrayals in history. The Freys, led by Walder Frey, have turned against their sworn allies in the most brutal of ways. While Edmure Tully, the last hope of the Riverlands, was taken prisoner, the North is left in turmoil.\n\nThe repercussions of this betrayal are sure to be felt across the Seven Kingdoms, and the Riverlands, once again, lie in ruins."
 GOT_Diplomatic_News.25.a:0 "The North weeps for its king."
 
+GOT_Diplomatic_News.26.t:0 "Daario Remains Loyal to Yunkai"
+GOT_Diplomatic_News.26.d:0 "In a surprising turn of events, Daario Naharis and the Second Sons have chosen to remain loyal to Yunkai, despite the growing influence of Daenerys Targaryen. The Second Sons, once feared as mercenaries in the service of the Mother of Dragons, will now continue to fight for the Slavers. This unexpected decision could change the balance of power in Slaver's Bay, and Daenerys will now have to face the formidable force of the Second Sons as she continues her struggle."
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
@@ -2588,3 +2606,126 @@ GOT_Wars_Country.3.a: "The North will remember the taste of salt and steel."
 GOT_Wars_Country.4.t: "The Ironborn Plot in the Shadows"
 GOT_Wars_Country.4.d: "Rumors spread from the western shores—black sails spotted on the horizon, whispers of Balon Greyjoy's ambition, and Theon’s return to Pyke. Though no blades have yet been drawn, the kraken stirs beneath the waves. The North must not be caught unawares."
 GOT_Wars_Country.4.a: "We must remain vigilant—the sea brings enemies."
+
+GOT_Location_Country.1.t: "Arrangements for the Coronation"
+GOT_Location_Country.1.d: "The time has come to crown the new ruler of the Seven Kingdoms. Preparations begin across the capital: the High Septon is summoned, nobles and lords receive their invitations, and the Iron Throne is polished for the grand ceremony. The court bustles with activity as banners are raised and feast halls readied. While the faithful rejoice and loyalists pledge fealty, rumors already spread of dissent and unrest. This is a moment that will shape the realm — and its future."
+GOT_Location_Country.1.a: "Let the bells ring — the coronation is at hand."
+
+GOT_Location_Country.2.t: "A New Ruler for Casterly Rock"
+GOT_Location_Country.2.d: "The halls of Casterly Rock stir with renewed purpose. With the seat of House Lannister now under new leadership, preparations are underway to formally install the new ruler. Goldsmiths polish heirlooms of the Rock, banners are mended, and the ancient halls echo with the steps of retainers and bannermen returning to swear fealty. Though the Westerlands may seem united in celebration, not all voices are raised in cheer — some question whether the new lion is worthy of the den."
+GOT_Location_Country.2.a: "Let the Rock roar once more."
+
+GOT_Location_Country.3.t: "A New Ruler for Winterfell"
+GOT_Location_Country.3.d: "The ancient walls of Winterfell once more prepare to witness the rise of a new ruler. Ravens fly across the North, summoning bannermen to the ancestral seat of House Stark. Fires are lit in the great hall, and the godswood stands silent in solemn anticipation. Though many in the North honor the old ways and stand ready to swear loyalty, others question what this change will mean for their future. In Winterfell, legacy is everything — and now a new chapter begins."
+GOT_Location_Country.3.a: "The North remembers."
+
+GOT_Location_Country.4.t: "A New Ruler for Storm's End"
+GOT_Location_Country.4.d: "Storm’s End, the mighty fortress overlooking Shipbreaker Bay, prepares to welcome a new lord or lady. Thunder rolls in the distance as couriers ride through the stormlands, bearing news of the succession. Within the thick, unyielding walls of the keep, banners are hung and the ancient hall readied for the oath-taking. Though the seat is secure for now, the stormlands are a proud and tempestuous realm — and not all are content with the winds of change."
+GOT_Location_Country.4.a: "The storm rises anew."
+
+GOT_Location_Country.5.t: "A New Ruler for the Eyrie"
+GOT_Location_Country.5.d: "High atop the Mountains of the Moon, the Eyrie prepares to receive its new ruler. The sky is clear, the falcons restless, and the lords of the Vale make their treacherous ascent to the famed mountain stronghold. In the airy halls of House Arryn, long associated with honor and isolation, banners are unfurled and the Moon Door stands closed — for now. Yet beneath the ceremony, whispers echo through the high passes: some question the strength of the new lord or lady to hold such a lofty seat."
+GOT_Location_Country.5.a: "The Vale bows to its new protector."
+
+GOT_Location_Country.6.t: "A New Ruler for Sunspear"
+GOT_Location_Country.6.d: "Far in the scorched lands of Dorne, Sunspear stirs as a new ruler takes their place within the shadowed halls of the ancient palace. The spear-towers glint beneath the sun, and Dornish banners snap in the desert wind. Riders spread the news across the arid plains and stony passes, summoning the lords and ladies of Dorne to pledge their loyalty. Yet the Dornish are a proud and independent people — and though the succession is announced, true loyalty must still be earned."
+GOT_Location_Country.6.a: "Dorne bows to no one — but it watches."
+
+GOT_Location_Country.7.t: "A New Ruler for Highgarden"
+GOT_Location_Country.7.d: "In the heart of the Reach, Highgarden blossoms under the rule of a new lord or lady. The golden rose unfurls once more as word spreads through fertile fields and bustling market towns. Minstrels sing, bannermen ride, and the great houses of the Reach prepare to pay homage at the seat of House Tyrell. Yet amid the splendor and song, some question whether the new ruler can truly command the loyalty of the most bountiful—and fickle—region in Westeros."
+GOT_Location_Country.7.a: "A new bloom in the garden."
+
+GOT_Location_Country.8.t: "A New Ruler for Riverrun"
+GOT_Location_Country.8.d: "The rivers run swift, and change comes to the Trident. In the halls of Riverrun, the ancestral seat of House Tully, a new ruler prepares to take up the mantle of leadership. Lords and knights gather from across the Riverlands, their loyalties as winding as the waters they live beside. The great hall is dressed for ceremony, yet beneath the surface, tension stirs — for the Riverlands have long been a land divided, and unity will not come easily."
+GOT_Location_Country.8.a: "The rivers bend toward a new lord."
+
+GOT_Location_Country.9.t: "A New Ruler for Dragonstone"
+GOT_Location_Country.9.d: "On the rocky shores of Dragonstone, beneath the shadow of the volcano, a new ruler ascends to the ancestral seat of House Targaryen. The black banners of the dragon are raised high as the court prepares for a solemn yet fiery ceremony. The winds howl across the narrow sea, carrying rumors and whispers — for the throne of Dragonstone is not easily held, and the blood of the dragon commands both reverence and fear."
+GOT_Location_Country.9.a: "The dragon stirs once more."
+
+GOT_Location_Country.10.t: "A New Ruler for Pyke"
+GOT_Location_Country.10.d: "Amid the windswept cliffs of Pyke, the Iron Islands are set to witness the rise of a new ruler. The seastone chair, long a symbol of the harsh and proud ways of House Greyjoy, awaits its new occupant. The salt and steel of the Ironborn fill the air as bannermen and raiders make their way to the fortress by the sea. Yet while some welcome the new ruler, the Ironborn are a people who respect strength above all else, and not all will bend the knee so easily."
+GOT_Location_Country.10.a: "The tide rises with a new captain."
+
+
+GOT_Location_News.1.t: "[CRO.GetLeader] Crowned King of the Seven Kingdoms"
+GOT_Location_News.1.d: "In a moment of grandeur and gravity, [CRO.GetLeader] has been crowned as King of the Andals and the First Men, Lord of the Seven Kingdoms, and Protector of the Realm. King’s Landing erupts in celebration, with the great bells of the Sept ringing out over the city and banners of [CRO.GetRulingParty] unfurling atop the Red Keep. Across the realm, some kneel with loyalty, while others eye the Iron Throne with quiet defiance. The game of thrones is far from over."
+GOT_Location_News.1.a: "All hail the king."
+
+GOT_Location_News.2.t: "[CRO.GetLeader] Crowned Queen of the Seven Kingdoms"
+GOT_Location_News.2.d: "With fire, steel, and ceremony, [CRO.GetLeader] has been crowned as Queen of the Andals and the First Men, Lady of the Seven Kingdoms, and Protector of the Realm. The throne room of the Red Keep fills with nobles and lords pledging fealty, as the bells of King’s Landing ring through the capital. Yet not all hearts are loyal — some see her coronation as a challenge to tradition and power. Her reign begins under the watchful eyes of friend and foe alike."
+GOT_Location_News.2.a: "The realm has a queen."
+
+
+# GOT_Location_News.3 – New Lord of Casterly Rock
+GOT_Location_News.3.t: "[WES.GetLeader] Named Lord of Casterly Rock"
+GOT_Location_News.3.d: "In a move few anticipated, [WES.GetLeader] has been granted the title of Lord of Casterly Rock, the ancestral seat of House Lannister. Long denied the recognition afforded to other Lannisters, [WES.GetLeader] now stands as the master of one of the most powerful strongholds in Westeros. The decision has stirred whispers throughout the realm—some speak of justice, others of folly."
+GOT_Location_News.3.a: "A new lion rises at the Rock."
+
+GOT_Location_News.4.t: "[WES.GetLeader] Named Lady of Casterly Rock"
+GOT_Location_News.4.d: "In a moment both historic and controversial, [WES.GetLeader] has been named Lady of Casterly Rock, claiming the seat long held by the lords of House Lannister. Once overlooked in the line of succession, she now rules over the golden halls of the Rock and the vast riches of the Westerlands. Some praise the decision as long-overdue justice, while others whisper that tradition has been cast aside. The lioness now roars from the heights of the Rock."
+GOT_Location_News.4.a: "The West has a new matriarch."
+
+GOT_Location_News.5.t: "[NOR.GetLeader] Named Lord of Winterfell"
+GOT_Location_News.5.d: "In a moment that many saw as inevitable, [NOR.GetLeader] has been named Lord of Winterfell, the ancestral seat of House Stark. Though the North has long been known for its stoic traditions, this appointment has nonetheless stirred mixed reactions. Some speak of a long-awaited return to Stark leadership, while others question the future of the North under this new rule. Regardless, the banners of House Stark now fly high over Winterfell once more."
+GOT_Location_News.5.a: "The North remembers its new lord."
+
+GOT_Location_News.6.t: "[NOR.GetLeader] Named Lady of Winterfell"
+GOT_Location_News.6.d: "In a shift that has captured the attention of the realm, [NOR.GetLeader] has been named Lady of Winterfell, assuming control of the Stark stronghold. Once a seat of men, the halls of Winterfell are now under the rule of a woman — a decision both progressive and controversial. While many in the North honor the Stark legacy, some question whether this new leadership will stand firm against the harsh winds of the world. Yet the iron will of House Stark runs deep, and the North watches closely."
+GOT_Location_News.6.a: "Winterfell rises under a new matriarch."
+
+GOT_Location_News.7.t: "[STO.GetLeader] Named Lord of Storm's End"
+GOT_Location_News.7.d: "In a decision that has echoed across the stormlands, [STO.GetLeader] has been named Lord of Storm's End, the ancestral seat of House Baratheon. The stone fortress, which has withstood countless storms, now falls under the rule of a new hand. Some hail the decision as a return to strength, while others whisper that the winds of change may weaken the Baratheon grip on the stormlands. Only time will tell whether this new ruler can keep the storm at bay."
+GOT_Location_News.7.a: "A new storm rises at Storm's End."
+
+GOT_Location_News.8.t: "[STO.GetLeader] Named Lady of Storm's End"
+GOT_Location_News.8.d: "In a move that has both surprised and intrigued the realm, [STO.GetLeader] has been named Lady of Storm's End, the proud and weathered seat of House Baratheon. With the title now claimed by a woman, many wonder how the stormlands will respond to this shift in leadership. Some see it as a sign of strength and adaptability, while others believe that the Baratheon legacy may be in jeopardy. The storm may be ready for a new face at its helm."
+GOT_Location_News.8.a: "The stormlands bow to a new matriarch."
+
+GOT_Location_News.9.t: "[VAL.GetLeader] Named Lord of the Eyrie"
+GOT_Location_News.9.d: "In an unexpected turn, [VAL.GetLeader] has been named Lord of the Eyrie, the impregnable seat of House Arryn. The lofty fortress, high above the Vale, now belongs to a new ruler. Though the people of the Vale have long been known for their loyalty, many wonder whether this new leadership will strengthen or divide the region. The winds of change blow cold, but House Arryn's legacy remains unwavering, high in the mountains."
+GOT_Location_News.9.a: "A new lord ascends to the mountain peaks."
+
+GOT_Location_News.10.t: "[VAL.GetLeader] Named Lady of the Eyrie"
+GOT_Location_News.10.d: "In a decision that has left the Vale abuzz, [VAL.GetLeader] has been named Lady of the Eyrie, ruling from the ancient seat of House Arryn. As the first woman to hold this title in the Eyrie’s long history, she faces both praise and skepticism. Some view this as a bold and just move, while others question whether the fragility of the Eyrie’s political position will remain intact under this new rule. The future of the Vale now rests in her hands."
+GOT_Location_News.10.a: "A new lady rises in the mountains."
+
+GOT_Location_News.11.t: "[DOR.GetLeader] Named Lord of Sunspear"
+GOT_Location_News.11.d: "In a decision that reverberates through the burning sands, [DOR.GetLeader] has been named Lord of Sunspear, the ancestral seat of House Martell. The sun-scorched city now falls under the rule of a new leader, and with it, the fate of Dorne. Some celebrate the appointment as a return to the glory of House Martell, while others whisper that it may bring further tension between the traditionalists and those who seek change. In the heat of Dorne, change is always on the horizon."
+GOT_Location_News.11.a: "A new sun rises over Dorne."
+
+GOT_Location_News.12.t: "[DOR.GetLeader] Named Lady of Sunspear"
+GOT_Location_News.12.d: "In a bold and historic move, [DOR.GetLeader] has been named Lady of Sunspear, taking the seat of House Martell in a region long ruled by men. The news has spread like wildfire through the desert, with some hailing the decision as a step toward equality, while others question whether a woman can maintain the fragile balance of power in Dorne. Regardless, House Martell’s legacy now finds new leadership in the scorching sun."
+GOT_Location_News.12.a: "Dorne bows to a new matriarch."
+
+GOT_Location_News.13.t: "[REA.GetLeader] Named Lord of Highgarden"
+GOT_Location_News.13.d: "In a move that has left the Reach buzzing with speculation, [REA.GetLeader] has been named Lord of Highgarden, the majestic seat of House Tyrell. The lush fields and fertile lands of the Reach now fall under the rule of a new leader, whose ability to manage the powerful bannermen of the region will be tested. While some see this as the return of stability, others are wary of what this new leadership might mean for the future of the Reach."
+GOT_Location_News.13.a: "The Reach flourishes under a new lord."
+
+GOT_Location_News.14.t: "[REA.GetLeader] Named Lady of Highgarden"
+GOT_Location_News.14.d: "In a remarkable and unprecedented turn, [REA.GetLeader] has been named Lady of Highgarden, the great seat of House Tyrell. As the first woman to claim the title, she faces both high expectations and deep skepticism from the powerful houses of the Reach. While some hail her as a symbol of change, others doubt her ability to command the loyalty of the region’s lords. The Tyrell legacy now rests in her hands, and the future of the Reach remains uncertain."
+GOT_Location_News.14.a: "A new lady reigns over the Reach."
+
+GOT_Location_News.15.t: "[RIV.GetLeader] Named Lord of Riverrun"
+GOT_Location_News.15.d: "In a move that has sent ripples through the Riverlands, [RIV.GetLeader] has been named Lord of Riverrun, the ancestral seat of House Tully. The great castle by the river now falls under the rule of a new lord, and with it, the future of the Riverlands. While some see this as the restoration of House Tully’s power, others worry about the turbulent political waters that may follow. The rivers of the land may change course, but they will always run through Riverrun."
+GOT_Location_News.15.a: "A new lord claims the heart of the Riverlands."
+
+GOT_Location_News.16.t: "[RIV.GetLeader] Named Lady of Riverrun"
+GOT_Location_News.16.d: "In a bold and historic turn, [RIV.GetLeader] has been named Lady of Riverrun, the powerful seat of House Tully. As the first woman to hold this title, she faces both the legacy of her house and the weight of the Riverlands’ expectations. Some view her ascent as a refreshing change, while others question whether she can keep the unstable region in line. The waters of Riverrun now run beneath a new matriarch’s reign."
+GOT_Location_News.16.a: "Riverrun rises under a new matriarch."
+
+GOT_Location_News.17.t: "[DRA.GetLeader] Named Lord of Dragonstone"
+GOT_Location_News.17.d: "In a historic decision, [DRA.GetLeader] has been named Lord of Dragonstone, the ancient seat of House Targaryen. The volcanic island, once the stronghold of the dragonlords, now falls under the command of a new ruler. Some see this as a symbol of the Targaryen legacy returning to the forefront, while others whisper that the island’s power may be eroded by new leadership. The stormwinds howl, but Dragonstone remains a bastion of fire and stone."
+GOT_Location_News.17.a: "A new flame rises at Dragonstone."
+
+GOT_Location_News.18.t: "[DRA.GetLeader] Named Lady of Dragonstone"
+GOT_Location_News.18.d: "In a move that has ignited both admiration and doubt, [DRA.GetLeader] has been named Lady of Dragonstone, the ancient stronghold of House Targaryen. As the first woman to claim the title, she now commands the island’s storied legacy and the potential return of dragons to the realm. While some praise the appointment as a bold step forward, others fear that the island’s traditions and strength may be weakened under her leadership. Dragonstone’s future now rests in her hands."
+GOT_Location_News.18.a: "Dragonstone welcomes a new matriarch."
+
+GOT_Location_News.19.t: "[IRO.GetLeader] Named Lord of Pyke"
+GOT_Location_News.19.d: "In a decision that echoes across the Iron Islands, [IRO.GetLeader] has been named Lord of Pyke, the ancestral seat of House Greyjoy. The Ironborn now look to a new ruler, one who will guide them through the turbulent waters of the Sunset Sea. While some view this as a return to the strength of the Greyjoy legacy, others question whether the Iron Islands can survive under a new hand. The sea winds howl as the Ironborn prepare for a new era."
+GOT_Location_News.19.a: "A new iron lord rises from the waves."
+
+GOT_Location_News.20.t: "[IRO.GetLeader] Named Lady of Pyke"
+GOT_Location_News.20.d: "In an unprecedented move, [IRO.GetLeader] has been named Lady of Pyke, claiming the seat of House Greyjoy. As the first woman to rule the Iron Islands, she faces both the harsh traditions of her people and the challenges of leading a kingdom bound by the sea. Some praise the appointment as a sign of change and progress, while others question if a woman can truly lead the Ironborn. The waves crash, but the future of Pyke now rests in her hands."
+GOT_Location_News.20.a: "Pyke bows to a new matriarch."

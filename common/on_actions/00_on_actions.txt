@@ -456,30 +456,102 @@ on_actions = {
 			if = {
 				limit = { 
 					tag = CRO 
-					NOT = {
-						has_country_leader = {
-							name = "Robert Baratheon"
-							ruling_only = yes
-						}
-					}
 					NOT = { has_global_flag = GOT_New_Monarch_Chosen_Flag }
 				}
-					set_global_flag = GOT_New_Monarch_Chosen_Flag
-					news_event = {
-						id = GOT_Diplomatic_News.5
-						days = 1
-					}
-				
-					every_other_country = {
-						limit = {
-							has_guaranteed = CRO
-						}
-						diplomatic_relation = {
-							country = CRO
-							relation = guarantee
-							active = no
-						}
-					}
+				country_event = {
+					id = GOT_Location_Country.1
+					hours = 6
+				}	
+			}
+			#New Lord of Casterly Rock
+			if = {
+				limit = { 
+					tag = WES 
+				}
+				country_event = {
+					id = GOT_Location_Country.2
+					hours = 6
+				}
+			}
+			#New Lord of Winterfell
+			if = {
+				limit = { 
+					tag = NOR
+				}
+				country_event = {
+					id = GOT_Location_Country.3
+					hours = 6
+				}
+			}
+			#New Lord of Storms End
+			if = {
+				limit = { 
+					tag = STO
+				}
+				country_event = {
+					id = GOT_Location_Country.4
+					hours = 6
+				}
+			}
+			#New Lord of Eyrie
+			if = {
+				limit = { 
+					tag = VAL
+				}
+				country_event = {
+					id = GOT_Location_Country.5
+					hours = 6
+				}
+			}
+			#New Lord of Sunspear
+			if = {
+				limit = { 
+					tag = DOR
+				}
+				country_event = {
+					id = GOT_Location_Country.6
+					hours = 6
+				}
+			}
+			#New Lord of Highgarden
+			if = {
+				limit = { 
+					tag = REA
+				}
+				country_event = {
+					id = GOT_Location_Country.7
+					hours = 6
+				}
+			}
+			#New Lord of Riverrun
+			if = {
+				limit = { 
+					tag = RIV
+				}
+				country_event = {
+					id = GOT_Location_Country.8
+					hours = 6
+				}
+			}
+			#New Lord of Dragonstone
+			if = {
+				limit = { 
+					tag = DRA
+				}
+				country_event = {
+					id = GOT_Location_Country.9
+					hours = 6
+				}
+			}
+			#New Lord of Pyke
+			if = {
+				limit = { 
+					tag = IRO
+				}
+				country_event = {
+					id = GOT_Location_Country.10
+					hours = 6
+				}
 			}
 		}
 	}

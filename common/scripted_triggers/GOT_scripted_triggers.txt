@@ -470,3 +470,48 @@ GOT_Westeros_Countries = {
 GOT_Essos_Countries = {
 	GOT_Westeros_Countries = no
 }
+
+GOT_Female_Ruler = {
+	OR = {
+		has_country_leader = {
+			name = "Myrcella Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Cersei Lannister"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Shireen Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Daenerys Targaryen"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Sansa Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Arya Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Olenna Tyrell"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Margaery Tyrell"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Ellaria Sand"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Yara Greyjoy"
+			ruling_only = yes
+		}
+	}
+}

@@ -30,6 +30,97 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Country/report_event_Casterly_Rock.dds"
 	}
 	
+		 
+	spriteType = { 
+		name = "GFX_report_event_Dragonstone" 
+		texturefile = "gfx/event_pictures/Country/report_event_Dragonstone.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Dragonstone" 
+		texturefile = "gfx/event_pictures/News/news_event_Dragonstone.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Eyrie" 
+		texturefile = "gfx/event_pictures/Country/report_event_Eyrie.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Eyrie" 
+		texturefile = "gfx/event_pictures/News/news_event_Eyrie.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Highgarden" 
+		texturefile = "gfx/event_pictures/Country/report_event_Highgarden.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Highgarden" 
+		texturefile = "gfx/event_pictures/News/news_event_Highgarden.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Pyke" 
+		texturefile = "gfx/event_pictures/Country/report_event_Pyke.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Pyke" 
+		texturefile = "gfx/event_pictures/News/news_event_Pyke.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Red_Keep" 
+		texturefile = "gfx/event_pictures/Country/report_event_Red_Keep.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Red_Keep" 
+		texturefile = "gfx/event_pictures/News/news_event_Red_Keep.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Riverrun" 
+		texturefile = "gfx/event_pictures/Country/report_event_Riverrun.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Riverrun" 
+		texturefile = "gfx/event_pictures/News/news_event_Riverrun.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Storms_End" 
+		texturefile = "gfx/event_pictures/Country/report_event_Storms_End.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Storms_End" 
+		texturefile = "gfx/event_pictures/News/news_event_Storms_End.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Sunspear" 
+		texturefile = "gfx/event_pictures/Country/report_event_Sunspear.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Sunspear" 
+		texturefile = "gfx/event_pictures/News/news_event_Sunspear.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Winterfell" 
+		texturefile = "gfx/event_pictures/Country/report_event_Winterfell.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Winterfell" 
+		texturefile = "gfx/event_pictures/News/news_event_Winterfell.dds" 
+	} 
+	
 	spriteType = {
 		name = "GFX_report_event_GOT_Alt_Country1"
 		texturefile = "gfx/event_pictures/Country_Alt/GOT_Alt_Country1.dds"
@@ -2139,7 +2230,15 @@ spriteTypes = {
 			texturefile = "gfx/event_pictures/News/GOT_Story_News350.dds" 
 		} 
  
-
+		spriteType = { 
+			name = "GFX_report_event_GOT_Story_Country351" 
+			texturefile = "gfx/event_pictures/Country/GOT_Story_Country351.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_GOT_Story_News351" 
+			texturefile = "gfx/event_pictures/News/GOT_Story_News351.dds" 
+		} 
 		
 		spriteType = {
 			name = "GFX_report_event_Janos_Wall"

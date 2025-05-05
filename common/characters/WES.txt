@@ -137,7 +137,61 @@ characters={
 		}
 	}
 	
+	WES_Jaime_Lannister={
+		name=CRO_jaime_lannister
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Jaime_Lannister_Commander.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Jaime_Lannister_Commander.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+	}
 	
+	WES_joffrey_baratheon={
+		name=CRO_joffrey_baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_King_Joffrey.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+	}
+	
+	WES_Tommen_Baratheon={
+		name=CRO_Tommen_Baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Tommen_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+	}
+	
+	WES_Myrcella_Baratheon={
+		name=CRO_Myrcella_Baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/CRO/Portrait_Myrcella_Baratheon.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
+			}
+		}
+	}
 
 
 }

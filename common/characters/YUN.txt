@@ -86,4 +86,14 @@ characters={
 			}
 		}
 	}
+	
+	YUN_Daario_Naharis={
+		name=TAR_Daario_Naharis
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Daario_Naharis.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+	}
 }
