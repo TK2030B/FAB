@@ -25,10 +25,6 @@ focus_tree = {
 	default = yes
 	reset_on_civilwar = no
 	
-	initial_show_position = {
-		focus = GOT_open_political_sphere
-	}
-	
 	continuous_focus_position = { x = 0 y = 2600 }
 
 	focus = {
@@ -5595,14 +5591,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
+				name = fighter_bonus
 				bonus = 0.5
 				uses = 1
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
+				category = light_fighter
+				category = cat_heavy_fighter
 			}
 		}
 	}
@@ -5623,10 +5616,17 @@ focus_tree = {
 			has_tech = early_fighter_1914
 		}
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = small_plane_airframe
-				amount = 50
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+				category = cat_heavy_fighter
 			}
+			#add_equipment_to_stockpile = {
+			#	type = small_plane_airframe
+			#	amount = 50
+			#}
 		}
 	}
 	focus = {
@@ -5669,17 +5669,13 @@ focus_tree = {
 				name = fighter_bonus
 				bonus = 0.5
 				uses = 1
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
+				category = light_fighter
+				category = cat_heavy_fighter
 			}
-			add_equipment_to_stockpile = {
-				type = small_plane_airframe
-				amount = 50
-			}
+			#add_equipment_to_stockpile = {
+			#	type = small_plane_airframe
+			#	amount = 50
+			#}
 		}
 	}
 	focus = {
@@ -5844,9 +5840,12 @@ focus_tree = {
 			has_tech = early_bomber_1914
 		}
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = medium_plane_airframe
-				amount = 25
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_strategic_bomber
+				category = tactical_bomber
 			}
 		}
 	}
@@ -5868,9 +5867,7 @@ focus_tree = {
 				name = bomber_bonus
 				bonus = 0.5
 				uses = 1
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
+				category = cat_strategic_bomber
 				category = tactical_bomber
 			}
 			add_ideas = {
@@ -5899,15 +5896,13 @@ focus_tree = {
 				name = bomber_bonus
 				bonus = 0.5
 				uses = 1
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
+				category = cat_strategic_bomber
 				category = tactical_bomber
 			}
-			add_equipment_to_stockpile = {
-				type = medium_plane_airframe
-				amount = 25
-			}
+			#add_equipment_to_stockpile = {
+			#	type = medium_plane_airframe
+			#	amount = 25
+			#}
 		}
 	}
 	focus = {
@@ -5931,11 +5926,10 @@ focus_tree = {
 				RI_bombs_at_night
 			}
 			add_tech_bonus = {
+				name = bomber_bonus
 				bonus = 0.5
 				uses = 1
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
+				category = cat_strategic_bomber
 				category = tactical_bomber
 			}
 		}

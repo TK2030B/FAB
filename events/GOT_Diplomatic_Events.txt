@@ -2614,7 +2614,7 @@ country_event = {
 						gentle_scholar
 						constitutional_monarch
 						infirm
-						voice_of_restraint
+						#voice_of_restraint
 					}
 				}
 				promote_leader = yes
@@ -2716,7 +2716,7 @@ country_event = {
 						gentle_scholar
 						constitutional_monarch
 						infirm
-						voice_of_restraint
+						#voice_of_restraint
 					}
 				}
 				promote_leader = yes
