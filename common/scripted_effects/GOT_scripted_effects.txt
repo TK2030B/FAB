@@ -771,3 +771,76 @@ GOT_The_Great_Betrayal = {
 		}
 
 }
+
+GOT_house_lore_events = {
+	#Ruling House
+	CRO = { 
+		country_event = {
+			id = GOT_Location_Country.11
+			hours = 6
+		}	
+	}
+	#Ruling House
+	WES = { 
+		country_event = {
+			id = GOT_Location_Country.12
+			hours = 6
+		}	
+	}
+	#Ruling House
+	NOR = { 
+		country_event = {
+			id = GOT_Location_Country.13
+			hours = 6
+		}	
+	}
+	#Ruling House
+	STO = { 
+		country_event = {
+			id = GOT_Location_Country.14
+			hours = 6
+		}	
+	}
+	#Ruling House
+	VAL = { 
+		country_event = {
+			id = GOT_Location_Country.15
+			hours = 6
+		}	
+	}
+	#Ruling House
+	DOR = { 
+		country_event = {
+			id = GOT_Location_Country.16
+			hours = 6
+		}	
+	}
+	#Ruling House
+	REA = { 
+		country_event = {
+			id = GOT_Location_Country.17
+			hours = 6
+		}	
+	}
+	#Ruling House
+	RIV = { 
+		country_event = {
+			id = GOT_Location_Country.18
+			hours = 6
+		}	
+	}
+	#Ruling House
+	DRA = { 
+		country_event = {
+			id = GOT_Location_Country.19
+			hours = 6
+		}	
+	}
+	#Ruling House
+	IRO = { 
+		country_event = {
+			id = GOT_Location_Country.20
+			hours = 6
+		}	
+	}
+}

@@ -8748,6 +8748,13 @@ country_event = {
 				modifier = RI_super_hostile_foreign_policy
 			}
         }
+		
+		every_state = { 
+			limit = { 
+				is_core_of = KAR
+			} 
+			add_core_of = NOR
+		}
 
         every_other_country = {
             limit = { exists = yes }
@@ -8787,6 +8794,13 @@ country_event = {
 				modifier = RI_hostile_foreign_policy
 			}
         }
+		
+		every_state = { 
+			limit = { 
+				is_core_of = KAR
+			} 
+			add_core_of = NOR
+		}
 
         every_other_country = {
             limit = { exists = yes }
@@ -11794,6 +11808,7 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = -0.05 
+		set_capital = 89
  
         every_other_country = { 
             limit = { 

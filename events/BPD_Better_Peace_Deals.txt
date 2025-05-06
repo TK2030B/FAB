@@ -5367,6 +5367,8 @@ country_event = {
 			factor = 50
 		}
 		
+		GOT_house_lore_events = yes
+		
 	}
 	
 	option = {
@@ -5378,6 +5380,8 @@ country_event = {
 		}
 		
 		set_global_flag = BPD_Always_Accept
+		
+		GOT_house_lore_events = yes
 		
 	}
 	
@@ -5391,6 +5395,8 @@ country_event = {
 		
 		set_global_flag = BPD_Never_Accept
 		
+		GOT_house_lore_events = yes
+		
 	}
 	
 	option = {
@@ -5402,6 +5408,8 @@ country_event = {
 		}
 		
 		set_global_flag = BPD_Disable_Them_Completely
+		
+		GOT_house_lore_events = yes
 		
 	}
 

@@ -3272,7 +3272,7 @@ country_event = {
 			remove_state_core = 167
 		} 
 		
-		set_state_owner = 167
+		transfer_state = 167
 		add_state_core = 167
  
         every_other_country = { 
