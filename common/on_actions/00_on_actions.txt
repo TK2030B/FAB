@@ -97,104 +97,74 @@ on_actions = {
 				country_event = { id = Game_Event.7 }
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = CRO 
-				}
+			CRO = { 
 				country_event = {
 					id = GOT_Location_Country.11
 					hours = 6
 				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = WES 
-				}
+			WES = { 
 				country_event = {
 					id = GOT_Location_Country.12
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = NOR
-				}
+			NOR = { 
 				country_event = {
 					id = GOT_Location_Country.13
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = STO
-				}
+			STO = { 
 				country_event = {
 					id = GOT_Location_Country.14
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = VAL
-				}
+			VAL = { 
 				country_event = {
 					id = GOT_Location_Country.15
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = DOR
-				}
+			DOR = { 
 				country_event = {
 					id = GOT_Location_Country.16
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = REA
-				}
+			REA = { 
 				country_event = {
 					id = GOT_Location_Country.17
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = RIV
-				}
+			RIV = { 
 				country_event = {
 					id = GOT_Location_Country.18
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = DRA
-				}
+			DRA = { 
 				country_event = {
 					id = GOT_Location_Country.19
 					hours = 6
-				}
+				}	
 			}
 			#Ruling House
-			if = {
-				limit = { 
-					tag = IRO
-				}
+			IRO = { 
 				country_event = {
 					id = GOT_Location_Country.20
 					hours = 6
-				}
+				}	
 			}
 			#DRA = {
 			#	news_event = { id =news.510 days = 1 }	#Set-up for state modifiers
