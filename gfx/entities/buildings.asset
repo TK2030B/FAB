@@ -793,9 +793,6 @@ entity = {
 entity = {
 	name = "building_arms_factory"
 	pdxmesh = "house_1"
-
-	locator = { name = "damage_locator_01"	position = { 0.25 0.4 0.2 } }
-	locator = { name = "damage_locator_02"	position = { -0.15 0.5 -0.3 } }
 	
 	default_state = "idle"
 	state = { name = "idle" 
@@ -807,6 +804,7 @@ entity = {
 	}
 	
 	scale = 1.7
+
 }
 
 entity = {
