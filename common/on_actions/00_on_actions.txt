@@ -553,6 +553,26 @@ on_actions = {
 					hours = 6
 				}
 			}
+			#New Lord Commander
+			if = {
+				limit = { 
+					tag = NWA
+				}
+				country_event = {
+					id = GOT_Location_Country.24
+					hours = 6
+				}
+			}
+			#New King-Beyond-The-Wall
+			if = {
+				limit = { 
+					tag = WIL
+				}
+				country_event = {
+					id = GOT_Location_Country.25
+					hours = 6
+				}
+			}
 		}
 	}
 

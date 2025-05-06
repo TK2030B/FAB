@@ -2309,6 +2309,37 @@ spriteTypes = {
 			name = "GFX_news_event_The_Great_Betrayal"
 			texturefile = "gfx/event_pictures/News/news_event_The_Great_Betrayal.dds"
 		}
+		
+	spriteType = { 
+		name = "GFX_report_event_Castle_Black" 
+		texturefile = "gfx/event_pictures/Country/report_event_Castle_Black.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Castle_Black" 
+		texturefile = "gfx/event_pictures/News/news_event_Castle_Black.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_Hard_Home" 
+		texturefile = "gfx/event_pictures/Country/report_event_Hard_Home.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_Hard_Home" 
+		texturefile = "gfx/event_pictures/News/news_event_Hard_Home.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_report_event_House_Targaryen" 
+		texturefile = "gfx/event_pictures/Country/report_event_House_Targaryen.dds" 
+	} 
+	 
+	spriteType = { 
+		name = "GFX_news_event_House_Targaryen" 
+		texturefile = "gfx/event_pictures/News/news_event_House_Targaryen.dds" 
+	} 
+
 
 
 

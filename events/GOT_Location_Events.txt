@@ -613,6 +613,141 @@ country_event = {
 	}
 }
 
+#Lord of Nights Watch
+country_event = {
+	id = GOT_Location_Country.21
+	title = GOT_Location_Country.21.t
+	desc = GOT_Location_Country.21.d
+	picture = GFX_report_event_Castle_Black
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.21.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of Wildlings
+country_event = {
+	id = GOT_Location_Country.22
+	title = GOT_Location_Country.22.t
+	desc = GOT_Location_Country.22.d
+	picture = GFX_report_event_Hard_Home
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.22.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord of House Targaryen
+country_event = {
+	id = GOT_Location_Country.23
+	title = GOT_Location_Country.23.t
+	desc = GOT_Location_Country.23.d
+	picture = GFX_report_event_House_Targaryen
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.23.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+	}
+}
+
+#Lord Commander of The Nights Watch
+country_event = {
+	id = GOT_Location_Country.24
+	title = GOT_Location_Country.24.t
+	desc = GOT_Location_Country.24.d
+	picture = GFX_report_event_Castle_Black
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.24.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		
+		add_stability = 0.05
+		add_political_power = 25
+		
+		if = {
+			limit = {
+				GOT_Female_Ruler = yes
+			}
+			news_event = {
+				id = GOT_Location_News.22
+				hours = 6
+			}
+		}
+		else = {
+			news_event = {
+				id = GOT_Location_News.21
+				hours = 6
+			}
+		}
+
+	}
+}
+
+#King Beyond The Wall
+country_event = {
+	id = GOT_Location_Country.25
+	title = GOT_Location_Country.25.t
+	desc = GOT_Location_Country.25.d
+	picture = GFX_report_event_Hard_Home
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.25.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		
+		add_stability = 0.05
+		add_political_power = 25
+		
+		if = {
+			limit = {
+				GOT_Female_Ruler = yes
+			}
+			news_event = {
+				id = GOT_Location_News.24
+				hours = 6
+			}
+		}
+		else = {
+			news_event = {
+				id = GOT_Location_News.23
+				hours = 6
+			}
+		}
+
+	}
+}
+
 
 #Generic Crowned King
 news_event = {
@@ -911,5 +1046,65 @@ news_event = {
 
 	option = {
 		name = GOT_Location_News.20.a
+	}
+}
+
+# New Lord Commander
+news_event = {
+	id = GOT_Location_News.21
+	title = GOT_Location_News.21.t
+	desc = GOT_Location_News.21.d
+	picture = GFX_news_event_Castle_Black
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.21.a
+	}
+}
+
+# New Lady Commander
+news_event = {
+	id = GOT_Location_News.22
+	title = GOT_Location_News.22.t
+	desc = GOT_Location_News.22.d
+	picture = GFX_news_event_Castle_Black
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.22.a
+	}
+}
+
+# New King Beyond Wall
+news_event = {
+	id = GOT_Location_News.23
+	title = GOT_Location_News.23.t
+	desc = GOT_Location_News.23.d
+	picture = GFX_news_event_Hard_Home
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.23.a
+	}
+}
+
+# New King Beyond Wall
+news_event = {
+	id = GOT_Location_News.24
+	title = GOT_Location_News.24.t
+	desc = GOT_Location_News.24.d
+	picture = GFX_news_event_Hard_Home
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.24.a
 	}
 }
