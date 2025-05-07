@@ -40,7 +40,7 @@ GEN_Empire_Manager = {
         }
     }
 	
-	BFN_coring_states_targeted_decision = {
+BFN_coring_states_targeted_decision = {
 	icon = GFX_decision_generic_nationalism
     state_target = yes
     target_root_trigger = {
@@ -50,13 +50,21 @@ GEN_Empire_Manager = {
         FROM = {
 			NOT = { is_core_of = ROOT }
 			is_fully_controlled_by = ROOT
+			is_owned_by = ROOT
 			any_neighbor_state = {
 				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				is_owned_by = ROOT
 			}
         }
     }
 	available = {
-		num_of_civilian_factories_available_for_projects > 9
+		has_war = no
+		num_of_civilian_factories_available_for_projects > 4
+		has_manpower > 499
+		has_equipment = {
+			infantry_equipment > 499
+		}
 	}
 	visible = {
 			has_war = no
@@ -70,71 +78,23 @@ GEN_Empire_Manager = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				has_political_power < 150
-			}
-			modifier = {
-				factor = 0
-				tag = GER
-				has_government = fascism
-				is_historical_focus_on = yes
-				date < 1940.1.1
+				has_political_power < 100
 			}
 		}
-	modifier = { civilian_factory_use = 10 }
+	modifier = { 
+		civilian_factory_use = 5 
+		stability_weekly = -0.0125
+	}
 	days_remove = 30
     on_map_mode = map_and_decisions_view
     cost = 25
 	
     complete_effect = {
-		#hidden_effect = {
-		#	FROM = { 
-		#		set_state_flag = Coring_In_Progress
-		#	}
-		#}
-	}
-	remove_effect = {
-			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
-			FROM = {
-				add_core_of = ROOT
-				#clr_state_flag = Coring_In_Progress
-			}
-	}
-}
-
-BFN_coring_states_targeted_decision_at_war = {
-	icon = GFX_decision_generic_nationalism
-    state_target = yes
-    target_root_trigger = {
-    }
-    target_array = controlled_states
-    target_trigger = {
-        FROM = {
-			NOT = { is_core_of = ROOT }
-			is_fully_controlled_by = ROOT
-			any_neighbor_state = {
-				is_core_of = ROOT
-			}
-        }
-    }
-	available = {
-		num_of_civilian_factories_available_for_projects > 19
-	}
-	visible = {
-			has_war = yes
-            NOT = { has_country_flag = show_integration_decisions }
-			FROM = { 
-				NOT = { is_core_of = ROOT } 
-				#NOT = { has_state_flag = Coring_In_Progress } 
-			}
-        }
-	ai_will_do = {
-		factor = 0
-	}
-	modifier = { civilian_factory_use = 20 }
-	days_remove = 60
-    on_map_mode = map_and_decisions_view
-    cost = 25
-    complete_effect = {
+		add_manpower = -500
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -500
+		}
 		#hidden_effect = {
 		#	FROM = { 
 		#		set_state_flag = Coring_In_Progress
@@ -160,15 +120,26 @@ BFN_coring_states_targeted_decision_remote = {
         FROM = {
 			NOT = { is_core_of = ROOT }
 			is_fully_controlled_by = ROOT
+			is_owned_by = ROOT
+			is_coastal = yes
 			all_neighbor_state = {
 				NOT = {
 					is_core_of = ROOT
+					is_owned_by = ROOT
 				}
 			}
         }
     }
 	available = {
-		num_of_civilian_factories_available_for_projects > 29
+		has_war = no
+		num_of_civilian_factories_available_for_projects > 9
+		has_manpower > 999
+		has_equipment = {
+			infantry_equipment > 999
+		}
+		has_equipment = {
+			convoy > 99
+		}
 	}
 	visible = {
 			has_war = no
@@ -179,13 +150,109 @@ BFN_coring_states_targeted_decision_remote = {
 			}
         }
 	ai_will_do = {
-		factor = 0
-	}	
-	modifier = { civilian_factory_use = 30 }
-	days_remove = 90
+			factor = 0
+			modifier = {
+				factor = 0
+				has_political_power < 400
+			}
+			modifier = {
+				factor = 0
+				has_equipment = {
+					convoy < 1000
+				}
+			}
+		}	
+	modifier = { 
+		civilian_factory_use = 10
+		stability_weekly = -0.025
+	}
+	days_remove = 120
     on_map_mode = map_and_decisions_view
-    cost = 25
+    cost = 100
     complete_effect = {
+		add_manpower = -1000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1000
+		}
+		add_equipment_to_stockpile = {
+			type = convoy
+			amount = -100
+		}
+		#hidden_effect = {
+		#	FROM = { 
+		#		set_state_flag = Coring_In_Progress
+		#	}
+		#}
+	}
+	remove_effect = {
+			if = { limit = { is_ai = no } hidden_effect = { sound_effect = complete_focus } }
+			FROM = {
+				add_core_of = ROOT
+				#clr_state_flag = Coring_In_Progress
+			}
+	}
+}
+
+BFN_coring_states_targeted_decision_at_war = {
+	icon = GFX_decision_generic_nationalism
+    state_target = yes
+    target_root_trigger = {
+    }
+    target_array = controlled_states
+    target_trigger = {
+        FROM = {
+			NOT = { is_core_of = ROOT }
+			is_fully_controlled_by = ROOT
+			is_owned_by = ROOT
+			any_neighbor_state = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				is_owned_by = ROOT
+			}
+        }
+    }
+	available = {
+		has_war = yes
+		num_of_civilian_factories_available_for_projects > 4
+		has_manpower > 749
+		has_equipment = {
+			infantry_equipment > 749
+		}
+	}
+	visible = {
+			has_war = yes
+            NOT = { has_country_flag = show_integration_decisions }
+			FROM = { 
+				NOT = { is_core_of = ROOT } 
+				#NOT = { has_state_flag = Coring_In_Progress } 
+			}
+       }
+	ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				has_political_power < 200
+			}
+			modifier = {
+				factor = 0
+				surrender_progress > 0.05
+			}
+		}
+	modifier = { 
+		civilian_factory_use = 5 
+		stability_weekly = -0.025
+	}
+	days_remove = 60
+    on_map_mode = map_and_decisions_view
+    cost = 50
+	
+    complete_effect = {
+		add_manpower = -750
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -750
+		}
 		#hidden_effect = {
 		#	FROM = { 
 		#		set_state_flag = Coring_In_Progress
@@ -211,6 +278,8 @@ BFN_coring_states_targeted_decision_remote_at_war = {
         FROM = {
 			NOT = { is_core_of = ROOT }
 			is_fully_controlled_by = ROOT
+			is_owned_by = ROOT
+			is_coastal = yes
 			all_neighbor_state = {
 				NOT = {
 					is_core_of = ROOT
@@ -219,7 +288,16 @@ BFN_coring_states_targeted_decision_remote_at_war = {
         }
     }
 	available = {
-		num_of_civilian_factories_available_for_projects > 59
+		has_war = yes
+		num_of_civilian_factories_available_for_projects > 9
+		has_manpower > 1499
+		has_equipment = {
+			infantry_equipment > 1499
+		}
+		convoys > 149
+		has_equipment = {
+			convoy > 149
+		}
 	}
 	visible = {
 			has_war = yes
@@ -230,13 +308,35 @@ BFN_coring_states_targeted_decision_remote_at_war = {
 			}
         }
 	ai_will_do = {
-		factor = 0
+			factor = 0
+			modifier = {
+				factor = 0
+				has_political_power < 600
+			}
+			modifier = {
+				factor = 0
+				has_equipment = {
+					convoy < 1000
+				}
+			}
+		}	
+	modifier = { 
+		civilian_factory_use = 12
+		stability_weekly = -0.04
 	}
-	modifier = { civilian_factory_use = 60 }
-	days_remove = 180
+	days_remove = 150
     on_map_mode = map_and_decisions_view
-    cost = 25
+    cost = 125
     complete_effect = {
+		add_manpower = -1500
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -1500
+		}
+		add_equipment_to_stockpile = {
+			type = convoy
+			amount = -150
+		}
 		#hidden_effect = {
 		#	FROM = { 
 		#		set_state_flag = Coring_In_Progress
@@ -251,6 +351,7 @@ BFN_coring_states_targeted_decision_remote_at_war = {
 			}
 	}
 }
+
 
 }
 
@@ -610,10 +711,9 @@ FORM_NOR_RIV_Decisions = {
 	
 }
 
-#Targaryen Empire
-FORM_Targaryen_Empire = {
+FORM_Targaryen_Empire_Decisions = {
 
-	#Isles and Rivers
+	#Targaryen Empire
 	RON_Formable_Decision6 = {
 		ai_will_do = {
 			factor = 1000
@@ -691,7 +791,6 @@ FORM_Targaryen_Empire = {
 			}
 		}
 	}
-	
 }
 
 #True North
@@ -1232,6 +1331,71 @@ FORM_Westeros_Decisions = {
 			}
 			hidden_effect = {
 				set_global_flag = FORM_Westeros2
+			}
+		}
+	}
+	
+}
+
+#Valyrian Freehold
+FORM_Valyrian_Freehold_Decisions = {
+
+	#Valyrian Freehold
+	RON_Formable_Decision11 = {
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 10
+		fire_only_once = yes
+		visible = {
+			OR = {
+				original_tag = TAR
+				original_tag = VLY
+				original_tag = MAN
+			}
+			NOT = { has_country_flag = show_formables_decisions }
+			NOT = { has_global_flag = FORM_Valyrian_Freehold2 }
+		}
+		available = {
+			OR = {
+				original_tag = TAR
+				original_tag = VLY
+				original_tag = MAN
+			}
+			NOT = { has_global_flag = FORM_Valyrian_Freehold2 }
+			#is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_MAN_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = MAN
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RON_Controls_VLY_States_tt
+				all_state = {
+					if = {
+						limit = {
+							is_core_of = VLY
+						}
+						is_controlled_by = FROM
+					}
+				}
+			}
+			
+
+		}
+		icon = generic_form_nation
+		complete_effect = {
+			country_event = {
+				id = RON_Formable_Country.11
+			}
+			hidden_effect = {
+				set_global_flag = FORM_Valyrian_Freehold2
 			}
 		}
 	}

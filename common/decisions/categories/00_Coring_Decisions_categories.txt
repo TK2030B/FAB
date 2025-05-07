@@ -145,3 +145,19 @@ FORM_Westeros_Decisions = {
 	visible = {
 	}
 }
+
+FORM_Valyrian_Freehold_Decisions = {
+	picture = GFX_decision_cat_FORM_Valyrian_Freehold
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+			original_tag = TAR
+			original_tag = VLY
+			original_tag = MAN
+		}
+	}
+
+	visible = {
+	}
+}
