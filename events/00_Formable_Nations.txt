@@ -1,0 +1,356 @@
+add_namespace = RON_Formable_Country
+add_namespace = RON_Formable_News
+
+# Baratheon Empire
+country_event = {
+	id = RON_Formable_Country.1
+	title = RON_Formable_Country.1.t
+	desc = RON_Formable_Country.1.d
+	picture = GFX_report_event_RON_Formable_Country1
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.1.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Baratheon_Empire
+		hidden_effect = { news_event = { id = RON_Formable_News.1 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.1 hours = 6 } }
+	}
+}
+# Baratheon Empire
+news_event = {
+	id = RON_Formable_News.1
+	title = RON_Formable_News.1.t
+	desc = RON_Formable_News.1.d
+	picture = GFX_news_event_RON_Formable_News1
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.1.a }
+}
+
+#Isles and Rivers
+country_event = {
+	id = RON_Formable_Country.2
+	title = RON_Formable_Country.2.t
+	desc = RON_Formable_Country.2.d
+	picture = GFX_report_event_RON_Formable_Country2
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.2.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_IRO_RIV
+		hidden_effect = { news_event = { id = RON_Formable_News.2 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.2 hours = 6 } }
+	}
+}
+
+#Isles and Rivers
+news_event = {
+	id = RON_Formable_News.2
+	title = RON_Formable_News.2.t
+	desc = RON_Formable_News.2.d
+	picture = GFX_news_event_RON_Formable_News2
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.2.a }
+}
+
+#Lannister-Baratheon Empire
+country_event = {
+	id = RON_Formable_Country.3
+	title = RON_Formable_Country.3.t
+	desc = RON_Formable_Country.3.d
+	picture = GFX_report_event_RON_Formable_Country3
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.3.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Lannister_Baratheon_Empire
+		hidden_effect = { news_event = { id = RON_Formable_News.3 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.3 hours = 6 } }
+	}
+}
+#Lannister-Baratheon Empire
+news_event = {
+	id = RON_Formable_News.3
+	title = RON_Formable_News.3.t
+	desc = RON_Formable_News.3.d
+	picture = GFX_news_event_RON_Formable_News3
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.3.a }
+}
+
+#Lannister Empire
+country_event = {
+	id = RON_Formable_Country.4
+	title = RON_Formable_Country.4.t
+	desc = RON_Formable_Country.4.d
+	picture = GFX_report_event_RON_Formable_Country4
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.4.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Lannister_Empire
+		hidden_effect = { news_event = { id = RON_Formable_News.4 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.4 hours = 6 } }
+	}
+}
+#Lannister Empire
+news_event = {
+	id = RON_Formable_News.4
+	title = RON_Formable_News.4.t
+	desc = RON_Formable_News.4.d
+	picture = GFX_news_event_RON_Formable_News4
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.4.a }
+}
+
+# Kingdom of The North and The Trident
+country_event = {
+	id = RON_Formable_Country.5
+	title = RON_Formable_Country.5.t
+	desc = RON_Formable_Country.5.d
+	picture = GFX_report_event_RON_Formable_Country5
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.5.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_NOR_RIV
+		hidden_effect = { news_event = { id = RON_Formable_News.5 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.5 hours = 6 } }
+	}
+}
+# Kingdom of The North and The Trident
+news_event = {
+	id = RON_Formable_News.5
+	title = RON_Formable_News.5.t
+	desc = RON_Formable_News.5.d
+	picture = GFX_news_event_RON_Formable_News5
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.5.a }
+}
+
+#Targaryen Empire
+country_event = {
+	id = RON_Formable_Country.6
+	title = RON_Formable_Country.6.t
+	desc = RON_Formable_Country.6.d
+	picture = GFX_report_event_RON_Formable_Country6
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.6.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Targaryen_Empire
+		hidden_effect = { news_event = { id = RON_Formable_News.6 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.6 hours = 6 } }
+	}
+}
+#Targaryen Empire
+news_event = {
+	id = RON_Formable_News.6
+	title = RON_Formable_News.6.t
+	desc = RON_Formable_News.6.d
+	picture = GFX_news_event_RON_Formable_News6
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.6.a }
+}
+
+#True North
+country_event = {
+	id = RON_Formable_Country.7
+	title = RON_Formable_Country.7.t
+	desc = RON_Formable_Country.7.d
+	picture = GFX_report_event_RON_Formable_Country7
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.7.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_True_North
+		hidden_effect = { news_event = { id = RON_Formable_News.7 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.7 hours = 6 } }
+	}
+}
+#True North
+news_event = {
+	id = RON_Formable_News.7
+	title = RON_Formable_News.7.t
+	desc = RON_Formable_News.7.d
+	picture = GFX_news_event_RON_Formable_News7
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.7.a }
+}
+
+#Six Kingdoms
+country_event = {
+	id = RON_Formable_Country.8
+	title = RON_Formable_Country.8.t
+	desc = RON_Formable_Country.8.d
+	picture = GFX_report_event_RON_Formable_Country8
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.8.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Six_Kingdoms
+		hidden_effect = { news_event = { id = RON_Formable_News.8 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.8 hours = 6 } }
+	}
+}
+#Six Kingdoms
+news_event = {
+	id = RON_Formable_News.8
+	title = RON_Formable_News.8.t
+	desc = RON_Formable_News.8.d
+	picture = GFX_news_event_RON_Formable_News8
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.8.a }
+}
+
+#Seven Kingdoms
+country_event = {
+	id = RON_Formable_Country.9
+	title = RON_Formable_Country.9.t
+	desc = RON_Formable_Country.9.d
+	picture = GFX_report_event_RON_Formable_Country9
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.9.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Seven_Kingdoms
+		hidden_effect = { news_event = { id = RON_Formable_News.9 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.9 hours = 6 } }
+	}
+}
+#Seven Kingdoms
+news_event = {
+	id = RON_Formable_News.9
+	title = RON_Formable_News.9.t
+	desc = RON_Formable_News.9.d
+	picture = GFX_news_event_RON_Formable_News9
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.9.a }
+}
+
+#Westeros
+country_event = {
+	id = RON_Formable_Country.10
+	title = RON_Formable_Country.10.t
+	desc = RON_Formable_Country.10.d
+	picture = GFX_report_event_RON_Formable_Country10
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.10.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Westeros
+		hidden_effect = { news_event = { id = RON_Formable_News.10 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.10 hours = 6 } }
+	}
+}
+#Westeros
+news_event = {
+	id = RON_Formable_News.10
+	title = RON_Formable_News.10.t
+	desc = RON_Formable_News.10.d
+	picture = GFX_news_event_RON_Formable_News10
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.10.a }
+}
+
+#Valyrian Freehold
+country_event = {
+	id = RON_Formable_Country.11
+	title = RON_Formable_Country.11.t
+	desc = RON_Formable_Country.11.d
+	picture = GFX_report_event_RON_Formable_Country11
+
+	is_triggered_only = yes
+
+	option = {
+		name = RON_Formable_Country.11.a
+		ai_chance = { factor = 10 }
+		set_cosmetic_tag = FORM_Valyrian_Freehold
+		hidden_effect = { news_event = { id = RON_Formable_News.11 hours = 6 } }
+	}
+	option = {
+		name = "Keep Current Flag"
+		ai_chance = { factor = 0 }
+		hidden_effect = { news_event = { id = RON_Formable_News.11 hours = 6 } }
+	}
+}
+#Valyrian Freehold
+news_event = {
+	id = RON_Formable_News.11
+	title = RON_Formable_News.11.t
+	desc = RON_Formable_News.11.d
+	picture = GFX_news_event_RON_Formable_News11
+	major = yes
+	is_triggered_only = yes
+	option = { name = RON_Formable_News.11.a }
+}
+

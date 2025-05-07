@@ -1,0 +1,53 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_decision_cat_GEN_Empire_Manager"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/00_Empire_Manager.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_FORM_Baratheon_Empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_Baratheon_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_IRO_RIV"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_IRO_RIV.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_Lannister_Baratheon_Empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_Lannister_Baratheon_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_Lannister_Empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_Lannister_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_NOR_RIV"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_NOR_RIV.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_True_North"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_True_North.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_Westeros"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_Westeros.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_Targaryen_Empire"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_Targaryen_Empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_FORM_Valyrian_Freehold"
+		texturefile = "gfx/interface/decisions/00_Coring_Decisions/FORM_Valyrian_Freehold.dds"
+	}
+	
+}

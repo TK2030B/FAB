@@ -1,0 +1,147 @@
+GEN_Empire_Manager = {
+	picture = GFX_decision_cat_GEN_Empire_Manager
+	icon = eng_move_to_secure_the_dominions
+	
+	#Priorities in this order so they show up chronologically
+	priority = {
+		base = 750
+	}
+
+	allowed = {
+	}
+
+	visible = {
+	}
+}
+
+
+FORM_Baratheon_Empire_Decisions = {
+	picture = GFX_decision_cat_FORM_Baratheon_Empire
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+			original_tag = CRO
+			original_tag = DRA
+			original_tag = STO
+		}
+	}
+
+	visible = {
+	}
+}
+
+FORM_IRO_RIV_Decisions = {
+	picture = GFX_decision_cat_FORM_IRO_RIV
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+			original_tag = IRO
+			original_tag = RIV
+		}
+	}
+
+	visible = {
+	}
+}
+
+
+FORM_Lannister_Empire_Decisions = {
+	picture = GFX_decision_cat_FORM_Lannister_Empire
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+			original_tag = CRO
+			original_tag = WES
+		}
+	}
+
+	visible = {
+	}
+}
+
+FORM_Lannister_Baratheon_Empire_Decisions = {
+	picture = GFX_decision_cat_FORM_Lannister_Baratheon_Empire
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+			original_tag = CRO
+			original_tag = WES
+			original_tag = STO
+		}
+	}
+
+	visible = {
+	}
+}
+
+
+FORM_NOR_RIV_Decisions = {
+	picture = GFX_decision_cat_FORM_NOR_RIV
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+			original_tag = NOR
+			original_tag = RIV
+		}
+	}
+
+	visible = {
+	}
+}
+
+FORM_Targaryen_Empire_Decisions = {
+	picture = GFX_decision_cat_FORM_Targaryen_Empire
+	icon = eng_imperial_conference
+
+	allowed = {
+		original_tag = TAR
+	}
+
+	visible = {
+	}
+}
+
+FORM_True_North_Decisions = {
+	picture = GFX_decision_cat_FORM_True_North
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+			original_tag = NOR
+			original_tag = NWA
+			original_tag = WIL
+		}
+	}
+
+	visible = {
+	}
+}
+
+FORM_Westeros_Decisions = {
+	picture = GFX_decision_cat_FORM_Westeros
+	icon = eng_imperial_conference
+
+	allowed = {
+		OR = {
+				original_tag = DOR
+				original_tag = REA
+				original_tag = STO
+				original_tag = WES
+				original_tag = CRO
+				original_tag = RIV
+				original_tag = VAL
+				original_tag = IRO
+				original_tag = NOR
+				original_tag = NWA
+				original_tag = WIL
+			}
+	}
+
+	visible = {
+	}
+}

@@ -2,3 +2,47 @@ ICE_unknown = {
     color = rgb { 22 22 22 }
     color_ui = rgb { 22 22 22 }
 }
+FORM_Baratheon_Empire = {
+    color = rgb { 170 139 0 }
+    color_ui = rgb { 170 139 0 }
+}
+FORM_IRO_RIV = {
+    color = rgb { 60 50 100 }
+    color_ui = rgb { 60 50 100 }
+}
+FORM_Lannister_Baratheon_Empire = {
+    color = rgb { 165 70 0 }
+    color_ui = rgb { 165 70 0 }
+}
+FORM_Lannister_Empire = {
+    color = rgb { 140 0 15 }
+    color_ui = rgb { 140 0 15 }
+}
+FORM_NOR_RIV = {
+    color = rgb { 70 90 110 }
+    color_ui = rgb { 70 90 110 }
+}
+FORM_Targaryen_Empire = {
+    color = rgb { 85 30 100 }
+    color_ui = rgb { 85 30 100 }
+}
+FORM_True_North = {
+    color = rgb { 45 45 50 }
+    color_ui = rgb { 45 45 50 }
+}
+FORM_Six_Kingdoms = {
+    color = rgb { 80 110 50 }
+    color_ui = rgb { 80 110 50 }
+}
+FORM_Seven_Kingdoms = {
+    color = rgb { 50 50 150 }
+    color_ui = rgb { 50 50 150 }
+}
+FORM_Westeros = {
+    color = rgb { 20 20 30 }
+    color_ui = rgb { 20 20 30 }
+}
+FORM_Valyrian_Freehold = {
+    color = rgb { 110 85 30 }
+    color_ui = rgb { 110 85 30 }
+}
