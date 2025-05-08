@@ -1,4 +1,10 @@
 ﻿l_english:
+
+GOT_Plain_Mode_Chosen_tt:0 "§YPlain Gameplay§!\nThe game will now follow standard Hearts of Iron IV mechanics.\nCustom features such as Peace Deal mechanics, Coring decisions, and other custom features will be disabled for a more traditional gameplay experience."
+GOT_Customize_Settings_tt:0 "§YCustomize Settings§!\nAllows you to adjust each game setting individually to match your preferred gameplay experience."
+GOT_Reccommended_SP_Settings_tt:0 "§YRecommended Singleplayer Settings§!\nEnables §YGOT Mode§! for a more realistic experience while keeping all custom features, such as Peace Deals and Coring, fully active."
+GOT_Reccommended_MP_Settings_tt:0 "§YRecommended Multiplayer Settings§!\nEnables §YGOT Mode§! and §YSandbox Mode§! for a dynamic and flexible experience. Peace Deals are restricted to player-to-player interactions only — AI will never accept them. All custom features, including Coring and Decision systems, remain fully active."
+
 GOT_TAR_DOT_Wedding_Flag:0 "Targaryen-Dothraki Marriage"
 GOT_TAR_Wedding_Flag:0 "Targaryen Marriage"
 GOT_Tyrion_Captured_Flag:0 "Tyrion Captured"
@@ -36,12 +42,15 @@ GOT_Tyrion_On_His_Own:0 "Tyrion Doesn't Have a Champion"
 GOT_Lord_Karstark_Executed:0 "Lord Karstark Executed"
 GOT_Varys_Fled_Flag:0 "Varys Has Fled"
 
-Game_Event.1.t:0 "Welcome (1/4)"
+Game_Event.1.t:0 "Welcome (1/5)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
-Game_Event.1.a:0 "Vanilla Gameplay"
-Game_Event.1.b:0 "Customize Gameplay"
+Game_Event.1.a:0 "Reccommended SP Settings"
+Game_Event.1.b:0 "Reccommended MP Settings"
+Game_Event.1.c:0 "Plain Gameplay"
+Game_Event.1.e:0 "Customize Gameplay"
 
-Game_Event.2.t:0 "Game of Thrones Mode (2/4)"
+
+Game_Event.2.t:0 "Game of Thrones Mode (2/5)"
 Game_Event.2.d:0 "Game of Thrones Mode is currently §ROFF§!.\n\nYou're playing with mechanics that closely follow base HOI4, offering a more traditional gameplay experience.\n\nWould you like to enable Game of Thrones Mode? This immersive mode introduces major changes:\n- Dragons are 10× more expensive but also 10× more powerful\n- Additional tweaks to mechanics for a truly Westerosi feel.\n\nRecommendation: Enable this mode for a more epic and thematic experience — or keep it off if you prefer a classic HOI4 base."
 Game_Event.2.a:0 "LEAVE IT §ROFF§!"
 Game_Event.2.b:0 "TURN §GON§!"
@@ -54,16 +63,34 @@ Game_Event.4.t:0 "Game of Thrones Mode Chosen"
 Game_Event.4.d:0 "§R[FROM.GetName]§! has selected §RGame of Thrones Mode§!. This mode enables immersive mechanics, including powerful but costly §Rdragons§! and heavily fortified §RForts§!, among other adjustments."
 Game_Event.4.a:0 "OK"
 
-Game_Event.8.t:0 "Sandbox Mode (3/4)"
+Game_Event.8.t:0 "Sandbox Mode (3/5)"
 Game_Event.8.d:0 "Sandbox Mode is currently §ROFF§!.\n\nIn standard historical play, the Seven Kingdoms follow a more scripted path, with outcomes closely tied to canon events from the lore. This ensures a more stable and narrative-driven experience.\n\nEnabling Sandbox Mode changes this\n- Assassinations, coups, and alternate outcomes become possible, allowing more reactive and emergent storytelling — even with Historical Focuses turned on.\n- AI nations still follow their historical decisions, but players have the freedom to forge their own destiny.\n\nRecommendation:\n- For a lore-faithful experience: enable Game of Thrones Mode, keep Sandbox Mode §ROFF§, and turn Historical AI §GON§.\n- For chaotic multiplayer or creative roleplay: turn Sandbox Mode §GON§ and Historical AI §ROFF§ — or mix and match to create your ideal balance of narrative and freedom!"
 
 
 Game_Event.8.a:0 "LEAVE IT §ROFF§!"
 Game_Event.8.b:0 "TURN §GON§! Sandbox Mode"
 
-Game_Event.10.t:0 "Sandbox Mode Chosen"
-Game_Event.10.d:0 "§R[FROM.GetName]§! has selected §RSandbox Mode§!. In this mode, the Seven Kingdoms are no longer puppets of the Crownlands — they are §Rindependent§! realms, still pledged to the Iron Throne, but free to act on their own. This setup allows for more dynamic wars, rebellions, and political maneuvering, making it ideal for sandbox and roleplay-driven games."
-Game_Event.10.a:0 "OK"
+Game_Event.9.t:0 "Realism Mode Enabled"
+Game_Event.9.d:0 "§R[FROM.GetName]§! has activated §RRealism Mode§!. In this mode, scripted outcomes will play out with full historical weight: key assassinations, betrayals, and power shifts will proceed as they did in the source material if AI Historical Focuses is enabled. This setup is ideal for players who want a cinematic, lore-accurate experience with minimal divergence from canon events."
+Game_Event.9.a:0 "Order must be maintained."
+
+
+Game_Event.10.t:0 "Sandbox Mode Enabled"
+Game_Event.10.d:0 "§R[FROM.GetName]§! has activated §RSandbox Mode§!. In this mode, scripted outcomes are softened, even in Historical Mode: events like assassinations may no longer be guaranteed, survival is possible, and unexpected developments can occur. This setup offers players greater flexibility, making it ideal for multiplayer and roleplay-driven games where freedom and unpredictability are valued."
+Game_Event.10.a:0 "Good. Let the chaos begin."
+
+Game_Event.11.t:0 "Peace Deals (4/5)"
+Game_Event.11.d:0 "Adjust how the AI evaluates and responds to peace deals in your game. Choose the setting that best fits your preferred level of challenge and realism.\n\n- **AI Carefully Weighs Options**: The AI evaluates peace deals based on a wide range of strategic and situational factors. Expect more realistic and varied decisions, where the outcome of each proposal depends on the broader context of the war.\n\n- **AI Always Accepts Peace Deals**: The AI will automatically accept any peace deal offered, regardless of circumstances. Ideal for players who prefer fast, simplified conclusions to conflicts.\n\n- **AI Never Accepts Peace Deals**: The AI will automatically reject all peace offers, continuing to fight until total victory or defeat. This setting can be useful for multiplayer or those who want prolonged wars.\n\n- **Disable Peace Deal System**: Disables the custom peace deal mechanics entirely. The game will revert to default behavior or rely on other mod systems."
+Game_Event.11.a:0 "AI Carefully Weighs Options"
+Game_Event.11.b:0 "AI Always Accepts Peace Deals"
+Game_Event.11.c:0 "AI Never Accepts Peace Deals"
+Game_Event.11.e:0 "TURN §ROFF§!"
+
+Game_Event.12.t:0 "Realm Administration Decisions (5/5)"
+Game_Event.12.d:0 "You may now choose whether to enable or disable §WRealm Administration§! decisions. These include:\n\n§WPuppeting§! or §Wannexing§! countries that share your leader.\n§WIntegrating§! (coring) conquered territory.\n\nThese tools are useful for consolidating power and expanding your direct control over your realm."
+Game_Event.12.a:0 "LEAVE §GON§!"
+Game_Event.12.b:0 "TURN §ROFF§!"
+
 
  GOT_Generic.1.t: "The Red Riot"
  GOT_Generic.1.d: "What began as a protest by the smallfolk over food shortages and corrupt local rule quickly escalated into chaos. Armed with little more than tools and torches, the peasants stormed the town square—only to be met with brutal force. The clash left dozens dead, homes ablaze, and tensions at a breaking point. What was meant to be a demonstration has become a symbol of the deep divide festering beneath the surface."

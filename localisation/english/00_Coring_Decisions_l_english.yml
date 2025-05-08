@@ -7,7 +7,7 @@ GOT_Lannister_Baratheon_Ruler_tt:0 "The current leader is of both House Lanniste
 
 #Empire Manager
 GEN_Empire_Manager:0 "Administer Your Realm"
-GEN_Empire_Manager_desc:0 "A realm of great extent often binds many lands and peoples under one crown. Such dominions are forged in fire and held through the loyalty of vassals and the might of the sword. The heartland of the realm exerts dominion over its outer marches, where lords and stewards may rule in the sovereign's name — though seldom with equal justice or rights for all.\n§YCosts are increased by 50% during wartime.§!"
+GEN_Empire_Manager_desc:0 "A realm of great extent often binds many lands and peoples under one crown. Such dominions are forged in fire and held through the loyalty of vassals and the might of the sword. The heartland of the realm exerts dominion over its outer marches, where lords and stewards may rule in the sovereign's name — though seldom with equal justice or rights for all.\n§YCosts for coring decisions are increased by 50% during wartime.§!"
 show_hide_formables_decisions:0 "Show/Hide Kingdom and Empire Formation Edicts"
 show_hide_integration_decisions:0 "Show/Hide Edicts for Integration of Lands"
 BFN_coring_states_targeted_decision:0 "Proclaim [FROM.GetName] a Loyal Province"

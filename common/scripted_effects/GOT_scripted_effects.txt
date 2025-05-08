@@ -852,3 +852,42 @@ GOT_house_lore_events = {
 		}	
 	}
 }
+
+GOT_Vanilla_Mode_Chosen = {
+	add_ideas = GOT_Mode_Vanilla	
+	every_other_country = {
+		limit = {
+			exists = yes
+		}
+		country_event = { id = Game_Event.3 }
+	}
+}
+
+GOT_Mode_Chosen = {
+	set_global_flag = GOT_Mode_GOT
+	if = {
+		limit = {
+			has_dlc = "By Blood Alone"
+		}
+		add_ideas = GOT_Mode_GOT
+	}
+	else = {
+		add_ideas = GOT_Mode_GOT_Non_BBA
+	}
+	every_other_country = {
+		limit = {
+			exists = yes
+		}
+		country_event = { id = Game_Event.4 }
+	}
+}
+
+GOT_Sandbox_Mode_Chosen = {
+	set_global_flag = GOT_Sandbox_Mode
+	every_other_country = {
+		limit = {
+			exists = yes
+		}
+		country_event = { id = Game_Event.10 }
+	}
+}

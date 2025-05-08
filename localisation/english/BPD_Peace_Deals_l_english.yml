@@ -140,14 +140,6 @@ BPD_Better_Peace_Deals_Country.171.a:1 "We Had No Choice..."
 BPD_Better_Peace_Deals_Country.151.t:0 "[FROM.GetName] Signs the Ceasefire"
 BPD_Better_Peace_Deals_Country.151.d:0 "Our faction leader has accepted [FROM.GetName]'s proposal for the cession of lands. The agreed-upon territories shall be surrendered, ending the strife with [ROOT.GetName] gaining dominion over the land. This accord doth mark a significant change in the borders of the realms and bringeth the hostilities to their conclusion."
 BPD_Better_Peace_Deals_Country.151.a:1 "Good Fortune"
-
-BPD_Better_Peace_Deals_Country.1001.t:0 "Peace Deals (4/4)"
-BPD_Better_Peace_Deals_Country.1001.d:0 "Adjust how the AI evaluates and responds to peace deals in your game. Choose the setting that best fits your preferred level of challenge and realism.\n\n- **AI Carefully Weighs Options**: The AI evaluates peace deals based on a wide range of strategic and situational factors. Expect more realistic and varied decisions, where the outcome of each proposal depends on the broader context of the war.\n\n- **AI Always Accepts Peace Deals**: The AI will automatically accept any peace deal offered, regardless of circumstances. Ideal for players who prefer fast, simplified conclusions to conflicts.\n\n- **AI Never Accepts Peace Deals**: The AI will automatically reject all peace offers, continuing to fight until total victory or defeat. This setting can be useful for multiplayer or those who want prolonged wars.\n\n- **Disable Peace Deal System**: Disables the custom peace deal mechanics entirely. The game will revert to default behavior or rely on other mod systems."
-BPD_Better_Peace_Deals_Country.1001.a:0 "AI Carefully Weighs Options"
-BPD_Better_Peace_Deals_Country.1001.b:0 "AI Always Accepts Peace Deals"
-BPD_Better_Peace_Deals_Country.1001.c:0 "AI Never Accepts Peace Deals"
-BPD_Better_Peace_Deals_Country.1001.e:0 "Disable Peace Deal System"
-
  
 BPD_Peace_Cooldown:0 "Initiated Peace Negotiations"
 BPD_Peace_Cooldown_desc:0 "The country has formally initiated peace talks with its adversaries. Diplomatic channels are now focused on the ongoing negotiations, preventing any further proposals for the next 30 days as both sides assess their positions and prepare for future offers."

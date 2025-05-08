@@ -2339,6 +2339,16 @@ spriteTypes = {
 		name = "GFX_news_event_House_Targaryen" 
 		texturefile = "gfx/event_pictures/News/news_event_House_Targaryen.dds" 
 	} 
+	
+	spriteType = {
+		name = "GFX_news_event_westeros_and_essos"
+		texturefile = "gfx/event_pictures/news_event_westeros_and_essos.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_westeros_and_essos"
+		texturefile = "gfx/event_pictures/report_event_westeros_and_essos.dds"
+	}
 
 
 

@@ -11,13 +11,14 @@ GEN_Empire_Manager = {
 	}
 
 	visible = {
+		NOT = { has_global_flag = BFN_Disable_Them_Completely }
 	}
 }
 
 
 FORM_Baratheon_Empire_Decisions = {
 	picture = GFX_decision_cat_FORM_Baratheon_Empire
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
@@ -33,7 +34,7 @@ FORM_Baratheon_Empire_Decisions = {
 
 FORM_IRO_RIV_Decisions = {
 	picture = GFX_decision_cat_FORM_IRO_RIV
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
@@ -49,7 +50,7 @@ FORM_IRO_RIV_Decisions = {
 
 FORM_Lannister_Empire_Decisions = {
 	picture = GFX_decision_cat_FORM_Lannister_Empire
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
@@ -64,7 +65,7 @@ FORM_Lannister_Empire_Decisions = {
 
 FORM_Lannister_Baratheon_Empire_Decisions = {
 	picture = GFX_decision_cat_FORM_Lannister_Baratheon_Empire
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
@@ -81,7 +82,7 @@ FORM_Lannister_Baratheon_Empire_Decisions = {
 
 FORM_NOR_RIV_Decisions = {
 	picture = GFX_decision_cat_FORM_NOR_RIV
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
@@ -96,7 +97,7 @@ FORM_NOR_RIV_Decisions = {
 
 FORM_Targaryen_Empire_Decisions = {
 	picture = GFX_decision_cat_FORM_Targaryen_Empire
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		original_tag = TAR
@@ -108,7 +109,7 @@ FORM_Targaryen_Empire_Decisions = {
 
 FORM_True_North_Decisions = {
 	picture = GFX_decision_cat_FORM_True_North
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
@@ -124,7 +125,7 @@ FORM_True_North_Decisions = {
 
 FORM_Westeros_Decisions = {
 	picture = GFX_decision_cat_FORM_Westeros
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
@@ -148,7 +149,7 @@ FORM_Westeros_Decisions = {
 
 FORM_Valyrian_Freehold_Decisions = {
 	picture = GFX_decision_cat_FORM_Valyrian_Freehold
-	icon = eng_imperial_conference
+	icon = eng_appeal_to_imperial_loyalists
 
 	allowed = {
 		OR = {
