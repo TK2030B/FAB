@@ -4,6 +4,7 @@
 
 GOT_Game_Decisions = {
 	picture = GFX_decision_cat_game_of_thrones
+	icon = NOR_monarchist_prep
 	allowed = {
 	}
 	visible = {

@@ -1,5 +1,10 @@
 ﻿l_english:
 
+GOT_Baratheon_Ruler_tt:0 "The current leader is of House Baratheon."
+GOT_Lannister_Ruler_tt:0 "The current leader is of House Lannister."
+GOT_Lannister_Baratheon_Ruler_tt:0 "The current leader is of both House Lannister and House Baratheon."
+
+
 #Empire Manager
 GEN_Empire_Manager:0 "Administer Your Realm"
 GEN_Empire_Manager_desc:0 "A realm of great extent often binds many lands and peoples under one crown. Such dominions are forged in fire and held through the loyalty of vassals and the might of the sword. The heartland of the realm exerts dominion over its outer marches, where lords and stewards may rule in the sovereign's name — though seldom with equal justice or rights for all.\n§YCosts are increased by 50% during wartime.§!"

@@ -1,6 +1,6 @@
 GEN_Empire_Manager = {
 	picture = GFX_decision_cat_GEN_Empire_Manager
-	icon = eng_move_to_secure_the_dominions
+	icon = NOR_monarchist_prep
 	
 	#Priorities in this order so they show up chronologically
 	priority = {

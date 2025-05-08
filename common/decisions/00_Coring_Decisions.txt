@@ -294,7 +294,6 @@ BFN_coring_states_targeted_decision_remote_at_war = {
 		has_equipment = {
 			infantry_equipment > 2999
 		}
-		convoys > 149
 		has_equipment = {
 			convoy > 149
 		}
@@ -380,6 +379,10 @@ FORM_Baratheon_Empire_Decisions = {
 				original_tag = DRA
 				original_tag = STO
 			}
+			custom_trigger_tooltip = {
+				tooltip = GOT_Baratheon_Ruler_tt
+				GOT_Baratheon_Ruler = yes
+			}
 			NOT = { has_global_flag = FORM_Baratheon_Empire2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
@@ -415,6 +418,9 @@ FORM_Baratheon_Empire_Decisions = {
 					}
 				}
 			}
+			
+			
+			
 			
 
 		}
@@ -517,6 +523,10 @@ FORM_Lannister_Empire_Decisions = {
 				original_tag = CRO
 				original_tag = WES
 			}
+			custom_trigger_tooltip = {
+				tooltip = GOT_Lannister_Ruler_tt
+				GOT_Lannister_Ruler = yes
+			}
 			NOT = { has_global_flag = FORM_Lannister_Empire2 }
 			#is_subject = no
 			custom_trigger_tooltip = {
@@ -584,6 +594,10 @@ FORM_Lannister_Baratheon_Empire_Decisions = {
 				original_tag = WES
 				original_tag = STO
 			}
+			custom_trigger_tooltip = {
+				tooltip = GOT_Lannister_Baratheon_Ruler_tt
+				GOT_Lannister_Baratheon_Ruler = yes
+			}
 			NOT = { has_global_flag = FORM_Lannister_Baratheon_Empire2 }
 			#is_subject = no
 			
@@ -632,6 +646,8 @@ FORM_Lannister_Baratheon_Empire_Decisions = {
 					}
 				}
 			}
+			
+			
 			
 
 		}

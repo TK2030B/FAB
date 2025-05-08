@@ -515,3 +515,94 @@ GOT_Female_Ruler = {
 		}
 	}
 }
+
+GOT_Baratheon_Ruler = {
+	OR = {
+		has_country_leader = {
+			name = "Robert Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Stannis Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Renly Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Tommen Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Myrcella Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Shireen Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Gendry Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Lannister_Ruler = {
+	OR = {
+		has_country_leader = {
+			name = "Cersei Lannister"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Tywin Lannister"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Tyrion Lannister"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Kevan Lannister"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Jaime Lannister"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Tommen Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Myrcella Baratheon"
+			ruling_only = yes
+		}
+	}
+}
+
+GOT_Lannister_Baratheon_Ruler = {
+	OR = {
+		has_country_leader = {
+			name = "Tommen Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Joffrey Baratheon"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Myrcella Baratheon"
+			ruling_only = yes
+		}
+	}
+}
