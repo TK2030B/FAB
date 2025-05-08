@@ -65,22 +65,24 @@ country_event = {
 	picture = GFX_report_event_welcome_event
 
 	is_triggered_only = yes
-
+	
 	option = {
 		name = Game_Event.2.a
+		
+		GOT_Mode_Chosen = yes
+		country_event = { id = Game_Event.8 }
+		
+	}
+
+	option = {
+		name = Game_Event.2.b
 		
 		GOT_Vanilla_Mode_Chosen = yes
 		country_event = { id = Game_Event.8 }
 		
 	}
 	
-	option = {
-		name = Game_Event.2.b
-		
-		GOT_Mode_Chosen = yes
-		country_event = { id = Game_Event.8 }
-		
-	}
+	
 }
 
 #Vanilla Mode Chosen
@@ -183,22 +185,24 @@ country_event = {
 	picture = GFX_report_event_welcome_event
 
 	is_triggered_only = yes
-
-	option = {
-		name = Game_Event.8.a
-		
-		country_event = { id = Game_Event.11 }
-		
-	}
 	
 	option = {
-		name = Game_Event.8.b
+		name = Game_Event.8.a
 		
 		GOT_Sandbox_Mode_Chosen = yes
 		
 		country_event = { id = Game_Event.11 }
 		
 	}
+
+	option = {
+		name = Game_Event.8.b
+		
+		country_event = { id = Game_Event.11 }
+		
+	}
+	
+	
 }
 
 #Realism Mode Chosen
@@ -300,7 +304,6 @@ country_event = {
 	title = Game_Event.12.t
 	desc = Game_Event.12.d
 	picture = GFX_report_event_westeros_and_essos
-	hidden = yes
 	is_triggered_only = yes
 	option = {
 		name = Game_Event.12.a

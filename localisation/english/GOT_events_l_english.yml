@@ -52,8 +52,8 @@ Game_Event.1.e:0 "Customize Gameplay"
 
 Game_Event.2.t:0 "Game of Thrones Mode (2/5)"
 Game_Event.2.d:0 "Game of Thrones Mode is currently §ROFF§!.\n\nYou're playing with mechanics that closely follow base HOI4, offering a more traditional gameplay experience.\n\nWould you like to enable Game of Thrones Mode? This immersive mode introduces major changes:\n- Dragons are 10× more expensive but also 10× more powerful\n- Additional tweaks to mechanics for a truly Westerosi feel.\n\nRecommendation: Enable this mode for a more epic and thematic experience — or keep it off if you prefer a classic HOI4 base."
-Game_Event.2.a:0 "LEAVE IT §ROFF§!"
-Game_Event.2.b:0 "TURN §GON§!"
+Game_Event.2.a:0 "TURN §GON§!"
+Game_Event.2.b:0 "TURN §ROFF§!"
 
 Game_Event.3.t:0 "Vanilla Mode Chosen"
 Game_Event.3.d:0 "§R[FROM.GetName]§! has selected §RVanilla Mode§!. The game will follow standard HOI4 mechanics with minimal changes."
@@ -65,10 +65,8 @@ Game_Event.4.a:0 "OK"
 
 Game_Event.8.t:0 "Sandbox Mode (3/5)"
 Game_Event.8.d:0 "Sandbox Mode is currently §ROFF§!.\n\nIn standard historical play, the Seven Kingdoms follow a more scripted path, with outcomes closely tied to canon events from the lore. This ensures a more stable and narrative-driven experience.\n\nEnabling Sandbox Mode changes this\n- Assassinations, coups, and alternate outcomes become possible, allowing more reactive and emergent storytelling — even with Historical Focuses turned on.\n- AI nations still follow their historical decisions, but players have the freedom to forge their own destiny.\n\nRecommendation:\n- For a lore-faithful experience: enable Game of Thrones Mode, keep Sandbox Mode §ROFF§, and turn Historical AI §GON§.\n- For chaotic multiplayer or creative roleplay: turn Sandbox Mode §GON§ and Historical AI §ROFF§ — or mix and match to create your ideal balance of narrative and freedom!"
-
-
-Game_Event.8.a:0 "LEAVE IT §ROFF§!"
-Game_Event.8.b:0 "TURN §GON§! Sandbox Mode"
+Game_Event.8.a:0 "TURN §GON§!"
+Game_Event.8.b:0 "TURN §ROFF§!"
 
 Game_Event.9.t:0 "Realism Mode Enabled"
 Game_Event.9.d:0 "§R[FROM.GetName]§! has activated §RRealism Mode§!. In this mode, scripted outcomes will play out with full historical weight: key assassinations, betrayals, and power shifts will proceed as they did in the source material if AI Historical Focuses is enabled. This setup is ideal for players who want a cinematic, lore-accurate experience with minimal divergence from canon events."
@@ -87,8 +85,8 @@ Game_Event.11.c:0 "AI Never Accepts Peace Deals"
 Game_Event.11.e:0 "TURN §ROFF§!"
 
 Game_Event.12.t:0 "Realm Administration Decisions (5/5)"
-Game_Event.12.d:0 "You may now choose whether to enable or disable §WRealm Administration§! decisions. These include:\n\n§WPuppeting§! or §Wannexing§! countries that share your leader.\n§WIntegrating§! (coring) conquered territory.\n\nThese tools are useful for consolidating power and expanding your direct control over your realm."
-Game_Event.12.a:0 "LEAVE §GON§!"
+Game_Event.12.d:0 "You may now choose whether to enable or disable §WRealm Administration§! decisions. These tools are useful for consolidating power and expanding your direct control over your realm."
+Game_Event.12.a:0 "TURN §GON§!"
 Game_Event.12.b:0 "TURN §ROFF§!"
 
 
