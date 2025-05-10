@@ -82,10 +82,12 @@ country_event = {
 			days = 365
 		}
 		
-		FROM = { 
-			id = GOT_Iron_Bank_Country.2
-			hours = 6 
-        } 
+		FROM = {
+			country_event = {
+				id = GOT_Iron_Bank_Country.2
+				hours = 6 
+			}
+        }
 		
 	}
 	
@@ -139,9 +141,11 @@ country_event = {
 			}
 		}
 		
-		FROM = { 
-			id = GOT_Iron_Bank_Country.3
-			hours = 6 
+		FROM = {
+			country_event = {
+				id = GOT_Iron_Bank_Country.3
+				hours = 6 
+			}
         }
 		
 	}

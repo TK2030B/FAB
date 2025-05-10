@@ -2515,6 +2515,7 @@ country_event = {
 		}
 		
 		GOT_The_Great_Betrayal = yes
+		add_threat = 15
 		
 		every_other_country = { 
             limit = { 
@@ -2609,6 +2610,7 @@ country_event = {
 		}
 		
 		GOT_The_Great_Betrayal = yes
+		add_threat = 15
 		
 		NOR = {
 		
@@ -2711,6 +2713,7 @@ country_event = {
 		}
 		
 		GOT_The_Great_Betrayal = yes
+		add_threat = 15
 		
 		NOR = {
 		

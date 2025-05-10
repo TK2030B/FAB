@@ -14,3 +14,60 @@ BFN_coring_states_targeted_decision:0 "Proclaim [FROM.GetName] a Loyal Province"
 BFN_coring_states_targeted_decision_at_war:0 "Proclaim [FROM.GetName] a Loyal Province (At War)"
 BFN_coring_states_targeted_decision_remote:0 "Extend Dominion Over [FROM.GetName]"
 BFN_coring_states_targeted_decision_remote_at_war:0 "Extend Dominion Over [FROM.GetName] (At War)"
+
+BFN_invite_namesake_into_faction: "Invite [FROM.GetName] to Join Our Cause"
+BFN_invite_namesake_into_faction_desc: "As both our realms are led by [ROOT.GetLeader], it is only natural that we stand united against our enemies. Let us invite [FROM.GetName] to join our faction and formalize our alliance."
+GOT_Has_Same_Leader_tt: "§Y[ROOT.GetLeader]§! rules both our realm and theirs."
+
+BFN_demand_namesake_submit: "Demand [FROM.GetName] Submit to Our Rule"
+BFN_demand_namesake_submit_desc: "Though we share the same ruler, true unity demands more than mere symbolism. As the stronger realm — in might or in title — we should demand that [FROM.GetName] recognize our authority and become our vassal."
+
+BFN_demand_namesake_integrate: "Integrate [FROM.GetName] into Our Realm"
+BFN_demand_namesake_integrate_desc: "Our shared ruler already binds us together, and [FROM.GetName] exists only through our protection. It is time to bring their lands fully into our domain and unite our peoples under a single banner."
+
+GOT_Realm_Admin_Country.1.t: "[ROOT.GetName] Demands Our Submission"
+GOT_Realm_Admin_Country.1.d: "Though we share the same ruler, [ROOT.GetName] claims superiority by right of strength or title and now demands our submission. They expect us to become their vassal, relinquishing our independence in favor of unity under their banner. To accept would preserve peace — but to refuse may be seen as a betrayal, one that [ROOT.GetName] could answer with force of arms. What shall we do?"
+GOT_Realm_Admin_Country.1.a: "We shall bend the knee to [ROOT.GetName]."
+GOT_Realm_Admin_Country.1.b: "We will not be threatened into submission!"
+
+GOT_Realm_Admin_Country.2.t: "[FROM.GetName] Bends the Knee"
+GOT_Realm_Admin_Country.2.d: "[FROM.GetName] has accepted our demand for submission. They have acknowledged our greater authority and will now serve as our vassal, formally binding their fate to ours. Though they remain a separate realm in name, their autonomy is gone. We now stand as the dominant power in this union."
+GOT_Realm_Admin_Country.2.a: "They chose wisely."
+
+GOT_Realm_Admin_Country.3.t: "[FROM.GetName] Refuses to Submit"
+GOT_Realm_Admin_Country.3.d: "Our demand was clear — bend the knee, or face the consequences. Yet [FROM.GetName] has chosen defiance. They have rejected our authority and stand proudly independent, despite the shared blood that binds us. We may choose to answer this insult with steel and fire... or bide our time and let this slight pass — for now."
+GOT_Realm_Admin_Country.3.a: "Then we shall crush them!"
+GOT_Realm_Admin_Country.3.b: "Let them have their pride... for now."
+
+GOT_Realm_Admin_Country.4.t: "[FROM.GetName] Demands Full Integration"
+GOT_Realm_Admin_Country.4.d: "Our nominal overlord, [FROM.GetLeader], has issued a stark demand: the complete absorption of [ROOT.GetName] into [FROM.GetName]. While we already exist under their authority, this would mean the total erasure of what little autonomy remains. Our armies, our fleets, our very identity — all would be folded into their realm. Resistance is possible, but so is cooperation... for the good of the realm. Do we accept our fate, or dare to defy it?"
+GOT_Realm_Admin_Country.4.a: "We will accept integration."
+GOT_Realm_Admin_Country.4.b: "We must resist — no matter the cost!"
+
+GOT_Realm_Admin_Country.5.t: "[FROM.GetName] Accepts Integration"
+GOT_Realm_Admin_Country.5.d: "[FROM.GetName] has accepted our demand for full unification. Their remaining institutions have been dissolved, their armies and fleets folded into our own, and their banner lowered beneath ours. What once stood as a separate realm now lives on only as memory. We have become one realm, indivisible, and [FROM.GetLeader] now serves no throne but ours."
+GOT_Realm_Admin_Country.5.a: "It is done."
+
+
+GOT_Realm_Admin_Country.6.t: "[FROM.GetName] Rejects Integration"
+GOT_Realm_Admin_Country.6.d: "Our demand was simple — unite the realms under one banner. [FROM.GetLeader] owes their throne to us, and yet they now dare to claim independence in all but name. The chains of fealty are not enough for us; we sought unity, and they have offered defiance. This insult cannot go unanswered... or can it?"
+GOT_Realm_Admin_Country.6.a: "Then we shall end their pretense!"
+GOT_Realm_Admin_Country.6.b: "Let them cling to their illusion of sovereignty... for now."
+
+
+
+GOT_Realm_Admin.2.t: "[FROM.GetName] Bends the Knee"
+GOT_Realm_Admin.2.d: "In a striking display of loyalty — or perhaps necessity — [FROM.GetName] has formally bent the knee to their sovereign overlord. Though both realms were bound by a shared ruler, this act solidifies the hierarchy between them, marking the end of [FROM.GetAdjective] independence. The move has sparked both admiration and unease across the continent, as onlookers speculate what this consolidation of power might mean for the balance of realms."
+GOT_Realm_Admin.2.a: "One banner, one will."
+
+GOT_Realm_Admin.3.t: "[FROM.GetName] Stands Defiant"
+GOT_Realm_Admin.3.d: "Despite pressure to submit to a shared sovereign, [FROM.GetName] has rejected calls to bend the knee. Declaring their sovereignty inviolable, they have chosen independence over subjugation — a bold move in uncertain times. The refusal has raised tensions across the region, with many wondering whether this defiance will lead to open conflict or a fragile peace."
+GOT_Realm_Admin.3.a: "A storm may be brewing."
+
+GOT_Realm_Admin.5.t: "[FROM.GetName] Merged into Their Overlord's Realm"
+GOT_Realm_Admin.5.d: "In a momentous turn, [FROM.GetName] has consented to full integration into the domain of their sovereign. What remained of their autonomy is now gone — their banners lowered, their armies absorbed, their lands administered directly. The move signals the final unification of two realms long held together by a common ruler, and observers across the continent now weigh the implications of this growing power."
+GOT_Realm_Admin.5.a: "A realm united."
+
+GOT_Realm_Admin.6.t: "[FROM.GetName] Rejects Integration"
+GOT_Realm_Admin.6.d: "Despite the authority of their overlord and their existing vassalage, [FROM.GetName] has refused to surrender what remains of their independence. The proposal for full integration was met with defiance, as the realm declared its intent to maintain separate rule under shared sovereignty. This bold decision leaves tensions high, and many wonder whether such resistance will lead to renewed conflict or a tenuous peace."
+GOT_Realm_Admin.6.a: "They defy their fate — for now."

@@ -513,6 +513,14 @@ GOT_Female_Ruler = {
 			name = "Yara Greyjoy"
 			ruling_only = yes
 		}
+		has_country_leader = {
+			name = "Lysa Arryn"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Ygritte Firekissed"
+			ruling_only = yes
+		}
 	}
 }
 
@@ -603,6 +611,179 @@ GOT_Lannister_Baratheon_Ruler = {
 		has_country_leader = {
 			name = "Myrcella Baratheon"
 			ruling_only = yes
+		}
+	}
+}
+
+GOT_Has_Same_Leader = {
+	OR = {
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Joffrey Baratheon"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Joffrey Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Tommen Baratheon"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Tommen Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Myrcella Baratheon"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Myrcella Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Stannis Baratheon"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Stannis Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Renly Baratheon"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Renly Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Shireen Baratheon"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Shireen Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Cersei Lannister"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Cersei Lannister"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Ned Stark"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Ned Stark"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Daenerys Targaryen"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Daenerys Targaryen"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Xaro Xoan Daxos"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Xaro Xoan Daxos"
+					ruling_only = yes
+				}
+			}
+		}
+		AND = {
+			ROOT = {
+				has_country_leader = {
+					name = "Davos Seaworth"
+					ruling_only = yes
+				}
+			}
+			FROM = {
+				has_country_leader = {
+					name = "Davos Seaworth"
+					ruling_only = yes
+				}
+			}
 		}
 	}
 }

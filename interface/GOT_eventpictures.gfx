@@ -16,6 +16,32 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_news_event_czech_soldiers_01"
+		texturefile = "gfx/event_pictures/news_event_czech_soldiers_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_physics_lab_01"
+		texturefile = "gfx/event_pictures/news_event_physics_lab_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_europe_funeral"
+		texturefile = "gfx/event_pictures/news_event_europe_funeral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_fascists_posing"
+		texturefile = "gfx/event_pictures/news_event_fascists_posing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_stalin_propaganda"
+		texturefile = "gfx/event_pictures/news_event_stalin_propaganda.dds"
+	}
+
+	
+	spriteType = {
 		name = "GFX_report_event_iron_throne"
 		texturefile = "gfx/event_pictures/report_event_iron_throne.dds"
 	}
@@ -2310,48 +2336,407 @@ spriteTypes = {
 			texturefile = "gfx/event_pictures/News/news_event_The_Great_Betrayal.dds"
 		}
 		
-	spriteType = { 
-		name = "GFX_report_event_Castle_Black" 
-		texturefile = "gfx/event_pictures/Country/report_event_Castle_Black.dds" 
-	} 
+		spriteType = { 
+			name = "GFX_report_event_Castle_Black" 
+			texturefile = "gfx/event_pictures/Country/report_event_Castle_Black.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Castle_Black" 
+			texturefile = "gfx/event_pictures/News/news_event_Castle_Black.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Hard_Home" 
+			texturefile = "gfx/event_pictures/Country/report_event_Hard_Home.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Hard_Home" 
+			texturefile = "gfx/event_pictures/News/news_event_Hard_Home.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_House_Targaryen" 
+			texturefile = "gfx/event_pictures/Country/report_event_House_Targaryen.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_House_Targaryen" 
+			texturefile = "gfx/event_pictures/News/news_event_House_Targaryen.dds" 
+		} 
+		
+		spriteType = {
+			name = "GFX_news_event_westeros_and_essos"
+			texturefile = "gfx/event_pictures/News/news_event_westeros_and_essos.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_report_event_westeros_and_essos"
+			texturefile = "gfx/event_pictures/Country/report_event_westeros_and_essos.dds"
+		}
+		
+			 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Armies_Clash" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Armies_Clash.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Armies_Clash" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Armies_Clash.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Artisan_Workshop" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Artisan_Workshop.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Artisan_Workshop" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Artisan_Workshop.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Cabinet_Meeting" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Cabinet_Meeting.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Cabinet_Meeting" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Cabinet_Meeting.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Castle" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Castle.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Castle" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Castle.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Castle_Under_Attack" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Castle_Under_Attack.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Castle_Under_Attack" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Castle_Under_Attack.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_City" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_City.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_City" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_City.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_City_Under_Attack" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_City_Under_Attack.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_City_Under_Attack" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_City_Under_Attack.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Conspiracy" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Conspiracy.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Conspiracy" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Conspiracy.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Coronation" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Coronation.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Coronation" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Coronation.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Create_Army" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Create_Army.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Create_Army" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Create_Army.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Create_Militia" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Create_Militia.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Create_Militia" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Create_Militia.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Dragons_Clash" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Dragons_Clash.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Dragons_Clash" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Dragons_Clash.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Dragon_Attacks_Ships" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Dragon_Attacks_Ships.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Dragon_Attacks_Ships" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Dragon_Attacks_Ships.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Dragon_Born" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Dragon_Born.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Dragon_Born" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Dragon_Born.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Dragon_Flying" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Dragon_Flying.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Dragon_Flying" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Dragon_Flying.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Dragon_Roasting_Battlefield" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Dragon_Roasting_Battlefield.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Dragon_Roasting_Battlefield" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Dragon_Roasting_Battlefield.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Faction_Invitation" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Faction_Invitation.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Faction_Invitation" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Faction_Invitation.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Faction_Join_Request" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Faction_Join_Request.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Faction_Join_Request" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Faction_Join_Request.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Forge" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Forge.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Forge" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Forge.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Infantry" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Infantry.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Infantry" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Infantry.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Knights_Charge" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Knights_Charge.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Knights_Charge" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Knights_Charge.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Market" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Market.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Market" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Market.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Naval_Battle" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Naval_Battle.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Naval_Battle" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Naval_Battle.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Palace" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Palace.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Palace" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Palace.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Peasant_Revolt_City" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Peasant_Revolt_City.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Peasant_Revolt_City" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Peasant_Revolt_City.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Peasant_Revolt_Countryside" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Peasant_Revolt_Countryside.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Peasant_Revolt_Countryside" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Peasant_Revolt_Countryside.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Royal_Court" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Royal_Court.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Royal_Court" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Royal_Court.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Trade_Ships" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Trade_Ships.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Trade_Ships" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Trade_Ships.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Treasure" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Treasure.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Treasure" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Treasure.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_War_Fleet" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_War_Fleet.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_War_Fleet" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_War_Fleet.dds" 
+		} 
+		
+		spriteType = { 
+			name = "GFX_report_event_Generic_Accepts_Integration" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Accepts_Integration.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Accepts_Integration" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Accepts_Integration.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Accepts_Submission" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Accepts_Submission.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Accepts_Submission" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Accepts_Submission.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Demands_Integration" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Demands_Integration.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Demands_Integration" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Demands_Integration.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Demands_Submission" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Demands_Submission.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Demands_Submission" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Demands_Submission.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Rejects_Integration" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Rejects_Integration.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Rejects_Integration" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Rejects_Integration.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_report_event_Generic_Rejects_Submission" 
+			texturefile = "gfx/event_pictures/Country/report_event_Generic_Rejects_Submission.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_Generic_Rejects_Submission" 
+			texturefile = "gfx/event_pictures/News/news_event_Generic_Rejects_Submission.dds" 
+		} 
 	 
-	spriteType = { 
-		name = "GFX_news_event_Castle_Black" 
-		texturefile = "gfx/event_pictures/News/news_event_Castle_Black.dds" 
-	} 
-	 
-	spriteType = { 
-		name = "GFX_report_event_Hard_Home" 
-		texturefile = "gfx/event_pictures/Country/report_event_Hard_Home.dds" 
-	} 
-	 
-	spriteType = { 
-		name = "GFX_news_event_Hard_Home" 
-		texturefile = "gfx/event_pictures/News/news_event_Hard_Home.dds" 
-	} 
-	 
-	spriteType = { 
-		name = "GFX_report_event_House_Targaryen" 
-		texturefile = "gfx/event_pictures/Country/report_event_House_Targaryen.dds" 
-	} 
-	 
-	spriteType = { 
-		name = "GFX_news_event_House_Targaryen" 
-		texturefile = "gfx/event_pictures/News/news_event_House_Targaryen.dds" 
-	} 
-	
-	spriteType = {
-		name = "GFX_news_event_westeros_and_essos"
-		texturefile = "gfx/event_pictures/News/news_event_westeros_and_essos.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_report_event_westeros_and_essos"
-		texturefile = "gfx/event_pictures/Country/report_event_westeros_and_essos.dds"
-	}
-
-
-
 
 
 }

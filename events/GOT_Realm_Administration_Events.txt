@@ -1,0 +1,397 @@
+add_namespace = GOT_Realm_Admin_Country
+add_namespace = GOT_Realm_Admin_News
+
+#[ROOT.GetName] Demands Our Submission
+country_event = {
+	id = GOT_Realm_Admin_Country.1
+	title = GOT_Realm_Admin_Country.1.t
+	desc = GOT_Realm_Admin_Country.1.d
+	picture = GFX_report_event_Generic_Demands_Submission
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Realm_Admin_Country.1.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		FROM = {
+			country_event = {
+				id = GOT_Realm_Admin_Country.2
+				hours = 6
+			}
+		}
+		
+		news_event = {
+			id = GOT_Realm_Admin_News.2
+			hours = 6
+		}
+
+	}
+	
+	option = {
+		name = GOT_Realm_Admin_Country.1.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		FROM = {
+			country_event = {
+				id = GOT_Realm_Admin_Country.3
+				hours = 6
+			}
+		}
+
+		news_event = {
+			id = GOT_Realm_Admin_News.3
+			hours = 6
+		}
+
+	}
+}
+
+
+#[FROM.GetName] Bends the Knee
+country_event = {
+	id = GOT_Realm_Admin_Country.2
+	title = GOT_Realm_Admin_Country.2.t
+	desc = GOT_Realm_Admin_Country.2.d
+	picture = GFX_report_event_Generic_Accepts_Submission
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Realm_Admin_Country.2.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		puppet = FROM
+
+	}
+}
+
+#[FROM.GetName] Refuses to Submit
+country_event = {
+	id = GOT_Realm_Admin_Country.3
+	title = GOT_Realm_Admin_Country.3.t
+	desc = GOT_Realm_Admin_Country.3.d
+	picture = GFX_report_event_Generic_Rejects_Submission
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Realm_Admin_Country.3.a
+
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 1.5
+				has_war_support > 0.7
+			}
+			modifier = {
+				factor = 0.5
+				has_stability < 0.4
+			}
+		}
+		
+		if = {
+			limit = { 
+				is_faction_leader = yes
+				is_in_faction_with = FROM
+			}
+			remove_from_faction = FROM
+		}
+		
+		if = {
+			limit = { 
+				is_faction_leader = no
+				is_in_faction_with = FROM
+			}
+			leave_faction = yes
+		}
+		
+		# Effects of choosing war
+		add_political_power = -50
+		add_war_support = 0.05
+		add_stability = -0.03
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+
+	}
+	
+	option = {
+		name = GOT_Realm_Admin_Country.3.b
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 1.5
+				has_stability > 0.6
+			}
+			modifier = {
+				factor = 0.5
+				has_war_support > 0.7
+			}
+			modifier = {
+				factor = 0
+				is_faction_leader = no
+				is_in_faction_with = FROM
+			}
+		}
+
+		# Effects of letting it slide
+		add_political_power = -25
+		add_stability = -0.05
+		add_war_support = -0.05
+
+	}
+}
+
+#[ROOT.GetName] Demands Our Integration
+country_event = {
+	id = GOT_Realm_Admin_Country.4
+	title = GOT_Realm_Admin_Country.4.t
+	desc = GOT_Realm_Admin_Country.4.d
+	picture = GFX_report_event_Generic_Demands_Integration
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Realm_Admin_Country.4.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		FROM = {
+			country_event = {
+				id = GOT_Realm_Admin_Country.5
+				hours = 6
+			}
+		}
+		
+		news_event = {
+			id = GOT_Realm_Admin_News.5
+			hours = 6
+		}
+
+	}
+	
+	option = {
+		name = GOT_Realm_Admin_Country.4.b
+
+		ai_chance = {
+			factor = 0
+		}
+		
+		FROM = {
+			country_event = {
+				id = GOT_Realm_Admin_Country.6
+				hours = 6
+			}
+		}
+
+		news_event = {
+			id = GOT_Realm_Admin_News.6
+			hours = 6
+		}
+
+	}
+}
+
+
+#[FROM.GetName] Bends the Knee
+country_event = {
+	id = GOT_Realm_Admin_Country.5
+	title = GOT_Realm_Admin_Country.5.t
+	desc = GOT_Realm_Admin_Country.5.d
+	picture = GFX_report_event_Generic_Accepts_Integration
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Realm_Admin_Country.5.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		FROM = {
+			every_unit_leader = {
+				set_nationality = ROOT
+			}
+			transfer_navy = { target = ROOT } 
+		}
+		every_state = { 
+			limit = { 
+				is_core_of = FROM
+			} 
+			add_core_of = ROOT
+		}
+		annex_country = {
+			target = FROM  transfer_troops = yes 
+		}
+
+	}
+}
+
+#[FROM.GetName] Refuses to Submit
+country_event = {
+	id = GOT_Realm_Admin_Country.6
+	title = GOT_Realm_Admin_Country.6.t
+	desc = GOT_Realm_Admin_Country.6.d
+	picture = GFX_report_event_Generic_Rejects_Integration
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Realm_Admin_Country.6.a
+
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 1.5
+				has_war_support > 0.7
+			}
+			modifier = {
+				factor = 0.5
+				has_stability < 0.4
+			}
+		}
+		
+		if = {
+			limit = { 
+				is_faction_leader = yes
+				is_in_faction_with = FROM
+			}
+			remove_from_faction = FROM
+		}
+		
+		if = {
+			limit = { 
+				is_faction_leader = no
+				is_in_faction_with = FROM
+			}
+			leave_faction = yes
+		}
+		
+		if = {
+			limit = { 
+				FROM = { is_subject_of = ROOT }
+			}
+			end_puppet = FROM
+		}
+		
+		# Effects of choosing war
+		add_political_power = -50
+		add_war_support = 0.05
+		add_stability = -0.03
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+		}
+
+	}
+	
+	option = {
+		name = GOT_Realm_Admin_Country.6.b
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 1.5
+				has_stability > 0.6
+			}
+			modifier = {
+				factor = 0.5
+				has_war_support > 0.7
+			}
+			modifier = {
+				factor = 0
+				is_faction_leader = no
+				is_in_faction_with = FROM
+			}
+		}
+
+		# Effects of letting it slide
+		add_political_power = -25
+		add_stability = -0.05
+		add_war_support = -0.05
+
+	}
+}
+
+#[FROM.GetName] Bends the Knee
+news_event = {
+	id = GOT_Realm_Admin_News.2
+	title = GOT_Realm_Admin_News.2.t
+	desc = GOT_Realm_Admin_News.2.d
+	picture = GFX_news_event_Generic_Accepts_Submission
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Realm_Admin_News.2.a
+	}
+}
+
+#[FROM.GetName] Stands Defiant
+news_event = {
+	id = GOT_Realm_Admin_News.3
+	title = GOT_Realm_Admin_News.3.t
+	desc = GOT_Realm_Admin_News.3.d
+	picture = GFX_news_event_Generic_Rejects_Submission
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Realm_Admin_News.3.a
+	}
+}
+
+#[FROM.GetName] Bends the Knee
+news_event = {
+	id = GOT_Realm_Admin_News.5
+	title = GOT_Realm_Admin_News.5.t
+	desc = GOT_Realm_Admin_News.5.d
+	picture = GFX_news_event_Generic_Accepts_Integration
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Realm_Admin_News.5.a
+	}
+}
+
+#[FROM.GetName] Stands Defiant
+news_event = {
+	id = GOT_Realm_Admin_News.6
+	title = GOT_Realm_Admin_News.6.t
+	desc = GOT_Realm_Admin_News.6.d
+	picture = GFX_news_event_Generic_Rejects_Integration
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Realm_Admin_News.6.a
+	}
+}

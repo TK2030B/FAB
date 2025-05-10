@@ -40,6 +40,207 @@ GEN_Empire_Manager = {
         }
     }
 	
+	BFN_invite_namesake_into_faction = {
+	
+		icon = generic_form_nation
+		
+		allowed = {
+		}
+	
+        visible = {
+			GOT_Has_Same_Leader = yes
+			NOT = { has_country_flag = show_integration_decisions }
+			NOT = { FROM = { is_in_faction_with = ROOT } }
+        }
+        target_trigger = {
+			GOT_Has_Same_Leader = yes
+        }
+        cost = 30
+		modifier = { }
+		days_remove = 3
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = GOT_Has_Same_Leader_tt
+				GOT_Has_Same_Leader = yes
+			}
+			NOT = { has_war_with = FROM }
+			FROM = {
+				surrender_progress < 0.01	
+			}
+			ROOT = {
+				surrender_progress < 0.01	
+			}
+			ROOT = { is_faction_leader = yes }
+            FROM = { is_in_faction = no }
+        }
+		complete_effect = {
+		}
+        remove_effect = {
+			FROM = {
+				country_event = generic.5
+			}
+        }
+    }
+	
+	BFN_demand_namesake_submit = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			GOT_Has_Same_Leader = yes
+			FROM = { is_subject = no }
+			FROM = { is_in_faction_with = ROOT }
+			NOT = { has_country_flag = show_integration_decisions }
+        }
+        target_trigger = {
+			GOT_Has_Same_Leader = yes
+        }
+        cost = 75
+		modifier = { 
+			civilian_factory_use = 3
+			stability_weekly = -0.02
+		}
+		days_remove = 7
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				FROM = { is_ai = no }
+			}
+			modifier = {
+				factor = 0
+				ROOT = { tag = CRO }
+				FROM = { tag = DRA }
+			}
+			modifier = {
+				factor = 0
+				ROOT = { tag = CRO }
+				FROM = { tag = STO }
+			}
+		}
+
+        available = {
+			num_of_civilian_factories_available_for_projects > 2
+			custom_trigger_tooltip = {
+				tooltip = GOT_Has_Same_Leader_tt
+				GOT_Has_Same_Leader = yes
+			}
+			FROM = { is_subject = no }
+			FROM = { is_in_faction_with = ROOT }
+			FROM = {
+				surrender_progress < 0.01	
+			}
+			ROOT = {
+				surrender_progress < 0.01	
+			}
+			OR = {
+				ROOT = { is_faction_leader = yes }
+				ROOT = {
+					strength_ratio = {
+						tag = FROM
+						ratio > 1.9
+					}
+				}
+				ROOT = {
+					ic_ratio = {
+						tag = FROM
+						ratio > 1.9
+					}
+				}
+				AND = {
+					FROM = {
+						has_country_flag = GOT_Bent_The_Knee_Flag
+					}
+					ROOT = {
+						has_country_flag = GOT_Claimed_Iron_Throne_Flag
+					}
+				}
+			}
+        }
+		complete_effect = {
+		}
+        remove_effect = {
+			FROM = {
+				country_event = GOT_Realm_Admin_Country.1
+			}
+        }
+    }
+	
+	BFN_demand_namesake_integrate = {
+	
+		icon = eng_trade_unions_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			GOT_Has_Same_Leader = yes
+			FROM = { is_subject_of = ROOT }
+			NOT = { has_country_flag = show_integration_decisions }
+        }
+        target_trigger = {
+			GOT_Has_Same_Leader = yes
+        }
+        cost = 100
+		modifier = { 
+			civilian_factory_use = 5
+			stability_weekly = -0.05
+		}
+		days_remove = 30
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				FROM = { is_ai = no }
+			}
+		}
+
+        available = {
+			num_of_civilian_factories_available_for_projects > 4
+			custom_trigger_tooltip = {
+				tooltip = GOT_Has_Same_Leader_tt
+				GOT_Has_Same_Leader = yes
+			}
+			FROM = { is_subject_of = ROOT }
+			FROM = { is_in_faction_with = ROOT }
+			FROM = {
+				surrender_progress < 0.01	
+			}
+			ROOT = {
+				surrender_progress < 0.01	
+			}
+			has_manpower > 999
+			has_equipment = {
+				infantry_equipment > 999
+			}
+        }
+		complete_effect = {
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+		}
+        remove_effect = {
+			FROM = {
+				country_event = GOT_Realm_Admin_Country.4
+			}
+        }
+    }
+	
 BFN_coring_states_targeted_decision = {
 	icon = GFX_decision_eng_trade_unions_support
     state_target = yes

@@ -3937,6 +3937,13 @@ country_event = {
 		
 		set_country_flag = GOT_Claimed_Iron_Throne_Flag
 		
+		every_state = { 
+			limit = { 
+				is_core_of = CRO
+			} 
+			add_claim_by = DRA
+		}
+		
 		#If Dragonstone is in a faction with the Crownlands, then he leaves
 		if = {
 			limit = {
@@ -5086,6 +5093,7 @@ country_event = {
 		has_country_flag = GOT_Melisandre_Seduces_Stannis
 		has_country_flag = GOT_Claimed_Iron_Throne_Flag
 		STO = { has_country_flag = GOT_Claimed_Iron_Throne_Flag }
+		NOT = { is_in_faction_with = STO }
     }
 
     fire_only_once = yes
@@ -7200,6 +7208,13 @@ country_event = {
 		
 		set_country_flag = GOT_Claimed_Iron_Throne_Flag
 		
+		every_state = { 
+			limit = { 
+				is_core_of = CRO
+			} 
+			add_claim_by = STO
+		}
+		
 		#If Dragonstone is in a faction with the Crownlands, then he leaves
 		if = {
 			limit = {
@@ -7405,6 +7420,7 @@ country_event = {
         } 
  
         add_political_power = 25 
+		add_threat = 3
  
         every_other_country = { 
             limit = { 
@@ -7534,7 +7550,7 @@ country_event = {
         add_political_power = 25         # She's gaining influence and establishing presence.
 		add_stability = -0.05            # A temporary hit to order as her arrival disrupts the local status quo.
 		add_war_support = 0.10           # Her military ambitions become clear, rallying support.
-		add_threat = 1
+		add_threat = 4
 		
 		add_field_marshal_role = {
 			character = TAR_Barristan_Selmy
@@ -7661,6 +7677,7 @@ country_event = {
 		add_stability = -0.05            # The grim sight of corpses and mystery undermines morale.
 		add_war_support = 0.05           # Holding Harrenhal is a symbolic win for the Northern cause.
 		army_experience = 5          # Gained from seizing and inspecting a major fortification.
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -7928,6 +7945,7 @@ country_event = {
         } 
  
         add_stability = -0.10 
+		add_threat = 3
  
         every_other_country = { 
             limit = { 
@@ -8126,6 +8144,7 @@ country_event = {
  
         add_war_support = 0.05 
         add_political_power = -25 
+		add_threat = 5
 		
 		AST = { 
             country_event = { 
@@ -8288,6 +8307,7 @@ country_event = {
         add_war_support = 0.05 
         add_political_power = 25 
         army_experience = 5 
+		add_threat = 10
  
         every_other_country = { 
             limit = { 
@@ -8343,6 +8363,7 @@ country_event = {
  
         add_stability = -0.05 
         add_war_support = -0.05 
+		add_threat = 2
 		
 		kill_country_leader = yes
 		
@@ -8468,6 +8489,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -8523,6 +8545,7 @@ country_event = {
         add_stability = -0.05 
         add_war_support = -0.05 
         add_political_power = -25 
+		add_threat = 1
 		
 		set_global_flag = GOT_Theon_Captured_Flag
  
@@ -8576,6 +8599,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -8690,6 +8714,7 @@ country_event = {
         add_stability = -0.05
         add_political_power = -25
         add_war_support = -0.05
+		add_threat = 4
 		
 		release = KAR
 		end_puppet = KAR
@@ -8918,6 +8943,7 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = 25 
+		add_threat = 3
 		
 		set_global_flag = GOT_Sansa_To_Marry_Tyrion_Flag
  
@@ -8971,6 +8997,7 @@ country_event = {
  
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -9021,6 +9048,7 @@ country_event = {
         } 
 
         add_political_power = 25 
+		add_threat = 3
  
         every_other_country = { 
             limit = { 
@@ -9071,6 +9099,7 @@ country_event = {
         } 
  
         add_political_power = 25 
+		add_threat = 3
  
         every_other_country = { 
             limit = { 
@@ -9139,6 +9168,7 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         add_political_power = 25 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -9210,6 +9240,7 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = 25 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -9320,6 +9351,7 @@ country_event = {
         }
  
         add_war_support = -0.05 
+		add_threat = 4
     } 
 	
 	option = { 
@@ -9431,6 +9463,7 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -9484,6 +9517,7 @@ country_event = {
  
         add_stability = -0.05 
         add_war_support = -0.05 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -9535,6 +9569,7 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -9585,6 +9620,7 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		add_threat = 3
  
         every_other_country = { 
             limit = { 
@@ -9636,6 +9672,8 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
+		add_threat = 4
 		
 			if = {
 				limit = {
@@ -9716,6 +9754,7 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -9947,6 +9986,7 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -10051,6 +10091,7 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		add_threat = 3
 		
 		add_state_core = 33
 		add_state_core = 91
@@ -10165,6 +10206,7 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         add_political_power = 25 
+		add_threat = 6
  
         every_other_country = { 
             limit = { 
@@ -10217,6 +10259,7 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -10270,6 +10313,7 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         add_political_power = 25 
+		add_threat = 5
  
         every_other_country = { 
             limit = { 
@@ -10327,6 +10371,7 @@ country_event = {
  
         add_stability = -0.05 
         add_war_support = 0.05 
+		add_threat = 4
 		
 		create_wargoal = {
 			type = annex_everything
@@ -10384,7 +10429,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country250 
  
     trigger = { 
-        tag = NOR 
+        tag = NWA 
 		date > 1938.11.15
         date < 1938.12.15
 		has_global_flag = GOT_Bran_Escapes_Flag
@@ -10454,6 +10499,7 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		add_threat = 1
 		
 		kill_country_leader = yes
 		
@@ -10550,6 +10596,7 @@ country_event = {
  
         add_stability = 0.05 
         army_experience = 5 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -10654,6 +10701,7 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -10762,6 +10810,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -10818,6 +10867,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 3
 		
 		set_global_flag = GOT_Purple_Wedding_Flag
 		
@@ -10914,6 +10964,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 1
 		
 		remove_advisor_role = {
 			character = "CRO_Tyrion_Lannister"
@@ -10972,6 +11023,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 1
 		
 		set_global_flag = GOT_Sansa_Escapes_Flag
  
@@ -11127,6 +11179,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -11179,6 +11232,7 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = 25 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -11231,6 +11285,7 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -11282,6 +11337,7 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		add_threat = 2
 		
 		create_wargoal = {
 			type = annex_everything
@@ -11344,6 +11400,7 @@ country_event = {
  
         add_stability = -0.05 
         add_war_support = 0.05 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -11449,6 +11506,7 @@ country_event = {
         add_war_support = 0.05 
         add_political_power = 25 
         army_experience = 5 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -11500,6 +11558,7 @@ country_event = {
  
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -11602,6 +11661,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -11657,6 +11717,8 @@ country_event = {
             factor = 10 
         } 
 		
+		add_threat = 1
+		
 		country_event = {
 			id = GOT_Location_Country.1
 			hours = 6
@@ -11705,6 +11767,7 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = 25 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -11756,6 +11819,7 @@ country_event = {
  
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -11808,7 +11872,8 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = -0.05 
-		set_capital = 89
+		set_capital = { state = 89 }
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -11861,6 +11926,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 3
  
         every_other_country = { 
             limit = { 
@@ -11913,6 +11979,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 3
  
         every_other_country = { 
             limit = { 
@@ -11965,6 +12032,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -12018,6 +12086,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 2
  
         BRA = { 
             news_event = { 
@@ -12084,6 +12153,7 @@ country_event = {
         add_stability = -0.05 
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 1
  
         every_other_country = { 
             limit = { 
@@ -12136,6 +12206,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -12192,6 +12263,7 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		add_threat = 3
 		
 		kill_country_leader = yes
 		
@@ -12280,6 +12352,7 @@ country_event = {
  
         add_war_support = 0.05 
 		set_global_flag = GOT_Oberyn_Tyrions_Champion
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -12348,6 +12421,7 @@ country_event = {
         } 
  
         army_experience = 5 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -12404,6 +12478,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -12504,6 +12579,8 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
+		add_threat = 4
  
         #Oberyn Dies 100% for historical AI
 		if = {
@@ -12618,6 +12695,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 2
 		
 		set_global_flag = GOT_Tyrion_Death_Sentence
  
@@ -12723,6 +12801,7 @@ country_event = {
  
         add_stability = 0.05 
         add_political_power = -25 
+		add_threat = 2
 		
 		TAR_Jorah_Mormont = {
 			retire = yes
@@ -12779,6 +12858,7 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -12830,6 +12910,7 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		add_threat = 4
 		
 		18 = {
 			OWNER = {
@@ -13015,6 +13096,7 @@ country_event = {
         add_stability = 0.05 
         add_war_support = 0.05 
         army_experience = 5 
+		add_threat = 1
 		
 		WIL = { 
 			country_event = {
@@ -13073,6 +13155,7 @@ country_event = {
         } 
  
         add_war_support = 0.05 
+		add_threat = 2
  
         every_other_country = { 
             limit = { 
@@ -13125,6 +13208,7 @@ country_event = {
  
         add_stability = -0.05 
         add_political_power = -25 
+		add_threat = 4
  
         every_other_country = { 
             limit = { 
@@ -13396,6 +13480,7 @@ country_event = {
   
         add_stability = -0.20  
 		add_political_power = -100
+		add_threat = 5
 		
 		if = { 
             limit = { 
