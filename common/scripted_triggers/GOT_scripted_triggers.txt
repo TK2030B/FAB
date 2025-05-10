@@ -632,6 +632,39 @@ GOT_Targaryen_Ruler = {
 	}
 }
 
+GOT_Stark_Ruler = {
+	OR = {
+		has_country_leader = {
+			name = "Sansa Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Ned Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Robb Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Bran Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Rickon Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Arya Stark"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Jon Snow"
+			ruling_only = yes
+		}
+	}
+}
+
 GOT_Has_Same_Leader = {
 	OR = {
 		AND = {
@@ -825,4 +858,8 @@ GOT_Can_Claim_STO = {
 
 GOT_Can_Claim_WES = {
 	GOT_Lannister_Ruler = yes
+}
+
+GOT_Can_Claim_NOR = {
+	GOT_Stark_Ruler = yes
 }

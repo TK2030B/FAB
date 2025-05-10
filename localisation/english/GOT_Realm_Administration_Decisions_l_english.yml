@@ -31,6 +31,9 @@ BFN_Claim_STO.desc: "The Stormlands, where our ancestors once ruled, must be rec
 BFN_Claim_CRO: "Claim the Crownlands"
 BFN_Claim_CRO.desc: "The Crownlands, the heart of Westeros, have been under the control of the crown for centuries. Now, it is time to assert our right to these lands and reclaim the seat of power for ourselves."
 
+# Claims North
+BFN_Claim_NOR.normal: "Claim the North"
+BFN_Claim_NOR.desc: "The North has long been a land of strength and resilience, untouched by the politics of the southern kingdoms. It is time to claim this vast, wild territory and bring it under our rule, solidifying our dominance in Westeros."
 
 BFN_invite_namesake_into_faction: "Invite [FROM.GetName] to Join Our Cause"
 BFN_invite_namesake_into_faction_desc: "As both our realms are led by [ROOT.GetLeader], it is only natural that we stand united against our enemies. Let us invite [FROM.GetName] to join our faction and formalize our alliance."
