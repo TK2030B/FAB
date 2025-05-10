@@ -352,7 +352,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				construction_speed_factor = -0.20 # 20% slower construction speed
+				production_speed_buildings_factor = -0.20 # 20% slower construction speed
 				global_building_slots_factor = -0.20
 				local_resources_factor = -0.20
 				stability_factor = 0.20 # +20% stability to represent strong internal cohesion
@@ -392,7 +392,7 @@ ideas = {
 				research_speed_factor = 0.05  # Deep philosophical practices could foster innovation
 				stability_factor = 0.05  # Strong cultural traditions often lead to internal stability
 				consumer_goods_factor = 0.05  # Focus on nature and spirituality reduces material output
-				division_attack_factor = 0.05  # Military philosophy might include strong spiritual practices
+				army_attack_factor = 0.05  # Military philosophy might include strong spiritual practices
 				war_support_factor = -0.10  # Mysticism and distance from the West may reduce war enthusiasm
 			}
 
