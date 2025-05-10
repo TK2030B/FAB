@@ -15,6 +15,23 @@ BFN_coring_states_targeted_decision_at_war:0 "Proclaim [FROM.GetName] a Loyal Pr
 BFN_coring_states_targeted_decision_remote:0 "Extend Dominion Over [FROM.GetName]"
 BFN_coring_states_targeted_decision_remote_at_war:0 "Extend Dominion Over [FROM.GetName] (At War)"
 
+# Claims Westerlands
+BFN_Claim_WES: "Claim the Westerlands"
+BFN_Claim_WES.desc: "The Westerlands, with its immense wealth and strategic importance, shall belong to us. It is time to lay claim to this vital region and bring it under our rule, ensuring prosperity and power for our people."
+
+# Claims Dragonstone
+BFN_Claim_DRA: "Claim Dragonstone"
+BFN_Claim_DRA.desc: "Dragonstone has long been a symbol of our house's strength. Now is the time to lay claim to this important island, solidifying our control over the Narrow Sea and our legacy in Westeros."
+
+# Claims Stormlands
+BFN_Claim_STO: "Claim the Stormlands"
+BFN_Claim_STO.desc: "The Stormlands, where our ancestors once ruled, must be reclaimed. Its rich history and formidable defenses make it a crucial piece of Westeros that must be brought back under our rule."
+
+# Claims Crownlands 
+BFN_Claim_CRO: "Claim the Crownlands"
+BFN_Claim_CRO.desc: "The Crownlands, the heart of Westeros, have been under the control of the crown for centuries. Now, it is time to assert our right to these lands and reclaim the seat of power for ourselves."
+
+
 BFN_invite_namesake_into_faction: "Invite [FROM.GetName] to Join Our Cause"
 BFN_invite_namesake_into_faction_desc: "As both our realms are led by [ROOT.GetLeader], it is only natural that we stand united against our enemies. Let us invite [FROM.GetName] to join our faction and formalize our alliance."
 GOT_Has_Same_Leader_tt: "§Y[ROOT.GetLeader]§! rules both our realm and theirs."

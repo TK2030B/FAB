@@ -2864,3 +2864,110 @@ GOT_Location_News.23.a: "A wild king rises from the snow."
 GOT_Location_News.24.t: "[WIL.GetLeader] Declared Queen-Beyond-the-Wall"
 GOT_Location_News.24.d: "In a moment both historic and perilous, [WIL.GetLeader] has taken the mantle of Queen-Beyond-the-Wall, uniting the scattered clans of the Free Folk under one fierce will. Her ascent defies not only the traditions of the South, but also those of her own people — yet the harsh lands of the North breed harsh leaders, and none question her right who cannot best her. The wind howls across the tundra, and under her rule, the Free Folk look southward with purpose. The Wall may no longer be enough."
 GOT_Location_News.24.a: "The wild marches under her banner."
+
+#Crownlands  
+GOT_Location_Country.31.t: "Our Claim to the Crownlands"  
+GOT_Location_Country.31.d: "[FROM.GetLeader], of [FROM.GetParty], has today proclaimed their rightful claim to the Crownlands. With ancestral ties and royal lineage as their foundation, they assert that these lands belong to them by birthright. Let it be known across Westeros that we do not forget the legacy of our house."  
+GOT_Location_Country.31.a: "The Crownlands are ours by right."
+
+GOT_Location_News.31.t: "[FROM.GetName] Lays Claim to the Crownlands"  
+GOT_Location_News.31.d: "In a bold move with deep historical implications, [FROM.GetLeader], ruling over [FROM.GetName] and leading House [FROM.GetParty], has laid claim to the Crownlands. This declaration is said to stem from dynastic legitimacy and ancestral right, and is already stirring tensions across Westeros. Many now wonder if this is merely a symbolic gesture—or a prelude to war."  
+GOT_Location_News.31.a: "A dangerous precedent has been set."
+
+# Westerlands
+GOT_Location_Country.32.t: "Our Claim to the Westerlands"
+GOT_Location_Country.32.d: "[FROM.GetLeader], of [FROM.GetParty], has declared their rightful claim to the Westerlands. Citing blood ties, feudal obligation, and ancestral dominion, they have declared these gold-rich lands as part of their house’s inheritance. The drums of ambition beat louder with each passing day."
+GOT_Location_Country.32.a: "The Westerlands shall return to us."
+
+GOT_Location_News.32.t: "[FROM.GetName] Lays Claim to the Westerlands"
+GOT_Location_News.32.d: "In a move that may shake the foundations of Westeros, [FROM.GetLeader] of [FROM.GetName], leading House [FROM.GetParty], has formally laid claim to the Westerlands. The declaration references ancient rights and familial ties to the region, but many suspect this is a prelude to armed conflict. The great houses now watch carefully—will gold or steel decide the matter?"
+GOT_Location_News.32.a: "The lions may yet roar."
+
+# The North
+GOT_Location_Country.33.t: "Our Claim to the North"
+GOT_Location_Country.33.d: "[FROM.GetLeader], of [FROM.GetParty], has declared their ancient and rightful claim to the North. Rooted in old blood and forged in ice and hardship, this claim speaks not only to history but to destiny. The howling winds carry our name, and soon, so shall the land."
+GOT_Location_Country.33.a: "The North remembers who its true rulers are."
+
+GOT_Location_News.33.t: "[FROM.GetName] Lays Claim to the North"
+GOT_Location_News.33.d: "In a powerful declaration invoking both legacy and tradition, [FROM.GetLeader] of [FROM.GetName], head of House [FROM.GetParty], has laid claim to the vast region of the North. Though their justification is steeped in ancestral right, the timing of the announcement has many whispering of war to come. Winter may not be the only threat on the horizon."
+GOT_Location_News.33.a: "A cold wind rises."
+
+# Stormlands
+GOT_Location_Country.34.t: "Our Claim to the Stormlands"
+GOT_Location_Country.34.d: "[FROM.GetLeader], of [FROM.GetParty], has proclaimed a rightful claim to the Stormlands. Citing blood ties to the storm kings of old and a legacy forged in thunder and war, they vow to restore their dominion over the region. Let the storm break—and sweep away all who stand in our path."
+GOT_Location_Country.34.a: "The Stormlands belong to us."
+
+GOT_Location_News.34.t: "[FROM.GetName] Lays Claim to the Stormlands"
+GOT_Location_News.34.d: "With thunderous resolve, [FROM.GetLeader] of [FROM.GetName], leading House [FROM.GetParty], has laid claim to the Stormlands. The declaration harkens back to ancient dynasties and the storm-forged rule of their ancestors. While some see this as an appeal to history, others fear the sound of drums in the distance—war may soon follow the storm."
+GOT_Location_News.34.a: "The realm braces for a tempest."
+
+# The Eyrie
+GOT_Location_Country.35.t: "Our Claim to the Eyrie"
+GOT_Location_Country.35.d: "[FROM.GetLeader], of [FROM.GetParty], has declared their rightful claim to the Eyrie and the Vale. Drawing upon the legacy of mountain kings and noble bloodlines, they assert that these soaring heights are theirs by ancestral right. Let the falcons fly once more beneath our banner."
+GOT_Location_Country.35.a: "The Vale is ours by right."
+
+GOT_Location_News.35.t: "[FROM.GetName] Lays Claim to the Eyrie"
+GOT_Location_News.35.d: "In a declaration that echoes through the mountains, [FROM.GetLeader] of [FROM.GetName], leading House [FROM.GetParty], has laid claim to the Eyrie and the Vale. With lineage traced to ancient rulers of the highlands, this move has stirred the winds in Westeros. Allies and enemies alike will be watching the heights
+
+# Dorne
+GOT_Location_Country.36.t: "Our Claim to Dorne"
+GOT_Location_Country.36.d: "[FROM.GetLeader], of [FROM.GetParty], has declared their rightful claim to Dorne. Rooted in the fiery blood of ancient royalty and bound by the memory of old allegiances, this proclamation asserts that the southern sands are theirs by right. The sun beats down, but we do not waver."
+GOT_Location_Country.36.a: "The sands remember our name."
+
+GOT_Location_News.36.t: "[FROM.GetName] Lays Claim to Dorne"
+GOT_Location_News.36.d: "In a declaration bound to stir the southern realms, [FROM.GetLeader] of [FROM.GetName], leading House [FROM.GetParty], has laid claim to Dorne. Invoking blood ties and ancient oaths, this move challenges the status quo of Westerosi rule. From Sunspear to the mountains, tensions rise once more."
+GOT_Location_News.36.a: "The heat in Dorne grows ever fiercer."
+
+# Reach
+GOT_Location_Country.37.t: "Our Claim to the Reach"
+GOT_Location_Country.37.d: "[FROM.GetLeader], of [FROM.GetParty], has declared their rightful claim to the Reach. With ancient roots sunk deep into the fertile heart of Westeros, they invoke the legacy of their forebears to justify their right to rule these prosperous lands. The fields shall bloom under their banner once more."
+GOT_Location_Country.37.a: "The Reach is ours by heritage and strength."
+
+GOT_Location_News.37.t: "[FROM.GetName] Lays Claim to the Reach"
+GOT_Location_News.37.d: "In a sweeping assertion of ancestral right, [FROM.GetLeader] of [FROM.GetName], speaking for House [FROM.GetParty], has laid claim to the Reach. Known for its wealth and vital position within Westeros, the Reach now finds itself the focus of growing ambition and revived dynastic memory. The balance of power shifts again."
+GOT_Location_News.37.a: "The green heart of the realm is contested."
+
+# Riverlands
+GOT_Location_Country.38.t: "Our Claim to the Riverlands"
+GOT_Location_Country.38.d: "[FROM.GetLeader], of [FROM.GetParty], has laid claim to the Riverlands, invoking their house's historical dominion over these fertile lands. With their bloodline intertwined with the ancient rivers of Westeros, they assert their right to rule, promising peace and prosperity to the region under their banner."
+GOT_Location_Country.38.a: "The Riverlands are ours to govern."
+
+GOT_Location_News.38.t: "[FROM.GetName] Lays Claim to the Riverlands"
+GOT_Location_News.38.d: "In a bold declaration that echoes the past, [FROM.GetLeader], leader of [FROM.GetName] and House [FROM.GetParty], has proclaimed their claim to the Riverlands. With ties to the very soil of the realm and a deep sense of heritage, their move is being met with both support and fear, as the potential for unrest grows in the heart of Westeros."
+GOT_Location_News.38.a: "The heart of the realm is in flux."
+
+# Dragonstone
+GOT_Location_Country.39.t: "Our Claim to Dragonstone"
+GOT_Location_Country.39.d: "[FROM.GetLeader], of [FROM.GetParty], has formally declared their claim to Dragonstone. With the island's ancient connection to House Targaryen, they assert their dominion over the ancestral seat of the dragonlords. The flames of heritage burn brightly in this bold claim, setting the stage for a potential resurgence of Targaryen might."
+GOT_Location_Country.39.a: "Dragonstone belongs to us by right."
+
+GOT_Location_News.39.t: "[FROM.GetName] Lays Claim to Dragonstone"
+GOT_Location_News.39.d: "In a moment that has reignited old flames, [FROM.GetLeader], ruling over [FROM.GetName] and House [FROM.GetParty], has claimed Dragonstone, the ancient seat of House Targaryen. This declaration, laden with the weight of history, raises questions about the future of Westeros and whether the Targaryen legacy is destined to return in full force."
+GOT_Location_News.39.a: "The dragon's shadow looms once more."
+
+# Iron Islands
+GOT_Location_Country.40.t: "Our Claim to the Iron Islands"
+GOT_Location_Country.40.d: "[FROM.GetLeader], of [FROM.GetParty], has staked a claim to the Iron Islands. With a legacy of ironborn traditions and the old gods watching over them, they lay their right to rule these harsh and unforgiving lands. This is no mere assertion—it is a challenge to all who question their sovereignty over the Iron Islands."
+GOT_Location_Country.40.a: "The Iron Islands are ours by law and custom."
+
+GOT_Location_News.40.t: "[FROM.GetName] Lays Claim to the Iron Islands"
+GOT_Location_News.40.d: "In a move that has sent ripples across the Iron Islands and beyond, [FROM.GetLeader], leader of [FROM.GetName] and House [FROM.GetParty], has claimed dominion over the Iron Islands. Their declaration harkens back to the old ways, invoking the ironborn's right to rule the harsh seas and windswept lands. This action is already stirring rumors of unrest and the possibility of open conflict."
+GOT_Location_News.40.a: "A new storm brews over the Iron Islands."
+
+# Night's Watch
+GOT_Location_Country.41.t: "Our Claim to the Night's Watch"
+GOT_Location_Country.41.d: "[FROM.GetLeader], of [FROM.GetParty], has declared the rightful claim to the Night's Watch. As the defenders of the realm, we assert that the lands beyond the Wall are part of our dominion. Our heritage as protectors of the realm demands this recognition, and we will not stand by while others seek to undermine our authority over the Watch."
+GOT_Location_Country.41.a: "The Night's Watch belongs to us."
+
+GOT_Location_News.41.t: "[FROM.GetName] Lays Claim to the Night's Watch"
+GOT_Location_News.41.d: "In a striking declaration, [FROM.GetLeader], leader of [FROM.GetName] and House [FROM.GetParty], has asserted their claim to the Night's Watch. Citing the need to protect the realm from the dangers beyond the Wall, this bold move has already sparked debate across the Seven Kingdoms. Whether this is a political maneuver or a precursor to military action remains uncertain."
+GOT_Location_News.41.a: "Tensions rise over the future of the Night's Watch."
+
+# Wildlings Land
+GOT_Location_Country.42.t: "Our Claim to the Wildlings' Land"
+GOT_Location_Country.42.d: "[FROM.GetLeader], of [FROM.GetParty], has boldly declared their claim to the lands of the Wildlings. With the Wall standing between us and these lands, we now assert our right to these territories, which have long been home to those who defy the realm. It is time to bring them under our rule and ensure they no longer threaten the peace of Westeros."
+GOT_Location_Country.42.a: "The Wildlings' Land is ours."
+
+GOT_Location_News.42.t: "[FROM.GetName] Lays Claim to the Wildlings' Land"
+GOT_Location_News.42.d: "In a daring and controversial move, [FROM.GetLeader], ruling over [FROM.GetName] and House [FROM.GetParty], has laid claim to the lands of the Wildlings beyond the Wall. This declaration comes at a time of increasing tensions, with many questioning whether this is an attempt to consolidate power or if there are larger ambitions at play. The fate of the Wildlings remains uncertain, and the Seven Kingdoms wait for what will come next."
+GOT_Location_News.42.a: "A bold claim with uncertain consequences."

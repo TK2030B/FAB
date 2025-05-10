@@ -3937,12 +3937,12 @@ country_event = {
 		
 		set_country_flag = GOT_Claimed_Iron_Throne_Flag
 		
-		every_state = { 
-			limit = { 
-				is_core_of = CRO
-			} 
-			add_claim_by = DRA
-		}
+		#every_state = { 
+		#	limit = { 
+		#		is_core_of = CRO
+		#	} 
+		#	add_claim_by = DRA
+		#}
 		
 		#If Dragonstone is in a faction with the Crownlands, then he leaves
 		if = {
@@ -7208,12 +7208,12 @@ country_event = {
 		
 		set_country_flag = GOT_Claimed_Iron_Throne_Flag
 		
-		every_state = { 
-			limit = { 
-				is_core_of = CRO
-			} 
-			add_claim_by = STO
-		}
+		#every_state = { 
+		#	limit = { 
+		#		is_core_of = CRO
+		#	} 
+		#	add_claim_by = STO
+		#}
 		
 		#If Dragonstone is in a faction with the Crownlands, then he leaves
 		if = {

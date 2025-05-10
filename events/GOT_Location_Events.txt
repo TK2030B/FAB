@@ -748,6 +748,378 @@ country_event = {
 	}
 }
 
+#Claims Crownlands
+country_event = {
+	id = GOT_Location_Country.31
+	title = GOT_Location_Country.31.t
+	desc = GOT_Location_Country.31.d
+	picture = GFX_report_event_Red_Keep
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.31.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = CRO
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.31
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Westerlands
+country_event = {
+	id = GOT_Location_Country.32
+	title = GOT_Location_Country.32.t
+	desc = GOT_Location_Country.32.d
+	picture = GFX_report_event_Casterly_Rock
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.32.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = WES
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.32
+			hours = 6
+		}
+
+	}
+}
+
+#Claims North
+country_event = {
+	id = GOT_Location_Country.33
+	title = GOT_Location_Country.33.t
+	desc = GOT_Location_Country.33.d
+	picture = GFX_report_event_Winterfell
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.33.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = NOR
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.33
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Stormlands
+country_event = {
+	id = GOT_Location_Country.34
+	title = GOT_Location_Country.34.t
+	desc = GOT_Location_Country.34.d
+	picture = GFX_report_event_Storms_End
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.34.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = STO
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.34
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Eyrie
+country_event = {
+	id = GOT_Location_Country.35
+	title = GOT_Location_Country.35.t
+	desc = GOT_Location_Country.35.d
+	picture = GFX_report_event_Eyrie
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.35.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = VAL
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.35
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Dorne
+country_event = {
+	id = GOT_Location_Country.36
+	title = GOT_Location_Country.36.t
+	desc = GOT_Location_Country.36.d
+	picture = GFX_report_event_Sunspear
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.36.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = DOR
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.36
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Reach
+country_event = {
+	id = GOT_Location_Country.37
+	title = GOT_Location_Country.37.t
+	desc = GOT_Location_Country.37.d
+	picture = GFX_report_event_Highgarden
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.37.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = REA
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.37
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Riverrun
+country_event = {
+	id = GOT_Location_Country.38
+	title = GOT_Location_Country.38.t
+	desc = GOT_Location_Country.38.d
+	picture = GFX_report_event_Riverrun
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.38.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = RIV
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.38
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Dragonstone
+country_event = {
+	id = GOT_Location_Country.39
+	title = GOT_Location_Country.39.t
+	desc = GOT_Location_Country.39.d
+	picture = GFX_report_event_Dragonstone
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.39.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = DRA
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.39
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Iron Islands
+country_event = {
+	id = GOT_Location_Country.40
+	title = GOT_Location_Country.40.t
+	desc = GOT_Location_Country.40.d
+	picture = GFX_report_event_Pyke
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.40.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = IRO
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.40
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Night's Watch
+country_event = {
+	id = GOT_Location_Country.41
+	title = GOT_Location_Country.41.t
+	desc = GOT_Location_Country.41.d
+	picture = GFX_report_event_Castle_Black
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.41.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = NWA
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.41
+			hours = 6
+		}
+
+	}
+}
+
+#Claims Wildligns Land
+country_event = {
+	id = GOT_Location_Country.42
+	title = GOT_Location_Country.42.t
+	desc = GOT_Location_Country.42.d
+	picture = GFX_report_event_Hard_Home
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Location_Country.42.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		every_state = { 
+			limit = { 
+				is_core_of = WIL
+			} 
+			add_claim_by = ROOT
+		}
+		
+		news_event = {
+			id = GOT_Location_News.42
+			hours = 6
+		}
+
+	}
+}
+
 
 #Generic Crowned King
 news_event = {
@@ -1106,5 +1478,185 @@ news_event = {
 
 	option = {
 		name = GOT_Location_News.24.a
+	}
+}
+
+#Claims Crownlands
+news_event = {
+	id = GOT_Location_News.31
+	title = GOT_Location_News.31.t
+	desc = GOT_Location_News.31.d
+	picture = GFX_news_event_Red_Keep
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.31.a
+	}
+}
+
+#Claims Westerlands
+news_event = {
+	id = GOT_Location_News.32
+	title = GOT_Location_News.32.t
+	desc = GOT_Location_News.32.d
+	picture = GFX_news_event_Casterly_Rock
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.32.a
+	}
+}
+
+#Claims North
+news_event = {
+	id = GOT_Location_News.33
+	title = GOT_Location_News.33.t
+	desc = GOT_Location_News.33.d
+	picture = GFX_news_event_Winterfell
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.33.a
+	}
+}
+
+#Claims Stormlands
+news_event = {
+	id = GOT_Location_News.34
+	title = GOT_Location_News.34.t
+	desc = GOT_Location_News.34.d
+	picture = GFX_news_event_Storms_End
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.34.a
+	}
+}
+
+#Claims Eyrie
+news_event = {
+	id = GOT_Location_News.35
+	title = GOT_Location_News.35.t
+	desc = GOT_Location_News.35.d
+	picture = GFX_news_event_Eyrie
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.35.a
+	}
+}
+
+#Claims Dorne
+news_event = {
+	id = GOT_Location_News.36
+	title = GOT_Location_News.36.t
+	desc = GOT_Location_News.36.d
+	picture = GFX_news_event_Sunspear
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.36.a
+	}
+}
+
+#Claims Reach
+news_event = {
+	id = GOT_Location_News.37
+	title = GOT_Location_News.37.t
+	desc = GOT_Location_News.37.d
+	picture = GFX_news_event_Highgarden
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.37.a
+	}
+}
+
+#Claims Riverrun
+news_event = {
+	id = GOT_Location_News.38
+	title = GOT_Location_News.38.t
+	desc = GOT_Location_News.38.d
+	picture = GFX_news_event_Riverrun
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.38.a
+	}
+}
+
+#Claims Dragonstone
+news_event = {
+	id = GOT_Location_News.39
+	title = GOT_Location_News.39.t
+	desc = GOT_Location_News.39.d
+	picture = GFX_news_event_Dragonstone
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.39.a
+	}
+}
+
+#Claims Iron Islands
+news_event = {
+	id = GOT_Location_News.40
+	title = GOT_Location_News.40.t
+	desc = GOT_Location_News.40.d
+	picture = GFX_news_event_Pyke
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.40.a
+	}
+}
+
+#Claims Night's Watch
+news_event = {
+	id = GOT_Location_News.41
+	title = GOT_Location_News.41.t
+	desc = GOT_Location_News.41.d
+	picture = GFX_news_event_Castle_Black
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.41.a
+	}
+}
+
+#Claims Wildlings Land
+news_event = {
+	id = GOT_Location_News.42
+	title = GOT_Location_News.42.t
+	desc = GOT_Location_News.42.d
+	picture = GFX_news_event_Hard_Home
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = GOT_Location_News.42.a
 	}
 }

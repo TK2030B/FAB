@@ -615,6 +615,23 @@ GOT_Lannister_Baratheon_Ruler = {
 	}
 }
 
+GOT_Targaryen_Ruler = {
+	OR = {
+		has_country_leader = {
+			name = "Daenerys Targaryen"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Viserys Targaryen"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Targaryen Brothers"
+			ruling_only = yes
+		}
+	}
+}
+
 GOT_Has_Same_Leader = {
 	OR = {
 		AND = {
@@ -786,4 +803,26 @@ GOT_Has_Same_Leader = {
 			}
 		}
 	}
+}
+
+GOT_Can_Claim_CRO = {
+	OR = {
+		GOT_Baratheon_Ruler = yes
+		GOT_Targaryen_Ruler = yes
+	}
+}
+
+GOT_Can_Claim_DRA = {
+	OR = {
+		GOT_Baratheon_Ruler = yes
+		GOT_Targaryen_Ruler = yes
+	}
+}
+
+GOT_Can_Claim_STO = {
+	GOT_Baratheon_Ruler = yes
+}
+
+GOT_Can_Claim_WES = {
+	GOT_Lannister_Ruler = yes
 }

@@ -552,6 +552,157 @@ BFN_coring_states_targeted_decision_remote_at_war = {
 	}
 }
 
+BFN_Claim_CRO = {
+		icon = eng_trade_unions_support
+		
+		allowed = {
+			NOT = { tag = CRO }
+		}
+
+		available = {
+			date > 1936.1.1
+			date < 1949.1.1
+			has_war_with = CRO
+			country_exists = CRO
+			surrender_progress < 0.1
+			is_subject = no
+			GOT_Can_Claim_CRO = yes
+		}
+
+		visible = {
+			GOT_Can_Claim_CRO = yes
+			has_war_with = CRO
+			country_exists = CRO
+			NOT = { has_country_flag = show_integration_decisions }
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			country_event = { id = GOT_Location_Country.31 }
+		}
+		
+	}
+	
+	BFN_Claim_STO = {
+		icon = eng_trade_unions_support
+		
+		allowed = {
+			NOT = { tag = STO }
+		}
+
+		available = {
+			date > 1936.1.1
+			date < 1949.1.1
+			has_war_with = STO
+			country_exists = STO
+			surrender_progress < 0.1
+			is_subject = no
+			GOT_Can_Claim_STO = yes
+		}
+
+		visible = {
+			GOT_Can_Claim_STO = yes
+			has_war_with = STO
+			country_exists = STO
+			NOT = { has_country_flag = show_integration_decisions }
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			country_event = { id = GOT_Location_Country.34 }
+		}
+		
+	}
+	
+	BFN_Claim_DRA = {
+		icon = eng_trade_unions_support
+		
+		allowed = {
+			NOT = { tag = DRA }
+		}
+
+		available = {
+			date > 1936.1.1
+			date < 1949.1.1
+			has_war_with = DRA
+			country_exists = DRA
+			surrender_progress < 0.1
+			is_subject = no
+			GOT_Can_Claim_DRA = yes
+		}
+
+		visible = {
+			GOT_Can_Claim_DRA = yes
+			has_war_with = DRA
+			country_exists = DRA
+			NOT = { has_country_flag = show_integration_decisions }
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			country_event = { id = GOT_Location_Country.39 }
+		}
+		
+	}
+	
+	BFN_Claim_WES = {
+		icon = eng_trade_unions_support
+		
+		allowed = {
+			NOT = { tag = WES }
+		}
+
+		available = {
+			date > 1936.1.1
+			date < 1949.1.1
+			has_war_with = WES
+			country_exists = WES
+			surrender_progress < 0.1
+			is_subject = no
+			GOT_Can_Claim_WES = yes
+		}
+
+		visible = {
+			GOT_Can_Claim_WES = yes
+			has_war_with = WES
+			country_exists = WES
+			NOT = { has_country_flag = show_integration_decisions }
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		complete_effect = {
+			country_event = { id = GOT_Location_Country.32 }
+		}
+		
+	}
 
 }
 
