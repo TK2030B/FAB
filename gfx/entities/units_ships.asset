@@ -74,7 +74,7 @@ entity = {
 	
 	default_state = idle
 	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
+	state = { name = "walk" 		animation = "idle" }
 	state = { name = "attack"		animation = "attack"}
 	
 	scale = 3.5
