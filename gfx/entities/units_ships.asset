@@ -1,0 +1,221 @@
+entity = { 
+	name = "ship_hit_big_effect"
+	pdxmesh = "empty_mesh"
+	
+	default_state = idle
+	state = { name = "idle" state_time = 5 looping = no
+		event = { time = 0 particle = "ship_hit_effect_big_particle" keep_particle = yes }
+		event = { time = 0 sound = { soundeffect = ship_hit_big_effect }}
+	}
+	scale = 1.0
+}
+
+
+entity = { 
+	name = "ship_miss_big_effect"
+	pdxmesh = "empty_mesh"
+	
+	default_state = idle
+	state = { name = "idle" state_time = 5 looping = no
+		event = { time = 0 particle = "water_impact_particle" keep_particle = yes }
+		event = { time = 0 sound = { soundeffect = ship_miss_big_effect }}
+	}
+	scale = 1.0
+}
+
+entity = { 
+	name = "ship_hit_small_effect"
+	pdxmesh = "empty_mesh"
+	
+	default_state = idle
+	state = { name = "idle" state_time = 5 looping = no
+		event = { time = 0 particle = "ship_hit_effect_small_particle" keep_particle = yes }
+		event = { time = 0 sound = { soundeffect = ship_hit_small_effect }}
+	}
+	scale = 1.0
+}
+
+
+entity = { 
+	name = "ship_miss_small_effect"
+	pdxmesh = "empty_mesh"
+	
+	default_state = idle
+	state = { name = "idle" state_time = 5 looping = no
+		event = { time = 0 particle = "water_impact_small_particle" keep_particle = yes }
+		event = { time = 0 sound = { soundeffect = ship_miss_small_effect }}
+	}
+	scale = 1.0
+}
+
+
+entity = {
+	name = "ships_formation_template"
+	pdxmesh = "ships_formation_template"
+	
+	state = { name = "idle"	animation = "idle" }
+}
+
+entity = {
+	name = "ships_combat_template"
+	pdxmesh = "ships_combat_template"
+	
+	state = { name = "idle"	animation = "idle" }
+}
+
+
+####
+# BATTLECRUISER
+####
+
+entity = { 
+	name = "battle_cruiser_entity"
+	pdxmesh = "generic_submarine_mesh" 
+	
+	default_state = idle
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack"}
+	
+	scale = 3.5
+}
+
+
+
+####
+# BATTLESHIP
+####
+
+entity = { 
+	name = "battleship_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# CARRIER
+####
+
+entity = { 
+	name = "carrier_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# ICE CARRIER
+####
+
+entity = { 
+	name = "ship_hull_ice_carrier_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# SUPER CARRIER
+####
+
+entity = { 
+	name = "ship_hull_super_carrier_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# DESTROYER
+####
+
+entity = { 
+	name = "destroyer_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# FREIGHTER
+####
+
+entity = { 
+	name = "transport_entity" 
+	clone = "battle_cruiser_entity"
+}
+
+####
+# FREIGHTER on traderoutes
+####
+
+entity = { 
+	name = "westerngfx_traderoute_convoy" 
+	clone = "battle_cruiser_entity"
+}
+
+####
+# HEAVY CRUISER
+####
+
+entity = {
+	name = "heavy_cruiser_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# LIGHT CRUISER
+####
+
+entity = {
+	name = "light_cruiser_entity"
+	clone = "battle_cruiser_entity"
+}
+
+
+####
+# SUPER HEAVY BATTLESHIP
+####
+
+entity = {
+	name = "super_heavy_battleship_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# MODERN SUPER BATTLESHIP 
+####
+
+entity = { 
+	name = "ship_hull_modern_super_battleship_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# SUBMARINE 
+####
+
+entity = { 
+	name = "submarine_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# CRUISER SUBMARINE
+####
+
+entity = { 
+	name = "ship_hull_cruiser_submarine_entity"
+	clone = "battle_cruiser_entity"
+}
+
+
+####
+# NUCLEAR POWERED SUBMARINE
+####
+
+entity = { 
+	name = "ship_hull_nuclear_powered_submarine_entity"
+	clone = "battle_cruiser_entity"
+}
+
+####
+# FLEET SUBMARINE
+####
+
+entity = { 
+	name = "ship_hull_fleet_submarine_entity"
+	clone = "battle_cruiser_entity"
+}
+
