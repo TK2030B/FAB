@@ -764,7 +764,7 @@ GOT_Story_News.100.a: "A new Hand has arrived"
 GOT_Story_Country.101.t: "The Question of the Throne"
 GOT_Story_Country.101.d: "The realm is fractured, and the usurper who sits the Iron Throne—[CRO.GetLeader]—has no rightful claim. My blood is true. I am Robert’s heir, and the Seven Kingdoms should be mine by law. Yet, to rise is to plunge Westeros into war. Melisandre urges me onward, whispering of destiny in her flames, while old Cressen warns of ruin. The time has come to choose: will Dragonstone rise to claim its birthright, or kneel to a bastard and preserve a fragile peace?"
 GOT_Story_Country.101.a: "I will claim what is mine by right."
-GOT_Story_Country.101.b: "Let [CRO.GetLeader] keep the throne—for now."
+GOT_Story_Country.101.b: "It is not yet our time. We will bend the knee—for now."
 GOT_Story_Country.101.c: "[STO.GetLeader] is beloved. I will bend the knee—for the realm."
 
 
