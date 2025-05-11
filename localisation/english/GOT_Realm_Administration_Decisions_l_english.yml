@@ -45,6 +45,13 @@ BFN_demand_namesake_submit_desc: "Though we share the same ruler, true unity dem
 BFN_demand_namesake_integrate: "Integrate [FROM.GetName] into Our Realm"
 BFN_demand_namesake_integrate_desc: "Our shared ruler already binds us together, and [FROM.GetName] exists only through our protection. It is time to bring their lands fully into our domain and unite our peoples under a single banner."
 
+BFN_demand_riverlands_submit: "Demand the Riverlands Submit to Our Rule"
+BFN_demand_riverlands_submit_desc: "The lords of the Riverlands have already hailed Robb Stark as King of the Trident. Their allegiance, once a matter of wartime necessity, must now be formalized into fealty. We shall remind them of their pledge—and demand that they recognize the North’s leadership in deed, not just in word."
+
+BFN_demand_riverlands_integrate: "Integrate the Riverlands into the North"
+BFN_demand_riverlands_integrate_desc: "The Riverlords swore fealty when they proclaimed Robb Stark King of the Trident. With our cause advancing and victory nearing, it is time to honor that pledge in full. The Riverlands will be brought into the North, united as one realm under a single crown."
+
+
 GOT_Realm_Admin_Country.1.t: "[ROOT.GetName] Demands Our Submission"
 GOT_Realm_Admin_Country.1.d: "Though we share the same ruler, [ROOT.GetName] claims superiority by right of strength or title and now demands our submission. They expect us to become their vassal, relinquishing our independence in favor of unity under their banner. To accept would preserve peace — but to refuse may be seen as a betrayal, one that [ROOT.GetName] could answer with force of arms. What shall we do?"
 GOT_Realm_Admin_Country.1.a: "We shall bend the knee to [ROOT.GetName]."

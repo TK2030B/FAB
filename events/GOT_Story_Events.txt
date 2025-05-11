@@ -3014,13 +3014,20 @@ country_event = {
 		name = GOT_Story_Country.47.a
 
 		ai_chance = {
-			factor = 90
+			factor = 60
 		}
 
 		add_stability = -0.05
 		add_threat = 10
 		
 		set_global_flag = GOT_King_In_The_North_Flag
+		
+		RIV = {
+			country_event = {
+				id = GOT_Diplomatic_Country.51
+				hours = 6
+			}
+		}
 
 		every_other_country = {
 			limit = {
@@ -3034,8 +3041,138 @@ country_event = {
 		
 	}
 	
+	# Option to bend the knee to Stannis if he's declared himself king
+    option = {
+        name = GOT_Story_Country.47.b
+		
+		ai_chance = {
+            factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        trigger = {
+			NOT = {
+				has_war_with = DRA
+			}
+			OR = {
+				DRA = {
+					has_country_flag = GOT_Claimed_Iron_Throne_Flag
+				}
+				CRO = {
+					has_country_leader = {
+						name = "Stannis Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+        }
+
+        add_stability = 0.10
+        add_political_power = 50
+
+        set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Stormlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = DRA }
+			}
+			leave_faction = yes
+			#Crownlands gets event asking them to join their faction
+			DRA = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+        # Inform the world that bent the knee to Stannis
+        news_event = {
+			id = GOT_Diplomatic_News.11
+			hours = 6
+        }
+    }
+	
+	# Option to bend the knee to Renly if he's declared himself king
+    option = {
+        name = GOT_Story_Country.47.c
+		
+		ai_chance = {
+            factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        trigger = {
+			NOT = {
+				has_war_with = STO
+			}
+			OR = {
+				STO = {
+					has_country_flag = GOT_Claimed_Iron_Throne_Flag
+				}
+				CRO = {
+					has_country_leader = {
+						name = "Renly Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+        }
+
+        add_stability = 0.10
+        add_political_power = 50
+
+        set_country_flag = GOT_Bent_The_Knee_Flag
+		
+		#If Dragonstone is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If Dragonstone is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = STO }
+			}
+			leave_faction = yes
+			#Stormlands gets event asking them to join their faction
+			STO = {
+				country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+        # Inform the world that bent the knee to Renly
+        news_event = {
+			id = GOT_Diplomatic_News.12
+			hours = 6
+        }
+    }
+	
 	option = {
-		name = GOT_Story_Country.47.b
+		name = GOT_Story_Country.47.e
 
 		ai_chance = {
 			factor = 10
@@ -5639,17 +5776,34 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country121
 
     trigger = {
-        tag = STO
+        tag = NOR
         date > 1937.5.20
-        date < 1937.6.20
+        date < 1938.5.20
+		has_war_with = CRO
+		is_in_faction_with = RIV
 		NOT = {
-			has_war_with = NOR
+			has_war_with = STO
 		}
-		country_exists = NOR
+		NOT = {
+			is_in_faction_with = STO
+		}
+		NOT = {
+			STO = {
+				is_in_faction_with = CRO
+			}
+		}
+		country_exists = STO
+		STO = {
+			has_country_leader = {
+				name = "Renly Baratheon"
+				ruling_only = yes
+			}
+		}
 		has_country_leader = {
-			name = "Renly Baratheon"
+			name = "Robb Stark"
 			ruling_only = yes
 		}
+		NOT = { has_country_flag = GOT_Bent_The_Knee_Flag }
     }
 
     fire_only_once = yes
@@ -5658,10 +5812,10 @@ country_event = {
         name = GOT_Story_Country.121.a
 
         ai_chance = {
-            factor = 10
+            factor = 65
         }
 
-        add_stability = 0.05
+        add_stability = -0.05
 		add_political_power = 25
 
         every_other_country = {
@@ -5673,6 +5827,22 @@ country_event = {
                 hours = 6
             }
         }
+    }
+	
+	option = {
+        name = GOT_Story_Country.121.b
+
+        ai_chance = {
+            factor = 35
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+
+        add_stability = 0.05
+		add_political_power = -25
+
     }
 }
 # Catelyn Stark's Alliance with Renly

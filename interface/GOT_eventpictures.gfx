@@ -2736,6 +2736,16 @@ spriteTypes = {
 			name = "GFX_news_event_Generic_Rejects_Submission" 
 			texturefile = "gfx/event_pictures/News/news_event_Generic_Rejects_Submission.dds" 
 		} 
+		
+		spriteType = { 
+			name = "GFX_report_event_king_of_the_trident" 
+			texturefile = "gfx/event_pictures/Country/report_event_king_of_the_trident.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_king_of_the_trident" 
+			texturefile = "gfx/event_pictures/News/news_event_king_of_the_trident.dds" 
+		} 
 	 
 
 

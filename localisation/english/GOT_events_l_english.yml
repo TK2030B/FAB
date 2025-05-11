@@ -41,6 +41,8 @@ GOT_Oberyn_Tyrions_Champion:0 "Oberyn Tyrion's Champion"
 GOT_Tyrion_On_His_Own:0 "Tyrion Doesn't Have a Champion"
 GOT_Lord_Karstark_Executed:0 "Lord Karstark Executed"
 GOT_Varys_Fled_Flag:0 "Varys Has Fled"
+GOT_Robb_Renly_Alliance_Flag:0 "Robb and Renly Have Allied Together"
+GOT_King_of_the_Trident_Flag:0 "Robb Proclaimed King of the Trident"
 
 Game_Event.1.t:0 "Welcome (1/5)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -644,7 +646,9 @@ GOT_Story_News.46.a: "The king's justice, or madness?"
 GOT_Story_Country.47.t: "Robb Stark Is Declared King in the North"
 GOT_Story_Country.47.d: "Ned Stark is dead, but the North remembers. In the great hall of Riverrun, the Northern and Riverland lords cast aside their fealty to the Iron Throne. Greatjon Umber speaks first, but others follow. One by one, they raise swords and goblets and hail Robb Stark as King in the North — the first in centuries."
 GOT_Story_Country.47.a: "The King in the North!"
-GOT_Story_Country.47.b: "Lord of Winterfell is enough."
+GOT_Story_Country.47.b: "Stannis is the rightful king."
+GOT_Story_Country.47.c: "Renly has the strength to win."
+GOT_Story_Country.47.e: "Lord of Winterfell is enough."
 
 #News Event
 GOT_Story_News.47.t: "A New King in the North!"
@@ -967,11 +971,12 @@ GOT_Story_News.120.t: "Renly Baratheon Killed by Shadow Assassin"
 GOT_Story_News.120.d: "Renly Baratheon, once a major contender for the Iron Throne, has been killed by a shadow assassin created by Melisandre, Stannis Baratheon's Red Priestess. This act significantly alters the balance of power in the War of the Five Kings."
 GOT_Story_News.120.a: "Renly Baratheon is dead.."
 
-# Catelyn Stark's Alliance with Renly
-GOT_Story_Country.121.t: "Catelyn Stark's Alliance with Renly"
-GOT_Story_Country.121.d: "Catelyn Stark seeks an alliance with Renly Baratheon, offering Robb Stark's support in exchange for Renly's recognition of the North's independence. This political maneuver showcases Catelyn's strategic acumen and her commitment to her family's cause."
-GOT_Story_Country.121.a: "An alliance with Renly may strengthen our position, but we must be careful in these treacherous times."
-GOT_Story_Country.121.b: "The North deserves independence, and I will do whatever it takes to secure it."
+# Catelyn's Mission to Renly
+GOT_Story_Country.121.t: "A Risky Mission South"
+GOT_Story_Country.121.d: "Renly Baratheon has crowned himself King and commands a powerful host in the Reach. An alliance with him could bolster our position against the Lannisters. Some in my council suggest sending my mother, Lady Catelyn, to negotiate terms—offering our support in return for his recognition of Northern independence. Yet, the journey is perilous, and the politics of the south are treacherous. Should we take the risk?"
+GOT_Story_Country.121.a: "Yes. Send my mother to treat with Renly Baratheon."
+GOT_Story_Country.121.b: "No. The North will not beg favors from southern kings."
+
 
 GOT_Story_News.121.t: "Catelyn Stark Seeks Alliance with Renly Baratheon"
 GOT_Story_News.121.d: "Catelyn Stark has approached Renly Baratheon with a proposal of alliance, offering Robb Stark's support in exchange for Renly's recognition of the North's independence."
@@ -2502,6 +2507,49 @@ GOT_Diplomatic_Country.45.d:0 "Our request was met not with understanding, but w
 GOT_Diplomatic_Country.45.a:0 "They leave us no choice. We’ll take it by force."
 GOT_Diplomatic_Country.45.b:0 "We’ll let it slide — for now."
 
+# Stark Offers Alliance
+GOT_Diplomatic_Country.46.t: "An Offer from the North"
+GOT_Diplomatic_Country.46.d: "Catelyn Stark has arrived in our camp, bearing an offer from her son, Robb Stark. He proposes an alliance between the North and the Stormlands—he will recognize me as king, if I in turn recognize Northern independence. Such a pact would strengthen our position in the coming war, but to acknowledge the North's secession would set a precedent that may weaken the realm's unity."
+GOT_Diplomatic_Country.46.a: "Let us stand together—an alliance it shall be."
+GOT_Diplomatic_Country.46.b: "I cannot divide the realm further. The answer is no."
+
+# Renly Accepts Stark Alliance
+GOT_Diplomatic_Country.47.t: "Renly Accepts Our Offer"
+GOT_Diplomatic_Country.47.d: "Renly Baratheon has agreed to our proposal. In accepting our alliance, he recognizes the North's independence and commits to a shared cause against our common enemies. Though he may seek the Iron Throne, for now our interests align—and with this pact, our strength multiplies."
+GOT_Diplomatic_Country.47.a: "Let us hope this alliance holds."
+
+# Renly Rejects Stark Alliance
+GOT_Diplomatic_Country.48.t: "Renly Rejects Our Offer"
+GOT_Diplomatic_Country.48.d: "Our envoys have returned with ill news—Renly Baratheon has refused our offer of alliance. Despite our willingness to support his claim, he does not recognize the North's right to independence. His ambitions outweigh diplomacy, and we must now consider him a potential foe rather than a friend."
+GOT_Diplomatic_Country.48.a: "Then we shall stand alone."
+
+# Time to Join Renly's Campaign
+GOT_Diplomatic_Country.49.t: "Renly Marches on King's Landing"
+GOT_Diplomatic_Country.49.d: "Renly Baratheon has at last begun his campaign toward King's Landing, declaring open war against the Lannisters and all who would deny him the Iron Throne. The time has come to decide: do we ride south in support of our ally and strike a blow against the common enemy, or do we remain focused on the North’s cause alone?"
+GOT_Diplomatic_Country.49.a: "We ride with Renly—Lannister blood will spill."
+GOT_Diplomatic_Country.49.b: "Our war is in the North. Let the South burn without us."
+
+# Robb Refuses to Honor Pact
+GOT_Diplomatic_Country.50.t: "Robb Stark Betrays the Pact"
+GOT_Diplomatic_Country.50.d: "Robb Stark has refused to honor the alliance he forged with us. As our banners march toward King's Landing, he chooses to remain in the North, abandoning the cause we once agreed to. This betrayal cannot be ignored. The question now is whether to strike back at this treachery—or focus on the Lannisters, and deal with the North later."
+GOT_Diplomatic_Country.50.a: "The North will answer for this insult. We march on Winterfell."
+GOT_Diplomatic_Country.50.b: "We cannot afford another enemy. King's Landing remains our target."
+
+# The Riverlands Respond to Robb's Coronation
+GOT_Diplomatic_Country.51.t: "Robb Stark Crowned King in the North"
+GOT_Diplomatic_Country.51.d: "Robb Stark has been declared King in the North by his bannermen, and now stands as more than just a military commander. As lords of the Riverlands, we must decide our place in this new order. Shall we pledge our loyalty and name him King of the Trident, binding our fates together beyond mere alliance? Or do we remain allies—strong and united, but sovereign?"
+GOT_Diplomatic_Country.51.a: "Robb shall be King of the Trident as well."
+GOT_Diplomatic_Country.51.b: "We will fight beside him, but we remain our own."
+
+GOT_Diplomatic_Country.52.t: "King of the Trident"
+GOT_Diplomatic_Country.52.d: "The lords of the Riverlands have pledged more than just swords. They have crowned me not only King in the North, but King of the Trident as well. The old ties of blood and shared suffering bind our peoples, and now our banners fly as one. Though we remain distinct realms for now, the Riverlands shall be fully brought into the Northern kingdom after our victory—by law, not just alliance."
+GOT_Diplomatic_Country.52.a: "The North and Trident rise united."
+
+GOT_Diplomatic_Country.53.t: "Allies Still, But Apart"
+GOT_Diplomatic_Country.53.d: "Though the Riverlords have chosen not to crown me King of the Trident, they remain our steadfast allies. Their loyalty to our cause is clear, even if their sovereignty remains intact. We will ride together into battle, brothers in arms if not in crown. Let us honor their choice—and ensure our enemies regret challenging this alliance."
+GOT_Diplomatic_Country.53.a: "Let the River run with Lannister blood."
+
+
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -2604,6 +2652,21 @@ GOT_Diplomatic_News.27.a:0 "A chapter ends; another begins."
 GOT_Diplomatic_News.28.t:0 "House Targaryen Refuses to Leave Illyrio’s Mansion"
 GOT_Diplomatic_News.28.d:0 "Despite Pentos' formal request, House Targaryen has refused to vacate the estate granted to them in exile by Illyrio Mopatis. Though they now command lands of their own, the Targaryens have chosen to remain in the mansion — a move seen by many as high-handed and provocative. Whispers swirl in the Free Cities; will Pentos tolerate this insult to its sovereignty, or will it take action to reclaim what is rightfully theirs?"
 GOT_Diplomatic_News.28.a:0 "The dragon grows bold."
+
+# Robb Honors Pact With Renly
+GOT_Diplomatic_News.29.t: "Robb Stark Marches South in Support of Renly"
+GOT_Diplomatic_News.29.d: "In a significant shift in the War of the Five Kings, Robb Stark has honored his alliance with Renly Baratheon and committed Northern forces to his cause. As Renly's banners move toward the Crownlands, the direwolf marches beside the stag. This coordinated action signals a formidable threat to House Lannister’s grip on the capital."
+GOT_Diplomatic_News.29.a: "The pact is honored. War escalates."
+
+# Robb Breaks Pact With Renly
+GOT_Diplomatic_News.30.t: "Robb Stark Refuses to March with Renly"
+GOT_Diplomatic_News.30.d: "Despite earlier promises, Robb Stark has chosen not to honor his alliance with Renly Baratheon. The North will not join the southern campaign, leaving Renly to face the Lannisters alone. This decision may reshape alliances and power dynamics across Westeros, raising questions about Stark intentions—and their reliability as allies."
+GOT_Diplomatic_News.30.a: "The pact is broken. Renly stands alone."
+
+GOT_Diplomatic_News.31.t: "Robb Stark Proclaimed King of the Trident"
+GOT_Diplomatic_News.31.d: "In a dramatic turn of allegiance, the lords of the Riverlands have proclaimed Robb Stark not only King in the North, but King of the Trident as well. The union of the North and Riverlands under a single crown signals a bold new political reality in Westeros. While some see this as a rightful continuation of Stark leadership and Riverlander defiance, others view it as a dangerous consolidation of power that may escalate the already raging war. Whatever the case, the map of Westeros has just changed."
+GOT_Diplomatic_News.31.a: "The North and Riverlands ride as one."
+
 
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"
