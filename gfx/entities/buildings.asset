@@ -323,7 +323,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	scale = 0.4
+	scale = 0.6
 
 }
 
@@ -334,7 +334,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 
-	scale = 0.4
+	scale = 0.6
 
 }
 
@@ -345,7 +345,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 	
-	scale = 0.4
+	scale = 0.6
 }
 
 entity = {
@@ -355,7 +355,7 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle" }
 	
-	scale = 0.4
+	scale = 0.6
 }
 
 entity = {
