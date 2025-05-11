@@ -283,6 +283,21 @@ GEN_Empire_Manager = {
 			NOR = {
 				surrender_progress < 0.01	
 			}
+			OR = {
+				ROOT = { is_faction_leader = yes }
+				ROOT = {
+					strength_ratio = {
+						tag = FROM
+						ratio > 1.9
+					}
+				}
+				ROOT = {
+					ic_ratio = {
+						tag = FROM
+						ratio > 1.9
+					}
+				}
+			}
 			has_global_flag = GOT_King_of_the_Trident_Flag
 			NOT = { has_war_with = CRO }
 			NOT = { has_war_with = WES }
