@@ -83,18 +83,18 @@ GOT_Realm_Admin_Country.6.b: "Let them cling to their illusion of sovereignty...
 
 
 
-GOT_Realm_Admin.2.t: "[FROM.GetName] Bends the Knee"
-GOT_Realm_Admin.2.d: "In a striking display of loyalty — or perhaps necessity — [FROM.GetName] has formally bent the knee to their sovereign overlord. Though both realms were bound by a shared ruler, this act solidifies the hierarchy between them, marking the end of [FROM.GetAdjective] independence. The move has sparked both admiration and unease across the continent, as onlookers speculate what this consolidation of power might mean for the balance of realms."
-GOT_Realm_Admin.2.a: "One banner, one will."
+GOT_Realm_Admin_News.2.t: "[FROM.GetName] Bends the Knee"
+GOT_Realm_Admin_News.2.d: "In a striking display of loyalty — or perhaps necessity — [FROM.GetName] has formally bent the knee to their sovereign overlord. Though both realms were bound by a shared ruler, this act solidifies the hierarchy between them, marking the end of [FROM.GetAdjective] independence. The move has sparked both admiration and unease across the continent, as onlookers speculate what this consolidation of power might mean for the balance of realms."
+GOT_Realm_Admin_News.2.a: "One banner, one will."
 
-GOT_Realm_Admin.3.t: "[FROM.GetName] Stands Defiant"
-GOT_Realm_Admin.3.d: "Despite pressure to submit to a shared sovereign, [FROM.GetName] has rejected calls to bend the knee. Declaring their sovereignty inviolable, they have chosen independence over subjugation — a bold move in uncertain times. The refusal has raised tensions across the region, with many wondering whether this defiance will lead to open conflict or a fragile peace."
-GOT_Realm_Admin.3.a: "A storm may be brewing."
+GOT_Realm_Admin_News.3.t: "[FROM.GetName] Stands Defiant"
+GOT_Realm_Admin_News.3.d: "Despite pressure to submit to a shared sovereign, [FROM.GetName] has rejected calls to bend the knee. Declaring their sovereignty inviolable, they have chosen independence over subjugation — a bold move in uncertain times. The refusal has raised tensions across the region, with many wondering whether this defiance will lead to open conflict or a fragile peace."
+GOT_Realm_Admin_News.3.a: "A storm may be brewing."
 
-GOT_Realm_Admin.5.t: "[FROM.GetName] Merged into Their Overlord's Realm"
-GOT_Realm_Admin.5.d: "In a momentous turn, [FROM.GetName] has consented to full integration into the domain of their sovereign. What remained of their autonomy is now gone — their banners lowered, their armies absorbed, their lands administered directly. The move signals the final unification of two realms long held together by a common ruler, and observers across the continent now weigh the implications of this growing power."
-GOT_Realm_Admin.5.a: "A realm united."
+GOT_Realm_Admin_News.5.t: "[FROM.GetName] Merged into Their Overlord's Realm"
+GOT_Realm_Admin_News.5.d: "In a momentous turn, [FROM.GetName] has consented to full integration into the domain of their sovereign. What remained of their autonomy is now gone — their banners lowered, their armies absorbed, their lands administered directly. The move signals the final unification of two realms long held together by a common ruler, and observers across the continent now weigh the implications of this growing power."
+GOT_Realm_Admin_News.5.a: "A realm united."
 
-GOT_Realm_Admin.6.t: "[FROM.GetName] Rejects Integration"
-GOT_Realm_Admin.6.d: "Despite the authority of their overlord and their existing vassalage, [FROM.GetName] has refused to surrender what remains of their independence. The proposal for full integration was met with defiance, as the realm declared its intent to maintain separate rule under shared sovereignty. This bold decision leaves tensions high, and many wonder whether such resistance will lead to renewed conflict or a tenuous peace."
-GOT_Realm_Admin.6.a: "They defy their fate — for now."
+GOT_Realm_Admin_News.6.t: "[FROM.GetName] Rejects Integration"
+GOT_Realm_Admin_News.6.d: "Despite the authority of their overlord and their existing vassalage, [FROM.GetName] has refused to surrender what remains of their independence. The proposal for full integration was met with defiance, as the realm declared its intent to maintain separate rule under shared sovereignty. This bold decision leaves tensions high, and many wonder whether such resistance will lead to renewed conflict or a tenuous peace."
+GOT_Realm_Admin_News.6.a: "They defy their fate — for now."

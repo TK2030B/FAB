@@ -137,6 +137,40 @@ GOT_start_techs = {
 		GOT_bonus_techs_IRO = yes
 	}
 	
+	if = {
+		limit = {
+			OR = {
+				tag = DOR
+				tag = QAR
+				tag = REW
+				tag = AST
+				tag = YUN
+				tag = MER
+				tag = SOT
+				tag = MAN
+			}
+		}
+		GOT_unlock_camelry = yes
+	}
+	
+	if = {
+		limit = {
+			OR = {
+				tag = SUI
+				tag = YTI
+				tag = LEN
+				tag = ASS
+				tag = GHI
+				tag = SOT
+				tag = MRQ
+				tag = NAA
+				tag = ULT
+				tag = WIL
+			}
+		}
+		GOT_unlock_elephantry = yes
+	}
+	
 }
 
 GOT_start_techs_A = {
@@ -280,6 +314,7 @@ GOT_start_techs_B = {
 GOT_start_techs_C = {
 	set_technology = {
 		infantry_weapons = 1
+		gw_artillery = 1
 	}
 	if = {
 		limit = {
@@ -889,5 +924,17 @@ GOT_Sandbox_Mode_Chosen = {
 			exists = yes
 		}
 		country_event = { id = Game_Event.10 }
+	}
+}
+
+GOT_unlock_camelry = {
+	set_technology = {
+		GOT_camelry_units_tech = 1
+	}
+}
+
+GOT_unlock_elephantry = {
+	set_technology = {
+		GOT_elephantry_units_tech = 1
 	}
 }

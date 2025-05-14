@@ -1,0 +1,78 @@
+####################################################### ENGLAND ############################################################
+
+#ENG land cruiser
+entity = {
+	name = "ENG_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+####################################################### FRANCE ############################################################
+
+#FRA land cruiser
+entity = {
+	name = "FRA_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+####################################################### GERMANY ###########################################################
+
+#GER land cruiser 1
+entity = {
+	name = "GER_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+#GER land cruiser 2
+entity = {
+	name = "GER_land_cruiser_alt_0_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+######################################################### ITALY #############################################################
+
+#ITA land cruiser 2
+entity = {
+	name = "ITA_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+
+######################################################## SOVIET ############################################################
+
+#SOV land cruiser
+entity = {
+	name = "SOV_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+######################################################### USA ##############################################################
+
+#USA land cruiser
+entity = {
+	name = "USA_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+######################################################### AUSTRIA ##############################################################
+
+#AUS land cruiser 1
+entity = {
+	name = "AUS_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+######################################################### BELGIUM ##############################################################
+
+#BEL land cruiser 1
+entity = {
+	name = "BEL_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+######################################################### HUNGARY ##############################################################
+
+#HUN land cruiser 1
+entity = {
+	name = "HUN_land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}

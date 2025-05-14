@@ -692,7 +692,7 @@ characters={
 		name=CRO_no_hand_of_king
 		portraits={
 			civilian = {
-				small="gfx/interface/ideas/idea_CRO_no_hand_of_king.dds"
+				small="gfx/interface/ideas/Characters/idea_CRO_no_hand_of_king.dds"
 			}
 		}
 	}

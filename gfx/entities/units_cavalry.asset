@@ -70,6 +70,7 @@
 		scale = 0.65
 	}
 	
+	
 ############
 #
 #
@@ -160,20 +161,20 @@
 
 	entity = {
 		name = "camelry_entity"
-		pdxmesh = "infantry_cavalry_horse_frame_mesh"
-		
-		default_state = "idle"
-		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
-		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 }
-		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 }
-		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 }
-		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
-		
-		attach = { 	name = "infantry"			infantry = "infantry_rider_entity" }
-		attach = { 	name = "cavalry"			cavalry = "generic_camelry_rifle_combined_entity" }
-		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+		pdxmesh = "infantry_cavalry_camel_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "middle_eastern_gfx_infantry_rider_entity" 
+		}
 		
 		scale = 1.0
 	}
@@ -196,22 +197,7 @@
 	
 	entity = {
 		name = "camelry_2_entity"
-		pdxmesh = "infantry_cavalry_horse_frame_mesh"
-		
-		default_state = "idle"
-		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
-		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
-		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
-		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
-		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
-		
-		attach = { 	name = "infantry"			infantry = "generic_infantry_mg_rider_entity" }
-		attach = { 	name = "cavalry"			cavalry = "generic_camelry_mg_combined_entity" }
-		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
-		
-		scale = 1.0
+		clone = "camelry_entity"
 	}
 	
 	entity = {
@@ -374,28 +360,20 @@
 ############
 	entity = {
 		name = "asian_gfx_infantry_rider_entity"
-		pdxmesh = "asian_infantry_rifle_mesh"
-		
-		default_state = "idle"
-		state = { name = "attack"			animation = "attack" 			animation_blend_time = 0.3 animation_speed = 1.0 propagate_state = { rifle2 = "defend" } }
-		state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3 animation_speed = 1.0 }
-		state = { name = "support_attack"	animation = "support_attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
-		state = { name = "retreat"			animation = "cavalry_move" 			animation_blend_time = 0.3 animation_speed = 1.0 }
-		state = { name = "idle"				animation = "cavalry_idle"		animation_blend_time = 0.0 animation_speed = 1.0 }
-		state = { name = "move"				animation = "cavalry_move"		animation_blend_time = 0.0 animation_speed = 1.0
-			event = { sound = { soundeffect = "horse_walking" } }
+		pdxmesh = "Asian_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
 		}
-		state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
-		state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
-		state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
-		state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
-		state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
-		
-		attach = { 	name = "rifle1"	Right_Hand_node = "JAP_infantry_weapon_rifle_right_entity" }	
-		attach = { 	name = "rifle2"	Left_Hand_node = "JAP_infantry_weapon_rifle_left_entity" }
-		attach = { 	name = "rifle4"	Root_node_2 = "JAP_infantry_weapon_rifle_right_entity" }
-		
-		scale = 0.8			
+		scale = 0.45
 	}	
 	
 	entity = {
@@ -426,22 +404,20 @@
 	
 	entity = {
 		name = "asian_gfx_cavalry_entity"
-		pdxmesh = "infantry_cavalry_horse_frame_mesh"
-		
-		default_state = "idle"
-		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
-		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 }
-		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 }
-		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 }
-		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
-		
-		attach = { 	name = "infantry"			infantry = "asian_gfx_infantry_rider_entity" }
-		attach = { 	name = "cavalry"			cavalry = "asian_gfx_cavalry_rifle_combined_entity" }
-		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		
-		scale = 1.0
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "asian_gfx_infantry_rider_entity" 
+		}
 	}
 	
 	entity = {
@@ -462,22 +438,7 @@
 	
 	entity = {
 		name = "asian_gfx_cavalry_2_entity"
-		pdxmesh = "infantry_cavalry_horse_frame_mesh"
-		
-		default_state = "idle"
-		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
-		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
-		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
-		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
-		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
-		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
-		
-		attach = { 	name = "infantry"			infantry = "asian_gfx_infantry_mg_rider_entity" }
-		attach = { 	name = "cavalry"			cavalry = "asian_gfx_cavalry_mg_combined_entity" }
-		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
-		
-		scale = 1.0
+		clone = "asian_gfx_cavalry_entity"
 	}
 	
 	entity = {
@@ -497,6 +458,895 @@
 		
 		scale = 0.65
 	}
+	
+	entity = {
+		clone = "asian_gfx_cavalry_entity"
+		name = "asian_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "asian_gfx_cavalry_entity"
+		name = "asian_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "asian_gfx_cavalry_entity"
+		name = "asian_gfx_heavy_armor_entity"
+	}
+	
+	###African
+	entity = {
+		name = "african_gfx_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "african_gfx_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "african_gfx_infantry_rider_entity"
+		pdxmesh = "African_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "african_gfx_cavalry_entity"
+		name = "african_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "african_gfx_cavalry_entity"
+		name = "african_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "african_gfx_cavalry_entity"
+		name = "african_gfx_heavy_armor_entity"
+	}
+	
+	###Muslim
+	entity = {
+		name = "middle_eastern_gfx_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "middle_eastern_gfx_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "middle_eastern_gfx_infantry_rider_entity"
+		pdxmesh = "Muslim_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "middle_eastern_gfx_cavalry_entity"
+		name = "middle_eastern_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "middle_eastern_gfx_cavalry_entity"
+		name = "middle_eastern_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "middle_eastern_gfx_cavalry_entity"
+		name = "middle_eastern_gfx_heavy_armor_entity"
+	}
+	
+	###horde
+	entity = {
+		name = "DOT_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "DOT_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "DOT_infantry_rider_entity"
+		pdxmesh = "Horde_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "DOT_cavalry_entity"
+		name = "DOT_light_armor_entity"
+	}
+	entity = {
+		clone = "DOT_cavalry_entity"
+		name = "DOT_medium_armor_entity"
+	}
+	entity = {
+		clone = "DOT_cavalry_entity"
+		name = "DOT_heavy_armor_entity"
+	}
+	
+	###east_eu
+	entity = {
+		name = "eastern_european_gfx_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "eastern_european_gfx_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "eastern_european_gfx_infantry_rider_entity"
+		pdxmesh = "Eastern_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "eastern_european_gfx_cavalry_entity"
+		name = "eastern_european_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "eastern_european_gfx_cavalry_entity"
+		name = "eastern_european_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "eastern_european_gfx_cavalry_entity"
+		name = "eastern_european_gfx_heavy_armor_entity"
+	}
+	
+	###Mezo
+	entity = {
+		name = "mezoamerican_gfx_cavalry_entity"
+		pdxmesh = "Mezoamerican_warrior_mesh"
+		
+		default_state = "idle"
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
+		state = { name = "attack"			animation = "attack" 			animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
+		state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3  animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 		 		animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+			event = { trigger_once = yes sound = { soundeffect = "infantry_move_animation" } }
+		}
+		state = { name = "move"				animation = "move" 		 		animation_blend_time = 0.0 animation_speed = 1.0 chance = 1
+			event = { trigger_once = yes sound = { soundeffect = "infantry_move_animation" } }
+		}
+		state = { name = "retreat"			animation = "retreat" 	 		animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "death" animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 chance = 100 looping = no }
+		
+		state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 100 looping = no }
+		
+		
+		attach = { 
+			Right_hand_node = "mezoamerican_spear_entity" 
+		}
+		
+		
+		
+		
+		scale = 0.455			
+    }
+	entity = {
+		clone = "mezoamerican_gfx_cavalry_entity"
+		name = "mezoamerican_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "mezoamerican_gfx_cavalry_entity"
+		name = "mezoamerican_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "mezoamerican_gfx_cavalry_entity"
+		name = "mezoamerican_gfx_heavy_armor_entity"
+	}
+	
+	###Indian
+	entity = {
+		name = "indian_gfx_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "indian_gfx_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "indian_gfx_infantry_rider_entity"
+		pdxmesh = "Indian_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "indian_gfx_cavalry_entity"
+		name = "indian_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "indian_gfx_cavalry_entity"
+		name = "indian_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "indian_gfx_cavalry_entity"
+		name = "indian_gfx_heavy_armor_entity"
+	}
+	
+	entity = {
+		name = "inca_gfx_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "inca_gfx_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "inca_gfx_infantry_rider_entity"
+		pdxmesh = "Inca_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "inca_gfx_cavalry_entity"
+		name = "inca_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "inca_gfx_cavalry_entity"
+		name = "inca_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "inca_gfx_cavalry_entity"
+		name = "inca_gfx_heavy_armor_entity"
+	}
+	
+	###sibir
+	entity = {
+		name = "sibir_gfx_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "sibir_gfx_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "sibir_gfx_infantry_rider_entity"
+		pdxmesh = "Sibir_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "sibir_gfx_cavalry_entity"
+		name = "sibir_gfx_light_armor_entity"
+	}
+	entity = {
+		clone = "sibir_gfx_cavalry_entity"
+		name = "sibir_gfx_medium_armor_entity"
+	}
+	entity = {
+		clone = "sibir_gfx_cavalry_entity"
+		name = "sibir_gfx_heavy_armor_entity"
+	}
+	
+	###LIT
+	entity = {
+		name = "CRO_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "CRO_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "CRO_infantry_rider_entity"
+		pdxmesh = "LIT_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "CRO_cavalry_entity"
+		name = "CRO_light_armor_entity"
+	}
+	entity = {
+		clone = "CRO_cavalry_entity"
+		name = "CRO_medium_armor_entity"
+	}
+	entity = {
+		clone = "CRO_cavalry_entity"
+		name = "CRO_heavy_armor_entity"
+	}
+	###LIT
+	entity = {
+		name = "DRA_cavalry_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	entity = {
+		name = "DRA_light_armor_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	entity = {
+		name = "DRA_medium_armor_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	entity = {
+		name = "DRA_heavy_armor_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	
+	entity = {
+		name = "STO_cavalry_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	entity = {
+		name = "STO_light_armor_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	entity = {
+		name = "STO_medium_armor_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	entity = {
+		name = "STO_heavy_armor_entity"
+		clone = "CRO_cavalry_entity"
+	}
+	###AKV
+	entity = {
+		name = "AKV_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "AKV_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "AKV_infantry_rider_entity"
+		pdxmesh = "AKV_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "AKV_cavalry_entity"
+		name = "AKV_light_armor_entity"
+	}
+	entity = {
+		clone = "AKV_cavalry_entity"
+		name = "AKV_medium_armor_entity"
+	}
+	entity = {
+		clone = "AKV_cavalry_entity"
+		name = "AKV_heavy_armor_entity"
+	}
+	###LAT
+	entity = {
+		name = "VAL_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "VAL_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "VAL_infantry_rider_entity"
+		pdxmesh = "LAT_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "VAL_cavalry_entity"
+		name = "VAL_light_armor_entity"
+	}
+	entity = {
+		clone = "VAL_cavalry_entity"
+		name = "VAL_medium_armor_entity"
+	}
+	entity = {
+		clone = "VAL_cavalry_entity"
+		name = "VAL_heavy_armor_entity"
+	}
+	
+	###ENG
+	entity = {
+		name = "RIV_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "RIV_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "RIV_infantry_rider_entity"
+		pdxmesh = "ENG_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "RIV_cavalry_entity"
+		name = "RIV_light_armor_entity"
+	}
+	entity = {
+		clone = "RIV_cavalry_entity"
+		name = "RIV_medium_armor_entity"
+	}
+	entity = {
+		clone = "RIV_cavalry_entity"
+		name = "RIV_heavy_armor_entity"
+	}
+###
+###FRA
+	entity = {
+		name = "REA_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "REA_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "REA_infantry_rider_entity"
+		pdxmesh = "FRA_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "REA_cavalry_entity"
+		name = "REA_light_armor_entity"
+	}
+	entity = {
+		clone = "REA_cavalry_entity"
+		name = "REA_medium_armor_entity"
+	}
+	entity = {
+		clone = "REA_cavalry_entity"
+		name = "REA_heavy_armor_entity"
+	}
+###
+###BUR
+	entity = {
+		name = "NOR_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "NOR_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "NOR_infantry_rider_entity"
+		pdxmesh = "BUR_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "NOR_cavalry_entity"
+		name = "NOR_light_armor_entity"
+	}
+	entity = {
+		clone = "NOR_cavalry_entity"
+		name = "NOR_medium_armor_entity"
+	}
+	entity = {
+		clone = "NOR_cavalry_entity"
+		name = "NOR_heavy_armor_entity"
+	}
+###
+###SCO
+	entity = {
+		name = "WES_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "WES_infantry_rider_entity" 
+		}
+	}
+
+	entity = {
+		name = "WES_infantry_rider_entity"
+		pdxmesh = "SCO_warrior_mesh"
+
+		state = { name = "idle" 		animation = "idle_rider" }
+		state = { name = "move" 		animation = "move_rider" }
+		state = { name = "attack"		animation = "attack_rider" }
+		state = { name = "support_attack"		animation = "attack_rider" 	}
+		state = { name = "defend"					animation = "attack_rider" 	}
+		state = { name = "training"					animation = "attack_rider" 	}
+		state = { name = "retreat"		animation = "retreat_rider" }
+
+		attach = { 
+			Right_hand_node = "cavalry_saber_entity" 
+		}
+		scale = 0.45
+	}
+	entity = {
+		clone = "WES_cavalry_entity"
+		name = "WES_light_armor_entity"
+	}
+	entity = {
+		clone = "WES_cavalry_entity"
+		name = "WES_medium_armor_entity"
+	}
+	entity = {
+		clone = "WES_cavalry_entity"
+		name = "WES_heavy_armor_entity"
+	}
+	
+	###Mezo
+	entity = {
+		name = "REW_cavalry_entity"
+		clone = "mezoamerican_gfx_cavalry_entity"		
+    }
+	entity = {
+		name = "REW_light_armor_entity"
+		clone = "mezoamerican_gfx_cavalry_entity"
+		
+	}
+	entity = {
+		name = "REW_medium_armor_entity"
+		clone = "mezoamerican_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "REW_heavy_armor_entity"
+		clone = "mezoamerican_gfx_cavalry_entity"
+	}
+	
+	###Mezo
+	entity = {
+		name = "ULT_cavalry_entity"
+		clone = "inca_gfx_cavalry_entity"		
+    }
+	entity = {
+		name = "ULT_light_armor_entity"
+		clone = "inca_gfx_cavalry_entity"
+		
+	}
+	entity = {
+		name = "ULT_medium_armor_entity"
+		clone = "inca_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "ULT_heavy_armor_entity"
+		clone = "inca_gfx_cavalry_entity"
+	}
+	
+	###Mezo
+	entity = {
+		name = "GHI_cavalry_entity"
+		clone = "indian_gfx_cavalry_entity"		
+    }
+	entity = {
+		name = "GHI_light_armor_entity"
+		clone = "indian_gfx_cavalry_entity"
+		
+	}
+	entity = {
+		name = "GHI_medium_armor_entity"
+		clone = "indian_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "GHI_heavy_armor_entity"
+		clone = "indian_gfx_cavalry_entity"
+	}
+	
+	###Mezo
+	entity = {
+		name = "WIL_cavalry_entity"
+		clone = "sibir_gfx_cavalry_entity"		
+    }
+	entity = {
+		name = "WIL_light_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+		
+	}
+	entity = {
+		name = "WIL_medium_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "WIL_heavy_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+	}
+	
+	###Mezo
+	entity = {
+		name = "CRA_cavalry_entity"
+		clone = "sibir_gfx_cavalry_entity"		
+    }
+	entity = {
+		name = "CRA_light_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+		
+	}
+	entity = {
+		name = "CRA_medium_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "CRA_heavy_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+	}
+	
+	entity = {
+		name = "IBB_cavalry_entity"
+		clone = "sibir_gfx_cavalry_entity"		
+    }
+	entity = {
+		name = "IBB_light_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+		
+	}
+	entity = {
+		name = "IBB_medium_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "IBB_heavy_armor_entity"
+		clone = "sibir_gfx_cavalry_entity"
+	}
+	
 	
 ############
 #
@@ -2912,3 +3762,400 @@
 	}
 
 
+####################################################### GENERIC ############################################################
+
+##########################
+# MINE CLEARANCE VEHICLES #
+##########################	
+#UNIT CAN ATTACK BUT MAY NOT DO THIS UNLESS WE WANT IT TO.
+
+#generic mine clearance vehicle
+entity = {
+	name = "assault_engineer_entity"
+	clone = "cavalry_entity"
+}
+
+##########################
+# CROSSING VEHICLES #
+##########################
+#UNIT CAN ATTACK BUT MAY NOT DO THIS UNLESS WE WANT IT TO.
+
+#generic crossing vehicle
+entity = {
+	name = "armored_engineer_entity"
+	clone = "cavalry_entity"
+}
+
+
+##########################
+# RECOVERY VEHICLES #
+##########################
+
+#generic recovery vehicle (towing)
+entity = {
+	name = "armored_maintenance_entity"
+	clone = "cavalry_entity"
+}
+
+##########################
+# GENERIC LIGHT FLAME TANKS
+##########################
+
+# GENERIC LIGHT FLAME TANK (generic_light_tank_flame)
+entity = {
+	name = "light_flame_tank_entity"
+	clone = "cavalry_entity"
+}
+
+
+entity = {
+	name = "medium_flame_tank_entity"
+	clone = "cavalry_entity"
+}
+
+entity = {
+	name = "heavy_flame_tank_entity"
+	clone = "cavalry_entity"
+}
+
+####################################################### GENERIC ###########################################################
+
+##########################
+# COMMAND TANKS #
+##########################
+
+#generic command tank
+entity = {
+	name = "armored_signal_entity"
+	clone = "cavalry_entity"
+}
+
+entity = {
+		name = "eastern_european_gfx_camelry_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "eastern_european_gfx_infantry_rider_entity" 
+		}
+		
+		scale = 1.0
+	}
+	
+	entity = {
+		name = "western_european_gfx_camelry_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "infantry_rider_entity" 
+		}
+		scale = 1.0
+	}
+	
+	entity = {
+		name = "indian_gfx_camelry_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "indian_gfx_infantry_rider_entity" 
+		}
+		scale = 1.0
+	}
+	
+	entity = {
+		name = "african_gfx_camelry_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "african_gfx_infantry_rider_entity" 
+		}
+		scale = 1.0
+	}
+	
+	entity = {
+		name = "asian_gfx_camelry_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "asian_gfx_infantry_rider_entity" 
+		}
+		scale = 1.0
+	}
+	
+	entity = {
+		name = "middle_eastern_gfx_camelry_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+
+		state = { name = "idle"						animation = "cavalry_idle" 		}
+		state = { name = "move"						animation = "cavalry_move" 		}
+		state = { name = "attack"					animation = "cavalry_attack" 	}
+		state = { name = "support_attack"			animation = "cavalry_attack" 	}
+		state = { name = "defend"					animation = "cavalry_attack" 	}
+		state = { name = "retreat"					animation = "cavalry_move" 		}
+		state = { name = "training"					animation = "cavalry_attack" 	}
+
+		attach = {
+			name = "rider"
+			Saddle_Node = "middle_eastern_gfx_infantry_rider_entity" 
+		}
+		scale = 1.0
+	}
+	
+	entity = {
+		name = "GHI_camelry_entity"
+		clone = "indian_gfx_camelry_entity"
+	}
+	
+	entity = {
+		name = "eastern_european_gfx_camelry_2_entity"
+		clone = "eastern_european_gfx_camelry_entity"
+	}
+	
+	entity = {
+		name = "western_european_gfx_camelry_2_entity"
+		clone = "western_european_gfx_camelry_entity"
+	}
+	
+	entity = {
+		name = "indian_gfx_camelry_2_entity"
+		clone = "indian_gfx_camelry_entity"
+	}
+	
+	entity = {
+		name = "african_gfx_camelry_2_entity"
+		clone = "african_gfx_camelry_entity"
+	}
+	
+	entity = {
+		name = "asian_gfx_camelry_2_entity"
+		clone = "asian_gfx_camelry_entity"
+	}
+	
+	entity = {
+		name = "middle_eastern_gfx_camelry_2_entity"
+		clone = "middle_eastern_gfx_camelry_entity"
+	}
+	
+	entity = {
+		name = "GHI_camelry_2_entity"
+		clone = "indian_gfx_camelry_entity"
+	}
+	#####################
+	##More Clone Units###
+	#####################
+	
+	entity = {
+		name = "western_european_gfx_motorized_rocket_brigade_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "western_european_gfx_armored_car_0_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "western_european_gfx_armored_car_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "western_european_gfx_armored_car_1_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "western_european_gfx_armored_car_2_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "western_european_gfx_amphibious_armor_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "western_european_gfx_amphibious_mechanized_entity"
+		clone = "cavalry_entity"
+	}
+	
+	#############
+	##ASIAN GFX##
+	#############
+	entity = {
+		name = "asian_gfx_motorized_rocket_brigade_entity"
+		clone = "asian_gfx_cavalry_entity"
+	}
+	
+	entity = {
+		name = "asian_gfx_armored_car_0_entity"
+		clone = "asian_gfx_cavalry_entity"
+	}
+	
+	entity = {
+		name = "asian_gfx_armored_car_entity"
+		clone = "asian_gfx_cavalry_entity"
+	}
+	
+	entity = {
+		name = "asian_gfx_armored_car_1_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "asian_gfx_armored_car_2_entity"
+		clone = "cavalry_entity"
+	}
+	
+	entity = {
+		name = "asian_gfx_amphibious_armor_entity"
+		clone = "asian_gfx_cavalry_entity"
+	}
+	
+	entity = {
+		name = "asian_gfx_amphibious_mechanized_entity"
+		clone = "asian_gfx_cavalry_entity"
+	}
+	
+	
+	###############
+	# African GFX #
+	###############
+	entity = {
+		name = "african_gfx_motorized_rocket_brigade_entity"
+		clone = "african_gfx_cavalry_entity"
+	}
+	
+	entity = {
+		name = "african_gfx_armored_car_0_entity"
+		clone = "african_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "african_gfx_armored_car_entity"
+		clone = "african_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "african_gfx_armored_car_1_entity"
+		clone = "cavalry_entity"
+	}
+	entity = {
+		name = "african_gfx_armored_car_2_entity"
+		clone = "cavalry_entity"
+	}
+	entity = {
+		name = "african_gfx_amphibious_armor_entity"
+		clone = "african_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "african_gfx_amphibious_mechanized_entity"
+		clone = "african_gfx_cavalry_entity"
+	}
+	
+	###############
+	# Arabia GFX #
+	###############
+	entity = {
+		name = "middle_eastern_gfx_motorized_rocket_brigade_entity"
+		clone = "middle_eastern_gfx_cavalry_entity"
+	}
+	
+	entity = {
+		name = "middle_eastern_gfx_armored_car_0_entity"
+		clone = "middle_eastern_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "middle_eastern_gfx_armored_car_entity"
+		clone = "middle_eastern_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "middle_eastern_gfx_armored_car_1_entity"
+		clone = "cavalry_entity"
+	}
+	entity = {
+		name = "middle_eastern_gfx_armored_car_2_entity"
+		clone = "cavalry_entity"
+	}
+	entity = {
+		name = "middle_eastern_gfx_amphibious_armor_entity"
+		clone = "middle_eastern_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "middle_eastern_gfx_amphibious_mechanized_entity"
+		clone = "middle_eastern_gfx_cavalry_entity"
+	}
+	
+	##################
+	# Eastern Europe #
+	##################
+	entity = {
+		name = "eastern_european_gfx_motorized_rocket_brigade_entity"
+		clone = "eastern_european_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "eastern_european_gfx_armored_car_0_entity"
+		clone = "eastern_european_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "eastern_european_gfx_armored_car_entity"
+		clone = "eastern_european_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "eastern_european_gfx_armored_car_1_entity"
+		clone = "cavalry_entity"
+	}
+	entity = {
+		name = "eastern_european_gfx_armored_car_2_entity"
+		clone = "cavalry_entity"
+	}
+	entity = {
+		name = "eastern_european_gfx_amphibious_armor_entity"
+		clone = "eastern_european_gfx_cavalry_entity"
+	}
+	entity = {
+		name = "eastern_european_gfx_amphibious_mechanized_entity"
+		clone = "eastern_european_gfx_cavalry_entity"
+	}

@@ -1,0 +1,12 @@
+
+#Generic land cruiser
+entity = {
+	name = "land_cruiser_entity"
+	clone = "RAJ_elephantry_entity"
+}
+
+#Super Heavy Armor
+entity = {
+	name = "super_heavy_armor_entity"
+	clone = "RAJ_elephantry_entity"
+}

@@ -1,0 +1,37 @@
+technologies = {
+
+
+	GOT_camelry_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			camelry
+		}
+
+
+	}
+	
+	GOT_elephantry_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			elephantry
+		}
+
+
+	}
+
+
+}
