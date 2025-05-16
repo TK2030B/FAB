@@ -20,7 +20,7 @@ state={
 	resources = {
 		# Southern Haunted Forest
 		oil = 0        # Grain  
-		rubber = 9     # Timber  
+		rubber = 5     # Timber  
 		aluminium = 0   # Copper  
 		steel = 1       # Iron  
 		tungsten = 0    # Gold  

@@ -15,10 +15,10 @@ state={
 	resources = {
 		# Land of Always Winter
 		oil = 0        # Grain  
-		rubber = 20     # Timber  
-		aluminium = 2   # Copper  
+		rubber = 10     # Timber  
+		aluminium = 1   # Copper  
 		steel = 0       # Iron  
-		tungsten = 2    # Gold  
+		tungsten = 1    # Gold  
 		chromium = 0    # Silver  
 	}
 

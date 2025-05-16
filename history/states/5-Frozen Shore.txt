@@ -21,7 +21,7 @@ state={
 	resources = {
 		# Frozen Shore
 		oil = 1        # Grain  
-		rubber = 7     # Timber  
+		rubber = 4     # Timber  
 		aluminium = 0   # Copper  
 		steel = 1       # Iron  
 		tungsten = 1    # Gold  
