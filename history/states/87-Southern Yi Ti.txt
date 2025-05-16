@@ -26,11 +26,11 @@ state={
 	}
 	
 	resources = {
-		oil = 10       # Grain
-		rubber = 6     # Timber
-		steel = 6      # Iron
-		tungsten = 20  # Gold
-		chromium = 15  # Silver
+		oil = 5       # Grain
+		rubber = 3     # Timber
+		steel = 3     # Iron
+		tungsten = 10  # Gold
+		chromium = 8  # Silver
 		aluminium = 0  # Copper
 	}
 

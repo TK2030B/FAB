@@ -26,8 +26,8 @@ state={
 		rubber = 0    # Timber
 		aluminium = 0 # Copper
 		steel = 0     # Iron
-		tungsten = 5  # Gold
-		chromium = 5  # Silver
+		tungsten = 3  # Gold
+		chromium = 3  # Silver
 	}
 
 
