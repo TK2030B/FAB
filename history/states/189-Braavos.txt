@@ -23,12 +23,12 @@ state={
 	
 	resources = {
 		# Braavos
-		oil = 5        # Grain  
-		rubber = 10    # Timber  
-		aluminium = 5   # Copper  
-		steel = 5       # Iron  
-		tungsten = 150  # Gold  
-		chromium = 75   # Silver  
+		oil = 3        # Grain  
+		rubber = 5    # Timber  
+		aluminium = 3   # Copper  
+		steel = 3       # Iron  
+		tungsten = 75  # Gold  
+		chromium = 38   # Silver  
 	}
 
 	provinces={

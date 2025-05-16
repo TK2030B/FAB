@@ -18,10 +18,10 @@ state={
 	}
 	resources = {
 		# New Ghis
-		oil = 3        # Grain
-		rubber = 2     # Timber
+		oil = 2        # Grain
+		rubber = 1     # Timber
 		aluminium = 1  # Copper
-		steel = 5     # Iron
+		steel = 3     # Iron
 		tungsten = 0   # Gold
 		chromium = 1   # Silver
 	}
