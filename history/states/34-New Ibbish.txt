@@ -22,11 +22,11 @@ state={
 	
 	# New Ibish (Mainland Settlement)
 	resources = {
-		oil = 2        # Grain  
+		oil = 1        # Grain  
 		rubber = 1     # Timber  
-		steel = 5      # Iron  
-		tungsten = 3   # Gold  
-		chromium = 3   # Silver  
+		steel = 3      # Iron  
+		tungsten = 2   # Gold  
+		chromium = 2   # Silver  
 		aluminium = 0  
 	}
 
