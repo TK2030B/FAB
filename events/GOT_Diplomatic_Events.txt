@@ -496,14 +496,19 @@ country_event = {
 				NOT = { is_in_faction_with = DRA }
 			}
 			leave_faction = yes
-			#Event asking them to join their faction
-			DRA = {
-				country_event = {
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = DRA
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}	
 		
 			#Westerlands Notified of Usurpation Attempt
 			WES = {
@@ -624,14 +629,19 @@ country_event = {
 				NOT = { is_in_faction_with = STO }
 			}
 			leave_faction = yes
-			#Event asking them to join their faction
-			STO = {
-				country_event = {
+		}
+		
+		#Event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = STO
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 		
 		#Westerlands Notified of Usurpation Attempt
 		WES = {
@@ -1444,14 +1454,20 @@ country_event = {
 				NOT = { is_in_faction_with = NOR }
 			}
 			leave_faction = yes
-			#Gets event asking them to join their faction
-			NOR = {
-				country_event = {
+			
+		}
+		
+		#Gets event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = NOR
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 		
 		create_wargoal = {
 			type = annex_everything
@@ -1486,7 +1502,9 @@ country_event = {
 				NOT = { is_in_faction_with = CRO }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
+		}
+		
+		#Crownlands gets event asking them to join their faction
 			every_other_country = {
 				limit = {
 					is_in_faction_with = CRO
@@ -1497,7 +1515,6 @@ country_event = {
 					hours = 6
 				}
 			}
-		}
 		
 		create_wargoal = {
 			type = annex_everything
@@ -1568,14 +1585,19 @@ country_event = {
 				NOT = { is_in_faction_with = NOR }
 			}
 			leave_faction = yes
-			#Gets event asking them to join their faction
-			NOR = {
-				country_event = {
+		}
+		
+		#Gets event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = NOR
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 		
 		create_wargoal = {
 			type = annex_everything
@@ -1600,7 +1622,9 @@ country_event = {
 				NOT = { is_in_faction_with = CRO }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
+		}
+		
+		#Crownlands gets event asking them to join their faction
 			every_other_country = {
 				limit = {
 					is_in_faction_with = CRO
@@ -1611,7 +1635,6 @@ country_event = {
 					hours = 6
 				}
 			}
-		}
 		
 		create_wargoal = {
 			type = annex_everything
@@ -1776,14 +1799,19 @@ country_event = {
 				NOT = { is_in_faction_with = DRA }
 			}
 			leave_faction = yes
-			#Gets event asking them to join their faction
-			DRA = {
-				country_event = {
+		}
+		
+		#Gets event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = DRA
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 
         # Inform the world that the knee to Stannis
         news_event = {
@@ -1829,17 +1857,23 @@ country_event = {
 				NOT = { is_in_faction_with = CRO }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
-			every_other_country = {
-				limit = {
-					is_in_faction_with = CRO
-					is_faction_leader = yes
-				}
-			   country_event = {
-					id = generic.2
-					hours = 6
-				}
+		}
+		
+		#Crownlands gets event asking them to join their faction
+		every_other_country = {
+			limit = {
+				is_in_faction_with = CRO
+				is_faction_leader = yes
 			}
+			country_event = {
+				id = generic.2
+				hours = 6
+			}
+		}
+		
+		country_event = {
+			id = GOT_Diplomatic_Country.54
+			days = 7
 		}
 
     }
@@ -3531,14 +3565,20 @@ country_event = {
 				NOT = { is_in_faction_with = STO }
 			}
 			leave_faction = yes
-			#Stormlands gets event asking them to join their faction
-			STO = {
-				country_event = {
+			
+		}
+		
+		#Stormlands gets event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = STO
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 
         # Inform the world that Robb bent the knee to Renly
         news_event = {
@@ -3719,7 +3759,52 @@ country_event = {
     }
 }
 
+#Tyrell Reaction to Renly's Death
+country_event = {
+    id = GOT_Diplomatic_Country.54
+    title = GOT_Diplomatic_Country.54.t
+    desc = GOT_Diplomatic_Country.54.d
+    picture = GFX_report_event_GOT_Story_Country120
 
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = GOT_Diplomatic_Country.54.a
+        ai_chance = {
+            factor = 35
+        }
+		
+		create_wargoal = {
+			type = annex_everything
+			target = DRA
+			expire = 365
+		}
+		
+		add_stability = -0.05
+		add_war_support = 0.10
+		add_political_poower = -50
+     
+
+    }
+	
+	option = {
+        name = GOT_Diplomatic_Country.54.b
+		trigger = {
+			is_in_faction_with = CRO
+		}
+        ai_chance = {
+            factor = 65
+        }
+        add_stability = 0.05
+		add_war_support = -0.05
+		add_political_poower = 25
+
+
+    }
+	
+}
 
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {

@@ -3090,14 +3090,20 @@ country_event = {
 				NOT = { is_in_faction_with = DRA }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
-			DRA = {
-				country_event = {
+			
+		}
+		
+		#Dragonstone gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = DRA
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 
         # Inform the world that bent the knee to Stannis
         news_event = {
@@ -3155,14 +3161,20 @@ country_event = {
 				NOT = { is_in_faction_with = STO }
 			}
 			leave_faction = yes
-			#Stormlands gets event asking them to join their faction
-			STO = {
-				country_event = {
+			
+		}
+		
+		#Stormlands gets event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = STO
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 
         # Inform the world that bent the knee to Renly
         news_event = {
@@ -4166,7 +4178,10 @@ country_event = {
 				NOT = { is_in_faction_with = CRO }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
+			
+		}
+		
+		#Crownlands gets event asking them to join their faction
 			every_other_country = {
 				limit = {
 					is_in_faction_with = CRO
@@ -4177,7 +4192,6 @@ country_event = {
 					hours = 6
 				}
 			}
-		}
 		
 		#Everyone gets the generic Bend the Knee Event
         news_event = {
@@ -4243,14 +4257,20 @@ country_event = {
 				NOT = { is_in_faction_with = STO }
 			}
 			leave_faction = yes
-			#Stormlands gets event asking them to join their faction
-			STO = {
-				country_event = {
+			
+		}
+		
+		#Stormlands gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = STO
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 
         # Inform the world that Stannis bent the knee to Renly
         news_event = {
@@ -5423,14 +5443,20 @@ country_event = {
 				NOT = { is_in_faction_with = DRA }
 			}
 			leave_faction = yes
-			#Dragonstone gets event asking them to join their faction
-			DRA = {
-				country_event = {
+			
+		}
+		
+		#Dragonstone gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = DRA
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 
         # Inform the world that Renly bent the knee to Stannis
         news_event = {
@@ -5665,7 +5691,10 @@ country_event = {
 				NOT = { is_in_faction_with = CRO }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
+			
+		}
+		
+		#Crownlands gets event asking them to join their faction
 			every_other_country = {
 				limit = {
 					is_in_faction_with = CRO
@@ -5676,7 +5705,6 @@ country_event = {
 					hours = 6
 				}
 			}
-		}
 		
 		#Everyone gets the generic Bend the Knee Event
         news_event = {
@@ -7456,7 +7484,10 @@ country_event = {
 				NOT = { is_in_faction_with = CRO }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
+			
+		}
+		
+		#Crownlands gets event asking them to join their faction
 			every_other_country = {
 				limit = {
 					is_in_faction_with = CRO
@@ -7467,7 +7498,6 @@ country_event = {
 					hours = 6
 				}
 			}
-		}
 		
 		#Everyone gets the generic Bend the Knee Event
         news_event = {
@@ -7533,14 +7563,20 @@ country_event = {
 				NOT = { is_in_faction_with = DRA }
 			}
 			leave_faction = yes
-			#Crownlands gets event asking them to join their faction
-			DRA = {
-				country_event = {
+			
+		}
+		
+		#Dragonstone gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = DRA
+					is_faction_leader = yes
+				}
+			   country_event = {
 					id = generic.2
 					hours = 6
 				}
 			}
-		}
 
         # Inform the world that Renly bent the knee to Stannis
         news_event = {

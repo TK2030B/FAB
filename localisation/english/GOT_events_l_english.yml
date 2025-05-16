@@ -815,6 +815,8 @@ GOT_Story_Country.105.b: "Keep Theon close. He is not yet truly one of us."
 
 GOT_Story_News.105.t: "Theon Greyjoy Returns to the Iron Islands"
 GOT_Story_News.105.d: "Theon Greyjoy, after nine years away from the Iron Islands, returns, seeking to persuade his father, Balon, to support Robb Stark's cause. However, Balon rejects him and reveals his own plans for the Iron Islands' independence."
+GOT_Story_News.105.a: "The Kraken does not serve."
+
 
 # Arya Confides in Gendry
 GOT_Story_Country.106.t: "Arya Confides in Gendry"
@@ -2565,7 +2567,10 @@ GOT_Diplomatic_Country.53.t: "Allies Still, But Apart"
 GOT_Diplomatic_Country.53.d: "Though the Riverlords have chosen not to crown me King of the Trident, they remain our steadfast allies. Their loyalty to our cause is clear, even if their sovereignty remains intact. We will ride together into battle, brothers in arms if not in crown. Let us honor their choice—and ensure our enemies regret challenging this alliance."
 GOT_Diplomatic_Country.53.a: "Let the River run with Lannister blood."
 
-
+GOT_Diplomatic_Country.54.t: "Justice for Renly?"
+GOT_Diplomatic_Country.54.d: "Though Renly Baratheon now lies dead, his shadow still haunts the Reach. It was no sword or spear that felled him, but sorcery—dark magic wielded by Melisandre of Asshai in service of Stannis Baratheon. Now, with Margaery betrothed to King Joffrey and our banners sworn to the Iron Throne, a question lingers: Should House Tyrell avenge Renly's murder with fire and steel, or entrust justice to the realm we now serve?"
+GOT_Diplomatic_Country.54.a: "Renly must be avenged—declare war on Stannis!"
+GOT_Diplomatic_Country.54.b: "We serve the Crown. Let Joffrey dispense justice."
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
