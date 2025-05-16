@@ -23,12 +23,12 @@ state={
 	
 	# Ironwood
 	resources = {
-		oil = 2          # Grain
+		oil = 1          # Grain
 		rubber = 1       # Timber
-		aluminium = 8    # Copper
-		steel = 6        # Iron
-		tungsten = 8     # Gold
-		chromium = 7     # Silver
+		aluminium = 4    # Copper
+		steel = 3        # Iron
+		tungsten = 4     # Gold
+		chromium = 4     # Silver
 	}
 
 	provinces={
