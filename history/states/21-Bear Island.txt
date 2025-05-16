@@ -22,10 +22,10 @@ state={
 	
 	resources = {
 		# Bear Island
-		oil = 2        # Grain  
-		rubber = 7     # Timber  
+		oil = 1        # Grain  
+		rubber = 4     # Timber  
 		aluminium = 0   # Copper  
-		steel = 3      # Iron  
+		steel = 2      # Iron  
 		tungsten = 0    # Gold  
 		chromium = 0    # Silver  
 	}

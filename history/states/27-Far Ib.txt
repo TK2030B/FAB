@@ -22,8 +22,8 @@ state={
 	}
 	# Far Ib
 	resources = {
-		oil = 3        # Grain  
-		rubber = 2     # Timber  
+		oil = 2        # Grain  
+		rubber = 1     # Timber  
 		steel = 0  
 		tungsten = 0  
 		chromium = 0  

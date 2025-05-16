@@ -29,8 +29,8 @@ state={
 	}
 	resources = {
 		# Bay of Lorath
-		oil = 3       # Grain
-		rubber = 5   # Timber
+		oil = 2       # Grain
+		rubber = 3   # Timber
 		aluminium = 0 # Copper
 		steel = 0     # Iron
 		tungsten = 0  # Gold

@@ -21,10 +21,10 @@ state={
 	
 	resources = {
 		# Last Hearth
-		oil = 3        # Grain  
-		rubber = 12     # Timber  
+		oil = 2        # Grain  
+		rubber = 6     # Timber  
 		aluminium = 1   # Copper  
-		steel = 6       # Iron  
+		steel = 3       # Iron  
 		tungsten = 0    # Gold  
 		chromium = 1    # Silver  
 	}
