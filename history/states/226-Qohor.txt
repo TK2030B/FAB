@@ -20,12 +20,12 @@ state={
 	
 	resources = {
 		# Qohor
-		oil = 10       # Grain
-		rubber = 40    # Timber
-		aluminium = 10 # Copper
-		steel = 20     # Iron
-		tungsten = 5   # Gold
-		chromium = 5   # Silver
+		oil = 5       # Grain
+		rubber = 20    # Timber
+		aluminium = 5 # Copper
+		steel = 10     # Iron
+		tungsten = 3   # Gold
+		chromium = 3   # Silver
 	}
 
 

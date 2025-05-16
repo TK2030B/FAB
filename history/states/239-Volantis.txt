@@ -22,12 +22,12 @@ state={
 	
 	resources = {
 		# Volantis
-		oil = 20       # Grain
-		rubber = 10    # Timber
-		aluminium = 5  # Copper
-		steel = 10     # Iron
-		tungsten = 20  # Gold
-		chromium = 12  # Silver
+		oil = 10       # Grain
+		rubber = 5    # Timber
+		aluminium = 3  # Copper
+		steel = 5     # Iron
+		tungsten = 10  # Gold
+		chromium = 6  # Silver
 	}
 
 	provinces={

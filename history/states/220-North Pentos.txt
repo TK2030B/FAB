@@ -16,12 +16,12 @@ state={
 
 	# Northeastern Quadrant (Hills & Minor Industry)
 	resources = {
-		oil = 5        # Grain  
-		rubber = 3     # Timber  
+		oil = 3        # Grain  
+		rubber = 2     # Timber  
 		aluminium = 0  # Copper  
-		steel = 3      # Iron  
-		tungsten = 6   # Gold  
-		chromium = 3   # Silver  
+		steel = 2      # Iron  
+		tungsten = 3   # Gold  
+		chromium = 2   # Silver  
 	}
 
 	provinces={
