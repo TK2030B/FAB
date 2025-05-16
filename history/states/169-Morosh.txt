@@ -22,11 +22,11 @@ state={
 	
 	resources = {
 		oil = 0        # Grain (Not much agriculture, so none)
-		rubber = 5     # Timber (Some shipbuilding and construction)
-		aluminium = 10 # Copper (Limited mining operations)
-		steel = 20     # Iron (Main mining output)
-		tungsten = 5   # Gold (Not a wealthy settlement, but some minor trade)
-		chromium = 10  # Silver (A small but notable part of the economy)
+		rubber = 3     # Timber (Some shipbuilding and construction)
+		aluminium = 5 # Copper (Limited mining operations)
+		steel = 10     # Iron (Main mining output)
+		tungsten = 3   # Gold (Not a wealthy settlement, but some minor trade)
+		chromium = 5  # Silver (A small but notable part of the economy)
 	}
 
 

@@ -25,8 +25,8 @@ state={
 	
 	resources = {
 		# The Neck
-		oil = 2        # Grain  
-		rubber = 3     # Timber  
+		oil = 1        # Grain  
+		rubber = 2     # Timber  
 		aluminium = 0   # Copper  
 		steel = 1      # Iron  
 		tungsten = 0    # Gold  
