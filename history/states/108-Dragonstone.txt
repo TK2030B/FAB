@@ -24,10 +24,10 @@ state={
 
 	resources={
 		oil=1          # Grain  
-		rubber=2       # Timber  
+		rubber=1       # Timber  
 		aluminium=1    # Copper  
-		steel=14       # Iron  
-		tungsten=2     # Gold  
+		steel=7       # Iron  
+		tungsten=1     # Gold  
 		chromium=1     # Silver  
 	}
 
