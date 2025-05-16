@@ -25,10 +25,10 @@ state={
 	
 	resources = {
 		# Wolfswood
-		oil = 4        # Grain  
-		rubber = 21     # Timber  
+		oil = 2        # Grain  
+		rubber = 11     # Timber  
 		aluminium = 1   # Copper  
-		steel = 8       # Iron  
+		steel = 4       # Iron  
 		tungsten = 1    # Gold  
 		chromium = 1    # Silver  
 	}
