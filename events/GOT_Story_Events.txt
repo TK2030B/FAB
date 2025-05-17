@@ -13731,3 +13731,9694 @@ news_event = {
         name = GOT_Story_News.351.a 
     } 
 } 
+
+# 
+country_event = { 
+    id = GOT_Story_Country.401 
+    title = GOT_Story_Country.401.t 
+    desc = GOT_Story_Country.401.d 
+    picture = GFX_report_event_GOT_Story_Country401 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.401.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.401 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.401 
+    title = GOT_Story_News.401.t 
+    desc = GOT_Story_News.401.d 
+    picture = GFX_news_event_GOT_Story_News401 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.401.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.402 
+    title = GOT_Story_Country.402.t 
+    desc = GOT_Story_Country.402.d 
+    picture = GFX_report_event_GOT_Story_Country402 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.402.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.402 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.402 
+    title = GOT_Story_News.402.t 
+    desc = GOT_Story_News.402.d 
+    picture = GFX_news_event_GOT_Story_News402 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.402.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.403 
+    title = GOT_Story_Country.403.t 
+    desc = GOT_Story_Country.403.d 
+    picture = GFX_report_event_GOT_Story_Country403 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.403.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.403 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.403 
+    title = GOT_Story_News.403.t 
+    desc = GOT_Story_News.403.d 
+    picture = GFX_news_event_GOT_Story_News403 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.403.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.404 
+    title = GOT_Story_Country.404.t 
+    desc = GOT_Story_Country.404.d 
+    picture = GFX_report_event_GOT_Story_Country404 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.404.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.404 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.404 
+    title = GOT_Story_News.404.t 
+    desc = GOT_Story_News.404.d 
+    picture = GFX_news_event_GOT_Story_News404 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.404.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.405 
+    title = GOT_Story_Country.405.t 
+    desc = GOT_Story_Country.405.d 
+    picture = GFX_report_event_GOT_Story_Country405 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.405.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.405 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.405 
+    title = GOT_Story_News.405.t 
+    desc = GOT_Story_News.405.d 
+    picture = GFX_news_event_GOT_Story_News405 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.405.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.406 
+    title = GOT_Story_Country.406.t 
+    desc = GOT_Story_Country.406.d 
+    picture = GFX_report_event_GOT_Story_Country406 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.406.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.406 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.406 
+    title = GOT_Story_News.406.t 
+    desc = GOT_Story_News.406.d 
+    picture = GFX_news_event_GOT_Story_News406 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.406.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.407 
+    title = GOT_Story_Country.407.t 
+    desc = GOT_Story_Country.407.d 
+    picture = GFX_report_event_GOT_Story_Country407 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.407.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.407 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.407 
+    title = GOT_Story_News.407.t 
+    desc = GOT_Story_News.407.d 
+    picture = GFX_news_event_GOT_Story_News407 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.407.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.408 
+    title = GOT_Story_Country.408.t 
+    desc = GOT_Story_Country.408.d 
+    picture = GFX_report_event_GOT_Story_Country408 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.408.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.408 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.408 
+    title = GOT_Story_News.408.t 
+    desc = GOT_Story_News.408.d 
+    picture = GFX_news_event_GOT_Story_News408 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.408.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.409 
+    title = GOT_Story_Country.409.t 
+    desc = GOT_Story_Country.409.d 
+    picture = GFX_report_event_GOT_Story_Country409 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.409.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.409 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.409 
+    title = GOT_Story_News.409.t 
+    desc = GOT_Story_News.409.d 
+    picture = GFX_news_event_GOT_Story_News409 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.409.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.410 
+    title = GOT_Story_Country.410.t 
+    desc = GOT_Story_Country.410.d 
+    picture = GFX_report_event_GOT_Story_Country410 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.410.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.410 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.410 
+    title = GOT_Story_News.410.t 
+    desc = GOT_Story_News.410.d 
+    picture = GFX_news_event_GOT_Story_News410 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.410.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.411 
+    title = GOT_Story_Country.411.t 
+    desc = GOT_Story_Country.411.d 
+    picture = GFX_report_event_GOT_Story_Country411 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.411.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.411 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.411 
+    title = GOT_Story_News.411.t 
+    desc = GOT_Story_News.411.d 
+    picture = GFX_news_event_GOT_Story_News411 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.411.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.412 
+    title = GOT_Story_Country.412.t 
+    desc = GOT_Story_Country.412.d 
+    picture = GFX_report_event_GOT_Story_Country412 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.412.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.412 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.412 
+    title = GOT_Story_News.412.t 
+    desc = GOT_Story_News.412.d 
+    picture = GFX_news_event_GOT_Story_News412 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.412.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.413 
+    title = GOT_Story_Country.413.t 
+    desc = GOT_Story_Country.413.d 
+    picture = GFX_report_event_GOT_Story_Country413 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.413.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.413 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.413 
+    title = GOT_Story_News.413.t 
+    desc = GOT_Story_News.413.d 
+    picture = GFX_news_event_GOT_Story_News413 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.413.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.414 
+    title = GOT_Story_Country.414.t 
+    desc = GOT_Story_Country.414.d 
+    picture = GFX_report_event_GOT_Story_Country414 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.414.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.414 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.414 
+    title = GOT_Story_News.414.t 
+    desc = GOT_Story_News.414.d 
+    picture = GFX_news_event_GOT_Story_News414 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.414.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.415 
+    title = GOT_Story_Country.415.t 
+    desc = GOT_Story_Country.415.d 
+    picture = GFX_report_event_GOT_Story_Country415 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.415.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.415 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.415 
+    title = GOT_Story_News.415.t 
+    desc = GOT_Story_News.415.d 
+    picture = GFX_news_event_GOT_Story_News415 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.415.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.416 
+    title = GOT_Story_Country.416.t 
+    desc = GOT_Story_Country.416.d 
+    picture = GFX_report_event_GOT_Story_Country416 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.416.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.416 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.416 
+    title = GOT_Story_News.416.t 
+    desc = GOT_Story_News.416.d 
+    picture = GFX_news_event_GOT_Story_News416 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.416.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.417 
+    title = GOT_Story_Country.417.t 
+    desc = GOT_Story_Country.417.d 
+    picture = GFX_report_event_GOT_Story_Country417 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.417.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.417 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.417 
+    title = GOT_Story_News.417.t 
+    desc = GOT_Story_News.417.d 
+    picture = GFX_news_event_GOT_Story_News417 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.417.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.418 
+    title = GOT_Story_Country.418.t 
+    desc = GOT_Story_Country.418.d 
+    picture = GFX_report_event_GOT_Story_Country418 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.418.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.418 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.418 
+    title = GOT_Story_News.418.t 
+    desc = GOT_Story_News.418.d 
+    picture = GFX_news_event_GOT_Story_News418 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.418.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.419 
+    title = GOT_Story_Country.419.t 
+    desc = GOT_Story_Country.419.d 
+    picture = GFX_report_event_GOT_Story_Country419 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.419.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.419 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.419 
+    title = GOT_Story_News.419.t 
+    desc = GOT_Story_News.419.d 
+    picture = GFX_news_event_GOT_Story_News419 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.419.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.420 
+    title = GOT_Story_Country.420.t 
+    desc = GOT_Story_Country.420.d 
+    picture = GFX_report_event_GOT_Story_Country420 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.420.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.420 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.420 
+    title = GOT_Story_News.420.t 
+    desc = GOT_Story_News.420.d 
+    picture = GFX_news_event_GOT_Story_News420 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.420.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.421 
+    title = GOT_Story_Country.421.t 
+    desc = GOT_Story_Country.421.d 
+    picture = GFX_report_event_GOT_Story_Country421 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.421.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.421 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.421 
+    title = GOT_Story_News.421.t 
+    desc = GOT_Story_News.421.d 
+    picture = GFX_news_event_GOT_Story_News421 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.421.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.422 
+    title = GOT_Story_Country.422.t 
+    desc = GOT_Story_Country.422.d 
+    picture = GFX_report_event_GOT_Story_Country422 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.422.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.422 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.422 
+    title = GOT_Story_News.422.t 
+    desc = GOT_Story_News.422.d 
+    picture = GFX_news_event_GOT_Story_News422 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.422.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.423 
+    title = GOT_Story_Country.423.t 
+    desc = GOT_Story_Country.423.d 
+    picture = GFX_report_event_GOT_Story_Country423 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.423.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.423 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.423 
+    title = GOT_Story_News.423.t 
+    desc = GOT_Story_News.423.d 
+    picture = GFX_news_event_GOT_Story_News423 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.423.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.424 
+    title = GOT_Story_Country.424.t 
+    desc = GOT_Story_Country.424.d 
+    picture = GFX_report_event_GOT_Story_Country424 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.424.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.424 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.424 
+    title = GOT_Story_News.424.t 
+    desc = GOT_Story_News.424.d 
+    picture = GFX_news_event_GOT_Story_News424 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.424.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.425 
+    title = GOT_Story_Country.425.t 
+    desc = GOT_Story_Country.425.d 
+    picture = GFX_report_event_GOT_Story_Country425 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.425.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.425 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.425 
+    title = GOT_Story_News.425.t 
+    desc = GOT_Story_News.425.d 
+    picture = GFX_news_event_GOT_Story_News425 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.425.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.426 
+    title = GOT_Story_Country.426.t 
+    desc = GOT_Story_Country.426.d 
+    picture = GFX_report_event_GOT_Story_Country426 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.426.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.426 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.426 
+    title = GOT_Story_News.426.t 
+    desc = GOT_Story_News.426.d 
+    picture = GFX_news_event_GOT_Story_News426 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.426.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.427 
+    title = GOT_Story_Country.427.t 
+    desc = GOT_Story_Country.427.d 
+    picture = GFX_report_event_GOT_Story_Country427 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.427.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.427 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.427 
+    title = GOT_Story_News.427.t 
+    desc = GOT_Story_News.427.d 
+    picture = GFX_news_event_GOT_Story_News427 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.427.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.428 
+    title = GOT_Story_Country.428.t 
+    desc = GOT_Story_Country.428.d 
+    picture = GFX_report_event_GOT_Story_Country428 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.428.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.428 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.428 
+    title = GOT_Story_News.428.t 
+    desc = GOT_Story_News.428.d 
+    picture = GFX_news_event_GOT_Story_News428 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.428.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.429 
+    title = GOT_Story_Country.429.t 
+    desc = GOT_Story_Country.429.d 
+    picture = GFX_report_event_GOT_Story_Country429 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.429.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.429 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.429 
+    title = GOT_Story_News.429.t 
+    desc = GOT_Story_News.429.d 
+    picture = GFX_news_event_GOT_Story_News429 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.429.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.430 
+    title = GOT_Story_Country.430.t 
+    desc = GOT_Story_Country.430.d 
+    picture = GFX_report_event_GOT_Story_Country430 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.430.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.430 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.430 
+    title = GOT_Story_News.430.t 
+    desc = GOT_Story_News.430.d 
+    picture = GFX_news_event_GOT_Story_News430 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.430.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.431 
+    title = GOT_Story_Country.431.t 
+    desc = GOT_Story_Country.431.d 
+    picture = GFX_report_event_GOT_Story_Country431 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.431.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.431 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.431 
+    title = GOT_Story_News.431.t 
+    desc = GOT_Story_News.431.d 
+    picture = GFX_news_event_GOT_Story_News431 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.431.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.432 
+    title = GOT_Story_Country.432.t 
+    desc = GOT_Story_Country.432.d 
+    picture = GFX_report_event_GOT_Story_Country432 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.432.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.432 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.432 
+    title = GOT_Story_News.432.t 
+    desc = GOT_Story_News.432.d 
+    picture = GFX_news_event_GOT_Story_News432 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.432.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.433 
+    title = GOT_Story_Country.433.t 
+    desc = GOT_Story_Country.433.d 
+    picture = GFX_report_event_GOT_Story_Country433 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.433.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.433 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.433 
+    title = GOT_Story_News.433.t 
+    desc = GOT_Story_News.433.d 
+    picture = GFX_news_event_GOT_Story_News433 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.433.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.434 
+    title = GOT_Story_Country.434.t 
+    desc = GOT_Story_Country.434.d 
+    picture = GFX_report_event_GOT_Story_Country434 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.434.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.434 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.434 
+    title = GOT_Story_News.434.t 
+    desc = GOT_Story_News.434.d 
+    picture = GFX_news_event_GOT_Story_News434 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.434.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.435 
+    title = GOT_Story_Country.435.t 
+    desc = GOT_Story_Country.435.d 
+    picture = GFX_report_event_GOT_Story_Country435 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.435.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.435 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.435 
+    title = GOT_Story_News.435.t 
+    desc = GOT_Story_News.435.d 
+    picture = GFX_news_event_GOT_Story_News435 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.435.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.436 
+    title = GOT_Story_Country.436.t 
+    desc = GOT_Story_Country.436.d 
+    picture = GFX_report_event_GOT_Story_Country436 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.436.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.436 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.436 
+    title = GOT_Story_News.436.t 
+    desc = GOT_Story_News.436.d 
+    picture = GFX_news_event_GOT_Story_News436 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.436.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.437 
+    title = GOT_Story_Country.437.t 
+    desc = GOT_Story_Country.437.d 
+    picture = GFX_report_event_GOT_Story_Country437 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.437.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.437 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.437 
+    title = GOT_Story_News.437.t 
+    desc = GOT_Story_News.437.d 
+    picture = GFX_news_event_GOT_Story_News437 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.437.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.438 
+    title = GOT_Story_Country.438.t 
+    desc = GOT_Story_Country.438.d 
+    picture = GFX_report_event_GOT_Story_Country438 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.438.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.438 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.438 
+    title = GOT_Story_News.438.t 
+    desc = GOT_Story_News.438.d 
+    picture = GFX_news_event_GOT_Story_News438 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.438.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.439 
+    title = GOT_Story_Country.439.t 
+    desc = GOT_Story_Country.439.d 
+    picture = GFX_report_event_GOT_Story_Country439 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.439.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.439 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.439 
+    title = GOT_Story_News.439.t 
+    desc = GOT_Story_News.439.d 
+    picture = GFX_news_event_GOT_Story_News439 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.439.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.440 
+    title = GOT_Story_Country.440.t 
+    desc = GOT_Story_Country.440.d 
+    picture = GFX_report_event_GOT_Story_Country440 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.440.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.440 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.440 
+    title = GOT_Story_News.440.t 
+    desc = GOT_Story_News.440.d 
+    picture = GFX_news_event_GOT_Story_News440 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.440.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.441 
+    title = GOT_Story_Country.441.t 
+    desc = GOT_Story_Country.441.d 
+    picture = GFX_report_event_GOT_Story_Country441 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.441.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.441 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.441 
+    title = GOT_Story_News.441.t 
+    desc = GOT_Story_News.441.d 
+    picture = GFX_news_event_GOT_Story_News441 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.441.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.442 
+    title = GOT_Story_Country.442.t 
+    desc = GOT_Story_Country.442.d 
+    picture = GFX_report_event_GOT_Story_Country442 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.442.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.442 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.442 
+    title = GOT_Story_News.442.t 
+    desc = GOT_Story_News.442.d 
+    picture = GFX_news_event_GOT_Story_News442 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.442.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.443 
+    title = GOT_Story_Country.443.t 
+    desc = GOT_Story_Country.443.d 
+    picture = GFX_report_event_GOT_Story_Country443 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.443.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.443 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.443 
+    title = GOT_Story_News.443.t 
+    desc = GOT_Story_News.443.d 
+    picture = GFX_news_event_GOT_Story_News443 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.443.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.444 
+    title = GOT_Story_Country.444.t 
+    desc = GOT_Story_Country.444.d 
+    picture = GFX_report_event_GOT_Story_Country444 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.444.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.444 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.444 
+    title = GOT_Story_News.444.t 
+    desc = GOT_Story_News.444.d 
+    picture = GFX_news_event_GOT_Story_News444 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.444.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.445 
+    title = GOT_Story_Country.445.t 
+    desc = GOT_Story_Country.445.d 
+    picture = GFX_report_event_GOT_Story_Country445 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.445.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.445 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.445 
+    title = GOT_Story_News.445.t 
+    desc = GOT_Story_News.445.d 
+    picture = GFX_news_event_GOT_Story_News445 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.445.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.446 
+    title = GOT_Story_Country.446.t 
+    desc = GOT_Story_Country.446.d 
+    picture = GFX_report_event_GOT_Story_Country446 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.446.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.446 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.446 
+    title = GOT_Story_News.446.t 
+    desc = GOT_Story_News.446.d 
+    picture = GFX_news_event_GOT_Story_News446 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.446.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.447 
+    title = GOT_Story_Country.447.t 
+    desc = GOT_Story_Country.447.d 
+    picture = GFX_report_event_GOT_Story_Country447 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.447.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.447 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.447 
+    title = GOT_Story_News.447.t 
+    desc = GOT_Story_News.447.d 
+    picture = GFX_news_event_GOT_Story_News447 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.447.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.448 
+    title = GOT_Story_Country.448.t 
+    desc = GOT_Story_Country.448.d 
+    picture = GFX_report_event_GOT_Story_Country448 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.448.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.448 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.448 
+    title = GOT_Story_News.448.t 
+    desc = GOT_Story_News.448.d 
+    picture = GFX_news_event_GOT_Story_News448 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.448.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.449 
+    title = GOT_Story_Country.449.t 
+    desc = GOT_Story_Country.449.d 
+    picture = GFX_report_event_GOT_Story_Country449 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.449.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.449 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.449 
+    title = GOT_Story_News.449.t 
+    desc = GOT_Story_News.449.d 
+    picture = GFX_news_event_GOT_Story_News449 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.449.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.450 
+    title = GOT_Story_Country.450.t 
+    desc = GOT_Story_Country.450.d 
+    picture = GFX_report_event_GOT_Story_Country450 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.450.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.450 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.450 
+    title = GOT_Story_News.450.t 
+    desc = GOT_Story_News.450.d 
+    picture = GFX_news_event_GOT_Story_News450 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.450.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.501 
+    title = GOT_Story_Country.501.t 
+    desc = GOT_Story_Country.501.d 
+    picture = GFX_report_event_GOT_Story_Country501 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.501.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.501 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.501 
+    title = GOT_Story_News.501.t 
+    desc = GOT_Story_News.501.d 
+    picture = GFX_news_event_GOT_Story_News501 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.501.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.502 
+    title = GOT_Story_Country.502.t 
+    desc = GOT_Story_Country.502.d 
+    picture = GFX_report_event_GOT_Story_Country502 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.502.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.502 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.502 
+    title = GOT_Story_News.502.t 
+    desc = GOT_Story_News.502.d 
+    picture = GFX_news_event_GOT_Story_News502 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.502.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.503 
+    title = GOT_Story_Country.503.t 
+    desc = GOT_Story_Country.503.d 
+    picture = GFX_report_event_GOT_Story_Country503 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.503.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.503 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.503 
+    title = GOT_Story_News.503.t 
+    desc = GOT_Story_News.503.d 
+    picture = GFX_news_event_GOT_Story_News503 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.503.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.504 
+    title = GOT_Story_Country.504.t 
+    desc = GOT_Story_Country.504.d 
+    picture = GFX_report_event_GOT_Story_Country504 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.504.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.504 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.504 
+    title = GOT_Story_News.504.t 
+    desc = GOT_Story_News.504.d 
+    picture = GFX_news_event_GOT_Story_News504 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.504.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.505 
+    title = GOT_Story_Country.505.t 
+    desc = GOT_Story_Country.505.d 
+    picture = GFX_report_event_GOT_Story_Country505 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.505.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.505 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.505 
+    title = GOT_Story_News.505.t 
+    desc = GOT_Story_News.505.d 
+    picture = GFX_news_event_GOT_Story_News505 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.505.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.506 
+    title = GOT_Story_Country.506.t 
+    desc = GOT_Story_Country.506.d 
+    picture = GFX_report_event_GOT_Story_Country506 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.506.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.506 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.506 
+    title = GOT_Story_News.506.t 
+    desc = GOT_Story_News.506.d 
+    picture = GFX_news_event_GOT_Story_News506 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.506.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.507 
+    title = GOT_Story_Country.507.t 
+    desc = GOT_Story_Country.507.d 
+    picture = GFX_report_event_GOT_Story_Country507 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.507.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.507 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.507 
+    title = GOT_Story_News.507.t 
+    desc = GOT_Story_News.507.d 
+    picture = GFX_news_event_GOT_Story_News507 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.507.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.508 
+    title = GOT_Story_Country.508.t 
+    desc = GOT_Story_Country.508.d 
+    picture = GFX_report_event_GOT_Story_Country508 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.508.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.508 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.508 
+    title = GOT_Story_News.508.t 
+    desc = GOT_Story_News.508.d 
+    picture = GFX_news_event_GOT_Story_News508 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.508.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.509 
+    title = GOT_Story_Country.509.t 
+    desc = GOT_Story_Country.509.d 
+    picture = GFX_report_event_GOT_Story_Country509 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.509.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.509 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.509 
+    title = GOT_Story_News.509.t 
+    desc = GOT_Story_News.509.d 
+    picture = GFX_news_event_GOT_Story_News509 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.509.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.510 
+    title = GOT_Story_Country.510.t 
+    desc = GOT_Story_Country.510.d 
+    picture = GFX_report_event_GOT_Story_Country510 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.510.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.510 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.510 
+    title = GOT_Story_News.510.t 
+    desc = GOT_Story_News.510.d 
+    picture = GFX_news_event_GOT_Story_News510 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.510.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.511 
+    title = GOT_Story_Country.511.t 
+    desc = GOT_Story_Country.511.d 
+    picture = GFX_report_event_GOT_Story_Country511 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.511.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.511 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.511 
+    title = GOT_Story_News.511.t 
+    desc = GOT_Story_News.511.d 
+    picture = GFX_news_event_GOT_Story_News511 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.511.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.512 
+    title = GOT_Story_Country.512.t 
+    desc = GOT_Story_Country.512.d 
+    picture = GFX_report_event_GOT_Story_Country512 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.512.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.512 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.512 
+    title = GOT_Story_News.512.t 
+    desc = GOT_Story_News.512.d 
+    picture = GFX_news_event_GOT_Story_News512 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.512.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.513 
+    title = GOT_Story_Country.513.t 
+    desc = GOT_Story_Country.513.d 
+    picture = GFX_report_event_GOT_Story_Country513 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.513.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.513 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.513 
+    title = GOT_Story_News.513.t 
+    desc = GOT_Story_News.513.d 
+    picture = GFX_news_event_GOT_Story_News513 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.513.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.514 
+    title = GOT_Story_Country.514.t 
+    desc = GOT_Story_Country.514.d 
+    picture = GFX_report_event_GOT_Story_Country514 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.514.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.514 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.514 
+    title = GOT_Story_News.514.t 
+    desc = GOT_Story_News.514.d 
+    picture = GFX_news_event_GOT_Story_News514 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.514.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.515 
+    title = GOT_Story_Country.515.t 
+    desc = GOT_Story_Country.515.d 
+    picture = GFX_report_event_GOT_Story_Country515 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.515.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.515 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.515 
+    title = GOT_Story_News.515.t 
+    desc = GOT_Story_News.515.d 
+    picture = GFX_news_event_GOT_Story_News515 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.515.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.516 
+    title = GOT_Story_Country.516.t 
+    desc = GOT_Story_Country.516.d 
+    picture = GFX_report_event_GOT_Story_Country516 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.516.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.516 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.516 
+    title = GOT_Story_News.516.t 
+    desc = GOT_Story_News.516.d 
+    picture = GFX_news_event_GOT_Story_News516 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.516.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.517 
+    title = GOT_Story_Country.517.t 
+    desc = GOT_Story_Country.517.d 
+    picture = GFX_report_event_GOT_Story_Country517 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.517.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.517 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.517 
+    title = GOT_Story_News.517.t 
+    desc = GOT_Story_News.517.d 
+    picture = GFX_news_event_GOT_Story_News517 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.517.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.518 
+    title = GOT_Story_Country.518.t 
+    desc = GOT_Story_Country.518.d 
+    picture = GFX_report_event_GOT_Story_Country518 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.518.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.518 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.518 
+    title = GOT_Story_News.518.t 
+    desc = GOT_Story_News.518.d 
+    picture = GFX_news_event_GOT_Story_News518 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.518.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.519 
+    title = GOT_Story_Country.519.t 
+    desc = GOT_Story_Country.519.d 
+    picture = GFX_report_event_GOT_Story_Country519 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.519.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.519 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.519 
+    title = GOT_Story_News.519.t 
+    desc = GOT_Story_News.519.d 
+    picture = GFX_news_event_GOT_Story_News519 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.519.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.520 
+    title = GOT_Story_Country.520.t 
+    desc = GOT_Story_Country.520.d 
+    picture = GFX_report_event_GOT_Story_Country520 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.520.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.520 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.520 
+    title = GOT_Story_News.520.t 
+    desc = GOT_Story_News.520.d 
+    picture = GFX_news_event_GOT_Story_News520 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.520.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.521 
+    title = GOT_Story_Country.521.t 
+    desc = GOT_Story_Country.521.d 
+    picture = GFX_report_event_GOT_Story_Country521 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.521.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.521 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.521 
+    title = GOT_Story_News.521.t 
+    desc = GOT_Story_News.521.d 
+    picture = GFX_news_event_GOT_Story_News521 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.521.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.522 
+    title = GOT_Story_Country.522.t 
+    desc = GOT_Story_Country.522.d 
+    picture = GFX_report_event_GOT_Story_Country522 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.522.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.522 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.522 
+    title = GOT_Story_News.522.t 
+    desc = GOT_Story_News.522.d 
+    picture = GFX_news_event_GOT_Story_News522 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.522.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.523 
+    title = GOT_Story_Country.523.t 
+    desc = GOT_Story_Country.523.d 
+    picture = GFX_report_event_GOT_Story_Country523 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.523.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.523 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.523 
+    title = GOT_Story_News.523.t 
+    desc = GOT_Story_News.523.d 
+    picture = GFX_news_event_GOT_Story_News523 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.523.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.524 
+    title = GOT_Story_Country.524.t 
+    desc = GOT_Story_Country.524.d 
+    picture = GFX_report_event_GOT_Story_Country524 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.524.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.524 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.524 
+    title = GOT_Story_News.524.t 
+    desc = GOT_Story_News.524.d 
+    picture = GFX_news_event_GOT_Story_News524 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.524.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.525 
+    title = GOT_Story_Country.525.t 
+    desc = GOT_Story_Country.525.d 
+    picture = GFX_report_event_GOT_Story_Country525 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.525.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.525 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.525 
+    title = GOT_Story_News.525.t 
+    desc = GOT_Story_News.525.d 
+    picture = GFX_news_event_GOT_Story_News525 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.525.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.526 
+    title = GOT_Story_Country.526.t 
+    desc = GOT_Story_Country.526.d 
+    picture = GFX_report_event_GOT_Story_Country526 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.526.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.526 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.526 
+    title = GOT_Story_News.526.t 
+    desc = GOT_Story_News.526.d 
+    picture = GFX_news_event_GOT_Story_News526 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.526.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.527 
+    title = GOT_Story_Country.527.t 
+    desc = GOT_Story_Country.527.d 
+    picture = GFX_report_event_GOT_Story_Country527 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.527.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.527 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.527 
+    title = GOT_Story_News.527.t 
+    desc = GOT_Story_News.527.d 
+    picture = GFX_news_event_GOT_Story_News527 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.527.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.528 
+    title = GOT_Story_Country.528.t 
+    desc = GOT_Story_Country.528.d 
+    picture = GFX_report_event_GOT_Story_Country528 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.528.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.528 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.528 
+    title = GOT_Story_News.528.t 
+    desc = GOT_Story_News.528.d 
+    picture = GFX_news_event_GOT_Story_News528 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.528.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.529 
+    title = GOT_Story_Country.529.t 
+    desc = GOT_Story_Country.529.d 
+    picture = GFX_report_event_GOT_Story_Country529 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.529.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.529 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.529 
+    title = GOT_Story_News.529.t 
+    desc = GOT_Story_News.529.d 
+    picture = GFX_news_event_GOT_Story_News529 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.529.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.530 
+    title = GOT_Story_Country.530.t 
+    desc = GOT_Story_Country.530.d 
+    picture = GFX_report_event_GOT_Story_Country530 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.530.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.530 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.530 
+    title = GOT_Story_News.530.t 
+    desc = GOT_Story_News.530.d 
+    picture = GFX_news_event_GOT_Story_News530 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.530.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.531 
+    title = GOT_Story_Country.531.t 
+    desc = GOT_Story_Country.531.d 
+    picture = GFX_report_event_GOT_Story_Country531 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.531.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.531 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.531 
+    title = GOT_Story_News.531.t 
+    desc = GOT_Story_News.531.d 
+    picture = GFX_news_event_GOT_Story_News531 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.531.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.532 
+    title = GOT_Story_Country.532.t 
+    desc = GOT_Story_Country.532.d 
+    picture = GFX_report_event_GOT_Story_Country532 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.532.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.532 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.532 
+    title = GOT_Story_News.532.t 
+    desc = GOT_Story_News.532.d 
+    picture = GFX_news_event_GOT_Story_News532 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.532.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.533 
+    title = GOT_Story_Country.533.t 
+    desc = GOT_Story_Country.533.d 
+    picture = GFX_report_event_GOT_Story_Country533 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.533.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.533 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.533 
+    title = GOT_Story_News.533.t 
+    desc = GOT_Story_News.533.d 
+    picture = GFX_news_event_GOT_Story_News533 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.533.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.534 
+    title = GOT_Story_Country.534.t 
+    desc = GOT_Story_Country.534.d 
+    picture = GFX_report_event_GOT_Story_Country534 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.534.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.534 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.534 
+    title = GOT_Story_News.534.t 
+    desc = GOT_Story_News.534.d 
+    picture = GFX_news_event_GOT_Story_News534 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.534.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.535 
+    title = GOT_Story_Country.535.t 
+    desc = GOT_Story_Country.535.d 
+    picture = GFX_report_event_GOT_Story_Country535 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.535.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.535 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.535 
+    title = GOT_Story_News.535.t 
+    desc = GOT_Story_News.535.d 
+    picture = GFX_news_event_GOT_Story_News535 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.535.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.536 
+    title = GOT_Story_Country.536.t 
+    desc = GOT_Story_Country.536.d 
+    picture = GFX_report_event_GOT_Story_Country536 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.536.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.536 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.536 
+    title = GOT_Story_News.536.t 
+    desc = GOT_Story_News.536.d 
+    picture = GFX_news_event_GOT_Story_News536 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.536.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.537 
+    title = GOT_Story_Country.537.t 
+    desc = GOT_Story_Country.537.d 
+    picture = GFX_report_event_GOT_Story_Country537 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.537.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.537 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.537 
+    title = GOT_Story_News.537.t 
+    desc = GOT_Story_News.537.d 
+    picture = GFX_news_event_GOT_Story_News537 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.537.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.538 
+    title = GOT_Story_Country.538.t 
+    desc = GOT_Story_Country.538.d 
+    picture = GFX_report_event_GOT_Story_Country538 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.538.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.538 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.538 
+    title = GOT_Story_News.538.t 
+    desc = GOT_Story_News.538.d 
+    picture = GFX_news_event_GOT_Story_News538 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.538.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.539 
+    title = GOT_Story_Country.539.t 
+    desc = GOT_Story_Country.539.d 
+    picture = GFX_report_event_GOT_Story_Country539 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.539.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.539 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.539 
+    title = GOT_Story_News.539.t 
+    desc = GOT_Story_News.539.d 
+    picture = GFX_news_event_GOT_Story_News539 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.539.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.540 
+    title = GOT_Story_Country.540.t 
+    desc = GOT_Story_Country.540.d 
+    picture = GFX_report_event_GOT_Story_Country540 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.540.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.540 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.540 
+    title = GOT_Story_News.540.t 
+    desc = GOT_Story_News.540.d 
+    picture = GFX_news_event_GOT_Story_News540 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.540.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.541 
+    title = GOT_Story_Country.541.t 
+    desc = GOT_Story_Country.541.d 
+    picture = GFX_report_event_GOT_Story_Country541 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.541.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.541 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.541 
+    title = GOT_Story_News.541.t 
+    desc = GOT_Story_News.541.d 
+    picture = GFX_news_event_GOT_Story_News541 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.541.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.542 
+    title = GOT_Story_Country.542.t 
+    desc = GOT_Story_Country.542.d 
+    picture = GFX_report_event_GOT_Story_Country542 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.542.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.542 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.542 
+    title = GOT_Story_News.542.t 
+    desc = GOT_Story_News.542.d 
+    picture = GFX_news_event_GOT_Story_News542 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.542.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.543 
+    title = GOT_Story_Country.543.t 
+    desc = GOT_Story_Country.543.d 
+    picture = GFX_report_event_GOT_Story_Country543 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.543.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.543 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.543 
+    title = GOT_Story_News.543.t 
+    desc = GOT_Story_News.543.d 
+    picture = GFX_news_event_GOT_Story_News543 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.543.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.544 
+    title = GOT_Story_Country.544.t 
+    desc = GOT_Story_Country.544.d 
+    picture = GFX_report_event_GOT_Story_Country544 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.544.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.544 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.544 
+    title = GOT_Story_News.544.t 
+    desc = GOT_Story_News.544.d 
+    picture = GFX_news_event_GOT_Story_News544 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.544.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.545 
+    title = GOT_Story_Country.545.t 
+    desc = GOT_Story_Country.545.d 
+    picture = GFX_report_event_GOT_Story_Country545 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.545.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.545 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.545 
+    title = GOT_Story_News.545.t 
+    desc = GOT_Story_News.545.d 
+    picture = GFX_news_event_GOT_Story_News545 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.545.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.546 
+    title = GOT_Story_Country.546.t 
+    desc = GOT_Story_Country.546.d 
+    picture = GFX_report_event_GOT_Story_Country546 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.546.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.546 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.546 
+    title = GOT_Story_News.546.t 
+    desc = GOT_Story_News.546.d 
+    picture = GFX_news_event_GOT_Story_News546 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.546.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.547 
+    title = GOT_Story_Country.547.t 
+    desc = GOT_Story_Country.547.d 
+    picture = GFX_report_event_GOT_Story_Country547 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.547.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.547 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.547 
+    title = GOT_Story_News.547.t 
+    desc = GOT_Story_News.547.d 
+    picture = GFX_news_event_GOT_Story_News547 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.547.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.548 
+    title = GOT_Story_Country.548.t 
+    desc = GOT_Story_Country.548.d 
+    picture = GFX_report_event_GOT_Story_Country548 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.548.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.548 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.548 
+    title = GOT_Story_News.548.t 
+    desc = GOT_Story_News.548.d 
+    picture = GFX_news_event_GOT_Story_News548 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.548.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.549 
+    title = GOT_Story_Country.549.t 
+    desc = GOT_Story_Country.549.d 
+    picture = GFX_report_event_GOT_Story_Country549 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.549.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.549 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.549 
+    title = GOT_Story_News.549.t 
+    desc = GOT_Story_News.549.d 
+    picture = GFX_news_event_GOT_Story_News549 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.549.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.550 
+    title = GOT_Story_Country.550.t 
+    desc = GOT_Story_Country.550.d 
+    picture = GFX_report_event_GOT_Story_Country550 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.550.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.550 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.550 
+    title = GOT_Story_News.550.t 
+    desc = GOT_Story_News.550.d 
+    picture = GFX_news_event_GOT_Story_News550 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.550.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.601 
+    title = GOT_Story_Country.601.t 
+    desc = GOT_Story_Country.601.d 
+    picture = GFX_report_event_GOT_Story_Country601 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.601.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.601 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.601 
+    title = GOT_Story_News.601.t 
+    desc = GOT_Story_News.601.d 
+    picture = GFX_news_event_GOT_Story_News601 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.601.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.602 
+    title = GOT_Story_Country.602.t 
+    desc = GOT_Story_Country.602.d 
+    picture = GFX_report_event_GOT_Story_Country602 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.602.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.602 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.602 
+    title = GOT_Story_News.602.t 
+    desc = GOT_Story_News.602.d 
+    picture = GFX_news_event_GOT_Story_News602 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.602.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.603 
+    title = GOT_Story_Country.603.t 
+    desc = GOT_Story_Country.603.d 
+    picture = GFX_report_event_GOT_Story_Country603 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.603.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.603 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.603 
+    title = GOT_Story_News.603.t 
+    desc = GOT_Story_News.603.d 
+    picture = GFX_news_event_GOT_Story_News603 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.603.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.604 
+    title = GOT_Story_Country.604.t 
+    desc = GOT_Story_Country.604.d 
+    picture = GFX_report_event_GOT_Story_Country604 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.604.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.604 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.604 
+    title = GOT_Story_News.604.t 
+    desc = GOT_Story_News.604.d 
+    picture = GFX_news_event_GOT_Story_News604 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.604.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.605 
+    title = GOT_Story_Country.605.t 
+    desc = GOT_Story_Country.605.d 
+    picture = GFX_report_event_GOT_Story_Country605 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.605.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.605 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.605 
+    title = GOT_Story_News.605.t 
+    desc = GOT_Story_News.605.d 
+    picture = GFX_news_event_GOT_Story_News605 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.605.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.606 
+    title = GOT_Story_Country.606.t 
+    desc = GOT_Story_Country.606.d 
+    picture = GFX_report_event_GOT_Story_Country606 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.606.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.606 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.606 
+    title = GOT_Story_News.606.t 
+    desc = GOT_Story_News.606.d 
+    picture = GFX_news_event_GOT_Story_News606 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.606.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.607 
+    title = GOT_Story_Country.607.t 
+    desc = GOT_Story_Country.607.d 
+    picture = GFX_report_event_GOT_Story_Country607 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.607.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.607 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.607 
+    title = GOT_Story_News.607.t 
+    desc = GOT_Story_News.607.d 
+    picture = GFX_news_event_GOT_Story_News607 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.607.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.608 
+    title = GOT_Story_Country.608.t 
+    desc = GOT_Story_Country.608.d 
+    picture = GFX_report_event_GOT_Story_Country608 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.608.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.608 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.608 
+    title = GOT_Story_News.608.t 
+    desc = GOT_Story_News.608.d 
+    picture = GFX_news_event_GOT_Story_News608 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.608.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.609 
+    title = GOT_Story_Country.609.t 
+    desc = GOT_Story_Country.609.d 
+    picture = GFX_report_event_GOT_Story_Country609 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.609.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.609 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.609 
+    title = GOT_Story_News.609.t 
+    desc = GOT_Story_News.609.d 
+    picture = GFX_news_event_GOT_Story_News609 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.609.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.610 
+    title = GOT_Story_Country.610.t 
+    desc = GOT_Story_Country.610.d 
+    picture = GFX_report_event_GOT_Story_Country610 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.610.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.610 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.610 
+    title = GOT_Story_News.610.t 
+    desc = GOT_Story_News.610.d 
+    picture = GFX_news_event_GOT_Story_News610 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.610.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.611 
+    title = GOT_Story_Country.611.t 
+    desc = GOT_Story_Country.611.d 
+    picture = GFX_report_event_GOT_Story_Country611 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.611.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.611 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.611 
+    title = GOT_Story_News.611.t 
+    desc = GOT_Story_News.611.d 
+    picture = GFX_news_event_GOT_Story_News611 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.611.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.612 
+    title = GOT_Story_Country.612.t 
+    desc = GOT_Story_Country.612.d 
+    picture = GFX_report_event_GOT_Story_Country612 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.612.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.612 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.612 
+    title = GOT_Story_News.612.t 
+    desc = GOT_Story_News.612.d 
+    picture = GFX_news_event_GOT_Story_News612 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.612.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.613 
+    title = GOT_Story_Country.613.t 
+    desc = GOT_Story_Country.613.d 
+    picture = GFX_report_event_GOT_Story_Country613 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.613.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.613 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.613 
+    title = GOT_Story_News.613.t 
+    desc = GOT_Story_News.613.d 
+    picture = GFX_news_event_GOT_Story_News613 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.613.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.614 
+    title = GOT_Story_Country.614.t 
+    desc = GOT_Story_Country.614.d 
+    picture = GFX_report_event_GOT_Story_Country614 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.614.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.614 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.614 
+    title = GOT_Story_News.614.t 
+    desc = GOT_Story_News.614.d 
+    picture = GFX_news_event_GOT_Story_News614 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.614.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.615 
+    title = GOT_Story_Country.615.t 
+    desc = GOT_Story_Country.615.d 
+    picture = GFX_report_event_GOT_Story_Country615 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.615.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.615 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.615 
+    title = GOT_Story_News.615.t 
+    desc = GOT_Story_News.615.d 
+    picture = GFX_news_event_GOT_Story_News615 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.615.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.616 
+    title = GOT_Story_Country.616.t 
+    desc = GOT_Story_Country.616.d 
+    picture = GFX_report_event_GOT_Story_Country616 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.616.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.616 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.616 
+    title = GOT_Story_News.616.t 
+    desc = GOT_Story_News.616.d 
+    picture = GFX_news_event_GOT_Story_News616 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.616.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.617 
+    title = GOT_Story_Country.617.t 
+    desc = GOT_Story_Country.617.d 
+    picture = GFX_report_event_GOT_Story_Country617 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.617.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.617 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.617 
+    title = GOT_Story_News.617.t 
+    desc = GOT_Story_News.617.d 
+    picture = GFX_news_event_GOT_Story_News617 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.617.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.618 
+    title = GOT_Story_Country.618.t 
+    desc = GOT_Story_Country.618.d 
+    picture = GFX_report_event_GOT_Story_Country618 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.618.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.618 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.618 
+    title = GOT_Story_News.618.t 
+    desc = GOT_Story_News.618.d 
+    picture = GFX_news_event_GOT_Story_News618 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.618.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.619 
+    title = GOT_Story_Country.619.t 
+    desc = GOT_Story_Country.619.d 
+    picture = GFX_report_event_GOT_Story_Country619 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.619.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.619 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.619 
+    title = GOT_Story_News.619.t 
+    desc = GOT_Story_News.619.d 
+    picture = GFX_news_event_GOT_Story_News619 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.619.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.620 
+    title = GOT_Story_Country.620.t 
+    desc = GOT_Story_Country.620.d 
+    picture = GFX_report_event_GOT_Story_Country620 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.620.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.620 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.620 
+    title = GOT_Story_News.620.t 
+    desc = GOT_Story_News.620.d 
+    picture = GFX_news_event_GOT_Story_News620 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.620.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.621 
+    title = GOT_Story_Country.621.t 
+    desc = GOT_Story_Country.621.d 
+    picture = GFX_report_event_GOT_Story_Country621 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.621.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.621 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.621 
+    title = GOT_Story_News.621.t 
+    desc = GOT_Story_News.621.d 
+    picture = GFX_news_event_GOT_Story_News621 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.621.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.622 
+    title = GOT_Story_Country.622.t 
+    desc = GOT_Story_Country.622.d 
+    picture = GFX_report_event_GOT_Story_Country622 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.622.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.622 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.622 
+    title = GOT_Story_News.622.t 
+    desc = GOT_Story_News.622.d 
+    picture = GFX_news_event_GOT_Story_News622 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.622.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.623 
+    title = GOT_Story_Country.623.t 
+    desc = GOT_Story_Country.623.d 
+    picture = GFX_report_event_GOT_Story_Country623 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.623.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.623 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.623 
+    title = GOT_Story_News.623.t 
+    desc = GOT_Story_News.623.d 
+    picture = GFX_news_event_GOT_Story_News623 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.623.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.624 
+    title = GOT_Story_Country.624.t 
+    desc = GOT_Story_Country.624.d 
+    picture = GFX_report_event_GOT_Story_Country624 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.624.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.624 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.624 
+    title = GOT_Story_News.624.t 
+    desc = GOT_Story_News.624.d 
+    picture = GFX_news_event_GOT_Story_News624 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.624.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.625 
+    title = GOT_Story_Country.625.t 
+    desc = GOT_Story_Country.625.d 
+    picture = GFX_report_event_GOT_Story_Country625 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.625.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.625 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.625 
+    title = GOT_Story_News.625.t 
+    desc = GOT_Story_News.625.d 
+    picture = GFX_news_event_GOT_Story_News625 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.625.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.626 
+    title = GOT_Story_Country.626.t 
+    desc = GOT_Story_Country.626.d 
+    picture = GFX_report_event_GOT_Story_Country626 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.626.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.626 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.626 
+    title = GOT_Story_News.626.t 
+    desc = GOT_Story_News.626.d 
+    picture = GFX_news_event_GOT_Story_News626 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.626.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.627 
+    title = GOT_Story_Country.627.t 
+    desc = GOT_Story_Country.627.d 
+    picture = GFX_report_event_GOT_Story_Country627 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.627.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.627 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.627 
+    title = GOT_Story_News.627.t 
+    desc = GOT_Story_News.627.d 
+    picture = GFX_news_event_GOT_Story_News627 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.627.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.628 
+    title = GOT_Story_Country.628.t 
+    desc = GOT_Story_Country.628.d 
+    picture = GFX_report_event_GOT_Story_Country628 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.628.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.628 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.628 
+    title = GOT_Story_News.628.t 
+    desc = GOT_Story_News.628.d 
+    picture = GFX_news_event_GOT_Story_News628 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.628.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.629 
+    title = GOT_Story_Country.629.t 
+    desc = GOT_Story_Country.629.d 
+    picture = GFX_report_event_GOT_Story_Country629 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.629.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.629 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.629 
+    title = GOT_Story_News.629.t 
+    desc = GOT_Story_News.629.d 
+    picture = GFX_news_event_GOT_Story_News629 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.629.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.630 
+    title = GOT_Story_Country.630.t 
+    desc = GOT_Story_Country.630.d 
+    picture = GFX_report_event_GOT_Story_Country630 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.630.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.630 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.630 
+    title = GOT_Story_News.630.t 
+    desc = GOT_Story_News.630.d 
+    picture = GFX_news_event_GOT_Story_News630 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.630.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.631 
+    title = GOT_Story_Country.631.t 
+    desc = GOT_Story_Country.631.d 
+    picture = GFX_report_event_GOT_Story_Country631 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.631.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.631 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.631 
+    title = GOT_Story_News.631.t 
+    desc = GOT_Story_News.631.d 
+    picture = GFX_news_event_GOT_Story_News631 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.631.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.632 
+    title = GOT_Story_Country.632.t 
+    desc = GOT_Story_Country.632.d 
+    picture = GFX_report_event_GOT_Story_Country632 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.632.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.632 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.632 
+    title = GOT_Story_News.632.t 
+    desc = GOT_Story_News.632.d 
+    picture = GFX_news_event_GOT_Story_News632 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.632.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.633 
+    title = GOT_Story_Country.633.t 
+    desc = GOT_Story_Country.633.d 
+    picture = GFX_report_event_GOT_Story_Country633 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.633.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.633 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.633 
+    title = GOT_Story_News.633.t 
+    desc = GOT_Story_News.633.d 
+    picture = GFX_news_event_GOT_Story_News633 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.633.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.634 
+    title = GOT_Story_Country.634.t 
+    desc = GOT_Story_Country.634.d 
+    picture = GFX_report_event_GOT_Story_Country634 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.634.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.634 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.634 
+    title = GOT_Story_News.634.t 
+    desc = GOT_Story_News.634.d 
+    picture = GFX_news_event_GOT_Story_News634 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.634.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.635 
+    title = GOT_Story_Country.635.t 
+    desc = GOT_Story_Country.635.d 
+    picture = GFX_report_event_GOT_Story_Country635 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.635.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.635 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.635 
+    title = GOT_Story_News.635.t 
+    desc = GOT_Story_News.635.d 
+    picture = GFX_news_event_GOT_Story_News635 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.635.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.636 
+    title = GOT_Story_Country.636.t 
+    desc = GOT_Story_Country.636.d 
+    picture = GFX_report_event_GOT_Story_Country636 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.636.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.636 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.636 
+    title = GOT_Story_News.636.t 
+    desc = GOT_Story_News.636.d 
+    picture = GFX_news_event_GOT_Story_News636 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.636.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.637 
+    title = GOT_Story_Country.637.t 
+    desc = GOT_Story_Country.637.d 
+    picture = GFX_report_event_GOT_Story_Country637 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.637.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.637 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.637 
+    title = GOT_Story_News.637.t 
+    desc = GOT_Story_News.637.d 
+    picture = GFX_news_event_GOT_Story_News637 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.637.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.638 
+    title = GOT_Story_Country.638.t 
+    desc = GOT_Story_Country.638.d 
+    picture = GFX_report_event_GOT_Story_Country638 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.638.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.638 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.638 
+    title = GOT_Story_News.638.t 
+    desc = GOT_Story_News.638.d 
+    picture = GFX_news_event_GOT_Story_News638 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.638.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.639 
+    title = GOT_Story_Country.639.t 
+    desc = GOT_Story_Country.639.d 
+    picture = GFX_report_event_GOT_Story_Country639 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.639.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.639 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.639 
+    title = GOT_Story_News.639.t 
+    desc = GOT_Story_News.639.d 
+    picture = GFX_news_event_GOT_Story_News639 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.639.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.640 
+    title = GOT_Story_Country.640.t 
+    desc = GOT_Story_Country.640.d 
+    picture = GFX_report_event_GOT_Story_Country640 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.640.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.640 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.640 
+    title = GOT_Story_News.640.t 
+    desc = GOT_Story_News.640.d 
+    picture = GFX_news_event_GOT_Story_News640 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.640.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.641 
+    title = GOT_Story_Country.641.t 
+    desc = GOT_Story_Country.641.d 
+    picture = GFX_report_event_GOT_Story_Country641 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.641.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.641 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.641 
+    title = GOT_Story_News.641.t 
+    desc = GOT_Story_News.641.d 
+    picture = GFX_news_event_GOT_Story_News641 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.641.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.642 
+    title = GOT_Story_Country.642.t 
+    desc = GOT_Story_Country.642.d 
+    picture = GFX_report_event_GOT_Story_Country642 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.642.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.642 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.642 
+    title = GOT_Story_News.642.t 
+    desc = GOT_Story_News.642.d 
+    picture = GFX_news_event_GOT_Story_News642 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.642.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.643 
+    title = GOT_Story_Country.643.t 
+    desc = GOT_Story_Country.643.d 
+    picture = GFX_report_event_GOT_Story_Country643 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.643.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.643 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.643 
+    title = GOT_Story_News.643.t 
+    desc = GOT_Story_News.643.d 
+    picture = GFX_news_event_GOT_Story_News643 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.643.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.644 
+    title = GOT_Story_Country.644.t 
+    desc = GOT_Story_Country.644.d 
+    picture = GFX_report_event_GOT_Story_Country644 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.644.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.644 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.644 
+    title = GOT_Story_News.644.t 
+    desc = GOT_Story_News.644.d 
+    picture = GFX_news_event_GOT_Story_News644 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.644.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.645 
+    title = GOT_Story_Country.645.t 
+    desc = GOT_Story_Country.645.d 
+    picture = GFX_report_event_GOT_Story_Country645 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.645.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.645 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.645 
+    title = GOT_Story_News.645.t 
+    desc = GOT_Story_News.645.d 
+    picture = GFX_news_event_GOT_Story_News645 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.645.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.646 
+    title = GOT_Story_Country.646.t 
+    desc = GOT_Story_Country.646.d 
+    picture = GFX_report_event_GOT_Story_Country646 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.646.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.646 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.646 
+    title = GOT_Story_News.646.t 
+    desc = GOT_Story_News.646.d 
+    picture = GFX_news_event_GOT_Story_News646 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.646.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.647 
+    title = GOT_Story_Country.647.t 
+    desc = GOT_Story_Country.647.d 
+    picture = GFX_report_event_GOT_Story_Country647 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.647.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.647 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.647 
+    title = GOT_Story_News.647.t 
+    desc = GOT_Story_News.647.d 
+    picture = GFX_news_event_GOT_Story_News647 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.647.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.649 
+    title = GOT_Story_Country.649.t 
+    desc = GOT_Story_Country.649.d 
+    picture = GFX_report_event_GOT_Story_Country649 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.649.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.649 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.649 
+    title = GOT_Story_News.649.t 
+    desc = GOT_Story_News.649.d 
+    picture = GFX_news_event_GOT_Story_News649 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.649.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.701 
+    title = GOT_Story_Country.701.t 
+    desc = GOT_Story_Country.701.d 
+    picture = GFX_report_event_GOT_Story_Country701 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.701.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.701 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.701 
+    title = GOT_Story_News.701.t 
+    desc = GOT_Story_News.701.d 
+    picture = GFX_news_event_GOT_Story_News701 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.701.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.702 
+    title = GOT_Story_Country.702.t 
+    desc = GOT_Story_Country.702.d 
+    picture = GFX_report_event_GOT_Story_Country702 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.702.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.702 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.702 
+    title = GOT_Story_News.702.t 
+    desc = GOT_Story_News.702.d 
+    picture = GFX_news_event_GOT_Story_News702 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.702.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.703 
+    title = GOT_Story_Country.703.t 
+    desc = GOT_Story_Country.703.d 
+    picture = GFX_report_event_GOT_Story_Country703 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.703.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.703 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.703 
+    title = GOT_Story_News.703.t 
+    desc = GOT_Story_News.703.d 
+    picture = GFX_news_event_GOT_Story_News703 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.703.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.704 
+    title = GOT_Story_Country.704.t 
+    desc = GOT_Story_Country.704.d 
+    picture = GFX_report_event_GOT_Story_Country704 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.704.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.704 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.704 
+    title = GOT_Story_News.704.t 
+    desc = GOT_Story_News.704.d 
+    picture = GFX_news_event_GOT_Story_News704 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.704.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.705 
+    title = GOT_Story_Country.705.t 
+    desc = GOT_Story_Country.705.d 
+    picture = GFX_report_event_GOT_Story_Country705 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.705.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.705 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.705 
+    title = GOT_Story_News.705.t 
+    desc = GOT_Story_News.705.d 
+    picture = GFX_news_event_GOT_Story_News705 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.705.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.706 
+    title = GOT_Story_Country.706.t 
+    desc = GOT_Story_Country.706.d 
+    picture = GFX_report_event_GOT_Story_Country706 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.706.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.706 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.706 
+    title = GOT_Story_News.706.t 
+    desc = GOT_Story_News.706.d 
+    picture = GFX_news_event_GOT_Story_News706 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.706.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.707 
+    title = GOT_Story_Country.707.t 
+    desc = GOT_Story_Country.707.d 
+    picture = GFX_report_event_GOT_Story_Country707 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.707.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.707 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.707 
+    title = GOT_Story_News.707.t 
+    desc = GOT_Story_News.707.d 
+    picture = GFX_news_event_GOT_Story_News707 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.707.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.708 
+    title = GOT_Story_Country.708.t 
+    desc = GOT_Story_Country.708.d 
+    picture = GFX_report_event_GOT_Story_Country708 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.708.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.708 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.708 
+    title = GOT_Story_News.708.t 
+    desc = GOT_Story_News.708.d 
+    picture = GFX_news_event_GOT_Story_News708 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.708.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.709 
+    title = GOT_Story_Country.709.t 
+    desc = GOT_Story_Country.709.d 
+    picture = GFX_report_event_GOT_Story_Country709 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.709.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.709 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.709 
+    title = GOT_Story_News.709.t 
+    desc = GOT_Story_News.709.d 
+    picture = GFX_news_event_GOT_Story_News709 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.709.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.710 
+    title = GOT_Story_Country.710.t 
+    desc = GOT_Story_Country.710.d 
+    picture = GFX_report_event_GOT_Story_Country710 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.710.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.710 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.710 
+    title = GOT_Story_News.710.t 
+    desc = GOT_Story_News.710.d 
+    picture = GFX_news_event_GOT_Story_News710 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.710.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.711 
+    title = GOT_Story_Country.711.t 
+    desc = GOT_Story_Country.711.d 
+    picture = GFX_report_event_GOT_Story_Country711 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.711.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.711 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.711 
+    title = GOT_Story_News.711.t 
+    desc = GOT_Story_News.711.d 
+    picture = GFX_news_event_GOT_Story_News711 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.711.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.712 
+    title = GOT_Story_Country.712.t 
+    desc = GOT_Story_Country.712.d 
+    picture = GFX_report_event_GOT_Story_Country712 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.712.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.712 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.712 
+    title = GOT_Story_News.712.t 
+    desc = GOT_Story_News.712.d 
+    picture = GFX_news_event_GOT_Story_News712 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.712.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.713 
+    title = GOT_Story_Country.713.t 
+    desc = GOT_Story_Country.713.d 
+    picture = GFX_report_event_GOT_Story_Country713 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.713.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.713 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.713 
+    title = GOT_Story_News.713.t 
+    desc = GOT_Story_News.713.d 
+    picture = GFX_news_event_GOT_Story_News713 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.713.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.714 
+    title = GOT_Story_Country.714.t 
+    desc = GOT_Story_Country.714.d 
+    picture = GFX_report_event_GOT_Story_Country714 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.714.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.714 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.714 
+    title = GOT_Story_News.714.t 
+    desc = GOT_Story_News.714.d 
+    picture = GFX_news_event_GOT_Story_News714 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.714.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.715 
+    title = GOT_Story_Country.715.t 
+    desc = GOT_Story_Country.715.d 
+    picture = GFX_report_event_GOT_Story_Country715 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.715.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.715 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.715 
+    title = GOT_Story_News.715.t 
+    desc = GOT_Story_News.715.d 
+    picture = GFX_news_event_GOT_Story_News715 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.715.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.716 
+    title = GOT_Story_Country.716.t 
+    desc = GOT_Story_Country.716.d 
+    picture = GFX_report_event_GOT_Story_Country716 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.716.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.716 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.716 
+    title = GOT_Story_News.716.t 
+    desc = GOT_Story_News.716.d 
+    picture = GFX_news_event_GOT_Story_News716 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.716.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.717 
+    title = GOT_Story_Country.717.t 
+    desc = GOT_Story_Country.717.d 
+    picture = GFX_report_event_GOT_Story_Country717 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.717.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.717 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.717 
+    title = GOT_Story_News.717.t 
+    desc = GOT_Story_News.717.d 
+    picture = GFX_news_event_GOT_Story_News717 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.717.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.718 
+    title = GOT_Story_Country.718.t 
+    desc = GOT_Story_Country.718.d 
+    picture = GFX_report_event_GOT_Story_Country718 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.718.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.718 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.718 
+    title = GOT_Story_News.718.t 
+    desc = GOT_Story_News.718.d 
+    picture = GFX_news_event_GOT_Story_News718 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.718.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.719 
+    title = GOT_Story_Country.719.t 
+    desc = GOT_Story_Country.719.d 
+    picture = GFX_report_event_GOT_Story_Country719 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.719.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.719 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.719 
+    title = GOT_Story_News.719.t 
+    desc = GOT_Story_News.719.d 
+    picture = GFX_news_event_GOT_Story_News719 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.719.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.720 
+    title = GOT_Story_Country.720.t 
+    desc = GOT_Story_Country.720.d 
+    picture = GFX_report_event_GOT_Story_Country720 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.720.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.720 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.720 
+    title = GOT_Story_News.720.t 
+    desc = GOT_Story_News.720.d 
+    picture = GFX_news_event_GOT_Story_News720 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.720.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.721 
+    title = GOT_Story_Country.721.t 
+    desc = GOT_Story_Country.721.d 
+    picture = GFX_report_event_GOT_Story_Country721 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.721.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.721 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.721 
+    title = GOT_Story_News.721.t 
+    desc = GOT_Story_News.721.d 
+    picture = GFX_news_event_GOT_Story_News721 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.721.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.722 
+    title = GOT_Story_Country.722.t 
+    desc = GOT_Story_Country.722.d 
+    picture = GFX_report_event_GOT_Story_Country722 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.722.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.722 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.722 
+    title = GOT_Story_News.722.t 
+    desc = GOT_Story_News.722.d 
+    picture = GFX_news_event_GOT_Story_News722 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.722.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.723 
+    title = GOT_Story_Country.723.t 
+    desc = GOT_Story_Country.723.d 
+    picture = GFX_report_event_GOT_Story_Country723 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.723.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.723 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.723 
+    title = GOT_Story_News.723.t 
+    desc = GOT_Story_News.723.d 
+    picture = GFX_news_event_GOT_Story_News723 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.723.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.724 
+    title = GOT_Story_Country.724.t 
+    desc = GOT_Story_Country.724.d 
+    picture = GFX_report_event_GOT_Story_Country724 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.724.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.724 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.724 
+    title = GOT_Story_News.724.t 
+    desc = GOT_Story_News.724.d 
+    picture = GFX_news_event_GOT_Story_News724 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.724.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.725 
+    title = GOT_Story_Country.725.t 
+    desc = GOT_Story_Country.725.d 
+    picture = GFX_report_event_GOT_Story_Country725 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.725.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.725 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.725 
+    title = GOT_Story_News.725.t 
+    desc = GOT_Story_News.725.d 
+    picture = GFX_news_event_GOT_Story_News725 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.725.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.726 
+    title = GOT_Story_Country.726.t 
+    desc = GOT_Story_Country.726.d 
+    picture = GFX_report_event_GOT_Story_Country726 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.726.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.726 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.726 
+    title = GOT_Story_News.726.t 
+    desc = GOT_Story_News.726.d 
+    picture = GFX_news_event_GOT_Story_News726 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.726.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.727 
+    title = GOT_Story_Country.727.t 
+    desc = GOT_Story_Country.727.d 
+    picture = GFX_report_event_GOT_Story_Country727 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.727.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.727 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.727 
+    title = GOT_Story_News.727.t 
+    desc = GOT_Story_News.727.d 
+    picture = GFX_news_event_GOT_Story_News727 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.727.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.728 
+    title = GOT_Story_Country.728.t 
+    desc = GOT_Story_Country.728.d 
+    picture = GFX_report_event_GOT_Story_Country728 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.728.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.728 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.728 
+    title = GOT_Story_News.728.t 
+    desc = GOT_Story_News.728.d 
+    picture = GFX_news_event_GOT_Story_News728 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.728.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.729 
+    title = GOT_Story_Country.729.t 
+    desc = GOT_Story_Country.729.d 
+    picture = GFX_report_event_GOT_Story_Country729 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.729.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.729 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.729 
+    title = GOT_Story_News.729.t 
+    desc = GOT_Story_News.729.d 
+    picture = GFX_news_event_GOT_Story_News729 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.729.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.730 
+    title = GOT_Story_Country.730.t 
+    desc = GOT_Story_Country.730.d 
+    picture = GFX_report_event_GOT_Story_Country730 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.730.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.730 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.730 
+    title = GOT_Story_News.730.t 
+    desc = GOT_Story_News.730.d 
+    picture = GFX_news_event_GOT_Story_News730 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.730.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.731 
+    title = GOT_Story_Country.731.t 
+    desc = GOT_Story_Country.731.d 
+    picture = GFX_report_event_GOT_Story_Country731 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.731.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.731 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.731 
+    title = GOT_Story_News.731.t 
+    desc = GOT_Story_News.731.d 
+    picture = GFX_news_event_GOT_Story_News731 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.731.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.732 
+    title = GOT_Story_Country.732.t 
+    desc = GOT_Story_Country.732.d 
+    picture = GFX_report_event_GOT_Story_Country732 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.732.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.732 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.732 
+    title = GOT_Story_News.732.t 
+    desc = GOT_Story_News.732.d 
+    picture = GFX_news_event_GOT_Story_News732 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.732.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.733 
+    title = GOT_Story_Country.733.t 
+    desc = GOT_Story_Country.733.d 
+    picture = GFX_report_event_GOT_Story_Country733 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.733.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.733 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.733 
+    title = GOT_Story_News.733.t 
+    desc = GOT_Story_News.733.d 
+    picture = GFX_news_event_GOT_Story_News733 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.733.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.734 
+    title = GOT_Story_Country.734.t 
+    desc = GOT_Story_Country.734.d 
+    picture = GFX_report_event_GOT_Story_Country734 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.734.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.734 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.734 
+    title = GOT_Story_News.734.t 
+    desc = GOT_Story_News.734.d 
+    picture = GFX_news_event_GOT_Story_News734 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.734.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.735 
+    title = GOT_Story_Country.735.t 
+    desc = GOT_Story_Country.735.d 
+    picture = GFX_report_event_GOT_Story_Country735 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.735.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.735 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.735 
+    title = GOT_Story_News.735.t 
+    desc = GOT_Story_News.735.d 
+    picture = GFX_news_event_GOT_Story_News735 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.735.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.736 
+    title = GOT_Story_Country.736.t 
+    desc = GOT_Story_Country.736.d 
+    picture = GFX_report_event_GOT_Story_Country736 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.736.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.736 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.736 
+    title = GOT_Story_News.736.t 
+    desc = GOT_Story_News.736.d 
+    picture = GFX_news_event_GOT_Story_News736 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.736.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.737 
+    title = GOT_Story_Country.737.t 
+    desc = GOT_Story_Country.737.d 
+    picture = GFX_report_event_GOT_Story_Country737 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.737.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.737 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.737 
+    title = GOT_Story_News.737.t 
+    desc = GOT_Story_News.737.d 
+    picture = GFX_news_event_GOT_Story_News737 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.737.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.738 
+    title = GOT_Story_Country.738.t 
+    desc = GOT_Story_Country.738.d 
+    picture = GFX_report_event_GOT_Story_Country738 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.738.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.738 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.738 
+    title = GOT_Story_News.738.t 
+    desc = GOT_Story_News.738.d 
+    picture = GFX_news_event_GOT_Story_News738 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.738.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.739 
+    title = GOT_Story_Country.739.t 
+    desc = GOT_Story_Country.739.d 
+    picture = GFX_report_event_GOT_Story_Country739 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.739.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.739 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.739 
+    title = GOT_Story_News.739.t 
+    desc = GOT_Story_News.739.d 
+    picture = GFX_news_event_GOT_Story_News739 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.739.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.740 
+    title = GOT_Story_Country.740.t 
+    desc = GOT_Story_Country.740.d 
+    picture = GFX_report_event_GOT_Story_Country740 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.740.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.740 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.740 
+    title = GOT_Story_News.740.t 
+    desc = GOT_Story_News.740.d 
+    picture = GFX_news_event_GOT_Story_News740 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.740.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.741 
+    title = GOT_Story_Country.741.t 
+    desc = GOT_Story_Country.741.d 
+    picture = GFX_report_event_GOT_Story_Country741 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.741.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.741 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.741 
+    title = GOT_Story_News.741.t 
+    desc = GOT_Story_News.741.d 
+    picture = GFX_news_event_GOT_Story_News741 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.741.a 
+    } 
+} 
+ 
+# 
+country_event = { 
+    id = GOT_Story_Country.742 
+    title = GOT_Story_Country.742.t 
+    desc = GOT_Story_Country.742.d 
+    picture = GFX_report_event_GOT_Story_Country742 
+ 
+    trigger = { 
+        tag = ABC 
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.742.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+ 
+        add_stability = 0.05 
+        add_war_support = 0.05 
+        add_political_power = 25 
+        army_experience = 5 
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.742 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# 
+news_event = { 
+    id = GOT_Story_News.742 
+    title = GOT_Story_News.742.t 
+    desc = GOT_Story_News.742.d 
+    picture = GFX_news_event_GOT_Story_News742 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.742.a 
+    } 
+} 
+ 
