@@ -527,13 +527,13 @@ technologies = {
 				is_major = yes
 				date > "1938.1.1"
 			}
-			modifier = {
 
 			modifier = {
 				factor = 1.1
 				date > "1939.1.1"
 			}
-
+			
+			modifier = {
 				factor = 1.1
 				date > "1940.1.1"
 			}

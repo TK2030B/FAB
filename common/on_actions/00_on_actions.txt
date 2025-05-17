@@ -31,11 +31,21 @@ on_actions = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					has_dlc = "Graveyard of Empires"
+				}
+				WIL = {
+					load_oob = WIL_1936_goe
+				}
+			}
+			else = {
+				WIL = {
+					load_oob = WIL_1936
+				}
+			}
 			NWA = {
 				load_oob = NWA_1936
-			}
-			WIL = {
-				load_oob = WIL_1936
 			}
 			DOT = {
 				load_oob = DOT_1936

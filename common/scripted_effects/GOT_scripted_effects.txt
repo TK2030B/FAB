@@ -155,20 +155,25 @@ GOT_start_techs = {
 	
 	if = {
 		limit = {
-			OR = {
-				tag = SUI
-				tag = YTI
-				tag = LEN
-				tag = ASS
-				tag = GHI
-				tag = SOT
-				tag = MRQ
-				tag = NAA
-				tag = ULT
-				tag = WIL
-			}
+			has_dlc = "Graveyard of Empires"
 		}
-		GOT_unlock_elephantry = yes
+		if = {
+			limit = {
+				OR = {
+					tag = SUI
+					tag = YTI
+					tag = LEN
+					tag = ASS
+					tag = GHI
+					tag = SOT
+					tag = MRQ
+					tag = NAA
+					tag = ULT
+					tag = WIL
+				}
+			}
+			GOT_unlock_elephantry = yes
+		}
 	}
 	
 }
