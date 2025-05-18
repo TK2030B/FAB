@@ -15772,7 +15772,7 @@ news_event = {
     } 
 } 
  
-# 
+# 441 — Stannis Sacrifices Shireen
 country_event = { 
     id = GOT_Story_Country.441 
     title = GOT_Story_Country.441.t 
@@ -15809,7 +15809,7 @@ country_event = {
     } 
 } 
  
-# 
+# 441 — Stannis Sacrifices Shireen
 news_event = { 
     id = GOT_Story_News.441 
     title = GOT_Story_News.441.t 
@@ -15823,7 +15823,7 @@ news_event = {
     } 
 } 
  
-# 
+# 442 — Daenerys Escapes on Drogon
 country_event = { 
     id = GOT_Story_Country.442 
     title = GOT_Story_Country.442.t 
@@ -15860,7 +15860,7 @@ country_event = {
     } 
 } 
  
-# 
+# 442 — Daenerys Escapes on Drogon
 news_event = { 
     id = GOT_Story_News.442 
     title = GOT_Story_News.442.t 
@@ -15874,7 +15874,7 @@ news_event = {
     } 
 } 
  
-# 
+# 443 — Arya Spots Meryn Trant
 country_event = { 
     id = GOT_Story_Country.443 
     title = GOT_Story_Country.443.t 
@@ -15911,7 +15911,7 @@ country_event = {
     } 
 } 
  
-# 
+# 443 — Arya Spots Meryn Trant
 news_event = { 
     id = GOT_Story_News.443 
     title = GOT_Story_News.443.t 
@@ -15925,7 +15925,7 @@ news_event = {
     } 
 } 
  
-# 
+# 444 — Jon Returns with the Free Folk
 country_event = { 
     id = GOT_Story_Country.444 
     title = GOT_Story_Country.444.t 
@@ -15962,7 +15962,7 @@ country_event = {
     } 
 } 
  
-# 
+# 444 — Jon Returns with the Free Folk
 news_event = { 
     id = GOT_Story_News.444 
     title = GOT_Story_News.444.t 
@@ -15976,7 +15976,7 @@ news_event = {
     } 
 } 
  
-# 
+# 445 — Jaime’s Accord with Dorne
 country_event = { 
     id = GOT_Story_Country.445 
     title = GOT_Story_Country.445.t 
@@ -16013,7 +16013,7 @@ country_event = {
     } 
 } 
  
-# 
+# 445 — Jaime’s Accord with Dorne
 news_event = { 
     id = GOT_Story_News.445 
     title = GOT_Story_News.445.t 
@@ -16027,7 +16027,7 @@ news_event = {
     } 
 } 
  
-# 
+# 446 — Jon Snow Betrayed at Castle Black
 country_event = { 
     id = GOT_Story_Country.446 
     title = GOT_Story_Country.446.t 
@@ -16064,7 +16064,7 @@ country_event = {
     } 
 } 
  
-# 
+# 446 — Jon Snow Betrayed at Castle Black
 news_event = { 
     id = GOT_Story_News.446 
     title = GOT_Story_News.446.t 
@@ -16078,7 +16078,7 @@ news_event = {
     } 
 } 
  
-# 
+# 447 — Cersei’s Walk of Atonement
 country_event = { 
     id = GOT_Story_Country.447 
     title = GOT_Story_Country.447.t 
@@ -16115,7 +16115,7 @@ country_event = {
     } 
 } 
  
-# 
+# 447 — Cersei’s Walk of Atonement
 news_event = { 
     id = GOT_Story_News.447 
     title = GOT_Story_News.447.t 
@@ -16129,7 +16129,7 @@ news_event = {
     } 
 } 
  
-# 
+# 448 — Stannis Defeated and Slain
 country_event = { 
     id = GOT_Story_Country.448 
     title = GOT_Story_Country.448.t 
@@ -16166,7 +16166,7 @@ country_event = {
     } 
 } 
  
-# 
+# 448 — Stannis Defeated and Slain
 news_event = { 
     id = GOT_Story_News.448 
     title = GOT_Story_News.448.t 
@@ -16180,7 +16180,7 @@ news_event = {
     } 
 } 
  
-# 
+# 449 — Sansa and Theon Escape
 country_event = { 
     id = GOT_Story_Country.449 
     title = GOT_Story_Country.449.t 
@@ -16217,7 +16217,7 @@ country_event = {
     } 
 } 
  
-# 
+# 449 — Sansa and Theon Escape
 news_event = { 
     id = GOT_Story_News.449 
     title = GOT_Story_News.449.t 
@@ -16231,7 +16231,7 @@ news_event = {
     } 
 } 
  
-# 
+# 450 — Arya’s Revenge and Blindness
 country_event = { 
     id = GOT_Story_Country.450 
     title = GOT_Story_Country.450.t 
@@ -16268,7 +16268,7 @@ country_event = {
     } 
 } 
  
-# 
+# 450 — Arya’s Revenge and Blindness
 news_event = { 
     id = GOT_Story_News.450 
     title = GOT_Story_News.450.t 
@@ -16282,7 +16282,7 @@ news_event = {
     } 
 } 
  
-# 
+# 501 — Jon Snow’s Body and the Night’s Watch Mutiny
 country_event = { 
     id = GOT_Story_Country.501 
     title = GOT_Story_Country.501.t 
@@ -16319,7 +16319,7 @@ country_event = {
     } 
 } 
  
-# 
+# 501 — Jon Snow’s Body and the Night’s Watch Mutiny
 news_event = { 
     id = GOT_Story_News.501 
     title = GOT_Story_News.501.t 
@@ -16333,7 +16333,7 @@ news_event = {
     } 
 } 
  
-# 
+# 502 — Brienne Rescues Sansa and Theon
 country_event = { 
     id = GOT_Story_Country.502 
     title = GOT_Story_Country.502.t 
@@ -16370,7 +16370,7 @@ country_event = {
     } 
 } 
  
-# 
+# 502 — Brienne Rescues Sansa and Theon
 news_event = { 
     id = GOT_Story_News.502 
     title = GOT_Story_News.502.t 
@@ -16384,7 +16384,7 @@ news_event = {
     } 
 } 
  
-# 
+# 503 — Ellaria and the Sand Snakes Seize Dorne
 country_event = { 
     id = GOT_Story_Country.503 
     title = GOT_Story_Country.503.t 
@@ -16421,7 +16421,7 @@ country_event = {
     } 
 } 
  
-# 
+# 503 — Ellaria and the Sand Snakes Seize Dorne
 news_event = { 
     id = GOT_Story_News.503 
     title = GOT_Story_News.503.t 
@@ -16435,7 +16435,7 @@ news_event = {
     } 
 } 
  
-# 
+# 504 — Cersei Grieves Myrcella
 country_event = { 
     id = GOT_Story_Country.504 
     title = GOT_Story_Country.504.t 
@@ -16472,7 +16472,7 @@ country_event = {
     } 
 } 
  
-# 
+# 504 — Cersei Grieves Myrcella
 news_event = { 
     id = GOT_Story_News.504 
     title = GOT_Story_News.504.t 
@@ -16486,7 +16486,7 @@ news_event = {
     } 
 } 
  
-# 
+# 505 — Daenerys Captured by Dothraki
 country_event = { 
     id = GOT_Story_Country.505 
     title = GOT_Story_Country.505.t 
@@ -16523,7 +16523,7 @@ country_event = {
     } 
 } 
  
-# 
+# 505 — Daenerys Captured by Dothraki
 news_event = { 
     id = GOT_Story_News.505 
     title = GOT_Story_News.505.t 
@@ -16537,7 +16537,7 @@ news_event = {
     } 
 } 
  
-# 
+# 506 — Jon Snow’s Resurrection
 country_event = { 
     id = GOT_Story_Country.506 
     title = GOT_Story_Country.506.t 
@@ -16574,7 +16574,7 @@ country_event = {
     } 
 } 
  
-# 
+# 506 — Jon Snow’s Resurrection
 news_event = { 
     id = GOT_Story_News.506 
     title = GOT_Story_News.506.t 
@@ -16588,7 +16588,7 @@ news_event = {
     } 
 } 
  
-# 
+# 507 — Ramsay Kills Roose Bolton
 country_event = { 
     id = GOT_Story_Country.507 
     title = GOT_Story_Country.507.t 
@@ -16625,7 +16625,7 @@ country_event = {
     } 
 } 
  
-# 
+# 507 — Ramsay Kills Roose Bolton
 news_event = { 
     id = GOT_Story_News.507 
     title = GOT_Story_News.507.t 
@@ -16639,7 +16639,7 @@ news_event = {
     } 
 } 
  
-# 
+# 508 — Balon Greyjoy Falls from the Bridge
 country_event = { 
     id = GOT_Story_Country.508 
     title = GOT_Story_Country.508.t 
@@ -16676,7 +16676,7 @@ country_event = {
     } 
 } 
  
-# 
+# 508 — Balon Greyjoy Falls from the Bridge
 news_event = { 
     id = GOT_Story_News.508 
     title = GOT_Story_News.508.t 
@@ -16690,7 +16690,7 @@ news_event = {
     } 
 } 
  
-# 
+# 509 — Bran’s Vision of Winterfell’s Past
 country_event = { 
     id = GOT_Story_Country.509 
     title = GOT_Story_Country.509.t 
@@ -16727,7 +16727,7 @@ country_event = {
     } 
 } 
  
-# 
+# 509 — Bran’s Vision of Winterfell’s Past
 news_event = { 
     id = GOT_Story_News.509 
     title = GOT_Story_News.509.t 
@@ -16741,7 +16741,7 @@ news_event = {
     } 
 } 
  
-# 
+# 510 — Tyrion Frees the Dragons
 country_event = { 
     id = GOT_Story_Country.510 
     title = GOT_Story_Country.510.t 
@@ -16778,7 +16778,7 @@ country_event = {
     } 
 } 
  
-# 
+# 510 — Tyrion Frees the Dragons
 news_event = { 
     id = GOT_Story_News.510 
     title = GOT_Story_News.510.t 
@@ -16792,7 +16792,7 @@ news_event = {
     } 
 } 
  
-# 
+# 511 — Jon Executes Traitors and Leaves the Watch
 country_event = { 
     id = GOT_Story_Country.511 
     title = GOT_Story_Country.511.t 
@@ -16829,7 +16829,7 @@ country_event = {
     } 
 } 
  
-# 
+# 511 — Jon Executes Traitors and Leaves the Watch
 news_event = { 
     id = GOT_Story_News.511 
     title = GOT_Story_News.511.t 
@@ -16843,7 +16843,7 @@ news_event = {
     } 
 } 
  
-# 
+# 512 — Bran at the Tower of Joy
 country_event = { 
     id = GOT_Story_Country.512 
     title = GOT_Story_Country.512.t 
@@ -16880,7 +16880,7 @@ country_event = {
     } 
 } 
  
-# 
+# 512 — Bran at the Tower of Joy
 news_event = { 
     id = GOT_Story_News.512 
     title = GOT_Story_News.512.t 
@@ -16894,7 +16894,7 @@ news_event = {
     } 
 } 
  
-# 
+# 513 — Arya Regains Her Sight
 country_event = { 
     id = GOT_Story_Country.513 
     title = GOT_Story_Country.513.t 
@@ -16931,7 +16931,7 @@ country_event = {
     } 
 } 
  
-# 
+# 513 — Arya Regains Her Sight
 news_event = { 
     id = GOT_Story_News.513 
     title = GOT_Story_News.513.t 
@@ -16945,7 +16945,7 @@ news_event = {
     } 
 } 
  
-# 
+# 514 — Rickon Stark Handed to Ramsay
 country_event = { 
     id = GOT_Story_Country.514 
     title = GOT_Story_Country.514.t 
@@ -16982,7 +16982,7 @@ country_event = {
     } 
 } 
  
-# 
+# 514 — Rickon Stark Handed to Ramsay
 news_event = { 
     id = GOT_Story_News.514 
     title = GOT_Story_News.514.t 
@@ -16996,7 +16996,7 @@ news_event = {
     } 
 } 
  
-# 
+# 515 — Daenerys Among the Dosh Khaleen
 country_event = { 
     id = GOT_Story_Country.515 
     title = GOT_Story_Country.515.t 
@@ -17033,7 +17033,7 @@ country_event = {
     } 
 } 
  
-# 
+# 515 — Daenerys Among the Dosh Khaleen
 news_event = { 
     id = GOT_Story_News.515 
     title = GOT_Story_News.515.t 
@@ -17047,7 +17047,7 @@ news_event = {
     } 
 } 
  
-# 
+# 516 — Jon and Sansa Reunite
 country_event = { 
     id = GOT_Story_Country.516 
     title = GOT_Story_Country.516.t 
@@ -17084,7 +17084,7 @@ country_event = {
     } 
 } 
  
-# 
+# 516 — Jon and Sansa Reunite
 news_event = { 
     id = GOT_Story_News.516 
     title = GOT_Story_News.516.t 
@@ -17098,7 +17098,7 @@ news_event = {
     } 
 } 
  
-# 
+# 517 — Daenerys Burns the Khals
 country_event = { 
     id = GOT_Story_Country.517 
     title = GOT_Story_Country.517.t 
@@ -17135,7 +17135,7 @@ country_event = {
     } 
 } 
  
-# 
+# 517 — Daenerys Burns the Khals
 news_event = { 
     id = GOT_Story_News.517 
     title = GOT_Story_News.517.t 
@@ -17149,7 +17149,7 @@ news_event = {
     } 
 } 
  
-# 
+# 518 — Tyrion’s Compromise with the Masters
 country_event = { 
     id = GOT_Story_Country.518 
     title = GOT_Story_Country.518.t 
@@ -17186,7 +17186,7 @@ country_event = {
     } 
 } 
  
-# 
+# 518 — Tyrion’s Compromise with the Masters
 news_event = { 
     id = GOT_Story_News.518 
     title = GOT_Story_News.518.t 
@@ -17200,7 +17200,7 @@ news_event = {
     } 
 } 
  
-# 
+# 519 — Lannister–Tyrell Plot Against the Sparrow
 country_event = { 
     id = GOT_Story_Country.519 
     title = GOT_Story_Country.519.t 
@@ -17237,7 +17237,7 @@ country_event = {
     } 
 } 
  
-# 
+# 519 — Lannister–Tyrell Plot Against the Sparrow
 news_event = { 
     id = GOT_Story_News.519 
     title = GOT_Story_News.519.t 
@@ -17251,7 +17251,7 @@ news_event = {
     } 
 } 
  
-# 
+# 520 — Ramsay Kills Osha
 country_event = { 
     id = GOT_Story_Country.520 
     title = GOT_Story_Country.520.t 
@@ -17288,7 +17288,7 @@ country_event = {
     } 
 } 
  
-# 
+# 520 — Ramsay Kills Osha
 news_event = { 
     id = GOT_Story_News.520 
     title = GOT_Story_News.520.t 
@@ -17302,7 +17302,7 @@ news_event = {
     } 
 } 
  
-# 
+# 521 — Hodor’s Sacrifice and Origin
 country_event = { 
     id = GOT_Story_Country.521 
     title = GOT_Story_Country.521.t 
@@ -17339,7 +17339,7 @@ country_event = {
     } 
 } 
  
-# 
+# 521 — Hodor’s Sacrifice and Origin
 news_event = { 
     id = GOT_Story_News.521 
     title = GOT_Story_News.521.t 
@@ -17353,7 +17353,7 @@ news_event = {
     } 
 } 
  
-# 
+# 522 — Birth of the White Walkers Revealed
 country_event = { 
     id = GOT_Story_Country.522 
     title = GOT_Story_Country.522.t 
@@ -17390,7 +17390,7 @@ country_event = {
     } 
 } 
  
-# 
+# 522 — Birth of the White Walkers Revealed
 news_event = { 
     id = GOT_Story_News.522 
     title = GOT_Story_News.522.t 
@@ -17404,7 +17404,7 @@ news_event = {
     } 
 } 
  
-# 
+# 523 — Euron Crowned at the Kingsmoot
 country_event = { 
     id = GOT_Story_Country.523 
     title = GOT_Story_Country.523.t 
@@ -17441,7 +17441,7 @@ country_event = {
     } 
 } 
  
-# 
+# 523 — Euron Crowned at the Kingsmoot
 news_event = { 
     id = GOT_Story_News.523 
     title = GOT_Story_News.523.t 
@@ -17455,7 +17455,7 @@ news_event = {
     } 
 } 
  
-# 
+# 524 — Arya’s Next Target: Lady Crane
 country_event = { 
     id = GOT_Story_Country.524 
     title = GOT_Story_Country.524.t 
@@ -17492,7 +17492,7 @@ country_event = {
     } 
 } 
  
-# 
+# 524 — Arya’s Next Target: Lady Crane
 news_event = { 
     id = GOT_Story_News.524 
     title = GOT_Story_News.524.t 
@@ -17506,7 +17506,7 @@ news_event = {
     } 
 } 
  
-# 
+# 525 — Sansa Confronts Littlefinger
 country_event = { 
     id = GOT_Story_Country.525 
     title = GOT_Story_Country.525.t 
@@ -17543,7 +17543,7 @@ country_event = {
     } 
 } 
  
-# 
+# 525 — Sansa Confronts Littlefinger
 news_event = { 
     id = GOT_Story_News.525 
     title = GOT_Story_News.525.t 
@@ -17557,7 +17557,7 @@ news_event = {
     } 
 } 
  
-# 
+# 526 — Benjen Stark Returns
 country_event = { 
     id = GOT_Story_Country.526 
     title = GOT_Story_Country.526.t 
@@ -17594,7 +17594,7 @@ country_event = {
     } 
 } 
  
-# 
+# 526 — Benjen Stark Returns
 news_event = { 
     id = GOT_Story_News.526 
     title = GOT_Story_News.526.t 
@@ -17608,7 +17608,7 @@ news_event = {
     } 
 } 
  
-# 
+# 527 — Tommen Unites Crown and Faith
 country_event = { 
     id = GOT_Story_Country.527 
     title = GOT_Story_Country.527.t 
@@ -17645,7 +17645,7 @@ country_event = {
     } 
 } 
  
-# 
+# 527 — Tommen Unites Crown and Faith
 news_event = { 
     id = GOT_Story_News.527 
     title = GOT_Story_News.527.t 
@@ -17659,7 +17659,7 @@ news_event = {
     } 
 } 
  
-# 
+# 528 — Arya Rejects the Faceless Men
 country_event = { 
     id = GOT_Story_Country.528 
     title = GOT_Story_Country.528.t 
@@ -17696,7 +17696,7 @@ country_event = {
     } 
 } 
  
-# 
+# 528 — Arya Rejects the Faceless Men
 news_event = { 
     id = GOT_Story_News.528 
     title = GOT_Story_News.528.t 
@@ -17710,7 +17710,7 @@ news_event = {
     } 
 } 
  
-# 
+# 529 — Sam Steals Heartsbane
 country_event = { 
     id = GOT_Story_Country.529 
     title = GOT_Story_Country.529.t 
@@ -17747,7 +17747,7 @@ country_event = {
     } 
 } 
  
-# 
+# 529 — Sam Steals Heartsbane
 news_event = { 
     id = GOT_Story_News.529 
     title = GOT_Story_News.529.t 
@@ -17761,7 +17761,7 @@ news_event = {
     } 
 } 
  
-# 
+# 530 — Daenerys Rallies the Dothraki
 country_event = { 
     id = GOT_Story_Country.530 
     title = GOT_Story_Country.530.t 
@@ -17798,7 +17798,7 @@ country_event = {
     } 
 } 
  
-# 
+# 530 — Daenerys Rallies the Dothraki
 news_event = { 
     id = GOT_Story_News.530 
     title = GOT_Story_News.530.t 
@@ -17812,7 +17812,7 @@ news_event = {
     } 
 } 
  
-# 
+# 531 — The Hound’s Return
 country_event = { 
     id = GOT_Story_Country.531 
     title = GOT_Story_Country.531.t 
@@ -17849,8 +17849,7 @@ country_event = {
     } 
 } 
  
-# 
-news_event = { 
+# 531 — The Hound’s Returnnews_event = { 
     id = GOT_Story_News.531 
     title = GOT_Story_News.531.t 
     desc = GOT_Story_News.531.d 
@@ -17863,7 +17862,7 @@ news_event = {
     } 
 } 
  
-# 
+# 532 — Siege of Riverrun
 country_event = { 
     id = GOT_Story_Country.532 
     title = GOT_Story_Country.532.t 
@@ -17900,7 +17899,7 @@ country_event = {
     } 
 } 
  
-# 
+# 532 — Siege of Riverrun
 news_event = { 
     id = GOT_Story_News.532 
     title = GOT_Story_News.532.t 
@@ -17914,7 +17913,7 @@ news_event = {
     } 
 } 
  
-# 
+# 533 — Margaery’s Hidden Rose
 country_event = { 
     id = GOT_Story_Country.533 
     title = GOT_Story_Country.533.t 
@@ -17951,7 +17950,7 @@ country_event = {
     } 
 } 
  
-# 
+# 533 — Margaery’s Hidden Rose
 news_event = { 
     id = GOT_Story_News.533 
     title = GOT_Story_News.533.t 
@@ -17965,7 +17964,7 @@ news_event = {
     } 
 } 
  
-# 
+# 534 — Arya Ambushed in Braavos
 country_event = { 
     id = GOT_Story_Country.534 
     title = GOT_Story_Country.534.t 
@@ -18002,7 +18001,7 @@ country_event = {
     } 
 } 
  
-# 
+# 534 — Arya Ambushed in Braavos
 news_event = { 
     id = GOT_Story_News.534 
     title = GOT_Story_News.534.t 
@@ -18016,7 +18015,7 @@ news_event = {
     } 
 } 
  
-# 
+# 535 — House Mormont Recruited
 country_event = { 
     id = GOT_Story_Country.535 
     title = GOT_Story_Country.535.t 
@@ -18053,7 +18052,7 @@ country_event = {
     } 
 } 
  
-# 
+# 535 — House Mormont Recruited
 news_event = { 
     id = GOT_Story_News.535 
     title = GOT_Story_News.535.t 
@@ -18067,7 +18066,7 @@ news_event = {
     } 
 } 
  
-# 
+# 536 — Arya Reclaims Her Name
 country_event = { 
     id = GOT_Story_Country.536 
     title = GOT_Story_Country.536.t 
@@ -18104,7 +18103,7 @@ country_event = {
     } 
 } 
  
-# 
+# 536 — Arya Reclaims Her Name
 news_event = { 
     id = GOT_Story_News.536 
     title = GOT_Story_News.536.t 
@@ -18118,7 +18117,7 @@ news_event = {
     } 
 } 
  
-# 
+# 537 — Riverrun Falls
 country_event = { 
     id = GOT_Story_Country.537 
     title = GOT_Story_Country.537.t 
@@ -18155,7 +18154,7 @@ country_event = {
     } 
 } 
  
-# 
+# 537 — Riverrun Falls
 news_event = { 
     id = GOT_Story_News.537 
     title = GOT_Story_News.537.t 
@@ -18169,7 +18168,7 @@ news_event = {
     } 
 } 
  
-# 
+# 538 — Trial by Combat Abolished
 country_event = { 
     id = GOT_Story_Country.538 
     title = GOT_Story_Country.538.t 
@@ -18206,7 +18205,7 @@ country_event = {
     } 
 } 
  
-# 
+# 538 — Trial by Combat Abolished
 news_event = { 
     id = GOT_Story_News.538 
     title = GOT_Story_News.538.t 
@@ -18220,7 +18219,7 @@ news_event = {
     } 
 } 
  
-# 
+# 539 — The Hound Joins the Brotherhood
 country_event = { 
     id = GOT_Story_Country.539 
     title = GOT_Story_Country.539.t 
@@ -18257,7 +18256,7 @@ country_event = {
     } 
 } 
  
-# 
+# 539 — The Hound Joins the Brotherhood
 news_event = { 
     id = GOT_Story_News.539 
     title = GOT_Story_News.539.t 
@@ -18271,7 +18270,7 @@ news_event = {
     } 
 } 
  
-# 
+# 540 — Daenerys Returns During the Siege
 country_event = { 
     id = GOT_Story_Country.540 
     title = GOT_Story_Country.540.t 
@@ -18308,7 +18307,7 @@ country_event = {
     } 
 } 
  
-# 
+# 540 — Daenerys Returns During the Siege
 news_event = { 
     id = GOT_Story_News.540 
     title = GOT_Story_News.540.t 
@@ -18322,7 +18321,7 @@ news_event = {
     } 
 } 
  
-# 
+# 541 — The Battle for Winterfell
 country_event = { 
     id = GOT_Story_Country.541 
     title = GOT_Story_Country.541.t 
@@ -18359,7 +18358,7 @@ country_event = {
     } 
 } 
  
-# 
+# 541 — The Battle for Winterfell
 news_event = { 
     id = GOT_Story_News.541 
     title = GOT_Story_News.541.t 
@@ -18373,7 +18372,7 @@ news_event = {
     } 
 } 
  
-# 
+# 542 — Ramsay Bolton’s Fate
 country_event = { 
     id = GOT_Story_Country.542 
     title = GOT_Story_Country.542.t 
@@ -18410,7 +18409,7 @@ country_event = {
     } 
 } 
  
-# 
+# 542 — Ramsay Bolton’s Fate
 news_event = { 
     id = GOT_Story_News.542 
     title = GOT_Story_News.542.t 
@@ -18424,7 +18423,7 @@ news_event = {
     } 
 } 
  
-# 
+# 543 — Death of Rickon Stark
 country_event = { 
     id = GOT_Story_Country.543 
     title = GOT_Story_Country.543.t 
@@ -18461,7 +18460,7 @@ country_event = {
     } 
 } 
  
-# 
+# 543 — Death of Rickon Stark
 news_event = { 
     id = GOT_Story_News.543 
     title = GOT_Story_News.543.t 
@@ -18475,7 +18474,7 @@ news_event = {
     } 
 } 
  
-# 
+# 544 — Dragons Break the Slaver Fleet
 country_event = { 
     id = GOT_Story_Country.544 
     title = GOT_Story_Country.544.t 
@@ -18512,7 +18511,7 @@ country_event = {
     } 
 } 
  
-# 
+# 544 — Dragons Break the Slaver Fleet
 news_event = { 
     id = GOT_Story_News.544 
     title = GOT_Story_News.544.t 
@@ -18526,7 +18525,7 @@ news_event = {
     } 
 } 
  
-# 
+# 545 — Pact with the Greyjoys
 country_event = { 
     id = GOT_Story_Country.545 
     title = GOT_Story_Country.545.t 
@@ -18563,7 +18562,7 @@ country_event = {
     } 
 } 
  
-# 
+# 545 — Pact with the Greyjoys
 news_event = { 
     id = GOT_Story_News.545 
     title = GOT_Story_News.545.t 
@@ -18577,7 +18576,7 @@ news_event = {
     } 
 } 
  
-# 
+# 546 — Wildfire at the Sept
 country_event = { 
     id = GOT_Story_Country.546 
     title = GOT_Story_Country.546.t 
@@ -18614,7 +18613,7 @@ country_event = {
     } 
 } 
  
-# 
+# 546 — Wildfire at the Sept
 news_event = { 
     id = GOT_Story_News.546 
     title = GOT_Story_News.546.t 
@@ -18628,7 +18627,7 @@ news_event = {
     } 
 } 
  
-# 
+# 547 — Jon’s Parentage Unveiled
 country_event = { 
     id = GOT_Story_Country.547 
     title = GOT_Story_Country.547.t 
@@ -18665,7 +18664,7 @@ country_event = {
     } 
 } 
  
-# 
+# 547 — Jon’s Parentage Unveiled
 news_event = { 
     id = GOT_Story_News.547 
     title = GOT_Story_News.547.t 
@@ -18679,7 +18678,7 @@ news_event = {
     } 
 } 
  
-# 
+# 548 — Red Wedding Vengeance
 country_event = { 
     id = GOT_Story_Country.548 
     title = GOT_Story_Country.548.t 
@@ -18716,7 +18715,7 @@ country_event = {
     } 
 } 
  
-# 
+# 548 — Red Wedding Vengeance
 news_event = { 
     id = GOT_Story_News.548 
     title = GOT_Story_News.548.t 
@@ -18730,7 +18729,7 @@ news_event = {
     } 
 } 
  
-# 
+# 549 — King in the North
 country_event = { 
     id = GOT_Story_Country.549 
     title = GOT_Story_Country.549.t 
@@ -18767,7 +18766,7 @@ country_event = {
     } 
 } 
  
-# 
+# 549 — King in the North
 news_event = { 
     id = GOT_Story_News.549 
     title = GOT_Story_News.549.t 
@@ -18781,7 +18780,7 @@ news_event = {
     } 
 } 
  
-# 
+# 550 — Daenerys Sails West
 country_event = { 
     id = GOT_Story_Country.550 
     title = GOT_Story_Country.550.t 
@@ -18818,7 +18817,7 @@ country_event = {
     } 
 } 
  
-# 
+# 550 — Daenerys Sails West
 news_event = { 
     id = GOT_Story_News.550 
     title = GOT_Story_News.550.t 
@@ -18832,7 +18831,7 @@ news_event = {
     } 
 } 
  
-# 
+# 601 — Arya Eliminates House Frey
 country_event = { 
     id = GOT_Story_Country.601 
     title = GOT_Story_Country.601.t 
@@ -18869,7 +18868,7 @@ country_event = {
     } 
 } 
  
-# 
+# 601 — Arya Eliminates House Frey
 news_event = { 
     id = GOT_Story_News.601 
     title = GOT_Story_News.601.t 
@@ -18883,7 +18882,7 @@ news_event = {
     } 
 } 
  
-# 
+# 602 — Jon and Sansa Dispute Punishment
 country_event = { 
     id = GOT_Story_Country.602 
     title = GOT_Story_Country.602.t 
@@ -18920,7 +18919,7 @@ country_event = {
     } 
 } 
  
-# 
+# 602 — Jon and Sansa Dispute Punishment
 news_event = { 
     id = GOT_Story_News.602 
     title = GOT_Story_News.602.t 
@@ -18934,7 +18933,7 @@ news_event = {
     } 
 } 
  
-# 
+# 603 — Cersei Courts the Iron Fleet
 country_event = { 
     id = GOT_Story_Country.603 
     title = GOT_Story_Country.603.t 
@@ -18971,7 +18970,7 @@ country_event = {
     } 
 } 
  
-# 
+# 603 — Cersei Courts the Iron Fleet
 news_event = { 
     id = GOT_Story_News.603 
     title = GOT_Story_News.603.t 
@@ -18985,7 +18984,7 @@ news_event = {
     } 
 } 
  
-# 
+# 604 — Dragonglass Cache Found
 country_event = { 
     id = GOT_Story_Country.604 
     title = GOT_Story_Country.604.t 
@@ -19022,7 +19021,7 @@ country_event = {
     } 
 } 
  
-# 
+# 604 — Dragonglass Cache Found
 news_event = { 
     id = GOT_Story_News.604 
     title = GOT_Story_News.604.t 
@@ -19036,7 +19035,7 @@ news_event = {
     } 
 } 
  
-# 
+# 605 — Bran Reaches the Wall
 country_event = { 
     id = GOT_Story_Country.605 
     title = GOT_Story_Country.605.t 
@@ -19073,7 +19072,7 @@ country_event = {
     } 
 } 
  
-# 
+# 605 — Bran Reaches the Wall
 news_event = { 
     id = GOT_Story_News.605 
     title = GOT_Story_News.605.t 
@@ -19087,7 +19086,7 @@ news_event = {
     } 
 } 
  
-# 
+# 606 — The Hound’s Fiery Vision
 country_event = { 
     id = GOT_Story_Country.606 
     title = GOT_Story_Country.606.t 
@@ -19124,7 +19123,7 @@ country_event = {
     } 
 } 
  
-# 
+# 606 — The Hound’s Fiery Vision
 news_event = { 
     id = GOT_Story_News.606 
     title = GOT_Story_News.606.t 
@@ -19138,7 +19137,7 @@ news_event = {
     } 
 } 
  
-# 
+# 607 — Daenerys Lands at Dragonstone
 country_event = { 
     id = GOT_Story_Country.607 
     title = GOT_Story_Country.607.t 
@@ -19175,7 +19174,7 @@ country_event = {
     } 
 } 
  
-# 
+# 607 — Daenerys Lands at Dragonstone
 news_event = { 
     id = GOT_Story_News.607 
     title = GOT_Story_News.607.t 
@@ -19189,7 +19188,7 @@ news_event = {
     } 
 } 
  
-# 
+# 608 — Daenerys Confronts Varys
 country_event = { 
     id = GOT_Story_Country.608 
     title = GOT_Story_Country.608.t 
@@ -19226,7 +19225,7 @@ country_event = {
     } 
 } 
  
-# 
+# 608 — Daenerys Confronts Varys
 news_event = { 
     id = GOT_Story_News.608 
     title = GOT_Story_News.608.t 
@@ -19240,7 +19239,7 @@ news_event = {
     } 
 } 
  
-# 
+# 609 — Melisandre’s Counsel
 country_event = { 
     id = GOT_Story_Country.609 
     title = GOT_Story_Country.609.t 
@@ -19277,7 +19276,7 @@ country_event = {
     } 
 } 
  
-# 
+# 609 — Melisandre’s Counsel
 news_event = { 
     id = GOT_Story_News.609 
     title = GOT_Story_News.609.t 
@@ -19291,7 +19290,7 @@ news_event = {
     } 
 } 
  
-# 
+# 610 — Jon Journeys South
 country_event = { 
     id = GOT_Story_Country.610 
     title = GOT_Story_Country.610.t 
@@ -19328,7 +19327,7 @@ country_event = {
     } 
 } 
  
-# 
+# 610 — Jon Journeys South
 news_event = { 
     id = GOT_Story_News.610 
     title = GOT_Story_News.610.t 
@@ -19342,7 +19341,7 @@ news_event = {
     } 
 } 
  
-# 
+# 611 — Cersei Courts the Reach
 country_event = { 
     id = GOT_Story_Country.611 
     title = GOT_Story_Country.611.t 
@@ -19379,7 +19378,7 @@ country_event = {
     } 
 } 
  
-# 
+# 611 — Cersei Courts the Reach
 news_event = { 
     id = GOT_Story_News.611 
     title = GOT_Story_News.611.t 
@@ -19393,7 +19392,7 @@ news_event = {
     } 
 } 
  
-# 
+# 612 — Arya and Nymeria
 country_event = { 
     id = GOT_Story_Country.612 
     title = GOT_Story_Country.612.t 
@@ -19430,7 +19429,7 @@ country_event = {
     } 
 } 
  
-# 
+# 612 — Arya and Nymeria
 news_event = { 
     id = GOT_Story_News.612 
     title = GOT_Story_News.612.t 
@@ -19444,7 +19443,7 @@ news_event = {
     } 
 } 
  
-# 
+# 613 — Euron’s Midnight Raid
 country_event = { 
     id = GOT_Story_Country.613 
     title = GOT_Story_Country.613.t 
@@ -19481,7 +19480,7 @@ country_event = {
     } 
 } 
  
-# 
+# 613 — Euron’s Midnight Raid
 news_event = { 
     id = GOT_Story_News.613 
     title = GOT_Story_News.613.t 
@@ -19495,7 +19494,7 @@ news_event = {
     } 
 } 
  
-# 
+# 614 — Sam Heals the Stone Man
 country_event = { 
     id = GOT_Story_Country.614 
     title = GOT_Story_Country.614.t 
@@ -19532,7 +19531,7 @@ country_event = {
     } 
 } 
  
-# 
+# 614 — Sam Heals the Stone Man
 news_event = { 
     id = GOT_Story_News.614 
     title = GOT_Story_News.614.t 
@@ -19546,7 +19545,7 @@ news_event = {
     } 
 } 
  
-# 
+# 615 — Jon Meets Daenerys
 country_event = { 
     id = GOT_Story_Country.615 
     title = GOT_Story_Country.615.t 
@@ -19583,7 +19582,7 @@ country_event = {
     } 
 } 
  
-# 
+# 615 — Jon Meets Daenerys
 news_event = { 
     id = GOT_Story_News.615 
     title = GOT_Story_News.615.t 
@@ -19597,7 +19596,7 @@ news_event = {
     } 
 } 
  
-# 
+# 616 — Cersei’s Poisoned Justice
 country_event = { 
     id = GOT_Story_Country.616 
     title = GOT_Story_Country.616.t 
@@ -19634,7 +19633,7 @@ country_event = {
     } 
 } 
  
-# 
+# 616 — Cersei’s Poisoned Justice
 news_event = { 
     id = GOT_Story_News.616 
     title = GOT_Story_News.616.t 
@@ -19648,7 +19647,7 @@ news_event = {
     } 
 } 
  
-# 
+# 617 — Fall of Highgarden
 country_event = { 
     id = GOT_Story_Country.617 
     title = GOT_Story_Country.617.t 
@@ -19685,7 +19684,7 @@ country_event = {
     } 
 } 
  
-# 
+# 617 — Fall of Highgarden
 news_event = { 
     id = GOT_Story_News.617 
     title = GOT_Story_News.617.t 
@@ -19699,7 +19698,7 @@ news_event = {
     } 
 } 
  
-# 
+# 618 — Bran Comes Home
 country_event = { 
     id = GOT_Story_Country.618 
     title = GOT_Story_Country.618.t 
@@ -19736,7 +19735,7 @@ country_event = {
     } 
 } 
  
-# 
+# 618 — Bran Comes Home
 news_event = { 
     id = GOT_Story_News.618 
     title = GOT_Story_News.618.t 
@@ -19750,7 +19749,7 @@ news_event = {
     } 
 } 
  
-# 
+# 619 — Jorah Healed
 country_event = { 
     id = GOT_Story_Country.619 
     title = GOT_Story_Country.619.t 
@@ -19787,7 +19786,7 @@ country_event = {
     } 
 } 
  
-# 
+# 619 — Jorah Healed
 news_event = { 
     id = GOT_Story_News.619 
     title = GOT_Story_News.619.t 
@@ -19801,7 +19800,7 @@ news_event = {
     } 
 } 
  
-# 
+# 620 — Euron’s Triumph
 country_event = { 
     id = GOT_Story_Country.620 
     title = GOT_Story_Country.620.t 
@@ -19838,7 +19837,7 @@ country_event = {
     } 
 } 
  
-# 
+# 620 — Euron’s Triumph
 news_event = { 
     id = GOT_Story_News.620 
     title = GOT_Story_News.620.t 
@@ -19852,7 +19851,7 @@ news_event = {
     } 
 } 
  
-# 
+# 621 — Davos Introduces the King in the North
 country_event = { 
     id = GOT_Story_Country.621 
     title = GOT_Story_Country.621.t 
@@ -19889,7 +19888,7 @@ country_event = {
     } 
 } 
  
-# 
+# 621 — Davos Introduces the King in the North
 news_event = { 
     id = GOT_Story_News.621 
     title = GOT_Story_News.621.t 
