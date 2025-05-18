@@ -16391,6 +16391,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.1.1
+        date < 1941.2.1
     } 
  
     fire_only_once = yes 
@@ -16442,6 +16444,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.1.1
+        date < 1941.2.1
     } 
  
     fire_only_once = yes 
@@ -16493,6 +16497,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.1.1
+        date < 1941.2.1
     } 
  
     fire_only_once = yes 
@@ -16544,6 +16550,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.1.1
+        date < 1941.2.1
     } 
  
     fire_only_once = yes 
@@ -16595,6 +16603,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.1.1
+        date < 1941.2.1
     } 
  
     fire_only_once = yes 
@@ -16646,6 +16656,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.2.5
+        date < 1941.3.5
     } 
  
     fire_only_once = yes 
@@ -16697,6 +16709,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.2.5
+        date < 1941.3.5
     } 
  
     fire_only_once = yes 
@@ -16748,6 +16762,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.2.5
+        date < 1941.3.5
     } 
  
     fire_only_once = yes 
@@ -16799,6 +16815,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.2.5
+        date < 1941.3.5
     } 
  
     fire_only_once = yes 
@@ -16850,6 +16868,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.2.5
+        date < 1941.3.5
     } 
  
     fire_only_once = yes 
@@ -16900,7 +16920,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country511 
  
     trigger = { 
-        tag = ABC 
+        tag = ABC
+		date > 1941.3.10
+        date < 1941.4.10	
     } 
  
     fire_only_once = yes 
@@ -16952,6 +16974,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.3.10
+        date < 1941.4.10	
     } 
  
     fire_only_once = yes 
@@ -17003,6 +17027,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.3.10
+        date < 1941.4.10	
     } 
  
     fire_only_once = yes 
@@ -17054,6 +17080,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.3.10
+        date < 1941.4.10	
     } 
  
     fire_only_once = yes 
@@ -17105,6 +17133,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.3.10
+        date < 1941.4.10	
     } 
  
     fire_only_once = yes 
@@ -17156,6 +17186,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.4.15
+        date < 1941.5.15	
     } 
  
     fire_only_once = yes 
@@ -17207,6 +17239,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.4.15
+        date < 1941.5.15
     } 
  
     fire_only_once = yes 
@@ -17258,6 +17292,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.4.15
+        date < 1941.5.15
     } 
  
     fire_only_once = yes 
@@ -17309,6 +17345,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.4.15
+        date < 1941.5.15
     } 
  
     fire_only_once = yes 
@@ -17360,6 +17398,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.4.15
+        date < 1941.5.15
     } 
  
     fire_only_once = yes 
@@ -17411,6 +17451,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.5.20
+        date < 1941.6.20
     } 
  
     fire_only_once = yes 
@@ -17462,6 +17504,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.5.20
+        date < 1941.6.20
     } 
  
     fire_only_once = yes 
@@ -17513,6 +17557,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.5.20
+        date < 1941.6.20
     } 
  
     fire_only_once = yes 
@@ -17564,6 +17610,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.5.20
+        date < 1941.6.20
     } 
  
     fire_only_once = yes 
@@ -17615,6 +17663,8 @@ country_event = {
  
     trigger = { 
         tag = ABC 
+		date > 1941.5.20
+        date < 1941.6.20
     } 
  
     fire_only_once = yes 
