@@ -19902,7 +19902,7 @@ news_event = {
     } 
 } 
  
-# 
+# 622 — Dragonfire on the Gold Road
 country_event = { 
     id = GOT_Story_Country.622 
     title = GOT_Story_Country.622.t 
@@ -19939,7 +19939,7 @@ country_event = {
     } 
 } 
  
-# 
+# 622 — Dragonfire on the Gold Road
 news_event = { 
     id = GOT_Story_News.622 
     title = GOT_Story_News.622.t 
@@ -19953,7 +19953,7 @@ news_event = {
     } 
 } 
  
-# 
+# 623 — Drogon Wounded
 country_event = { 
     id = GOT_Story_Country.623 
     title = GOT_Story_Country.623.t 
@@ -19990,7 +19990,7 @@ country_event = {
     } 
 } 
  
-# 
+# 623 — Drogon Wounded
 news_event = { 
     id = GOT_Story_News.623 
     title = GOT_Story_News.623.t 
@@ -20004,7 +20004,7 @@ news_event = {
     } 
 } 
  
-# 
+# 624 — Jaime’s Reckless Charge
 country_event = { 
     id = GOT_Story_Country.624 
     title = GOT_Story_Country.624.t 
@@ -20041,7 +20041,7 @@ country_event = {
     } 
 } 
  
-# 
+# 624 — Jaime’s Reckless Charge
 news_event = { 
     id = GOT_Story_News.624 
     title = GOT_Story_News.624.t 
@@ -20055,7 +20055,7 @@ news_event = {
     } 
 } 
  
-# 
+# 625 — Arya at Winterfell
 country_event = { 
     id = GOT_Story_Country.625 
     title = GOT_Story_Country.625.t 
@@ -20092,7 +20092,7 @@ country_event = {
     } 
 } 
  
-# 
+# 625 — Arya at Winterfell
 news_event = { 
     id = GOT_Story_News.625 
     title = GOT_Story_News.625.t 
@@ -20106,7 +20106,7 @@ news_event = {
     } 
 } 
  
-# 
+# 626 — Valyrian Gift
 country_event = { 
     id = GOT_Story_Country.626 
     title = GOT_Story_Country.626.t 
@@ -20143,7 +20143,7 @@ country_event = {
     } 
 } 
  
-# 
+# 626 — Valyrian Gift
 news_event = { 
     id = GOT_Story_News.626 
     title = GOT_Story_News.626.t 
@@ -20157,7 +20157,7 @@ news_event = {
     } 
 } 
  
-# 
+# 627 — Truth in the Stone
 country_event = { 
     id = GOT_Story_Country.627 
     title = GOT_Story_Country.627.t 
@@ -20194,7 +20194,7 @@ country_event = {
     } 
 } 
  
-# 
+# 627 — Truth in the Stone
 news_event = { 
     id = GOT_Story_News.627 
     title = GOT_Story_News.627.t 
@@ -20208,7 +20208,7 @@ news_event = {
     } 
 } 
  
-# 
+# 628 — Cersei and the Iron Bank
 country_event = { 
     id = GOT_Story_Country.628 
     title = GOT_Story_Country.628.t 
@@ -20245,7 +20245,7 @@ country_event = {
     } 
 } 
  
-# 
+# 628 — Cersei and the Iron Bank
 news_event = { 
     id = GOT_Story_News.628 
     title = GOT_Story_News.628.t 
@@ -20259,7 +20259,7 @@ news_event = {
     } 
 } 
  
-# 
+# 629 — A Dragon’s Acceptance
 country_event = { 
     id = GOT_Story_Country.629 
     title = GOT_Story_Country.629.t 
@@ -20296,7 +20296,7 @@ country_event = {
     } 
 } 
  
-# 
+# 629 — A Dragon’s Acceptance
 news_event = { 
     id = GOT_Story_News.629 
     title = GOT_Story_News.629.t 
@@ -20310,7 +20310,7 @@ news_event = {
     } 
 } 
  
-# 
+# 630 — Trial by Fire for House Tarly
 country_event = { 
     id = GOT_Story_Country.630 
     title = GOT_Story_Country.630.t 
@@ -20347,7 +20347,7 @@ country_event = {
     } 
 } 
  
-# 
+# 630 — Trial by Fire for House Tarly
 news_event = { 
     id = GOT_Story_News.630 
     title = GOT_Story_News.630.t 
@@ -20361,7 +20361,7 @@ news_event = {
     } 
 } 
  
-# 
+# 631 — The Smith of King’s Landing
 country_event = { 
     id = GOT_Story_Country.631 
     title = GOT_Story_Country.631.t 
@@ -20398,7 +20398,7 @@ country_event = {
     } 
 } 
  
-# 
+# 631 — The Smith of King’s Landing
 news_event = { 
     id = GOT_Story_News.631 
     title = GOT_Story_News.631.t 
@@ -20412,7 +20412,7 @@ news_event = {
     } 
 } 
  
-# 
+# 632 — Mission Beyond the Wall
 country_event = { 
     id = GOT_Story_Country.632 
     title = GOT_Story_Country.632.t 
@@ -20449,7 +20449,7 @@ country_event = {
     } 
 } 
  
-# 
+# 632 — Mission Beyond the Wall
 news_event = { 
     id = GOT_Story_News.632 
     title = GOT_Story_News.632.t 
@@ -20463,7 +20463,7 @@ news_event = {
     } 
 } 
  
-# 
+# 633 — Shadows Between Sisters
 country_event = { 
     id = GOT_Story_Country.633 
     title = GOT_Story_Country.633.t 
@@ -20500,7 +20500,7 @@ country_event = {
     } 
 } 
  
-# 
+# 633 — Shadows Between Sisters
 news_event = { 
     id = GOT_Story_News.633 
     title = GOT_Story_News.633.t 
@@ -20514,7 +20514,7 @@ news_event = {
     } 
 } 
  
-# 
+# 634 — Queen’s New Heir?
 country_event = { 
     id = GOT_Story_Country.634 
     title = GOT_Story_Country.634.t 
@@ -20551,7 +20551,7 @@ country_event = {
     } 
 } 
  
-# 
+# 634 — Queen’s New Heir?
 news_event = { 
     id = GOT_Story_News.634 
     title = GOT_Story_News.634.t 
@@ -20565,7 +20565,7 @@ news_event = {
     } 
 } 
  
-# 
+# 635 — Departure from the Citadel
 country_event = { 
     id = GOT_Story_Country.635 
     title = GOT_Story_Country.635.t 
@@ -20602,7 +20602,7 @@ country_event = {
     } 
 } 
  
-# 
+# 635 — Departure from the Citadel
 news_event = { 
     id = GOT_Story_News.635 
     title = GOT_Story_News.635.t 
@@ -20616,7 +20616,7 @@ news_event = {
     } 
 } 
  
-# 
+# 636 — Proof at a Terrible Price
 country_event = { 
     id = GOT_Story_Country.636 
     title = GOT_Story_Country.636.t 
@@ -20653,7 +20653,7 @@ country_event = {
     } 
 } 
  
-# 
+# 636 — Proof at a Terrible Price
 news_event = { 
     id = GOT_Story_News.636 
     title = GOT_Story_News.636.t 
@@ -20667,7 +20667,7 @@ news_event = {
     } 
 } 
  
-# 
+# 637 — A Red Priest Falls
 country_event = { 
     id = GOT_Story_Country.637 
     title = GOT_Story_Country.637.t 
@@ -20704,7 +20704,7 @@ country_event = {
     } 
 } 
  
-# 
+# 637 — A Red Priest Falls
 news_event = { 
     id = GOT_Story_News.637 
     title = GOT_Story_News.637.t 
@@ -20718,7 +20718,7 @@ news_event = {
     } 
 } 
  
-# 
+# 638 — Hammer in Hand, Feet of Wind
 country_event = { 
     id = GOT_Story_Country.638 
     title = GOT_Story_Country.638.t 
@@ -20755,7 +20755,7 @@ country_event = {
     } 
 } 
  
-# 
+# 638 — Hammer in Hand, Feet of Wind
 news_event = { 
     id = GOT_Story_News.638 
     title = GOT_Story_News.638.t 
@@ -20769,7 +20769,7 @@ news_event = {
     } 
 } 
  
-# 
+# 639 — Fire Rolls Across the Sky
 country_event = { 
     id = GOT_Story_Country.639 
     title = GOT_Story_Country.639.t 
@@ -20806,7 +20806,7 @@ country_event = {
     } 
 } 
  
-# 
+# 639 — Fire Rolls Across the Sky
 news_event = { 
     id = GOT_Story_News.639 
     title = GOT_Story_News.639.t 
@@ -20820,7 +20820,7 @@ news_event = {
     } 
 } 
  
-# 
+# 640 — The Fall of Viserion
 country_event = { 
     id = GOT_Story_Country.640 
     title = GOT_Story_Country.640.t 
@@ -20857,7 +20857,7 @@ country_event = {
     } 
 } 
  
-# 
+# 640 — The Fall of Viserion
 news_event = { 
     id = GOT_Story_News.640 
     title = GOT_Story_News.640.t 
@@ -20871,7 +20871,7 @@ news_event = {
     } 
 } 
  
-# 
+# 641 — Last Ride of Benjen Stark
 country_event = { 
     id = GOT_Story_Country.641 
     title = GOT_Story_Country.641.t 
@@ -20908,7 +20908,7 @@ country_event = {
     } 
 } 
  
-# 
+# 641 — Last Ride of Benjen Stark
 news_event = { 
     id = GOT_Story_News.641 
     title = GOT_Story_News.641.t 
@@ -20922,7 +20922,7 @@ news_event = {
     } 
 } 
  
-# 
+# 642 — A Queen Acknowledged
 country_event = { 
     id = GOT_Story_Country.642 
     title = GOT_Story_Country.642.t 
@@ -20959,7 +20959,7 @@ country_event = {
     } 
 } 
  
-# 
+# 642 — A Queen Acknowledged
 news_event = { 
     id = GOT_Story_News.642 
     title = GOT_Story_News.642.t 
@@ -20973,7 +20973,7 @@ news_event = {
     } 
 } 
  
-# 
+# 643 — Summit in the Dragonpit
 country_event = { 
     id = GOT_Story_Country.643 
     title = GOT_Story_Country.643.t 
@@ -21010,7 +21010,7 @@ country_event = {
     } 
 } 
  
-# 
+# 643 — Summit in the Dragonpit
 news_event = { 
     id = GOT_Story_News.643 
     title = GOT_Story_News.643.t 
@@ -21024,7 +21024,7 @@ news_event = {
     } 
 } 
  
-# 
+# 644 — The Queen’s Betrayal
 country_event = { 
     id = GOT_Story_Country.644 
     title = GOT_Story_Country.644.t 
@@ -21061,7 +21061,7 @@ country_event = {
     } 
 } 
  
-# 
+# 644 — The Queen’s Betrayal
 news_event = { 
     id = GOT_Story_News.644 
     title = GOT_Story_News.644.t 
@@ -21075,7 +21075,7 @@ news_event = {
     } 
 } 
  
-# 
+# 645 — Birth of Aegon Targaryen
 country_event = { 
     id = GOT_Story_Country.645 
     title = GOT_Story_Country.645.t 
@@ -21112,7 +21112,7 @@ country_event = {
     } 
 } 
  
-# 
+# 645 — Birth of Aegon Targaryen
 news_event = { 
     id = GOT_Story_News.645 
     title = GOT_Story_News.645.t 
@@ -21126,7 +21126,7 @@ news_event = {
     } 
 } 
  
-# 
+# 646 — The End of Littlefinger
 country_event = { 
     id = GOT_Story_Country.646 
     title = GOT_Story_Country.646.t 
@@ -21163,7 +21163,7 @@ country_event = {
     } 
 } 
  
-# 
+# 646 — The End of Littlefinger
 news_event = { 
     id = GOT_Story_News.646 
     title = GOT_Story_News.646.t 
@@ -21177,7 +21177,7 @@ news_event = {
     } 
 } 
  
-# 
+# 647 — A Kingslayer’s Departure
 country_event = { 
     id = GOT_Story_Country.647 
     title = GOT_Story_Country.647.t 
@@ -21214,7 +21214,7 @@ country_event = {
     } 
 } 
  
-# 
+# 647 — A Kingslayer’s Departure
 news_event = { 
     id = GOT_Story_News.647 
     title = GOT_Story_News.647.t 
@@ -21228,7 +21228,7 @@ news_event = {
     } 
 } 
  
-# 
+# 649 — The Wall Shattered
 country_event = { 
     id = GOT_Story_Country.649 
     title = GOT_Story_Country.649.t 
@@ -21265,7 +21265,7 @@ country_event = {
     } 
 } 
  
-# 
+# 649 — The Wall Shattered
 news_event = { 
     id = GOT_Story_News.649 
     title = GOT_Story_News.649.t 

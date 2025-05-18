@@ -2347,12 +2347,12 @@ GOT_Story_News.406.a: "A wolf may wear many faces."
 
 # 407 — Jon Snow Elected 998th Lord Commander
 GOT_Story_Country.407.t: "The Lot Falls to Snow"
-GOT_Story_Country.407.d: "Stannis tempts me with Winterfell’s hearth, yet the Watch’s brothers raise my name. Amid tied votes, Maester Aemon’s stone tips the scale—I am Lord Commander. My life remains bound to black, not white wolf banners."
+GOT_Story_Country.407.d: "Stannis tempts me with Winterfell’s hearth, yet the Watch’s brothers raise my name. Amid tied votes, Maester Aemon’s stone tips the scale—I am Lord Commander. My life remains bound to black, not white wolf banners."
 GOT_Story_Country.407.a: "Accept command—lead the Night’s Watch"
 GOT_Story_Country.407.b: "Decline—it is Winterfell I must claim"
 
 GOT_Story_News.407.t: "Castle Black Names a New Lord Commander"
-GOT_Story_News.407.d: "In a close ballot broken by venerable Maester Aemon, Bastard‑born Jon Snow was chosen 998th Lord Commander of the Night’s Watch, quashing Stannis Baratheon’s offer of Stark legitimacy."
+GOT_Story_News.407.d: "In a close ballot broken by venerable Maester Aemon, Bastard‑born Jon Snow was chosen 998th Lord Commander of the Night’s Watch, quashing Stannis Baratheon’s offer of Stark legitimacy."
 GOT_Story_News.407.a: "The Wall has its new shield."
 
 # 408 — Daenerys Executes Mossador
@@ -2487,7 +2487,7 @@ GOT_Story_News.420.a: "The past watches the living."
  
 # 421 — Jon Snow Seeks Alliance with the Wildlings
 GOT_Story_Country.421.t: "Kill the Boy, Lead the Watch"
-GOT_Story_Country.421.d: "Maester Aemon’s words echo: “Kill the boy and let the man be born.” I free Tormund Giantsbane and offer the Free Folk refuge south of the Wall if they fight beside us against the White Walkers. Brothers curse treason; I see necessity."
+GOT_Story_Country.421.d: "Maester Aemon’s words echo: “Kill the boy and let the man be born.” I free Tormund Giantsbane and offer the Free Folk refuge south of the Wall if they fight beside us against the White Walkers. Brothers curse treason; I see necessity."
 GOT_Story_Country.421.a: "Forge the alliance—open the gates to the Wildlings"
 GOT_Story_Country.421.b: "Abandon the plan—keep the Watch united"
 
@@ -3500,330 +3500,275 @@ GOT_Story_News.621.t: "Old Smuggler Brokers New Alliance"
 GOT_Story_News.621.d: "Davos Seaworth, once a knight of onions, now paves the path between ice and fire."
 GOT_Story_News.621.a: "Small men move great wars."
  
-# 
-GOT_Story_Country.622.t: "" 
-GOT_Story_Country.622.d: "" 
-GOT_Story_Country.622.a: "" 
-GOT_Story_Country.622.b: "" 
+# 622 — Dragonfire on the Gold Road
+GOT_Story_Country.622.t: "Field of Fire II"
+GOT_Story_Country.622.d: "I unleashed Drogon and the Dothraki upon the Lannister wagon‑train, turning wagons of Reach gold to molten slag."
+GOT_Story_Country.622.a: "Crush the convoy—enemy loses resources, Dothraki gain attack"
+GOT_Story_Country.622.b: "Hold dragons in reserve—less devastation, conserve political capital"
+
+GOT_Story_News.622.t: "Dragons Descend on the Reach"
+GOT_Story_News.622.d: "A storm of flame scorched Lannister columns, the realm’s gold lost to ash."
+GOT_Story_News.622.a: "War’s cost paid in coin and blood."
+
+# 623 — Drogon Wounded
+GOT_Story_Country.623.t: "Scorpion’s Sting"
+GOT_Story_Country.623.d: "A massive scorpion bolt tore into Drogon’s shoulder. I landed amid battle to calm him while bolts whistled overhead."
+GOT_Story_Country.623.a: "Withdraw to treat Drogon—reduce dragon attack for 30 days"
+GOT_Story_Country.623.b: "Fight through pain—maintain power, raise dragon attrition risk"
+
+GOT_Story_News.623.t: "Dragon Bleeds!"
+GOT_Story_News.623.d: "Witnesses claim Qyburn’s war engine pierced a dragon’s hide—proof that even fire‑made flesh can fall."
+GOT_Story_News.623.a: "Hope for some, dread for others."
+
+# 624 — Jaime’s Reckless Charge
+GOT_Story_Country.624.t: "A Spear at the Dragon Queen"
+GOT_Story_Country.624.d: "Seeing Daenerys exposed, I spurred toward her. Dragonfire roared—Bronn’s tackle saved me, plunging us into the Blackwater Rush."
+GOT_Story_Country.624.a: "Resurface—Jaime survives but suffers injury (combat penalty)"
+GOT_Story_Country.624.b: "Presumed dead—enemy morale drop, Lannister stability hit"
+
+GOT_Story_News.624.t: "Kingslayer’s Gamble"
+GOT_Story_News.624.d: "Jaime Lannister vanished beneath river waters after charging the Dragon Queen; his fate uncertain."
+GOT_Story_News.624.a: "Bravery or folly?"
+
+# 625 — Arya at Winterfell
+GOT_Story_Country.625.t: "A Wolf Comes Home"
+GOT_Story_Country.625.d: "I passed Winterfell’s gates, greeted by wary guards, then fierce embraces from Sansa and a distant nod from Bran."
+GOT_Story_Country.625.a: "Train with Brienne—gain combat skill"
+GOT_Story_Country.625.b: "Scout the castle—unlock intrigue options"
+
+GOT_Story_News.625.t: "Stark Siblings Reunited"
+GOT_Story_News.625.d: "Winterfell’s halls fill with the howls of returning wolves as Arya Stark joins her kin."
+GOT_Story_News.625.a: "The North remembers."
+
+# 626 — Valyrian Gift
+GOT_Story_Country.626.t: "Steel for Shadows"
+GOT_Story_Country.626.d: "Bran placed the Valyrian dagger in my hand, saying I’d need it. Its edge felt meant for more than one destiny."
+GOT_Story_Country.626.a: "Keep the dagger—boost assassination missions"
+GOT_Story_Country.626.b: "Store it safely—minor defense bonus for Winterfell"
+
+GOT_Story_News.626.t: "Ancient Blade Changes Hands"
+GOT_Story_News.626.d: "The knife once aimed at Bran Stark now rests with his sister, Arya—the past arming the future."
+GOT_Story_News.626.a: "Valyrian steel is ever in short supply."
+
+# 627 — Truth in the Stone
+GOT_Story_Country.627.t: "Paintings of an Older War"
+GOT_Story_Country.627.d: "Deep in Dragonstone’s caves, we saw Children and First Men fighting the dead together. Proof etched in stone swayed Daenerys toward our cause."
+GOT_Story_Country.627.a: "Forge alliance—Daenerys grants dragonglass stockpile"
+GOT_Story_Country.627.b: "Press further—seek joint expedition beyond the Wall, delay resources"
+
+GOT_Story_News.627.t: "Ancient Art Speaks"
+GOT_Story_News.627.d: "Cave markings beneath Dragonstone hint at a forgotten alliance against darkness, now re‑discovered."
+GOT_Story_News.627.a: "History repeats itself."
+
+# 628 — Cersei and the Iron Bank
+GOT_Story_Country.628.t: "Debts Paid in Gold"
+GOT_Story_Country.628.d: "I assured Tycho Nestoris that Highgarden’s gold will settle the Crown’s debts, securing fresh loans for mercenaries."
+GOT_Story_Country.628.a: "Hire the Golden Company—gain elite units after delay"
+GOT_Story_Country.628.b: "Strengthen treasury—reduce war exhaustion, improve economy"
+
+GOT_Story_News.628.t: "Iron Bank Bets on the Lion"
+GOT_Story_News.628.d: "With Reach gold en route, Braavos’s Iron Bank renews faith—and coin—in Queen Cersei’s rule."
+GOT_Story_News.628.a: "The Iron Bank always gets its due."
  
-# 
-GOT_Story_News.622.t: "" 
-GOT_Story_News.622.d: "" 
-GOT_Story_News.622.a: "" 
-GOT_Story_News.622.b: "" 
+# 629 — A Dragon’s Acceptance
+GOT_Story_Country.629.t: "Hand upon the Dragon"
+GOT_Story_Country.629.d: "Drogon bared his fangs, yet allowed Jon Snow’s hand to rest upon his snout. The great beast’s calm spoke louder than bloodlines."
+GOT_Story_Country.629.a: "Recognize the omen—improve Jon‑Daenerys relations, unlock dragon‑rider decisions"
+GOT_Story_Country.629.b: "Dismiss as chance—no change, but reduce court intrigue"
+
+GOT_Story_News.629.t: "King in the North Meets Fire Made Flesh"
+GOT_Story_News.629.d: "Witnesses claim the Dragon Queen’s fiercest mount bowed to Jon Snow’s touch—whispers of dragonblood stir."
+GOT_Story_News.629.a: "Rumors take wing."
+
+# 630 — Trial by Fire for House Tarly
+GOT_Story_Country.630.t: "Ashes of Rebellion"
+GOT_Story_Country.630.d: "Randyll and Dickon Tarly refused to bend the knee. Drogon’s flames rendered their defiance to ash before assembled captives."
+GOT_Story_Country.630.a: "Make example—gain fear‑based compliance, raise foreign outrage"
+GOT_Story_Country.630.b: "Offer mercy (if mod option chosen)—Tarlys join Night’s Watch, small stability loss"
+
+GOT_Story_News.630.t: "Dragonfire Justice"
+GOT_Story_News.630.d: "Two Lords consumed by flame for spurning Daenerys—supporters debate whether it heralds a tyrant or a just queen."
+GOT_Story_News.630.a: "The realm takes note."
+
+# 631 — The Smith of King’s Landing
+GOT_Story_Country.631.t: "Gendry, Bastard of Baratheon"
+GOT_Story_Country.631.d: "The lone surviving Baratheon bastard hefts a war‑hammer and pledges service to the fight against the dead."
+GOT_Story_Country.631.a: "Recruit Gendry—unlock Valyrian‑steel forging focus"
+GOT_Story_Country.631.b: "Send him south as envoy—gain Baratheon sympathy"
+
+GOT_Story_News.631.t: "Stormlands Blood Reforged"
+GOT_Story_News.631.d: "Robert’s shadow returns in his hammer‑wielding son, marching north beside King Snow."
+GOT_Story_News.631.a: "Old sigils stir."
+
+# 632 — Mission Beyond the Wall
+GOT_Story_Country.632.t: "The Frozen Hunt"
+GOT_Story_Country.632.d: "A rag‑tag band—lords, wildlings, a Hound and a priest—set forth to capture a wight, proof for southern doubters."
+GOT_Story_Country.632.a: "Launch the ranging—spawns special commando unit, high risk/high reward"
+GOT_Story_Country.632.b: "Postpone—delay proof, improve manpower conservation"
+
+GOT_Story_News.632.t: "Suicide Squad of the North"
+GOT_Story_News.632.d: "Seven champions stride into blinding frost, hoping one corpse may save the living."
+GOT_Story_News.632.a: "The realm holds its breath."
+
+# 633 — Shadows Between Sisters
+GOT_Story_Country.633.t: "Littlefinger’s Seed of Doubt"
+GOT_Story_Country.633.d: "I found Sansa’s old plea to Joffrey—ink of coercion now weaponized to pit wolf against wolf."
+GOT_Story_Country.633.a: "Confront Sansa—risk loyalty drop, expose Littlefinger"
+GOT_Story_Country.633.b: "Secretly investigate—gather intrigue points"
+
+GOT_Story_News.633.t: "Cracks in Winterfell"
+GOT_Story_News.633.d: "Rumors seep that Stark unity frays under old Lannister letters and newer schemes."
+GOT_Story_News.633.a: "Divide and conquer?"
+
+# 634 — Queen’s New Heir?
+GOT_Story_Country.634.t: "Cersei’s Unborn Promise"
+GOT_Story_Country.634.d: "I told Jaime the child I bear will be acknowledged as his—an heir to bind loyalties and defy prophecy."
+GOT_Story_Country.634.a: "Proclaim pregnancy—boost Lannister legitimacy, increase Faith Militant ire"
+GOT_Story_Country.634.b: "Keep secret—maintain intrigue bonus, smaller legitimacy gain"
+
+GOT_Story_News.634.t: "Lioness with Cub on the Way"
+GOT_Story_News.634.d: "Reports swirl that the Queen carries another heir—though whispers question the father’s name."
+GOT_Story_News.634.a: "The court buzzes."
+
+# 635 — Departure from the Citadel
+GOT_Story_Country.635.t: "Enough of Dust and Doubt"
+GOT_Story_Country.635.d: "The maesters ignore the coming night. I gathered scrolls, Heartsbane, and Gilly—for the fight where knowledge matters."
+GOT_Story_Country.635.a: "Ride north—unlock Samwell research speed bonus"
+GOT_Story_Country.635.b: "Seek White Harbor first—spread warnings, gain minor northern opinion"
+
+GOT_Story_News.635.t: "A Scholar Marches to War"
+GOT_Story_News.635.d: "Samwell Tarly departs Oldtown with stolen tomes and valyrian steel, trading candles for cold steel."
+GOT_Story_News.635.a: "The night grows darker."
  
-# 
-GOT_Story_Country.623.t: "" 
-GOT_Story_Country.623.d: "" 
-GOT_Story_Country.623.a: "" 
-GOT_Story_Country.623.b: "" 
- 
-# 
-GOT_Story_News.623.t: "" 
-GOT_Story_News.623.d: "" 
-GOT_Story_News.623.a: "" 
-GOT_Story_News.623.b: "" 
- 
-# 
-GOT_Story_Country.624.t: "" 
-GOT_Story_Country.624.d: "" 
-GOT_Story_Country.624.a: "" 
-GOT_Story_Country.624.b: "" 
- 
-# 
-GOT_Story_News.624.t: "" 
-GOT_Story_News.624.d: "" 
-GOT_Story_News.624.a: "" 
-GOT_Story_News.624.b: "" 
- 
-# 
-GOT_Story_Country.625.t: "" 
-GOT_Story_Country.625.d: "" 
-GOT_Story_Country.625.a: "" 
-GOT_Story_Country.625.b: "" 
- 
-# 
-GOT_Story_News.625.t: "" 
-GOT_Story_News.625.d: "" 
-GOT_Story_News.625.a: "" 
-GOT_Story_News.625.b: "" 
- 
-# 
-GOT_Story_Country.626.t: "" 
-GOT_Story_Country.626.d: "" 
-GOT_Story_Country.626.a: "" 
-GOT_Story_Country.626.b: "" 
- 
-# 
-GOT_Story_News.626.t: "" 
-GOT_Story_News.626.d: "" 
-GOT_Story_News.626.a: "" 
-GOT_Story_News.626.b: "" 
- 
-# 
-GOT_Story_Country.627.t: "" 
-GOT_Story_Country.627.d: "" 
-GOT_Story_Country.627.a: "" 
-GOT_Story_Country.627.b: "" 
- 
-# 
-GOT_Story_News.627.t: "" 
-GOT_Story_News.627.d: "" 
-GOT_Story_News.627.a: "" 
-GOT_Story_News.627.b: "" 
- 
-# 
-GOT_Story_Country.628.t: "" 
-GOT_Story_Country.628.d: "" 
-GOT_Story_Country.628.a: "" 
-GOT_Story_Country.628.b: "" 
- 
-# 
-GOT_Story_News.628.t: "" 
-GOT_Story_News.628.d: "" 
-GOT_Story_News.628.a: "" 
-GOT_Story_News.628.b: "" 
- 
-# 
-GOT_Story_Country.629.t: "" 
-GOT_Story_Country.629.d: "" 
-GOT_Story_Country.629.a: "" 
-GOT_Story_Country.629.b: "" 
- 
-# 
-GOT_Story_News.629.t: "" 
-GOT_Story_News.629.d: "" 
-GOT_Story_News.629.a: "" 
-GOT_Story_News.629.b: "" 
- 
-# 
-GOT_Story_Country.630.t: "" 
-GOT_Story_Country.630.d: "" 
-GOT_Story_Country.630.a: "" 
-GOT_Story_Country.630.b: "" 
- 
-# 
-GOT_Story_News.630.t: "" 
-GOT_Story_News.630.d: "" 
-GOT_Story_News.630.a: "" 
-GOT_Story_News.630.b: "" 
- 
-# 
-GOT_Story_Country.631.t: "" 
-GOT_Story_Country.631.d: "" 
-GOT_Story_Country.631.a: "" 
-GOT_Story_Country.631.b: "" 
- 
-# 
-GOT_Story_News.631.t: "" 
-GOT_Story_News.631.d: "" 
-GOT_Story_News.631.a: "" 
-GOT_Story_News.631.b: "" 
- 
-# 
-GOT_Story_Country.632.t: "" 
-GOT_Story_Country.632.d: "" 
-GOT_Story_Country.632.a: "" 
-GOT_Story_Country.632.b: "" 
- 
-# 
-GOT_Story_News.632.t: "" 
-GOT_Story_News.632.d: "" 
-GOT_Story_News.632.a: "" 
-GOT_Story_News.632.b: "" 
- 
-# 
-GOT_Story_Country.633.t: "" 
-GOT_Story_Country.633.d: "" 
-GOT_Story_Country.633.a: "" 
-GOT_Story_Country.633.b: "" 
- 
-# 
-GOT_Story_News.633.t: "" 
-GOT_Story_News.633.d: "" 
-GOT_Story_News.633.a: "" 
-GOT_Story_News.633.b: "" 
- 
-# 
-GOT_Story_Country.634.t: "" 
-GOT_Story_Country.634.d: "" 
-GOT_Story_Country.634.a: "" 
-GOT_Story_Country.634.b: "" 
- 
-# 
-GOT_Story_News.634.t: "" 
-GOT_Story_News.634.d: "" 
-GOT_Story_News.634.a: "" 
-GOT_Story_News.634.b: "" 
- 
-# 
-GOT_Story_Country.635.t: "" 
-GOT_Story_Country.635.d: "" 
-GOT_Story_Country.635.a: "" 
-GOT_Story_Country.635.b: "" 
- 
-# 
-GOT_Story_News.635.t: "" 
-GOT_Story_News.635.d: "" 
-GOT_Story_News.635.a: "" 
-GOT_Story_News.635.b: "" 
- 
-# 
-GOT_Story_Country.636.t: "" 
-GOT_Story_Country.636.d: "" 
-GOT_Story_Country.636.a: "" 
-GOT_Story_Country.636.b: "" 
- 
-# 
-GOT_Story_News.636.t: "" 
-GOT_Story_News.636.d: "" 
-GOT_Story_News.636.a: "" 
-GOT_Story_News.636.b: "" 
- 
-# 
-GOT_Story_Country.637.t: "" 
-GOT_Story_Country.637.d: "" 
-GOT_Story_Country.637.a: "" 
-GOT_Story_Country.637.b: "" 
- 
-# 
-GOT_Story_News.637.t: "" 
-GOT_Story_News.637.d: "" 
-GOT_Story_News.637.a: "" 
-GOT_Story_News.637.b: "" 
- 
-# 
-GOT_Story_Country.638.t: "" 
-GOT_Story_Country.638.d: "" 
-GOT_Story_Country.638.a: "" 
-GOT_Story_Country.638.b: "" 
- 
-# 
-GOT_Story_News.638.t: "" 
-GOT_Story_News.638.d: "" 
-GOT_Story_News.638.a: "" 
-GOT_Story_News.638.b: "" 
- 
-# 
-GOT_Story_Country.639.t: "" 
-GOT_Story_Country.639.d: "" 
-GOT_Story_Country.639.a: "" 
-GOT_Story_Country.639.b: "" 
- 
-# 
-GOT_Story_News.639.t: "" 
-GOT_Story_News.639.d: "" 
-GOT_Story_News.639.a: "" 
-GOT_Story_News.639.b: "" 
- 
-# 
-GOT_Story_Country.640.t: "" 
-GOT_Story_Country.640.d: "" 
-GOT_Story_Country.640.a: "" 
-GOT_Story_Country.640.b: "" 
- 
-# 
-GOT_Story_News.640.t: "" 
-GOT_Story_News.640.d: "" 
-GOT_Story_News.640.a: "" 
-GOT_Story_News.640.b: "" 
- 
-# 
-GOT_Story_Country.641.t: "" 
-GOT_Story_Country.641.d: "" 
-GOT_Story_Country.641.a: "" 
-GOT_Story_Country.641.b: "" 
- 
-# 
-GOT_Story_News.641.t: "" 
-GOT_Story_News.641.d: "" 
-GOT_Story_News.641.a: "" 
-GOT_Story_News.641.b: "" 
- 
-# 
-GOT_Story_Country.642.t: "" 
-GOT_Story_Country.642.d: "" 
-GOT_Story_Country.642.a: "" 
-GOT_Story_Country.642.b: "" 
- 
-# 
-GOT_Story_News.642.t: "" 
-GOT_Story_News.642.d: "" 
-GOT_Story_News.642.a: "" 
-GOT_Story_News.642.b: "" 
- 
-# 
-GOT_Story_Country.643.t: "" 
-GOT_Story_Country.643.d: "" 
-GOT_Story_Country.643.a: "" 
-GOT_Story_Country.643.b: "" 
- 
-# 
-GOT_Story_News.643.t: "" 
-GOT_Story_News.643.d: "" 
-GOT_Story_News.643.a: "" 
-GOT_Story_News.643.b: "" 
- 
-# 
-GOT_Story_Country.644.t: "" 
-GOT_Story_Country.644.d: "" 
-GOT_Story_Country.644.a: "" 
-GOT_Story_Country.644.b: "" 
- 
-# 
-GOT_Story_News.644.t: "" 
-GOT_Story_News.644.d: "" 
-GOT_Story_News.644.a: "" 
-GOT_Story_News.644.b: "" 
- 
-# 
-GOT_Story_Country.645.t: "" 
-GOT_Story_Country.645.d: "" 
-GOT_Story_Country.645.a: "" 
-GOT_Story_Country.645.b: "" 
- 
-# 
-GOT_Story_News.645.t: "" 
-GOT_Story_News.645.d: "" 
-GOT_Story_News.645.a: "" 
-GOT_Story_News.645.b: "" 
- 
-# 
-GOT_Story_Country.646.t: "" 
-GOT_Story_Country.646.d: "" 
-GOT_Story_Country.646.a: "" 
-GOT_Story_Country.646.b: "" 
- 
-# 
-GOT_Story_News.646.t: "" 
-GOT_Story_News.646.d: "" 
-GOT_Story_News.646.a: "" 
-GOT_Story_News.646.b: "" 
- 
-# 
-GOT_Story_Country.647.t: "" 
-GOT_Story_Country.647.d: "" 
-GOT_Story_Country.647.a: "" 
-GOT_Story_Country.647.b: "" 
- 
-# 
-GOT_Story_News.647.t: "" 
-GOT_Story_News.647.d: "" 
-GOT_Story_News.647.a: "" 
-GOT_Story_News.647.b: "" 
- 
-# 
-GOT_Story_Country.649.t: "" 
-GOT_Story_Country.649.d: "" 
-GOT_Story_Country.649.a: "" 
-GOT_Story_Country.649.b: "" 
- 
-# 
-GOT_Story_News.649.t: "" 
-GOT_Story_News.649.d: "" 
-GOT_Story_News.649.a: "" 
-GOT_Story_News.649.b: "" 
- 
+# 636 — Proof at a Terrible Price
+GOT_Story_Country.636.t: "We Have Our Wight"
+GOT_Story_Country.636.d: "The raiding party bound a snarling corpse in chains—but the dead came in legions to reclaim it."
+GOT_Story_Country.636.a: "Hold the ice‑lake island—begin timed survival battle"
+GOT_Story_Country.636.b: "Abandon the trophy—retreat, lose wight sample"
+
+GOT_Story_News.636.t: "Northern Raiders Cornered by the Dead"
+GOT_Story_News.636.d: "A desperate quest north of the Wall ends with the living encircled on thin ice, clutching a single captive corpse."
+GOT_Story_News.636.a: "All eyes on the frozen lake."
+
+# 637 — A Red Priest Falls
+GOT_Story_Country.637.t: "Death of Thoros of Myr"
+GOT_Story_Country.637.d: "The bear‑wound festered. At dawn’s grey light, Thoros’s prayers ceased, and the fire within him went out."
+GOT_Story_Country.637.a: "Mourn and press on—lose healing buff, gain mild morale hit"
+GOT_Story_Country.637.b: "Burn the body—reduce White Walker power nearby"
+
+GOT_Story_News.637.t: "Flaming Sword Forever Sheathed"
+GOT_Story_News.637.d: "Thoros, famed drinker and resuscitator of heroes, perished in the snow—no resurrection followed."
+GOT_Story_News.637.a: "The North grows colder."
+
+# 638 — Hammer in Hand, Feet of Wind
+GOT_Story_Country.638.t: "Gendry’s Sprint"
+GOT_Story_Country.638.d: "The blacksmith ran through blizzard and night, reaching Eastwatch with frozen limbs to beg Daenerys’s aid."
+GOT_Story_Country.638.a: "Dispatch raven—triggers dragon rescue event"
+GOT_Story_Country.638.b: "Fortify Eastwatch instead—gain garrison strength"
+
+GOT_Story_News.638.t: "A Raven Flies South"
+GOT_Story_News.638.d: "One man’s dash across the ice carried hope—and a plea—for dragonfire salvation."
+GOT_Story_News.638.a: "Will help arrive in time?"
+
+# 639 — Fire Rolls Across the Sky
+GOT_Story_Country.639.t: "Daenerys to the Rescue"
+GOT_Story_Country.639.d: "Dragons shrieked above the lake, scorching wights and shattering ice, lifting survivors to safety."
+GOT_Story_Country.639.a: "Mount the dragons—extract party, lower White Walker numbers"
+GOT_Story_Country.639.b: "Stay and fight—inflict heavy undead losses, high dragon risk"
+
+GOT_Story_News.639.t: "Dragons Seen Beyond the Wall"
+GOT_Story_News.639.d: "Witnesses report three great beasts of fire battling the Night King’s hordes amid blinding snow."
+GOT_Story_News.639.a: "Old tales come alive."
+
+# 640 — The Fall of Viserion
+GOT_Story_Country.640.t: "Ice Spear, Shattered Flame"
+GOT_Story_Country.640.d: "With unerring aim, the Night King’s lance felled Viserion—his lifeless body plunged beneath the frozen lake."
+GOT_Story_Country.640.a: "Grieve and retreat—lose one dragon unit, unlock Ice‑Dragon threat"
+GOT_Story_Country.640.b: "Counter‑attack (high risk)—chance to wound Night King, higher casualties"
+
+GOT_Story_News.640.t: "Dragon Slain, Risen in Blue Flame"
+GOT_Story_News.640.d: "Scouts swear the dead dragon stirred, eyes burning ice‑blue, now yoked to the Night King’s will."
+GOT_Story_News.640.a: "The Wall trembles."
+
+# 641 — Last Ride of Benjen Stark
+GOT_Story_Country.641.t: "Coldhands’ Farewell"
+GOT_Story_Country.641.d: "Benjen Stark thrust Jon onto his horse, whirled his flaming chain—and vanished beneath waves of wights."
+GOT_Story_Country.641.a: "Salute the fallen—gain Night’s Watch spirit, slight morale boost"
+GOT_Story_Country.641.b: "Search for remnants—small chance to recover dragonglass cache"
+
+GOT_Story_News.641.t: "Masked Rider Halts the Dead"
+GOT_Story_News.641.d: "A lone figure, half‑dead half‑alive, bought the King in the North’s escape with fire and fury."
+GOT_Story_News.641.a: "Songs will tell his name."
+
+# 642 — A Queen Acknowledged
+GOT_Story_Country.642.t: "The Kneeling of the Wolf"
+GOT_Story_Country.642.d: "In the cabin of a storm‑tossed ship, Jon Snow took Daenerys’s hand: “I will swear you my sword, my Queen.”"
+GOT_Story_Country.642.a: "Formalize alliance—merge Northern and Targaryen diplomacy trees"
+GOT_Story_Country.642.b: "Keep it private—smaller alliance boost, avoid Northern dissent"
+
+GOT_Story_News.642.t: "North and Dragonforge Alliance Sealed"
+GOT_Story_News.642.d: "Reports claim the King in the North now bends the knee to Daenerys Stormborn, forging unity against the coming night."
+GOT_Story_News.642.a: "The realm reshapes."
+
+# 643 — Summit in the Dragonpit
+GOT_Story_Country.643.t: "Parley in the Ruins"
+GOT_Story_Country.643.d: "Wary monarchs gather amid broken dragon skulls. A living corpse thrashes at its chains, proof that the Long Night marches."
+GOT_Story_Country.643.a: "Support the grand alliance—unlock Joint War Council focus"
+GOT_Story_Country.643.b: "Demand concessions first—gain leverage, risk talks collapsing"
+
+GOT_Story_News.643.t: "Kings and Queens Convene in King’s Landing"
+GOT_Story_News.643.d: "Enemies stood side by side as a dead thing screamed, forcing a momentary truce against the darkness beyond the Wall."
+GOT_Story_News.643.a: "A fragile accord is born."
+
+# 644 — The Queen’s Betrayal
+GOT_Story_Country.644.t: "Cersei’s Hidden Gambit"
+GOT_Story_Country.644.d: "In private, the Lioness renounces the pact. Gold Company contracts are signed; southern armies will march when the North bleeds."
+GOT_Story_Country.644.a: "Secretly mobilize—spawn sellsword divisions in Crownlands"
+GOT_Story_Country.644.b: "Reconsider (player choice)—honor the truce, gain short peace modifier"
+
+GOT_Story_News.644.t: "Rumors of Royal Treachery"
+GOT_Story_News.644.d: "Whispers claim the Iron Throne will not ride north. Some speak of sellsails from Essos already on the sea."
+GOT_Story_News.644.a: "Trust is a luxury of fools."
+
+# 645 — Birth of Aegon Targaryen
+GOT_Story_Country.645.t: "True Heir Revealed"
+GOT_Story_Country.645.d: "Bran’s sight and Sam’s records prove Jon Snow is Aegon Targaryen, the lawful son of Rhaegar and Lyanna—king by blood and fire."
+GOT_Story_Country.645.a: "Proclaim his birthright—unify Stark‑Targaryen claims, legitimacy boost"
+GOT_Story_Country.645.b: "Keep the secret—for now, avoid political shock"
+
+GOT_Story_News.645.t: "Northern King, Southern Blood"
+GOT_Story_News.645.d: "Shattering revelation spreads through halls and taverns alike: the King in the North bears a dragon’s name."
+GOT_Story_News.645.a: "Crowns tremble."
+
+# 646 — The End of Littlefinger
+GOT_Story_Country.646.t: "Baelish on Trial"
+GOT_Story_Country.646.d: "Sansa turns the tables, Arya draws the blade, and the master schemer’s throat opens on Winterfell’s cold stone."
+GOT_Story_Country.646.a: "Execute him—remove Intrigue debuff, gain Stark unity"
+GOT_Story_Country.646.b: "Spare for secrets (non‑canon alt)—gain espionage intel, retain instability"
+
+GOT_Story_News.646.t: "Lord Baelish Meets Stark Justice"
+GOT_Story_News.646.d: "The elusive spider of court vanished in a heartbeat of northern steel. Power vacuums follow."
+GOT_Story_News.646.a: "Chaos no longer his ladder."
+
+# 647 — A Kingslayer’s Departure
+GOT_Story_Country.647.t: "Jaime Breaks with Cersei"
+GOT_Story_Country.647.d: "Snowflakes fall on Lannister armor as Jaime turns his horse northward, leaving betrayal—and love—behind."
+GOT_Story_Country.647.a: "Ride for Winterfell—Jaime becomes Northern general, lowers Lannister morale"
+GOT_Story_Country.647.b: "Hesitate (alt)—stay but suffer loyalty penalty"
+
+GOT_Story_News.647.t: "Golden Lion Heads North"
+GOT_Story_News.647.d: "Witnesses saw the Queen’s brother leave the capital alone, cloak dusted with frost, destiny uncertain."
+GOT_Story_News.647.a: "Snow on red and gold."
+
+# 649 — The Wall Shattered
+GOT_Story_Country.649.t: "Viserion’s Blue Flame"
+GOT_Story_Country.649.d: "An undead dragon screams icy fire; Eastwatch’s ancient stones crumble. The Dead march through the gap."
+GOT_Story_Country.649.a: "Raise the Last Hearth alarm—spawn White Walker invasion, apply Realm Panic"
+GOT_Story_Country.649.b: "Counter‑offensive (heroic option)—launch risky mission to delay undead"
+
+GOT_Story_News.649.t: "The Wall Falls"
+GOT_Story_News.649.d: "For eight thousand years the Wall stood. Tonight it is smoke, rubble, and chilling silence as darkness pours south."
+GOT_Story_News.649.a: "The Long Night begins."
 
 ############
 ##SEASON 8##
