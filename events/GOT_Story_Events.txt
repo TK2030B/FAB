@@ -13732,7 +13732,7 @@ news_event = {
     } 
 } 
 
-# 
+# 401 — Cersei’s Childhood Prophecy
 country_event = { 
     id = GOT_Story_Country.401 
     title = GOT_Story_Country.401.t 
@@ -13769,7 +13769,7 @@ country_event = {
     } 
 } 
  
-# 
+# 401 — Cersei’s Childhood Prophecy
 news_event = { 
     id = GOT_Story_News.401 
     title = GOT_Story_News.401.t 
@@ -13783,7 +13783,7 @@ news_event = {
     } 
 } 
  
-# 
+# 402 — Tyrion & Varys in Pentos
 country_event = { 
     id = GOT_Story_Country.402 
     title = GOT_Story_Country.402.t 
@@ -13820,7 +13820,7 @@ country_event = {
     } 
 } 
  
-# 
+# 402 — Tyrion & Varys in Pentos
 news_event = { 
     id = GOT_Story_News.402 
     title = GOT_Story_News.402.t 
@@ -13834,7 +13834,7 @@ news_event = {
     } 
 } 
  
-# 
+# 403 — Daenerys Faces Unrest in Meereen
 country_event = { 
     id = GOT_Story_Country.403 
     title = GOT_Story_Country.403.t 
@@ -13871,7 +13871,7 @@ country_event = {
     } 
 } 
  
-# 
+# 403 — Daenerys Faces Unrest in Meereen
 news_event = { 
     id = GOT_Story_News.403 
     title = GOT_Story_News.403.t 
@@ -13885,7 +13885,7 @@ news_event = {
     } 
 } 
  
-# 
+# 404 — Jon Snow’s Mercy Killing of Mance Rayder
 country_event = { 
     id = GOT_Story_Country.404 
     title = GOT_Story_Country.404.t 
@@ -13922,7 +13922,7 @@ country_event = {
     } 
 } 
  
-# 
+# 404 — Jon Snow’s Mercy Killing of Mance Rayder
 news_event = { 
     id = GOT_Story_News.404 
     title = GOT_Story_News.404.t 
@@ -13936,7 +13936,7 @@ news_event = {
     } 
 } 
  
-# 
+# 405 — Littlefinger & Sansa’s Deceptive Journey
 country_event = { 
     id = GOT_Story_Country.405 
     title = GOT_Story_Country.405.t 
@@ -13973,7 +13973,7 @@ country_event = {
     } 
 } 
  
-# 
+# 405 — Littlefinger & Sansa’s Deceptive Journey
 news_event = { 
     id = GOT_Story_News.405 
     title = GOT_Story_News.405.t 
@@ -13987,7 +13987,7 @@ news_event = {
     } 
 } 
  
-# 
+# 406 — Arya Arrives at the House of Black and White
 country_event = { 
     id = GOT_Story_Country.406 
     title = GOT_Story_Country.406.t 
@@ -14024,7 +14024,7 @@ country_event = {
     } 
 } 
  
-# 
+# 406 — Arya Arrives at the House of Black and White
 news_event = { 
     id = GOT_Story_News.406 
     title = GOT_Story_News.406.t 
@@ -14038,7 +14038,7 @@ news_event = {
     } 
 } 
  
-# 
+# 407 — Jon Snow Elected 998th Lord Commander
 country_event = { 
     id = GOT_Story_Country.407 
     title = GOT_Story_Country.407.t 
@@ -14075,7 +14075,7 @@ country_event = {
     } 
 } 
  
-# 
+# 407 — Jon Snow Elected 998th Lord Commander
 news_event = { 
     id = GOT_Story_News.407 
     title = GOT_Story_News.407.t 
@@ -14089,7 +14089,7 @@ news_event = {
     } 
 } 
  
-# 
+# 408 — Daenerys Executes Mossador
 country_event = { 
     id = GOT_Story_Country.408 
     title = GOT_Story_Country.408.t 
@@ -14126,7 +14126,7 @@ country_event = {
     } 
 } 
  
-# 
+# 408 — Daenerys Executes Mossador
 news_event = { 
     id = GOT_Story_News.408 
     title = GOT_Story_News.408.t 
@@ -14140,7 +14140,7 @@ news_event = {
     } 
 } 
  
-# 
+# 409 — Brienne Encounters Sansa Stark
 country_event = { 
     id = GOT_Story_Country.409 
     title = GOT_Story_Country.409.t 
@@ -14177,7 +14177,7 @@ country_event = {
     } 
 } 
  
-# 
+# 409 — Brienne Encounters Sansa Stark
 news_event = { 
     id = GOT_Story_News.409 
     title = GOT_Story_News.409.t 
@@ -14191,7 +14191,7 @@ news_event = {
     } 
 } 
  
-# 
+# 410 — Jaime Prepares to Retrieve Myrcella
 country_event = { 
     id = GOT_Story_Country.410 
     title = GOT_Story_Country.410.t 
@@ -14228,7 +14228,7 @@ country_event = {
     } 
 } 
  
-# 
+# 410 — Jaime Prepares to Retrieve Myrcella
 news_event = { 
     id = GOT_Story_News.410 
     title = GOT_Story_News.410.t 
@@ -14242,7 +14242,7 @@ news_event = {
     } 
 } 
  
-# 
+# 411 — Sansa Stark Betrothed to Ramsay Bolton
 country_event = { 
     id = GOT_Story_Country.411 
     title = GOT_Story_Country.411.t 
@@ -14279,7 +14279,7 @@ country_event = {
     } 
 } 
  
-# 
+# 411 — Sansa Stark Betrothed to Ramsay Bolton
 news_event = { 
     id = GOT_Story_News.411 
     title = GOT_Story_News.411.t 
@@ -14293,7 +14293,7 @@ news_event = {
     } 
 } 
  
-# 
+# 412 — Jon Snow Executes Janos Slynt
 country_event = { 
     id = GOT_Story_Country.412 
     title = GOT_Story_Country.412.t 
@@ -14330,7 +14330,7 @@ country_event = {
     } 
 } 
  
-# 
+# 412 — Jon Snow Executes Janos Slynt
 news_event = { 
     id = GOT_Story_News.412 
     title = GOT_Story_News.412.t 
@@ -14344,7 +14344,7 @@ news_event = {
     } 
 } 
  
-# 
+# 413 — Tommen Marries Margaery Tyrell
 country_event = { 
     id = GOT_Story_Country.413 
     title = GOT_Story_Country.413.t 
@@ -14381,7 +14381,7 @@ country_event = {
     } 
 } 
  
-# 
+# 413 — Tommen Marries Margaery Tyrell
 news_event = { 
     id = GOT_Story_News.413 
     title = GOT_Story_News.413.t 
@@ -14395,7 +14395,7 @@ news_event = {
     } 
 } 
  
-# 
+# 414 — Cersei Aligns with the High Sparrow
 country_event = { 
     id = GOT_Story_Country.414 
     title = GOT_Story_Country.414.t 
@@ -14432,7 +14432,7 @@ country_event = {
     } 
 } 
  
-# 
+# 414 — Cersei Aligns with the High Sparrow
 news_event = { 
     id = GOT_Story_News.414 
     title = GOT_Story_News.414.t 
@@ -14446,7 +14446,7 @@ news_event = {
     } 
 } 
  
-# 
+# 415 — Arya Begins Training with the Faceless Men
 country_event = { 
     id = GOT_Story_Country.415 
     title = GOT_Story_Country.415.t 
@@ -14483,7 +14483,7 @@ country_event = {
     } 
 } 
  
-# 
+# 415 — Arya Begins Training with the Faceless Men
 news_event = { 
     id = GOT_Story_News.415 
     title = GOT_Story_News.415.t 
@@ -14497,7 +14497,7 @@ news_event = {
     } 
 } 
  
-# 
+# 416 — Sons of the Harpy Ambush in Meereen
 country_event = { 
     id = GOT_Story_Country.416 
     title = GOT_Story_Country.416.t 
@@ -14534,7 +14534,7 @@ country_event = {
     } 
 } 
  
-# 
+# 416 — Sons of the Harpy Ambush in Meereen
 news_event = { 
     id = GOT_Story_News.416 
     title = GOT_Story_News.416.t 
@@ -14548,7 +14548,7 @@ news_event = {
     } 
 } 
  
-# 
+# 417 — Cersei Empowers the Faith Militant
 country_event = { 
     id = GOT_Story_Country.417 
     title = GOT_Story_Country.417.t 
@@ -14585,7 +14585,7 @@ country_event = {
     } 
 } 
  
-# 
+# 417 — Cersei Empowers the Faith Militant
 news_event = { 
     id = GOT_Story_News.417 
     title = GOT_Story_News.417.t 
@@ -14599,7 +14599,7 @@ news_event = {
     } 
 } 
  
-# 
+# 418 — Jaime and Bronn’s Mission to Dorne
 country_event = { 
     id = GOT_Story_Country.418 
     title = GOT_Story_Country.418.t 
@@ -14636,7 +14636,7 @@ country_event = {
     } 
 } 
  
-# 
+# 418 — Jaime and Bronn’s Mission to Dorne
 news_event = { 
     id = GOT_Story_News.418 
     title = GOT_Story_News.418.t 
@@ -14650,7 +14650,7 @@ news_event = {
     } 
 } 
  
-# 
+# 419 — Jorah Mormont Captures Tyrion Lannister
 country_event = { 
     id = GOT_Story_Country.419 
     title = GOT_Story_Country.419.t 
@@ -14687,7 +14687,7 @@ country_event = {
     } 
 } 
  
-# 
+# 419 — Jorah Mormont Captures Tyrion Lannister
 news_event = { 
     id = GOT_Story_News.419 
     title = GOT_Story_News.419.t 
@@ -14701,7 +14701,7 @@ news_event = {
     } 
 } 
  
-# 
+# 420 — Sansa Visits the Crypts of Winterfell
 country_event = { 
     id = GOT_Story_Country.420 
     title = GOT_Story_Country.420.t 
@@ -14738,7 +14738,7 @@ country_event = {
     } 
 } 
  
-# 
+# 420 — Sansa Visits the Crypts of Winterfell
 news_event = { 
     id = GOT_Story_News.420 
     title = GOT_Story_News.420.t 
@@ -14752,7 +14752,7 @@ news_event = {
     } 
 } 
  
-# 
+# 421 — Jon Snow Seeks Alliance with the Wildlings
 country_event = { 
     id = GOT_Story_Country.421 
     title = GOT_Story_Country.421.t 
@@ -14789,7 +14789,7 @@ country_event = {
     } 
 } 
  
-# 
+# 421 — Jon Snow Seeks Alliance with the Wildlings
 news_event = { 
     id = GOT_Story_News.421 
     title = GOT_Story_News.421.t 
@@ -14803,7 +14803,7 @@ news_event = {
     } 
 } 
  
-# 
+# 422 — Daenerys Executes a Noble and Announces Marriage
 country_event = { 
     id = GOT_Story_Country.422 
     title = GOT_Story_Country.422.t 
@@ -14840,7 +14840,7 @@ country_event = {
     } 
 } 
  
-# 
+# 422 — Daenerys Executes a Noble and Announces Marriage
 news_event = { 
     id = GOT_Story_News.422 
     title = GOT_Story_News.422.t 
@@ -14854,7 +14854,7 @@ news_event = {
     } 
 } 
  
-# 
+# 423 — Jorah Contracts Greyscale in Valyria
 country_event = { 
     id = GOT_Story_Country.423 
     title = GOT_Story_Country.423.t 
@@ -14891,7 +14891,7 @@ country_event = {
     } 
 } 
  
-# 
+# 423 — Jorah Contracts Greyscale in Valyria
 news_event = { 
     id = GOT_Story_News.423 
     title = GOT_Story_News.423.t 
@@ -14905,7 +14905,7 @@ news_event = {
     } 
 } 
  
-# 
+# 424 — Stannis Marches Toward Winterfell
 country_event = { 
     id = GOT_Story_Country.424 
     title = GOT_Story_Country.424.t 
@@ -14942,7 +14942,7 @@ country_event = {
     } 
 } 
  
-# 
+# 424 — Stannis Marches Toward Winterfell
 news_event = { 
     id = GOT_Story_News.424 
     title = GOT_Story_News.424.t 
@@ -14956,7 +14956,7 @@ news_event = {
     } 
 } 
  
-# 
+# 425 — Sansa Learns of Northern Allies
 country_event = { 
     id = GOT_Story_Country.425 
     title = GOT_Story_Country.425.t 
@@ -14993,7 +14993,7 @@ country_event = {
     } 
 } 
  
-# 
+# 425 — Sansa Learns of Northern Allies
 news_event = { 
     id = GOT_Story_News.425 
     title = GOT_Story_News.425.t 
@@ -15007,7 +15007,7 @@ news_event = {
     } 
 } 
  
-# 
+# 426 — Arya Advances in Her Training
 country_event = { 
     id = GOT_Story_Country.426 
     title = GOT_Story_Country.426.t 
@@ -15044,7 +15044,7 @@ country_event = {
     } 
 } 
  
-# 
+# 426 — Arya Advances in Her Training
 news_event = { 
     id = GOT_Story_News.426 
     title = GOT_Story_News.426.t 
@@ -15058,7 +15058,7 @@ news_event = {
     } 
 } 
  
-# 
+# 427 — Tyrion and Jorah Captured by Slavers
 country_event = { 
     id = GOT_Story_Country.427 
     title = GOT_Story_Country.427.t 
@@ -15095,7 +15095,7 @@ country_event = {
     } 
 } 
  
-# 
+# 427 — Tyrion and Jorah Captured by Slavers
 news_event = { 
     id = GOT_Story_News.427 
     title = GOT_Story_News.427.t 
@@ -15109,7 +15109,7 @@ news_event = {
     } 
 } 
  
-# 
+# 428 — Jaime and Bronn Captured in Dorne
 country_event = { 
     id = GOT_Story_Country.428 
     title = GOT_Story_Country.428.t 
@@ -15146,7 +15146,7 @@ country_event = {
     } 
 } 
  
-# 
+# 428 — Jaime and Bronn Captured in Dorne
 news_event = { 
     id = GOT_Story_News.428 
     title = GOT_Story_News.428.t 
@@ -15160,7 +15160,7 @@ news_event = {
     } 
 } 
  
-# 
+# 429 — Cersei Strikes at the Tyrells
 country_event = { 
     id = GOT_Story_Country.429 
     title = GOT_Story_Country.429.t 
@@ -15197,7 +15197,7 @@ country_event = {
     } 
 } 
  
-# 
+# 429 — Cersei Strikes at the Tyrells
 news_event = { 
     id = GOT_Story_News.429 
     title = GOT_Story_News.429.t 
@@ -15211,7 +15211,7 @@ news_event = {
     } 
 } 
  
-# 
+# 430 — Sansa’s Wedding Night
 country_event = { 
     id = GOT_Story_Country.430 
     title = GOT_Story_Country.430.t 
@@ -15248,7 +15248,7 @@ country_event = {
     } 
 } 
  
-# 
+# 430 — Sansa’s Wedding Night
 news_event = { 
     id = GOT_Story_News.430 
     title = GOT_Story_News.430.t 
@@ -15262,7 +15262,7 @@ news_event = {
     } 
 } 
  
-# 
+# 431 — Maester Aemon Passes Away
 country_event = { 
     id = GOT_Story_Country.431 
     title = GOT_Story_Country.431.t 
@@ -15299,7 +15299,7 @@ country_event = {
     } 
 } 
  
-# 
+# 431 — Maester Aemon Passes Away
 news_event = { 
     id = GOT_Story_News.431 
     title = GOT_Story_News.431.t 
@@ -15313,7 +15313,7 @@ news_event = {
     } 
 } 
  
-# 
+# 432 — Sam Defends Gilly
 country_event = { 
     id = GOT_Story_Country.432 
     title = GOT_Story_Country.432.t 
@@ -15350,7 +15350,7 @@ country_event = {
     } 
 } 
  
-# 
+# 432 — Sam Defends Gilly
 news_event = { 
     id = GOT_Story_News.432 
     title = GOT_Story_News.432.t 
@@ -15364,7 +15364,7 @@ news_event = {
     } 
 } 
  
-# 
+# 433 — Stannis Rejects Melisandre’s Proposal
 country_event = { 
     id = GOT_Story_Country.433 
     title = GOT_Story_Country.433.t 
@@ -15401,7 +15401,7 @@ country_event = {
     } 
 } 
  
-# 
+# 433 — Stannis Rejects Melisandre’s Proposal
 news_event = { 
     id = GOT_Story_News.433 
     title = GOT_Story_News.433.t 
@@ -15415,7 +15415,7 @@ news_event = {
     } 
 } 
  
-# 
+# 434 — Cersei Is Arrested
 country_event = { 
     id = GOT_Story_Country.434 
     title = GOT_Story_Country.434.t 
@@ -15452,7 +15452,7 @@ country_event = {
     } 
 } 
  
-# 
+# 434 — Cersei Is Arrested
 news_event = { 
     id = GOT_Story_News.434 
     title = GOT_Story_News.434.t 
@@ -15466,7 +15466,7 @@ news_event = {
     } 
 } 
  
-# 
+# 435 — Tyrion Meets Daenerys
 country_event = { 
     id = GOT_Story_Country.435 
     title = GOT_Story_Country.435.t 
@@ -15503,7 +15503,7 @@ country_event = {
     } 
 } 
  
-# 
+# 435 — Tyrion Meets Daenerys
 news_event = { 
     id = GOT_Story_News.435 
     title = GOT_Story_News.435.t 
@@ -15517,7 +15517,7 @@ news_event = {
     } 
 } 
  
-# 
+# 436 — The Battle of Hardhome
 country_event = { 
     id = GOT_Story_Country.436 
     title = GOT_Story_Country.436.t 
@@ -15554,7 +15554,7 @@ country_event = {
     } 
 } 
  
-# 
+# 436 — The Battle of Hardhome
 news_event = { 
     id = GOT_Story_News.436 
     title = GOT_Story_News.436.t 
@@ -15568,7 +15568,7 @@ news_event = {
     } 
 } 
  
-# 
+# 437 — Tyrion Accepted as Daenerys’s Advisor
 country_event = { 
     id = GOT_Story_Country.437 
     title = GOT_Story_Country.437.t 
@@ -15605,7 +15605,7 @@ country_event = {
     } 
 } 
  
-# 
+# 437 — Tyrion Accepted as Daenerys’s Advisor
 news_event = { 
     id = GOT_Story_News.437 
     title = GOT_Story_News.437.t 
@@ -15619,7 +15619,7 @@ news_event = {
     } 
 } 
  
-# 
+# 438 — Cersei’s Imprisonment Continues
 country_event = { 
     id = GOT_Story_Country.438 
     title = GOT_Story_Country.438.t 
@@ -15656,7 +15656,7 @@ country_event = {
     } 
 } 
  
-# 
+# 438 — Cersei’s Imprisonment Continues
 news_event = { 
     id = GOT_Story_News.438 
     title = GOT_Story_News.438.t 
@@ -15670,7 +15670,7 @@ news_event = {
     } 
 } 
  
-# 
+# 439 — Arya’s First Assassination Mission
 country_event = { 
     id = GOT_Story_Country.439 
     title = GOT_Story_Country.439.t 
@@ -15707,7 +15707,7 @@ country_event = {
     } 
 } 
  
-# 
+# 439 — Arya’s First Assassination Mission
 news_event = { 
     id = GOT_Story_News.439 
     title = GOT_Story_News.439.t 
@@ -15721,7 +15721,7 @@ news_event = {
     } 
 } 
  
-# 
+# 440 — Sansa Confronts Theon
 country_event = { 
     id = GOT_Story_Country.440 
     title = GOT_Story_Country.440.t 
@@ -15758,7 +15758,7 @@ country_event = {
     } 
 } 
  
-# 
+# 440 — Sansa Confronts Theon
 news_event = { 
     id = GOT_Story_News.440 
     title = GOT_Story_News.440.t 
