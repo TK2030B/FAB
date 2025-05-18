@@ -3774,511 +3774,425 @@ GOT_Story_News.649.a: "The Long Night begins."
 ##SEASON 8##
 ############
 
+# 701 — Arrival at Winterfell
+GOT_Story_Country.701.t: "Dragons over the North"
+GOT_Story_Country.701.d: "Jon Snow and Daenerys Targaryen arrive at Winterfell with armies and dragons, heralding the final stand against the coming darkness."
+GOT_Story_Country.701.a: "Forge the Northern Alliance—boost army morale and unity"
+GOT_Story_Country.701.b: "Treat Daenerys as outsider—gain political tension, risk fracturing alliances"
 
-# 
-GOT_Story_Country.701.t: "" 
-GOT_Story_Country.701.d: "" 
-GOT_Story_Country.701.a: "" 
-GOT_Story_Country.701.b: "" 
- 
-# 
-GOT_Story_News.701.t: "" 
-GOT_Story_News.701.d: "" 
-GOT_Story_News.701.a: "" 
-GOT_Story_News.701.b: "" 
- 
-# 
-GOT_Story_Country.702.t: "" 
-GOT_Story_Country.702.d: "" 
-GOT_Story_Country.702.a: "" 
-GOT_Story_Country.702.b: "" 
- 
-# 
-GOT_Story_News.702.t: "" 
-GOT_Story_News.702.d: "" 
-GOT_Story_News.702.a: "" 
-GOT_Story_News.702.b: "" 
- 
-# 
-GOT_Story_Country.703.t: "" 
-GOT_Story_Country.703.d: "" 
-GOT_Story_Country.703.a: "" 
-GOT_Story_Country.703.b: "" 
- 
-# 
-GOT_Story_News.703.t: "" 
-GOT_Story_News.703.d: "" 
-GOT_Story_News.703.a: "" 
-GOT_Story_News.703.b: "" 
- 
-# 
-GOT_Story_Country.704.t: "" 
-GOT_Story_Country.704.d: "" 
-GOT_Story_Country.704.a: "" 
-GOT_Story_Country.704.b: "" 
- 
-# 
-GOT_Story_News.704.t: "" 
-GOT_Story_News.704.d: "" 
-GOT_Story_News.704.a: "" 
-GOT_Story_News.704.b: "" 
- 
-# 
-GOT_Story_Country.705.t: "" 
-GOT_Story_Country.705.d: "" 
-GOT_Story_Country.705.a: "" 
-GOT_Story_Country.705.b: "" 
- 
-# 
-GOT_Story_News.705.t: "" 
-GOT_Story_News.705.d: "" 
-GOT_Story_News.705.a: "" 
-GOT_Story_News.705.b: "" 
- 
-# 
-GOT_Story_Country.706.t: "" 
-GOT_Story_Country.706.d: "" 
-GOT_Story_Country.706.a: "" 
-GOT_Story_Country.706.b: "" 
- 
-# 
-GOT_Story_News.706.t: "" 
-GOT_Story_News.706.d: "" 
-GOT_Story_News.706.a: "" 
-GOT_Story_News.706.b: "" 
- 
-# 
-GOT_Story_Country.707.t: "" 
-GOT_Story_Country.707.d: "" 
-GOT_Story_Country.707.a: "" 
-GOT_Story_Country.707.b: "" 
- 
-# 
-GOT_Story_News.707.t: "" 
-GOT_Story_News.707.d: "" 
-GOT_Story_News.707.a: "" 
-GOT_Story_News.707.b: "" 
- 
-# 
-GOT_Story_Country.708.t: "" 
-GOT_Story_Country.708.d: "" 
-GOT_Story_Country.708.a: "" 
-GOT_Story_Country.708.b: "" 
- 
-# 
-GOT_Story_News.708.t: "" 
-GOT_Story_News.708.d: "" 
-GOT_Story_News.708.a: "" 
-GOT_Story_News.708.b: "" 
- 
-# 
-GOT_Story_Country.709.t: "" 
-GOT_Story_Country.709.d: "" 
-GOT_Story_Country.709.a: "" 
-GOT_Story_Country.709.b: "" 
- 
-# 
-GOT_Story_News.709.t: "" 
-GOT_Story_News.709.d: "" 
-GOT_Story_News.709.a: "" 
-GOT_Story_News.709.b: "" 
- 
-# 
-GOT_Story_Country.710.t: "" 
-GOT_Story_Country.710.d: "" 
-GOT_Story_Country.710.a: "" 
-GOT_Story_Country.710.b: "" 
- 
-# 
-GOT_Story_News.710.t: "" 
-GOT_Story_News.710.d: "" 
-GOT_Story_News.710.a: "" 
-GOT_Story_News.710.b: "" 
- 
-# 
-GOT_Story_Country.711.t: "" 
-GOT_Story_Country.711.d: "" 
-GOT_Story_Country.711.a: "" 
-GOT_Story_Country.711.b: "" 
- 
-# 
-GOT_Story_News.711.t: "" 
-GOT_Story_News.711.d: "" 
-GOT_Story_News.711.a: "" 
-GOT_Story_News.711.b: "" 
- 
-# 
-GOT_Story_Country.712.t: "" 
-GOT_Story_Country.712.d: "" 
-GOT_Story_Country.712.a: "" 
-GOT_Story_Country.712.b: "" 
- 
-# 
-GOT_Story_News.712.t: "" 
-GOT_Story_News.712.d: "" 
-GOT_Story_News.712.a: "" 
-GOT_Story_News.712.b: "" 
- 
-# 
-GOT_Story_Country.713.t: "" 
-GOT_Story_Country.713.d: "" 
-GOT_Story_Country.713.a: "" 
-GOT_Story_Country.713.b: "" 
- 
-# 
-GOT_Story_News.713.t: "" 
-GOT_Story_News.713.d: "" 
-GOT_Story_News.713.a: "" 
-GOT_Story_News.713.b: "" 
- 
-# 
-GOT_Story_Country.714.t: "" 
-GOT_Story_Country.714.d: "" 
-GOT_Story_Country.714.a: "" 
-GOT_Story_Country.714.b: "" 
- 
-# 
-GOT_Story_News.714.t: "" 
-GOT_Story_News.714.d: "" 
-GOT_Story_News.714.a: "" 
-GOT_Story_News.714.b: "" 
- 
-# 
-GOT_Story_Country.715.t: "" 
-GOT_Story_Country.715.d: "" 
-GOT_Story_Country.715.a: "" 
-GOT_Story_Country.715.b: "" 
- 
-# 
-GOT_Story_News.715.t: "" 
-GOT_Story_News.715.d: "" 
-GOT_Story_News.715.a: "" 
-GOT_Story_News.715.b: "" 
- 
-# 
-GOT_Story_Country.716.t: "" 
-GOT_Story_Country.716.d: "" 
-GOT_Story_Country.716.a: "" 
-GOT_Story_Country.716.b: "" 
- 
-# 
-GOT_Story_News.716.t: "" 
-GOT_Story_News.716.d: "" 
-GOT_Story_News.716.a: "" 
-GOT_Story_News.716.b: "" 
- 
-# 
-GOT_Story_Country.717.t: "" 
-GOT_Story_Country.717.d: "" 
-GOT_Story_Country.717.a: "" 
-GOT_Story_Country.717.b: "" 
- 
-# 
-GOT_Story_News.717.t: "" 
-GOT_Story_News.717.d: "" 
-GOT_Story_News.717.a: "" 
-GOT_Story_News.717.b: "" 
- 
-# 
-GOT_Story_Country.718.t: "" 
-GOT_Story_Country.718.d: "" 
-GOT_Story_Country.718.a: "" 
-GOT_Story_Country.718.b: "" 
- 
-# 
-GOT_Story_News.718.t: "" 
-GOT_Story_News.718.d: "" 
-GOT_Story_News.718.a: "" 
-GOT_Story_News.718.b: "" 
- 
-# 
-GOT_Story_Country.719.t: "" 
-GOT_Story_Country.719.d: "" 
-GOT_Story_Country.719.a: "" 
-GOT_Story_Country.719.b: "" 
- 
-# 
-GOT_Story_News.719.t: "" 
-GOT_Story_News.719.d: "" 
-GOT_Story_News.719.a: "" 
-GOT_Story_News.719.b: "" 
- 
-# 
-GOT_Story_Country.720.t: "" 
-GOT_Story_Country.720.d: "" 
-GOT_Story_Country.720.a: "" 
-GOT_Story_Country.720.b: "" 
- 
-# 
-GOT_Story_News.720.t: "" 
-GOT_Story_News.720.d: "" 
-GOT_Story_News.720.a: "" 
-GOT_Story_News.720.b: "" 
- 
-# 
-GOT_Story_Country.721.t: "" 
-GOT_Story_Country.721.d: "" 
-GOT_Story_Country.721.a: "" 
-GOT_Story_Country.721.b: "" 
- 
-# 
-GOT_Story_News.721.t: "" 
-GOT_Story_News.721.d: "" 
-GOT_Story_News.721.a: "" 
-GOT_Story_News.721.b: "" 
- 
-# 
-GOT_Story_Country.722.t: "" 
-GOT_Story_Country.722.d: "" 
-GOT_Story_Country.722.a: "" 
-GOT_Story_Country.722.b: "" 
- 
-# 
-GOT_Story_News.722.t: "" 
-GOT_Story_News.722.d: "" 
-GOT_Story_News.722.a: "" 
-GOT_Story_News.722.b: "" 
- 
-# 
-GOT_Story_Country.723.t: "" 
-GOT_Story_Country.723.d: "" 
-GOT_Story_Country.723.a: "" 
-GOT_Story_Country.723.b: "" 
- 
-# 
-GOT_Story_News.723.t: "" 
-GOT_Story_News.723.d: "" 
-GOT_Story_News.723.a: "" 
-GOT_Story_News.723.b: "" 
- 
-# 
-GOT_Story_Country.724.t: "" 
-GOT_Story_Country.724.d: "" 
-GOT_Story_Country.724.a: "" 
-GOT_Story_Country.724.b: "" 
- 
-# 
-GOT_Story_News.724.t: "" 
-GOT_Story_News.724.d: "" 
-GOT_Story_News.724.a: "" 
-GOT_Story_News.724.b: "" 
- 
-# 
-GOT_Story_Country.725.t: "" 
-GOT_Story_Country.725.d: "" 
-GOT_Story_Country.725.a: "" 
-GOT_Story_Country.725.b: "" 
- 
-# 
-GOT_Story_News.725.t: "" 
-GOT_Story_News.725.d: "" 
-GOT_Story_News.725.a: "" 
-GOT_Story_News.725.b: "" 
- 
-# 
-GOT_Story_Country.726.t: "" 
-GOT_Story_Country.726.d: "" 
-GOT_Story_Country.726.a: "" 
-GOT_Story_Country.726.b: "" 
- 
-# 
-GOT_Story_News.726.t: "" 
-GOT_Story_News.726.d: "" 
-GOT_Story_News.726.a: "" 
-GOT_Story_News.726.b: "" 
- 
-# 
-GOT_Story_Country.727.t: "" 
-GOT_Story_Country.727.d: "" 
-GOT_Story_Country.727.a: "" 
-GOT_Story_Country.727.b: "" 
- 
-# 
-GOT_Story_News.727.t: "" 
-GOT_Story_News.727.d: "" 
-GOT_Story_News.727.a: "" 
-GOT_Story_News.727.b: "" 
- 
-# 
-GOT_Story_Country.728.t: "" 
-GOT_Story_Country.728.d: "" 
-GOT_Story_Country.728.a: "" 
-GOT_Story_Country.728.b: "" 
- 
-# 
-GOT_Story_News.728.t: "" 
-GOT_Story_News.728.d: "" 
-GOT_Story_News.728.a: "" 
-GOT_Story_News.728.b: "" 
- 
-# 
-GOT_Story_Country.729.t: "" 
-GOT_Story_Country.729.d: "" 
-GOT_Story_Country.729.a: "" 
-GOT_Story_Country.729.b: "" 
- 
-# 
-GOT_Story_News.729.t: "" 
-GOT_Story_News.729.d: "" 
-GOT_Story_News.729.a: "" 
-GOT_Story_News.729.b: "" 
- 
-# 
-GOT_Story_Country.730.t: "" 
-GOT_Story_Country.730.d: "" 
-GOT_Story_Country.730.a: "" 
-GOT_Story_Country.730.b: "" 
- 
-# 
-GOT_Story_News.730.t: "" 
-GOT_Story_News.730.d: "" 
-GOT_Story_News.730.a: "" 
-GOT_Story_News.730.b: "" 
- 
-# 
-GOT_Story_Country.731.t: "" 
-GOT_Story_Country.731.d: "" 
-GOT_Story_Country.731.a: "" 
-GOT_Story_Country.731.b: "" 
- 
-# 
-GOT_Story_News.731.t: "" 
-GOT_Story_News.731.d: "" 
-GOT_Story_News.731.a: "" 
-GOT_Story_News.731.b: "" 
- 
-# 
-GOT_Story_Country.732.t: "" 
-GOT_Story_Country.732.d: "" 
-GOT_Story_Country.732.a: "" 
-GOT_Story_Country.732.b: "" 
- 
-# 
-GOT_Story_News.732.t: "" 
-GOT_Story_News.732.d: "" 
-GOT_Story_News.732.a: "" 
-GOT_Story_News.732.b: "" 
- 
-# 
-GOT_Story_Country.733.t: "" 
-GOT_Story_Country.733.d: "" 
-GOT_Story_Country.733.a: "" 
-GOT_Story_Country.733.b: "" 
- 
-# 
-GOT_Story_News.733.t: "" 
-GOT_Story_News.733.d: "" 
-GOT_Story_News.733.a: "" 
-GOT_Story_News.733.b: "" 
- 
-# 
-GOT_Story_Country.734.t: "" 
-GOT_Story_Country.734.d: "" 
-GOT_Story_Country.734.a: "" 
-GOT_Story_Country.734.b: "" 
- 
-# 
-GOT_Story_News.734.t: "" 
-GOT_Story_News.734.d: "" 
-GOT_Story_News.734.a: "" 
-GOT_Story_News.734.b: "" 
- 
-# 
-GOT_Story_Country.735.t: "" 
-GOT_Story_Country.735.d: "" 
-GOT_Story_Country.735.a: "" 
-GOT_Story_Country.735.b: "" 
- 
-# 
-GOT_Story_News.735.t: "" 
-GOT_Story_News.735.d: "" 
-GOT_Story_News.735.a: "" 
-GOT_Story_News.735.b: "" 
- 
-# 
-GOT_Story_Country.736.t: "" 
-GOT_Story_Country.736.d: "" 
-GOT_Story_Country.736.a: "" 
-GOT_Story_Country.736.b: "" 
- 
-# 
-GOT_Story_News.736.t: "" 
-GOT_Story_News.736.d: "" 
-GOT_Story_News.736.a: "" 
-GOT_Story_News.736.b: "" 
- 
-# 
-GOT_Story_Country.737.t: "" 
-GOT_Story_Country.737.d: "" 
-GOT_Story_Country.737.a: "" 
-GOT_Story_Country.737.b: "" 
- 
-# 
-GOT_Story_News.737.t: "" 
-GOT_Story_News.737.d: "" 
-GOT_Story_News.737.a: "" 
-GOT_Story_News.737.b: "" 
- 
-# 
-GOT_Story_Country.738.t: "" 
-GOT_Story_Country.738.d: "" 
-GOT_Story_Country.738.a: "" 
-GOT_Story_Country.738.b: "" 
- 
-# 
-GOT_Story_News.738.t: "" 
-GOT_Story_News.738.d: "" 
-GOT_Story_News.738.a: "" 
-GOT_Story_News.738.b: "" 
- 
-# 
-GOT_Story_Country.739.t: "" 
-GOT_Story_Country.739.d: "" 
-GOT_Story_Country.739.a: "" 
-GOT_Story_Country.739.b: "" 
- 
-# 
-GOT_Story_News.739.t: "" 
-GOT_Story_News.739.d: "" 
-GOT_Story_News.739.a: "" 
-GOT_Story_News.739.b: "" 
- 
-# 
-GOT_Story_Country.740.t: "" 
-GOT_Story_Country.740.d: "" 
-GOT_Story_Country.740.a: "" 
-GOT_Story_Country.740.b: "" 
- 
-# 
-GOT_Story_News.740.t: "" 
-GOT_Story_News.740.d: "" 
-GOT_Story_News.740.a: "" 
-GOT_Story_News.740.b: "" 
- 
-# 
-GOT_Story_Country.741.t: "" 
-GOT_Story_Country.741.d: "" 
-GOT_Story_Country.741.a: "" 
-GOT_Story_Country.741.b: "" 
- 
-# 
-GOT_Story_News.741.t: "" 
-GOT_Story_News.741.d: "" 
-GOT_Story_News.741.a: "" 
-GOT_Story_News.741.b: "" 
- 
-# 
-GOT_Story_Country.742.t: "" 
-GOT_Story_Country.742.d: "" 
-GOT_Story_Country.742.a: "" 
-GOT_Story_Country.742.b: "" 
- 
-# 
-GOT_Story_News.742.t: "" 
-GOT_Story_News.742.d: "" 
-GOT_Story_News.742.a: "" 
-GOT_Story_News.742.b: "" 
+GOT_Story_News.701.t: "Dragons Descend Upon Winterfell"
+GOT_Story_News.701.d: "The long-awaited guests arrive, flanked by fiery beasts and fierce warriors, stirring hope and unease alike."
+GOT_Story_News.701.a: "The North prepares for war."
 
+# 702 — Stark Siblings Reunited
+GOT_Story_Country.702.t: "Blood Bonds Rekindled"
+GOT_Story_Country.702.d: "Jon embraces his Stark siblings after years apart; the old bonds kindle new strength amid shadowed days."
+GOT_Story_Country.702.a: "Strengthen Stark unity—raise Winterfell defense bonus"
+GOT_Story_Country.702.b: "Old wounds reopen—minor unrest among northern lords"
+
+GOT_Story_News.702.t: "Family Gathered at Last"
+GOT_Story_News.702.d: "Winterfell echoes with joy and tension as the Stark heirs reunite, their faces marked by the scars of war and time."
+GOT_Story_News.702.a: "The North stands as one—if only for now."
+
+# 703 — Sam’s Warning
+GOT_Story_Country.703.t: "Truths That Divide"
+GOT_Story_Country.703.d: "Samwell reveals to Jon that Daenerys executed his kin, planting seeds of doubt and loyalty torn."
+GOT_Story_Country.703.a: "Confront Daenerys—risk fracturing alliance"
+GOT_Story_Country.703.b: "Keep faith—maintain fragile unity"
+
+GOT_Story_News.703.t: "Tensions Rise in the Camp"
+GOT_Story_News.703.d: "Whispers of betrayal spread as Jon grapples with painful truths about his queen."
+GOT_Story_News.703.a: "Loyalty tested on the eve of war."
+
+# 704 — Theon’s Redemption
+GOT_Story_Country.704.t: "A Greyjoy’s Valor"
+GOT_Story_Country.704.d: "Theon redeems himself by rescuing Yara from captivity, reclaiming honor amid chaos."
+GOT_Story_Country.704.a: "Boost Ironborn morale, gain Greyjoy fleet reinforcement"
+GOT_Story_Country.704.b: "Failure—lose manpower and prestige"
+
+GOT_Story_News.704.t: "Ironborn Siblings United"
+GOT_Story_News.704.d: "Theon’s daring raid frees Yara, rekindling hope among the Iron Islands."
+GOT_Story_News.704.a: "Storms gather on the horizon."
+
+# 705 — Tyrion and Sansa’s Meeting
+GOT_Story_Country.705.t: "Old Allies, New Fates"
+GOT_Story_Country.705.d: "Tyrion and Sansa share a tense reunion, recalling past betrayals while seeking common ground."
+GOT_Story_Country.705.a: "Mend ties—improve Stark-Lannister relations"
+GOT_Story_Country.705.b: "Harbor grudges—minor diplomatic penalties"
+
+GOT_Story_News.705.t: "Tense Reunion in Winterfell"
+GOT_Story_News.705.d: "Two old friends meet again, their smiles shadowed by the weight of history."
+GOT_Story_News.705.a: "A fragile peace prevails."
+
+# 706 — Stark and Lannister Face Off
+GOT_Story_Country.706.t: "A Cold Gaze"
+GOT_Story_Country.706.d: "Jaime and Bran exchange a chilling stare, history and fate entwined in a single glance."
+GOT_Story_Country.706.a: "Fuel distrust—increase internal tension"
+GOT_Story_Country.706.b: "De-escalate—avoid conflict, preserve stability"
+
+GOT_Story_News.706.t: "A Stark’s Silent Judgment"
+GOT_Story_News.706.d: "The once enemy now returns to Winterfell, but past sins linger in icy silence."
+GOT_Story_News.706.a: "Old wounds threaten unity."
+
+# 707 — Jon Rides Rhaegal
+GOT_Story_Country.707.t: "Dragonrider Ascendant"
+GOT_Story_Country.707.d: "Jon’s first flight atop Rhaegal marks his embrace of his Targaryen blood and destiny."
+GOT_Story_Country.707.a: "Boost Jon’s prestige and military prowess"
+GOT_Story_Country.707.b: "Jealousy brews—some question his place"
+
+GOT_Story_News.707.t: "The Dragon and the Wolf Take Flight"
+GOT_Story_News.707.d: "A new rider soars above Winterfell, heralding change and uneasy alliances."
+GOT_Story_News.707.a: "Fire and ice mingle in the skies."
+ 
+# 708 — Jaime Faces Judgment
+GOT_Story_Country.708.t: "Trial by Fire"
+GOT_Story_Country.708.d: "Jaime Lannister stands before Jon, Daenerys, and Sansa, judged for past sins. Brienne’s faith grants him a chance to fight for redemption."
+GOT_Story_Country.708.a: "Accept Jaime—gain veteran warrior for battle"
+GOT_Story_Country.708.b: "Reject Jaime—lose potential ally, risk morale drop"
+
+GOT_Story_News.708.t: "The Lion Returns"
+GOT_Story_News.708.d: "Jaime Lannister’s fate hangs in the balance as old wounds and new hopes collide."
+GOT_Story_News.708.a: "Winterfell braces for war."
+
+# 709 — Brienne Knighted
+GOT_Story_Country.709.t: "A Knight’s Honor"
+GOT_Story_Country.709.d: "Jaime knights Brienne of Tarth, crowning her years of loyalty and valor with honor."
+GOT_Story_Country.709.a: "Boost morale among Stark allies"
+GOT_Story_Country.709.b: "Jealousy simmers in the ranks"
+
+GOT_Story_News.709.t: "Brienne’s Ascension"
+GOT_Story_News.709.d: "The forge of honor sparks anew as Brienne takes her rightful place among knights."
+GOT_Story_News.709.a: "Hope shines in darkest hours."
+
+# 710 — Jon’s True Parentage
+GOT_Story_Country.710.t: "Blood of the Dragon"
+GOT_Story_Country.710.d: "Sam reveals Jon’s true lineage as Targaryen and rightful heir to the throne, shaking the foundations of loyalty."
+GOT_Story_Country.710.a: "Claim the throne—risk alienating allies"
+GOT_Story_Country.710.b: "Conceal the truth—maintain current alliances"
+
+GOT_Story_News.710.t: "The Prince Revealed"
+GOT_Story_News.710.d: "Whispers of a secret heir spread, casting shadows over the war to come."
+GOT_Story_News.710.a: "Destiny’s hand moves."
+
+# 711 — Arya and Gendry’s Moment
+GOT_Story_Country.711.t: "Forged in Fire"
+GOT_Story_Country.711.d: "Arya and Gendry share a rare moment of tenderness, a brief respite from the coming storm."
+GOT_Story_Country.711.a: "Strengthen personal bonds—raise morale"
+GOT_Story_Country.711.b: "Distraction risks focus—minor tension"
+
+GOT_Story_News.711.t: "Love Amidst Shadows"
+GOT_Story_News.711.d: "A quiet bond forms in the forge’s glow, reminding all what they fight for."
+GOT_Story_News.711.a: "Hearts prepare for battle."
+
+# 712 — Bran’s Warning
+GOT_Story_Country.712.t: "The Raven’s Gaze"
+GOT_Story_Country.712.d: "Bran confronts Jaime with a silent, unsettling warning—past deeds are never forgotten."
+GOT_Story_Country.712.a: "Jaime shaken—increase internal conflict"
+GOT_Story_Country.712.b: "Jaime resolves to change—boost loyalty"
+
+GOT_Story_News.712.t: "Eyes That See All"
+GOT_Story_News.712.d: "A cold stare unsettles the lion, hinting at the cost of betrayal."
+GOT_Story_News.712.a: "Trust is fragile."
+
+# 713 — Theon’s Return
+GOT_Story_Country.713.t: "Homeward Bound"
+GOT_Story_Country.713.d: "Theon returns to Winterfell, welcomed by Sansa and ready to fight for the North’s survival."
+GOT_Story_Country.713.a: "Boost Stark forces with Ironborn support"
+GOT_Story_Country.713.b: "Suspicion remains—minor unrest"
+
+GOT_Story_News.713.t: "The Greyjoy’s Redemption"
+GOT_Story_News.713.d: "A prodigal son returns, his loyalty reforged in fire and blood."
+GOT_Story_News.713.a: "Northern ranks strengthen."
+
+# 714 — Battle Preparations
+GOT_Story_Country.714.t: "Shadows Gather"
+GOT_Story_Country.714.d: "Allies ready their arms and hearts for the looming battle against the Night King’s forces."
+GOT_Story_Country.714.a: "Raise army readiness and fortifications"
+GOT_Story_Country.714.b: "Strain on resources—risk fatigue"
+
+GOT_Story_News.714.t: "The Calm Before the Storm"
+GOT_Story_News.714.d: "Winterfell’s defenders steel themselves for a war unlike any before."
+GOT_Story_News.714.a: "The fate of kingdoms hangs in balance."
+
+# 715 — Arya Defeats the Night King
+GOT_Story_Country.715.t: "The Night Falls"
+GOT_Story_Country.715.d: "In the godswood, Arya Stark delivers the fatal blow to the Night King with a Valyrian steel dagger, ending the undead threat."
+GOT_Story_Country.715.a: "Victory over the dead—morale soars"
+GOT_Story_Country.715.b: "Heavy losses sustained—resources depleted"
+
+GOT_Story_News.715.t: "The Long Night Ends"
+GOT_Story_News.715.d: "Arya Stark’s daring strike shatters the Night King and his army, bringing hope to the living."
+GOT_Story_News.715.a: "Winter fades; dawn breaks."
+
+# 716 — Theon’s Redemption and Death
+GOT_Story_Country.716.t: "The Last Stand of the Greyjoy"
+GOT_Story_Country.716.d: "Theon Greyjoy defends Bran Stark with valor, sacrificing himself to protect the future of the North."
+GOT_Story_Country.716.a: "Honor restored—stir loyalty"
+GOT_Story_Country.716.b: "Loss of a brave warrior—lower manpower"
+
+GOT_Story_News.716.t: "A Hero’s Farewell"
+GOT_Story_News.716.d: "Theon Greyjoy’s final charge inspires allies even in death."
+GOT_Story_News.716.a: "Legacy of courage."
+
+# 717 — Lyanna Mormont’s Heroic Stand
+GOT_Story_Country.717.t: "Bear of Bear Island"
+GOT_Story_Country.717.d: "Young Lyanna Mormont slays a giant wight, paying the ultimate price in battle."
+GOT_Story_Country.717.a: "Inspire troops—morale boost"
+GOT_Story_Country.717.b: "Loss of a key leader—leadership weakened"
+
+GOT_Story_News.717.t: "A Fierce Heart"
+GOT_Story_News.717.d: "Lyanna Mormont’s bravery becomes legend across the North."
+GOT_Story_News.717.a: "Her name will not be forgotten."
+
+# 718 — Jorah Mormont’s Sacrifice
+GOT_Story_Country.718.t: "Loyal Until the End"
+GOT_Story_Country.718.d: "Jorah Mormont dies protecting Daenerys, a faithful guardian to the last breath."
+GOT_Story_Country.718.a: "Emotional toll—Daenerys' resolve shaken"
+GOT_Story_Country.718.b: "Inspire loyalty—honor his sacrifice"
+
+GOT_Story_News.718.t: "The Lion’s Last Roar"
+GOT_Story_News.718.d: "Jorah’s sacrifice seals his place in history as a true knight."
+GOT_Story_News.718.a: "A somber victory."
+
+# 719 — Melisandre’s Final Prophecy and Death
+GOT_Story_Country.719.t: "The Red Woman’s Last Spell"
+GOT_Story_Country.719.d: "Melisandre foretells Arya’s fate before dying in peace, her magic fading away."
+GOT_Story_Country.719.a: "Mystical influence wanes"
+GOT_Story_Country.719.b: "Spiritual strength diminishes"
+
+GOT_Story_News.719.t: "The Fire Dies"
+GOT_Story_News.719.d: "Melisandre’s departure marks the end of an era of prophecy and fire."
+GOT_Story_News.719.a: "A world changed forever."
+
+# 720 — Drogon Mourning Jorah
+GOT_Story_Country.720.t: "Dragon’s Grief"
+GOT_Story_Country.720.d: "Drogon mourns Jorah’s death, curling protectively around Daenerys."
+GOT_Story_Country.720.a: "Strengthen bond with Daenerys"
+GOT_Story_Country.720.b: "Loss felt deeply in the camp"
+
+GOT_Story_News.720.t: "A Dragon’s Sorrow"
+GOT_Story_News.720.d: "The death of Jorah Mormont strikes a chord with dragon and rider alike."
+GOT_Story_News.720.a: "The fire burns on, but dimmer."
+
+# 721 — Jon’s Struggle Against Viserion
+GOT_Story_Country.721.t: "Blue Fire and Ice"
+GOT_Story_Country.721.d: "Jon Snow confronts the reanimated dragon Viserion but is trapped by its icy flames."
+GOT_Story_Country.721.a: "Jon’s survival uncertain—tension rises"
+GOT_Story_Country.721.b: "Potential setback in battle"
+
+GOT_Story_News.721.t: "Frozen Fury"
+GOT_Story_News.721.d: "Viserion’s blue fire threatens the living’s last hope."
+GOT_Story_News.721.a: "A desperate struggle unfolds."
+ 
+# 722 — Theon Greyjoy’s Return and Redemption
+GOT_Story_Country.722.t: "A Son Returns"
+GOT_Story_Country.722.d: "Theon Greyjoy returns to Winterfell and is welcomed by Sansa Stark, reaffirming his loyalty to the Starks."
+GOT_Story_Country.722.a: "Boost unity among Northern forces"
+GOT_Story_Country.722.b: "Potential distrust from some lords"
+
+GOT_Story_News.722.t: "The Greyjoy’s Homecoming"
+GOT_Story_News.722.d: "Theon's return marks a hopeful turn in the North’s struggle."
+GOT_Story_News.722.a: "Renewed alliances strengthen Winterfell."
+
+# 723 — Daenerys Loses Rhaegal
+GOT_Story_Country.723.t: "Fall of the Green Dragon"
+GOT_Story_Country.723.d: "Daenerys’s dragon Rhaegal is killed by Euron Greyjoy’s spear, dealing a severe blow to her aerial power."
+GOT_Story_Country.723.a: "Loss of aerial supremacy"
+GOT_Story_Country.723.b: "Morale suffers among Daenerys’s forces"
+
+GOT_Story_News.723.t: "Dragon Slain at Sea"
+GOT_Story_News.723.d: "Rhaegal’s death weakens Daenerys’s hold over the skies."
+GOT_Story_News.723.a: "Euron’s fleet claims a deadly victory."
+
+# 724 — Missandei’s Capture and Execution
+GOT_Story_Country.724.t: "The Fall of Missandei"
+GOT_Story_Country.724.d: "Captured during an ambush, Missandei is executed by Cersei, fueling Daenerys’s wrath."
+GOT_Story_Country.724.a: "Rally troops through vengeance"
+GOT_Story_Country.724.b: "Heightened tensions with King’s Landing"
+
+GOT_Story_News.724.t: "A Voice Silenced"
+GOT_Story_News.724.d: "Missandei’s death hardens Daenerys’s resolve."
+GOT_Story_News.724.a: "War drums beat louder."
+
+# 725 — Jon Snow’s True Parentage Revealed
+GOT_Story_Country.725.t: "Heir of Ice and Fire"
+GOT_Story_Country.725.d: "Jon Snow learns he is the legitimate son of Lyanna Stark and Rhaegar Targaryen, the rightful heir to the Iron Throne."
+GOT_Story_Country.725.a: "Potential claim dispute"
+GOT_Story_Country.725.b: "Boost to Jon’s legitimacy and allies"
+
+GOT_Story_News.725.t: "The Trueborn Prince"
+GOT_Story_News.725.d: "The revelation shakes the foundations of power in Westeros."
+GOT_Story_News.725.a: "Alliances may shift dramatically."
+
+# 726 — Gendry Legitimized as Lord of Storm's End
+GOT_Story_Country.726.t: "The Baratheon Reborn"
+GOT_Story_Country.726.d: "Daenerys legitimizes Gendry as Lord Baratheon of Storm's End, securing his loyalty."
+GOT_Story_Country.726.a: "Strengthen Daenerys’s claim"
+GOT_Story_Country.726.b: "Gain Stormlands’ support"
+
+GOT_Story_News.726.t: "New Lord of Storm's End"
+GOT_Story_News.726.d: "Gendry takes his place among Westeros’s nobility."
+GOT_Story_News.726.a: "A new player in the game of thrones."
+
+# 727 — Jaime Leaves Brienne
+GOT_Story_Country.727.t: "The Lion’s Return"
+GOT_Story_Country.727.d: "Jaime Lannister departs from Brienne to return to Cersei, torn between love and loyalty."
+GOT_Story_Country.727.a: "Strain on Winterfell’s unity"
+GOT_Story_Country.727.b: "Potential morale drop among allies"
+
+GOT_Story_News.727.t: "The Lion’s Choice"
+GOT_Story_News.727.d: "Jaime’s return to King’s Landing shocks friends and foes alike."
+GOT_Story_News.727.a: "A dangerous gamble."
+
+# 728 — Rising Tensions Among Starks and Daenerys
+GOT_Story_Country.728.t: "Fractures in the North"
+GOT_Story_Country.728.d: "Sansa Stark learns of Jon’s true heritage, heightening distrust between the Stark siblings and Daenerys."
+GOT_Story_Country.728.a: "Weakened Northern alliance"
+GOT_Story_Country.728.b: "Risk of internal conflict"
+
+GOT_Story_News.728.t: "Trust Tested"
+GOT_Story_News.728.d: "The fragile unity in the North is threatened by secrets and suspicions."
+GOT_Story_News.728.a: "Winterfell’s bonds grow strained."
+ 
+# 729 — Daenerys Burns King’s Landing
+GOT_Story_Country.729.t: "The Dragon’s Wrath"
+GOT_Story_Country.729.d: "Despite the bells signaling surrender, Daenerys unleashes Drogon's fire upon King's Landing, devastating the city and its people."
+GOT_Story_Country.729.a: "Massive destruction and civilian casualties"
+GOT_Story_Country.729.b: "Widespread fear and dissent"
+
+GOT_Story_News.729.t: "Fire and Fury in King’s Landing"
+GOT_Story_News.729.d: "Daenerys’s assault shatters the fragile peace, leaving the city in ruins."
+GOT_Story_News.729.a: "Chaos reigns in the capital."
+
+# 730 — Varys is Executed for Treason
+GOT_Story_Country.730.t: "The Spider’s End"
+GOT_Story_Country.730.d: "Varys is executed by Drogon’s flames after Daenerys discovers his plot to reveal Jon Snow’s true heritage."
+GOT_Story_Country.730.a: "Loss of a key advisor"
+GOT_Story_Country.730.b: "Growing paranoia in Daenerys"
+
+GOT_Story_News.730.t: "Treachery Punished"
+GOT_Story_News.730.d: "Varys’s death sends a warning to those who oppose the Queen."
+GOT_Story_News.730.a: "Trust within the court erodes."
+
+# 731 — Cleganebowl: Sandor vs. Gregor
+GOT_Story_Country.731.t: "Brothers’ Final Battle"
+GOT_Story_Country.731.d: "Sandor and Gregor Clegane face off in a brutal fight, ending with both brothers perishing in the flames beneath the Red Keep."
+GOT_Story_Country.731.a: "End of the Clegane feud"
+GOT_Story_Country.731.b: "Symbolic destruction of past horrors"
+
+GOT_Story_News.731.t: "The Hound and The Mountain Fall"
+GOT_Story_News.731.d: "The city’s ruins claim both Clegane brothers in a fiery climax."
+GOT_Story_News.731.a: "A long-standing vendetta ends."
+
+# 732 — Arya Abandons Her Quest for Revenge
+GOT_Story_Country.732.t: "A Change of Heart"
+GOT_Story_Country.732.d: "Convinced by Sandor, Arya chooses to flee King’s Landing rather than pursue vengeance against Cersei."
+GOT_Story_Country.732.a: "Preservation of Arya’s life"
+GOT_Story_Country.732.b: "Unfinished business remains"
+
+GOT_Story_News.732.t: "Arya’s Escape"
+GOT_Story_News.732.d: "The young Stark leaves the city behind, her path forever altered."
+GOT_Story_News.732.a: "A survivor among the ashes."
+
+# 733 — Jaime and Cersei Die Together
+GOT_Story_Country.733.t: "The Last Embrace"
+GOT_Story_Country.733.d: "Jaime reunites with Cersei beneath the collapsing Red Keep; they perish together as the structure falls."
+GOT_Story_Country.733.a: "End of the Lannister reign"
+GOT_Story_Country.733.b: "A tragic end to love and power"
+
+GOT_Story_News.733.t: "Fall of the Lion and Lioness"
+GOT_Story_News.733.d: "The Lannister siblings’ final moments close a bloody chapter."
+GOT_Story_News.733.a: "King’s Landing loses its rulers."
+
+# 734 — Tyrion Frees Jaime
+GOT_Story_Country.734.t: "A Risky Betrayal"
+GOT_Story_Country.734.d: "Tyrion frees Jaime, hoping to convince him to stop Cersei’s destruction, straining his loyalty to Daenerys."
+GOT_Story_Country.734.a: "Strained trust with Daenerys"
+GOT_Story_Country.734.b: "Hope for negotiation fades"
+
+GOT_Story_News.734.t: "A Brother’s Rescue"
+GOT_Story_News.734.d: "Tyrion’s actions raise questions about his allegiance."
+GOT_Story_News.734.a: "Divisions deepen within Daenerys’s camp."
+
+# 735 — Jon Snow Witnesses the Massacre
+GOT_Story_Country.735.t: "A Soldier’s Horror"
+GOT_Story_Country.735.d: "Jon Snow leads troops into the city but is horrified by Daenerys’s ruthless destruction, struggling to stop the carnage."
+GOT_Story_Country.735.a: "Conflict with Daenerys"
+GOT_Story_Country.735.b: "Moral crisis for Jon"
+
+GOT_Story_News.735.t: "The Dragon’s Wrath Observed"
+GOT_Story_News.735.d: "Witnessing the devastation, Jon questions the future under Daenerys’s rule."
+GOT_Story_News.735.a: "Seeds of dissent are sown."
+
+# 736 — Jon Snow Kills Daenerys Targaryen
+GOT_Story_Country.736.t: "A Heartbreaking Choice"
+GOT_Story_Country.736.d: "Jon Snow confronts and fatally stabs Daenerys to stop her from further tyranny, despite his love for her."
+GOT_Story_Country.736.a: "End of Daenerys’s reign"
+GOT_Story_Country.736.b: "Jon’s moral burden"
+
+GOT_Story_News.736.t: "The Dragon’s Fall"
+GOT_Story_News.736.d: "The realm is shaken as Jon Snow kills the Dragon Queen."
+GOT_Story_News.736.a: "A fragile hope for peace begins."
+
+# 737 — Drogon Destroys the Iron Throne
+GOT_Story_Country.737.t: "Fire Upon the Throne"
+GOT_Story_Country.737.d: "Grieving Drogon melts the Iron Throne with dragonfire, ending the Targaryen claim to power, then flies away with Daenerys’s body."
+GOT_Story_Country.737.a: "Symbolic destruction of tyranny"
+GOT_Story_Country.737.b: "Uncertain future for Westeros"
+
+GOT_Story_News.737.t: "The Iron Throne Reduced to Molten Metal"
+GOT_Story_News.737.d: "The iconic throne is destroyed, signaling the end of an era."
+GOT_Story_News.737.a: "The realm looks to rebuild."
+
+# 738 — Bran Stark is Elected King
+GOT_Story_Country.738.t: "The Broken Wheel Replaced"
+GOT_Story_Country.738.d: "Bran Stark is elected king by the council, chosen for his wisdom and neutrality, ruling the Six Kingdoms while the North remains independent."
+GOT_Story_Country.738.a: "A new governance model"
+GOT_Story_Country.738.b: "Hope for a peaceful realm"
+
+GOT_Story_News.738.t: "Bran the Broken Ascends"
+GOT_Story_News.738.d: "The council’s choice surprises many, marking a break from tradition."
+GOT_Story_News.738.a: "A new chapter begins."
+
+# 739 — Sansa Stark Becomes Queen in the North
+GOT_Story_Country.739.t: "Northern Independence"
+GOT_Story_Country.739.d: "Sansa Stark declares the North a free and independent kingdom and is crowned Queen in the North."
+GOT_Story_Country.739.a: "Northern sovereignty established"
+GOT_Story_Country.739.b: "Strengthening Stark rule"
+
+GOT_Story_News.739.t: "The North Goes Its Own Way"
+GOT_Story_News.739.d: "Sansa’s coronation solidifies the North’s independence."
+GOT_Story_News.739.a: "A proud new era for the North."
+
+# 740 — Jon Snow is Exiled to the Night's Watch
+GOT_Story_Country.740.t: "The Price of Peace"
+GOT_Story_Country.740.d: "Jon Snow is sentenced to the Night’s Watch to appease Daenerys’s supporters, returning to the Wall and beyond with the Wildlings."
+GOT_Story_Country.740.a: "Exile and redemption"
+GOT_Story_Country.740.b: "A bittersweet resolution"
+
+GOT_Story_News.740.t: "The Bastard Returns North"
+GOT_Story_News.740.d: "Jon’s exile marks a somber peace agreement."
+GOT_Story_News.740.a: "His fate remains uncertain."
+
+# 741 — Arya Stark Sets Sail to Explore West of Westeros
+GOT_Story_Country.741.t: "Into the Unknown"
+GOT_Story_Country.741.d: "Arya Stark departs to explore lands west of Westeros, embarking on a journey into uncharted waters."
+GOT_Story_Country.741.a: "A quest for discovery"
+GOT_Story_Country.741.b: "The spirit of adventure"
+
+GOT_Story_News.741.t: "Arya’s Voyage Begins"
+GOT_Story_News.741.d: "The young Stark sets sail, leaving the known world behind."
+GOT_Story_News.741.a: "A new horizon beckons."
+
+# 742 — Tyrion Lannister Appointed as Hand of the King
+GOT_Story_Country.742.t: "A New Hand for a New King"
+GOT_Story_Country.742.d: "Bran appoints Tyrion as Hand, tasking him with rebuilding the realm alongside a reformed Small Council."
+GOT_Story_Country.742.a: "Reconstruction and governance"
+GOT_Story_Country.742.b: "Hope for lasting peace"
+
+GOT_Story_News.742.t: "Tyrion’s Return to Power"
+GOT_Story_News.742.d: "The former prisoner rises again as Bran’s chief advisor."
+GOT_Story_News.742.a: "A realm rebuilding from ashes."
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"

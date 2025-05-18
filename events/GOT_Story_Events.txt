@@ -21279,7 +21279,7 @@ news_event = {
     } 
 } 
  
-# 
+# 701 — Arrival at Winterfell
 country_event = { 
     id = GOT_Story_Country.701 
     title = GOT_Story_Country.701.t 
@@ -21316,7 +21316,7 @@ country_event = {
     } 
 } 
  
-# 
+# 701 — Arrival at Winterfell
 news_event = { 
     id = GOT_Story_News.701 
     title = GOT_Story_News.701.t 
@@ -21330,7 +21330,7 @@ news_event = {
     } 
 } 
  
-# 
+# 702 — Stark Siblings Reunited
 country_event = { 
     id = GOT_Story_Country.702 
     title = GOT_Story_Country.702.t 
@@ -21367,7 +21367,7 @@ country_event = {
     } 
 } 
  
-# 
+# 702 — Stark Siblings Reunited
 news_event = { 
     id = GOT_Story_News.702 
     title = GOT_Story_News.702.t 
@@ -21381,7 +21381,7 @@ news_event = {
     } 
 } 
  
-# 
+# 703 — Sam’s Warning
 country_event = { 
     id = GOT_Story_Country.703 
     title = GOT_Story_Country.703.t 
@@ -21418,7 +21418,7 @@ country_event = {
     } 
 } 
  
-# 
+# 703 — Sam’s Warning
 news_event = { 
     id = GOT_Story_News.703 
     title = GOT_Story_News.703.t 
@@ -21432,7 +21432,7 @@ news_event = {
     } 
 } 
  
-# 
+# 704 — Theon’s Redemption
 country_event = { 
     id = GOT_Story_Country.704 
     title = GOT_Story_Country.704.t 
@@ -21469,7 +21469,7 @@ country_event = {
     } 
 } 
  
-# 
+# 704 — Theon’s Redemption
 news_event = { 
     id = GOT_Story_News.704 
     title = GOT_Story_News.704.t 
@@ -21483,7 +21483,7 @@ news_event = {
     } 
 } 
  
-# 
+# 705 — Tyrion and Sansa’s Meeting
 country_event = { 
     id = GOT_Story_Country.705 
     title = GOT_Story_Country.705.t 
@@ -21520,7 +21520,7 @@ country_event = {
     } 
 } 
  
-# 
+# 705 — Tyrion and Sansa’s Meeting
 news_event = { 
     id = GOT_Story_News.705 
     title = GOT_Story_News.705.t 
@@ -21534,7 +21534,7 @@ news_event = {
     } 
 } 
  
-# 
+# 706 — Stark and Lannister Face Off
 country_event = { 
     id = GOT_Story_Country.706 
     title = GOT_Story_Country.706.t 
@@ -21571,7 +21571,7 @@ country_event = {
     } 
 } 
  
-# 
+# 706 — Stark and Lannister Face Off
 news_event = { 
     id = GOT_Story_News.706 
     title = GOT_Story_News.706.t 
@@ -21585,7 +21585,7 @@ news_event = {
     } 
 } 
  
-# 
+# 707 — Jon Rides Rhaegal
 country_event = { 
     id = GOT_Story_Country.707 
     title = GOT_Story_Country.707.t 
@@ -21622,7 +21622,7 @@ country_event = {
     } 
 } 
  
-# 
+# 707 — Jon Rides Rhaegal
 news_event = { 
     id = GOT_Story_News.707 
     title = GOT_Story_News.707.t 
@@ -21636,7 +21636,7 @@ news_event = {
     } 
 } 
  
-# 
+# 708 — Jaime Faces Judgment
 country_event = { 
     id = GOT_Story_Country.708 
     title = GOT_Story_Country.708.t 
@@ -21673,7 +21673,7 @@ country_event = {
     } 
 } 
  
-# 
+# 708 — Jaime Faces Judgment
 news_event = { 
     id = GOT_Story_News.708 
     title = GOT_Story_News.708.t 
@@ -21687,7 +21687,7 @@ news_event = {
     } 
 } 
  
-# 
+# 709 — Brienne Knighted
 country_event = { 
     id = GOT_Story_Country.709 
     title = GOT_Story_Country.709.t 
@@ -21724,7 +21724,7 @@ country_event = {
     } 
 } 
  
-# 
+# 709 — Brienne Knighted
 news_event = { 
     id = GOT_Story_News.709 
     title = GOT_Story_News.709.t 
@@ -21738,7 +21738,7 @@ news_event = {
     } 
 } 
  
-# 
+# 710 — Jon’s True Parentage
 country_event = { 
     id = GOT_Story_Country.710 
     title = GOT_Story_Country.710.t 
@@ -21775,7 +21775,7 @@ country_event = {
     } 
 } 
  
-# 
+# 710 — Jon’s True Parentage
 news_event = { 
     id = GOT_Story_News.710 
     title = GOT_Story_News.710.t 
@@ -21789,7 +21789,7 @@ news_event = {
     } 
 } 
  
-# 
+# 711 — Arya and Gendry’s Moment
 country_event = { 
     id = GOT_Story_Country.711 
     title = GOT_Story_Country.711.t 
@@ -21826,7 +21826,7 @@ country_event = {
     } 
 } 
  
-# 
+# 711 — Arya and Gendry’s Moment
 news_event = { 
     id = GOT_Story_News.711 
     title = GOT_Story_News.711.t 
@@ -21840,7 +21840,7 @@ news_event = {
     } 
 } 
  
-# 
+# 712 — Bran’s Warning
 country_event = { 
     id = GOT_Story_Country.712 
     title = GOT_Story_Country.712.t 
@@ -21877,7 +21877,7 @@ country_event = {
     } 
 } 
  
-# 
+# 712 — Bran’s Warning
 news_event = { 
     id = GOT_Story_News.712 
     title = GOT_Story_News.712.t 
@@ -21891,7 +21891,7 @@ news_event = {
     } 
 } 
  
-# 
+# 713 — Theon’s Return
 country_event = { 
     id = GOT_Story_Country.713 
     title = GOT_Story_Country.713.t 
@@ -21928,7 +21928,7 @@ country_event = {
     } 
 } 
  
-# 
+# 713 — Theon’s Return
 news_event = { 
     id = GOT_Story_News.713 
     title = GOT_Story_News.713.t 
@@ -21942,7 +21942,7 @@ news_event = {
     } 
 } 
  
-# 
+# 714 — Battle Preparations
 country_event = { 
     id = GOT_Story_Country.714 
     title = GOT_Story_Country.714.t 
@@ -21979,7 +21979,7 @@ country_event = {
     } 
 } 
  
-# 
+# 714 — Battle Preparations
 news_event = { 
     id = GOT_Story_News.714 
     title = GOT_Story_News.714.t 
@@ -21993,7 +21993,7 @@ news_event = {
     } 
 } 
  
-# 
+# 715 — Arya Defeats the Night King
 country_event = { 
     id = GOT_Story_Country.715 
     title = GOT_Story_Country.715.t 
@@ -22030,7 +22030,7 @@ country_event = {
     } 
 } 
  
-# 
+# 715 — Arya Defeats the Night King
 news_event = { 
     id = GOT_Story_News.715 
     title = GOT_Story_News.715.t 
@@ -22044,7 +22044,7 @@ news_event = {
     } 
 } 
  
-# 
+# 716 — Theon’s Redemption and Death
 country_event = { 
     id = GOT_Story_Country.716 
     title = GOT_Story_Country.716.t 
@@ -22081,7 +22081,7 @@ country_event = {
     } 
 } 
  
-# 
+# 716 — Theon’s Redemption and Death
 news_event = { 
     id = GOT_Story_News.716 
     title = GOT_Story_News.716.t 
@@ -22095,7 +22095,7 @@ news_event = {
     } 
 } 
  
-# 
+# 717 — Lyanna Mormont’s Heroic Stand
 country_event = { 
     id = GOT_Story_Country.717 
     title = GOT_Story_Country.717.t 
@@ -22132,7 +22132,7 @@ country_event = {
     } 
 } 
  
-# 
+# 717 — Lyanna Mormont’s Heroic Stand
 news_event = { 
     id = GOT_Story_News.717 
     title = GOT_Story_News.717.t 
@@ -22146,7 +22146,7 @@ news_event = {
     } 
 } 
  
-# 
+# 718 — Jorah Mormont’s Sacrifice
 country_event = { 
     id = GOT_Story_Country.718 
     title = GOT_Story_Country.718.t 
@@ -22183,7 +22183,7 @@ country_event = {
     } 
 } 
  
-# 
+# 718 — Jorah Mormont’s Sacrifice
 news_event = { 
     id = GOT_Story_News.718 
     title = GOT_Story_News.718.t 
@@ -22197,7 +22197,7 @@ news_event = {
     } 
 } 
  
-# 
+# 719 — Melisandre’s Final Prophecy and Death
 country_event = { 
     id = GOT_Story_Country.719 
     title = GOT_Story_Country.719.t 
@@ -22234,7 +22234,7 @@ country_event = {
     } 
 } 
  
-# 
+# 719 — Melisandre’s Final Prophecy and Death
 news_event = { 
     id = GOT_Story_News.719 
     title = GOT_Story_News.719.t 
@@ -22248,7 +22248,7 @@ news_event = {
     } 
 } 
  
-# 
+# 720 — Drogon Mourning Jorah
 country_event = { 
     id = GOT_Story_Country.720 
     title = GOT_Story_Country.720.t 
@@ -22285,7 +22285,7 @@ country_event = {
     } 
 } 
  
-# 
+# 720 — Drogon Mourning Jorah
 news_event = { 
     id = GOT_Story_News.720 
     title = GOT_Story_News.720.t 
@@ -22299,7 +22299,7 @@ news_event = {
     } 
 } 
  
-# 
+# 721 — Jon’s Struggle Against Viserion
 country_event = { 
     id = GOT_Story_Country.721 
     title = GOT_Story_Country.721.t 
@@ -22336,7 +22336,7 @@ country_event = {
     } 
 } 
  
-# 
+# 721 — Jon’s Struggle Against Viserion
 news_event = { 
     id = GOT_Story_News.721 
     title = GOT_Story_News.721.t 
@@ -22350,7 +22350,7 @@ news_event = {
     } 
 } 
  
-# 
+# 722 — Theon Greyjoy’s Return and Redemption
 country_event = { 
     id = GOT_Story_Country.722 
     title = GOT_Story_Country.722.t 
@@ -22387,7 +22387,7 @@ country_event = {
     } 
 } 
  
-# 
+# 722 — Theon Greyjoy’s Return and Redemption
 news_event = { 
     id = GOT_Story_News.722 
     title = GOT_Story_News.722.t 
@@ -22401,7 +22401,7 @@ news_event = {
     } 
 } 
  
-# 
+# 723 — Daenerys Loses Rhaegal
 country_event = { 
     id = GOT_Story_Country.723 
     title = GOT_Story_Country.723.t 
@@ -22438,7 +22438,7 @@ country_event = {
     } 
 } 
  
-# 
+# 723 — Daenerys Loses Rhaegal
 news_event = { 
     id = GOT_Story_News.723 
     title = GOT_Story_News.723.t 
@@ -22452,7 +22452,7 @@ news_event = {
     } 
 } 
  
-# 
+# 724 — Missandei’s Capture and Execution
 country_event = { 
     id = GOT_Story_Country.724 
     title = GOT_Story_Country.724.t 
@@ -22489,7 +22489,7 @@ country_event = {
     } 
 } 
  
-# 
+# 724 — Missandei’s Capture and Execution
 news_event = { 
     id = GOT_Story_News.724 
     title = GOT_Story_News.724.t 
@@ -22503,7 +22503,7 @@ news_event = {
     } 
 } 
  
-# 
+# 725 — Jon Snow’s True Parentage Revealed
 country_event = { 
     id = GOT_Story_Country.725 
     title = GOT_Story_Country.725.t 
@@ -22540,7 +22540,7 @@ country_event = {
     } 
 } 
  
-# 
+# 725 — Jon Snow’s True Parentage Revealed
 news_event = { 
     id = GOT_Story_News.725 
     title = GOT_Story_News.725.t 
@@ -22554,7 +22554,7 @@ news_event = {
     } 
 } 
  
-# 
+# 726 — Gendry Legitimized as Lord of Storm's End
 country_event = { 
     id = GOT_Story_Country.726 
     title = GOT_Story_Country.726.t 
@@ -22591,7 +22591,7 @@ country_event = {
     } 
 } 
  
-# 
+# 726 — Gendry Legitimized as Lord of Storm's End
 news_event = { 
     id = GOT_Story_News.726 
     title = GOT_Story_News.726.t 
@@ -22605,7 +22605,7 @@ news_event = {
     } 
 } 
  
-# 
+# 727 — Jaime Leaves Brienne
 country_event = { 
     id = GOT_Story_Country.727 
     title = GOT_Story_Country.727.t 
@@ -22642,7 +22642,7 @@ country_event = {
     } 
 } 
  
-# 
+# 727 — Jaime Leaves Brienne
 news_event = { 
     id = GOT_Story_News.727 
     title = GOT_Story_News.727.t 
@@ -22656,7 +22656,7 @@ news_event = {
     } 
 } 
  
-# 
+# 728 — Rising Tensions Among Starks and Daenerys
 country_event = { 
     id = GOT_Story_Country.728 
     title = GOT_Story_Country.728.t 
@@ -22693,7 +22693,7 @@ country_event = {
     } 
 } 
  
-# 
+# 728 — Rising Tensions Among Starks and Daenerys
 news_event = { 
     id = GOT_Story_News.728 
     title = GOT_Story_News.728.t 
@@ -22707,7 +22707,7 @@ news_event = {
     } 
 } 
  
-# 
+# 729 — Daenerys Burns King’s Landing
 country_event = { 
     id = GOT_Story_Country.729 
     title = GOT_Story_Country.729.t 
@@ -22744,7 +22744,7 @@ country_event = {
     } 
 } 
  
-# 
+# 729 — Daenerys Burns King’s Landing
 news_event = { 
     id = GOT_Story_News.729 
     title = GOT_Story_News.729.t 
@@ -22758,7 +22758,7 @@ news_event = {
     } 
 } 
  
-# 
+# 730 — Varys is Executed for Treason
 country_event = { 
     id = GOT_Story_Country.730 
     title = GOT_Story_Country.730.t 
@@ -22795,7 +22795,7 @@ country_event = {
     } 
 } 
  
-# 
+# 730 — Varys is Executed for Treason
 news_event = { 
     id = GOT_Story_News.730 
     title = GOT_Story_News.730.t 
@@ -22809,7 +22809,7 @@ news_event = {
     } 
 } 
  
-# 
+# 731 — Cleganebowl: Sandor vs. Gregor
 country_event = { 
     id = GOT_Story_Country.731 
     title = GOT_Story_Country.731.t 
@@ -22846,7 +22846,7 @@ country_event = {
     } 
 } 
  
-# 
+# 731 — Cleganebowl: Sandor vs. Gregor
 news_event = { 
     id = GOT_Story_News.731 
     title = GOT_Story_News.731.t 
@@ -22860,7 +22860,7 @@ news_event = {
     } 
 } 
  
-# 
+# 732 — Arya Abandons Her Quest for Revenge
 country_event = { 
     id = GOT_Story_Country.732 
     title = GOT_Story_Country.732.t 
@@ -22897,7 +22897,7 @@ country_event = {
     } 
 } 
  
-# 
+# 732 — Arya Abandons Her Quest for Revenge
 news_event = { 
     id = GOT_Story_News.732 
     title = GOT_Story_News.732.t 
@@ -22911,7 +22911,7 @@ news_event = {
     } 
 } 
  
-# 
+# 733 — Jaime and Cersei Die Together
 country_event = { 
     id = GOT_Story_Country.733 
     title = GOT_Story_Country.733.t 
@@ -22948,7 +22948,7 @@ country_event = {
     } 
 } 
  
-# 
+# 733 — Jaime and Cersei Die Together
 news_event = { 
     id = GOT_Story_News.733 
     title = GOT_Story_News.733.t 
@@ -22962,7 +22962,7 @@ news_event = {
     } 
 } 
  
-# 
+# 734 — Tyrion Frees Jaime
 country_event = { 
     id = GOT_Story_Country.734 
     title = GOT_Story_Country.734.t 
@@ -22999,7 +22999,7 @@ country_event = {
     } 
 } 
  
-# 
+# 734 — Tyrion Frees Jaime
 news_event = { 
     id = GOT_Story_News.734 
     title = GOT_Story_News.734.t 
@@ -23013,7 +23013,7 @@ news_event = {
     } 
 } 
  
-# 
+# 735 — Jon Snow Witnesses the Massacre
 country_event = { 
     id = GOT_Story_Country.735 
     title = GOT_Story_Country.735.t 
@@ -23050,7 +23050,7 @@ country_event = {
     } 
 } 
  
-# 
+# 735 — Jon Snow Witnesses the Massacre
 news_event = { 
     id = GOT_Story_News.735 
     title = GOT_Story_News.735.t 
@@ -23064,7 +23064,7 @@ news_event = {
     } 
 } 
  
-# 
+# 736 — Jon Snow Kills Daenerys Targaryen
 country_event = { 
     id = GOT_Story_Country.736 
     title = GOT_Story_Country.736.t 
@@ -23101,7 +23101,7 @@ country_event = {
     } 
 } 
  
-# 
+# 736 — Jon Snow Kills Daenerys Targaryen
 news_event = { 
     id = GOT_Story_News.736 
     title = GOT_Story_News.736.t 
@@ -23115,7 +23115,7 @@ news_event = {
     } 
 } 
  
-# 
+# 737 — Drogon Destroys the Iron Throne
 country_event = { 
     id = GOT_Story_Country.737 
     title = GOT_Story_Country.737.t 
@@ -23152,7 +23152,7 @@ country_event = {
     } 
 } 
  
-# 
+# 737 — Drogon Destroys the Iron Throne
 news_event = { 
     id = GOT_Story_News.737 
     title = GOT_Story_News.737.t 
@@ -23166,7 +23166,7 @@ news_event = {
     } 
 } 
  
-# 
+# 738 — Bran Stark is Elected King
 country_event = { 
     id = GOT_Story_Country.738 
     title = GOT_Story_Country.738.t 
@@ -23203,7 +23203,7 @@ country_event = {
     } 
 } 
  
-# 
+# 738 — Bran Stark is Elected King
 news_event = { 
     id = GOT_Story_News.738 
     title = GOT_Story_News.738.t 
@@ -23217,7 +23217,7 @@ news_event = {
     } 
 } 
  
-# 
+# 739 — Sansa Stark Becomes Queen in the North
 country_event = { 
     id = GOT_Story_Country.739 
     title = GOT_Story_Country.739.t 
@@ -23254,7 +23254,7 @@ country_event = {
     } 
 } 
  
-# 
+# 739 — Sansa Stark Becomes Queen in the North
 news_event = { 
     id = GOT_Story_News.739 
     title = GOT_Story_News.739.t 
@@ -23268,7 +23268,7 @@ news_event = {
     } 
 } 
  
-# 
+# 740 — Jon Snow is Exiled to the Night's Watch
 country_event = { 
     id = GOT_Story_Country.740 
     title = GOT_Story_Country.740.t 
@@ -23305,7 +23305,7 @@ country_event = {
     } 
 } 
  
-# 
+# 740 — Jon Snow is Exiled to the Night's Watch
 news_event = { 
     id = GOT_Story_News.740 
     title = GOT_Story_News.740.t 
@@ -23319,7 +23319,7 @@ news_event = {
     } 
 } 
  
-# 
+# 741 — Arya Stark Sets Sail to Explore West of Westeros
 country_event = { 
     id = GOT_Story_Country.741 
     title = GOT_Story_Country.741.t 
@@ -23356,7 +23356,7 @@ country_event = {
     } 
 } 
  
-# 
+# 741 — Arya Stark Sets Sail to Explore West of Westeros
 news_event = { 
     id = GOT_Story_News.741 
     title = GOT_Story_News.741.t 
@@ -23370,7 +23370,7 @@ news_event = {
     } 
 } 
  
-# 
+# 742 — Tyrion Lannister Appointed as Hand of the King
 country_event = { 
     id = GOT_Story_Country.742 
     title = GOT_Story_Country.742.t 
@@ -23407,7 +23407,7 @@ country_event = {
     } 
 } 
  
-# 
+# 742 — Tyrion Lannister Appointed as Hand of the King
 news_event = { 
     id = GOT_Story_News.742 
     title = GOT_Story_News.742.t 
