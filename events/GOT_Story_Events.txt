@@ -13740,7 +13740,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country401 
  
     trigger = { 
-        tag = ABC 
+        tag = WES
 		date > 1940.1.1
         date < 1940.2.1
     } 
@@ -13754,10 +13754,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -13793,9 +13790,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country402 
  
     trigger = { 
-        tag = ABC 
+        tag = PEN 
 		date > 1940.1.1
         date < 1940.2.1
+		has_global_flag = GOT_Varys_Fled_Flag
     } 
  
     fire_only_once = yes 
@@ -13807,10 +13805,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -13846,9 +13841,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country403 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
 		date > 1940.1.1
         date < 1940.2.1
+		89 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -13860,10 +13856,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -13891,7 +13885,7 @@ news_event = {
     } 
 } 
  
-# 404 — Jon Snow’s Mercy Killing of Mance Rayder
+# 404 — Jon Snow’s Mercy Killing of Mance Rayder SPECIAL ATTENTION
 country_event = { 
     id = GOT_Story_Country.404 
     title = GOT_Story_Country.404.t 
@@ -13899,9 +13893,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country404 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
 		date > 1940.1.1
         date < 1940.2.1
+		DRA = { has_war_with = WIL }
     } 
  
     fire_only_once = yes 
@@ -13913,10 +13908,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -13952,9 +13945,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country405 
  
     trigger = { 
-        tag = ABC 
+        tag = VAL
 		date > 1940.1.1
         date < 1940.2.1
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -13966,10 +13960,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -14005,9 +13996,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country406 
  
     trigger = { 
-        tag = ABC 
+        tag = BRA
 		date > 1940.2.5
         date < 1940.3.5
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -14020,9 +14012,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -14050,7 +14039,7 @@ news_event = {
     } 
 } 
  
-# 407 — Jon Snow Elected 998th Lord Commander
+# 407 — Jon Snow Elected 998th Lord Commander SPECIAL ATTENTION
 country_event = { 
     id = GOT_Story_Country.407 
     title = GOT_Story_Country.407.t 
@@ -14058,7 +14047,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country407 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA
 		date > 1940.2.5
         date < 1940.3.5
     } 
@@ -14073,9 +14062,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -14111,9 +14098,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country408 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
 		date > 1940.2.5
         date < 1940.3.5
+		89 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -14125,10 +14113,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -14164,9 +14150,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country409 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
 		date > 1940.2.5
         date < 1940.3.5
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -14178,10 +14165,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -14209,7 +14193,7 @@ news_event = {
     } 
 } 
  
-# 410 — Jaime Prepares to Retrieve Myrcella
+# 410 — Jaime Prepares to Retrieve Myrcella SPECIAL ATTENTION
 country_event = { 
     id = GOT_Story_Country.410 
     title = GOT_Story_Country.410.t 
@@ -14217,7 +14201,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country410 
  
     trigger = { 
-        tag = ABC 
+        tag = WES
 		date > 1940.2.5
         date < 1940.3.5
     } 
@@ -14231,10 +14215,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -14270,9 +14251,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country411 
  
     trigger = { 
-        tag = ABC 
+        tag = BOL
 		date > 1940.3.10
         date < 1940.4.10
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -14285,9 +14267,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -14315,7 +14295,7 @@ news_event = {
     } 
 } 
  
-# 412 — Jon Snow Executes Janos Slynt
+# 412 — Jon Snow Executes Janos Slynt SPECIAL ATTENTION
 country_event = { 
     id = GOT_Story_Country.412 
     title = GOT_Story_Country.412.t 
@@ -14323,7 +14303,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country412 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1940.3.10
         date < 1940.4.10
     } 
@@ -14338,9 +14318,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -14376,9 +14354,14 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country413 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1940.3.10
         date < 1940.4.10
+		is_in_faction_with = REA
+		has_country_leader = {
+			name = "Tommen Baratheon"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -14391,9 +14374,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -14421,7 +14402,7 @@ news_event = {
     } 
 } 
  
-# 414 — Cersei Aligns with the High Sparrow
+# 414 — Cersei Aligns with the High Sparrow SPECIAL ATTENTION
 country_event = { 
     id = GOT_Story_Country.414 
     title = GOT_Story_Country.414.t 
@@ -14429,9 +14410,19 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country414 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
 		date > 1940.3.10
         date < 1940.4.10
+		OR = {
+			has_country_leader = {
+				name = "Tommen Baratheon"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Cersei Lannister"
+				ruling_only = yes
+			}
+		}
     } 
  
     fire_only_once = yes 
@@ -14443,10 +14434,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
+		add_stability = 0.05
         add_political_power = 25 
-        army_experience = 5 
+		set_global_flag = GOT_Sparrows_Empowered_Flag
  
         every_other_country = { 
             limit = { 
@@ -14482,9 +14472,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country415 
  
     trigger = { 
-        tag = ABC 
+        tag = BRA
 		date > 1940.3.10
         date < 1940.4.10
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -14495,10 +14486,7 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
+		
         army_experience = 5 
  
         every_other_country = { 
@@ -14535,9 +14523,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country416 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
 		date > 1940.4.15
         date < 1940.5.15
+		89 = { is_controlled_by_ROOT_or_subject = yes }
     } 
  
     fire_only_once = yes 
@@ -14549,10 +14538,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -14588,9 +14575,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country417 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1940.4.15
         date < 1940.5.15
+		has_global_flag = GOT_Sparrows_Empowered_Flag
     } 
  
     fire_only_once = yes 
@@ -14602,10 +14590,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_political_power = -25 
  
         every_other_country = { 
             limit = { 
@@ -14633,7 +14619,7 @@ news_event = {
     } 
 } 
  
-# 418 — Jaime and Bronn’s Mission to Dorne
+# 418 — Jaime and Bronn’s Mission to Dorne SPECIAL ATTENTION
 country_event = { 
     id = GOT_Story_Country.418 
     title = GOT_Story_Country.418.t 
@@ -14641,9 +14627,19 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country418 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1940.4.15
         date < 1940.5.15
+		OR = {
+			has_country_leader = {
+				name = "Tommen Baratheon"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Cersei Lannister"
+				ruling_only = yes
+			}
+		}
     } 
  
     fire_only_once = yes 
@@ -14655,9 +14651,6 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
         army_experience = 5 
  
         every_other_country = { 
@@ -14694,7 +14687,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country419 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1940.4.15
         date < 1940.5.15
     } 
@@ -14708,10 +14701,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -14747,9 +14737,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country420 
  
     trigger = { 
-        tag = ABC 
+		tag = BOL
 		date > 1940.4.15
         date < 1940.5.15
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -14762,9 +14753,6 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
