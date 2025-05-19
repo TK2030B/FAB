@@ -17999,7 +17999,8 @@ country_event = {
     } 
 } 
  
-# 531 — The Hound’s Returnnews_event = { 
+# 531 — The Hound’s Return
+news_event = { 
     id = GOT_Story_News.531 
     title = GOT_Story_News.531.t 
     desc = GOT_Story_News.531.d 

@@ -2643,12 +2643,9 @@ country_event = {
 			factor = 100
 		}
 		
-		GOT_The_Great_Betrayal = yes
-		add_threat = 15
-		
 		NOR = {
 		
-			kill_country_leader = yes
+			#kill_country_leader = yes
 			
 			NOR_robb_stark = {
 				retire = yes
@@ -2684,6 +2681,9 @@ country_event = {
 				promote_leader = yes
 			}
 		}
+		
+		GOT_The_Great_Betrayal = yes
+		add_threat = 15
 		
 		every_other_country = { 
             limit = { 
@@ -2746,12 +2746,9 @@ country_event = {
 			factor = 100
 		}
 		
-		GOT_The_Great_Betrayal = yes
-		add_threat = 15
-		
 		NOR = {
 		
-			kill_country_leader = yes
+			#kill_country_leader = yes
 			
 			NOR_robb_stark = {
 				retire = yes
@@ -2787,6 +2784,9 @@ country_event = {
 				promote_leader = yes
 			}
 		}
+		
+		GOT_The_Great_Betrayal = yes
+		add_threat = 15
 		
 		every_other_country = { 
             limit = { 
@@ -3784,7 +3784,7 @@ country_event = {
 		
 		add_stability = -0.05
 		add_war_support = 0.10
-		add_political_poower = -50
+		add_political_power = -50
      
 
     }
@@ -3799,7 +3799,7 @@ country_event = {
         }
         add_stability = 0.05
 		add_war_support = -0.05
-		add_political_poower = 25
+		add_political_power = 25
 
 
     }
