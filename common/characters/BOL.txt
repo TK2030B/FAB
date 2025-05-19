@@ -34,33 +34,6 @@ characters={
 			logistics_skill = 3
 		}
 	}
-	
-	BOL_roose_bolton_debug={
-		name=BOL_roose_bolton
-		portraits={
-			army = {
-				large="gfx/leaders/BOL/Portrait_Roose_Bolton.dds"
-				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
-			}
-			civilian = {
-				large="gfx/leaders/BOL/Portrait_Roose_Bolton.dds"
-				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
-			}
-		}
-		country_leader={
-			ideology=NR_subideology
-			expire="1965.1.1"
-			traits = { 
-				political_manipulator
-				backroom_backstabber
-				autocratic_imperialist
-				warmonger
-				empire_builder
-				the_director
-				generalissimo
-			}
-		}
-	}
 
 	BOL_ramsay_snow={
 		name=BOL_ramsay_snow
