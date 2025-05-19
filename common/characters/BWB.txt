@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				revolutionary_general  # Beric leads an outlawed rebel force fighting against the established rulers.
 				freedom_fighter  # The BWB fights for the smallfolk and against tyranny, rather than for personal gain.

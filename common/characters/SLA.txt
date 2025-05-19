@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {  
 				dictator  # They ruled through fear and brutality.  
 				economic_organizer  # Their economies were highly structured around slavery and trade.  
@@ -43,7 +43,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator  # Cleon ruled with absolute power after the fall of the Great Masters.
 				warmonger  # He sought to expand his rule and maintain power through force.
@@ -69,7 +69,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
 				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.
@@ -95,7 +95,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_reformer  # A responsible ruling council would focus on rebuilding and stabilizing the economy.
 				staunch_constitutionalist  # Dedicated to maintaining fair governance and preventing tyranny.
@@ -120,7 +120,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator              # Absolute rulers who maintained control through fear and power.
 				warmonger             # Aggressive foreign policy focused on expansion and military conquest.
@@ -152,7 +152,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				conservative_grandee    # Wealthy, traditional aristocrats focused on maintaining social order.
 				camarilla_leader        # Behind-the-scenes power through secretive political maneuvering.
@@ -181,7 +181,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				adventurous_daredevil  # Daario is a flamboyant and daring sellsword, known for his boldness in battle.
 				smooth_talking_charmer  # He is charismatic, seductive, and skilled at persuasion.

@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = { 
 				warrior_code
 				stout_defender
@@ -26,7 +26,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = { 
 				warrior_code
 				stout_defender
@@ -82,7 +82,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				exiled_revolutionary
 				sins_of_the_father
@@ -108,7 +108,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {  
 				stout_defender  
 				reluctant_veteran  

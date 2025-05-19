@@ -24,7 +24,7 @@ characters={
 				indomitable_perseverance  
 				disdain_for_politicians_2  
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		field_marshal={
 			traits = { cavalry_officer }
@@ -51,7 +51,7 @@ characters={
 				infirm  
 				#disdain_for_politicians_2  
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		country_leader={
 			ideology=FR_subideology
@@ -61,7 +61,7 @@ characters={
 				infirm  
 				#disdain_for_politicians_2  
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 	}
 	
@@ -80,7 +80,7 @@ characters={
 				infirm  
 				incompetent_leader  
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 	}
 	
@@ -101,7 +101,7 @@ characters={
 				smooth_talking_charmer  
 				backroom_backstabber  
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 	}
 	

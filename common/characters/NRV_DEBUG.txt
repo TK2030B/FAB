@@ -14,7 +14,7 @@ NRV_Bearded_Priests={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator  # They rule Norvos de facto with absolute power and no oversight.
 				prince_of_terror  # Their authority is enforced through fear and religious rigidity.
@@ -41,7 +41,7 @@ NRV_Bearded_Priests={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				conservative_grandee  # Represents the aristocratic, old-guard character of the Magisters.
 				staunch_monarchist  # Devoted to preserving the existing political and religious order.
@@ -55,7 +55,7 @@ NRV_Bearded_Priests={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_reformer  # Reflects pragmatic governance focused on improving the city-state’s prosperity.
 				compassionate_gentleman  # Suggests civility, benevolence, and care for the populace.
@@ -84,7 +84,7 @@ NRV_Bearded_Priests={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
 				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.

@@ -22,7 +22,7 @@ characters={
 				hedonist 
 				warmonger 
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		advisor={
 			cost = 100
@@ -82,7 +82,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = { 
 				warmonger 
 				underage_monarch 
@@ -124,7 +124,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = { 
 				underage_monarch 
 				compassionate_gentleman 
@@ -169,7 +169,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = { 
 				popular_figurehead 
 				constitutional_monarch 
@@ -266,7 +266,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		corps_commander={
 			traits = { inflexible_strategist }

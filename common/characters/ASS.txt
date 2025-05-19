@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator
 				political_manipulator
@@ -47,7 +47,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				warmonger
 				baron_of_terror
@@ -72,7 +72,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_reformer
 				democratic_reformer
@@ -98,7 +98,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				permanent_revolutionary
 				militant_socialist

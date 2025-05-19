@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {  
 				warrior_code  # Khal Drogo strictly followed Dothraki warrior traditions, where strength and personal combat prowess determined leadership.  
 				dictator  # As a Khal, he ruled absolutely over his khalasar, with no system of checks and balances.  
@@ -63,7 +63,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {  
 				warrior_code  # As a Dothraki Khal, he adhered to the warrior traditions of his people.  
 				dictator  # He ruled his khalasar absolutely, with no tolerance for dissent.  
@@ -96,7 +96,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				no_leadership
 				internal_rivalry
@@ -121,7 +121,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {  
 				warrior_code  # The Dothraki remain a society built around martial strength and horsemanship.  
 				political_dancer  # Managing a council of rival Khals requires skillful negotiation and maintaining a balance of power.    

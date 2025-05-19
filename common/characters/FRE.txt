@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = { 
 				political_manipulator
 				mastermind_code_cracker
@@ -39,7 +39,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				backroom_backstabber
 				warmonger
@@ -72,7 +72,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				backroom_backstabber
 				political_manipulator
@@ -106,7 +106,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				political_manipulator
 				conservative_nationalist

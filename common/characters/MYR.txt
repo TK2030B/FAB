@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_organizer  # Myr is a hub of trade and renowned for its artisanship, requiring leaders adept at managing and enhancing economic activities.
 				political_manipulator  # Governing a city rich in commerce and navigating complex trade alliances necessitates shrewd political maneuvering.
@@ -28,7 +28,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_organizer  # Myr is a hub of trade and renowned for its artisanship, requiring leaders adept at managing and enhancing economic activities.
 				political_manipulator  # Governing a city rich in commerce and navigating complex trade alliances necessitates shrewd political maneuvering.
@@ -42,7 +42,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_organizer  # Myr is a hub of trade and renowned for its artisanship, requiring leaders adept at managing and enhancing economic activities.
 				political_manipulator  # Governing a city rich in commerce and navigating complex trade alliances necessitates shrewd political maneuvering.
@@ -70,7 +70,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
 				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.

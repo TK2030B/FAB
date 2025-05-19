@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {   
 				autocratic_imperialist  
 				dictator  
@@ -26,7 +26,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {   
 				autocratic_imperialist  
 				dictator  
@@ -38,7 +38,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {   
 				autocratic_imperialist  
 				dictator  
@@ -72,7 +72,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				revolutionary_general      # A leader who has fought in or led revolutionary struggles to overthrow the old regime.
 				proletariat_internationalist # Advocates for solidarity and support for the working class globally, a core communist ideal.

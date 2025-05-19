@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				hedonist  # Lys is infamous for its pleasure houses, and its ruling elite indulges in luxury, decadence, and excess.
 				camarilla_leader  # The Magisters rule through an oligarchic system, relying on alliances, intrigue, and backroom dealings.
@@ -28,7 +28,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				hedonist  # Lys is infamous for its pleasure houses, and its ruling elite indulges in luxury, decadence, and excess.
 				camarilla_leader  # The Magisters rule through an oligarchic system, relying on alliances, intrigue, and backroom dealings.
@@ -42,7 +42,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				hedonist  # Lys is infamous for its pleasure houses, and its ruling elite indulges in luxury, decadence, and excess.
 				camarilla_leader  # The Magisters rule through an oligarchic system, relying on alliances, intrigue, and backroom dealings.
@@ -69,7 +69,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				permanent_revolutionary  # Representing their ongoing commitment to revolutionary change.
 				revolutionary_general  # Their ability to lead and inspire in times of conflict, ensuring their revolution thrives.

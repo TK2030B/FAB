@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator
 				warrior_code
@@ -30,7 +30,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 				traits = {
 					dictator
 					warrior_code
@@ -68,7 +68,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
 				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.
@@ -94,7 +94,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_reformer  # A responsible ruling council would focus on rebuilding and stabilizing the economy.
 				staunch_constitutionalist  # Dedicated to maintaining fair governance and preventing tyranny.

@@ -19,7 +19,7 @@ characters={
 				warmonger
 				eager_collaborator
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		country_leader={
 			ideology=FR_subideology
@@ -28,7 +28,7 @@ characters={
 				warmonger
 				eager_collaborator
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		country_leader={
 			ideology=CR_subideology
@@ -37,7 +37,7 @@ characters={
 				warmonger
 				eager_collaborator
 			}
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 		}
 		field_marshal={
 			traits = { }

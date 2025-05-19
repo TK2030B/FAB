@@ -15,7 +15,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				popular_figurehead        # Beloved and respected by the people, representing national unity.
 				staunch_monarchist        # Strong supporter of the monarchy and traditional governance.
@@ -41,7 +41,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				socialist_revolutionary   # Advocates for a socialist revolution to dismantle old hierarchies.
 				proletariat_internationalist # Expresses solidarity with the working class on a global scale.
@@ -68,7 +68,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_reformer  # A responsible ruling council would focus on rebuilding and stabilizing the economy.
 				staunch_constitutionalist  # Dedicated to maintaining fair governance and preventing tyranny.
@@ -93,7 +93,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator              # Absolute rulers who maintained control through fear and power.
 				warmonger             # Aggressive foreign policy focused on expansion and military conquest.

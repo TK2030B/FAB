@@ -14,7 +14,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				staunch_constitutionalist  # Lorath has a unique governing system with three princes ruling collectively, emphasizing a structured, constitutional rule.
 				political_manipulator  # The three princes must constantly navigate power struggles and internal politics to maintain balance.
@@ -26,7 +26,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				staunch_constitutionalist  # Lorath has a unique governing system with three princes ruling collectively, emphasizing a structured, constitutional rule.
 				political_manipulator  # The three princes must constantly navigate power struggles and internal politics to maintain balance.
@@ -38,7 +38,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				staunch_constitutionalist  # Lorath has a unique governing system with three princes ruling collectively, emphasizing a structured, constitutional rule.
 				political_manipulator  # The three princes must constantly navigate power struggles and internal politics to maintain balance.
@@ -64,7 +64,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
 				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.

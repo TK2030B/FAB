@@ -13,7 +13,7 @@ characters={
 		}
 		country_leader={
 			ideology=NR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator              # Absolute rulers who maintained control through fear and power.
 				camarilla_leader      # Political power often exerted through secretive councils and behind-the-scenes dealings.
@@ -26,7 +26,7 @@ characters={
 		}
 		country_leader={
 			ideology=FR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				dictator              # Absolute rulers who maintained control through fear and power.
 				camarilla_leader      # Political power often exerted through secretive councils and behind-the-scenes dealings.
@@ -52,7 +52,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				proletariat_internationalist  # Represents their background as former slaves and their alignment with class struggle.
 				revolutionary_general  # Governing through revolutionary ideals, likely maintaining a militarized rule.
@@ -78,7 +78,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				economic_reformer  # A responsible ruling council would focus on rebuilding and stabilizing the economy.
 				staunch_constitutionalist  # Dedicated to maintaining fair governance and preventing tyranny.
@@ -103,7 +103,7 @@ characters={
 		}
 		country_leader={
 			ideology=DR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				constitutional_monarch
 				popular_figurehead
@@ -131,7 +131,7 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
-			expire="1965.1.1.1"
+			expire="1965.1.1"
 			traits = {
 				adventurous_daredevil  # Daario is a flamboyant and daring sellsword, known for his boldness in battle.
 				smooth_talking_charmer  # He is charismatic, seductive, and skilled at persuasion.
