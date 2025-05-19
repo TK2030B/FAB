@@ -609,18 +609,10 @@ GOT_The_Great_Betrayal = {
 			#House Bolton
 			release = BOL
 			end_puppet = BOL
-			
-			transfer_units_fraction = {
-				target = BOL
-				size = 0.5
-				stockpile_ratio = 0.5
-				army_ratio = 0.5
-				navy_ratio = 0.5
-				air_ratio = 0.5
-			}
 		}
 
         BOL = {
+			load_oob = BOL_1936
             leave_faction = yes
 			if  = {
 				limit = {
@@ -669,15 +661,8 @@ GOT_The_Great_Betrayal = {
 				NOT = { has_country_flag = GOT_Karhold_Released }
 			}
 			NOR = { release = KAR }
-			BOL = {
-				transfer_units_fraction = {
-					target = KAR
-					size = 0.4
-					stockpile_ratio = 0.4
-					army_ratio = 0.4
-					navy_ratio = 0.4
-					air_ratio = 0.4
-				}
+			KAR = {
+				load_oob = KAR_1936
 			}
 		}
 
@@ -701,20 +686,15 @@ GOT_The_Great_Betrayal = {
 						set_truce = { target = CRO days = 365 }
 					}
 				}
-				if = {
-					limit = {
-						NOR = { has_country_flag = GOT_Lord_Karstark_Executed }
-					}
-					declare_war_on = {
-						target = NOR
-						type = civil_war
-					}
-				}
 				every_state = { 
 					limit = { 
 						is_core_of = KAR
 					} 
 					add_core_of = NOR
+				}
+				country_event = {
+					id = GOT_Diplomatic_Country.55
+					hours = 6
 				}
 			}
 		}
@@ -725,18 +705,10 @@ GOT_The_Great_Betrayal = {
 			end_puppet = UMB
 		}
 		
-			BOL = {
-				transfer_units_fraction = {
-					target = UMB
-					size = 0.2
-					stockpile_ratio = 0.2
-					army_ratio = 0.2
-					navy_ratio = 0.2
-					air_ratio = 0.2
-				}
-			}
+		
 
         UMB = {
+			load_oob = UMB_1936
             leave_faction = yes
 			if  = {
 				limit = {
@@ -758,6 +730,10 @@ GOT_The_Great_Betrayal = {
 				} 
 				add_core_of = NOR
 			}
+			country_event = {
+				id = GOT_Diplomatic_Country.55
+				hours = 6
+			}
         }
 		
 		#Riverlands
@@ -765,17 +741,9 @@ GOT_The_Great_Betrayal = {
 			#House Frey
 			release = FRE
 			end_puppet = FRE
-			
-			transfer_units_fraction = {
-				target = FRE
-				size = 0.4
-				stockpile_ratio = 0.4
-				army_ratio = 0.4
-				navy_ratio = 0.4
-				air_ratio = 0.4
-			}
 
 			FRE = {
+				load_oob = FRE_1936
 				leave_faction = yes
 				if  = {
 					limit = {

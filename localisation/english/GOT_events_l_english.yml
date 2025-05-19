@@ -44,6 +44,8 @@ GOT_Varys_Fled_Flag:0 "Varys Has Fled"
 GOT_Robb_Renly_Alliance_Flag:0 "Robb and Renly Have Allied Together"
 GOT_King_of_the_Trident_Flag:0 "Robb Proclaimed King of the Trident"
 GOT_Sparrows_Empowered_Flag:0 "Cersei Has Empowered The Sparrows"
+GOT_Myrcella_Rescue_Mission_Flag:0 "Princess Myrcella Rescue Mission"
+GOT_Tyrion_Serving_TAR_Flag:0 "Tyrion in Daenerys' Service"
 
 Game_Event.1.t:0 "Welcome (1/5)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -2293,17 +2295,17 @@ GOT_Story_Country.401.a: "Prophecies are chains—I shall break them"
 GOT_Story_Country.401.b: "Prophecies are guides—I shall heed them"
 
 GOT_Story_News.401.t: "Queen Mother Haunted by Old Prophecy"
-GOT_Story_News.401.d: "Whispers from the Red Keep suggest that Queen Mother Cersei Lannister broods upon a witch’s prophecy, fearing a younger queen and the doom of her children. Courtiers wonder whether paranoia will harden her already‑steel resolve or drive her to reckless cruelty."
+GOT_Story_News.401.d: "Whispers from the Red Keep suggest that Queen Mother Cersei Lannister broods upon a witch’s prophecy, fearing a younger queen and the doom of her children. Courtiers wonder whether paranoia will harden her already‑steel resolve or drive her to reckless cruelty."
 GOT_Story_News.401.a: "What menace might a frightened lioness unleash?"
 
-# 402 — Tyrion & Varys in Pentos
+# 402 — Tyrion & Varys in Pentos
 GOT_Story_Country.402.t: "Ashes, Wine, and Schemes in Pentos"
-GOT_Story_Country.402.d: "I, Tyrion Lannister—kinslayer, fugitive, dwarf—breathe the free air of Essos at last. Varys, ever the spider, proposes we back Daenerys Targaryen, the last dragon. Can a broken man and a spymaster midwife a queen fit for the Iron Throne?"
+GOT_Story_Country.402.d: "I, Tyrion Lannister—kinslayer, fugitive, dwarf—breathe the free air of Essos at last. Varys, ever the spider, proposes we back Daenerys Targaryen, the last dragon. Can a broken man and a spymaster midwife a queen fit for the Iron Throne?"
 GOT_Story_Country.402.a: "A dragon queen is Westeros’s best hope—sail for Meereen!"
 GOT_Story_Country.402.b: "Power first, dragons later—we will court other allies"
 
 GOT_Story_News.402.t: "Lannister Kinslayer Resurfaces in Essos"
-GOT_Story_News.402.d: "Reliable Pentoshi merchants report that Tyrion Lannister, thought lost after his dramatic escape, is drinking Varys’s wine and plotting fresh intrigues. Rumour links them to Daenerys Targaryen—an alliance that could upend Westeros."
+GOT_Story_News.402.d: "Reliable Pentoshi merchants report that Tyrion Lannister, thought lost after his dramatic escape, is drinking Varys’s wine and plotting fresh intrigues. Rumour links them to Daenerys Targaryen—an alliance that could upend Westeros."
 GOT_Story_News.402.a: "Another player joins the great game."
 
 # 403 — Daenerys Faces Unrest in Meereen
@@ -2313,27 +2315,27 @@ GOT_Story_Country.403.a: "Justice must be public and swift"
 GOT_Story_Country.403.b: "Appease the old powers—temporarily"
 
 GOT_Story_News.403.t: "Violence Erupts in Daenerys’s Meereen"
-GOT_Story_News.403.d: "The insurgent Sons of the Harpy have struck an Unsullied patrol. Queen Daenerys now balances harsh justice with her proclaimed mercy, even as chained dragons roar beneath her pyramid."
+GOT_Story_News.403.d: "The insurgent Sons of the Harpy have struck an Unsullied patrol. Queen Daenerys now balances harsh justice with her proclaimed mercy, even as chained dragons roar beneath her pyramid."
 GOT_Story_News.403.a: "Can the breaker of chains master her own city?"
 
 # 404 — Jon Snow’s Mercy Killing of Mance Rayder
 GOT_Story_Country.404.t: "A King Among Cinders"
-GOT_Story_Country.404.d: "Stannis’s pyre crackled; Mance Rayder refused the kneel. I loosed an arrow and spared him the flames. Brothers at Castle Black whisper I betrayed the Watch to mercy, yet the Free Folk saw honour in my shaft. Which law do I serve—oaths or my own sense of right?"
+GOT_Story_Country.404.d: "Stannis’s pyre crackled; Mance Rayder refused the kneel. I loosed an arrow and spared him the flames. Brothers at Castle Black whisper I betrayed the Watch to mercy, yet the Free Folk saw honour in my shaft. Which law do I serve—oaths or my own sense of right?"
 GOT_Story_Country.404.a: "Stand by the deed—seek Free Folk trust"
 GOT_Story_Country.404.b: "Publicly atone—appease Black Brothers"
 
-GOT_Story_News.404.t: "Lord Snow Looses a Controversial Arrow"
-GOT_Story_News.404.d: "Witnesses on the Wall report that Jon Snow ended wildling King Mance Rayder’s fiery execution with a quick arrow. Opinions divide the Night’s Watch: some hail mercy, others mutter treason, while Stannis glowers in silence."
+GOT_Story_News.404.t: "Lord Snow Looses a Controversial Arrow"
+GOT_Story_News.404.d: "Witnesses on the Wall report that Jon Snow ended wildling King Mance Rayder’s fiery execution with a quick arrow. Opinions divide the Night’s Watch: some hail mercy, others mutter treason, while Stannis glowers in silence."
 GOT_Story_News.404.a: "Winter judges all."
 
-# 405 — Littlefinger & Sansa’s Deceptive Journey
+# 405 — Littlefinger & Sansa’s Deceptive Journey
 GOT_Story_Country.405.t: "A Falcon’s Shadow over the Trident"
-GOT_Story_Country.405.d: "I, Petyr Baelish, leave young Lord Robin in honorable keeping and guide Sansa Stark westward under false banners. Few guess the paths I weave: promises to lords of the Riverlands, whispers of a Northern marriage, perhaps even a crown. Every lie is a stepping‑stone."
+GOT_Story_Country.405.d: "I, Petyr Baelish, leave young Lord Robin in honorable keeping and guide Sansa Stark westward under false banners. Few guess the paths I weave: promises to lords of the Riverlands, whispers of a Northern marriage, perhaps even a crown. Every lie is a stepping‑stone."
 GOT_Story_Country.405.a: "Press onward in secrecy"
 GOT_Story_Country.405.b: "Send feelers to rivermen first"
 
 GOT_Story_News.405.t: "Littlefinger’s Caravan Disappears from the Fingers Road"
-GOT_Story_News.405.d: "Riders in the Vale note that Lord Protector Petyr Baelish and the infamous Sansa Stark have vanished westward, destination unknown. Speculation swirls—from marriage pacts to riverlord conspiracies—while young Lord Robin remains in Royce custody."
+GOT_Story_News.405.d: "Riders in the Vale note that Lord Protector Petyr Baelish and the infamous Sansa Stark have vanished westward, destination unknown. Speculation swirls—from marriage pacts to riverlord conspiracies—while young Lord Robin remains in Royce custody."
 GOT_Story_News.405.a: "Only chaos is a ladder."
  
 # 406 — Arya Arrives at the House of Black and White
@@ -2353,7 +2355,7 @@ GOT_Story_Country.407.a: "Accept command—lead the Night’s Watch"
 GOT_Story_Country.407.b: "Decline—it is Winterfell I must claim"
 
 GOT_Story_News.407.t: "Castle Black Names a New Lord Commander"
-GOT_Story_News.407.d: "In a close ballot broken by venerable Maester Aemon, Bastard‑born Jon Snow was chosen 998th Lord Commander of the Night’s Watch, quashing Stannis Baratheon’s offer of Stark legitimacy."
+GOT_Story_News.407.d: "In a close ballot broken by venerable Maester Aemon, Bastard‑born Jon Snow was chosen 998th Lord Commander of the Night’s Watch, quashing Stannis Baratheon’s offer of Stark legitimacy."
 GOT_Story_News.407.a: "The Wall has its new shield."
 
 # 408 — Daenerys Executes Mossador
@@ -2363,67 +2365,67 @@ GOT_Story_Country.408.a: "Stand firm—justice is blind"
 GOT_Story_Country.408.b: "Temper justice—pardon the zealous"
 
 GOT_Story_News.408.t: "Riots Erupt after Daenerys Executes Freedman"
-GOT_Story_News.408.d: "In Meereen, Queen Daenerys publicly beheaded Mossador—a freed slave turned vigilante—sparking riots that pitted freedmen against Unsullied. Observers question whether law or loyalty will hold the Dragon Queen’s fragile realm."
+GOT_Story_News.408.d: "In Meereen, Queen Daenerys publicly beheaded Mossador—a freed slave turned vigilante—sparking riots that pitted freedmen against Unsullied. Observers question whether law or loyalty will hold the Dragon Queen’s fragile realm."
 GOT_Story_News.408.a: "Fire cannot kill a dragon—but mobs might."
 
 # 409 — Brienne Encounters Sansa Stark
 GOT_Story_Country.409.t: "Oaths Unanswered on the Trident Road"
-GOT_Story_Country.409.d: "I, Brienne of Tarth, kneel before Sansa Stark, pledging the sword once sworn to her mother. Petyr Baelish’s silver tongue turns her away. Steel flashes, pursuit erupts; Podrick and I escape, vowing to guard the girl from shadows."
+GOT_Story_Country.409.d: "I, Brienne of Tarth, kneel before Sansa Stark, pledging the sword once sworn to her mother. Petyr Baelish’s silver tongue turns her away. Steel flashes, pursuit erupts; Podrick and I escape, vowing to guard the girl from shadows."
 GOT_Story_Country.409.a: "Shadow her steps—protection at a distance"
 GOT_Story_Country.409.b: "Abide her refusal—seek other Stark kin"
 
 GOT_Story_News.409.t: "The Maid of Tarth Crosses Blades with Baelish’s Men"
-GOT_Story_News.409.d: "Travelers speak of Brienne of Tarth confronting Lord Baelish’s escort and Sansa Stark at an inn. After a brief clash Brienne fled, but reports suggest she now trails the Stark heiress unseen."
+GOT_Story_News.409.d: "Travelers speak of Brienne of Tarth confronting Lord Baelish’s escort and Sansa Stark at an inn. After a brief clash Brienne fled, but reports suggest she now trails the Stark heiress unseen."
 GOT_Story_News.409.a: "Knighthood never rests."
 
 # 410 — Jaime Prepares to Retrieve Myrcella
 GOT_Story_Country.410.t: "A Viper’s Warning"
-GOT_Story_Country.410.d: "A viper’s jaws delivered Myrcella’s necklace to the Red Keep. Cersei rages; I vow to sail south, stealth and speed, to bring our daughter home. For this I enlist Ser Bronn—a sellsword’s blade for a father’s quest."
+GOT_Story_Country.410.d: "A viper’s jaws delivered Myrcella’s necklace to the Red Keep. Cersei rages; I vow to sail south, stealth and speed, to bring our daughter home. For this I enlist Ser Bronn—a sellsword’s blade for a father’s quest."
 GOT_Story_Country.410.a: "Set sail for Dorne with Bronn"
 GOT_Story_Country.410.b: "Demand a royal envoy—pressure Doran Martell diplomatically"
 
 GOT_Story_News.410.t: "Kingslayer Plots Quiet Voyage South"
-GOT_Story_News.410.d: "Court murmurs hint that Ser Jaime Lannister will depart King’s Landing to safeguard Princess Myrcella in Dorne, accompanied by the infamous sellsword Bronn. The Dornish sands may soon taste Lannister steel."
+GOT_Story_News.410.d: "Court murmurs hint that Ser Jaime Lannister will depart King’s Landing to safeguard Princess Myrcella in Dorne, accompanied by the infamous sellsword Bronn. The Dornish sands may soon taste Lannister steel."
 GOT_Story_News.410.a: "The lion goes to the snake’s den."
  
 # 411 — Sansa Stark Betrothed to Ramsay Bolton
 GOT_Story_Country.411.t: "A Wedding Cloaked in Snow and Blood"
-GOT_Story_Country.411.d: "Petyr Baelish guides me through Winterfell’s gates, promising vengeance for my family. Yet he offers my hand to Ramsay Bolton, flaying‑blade heir and Warden of the North in all but name. To reclaim my home I must bind myself to the very house that betrayed it."
+GOT_Story_Country.411.d: "Petyr Baelish guides me through Winterfell’s gates, promising vengeance for my family. Yet he offers my hand to Ramsay Bolton, flaying‑blade heir and Warden of the North in all but name. To reclaim my home I must bind myself to the very house that betrayed it."
 GOT_Story_Country.411.a: "Accept the betrothal—endure for the North"
 GOT_Story_Country.411.b: "Refuse—seek another path to vengeance"
 
 GOT_Story_News.411.t: "Stark–Bolton Alliance Sealed by Betrothal"
-GOT_Story_News.411.d: "Ravens confirm that Sansa Stark is pledged to Ramsay Bolton. The match, brokered by Lord Baelish, unites Winterfell’s conquerors with its rightful heirs—though northern lords whisper of knives behind smiles."
+GOT_Story_News.411.d: "Ravens confirm that Sansa Stark is pledged to Ramsay Bolton. The match, brokered by Lord Baelish, unites Winterfell’s conquerors with its rightful heirs—though northern lords whisper of knives behind smiles."
 GOT_Story_News.411.a: "The North remembers—yet submits."
 
 # 412 — Jon Snow Executes Janos Slynt
 GOT_Story_Country.412.t: "The Honor of the Sword"
-GOT_Story_Country.412.d: "Ser Janos Slynt defied my command and spat upon my rule. Before the Wall’s brothers I drew Longclaw and struck off his craven head. Leadership demands steel, not words; justice must be seen."
+GOT_Story_Country.412.d: "Ser Janos Slynt defied my command and spat upon my rule. Before the Wall’s brothers I drew Longclaw and struck off his craven head. Leadership demands steel, not words; justice must be seen."
 GOT_Story_Country.412.a: "Authority affirmed—discipline the Watch"
 GOT_Story_Country.412.b: "Temper justice—risk undermining fear"
 
 GOT_Story_News.412.t: "Lord Commander Snow Shows No Mercy"
-GOT_Story_News.412.d: "Castle Black rang with the stroke of Longclaw as Jon Snow executed Janos Slynt for insubordination. Some brothers hail newfound order; others mutter that the boy with the wolf’s blood grows perilously stern."
+GOT_Story_News.412.d: "Castle Black rang with the stroke of Longclaw as Jon Snow executed Janos Slynt for insubordination. Some brothers hail newfound order; others mutter that the boy with the wolf’s blood grows perilously stern."
 GOT_Story_News.412.a: "The Wall stands under hard rule."
 
 # 413 — Tommen Marries Margaery Tyrell
 GOT_Story_Country.413.t: "A Rose Crowns the Lion"
-GOT_Story_Country.413.d: "In the sept’s sweet incense I wed Queen Margaery. Her smiles soothe my doubts, her words guide my throne. Mother watches, tight‑lipped—a rose now twines about the crown."
+GOT_Story_Country.413.d: "In the sept’s sweet incense I wed Queen Margaery. Her smiles soothe my doubts, her words guide my throne. Mother watches, tight‑lipped—a rose now twines about the crown."
 GOT_Story_Country.413.a: "Embrace Margaery’s counsel—lean on the Tyrells"
 GOT_Story_Country.413.b: "Seek Mother’s guidance—curb the Tyrell influence"
 
 GOT_Story_News.413.t: "Royal Wedding Unites Crown and Reach"
-GOT_Story_News.413.d: "King Tommen Baratheon and Lady Margaery Tyrell exchanged vows amid splendor. The Tyrell alliance blooms anew, yet observers note Queen Mother Cersei’s strained smile as the young queen gains the king’s ear."
+GOT_Story_News.413.d: "King Tommen Baratheon and Lady Margaery Tyrell exchanged vows amid splendor. The Tyrell alliance blooms anew, yet observers note Queen Mother Cersei’s strained smile as the young queen gains the king’s ear."
 GOT_Story_News.413.a: "Spring comes to King’s Landing."
 
 # 414 — Cersei Aligns with the High Sparrow
 GOT_Story_Country.414.t: "Piety as a Blade"
-GOT_Story_Country.414.d: "The streets buzz of a barefoot holy man, the High Sparrow. I, Cersei of House Lannister, offer him the Faith Militant restored—steel and sanctity—to check the Tyrell bloom. Let the gods’ zeal burn my enemies."
+GOT_Story_Country.414.d: "The streets buzz of a barefoot holy man, the High Sparrow. I, Cersei of House Lannister, offer him the Faith Militant restored—steel and sanctity—to check the Tyrell bloom. Let the gods’ zeal burn my enemies."
 GOT_Story_Country.414.a: "Empower the Faith Militant—curb the Tyrells"
 GOT_Story_Country.414.b: "Withhold the swords—maintain royal monopoly on force"
 
 GOT_Story_News.414.t: "Queen Regent Courts the High Sparrow"
-GOT_Story_News.414.d: "Crown agents have granted the devout High Sparrow unprecedented audience and rumored arms. Many wonder whether Cersei means to pit piety against flowers in the game for King Tommen’s soul."
+GOT_Story_News.414.d: "Crown agents have granted the devout High Sparrow unprecedented audience and rumored arms. Many wonder whether Cersei means to pit piety against flowers in the game for King Tommen’s soul."
 GOT_Story_News.414.a: "When lions pray, sparrows gather."
 
 # 415 — Arya Begins Training with the Faceless Men
@@ -2434,26 +2436,26 @@ GOT_Story_Country.415.b: "Cling secretly to Arya—keep Needle close"
 
 GOT_Story_News.415.t: "Braavos Welcomes a Novice of No Name"
 GOT_Story_News.415.d: "Quiet eyes in Braavos note a Stark girl sweeping the silent halls of the House of Black and White. Some say the path to many faces begins with losing one’s own."
-GOT_Story_News.415.a: "Valar Morghulis."
+GOT_Story_News.415.a: "Valar Morghulis."
  
 # 416 — Sons of the Harpy Ambush in Meereen
 GOT_Story_Country.416.t: "Blood in the Alley of Bones"
-GOT_Story_Country.416.d: "Masked Harpies struck from shadow, cutting down my Unsullied. Ser Barristan Selmy—true knight of Westeros—fell beneath myriad blades, and Grey Worm clings to life. The city howls for vengeance; my heart burns with grief and rage."
+GOT_Story_Country.416.d: "Masked Harpies struck from shadow, cutting down my Unsullied. Ser Barristan Selmy—true knight of Westeros—fell beneath myriad blades, and Grey Worm clings to life. The city howls for vengeance; my heart burns with grief and rage."
 GOT_Story_Country.416.a: "Answer with fire—crush the Sons of the Harpy"
 GOT_Story_Country.416.b: "Restrain wrath—mourn and seek allies among the freed"
 
 GOT_Story_News.416.t: "Legendary Knight Falls in Meereen Ambush"
-GOT_Story_News.416.d: "Ser Barristan the Bold perished defending Unsullied against the insurgent Sons of the Harpy. Queen Daenerys’s rule faces its severest test as Meereen’s streets run red."
+GOT_Story_News.416.d: "Ser Barristan the Bold perished defending Unsullied against the insurgent Sons of the Harpy. Queen Daenerys’s rule faces its severest test as Meereen’s streets run red."
 GOT_Story_News.416.a: "The Harpy’s claws draw blood."
 
 # 417 — Cersei Empowers the Faith Militant
 GOT_Story_Country.417.t: "Swords of the Seven"
-GOT_Story_Country.417.d: "I restore the Faith Militant; sparrows rise in mail and star‑shields. Their first act: seize Ser Loras Tyrell for sins of the flesh. Let the Reach learn that roses bleed when thorns meet holy steel."
+GOT_Story_Country.417.d: "I restore the Faith Militant; sparrows rise in mail and star‑shields. Their first act: seize Ser Loras Tyrell for sins of the flesh. Let the Reach learn that roses bleed when thorns meet holy steel."
 GOT_Story_Country.417.a: "Let zealots purge the court—curtail Tyrell power"
 GOT_Story_Country.417.b: "Hold the Faith in check—avoid open war with the Reach"
 
 GOT_Story_News.417.t: "Faith Militant Marches Again"
-GOT_Story_News.417.d: "King’s Landing gasps as armed zealots parade through the streets, arresting Ser Loras Tyrell under Queen Regent Cersei’s sanction. Alliance between lion and rose wilts under seven‑pointed stars."
+GOT_Story_News.417.d: "King’s Landing gasps as armed zealots parade through the streets, arresting Ser Loras Tyrell under Queen Regent Cersei’s sanction. Alliance between lion and rose wilts under seven‑pointed stars."
 GOT_Story_News.417.a: "When faith is armed, crowns tremble."
 
 # 418 — Jaime and Bronn’s Mission to Dorne
@@ -2463,47 +2465,47 @@ GOT_Story_Country.418.a: "Advance stealthily toward Sunspear"
 GOT_Story_Country.418.b: "Seek a parley with Prince Doran—risk delay"
 
 GOT_Story_News.418.t: "Lannister Steel Glints in Dorne"
-GOT_Story_News.418.d: "Rumours from the Boneway speak of golden lions prowling Dorne. Some say the Kingslayer himself leads a covert band to spirit Princess Myrcella away, stoking Martell ire."
+GOT_Story_News.418.d: "Rumours from the Boneway speak of golden lions prowling Dorne. Some say the Kingslayer himself leads a covert band to spirit Princess Myrcella away, stoking Martell ire."
 GOT_Story_News.418.a: "The viper’s sands grow restless."
 
 # 419 — Jorah Mormont Captures Tyrion Lannister
 GOT_Story_Country.419.t: "A Gift for the Dragon Queen"
-GOT_Story_Country.419.d: "Chains bite my wrists—the disgraced knight Jorah Mormont hauls me toward Meereen, hoping my clever tongue will buy back his queen’s favor. I, Tyrion Lannister, am once more a prize."
+GOT_Story_Country.419.d: "Chains bite my wrists—the disgraced knight Jorah Mormont hauls me toward Meereen, hoping my clever tongue will buy back his queen’s favor. I, Tyrion Lannister, am once more a prize."
 GOT_Story_Country.419.a: "Plot escape—sow doubt in Jorah’s mind"
 GOT_Story_Country.419.b: "Bide time—learn all you can about Daenerys"
 
 GOT_Story_News.419.t: "Lannister Captive Bound for Meereen"
-GOT_Story_News.419.d: "Merchants along the Rhoyne whisper that Tyrion Lannister travels in shackles, seized by exiled knight Jorah Mormont. Their course bends toward the Dragon Queen’s city."
+GOT_Story_News.419.d: "Merchants along the Rhoyne whisper that Tyrion Lannister travels in shackles, seized by exiled knight Jorah Mormont. Their course bends toward the Dragon Queen’s city."
 GOT_Story_News.419.a: "Even lions can be caged."
 
 # 420 — Sansa Visits the Crypts of Winterfell
 GOT_Story_Country.420.t: "Echoes beneath the Stone Kings"
-GOT_Story_Country.420.d: "I light candles before my father’s effigy; cold stone listens to my vow. Lord Baelish departs for King’s Landing, leaving me in the Bolton den. Alone among ghosts and flayed banners, I must survive…and strike."
+GOT_Story_Country.420.d: "I light candles before my father’s effigy; cold stone listens to my vow. Lord Baelish departs for King’s Landing, leaving me in the Bolton den. Alone among ghosts and flayed banners, I must survive…and strike."
 GOT_Story_Country.420.a: "Endure and observe—wait for a chance to act"
 GOT_Story_Country.420.b: "Seek northern allies in secret—risk Bolton wrath"
 
 GOT_Story_News.420.t: "Lady Stark Walks Winterfell’s Crypts"
-GOT_Story_News.420.d: "Smallfolk report seeing Sansa Stark praying by her ancestors’ tombs while Lord Baelish rides south. With Ramsay Bolton now her betrothed, the North braces for storms above and below ground."
+GOT_Story_News.420.d: "Smallfolk report seeing Sansa Stark praying by her ancestors’ tombs while Lord Baelish rides south. With Ramsay Bolton now her betrothed, the North braces for storms above and below ground."
 GOT_Story_News.420.a: "The past watches the living."
  
 # 421 — Jon Snow Seeks Alliance with the Wildlings
 GOT_Story_Country.421.t: "Kill the Boy, Lead the Watch"
-GOT_Story_Country.421.d: "Maester Aemon’s words echo: “Kill the boy and let the man be born.” I free Tormund Giantsbane and offer the Free Folk refuge south of the Wall if they fight beside us against the White Walkers. Brothers curse treason; I see necessity."
+GOT_Story_Country.421.d: "Maester Aemon’s words echo: “Kill the boy and let the man be born.” I free Tormund Giantsbane and offer the Free Folk refuge south of the Wall if they fight beside us against the White Walkers. Brothers curse treason; I see necessity."
 GOT_Story_Country.421.a: "Forge the alliance—open the gates to the Wildlings"
 GOT_Story_Country.421.b: "Abandon the plan—keep the Watch united"
 
 GOT_Story_News.421.t: "Lord Commander Courts the Free Folk"
-GOT_Story_News.421.d: "Reports from Castle Black claim Jon Snow seeks peace with the Wildlings, promising them lands below the Wall in return for swords against the icy dead. Many black cloaks mutter revolt at such audacity."
+GOT_Story_News.421.d: "Reports from Castle Black claim Jon Snow seeks peace with the Wildlings, promising them lands below the Wall in return for swords against the icy dead. Many black cloaks mutter revolt at such audacity."
 GOT_Story_News.421.a: "Winter forges strange pacts."
 
 # 422 — Daenerys Executes a Noble and Announces Marriage
 GOT_Story_Country.422.t: "Fire, Blood, and Betrothal"
-GOT_Story_Country.422.d: "To answer Barristan’s murder I had a noble devoured by my dragons; the rest rot in cells. Yet to bind Meereen I reopen the fighting pits and pledge myself to Hizdahr zo Loraq. Fear and union—two reins on one city."
+GOT_Story_Country.422.d: "To answer Barristan’s murder I had a noble devoured by my dragons; the rest rot in cells. Yet to bind Meereen I reopen the fighting pits and pledge myself to Hizdahr zo Loraq. Fear and union—two reins on one city."
 GOT_Story_Country.422.a: "Rule by terror and tradition—proceed with execution and marriage"
 GOT_Story_Country.422.b: "Stay the dragons—seek softer reconciliation"
 
 GOT_Story_News.422.t: "Dragon Queen Feeds Lord to Flame, Plans Royal Wedding"
-GOT_Story_News.422.d: "Meereen reels as Daenerys burned a noble alive, then stunned all by announcing her engagement to Hizdahr zo Loraq and the reopening of the famed fighting pits. Some call her mad, others masterful."
+GOT_Story_News.422.d: "Meereen reels as Daenerys burned a noble alive, then stunned all by announcing her engagement to Hizdahr zo Loraq and the reopening of the famed fighting pits. Some call her mad, others masterful."
 GOT_Story_News.422.a: "Where dragons dance, cities tremble."
 
 # 423 — Jorah Contracts Greyscale in Valyria
@@ -2513,7 +2515,7 @@ GOT_Story_Country.423.a: "Hide the infection—press on to Meereen"
 GOT_Story_Country.423.b: "Confess to Tyrion—seek a cure or mercy"
 
 GOT_Story_News.423.t: "Exile Knight Rumoured Touched by Greyscale"
-GOT_Story_News.423.d: "Sailors whisper that Ser Jorah Mormont escaped Stone Men in Valyria but not their curse. If true, a man of stone approaches the Dragon Queen."
+GOT_Story_News.423.d: "Sailors whisper that Ser Jorah Mormont escaped Stone Men in Valyria but not their curse. If true, a man of stone approaches the Dragon Queen."
 GOT_Story_News.423.a: "Stone spreads silently."
 
 # 424 — Stannis Marches Toward Winterfell
@@ -2533,7 +2535,7 @@ GOT_Story_Country.425.a: "Keep the secret—wait for the moment"
 GOT_Story_Country.425.b: "Act quickly—signal the loyalists tonight"
 
 GOT_Story_News.425.t: "Whispers of Resistance Stir in Winterfell"
-GOT_Story_News.425.d: "Rumour spreads that loyal Northerners still scheme within Bolton‑held Winterfell, drawn to Sansa Stark’s presence. One candle may ignite rebellion."
+GOT_Story_News.425.d: "Rumour spreads that loyal Northerners still scheme within Bolton‑held Winterfell, drawn to Sansa Stark’s presence. One candle may ignite rebellion."
 GOT_Story_News.425.a: "Old wolves yet howl."
 
 # 426 — Arya Advances in Her Training
@@ -2549,11 +2551,11 @@ GOT_Story_News.426.a: "Valar Dohaeris."
 # 427 — Tyrion and Jorah Captured by Slavers
 GOT_Story_Country.427.t: "Chains on Sand and Sea"
 GOT_Story_Country.427.d: "Iron bites wrists again—slavers weigh my worth. Jorah boasts of swordcraft for Meereen’s pits; I, Tyrion, sell my silver tongue and dwarf’s novelty. For now, we live."
-GOT_Story_Country.427.a: "Plot a clever escape en route"
+GOT_Story_Country.427.a: "Plot a clever escape en route"
 GOT_Story_Country.427.b: "Endure captivity—reach the fighting pits"
 
 GOT_Story_News.427.t: "Lannister and Exile Knight Fall to Slavers"
-GOT_Story_News.427.d: "Caravan gossip claims Ser Jorah Mormont and Tyrion Lannister march in chains toward Meereen, prized for sword and spectacle alike."
+GOT_Story_News.427.d: "Caravan gossip claims Ser Jorah Mormont and Tyrion Lannister march in chains toward Meereen, prized for sword and spectacle alike."
 GOT_Story_News.427.a: "All men must serve—some in irons."
 
 # 428 — Jaime and Bronn Captured in Dorne
@@ -2563,22 +2565,22 @@ GOT_Story_Country.428.a: "Negotiate with Prince Doran—appeal to honor"
 GOT_Story_Country.428.b: "Plot jailbreak with Bronn—risk Martell wrath"
 
 GOT_Story_News.428.t: "Sand Snakes and Lions Both Imprisoned"
-GOT_Story_News.428.d: "Sunspear’s dungeons now host Jaime Lannister, Bronn, and the Sand Snakes after a brawl in the Water Gardens. Dorne smolders beneath its calm prince."
+GOT_Story_News.428.d: "Sunspear’s dungeons now host Jaime Lannister, Bronn, and the Sand Snakes after a brawl in the Water Gardens. Dorne smolders beneath its calm prince."
 GOT_Story_News.428.a: "Unbowed, unbent, unbroken."
 
 # 429 — Cersei Strikes at the Tyrells
 GOT_Story_Country.429.t: "The Faith’s Fist Closes"
-GOT_Story_Country.429.d: "At my urging, the Faith Militant seizes Ser Loras for perversion. In the sept’s trial, Margaery perjures herself and is dragged away as well. Roses wither in the shadow of the Seven‑pointed Star."
+GOT_Story_Country.429.d: "At my urging, the Faith Militant seizes Ser Loras for perversion. In the sept’s trial, Margaery perjures herself and is dragged away as well. Roses wither in the shadow of the Seven‑pointed Star."
 GOT_Story_Country.429.a: "Tighten the noose—let the Faith judge them"
 GOT_Story_Country.429.b: "Secretly temper zeal—avoid full Tyrell revolt"
 
 GOT_Story_News.429.t: "Tyrell Heirs Imprisoned by Faith Militant"
-GOT_Story_News.429.d: "King’s Landing gasps as both Ser Loras and Queen Margaery are locked in sept cells. Power tilts toward the lion, yet sparrows hold the keys."
+GOT_Story_News.429.d: "King’s Landing gasps as both Ser Loras and Queen Margaery are locked in sept cells. Power tilts toward the lion, yet sparrows hold the keys."
 GOT_Story_News.429.a: "Piety proves sharp."
 
 # 430 — Sansa’s Wedding Night
 GOT_Story_Country.430.t: "The Wolf and the Flayed Man"
-GOT_Story_Country.430.d: "Winterfell’s godswood bore witness: vows to Ramsay Bolton. Night brings screams behind locked doors; Theon’s eyes mirror my own terror. I am Sansa Stark, yet pain brands me Bolton bride."
+GOT_Story_Country.430.d: "Winterfell’s godswood bore witness: vows to Ramsay Bolton. Night brings screams behind locked doors; Theon’s eyes mirror my own terror. I am Sansa Stark, yet pain brands me Bolton bride."
 GOT_Story_Country.430.a: "Endure in silence—gather strength for revenge"
 GOT_Story_Country.430.b: "Seek immediate aid—light the candle
 
@@ -2589,7 +2591,7 @@ GOT_Story_Country.431.d: "Maester Aemon—blind, gentle, and wise—slipped quie
 GOT_Story_Country.431.a: "Hold a solemn funeral—honor his legacy"
 
 GOT_Story_News.431.t: "Maester Aemon, Brother of the Watch, Dies"
-GOT_Story_News.431.d: "Castle Black tolls its bells for Aemon Targaryen, great‑uncle to kings long dead. With his passing, one of the Wall’s brightest lights is extinguished."
+GOT_Story_News.431.d: "Castle Black tolls its bells for Aemon Targaryen, great‑uncle to kings long dead. With his passing, one of the Wall’s brightest lights is extinguished."
 GOT_Story_News.431.a: "The realm grows colder."
 
 # 432 — Sam Defends Gilly
@@ -2599,7 +2601,7 @@ GOT_Story_Country.432.a: "Report the attackers—demand justice"
 GOT_Story_Country.432.b: "Stay silent—avoid further strife"
 
 GOT_Story_News.432.t: "Direwolf Defends Crannog Girl at the Wall"
-GOT_Story_News.432.d: "Whispers from Castle Black speak of the Lord Commander’s direwolf guarding Samwell Tarly and Gilly against unruly brothers—tension simmers within the Watch."
+GOT_Story_News.432.d: "Whispers from Castle Black speak of the Lord Commander’s direwolf guarding Samwell Tarly and Gilly against unruly brothers—tension simmers within the Watch."
 GOT_Story_News.432.a: "Even monsters fear the direwolf."
 
 # 433 — Stannis Rejects Melisandre’s Proposal
@@ -2624,17 +2626,17 @@ GOT_Story_News.434.a: "When the mighty fall, vultures circle."
 
 # 435 — Tyrion Meets Daenerys
 GOT_Story_Country.435.t: "A Lion Before the Dragon"
-GOT_Story_Country.435.d: "Bronze bells ring over the pit; Jorah’s helm drops, and he presents me—Tyrion Lannister—to Queen Daenerys. I bow, a gift wrapped in chains, mouth ready with counsel sharper than any sword."
+GOT_Story_Country.435.d: "Bronze bells ring over the pit; Jorah’s helm drops, and he presents me—Tyrion Lannister—to Queen Daenerys. I bow, a gift wrapped in chains, mouth ready with counsel sharper than any sword."
 GOT_Story_Country.435.a: "Offer my counsel—seek a place at her side"
 GOT_Story_Country.435.b: "Test her temper—wager for freedom first"
 
 GOT_Story_News.435.t: "Dragon Queen Receives the Imp"
-GOT_Story_News.435.d: "Spectators in Meereen gasped as exiled Ser Jorah unveiled Tyrion Lannister to Daenerys. A union of dragon and dwarf could shake the very foundations of Westeros."
+GOT_Story_News.435.d: "Spectators in Meereen gasped as exiled Ser Jorah unveiled Tyrion Lannister to Daenerys. A union of dragon and dwarf could shake the very foundations of Westeros."
 GOT_Story_News.435.a: "New players sit at the queen’s table."
  
 # 436 — The Battle of Hardhome
 GOT_Story_Country.436.t: "The Dead Knock at Hardhome"
-GOT_Story_Country.436.d: "While parleying with the Free Folk, ice and shadow swept the camp. I felled a White Walker with Longclaw’s Valyrian steel, yet the Night King raised every corpse in mockery of life. We escaped on frigid waves, horror staring from the shore."
+GOT_Story_Country.436.d: "While parleying with the Free Folk, ice and shadow swept the camp. I felled a White Walker with Longclaw’s Valyrian steel, yet the Night King raised every corpse in mockery of life. We escaped on frigid waves, horror staring from the shore."
 GOT_Story_Country.436.a: "Spread word—Valyrian steel and dragonglass are our salvation"
 GOT_Story_Country.436.b: "Bury the truth—avoid panic among the realms of men"
 
@@ -2649,7 +2651,7 @@ GOT_Story_Country.437.a: "Serve loyally—shape her conquest of Westeros"
 GOT_Story_Country.437.b: "Maintain cautious distance—secure personal leverage first"
 
 GOT_Story_News.437.t: "Imp Rises to Dragon Queen’s Right Hand"
-GOT_Story_News.437.d: "Observers in Meereen report Tyrion Lannister seated beside Daenerys in council, Jorah Mormont exiled anew. A powerful alliance for the wars to come."
+GOT_Story_News.437.d: "Observers in Meereen report Tyrion Lannister seated beside Daenerys in council, Jorah Mormont exiled anew. A powerful alliance for the wars to come."
 GOT_Story_News.437.a: "Fire meets guile."
 
 # 438 — Cersei’s Imprisonment Continues
@@ -2659,7 +2661,7 @@ GOT_Story_Country.438.a: "Endure and await Qyburn’s secret weapon"
 GOT_Story_Country.438.b: "Confess to the High Sparrow—seek release through penance"
 
 GOT_Story_News.438.t: "Queen Mother Languishes in Sept Cell"
-GOT_Story_News.438.d: "Cersei Lannister’s captivity drags on; rumors swirl of alchemical experiments in the Red Keep and a king paralyzed by grief."
+GOT_Story_News.438.d: "Cersei Lannister’s captivity drags on; rumors swirl of alchemical experiments in the Red Keep and a king paralyzed by grief."
 GOT_Story_News.438.a: "A lion alone in a cage is still dangerous."
 
 # 439 — Arya’s First Assassination Mission
@@ -2704,12 +2706,12 @@ GOT_Story_News.442.a: "The world remembers dragons."
 
 # 443 — Arya Spots Meryn Trant
 GOT_Story_Country.443.t: "A Name from the List"
-GOT_Story_Country.443.d: "While stalking the Thin Man, I see Ser Meryn Trant—killer of Syrio—step ashore. The Many‑Faced God demands the insurance thief, yet my heart demands Trant’s blood."
+GOT_Story_Country.443.d: "While stalking the Thin Man, I see Ser Meryn Trant—killer of Syrio—step ashore. The Many‑Faced God demands the insurance thief, yet my heart demands Trant’s blood."
 GOT_Story_Country.443.a: "Abandon the contract—pursue personal vengeance"
 GOT_Story_Country.443.b: "Stay the course—complete the Faceless assignment first"
 
 GOT_Story_News.443.t: "Kingsguard Knight Sighted in Braavos"
-GOT_Story_News.443.d: "Ser Meryn Trant, sworn shield of King’s Landing, has been seen frequenting Braavosi brothels. Unseen eyes reportedly follow his every step."
+GOT_Story_News.443.d: "Ser Meryn Trant, sworn shield of King’s Landing, has been seen frequenting Braavosi brothels. Unseen eyes reportedly follow his every step."
 GOT_Story_News.443.a: "Some debts are paid in silence."
 
 # 444 — Jon Returns with the Free Folk
@@ -2724,12 +2726,12 @@ GOT_Story_News.444.a: "The real enemy waits in the cold."
 
 # 445 — Jaime’s Accord with Dorne
 GOT_Story_Country.445.t: "Peace in Sunspear’s Hall"
-GOT_Story_Country.445.d: "Prince Doran agrees: Myrcella returns to King’s Landing with her betrothed Trystane, who gains a seat on the Small Council. Bronn walks free, bruised but breathing. A fragile peace, but peace nonetheless."
+GOT_Story_Country.445.d: "Prince Doran agrees: Myrcella returns to King’s Landing with her betrothed Trystane, who gains a seat on the Small Council. Bronn walks free, bruised but breathing. A fragile peace, but peace nonetheless."
 GOT_Story_Country.445.a: "Honor the pact—sail at once for home"
 GOT_Story_Country.445.b: "Plot contingencies—prepare for Sand Snake treachery"
 
 GOT_Story_News.445.t: "Lions and Suns Strike a Deal"
-GOT_Story_News.445.d: "Dorne and the Iron Throne reach accord: Princess Myrcella departs with Ser Jaime and Prince Trystane. Yet Dornish eyes watch every sail on the horizon."
+GOT_Story_News.445.d: "Dorne and the Iron Throne reach accord: Princess Myrcella departs with Ser Jaime and Prince Trystane. Yet Dornish eyes watch every sail on the horizon."
 GOT_Story_News.445.a: "The water gardens fall still—for now."
  
 # 446 — Jon Snow Betrayed at Castle Black
@@ -2738,7 +2740,7 @@ GOT_Story_Country.446.d: "Brother after brother whispered the words before plung
 GOT_Story_Country.446.a: "The light fades… (no immediate effect — chain into resurrection path if scripted)"
 
 GOT_Story_News.446.t: "Lord Commander Snow Falls to Treachery"
-GOT_Story_News.446.d: "Ravens speak of mutiny at Castle Black. Jon Snow, friend of Free Folk, now lies in growing crimson. Whether the Wall stands united is uncertain."
+GOT_Story_News.446.d: "Ravens speak of mutiny at Castle Black. Jon Snow, friend of Free Folk, now lies in growing crimson. Whether the Wall stands united is uncertain."
 GOT_Story_News.446.a: "Winter shows no mercy."
 
 # 447 — Cersei’s Walk of Atonement
@@ -2748,7 +2750,7 @@ GOT_Story_Country.447.a: "Plot retribution—rebuild power through fear"
 GOT_Story_Country.447.b: "Seek alliances—mend fences to regain control"
 
 GOT_Story_News.447.t: "Queen Mother Paraded Nude Through King’s Landing"
-GOT_Story_News.447.d: "The realm gasped as Cersei Lannister trudged barefoot from the Great Sept to the Red Keep amid jeers. Some see justice served; others see a lion wounded and dangerous."
+GOT_Story_News.447.d: "The realm gasped as Cersei Lannister trudged barefoot from the Great Sept to the Red Keep amid jeers. Some see justice served; others see a lion wounded and dangerous."
 GOT_Story_News.447.a: "The bells still echo."
 
 # 448 — Stannis Defeated and Slain
@@ -2757,7 +2759,7 @@ GOT_Story_Country.448.d: "Snow‑choked men broke before Bolton cavalry; my quee
 GOT_Story_Country.448.a: "Fall of Stannis — trigger succession and Northern power shift"
 
 GOT_Story_News.448.t: "Baratheon Claim Extinguished Outside Winterfell"
-GOT_Story_News.448.d: "Stannis’s host shattered, banners burned, and the king himself met a grim fate by Ser Brienne’s sword. Boltons hold Winterfell amid ash and sorrow."
+GOT_Story_News.448.d: "Stannis’s host shattered, banners burned, and the king himself met a grim fate by Ser Brienne’s sword. Boltons hold Winterfell amid ash and sorrow."
 GOT_Story_News.448.a: "Ours is the Fury—no more."
 
 # 449 — Sansa and Theon Escape
@@ -2767,17 +2769,17 @@ GOT_Story_Country.449.a: "Head for the Wolfswood—seek northern allies"
 GOT_Story_Country.449.b: "Press south—aim for the King’s Road and the Riverlands"
 
 GOT_Story_News.449.t: "Bolton Bride Vanishes from Winterfell"
-GOT_Story_News.449.d: "Snow hides tracks of Sansa Stark and Theon Greyjoy, missing after a daring escape. Bolton search parties scour the North, but winter night keeps its secrets."
+GOT_Story_News.449.d: "Snow hides tracks of Sansa Stark and Theon Greyjoy, missing after a daring escape. Bolton search parties scour the North, but winter night keeps its secrets."
 GOT_Story_News.449.a: "The North remembers—and now it searches."
 
 # 450 — Arya’s Revenge and Blindness
 GOT_Story_Country.450.t: "Eyes Darkened by Vengeance"
-GOT_Story_Country.450.d: "Ser Meryn Trant gurgled his last beneath my blade; yet the Many‑Faced God demands balance. Sight drains from my eyes—blackness for a girl who wore the wrong face."
+GOT_Story_Country.450.d: "Ser Meryn Trant gurgled his last beneath my blade; yet the Many‑Faced God demands balance. Sight drains from my eyes—blackness for a girl who wore the wrong face."
 GOT_Story_Country.450.a: "Accept blindness—continue the Faceless path"
 GOT_Story_Country.450.b: "Reject the Faceless Men—seek aid elsewhere"
 
 GOT_Story_News.450.t: "Braavos Whispers of a Kingsguard’s Grisly End"
-GOT_Story_News.450.d: "Ser Meryn Trant found slain, eyes gouged, in a brothel. No killer seen—only coins left on eyelids. Rumours say the House of Black and White exacts its own justice."
+GOT_Story_News.450.d: "Ser Meryn Trant found slain, eyes gouged, in a brothel. No killer seen—only coins left on eyelids. Rumours say the House of Black and White exacts its own justice."
 GOT_Story_News.450.a: "All men must die; some die screaming."
 
 
@@ -2788,7 +2790,7 @@ GOT_Story_News.450.a: "All men must die; some die screaming."
   
 # 501 — Jon Snow’s Body and the Night’s Watch Mutiny
 GOT_Story_Country.501.t: "Blood on the Snow"
-GOT_Story_Country.501.d: "We found Jon dead beneath the Lord Commander’s tower—murdered by brothers who hissed ‘traitor’. Ser Davos now guards the body with a handful of loyal men while Thorne rallies the mutineers at the armory doors."
+GOT_Story_Country.501.d: "We found Jon dead beneath the Lord Commander’s tower—murdered by brothers who hissed ‘traitor’. Ser Davos now guards the body with a handful of loyal men while Thorne rallies the mutineers at the armory doors."
 GOT_Story_Country.501.a: "Barricade in the storeroom—wait for help"
 GOT_Story_Country.501.b: "Parley with Thorne—risk surrender for peace"
 
@@ -2798,17 +2800,17 @@ GOT_Story_News.501.a: "The Wall’s shadow grows longer."
 
 # 502 — Brienne Rescues Sansa and Theon
 GOT_Story_Country.502.t: "Oath Fulfilled in the Wolfswood"
-GOT_Story_Country.502.d: "Bolton riders closed in when a sword of shining steel cut through the snow. Brienne pledges herself to me, Sansa Stark, at last. Theon follows in guilt and frost‑bitten loyalty."
+GOT_Story_Country.502.d: "Bolton riders closed in when a sword of shining steel cut through the snow. Brienne pledges herself to me, Sansa Stark, at last. Theon follows in guilt and frost‑bitten loyalty."
 GOT_Story_Country.502.a: "Accept Brienne’s service—press north toward the Wall"
 GOT_Story_Country.502.b: "Head south—seek safety in the Riverlands"
 
 GOT_Story_News.502.t: "Lady Stark Saved by Maiden Knight"
-GOT_Story_News.502.d: "Travellers report Brienne of Tarth clashing with Bolton men, spiriting Sansa Stark and Theon Greyjoy into the biting woods."
+GOT_Story_News.502.d: "Travellers report Brienne of Tarth clashing with Bolton men, spiriting Sansa Stark and Theon Greyjoy into the biting woods."
 GOT_Story_News.502.a: "Hope stirs beneath winter leaves."
 
 # 503 — Ellaria and the Sand Snakes Seize Dorne
 GOT_Story_Country.503.t: "Vengeance on Sunspear’s Steps"
-GOT_Story_Country.503.d: "Steel struck in palace halls—Prince Doran and Trystane lie dead. Ellaria’s crimson kiss crowns her and her daughters as rulers of Dorne; war drums echo over the deserts."
+GOT_Story_Country.503.d: "Steel struck in palace halls—Prince Doran and Trystane lie dead. Ellaria’s crimson kiss crowns her and her daughters as rulers of Dorne; war drums echo over the deserts."
 GOT_Story_Country.503.a: "Consolidate rule—rally houses under the Sand Snakes"
 GOT_Story_Country.503.b: "Prepare for Lannister reprisal—send envoys to allies"
 
@@ -2828,17 +2830,17 @@ GOT_Story_News.504.a: "When lions roar, cities burn."
 
 # 505 — Daenerys Captured by Dothraki
 GOT_Story_Country.505.t: "Khaleesi in Fetters"
-GOT_Story_Country.505.d: "I walk barefoot among horse‑lords once more—no longer khaleesi, merely widow of Khal Drogo. Khal Moro says widows belong in Vaes Dothrak; my dragons and city lie far across the sea."
-GOT_Story_Country.505.a: "Submit for now—plan ascendancy within Vaes Dothrak"
+GOT_Story_Country.505.d: "I walk barefoot among horse‑lords once more—no longer khaleesi, merely widow of Khal Drogo. Khal Moro says widows belong in Vaes Dothrak; my dragons and city lie far across the sea."
+GOT_Story_Country.505.a: "Submit for now—plan ascendancy within Vaes Dothrak"
 GOT_Story_Country.505.b: "Attempt escape—seek Drogon in the grass sea"
 
 GOT_Story_News.505.t: "Breaker of Chains Now a Captive"
-GOT_Story_News.505.d: "Scouts claim Daenerys Stormborn rides bound toward Vaes Dothrak. Whether dragonfire will free her—or Dothraki tradition bind her—remains to be seen."
+GOT_Story_News.505.d: "Scouts claim Daenerys Stormborn rides bound toward Vaes Dothrak. Whether dragonfire will free her—or Dothraki tradition bind her—remains to be seen."
 GOT_Story_News.505.a: "A dragon without chains still has wings."
  
 # 506 — Jon Snow’s Resurrection
 GOT_Story_Country.506.t: "Breath Returned to the Lord Commander"
-GOT_Story_Country.506.d: "Melisandre’s whispered Valyrian and flickering flames failed—until they didn’t. Cold lips parted; Jon Snow gasped and stared at the rafters. Death has loosened its grip, but what price follows?"
+GOT_Story_Country.506.d: "Melisandre’s whispered Valyrian and flickering flames failed—until they didn’t. Cold lips parted; Jon Snow gasped and stared at the rafters. Death has loosened its grip, but what price follows?"
 GOT_Story_Country.506.a: "Reclaim command—purge the mutineers"
 GOT_Story_Country.506.b: "Abdicate—leave the Watch and seek a new path"
 
@@ -2893,12 +2895,12 @@ GOT_Story_Country.511.a: "March south—reclaim Winterfell from the Boltons"
 GOT_Story_Country.511.b: "Seek the wildlings’ aid—forge a Free Folk alliance"
 
 GOT_Story_News.511.t: "Lord Commander Resigns After Executing Mutineers"
-GOT_Story_News.511.d: "Jon Snow hanged his killers then abandoned the Night’s Watch, declaring his oath fulfilled. The Wall stands leaderless at the edge of winter."
+GOT_Story_News.511.d: "Jon Snow hanged his killers then abandoned the Night’s Watch, declaring his oath fulfilled. The Wall stands leaderless at the edge of winter."
 GOT_Story_News.511.a: "A new snowstorm gathers."
 
 # 512 — Bran at the Tower of Joy
 GOT_Story_Country.512.t: "Truth Behind the Legend"
-GOT_Story_Country.512.d: "I witness young Ned duel Ser Arthur Dayne—no honor in victory, only Howland Reed’s dagger in a king‑guard’s back. The past whispers secrets the realm forgot."
+GOT_Story_Country.512.d: "I witness young Ned duel Ser Arthur Dayne—no honor in victory, only Howland Reed’s dagger in a king‑guard’s back. The past whispers secrets the realm forgot."
 GOT_Story_Country.512.a: "Press on—follow Ned into the tower’s screams"
 GOT_Story_Country.512.b: "Withdraw—halt the vision before knowledge overwhelms"
 
@@ -2918,7 +2920,7 @@ GOT_Story_News.513.a: "Faces change; purpose remains."
 
 # 514 — Rickon Stark Handed to Ramsay
 GOT_Story_Country.514.t: "A Stark in Chains, a Wolf’s Head on the Pike"
-GOT_Story_Country.514.d: "Smalljon Umber tosses Shaggydog’s head at my feet and shoves Rickon forward. The North bends or breaks beneath Ramsay Bolton, and dread spreads like flayed skin."
+GOT_Story_Country.514.d: "Smalljon Umber tosses Shaggydog’s head at my feet and shoves Rickon forward. The North bends or breaks beneath Ramsay Bolton, and dread spreads like flayed skin."
 GOT_Story_Country.514.a: "Publicly parade Rickon—pressure Northern houses"
 GOT_Story_Country.514.b: "Keep the boy hidden—use him as secret hostage"
 
@@ -2928,12 +2930,12 @@ GOT_Story_News.514.a: "The North remembers—but can it act?"
 
 # 515 — Daenerys Among the Dosh Khaleen
 GOT_Story_Country.515.t: "Khaleesi or Widow?"
-GOT_Story_Country.515.d: "Within Vaes Dothrak’s sacred city, crones of the dosh khaleen weigh my fate: live quietly among widows or face judgment for breaking tradition. Fire still burns in my veins."
+GOT_Story_Country.515.d: "Within Vaes Dothrak’s sacred city, crones of the dosh khaleen weigh my fate: live quietly among widows or face judgment for breaking tradition. Fire still burns in my veins."
 GOT_Story_Country.515.a: "Submit—win influence within the dosh khaleen"
 GOT_Story_Country.515.b: "Plot revolt—rally khals to a new khalasar"
 
 GOT_Story_News.515.t: "Breaker of Chains Now Dothraki Widow"
-GOT_Story_News.515.d: "Sources say Daenerys Targaryen resides in Vaes Dothrak under watchful eyes of the dosh khaleen. Whether she bends or burns remains unknown."
+GOT_Story_News.515.d: "Sources say Daenerys Targaryen resides in Vaes Dothrak under watchful eyes of the dosh khaleen. Whether she bends or burns remains unknown."
 GOT_Story_News.515.a: "Dragons may bow—or they may bite."
  
 # 516 — Jon and Sansa Reunite
@@ -2948,7 +2950,7 @@ GOT_Story_News.516.a: "The North remembers."
 
 # 517 — Daenerys Burns the Khals
 GOT_Story_Country.517.t: "Fire Made Flesh"
-GOT_Story_Country.517.d: "Locked in the dosh khaleen temple, I overturned braziers and let flames judge the khals. They burned; I walked out unscathed. Every rider in Vaes Dothrak bent the knee."
+GOT_Story_Country.517.d: "Locked in the dosh khaleen temple, I overturned braziers and let flames judge the khals. They burned; I walked out unscathed. Every rider in Vaes Dothrak bent the knee."
 GOT_Story_Country.517.a: "Lead the khalasar east—ride to Meereen with new horde"
 GOT_Story_Country.517.b: "Sweep west—plunder Lhazareen to swell ranks further"
 
@@ -2958,7 +2960,7 @@ GOT_Story_News.517.a: "A storm of sand and fire gathers."
 
 # 518 — Tyrion’s Compromise with the Masters
 GOT_Story_Country.518.t: "Seven Years for Freedom"
-GOT_Story_Country.518.d: "I offered the masters time to end slavery and pleasures to grease their pride. Grey Worm’s silence cut deeper than any spear, yet peace may buy us days to breathe."
+GOT_Story_Country.518.d: "I offered the masters time to end slavery and pleasures to grease their pride. Grey Worm’s silence cut deeper than any spear, yet peace may buy us days to breathe."
 GOT_Story_Country.518.a: "Stand by the deal—stabilize Meereen economically"
 GOT_Story_Country.518.b: "Prepare contingencies—arm for inevitable betrayal"
 
@@ -3016,9 +3018,9 @@ GOT_Story_News.523.t: "New Kraken King Vows Alliance with Dragons"
 GOT_Story_News.523.d: "Euron Greyjoy rules the Ironborn, eyes set on Daenerys. Hammers ring on Pyke’s shores while rival heirs sail for parts unknown."
 GOT_Story_News.523.a: "Salt, sea, and storm gather."
 
-# 524 — Arya’s Next Target: Lady Crane
+# 524 — Arya’s Next Target: Lady Crane
 GOT_Story_Country.524.t: "A Play of Faces"
-GOT_Story_Country.524.d: "Assigned to poison actress Lady Crane, I watch actors mock my father’s death. Crane seems kind; doubt gnaws. The waif watches me watch the stage."
+GOT_Story_Country.524.d: "Assigned to poison actress Lady Crane, I watch actors mock my father’s death. Crane seems kind; doubt gnaws. The waif watches me watch the stage."
 GOT_Story_Country.524.a: "Proceed with the hit—poison the rum"
 GOT_Story_Country.524.b: "Spare Crane—risk wrath of the Faceless Men"
 
@@ -3033,7 +3035,7 @@ GOT_Story_Country.525.a: "Send Brienne to Riverrun—seek Tully aid"
 GOT_Story_Country.525.b: "Accept Vale support—summon the Knights of the Vale quietly"
 
 GOT_Story_News.525.t: "Lady Stark Spurns the Mockingbird"
-GOT_Story_News.525.d: "Witnesses recount sharp words between Sansa Stark and Lord Baelish. Yet armies still move at his whisper; the game grows deadlier."
+GOT_Story_News.525.d: "Witnesses recount sharp words between Sansa Stark and Lord Baelish. Yet armies still move at his whisper; the game grows deadlier."
 GOT_Story_News.525.a: "Trust is the rarest coin in Westeros."
  
 # 526 — Benjen Stark Returns
@@ -3043,7 +3045,7 @@ GOT_Story_Country.526.a: "Accept Benjen’s guidance—accelerate greenseer trai
 GOT_Story_Country.526.b: "Press onward alone—send Benjen to rally northern allies"
 
 GOT_Story_News.526.t: "Missing Ranger Rides Again"
-GOT_Story_News.526.d: "Stories from beyond the Wall claim Benjen Stark, long thought dead, fights with strange fire against the undead."
+GOT_Story_News.526.d: "Stories from beyond the Wall claim Benjen Stark, long thought dead, fights with strange fire against the undead."
 GOT_Story_News.526.a: "Legends return when needed most."
 
 # 527 — Tommen Unites Crown and Faith
@@ -3058,7 +3060,7 @@ GOT_Story_News.527.a: "When crown bends, who truly rules?"
 
 # 528 — Arya Rejects the Faceless Men
 GOT_Story_Country.528.t: "Needle Finds Its Way Home"
-GOT_Story_Country.528.d: "I warned Lady Crane and spilled the poisoned rum. By night, I reclaimed Needle from the rocks—Arya Stark lives; no one is dead."
+GOT_Story_Country.528.d: "I warned Lady Crane and spilled the poisoned rum. By night, I reclaimed Needle from the rocks—Arya Stark lives; no one is dead."
 GOT_Story_Country.528.a: "Prepare to flee Braavos—face the Waif’s pursuit"
 GOT_Story_Country.528.b: "Lay a trap—eliminate the Waif and escape"
 
@@ -3088,7 +3090,7 @@ GOT_Story_News.530.a: "The world will hear drumming hooves and beating wings."
  
 # 531 — The Hound’s Return
 GOT_Story_Country.531.t: "No Sermons, Only Steel"
-GOT_Story_Country.531.d: "Sandor Clegane swung axe not for war but for wood—until raiders slaughtered Brother Ray and his peaceful flock. The Hound lifts his blade once more, eyes set on bloody reckoning."
+GOT_Story_Country.531.d: "Sandor Clegane swung axe not for war but for wood—until raiders slaughtered Brother Ray and his peaceful flock. The Hound lifts his blade once more, eyes set on bloody reckoning."
 GOT_Story_Country.531.a: "Hunt the killers—join the Brotherhood Without Banners"
 GOT_Story_Country.531.b: "Wander alone—seek personal vengeance"
 
@@ -3119,7 +3121,7 @@ GOT_Story_News.533.a: "Masks crack under pressure."
 # 534 — Arya Ambushed in Braavos
 GOT_Story_Country.534.t: "Blades in the Fog"
 GOT_Story_Country.534.d: "The Waif’s dagger opened my belly, but not my resolve. Bleeding, I flee alley to alley; Braavos watches a Stark fight death again."
-GOT_Story_Country.534.a: "Seek shelter with Lady Crane—recover and plan"
+GOT_Story_Country.534.a: "Seek shelter with Lady Crane—recover and plan"
 GOT_Story_Country.534.b: "Confront the Waif—end the chase tonight"
 
 GOT_Story_News.534.t: "Girl on the Run, Blood on the Stones"
@@ -3128,7 +3130,7 @@ GOT_Story_News.534.a: "Many faces, one fate."
 
 # 535 — House Mormont Recruited
 GOT_Story_Country.535.t: "The Bear Island Oath"
-GOT_Story_Country.535.d: "Lyanna Mormont, ten years fierce, offers sixty‑two swords with hearts of granite. ‘The North remembers,’ she vows, and so do we."
+GOT_Story_Country.535.d: "Lyanna Mormont, ten years fierce, offers sixty‑two swords with hearts of granite. ‘The North remembers,’ she vows, and so do we."
 GOT_Story_Country.535.a: "Accept and march—every sword counts"
 GOT_Story_Country.535.b: "Request additional Mormont scouts—bolster recon"
 
@@ -3158,7 +3160,7 @@ GOT_Story_News.537.a: "Trout nets cannot hold lions forever."
 
 # 538 — Trial by Combat Abolished
 GOT_Story_Country.538.t: "A Queen Cornered"
-GOT_Story_Country.538.d: "Tommen’s decree bans trial by combat, stripping me of Ser Gregor’s shield. Yet Qyburn’s spies confirm our hidden wildfire stores—‘the rumor’ burns bright beneath the city."
+GOT_Story_Country.538.d: "Tommen’s decree bans trial by combat, stripping me of Ser Gregor’s shield. Yet Qyburn’s spies confirm our hidden wildfire stores—‘the rumor’ burns bright beneath the city."
 GOT_Story_Country.538.a: "Prepare wildfire contingency—seize victory through flame"
 GOT_Story_Country.538.b: "Seek political escape—broker deal with the Faith"
 
@@ -3291,14 +3293,14 @@ GOT_Story_News.550.a: "A storm of fire and blood is coming."
 ##SEASON 7##
 ############
 
-# 601 — Arya Eliminates House Frey
+# 601 — Arya Eliminates House Frey
 GOT_Story_Country.601.t: "A Toast to Vengeance"
 GOT_Story_Country.601.d: "Wearing Walder’s face, I bid Frey men drink. As poison tightened throats, I named myself Arya Stark and watched the Red Wedding repaid."
 GOT_Story_Country.601.a: "Ride north—return to Winterfell"
 GOT_Story_Country.601.b: "Head south—pursue remaining names"
 
 GOT_Story_News.601.t: "Frey Hall Runs Red Again"
-GOT_Story_News.601.d: "Every lord of House Frey lies dead by cup, their women spared. A lone wolf delivered the reckoning."
+GOT_Story_News.601.d: "Every lord of House Frey lies dead by cup, their women spared. A lone wolf delivered the reckoning."
 GOT_Story_News.601.a: "The North remembers."
 
 # 602 — Jon and Sansa Dispute Punishment
@@ -3364,7 +3366,7 @@ GOT_Story_News.607.a: "The game enters its final act."
 # 608 — Daenerys Confronts Varys
 GOT_Story_Country.608.t: "Where Do Your Loyalties Lie?"
 GOT_Story_Country.608.d: "On Dragonstone’s dark shore, I questioned Varys about his many kings. He swore his loyalty to the people; I swore dragonfire should he betray me."
-GOT_Story_Country.608.a: "Accept his oath—gain intrigue bonus"
+GOT_Story_Country.608.a: "Accept his oath—gain intrigue bonus"
 GOT_Story_Country.608.b: "Keep him under watch—small stability hit, espionage defense rise"
 
 GOT_Story_News.608.t: "Spider Spins a New Web"
@@ -3514,7 +3516,7 @@ GOT_Story_News.622.a: "War’s cost paid in coin and blood."
 # 623 — Drogon Wounded
 GOT_Story_Country.623.t: "Scorpion’s Sting"
 GOT_Story_Country.623.d: "A massive scorpion bolt tore into Drogon’s shoulder. I landed amid battle to calm him while bolts whistled overhead."
-GOT_Story_Country.623.a: "Withdraw to treat Drogon—reduce dragon attack for 30 days"
+GOT_Story_Country.623.a: "Withdraw to treat Drogon—reduce dragon attack for 30 days"
 GOT_Story_Country.623.b: "Fight through pain—maintain power, raise dragon attrition risk"
 
 GOT_Story_News.623.t: "Dragon Bleeds!"
@@ -4470,6 +4472,14 @@ GOT_Diplomatic_Country.54.t: "Justice for Renly?"
 GOT_Diplomatic_Country.54.d: "Though Renly Baratheon now lies dead, his shadow still haunts the Reach. It was no sword or spear that felled him, but sorcery—dark magic wielded by Melisandre of Asshai in service of Stannis Baratheon. Now, with Margaery betrothed to King Joffrey and our banners sworn to the Iron Throne, a question lingers: Should House Tyrell avenge Renly's murder with fire and steel, or entrust justice to the realm we now serve?"
 GOT_Diplomatic_Country.54.a: "Renly must be avenged—declare war on Stannis!"
 GOT_Diplomatic_Country.54.b: "We serve the Crown. Let Joffrey dispense justice."
+
+### Reaction to the Bolton Rebellion ###
+GOT_Diplomatic_Country.55.t:0 "A Raven from the Dreadfort"
+GOT_Diplomatic_Country.55.d:0 "A black‑winged messenger alights in our yard bearing grim tidings.\n\n“Roose Bolton has risen in open defiance of Winterfell, naming Stark rule broken and false. The Flayed Man marches under bloody banners.”\n\nThe North is tearing itself apart, and the eyes of every lord now turn to us. Will we:\n\n**Stand with the Boltons** and strike at the direwolves while they stagger?\n**Rally to House Stark** to uphold the old order?\n**Stay our hand** and see which way the wind blows?\n\nOur choice may decide the fate of the North."
+GOT_Diplomatic_Country.55.a:0 "Throw in with the Boltons"
+GOT_Diplomatic_Country.55.b:0 "Aid Winterfell against the traitors"
+GOT_Diplomatic_Country.55.c:0 "Remain neutral—for now"
+
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"

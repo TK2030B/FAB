@@ -3806,6 +3806,103 @@ country_event = {
 	
 }
 
+#The Great Betrayal
+country_event = {
+	id = GOT_Diplomatic_Country.55
+	title = GOT_Diplomatic_Country.55.t
+	desc = GOT_Diplomatic_Country.55.d
+	picture = GFX_report_event_The_Great_Betrayal
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.55.a
+
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				tag = KAR
+				NOR = { has_country_flag = GOT_Lord_Karstark_Executed }
+			}
+			modifier = {
+				factor = 2
+				country_exists = WES
+				WES = { has_war_with = NOR }
+				WES = { has_capitulated = no }
+			}
+		}
+		
+		add_war_support = 0.05
+		add_stability = -0.05
+		
+		declare_war_on = {
+			target = NOR
+			type = civil_war
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.55.b
+
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				country_exists = WES
+				WES = { has_war_with = NOR }
+				WES = { has_capitulated = yes }
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					NOR = {
+						has_country_leader = {
+							name = "Robb Stark"
+							ruling_only = yes
+						}
+					}
+				}
+			}
+		}
+		
+		add_war_support = 0.05
+		add_stability = -0.05
+		
+		declare_war_on = {
+			target = BOL
+			type = civil_war
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.55.c
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					NOR = {
+						has_country_leader = {
+							name = "Robb Stark"
+							ruling_only = yes
+						}
+					}
+				}
+			}
+		}
+		
+		add_war_support = -0.05
+		add_stability = 0.05
+
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
