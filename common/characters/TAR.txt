@@ -206,14 +206,6 @@ characters={
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}
-		corps_commander={
-			traits = { }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
 	}
 	
 	TAR_Daario_Naharis={

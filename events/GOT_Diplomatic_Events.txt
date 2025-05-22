@@ -1673,6 +1673,8 @@ country_event = {
         add_stability = -0.05
 		add_political_power = -5
 		
+		set_global_flag = GOT_Janos_Slynt_NWA_Flag
+		
 		add_field_marshal_role = {
 		  character = NWA_janos_slynt
 			skill = 2
@@ -2196,6 +2198,15 @@ country_event = {
 		
 		load_oob = TAR_Unsullied
 		
+		add_corps_commander_role = {
+			character = TAR_Grey_Worm
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		
 		add_political_power = 25
 		add_stability = 0.05
 		
@@ -2215,7 +2226,7 @@ country_event = {
 		name = GOT_Diplomatic_Country.26.b
 		
 		trigger = {
-			owns_state = 905
+			owns_state = 167
 		}
 
 		ai_chance = {
@@ -2227,6 +2238,15 @@ country_event = {
 		}
 		
 		load_oob = TAR_Unsullied_Pentos
+		
+		add_corps_commander_role = {
+			character = TAR_Grey_Worm
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
 		
 		add_political_power = 25
 		add_stability = 0.05
@@ -3903,6 +3923,669 @@ country_event = {
 	}
 }
 
+#Death of Ygritte
+country_event = {
+	id = GOT_Diplomatic_Country.56
+	title = GOT_Diplomatic_Country.56.t
+	desc = GOT_Diplomatic_Country.56.d
+	picture = GFX_report_event_GOT_Story_Country343
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.56.a
+
+		ai_chance = {
+			factor = 70
+		}
+		WIL_ygritte_firekissed = {
+			retire = yes
+		}
+		remove_country_leader_role = {
+			character = WIL_ygritte_firekissed
+			ideology = DR_subideology
+		}
+		add_country_leader_role = {
+			character = WIL_tormund_giantsbane
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = DR_subideology
+				traits = {  
+					freedom_fighter  
+					experienced_insurgent  
+					warmonger  
+					staunch_monarchist  
+					adventurous_daredevil  
+					popular_figurehead  
+				}
+			}
+			promote_leader = yes
+		}
+
+		add_political_power = 25
+		add_stability = -0.05
+		
+	}
+	
+}
+
+#Death of Mance
+country_event = {
+	id = GOT_Diplomatic_Country.57
+	title = GOT_Diplomatic_Country.57.t
+	desc = GOT_Diplomatic_Country.57.d
+	picture = GFX_report_event_GOT_Story_Country404
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.57.a
+
+		ai_chance = {
+			factor = 70
+		}
+		WIL_mance_rayder = {
+			retire = yes
+		}
+		remove_country_leader_role = {
+			character = WIL_mance_rayder
+			ideology = CR_subideology
+		}
+		add_country_leader_role = {
+			character = WIL_tormund_giantsbane
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					freedom_fighter  
+					experienced_insurgent  
+					warmonger  
+					staunch_monarchist  
+					adventurous_daredevil  
+					popular_figurehead  
+				}
+			}
+			promote_leader = yes
+		}
+
+		add_political_power = 25
+		add_stability = -0.05
+		
+	}
+	
+}
+
+#Lannister's Offer Princess Myrcella
+country_event = {
+	id = GOT_Diplomatic_Country.58
+	title = GOT_Diplomatic_Country.58.t
+	desc = GOT_Diplomatic_Country.58.d
+	picture = GFX_report_event_GOT_Story_Country111
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.58.a
+
+		ai_chance = {
+			factor = 70
+		}
+
+		add_political_power = 25
+		add_stability = -0.05
+		
+		set_global_flag = GOT_Myrcella_Bethrothed_Flag
+		
+		
+		add_opinion_modifier = {
+			target = CRO
+			modifier = RI_friendly_foreign_policy
+		}
+		
+		diplomatic_relation = {
+			country = CRO
+			relation = non_aggression_pact
+			active = yes
+		}
+		
+		set_truce = { target = CRO days = 365 }
+		
+		CRO = {
+			country_event = {
+				id = GOT_Diplomatic_Country.59
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.58.b
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_political_power = -25
+		add_stability = 0.05
+		
+		CRO = {
+			country_event = {
+				id = GOT_Diplomatic_Country.60
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Drogo Accepts
+country_event = {
+	id = GOT_Diplomatic_Country.59
+	title = GOT_Diplomatic_Country.59.t
+	desc = GOT_Diplomatic_Country.59.d
+	picture = GFX_report_event_GOT_Story_Country111
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.59.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_opinion_modifier = {
+			target = DOR
+			modifier = RI_friendly_foreign_policy
+		}
+
+		add_political_power = 25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.32
+				hours = 6
+			}
+		}
+		
+	}
+	
+}
+
+#Drogo Declines
+country_event = {
+	id = GOT_Diplomatic_Country.60
+	title = GOT_Diplomatic_Country.60.t
+	desc = GOT_Diplomatic_Country.60.d
+	picture = GFX_report_event_GOT_Story_Country111
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.60.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_opinion_modifier = {
+			target = DOR
+			modifier = RI_hostile_foreign_policy
+		}
+
+		add_political_power = -25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.33
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Myrcella Arrives in Dorne
+country_event = {
+	id = GOT_Diplomatic_Country.61
+	title = GOT_Diplomatic_Country.61.t
+	desc = GOT_Diplomatic_Country.61.d
+	picture = GFX_report_event_GOT_Story_Country151
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.61.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_stability = 0.05
+		add_political_power = 25
+		
+	}
+	
+}
+
+#Margaery Marries Tommen
+country_event = {
+	id = GOT_Diplomatic_Country.62
+	title = GOT_Diplomatic_Country.62.t
+	desc = GOT_Diplomatic_Country.62.d
+	picture = GFX_report_event_GOT_Story_Country413
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.62.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_opinion_modifier = {
+			target = CRO
+			modifier = RI_friendly_foreign_policy
+		}
+
+		add_political_power = 25
+		
+	}
+	
+}
+
+#Jon Snow Offers Alliance
+country_event = {
+	id = GOT_Diplomatic_Country.63
+	title = GOT_Diplomatic_Country.63.t
+	desc = GOT_Diplomatic_Country.63.d
+	picture = GFX_report_event_GOT_Story_Country421
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.63.a
+
+		ai_chance = {
+			factor = 70
+		}
+
+		add_political_power = 25
+		add_stability = -0.05
+		
+		set_global_flag = GOT_NWA_WIL_Alliance_Flag
+		
+		
+		add_opinion_modifier = {
+			target = NWA
+			modifier = RI_friendly_foreign_policy
+		}
+		
+				#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = NWA }
+			}
+			leave_faction = yes
+			
+		}
+		
+		if  = {
+				limit = {
+					has_war_with = NWA
+				}
+				every_country = {
+					limit = { is_in_faction_with = NWA }
+					white_peace = WIL
+					set_truce = { target = WIL days = 365 }
+				}
+				WIL = {
+					white_peace = NWA
+					set_truce = { target = NWA days = 365 }
+				}
+			}
+
+		
+		
+		#Nights Watch gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = NWA
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+		NWA = {
+			country_event = {
+				id = GOT_Diplomatic_Country.64
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.63.b
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				country_exists = ICE
+			}
+		}
+
+		add_political_power = -25
+		add_stability = 0.05
+		
+		NWA = {
+			country_event = {
+				id = GOT_Diplomatic_Country.65
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Wildlings Accept
+country_event = {
+	id = GOT_Diplomatic_Country.64
+	title = GOT_Diplomatic_Country.64.t
+	desc = GOT_Diplomatic_Country.64.d
+	picture = GFX_report_event_GOT_Story_Country421
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.64.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_opinion_modifier = {
+			target = WIL
+			modifier = RI_friendly_foreign_policy
+		}
+
+		add_political_power = 25
+		
+		  every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.421 
+                hours = 6 
+            } 
+        }
+		
+	}
+	
+}
+
+#Wildlings Decline
+country_event = {
+	id = GOT_Diplomatic_Country.65
+	title = GOT_Diplomatic_Country.65.t
+	desc = GOT_Diplomatic_Country.65.d
+	picture = GFX_report_event_GOT_Story_Country421
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.65.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_opinion_modifier = {
+			target = WIL
+			modifier = RI_hostile_foreign_policy
+		}
+
+		add_political_power = -25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.34
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Jon Snow Denies Us Passage
+country_event = {
+	id = GOT_Diplomatic_Country.66
+	title = GOT_Diplomatic_Country.66.t
+	desc = GOT_Diplomatic_Country.66.d
+	picture = GFX_report_event_GOT_Story_Country421
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.66.a
+
+		ai_chance = {
+			factor = 55
+		}
+		
+		
+		
+		create_wargoal = {
+			type = annex_everything
+			target = NWA
+			expire = 365
+		}
+		
+		add_opinion_modifier = {
+			target = NWA
+			modifier = RI_hostile_foreign_policy
+		}
+
+		add_war_support = 0.05
+		add_political_power = -25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.35
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.66.b
+
+		ai_chance = {
+			factor = 45
+		}
+		
+		add_opinion_modifier = {
+			target = NWA
+			modifier = RI_hostile_foreign_policy
+		}
+
+		add_war_support = -0.05
+		add_political_power = -25
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.35
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Stannis Shatters Our Army
+country_event = {
+	id = GOT_Diplomatic_Country.67
+	title = GOT_Diplomatic_Country.67.t
+	desc = GOT_Diplomatic_Country.67.d
+	picture = GFX_report_event_GOT_Story_Country350
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.67.a
+
+		ai_chance = {
+			factor = 65
+		}
+		
+		custom_effect_tooltip = GOT_Wildling_Army_Shattered_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					owns_state = 12
+				}
+				ICE = {
+					transfer_state = 12
+				}
+				
+				transfer_units_fraction= {
+					target = ICE
+					size = 0.5
+					keep_unit_leaders_trigger = {
+						always = yes
+					}
+				}
+				
+				WIL = {
+					transfer_state = 12
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				has_war_with = DRA
+			}
+			DRA = {
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.1
+					hours = 1
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				has_war_with = NWA
+			}
+			NWA = {
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.1
+					hours = 1
+				}
+			}
+		}
+		
+		add_war_support = -0.05
+		
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.67.b
+
+		ai_chance = {
+			factor = 35
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		custom_effect_tooltip = GOT_Wildling_Army_Shattered_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					owns_state = 12
+				}
+				ICE = {
+					transfer_state = 12
+				}
+				
+				transfer_units_fraction= {
+					target = ICE
+					size = 0.5
+					keep_unit_leaders_trigger = {
+						always = yes
+					}
+				}
+				
+				WIL = {
+					transfer_state = 12
+				}
+			}
+		}
+		
+		#Chance of Civil War
+			random_list = {
+				#Civil War
+				40 = {
+
+				}
+				#Civil War
+				60 = {
+					start_civil_war = {
+						ideology = fascism
+						size = 0.35
+					}
+				}
+			}
+
+		add_war_support = 0.05
+		
+	}
+}
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -4295,5 +4978,63 @@ news_event = {
  
     option = { 
         name = GOT_Diplomatic_News.31.a 
+    } 
+} 
+
+#Dorne Accepts
+news_event = { 
+    id = GOT_Diplomatic_News.32
+    title = GOT_Diplomatic_News.32.t 
+    desc = GOT_Diplomatic_News.32.d 
+    picture = GFX_news_event_GOT_Story_News111 
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.32.a 
+    } 
+} 
+
+#Dorne Declines
+news_event = { 
+    id = GOT_Diplomatic_News.33
+    title = GOT_Diplomatic_News.33.t 
+    desc = GOT_Diplomatic_News.33.d 
+    picture = GFX_news_event_GOT_Story_News111 
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.33.a 
+    } 
+} 
+
+news_event = { 
+    id = GOT_Diplomatic_News.34
+    title = GOT_Diplomatic_News.34.t 
+    desc = GOT_Diplomatic_News.34.d 
+    picture = GFX_news_event_GOT_Story_News421
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.34.a 
+    } 
+} 
+
+news_event = { 
+    id = GOT_Diplomatic_News.35
+    title = GOT_Diplomatic_News.35.t 
+    desc = GOT_Diplomatic_News.35.d 
+    picture = GFX_news_event_GOT_Story_News421
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.35.a 
     } 
 } 

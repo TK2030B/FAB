@@ -5594,7 +5594,6 @@ focus_tree = {
 			focus = GOT_scout_planes
 		}
 		available = {
-			has_tech = early_fighter_1914
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -5639,7 +5638,6 @@ focus_tree = {
 			focus = GOT_british_fighters
 		}
 		available = {
-			has_tech = early_fighter_1914
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -5810,7 +5808,6 @@ focus_tree = {
 			focus = GOT_scout_planes
 		}
 		available = {
-			has_tech = early_bomber_1914
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -5862,7 +5859,6 @@ focus_tree = {
 			focus = GOT_german_zeppeline
 		}
 		available = {
-			has_tech = early_bomber_1914
 		}
 		completion_reward = {
 			add_tech_bonus = {

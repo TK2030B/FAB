@@ -4,6 +4,8 @@ GOT_Plain_Mode_Chosen_tt:0 "§YPlain Gameplay§!\nThe game will now follow stand
 GOT_Customize_Settings_tt:0 "§YCustomize Settings§!\nAllows you to adjust each game setting individually to match your preferred gameplay experience."
 GOT_Reccommended_SP_Settings_tt:0 "§YRecommended Singleplayer Settings§!\nEnables §YGOT Mode§! for a more realistic experience while keeping all custom features, such as Peace Deals and Coring, fully active."
 GOT_Reccommended_MP_Settings_tt:0 "§YRecommended Multiplayer Settings§!\nEnables §YGOT Mode§! and §YSandbox Mode§! for a dynamic and flexible experience. Peace Deals are restricted to player-to-player interactions only — AI will never accept them. All custom features, including Coring and Decision systems, remain fully active."
+GOT_Wildling_Army_Shattered_tt:0 "§RWe will lose 50% of our divisions.§!"
+
 
 GOT_TAR_DOT_Wedding_Flag:0 "Targaryen-Dothraki Marriage"
 GOT_TAR_Wedding_Flag:0 "Targaryen Marriage"
@@ -44,8 +46,13 @@ GOT_Varys_Fled_Flag:0 "Varys Has Fled"
 GOT_Robb_Renly_Alliance_Flag:0 "Robb and Renly Have Allied Together"
 GOT_King_of_the_Trident_Flag:0 "Robb Proclaimed King of the Trident"
 GOT_Sparrows_Empowered_Flag:0 "Cersei Has Empowered The Sparrows"
+GOT_Myrcella_Bethrothed_Flag:0 "Princess Myrcella Bethrothed"
 GOT_Myrcella_Rescue_Mission_Flag:0 "Princess Myrcella Rescue Mission"
+GOT_Myrcella_In_Dorne_Flag:0 "Princess Myrcella In Dorne"
 GOT_Tyrion_Serving_TAR_Flag:0 "Tyrion in Daenerys' Service"
+GOT_Janos_Slynt_NWA_Flag:0 "Janos Slynt in the Night's Watch"
+GOT_Stannis_Aids_Wall_Flag:0 "Stannis aids the Night's Watch"
+GOT_Wildling_Army_Shattered_Flag:0 "Wildling Army Shattered"
 
 Game_Event.1.t:0 "Welcome (1/5)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -1280,6 +1287,14 @@ GOT_Story_News.149.a: "Jon Snow’s capture raises questions about his loyalties
  GOT_Story_News.150.d: "Renly Baratheon, Lord of Storm's End and youngest brother of the late King Robert, has declared his intent to claim the Iron Throne. With the backing of powerful southern lords and the Reach behind him, his claim is more than mere words—it is a rallying cry.\n\nWhile some dismiss him as untested, others see him as the realm's best chance at peace and unity. War may soon follow."
  GOT_Story_News.150.a: "Another contender for the throne emerges..."
  
+GOT_Story_Country.151.t:0 "Princess Myrcella Departs for Dorne"
+GOT_Story_Country.151.d:0 "With the agreement sealed between House Lannister and House Martell, Princess Myrcella Baratheon now departs the capital. She will travel south to Sunspear, where she is to be fostered and eventually wed to Prince Trystane Martell. The court bids her farewell with pride and apprehension. Though still a child, her journey marks a critical step in uniting two great houses—one forged not by conquest, but by diplomacy. In these uncertain times, such alliances may prove more powerful than swords."
+GOT_Story_Country.151.a:0 "May she bring honor and peace to the realm."
+
+GOT_Story_News.151.t:0 "Princess Myrcella Sent to Dorne"
+GOT_Story_News.151.d:0 "Princess Myrcella Baratheon, daughter of Queen Cersei Lannister, has departed King’s Landing to be fostered in Sunspear. This journey marks the beginning of her betrothal to Prince Trystane Martell, heir to House Martell. The alliance, arranged by the Hand of the King, is a rare instance of diplomacy in a realm often governed by war and intrigue. While some view it as a wise move to secure peace in the South, others whisper that placing a royal child in the hands of the Martells may yet prove dangerous."
+GOT_Story_News.151.a:0 "Another piece moves on the board."
+
   
 ############
 ##SEASON 3##
@@ -2265,9 +2280,10 @@ GOT_Story_Country.328.b:0 "We fight with what we have. We don’t need Braavosi 
  GOT_Story_News.349.a: "A cold farewell."
 
  # Jon Snow Faces Stannis Baratheon
- GOT_Story_Country.350.t: "Jon Snow Faces Stannis Baratheon"
- GOT_Story_Country.350.d: "After the wildlings' attack on the Wall, Jon Snow seeks to negotiate peace with Mance Rayder. However, Stannis Baratheon arrives with his army, defeating the wildlings. Jon now faces the complexities of leadership and the harsh realities of war."
- GOT_Story_Country.350.a: "The battle for the Wall."
+ GOT_Story_Country.350.t:0 "Arrival at the Wall"
+ GOT_Story_Country.350.d:0 "At the edge of the known world, the fires of the Lord of Light illuminate a new battlefield. Stannis Baratheon has marched north from Dragonstone and reached the Wall, where the Night's Watch stands battered and the Free Folk mass in chaos. Victory at the Wall may be the first step in claiming the Iron Throne—or in holding back a darkness far worse than rebels or pretenders."
+ GOT_Story_Country.350.a:0 "The true war begins in the North."
+
 
  GOT_Story_News.350.t: "Stannis Baratheon Defeats the Wildlings"
  GOT_Story_News.350.d: "Stannis Baratheon has defeated the wildlings at the Wall, putting an end to their threat. Jon Snow is left to reconcile the challenges of leadership and the changing landscape of the conflict."
@@ -2349,10 +2365,13 @@ GOT_Story_News.406.d: "Braavosi whispers tell of Arya Stark arriving at the aust
 GOT_Story_News.406.a: "A wolf may wear many faces."
 
 # 407 — Jon Snow Elected 998th Lord Commander
-GOT_Story_Country.407.t: "The Lot Falls to Snow"
-GOT_Story_Country.407.d: "Stannis tempts me with Winterfell’s hearth, yet the Watch’s brothers raise my name. Amid tied votes, Maester Aemon’s stone tips the scale—I am Lord Commander. My life remains bound to black, not white wolf banners."
-GOT_Story_Country.407.a: "Accept command—lead the Night’s Watch"
-GOT_Story_Country.407.b: "Decline—it is Winterfell I must claim"
+GOT_Story_Country.407.t: "Choosing the 998th Lord Commander"
+
+GOT_Story_Country.407.d: "The ravens have flown, the brothers have gathered, and three names echo through the frosty air of the Shieldhall.\n\n- Ser Alliser Thorne — hard as the Wall itself, promising iron discipline and swift punishment.\n\n- Lord Denys Mallister — seasoned commander of the Shadow Tower, offering calm judgment and long‑won experience.\n\n- Jon Snow — the Bastard of Winterfell, whose courage at the Fist and vision beyond the Wall inspire both old hands and green boys alike.  \n\nOne man must bear the burden of the black and guide the Night’s Watch through the darkness ahead. The voting begins…"
+
+GOT_Story_Country.407.a: "Elect Ser Alliser Thorne"
+GOT_Story_Country.407.b: "Elect Lord Denys Mallister"
+GOT_Story_Country.407.c: "Elect Jon Snow"
 
 GOT_Story_News.407.t: "Castle Black Names a New Lord Commander"
 GOT_Story_News.407.d: "In a close ballot broken by venerable Maester Aemon, Bastard‑born Jon Snow was chosen 998th Lord Commander of the Night’s Watch, quashing Stannis Baratheon’s offer of Stark legitimacy."
@@ -2401,8 +2420,8 @@ GOT_Story_News.411.a: "The North remembers—yet submits."
 # 412 — Jon Snow Executes Janos Slynt
 GOT_Story_Country.412.t: "The Honor of the Sword"
 GOT_Story_Country.412.d: "Ser Janos Slynt defied my command and spat upon my rule. Before the Wall’s brothers I drew Longclaw and struck off his craven head. Leadership demands steel, not words; justice must be seen."
-GOT_Story_Country.412.a: "Authority affirmed—discipline the Watch"
-GOT_Story_Country.412.b: "Temper justice—risk undermining fear"
+GOT_Story_Country.412.a: "Authority affirmed"
+GOT_Story_Country.412.b: "Temper justice"
 
 GOT_Story_News.412.t: "Lord Commander Snow Shows No Mercy"
 GOT_Story_News.412.d: "Castle Black rang with the stroke of Longclaw as Jon Snow executed Janos Slynt for insubordination. Some brothers hail newfound order; others mutter that the boy with the wolf’s blood grows perilously stern."
@@ -2489,13 +2508,17 @@ GOT_Story_News.420.d: "Smallfolk report seeing Sansa Stark praying by her ancest
 GOT_Story_News.420.a: "The past watches the living."
  
 # 421 — Jon Snow Seeks Alliance with the Wildlings
-GOT_Story_Country.421.t: "Kill the Boy, Lead the Watch"
-GOT_Story_Country.421.d: "Maester Aemon’s words echo: “Kill the boy and let the man be born.” I free Tormund Giantsbane and offer the Free Folk refuge south of the Wall if they fight beside us against the White Walkers. Brothers curse treason; I see necessity."
-GOT_Story_Country.421.a: "Forge the alliance—open the gates to the Wildlings"
-GOT_Story_Country.421.b: "Abandon the plan—keep the Watch united"
+GOT_Story_Country.421.t:0 "The Lord Commander's Difficult Decision"
+
+GOT_Story_Country.421.d:0 "[NWA.GetLeader], Lord Commander of the Night’s Watch, must decide whether to open the gates to the Free Folk and forge an alliance against the growing threat beyond the Wall, or to keep the Watch united by barring the gates and maintaining the old order. Both choices carry grave risks and heavy consequences."
+
+GOT_Story_Country.421.a:0 "Forge the alliance—open the gates to the Wildlings"
+
+GOT_Story_Country.421.b:0 "Abandon the plan—keep the Watch united"
+
 
 GOT_Story_News.421.t: "Lord Commander Courts the Free Folk"
-GOT_Story_News.421.d: "Reports from Castle Black claim Jon Snow seeks peace with the Wildlings, promising them lands below the Wall in return for swords against the icy dead. Many black cloaks mutter revolt at such audacity."
+GOT_Story_News.421.d: "Reports from Castle Black claim [NWA.GetLeader] seeks peace with the Wildlings, promising them lands below the Wall in return for swords against the icy dead. Many black cloaks mutter revolt at such audacity."
 GOT_Story_News.421.a: "Winter forges strange pacts."
 
 # 422 — Daenerys Executes a Noble and Announces Marriage
@@ -2734,10 +2757,11 @@ GOT_Story_News.445.t: "Lions and Suns Strike a Deal"
 GOT_Story_News.445.d: "Dorne and the Iron Throne reach accord: Princess Myrcella departs with Ser Jaime and Prince Trystane. Yet Dornish eyes watch every sail on the horizon."
 GOT_Story_News.445.a: "The water gardens fall still—for now."
  
-# 446 — Jon Snow Betrayed at Castle Black
-GOT_Story_Country.446.t: "For the Watch"
-GOT_Story_Country.446.d: "Brother after brother whispered the words before plunging steel into me—Olly’s dagger the final cold kiss. Crimson stains the snow; the fate of the Wall now hangs on traitors and ghosts."
-GOT_Story_Country.446.a: "The light fades… (no immediate effect — chain into resurrection path if scripted)"
+GOT_Story_Country.446.t:0 "Betrayed Within the Walls"
+GOT_Story_Country.446.d:0 "Brother after brother turned on their own—whispers of treason echo through Castle Black as steel finds flesh. The fate of the Wall now hangs on divided loyalty, where traitors and defenders clash amid the snow and shadows."
+GOT_Story_Country.446.a:0 "Support the loyal Lord Commander"
+GOT_Story_Country.446.b:0 "Support the rebellious faction"
+
 
 GOT_Story_News.446.t: "Lord Commander Snow Falls to Treachery"
 GOT_Story_News.446.d: "Ravens speak of mutiny at Castle Black. Jon Snow, friend of Free Folk, now lies in growing crimson. Whether the Wall stands united is uncertain."
@@ -4480,6 +4504,70 @@ GOT_Diplomatic_Country.55.a:0 "Throw in with the Boltons"
 GOT_Diplomatic_Country.55.b:0 "Aid Winterfell against the traitors"
 GOT_Diplomatic_Country.55.c:0 "Remain neutral—for now"
 
+GOT_Diplomatic_Country.56.t: "The Flame Extinguished"
+GOT_Diplomatic_Country.56.d: "Word spreads through the camp that Ygritte, the fiery spearwife who fought beside us and loved the Crow called Jon Snow, has fallen in battle. Her arrows will fly no more, and the songs of her laughter are silenced by the Wall’s cold shadow. Some curse the Crows, others grieve in silence, but all feel the chill of her passing. Without Ygritte’s spirit to bind us, will the Free Folk stand together when the Long Night comes?"
+GOT_Diplomatic_Country.56.a: "Mourn her and march on"
+
+GOT_Diplomatic_Country.57.t: "The King‑Beyond‑the‑Wall Falls"
+GOT_Diplomatic_Country.57.d: "The horn is silent and the fires are low; Mance Rayder, our King‑Beyond‑the‑Wall, is gone. Some say the Crows took his life at the stake, others whisper of an arrow of mercy loosed by one of their own. However it happened, the man who forged a hundred clans into one is ash upon the wind. With no crown but his courage, he led us south for our children’s sake. Now the Free Folk stand leaderless before the Wall’s shadow and the white walkers’ wrath. Who will speak for us in the long night that comes?"
+GOT_Diplomatic_Country.57.a: "Keep the fires burning—together"
+GOT_Diplomatic_Country.57.b: "Each clan must fend for itself"
+
+GOT_Diplomatic_Country.58.t:0 "A Royal Betrothal Proposed"
+GOT_Diplomatic_Country.58.d:0 "A raven has arrived from the capital. Tyrion Lannister, acting as Hand of the King, proposes a marriage between Princess Myrcella Baratheon and our heir, Prince Trystane. It is a calculated political gesture—one that could secure House Martell a place within the royal line and offer stability in these uncertain times. Though it comes from the lions of the west, the proposal carries weight. Should we accept, Myrcella would be sent to Sunspear and raised as one of our own, eventually ruling at Trystane’s side. Trust... or leverage? That is for us to decide."
+GOT_Diplomatic_Country.58.a:0 "The offer is wise. Let the young ones be wed."
+GOT_Diplomatic_Country.58.b:0 "We do not forget Elia. Let the lion keep his cub."
+
+GOT_Diplomatic_Country.59.t:0 "Dorne Accepts Our Proposal"
+GOT_Diplomatic_Country.59.d:0 "Word has returned from Sunspear—Prince Doran has agreed to the union between Princess Myrcella and Prince Trystane. The Martells have accepted our gesture of goodwill, and Myrcella will be sent to Dorne to be fostered among their court. This alliance strengthens our ties with the southern realm and brings a measure of stability to the realm. For now, at least, the lions and the suns share a common purpose."
+GOT_Diplomatic_Country.59.a:0 "Excellent. Let the preparations begin."
+
+GOT_Diplomatic_Country.60.t:0 "Dorne Refuses Our Proposal"
+GOT_Diplomatic_Country.60.desc:0 "Our offer of a marriage alliance has been rejected. Prince Doran has declined the betrothal between Princess Myrcella and his son, Trystane. No reason was given, but the implications are clear—Dorne has not forgotten past grievances, nor are they ready to tie their fate to House Lannister. This is a setback to our efforts to secure the realm through diplomacy, and it leaves the Martells' intentions uncertain."
+GOT_Diplomatic_Country.60.a:0 "Fools. They spurn peace."
+
+
+GOT_Diplomatic_Country.61.t:0 "Princess Myrcella Arrives in Sunspear"
+GOT_Diplomatic_Country.61.d:0 "Princess Myrcella Baratheon has arrived in Sunspear, accompanied by her escort from King’s Landing. She is to be fostered in our court and one day wed to Prince Trystane, sealing the alliance between House Martell and House Lannister. Though young, she carries herself with the poise of royalty. Her presence here is both a symbol of peace and a reminder of the risks that come with playing the game of thrones. We shall watch her closely—and treat her well."
+GOT_Diplomatic_Country.61.a:0 "Let her be as Dornish as she is noble."
+
+GOT_Diplomatic_Country.62.t:0 "Margaery Marries King Tommen"
+GOT_Diplomatic_Country.62.d:0 "The bells have rung in King’s Landing—our beloved Margaery has wed King Tommen Baratheon. With the ceremony complete, House Tyrell stands united with the Iron Throne. This marriage is more than mere pageantry; it secures our position at the heart of power and brings the Reach closer than ever to the center of the realm’s governance. Margaery’s beauty and grace will no doubt charm the court, but it is her ambition and poise that may shape the future of the Seven Kingdoms."
+GOT_Diplomatic_Country.62.a:0 "A Tyrell on the throne. As it should be."
+
+GOT_Diplomatic_Country.63.t:0 "An Offer From Beyond the Wall"
+GOT_Diplomatic_Country.63.d:0 "Jon Snow, Lord Commander of the Night’s Watch, extends an unexpected offer: an alliance between the Free Folk and the Watch, in exchange for safe passage south of the Wall. It is a choice that challenges centuries of enmity. Do we embrace this chance to survive and fight together, or do we turn away and face the coming storm alone?"
+GOT_Diplomatic_Country.63.a:0 "Accept the alliance—open the gates to the south"
+GOT_Diplomatic_Country.63.b:0 "Decline—maintain our independence beyond the Wall"
+
+GOT_Diplomatic_Country.64.t:0 "The Wildlings Accept the Pact"
+GOT_Diplomatic_Country.64.d:0 "Against all odds, the Free Folk have agreed to join forces with the Night’s Watch. The gates of the Wall will be opened, and old enmities set aside in the face of the greater threat beyond. This alliance breathes new hope into the Watch, though trust will take time to build."
+GOT_Diplomatic_Country.64.a:0 "Together, we stand stronger."
+
+GOT_Diplomatic_Country.65.t:0 "The Wildlings Reject the Offer"
+GOT_Diplomatic_Country.65.d:0 "The Free Folk have chosen to remain beyond the Wall, refusing the Night’s Watch’s offer of alliance. Their pride and desire for independence outweigh the warnings of the coming darkness. The Watch must prepare to face the looming threat without their aid."
+GOT_Diplomatic_Country.65.a:0 "The Watch stands alone, for now."
+
+GOT_Diplomatic_Country.66.t:0 "Gates Remain Closed"
+GOT_Diplomatic_Country.66.d:0 "[NWA.GetLeader], Lord Commander of the Night’s Watch, has refused to grant us passage south of the Wall. Despite the growing threat from the dead beyond, the ancient grudges and fears persist. We remain trapped behind the Wall, facing the coming storm alone."
+GOT_Diplomatic_Country.66.a:0 "Renew the offensive against the Night's Watch"
+GOT_Diplomatic_Country.66.b:0 "Look for another solution"
+
+
+GOT_Diplomatic_Country.67.t:0 "The South Comes North"
+GOT_Diplomatic_Country.67.d:0 "We gathered beneath Mance Rayder to break the Wall and flee the dead. But fire and steel came from the south. Stannis Baratheon struck our host like a hammer, scattering clans and breaking giants. Our dream lies in ruin. Some call for surrender, others for vengeance. The free folk are not easily ruled, and if we resist now, we may fight not just the crows—but ourselves."
+GOT_Diplomatic_Country.67.a:0 "Surrender to the southern king"
+GOT_Diplomatic_Country.67.b:0 "Fight on—no king rules the free folk!"
+
+
+GOT_Diplomatic_News.34.t:0 "Wildlings Reject Alliance Offer"
+GOT_Diplomatic_News.34.d:0 "Despite [NWA.GetLeader]’s earnest efforts to forge an alliance with the Free Folk, the Wildlings have turned down the offer, choosing to remain beyond the Wall. This rejection deepens the divide between the realms of men and the Free Folk, even as the threat of the White Walkers looms ever closer."
+GOT_Diplomatic_News.34.a:0 "A chance lost, but the war is not over."
+
+GOT_Diplomatic_News.35.t:0 "The Gates Remain Closed"
+GOT_Diplomatic_News.35.d:0 "In a controversial decision, [NWA.GetLeader], Lord Commander of the Night’s Watch, has refused to grant the Free Folk passage south of the Wall. This choice maintains the ancient barriers between the realms of men and the Wildlings, even as the shadow of the White Walkers grows ever darker."
+GOT_Diplomatic_News.35.a:0 "The Wall still stands—divided, but standing."
+
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -4597,6 +4685,13 @@ GOT_Diplomatic_News.31.t: "Robb Stark Proclaimed King of the Trident"
 GOT_Diplomatic_News.31.d: "In a dramatic turn of allegiance, the lords of the Riverlands have proclaimed Robb Stark not only King in the North, but King of the Trident as well. The union of the North and Riverlands under a single crown signals a bold new political reality in Westeros. While some see this as a rightful continuation of Stark leadership and Riverlander defiance, others view it as a dangerous consolidation of power that may escalate the already raging war. Whatever the case, the map of Westeros has just changed."
 GOT_Diplomatic_News.31.a: "The North and Riverlands ride as one."
 
+GOT_Diplomatic_News.32.t:0 "Princess Myrcella Betrothed to Trystane Martell"
+GOT_Diplomatic_News.32.d:0 "In a surprising yet shrewd diplomatic move, House Lannister has secured a betrothal between Princess Myrcella Baratheon and Prince Trystane Martell, heir to House Martell of Dorne. The arrangement signals a rare moment of unity between the Iron Throne and the southern realm. Myrcella is to be fostered in Sunspear, a gesture of trust meant to strengthen the alliance. Whether this marriage will bring lasting peace or simply buy time remains to be seen, but the political landscape has undoubtedly shifted."
+GOT_Diplomatic_News.32.a:0 "A royal match with far-reaching consequences."
+
+GOT_Diplomatic_News.33.t:0 "Dorne Refuses Royal Marriage Offer"
+GOT_Diplomatic_News.33.d:0 "Efforts to bind House Lannister and House Martell through marriage have failed. Prince Doran of Dorne has rejected the proposed betrothal between Princess Myrcella Baratheon and his son, Prince Trystane. The refusal highlights lingering tensions and unhealed wounds between the southern kingdom and the Iron Throne. While the court in King's Landing had hoped to secure an alliance through diplomacy, Dorne’s silence speaks volumes. The future of relations between the two houses is now more uncertain than ever."
+GOT_Diplomatic_News.33.a:0 "Old grievances endure in the Dornish sands."
 
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"

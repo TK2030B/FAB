@@ -692,6 +692,34 @@ country_event = {
 		
 		if = {
 			limit = {
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+			news_event = { 
+                id = GOT_Story_News.407 
+                hours = 6 
+            }
+		}
+		else_if = {
+			limit = {
+				GOT_Female_Ruler = yes
+			}
+			news_event = {
+				id = GOT_Location_News.22
+				hours = 6
+			}
+		}
+		else = {
+			news_event = {
+				id = GOT_Location_News.21
+				hours = 6
+			}
+		}
+		
+		if = {
+			limit = {
 				GOT_Female_Ruler = yes
 			}
 			news_event = {

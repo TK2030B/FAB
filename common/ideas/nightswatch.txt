@@ -26,6 +26,7 @@ ideas = {
 				guarantee_tension = 1.0
 				ai_join_ally_desire_factor = -1.0
 				ai_get_ally_desire_factor = -1.0
+				army_core_defence_factor = 1.0
 			}
 		}
 

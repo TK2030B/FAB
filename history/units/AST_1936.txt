@@ -69,6 +69,23 @@ division_template = {
 	priority = 2
 }
 
+division_template = {
+	name = "Camelry Division"
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		camelry = { x = 0 y = 1 }
+        camelry = { x = 0 y = 2 }
+        camelry = { x = 1 y = 0 }
+		camelry = { x = 1 y = 1 }
+        camelry = { x = 1 y = 2 }
+		camelry = { x = 2 y = 0 }
+		camelry = { x = 2 y = 1 }
+        camelry = { x = 2 y = 2 }
+		camelry = { x = 3 y = 0 }
+	}
+}
+
 units = {
 	division = {
 		name = "1st Unsullied Division"
@@ -127,45 +144,10 @@ units = {
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "9th Unsullied Division"
-		location = 1045
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "10th Unsullied Division"
-		location = 1045
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "11th Unsullied Division"
-		location = 1045
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "12th Unsullied Division"
-		location = 1045
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "13th Unsullied Division"
-		location = 1045
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "City Guard"
+		name = "City Guards"
 		location = 1045
 		division_template = "Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
 }

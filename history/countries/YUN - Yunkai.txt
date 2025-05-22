@@ -1,6 +1,6 @@
 ﻿capital = 33
 GOT_start_techs = yes
-#OOB Handled by on_actions
+#oob = "YUN_1936" #is loaded now @on_startup, otherwise get deleted instantly
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

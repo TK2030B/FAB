@@ -19,6 +19,11 @@ country_event = {
 		
 		load_oob = DRA_Blackwater	
 		
+		add_timed_idea = {
+			idea = RI_major_operation
+			days = 1
+		}
+		
 		add_war_support = 0.05
 		army_experience = 5
 		navy_experience = 5
@@ -69,6 +74,11 @@ country_event = {
 		}
 		
 		load_oob = IRO_North_Invasion	
+		
+		add_timed_idea = {
+			idea = RI_major_operation
+			days = 60
+		}
 		
 		add_war_support = 0.05
 		army_experience = 5

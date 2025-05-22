@@ -76,39 +76,4 @@ units = {
 		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
-	division = {
-		name = "9th Unsullied Division"
-		location = 905
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "10th Unsullied Division"
-		location = 905
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "11th Unsullied Division"
-		location = 905
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "12th Unsullied Division"
-		location = 905
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "13th Unsullied Division"
-		location = 905
-		division_template = "Unsullied Division L"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
 }

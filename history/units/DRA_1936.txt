@@ -35,7 +35,7 @@ division_template = {
 
 division_template = {
 	name = "Squire Division"				# Represents Knights
-	division_names_group = REA_castles_garrison
+	division_names_group = CRO_castles_garrison
 
 	regiments = {
 		light_armor = { x = 0 y = 0 }

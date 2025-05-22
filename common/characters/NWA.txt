@@ -311,6 +311,10 @@ characters={
 				large="gfx/leaders/NWA/Portrait_Denys_Mallister.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Denys_Mallister.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
 		}
 		advisor={
 			slot = army_chief
