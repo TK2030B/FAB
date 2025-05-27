@@ -1,6 +1,6 @@
 ﻿capital = 144
 GOT_start_techs = yes
-#OOB Handled by on_actions
+oob = "LYS_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -34,4 +34,5 @@ recruit_character=LYS_Freedwomen_Council
 add_ideas = {  
 	GOT_Tradition_Free_City
 	GOT_Religion_LOL
+	extensive_conscription
 }

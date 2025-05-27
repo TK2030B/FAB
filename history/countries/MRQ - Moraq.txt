@@ -1,6 +1,6 @@
 ﻿capital = 164
 GOT_start_techs = yes
-#OOB Handled by on_actions
+oob = "MRQ_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -37,4 +37,5 @@ recruit_character=MRQ_Warlords_Council
 add_ideas = {
     GOT_Tradition_Tribal
     GOT_Religion_Tribal
+	extensive_conscription
 }

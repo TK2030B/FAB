@@ -1,6 +1,6 @@
 ﻿capital = 92
 GOT_start_techs = yes
-#oob = "QAR_1936" #is loaded now @on_startup, otherwise get deleted instantly
+oob = "QAR_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -36,5 +36,6 @@ recruit_character=QAR_Pyat_Pree
 add_ideas = {
     GOT_Tradition_Free_City
     GOT_Religion_Melting_Pot
+	extensive_conscription
 }
 

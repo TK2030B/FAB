@@ -6,6 +6,8 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 	priority = 0
 }
@@ -98,27 +100,6 @@ units = {				#ca 380k
 	division = {
 		name = "Eyrie Garrison"
 		location = 179
-		division_template = "Garrison"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Three Sisters Garrison"
-		location = 3226
-		division_template = "Garrison"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Gulltown Garrison"
-		location = 1787
-		division_template = "Garrison"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Runestone Garrison"
-		location = 1700
 		division_template = "Garrison"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1

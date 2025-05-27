@@ -1,0 +1,2051 @@
+﻿division_template = {
+	name = "Infantry Division"		# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+}
+division_template = {
+	name = "Garrison"		#
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	 
+	division = { 
+		name = "1st Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "2nd Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "3rd Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "4th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "5th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "6th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "7th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "8th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "9th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "10th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "11th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "12th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "13th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "14th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "15th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "16th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "17th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "18th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "19th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "20th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "21th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "22th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "23th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "24th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "25th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "26th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "27th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "28th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "29th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "30th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "31th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "32th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "33th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "34th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "35th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "36th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "37th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "38th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "39th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "40th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "41th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "42th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "43th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "44th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "45th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "46th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "47th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "48th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "49th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "50th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "51th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "52th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "53th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "54th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "55th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "56th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "57th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "58th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "59th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "60th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "61th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "62th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "63th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "64th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "65th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "66th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "67th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "68th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "69th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "70th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "71th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "72th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "73th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "74th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "75th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "76th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "77th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "78th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "79th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "80th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "81th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "82th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "83th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "84th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "85th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "86th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "87th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "88th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "89th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "90th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "91th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "92th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "93th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "94th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "95th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "96th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "97th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "98th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "99th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "100th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "101st Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "102nd Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "103rd Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "104th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "105th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "106th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "107th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "108th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "109th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "110th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "111th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "112th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "113th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "114th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "115th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "116th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "117th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "118th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "119th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "120th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "121th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "122th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "123th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "124th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "125th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "126th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "127th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "128th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "129th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "130th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "131th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "132th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "133th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "134th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "135th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "136th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "137th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "138th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "139th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "140th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "141th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "142th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "143th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "144th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "145th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "146th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "147th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "148th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "149th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "150th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "151th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "152th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "153th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "154th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "155th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "156th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "157th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "158th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "159th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "160th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "161th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "162th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "163th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "164th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "165th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "166th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "167th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "168th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "169th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "170th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "171th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "172th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "173th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "174th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "175th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "176th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "177th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "178th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "179th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "180th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "181th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "182th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "183th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "184th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "185th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "186th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "187th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "188th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "189th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "190th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "191th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "192th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "193th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "194th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "195th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "196th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "197th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "198th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "199th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "200th Infantry Division" 
+		location = 196 
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3 
+		start_equipment_factor = 1 
+	} 
+	
+	
+	division = { 
+		name = "1st Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "2nd Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "3rd Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "4th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "5th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "6th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "7th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "8th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "9th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "10th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "11th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "12th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "13th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "14th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "15th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "16th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "17th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "18th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "19th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "20th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "21th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "22th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "23th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "24th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "25th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "26th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "27th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "28th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "29th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "30th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "31th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "32th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "33th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "34th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "35th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "36th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "37th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "38th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "39th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "40th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "41th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "42th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "43th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "44th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "45th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "46th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "47th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "48th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "49th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+	division = { 
+		name = "50th Garrison Division" 
+		location = 196 
+		division_template = "Garrison" 
+		start_experience_factor = 0.2 
+		start_equipment_factor = 1 
+	} 
+ 
+ 
+
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+}

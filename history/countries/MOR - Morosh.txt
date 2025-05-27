@@ -1,6 +1,6 @@
 ﻿capital = 169
 GOT_start_techs = yes
-#OOB Handled by on_actions
+oob = "MOR_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

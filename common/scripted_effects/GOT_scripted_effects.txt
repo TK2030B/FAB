@@ -116,6 +116,13 @@ GOT_start_techs = {
 		GOT_naval_variants = yes
 	}
 	
+	GOT_unlock_militia = yes
+	GOT_handle_bonus_techs = yes
+	
+}
+
+GOT_handle_bonus_techs = {
+
 	if = {
 		limit = {
 			tag = TAR
@@ -127,15 +134,33 @@ GOT_start_techs = {
 		limit = {
 			tag = DOT
 		}
-		GOT_bonus_techs_DOT = yes
+		set_technology = {
+			tech_trucks = 1
+		}
 	}
 	
 	if = {
 		limit = {
 			tag = IRO
 		}
-		GOT_bonus_techs_IRO = yes
+		if = {
+			limit = {
+				has_dlc = "Man the Guns"
+			}
+			set_technology = {
+				basic_ship_hull_submarine = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "Man the Guns" }
+			}
+			set_technology = {
+				basic_submarine = 1
+			}
+		}
 	}
+	
 	
 	if = {
 		limit = {
@@ -175,7 +200,23 @@ GOT_start_techs = {
 			GOT_unlock_elephantry = yes
 		}
 	}
-	
+
+	if = {
+		limit = {
+			OR = {
+				tag = TYR
+				tag = LYS
+				tag = LOR
+				tag = IRO
+				tag = MRQ
+				tag = SUI
+				tag = LEN
+				tag = GHI
+			}
+		}
+		GOT_unlock_marines = yes
+	}
+
 }
 
 GOT_start_techs_A = {
@@ -402,33 +443,6 @@ GOT_bonus_techs_TAR = {
 			strategic_bomber1 = 1
 			heavy_fighter1 = 1
 			scout_plane1 = 1
-		}
-	}
-}
-
-GOT_bonus_techs_DOT = {
-	set_technology = {
-		tech_trucks = 1
-	}
-}
-
-GOT_bonus_techs_IRO = {
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_technology = {
-			basic_ship_hull_submarine = 1
-			marines = 1
-		}
-	}
-	if = {
-		limit = {
-			NOT = { has_dlc = "Man the Guns" }
-		}
-		set_technology = {
-			basic_submarine = 1
-			marines = 1
 		}
 	}
 }
@@ -897,5 +911,18 @@ GOT_unlock_camelry = {
 GOT_unlock_elephantry = {
 	set_technology = {
 		GOT_elephantry_units_tech = 1
+	}
+}
+
+GOT_unlock_militia = {
+	set_technology = {
+		GOT_militia_units_tech = 1
+	}
+}
+
+
+GOT_unlock_marines = {
+	set_technology = {
+		marines = 1
 	}
 }

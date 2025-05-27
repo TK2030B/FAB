@@ -1,7 +1,7 @@
 ﻿capital = 228
 GOT_start_techs = yes
 
-#oob = "AST_1936" #is loaded now @on_startup, otherwise get deleted instantly
+oob = "AST_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -37,4 +37,5 @@ recruit_character=AST_Freedmen_Council
 add_ideas = {
 	GOT_Tradition_Slaver
 	GOT_Religion_Ghiscari
+	extensive_conscription
 }

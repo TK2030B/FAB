@@ -1,5 +1,20 @@
 technologies = {
 
+	GOT_militia_units_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+
+		enable_subunits = {
+			militia
+		}
+
+
+	}
 
 	GOT_camelry_units_tech = {
 

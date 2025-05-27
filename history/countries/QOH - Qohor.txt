@@ -1,6 +1,6 @@
 ﻿capital = 226
 GOT_start_techs = yes
-#OOB Handled by on_actions
+oob = "QOH_1936"
 
 set_research_slots = 2
 

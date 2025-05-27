@@ -1,6 +1,6 @@
 ﻿capital = 89
 GOT_start_techs = yes
-#oob = "MER_1936" #is loaded now @on_startup, otherwise get deleted instantly
+oob = "MER_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -37,4 +37,5 @@ recruit_character=MER_Ruling_Council
 add_ideas = {
 	GOT_Tradition_Slaver
 	GOT_Religion_Ghiscari
+	extensive_conscription
 }

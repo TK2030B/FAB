@@ -1,6 +1,6 @@
 ﻿capital = 33
 GOT_start_techs = yes
-#oob = "YUN_1936" #is loaded now @on_startup, otherwise get deleted instantly
+oob = "YUN_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -36,4 +36,5 @@ recruit_character=YUN_Daario_Naharis
 add_ideas = {
 	GOT_Tradition_Slaver
 	GOT_Religion_Ghiscari
+	extensive_conscription
 }

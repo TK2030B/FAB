@@ -1,6 +1,6 @@
 ﻿capital = 227
 GOT_start_techs = yes
-#OOB Handled by on_actions
+oob = "Generic"
 
 set_research_slots = 2
 
@@ -24,4 +24,5 @@ recruit_character=NAA_Missandei
 add_ideas = {
     GOT_Tradition_Tribal
     GOT_Religion_Tribal
+	disarmed_nation
 }

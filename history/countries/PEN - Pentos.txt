@@ -1,6 +1,6 @@
 ﻿capital = 229
 GOT_start_techs = yes
-#oob = "PEN_1936" #is loaded now @on_startup, otherwise get deleted instantly
+oob = "PEN_1936"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -34,6 +34,7 @@ recruit_character=PEN_Freedmen_Council
 add_ideas = {
 	GOT_Tradition_Pentos
 	GOT_Religion_LOL
+	limited_conscription
 }
 
 #if = {

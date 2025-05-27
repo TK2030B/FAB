@@ -6,6 +6,8 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 	priority = 0
 }
@@ -103,29 +105,8 @@ units = {				#ca 450k
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "Deepwood Motte Garrison"
-		location = 1648
-		division_template = "Garrison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Flint's Finger Garrison"
-		location = 1966
-		division_template = "Garrison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "White Harbor Garrison"
-		location = 1541
-		division_template = "Garrison"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Last Hearth Garrison"
-		location = 2361
+		name = "Moat Calin Garrison"
+		location = 2446
 		division_template = "Garrison"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1

@@ -1,9 +1,9 @@
 ﻿capital = 183
 GOT_start_techs = yes
-#OOB Handled by on_actions
+oob = "SUI_1936"
 
 recruit_character = SUI_baela_qo
-recruit_character=SUI_Xaro_Xoan_Daxos
+recruit_character = SUI_Xaro_Xoan_Daxos
 
 set_convoys = 125
 

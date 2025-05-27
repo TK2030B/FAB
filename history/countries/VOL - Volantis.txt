@@ -1,6 +1,16 @@
 ﻿capital = 76
 GOT_start_techs = yes
-#OOB Handled by on_actions
+
+if = {
+	limit = {
+		has_dlc = "Graveyard of Empires"
+	}
+	load_oob = VOL_1936_goe
+	else = {
+	load_oob = VOL_1936
+	}
+}
+
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -34,4 +44,5 @@ recruit_character=VOL_Ruling_Council
 add_ideas = {
 	GOT_Tradition_Slaver
 	GOT_Religion_LOL
+	extensive_conscription
 }

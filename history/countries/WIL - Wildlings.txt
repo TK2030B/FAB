@@ -1,6 +1,15 @@
 ﻿capital = 13
 GOT_start_techs = yes
-#oob = "WIL_1936"	#is loaded now @on_startup, otherwise get deleted instantly since 0% conscription
+
+if = {
+	limit = {
+		has_dlc = "Graveyard of Empires"
+	}
+	load_oob = WIL_1936_goe
+	else = {
+	load_oob = WIL_1936
+	}
+}
 
 set_research_slots = 2
 
@@ -54,5 +63,6 @@ recruit_character=WIL_anarchism
 
 add_ideas = {  
 	GOT_Tradition_Wildlings
-	GOT_Religion_Old_Gods  
+	GOT_Religion_Old_Gods
+	service_by_requirement
 }

@@ -1,6 +1,6 @@
 ﻿capital = 211
 GOT_start_techs = yes
-#OOB Handled by on_actions
+oob = "NRV_1936"
 
 set_research_slots = 3
 

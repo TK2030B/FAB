@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Infantry Division"		# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+}
+division_template = {
+	name = "Garrison"		#
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Sealord’s Guard Division"
+		location = 852
+		division_template = "Infantry Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Sealord’s Guard Division"
+		location = 852
+		division_template = "Infantry Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+}

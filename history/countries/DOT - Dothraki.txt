@@ -1,7 +1,7 @@
 ﻿capital = 181
 GOT_start_techs = yes
 
-#oob = "DOT_1936" #is loaded now @on_startup, otherwise get deleted instantly
+oob = "DOT_1936"
 
 set_research_slots = 2
 
@@ -27,4 +27,5 @@ recruit_character=DOT_Danaerys_Targaryen
 add_ideas = {
 	GOT_Tradition_Dothraki
 	GOT_Religion_Great_Stallion
+	extensive_conscription
 }
