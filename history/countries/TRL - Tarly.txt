@@ -1,0 +1,31 @@
+﻿capital = 115
+GOT_start_techs = yes
+oob = "Generic"
+
+set_research_slots = 3
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.10.16"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_convoys = 25
+
+recruit_character=TRL_Randyl_Tarly
+recruit_character=TRL_Dickon_Tarly
+recruit_character=TRL_Samwell_Tarly
+
+add_ideas = {  
+	GOT_Tradition_Reach  
+	GOT_Religion_The_Seven  
+}
+

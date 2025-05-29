@@ -35,20 +35,6 @@ division_template = {
 	#100-150k totally
 units = {
 	division = {
-		name = "Lonely Light Garrison"
-		location = 3252
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Drumm Castle Garrison"
-		location = 2496
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
 		name = "Saltcliff Garrison"
 		location = 764
 		division_template = "Coastal Defense Division"
@@ -58,62 +44,6 @@ units = {
 	division = {
 		name = "Pyke Garrison"
 		location = 1544
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Pebbleton Garrison"
-		location = 3214
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Orkwood Garrison"
-		location = 2498
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Harlaw Hall Garrison"
-		location = 2504
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Stonehouse Garrison"
-		location = 2496
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Hammerhorn Garrison"
-		location = 3356
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Downdelving Garrison"
-		location = 1440
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Blacktyde Garrison"
-		location = 1960
-		division_template = "Coastal Defense Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Grey Garden Garrison"
-		location = 633
 		division_template = "Coastal Defense Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

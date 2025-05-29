@@ -1,5 +1,4 @@
-﻿
-units= {
+﻿units= {
 
 	##### Naval OOB #####
 	fleet = {
@@ -28,8 +27,46 @@ units= {
 			ship = { name = "Longship18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
 			ship = { name = "Longship19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
 			ship = { name = "Longship20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship24" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship36" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship37" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship38" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship40" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship41" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship42" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship43" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship44" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship45" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship46" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship47" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship48" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship49" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship50" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship51" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship52" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship53" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship54" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship55" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship56" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship57" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship58" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship59" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
+			ship = { name = "Longship60" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VOL } } }
 		}				
-				
 	}
 } 
-

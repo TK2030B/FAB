@@ -27,4 +27,5 @@ recruit_character=NRV_Freedmen_Council
 add_ideas = {
 	GOT_Tradition_Free_City
 	GOT_Religion_Tribal
+	extensive_conscription
 }

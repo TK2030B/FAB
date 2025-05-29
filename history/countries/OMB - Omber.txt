@@ -2,13 +2,14 @@
 GOT_start_techs = yes
 oob = "OMB_1936"
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "OMB_1936_naval_mtg"
-	else = {
-		set_naval_oob = "OMB_1936_naval_legacy"
-	}
-}
+#No known navy
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "OMB_1936_naval_mtg"
+#	else = {
+#		set_naval_oob = "OMB_1936_naval_legacy"
+#	}
+#}
 
 set_research_slots = 2
 

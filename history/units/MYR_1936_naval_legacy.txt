@@ -23,11 +23,6 @@ units= {
 			ship = { name = "Longship13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
 			ship = { name = "Longship14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
 			ship = { name = "Longship15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
-			ship = { name = "Longship16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
-			ship = { name = "Longship17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
-			ship = { name = "Longship18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
-			ship = { name = "Longship19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
-			ship = { name = "Longship20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MYR } } }
 		}				
 				
 	}

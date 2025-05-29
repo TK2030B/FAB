@@ -23,11 +23,6 @@ units= {
 			ship = { name = "Longship13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
 			ship = { name = "Longship14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
 			ship = { name = "Longship15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
-			ship = { name = "Longship16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
-			ship = { name = "Longship17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
-			ship = { name = "Longship18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
-			ship = { name = "Longship19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
-			ship = { name = "Longship20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = MYR version_name = "Longship Class" } } }
 		}				
 				
 	}

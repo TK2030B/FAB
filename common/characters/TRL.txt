@@ -1,0 +1,106 @@
+characters={
+
+	TRL_Randyl_Tarly={
+		name=TRL_Randyl_Tarly
+		portraits={
+			army = {
+				large="gfx/leaders/TRL/Portrait_Randyl_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TRL/Portrait_Randyl_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = { 
+				stout_defender
+				hardened_officer
+				conservative_grandee
+				hawk
+				autocratic_imperialist
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = { 
+				stout_defender
+				hardened_officer
+				conservative_grandee
+				hawk
+				autocratic_imperialist
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+
+	TRL_Dickon_Tarly={
+		name=TRL_Dickon_Tarly
+		portraits={
+			army = {
+				large="gfx/leaders/TRL/Portrait_Dickon_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TRL/Portrait_Dickon_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1"
+			traits = { 
+				warrior_code
+				hawk
+				hardened_officer
+				stout_defender
+				conservative_nationalist
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	TRL_Samwell_Tarly={
+		name=TRL_Samwell_Tarly
+		portraits={
+			army = {
+				large="gfx/leaders/TRL/Portrait_Samwell_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TRL/Portrait_Samwell_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {
+				gentle_scholar
+				compassionate_commoner
+				mastermind_code_cracker
+				education_reformer
+				reluctant_veteran
+			}
+
+		}
+	}
+
+}
