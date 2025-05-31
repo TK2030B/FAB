@@ -4322,6 +4322,10 @@ country_event = {
 
         ai_chance = {
             factor = 40
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
         }
 
         add_war_support = -0.05
@@ -4353,12 +4357,7 @@ country_event = {
 
         ai_chance = {
             factor = 60
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
         }
-
         add_war_support = 0.05
 		
     }
@@ -16790,6 +16789,10 @@ news_event = {
         name = GOT_Story_News.450.a 
     } 
 } 
+
+############
+##SEASON 6##
+############
  
 # 501 — Jon Snow’s Body and the Night’s Watch Mutiny
 country_event = { 

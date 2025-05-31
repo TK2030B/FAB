@@ -610,7 +610,7 @@ GOT_The_Great_Betrayal = {
 		NOR = {
 			#House Bolton
 			release = BOL
-			end_puppet = BOL
+			end_puppet = BOL			
 		}
 
         BOL = {

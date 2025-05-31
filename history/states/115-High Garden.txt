@@ -12,34 +12,28 @@ state={
 			1204 = {
 				bunker = 5  #High Garden
 			}
-			2772 = {
-				bunker = 3  #Horn Hill
-			}
 		}
 		add_core_of = REA
 		victory_points = {
 			1204 20
 		}
-		victory_points = {
-			2772 10
-		}
 
 	}
 	
 	resources={
-		oil=24       # Grain  
-		rubber=7    # Timber  
-		aluminium=7 # Copper  
-		steel=13     # Iron  
-		tungsten=3   # Gold  
-		chromium=5  # Silver  
+		oil=18       # Grain  
+		rubber=5    # Timber  
+		aluminium=5 # Copper  
+		steel=10     # Iron  
+		tungsten=2   # Gold  
+		chromium=4  # Silver  
 	}
 
 
 	provinces={
-		900 940 1204 1330 1590 1794 1939 2001 2279 2732 2739 2772 2785
+		900 940 1204 1590 1794 2001 2279 2732 2739 2785
 	}
-	manpower=20289600
+	manpower=15217200
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

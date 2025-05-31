@@ -2665,6 +2665,30 @@ country_event = {
 		
 		NOR = {
 		
+			custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						owns_state = 156
+					}
+					XXX = {
+						transfer_state = 156
+					}
+					
+					transfer_units_fraction= {
+						target = XXX
+						size = 0.5
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+					
+					NOR = {
+						transfer_state = 156
+					}
+				}
+			}
+		
 			#kill_country_leader = yes
 			
 			NOR_robb_stark = {
@@ -2767,6 +2791,30 @@ country_event = {
 		}
 		
 		NOR = {
+		
+			custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						owns_state = 156
+					}
+					XXX = {
+						transfer_state = 156
+					}
+					
+					transfer_units_fraction= {
+						target = XXX
+						size = 0.5
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+					
+					NOR = {
+						transfer_state = 156
+					}
+				}
+			}
 		
 			#kill_country_leader = yes
 			
@@ -4478,18 +4526,18 @@ country_event = {
 			factor = 65
 		}
 		
-		custom_effect_tooltip = GOT_Wildling_Army_Shattered_tt
+		custom_effect_tooltip = GOT_Army_Shattered_tt
 		hidden_effect = {
 			if = {
 				limit = {
 					owns_state = 12
 				}
-				ICE = {
+				XXX = {
 					transfer_state = 12
 				}
 				
 				transfer_units_fraction= {
-					target = ICE
+					target = XXX
 					size = 0.5
 					keep_unit_leaders_trigger = {
 						always = yes

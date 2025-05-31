@@ -316,3 +316,8 @@ TRL = {
 	color = rgb { 88 66 38 }
 	color_ui = rgb { 88 66 38 }
 }
+
+XXX = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}

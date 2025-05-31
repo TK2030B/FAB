@@ -1,0 +1,41 @@
+
+state={
+	id=246
+	name="STATE_246"
+
+	history={
+		owner = REA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			2772 = {
+				bunker = 3  #Horn Hill
+			}
+		}
+		add_core_of = REA
+		add_core_of = TRL
+		victory_points = {
+			2772 10
+		}
+
+	}
+	
+	resources={
+		oil=6       # Grain  
+		rubber=2    # Timber  
+		aluminium=2 # Copper  
+		steel=3     # Iron  
+		tungsten=1   # Gold  
+		chromium=1  # Silver  
+	}
+
+
+	provinces={
+		1330 1939 2772
+	}
+	manpower=5072400
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
