@@ -697,7 +697,7 @@ BFN_Claim_CRO = {
 			date < 1949.1.1
 			has_war_with = CRO
 			country_exists = CRO
-			surrender_progress < 0.1
+			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_CRO = yes
 		}
@@ -735,7 +735,7 @@ BFN_Claim_CRO = {
 			date < 1949.1.1
 			has_war_with = STO
 			country_exists = STO
-			surrender_progress < 0.1
+			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_STO = yes
 		}
@@ -773,7 +773,7 @@ BFN_Claim_CRO = {
 			date < 1949.1.1
 			has_war_with = DRA
 			country_exists = DRA
-			surrender_progress < 0.1
+			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_DRA = yes
 		}
@@ -811,7 +811,7 @@ BFN_Claim_CRO = {
 			date < 1949.1.1
 			has_war_with = WES
 			country_exists = WES
-			surrender_progress < 0.1
+			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_WES = yes
 		}
@@ -849,7 +849,7 @@ BFN_Claim_CRO = {
 			date < 1949.1.1
 			has_war_with = NOR
 			country_exists = NOR
-			surrender_progress < 0.1
+			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_NOR = yes
 		}

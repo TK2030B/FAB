@@ -329,6 +329,11 @@ GOT_Game_Decisions = {
 		
 		remove_effect = {
 			clr_country_flag = EW_Operation
+			diplomatic_relation = {
+				country = TAR
+				relation = guarantee
+				active = no
+			}
 			TAR = {
 				country_event = { id = GOT_Diplomatic_Country.43 }
 			}

@@ -5600,7 +5600,7 @@ country_event = {
 						constitutional_monarch 
 						popular_figurehead 
 						champion_of_peace_5 
-						voice_of_restraint 
+						#voice_of_restraint 
 					}
 				}
 				promote_leader = yes
@@ -5618,7 +5618,7 @@ country_event = {
 						constitutional_monarch 
 						popular_figurehead 
 						champion_of_peace_5 
-						voice_of_restraint 
+						#voice_of_restraint 
 					}
 				}
 				promote_leader = yes
@@ -10613,7 +10613,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1938.11.15
-        date < 1939.11.15
+        date < 1945.1.1
 		NWA = { has_war_with = WIL } 
 		NOT = { has_war_with = NWA } 
 		has_country_leader = {
@@ -10635,10 +10635,9 @@ country_event = {
         add_war_support = 0.05 
 		add_threat = 4
 		
-		create_wargoal = {
-			type = annex_everything
+		declare_war_on = {
 			target = WIL
-			expire = 365
+			type = annex_everything
 		}
 		
 		set_global_flag = GOT_Stannis_Aids_Wall_Flag
@@ -11154,7 +11153,7 @@ country_event = {
 						constitutional_monarch 
 						popular_figurehead 
 						champion_of_peace_5 
-						voice_of_restraint 
+						#voice_of_restraint 
 					}
 				}
 				promote_leader = yes
@@ -13674,7 +13673,7 @@ country_event = {
 		country_exists = NWA
 		NOT = { has_war_with = NWA }
 		date > 1939.11.15
-        date < 1940.11.15
+        date < 1945.1.1
 		has_war_with = WIL
 		has_global_flag = GOT_Stannis_Aids_Wall_Flag
     } 
@@ -15208,7 +15207,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1940.5.20
-        date < 1940.6.20
+        date < 1945.1.1
 		has_country_leader = {
 			name = "Stannis Baratheon"
 			ruling_only = yes
@@ -15714,7 +15713,7 @@ country_event = {
     trigger = { 
         tag = DRA 
 		date > 1940.8.1
-        date < 1940.9.1
+        date < 1945.1.1
 		has_war_with = BOL
 		has_country_leader = {
 			name = "Stannis Baratheon"
@@ -16135,7 +16134,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1940.10.10
-        date < 1940.10.11
+        date < 1945.1.1
 		has_war_with = BOL
 		BOL = { has_capitulated = no }
 		has_country_leader = {
@@ -16445,6 +16444,48 @@ country_event = {
  
         add_stability = -0.05 
 		
+		remove_country_leader_role = {
+			character = NWA_jon_snow
+			ideology = NR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = NWA_jon_snow
+			ideology = CR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = NWA_Loyalists
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					stout_defender  
+					warrior_code  
+					#humble  
+					indomitable_perseverance  
+					cornered_fox  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = NWA_Loyalists
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					stout_defender  
+					warrior_code  
+					#humble  
+					indomitable_perseverance  
+					cornered_fox  
+				}
+			}
+			promote_leader = yes
+		}
+		
 		if = {
 			limit = {
 				NOT = { has_government = communism }
@@ -16486,6 +16527,48 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		
+		remove_country_leader_role = {
+			character = NWA_jon_snow
+			ideology = NR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = NWA_jon_snow
+			ideology = CR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = NWA_Loyalists
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					stout_defender  
+					warrior_code  
+					#humble  
+					indomitable_perseverance  
+					cornered_fox  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = NWA_Loyalists
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					stout_defender  
+					warrior_code  
+					#humble  
+					indomitable_perseverance  
+					cornered_fox  
+				}
+			}
+			promote_leader = yes
+		}
 		
 		if = {
 			limit = {
@@ -16593,7 +16676,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1940.11.15
-        date < 1940.12.15
+        date < 1945.1.1
 		has_war_with = BOL
 		BOL = { has_capitulated = no } 
 		BOL = { controls_state = 156 } 

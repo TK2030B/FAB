@@ -2719,7 +2719,7 @@ country_event = {
 						gentle_scholar
 						constitutional_monarch
 						infirm
-						voice_of_restraint
+						#voice_of_restraint
 					}
 				}
 				promote_leader = yes
@@ -2728,6 +2728,13 @@ country_event = {
 		
 		GOT_The_Great_Betrayal = yes
 		add_threat = 15
+		
+		RIV = {
+			country_event = {
+				id = GOT_Diplomatic_Country.68
+				hours = 6
+			}
+		}
 		
 		every_other_country = { 
             limit = { 
@@ -2846,7 +2853,7 @@ country_event = {
 						gentle_scholar
 						constitutional_monarch
 						infirm
-						voice_of_restraint
+						#voice_of_restraint
 					}
 				}
 				promote_leader = yes
@@ -2855,6 +2862,13 @@ country_event = {
 		
 		GOT_The_Great_Betrayal = yes
 		add_threat = 15
+		
+		RIV = {
+			country_event = {
+				id = GOT_Diplomatic_Country.68
+				hours = 6
+			}
+		}
 		
 		every_other_country = { 
             limit = { 
@@ -3167,7 +3181,7 @@ country_event = {
 						constitutional_monarch 
 						popular_figurehead 
 						champion_of_peace_5 
-						voice_of_restraint 
+						#voice_of_restraint 
 					}
 				}
 				promote_leader = yes
@@ -3185,7 +3199,7 @@ country_event = {
 						constitutional_monarch 
 						popular_figurehead 
 						champion_of_peace_5 
-						voice_of_restraint 
+						#voice_of_restraint 
 					}
 				}
 				promote_leader = yes
@@ -4631,6 +4645,51 @@ country_event = {
 
 		add_war_support = 0.05
 		
+	}
+}
+
+#Riverlands Army Shattered
+country_event = {
+	id = GOT_Diplomatic_Country.68
+	title = GOT_Diplomatic_Country.68.t
+	desc = GOT_Diplomatic_Country.68.d
+	picture = GFX_report_event_GOT_Story_Country241 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.68.a
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		RIV = {
+		
+			custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						owns_state = 180
+					}
+					XXX = {
+						transfer_state = 180
+					}
+					
+					transfer_units_fraction= {
+						target = XXX
+						size = 0.5
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+					
+					RIV = {
+						transfer_state = 180
+					}
+				}
+			}
+		}
 	}
 }
 

@@ -1,5 +1,19 @@
 characters={
 
+	NWA_Loyalists={
+		name=NWA_Loyalists
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Loyalists.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Loyalists.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+	}
+
 	NWA_ned_stark={
 		name=NOR_ned_stark
 		portraits={

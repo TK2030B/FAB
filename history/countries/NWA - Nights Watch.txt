@@ -89,9 +89,9 @@ recruit_character=NWA_beric_dondarrion
 recruit_character=NWA_ned_stark
 recruit_character=NWA_janos_slynt
 recruit_character=NWA_Pypar
+recruit_character=NWA_Loyalists
 
 set_convoys = 10
-#set_national_unity = 0.9
 
 add_ideas = {
 	GOT_Tradition_Nights_Watch
