@@ -195,6 +195,7 @@ GOT_handle_bonus_techs = {
 					tag = NAA
 					tag = ULT
 					tag = WIL
+					tag = VOL
 				}
 			}
 			GOT_unlock_elephantry = yes

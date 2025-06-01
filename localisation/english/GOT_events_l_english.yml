@@ -4559,6 +4559,10 @@ GOT_Diplomatic_Country.67.d:0 "We gathered beneath Mance Rayder to break the Wal
 GOT_Diplomatic_Country.67.a:0 "Surrender to the southern king"
 GOT_Diplomatic_Country.67.b:0 "Fight on—no king rules the free folk!"
 
+GOT_Diplomatic_Country.68.t:0 "Host Shattered at the Red Wedding"
+GOT_Diplomatic_Country.68.d:0 "Treachery most vile has been committed beneath a guest’s roof. While gathered to honor a sacred pact of marriage and alliance, our lords and soldiers were butchered in cold blood by the Freys and their Lannister allies.\n\nHalf of our host lies dead. The rest are scattered or captured. The strength we had bled to raise over years of toil and heartbreak has been undone in a single night of steel and betrayal.\n\nThe heart of the Riverlands is broken. House Tully reels, leaderless and besieged, and many of our bannermen now face a grim choice: bend the knee to the Iron Throne or continue the fight alone.\n\nThe Red Wedding will be remembered — not just for the blood spilled, but for the honor lost. But this is not the end. Not yet."
+GOT_Diplomatic_Country.68.a:0 "We will not forget."
+
 
 GOT_Diplomatic_News.34.t:0 "Wildlings Reject Alliance Offer"
 GOT_Diplomatic_News.34.d:0 "Despite [NWA.GetLeader]’s earnest efforts to forge an alliance with the Free Folk, the Wildlings have turned down the offer, choosing to remain beyond the Wall. This rejection deepens the divide between the realms of men and the Free Folk, even as the threat of the White Walkers looms ever closer."
