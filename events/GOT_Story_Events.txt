@@ -16885,7 +16885,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country501 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1941.1.1
         date < 1941.2.1
     } 
@@ -16899,9 +16899,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
+        add_stability = -0.05 
+        add_war_support = 0.05
         army_experience = 5 
  
         every_other_country = { 
@@ -16938,7 +16937,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country502 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.1.1
         date < 1941.2.1
     } 
@@ -16952,10 +16951,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -16991,7 +16987,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country503 
  
     trigger = { 
-        tag = ABC 
+        tag = DOR 
 		date > 1941.1.1
         date < 1941.2.1
     } 
@@ -17005,10 +17001,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
+        add_war_support = 0.1 
+        add_political_power = 50 
  
         every_other_country = { 
             limit = { 
@@ -17044,7 +17039,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country504 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
 		date > 1941.1.1
         date < 1941.2.1
     } 
@@ -17058,10 +17053,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_war_support = 0.1 
+        add_political_power = -25
  
         every_other_country = { 
             limit = { 
@@ -17097,7 +17090,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country505 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1941.1.1
         date < 1941.2.1
     } 
@@ -17111,10 +17104,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        #SPECIAL ATTENTION
+		#I think we need a national idea here, something like 'Mother of Dragons in Captivity' that gives debuffs and unlocks decisions to search for and rescue Daenerys from captivity.
  
         every_other_country = { 
             limit = { 
@@ -17150,7 +17141,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country506 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1941.2.5
         date < 1941.3.5
     } 
@@ -17164,10 +17155,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = 0.05
+        add_political_power = 75 
  
         every_other_country = { 
             limit = { 
@@ -17203,7 +17192,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country507 
  
     trigger = { 
-        tag = ABC 
+        tag = BOL 
 		date > 1941.2.5
         date < 1941.3.5
     } 
@@ -17217,10 +17206,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#I think we need a national idea here called 'Ramsay’s Total Control' that adds certain debuffs and buffs reflecting the totalitarian rule of this maniac
+		add_stability = -0.15
  
         every_other_country = { 
             limit = { 
@@ -17256,7 +17244,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country508 
  
     trigger = { 
-        tag = ABC 
+        tag = IRO 
 		date > 1941.2.5
         date < 1941.3.5
     } 
@@ -17270,10 +17258,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05
  
         every_other_country = { 
             limit = { 
@@ -17309,7 +17294,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country509 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.2.5
         date < 1941.3.5
     } 
@@ -17323,10 +17308,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 75 
  
         every_other_country = { 
             limit = { 
@@ -17362,7 +17344,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country510 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR
 		date > 1941.2.5
         date < 1941.3.5
     } 
@@ -17378,8 +17360,7 @@ country_event = {
  
         add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 125 
  
         every_other_country = { 
             limit = { 
@@ -17415,7 +17396,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country511 
  
     trigger = { 
-        tag = ABC
+        tag = NOR
 		date > 1941.3.10
         date < 1941.4.10	
     } 
@@ -17430,9 +17411,7 @@ country_event = {
         } 
  
         add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = -25
  
         every_other_country = { 
             limit = { 
