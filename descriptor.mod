@@ -48,6 +48,5 @@ tags={
 	"Events"
 	"Graphics"
 }
-name="Game of Thrones"
+name="Game of Thrones FAB"
 supported_version="1.16.*"
-remote_file_id="3469425562"

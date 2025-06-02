@@ -18003,7 +18003,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country523 
  
     trigger = { 
-        tag = ABC 
+        tag = IRO 
 		date > 1941.5.20
         date < 1941.6.20
     } 
@@ -18017,10 +18017,12 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_offsite_building = {
+			type = dockyard
+			level = 1
+		}
+		add_stability = 0.05
+        add_political_power = 50
  
         every_other_country = { 
             limit = { 
@@ -18056,7 +18058,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country524 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.5.20
         date < 1941.6.20
     } 
@@ -18069,11 +18071,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -18109,7 +18106,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country525 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.5.20
         date < 1941.6.20
     } 
@@ -18123,10 +18120,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
+		#SPECIAL ATTENTION
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -18162,7 +18157,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country526 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.6.25
         date < 1941.7.25
     } 
@@ -18175,11 +18170,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -18215,7 +18205,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country527 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
 		date > 1941.6.25
         date < 1941.7.25
     } 
@@ -18229,10 +18219,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = 0.1 
+        add_political_power = -75 
  
         every_other_country = { 
             limit = { 
