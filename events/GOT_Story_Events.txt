@@ -19156,7 +19156,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country546 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO
 		date > 1941.11.15
         date < 1941.12.15
     } 
@@ -19170,10 +19170,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        #SPECIAL ATTENTION
+		add_stability = -0.15 
  
         every_other_country = { 
             limit = { 
@@ -19209,7 +19207,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country547 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.11.15
         date < 1941.12.15
     } 
@@ -19221,12 +19219,7 @@ country_event = {
  
         ai_chance = { 
             factor = 10 
-        } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        }
  
         every_other_country = { 
             limit = { 
@@ -19262,7 +19255,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country548 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.11.15
         date < 1941.12.15
     } 
@@ -19276,10 +19269,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        #SPECIAL ATTENTION
+		add_war_support = 0.05
+        add_political_power = 75 
  
         every_other_country = { 
             limit = { 
@@ -19315,7 +19307,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country549 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1941.11.15
         date < 1941.12.15
     } 
@@ -19329,10 +19321,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 150
  
         every_other_country = { 
             limit = { 
@@ -19368,7 +19357,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country550 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1941.11.15
         date < 1941.12.15
     } 
@@ -19382,10 +19371,14 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#I don't know how you want to do this. Maybe just transfer Dragonstone to TAR's control, but for now, I'm just setting a war goal on country DRA for it (Dragonstone).
+		add_command_power = 20
+		create_wargoal = {
+			type = take_state_focus
+			target = DRA
+			generator = { 108 }
+		}
  
         every_other_country = { 
             limit = { 
