@@ -19414,7 +19414,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country601 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
 		date > 1942.1.1
         date < 1942.2.1
     } 
@@ -19428,10 +19428,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#The House of Frey must be destroyed after this event
  
         every_other_country = { 
             limit = { 
@@ -19467,7 +19465,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country602 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.1.1
         date < 1942.2.1
     } 
@@ -19481,10 +19479,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_stability = -0.05 
  
         every_other_country = { 
             limit = { 
@@ -19520,7 +19515,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country603 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.1.1
         date < 1942.2.1
     } 
@@ -19532,12 +19527,7 @@ country_event = {
  
         ai_chance = { 
             factor = 10 
-        } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        }
  
         every_other_country = { 
             limit = { 
@@ -19573,7 +19563,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country604 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1942.1.1
         date < 1942.2.1
     } 
@@ -19587,10 +19577,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 50 
  
         every_other_country = { 
             limit = { 
@@ -19626,7 +19613,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country605 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.1.1
         date < 1942.2.1
     } 
@@ -19638,12 +19625,7 @@ country_event = {
  
         ai_chance = { 
             factor = 10 
-        } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        }
  
         every_other_country = { 
             limit = { 
@@ -19679,7 +19661,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country606 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1942.1.1
         date < 1942.2.1
     } 
@@ -19693,10 +19675,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -19732,7 +19711,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country607 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.1.1
         date < 1942.2.1
     } 
@@ -19746,10 +19725,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 25
  
         every_other_country = { 
             limit = { 
@@ -19785,7 +19761,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country608 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.2.22
         date < 1942.3.22
     } 
@@ -19798,11 +19774,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -19838,7 +19809,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country609 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.2.22
         date < 1942.3.22
     } 
@@ -19850,12 +19821,7 @@ country_event = {
  
         ai_chance = { 
             factor = 10 
-        } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        }
  
         every_other_country = { 
             limit = { 
@@ -19891,7 +19857,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country610 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
 		date > 1942.2.22
         date < 1942.3.22
     } 
@@ -19905,10 +19871,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#Perhaps temporarily make Sansa the ruler of the North
  
         every_other_country = { 
             limit = { 
@@ -19944,7 +19908,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country611 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.2.22
         date < 1942.3.22
     } 
@@ -19958,10 +19922,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
+		#SPECIAL ATTENTION
+		#Maybe add a bonus to anti-air attack
         add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -19997,7 +19960,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country612 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.2.22
         date < 1942.3.22
     } 
@@ -20010,11 +19973,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -20050,7 +20008,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country613 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.2.22
         date < 1942.3.22
     } 
@@ -20064,10 +20022,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -20103,7 +20058,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country614 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR
 		date > 1942.2.22
         date < 1942.3.22
     } 
@@ -20116,11 +20071,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -20156,7 +20106,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country615 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.4.15
         date < 1942.5.15
     } 
@@ -20170,10 +20120,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 50 
  
         every_other_country = { 
             limit = { 
@@ -20209,7 +20156,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country616 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.4.15
         date < 1942.5.15
     } 
@@ -20223,10 +20170,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -20262,7 +20206,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country617 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.4.15
         date < 1942.5.15
     } 
@@ -20276,10 +20220,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -20315,7 +20256,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country618 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.4.15
         date < 1942.5.15
     } 
@@ -20328,11 +20269,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -20368,7 +20304,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country619 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.4.15
         date < 1942.5.15
     } 
@@ -20381,11 +20317,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -20421,7 +20352,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country620 
  
     trigger = { 
-        tag = ABC 
+        tag = IRO 
 		date > 1942.4.15
         date < 1942.5.15
     } 
@@ -20434,11 +20365,9 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+
+        add_political_power = 150 
+        navy_experience = 50
  
         every_other_country = { 
             limit = { 
@@ -20474,7 +20403,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country621 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.4.15
         date < 1942.5.15
     } 
@@ -20486,12 +20415,7 @@ country_event = {
  
         ai_chance = { 
             factor = 10 
-        } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        }
  
         every_other_country = { 
             limit = { 
@@ -20527,7 +20451,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country622 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.6.6
         date < 1942.7.6
     } 
@@ -20541,10 +20465,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        army_experience = 15 
+		air_experience = 30
  
         every_other_country = { 
             limit = { 
@@ -20580,7 +20502,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country623 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.6.6
         date < 1942.7.6
     } 
@@ -20594,10 +20516,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#Debuff to air attack for 30 days
  
         every_other_country = { 
             limit = { 
@@ -20633,7 +20553,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country624 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.6.6
         date < 1942.7.6
     } 
@@ -20647,10 +20567,10 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        #SPECIAL ATTENTION
+		#Debuff to attack
+		add_war_support = -0.05 
+        army_experience = 15 
  
         every_other_country = { 
             limit = { 
@@ -20686,7 +20606,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country625 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.6.6
         date < 1942.7.6
     } 
@@ -20699,11 +20619,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -20739,7 +20654,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country626 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.6.6
         date < 1942.7.6
     } 
@@ -20752,11 +20667,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -20792,7 +20702,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country627 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.6.6
         date < 1942.7.6
     } 
@@ -20806,10 +20716,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#NOR should join the military alliance led by TAR
  
         every_other_country = { 
             limit = { 
@@ -20845,7 +20753,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country628 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.6.6
         date < 1942.7.6
     } 
@@ -20859,10 +20767,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#Send volunteers to CRO and apply a factory debuff
  
         every_other_country = { 
             limit = { 
@@ -20898,7 +20804,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country629 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.7.29
         date < 1942.8.29
     } 
@@ -20912,10 +20818,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
+		#SPECIAL ATTENTION
+		#Possibly send 1 dragon to NOR
         add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -20951,7 +20856,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country630 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.7.29
         date < 1942.8.29
     } 
@@ -20965,10 +20870,9 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        #SPECIAL ATTENTION
+		add_stability = 0.05 
+        add_political_power = -75 
  
         every_other_country = { 
             limit = { 
@@ -21004,7 +20908,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country631 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.7.29
         date < 1942.8.29
     } 
@@ -21018,10 +20922,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#"Recruit Gendry — unlock the focus on forging Valyrian steel."
  
         every_other_country = { 
             limit = { 
@@ -21057,7 +20959,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country632 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.7.29
         date < 1942.8.29
     } 
@@ -21071,10 +20973,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -21110,7 +21009,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country633 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.7.29
         date < 1942.8.29
     } 
@@ -21124,10 +21023,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -21163,7 +21059,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country634 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.7.29
         date < 1942.8.29
     } 
@@ -21177,10 +21073,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 150 
  
         every_other_country = { 
             limit = { 
@@ -21216,7 +21109,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country635 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.7.29
         date < 1942.8.29
     } 
@@ -21228,12 +21121,9 @@ country_event = {
  
         ai_chance = { 
             factor = 10 
-        } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        }
+
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -21269,7 +21159,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country636 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.9.19
         date < 1942.10.19
     } 
@@ -21283,10 +21173,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -21322,7 +21209,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country637 
  
     trigger = { 
-        tag = ABC
+        tag = NOR
 		date > 1942.9.19
         date < 1942.10.19		
     } 
@@ -21335,11 +21222,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -21375,7 +21257,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country638 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1942.9.19
         date < 1942.10.19
     } 
@@ -21388,11 +21270,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -21428,7 +21305,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country639 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.9.19
         date < 1942.10.19
     } 
@@ -21440,12 +21317,7 @@ country_event = {
  
         ai_chance = { 
             factor = 10 
-        } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        }
  
         every_other_country = { 
             limit = { 
@@ -21481,7 +21353,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country640 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.9.19
         date < 1942.10.19
     } 
@@ -21495,10 +21367,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#One dragon has died; one dragon should be given to the White Walkers
  
         every_other_country = { 
             limit = { 
@@ -21534,7 +21404,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country641 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1942.9.19
         date < 1942.10.19
     } 
@@ -21547,11 +21417,8 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+
+        add_war_support = 0.1
  
         every_other_country = { 
             limit = { 
@@ -21587,7 +21454,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country642 
  
     trigger = { 
-        tag = ABC 
+        tag = TAR 
 		date > 1942.9.19
         date < 1942.10.19
     } 
@@ -21600,11 +21467,6 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
  
         every_other_country = { 
             limit = { 
@@ -21640,7 +21502,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country643 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.11.11
         date < 1942.12.11
     } 
@@ -21654,10 +21516,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
  
         every_other_country = { 
             limit = { 
@@ -21693,7 +21552,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country644 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.11.11
         date < 1942.12.11
     } 
@@ -21706,11 +21565,8 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
- 
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+  
+        add_political_power = 75 
  
         every_other_country = { 
             limit = { 
@@ -21746,7 +21602,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country645 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.11.11
         date < 1942.12.11
     } 
@@ -21760,10 +21616,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+        add_political_power = 100 
  
         every_other_country = { 
             limit = { 
@@ -21799,7 +21652,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country646 
  
     trigger = { 
-        tag = ABC 
+        tag = NOR 
 		date > 1942.11.11
         date < 1942.12.11
     } 
@@ -21813,10 +21666,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#"Execute him — remove the intrigue debuff and gain Stark unity."
  
         every_other_country = { 
             limit = { 
@@ -21852,7 +21703,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country647 
  
     trigger = { 
-        tag = ABC 
+        tag = CRO 
 		date > 1942.11.11
         date < 1942.12.11
     } 
@@ -21866,10 +21717,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#"March to Winterfell — Jaime becomes a Northern general, reducing Lannister morale."
  
         every_other_country = { 
             limit = { 
@@ -21905,7 +21754,7 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country649 
  
     trigger = { 
-        tag = ABC 
+        tag = NWA 
 		date > 1942.11.11
         date < 1942.12.11
     } 
@@ -21919,10 +21768,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
-        add_war_support = 0.05 
-        add_political_power = 25 
-        army_experience = 5 
+		#SPECIAL ATTENTION
+		#The White Walkers declare war on all of Westeros and begin their offensive
  
         every_other_country = { 
             limit = { 
