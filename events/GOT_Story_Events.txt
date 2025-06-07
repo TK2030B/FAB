@@ -16441,6 +16441,8 @@ country_event = {
         ai_chance = { 
             factor = 60 
         } 
+		
+		set_global_flag = GOT_Jon_Snow_Murdered_Flag
  
         add_stability = -0.05 
 		
@@ -16525,6 +16527,8 @@ country_event = {
 				is_historical_focus_on = yes
 			}
         } 
+		
+		set_global_flag = GOT_Jon_Snow_Murdered_Flag
  
         add_stability = -0.05 
 		
@@ -16587,6 +16591,8 @@ country_event = {
 			ideology = communism
 			size = 0.40
 		}
+		
+		remove_from_faction = WIL
  
         every_other_country = { 
             limit = { 
@@ -16888,6 +16894,7 @@ country_event = {
         tag = NWA 
 		date > 1941.1.1
         date < 1941.2.1
+		has_global_flag = GOT_Jon_Snow_Murdered_Flag
     } 
  
     fire_only_once = yes 
@@ -16940,6 +16947,8 @@ country_event = {
         tag = NOR 
 		date > 1941.1.1
         date < 1941.2.1
+		has_global_flag = GOT_Theon_Captured_Flag
+		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
     fire_only_once = yes 
