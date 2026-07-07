@@ -13916,9 +13916,9 @@ news_event = {
     } 
 } 
  
-# 403 — Daenerys Faces Unrest in Meereen
+# 403 — Daenerys Faces Unrest in Meereen DONE
 country_event = { 
-    id = GOT_Story_Country.403 DONE
+    id = GOT_Story_Country.403
     title = GOT_Story_Country.403.t 
     desc = GOT_Story_Country.403.d 
     picture = GFX_report_event_GOT_Story_Country403 
