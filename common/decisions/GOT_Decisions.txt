@@ -285,6 +285,131 @@ GOT_Game_Decisions = {
 		}
 	}
 	
+	TAR_Targaryen_Invasion_of_DRA = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = TAR
+		}
+
+		available = {
+			tag = TAR
+			date > 1941.1.1
+			date < 1942.1.5
+			NOT = { has_war_with = DRA }
+			NOT = { is_in_faction_with = DRA }
+			country_exists = DRA
+			surrender_progress < 0.1
+			
+			fighting_army_strength_ratio = {
+				tag = DRA
+				ratio > 0.9
+			}
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.11.15
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = DRA
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			TAR = {
+				country_event = { id = GOT_Story_Country.550 hours = 6 }	
+			}
+		}
+	}
+	
+	TAR_land_at_dragonstone = {
+		icon = generic_army_support
+
+		available = { 
+			tag = TAR
+			date > 1942.1.1
+			date < 1943.1.1
+			surrender_progress < 0.1
+			has_war_with = DRA
+			108 = { CONTROLLER = { has_war_with = ROOT } }
+			NOT = { has_country_flag = EW_Land_at_Dragonstone }
+		}
+		
+		allowed = {
+			tag = TAR
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_country_flag = EW_Land_at_Dragonstone }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+		
+		targeted_modifier = {
+			tag = DRA
+			attack_bonus_against = 0.25
+		}
+		
+		modifier = { 
+			army_org_factor = 0.25
+			breakthrough_factor = 0.25
+			naval_invasion_planning_bonus_speed = 0.25
+			navy_org_factor = 0.25
+			naval_morale_factor = 0.25
+			naval_strike_targetting_factor = 0.25
+		}
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.1.1
+			}
+		}
+
+		days_remove = 14
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			set_country_flag = EW_Land_at_Dragonstone
+			TAR = {
+				country_event = { id = GOT_Wars_Country.5 days = 1 random_days = 7 }	
+			}
+			every_country = {
+				limit = { 
+					OR = { 
+						tag = DRA
+						is_in_faction_with = DRA
+					} 
+				}
+				country_event = { id = GOT_Wars_Country.6 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
 	PEN_End_Targaryen_Asylum = {
 		icon = generic_army_support
 		

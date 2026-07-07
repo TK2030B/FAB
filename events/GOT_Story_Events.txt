@@ -13815,7 +13815,7 @@ news_event = {
 ##SEASON 5##
 ############
 
-# 401 — Cersei’s Childhood Prophecy
+# 401 — Cersei’s Childhood Prophecy DONE
 country_event = { 
     id = GOT_Story_Country.401 
     title = GOT_Story_Country.401.t 
@@ -13865,7 +13865,7 @@ news_event = {
     } 
 } 
  
-# 402 — Tyrion & Varys in Pentos
+# 402 — Tyrion & Varys in Pentos DONE
 country_event = { 
     id = GOT_Story_Country.402 
     title = GOT_Story_Country.402.t 
@@ -13918,7 +13918,7 @@ news_event = {
  
 # 403 — Daenerys Faces Unrest in Meereen
 country_event = { 
-    id = GOT_Story_Country.403 
+    id = GOT_Story_Country.403 DONE
     title = GOT_Story_Country.403.t 
     desc = GOT_Story_Country.403.d 
     picture = GFX_report_event_GOT_Story_Country403 
@@ -13968,7 +13968,7 @@ news_event = {
     } 
 } 
  
-# 404 — Jon Snow’s Mercy Killing of Mance Rayder
+# 404 — Jon Snow’s Mercy Killing of Mance Rayder DONE
 country_event = { 
     id = GOT_Story_Country.404 
     title = GOT_Story_Country.404.t 
@@ -13978,7 +13978,7 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1940.1.1
-        date < 1940.2.1
+        date < 1941.1.1
 		has_war_with = WIL
 		NWA = { has_capitulated = no }
 		DRA = { has_war_with = WIL }
@@ -14048,7 +14048,7 @@ news_event = {
     } 
 } 
  
-# 405 — Littlefinger & Sansa’s Deceptive Journey
+# 405 — Littlefinger & Sansa’s Deceptive Journey Done
 country_event = { 
     id = GOT_Story_Country.405 
     title = GOT_Story_Country.405.t 
@@ -14099,7 +14099,7 @@ news_event = {
     } 
 } 
  
-# 406 — Arya Arrives at the House of Black and White
+# 406 — Arya Arrives at the House of Black and White DONE
 country_event = { 
     id = GOT_Story_Country.406 
     title = GOT_Story_Country.406.t 
@@ -14150,7 +14150,7 @@ news_event = {
     } 
 } 
  
-# 407 — Jon Snow Elected 998th Lord Commander
+# 407 — Jon Snow Elected 998th Lord Commander DONE
 country_event = { 
     id = GOT_Story_Country.407 
     title = GOT_Story_Country.407.t 
@@ -14160,7 +14160,7 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1940.2.5
-        date < 1940.3.5
+        date < 1941.2.5
 		has_government = neutrality
 		has_country_leader = {
 			name = "Alliser Thorne"
@@ -14289,7 +14289,7 @@ news_event = {
     } 
 } 
  
-# 408 — Daenerys Executes Mossador
+# 408 — Daenerys Executes Mossador DONE
 country_event = { 
     id = GOT_Story_Country.408 
     title = GOT_Story_Country.408.t 
@@ -14341,7 +14341,7 @@ news_event = {
     } 
 } 
  
-# 409 — Brienne Encounters Sansa Stark
+# 409 — Brienne Encounters Sansa Stark DONE
 country_event = { 
     id = GOT_Story_Country.409 
     title = GOT_Story_Country.409.t 
@@ -14349,9 +14349,12 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country409 
  
     trigger = { 
-        tag = NOR
+		OR = {
+			tag = NOR
+			tag = NWA
+		}
 		date > 1940.2.5
-        date < 1940.3.5
+        date < 1941.2.5
 		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -14402,7 +14405,7 @@ country_event = {
     trigger = { 
         tag = WES
 		date > 1940.2.5
-        date < 1940.3.5
+        date < 1941.2.5
 		has_global_flag = GOT_Myrcella_In_Dorne_Flag
     } 
  
@@ -14445,7 +14448,7 @@ news_event = {
     } 
 } 
  
-# 411 — Sansa Stark Betrothed to Ramsay Bolton
+# 411 — Sansa Stark Betrothed to Ramsay Bolton DONE
 country_event = { 
     id = GOT_Story_Country.411 
     title = GOT_Story_Country.411.t 
@@ -14454,8 +14457,9 @@ country_event = {
  
     trigger = { 
         tag = BOL
+		NOT = { country_exists = NOR }
 		date > 1940.3.10
-        date < 1940.4.10
+        date < 1941.3.10
 		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -14497,7 +14501,7 @@ news_event = {
     } 
 } 
  
-# 412 — Jon Snow Executes Janos Slynt
+# 412 — Jon Snow Executes Janos Slynt DONE
 country_event = { 
     id = GOT_Story_Country.412 
     title = GOT_Story_Country.412.t 
@@ -14507,7 +14511,7 @@ country_event = {
     trigger = { 
         tag = NWA 
 		date > 1940.3.10
-        date < 1940.4.10
+        date < 1941.3.10
 		has_country_leader = {
 			name = "Jon Snow"
 			ruling_only = yes
@@ -14573,7 +14577,7 @@ news_event = {
     } 
 } 
  
-# 413 — Tommen Marries Margaery Tyrell
+# 413 — Tommen Marries Margaery Tyrell DONE
 country_event = { 
     id = GOT_Story_Country.413 
     title = GOT_Story_Country.413.t 
@@ -14583,7 +14587,7 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1940.3.10
-        date < 1940.4.10
+        date < 1941.3.10
 		is_in_faction_with = REA
 		has_country_leader = {
 			name = "Tommen Baratheon"
@@ -14605,7 +14609,7 @@ country_event = {
 		
 		REA = {
 			country_event = {
-				id = GOT_Location_Country.62
+				id = GOT_Diplomatic_Country.62
 				hours = 6
 			}
 		}
@@ -14646,7 +14650,7 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1940.3.10
-        date < 1940.4.10
+        date < 1941.3.10
 		OR = {
 			has_country_leader = {
 				name = "Tommen Baratheon"
@@ -14698,7 +14702,7 @@ news_event = {
     } 
 } 
  
-# 415 — Arya Begins Training with the Faceless Men
+# 415 — Arya Begins Training with the Faceless Men DONE
 country_event = { 
     id = GOT_Story_Country.415 
     title = GOT_Story_Country.415.t 
@@ -14749,7 +14753,7 @@ news_event = {
     } 
 } 
  
-# 416 — Sons of the Harpy Ambush in Meereen
+# 416 — Sons of the Harpy Ambush in Meereen DONE
 country_event = { 
     id = GOT_Story_Country.416 
     title = GOT_Story_Country.416.t 
@@ -14805,7 +14809,7 @@ news_event = {
     } 
 } 
  
-# 417 — Cersei Empowers the Faith Militant
+# 417 — Cersei Empowers the Faith Militant DONE
 country_event = { 
     id = GOT_Story_Country.417 
     title = GOT_Story_Country.417.t 
@@ -14815,7 +14819,7 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1940.4.15
-        date < 1940.5.15
+        date < 1941.4.15
 		has_global_flag = GOT_Sparrows_Empowered_Flag
     } 
  
@@ -14867,7 +14871,7 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1940.4.15
-        date < 1940.5.15
+        date < 1941.4.15
 		has_global_flag = GOT_Myrcella_Rescue_Mission_Flag
     } 
  
@@ -14918,7 +14922,7 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1940.4.15
-        date < 1940.5.15
+        date < 1941.4.15
 		has_global_flag = GOT_Varys_Fled_Flag
     } 
  
@@ -14959,7 +14963,7 @@ news_event = {
     } 
 } 
  
-# 420 — Sansa Visits the Crypts of Winterfell
+# 420 — Sansa Visits the Crypts of Winterfell DONE
 country_event = { 
     id = GOT_Story_Country.420 
     title = GOT_Story_Country.420.t 
@@ -14968,8 +14972,9 @@ country_event = {
  
     trigger = { 
 		tag = BOL
+		NOT = { country_exists = NOR }
 		date > 1940.4.15
-        date < 1940.5.15
+        date < 1941.5.15
 		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -15290,10 +15295,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country425 
  
     trigger = { 
-        tag = NOR
+        tag = BOL
 		date > 1940.5.20
         date < 1940.6.20
-		country_exists = BOL
+		NOT = { country_exists = NOR } 
 		has_global_flag = GOT_Sansa_Escapes_Flag
     } 
  
@@ -15576,6 +15581,8 @@ country_event = {
         } 
  
         add_political_power = 69 
+		
+		set_global_flag = GOT_Sansa_Ramsay_Marriage_Flag
  
         every_other_country = { 
             limit = { 
@@ -19365,13 +19372,7 @@ country_event = {
     desc = GOT_Story_Country.550.d 
     picture = GFX_report_event_GOT_Story_Country550 
  
-    trigger = { 
-        tag = TAR 
-		date > 1941.11.15
-        date < 1941.12.15
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes 
  
     option = { 
         name = GOT_Story_Country.550.a 
@@ -19381,12 +19382,11 @@ country_event = {
         } 
  
 		#SPECIAL ATTENTION
-		#I don't know how you want to do this. Maybe just transfer Dragonstone to TAR's control, but for now, I'm just setting a war goal on country DRA for it (Dragonstone).
 		add_command_power = 20
 		create_wargoal = {
-			type = take_state_focus
+			type = annex_everything
 			target = DRA
-			generator = { 108 }
+			expire = 365
 		}
  
         every_other_country = { 
@@ -19719,13 +19719,7 @@ country_event = {
     desc = GOT_Story_Country.607.d 
     picture = GFX_report_event_GOT_Story_Country607 
  
-    trigger = { 
-        tag = TAR 
-		date > 1942.1.1
-        date < 1942.2.1
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes 
  
     option = { 
         name = GOT_Story_Country.607.a 

@@ -108,3 +108,59 @@ country_event = {
 	}
 
 }
+
+##Invasion of Dragonstone
+country_event = {
+	id = GOT_Wars_Country.5
+	title = GOT_Wars_Country.5.t
+	desc = GOT_Wars_Country.5.d
+	picture = GFX_report_event_GOT_Story_Country607 
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Wars_Country.5.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		load_oob = TAR_Dragonstone
+		
+		add_timed_idea = {
+			idea = RI_major_operation
+			days = 1
+		}
+		
+		add_war_support = 0.05
+		army_experience = 5
+		navy_experience = 5
+		
+		country_event = { id = GOT_Story_Country.607 hours = 6 }
+		
+		
+			
+	}
+
+}
+
+#Stannis Invasion of Dragonstone Imminent!
+country_event = {
+	id = GOT_Wars_Country.6
+	title = GOT_Wars_Country.6.t
+	desc = GOT_Wars_Country.6.d
+	picture = GFX_report_event_GOT_Story_Country550 
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Wars_Country.6.a
+
+		ai_chance = {
+			factor = 1000
+		}
+		
+		add_war_support = 0.1
+
+	}
+
+}

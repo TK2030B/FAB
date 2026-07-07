@@ -1,0 +1,43 @@
+division_template = {
+	name = "Assault Host"
+	#division_names_group = CRO_castles_garrison
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division = {
+		name = "Targaryen Assault Host"
+		location = 2575
+		division_template = "Assault Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Targaryen Assault Host"
+		location = 2575
+		division_template = "Assault Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+
+}

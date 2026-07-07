@@ -438,6 +438,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -457,6 +459,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -476,6 +480,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -495,6 +501,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -514,6 +522,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -533,6 +543,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -552,6 +564,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -571,6 +585,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -590,6 +606,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
@@ -609,6 +627,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		set_major = yes
 
 	}
 }
