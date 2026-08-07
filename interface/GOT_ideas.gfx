@@ -711,7 +711,20 @@ spriteType = {
 		texturefile = "gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor_Female.dds"
 	}
 
-
+	spriteType = {
+		name = "GFX_idea_CRO_Sparrows_Angry"
+		texturefile = "gfx/interface/ideas/National_Spirits/idea_CRO_Sparrows_Angry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CRO_Sparrows_Placated"
+		texturefile = "gfx/interface/ideas/National_Spirits/idea_CRO_Sparrows_Placated.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CRO_Faith_Militant"
+		texturefile = "gfx/interface/ideas/National_Spirits/idea_CRO_Faith_Militant.dds"
+	}
 
 
 

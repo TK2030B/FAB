@@ -927,3 +927,338 @@ GOT_unlock_marines = {
 		marines = 1
 	}
 }
+
+GOT_Sparrow_Riots = {
+
+    # Scale penalties based on Sparrow mood
+
+    # Faith completely radicalized, widespread riots
+    if = {
+        limit = { has_idea = CRO_Sparrows_Angry_3 }
+        add_political_power = -100
+        add_stability = -0.30
+    }
+
+    # Strong Faith opposition, major unrest
+    else_if = {
+        limit = { has_idea = CRO_Sparrows_Angry_2 }
+        add_political_power = -75
+        add_stability = -0.20
+    }
+
+    # Moderate Faith anger, protests and unrest
+    else_if = {
+        limit = { has_idea = CRO_Sparrows_Angry }
+        add_political_power = -40
+        add_stability = -0.10
+    }
+
+    # Crown previously cooperated, backlash limited
+    else_if = {
+        limit = { has_idea = CRO_Sparrows_Placated }
+        add_political_power = -20
+        add_stability = -0.05
+    }
+
+    # Strong Crown-Faith relationship, small disturbances
+    else_if = {
+        limit = { has_idea = CRO_Sparrows_Placated_2 }
+        add_political_power = -10
+        add_stability = -0.03
+    }
+
+    # Fully placated Faith, minimal unrest
+    else_if = {
+        limit = { has_idea = CRO_Sparrows_Placated_3 }
+        add_political_power = -5
+        add_stability = -0.01
+    }
+}
+
+GOT_Get_Rid_of_Sparrows = {
+
+	if = {
+		limit = {
+			has_idea = CRO_Faith_Militant
+		}
+
+		random_list = {
+			45 = {
+				country_event = { id = GOT_Diplomatic_Country.71 days = 1 }
+			}
+
+			20 = {
+				country_event = { id = GOT_Diplomatic_Country.72 days = 1 }
+			}
+
+			35 = {
+				country_event = { id = GOT_Diplomatic_Country.73 days = 1 }
+			}
+		}
+	}
+	else = {
+		random_list = {
+			65 = {
+				country_event = { id = GOT_Diplomatic_Country.71 days = 1 }
+			}
+
+			20 = {
+				country_event = { id = GOT_Diplomatic_Country.72 days = 1 }
+			}
+
+			15 = {
+				country_event = { id = GOT_Diplomatic_Country.73 days = 1 }
+			}
+		}
+	}
+
+}
+
+GOT_Sparrows_Angered = {
+
+# No previous relationship
+	if = {
+		limit = {
+			NOT = { has_idea = CRO_Sparrows_Angry }
+			NOT = { has_idea = CRO_Sparrows_Angry_2 }
+			NOT = { has_idea = CRO_Sparrows_Angry_3 }
+			NOT = { has_idea = CRO_Sparrows_Placated }
+			NOT = { has_idea = CRO_Sparrows_Placated_2 }
+			NOT = { has_idea = CRO_Sparrows_Placated_3 }
+		}
+
+		add_ideas = CRO_Sparrows_Angry
+	}
+
+	# From Angry -> Angry 2
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Angry
+		}
+
+		remove_ideas = CRO_Sparrows_Angry
+		add_ideas = CRO_Sparrows_Angry_2
+	}
+
+	# From Angry 2 -> Angry 3
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Angry_2
+		}
+
+		remove_ideas = CRO_Sparrows_Angry_2
+		add_ideas = CRO_Sparrows_Angry_3
+	}
+
+	# If already Angry 3, nothing happens
+	
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Placated_3
+		}
+
+		remove_ideas = CRO_Sparrows_Placated_3
+		add_ideas = CRO_Sparrows_Angry
+	}
+
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Placated_2
+		}
+
+		remove_ideas = CRO_Sparrows_Placated_2
+		add_ideas = CRO_Sparrows_Angry
+	}
+
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Placated
+		}
+
+		remove_ideas = CRO_Sparrows_Placated
+		add_ideas = CRO_Sparrows_Angry
+	}
+
+}
+
+GOT_Sparrows_Placated = {
+
+# No previous relationship
+	if = {
+		limit = {
+			NOT = { has_idea = CRO_Sparrows_Placated }
+			NOT = { has_idea = CRO_Sparrows_Placated_2 }
+			NOT = { has_idea = CRO_Sparrows_Placated_3 }
+			NOT = { has_idea = CRO_Sparrows_Angry }
+			NOT = { has_idea = CRO_Sparrows_Angry_2 }
+			NOT = { has_idea = CRO_Sparrows_Angry_3 }
+		}
+
+		add_ideas = CRO_Sparrows_Placated
+	}
+
+	# From Placated -> Placated 2
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Placated
+		}
+
+		remove_ideas = CRO_Sparrows_Placated
+		add_ideas = CRO_Sparrows_Placated_2
+	}
+
+	# From Placated 2 -> Placated 3
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Placated_2
+		}
+
+		remove_ideas = CRO_Sparrows_Placated_2
+		add_ideas = CRO_Sparrows_Placated_3
+	}
+
+	# From Angry -> Placated
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Angry
+		}
+
+		remove_ideas = CRO_Sparrows_Angry
+		add_ideas = CRO_Sparrows_Placated
+	}
+
+	# From Angry 2 -> Placated
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Angry_2
+		}
+
+		remove_ideas = CRO_Sparrows_Angry_2
+		add_ideas = CRO_Sparrows_Placated
+	}
+
+	# From Angry 3 -> Placated
+	else_if = {
+		limit = {
+			has_idea = CRO_Sparrows_Angry_3
+		}
+
+		remove_ideas = CRO_Sparrows_Angry_3
+		add_ideas = CRO_Sparrows_Placated
+	}
+
+	# Already fully placated, nothing happens
+
+}
+
+GOT_Sparrows_Crushed = {
+
+	# Scale consequences based on Sparrow relationship
+
+	# Faith was openly hostile - Crown victory
+	if = {
+		limit = { has_idea = CRO_Sparrows_Angry_3 }
+		add_political_power = 100
+		add_stability = 0.10
+	}
+
+	# Faith was a major rival - Crown restores authority
+	else_if = {
+		limit = { has_idea = CRO_Sparrows_Angry_2 }
+		add_political_power = 75
+		add_stability = 0.075
+	}
+
+	# Some tension, but victory is welcomed
+	else_if = {
+		limit = { has_idea = CRO_Sparrows_Angry }
+		add_political_power = 40
+		add_stability = 0.05
+	}
+
+	# Crown breaks an agreement with the Faith
+	else_if = {
+		limit = { has_idea = CRO_Sparrows_Placated }
+		add_political_power = -40
+		add_stability = -0.05
+	}
+
+	# Crown empowered the Faith, then betrayed them
+	else_if = {
+		limit = { has_idea = CRO_Sparrows_Placated_2 }
+		add_political_power = -75
+		add_stability = -0.10
+	}
+
+	# The Crown created this problem and then destroyed its own ally
+	else_if = {
+		limit = { has_idea = CRO_Sparrows_Placated_3 }
+		add_political_power = -100
+		add_stability = -0.15
+	}
+
+	GOT_End_of_Sparrows = yes
+
+}
+
+GOT_Sparrows_Civil_War = {
+
+	FAI = {
+		transfer_state = 142
+		add_ideas = RI_neutrality_idea
+		add_ideas = FAI_Faith_Militant
+	}
+	142 = {
+		add_core_of = FAI
+	}
+	CRO = {
+		declare_war_on = {
+			target = FAI
+			type = civil_war
+		}
+	}
+	every_state = { 
+		limit = { 
+			is_core_of = CRO
+		} 
+		add_core_of = FAI
+	}
+
+# Faith Militant was empowered - major rebellion
+	if = {
+		limit = {
+			has_idea = CRO_Faith_Militant
+		}
+
+		add_stability = -0.25
+		add_war_support = 0.10
+		
+		FAI = {
+			load_oob = FAI_Large
+		}
+		
+	}
+
+	# Faith was not empowered - smaller uprising
+	else = {
+
+		add_stability = -0.10
+		add_political_power = -50
+
+		FAI = {
+			load_oob = FAI_Small
+		}
+	}
+	
+	GOT_End_of_Sparrows = yes
+}
+
+GOT_End_of_Sparrows = {
+	remove_ideas = CRO_Sparrows_Angry
+	remove_ideas = CRO_Sparrows_Angry_2
+	remove_ideas = CRO_Sparrows_Angry_3
+	remove_ideas = CRO_Sparrows_Placated
+	remove_ideas = CRO_Sparrows_Placated_2
+	remove_ideas = CRO_Sparrows_Placated_3
+	remove_ideas = CRO_Faith_Militant
+}

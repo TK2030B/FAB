@@ -1,6 +1,114 @@
 
 GOT_Game_Decisions = {
 
+	CRO_Crownlands_Invasion_of_RIV = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = CRO
+		}
+
+		available = {
+			tag = CRO
+			has_war_with = NOR
+			NOT = { has_war_with = RIV }
+			WES = { has_war_with = RIV }
+			NOT = { is_in_faction_with = RIV }
+			is_in_faction_with = WES
+			country_exists = RIV
+			surrender_progress < 0.1
+			date < 1938.1.1
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		days_remove = 7
+		war_with_on_remove = RIV
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = RIV
+				expire = 365
+			}
+			if = {
+				limit = {
+					is_ai = yes 
+				}
+				declare_war_on = {
+					target = RIV
+					type = annex_everything
+				}
+			}
+		}
+	}
+
+	RIV_join_northern_faction = {
+		icon = generic_army_support
+
+		available = { 
+			tag = RIV
+			date < 1950.1.1
+			NOT = { has_war_with = NOR }
+			NOR = { his_faction_leader = yes }
+			is_in_faction = no
+			has_war_with = WES
+			OR = { 
+				NOR = { has_war_with = WES } 
+				NOR = { has_wargoal_against = WES }
+			}
+		}
+		
+		allowed = {
+			tag = RIV
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { has_country_flag = EW_Ironborn_Invasion }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1936.6.25
+			}
+		}
+
+		days_remove = 7
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			NOR = {
+				country_event = generic.2
+			}
+		}
+	}
+
 	DRA_battle_of_blackwater_bay = {
 		icon = generic_army_support
 
@@ -79,6 +187,72 @@ GOT_Game_Decisions = {
 					} 
 				}
 				country_event = { id = GOT_Wars_Country.2 hours = 6 }
+			}
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+		}
+	}
+	
+	DRA_recruit_jon_snow = {
+		icon = generic_army_support
+
+		available = { 
+			tag = DRA
+			date < 1946.1.1
+			surrender_progress < 0.1
+			has_war_with = BOL
+			OR = {
+				NOT = { has_war_with = WIL }
+				WIL = { has_capitulated = yes }
+			}
+			NOT = { has_war_with = NWA }
+			NOT = { has_global_flag = GOT_Second_Northern_Civil_War_Flag }
+			has_country_leader = {
+				name = "Stannis Baratheon"
+				ruling_only = yes
+			}
+			NWA = { 
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+			OR = {
+				BOL = { owns_state = 123 }
+				BOL = { 123 = { is_controlled_by_ROOT_or_ally = yes } }
+			}
+			OR = {
+				NOR = { exists = no }
+				NOR = { is_subject = yes }
+			}
+			is_in_faction = yes
+			is_faction_leader = yes
+		}
+		
+		allowed = {
+			tag = DRA
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		days_remove = 7
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+			NWA = {
+				country_event = { id = GOT_Diplomatic_Country.81 days = 1 random_days = 7 }	
 			}
 		}
 		
@@ -282,6 +456,15 @@ GOT_Game_Decisions = {
 				target = CRO
 				expire = 365
 			}
+			if = {
+				limit = {
+					is_ai = yes 
+				}
+				declare_war_on = {
+					target = CRO
+					type = annex_everything
+				}
+			}
 		}
 	}
 	
@@ -295,15 +478,14 @@ GOT_Game_Decisions = {
 		available = {
 			tag = TAR
 			date > 1941.1.1
-			date < 1942.1.5
-			NOT = { has_war_with = DRA }
+			#NOT = { has_war_with = DRA }
 			NOT = { is_in_faction_with = DRA }
 			country_exists = DRA
 			surrender_progress < 0.1
 			
 			fighting_army_strength_ratio = {
 				tag = DRA
-				ratio > 0.9
+				ratio > 1.5
 			}
 		}
 
@@ -344,9 +526,9 @@ GOT_Game_Decisions = {
 		available = { 
 			tag = TAR
 			date > 1942.1.1
-			date < 1943.1.1
 			surrender_progress < 0.1
-			has_war_with = DRA
+			#has_war_with = DRA
+			has_global_flag = GOT_Dany_Sails_West_Flag
 			108 = { CONTROLLER = { has_war_with = ROOT } }
 			NOT = { has_country_flag = EW_Land_at_Dragonstone }
 		}
@@ -420,7 +602,7 @@ GOT_Game_Decisions = {
 		available = {
 			tag = PEN
 			date > 1936.1.1
-			date < 1945.1.1
+			date < 1950.1.1
 			NOT = { has_war_with = TAR }
 			country_exists = TAR
 			surrender_progress < 0.1
@@ -464,7 +646,125 @@ GOT_Game_Decisions = {
 			}
 		}
 	}
+	
+	TAR_Burn_The_Khals = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = TAR
+		}
 
+		available = {
+			tag = TAR
+			date > 1941.1.1
+			#NOT = { has_war_with = DOT }
+			country_exists = DOT
+			surrender_progress < 0.1
+			is_subject = no
+			has_country_leader = {
+				name = "Daenerys Targaryen"
+				ruling_only = yes
+			}
+			controls_state = 89
+			has_global_flag = GOT_TAR_DOT_Wedding_Flag
+			DOT = {
+				NOT = { 
+					has_country_leader = {
+						name = "Daenerys Targaryen"
+						ruling_only = yes
+					}
+				}
+			}
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.4.15
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = DOT
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			country_event = { id = GOT_Story_Country.517 hours = 1 }
+		}
+	}
+	
+	TAR_Invasion_of_CRO = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = TAR
+		}
+
+		available = {
+			tag = TAR
+			date > 1942.1.1
+			NOT = { has_war_with = CRO }
+			NOT = { is_in_faction_with = CRO }
+			country_exists = CRO
+			surrender_progress < 0.1
+			controls_state = 108
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1941.1.1
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = CRO
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = CRO
+				expire = 365
+			}
+			if = {
+				limit = {
+					is_ai = yes 
+				}
+				declare_war_on = {
+					target = CRO
+					type = annex_everything
+				}
+			}
+		}
+	}
+	
 	GOT_Give_GOT_Mode_To_New_Countries = {
 		
 		allowed = {

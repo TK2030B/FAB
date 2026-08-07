@@ -84,6 +84,17 @@ characters={
 				unpopular_monarch  
 			}
 		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {  
+				incompetent_leader  
+				headstrong  
+				stout_defender  
+				reluctant_veteran  
+				unpopular_monarch  
+			}
+		}
 		corps_commander={
 			traits = { }
 			skill = 3

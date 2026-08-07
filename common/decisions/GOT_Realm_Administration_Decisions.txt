@@ -120,13 +120,15 @@ GEN_Empire_Manager = {
 			}
 			modifier = {
 				factor = 0
-				ROOT = { tag = CRO }
-				FROM = { tag = DRA }
+				FROM = { tag = CRO }
 			}
 			modifier = {
 				factor = 0
-				ROOT = { tag = CRO }
-				FROM = { tag = STO }
+				FROM = { tag = TAR }
+			}
+			modifier = {
+				factor = 0
+				FROM = { tag = DRA }
 			}
 		}
 

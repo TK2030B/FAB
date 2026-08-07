@@ -415,6 +415,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_global_flag = BPD_Never_Accept
+				FROM = { 
+					is_ai = no
+				}
 			}
 			modifier = {
 				factor = 10
@@ -1190,6 +1193,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_global_flag = BPD_Never_Accept
+				FROM = { 
+					is_ai = no
+				}
 			}
 		}
 		
@@ -1867,6 +1873,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_global_flag = BPD_Never_Accept
+				FROM = { 
+					is_ai = no
+				}
 			}
 		}
 		
@@ -2642,6 +2651,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_global_flag = BPD_Never_Accept
+				FROM = { 
+					is_ai = no
+				}
 			}
 		}
 		
@@ -3364,6 +3376,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_global_flag = BPD_Never_Accept
+				FROM = { 
+					is_ai = no
+				}
 			}
 		}
 		
@@ -4167,6 +4182,9 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_global_flag = BPD_Never_Accept
+				FROM = { 
+					is_ai = no
+				}
 			}
 		}
 		
@@ -5390,3 +5408,756 @@ country_event = {
 
 }
 
+
+
+#Restore the Status Stalemate/Slightly Losing (White Peace) THIS IS A DUPLICATE VERSION OF N1 FOR STORYLINE PEACE ACCEPTANCE
+country_event = {
+	id = BPD_Better_Peace_Deals_Country.200
+	title = BPD_Better_Peace_Deals_Country.1.t
+	desc = BPD_Better_Peace_Deals_Country.1.d
+	picture = GFX_report_event_Peace_Country
+
+	is_triggered_only = yes
+
+	option = {
+		#Accept
+		name = BPD_Better_Peace_Deals_Country.1.a
+
+		ai_chance = {
+			base = 900
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				add = 50
+				ROOT = { surrender_progress < 0.11 }
+			}
+			modifier = {
+				add = 40
+				ROOT = { surrender_progress > 0.10 }
+				ROOT = { surrender_progress < 0.21 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { surrender_progress > 0.20 }
+				ROOT = { surrender_progress < 0.31 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { surrender_progress > 0.30 }
+				ROOT = { surrender_progress < 0.41 }
+			}
+			modifier = {
+				add = 10
+				ROOT = { surrender_progress > 0.40 }
+				ROOT = { surrender_progress < 0.51 }
+			}
+			modifier = {
+				add = 40
+				ROOT = { has_stability < 0.11 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_stability > 0.10 }
+				ROOT = { has_stability < 0.21 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_stability > 0.20 }
+				ROOT = { has_stability < 0.31 }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_stability > 0.30 }
+				ROOT = { has_stability < 0.41 }
+			}
+			modifier = {
+				add = 40
+				ROOT = { has_war_support < 0.11 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_war_support > 0.10 }
+				ROOT = { has_war_support < 0.21 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_war_support > 0.20 }
+				ROOT = { has_war_support < 0.31 }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_war_support > 0.30 }
+				ROOT = { has_war_support < 0.41 }
+			}
+			modifier = {
+				add = 30
+				FROM = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 2.9
+					}
+				}
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 1.9
+					}
+				}
+				FROM = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 3
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				FROM = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.9
+					}
+				}
+				FROM = {
+					strength_ratio = {
+						tag = ROOT
+						ratio < 2
+					}
+				}
+			}
+			modifier = {
+				add = 40
+				ROOT = { has_manpower < 1 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_manpower > 0 }
+				ROOT = { has_manpower < 10000 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_manpower > 9999 }
+				ROOT = { has_manpower < 50000 }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_manpower > 49999 }
+				ROOT = { has_manpower < 100000 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_idea = disarmed_nation }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_idea = volunteer_only }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_idea = limited_conscription }
+			}
+			modifier = {
+				add = 50
+				ROOT = { has_idea = undisturbed_isolation }
+			}
+			modifier = {
+				add = 40
+				ROOT = { has_idea = isolation }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_idea = civilian_economy }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_idea = low_economic_mobilisation }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_idea = partial_economic_mobilisation }
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					naval_strength_ratio = {
+						tag = ROOT
+						ratio > 2.9
+					}
+				}
+			}
+			modifier = {
+				add = 15
+				FROM = {
+					naval_strength_ratio = {
+						tag = ROOT
+						ratio > 1.9
+					}
+				}
+				FROM = {
+					naval_strength_ratio = {
+						tag = ROOT
+						ratio < 3
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				FROM = {
+					naval_strength_ratio = {
+						tag = ROOT
+						ratio > 0.9
+					}
+				}
+				FROM = {
+					naval_strength_ratio = {
+						tag = ROOT
+						ratio < 2
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				#Enemy Has Strong Allies
+				any_country = {
+					NOT = { tag = FROM }
+					is_in_faction_with = FROM
+					has_war_with = ROOT
+					is_major = yes
+					has_capitulated = no
+				}
+			}
+			modifier = {
+				add = 20
+				#You Have War With Another Major Faction
+				any_country = {
+					NOT = { tag = FROM }
+					NOT = { is_in_faction_with = FROM }
+					has_war_with = ROOT
+					is_major = yes
+					has_capitulated = no
+				}
+			}
+			modifier = {
+				add = 10
+				casualties < 500000
+			}
+			modifier = {
+				add = 20
+				casualties > 499999
+				casualties < 1000000
+			}
+			modifier = {
+				add = 30
+				casualties > 999999
+				casualties < 2000000
+			}
+			modifier = {
+				add = 40
+				casualties > 1999999
+				casualties < 4000000
+			}
+			modifier = {
+				add = 50
+				casualties > 3999999
+				casualties < 6000000
+			}
+			modifier = {
+				add = 60
+				casualties > 5999999
+				casualties < 8000000
+			}
+			modifier = {
+				add = 70
+				casualties > 7999999
+				casualties < 10000000
+			}
+			modifier = {
+				add = 80
+				casualties > 9999999
+			}
+			modifier = {
+				add = 30
+				FROM = {
+					ic_ratio = {
+						tag = ROOT
+						ratio > 2.9
+					}
+				}
+			}
+			modifier = {
+				add = 20
+				FROM = {
+					ic_ratio = {
+						tag = ROOT
+						ratio > 1.9
+					}
+				}
+				FROM = {
+					ic_ratio = {
+						tag = ROOT
+						ratio < 3
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				FROM = {
+					ic_ratio = {
+						tag = ROOT
+						ratio > 0.9
+					}
+				}
+				FROM = {
+					ic_ratio = {
+						tag = ROOT
+						ratio < 2
+					}
+				}
+			}
+			#The Longer The War has dragged out the more propensity to surrender
+			modifier = {
+				add = 10
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 47
+					}
+					war_length_with = {
+						tag = FROM
+						months < 60
+					}
+				}
+			}
+			modifier = {
+				add = 20
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 59
+					}
+					war_length_with = {
+						tag = FROM
+						months < 72
+					}
+				}
+			}
+			modifier = {
+				add = 30
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 71
+					}
+					war_length_with = {
+						tag = FROM
+						months < 84
+					}
+				}
+			}
+			modifier = {
+				add = 40
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 83
+					}
+					war_length_with = {
+						tag = FROM
+						months < 96
+					}
+				}
+			}
+			modifier = {
+				add = 50
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 95
+					}
+					war_length_with = {
+						tag = FROM
+						months < 108
+					}
+				}
+			}
+			modifier = {
+				add = 60
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 107
+					}
+					war_length_with = {
+						tag = FROM
+						months < 120
+					}
+				}
+			}
+			modifier = {
+				add = 70
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 119
+					}
+				}
+			}
+			#Democratic Propensity To Surrender
+			modifier = {
+				add = 20
+				ROOT = {
+					has_government = democratic
+				}
+			}
+			#Nonaligned Propensity to surrender
+			modifier = {
+				add = 10
+				ROOT = {
+					has_government = neutrality
+				}
+			}
+			#modifier = {
+			#	factor = 0
+			#	has_global_flag = BPD_Never_Accept
+			#	FROM = { 
+			#		is_ai = no
+			#	}
+			#}
+			modifier = {
+				factor = 10
+				ROOT = { 
+					tag = WIL
+				}
+				FROM = { 
+					tag = NWA
+				}
+				country_exists = ICE
+			}
+			modifier = {
+				factor = 10
+				ROOT = { 
+					tag = NWA
+				}
+				FROM = { 
+					tag = WIL
+				}
+				country_exists = ICE
+			}
+			modifier = {
+				factor = 10
+				ROOT = { 
+					tag = NWA
+				}
+				FROM = { 
+					tag = WIL
+				}
+				has_global_flag = GOT_Wildling_Army_Shattered_Flag
+			}
+			modifier = {
+				factor = 10
+				ROOT = { 
+					tag = DRA
+				}
+				FROM = { 
+					tag = WIL
+				}
+				has_global_flag = GOT_Wildling_Army_Shattered_Flag
+			}
+		}
+		
+		FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.7 hours = 6 } }
+		
+		
+	}
+	
+	option = {
+		#Decline
+		name = BPD_Better_Peace_Deals_Country.1.b
+
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = 10
+				ROOT = { surrender_progress > 0.50 }
+				ROOT = { surrender_progress < 0.61 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { surrender_progress > 0.60 }
+				ROOT = { surrender_progress < 0.71 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { surrender_progress > 0.70 }
+				ROOT = { surrender_progress < 0.81 }
+			}
+			modifier = {
+				add = 40
+				ROOT = { surrender_progress > 0.80 }
+				ROOT = { surrender_progress < 0.91 }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_stability > 0.50 }
+				ROOT = { has_stability < 0.61 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_stability > 0.60 }
+				ROOT = { has_stability < 0.71 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_stability > 0.70 }
+				ROOT = { has_stability < 0.81 }
+			}
+			modifier = {
+				add = 40
+				ROOT = { has_stability > 0.80 }
+				ROOT = { has_stability < 0.91 }
+			}
+			modifier = {
+				add = 50
+				ROOT = { has_stability > 0.90 }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_war_support > 0.50 }
+				ROOT = { has_war_support < 0.61 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_war_support > 0.60 }
+				ROOT = { has_war_support < 0.71 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_war_support > 0.70 }
+				ROOT = { has_war_support < 0.81 }
+			}
+			modifier = {
+				add = 40
+				ROOT = { has_war_support > 0.80 }
+				ROOT = { has_war_support < 0.91 }
+			}
+			modifier = {
+				add = 50
+				ROOT = { has_war_support > 0.90 }
+			}
+			modifier = {
+				add = 30
+				ROOT = {
+					strength_ratio = {
+						tag = FROM
+						ratio > 2.9
+					}
+				}
+			}
+			modifier = {
+				add = 20
+				ROOT = {
+					strength_ratio = {
+						tag = FROM
+						ratio > 1.9
+					}
+				}
+				ROOT = {
+					strength_ratio = {
+						tag = FROM
+						ratio < 3
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				ROOT = {
+					strength_ratio = {
+						tag = FROM
+						ratio > 0.9
+					}
+				}
+				ROOT = {
+					strength_ratio = {
+						tag = FROM
+						ratio < 2
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_manpower > 249999 }
+				ROOT = { has_manpower < 500000 }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_manpower > 499999 }
+				ROOT = { has_manpower < 1000000 }
+			}
+			modifier = {
+				add = 30
+				ROOT = { has_manpower > 999999 }
+				ROOT = { has_manpower < 2000000 }
+			}
+			modifier = {
+				add = 40
+				ROOT = { has_manpower > 1999999 }
+			}
+			modifier = {
+				add = 10
+				ROOT = { has_idea = all_adults_serve }
+			}
+			modifier = {
+				add = 20
+				ROOT = { has_idea = scraping_the_barrel }
+			}
+			modifier = {
+				add = 10
+				ROOT = {
+					naval_strength_ratio = {
+						tag = FROM
+						ratio > 1.9
+					}
+				}
+				ROOT = {
+					naval_strength_ratio = {
+						tag = FROM
+						ratio < 3
+					}
+				}
+			}
+			modifier = {
+				add = 15
+				ROOT = {
+					naval_strength_ratio = {
+						tag = FROM
+						ratio > 2.9
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				#You Have Strong Allies
+				any_country = {
+					NOT = { tag = ROOT }
+					is_in_faction_with = ROOT
+					has_war_with = FROM
+					is_major = yes
+					has_capitulated = no
+				}
+			}
+			modifier = {
+				add = 20
+				#Enemy Has War With Other Major Faction
+				any_country = {
+					NOT = { tag = ROOT }
+					NOT = { is_in_faction_with = ROOT }
+					has_war_with = FROM
+					is_major = yes
+					has_capitulated = no
+				}
+			}
+			modifier = {
+				add = 10
+				ROOT = {
+					ic_ratio = {
+						tag = FROM
+						ratio > 1.9
+					}
+				}
+				ROOT = {
+					ic_ratio = {
+						tag = FROM
+						ratio < 3
+					}
+				}
+			}			
+			modifier = {
+				add = 20
+				ROOT = {
+					ic_ratio = {
+						tag = FROM
+						ratio > 2.9
+					}
+				}
+			}
+			modifier = {
+				add = 30
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months < 12
+					}
+				}
+			}
+			modifier = {
+				add = 20
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 11
+					}
+					war_length_with = {
+						tag = FROM
+						months < 24
+					}
+				}
+			}
+			modifier = {
+				add = 10
+				ROOT = {
+					war_length_with = {
+						tag = FROM
+						months > 23
+					}
+					war_length_with = {
+						tag = FROM
+						months < 36
+					}
+				}
+			}
+			#Fascist Unwillingness to Surrender
+			modifier = {
+				add = 30
+				ROOT = {
+					has_government = fascism
+				}
+			}
+			#Communist Unwillingness to Surrender
+			modifier = {
+				add = 20
+				ROOT = {
+					has_government = communism
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = BPD_Always_Accept
+			}
+			modifier = {
+				factor = 100
+				ROOT = { 
+					OR = { 
+						tag = CRO
+						tag = WES
+					}
+				}
+				FROM = { 
+					tag = NOR
+				}
+				has_global_flag = GOT_King_In_The_North_Flag
+			}
+		}
+		
+		add_war_support = 0.05
+		add_stability = -0.05
+		
+		FROM = { country_event = { id = BPD_Better_Peace_Deals_Country.8 hours = 6 } }
+		
+	}
+
+}

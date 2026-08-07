@@ -165,7 +165,41 @@ characters={
 		}
 	}
 
-
+	REA_Randyl_Tarly={
+		name=TRL_Randyl_Tarly
+		portraits={
+			army = {
+				large="gfx/leaders/TRL/Portrait_Randyl_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TRL/Portrait_Randyl_Tarly.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = { 
+				stout_defender
+				hardened_officer
+				conservative_grandee
+				hawk
+				autocratic_imperialist
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = { 
+				stout_defender
+				hardened_officer
+				conservative_grandee
+				hawk
+				autocratic_imperialist
+			}
+		}
+	}
 
 
 

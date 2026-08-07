@@ -1,0 +1,37 @@
+﻿capital = 142
+GOT_start_techs = yes
+oob = "FAI_1936"
+
+add_ideas = disarmed_nation
+
+set_research_slots = 3
+
+set_convoys = 25
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	neutrality = 0
+	communism = 100
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+add_ideas = {
+	GOT_Tradition_Crownlands
+	GOT_Religion_The_Seven
+	FAI_Faith_Militant
+}
+
+recruit_character = FAI_High_Sparrow
+recruit_character = FAI_High_Septon
+recruit_character = FAI_Most_Devout
+recruit_character = FAI_Faith_Militant
+recruit_character = FAI_Brother_Lancel
+recruit_character = FAI_Brother_Boake
+recruit_character = FAI_Brother_Loras

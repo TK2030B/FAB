@@ -1,0 +1,44 @@
+ideas = {
+
+	country = {		
+		
+		FAI_Faith_Militant = {
+
+		removal_cost = -1
+
+		allowed = {
+			original_tag = CRO
+		}
+
+		picture = CRO_Faith_Militant
+
+		modifier = {
+
+				# Fanatical Zeal
+				army_org_factor = 0.15                 # Fanatics fight longer before breaking.
+				recovery_rate = 0.15                   # Quickly regroup after battle.
+				land_reinforce_rate = 0.25             # The faithful eagerly fill the ranks.
+				army_defence_factor = 0.20             # Will not yield holy ground.
+				org_loss_when_moving = -0.20           # Relentless marches inspired by faith.
+
+				# Holy Crusade
+				war_support_factor = 0.20              # The people embrace perpetual holy war.
+				justify_war_goal_time = -0.35          # Every infidel is a legitimate target.
+				planning_speed = 0.10                  # Coordinated through religious hierarchy.
+
+				# The Faithful
+				recruitable_population_factor = 0.05   # Volunteers flock to the banners.
+				training_time_factor = -0.10           # Zealots are easy to mobilize.
+
+				# Fanatical Resolve
+				surrender_limit = 0.10                 # The realm refuses to surrender easily.
+
+				# Drawbacks
+				land_night_attack = -0.10              # Limited tactical sophistication.
+				production_speed_buildings_factor = -0.15 # Resources diverted to the Faith.
+				research_speed_factor = -0.05          # Religious orthodoxy slows innovation.
+			}
+		}
+
+	}
+}

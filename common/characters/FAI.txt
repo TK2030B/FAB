@@ -1,0 +1,178 @@
+characters={
+
+FAI_High_Sparrow={
+		name=CRO_High_Sparrow
+		portraits={
+			civilian = {
+				large="gfx/leaders/FAI/Portrait_High_Sparrow.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = FAI_High_Sparrow
+			allowed = {
+				original_tag = FAI
+			}
+			available = {
+			}
+			traits = { marxist_priest }
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = { 
+				theocratic_diplomat 
+				orthodox_rabblerouser 
+				driver_of_the_faithful 
+				the_masses_opium 
+				political_manipulator 
+				emergency_powers 
+				#anarchist_zeal 
+				militant_socialist 
+				anti_democrat 
+				silent_workhorse 
+			}
+
+		}
+	}
+	
+		FAI_High_Septon={
+		name=CRO_High_Septon
+		portraits={
+			civilian = {
+				large="gfx/leaders/FAI/Portrait_High_Septon_T.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = CRO_High_Septon
+			allowed = {
+				original_tag = CRO
+			}
+			available = {
+			}
+			traits = { driver_of_the_faithful }
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = { 
+				theocratic_diplomat
+				cautious_arbiter
+				royalist_bulldog
+				dealbroker
+				silent_workhorse
+				staunch_monarchist
+				anti_democrat
+			}
+		}
+	}
+	
+	FAI_Most_Devout={
+		name=FAI_Most_Devout
+		portraits={
+			civilian={
+				large="gfx/leaders/FAI/Portrait_Most_Devout.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1"
+			traits = { 
+				theocratic_diplomat
+				cautious_arbiter
+				democratic_reformer
+				dealbroker
+				silent_workhorse
+				anti_extremist
+			}
+		}
+	}
+	
+	FAI_Faith_Militant={
+		name=FAI_Faith_Militant
+		portraits={
+			civilian={
+				large="gfx/leaders/FAI/Portrait_Faith_Militant.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = { 
+				theocratic_diplomat
+				orthodox_rabblerouser
+				driver_of_the_faithful
+				political_manipulator
+				emergency_powers
+				dictator
+				anti_democrat
+			}
+		}
+	}
+	
+	#Generals
+	
+	FAI_Brother_Lancel={
+		name=FAI_Brother_Lancel
+		portraits={
+			army = {
+				large="gfx/leaders/FAI/Portrait_Brother_Lancel.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		field_marshal={
+			traits = { 
+				inflexible_strategist
+				organizer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+	FAI_Brother_Boake={
+		name=FAI_Brother_Boake
+		portraits={
+			army = {
+				large="gfx/leaders/FAI/Portrait_Brother_Boake.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		corps_commander={
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	FAI_Brother_Loras={
+		name=FAI_Brother_Loras
+		portraits={
+			army = {
+				large="gfx/leaders/FAI/Portrait_Brother_Loras.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+}

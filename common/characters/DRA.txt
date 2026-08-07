@@ -1,5 +1,37 @@
 characters={
 
+	DRA_Danaerys_Targaryen={
+		name=DRA_Danaerys_Targaryen
+		portraits={
+			army = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
+			}
+			civilian = {
+				large="gfx/leaders/TAR/Portrait_Danaerys_Targaryen.dds"
+				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {  
+				queen_of_the_people  
+				empire_builder  
+				legitimate_heir  
+				warmonger  
+				headstrong  
+				autocratic_imperialist  
+				popular_queen  
+				protector_of_the_campesinos  
+				ideological_crusader  
+				freedom_fighter  
+				indomitable_perseverance  
+				hawk  
+			}
+		}
+	}
+
 	DRA_stannis_baratheon={
 		name=DRA_stannis_baratheon
 		portraits={

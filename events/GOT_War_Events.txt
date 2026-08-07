@@ -125,6 +125,18 @@ country_event = {
 			factor = 1000
 		}
 		
+		if = {
+			limit = { 
+				NOT = { 
+					has_war_with = DRA
+				}
+			}
+			declare_war_on = {
+                target = DRA
+                type = annex_everything
+            }
+		}
+		
 		load_oob = TAR_Dragonstone
 		
 		add_timed_idea = {
@@ -137,7 +149,9 @@ country_event = {
 		navy_experience = 5
 		
 		country_event = { id = GOT_Story_Country.607 hours = 6 }
-		
+		DRA = {
+			country_event = { id = GOT_Diplomatic_Country.70 hours = 6 }
+		}
 		
 			
 	}

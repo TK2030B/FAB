@@ -60,7 +60,7 @@ NOR_communism_party:0 "House Stark"
 RIV_neutrality_party:0 "House Tully"  
 RIV_fascism_party:0 "House Tully"  
 RIV_democratic_party:0 "House Tully"  
-RIV_communism_party:0 "Brotherhood Without Banners"  
+RIV_communism_party:0 "House Tully"  
 
 VAL_neutrality_party:0 "House Arryn"  
 VAL_fascism_party:0 "House Arryn"  
@@ -132,6 +132,10 @@ KAR_fascism_party:0 "House Karstark"
 KAR_democratic_party:0 "House Karstark"  
 KAR_communism_party:0 "House Karstark" 
 
+FAI_neutrality_party:0 "The Faith of the Seven"
+FAI_fascism_party:0 "The Faith Militant"
+FAI_democratic_party:0 "The Most Devout"
+FAI_communism_party:0 "The Sparrows"
  
  #Essos
  SUI_neutrality_party:0 "House Qo"

@@ -21,6 +21,7 @@ GOT_Targaryen_Faction = {
 		AND = {
 			tag = REA
 			GOT_Olenna_Is_Lady_of_REA = yes
+			#has_global_flag = GOT_Sept_Blown_Up_Flag
 		}
 		AND = {
 			tag = IRO
@@ -29,6 +30,34 @@ GOT_Targaryen_Faction = {
 		AND = {
 			tag = DOR
 			GOT_Ellaria_Is_Lady_of_DOR = yes
+		}
+		AND = {
+			tag = NOR
+			has_country_leader = {
+				name = "Jon Snow"
+				ruling_only = yes
+			}
+		}
+		AND = {
+			tag = VAL
+			has_country_leader = {
+				name = "Robin Arryn"
+				ruling_only = yes
+			}
+		}
+		AND = {
+			tag = VAL
+			has_country_leader = {
+				name = "Petyr Baelish"
+				ruling_only = yes
+			}
+		}
+		AND = {
+			tag = RIV
+			has_country_leader = {
+				name = "Edmure Tully"
+				ruling_only = yes
+			}
 		}
 	}
 }
@@ -64,6 +93,7 @@ GOT_Lannister_Faction = {
 		tag = CRO
 		tag = BOL
 		tag = FRE
+		tag = TRL
 		AND = {
 			tag = REA
 			GOT_Joffrey_Is_King = yes
@@ -73,6 +103,17 @@ GOT_Lannister_Faction = {
 			tag = IRO
 			GOT_Cersei_Is_Queen = yes
 			GOT_Euron_Is_Lord_of_IRO = yes
+		}
+		AND = {
+			tag = REA
+			has_country_leader = {
+				name = "Randyll Tarly"
+				ruling_only = yes
+			}
+		}
+		AND = {
+			tag = REA
+			GOT_Olenna_Is_Lady_of_REA = no
 		}
 	}
 	GOT_Lannister_Is_King = yes
@@ -862,4 +903,18 @@ GOT_Can_Claim_WES = {
 
 GOT_Can_Claim_NOR = {
 	GOT_Stark_Ruler = yes
+}
+
+GOT_Sparrows_Active = {
+	CRO = {
+		OR = {
+			has_idea = CRO_Sparrows_Angry
+			has_idea = CRO_Sparrows_Angry_2
+			has_idea = CRO_Sparrows_Angry_3
+			has_idea = CRO_Sparrows_Placated
+			has_idea = CRO_Sparrows_Placated_2
+			has_idea = CRO_Sparrows_Placated_3
+			has_idea = CRO_Faith_Militant
+		}
+	}
 }

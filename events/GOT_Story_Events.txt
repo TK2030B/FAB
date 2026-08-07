@@ -1473,10 +1473,21 @@ country_event = {
 		add_stability = -0.05
 		add_war_support = 0.05
 		
+		
 		create_wargoal = {
 			type = annex_everything
 			target = WES
 			expire = 365
+		}
+		
+		if = {
+			limit = {
+				is_ai = yes 
+			}
+			declare_war_on = {
+				target = WES
+				type = annex_everything
+			}
 		}
 		
 		if = {
@@ -2147,6 +2158,16 @@ country_event = {
 			target = CRO
 			expire = 365
 		}
+		
+		if = {
+			limit = {
+				is_ai = yes 
+			}
+			declare_war_on = {
+				target = CRO
+				type = annex_everything
+			}
+		}
 
 		add_war_support = 0.05
 		add_threat = 3
@@ -2478,6 +2499,16 @@ country_event = {
 			type = annex_everything
 			target = CRO
 			expire = 365
+		}
+		
+		if = {
+			limit = {
+				is_ai = yes 
+			}
+			declare_war_on = {
+				target = CRO
+				type = annex_everything
+			}
 		}
 		
 		add_war_support = 0.10
@@ -4107,6 +4138,16 @@ country_event = {
 			expire = 365
 		}
 		
+		if = {
+			limit = {
+				is_ai = yes 
+			}
+			declare_war_on = {
+				target = CRO
+				type = annex_everything
+			}
+		}
+		
 		#Davos Made Hand of The King
 		add_advisor_role = {
 			character = DRA_Davos_Seaworth
@@ -4308,7 +4349,7 @@ country_event = {
 		CRO = { is_in_faction_with = WES }
 		has_global_flag = GOT_King_In_The_North_Flag
 		surrender_progress < 0.5
-		NOT = { has_global_flag = BPD_Disable_Them_Completely }
+		#NOT = { has_global_flag = BPD_Disable_Them_Completely }
 		has_country_leader = {
 			name = "Robb Stark"
 			ruling_only = yes
@@ -5340,6 +5381,16 @@ country_event = {
 			expire = 365
 		}
 		
+		if = {
+			limit = {
+				is_ai = yes 
+			}
+			declare_war_on = {
+				target = STO
+				type = annex_everything
+			}
+		}
+		
     }
 	
 	option = {
@@ -5403,7 +5454,7 @@ country_event = {
 			}
 			DRA = {
 			   country_event = {
-					id = BPD_Better_Peace_Deals_Country.1
+					id = BPD_Better_Peace_Deals_Country.200
 					hours = 1
 				}
 			}
@@ -5521,7 +5572,7 @@ country_event = {
 					is_faction_leader = yes
 				}
 			   country_event = {
-					id = BPD_Better_Peace_Deals_Country.1
+					id = BPD_Better_Peace_Deals_Country.200
 					hours = 1
 				}
 			}
@@ -9190,7 +9241,7 @@ country_event = {
         tag = WES 
 		date > 1938.5.20
         date < 1938.6.20
-		is_in_faction_with = TYR
+		is_in_faction_with = REA
 		has_global_flag = GOT_Sansa_In_Kings_Landing
     } 
  
@@ -10363,6 +10414,16 @@ country_event = {
 			target = YUN
 			expire = 365
 		}
+		
+			if = {
+				limit = {
+					is_ai = yes 
+				}
+				declare_war_on = {
+					target = YUN
+					type = annex_everything
+				}
+			}
  
         every_other_country = { 
             limit = { 
@@ -10613,7 +10674,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1938.11.15
-        date < 1945.1.1
+        date < 1950.1.1
 		NWA = { has_war_with = WIL } 
 		NOT = { has_war_with = NWA } 
 		has_country_leader = {
@@ -11607,6 +11668,16 @@ country_event = {
 			target = MER
 			expire = 365
 		}
+		
+			if = {
+				limit = {
+					is_ai = yes 
+				}
+				declare_war_on = {
+					target = MER
+					type = annex_everything
+				}
+			}
 		
 		add_state_core = 89
 		add_state_core = 127
@@ -13673,7 +13744,7 @@ country_event = {
 		country_exists = NWA
 		NOT = { has_war_with = NWA }
 		date > 1939.11.15
-        date < 1945.1.1
+        date < 1950.1.1
 		has_war_with = WIL
 		has_global_flag = GOT_Stannis_Aids_Wall_Flag
     } 
@@ -14003,17 +14074,24 @@ country_event = {
         add_stability = -0.05 
         add_political_power = -25 
 		
-		if = {
-			limit = {
-				NOT = { has_global_flag = BPD_Disable_Them_Completely }
-			}
+		#if = {
+		#	limit = {
+		#		NOT = { has_global_flag = BPD_Disable_Them_Completely }
+		#	}
+		#	WIL = {
+		#	   country_event = {
+		#			id = BPD_Better_Peace_Deals_Country.200
+		#			hours = 6
+		#		}
+		#	}
+		#}
+		
 			WIL = {
 			   country_event = {
-					id = BPD_Better_Peace_Deals_Country.1
+					id = BPD_Better_Peace_Deals_Country.200
 					hours = 6
 				}
 			}
-		}
 		
 		WIL = { 
 			country_event = {
@@ -14607,6 +14685,8 @@ country_event = {
         add_stability = 0.05 
         add_political_power = 25 
 		
+		set_global_flag = GOT_Tommen_Margaery_Wedding_Flag
+		
 		REA = {
 			country_event = {
 				id = GOT_Diplomatic_Country.62
@@ -14651,16 +14731,8 @@ country_event = {
         tag = CRO
 		date > 1940.3.10
         date < 1941.3.10
-		OR = {
-			has_country_leader = {
-				name = "Tommen Baratheon"
-				ruling_only = yes
-			}
-			has_country_leader = {
-				name = "Cersei Lannister"
-				ruling_only = yes
-			}
-		}
+		is_in_faction_with = REA
+		GOT_Lannister_Is_King = yes
     } 
  
     fire_only_once = yes 
@@ -14669,12 +14741,22 @@ country_event = {
         name = GOT_Story_Country.414.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 85 
+			# If stability is already extremely high, she might not feel the need to bargain
+            modifier = {
+                factor = 0.5
+                has_stability > 0.80
+            }
+			modifier = {
+                factor = 0.1
+                has_country_leader = {
+                    name = "Joffrey Baratheon"
+                    ruling_only = yes
+                }
+            }
         } 
  
-		add_stability = 0.05
-        add_political_power = 25 
-		set_global_flag = GOT_Sparrows_Empowered_Flag
+		GOT_Sparrows_Placated = yes
  
         every_other_country = { 
             limit = { 
@@ -14686,6 +14768,39 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.414.b
+ 
+        ai_chance = { 
+            factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					has_country_leader = {
+						name = "Joffrey Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			modifier = {
+                factor = 2.0
+                has_stability > 0.80
+                has_political_power > 200
+            }
+			modifier = {
+                factor = 5.0
+                has_country_leader = {
+                    name = "Joffrey Baratheon"
+                    ruling_only = yes
+                }
+            }
+        } 
+ 
+		GOT_Sparrows_Angered = yes
+		
+    }
 } 
  
 # 414 — Cersei Aligns with the High Sparrow
@@ -14820,7 +14935,7 @@ country_event = {
         tag = CRO 
 		date > 1940.4.15
         date < 1941.4.15
-		has_global_flag = GOT_Sparrows_Empowered_Flag
+		GOT_Sparrows_Active = yes
     } 
  
     fire_only_once = yes 
@@ -14829,11 +14944,17 @@ country_event = {
         name = GOT_Story_Country.417.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 80
+            modifier = {
+                factor = 0.01
+                has_country_leader = { name = "Joffrey Baratheon" ruling_only = yes }
+            }			
         } 
  
-        add_stability = -0.05 
-        add_political_power = -25 
+        # Add the military spirit representing their armed presence
+        add_ideas = idea_CRO_Faith_Militant
+
+       GOT_Sparrows_Placated = yes
  
         every_other_country = { 
             limit = { 
@@ -14844,6 +14965,27 @@ country_event = {
                 hours = 6 
             } 
         } 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.417.b
+ 
+        ai_chance = { 
+            factor = 20
+            modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					has_country_leader = {
+						name = "Joffrey Baratheon"
+						ruling_only = yes
+					}
+				}
+			}			
+        } 
+ 
+
+        GOT_Sparrows_Angered = yes
     } 
 } 
  
@@ -15203,6 +15345,7 @@ news_event = {
 } 
  
 # 424 — Stannis Marches Toward Winterfell
+#IMPORTANT EVENT
 country_event = { 
     id = GOT_Story_Country.424 
     title = GOT_Story_Country.424.t 
@@ -15212,7 +15355,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1940.5.20
-        date < 1945.1.1
+        date < 1950.1.1
 		has_country_leader = {
 			name = "Stannis Baratheon"
 			ruling_only = yes
@@ -15505,18 +15648,8 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1940.6.25
-        date < 1940.7.25
-		is_in_faction_with = TYR
-		OR = {
-			has_country_leader = {
-				name = "Tommen Baratheon"
-				ruling_only = yes
-			}
-			has_country_leader = {
-				name = "Cersei Lannister"
-				ruling_only = yes
-			}
-		}
+        date < 1941.6.25
+		GOT_Sparrows_Active = yes
     } 
  
     fire_only_once = yes 
@@ -15528,8 +15661,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
-        add_political_power = 25 
+        GOT_Sparrow_Riots = yes 
  
         every_other_country = { 
             limit = { 
@@ -15720,7 +15852,7 @@ country_event = {
     trigger = { 
         tag = DRA 
 		date > 1940.8.1
-        date < 1945.1.1
+        date < 1950.1.1
 		has_war_with = BOL
 		has_country_leader = {
 			name = "Stannis Baratheon"
@@ -15776,8 +15908,8 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1940.8.1
-        date < 1940.9.1
-		has_global_flag = GOT_Sparrows_Empowered_Flag
+        date < 1941.8.1
+		GOT_Sparrows_Active = yes
     } 
  
     fire_only_once = yes 
@@ -15789,7 +15921,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
+        GOT_Sparrow_Riots = yes
  
         every_other_country = { 
             limit = { 
@@ -15985,8 +16117,8 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1940.9.5
-        date < 1940.10.5
-		has_global_flag = GOT_Sparrows_Empowered_Flag
+        date < 1941.9.5
+		GOT_Sparrows_Active = yes
     } 
  
     fire_only_once = yes 
@@ -15998,8 +16130,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
-        add_political_power = -25 
+        GOT_Sparrow_Riots = yes
  
         every_other_country = { 
             limit = { 
@@ -16141,7 +16272,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1940.10.10
-        date < 1945.1.1
+        date < 1950.1.1
 		has_war_with = BOL
 		BOL = { has_capitulated = no }
 		has_country_leader = {
@@ -16525,7 +16656,7 @@ country_event = {
     } 
 	
 	option = { 
-        name = GOT_Story_Country.446.a 
+        name = GOT_Story_Country.446.b 
  
         ai_chance = { 
             factor = 40 
@@ -16637,8 +16768,8 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1940.11.15
-        date < 1940.12.15
-		has_global_flag = GOT_Sparrows_Empowered_Flag
+        date < 1941.11.15
+		GOT_Sparrows_Active = yes
     } 
  
     fire_only_once = yes 
@@ -16650,8 +16781,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
-        add_political_power = -25 
+        GOT_Sparrow_Riots = yes
  
         every_other_country = { 
             limit = { 
@@ -16680,6 +16810,7 @@ news_event = {
 } 
  
 # 448 — Stannis Defeated and Slain SPECIAL ATTENTION
+#IMPORTANT EVENT
 country_event = { 
     id = GOT_Story_Country.448 
     title = GOT_Story_Country.448.t 
@@ -16689,7 +16820,7 @@ country_event = {
     trigger = { 
         tag = DRA
 		date > 1940.11.15
-        date < 1945.1.1
+        date < 1950.1.1
 		has_war_with = BOL
 		BOL = { has_capitulated = no } 
 		BOL = { controls_state = 156 } 
@@ -16996,6 +17127,7 @@ news_event = {
 } 
  
 # 503 — Ellaria and the Sand Snakes Seize Dorne
+#Important Leadership Change
 country_event = { 
     id = GOT_Story_Country.503 
     title = GOT_Story_Country.503.t 
@@ -17005,21 +17137,81 @@ country_event = {
     trigger = { 
         tag = DOR 
 		date > 1941.1.1
-        date < 1941.2.1
+        date < 1942.1.1
+		#has_global_flag = GOT_Oberyn_Martell_Murdered_Flag
+		NOT = {
+			has_country_leader = {
+				name = "Ellaria Sand"
+				ruling_only = yes
+			}
+		}
     } 
  
     fire_only_once = yes 
  
-    option = { 
+     option = { 
         name = GOT_Story_Country.503.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 45 
         } 
  
         add_stability = -0.05 
         add_war_support = 0.1 
         add_political_power = 50 
+		
+		remove_country_leader_role = {
+			character = DOR_doran_martell
+			ideology = NR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = DOR_Ellaria_Sand
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					hedonist  
+					warmonger  
+					political_manipulator  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_government = communism }
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = communism
+		}
+		
+		if = {
+		limit = {
+			is_historical_focus_on = yes
+			NOT = { has_global_flag = GOT_Sandbox_Mode }
+		}
+		set_global_flag = GOT_Doran_Martell_Murdered_Flag
+	}
+		else = {
+			random_list = {
+				55 = {
+				}
+
+				45 = {
+					start_civil_war = {
+						ideology = fascism
+						size = 0.40
+					}
+				}
+			}
+		}
  
         every_other_country = { 
             limit = { 
@@ -17031,6 +17223,59 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.503.b 
+ 
+        ai_chance = { 
+            factor = 55 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+
+		add_stability = -0.05 
+        add_war_support = 0.1 
+        add_political_power = 50 
+		
+		if = {
+			limit = {
+				NOT = { has_government = fascism }
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = fascism
+		}
+
+		random_list = {
+			70 = {
+
+			}
+
+			30 = {
+				start_civil_war = {
+					ideology = communism
+					size = 0.40
+				}
+			}
+		}
+ 
+        every_other_country = {
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.503 
+                hours = 6 
+            } 
+        } 
+
+    }
 } 
  
 # 503 — Ellaria and the Sand Snakes Seize Dorne
@@ -17159,7 +17404,8 @@ country_event = {
     trigger = { 
         tag = NWA 
 		date > 1941.2.5
-        date < 1941.3.5
+        date < 1942.2.5
+		has_global_flag = GOT_Jon_Snow_Murdered_Flag
     } 
  
     fire_only_once = yes 
@@ -17168,11 +17414,101 @@ country_event = {
         name = GOT_Story_Country.506.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}			
         } 
  
         add_stability = 0.05
         add_political_power = 75 
+		
+		set_politics = {
+			ruling_party = neutrality
+		}
+		
+		retire_country_leader = yes
+		
+		set_politics = {
+			ruling_party = communism
+		}
+		
+		retire_country_leader = yes
+			
+		add_popularity = {
+			popularity = 0.50
+			ideology = communism
+		}
+		
+		add_country_leader_role = {
+			character = NWA_jon_snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = NWA_jon_snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					BOL = { owns_state = 123 }
+					BOL = { 123 = { is_controlled_by_ROOT_or_ally = yes } }
+				}
+				OR = {
+					NOR = { exists = no }
+					NOR = { is_subject = yes }
+				}
+				NOT = {
+					has_global_flag = GOT_Second_Northern_Civil_War_Flag
+				}
+			}
+			NWA = {
+				country_event = { 
+					id = GOT_Story_Country.745 
+					hours = 6 
+				} 
+			}
+		}
+		
+		set_global_flag = GOT_Jon_Snow_Revived_Flag
+		set_global_flag = GOT_Jon_Stays_Watch_Flag
  
         every_other_country = { 
             limit = { 
@@ -17184,6 +17520,97 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.506.b 
+ 
+        ai_chance = { 
+            factor = 80 
+        } 
+ 
+        add_stability = 0.05
+        add_political_power = 75 
+		
+		set_politics = {
+			ruling_party = neutrality
+		}
+		
+		retire_country_leader = yes
+		
+		set_politics = {
+			ruling_party = communism
+		}
+		
+		retire_country_leader = yes
+			
+		add_popularity = {
+			popularity = 0.50
+			ideology = communism
+		}
+		
+		add_country_leader_role = {
+			character = NWA_eddison_tollett
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					reluctant_veteran  
+					stout_defender  
+					voice_of_restraint  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = NWA_eddison_tollett
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					reluctant_veteran  
+					stout_defender  
+					voice_of_restraint  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					BOL = { owns_state = 123 }
+					BOL = { 123 = { is_controlled_by_ROOT_or_ally = yes } }
+				}
+				OR = {
+					NOR = { exists = no }
+					NOR = { is_subject = yes }
+				}
+				NOT = {
+					has_global_flag = GOT_Second_Northern_Civil_War_Flag
+				}
+			}
+			NWA = {
+				country_event = { 
+					id = GOT_Story_Country.745 
+					hours = 6 
+				} 
+			}
+		}
+		
+		set_global_flag = GOT_Jon_Snow_Revived_Flag
+		set_global_flag = GOT_Jon_Leaves_Watch_Flag
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.506 
+                hours = 6 
+            } 
+        } 
+    }
 } 
  
 # 506 — Jon Snow’s Resurrection
@@ -17210,7 +17637,13 @@ country_event = {
     trigger = { 
         tag = BOL 
 		date > 1941.2.5
-        date < 1941.3.5
+        date < 1942.2.5
+		NOT = {
+			has_country_leader = {
+				name = "Ramsay Bolton"
+				ruling_only = yes
+			}
+		}
     } 
  
     fire_only_once = yes 
@@ -17219,12 +17652,94 @@ country_event = {
         name = GOT_Story_Country.507.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 85 
         } 
  
-		#SPECIAL ATTENTION
-		#I think we need a national idea here called 'Ramsay’s Total Control' that adds certain debuffs and buffs reflecting the totalitarian rule of this maniac
-		add_stability = -0.15
+        add_stability = -0.05 
+        add_war_support = 0.1 
+        add_political_power = 50 
+		
+		if = {
+			limit = {
+				NOT = { has_government = fascism }
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = fascism
+		}
+		
+		if = {
+			limit = {
+				is_historical_focus_on = yes
+				NOT = { has_global_flag = GOT_Sandbox_Mode }
+			}
+			set_global_flag = GOT_Roose_Bolton_Murdered_Flag
+			
+			remove_country_leader_role = {
+				character = BOL_roose_bolton
+				ideology = NR_subideology
+			}
+			
+			add_country_leader_role = {
+				character = BOL_ramsay_snow
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						dictator
+						warmonger
+						cornered_fox
+						baron_of_terror
+						hedonist
+						sins_of_the_father
+					}
+				}
+				promote_leader = yes
+			}
+			
+		}
+		else = {
+			random_list = {
+				55 = {
+				
+				set_global_flag = GOT_Roose_Bolton_Murdered_Flag
+				
+				remove_country_leader_role = {
+					character = BOL_roose_bolton
+					ideology = NR_subideology
+				}
+				
+				add_country_leader_role = {
+					character = BOL_ramsay_snow
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							dictator
+							warmonger
+							cornered_fox
+							baron_of_terror
+							hedonist
+							sins_of_the_father
+						}
+					}
+					promote_leader = yes
+				}
+				
+				}
+
+				45 = {
+					start_civil_war = {
+						ideology = neutrality
+						size = 0.40
+					}
+				}
+			}
+		}
  
         every_other_country = { 
             limit = { 
@@ -17235,6 +17750,59 @@ country_event = {
                 hours = 6 
             } 
         } 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.507.b 
+ 
+        ai_chance = { 
+            factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+
+		add_stability = -0.05 
+        add_war_support = 0.1 
+        add_political_power = 50 
+		
+		if = {
+			limit = {
+				NOT = { has_government = neutrality }
+			}
+			set_politics = {
+				ruling_party = neutrality
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = neutrality
+		}
+
+		random_list = {
+			70 = {
+
+			}
+
+			30 = {
+				start_civil_war = {
+					ideology = fascism
+					size = 0.40
+				}
+			}
+		}
+ 
+        every_other_country = {
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.507 
+                hours = 6 
+            } 
+        } 
+
     } 
 } 
  
@@ -17251,7 +17819,8 @@ news_event = {
         name = GOT_Story_News.507.a 
     } 
 } 
- 
+
+#Important Leadership Change
 # 508 — Balon Greyjoy Falls from the Bridge
 country_event = { 
     id = GOT_Story_Country.508 
@@ -17262,19 +17831,75 @@ country_event = {
     trigger = { 
         tag = IRO 
 		date > 1941.2.5
-        date < 1941.3.5
+        date < 1942.2.5
+		NOT = {
+			has_country_leader = {
+				name = "Euron Greyjoy"
+				ruling_only = yes
+			}
+		}
     } 
  
     fire_only_once = yes 
  
-    option = { 
+    
+	option = { 
         name = GOT_Story_Country.508.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 35 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
         } 
+		
+		set_global_flag = GOT_Balon_Greyjoy_Murdered_Flag
  
-        add_stability = -0.05
+        add_stability = -0.05 
+		
+		remove_country_leader_role = {
+			character = IRO_balon_greyjoy
+			ideology = NR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = IRO_Yara_Greyjoy
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					stout_defender  
+					warrior_code  
+					generallissimo  
+					autocratic_imperialist  
+					conservative_nationalist  
+					reluctant_interventionist  
+					hawk  
+					popular_figurehead  
+					tenacious_negotiator  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_government = communism }
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = communism
+		}
+		
+		#start_civil_war = {
+		#	ideology = fascism
+		#	size = 0.40
+		#}
  
         every_other_country = { 
             limit = { 
@@ -17286,6 +17911,75 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.508.b 
+ 
+        ai_chance = { 
+            factor = 65 
+        } 
+		
+		set_global_flag = GOT_Balon_Greyjoy_Murdered_Flag
+ 
+        add_stability = -0.05 
+		
+		remove_country_leader_role = {
+			character = IRO_balon_greyjoy
+			ideology = NR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = IRO_Euron_Greyjoy
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					warmonger  
+					hedonist  
+					fascist_militia_leader  
+					adventurous_daredevil  
+					autocratic_imperialist  
+					political_manipulator  
+					hawk  
+					baron_of_terror  
+					incognito  
+					#anarchist_zeal  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_government = fascism }
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = fascism
+		}
+		
+		#start_civil_war = {
+		#	ideology = communism
+		#	size = 0.40
+		#}
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.508 
+                hours = 6 
+            } 
+        } 
+    } 
+	
+	
+	
 } 
  
 # 508 — Balon Greyjoy Falls from the Bridge
@@ -17412,22 +18106,134 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country511 
  
     trigger = { 
-        tag = NOR
+        tag = NWA
 		date > 1941.3.10
-        date < 1941.4.10	
+        date < 1941.4.10
+		has_global_flag = GOT_Jon_Snow_Murdered_Flag		
     } 
  
     fire_only_once = yes 
- 
-    option = { 
+	
+	option = { 
         name = GOT_Story_Country.511.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 90 
         } 
  
-        add_stability = 0.05 
-        add_political_power = -25
+        remove_country_leader_role = {
+			character = NWA_Loyalists
+			ideology = NR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = NWA_Loyalists
+			ideology = CR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = NWA_eddison_tollett
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					reluctant_veteran  
+					stout_defender  
+					voice_of_restraint  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = NWA_eddison_tollett
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					reluctant_veteran  
+					stout_defender  
+					voice_of_restraint  
+				}
+			}
+			promote_leader = yes
+		}
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.511 
+                hours = 6 
+            } 
+        } 
+    } 
+ 
+    option = { 
+        name = GOT_Story_Country.511.b 
+ 
+        ai_chance = { 
+            factor = 10 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+ 
+        remove_country_leader_role = {
+			character = NWA_Loyalists
+			ideology = NR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = NWA_Loyalists
+			ideology = CR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = NWA_jon_snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = NWA_jon_snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
  
         every_other_country = { 
             limit = { 
@@ -17513,7 +18319,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1941.3.10
-        date < 1941.4.10	
+        date < 1941.4.10
+		has_global_flag = GOT_Arya_Escapes_Flag		
     } 
  
     fire_only_once = yes 
@@ -17712,33 +18519,41 @@ country_event = {
     desc = GOT_Story_Country.517.d 
     picture = GFX_report_event_GOT_Story_Country517 
  
-    trigger = { 
-        tag = TAR
-		date > 1941.4.15
-        date < 1941.5.15
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes
  
     option = { 
         name = GOT_Story_Country.517.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 95 
         } 
  
         add_war_support = 0.05 
-        add_political_power = 125 
+        add_political_power = -125 
+		
+		DOT = { 
+			country_event = {
+				id = GOT_Diplomatic_Country.69
+				hours = 6
+			}
+		}
+  
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.517.b 
  
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.517 
-                hours = 6 
-            } 
+        ai_chance = { 
+            factor = 5 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
         } 
+ 
+        add_war_support = -0.05 
+        add_political_power = 125 
+  
     } 
 } 
  
@@ -17817,7 +18632,8 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1941.4.15
-        date < 1941.5.15
+        date < 1942.4.15
+		GOT_Sparrows_Active = yes
     } 
  
     fire_only_once = yes 
@@ -17826,12 +18642,129 @@ country_event = {
         name = GOT_Story_Country.519.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 30 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_country_leader = {
+					name = "Tommen Baratheon"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_country_leader = {
+					name = "Tommen Baratheon"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				factor = 0.75
+				has_country_leader = {
+					name = "Myrcella Baratheon"
+					ruling_only = yes
+				}
+			}
+			# Joffrey is much more aggressive
+			modifier = {
+				factor = 2
+				has_country_leader = {
+					name = "Joffrey Baratheon"
+					ruling_only = yes
+				}
+			}
+
+			# Cersei is even more likely
+			modifier = {
+				factor = 3
+				has_country_leader = {
+					name = "Cersei Lannister"
+					ruling_only = yes
+				}
+			}			
         } 
  
+		if = {
+		limit = {
+			has_idea = CRO_Faith_Militant
+		}
+
+		random_list = {
+			45 = {
+				country_event = { id = GOT_Diplomatic_Country.71 days = 1 }
+			}
+
+			20 = {
+				country_event = { id = GOT_Diplomatic_Country.72 days = 1 }
+			}
+
+			35 = {
+				country_event = { id = GOT_Diplomatic_Country.73 days = 1 }
+			}
+		}
+	}
+	else = {
+		random_list = {
+			65 = {
+				country_event = { id = GOT_Diplomatic_Country.71 days = 1 }
+			}
+
+			20 = {
+				country_event = { id = GOT_Diplomatic_Country.72 days = 1 }
+			}
+
+			15 = {
+				country_event = { id = GOT_Diplomatic_Country.73 days = 1 }
+			}
+		}
+	}
+  
+    }
+
+	option = { 
+        name = GOT_Story_Country.519.b 
+ 
+        ai_chance = { 
+            factor = 70 
+			# Joffrey is much more aggressive
+			modifier = {
+				factor = 1.5
+				has_country_leader = {
+					name = "Tommen Baratheon"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				factor = 1.25
+				has_country_leader = {
+					name = "Myrcella Baratheon"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_country_leader = {
+					name = "Joffrey Baratheon"
+					ruling_only = yes
+				}
+			}
+
+			# Cersei is even more likely
+			modifier = {
+				factor = 0.35
+				has_country_leader = {
+					name = "Cersei Lannister"
+					ruling_only = yes
+				}
+			}
+        } 
+		
+		country_event = { 
+			id = GOT_Story_Country.527 
+			days = 2 
+        }
+ 
         add_stability = -0.1 
-        add_political_power = -50 
-        army_experience = 20 
  
         every_other_country = { 
             limit = { 
@@ -17842,7 +18775,7 @@ country_event = {
                 hours = 6 
             } 
         } 
-    } 
+    }	
 } 
  
 # 519 — Lannister–Tyrell Plot Against the Sparrow
@@ -18074,9 +19007,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country524 
  
     trigger = { 
-        tag = NOR 
+        tag = BRA 
 		date > 1941.5.20
         date < 1941.6.20
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -18220,13 +19154,7 @@ country_event = {
     desc = GOT_Story_Country.527.d 
     picture = GFX_report_event_GOT_Story_Country527 
  
-    trigger = { 
-        tag = CRO
-		date > 1941.6.25
-        date < 1941.7.25
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes 
  
     option = { 
         name = GOT_Story_Country.527.a 
@@ -18235,8 +19163,7 @@ country_event = {
             factor = 10 
         } 
  
-		add_stability = 0.1 
-        add_political_power = -75 
+		GOT_Sparrows_Placated = yes
  
         every_other_country = { 
             limit = { 
@@ -18272,9 +19199,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country528 
  
     trigger = { 
-        tag = NOR 
+        tag = BRA 
 		date > 1941.6.25
         date < 1941.7.25
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -18567,9 +19495,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country534 
  
     trigger = { 
-        tag = NOR 
+        tag = BRA
 		date > 1941.8.1
         date < 1941.9.1
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -18665,9 +19594,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country536 
  
     trigger = { 
-        tag = NOR
+        tag = BRA
 		date > 1941.9.5
         date < 1941.10.5
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -18715,7 +19645,9 @@ country_event = {
     trigger = { 
         tag = WES 
 		date > 1941.9.5
-        date < 1941.10.5
+        date < 1942.9.5
+		180 = { is_controlled_by_ROOT_or_ally = yes }
+		NOT = { 180 = { is_controlled_by = RIV } }
     } 
  
     fire_only_once = yes 
@@ -18766,7 +19698,12 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1941.9.5
-        date < 1941.10.5
+        date < 1942.9.5
+		GOT_Sparrows_Active = yes
+		has_country_leader = {
+			name = "Tommen Baratheon"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -18918,7 +19855,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1941.10.10
-        date < 1941.11.10
+        date < 1942.10.10
+		has_war_with = BOL
     } 
  
     fire_only_once = yes 
@@ -18969,7 +19907,7 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1941.10.10
-        date < 1941.11.10
+        date < 1942.10.10
     } 
  
     fire_only_once = yes 
@@ -19112,6 +20050,7 @@ news_event = {
 } 
  
 # 545 — Pact with the Greyjoys
+# OK VERY IMPORTANT
 country_event = { 
     id = GOT_Story_Country.545 
     title = GOT_Story_Country.545.t 
@@ -19121,7 +20060,8 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1941.10.10
-        date < 1941.11.10
+        date < 1942.10.10
+		is_in_faction_with = IRO
     } 
  
     fire_only_once = yes 
@@ -19164,7 +20104,7 @@ news_event = {
     } 
 } 
  
-# 546 — Wildfire at the Sept
+# 546 — Lannister–Tyrell Plot Against the Sparrow
 country_event = { 
     id = GOT_Story_Country.546 
     title = GOT_Story_Country.546.t 
@@ -19172,9 +20112,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country546 
  
     trigger = { 
-        tag = CRO
+        tag = CRO 
 		date > 1941.11.15
-        date < 1941.12.15
+        date < 1942.11.15
+		GOT_Sparrows_Active = yes
     } 
  
     fire_only_once = yes 
@@ -19183,22 +20124,107 @@ country_event = {
         name = GOT_Story_Country.546.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 70 
+			modifier = {
+				factor = 0.5
+				has_country_leader = {
+					name = "Tommen Baratheon"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				factor = 0.75
+				has_country_leader = {
+					name = "Myrcella Baratheon"
+					ruling_only = yes
+				}
+			}
+			# Joffrey is much more aggressive
+			modifier = {
+				factor = 2
+				has_country_leader = {
+					name = "Joffrey Baratheon"
+					ruling_only = yes
+				}
+			}
+
+			# Cersei is even more likely
+			modifier = {
+				factor = 3
+				has_country_leader = {
+					name = "Cersei Lannister"
+					ruling_only = yes
+				}
+			}			
         } 
  
-        #SPECIAL ATTENTION
-		add_stability = -0.15 
+	if = {
+		limit = {
+			is_historical_focus_on = yes
+			NOT = { has_global_flag = GOT_Sandbox_Mode }
+		}
+		country_event = { id = GOT_Diplomatic_Country.74 days = 1 }
+	}
+	else = {
+		random_list = {
+			50 = {
+				country_event = { id = GOT_Diplomatic_Country.74 days = 1 }
+			}
+
+			50 = {
+				country_event = { id = GOT_Diplomatic_Country.75 days = 1 }
+			}
+		}
+	}
+  
+    }
+
+	option = { 
+        name = GOT_Story_Country.546.b 
  
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.546 
-                hours = 6 
-            } 
+        ai_chance = { 
+            factor = 30 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 1.5
+				has_country_leader = {
+					name = "Tommen Baratheon"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				factor = 1.25
+				has_country_leader = {
+					name = "Myrcella Baratheon"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_country_leader = {
+					name = "Joffrey Baratheon"
+					ruling_only = yes
+				}
+			}
+
+			# Cersei is even more likely
+			modifier = {
+				factor = 0.35
+				has_country_leader = {
+					name = "Cersei Lannister"
+					ruling_only = yes
+				}
+			}
         } 
-    } 
+		
+		#TODO EVENT FOR TRIAL OF CERSEI
+ 
+        add_stability = -0.1 
+  
+    }	
 } 
  
 # 546 — Wildfire at the Sept
@@ -19270,11 +20296,13 @@ country_event = {
     desc = GOT_Story_Country.548.d 
     picture = GFX_report_event_GOT_Story_Country548 
  
-    trigger = { 
-        tag = NOR 
-		date > 1941.11.15
-        date < 1941.12.15
-    } 
+ #   trigger = { 
+ #       tag = NOR 
+ #		date > 1941.11.15
+  #      date < 1941.12.15
+  #  } 
+  
+	is_triggered_only = yes
  
     fire_only_once = yes 
  
@@ -19388,6 +20416,18 @@ country_event = {
 			target = DRA
 			expire = 365
 		}
+		
+			if = {
+				limit = {
+					is_ai = yes 
+				}
+				declare_war_on = {
+					target = DRA
+					type = annex_everything
+				}
+			}
+		
+		set_global_flag = GOT_Dany_Sails_West_Flag
  
         every_other_country = { 
             limit = { 
@@ -19415,7 +20455,8 @@ news_event = {
     } 
 } 
  
-# 601 — Arya Eliminates House Frey
+# 601 — Arya Eliminates House Frey // Death of Walder Frey
+# IMPORTANT EVENT
 country_event = { 
     id = GOT_Story_Country.601 
     title = GOT_Story_Country.601.t 
@@ -19423,9 +20464,18 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country601 
  
     trigger = { 
-        tag = NOR
+        tag = FRE
+		OR = {
+			RIV = { exists = no }
+			RIV = { is_puppet_of = FRE }
+			AND = { 
+				RIV = { has_capitulated = yes }
+				RIV = { has_war_with = FRE }
+			}
+		}
 		date > 1942.1.1
-        date < 1942.2.1
+        date < 1943.1.1
+		has_global_flag = GOT_Arya_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -19437,8 +20487,68 @@ country_event = {
             factor = 10 
         } 
  
-		#SPECIAL ATTENTION
-		#The House of Frey must be destroyed after this event
+		every_state = { 
+			limit = { 
+				is_core_of = FRE
+			} 
+			add_core_of = RIV
+		}
+		
+		RIV = {
+			transfer_state = 180
+			inherit_technology = FRE
+			if = {
+				limit = {
+					has_country_leader = {
+						name = "Hoster Tully"
+						ruling_only = yes
+					}
+				}
+				kill_country_leader = yes
+				add_country_leader_role = {
+					character = RIV_Edmure_Tully
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = {  
+							incompetent_leader  
+							headstrong  
+							stout_defender  
+							reluctant_veteran  
+							unpopular_monarch  
+						}
+					}
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_government = communism }
+				}
+				set_politics = {
+					ruling_party = communism
+				}
+			}
+			add_popularity = {
+				popularity = 0.50
+				ideology = communism
+			}
+		}
+		
+		end_puppet = RIV
+					
+		transfer_units_fraction= {
+			target = RIV
+			size = 0.4
+			keep_unit_leaders_trigger = {
+				always = yes
+			}
+		}
+		
+		declare_war_on = {
+			target = RIV
+			type = civil_war
+		}
  
         every_other_country = { 
             limit = { 
@@ -19727,8 +20837,32 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "Fire and Blood"
+		}
  
         add_political_power = 25
+		
+		every_other_country = { 
+            limit = { 
+                OR = {
+					original_tag = IRO
+					original_tag = DOR
+					original_tag = REA
+				}
+				NOT = {
+					is_in_faction_with = TAR
+				} 
+            } 
+            country_event = { 
+                id = GOT_Diplomatic_Country.78 
+                hours = 6 
+            } 
+        }
  
         every_other_country = { 
             limit = { 
@@ -19851,43 +20985,313 @@ news_event = {
         name = GOT_Story_News.609.a 
     } 
 } 
- 
+
+### Special Attention
 # 610 — Jon Journeys South
-country_event = { 
-    id = GOT_Story_Country.610 
-    title = GOT_Story_Country.610.t 
-    desc = GOT_Story_Country.610.d 
-    picture = GFX_report_event_GOT_Story_Country610 
- 
-    trigger = { 
-        tag = NOR
-		date > 1942.2.22
-        date < 1942.3.22
+country_event = {
+	id = GOT_Story_Country.610
+	title = GOT_Story_Country.610.t
+	desc = GOT_Story_Country.610.d
+	picture = GFX_report_event_GOT_Story_Country610 
+
+	trigger = { 
+        tag = NOR 
+		date > 1942.1.1
+        date < 1943.1.1
+		TAR = { has_war_with = CRO }
+		is_faction_leader = yes
+		has_country_leader = {
+			name = "Jon Snow"
+			ruling_only = yes
+		}
     } 
  
-    fire_only_once = yes 
- 
-    option = { 
-        name = GOT_Story_Country.610.a 
- 
-        ai_chance = { 
-            factor = 10 
-        } 
- 
-		#SPECIAL ATTENTION
-		#Perhaps temporarily make Sansa the ruler of the North
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.610 
-                hours = 6 
-            } 
-        } 
-    } 
-} 
+    fire_only_once = yes
+
+	option = {
+		name = GOT_Story_Country.610.a
+		
+		ai_chance = { 
+            base = 45
+			modifier = {
+				add = 100
+				has_war_with = CRO
+			}
+			modifier = {
+				add = 200
+				is_in_faction_with = TAR
+			}
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					TAR = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						TAR = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						TAR = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						TAR = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 200
+				GOT_Targaryen_Faction = yes
+			}
+			modifier = {
+				factor = 0
+				GOT_Lannister_Faction = yes
+				is_historical_focus_on = yes
+			}		
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+		
+			if = {
+			limit = {
+				has_war_with = TAR
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			every_other_country = { 
+				limit = { 
+					is_in_faction_with = NOR
+					NOT = {
+						is_in_faction_with = TAR
+					} 
+				} 
+				country_event = { 
+					id = GOT_Diplomatic_Country.86 
+					hours = 6 
+				} 
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+			
+			every_other_country = { 
+				limit = { 
+					exists = yes 
+				} 
+				news_event = { 
+					id = GOT_Story_News.610 
+					hours = 6 
+				} 
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.610.b
+		
+		ai_chance = { 
+            base = 10
+			modifier = {
+				add = 100
+				has_war_with = TAR
+			}
+			modifier = {
+				add = 200
+				is_in_faction_with = CRO
+			}
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					CRO = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						CRO = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						CRO = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						CRO = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 200
+				GOT_Lannister_Faction = yes
+			}
+			modifier = {
+				factor = 0
+				GOT_Targaryen_Faction = yes
+				is_historical_focus_on = yes
+			}			
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+		
+			if = {
+			limit = {
+				has_war_with = CRO
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			every_other_country = { 
+				limit = { 
+					is_in_faction_with = NOR
+					NOT = {
+						is_in_faction_with = CRO
+					} 
+				} 
+				country_event = { 
+					id = GOT_Diplomatic_Country.87 
+					hours = 6 
+				} 
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+			
+			every_other_country = { 
+				limit = { 
+					exists = yes 
+				} 
+				news_event = { 
+					id = GOT_Story_News.610 
+					hours = 6 
+				} 
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Story_Country.610.c
+		
+		ai_chance = { 
+            base = 45
+			modifier = {
+				factor = 0
+				GOT_Lannister_Faction = yes
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				GOT_Targaryen_Faction = yes
+				is_historical_focus_on = yes
+			}	
+			modifier = {
+				factor = 0
+				is_in_faction_with = TAR
+			}
+			modifier = {
+				factor = 0
+				is_in_faction_with = CRO
+			}			
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+		
+		every_other_country = { 
+				limit = { 
+					exists = yes 
+				} 
+				news_event = { 
+					id = GOT_Story_News.610 
+					hours = 6 
+				} 
+			}
+
+		
+	}
+}
  
 # 610 — Jon Journeys South
 news_event = { 
@@ -20611,7 +22015,7 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1942.6.6
-        date < 1942.7.6
+        date < 1943.6.6
     } 
  
     fire_only_once = yes 
@@ -22461,11 +23865,7 @@ country_event = {
             factor = 10 
         } 
  
-		add_temporary_buff_to_units = {
-			combat_defense = 0.15
-						
-			days = 60
-		}
+		add_war_support = 0.05
  
         every_other_country = { 
             limit = { 
@@ -23900,3 +25300,738 @@ news_event = {
     } 
 } 
  
+# 743 — Ironborn Civil War
+country_event = { 
+    id = GOT_Story_Country.743 
+    title = GOT_Story_Country.743.t 
+    desc = GOT_Story_Country.743.d 
+    picture = GFX_report_event_Pyke
+ 
+    trigger = { 
+        tag = IRO 
+		date > 1941.2.5
+        date < 1950.1.1
+		has_global_flag = GOT_Balon_Greyjoy_Murdered_Flag
+		OR = {
+			AND = {
+				is_in_faction_with = TAR
+				has_war_with = CRO
+			}
+			AND = {
+				is_in_faction_with = CRO
+				has_war_with = TAR
+			}
+		}
+    } 
+ 
+    fire_only_once = yes 
+ 
+    
+	option = { 
+        name = GOT_Story_Country.743.a 
+ 
+        ai_chance = { 
+            factor = 100
+        } 
+ 
+        add_stability = -0.05 
+
+		
+		if = {
+			limit = {
+				has_country_leader = {
+					name = "Euron Greyjoy"
+					ruling_only = yes
+				}
+			}
+			start_civil_war = {
+				ideology = communism
+				size = 0.40
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_leader = {
+					name = "Yara Greyjoy"
+					ruling_only = yes
+				}
+			}
+			start_civil_war = {
+				ideology = fascism
+				size = 0.40
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_leader = {
+					name = "Theon Greyjoy"
+					ruling_only = yes
+				}
+			}
+			start_civil_war = {
+				ideology = fascism
+				size = 0.40
+			}
+		}
+		else = {
+			start_civil_war = {
+				ideology = fascism
+				size = 0.40
+			}
+		}
+		
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.743 
+                hours = 6 
+            } 
+        } 
+    } 	
+} 
+
+# 743 — Ironborn Civil War
+news_event = { 
+    id = GOT_Story_News.743 
+    title = GOT_Story_News.743.t 
+    desc = GOT_Story_News.743.d 
+    picture = GFX_news_event_Pyke
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.743.a 
+    } 
+} 
+
+# 744 — Reach Civil War
+country_event = { 
+    id = GOT_Story_Country.744 
+    title = GOT_Story_Country.744.t 
+    desc = GOT_Story_Country.744.d 
+    picture = GFX_report_event_Highgarden
+ 
+    trigger = { 
+		OR = {
+			tag = REA 
+			tag = TRL 
+		}
+		date > 1941.11.15
+        date < 1950.1.1
+		#has_global_flag = GOT_Sept_Blown_Up_Flag
+		OR = {
+			AND = {
+				is_in_faction_with = TAR
+				has_war_with = CRO
+			}
+			AND = {
+				is_in_faction_with = CRO
+				has_war_with = TAR
+			}
+			AND = {
+				REA = { exists = no }
+				TRL = { owns_state = 115 }
+			}
+		}
+    } 
+ 
+    fire_only_once = yes 
+ 
+    
+	option = { 
+        name = GOT_Story_Country.744.a 
+		
+		trigger = {	tag = REA }
+ 
+        ai_chance = { 
+            factor = 100
+        } 
+ 
+        add_stability = -0.05
+		
+		every_state = { 
+			limit = { 
+				is_core_of = REA
+			} 
+			add_core_of = TRL
+		}
+		
+		if = {
+			limit = {
+				owns_state = 224
+			}
+			TRL = {
+				transfer_state = 224
+			}
+		}
+		
+		if = {
+			limit = {
+				owns_state = 241
+			}
+			TRL = {
+				transfer_state = 241
+			}
+		}
+		
+		if = {
+			limit = {
+				owns_state = 123
+			}
+			TRL = {
+				transfer_state = 123
+			}
+		}
+		
+		TRL = {
+			transfer_state = 246
+			inherit_technology = REA
+		}
+		
+		end_puppet = TRL
+					
+		transfer_units_fraction= {
+			target = TRL
+			size = 0.4
+			keep_unit_leaders_trigger = {
+				always = yes
+			}
+		}
+		
+		declare_war_on = {
+			target = TRL
+			type = civil_war
+		}
+		
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.744 
+                hours = 6 
+            } 
+        }
+		
+    } 	
+	
+	option = { 
+        name = GOT_Story_Country.744.b 
+		
+		trigger = {	tag = TRL }
+ 
+        ai_chance = { 
+            factor = 100
+        } 
+ 
+        add_stability = -0.05 
+		
+		every_state = { 
+			limit = { 
+				is_core_of = TRL
+			} 
+			add_core_of = REA
+		}
+		
+		if = {
+			limit = {
+				owns_state = 99
+			}
+			REA = {
+				transfer_state = 99
+			}
+		}
+		
+		if = {
+			limit = {
+				owns_state = 143
+			}
+			REA = {
+				transfer_state = 143
+			}
+		}
+		
+		REA = {
+			transfer_state = 115
+			inherit_technology = TRL
+		}
+		
+		end_puppet = REA
+					
+		transfer_units_fraction= {
+			target = REA
+			size = 0.4
+			keep_unit_leaders_trigger = {
+				always = yes
+			}
+		}
+		
+		declare_war_on = {
+			target = REA
+			type = civil_war
+		}
+		
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.744 
+                hours = 6 
+            } 
+        }
+		
+    }
+} 
+
+# 744 — Reach Civil War
+news_event = { 
+    id = GOT_Story_News.744 
+    title = GOT_Story_News.744.t 
+    desc = GOT_Story_News.744.d 
+    picture = picture = GFX_news_event_Highgarden 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.744.a 
+    } 
+} 
+
+# 745 — Second Northern Civil War
+country_event = { 
+    id = GOT_Story_Country.745 
+    title = GOT_Story_Country.745.t 
+    desc = GOT_Story_Country.745.d 
+    picture = GFX_report_event_Winterfell
+  
+	is_triggered_only = yes
+ 
+	option = { 
+        name = GOT_Story_Country.745.a 
+
+        ai_chance = { 
+            factor = 100
+        }
+		
+		every_state = { 
+			limit = { 
+				is_core_of = BOL
+			} 
+			add_core_of = NOR
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 120 }
+			}
+			NOR = {
+				transfer_state = 120
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 160 }
+			}
+			NOR = {
+				transfer_state = 160
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 158 }
+			}
+			NOR = {
+				transfer_state = 158
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 122 }
+			}
+			NOR = {
+				transfer_state = 122
+			}
+		}
+		
+		NOR = {
+			transfer_state = 21
+			inherit_technology = BOL
+		}
+		
+		set_autonomy = {
+			target = NOR
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+		
+		BOL = {
+			end_puppet = NOR
+			transfer_units_fraction= {
+				target = NOR
+				size = 0.3
+				keep_unit_leaders_trigger = {
+					always = yes
+				}
+			}
+			declare_war_on = {
+				target = NOR
+				type = civil_war
+			}
+		}
+		
+		NOR = { 
+			retire_ideology_leader = neutrality
+		}
+		
+		if = {
+			limit = {
+				has_global_flag = GOT_Jon_Stays_Watch_Flag
+			}
+			NOR = { 
+				set_politics = {
+					ruling_party = fascism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = fascism
+				}
+				add_country_leader_role = {
+					character = NOR_Sansa_Stark
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							popular_figurehead 
+							political_dancer 
+							reluctant_veteran 
+							headstrong 
+							#disdain_for_politicians_2 
+							queen_of_the_people 
+							great_survivor 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		else = {
+			NOR = { 
+				set_politics = {
+					ruling_party = communism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = communism
+				}
+				add_country_leader_role = {
+					character = NOR_Jon_Snow
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							warrior_code 
+							stout_defender 
+							reluctant_veteran 
+							great_war_hero 
+							headstrong 
+							indomitable_perseverance 
+							#disdain_for_politicians_2 
+							nationalist_symbol 
+							#monarchist_puppet 
+							great_survivor 
+							our_right_to_survive 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				NOR = { is_in_faction = yes }
+				NOR = { is_faction_leader = no }
+			}
+			NOR = { leave_faction = yes }
+		}	
+		
+		if = {
+			limit = {
+				NOR = { is_in_faction = no }
+			}
+			NOR = { create_faction = "The White Wolves" }
+		}
+		
+		if = {
+			limit = {
+				NOR = { is_in_faction = yes }
+				NOR = { is_faction_leader = yes }
+			}
+			every_other_country = { 
+				limit = { 
+					OR = {
+						original_tag = VAL
+						original_tag = NWA
+						original_tag = WIL
+					}
+					NOT = {
+						is_in_faction_with = NOR
+					} 
+				} 
+				country_event = { 
+					id = GOT_Diplomatic_Country.80 
+					hours = 6 
+				} 
+			}
+		}
+		
+		set_global_flag = GOT_Second_Northern_Civil_War_Flag
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.745 
+                hours = 6 
+            } 
+        }
+		
+    }
+	
+	option = { 
+        name = GOT_Story_Country.745.b 
+		
+		trigger = { 
+			NWA = { is_ai = no }
+			OR = { 
+				NOR = { is_ai = yes }
+				NOR = { exists = no }
+			}
+		}
+
+        ai_chance = { 
+            factor = 100
+        }
+		
+		every_state = { 
+			limit = { 
+				is_core_of = BOL
+			} 
+			add_core_of = NOR
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 120 }
+			}
+			NOR = {
+				transfer_state = 120
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 160 }
+			}
+			NOR = {
+				transfer_state = 160
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 158 }
+			}
+			NOR = {
+				transfer_state = 158
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 122 }
+			}
+			NOR = {
+				transfer_state = 122
+			}
+		}
+		
+		NOR = {
+			transfer_state = 21
+			inherit_technology = BOL
+		}
+		
+		set_autonomy = {
+			target = NOR
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+		
+		BOL = {
+			end_puppet = NOR
+			transfer_units_fraction= {
+				target = NOR
+				size = 0.3
+				keep_unit_leaders_trigger = {
+					always = yes
+				}
+			}
+			declare_war_on = {
+				target = NOR
+				type = civil_war
+			}
+		}
+		
+		NOR = { 
+			retire_ideology_leader = neutrality
+		}
+		
+		if = {
+			limit = {
+				has_global_flag = GOT_Jon_Stays_Watch_Flag
+			}
+			NOR = { 
+				set_politics = {
+					ruling_party = fascism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = fascism
+				}
+				add_country_leader_role = {
+					character = NOR_Sansa_Stark
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							popular_figurehead 
+							political_dancer 
+							reluctant_veteran 
+							headstrong 
+							#disdain_for_politicians_2 
+							queen_of_the_people 
+							great_survivor 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		else = {
+			NOR = { 
+				set_politics = {
+					ruling_party = communism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = communism
+				}
+				add_country_leader_role = {
+					character = NOR_Jon_Snow
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							warrior_code 
+							stout_defender 
+							reluctant_veteran 
+							great_war_hero 
+							headstrong 
+							indomitable_perseverance 
+							#disdain_for_politicians_2 
+							nationalist_symbol 
+							#monarchist_puppet 
+							great_survivor 
+							our_right_to_survive 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				NOR = { is_in_faction = yes }
+				NOR = { is_faction_leader = no }
+			}
+			NOR = { leave_faction = yes }
+		}	
+		
+		if = {
+			limit = {
+				NOR = { is_in_faction = no }
+			}
+			NOR = { create_faction = "The White Wolves" }
+		}
+		
+		if = {
+			limit = {
+				NOR = { is_in_faction = yes }
+				NOR = { is_faction_leader = yes }
+			}
+			every_other_country = { 
+				limit = { 
+					OR = {
+						original_tag = VAL
+						original_tag = NWA
+						original_tag = WIL
+					}
+					NOT = {
+						is_in_faction_with = NOR
+					} 
+				} 
+				country_event = { 
+					id = GOT_Diplomatic_Country.80 
+					hours = 6 
+				} 
+			}
+		}
+		
+		set_global_flag = GOT_Second_Northern_Civil_War_Flag
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.745 
+                hours = 6 
+            } 
+        }
+		
+		NOR = {
+			change_tag_from = ROOT
+		}
+		
+    }
+    
+} 
+
+# 745 — Second Northern Civil War
+news_event = { 
+    id = GOT_Story_News.745 
+    title = GOT_Story_News.745.t 
+    desc = GOT_Story_News.745.d 
+    picture = picture = GFX_news_event_Winterfell 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.745.a 
+    } 
+} 

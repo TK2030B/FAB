@@ -1,0 +1,103 @@
+﻿division_template = {
+	name = "Faith Militant"	# represents first part of enlarged divisions
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 3 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "12th Faith Militant Division"
+		location = 2234
+		division_template = "Faith Militant"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

@@ -1,3 +1,8 @@
+FAI = {
+	color = rgb { 232 225 205 }
+	color_ui = rgb { 232 225 205 }
+}
+
 FRE = {
 	color = rgb { 0 0 255 }
 	color_ui = rgb { 0 0 255 }

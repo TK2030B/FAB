@@ -54,6 +54,7 @@ GOT_Janos_Slynt_NWA_Flag:0 "Janos Slynt in the Night's Watch"
 GOT_Stannis_Aids_Wall_Flag:0 "Stannis aids the Night's Watch"
 GOT_Wildling_Army_Shattered_Flag:0 "Wildling Army Shattered"
 GOT_Jon_Snow_Murdered_Flag:0 "Jon Snow Murdered"
+GOT_Dany_Sails_West_Flag:0 "Danaerys Sails West"
 
 Game_Event.1.t:0 "Welcome (1/5)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -167,6 +168,7 @@ Game_Event.12.b:0 "TURN §ROFF§!"
  GOT_Generic.15.a: "Adopt The Ironborn Tradition"
  GOT_Generic.15.b: "Keep Our Current Tradition"
  GOT_Generic.15.c: "We Already Have That Tradition"
+
  
  #Country Event, the event 1 Country Gets
 GOT_Story_Country.XXX.t: ""
@@ -2439,10 +2441,10 @@ GOT_Story_News.413.d: "King Tommen Baratheon and Lady Margaery Tyrell exchanged 
 GOT_Story_News.413.a: "Spring comes to King’s Landing."
 
 # 414 — Cersei Aligns with the High Sparrow
-GOT_Story_Country.414.t: "Piety as a Blade"
-GOT_Story_Country.414.d: "The streets buzz of a barefoot holy man, the High Sparrow. I, Cersei of House Lannister, offer him the Faith Militant restored—steel and sanctity—to check the Tyrell bloom. Let the gods’ zeal burn my enemies."
-GOT_Story_Country.414.a: "Empower the Faith Militant—curb the Tyrells"
-GOT_Story_Country.414.b: "Withhold the swords—maintain royal monopoly on force"
+ GOT_Story_Country.414.t:0 "The Most Devout's Successor"
+ GOT_Story_Country.414.d:0 "The death of the previous High Septon has left a vacuum in the Great Sept of Baelor, and the smallfolk have chosen their champion. A barefoot holy man known simply as the 'High Sparrow' has marched into the capital, backed by thousands of religious zealots. The Most Devout are terrified of him, but the people worship him. I see an opportunity here. If I use the Crown's authority to name him the new High Septon, I can channel the fanaticism of the lower classes to bypass the Tyrells and legitimize my regency. If I deny him, I preserve the traditional hierarchy, but I risk turning the entire city into a powder keg."
+ GOT_Story_Country.414.a:0 "Elevate the High Sparrow."
+ GOT_Story_Country.414.b:0 "Reject the beggar priest."
 
 GOT_Story_News.414.t: "Queen Regent Courts the High Sparrow"
 GOT_Story_News.414.d: "Crown agents have granted the devout High Sparrow unprecedented audience and rumored arms. Many wonder whether Cersei means to pit piety against flowers in the game for King Tommen’s soul."
@@ -2469,10 +2471,10 @@ GOT_Story_News.416.d: "Ser Barristan the Bold perished defending Unsullied again
 GOT_Story_News.416.a: "The Harpy’s claws draw blood."
 
 # 417 — Cersei Empowers the Faith Militant
-GOT_Story_Country.417.t: "Swords of the Seven"
-GOT_Story_Country.417.d: "I restore the Faith Militant; sparrows rise in mail and star‑shields. Their first act: seize Ser Loras Tyrell for sins of the flesh. Let the Reach learn that roses bleed when thorns meet holy steel."
-GOT_Story_Country.417.a: "Let zealots purge the court—curtail Tyrell power"
-GOT_Story_Country.417.b: "Hold the Faith in check—avoid open war with the Reach"
+ GOT_Story_Country.417.t:0 "Rearming the Faith"
+ GOT_Story_Country.417.d:0 "The High Sparrow is demanding a dangerous concession: the formal reinstatement of the Faith Militant. They want holy laws enforced by holy blades. My council warns me that giving weapons to religious fanatics threatens the Crown's absolute monopoly on force. However, the Tyrell influence in the capital is growing suffocating. If I sign this decree, the newly christened 'Poor Fellows' and 'Warrior's Sons' will act as my personal cudgel to purge the court and drag Ser Loras Tyrell into a dungeon for his sins. I must choose whether to unleash this holy fire to protect my regency, or deny them and keep the swords out of their hands."
+ GOT_Story_Country.417.a:0 "Sign the decree."
+ GOT_Story_Country.417.b:0 "Deny the request."
 
 GOT_Story_News.417.t: "Faith Militant Marches Again"
 GOT_Story_News.417.d: "King’s Landing gasps as armed zealots parade through the streets, arresting Ser Loras Tyrell under Queen Regent Cersei’s sanction. Alliance between lion and rose wilts under seven‑pointed stars."
@@ -2593,10 +2595,9 @@ GOT_Story_News.428.d: "Sunspear’s dungeons now host Jaime Lannister, Bronn, an
 GOT_Story_News.428.a: "Unbowed, unbent, unbroken."
 
 # 429 — Cersei Strikes at the Tyrells
-GOT_Story_Country.429.t: "The Faith’s Fist Closes"
-GOT_Story_Country.429.d: "At my urging, the Faith Militant seizes Ser Loras for perversion. In the sept’s trial, Margaery perjures herself and is dragged away as well. Roses wither in the shadow of the Seven‑pointed Star."
-GOT_Story_Country.429.a: "Tighten the noose—let the Faith judge them"
-GOT_Story_Country.429.b: "Secretly temper zeal—avoid full Tyrell revolt"
+GOT_Story_Country.429.t: "The Faith's Fist Closes"
+GOT_Story_Country.429.d: "Queen Margaery and Ser Loras Tyrell have been seized by the Faith Militant. Accused of perjury and depravity, the siblings now await the judgment of the High Sparrow. The Iron Throne can only watch as the Faith tightens its grip upon King's Landing."
+GOT_Story_Country.429.a: "The matter now rests with the Faith."
 
 GOT_Story_News.429.t: "Tyrell Heirs Imprisoned by Faith Militant"
 GOT_Story_News.429.d: "King’s Landing gasps as both Ser Loras and Queen Margaery are locked in sept cells. Power tilts toward the lion, yet sparrows hold the keys."
@@ -2606,8 +2607,11 @@ GOT_Story_News.429.a: "Piety proves sharp."
 GOT_Story_Country.430.t: "The Wolf and the Flayed Man"
 GOT_Story_Country.430.d: "Winterfell’s godswood bore witness: vows to Ramsay Bolton. Night brings screams behind locked doors; Theon’s eyes mirror my own terror. I am Sansa Stark, yet pain brands me Bolton bride."
 GOT_Story_Country.430.a: "Endure in silence—gather strength for revenge"
-GOT_Story_Country.430.b: "Seek immediate aid—light the candle
+GOT_Story_Country.430.b: "Seek immediate aid—light the candle"
 
+GOT_Story_News.430.t: "Sansa Stark Weds Ramsay Bolton"
+GOT_Story_News.430.d: "The North watches uneasily as Sansa Stark is wed to Ramsay Bolton at Winterfell. The marriage binds the Boltons to the Stark name, but few believe it will bring peace to a land already scarred by war."
+GOT_Story_News.430.a: "The North remembers."
  
 # 431 — Maester Aemon Passes Away
 GOT_Story_Country.431.t: "The Last Targaryen at the Wall"
@@ -2833,15 +2837,16 @@ GOT_Story_News.502.t: "Lady Stark Saved by Maiden Knight"
 GOT_Story_News.502.d: "Travellers report Brienne of Tarth clashing with Bolton men, spiriting Sansa Stark and Theon Greyjoy into the biting woods."
 GOT_Story_News.502.a: "Hope stirs beneath winter leaves."
 
-# 503 — Ellaria and the Sand Snakes Seize Dorne
-GOT_Story_Country.503.t: "Vengeance on Sunspear’s Steps"
-GOT_Story_Country.503.d: "Steel struck in palace halls—Prince Doran and Trystane lie dead. Ellaria’s crimson kiss crowns her and her daughters as rulers of Dorne; war drums echo over the deserts."
-GOT_Story_Country.503.a: "Consolidate rule—rally houses under the Sand Snakes"
-GOT_Story_Country.503.b: "Prepare for Lannister reprisal—send envoys to allies"
+# 503 — The Fate of Dorne
+GOT_Story_Country.503.t: "A Spear Divided Against Itself"
+GOT_Story_Country.503.d: "The sands of Dorne have been stained with blood. In the halls of Sunspear, old loyalties have been shattered as Ellaria Sand and the Sand Snakes move against the ruling house. With Prince Doran and his vision for a patient Dorne challenged, the realm stands at a crossroads. Will Dorne embrace vengeance and a new order, or preserve the legacy of House Martell?"
+GOT_Story_Country.503.a: "Dorne must answer blood with blood."
+GOT_Story_Country.503.b: "Dorne must endure, not burn."
 
-GOT_Story_News.503.t: "Martell Line Cut—Dorne Falls to Sand Snakes"
-GOT_Story_News.503.d: "Chaos erupts as Ellaria Sand topples House Martell. Dornish banners now bear spears entwined with vipers."
-GOT_Story_News.503.a: "The spice of vengeance fills the air."
+# 503 — Coup in Dorne
+GOT_Story_News.503.t: "Bloodshed in Sunspear"
+GOT_Story_News.503.d: "Rumors spread across the Seven Kingdoms of violence within the walls of Sunspear. Reports speak of a deadly confrontation between supporters of House Martell and those seeking vengeance for Oberyn Martell's death. The fate of Dorne now hangs in the balance as rival factions struggle for control of the principality."
+GOT_Story_News.503.a: "Dorne’s future remains uncertain."
 
 # 504 — Cersei Grieves Myrcella
 GOT_Story_Country.504.t: "A Mother’s Mercy Denied"
@@ -2864,32 +2869,32 @@ GOT_Story_News.505.d: "Scouts claim Daenerys Stormborn rides bound toward Vaes D
 GOT_Story_News.505.a: "A dragon without chains still has wings."
  
 # 506 — Jon Snow’s Resurrection
-GOT_Story_Country.506.t: "Breath Returned to the Lord Commander"
-GOT_Story_Country.506.d: "Melisandre’s whispered Valyrian and flickering flames failed—until they didn’t. Cold lips parted; Jon Snow gasped and stared at the rafters. Death has loosened its grip, but what price follows?"
-GOT_Story_Country.506.a: "Reclaim command—purge the mutineers"
-GOT_Story_Country.506.b: "Abdicate—leave the Watch and seek a new path"
+GOT_Story_Country.506.t: "The Lord Commander Lives"
+GOT_Story_Country.506.d: "Against all reason, Lord Commander Jon Snow has returned from the dead. Through a ritual performed by the Red Woman, Melisandre, life was restored to the man murdered by his own brothers of the Night's Watch. Having carried out justice against the mutineers, Jon now faces a choice that will shape the future of the Wall. He may continue to serve as Lord Commander, believing his duty to the Watch remains unfinished, or declare that his death fulfilled the oath he swore. Should he lay down his office, command of the Night's Watch will pass to First Steward Eddison Tollett, while Jon Snow will be free to gather the northern houses and reclaim the North from the usurper Ramsay Bolton."
+GOT_Story_Country.506.a: "Remain Lord Commander."
+GOT_Story_Country.506.b: "Abdicate and march south."
 
 GOT_Story_News.506.t: "Ravens Speak of a Dead Man Breathing"
 GOT_Story_News.506.d: "Tales from Castle Black claim the murdered Lord Commander now walks again, pale yet living. Superstition or sorcery—the North shivers anew."
 GOT_Story_News.506.a: "What is dead may rise again."
 
-# 507 — Ramsay Kills Roose Bolton
-GOT_Story_Country.507.t: "A Knife in the Heart of the Dreadfort"
-GOT_Story_Country.507.d: "With one swift stab I, Ramsay, ended my father Roose. Walda and her babe followed, consumed by hounds. The North is mine to flay."
-GOT_Story_Country.507.a: "Assert dominance—demand Northern houses’ fealty"
-GOT_Story_Country.507.b: "Spread fear further—raid loyalist lands"
+# 507 — Ramsay's Coup
+GOT_Story_Country.507.t: "A Coup at Winterfell"
+GOT_Story_Country.507.d: "The peace of Winterfell has been shattered by shocking reports from within House Bolton. Ramsay Bolton has risen against his own father, Lord Roose Bolton, in a bloody bid to seize the Dreadfort and the Wardenship of the North. As fighting erupts between rival Bolton loyalists, the great houses of the North must decide where their allegiance lies. Some believe Ramsay's ruthless strength is needed to hold the North together, while others remain loyal to the calculating lord who restored Bolton rule."
+GOT_Story_Country.507.a: "Support Ramsay Bolton's coup."
+GOT_Story_Country.507.b: "Stand with Lord Roose Bolton."
 
-GOT_Story_News.507.t: "Roose Bolton Dead—Bastard Now Warden of the North"
-GOT_Story_News.507.d: "Rumours swirl that Roose Bolton fell to ‘poison or treachery’. His legitimized son Ramsay rules, bloodier than ever."
-GOT_Story_News.507.a: "Winter grows red."
+GOT_Story_News.507.t: "Rumours of a Coup at Winterfell"
+GOT_Story_News.507.d: "Conflicting reports have reached the courts of Westeros from the distant North. It is said that violence has erupted within House Bolton itself, with Ramsay Bolton moving against his father, Lord Roose, in an apparent struggle for power. Messengers speak of bloodshed within Winterfell's walls, but with the North isolated and information scarce, none can say with certainty who now commands the Warden of the North's seat."
+GOT_Story_News.507.a: "Only time will reveal Winterfell's master."
 
-# 508 — Balon Greyjoy Falls from the Bridge
-GOT_Story_Country.508.t: "The Crow’s Eye Returns"
-GOT_Story_Country.508.d: "Storm‑lashed rope bridge, brother’s grin, sudden plunge—Balon’s reign ends in black waves. I, Euron Greyjoy, claim the Seastone Chair and promise to make the Ironborn great again."
-GOT_Story_Country.508.a: "Rally the captains—prepare for a Kingsmoot"
-GOT_Story_Country.508.b: "Seize power by force—crush dissent immediately"
+# 508 — The Seastone Chair Stands Empty
+GOT_Story_Country.508.t: "A New Ruler for the Iron Islands"
+GOT_Story_Country.508.d: "King Balon Greyjoy is dead, his body dashed upon the rocks beneath the bridge to Pyke. Though many whisper that his brother Euron had a hand in the king's death, no proof has been found. With the Seastone Chair vacant, the captains and lords of the Iron Islands must decide who shall lead the Ironborn into the years ahead."
+GOT_Story_Country.508.a: "Honor Balon's line"
+GOT_Story_Country.508.b: "Crown Euron."
 
-GOT_Story_News.508.t: "King of Salt and Rock Dies; Succession in Flux"
+GOT_Story_News.508.t: "King of Salt and Rock Dies"
 GOT_Story_News.508.d: "Iron Islands mourn—or cheer—as Balon Greyjoy’s body washes ashore. A new king must rise amidst salt, stone, and blood."
 GOT_Story_News.508.a: "What is dead may never die."
 
@@ -2913,15 +2918,15 @@ GOT_Story_News.510.t: "Dragons No Longer Bound in Meereen"
 GOT_Story_News.510.d: "Citizens swear the queen’s advisor walked into the pit and left alive—with broken chains behind him. The balance of power shifts on leathery wings."
 GOT_Story_News.510.a: "Fire cannot be caged."
  
-# 511 — Jon Executes Traitors and Leaves the Watch
-GOT_Story_Country.511.t: "Justice and Farewell at Castle Black"
-GOT_Story_Country.511.d: "I cut the rope; traitors swung. Olly’s face haunts me most. My duty fulfilled, I pass the Lord Commander’s cloak to Edd. ‘My watch has ended.’ The Wall no longer binds me."
-GOT_Story_Country.511.a: "March south—reclaim Winterfell from the Boltons"
-GOT_Story_Country.511.b: "Seek the wildlings’ aid—forge a Free Folk alliance"
+# 511 — My Watch Has Ended
+GOT_Story_Country.511.t: "Justice at Castle Black"
+GOT_Story_Country.511.d: "The men who plunged their blades into me have been found guilty of mutiny. Justice must be done, but once the sentence is carried out, I must decide whether my death has released me from the vows of the Night's Watch, or whether duty still binds me to the Wall."
+GOT_Story_Country.511.a: "My watch has ended."
+GOT_Story_Country.511.b: "I remain Lord Commander."
 
-GOT_Story_News.511.t: "Lord Commander Resigns After Executing Mutineers"
-GOT_Story_News.511.d: "Jon Snow hanged his killers then abandoned the Night’s Watch, declaring his oath fulfilled. The Wall stands leaderless at the edge of winter."
-GOT_Story_News.511.a: "A new snowstorm gathers."
+GOT_Story_News.511.t: "Mutineers Executed at Castle Black"
+GOT_Story_News.511.d: "Word from the Wall claims Lord Commander Jon Snow hanged the brothers who betrayed and murdered him, restoring order within the Night's Watch. Rumours now spread that, having fulfilled justice and died while keeping his vows, Snow may abandon the black. Whether the Lord Commander truly means to leave the Wall remains uncertain."
+GOT_Story_News.511.a: "The realm watches the Wall with uneasy eyes."
 
 # 512 — Bran at the Tower of Joy
 GOT_Story_Country.512.t: "Truth Behind the Legend"
@@ -2973,11 +2978,11 @@ GOT_Story_News.516.t: "Stark Siblings Reunited"
 GOT_Story_News.516.d: "For the first time since Ned’s fall, two Stark heirs stand together. Rumours say they plot to dethrone the Bastard of Bolton."
 GOT_Story_News.516.a: "The North remembers."
 
-# 517 — Daenerys Burns the Khals
-GOT_Story_Country.517.t: "Fire Made Flesh"
-GOT_Story_Country.517.d: "Locked in the dosh khaleen temple, I overturned braziers and let flames judge the khals. They burned; I walked out unscathed. Every rider in Vaes Dothrak bent the knee."
-GOT_Story_Country.517.a: "Lead the khalasar east—ride to Meereen with new horde"
-GOT_Story_Country.517.b: "Sweep west—plunder Lhazareen to swell ranks further"
+# 517 — Fire and Blood
+GOT_Story_Country.517.t: "The Choice at Vaes Dothrak"
+GOT_Story_Country.517.d: "Imprisoned within the Temple of the Dosh Khaleen, the assembled khals expect me to submit and live out my days among the widows. Yet I have another path. With the braziers overturned, the temple could become their pyre—but if the plan fails, I will surely die. I could instead flee while I still have the chance, abandoning the gamble for another day."
+GOT_Story_Country.517.a: "Dracarys... let the temple burn."
+GOT_Story_Country.517.b: "Escape into the grass sea and live to fight another day."
 
 GOT_Story_News.517.t: "Mother of Dragons Commands Every Khalasar"
 GOT_Story_News.517.d: "Witnesses swear Daenerys strode naked from a burning temple, the khals’ ashes at her feet. Hundreds of thousands now follow her banner."
@@ -2994,14 +2999,14 @@ GOT_Story_News.518.d: "Envoys departed with contracts and courtesans. Freedmen m
 GOT_Story_News.518.a: "Chains rattle even when open."
 
 # 519 — Lannister–Tyrell Plot Against the Sparrow
-GOT_Story_Country.519.t: "The Lion and the Rose of Thorns"
-GOT_Story_Country.519.d: "In the Small Council chamber, Cersei, Jaime, Olenna, and Kevan set plans: Tyrell swords will storm the Sept, crown restored to kingly hands, Sparrow blood washing the cobbles."
-GOT_Story_Country.519.a: "Proceed with the assault—risk civil bloodshed"
-GOT_Story_Country.519.b: "Seek leverage—blackmail the Faith into submission"
+GOT_Story_Country.519.t: "The Crown Considers Its Move"
+GOT_Story_Country.519.d: "With Queen Margaery and Ser Loras still imprisoned, the Crown weighs a desperate course. Lord Jaime Lannister and Lord Mace Tyrell stand ready to march on the Great Sept of Baelor and break the Faith Militant by force. Yet such an assault could plunge King's Landing into bloody chaos."
+GOT_Story_Country.519.a: "Proceed with the assault."
+GOT_Story_Country.519.b: "Stand down."
 
-GOT_Story_News.519.t: "Great Houses Conspire Against the Faith"
-GOT_Story_News.519.d: "King’s Landing buzzes with whispers of armies on the march and sparrows sharpening sticks."
-GOT_Story_News.519.a: "When lions and roses unite, thorns will bleed."
+GOT_Story_News.519.t: "The Crown Stands Down"
+GOT_Story_News.519.d: "After surrounding the Great Sept of Baelor, the combined forces of Houses Lannister and Tyrell have unexpectedly withdrawn without bloodshed. The Faith Militant remains in control of the sept, and while open conflict has been averted for now, tensions in King's Landing are as high as ever."
+GOT_Story_News.519.a: "The realm wonders what comes next."
 
 # 520 — Ramsay Kills Osha
 GOT_Story_Country.520.t: "Knife over Wine and Flayed Skin"
@@ -3074,12 +3079,11 @@ GOT_Story_News.526.d: "Stories from beyond the Wall claim Benjen Stark, long tho
 GOT_Story_News.526.a: "Legends return when needed most."
 
 # 527 — Tommen Unites Crown and Faith
-GOT_Story_Country.527.t: "The Crown and the Seven Become One"
-GOT_Story_Country.527.d: "Before the Sept, Tommen joined hands with the High Sparrow, granting the Faith Militant royal sanction. Tyrell swords halted, Jaime stripped of white cloak—power now wears a humble robe."
-GOT_Story_Country.527.a: "Work within the alliance—gain piety but lose noble support"
-GOT_Story_Country.527.b: "Plot against the Sparrow—prepare covert coup"
+GOT_Story_Country.527.t: "The Crown and the Faith United"
+GOT_Story_Country.527.d: "As Lannister and Tyrell forces gathered before the Great Sept of Baelor, preparing to storm its holy walls, [CRO.GetLeader] shocked the realm with an unexpected declaration. The monarch emerged before the assembled armies and announced an alliance between the Iron Throne and the Faith Militant. The order to attack was withdrawn, the Tyrell host was dismissed, and the balance of power in King's Landing shifted overnight."
+GOT_Story_Country.527.a: "The Seven Kingdoms enter a new age."
 
-GOT_Story_News.527.t: "Young King Binds Throne to Faith"
+GOT_Story_News.527.t: "Monarch Binds Throne to Faith"
 GOT_Story_News.527.d: "King’s Landing reels as the High Sparrow steps beside the Iron Throne, turning plots to dust and lions to prayer."
 GOT_Story_News.527.a: "When crown bends, who truly rules?"
 
@@ -3264,10 +3268,10 @@ GOT_Story_News.545.d: "Observers in Meereen report a pact between Daenerys Targa
 GOT_Story_News.545.a: "The seas stir with change."
  
 # 546 — Wildfire at the Sept
-GOT_Story_Country.546.t: "Green Flames, Black Crown"
-GOT_Story_Country.546.d: "Hidden wildfire roared beneath the Great Sept, vaporising the Faith Militant, Tyrell heirs, and rivals alike. With ashes on the wind, I, Cersei of House Lannister, claim the Iron Throne unopposed."
-GOT_Story_Country.546.a: "Rule through fear—increase stability, raise tyranny"
-GOT_Story_Country.546.b: "Seek fragile alliances—offer concessions to houses in shock"
+GOT_Story_Country.546.t: "The Wildfire Conspiracy"
+GOT_Story_Country.546.d: "With the Faith Militant entrenched within the Great Sept of Baelor and the realm slipping further from the Crown's grasp, a desperate proposal has emerged. Hidden caches of wildfire still lie beneath the city, remnants of King Aerys II's final madness. A single spark could annihilate the High Sparrow, the Faith Militant, and every rival gathered within the Sept—but at the cost of countless innocent lives and the sanctity of Westeros' holiest place."
+GOT_Story_Country.546.a: "Ignite the wildfire."
+GOT_Story_Country.546.b: "There must be another way."
 
 GOT_Story_News.546.t: "Great Sept Reduced to Embers"
 GOT_Story_News.546.d: "King’s Landing mourns and trembles as emerald fire consumes faith and royalty. A lioness now sits where sparrows once preached."
@@ -3284,6 +3288,7 @@ GOT_Story_News.547.d: "Ravens hint the new King in the North may carry dragon bl
 GOT_Story_News.547.a: "Heritage reshapes crowns."
 
 # 548 — Red Wedding Vengeance
+#Important
 GOT_Story_Country.548.t: "A Pie of Freys"
 GOT_Story_Country.548.d: "I baked Walder’s sons into his feast, then opened his throat where mother and brother fell. The North remembers, and so do I."
 GOT_Story_Country.548.a: "Move on to next names—continue vengeance chain"
@@ -3409,14 +3414,15 @@ GOT_Story_News.609.d: "A priestess of R’hllor seeks to bind fire and snow in c
 GOT_Story_News.609.a: "Old gods and new make strange allies."
 
 # 610 — Jon Journeys South
-GOT_Story_Country.610.t: "Answering the Dragon’s Call"
-GOT_Story_Country.610.d: "Daenerys demands fealty; I need dragonglass. I ride for Dragonstone, naming Sansa regent of the North amid uneasy murmurs."
-GOT_Story_Country.610.a: "Depart with small guard—faster travel, higher risk"
-GOT_Story_Country.610.b: "March with retinue—slower, safer, reduces Northern manpower"
+GOT_Story_Country.610.t: "The Fate of the North"
+GOT_Story_Country.610.d: "The war against House Bolton has ended, but the North now faces a new challenge. With threats beyond the Wall growing and the realm once again divided, Jon Snow must decide the future of his kingdom. Some urge him to seek alliance with House Targaryen and pledge the North's support to the Dragon Queen. Others believe stability lies in reconciliation with the Iron Throne and recognition of the ruling House Lannister. Yet many northern lords insist that the North paid dearly for its freedom and should bow to no monarch. The choice of whether to kneel, negotiate, or stand alone now rests with the King in the North."
+GOT_Story_Country.610.a: "Pledge the North to House Targaryen."
+GOT_Story_Country.610.b: "Pledge the North to the Iron Throne."
+GOT_Story_Country.610.c: "The North shall remain independent."
 
-GOT_Story_News.610.t: "King in the North Heads South"
-GOT_Story_News.610.d: "Jon Snow leaves Winterfell, seeking alliance with the dragon queen while winter deepens."
-GOT_Story_News.610.a: "War demands bold steps."
+GOT_Story_News.610.t: "The King in the North Rides South"
+GOT_Story_News.610.d: "Jon Snow, King in the North, has departed Winterfell and begun his journey south. With the fate of the North resting upon his shoulders, he seeks answers and alliances as the realm once again descends toward war. Whether he will seek friendship with the Dragon Queen, reconcile with the Iron Throne, or continue to stand as an independent king remains unknown."
+GOT_Story_News.610.a: "The North awaits its king's decision."
 
 # 611 — Cersei Courts the Reach
 GOT_Story_Country.611.t: "Ravens to the Tarlys"
@@ -4222,6 +4228,38 @@ GOT_Story_News.742.t: "Tyrion’s Return to Power"
 GOT_Story_News.742.d: "The former prisoner rises again as Bran’s chief advisor."
 GOT_Story_News.742.a: "A realm rebuilding from ashes."
 
+# 743 — The Ironborn Civil War
+GOT_Story_Country.743.t: "The Seastone Chair Stands Empty"
+GOT_Story_Country.743.d: "The captains of the Iron Islands have failed to reach a common accord. Supporters of House Greyjoy's rightful heirs have rallied behind Yara and Theon, while others have declared for Euron Greyjoy and his promise of conquest and glory. The Kingsmoot has dissolved into bloodshed, and the Iron Islands now stand divided. Brother raises axe against brother as the fate of the Seastone Chair will be decided not by words, but by war."
+GOT_Story_Country.743.a: "The Ironborn shall decide their future in blood."
+
+# 743 — News
+GOT_Story_News.743.t: "Civil War Erupts on the Iron Islands"
+GOT_Story_News.743.d: "Reports from the Sunset Sea tell of open conflict across the Iron Islands. What began as a dispute over Balon Greyjoy's successor has descended into civil war, with rival claimants gathering fleets and warriors beneath competing banners. As longships prepare for battle, the outcome of the struggle—and the future of the Ironborn—remains uncertain."
+GOT_Story_News.743.a: "The Drowned God will judge the victor."
+
+# 744 — The Reach Civil War
+GOT_Story_Country.744.t: "The Reach Divided"
+GOT_Story_Country.744.d: "The deaths of Lord Mace Tyrell, Queen Margaery, and Ser Loras Tyrell have left the Reach without clear leadership. While many lords have declared for Lady Olenna Tyrell, believing the ancient line of Highgarden must endure, others have rallied behind Lord Randyll Tarly, whose military reputation and unwavering resolve have won him the loyalty of those seeking strength in uncertain times. With neither claimant willing to yield, banners are raised across the fertile plains of the Reach. The question of who shall rule Highgarden will now be settled upon the battlefield."
+GOT_Story_Country.744.a: "The Reach shall choose its lord through war."
+GOT_Story_Country.744.b: "The Reach shall choose its lord through war."
+
+# 744 — News
+GOT_Story_News.744.t: "Civil War Erupts in the Reach"
+GOT_Story_News.744.d: "The Reach has descended into civil war following the destruction of the Great Sept of Baelor. With House Tyrell's leadership shattered, rival factions have proclaimed Lady Olenna Tyrell and Lord Randyll Tarly as the rightful rulers of Highgarden. Armies now march beneath competing banners as one of Westeros' richest and most powerful kingdoms tears itself apart. The outcome of the conflict will determine not only the fate of Highgarden, but the balance of power throughout the Seven Kingdoms."
+GOT_Story_News.744.a: "The fields of the Reach shall run red."
+
+# 745 — The Great Northern Civil War
+GOT_Story_Country.745.t: "The Great Northern Civil War"
+GOT_Story_Country.745.d: "The banners of the direwolf have been raised once more. With Jon Snow and Sansa Stark reunited, the surviving loyalists of House Stark have answered their call, joined by Free Folk and those northern houses unwilling to accept Bolton rule. From Winterfell, Ramsay Bolton has gathered his own supporters, determined to crush the rebellion before it can gather strength. Once again, the North is engulfed by civil war, as Stark and Bolton prepare to decide the fate of the ancient kingdom upon the battlefield."
+GOT_Story_Country.745.a: "The Nights Watch Plays No Role"
+GOT_Story_Country.745.b: "We Will Lead The Northern Campaign"
+
+# 745 — News
+GOT_Story_News.745.t: "Civil War Returns to the North"
+GOT_Story_News.745.d: "War has once again broken out across the North. Jon Snow and Sansa Stark have emerged from Castle Black to challenge House Bolton's rule over Winterfell, rallying northern loyalists and Free Folk beneath the direwolf banner. Ramsay Bolton has answered in kind, calling upon those houses that remain faithful to his rule. As armies march across the frozen countryside, the North stands poised to decide whether House Stark shall reclaim its ancestral home, or whether House Bolton will tighten its grip upon Winterfell."
+GOT_Story_News.745.a: "The wolves and flayed men march to war."
+
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
 GOT_Diplomatic_Country.1.d: "Lord Eddard Stark has accepted the King's request to become the new Hand of the King. His departure from Winterfell marks a significant moment for both the North and the Crownlands, as his honor and loyalty to Robert Baratheon will shape the political landscape of Westeros."
@@ -4565,6 +4603,62 @@ GOT_Diplomatic_Country.68.d:0 "Treachery most vile has been committed beneath a 
 GOT_Diplomatic_Country.68.a:0 "We will not forget."
 
 
+# 517 — The Trial of Fire
+GOT_Diplomatic_Country.69.t: "The Stallion's Choice"
+GOT_Diplomatic_Country.69.d: "The foreign khaleesi was brought before the gathered khals to answer for her defiance. Yet as the temple doors closed, whispers spread through Vaes Dothrak. Some say the fire itself has chosen her. Others call her a witch who must die. Before the sacred flames are lit, the khalasar must decide where its loyalty lies."
+GOT_Diplomatic_Country.69.a: "The fire has spoken—follow Daenerys Stormborn."
+GOT_Diplomatic_Country.69.b: "Stand with the khals and reject the foreign queen."
+
+# 70 — The Dragon Returns
+GOT_Diplomatic_Country.70.t: "The Dragon Returns"
+GOT_Diplomatic_Country.70.d: "After years in exile across the Narrow Sea, Daenerys Targaryen has returned to the ancestral seat of House Targaryen. Her fleet now lies anchored beneath the walls of Dragonstone, and envoys demand the castle be yielded to its rightful heir. The garrison must now decide whether to welcome the Dragon Queen home or defy her claim."
+GOT_Diplomatic_Country.70.a: "Dragonstone belongs to House Targaryen."
+GOT_Diplomatic_Country.70.b: "Hold the castle."
+
+GOT_Diplomatic_Country.71.t: "The Faith Militant Crushed"
+GOT_Diplomatic_Country.71.d: "The assault succeeds. The Faith Militant is scattered, its leadership captured or slain, and the High Sparrow's movement collapses beneath the weight of steel. Though blood stains the streets of King's Landing, the Iron Throne has reasserted its authority. For the first time in months, the Crown alone rules the capital."
+GOT_Diplomatic_Country.71.a: "The Crown stands supreme."
+
+GOT_Diplomatic_News.36.t: "The Faith Militant Defeated"
+GOT_Diplomatic_News.36.d: "The combined forces of Houses Lannister and Tyrell have crushed the Faith Militant in King's Landing. The High Sparrow's movement has been broken, its followers dispersed, and the authority of the Iron Throne restored after fierce fighting in the capital."
+GOT_Diplomatic_News.36.a: "The Seven no longer guide the Crown."
+
+GOT_Diplomatic_Country.72.t: "King's Landing in Revolt"
+GOT_Diplomatic_Country.72.d: "The assault on the Great Sept has ended in disaster. The Faith Militant repelled the Crown's forces, and the High Sparrow has called upon the faithful to rise in defense of the Seven. Across King's Landing, bells toll as armed zealots clash with loyal soldiers. The capital has descended into civil war, and the Iron Throne now faces an enemy within its own walls."
+GOT_Diplomatic_Country.72.a: "The Crown must restore order."
+
+GOT_Diplomatic_News.37.t: "Civil War Erupts in King's Landing"
+GOT_Diplomatic_News.37.d: "The Crown's attempt to crush the Faith Militant has failed. Fighting now rages through the streets of King's Landing as the High Sparrow's followers battle soldiers loyal to the Iron Throne. With the capital consumed by civil war, the fate of the Seven Kingdoms hangs in the balance."
+GOT_Diplomatic_News.37.a: "The realm tears itself apart."
+
+GOT_Diplomatic_Country.73.t: "The Assault on the Sept Fails"
+GOT_Diplomatic_Country.73.d: "The Crown's forces advanced upon the Great Sept of Baelor, expecting a swift victory over the Faith Militant. Instead, the streets of King's Landing erupted into chaos as angry crowds of faithful citizens joined the Sparrow ranks, overwhelming the Lannister and Tyrell soldiers. Forced to abandon the assault, the royal host has retreated behind the walls of the Red Keep. The Crown still holds the capital, but its authority has suffered a devastating blow."
+GOT_Diplomatic_Country.73.a: "The Red Keep must endure."
+
+GOT_Diplomatic_Country.74.t: "The Great Sept Destroyed"
+GOT_Diplomatic_Country.74.d: "The caches of wildfire hidden beneath the Great Sept of Baelor have been ignited. In an instant, the holiest place in the Seven Kingdoms was consumed by emerald flames, taking the High Sparrow, the Faith Militant, and countless nobles and smallfolk with it. The immediate threat to the Iron Throne has been extinguished, but at a terrible cost. King's Landing stands in shock, and the realm will long remember the day the Crown reduced its own sacred heart to ashes."
+GOT_Diplomatic_Country.74.a: "The throne has been secured... whatever the cost."
+
+GOT_Diplomatic_Country.75.t: "The Wildfire Plot Exposed"
+GOT_Diplomatic_Country.75.d: "The conspiracy to destroy the Great Sept has failed. Before the wildfire could be ignited, word of the plot spread through King's Landing, provoking outrage among the faithful. Thousands have flocked to the banners of the High Sparrow, while loyalists rally behind the Iron Throne. Barricades rise across the streets, and fighting has broken out throughout the capital. What began as a desperate attempt to end the crisis has instead plunged the Crownlands into open civil war."
+GOT_Diplomatic_Country.75.a: "The realm tears itself apart."
+
+GOT_Diplomatic_News.38.t: "Faithful Overwhelm the Crown's Host"
+GOT_Diplomatic_News.38.d: "The Iron Throne's attempt to crush the Faith Militant has ended in failure. As Lannister and Tyrell forces moved against the Great Sept of Baelor, thousands of angry citizens flooded the streets in support of the Faithful, turning the assault into a bloody defeat. The royal host has withdrawn to the Red Keep, leaving King's Landing divided and the realm uncertain of what will follow."
+GOT_Diplomatic_News.38.a: "The Seven have answered with steel."
+
+GOT_Diplomatic_News.39.t: "Civil War Erupts in the Crownlands"
+GOT_Diplomatic_News.39.d: "The attempted destruction of the Great Sept of Baelor has plunged the Crownlands into chaos. As news of the conspiracy spread, thousands of faithful took up arms alongside the Faith Militant, while royal loyalists rallied to defend the Iron Throne. Fighting now rages through King's Landing and the surrounding Crownlands as the realm watches in horror, uncertain who will emerge victorious."
+GOT_Diplomatic_News.39.a: "The Crown and the Faith are at war."
+
+GOT_Diplomatic_Country.73.t: "The Assault Repelled"
+GOT_Diplomatic_Country.73.d: "The attack on the Great Sept of Baelor has ended in failure. As Lannister and Tyrell soldiers advanced, an angry crowd of Faithful poured into the streets, swelling the ranks of the Faith Militant. Outnumbered and surrounded, the royal host was forced to abandon the assault and retreat behind the walls of the Red Keep. The Crown has survived, but the streets of King's Landing now belong to the Faith."
+GOT_Diplomatic_Country.73.a: "The Red Keep must hold."
+
+GOT_Diplomatic_News.38.t: "Faithful Rise Against the Crown"
+GOT_Diplomatic_News.38.d: "The Iron Throne's attempt to crush the Faith Militant has been defeated. As Lannister and Tyrell forces moved against the Great Sept of Baelor, thousands of angry citizens joined the Faithful, overwhelming the royal host and forcing its retreat into the Red Keep. With the capital divided, the fate of King's Landing hangs in the balance."
+GOT_Diplomatic_News.38.a: "The Seven have answered with steel."
+
 GOT_Diplomatic_News.34.t:0 "Wildlings Reject Alliance Offer"
 GOT_Diplomatic_News.34.d:0 "Despite [NWA.GetLeader]’s earnest efforts to forge an alliance with the Free Folk, the Wildlings have turned down the offer, choosing to remain beyond the Wall. This rejection deepens the divide between the realms of men and the Free Folk, even as the threat of the White Walkers looms ever closer."
 GOT_Diplomatic_News.34.a:0 "A chance lost, but the war is not over."
@@ -4573,6 +4667,68 @@ GOT_Diplomatic_News.35.t:0 "The Gates Remain Closed"
 GOT_Diplomatic_News.35.d:0 "In a controversial decision, [NWA.GetLeader], Lord Commander of the Night’s Watch, has refused to grant the Free Folk passage south of the Wall. This choice maintains the ancient barriers between the realms of men and the Wildlings, even as the shadow of the White Walkers grows ever darker."
 GOT_Diplomatic_News.35.a:0 "The Wall still stands—divided, but standing."
 
+# 76 — Tommen's Choice
+GOT_Diplomatic_Country.76.t: "Tommen's Choice"
+GOT_Diplomatic_Country.76.d: "The destruction of the Great Sept of Baelor shattered what remained of House Baratheon's rule. Consumed by grief after witnessing the deaths of Queen Margaery, the High Sparrow, and countless innocents, King Tommen climbed to his chambers and cast himself from the Red Keep. His brief reign ended in silence, leaving the Iron Throne vacant. With no heir remaining and the realm in chaos, Queen Cersei Lannister now claims the Iron Throne."
+GOT_Diplomatic_Country.76.a: "Long live Queen Cersei."
+
+GOT_Diplomatic_News.40.t: "King Tommen Is Dead"
+GOT_Diplomatic_News.40.d: "King's Landing has suffered another devastating blow. In the wake of the Great Sept's destruction, King Tommen Baratheon threw himself from a window of the Red Keep, unable to bear the loss of his queen and the horror engulfing his realm. With House Baratheon's royal line extinguished, Cersei Lannister has ascended the Iron Throne, ushering in a new and uncertain chapter for the Seven Kingdoms."
+GOT_Diplomatic_News.40.a: "The lioness now wears the crown."
+
+GOT_Diplomatic_Country.77.t: "The Future of the Reach"
+GOT_Diplomatic_Country.77.d: "The destruction of the Great Sept of Baelor has left House Tyrell shattered. Lord Mace Tyrell, Queen Margaery, and Ser Loras Tyrell are dead, leaving no clear ruler to lead the Reach through its darkest hour. As grief gives way to uncertainty, the great houses look for new leadership. Some rally behind Lady Olenna Tyrell, the last surviving member of the main Tyrell line, whose wisdom and resolve have long guided Highgarden from the shadows. Others believe the Reach now requires a soldier rather than a statesman, turning instead to Lord Randyll Tarly, the realm's finest battlefield commander and the most powerful lord left standing."
+GOT_Diplomatic_Country.77.a: "Lady Olenna shall lead the Reach."
+GOT_Diplomatic_Country.77.b: "Lord Randyll Tarly shall lead the Reach."
+
+GOT_Diplomatic_Country.78.t: "The Dragon Queen Returns"
+GOT_Diplomatic_Country.78.d: "Daenerys Targaryen has crossed the Narrow Sea and claimed Dragonstone, the ancient seat of House Targaryen. Declaring herself the rightful Queen of the Andals, the Rhoynar, and the First Men, she has called upon the lords of Westeros to abandon Queen Cersei and restore the dragon to the Iron Throne. War has come once more to the Seven Kingdoms, and neutrality will not endure for long. We must decide where our loyalties lie."
+GOT_Diplomatic_Country.78.a: "We shall stand with Daenerys Targaryen."
+GOT_Diplomatic_Country.78.b: "We shall stand with the Iron Throne."
+GOT_Diplomatic_Country.78.c: "We shall remain neutral."
+
+GOT_Diplomatic_Country.79.t: "The Future of the Westerlands"
+GOT_Diplomatic_Country.79.d: "The destruction of the Great Sept of Baelor claimed the life of Lord Kevan Lannister, who had faithfully governed Casterly Rock following the death of Lord Tywin. With the Rock once more without a clear lord, the lords of the Westerlands find themselves divided over the future of House Lannister. Some argue that Ser Jaime Lannister, despite his vows and years in the Kingsguard, remains Tywin's rightful heir and should reclaim his ancestral seat. Others instead look to Queen Cersei Lannister, whose authority and determination have restored Lannister power in King's Landing. A third faction contends that the Rock should not pass to either sibling, but instead remain under the direct authority of the Iron Throne, its governance entrusted to the Crown until a permanent settlement can be reached."
+GOT_Diplomatic_Country.79.a: "Ser Jaime Lannister shall rule Casterly Rock."
+GOT_Diplomatic_Country.79.b: "Queen Cersei Lannister shall rule Casterly Rock."
+GOT_Diplomatic_Country.79.c: "Casterly Rock shall remain under the Crown."
+
+GOT_Diplomatic_Country.81.t: "The King's Offer"
+GOT_Diplomatic_Country.81.d: "King Stannis Baratheon has summoned Jon Snow before him with an extraordinary proposal. Should Jon abandon his vows, Stannis will legitimize him as Jon Stark, restore him as Lord of Winterfell, and proclaim him Warden of the North. In return, Jon must rally the northern houses beneath the direwolf banner and march alongside the king to overthrow House Bolton. The offer promises the restoration of House Stark and the liberation of the North, yet it demands that Jon forsake the oath he swore before the old gods and the new."
+GOT_Diplomatic_Country.81.a: "Accept the king's offer and reclaim the North."
+GOT_Diplomatic_Country.81.b: "My vows come before all else."
+
+# 82 — Jon Accepts
+GOT_Diplomatic_Country.82.t: "Jon Snow Accepts"
+GOT_Diplomatic_Country.82.d: "Jon Snow has accepted our offer. Casting aside the black cloak of the Night's Watch, he has agreed to be legitimized as Jon Stark, rightful Lord of Winterfell and Warden of the North. Already, ravens have flown to the great houses, calling upon them to rally once more beneath the direwolf banner. With a Stark at our side, the campaign against House Bolton has gained a powerful symbol capable of uniting the North behind our cause."
+GOT_Diplomatic_Country.82.a: "Together, we shall reclaim Winterfell."
+
+# 83 — Jon Declines
+GOT_Diplomatic_Country.83.t: "Jon Snow Declines"
+GOT_Diplomatic_Country.83.d: "Despite the promise of Winterfell and the restoration of House Stark, Jon Snow has refused our offer. Choosing to honor the vows he swore to the Night's Watch, he will not abandon his brothers nor involve the order in the wars of the realm. Without the support of a Stark, the task of rallying the North against House Bolton will be all the more difficult."
+GOT_Diplomatic_Country.83.a: "Then we shall march without him."
+
+# 745 — The Great Northern Civil War
+GOT_Diplomatic_Country.84.t: "The Great Northern Civil War"
+GOT_Diplomatic_Country.84.d: "King Stannis Baratheon has begun his long-awaited march upon Winterfell. At his side rides Jon Stark, formerly Jon Snow, who has accepted the king's offer of legitimization and now leads the northern loyalists beneath the direwolf banner. Together they seek to overthrow House Bolton, restore Stark rule to Winterfell, and secure the North for the rightful king. Ramsay Bolton has rallied his own supporters in preparation for the coming struggle. Once more, the North descends into civil war, and its fate shall be decided upon the battlefield."
+GOT_Diplomatic_Country.84.a: "The Night's Watch plays no role."
+GOT_Diplomatic_Country.84.b: "We will lead the northern campaign."
+
+GOT_Diplomatic_Country.85.t: "A Call to Save the North"
+GOT_Diplomatic_Country.85.d: "King Stannis Baratheon has called upon us to join his campaign against House Bolton. At his side marches Jon Snow, now leading the northern cause alongside the king in a bid to restore House Stark to Winterfell and free the North from Bolton rule. Though Ramsay Bolton commands a formidable host, Stannis believes that with the support of the realm, the usurpers can be overthrown. Whether motivated by loyalty to House Stark, recognition of Stannis' claim to the Iron Throne, or the desire to see justice restored to the North, the choice now rests with us."
+GOT_Diplomatic_Country.85.a: "Join Stannis and the North."
+GOT_Diplomatic_Country.85.b: "We cannot spare our strength."
+
+
+GOT_Diplomatic_Country.86.t: "The Wolf Bends the Knee"
+GOT_Diplomatic_Country.86.d: "News has reached the realm that Jon Snow, King in the North, has journeyed south and pledged his support to Daenerys Targaryen. After years of war and suffering, the North has chosen to seek alliance with the last surviving Targaryen claimant rather than stand alone. With the armies of the North now aligned with the Dragon Queen, the balance of power in Westeros has shifted. The great houses must decide whether to follow the direwolf beneath the banner of the dragon, or remain apart from the coming war."
+GOT_Diplomatic_Country.86.a: "Stand with the Dragon and the Wolf."
+GOT_Diplomatic_Country.86.b: "We shall remain neutral."
+
+GOT_Diplomatic_Country.87.t: "The Wolf Returns to the Lion"
+GOT_Diplomatic_Country.87.d: "Word has spread across the realm that Jon Snow, King in the North, has chosen to abandon the path of independence and recognize Queen Cersei Lannister as the rightful ruler of the Seven Kingdoms. In exchange for the North's loyalty, Jon has sought peace with the Iron Throne and an end to the wars that have devastated the realm. To some, this is a necessary compromise that will bring stability after years of bloodshed. To others, it is a betrayal of the fallen Starks who fought and died for northern freedom. The great houses must now decide whether to follow the direwolf beneath the banner of the lion, or remain apart from the conflict."
+GOT_Diplomatic_Country.87.a: "Stand with the Iron Throne."
+GOT_Diplomatic_Country.87.b: "We shall remain neutral."
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -4698,6 +4854,10 @@ GOT_Diplomatic_News.33.t:0 "Dorne Refuses Royal Marriage Offer"
 GOT_Diplomatic_News.33.d:0 "Efforts to bind House Lannister and House Martell through marriage have failed. Prince Doran of Dorne has rejected the proposed betrothal between Princess Myrcella Baratheon and his son, Prince Trystane. The refusal highlights lingering tensions and unhealed wounds between the southern kingdom and the Iron Throne. While the court in King's Landing had hoped to secure an alliance through diplomacy, Dorne’s silence speaks volumes. The future of relations between the two houses is now more uncertain than ever."
 GOT_Diplomatic_News.33.a:0 "Old grievances endure in the Dornish sands."
 
+# 745 — News
+GOT_Diplomatic_News.41.t: "War Engulfs the North"
+GOT_Diplomatic_News.41.d: "Open war has erupted across the North as King Stannis Baratheon launches his campaign against House Bolton. Fighting alongside him is Jon Stark, formerly known as Jon Snow, who has renounced the Night's Watch after accepting the king's offer of legitimization. With northern loyalists rallying to the direwolf and Baratheon stag alike, Ramsay Bolton has gathered his own bannermen to defend Winterfell. The outcome of the conflict will determine not only who rules the North, but whether Stannis Baratheon's claim to the Iron Throne gains the decisive victory it so desperately needs."
+GOT_Diplomatic_News.41.a: "The stag and the direwolf march together."
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
@@ -4734,6 +4894,10 @@ GOT_Alt_News.5.a: "Fire rides with the Dothraki."
 GOT_Alt_News.6.t: "Khal Moro Unites the Khalasar"
 GOT_Alt_News.6.d: "In the aftermath of Khal Drogo’s death, Khal Moro, a respected and feared bloodrider, has claimed leadership over the Dothraki. Many within the khalasar have rallied to his side, valuing tradition and strength in uncertain times. The horse lords ride once again under a seasoned warrior, and the world watches to see which direction Moro will lead them."
 GOT_Alt_News.6.a: "Another Khal rises from the ashes."
+
+GOT_Alt_News.7.t: "The Dragon Queen's Gambit Fails"
+GOT_Alt_News.7.d: "Rumors from Vaes Dothrak tell of a daring attempt by Daenerys Targaryen to burn the assembled khals alive within the Temple of the Dosh Khaleen. Yet the plot failed before the flames could claim their victims. The surviving khals denounced the foreign queen as a deceiver, forcing her to flee for her life. With the khalasars remaining united under their traditional leaders, the dream of a Targaryen-Dothraki alliance appears to have gone up in smoke."
+GOT_Alt_News.7.a: "The Dragon Queen's luck has run dry."
 
 GOT_Wars_Country.1.t: "The Battle of Blackwater Begins"
 GOT_Wars_Country.1.d: "The fleet is assembled. The fires are lit. King’s Landing lies before us, its gates ripe for storming. The Iron Throne is ours by right, and now by force. Let the fury of House Baratheon descend upon the usurpers."

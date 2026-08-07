@@ -97,6 +97,124 @@ ideas = {
 				consumer_goods_factor = 0.4
 			}
 		}
+		
+			CRO_Sparrows_Placated = {
+
+	removal_cost = -1
+
+	allowed = {
+		original_tag = CRO
+	}
+
+	modifier = {
+		political_power_factor = 0.05
+		stability_factor = 0.05
+	}
+}
+
+
+CRO_Sparrows_Placated_2 = {
+
+	picture = CRO_Sparrows_Placated
+
+	removal_cost = -1
+
+	allowed = {
+		original_tag = CRO
+	}
+
+	modifier = {
+		political_power_factor = 0.10
+		stability_factor = 0.10
+	}
+}
+
+
+CRO_Sparrows_Placated_3 = {
+
+	picture = CRO_Sparrows_Placated
+
+	removal_cost = -1
+
+	allowed = {
+		original_tag = CRO
+	}
+
+	modifier = {
+		political_power_factor = 0.15
+		stability_factor = 0.15
+	}
+}
+
+
+CRO_Sparrows_Angry = {
+
+	removal_cost = -1
+
+	allowed = {
+		original_tag = CRO
+	}
+
+	modifier = {
+		political_power_factor = -0.05
+		stability_factor = -0.05
+	}
+}
+
+
+CRO_Sparrows_Angry_2 = {
+
+	picture = CRO_Sparrows_Angry
+
+	removal_cost = -1
+
+	allowed = {
+		original_tag = CRO
+	}
+
+	modifier = {
+		political_power_factor = -0.10
+		stability_factor = -0.10
+	}
+}
+
+
+CRO_Sparrows_Angry_3 = {
+
+	picture = CRO_Sparrows_Angry
+
+	removal_cost = -1
+
+	allowed = {
+		original_tag = CRO
+	}
+
+	modifier = {
+		political_power_factor = -0.15
+		stability_factor = -0.15
+	}
+}
+		
+		
+		CRO_Faith_Militant = {
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = CRO
+			}
+			
+			modifier = {
+				# The Fanaticism (Strong Defense & Morale)
+				land_reinforce_rate = 0.15          # Fanatics rush to fill the front lines
+				army_defence_factor = 0.15          # Fierce defenders of holy ground
+				org_loss_when_moving = -0.10        # High zeal keeps them moving without losing focus
+				
+				# The Ragtag Nature (Poor Equipment & Coordination)
+				land_night_attack = -0.10    # Poor tactical coordination in the dark
+				training_time_factor = 0.20         # 20% slower to train (undisciplined mob takes longer to form up)
+				production_speed_buildings_factor = -0.10 # Smallfolk are too busy praying/rioting to construct infrastructure
+			}
+		}
 
 	}
 }

@@ -1782,7 +1782,7 @@ country_event = {
 			}
 			DRA = {
 			   country_event = {
-					id = BPD_Better_Peace_Deals_Country.1
+					id = BPD_Better_Peace_Deals_Country.200
 					hours = 1
 				}
 			}
@@ -1840,7 +1840,7 @@ country_event = {
 					is_faction_leader = yes
 				}
 			   country_event = {
-					id = BPD_Better_Peace_Deals_Country.1
+					id = BPD_Better_Peace_Deals_Country.200
 					hours = 1
 				}
 			}
@@ -2484,15 +2484,18 @@ country_event = {
 			retire = yes
 		}
 		
+		set_global_flag = GOT_Oberyn_Martell_Murdered_Flag
+		
 		add_country_leader_role = {
-			character = DOR_Ellaria_Sand
+			character = DOR_doran_martell
 			country_leader={
 				ideology=FR_subideology
 				expire="1965.1.1.1"
 				traits = {  
-					hedonist  
-					warmonger  
-					political_manipulator  
+					political_dancer  
+					tenacious_negotiator  
+					the_statist  
+					infirm  
 				}
 			}
 			promote_leader = yes
@@ -4570,7 +4573,7 @@ country_event = {
 			}
 			DRA = {
 			   country_event = {
-					id = BPD_Better_Peace_Deals_Country.1
+					id = BPD_Better_Peace_Deals_Country.200
 					hours = 1
 				}
 			}
@@ -4582,7 +4585,7 @@ country_event = {
 			}
 			NWA = {
 			   country_event = {
-					id = BPD_Better_Peace_Deals_Country.1
+					id = BPD_Better_Peace_Deals_Country.200
 					hours = 1
 				}
 			}
@@ -4690,6 +4693,2652 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+#Pro Dany Coup in Dothraki Horde
+country_event = {
+	id = GOT_Diplomatic_Country.69
+	title = GOT_Diplomatic_Country.69.t
+	desc = GOT_Diplomatic_Country.69.d
+	picture = GFX_report_event_GOT_Story_Country517
+	
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.69.a
+		ai_chance = {
+			base = 85
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 100
+			}
+		}
+		retire_ideology_leader = communism
+		add_country_leader_role = {
+			character = DOT_Danaerys_Targaryen
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					queen_of_the_people  
+					empire_builder  
+					legitimate_heir  
+					warmonger  
+					headstrong  
+					autocratic_imperialist  
+					popular_queen  
+					protector_of_the_campesinos  
+					ideological_crusader  
+					freedom_fighter  
+					indomitable_perseverance  
+					hawk  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+			
+		}
+		
+		if  = {
+				limit = {
+					has_war_with = TAR
+				}
+				every_country = {
+					limit = { is_in_faction_with = TAR }
+					white_peace = DOT
+					set_truce = { target = DOT days = 365 }
+				}
+				DOT = {
+					white_peace = TAR
+					set_truce = { target = TAR days = 365 }
+				}
+			}
+
+		
+		
+		#Nights Watch gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.517 
+                hours = 6 
+            } 
+        }
+	}
+	option = {
+		name = GOT_Diplomatic_Country.69.b
+		trigger = {
+			NOT = {
+				has_government = communism
+			}
+		}
+		ai_chance = {
+			base = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			
+		}
+		random_list = {
+			50 = {
+				start_civil_war = {
+					ruling_party = ROOT
+					ideology = communism
+					size = 0.5
+				}
+				random_other_country = {
+					limit = {
+						original_tag = DOT
+						has_government = communism
+					}
+					retire_ideology_leader = communism
+					add_country_leader_role = {
+						character = DOT_Danaerys_Targaryen
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = CR_subideology
+							traits = {  
+								queen_of_the_people  
+								empire_builder  
+								legitimate_heir  
+								warmonger  
+								headstrong  
+								autocratic_imperialist  
+								popular_queen  
+								protector_of_the_campesinos  
+								ideological_crusader  
+								freedom_fighter  
+								indomitable_perseverance  
+								hawk  
+							}
+						}
+						promote_leader = yes
+					}
+					#Targaryens gets event asking them to join their faction
+					every_other_country = {
+						limit = {
+							is_in_faction_with = TAR
+							is_faction_leader = yes
+						}
+					   country_event = {
+							id = generic.2
+							hours = 6
+						}
+					}
+				}
+			}
+			50 = {
+				news_event = {
+					id = GOT_Alt_News.7
+					hours = 6
+				}
+			}
+		}
+	}
+}
+
+#Pro Dany Coup in Dragonstone
+country_event = {
+	id = GOT_Diplomatic_Country.70
+	title = GOT_Diplomatic_Country.70.t
+	desc = GOT_Diplomatic_Country.70.d
+	picture = GFX_report_event_GOT_Story_Country607
+	
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.70.a
+		ai_chance = {
+			base = 80
+			modifier = {
+				factor = 0.25
+				has_country_leader = {
+					name = "Stannis Baratheon"
+					ruling_only = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 100
+			}
+		}
+		retire_ideology_leader = communism
+		add_country_leader_role = {
+			character = DRA_Danaerys_Targaryen
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = {  
+					queen_of_the_people  
+					empire_builder  
+					legitimate_heir  
+					warmonger  
+					headstrong  
+					autocratic_imperialist  
+					popular_queen  
+					protector_of_the_campesinos  
+					ideological_crusader  
+					freedom_fighter  
+					indomitable_perseverance  
+					hawk  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				is_faction_leader = no
+				142 = { is_claimed_by = DRA }
+			}
+			set_faction_leader = yes
+		}
+
+		#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If Stormlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+			
+		}
+		
+		if  = {
+				limit = {
+					has_war_with = TAR
+				}
+				every_country = {
+					limit = { is_in_faction_with = TAR }
+					white_peace = DRA
+					set_truce = { target = DRA days = 365 }
+				}
+				DRA = {
+					white_peace = TAR
+					set_truce = { target = TAR days = 365 }
+				}
+			}
+
+		
+		
+		#Nights Watch gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.517 
+                hours = 6 
+            } 
+        }
+	}
+	option = {
+		name = GOT_Diplomatic_Country.70.b
+		trigger = {
+			NOT = {
+				has_government = communism
+			}
+		}
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = {
+					has_country_leader = {
+						name = "Stannis Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			modifier = {
+				factor = 4
+				has_country_leader = {
+					name = "Stannis Baratheon"
+					ruling_only = yes
+				}
+			}
+			
+		}
+		random_list = {
+			50 = {
+				start_civil_war = {
+					ruling_party = ROOT
+					ideology = communism
+					size = 0.5
+				}
+				random_other_country = {
+					limit = {
+						original_tag = DRA
+						has_government = communism
+					}
+					retire_ideology_leader = communism
+					add_country_leader_role = {
+						character = DRA_Danaerys_Targaryen
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = CR_subideology
+							traits = {  
+								queen_of_the_people  
+								empire_builder  
+								legitimate_heir  
+								warmonger  
+								headstrong  
+								autocratic_imperialist  
+								popular_queen  
+								protector_of_the_campesinos  
+								ideological_crusader  
+								freedom_fighter  
+								indomitable_perseverance  
+								hawk  
+							}
+						}
+						promote_leader = yes
+					}
+					#Targaryens gets event asking them to join their faction
+					every_other_country = {
+						limit = {
+							is_in_faction_with = TAR
+							is_faction_leader = yes
+						}
+					   country_event = {
+							id = generic.2
+							hours = 6
+						}
+					}
+				}
+			}
+			50 = {
+			}
+		}
+	}
+}
+
+#Sparrows Crushed
+country_event = {
+	id = GOT_Diplomatic_Country.71
+	title = GOT_Diplomatic_Country.71.t
+	desc = GOT_Diplomatic_Country.71.d
+	picture = GFX_report_event_GOT_Story_Country519 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.71.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		GOT_Sparrows_Crushed = yes
+
+        every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.36
+				hours = 6
+			}
+		}
+	}
+}
+
+#Sparrows Civil War
+country_event = {
+	id = GOT_Diplomatic_Country.72
+	title = GOT_Diplomatic_Country.72.t
+	desc = GOT_Diplomatic_Country.72.d
+	picture = GFX_report_event_GOT_Story_Country519 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.72.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		GOT_Sparrows_Civil_War = yes
+
+        every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.37
+				hours = 6
+			}
+		}
+	}
+}
+
+#Assault Repelled
+country_event = {
+	id = GOT_Diplomatic_Country.73
+	title = GOT_Diplomatic_Country.73.t
+	desc = GOT_Diplomatic_Country.73.d
+	picture = GFX_report_event_GOT_Story_Country519 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.73.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_stability = -0.20
+		add_political_power = -50
+		
+		GOT_Sparrows_Angered = yes
+
+        every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.38
+				hours = 6
+			}
+		}
+	}
+}
+
+#Sept Blown Up
+country_event = {
+	id = GOT_Diplomatic_Country.74
+	title = GOT_Diplomatic_Country.74.t
+	desc = GOT_Diplomatic_Country.74.d
+	picture = GFX_report_event_GOT_Story_Country546 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.74.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_global_flag = GOT_Sept_Blown_Up_Flag
+		
+		if = {
+			limit = {
+				CRO = {
+					has_country_leader = {
+						name = "Tommen Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			country_event = { 
+                id = GOT_Diplomatic_Country.76 
+                hours = 6 
+            }
+		}
+		
+		if = {
+			limit = {
+				REA = {
+					is_in_faction_with = CRO
+				}
+			}
+			country_event = { 
+                id = GOT_Diplomatic_Country.77 
+                hours = 6 
+            }
+		}
+		
+		if = { 
+            limit = { 
+               WES = {
+					is_in_faction_with = CRO
+					has_country_leader = {
+						name = "Kevan Lannister"
+						ruling_only = yes
+					}
+				} 
+            } 
+            WES = {
+				country_event = { 
+					id = GOT_Diplomatic_Country.79
+					hours = 6 
+				} 
+			}
+        }
+				
+		
+		
+		GOT_Sparrows_Crushed = yes
+
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.546 
+                hours = 6 
+            } 
+        }
+	}
+}
+
+#Blowing up of sept fails
+country_event = {
+	id = GOT_Diplomatic_Country.75
+	title = GOT_Diplomatic_Country.75.t
+	desc = GOT_Diplomatic_Country.75.d
+	picture = GFX_report_event_GOT_Story_Country546 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.75.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		GOT_Sparrows_Civil_War = yes
+
+        every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.39
+				hours = 6
+			}
+		}
+	}
+}
+
+#Tommens Choice
+country_event = {
+	id = GOT_Diplomatic_Country.76
+	title = GOT_Diplomatic_Country.76.t
+	desc = GOT_Diplomatic_Country.76.d
+	picture = GFX_report_event_GOT_Story_Country546 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.76.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		CRO_Tommen_Baratheon = {
+			retire = yes
+		}
+		if = {
+			limit = {
+				NOT = { has_government = fascism }
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = fascism
+		}
+		add_country_leader_role = {
+			character = CRO_cersei_lannister
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = CRO_cersei_lannister
+				country_leader={
+				ideology=FR_subideology
+				expire="1965.1.1.1"
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		country_event = {
+			id = GOT_Location_Country.1
+			hours = 6
+		}
+
+        every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Diplomatic_News.40
+				hours = 6
+			}
+		}
+	}
+}
+
+#Important Leadership Change
+#The Destruction of House Tyrell
+country_event = {
+	id = GOT_Diplomatic_Country.77
+	title = GOT_Diplomatic_Country.77.t
+	desc = GOT_Diplomatic_Country.77.d
+	picture = GFX_report_event_GOT_Story_Country546 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.77.a
+
+		ai_chance = {
+			factor = 75
+		}
+		
+		REA_mace_tyrell = {
+			retire = yes
+		}
+		REA_Loras_Tyrell = {
+			retire = yes
+		}
+		REA_Margaery_Tyrell = {
+			retire = yes
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_government = communism }
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = communism
+		}
+		add_country_leader_role = {
+			character = REA_Olenna_Tyrell
+				country_leader={
+				ideology=DR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					political_manipulator 
+					backroom_backstabber 
+					tenacious_negotiator 
+					sharp_tongued_lawyer 
+					the_foreign_connection 
+					queen_of_the_people 
+					the_director 
+					economic_organizer 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = REA_Olenna_Tyrell
+				country_leader={
+				ideology=CR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					political_manipulator 
+					backroom_backstabber 
+					tenacious_negotiator 
+					sharp_tongued_lawyer 
+					the_foreign_connection 
+					queen_of_the_people 
+					the_director 
+					economic_organizer 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = REA_Olenna_Tyrell
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					political_manipulator 
+					backroom_backstabber 
+					tenacious_negotiator 
+					sharp_tongued_lawyer 
+					the_foreign_connection 
+					queen_of_the_people 
+					the_director 
+					economic_organizer 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = REA_Olenna_Tyrell
+				country_leader={
+				ideology=FR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					political_manipulator 
+					backroom_backstabber 
+					tenacious_negotiator 
+					sharp_tongued_lawyer 
+					the_foreign_connection 
+					queen_of_the_people 
+					the_director 
+					economic_organizer 
+				}
+			}
+			promote_leader = yes
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.77.b
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+			if = {
+				limit = {
+					owns_state = 123
+				}
+				TRL = {
+					transfer_state = 123
+				}
+			}
+		
+			TRL = {
+				transfer_state = 246
+				inherit_technology = REA
+			}
+			REA = {
+				end_puppet = TRL
+			}
+			REA = {
+				transfer_navy = {
+					target = TRL
+				}
+			}
+			TRL = {
+				change_tag_from = ROOT
+				inherit_technology = REA
+			}
+			TRL = {
+				annex_country = {
+					target = REA
+					transfer_troops = yes
+				}
+				if = {
+					limit = {
+						NOT = { has_government = fascism }
+					}
+					set_politics = {
+						ruling_party = fascism
+					}
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = fascism
+				}
+			}
+			
+			every_state = { 
+				limit = { 
+					is_core_of = REA
+				} 
+				add_core_of = TRL
+			}
+		
+
+	}
+}
+
+#Event asking to join dany
+country_event = {
+	id = GOT_Diplomatic_Country.78
+	title = GOT_Diplomatic_Country.78.t
+	desc = GOT_Diplomatic_Country.78.d
+	picture = GFX_report_event_GOT_Story_Country607 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.78.a
+		
+		ai_chance = { 
+            base = 35
+			modifier = {
+				add = 200
+				is_in_faction_with = TAR
+			}
+			modifier = {
+				add = 300
+				tag = DRA
+			}
+			modifier = {
+				add = 300
+				tag = DOR
+			}
+			modifier = {
+				add = 300
+				tag = REA
+			}
+			modifier = {
+				add = 75
+				tag = WIL
+			}
+			modifier = {
+				add = 100
+				has_war_with = CRO
+			}
+			modifier = {
+				add = 200
+				is_in_faction_with = TAR
+			}
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					TAR = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						TAR = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						TAR = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						TAR = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 300
+				has_global_flag = GOT_Sept_Blown_Up_Flag
+				tag = REA
+				has_country_leader = {
+					name = "Olenna Tyrell"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				add = 300
+				has_global_flag = GOT_Oberyn_Martell_Murdered_Flag
+				tag = DOR
+				has_country_leader = {
+					name = "Ellaria Sand"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				add = 200
+				GOT_Targaryen_Faction = yes
+			}
+			modifier = {
+				factor = 0
+				GOT_Lannister_Faction = yes
+				is_historical_focus_on = yes
+			}			
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+		
+			if = {
+			limit = {
+				has_war_with = TAR
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.78.b
+		
+		ai_chance = { 
+            base = 45
+			modifier = {
+				add = 300
+				tag = CRO
+			}
+			modifier = {
+				add = 300
+				tag = WES
+			}
+			modifier = {
+				add = 250
+				tag = TRL
+			}
+			modifier = {
+				add = 200
+				tag = BOL
+			}
+			modifier = {
+				add = 150
+				tag = FRE
+			}
+			modifier = {
+				add = 150
+				tag = KAR
+			}
+			modifier = {
+				add = 150
+				tag = UMB
+			}
+			modifier = {
+				add = 100
+				has_war_with = TAR
+			}
+			modifier = {
+				add = 250
+				tag = REA
+				has_country_leader = {
+					name = "Randyll Tarly"
+					ruling_only = yes
+				}
+			}
+			modifier = {
+				add = 200
+				is_in_faction_with = CRO
+			}
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					CRO = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						CRO = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						CRO = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						CRO = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 200
+				GOT_Lannister_Faction = yes
+			}
+			modifier = {
+				factor = 0
+				GOT_Targaryen_Faction = yes
+				is_historical_focus_on = yes
+			}			
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+		
+			if = {
+			limit = {
+				has_war_with = CRO
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.78.c
+		
+		ai_chance = { 
+            base = 20
+			modifier = {
+				factor = 0
+				GOT_Lannister_Faction = yes
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				GOT_Targaryen_Faction = yes
+				is_historical_focus_on = yes
+			}	
+			modifier = {
+				add = 300
+				tag = NWA
+			}	
+			modifier = {
+				add = 150
+				tag = VAL
+			}		
+			modifier = {
+				add = 100
+				tag = RIV
+			}
+			modifier = {
+				add = 100
+				tag = NOR
+			}
+			modifier = {
+				add = 100
+				tag = IRO
+			}			
+			modifier = {
+				add = 75
+				tag = WIL
+			}
+			modifier = {
+				factor = 0
+				is_in_faction_with = TAR
+			}
+			modifier = {
+				factor = 0
+				is_in_faction_with = CRO
+			}			
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+
+		
+	}
+}
+
+#Kevan Assassinated Who Rules
+country_event = {
+	id = GOT_Diplomatic_Country.79
+	title = GOT_Diplomatic_Country.79.t
+	desc = GOT_Diplomatic_Country.79.d
+	picture = GFX_report_event_GOT_Story_Country546 
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GOT_Diplomatic_Country.79.a
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		kill_country_leader = yes
+		remove_country_leader_role = {
+			character = WES_Kevan_Lannister
+			ideology = NR_subideology
+		}
+		add_country_leader_role = {
+			character = WES_Jaime_Lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {
+					stout_defender              # He’s one of the best swordsmen in Westeros and known for defending his king, even if controversially.
+					great_war_hero              # Despite the dishonor, his slaying of the Mad King arguably saved thousands and marked him as a decisive force in war.
+					disgraced_monarch           # As the Kingslayer and an accused oath-breaker, his honor and reputation are deeply damaged.
+					infirm                      # Symbolic of his lost sword hand, which deeply limits his former capabilities.
+					hawk                        # Still favors aggressive action when needed and isn’t shy of violence.
+					camarilla_leader            # Close ties to elite factions at court like Cersei, Tywin, and later Brienne — reflects insider power dynamics.
+					sins_of_the_father          # Deeply shaped and burdened by Tywin Lannister’s legacy and expectations.
+				}
+
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.79.b
+
+		ai_chance = {
+			factor = 60
+		}
+		
+		kill_country_leader = yes
+		remove_country_leader_role = {
+			character = WES_Kevan_Lannister
+			ideology = NR_subideology
+		}
+		add_country_leader_role = {
+			character = WES_Cersei_Lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					the_foreign_connection  
+					ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+
+			}
+			promote_leader = yes
+		}
+		
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
+		}
+
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.79.c
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		kill_country_leader = yes
+		remove_country_leader_role = {
+			character = WES_Kevan_Lannister
+			ideology = NR_subideology
+		}
+		
+		if = {
+            limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Joffrey Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = WES_Cersei_Lannister
+				ideology = FR_subideology
+			}
+			add_country_leader_role = {
+				character = WES_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = WES_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+			limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Tommen Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = WES_Kevan_Lannister
+				ideology = DR_subideology
+			}
+			add_country_leader_role = {
+				character = WES_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						#voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = WES_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = DR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						#voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+           limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Myrcella Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			remove_country_leader_role = {
+				character = WES_Tyrion_Lannister
+				ideology = CR_subideology
+			}
+			add_country_leader_role = {
+				character = WES_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = WES_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = CR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else = {
+			add_country_leader_role = {
+				character = WES_Cersei_Lannister
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {  
+						dictator  
+						political_manipulator  
+						autocratic_imperialist  
+						the_foreign_connection  
+						ambitious_negotiator_fascism  
+						princess_of_terror  
+					}
+
+				}
+				promote_leader = yes
+			}
+        }
+
+		
+		news_event = {
+			id = GOT_Location_News.3
+			hours = 6
+		}
+
+	}
+	
+}
+
+#Event asking to The North
+country_event = {
+	id = GOT_Diplomatic_Country.80
+	title = GOT_Diplomatic_Country.80.t
+	desc = GOT_Diplomatic_Country.80.d
+	picture = GFX_report_event_Winterfell
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.80.a
+		
+		ai_chance = { 
+            base = 10
+			modifier = {
+				add = 40
+				country_exists = ICE
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 15
+				NOR = {
+					has_country_leader = {
+						name = "Jon Snow"
+						ruling_only = yes
+					}
+				}
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 20
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+				tag = NWA
+			}
+			modifier = {
+				add = 35
+				has_country_leader = {
+					name = "Petyr Baelish"
+					ruling_only = yes
+				}
+				tag = VAL
+			}
+			modifier = {
+				add = 25
+				has_country_leader = {
+					name = "Robin Arryn"
+					ruling_only = yes
+				}
+				tag = VAL
+			}
+			modifier = {
+				add = 15
+				NOR = {
+					has_country_leader = {
+						name = "Sansa Stark"
+						ruling_only = yes
+					}
+				}
+				tag = VAL
+			}
+        }
+		
+			if = {
+			limit = {
+				has_war_with = NOR
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = NOR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = NOR }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = NOR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.80.b
+		
+		ai_chance = { 
+            base = 90
+			modifier = {
+				add = -40
+				country_exists = ICE
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = -20
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+				tag = NWA
+			}
+			modifier = {
+				add = 20
+				has_war = yes
+			}
+			modifier = {
+				add = 20
+				has_manpower < 100000
+			}
+			modifier = {
+				add = 40
+				NOT = { country_exists = ICE }
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 15
+				NOT = {
+					NOR = {
+						has_country_leader = {
+							name = "Jon Snow"
+							ruling_only = yes
+						}
+					}
+				}
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 50
+				has_country_leader = {
+					name = "Lysa Arryn"
+					ruling_only = yes
+				}
+				tag = VAL
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}			
+        }
+		add_war_support = -0.05
+	}
+}
+
+#Stannis offers Jon Snow Legitimization
+country_event = {
+	id = GOT_Diplomatic_Country.81
+	title = GOT_Diplomatic_Country.81.t
+	desc = GOT_Diplomatic_Country.81.d
+	picture = GFX_report_event_Castle_Black
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.81.a
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = { is_in_faction_with = DRA }
+			}
+		#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = DRA }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = DRA
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		}
+
+		add_political_power = 25
+		add_stability = -0.05
+		
+		set_global_flag = GOT_Jon_Accepts_Stannis_Offer_Flag
+		
+		FROM = {
+			country_event = {
+				id = GOT_Diplomatic_Country.82
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.81.b
+
+		ai_chance = {
+			factor = 70
+		}
+
+		add_political_power = -25
+		add_stability = 0.05
+		
+		FROM = {
+			country_event = {
+				id = GOT_Diplomatic_Country.83
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Jon Accepts
+country_event = {
+	id = GOT_Diplomatic_Country.82
+	title = GOT_Diplomatic_Country.82.t
+	desc = GOT_Diplomatic_Country.82.d
+	picture = GFX_report_event_Castle_Black
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.82.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		if = {
+			limit = {
+				DRA = { is_in_faction = yes }
+				DRA = { is_faction_leader = yes }
+			}
+			DRA = { add_to_faction = NWA } 
+		}
+		
+		FROM = {
+			country_event = {
+				id = GOT_Diplomatic_Country.84
+				hours = 6
+			}
+		}
+
+		add_political_power = 25
+		
+	}
+	
+}
+
+#Jon Declines
+country_event = {
+	id = GOT_Diplomatic_Country.83
+	title = GOT_Diplomatic_Country.83.t
+	desc = GOT_Diplomatic_Country.83.d
+	picture = GFX_report_event_Castle_Black
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.83.a
+
+		ai_chance = {
+			factor = 10
+		}
+
+		add_political_power = -25
+		
+	}
+}
+
+# 745 — Second Northern Civil War
+country_event = { 
+    id = GOT_Diplomatic_Country.84 
+    title = GOT_Diplomatic_Country.84.t 
+    desc = GOT_Diplomatic_Country.84.d 
+    picture = GFX_report_event_Winterfell
+  
+	is_triggered_only = yes
+ 
+	option = { 
+        name = GOT_Diplomatic_Country.84.a 
+
+        ai_chance = { 
+            factor = 100
+        }
+		
+		every_state = { 
+			limit = { 
+				is_core_of = BOL
+			} 
+			add_core_of = NOR
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 120 }
+			}
+			NOR = {
+				transfer_state = 120
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 160 }
+			}
+			NOR = {
+				transfer_state = 160
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 158 }
+			}
+			NOR = {
+				transfer_state = 158
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 122 }
+			}
+			NOR = {
+				transfer_state = 122
+			}
+		}
+		
+		NOR = {
+			transfer_state = 21
+			inherit_technology = BOL
+		}
+		
+		set_autonomy = {
+			target = NOR
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+		
+		BOL = {
+			end_puppet = NOR
+			transfer_units_fraction= {
+				target = NOR
+				size = 0.3
+				keep_unit_leaders_trigger = {
+					always = yes
+				}
+			}
+			declare_war_on = {
+				target = NOR
+				type = civil_war
+			}
+		}
+		
+		NOR = { 
+			retire_ideology_leader = neutrality
+		}
+		
+		if = {
+			limit = {
+				has_global_flag = GOT_Jon_Stays_Watch_Flag
+			}
+			NOR = { 
+				set_politics = {
+					ruling_party = fascism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = fascism
+				}
+				add_country_leader_role = {
+					character = NOR_Sansa_Stark
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							popular_figurehead 
+							political_dancer 
+							reluctant_veteran 
+							headstrong 
+							#disdain_for_politicians_2 
+							queen_of_the_people 
+							great_survivor 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		else = {
+			NOR = { 
+				set_politics = {
+					ruling_party = communism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = communism
+				}
+				add_country_leader_role = {
+					character = NOR_Jon_Snow
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							warrior_code 
+							stout_defender 
+							reluctant_veteran 
+							great_war_hero 
+							headstrong 
+							indomitable_perseverance 
+							#disdain_for_politicians_2 
+							nationalist_symbol 
+							#monarchist_puppet 
+							great_survivor 
+							our_right_to_survive 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		
+		#If The North is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				NOR = { is_faction_leader = yes }
+			}
+			NOR = { dismantle_faction = yes }
+		}
+
+		#If North is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				NOR = { is_in_faction = yes }
+				NOR = { NOT = { is_in_faction_with = DRA } }
+			}
+			NOR = { leave_faction = yes }
+		}
+		
+		if = {
+			limit = {
+				DRA = { is_in_faction = no }
+			}
+			DRA = { create_faction = "The True King" }
+		}
+		
+		if = {
+			limit = {
+				DRA = { is_in_faction = yes }
+				DRA = { is_faction_leader = yes }
+			}
+			DRA = { add_to_faction = NOR } 
+			every_other_country = { 
+				limit = { 
+					OR = {
+						original_tag = VAL
+						original_tag = WIL
+					}
+					NOT = {
+						is_in_faction_with = DRA
+					} 
+				} 
+				country_event = { 
+					id = GOT_Diplomatic_Country.85 
+					hours = 6 
+				} 
+			}
+		}
+		
+		set_global_flag = GOT_Second_Northern_Civil_War_Flag
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.41 
+                hours = 6 
+            } 
+        }
+		
+    }
+	
+	option = { 
+        name = GOT_Diplomatic_Country.84.b 
+		
+		trigger = { 
+			NWA = { is_ai = no }
+			OR = { 
+				NOR = { is_ai = yes }
+				NOR = { exists = no }
+			}
+		}
+
+        ai_chance = { 
+            factor = 100
+        }
+		
+		every_state = { 
+			limit = { 
+				is_core_of = BOL
+			} 
+			add_core_of = NOR
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 120 }
+			}
+			NOR = {
+				transfer_state = 120
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 160 }
+			}
+			NOR = {
+				transfer_state = 160
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 158 }
+			}
+			NOR = {
+				transfer_state = 158
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 122 }
+			}
+			NOR = {
+				transfer_state = 122
+			}
+		}
+		
+		NOR = {
+			transfer_state = 21
+			inherit_technology = BOL
+		}
+		
+		set_autonomy = {
+			target = NOR
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+		
+		BOL = {
+			end_puppet = NOR
+			transfer_units_fraction= {
+				target = NOR
+				size = 0.3
+				keep_unit_leaders_trigger = {
+					always = yes
+				}
+			}
+			declare_war_on = {
+				target = NOR
+				type = civil_war
+			}
+		}
+		
+		NOR = { 
+			retire_ideology_leader = neutrality
+		}
+		
+		if = {
+			limit = {
+				has_global_flag = GOT_Jon_Stays_Watch_Flag
+			}
+			NOR = { 
+				set_politics = {
+					ruling_party = fascism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = fascism
+				}
+				add_country_leader_role = {
+					character = NOR_Sansa_Stark
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							popular_figurehead 
+							political_dancer 
+							reluctant_veteran 
+							headstrong 
+							#disdain_for_politicians_2 
+							queen_of_the_people 
+							great_survivor 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		else = {
+			NOR = { 
+				set_politics = {
+					ruling_party = communism
+				}
+				add_popularity = {
+					popularity = 0.50
+					ideology = communism
+				}
+				add_country_leader_role = {
+					character = NOR_Jon_Snow
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							warrior_code 
+							stout_defender 
+							reluctant_veteran 
+							great_war_hero 
+							headstrong 
+							indomitable_perseverance 
+							#disdain_for_politicians_2 
+							nationalist_symbol 
+							#monarchist_puppet 
+							great_survivor 
+							our_right_to_survive 
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+		
+		#If The North is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				NOR = { is_faction_leader = yes }
+			}
+			NOR = { dismantle_faction = yes }
+		}
+
+		#If North is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				NOR = { is_in_faction = yes }
+				NOR = { NOT = { is_in_faction_with = DRA } }
+			}
+			NOR = { leave_faction = yes }
+		}
+		
+		if = {
+			limit = {
+				DRA = { is_in_faction = no }
+			}
+			DRA = { create_faction = "The True King" }
+		}
+		
+		if = {
+			limit = {
+				DRA = { is_in_faction = yes }
+				DRA = { is_faction_leader = yes }
+			}
+			DRA = { add_to_faction = NOR } 
+			every_other_country = { 
+				limit = { 
+					OR = {
+						original_tag = VAL
+						original_tag = WIL
+					}
+					NOT = {
+						is_in_faction_with = DRA
+					} 
+				} 
+				country_event = { 
+					id = GOT_Diplomatic_Country.85 
+					hours = 6 
+				} 
+			}
+		}
+		
+		set_global_flag = GOT_Second_Northern_Civil_War_Flag
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Diplomatic_News.41 
+                hours = 6 
+            } 
+        }
+		
+		NOR = {
+			change_tag_from = ROOT
+		}
+		
+    }
+    
+} 
+
+#Event asking to Join Stannis Faction
+country_event = {
+	id = GOT_Diplomatic_Country.85
+	title = GOT_Diplomatic_Country.85.t
+	desc = GOT_Diplomatic_Country.85.d
+	picture = GFX_report_event_Dragonstone
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.85.a
+		
+		ai_chance = { 
+            base = 10
+			modifier = {
+				add = 40
+				country_exists = ICE
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 15
+				NOR = {
+					has_country_leader = {
+						name = "Jon Snow"
+						ruling_only = yes
+					}
+				}
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 20
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+				tag = NWA
+			}
+			modifier = {
+				add = 35
+				has_country_leader = {
+					name = "Petyr Baelish"
+					ruling_only = yes
+				}
+				tag = VAL
+			}
+			modifier = {
+				add = 25
+				has_country_leader = {
+					name = "Robin Arryn"
+					ruling_only = yes
+				}
+				tag = VAL
+			}
+			modifier = {
+				add = 15
+				NOR = {
+					has_country_leader = {
+						name = "Sansa Stark"
+						ruling_only = yes
+					}
+				}
+				tag = VAL
+			}
+        }
+		
+			if = {
+			limit = {
+				has_war_with = NOR
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = NOR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = NOR }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = NOR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.85.b
+		
+		ai_chance = { 
+            base = 90
+			modifier = {
+				add = -40
+				country_exists = ICE
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = -20
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+				tag = NWA
+			}
+			modifier = {
+				add = 20
+				has_war = yes
+			}
+			modifier = {
+				add = 20
+				has_manpower < 100000
+			}
+			modifier = {
+				add = 40
+				NOT = { country_exists = ICE }
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 15
+				NOT = {
+					NOR = {
+						has_country_leader = {
+							name = "Jon Snow"
+							ruling_only = yes
+						}
+					}
+				}
+				OR = {
+					tag = NWA
+					tag = WIL
+				}
+			}
+			modifier = {
+				add = 50
+				has_country_leader = {
+					name = "Lysa Arryn"
+					ruling_only = yes
+				}
+				tag = VAL
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}			
+        }
+		add_war_support = -0.05
+	}
+}
+
+#Event Northern Faction Members get if Jon Bends the Knee to Daenerys
+country_event = {
+	id = GOT_Diplomatic_Country.86
+	title = GOT_Diplomatic_Country.86.t
+	desc = GOT_Diplomatic_Country.86.d
+	picture = GFX_report_event_GOT_Story_Country610 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.86.a
+		
+		ai_chance = { 
+            base = 35
+			modifier = {
+				add = 100
+				has_war_with = CRO
+			}
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					TAR = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						TAR = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						TAR = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						TAR = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 200
+				GOT_Targaryen_Faction = yes
+			}	
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+		
+			if = {
+			limit = {
+				has_war_with = TAR
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.86.b
+		
+		ai_chance = { 
+            base = 65
+			modifier = {
+				factor = 0
+				GOT_Targaryen_Faction = yes
+				is_historical_focus_on = yes
+			}				
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+
+		
+	}
+}
+
+#Event Northern Faction Members get if Jon Bends the Knee to Cersei
+country_event = {
+	id = GOT_Diplomatic_Country.87
+	title = GOT_Diplomatic_Country.87.t
+	desc = GOT_Diplomatic_Country.87.d
+	picture = GFX_report_event_Red_Keep
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.87.a
+		
+		ai_chance = { 
+            base = 45
+			modifier = {
+				add = 100
+				has_war_with = TAR
+			}
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					CRO = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						CRO = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						CRO = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						CRO = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 200
+				GOT_Lannister_Faction = yes
+			}			
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+		
+			if = {
+			limit = {
+				has_war_with = CRO
+			}
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.87.b
+		
+		ai_chance = { 
+            base = 65
+			modifier = {
+				factor = 0
+				GOT_Lannister_Faction = yes
+				is_historical_focus_on = yes
+			}				
+        }
+		
+		set_country_flag = GOT_Has_Decided_Targaryen_Lannister_Flag
+
+		
 	}
 }
 
@@ -5143,5 +7792,94 @@ news_event = {
  
     option = { 
         name = GOT_Diplomatic_News.35.a 
+    } 
+} 
+
+#Faith Militant Crushed
+news_event = { 
+    id = GOT_Diplomatic_News.36
+    title = GOT_Diplomatic_News.36.t 
+    desc = GOT_Diplomatic_News.36.d 
+    picture = GFX_news_event_GOT_Story_News519
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.36.a 
+    } 
+}
+
+#Sparrow Civil War
+news_event = { 
+    id = GOT_Diplomatic_News.37
+    title = GOT_Diplomatic_News.37.t 
+    desc = GOT_Diplomatic_News.37.d 
+    picture = GFX_news_event_GOT_Story_News519
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.37.a 
+    } 
+}
+
+#Assault Repelled
+news_event = { 
+    id = GOT_Diplomatic_News.38
+    title = GOT_Diplomatic_News.38.t 
+    desc = GOT_Diplomatic_News.38.d 
+    picture = GFX_news_event_GOT_Story_News519
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.38.a 
+    } 
+}
+
+#Plot Foiled
+news_event = { 
+    id = GOT_Diplomatic_News.39
+    title = GOT_Diplomatic_News.39.t 
+    desc = GOT_Diplomatic_News.39.d 
+    picture = GFX_news_event_GOT_Story_News546
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.39.a 
+    } 
+}
+
+#Tommen Kills Himself
+news_event = { 
+    id = GOT_Diplomatic_News.40
+    title = GOT_Diplomatic_News.40.t 
+    desc = GOT_Diplomatic_News.40.d 
+    picture = GFX_news_event_GOT_Story_News546
+ 
+    is_triggered_only = yes
+	
+ 
+    option = { 
+        name = GOT_Diplomatic_News.40.a 
+    } 
+}
+
+# 745 — Second Northern Civil War
+news_event = { 
+    id = GOT_Diplomatic_News.41 
+    title = GOT_Diplomatic_News.41.t 
+    desc = GOT_Diplomatic_News.41.d 
+    picture = picture = GFX_news_event_Winterfell 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Diplomatic_News.41.a 
     } 
 } 

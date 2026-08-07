@@ -308,3 +308,17 @@ news_event = {
 		name = GOT_Alt_News.6.a
 	}
 }
+
+#Danerys Coup Fails
+news_event = {
+	id = GOT_Alt_News.7
+	title = GOT_Alt_News.7.t
+	desc = GOT_Alt_News.7.d
+	picture = GFX_news_event_GOT_Story_News517 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Alt_News.7.a
+	}
+}

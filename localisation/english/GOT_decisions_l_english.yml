@@ -6,8 +6,17 @@ GOT_Game_Decisions_desc:0 "This category contains decisions that significantly i
 GOT_Give_GOT_Mode_To_New_Countries:0 "Enable Game of Thrones Mode for New Countries"
 GOT_Give_GOT_Mode_To_New_Countries_desc:0 "As you embark on your journey in Game of Thrones Mode, new countries may rise across the map. This decision allows you to grant them the immersive mechanics of GOT Mode, ensuring they face the same challenges and advantages that you do. Shape the future of Westeros and beyond with this powerful choice."
 
+CRO_Crownlands_Invasion_of_RIV: "Intervene in the Riverlands"
+CRO_Crownlands_Invasion_of_RIV_desc: "The Riverlands are at war with our allies in the Westerlands, yet we remain on the sidelines while the conflict threatens the authority of the Iron Throne. We cannot allow House Lannister to stand alone against its enemies. By intervening directly, we shall uphold our alliance and bring the full strength of the Crown to bear against the Riverlands."
+
+RIV_join_northern_faction: "Join the Northern Alliance"
+RIV_join_northern_faction_desc: "The Riverlands once bled beside the North beneath the banners of House Stark and House Tully. With the Westerlands once again threatening our lands, we cannot hope to stand alone. By joining the Northern Alliance, we shall unite our strength against our common enemy and renew the bonds forged in war."
+
 DRA_battle_of_blackwater_bay: "Launch the Invasion of Blackwater Bay"
 DRA_battle_of_blackwater_bay_desc: "The Iron Throne is ours by right. With the Stormlands behind us and our fleet ready to sail, the time has come to strike at King’s Landing. Victory will place the Baratheon banner where it belongs—above the Red Keep."
+
+DRA_recruit_jon_snow: "Offer Jon Snow the North"
+DRA_recruit_jon_snow_desc: "The North will never truly accept Bolton rule while a Stark yet lives. Though Jon Snow has sworn himself to the Night's Watch, I possess the authority to legitimize him as Jon Stark and name him Lord of Winterfell. Should he accept, he will abandon his vows, rally the northern houses to our banner, and lead the war to reclaim his ancestral home from House Bolton."
 
 IRO_invasion_of_the_north:0 "Launch the Invasion of the North"
 IRO_invasion_of_the_north_desc:0 "The mainland is weak and fractured. The Starks march south, their lands exposed. Now is the time to strike. We shall send our raiders to seize the northern coast, burn their villages, and remind the world that the Ironborn still rule the sea."
@@ -29,3 +38,15 @@ TAR_Targaryen_Invasion_of_DRA_desc:0 "Exile is at an end. The Narrow Sea lies be
 
 TAR_land_at_dragonstone:0 "Land at Dragonstone"
 TAR_land_at_dragonstone_desc:0 "At last, our ships have reached the shores of our ancestral home. After years of exile across the Narrow Sea, we return not as beggars, but as conquerors. Dragonstone shall once again answer to House Targaryen, and from this ancient fortress we will gather our strength before bringing fire and blood to those who sit the Iron Throne."
+
+TAR_Burn_The_Khals:0 "Burn the Khals"
+TAR_Burn_The_Khals_desc:0 "The assembled khals have imprisoned Daenerys within the Temple of the Dosh Khaleen, expecting her to submit to their authority. Instead, she can turn their own sacred hall into a blazing tomb. If the flames consume the khals, the Dothraki may unite beneath the Dragon Queen. If the attempt fails, her dream of commanding the Great Grass Sea could perish with her."
+
+FAI_Seize_Crownlands_CRO:0 "Liberate the Crownlands"
+FAI_Seize_Crownlands_CRO_desc:0 "The Iron Throne still clings to power beyond the walls of King's Landing. If the Faith is to secure its victory, the remaining Crownlands must be brought under the authority of the Seven. Every castle that resists will be shown the righteousness of our cause."
+
+CRO_Seize_Crownlands_FAI:0 "Retake King's Landing"
+CRO_Seize_Crownlands_FAI_desc:0 "The Faith Militant has seized our capital and defied the authority of the Iron Throne. We cannot allow fanatics to rule from the Red Keep. The Crownlands must be reclaimed, the rebels crushed, and royal authority restored to King's Landing."
+
+TAR_Invasion_of_CRO: "The Claim to the Iron Throne"
+TAR_Invasion_of_CRO_desc: "With Dragonstone secured once more, House Targaryen stands ready to reclaim what was lost. The Crownlands and the Red Keep were once the heart of our dynasty, built by our ancestors and ruled by our bloodline for nearly three centuries. The time has come to call the banners, cross the Narrow Sea, and take back the Iron Throne."
