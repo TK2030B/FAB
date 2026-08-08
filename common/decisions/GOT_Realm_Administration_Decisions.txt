@@ -116,19 +116,15 @@ GEN_Empire_Manager = {
 			factor = 1000
 			modifier = {
 				factor = 0
-				FROM = { is_ai = no }
+				tag = STO
 			}
 			modifier = {
 				factor = 0
-				FROM = { tag = CRO }
+				tag = NWA
 			}
 			modifier = {
 				factor = 0
-				FROM = { tag = TAR }
-			}
-			modifier = {
-				factor = 0
-				FROM = { tag = DRA }
+				tag = DOT
 			}
 		}
 

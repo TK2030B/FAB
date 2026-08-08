@@ -4793,6 +4793,26 @@ country_event = {
 					hours = 6
 				}
 			}
+			
+		if = { 
+            limit = { 
+                is_ai = yes
+            } 
+			TAR = {
+				country_event = {
+					id = GOT_Realm_Admin_Country.5
+					hours = 6
+				}
+			}
+		}
+		else = {
+			TAR = {
+				country_event = {
+					id = GOT_Realm_Admin_Country.2
+					hours = 6
+				}
+			}
+		}
 		
 		every_other_country = { 
             limit = { 
@@ -4939,7 +4959,7 @@ country_event = {
 		if = {
 			limit = {
 				is_faction_leader = no
-				142 = { is_claimed_by = DRA }
+				#142 = { is_claimed_by = DRA }
 			}
 			set_faction_leader = yes
 		}
@@ -4990,6 +5010,26 @@ country_event = {
 					hours = 6
 				}
 			}
+			
+		if = { 
+            limit = { 
+                is_ai = yes
+            } 
+			TAR = {
+				country_event = {
+					id = GOT_Realm_Admin_Country.5
+					hours = 6
+				}
+			}
+		}
+		else = {
+			TAR = {
+				country_event = {
+					id = GOT_Realm_Admin_Country.2
+					hours = 6
+				}
+			}
+		}
 		
 		every_other_country = { 
             limit = { 
@@ -5203,10 +5243,12 @@ country_event = {
 					}
 				}
 			}
-			country_event = { 
-                id = GOT_Diplomatic_Country.76 
-                hours = 6 
-            }
+			CRO = { 
+				country_event = { 
+					id = GOT_Diplomatic_Country.76 
+					hours = 6 
+				}
+			}
 		}
 		
 		if = {
@@ -5215,10 +5257,12 @@ country_event = {
 					is_in_faction_with = CRO
 				}
 			}
-			country_event = { 
-                id = GOT_Diplomatic_Country.77 
-                hours = 6 
-            }
+			REA = { 
+				country_event = { 
+					id = GOT_Diplomatic_Country.77 
+					hours = 6 
+				}
+			}
 		}
 		
 		if = { 
@@ -5349,6 +5393,34 @@ country_event = {
 			promote_leader = yes
 		}
 		
+		create_country_leader = {
+			name = "Cersei Lannister"
+			picture = "CRO/Portrait_Cersei_Lannister.dds"
+			ideology = FR_subideology
+			traits = {  
+				dictator  
+				political_manipulator  
+				autocratic_imperialist  
+				#the_foreign_connection  
+				#ambitious_negotiator_fascism  
+				princess_of_terror  
+			}
+		}
+
+		create_country_leader = {
+			name = "Cersei Lannister"
+			picture = "CRO/Portrait_Cersei_Lannister.dds"
+			ideology = NR_subideology
+			traits = {  
+				dictator  
+				political_manipulator  
+				autocratic_imperialist  
+				#the_foreign_connection  
+				#ambitious_negotiator_fascism  
+				princess_of_terror  
+			}
+		}
+		
 		country_event = {
 			id = GOT_Location_Country.1
 			hours = 6
@@ -5380,7 +5452,11 @@ country_event = {
 		name = GOT_Diplomatic_Country.77.a
 
 		ai_chance = {
-			factor = 75
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		
 		REA_mace_tyrell = {
@@ -5484,11 +5560,7 @@ country_event = {
 		name = GOT_Diplomatic_Country.77.b
 
 		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
+			factor = 75
 		}
 		
 			if = {
@@ -6570,9 +6642,9 @@ country_event = {
 			}
 		}
 		
-		NOR = { 
-			retire_ideology_leader = neutrality
-		}
+		#NOR = { 
+		#	retire_ideology_leader = neutrality
+		#}
 		
 		if = {
 			limit = {
@@ -6784,9 +6856,9 @@ country_event = {
 			}
 		}
 		
-		NOR = { 
-			retire_ideology_leader = neutrality
-		}
+		#NOR = { 
+		#	retire_ideology_leader = neutrality
+		#}
 		
 		if = {
 			limit = {
@@ -7342,6 +7414,298 @@ country_event = {
 	}
 }
 
+#Death of Stannis for Stormlands
+#IMPORTANT EVENT
+country_event = { 
+    id = GOT_Diplomatic_Country.88 
+    title = GOT_Diplomatic_Country.88.t 
+    desc = GOT_Diplomatic_Country.88.d 
+    picture = GFX_report_event_GOT_Story_Country448 
+ 
+   is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Diplomatic_Country.88.a 
+ 
+        ai_chance = { 
+            factor = 70 
+        } 
+		
+		if = {
+			limit = {
+				has_war_with = CRO
+			}
+			CRO = {
+			   country_event = {
+					id = BPD_Better_Peace_Deals_Country.200
+					hours = 1
+				}
+			}
+		}
+ 
+        add_stability = -0.50
+		
+		remove_country_leader_role = {
+			character = STO_stannis_baratheon
+			ideology = NR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = STO_stannis_baratheon
+			ideology = FR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = STO_Melisandre
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = { 
+					theocratic_diplomat 
+					orthodox_rabblerouser 
+					driver_of_the_faithful 
+					the_masses_opium 
+					political_manipulator 
+					emergency_powers 
+					#anarchist_zeal 
+					militant_socialist 
+					anti_democrat 
+					silent_workhorse 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+            limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Joffrey Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			retire_ideology_leader = fascism
+			add_country_leader_role = {
+				character = STO_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = STO_joffrey_baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						warmonger 
+						underage_monarch 
+						unpopular_monarch 
+						incompetent_leader 
+						dictator 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+			limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Tommen Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			retire_ideology_leader = democratic
+			add_country_leader_role = {
+				character = STO_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						#voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = STO_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = DR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						#voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else_if = {
+           limit = { 
+				CRO = {
+					has_country_leader = {
+						name = "Myrcella Baratheon"
+						ruling_only = yes
+					}
+				}
+			}
+			retire_ideology_leader = communism
+			add_country_leader_role = {
+				character = STO_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = STO_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = CR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
+        }
+        else = {
+			add_country_leader_role = {
+			character = STO_Davos_Seaworth
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					stout_defender 
+					#humble 
+					hawk 
+					popular_figurehead 
+					reluctant_veteran 
+					political_dancer 
+					#voice_of_restraint
+				}
+			}
+			promote_leader = yes
+		}
+        }
+		
+		if = { 
+            limit = { 
+                is_ai = yes
+            } 
+			CRO = {
+				country_event = {
+					id = GOT_Realm_Admin_Country.5
+					hours = 6
+				}
+			}
+		}
+		else = {
+			CRO = {
+				country_event = {
+					id = GOT_Realm_Admin_Country.2
+					hours = 6
+				}
+			}
+		}
+
+    } 
+	
+	option = { 
+        name = GOT_Diplomatic_Country.88.b 
+ 
+        ai_chance = { 
+            factor = 30 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+ 
+        add_stability = -0.50
+		
+		remove_country_leader_role = {
+			character = STO_stannis_baratheon
+			ideology = NR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = STO_stannis_baratheon
+			ideology = FR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = STO_Davos_Seaworth
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					stout_defender 
+					#humble 
+					hawk 
+					popular_figurehead 
+					reluctant_veteran 
+					political_dancer 
+					#voice_of_restraint
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = STO_Melisandre
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = { 
+					theocratic_diplomat 
+					orthodox_rabblerouser 
+					driver_of_the_faithful 
+					the_masses_opium 
+					political_manipulator 
+					emergency_powers 
+					#anarchist_zeal 
+					militant_socialist 
+					anti_democrat 
+					silent_workhorse 
+				}
+			}
+			promote_leader = yes
+		}
+ 
+    } 
+} 
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -7875,7 +8239,7 @@ news_event = {
     id = GOT_Diplomatic_News.41 
     title = GOT_Diplomatic_News.41.t 
     desc = GOT_Diplomatic_News.41.d 
-    picture = picture = GFX_news_event_Winterfell 
+    picture = GFX_news_event_Winterfell 
  
     is_triggered_only = yes 
  

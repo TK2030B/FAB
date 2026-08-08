@@ -40,6 +40,9 @@ recruit_character=DRA_Saladhoor_San
 recruit_character=DRA_Melisandre
 recruit_character=DRA_Shireen_Baratheon
 recruit_character=DRA_Danaerys_Targaryen
+recruit_character=DRA_joffrey_baratheon
+recruit_character = DRA_Tommen_Baratheon
+recruit_character = DRA_Myrcella_Baratheon
 
 add_ideas = {
 	GOT_Tradition_Crownlands

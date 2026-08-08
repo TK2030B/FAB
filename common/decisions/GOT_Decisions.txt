@@ -720,7 +720,7 @@ GOT_Game_Decisions = {
 			NOT = { is_in_faction_with = CRO }
 			country_exists = CRO
 			surrender_progress < 0.1
-			controls_state = 108
+			108 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 
 		visible = {

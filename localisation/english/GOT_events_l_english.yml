@@ -2783,12 +2783,14 @@ GOT_Story_News.447.d: "The realm gasped as Cersei Lannister trudged barefoot fro
 GOT_Story_News.447.a: "The bells still echo."
 
 # 448 — Stannis Defeated and Slain
-GOT_Story_Country.448.t: "The King Who Lost Everything"
-GOT_Story_Country.448.d: "Snow‑choked men broke before Bolton cavalry; my queen hangs from a tree, my daughter’s ashes haunt the wind. Brienne’s sword ends the last duty I had. The one true king is dead in the frost."
-GOT_Story_Country.448.a: "Fall of Stannis — trigger succession and Northern power shift"
+# Death of Stannis
+GOT_Story_Country.448.t: "The Burning Sun Sets"
+GOT_Story_Country.448.d: "Dark wings bring ruinous news from the frozen North. The king is dead outside Winterfell, his army broken by Bolton steel. Lady Selyse has hanged herself, young Shireen was given to the flames, and the Red Woman has fled. The royal line of House Baratheon of Dragonstone is extinguished in the ice. With Stannis fallen, the salt and stone of our island stand isolated against a hostile realm."
+GOT_Story_Country.448.a: "We bend the knee."
+GOT_Story_Country.448.b: "The fight continues!"
 
 GOT_Story_News.448.t: "Baratheon Claim Extinguished Outside Winterfell"
-GOT_Story_News.448.d: "Stannis’s host shattered, banners burned, and the king himself met a grim fate by Ser Brienne’s sword. Boltons hold Winterfell amid ash and sorrow."
+GOT_Story_News.448.d: "Ravens fly across Westeros bearing grim tidings from the frozen North. The self-proclaimed King Stannis Baratheon, who marched through blinding blizzards to claim Winterfell, has met his end beneath its walls. His host was shattered by the armored heavy horse of House Bolton, his foreign priestess has fled, and the last true son of Lord Steffon lies dead in the snow. With his fall, the fiery heart of Dragonstone flickers out, leaving the realm to reckon with the iron grip of the Dreadfort."
 GOT_Story_News.448.a: "Ours is the Fury—no more."
 
 # 449 — Sansa and Theon Escape
@@ -4729,6 +4731,11 @@ GOT_Diplomatic_Country.87.t: "The Wolf Returns to the Lion"
 GOT_Diplomatic_Country.87.d: "Word has spread across the realm that Jon Snow, King in the North, has chosen to abandon the path of independence and recognize Queen Cersei Lannister as the rightful ruler of the Seven Kingdoms. In exchange for the North's loyalty, Jon has sought peace with the Iron Throne and an end to the wars that have devastated the realm. To some, this is a necessary compromise that will bring stability after years of bloodshed. To others, it is a betrayal of the fallen Starks who fought and died for northern freedom. The great houses must now decide whether to follow the direwolf beneath the banner of the lion, or remain apart from the conflict."
 GOT_Diplomatic_Country.87.a: "Stand with the Iron Throne."
 GOT_Diplomatic_Country.87.b: "We shall remain neutral."
+
+GOT_Diplomatic_Country.88.t: "The Fury Extinguished"
+GOT_Diplomatic_Country.88.d: "Dark wings bring ruinous news from the frozen North. The King Who Cared is dead outside Winterfell, his army shattered by Bolton heavy horse. Lady Selyse has hanged herself, young Shireen was sacrificed to the cold flames, and the Red Priestess has fled into the night. The true line of House Baratheon lies buried in the snow. With Stannis fallen, the castles and marches of the Stormlands stand leaderless, surrounded by hostile armies with no heir left to carry our banner."
+GOT_Diplomatic_Country.88.a: "Send word to the capital. We bend the knee."
+GOT_Diplomatic_Country.88.b: "Ours is still the Fury! We fight to the end!"
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"

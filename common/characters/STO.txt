@@ -189,5 +189,15 @@ characters={
 			}
 		}
 	}
+	
+	STO_Melisandre={
+		name=DRA_Melisandre
+		portraits={
+			civilian = {
+				large="gfx/leaders/DRA/Portrait_Melisandre.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+	}
 
 }
