@@ -4262,6 +4262,16 @@ GOT_Story_News.745.t: "Civil War Returns to the North"
 GOT_Story_News.745.d: "War has once again broken out across the North. Jon Snow and Sansa Stark have emerged from Castle Black to challenge House Bolton's rule over Winterfell, rallying northern loyalists and Free Folk beneath the direwolf banner. Ramsay Bolton has answered in kind, calling upon those houses that remain faithful to his rule. As armies march across the frozen countryside, the North stands poised to decide whether House Stark shall reclaim its ancestral home, or whether House Bolton will tighten its grip upon Winterfell."
 GOT_Story_News.745.a: "The wolves and flayed men march to war."
 
+GOT_Story_Country.746.t: "A Debt Paid in Blood"
+GOT_Story_Country.746.d: "Jon Snow died so that our people could live, stabbed in the dark for letting us past the Wall. Now his kin march south to bleed against the Dreadfort's hounds, and the North hangs in the balance. We do not kneel to southron kings, but Tormund and the chiefs argue that we owe the crow our lives. Ramsay Bolton will hunt us down the moment the Starks fall—our choice is whether we fight as one under their banners, lend half our spears while keeping our own host, or stand separate as Free Folk and command our own war."
+GOT_Story_Country.746.a: "He died for us. Give the Starks every spear we have!"
+GOT_Story_Country.746.b: "Send half our warriors south. The rest will guard the Wall."
+GOT_Story_Country.746.c: "We kneel to no man! We march, but under our own chiefs."
+
+ GOT_Story_News.746.t:0 "Savage Banners in the North"
+ GOT_Story_News.746.d:0 "Disturbing news spreads from Castle Black and the frozen expanses of the North. Reports confirm that Jon Snow, the Lord Commander of the Night's Watch, was murdered by his own sworn brothers for granting passage to the Free Folk. Yet his murder has not turned the wildlings back. Bound by a grim honor to the slain Lord Commander, Tormund Giantsbane and the clan chieftains have pledged their axes to the Stark cause.\n\nTo the southron lords, the sight of wildling warbands marching alongside northern levies against the Dreadfort is an abomination. For thousands of years, the Wall kept the savages at bay; now, thousands of spearwives and raiders march under direwolf banners, threatening to wash the North in blood. Whether this wild host fights as one under Stark command or strikes out under its own chiefs, the realm watches in terror as ancient rivalries bleed into open war."
+ GOT_Story_News.746.a:0 "An unnatural alliance, born of desperate times."
+
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
 GOT_Diplomatic_Country.1.d: "Lord Eddard Stark has accepted the King's request to become the new Hand of the King. His departure from Winterfell marks a significant moment for both the North and the Crownlands, as his honor and loyalty to Robert Baratheon will shape the political landscape of Westeros."
@@ -4746,6 +4756,18 @@ GOT_Diplomatic_Country.90.t: "The White Wolf Awakens"
 GOT_Diplomatic_Country.90.d: "Shadows cling to Castle Black, but the impossible has come to pass. Jon Snow—stabbed through the heart by his own sworn brothers—breathes once more. The wildlings revere him as a god, while Northern loyalists see the true blood of Ned Stark restored. His Night's Watch vow was sworn 'until death,' and by death, his watch has ended. With Ramsay Bolton looming over Winterfell and the North fractured, the Northern lords gather in hushed council. Shall we crown the resurrected bastard as King in the North, or does the sacred law of inheritance forbid a dead man from claiming the direwolf crown?"
 GOT_Diplomatic_Country.90.a: "He died for us, and he lives for us! Hail the King in the North!"
 GOT_Diplomatic_Country.90.b: "A resurrected bastard holds no claim. We must look elsewhere for leadership."
+
+ GOT_Diplomatic_Country.91.t:0 "Savage Allies in the Snow"
+ GOT_Diplomatic_Country.91.d:0 "For thousands of years, the Wildlings were our sworn enemies—raiders who pillaged our villages, stole our women, and bled our lands. Yet today, as snows cover the kingsroad and Ramsay Bolton's terrors reign from Winterfell, the unthinkable has come to pass.\n\nBound by honor to the resurrected Jon Snow, Tormund Giantsbane and the chieftains of Beyond the Wall have brought their entire host to our camp. Furs, bronze, bone, and giantkind now stand shoulder-to-shoulder with our battered Northern levies. Many of our lords grumble and clutch their swords, unable to forget old blood feuds. But against the Bolton bastards and the treasonous Karstarks, we need every sword, axe, and spear we can muster. The wildlings do not kneel, but today, they march for the North."
+ GOT_Diplomatic_Country.91.a:0 "Let the Boltons feel the fury of the Free Folk!"
+ 
+ GOT_Diplomatic_Country.92.t:0 "A Divided Host"
+ GOT_Diplomatic_Country.92.d:0 "Centuries of hatred do not vanish overnight. While Tormund and several chieftains remain fiercely loyal to Jon Snow, many of the Free Folk clans refuse to march south to die in a southron lord's war. They remember the centuries of Northern steel, and fear being used as meat for Ramsay Bolton's butcher block.\n\nAfter tense negotiations in the freezing winds, a compromise has been struck. Half of the wildling host—the most battle-hardened spearwives and warriors—have taken up arms alongside our Northern levies. The remainder will stay north to guard their women, children, and camps. It is not the overwhelming army we had hoped for, but thousands of free spears are still enough to bleed the Boltons."
+ GOT_Diplomatic_Country.92.a:0 "Half a wildling host is better than none."
+ 
+ GOT_Diplomatic_Country.93.t:0 "An Alliance of Equals"
+ GOT_Diplomatic_Country.93.d:0 "The Free Folk do not kneel. Though Tormund and the clan leaders acknowledge the debt owed to Jon Snow, they flatly refuse to place their men under the command of Northern lords. Centuries of mistrust run too deep, and no wildling warrior will take orders from men whose grandfathers hunted them like beasts.\n\nInstead, the chieftains have agreed to fight alongside us as an independent host. They will bleed Ramsay Bolton’s men on their own terms, marching in parallel and striking from the flanks under their own warhorns. Our lords scoff at their lack of discipline, but in the brutal snows ahead, having an untamed, self-governed army tearing through Bolton lines may prove far more lethal than forcing them into our ranks."
+ GOT_Diplomatic_Country.93.a:0 "They march with us, not under us. So be it."
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"

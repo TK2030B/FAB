@@ -200,7 +200,7 @@ GOT_Game_Decisions = {
 
 		available = { 
 			tag = DRA
-			date < 1946.1.1
+			date < 1950.1.1
 			surrender_progress < 0.1
 			has_war_with = BOL
 			OR = {

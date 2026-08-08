@@ -26376,3 +26376,115 @@ news_event = {
         name = GOT_Story_News.745.a 
     } 
 } 
+
+# Wildling Army Joins Jon Snow
+country_event = { 
+    id = GOT_Story_Country.746 
+    title = GOT_Story_Country.746.t 
+    desc = GOT_Story_Country.746.d 
+    picture = GFX_report_event_Hard_Home
+ 
+    trigger = { 
+        tag = WIL 
+        date < 1950.1.1
+		is_in_faction_with = NOR
+		has_war_with = BOL
+		NOT = { has_war_with = NWA }
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.746.a 
+ 
+        ai_chance = { 
+            factor = 70 
+        } 
+ 
+        add_stability = -0.05 
+		
+		NOR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.91
+				hours = 6
+			}
+		}
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.746 
+                hours = 6 
+            } 
+        } 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.746.b
+ 
+        ai_chance = { 
+            factor = 20 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+ 
+        add_stability = -0.05 
+		
+		NOR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.92
+				hours = 6
+			}
+		}
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.746 
+                hours = 6 
+            } 
+        } 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.746.c
+ 
+        ai_chance = { 
+            factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}			
+        } 
+		
+		NOR = {
+			country_event = {
+				id = GOT_Diplomatic_Country.93
+				hours = 6
+			}
+		}
+ 
+        add_stability = 0.05 
+
+    } 
+} 
+ 
+# Wildling Army Joins Jon Snow
+news_event = { 
+    id = GOT_Story_News.746 
+    title = GOT_Story_News.746.t 
+    desc = GOT_Story_News.746.d 
+    picture = GFX_news_event_Hard_Home
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.746.a 
+    } 
+} 
