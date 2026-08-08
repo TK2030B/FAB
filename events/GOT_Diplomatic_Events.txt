@@ -8077,6 +8077,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		add_war_support = 0.10
 
 		WIL = {
 			transfer_units_fraction= {
@@ -8106,6 +8108,8 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+		
+		add_war_support = 0.05
 
 		WIL = {
 			transfer_units_fraction= {

@@ -21,6 +21,7 @@ GOT_Targaryen_Faction = {
 		AND = {
 			tag = REA
 			GOT_Olenna_Is_Lady_of_REA = yes
+			GOT_Renly_Is_Lord_of_STO = no
 			#has_global_flag = GOT_Sept_Blown_Up_Flag
 		}
 		AND = {
@@ -114,6 +115,7 @@ GOT_Lannister_Faction = {
 		AND = {
 			tag = REA
 			GOT_Olenna_Is_Lady_of_REA = no
+			GOT_Renly_Is_Lord_of_STO = no
 		}
 	}
 	GOT_Lannister_Is_King = yes
