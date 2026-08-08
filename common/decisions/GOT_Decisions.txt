@@ -478,15 +478,12 @@ GOT_Game_Decisions = {
 		available = {
 			tag = TAR
 			date > 1941.1.1
-			#NOT = { has_war_with = DRA }
-			NOT = { is_in_faction_with = DRA }
-			country_exists = DRA
-			surrender_progress < 0.1
-			
-			fighting_army_strength_ratio = {
-				tag = DRA
-				ratio > 1.5
+			108 = {
+				OWNER = {
+					NOT = { is_in_faction_with = TAR }
+				}
 			}
+			surrender_progress < 0.1
 		}
 
 		visible = {
@@ -506,7 +503,7 @@ GOT_Game_Decisions = {
 		}
 
 		days_remove = 7
-		war_with_on_remove = DRA
+		#war_with_on_remove = DRA
 
 		complete_effect = {
 			set_country_flag = EW_Operation
@@ -529,7 +526,7 @@ GOT_Game_Decisions = {
 			surrender_progress < 0.1
 			#has_war_with = DRA
 			has_global_flag = GOT_Dany_Sails_West_Flag
-			108 = { CONTROLLER = { has_war_with = ROOT } }
+			108 = { OWNER = { has_war_with = ROOT } }
 			NOT = { has_country_flag = EW_Land_at_Dragonstone }
 		}
 		
@@ -576,14 +573,10 @@ GOT_Game_Decisions = {
 			TAR = {
 				country_event = { id = GOT_Wars_Country.5 days = 1 random_days = 7 }	
 			}
-			every_country = {
-				limit = { 
-					OR = { 
-						tag = DRA
-						is_in_faction_with = DRA
-					} 
+			108 = { 
+				OWNER = { 
+					country_event = { id = GOT_Wars_Country.6 hours = 6 }
 				}
-				country_event = { id = GOT_Wars_Country.6 hours = 6 }
 			}
 		}
 		

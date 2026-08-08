@@ -17137,7 +17137,7 @@ country_event = {
 			}
 			STO = {
 			   country_event = {
-					id = GOT_Diplomatic_Country.88
+					id = GOT_Diplomatic_Country.89
 					hours = 6
 				}
 			}
@@ -17849,6 +17849,26 @@ country_event = {
 				}
 			}
 			promote_leader = yes
+		}
+		
+		#Event for Jon to take control of the north
+		if = {
+			limit = {
+				NOT = {
+					NOR = {
+						has_country_leader = {
+							name = "Jon Snow"
+							ruling_only = yes
+						}
+					}
+				}
+			}
+			NOR = {
+			   country_event = {
+					id = GOT_Diplomatic_Country.90
+					hours = 6
+				}
+			}
 		}
 		
 		set_global_flag = GOT_Jon_Snow_Revived_Flag
@@ -20661,24 +20681,39 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
  
 		#SPECIAL ATTENTION
 		add_command_power = 20
-		create_wargoal = {
-			type = annex_everything
-			target = DRA
-			expire = 365
-		}
 		
-			if = {
-				limit = {
-					is_ai = yes 
-				}
-				declare_war_on = {
-					target = DRA
-					type = annex_everything
+		108 = {
+			OWNER = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = take_state_focus
+						expire = 0
+						generator = { 108 }
+					}
+					add_ai_strategy = {
+						type = conquer
+						id = PREV
+						value = 200
+					}
+					if = {
+						limit = {
+							is_ai = yes 
+						}
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
+					}
 				}
 			}
+		}
+		
+			
 		
 		set_global_flag = GOT_Dany_Sails_West_Flag
  

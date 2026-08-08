@@ -4737,6 +4737,16 @@ GOT_Diplomatic_Country.88.d: "Dark wings bring ruinous news from the frozen Nort
 GOT_Diplomatic_Country.88.a: "Send word to the capital. We bend the knee."
 GOT_Diplomatic_Country.88.b: "Ours is still the Fury! We fight to the end!"
 
+GOT_Diplomatic_Country.89.t: "The Fury Extinguished"
+GOT_Diplomatic_Country.89.d: "Dark wings bring ruinous news from the frozen North. The King Who Cared is dead outside Winterfell, his army shattered by Bolton heavy horse. Lady Selyse has hanged herself, young Shireen was sacrificed to the cold flames, and the Red Priestess has fled into the night. The true line of House Baratheon lies buried in the snow. With Stannis fallen, the castles and marches of the Stormlands stand leaderless, surrounded by hostile armies with no heir left to carry our banner."
+GOT_Diplomatic_Country.89.a: "Send word to the capital. We bend the knee."
+GOT_Diplomatic_Country.89.b: "Ours is still the Fury! We fight to the end!"
+
+GOT_Diplomatic_Country.90.t: "The White Wolf Awakens"
+GOT_Diplomatic_Country.90.d: "Shadows cling to Castle Black, but the impossible has come to pass. Jon Snow—stabbed through the heart by his own sworn brothers—breathes once more. The wildlings revere him as a god, while Northern loyalists see the true blood of Ned Stark restored. His Night's Watch vow was sworn 'until death,' and by death, his watch has ended. With Ramsay Bolton looming over Winterfell and the North fractured, the Northern lords gather in hushed council. Shall we crown the resurrected bastard as King in the North, or does the sacred law of inheritance forbid a dead man from claiming the direwolf crown?"
+GOT_Diplomatic_Country.90.a: "He died for us, and he lives for us! Hail the King in the North!"
+GOT_Diplomatic_Country.90.b: "A resurrected bastard holds no claim. We must look elsewhere for leadership."
+
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
 GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."

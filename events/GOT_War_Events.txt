@@ -125,16 +125,20 @@ country_event = {
 			factor = 1000
 		}
 		
-		if = {
-			limit = { 
-				NOT = { 
-					has_war_with = DRA
+		108 = {
+			OWNER = {
+				ROOT = {
+					if = {
+						limit = {
+							NOT = { has_war_with = PREV }
+						}
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
+					}
 				}
 			}
-			declare_war_on = {
-                target = DRA
-                type = annex_everything
-            }
 		}
 		
 		load_oob = TAR_Dragonstone
@@ -149,13 +153,18 @@ country_event = {
 		navy_experience = 5
 		
 		country_event = { id = GOT_Story_Country.607 hours = 6 }
-		DRA = {
-			country_event = { id = GOT_Diplomatic_Country.70 hours = 6 }
-		}
 		
-			
+		if = {
+			limit = {
+				country_exists = DRA
+				DRA = { owns_state = 108 }
+				DRA = { is_subject = no }
+			}
+			DRA = {
+				country_event = { id = GOT_Diplomatic_Country.70 hours = 6 }
+			}
+		}	
 	}
-
 }
 
 #Stannis Invasion of Dragonstone Imminent!
