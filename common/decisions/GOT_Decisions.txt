@@ -1,6 +1,85 @@
 
 GOT_Game_Decisions = {
 
+	LFC_Create_League = {
+		icon = generic_army_support
+
+		available = { 
+			NOT = { has_global_flag = GOT_League_of_Free_Cities_Flag }
+			OR = {
+				tag = BRA
+				tag = PEN
+				tag = VOL
+			}
+			date < 1950.1.1
+			is_in_faction = no
+			has_offensive_war = no
+			threat > 0.30
+			
+		# Active Justification / Wargoal Check
+        # Checks if ANY country is justifying or holds a wargoal against any Free City
+        any_other_country = {
+            OR = {
+                is_justifying_wargoal_against = BRA
+                has_wargoal_against = BRA
+                
+                is_justifying_wargoal_against = LOR
+                has_wargoal_against = LOR
+                
+                is_justifying_wargoal_against = NRV
+                has_wargoal_against = NRV
+                
+                is_justifying_wargoal_against = QOH
+                has_wargoal_against = QOH
+                
+                is_justifying_wargoal_against = PEN
+                has_wargoal_against = PEN
+                
+                is_justifying_wargoal_against = MYR
+                has_wargoal_against = MYR
+                
+                is_justifying_wargoal_against = TYR
+                has_wargoal_against = TYR
+                
+                is_justifying_wargoal_against = LYS
+                has_wargoal_against = LYS
+                
+                is_justifying_wargoal_against = VOL
+                has_wargoal_against = VOL
+            }
+        }
+		
+		allowed = {
+			OR = {
+				tag = BRA
+				tag = PEN
+				tag = VOL
+			}
+		}
+
+		visible = {
+			NOT = { has_global_flag = GOT_League_of_Free_Cities_Flag }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 7
+
+		complete_effect = {
+			set_global_flag = GOT_League_of_Free_Cities_Flag
+		}
+		
+		remove_effect = {
+			country_event = { id = GOT_Faction_Country.1 hours = 6 }
+		}
+	}
+
 	CRO_Crownlands_Invasion_of_RIV = {
 		icon = generic_army_support
 		

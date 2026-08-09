@@ -1,0 +1,223 @@
+add_namespace = GOT_Faction_Country
+add_namespace = GOT_Faction_News
+
+#Creation of the League of Free Cities
+country_event = {
+	id = GOT_Faction_Country.1
+	title = GOT_Faction_Country.1.t
+	desc = GOT_Faction_Country.1.d
+	picture = GFX_report_event_military_planning
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Faction_Country.1.a
+		
+		ai_chance = { 
+            base = 100
+        } 
+		
+		create_faction = "League of Free Cities"
+		
+		every_other_country = {
+			limit = {
+				is_in_faction = no
+				NOT = { has_war_with = ROOT }
+				OR = {
+					tag = BRA
+					tag = LOR
+					tag = NRV
+					tag = QOH
+					tag = PEN
+					tag = MYR
+					tag = TYR
+					tag = LYS
+					tag = VOL
+				}
+			}
+			country_event = {
+				id = GOT_Faction_Country.2
+				hours = 6
+			}
+		}
+
+	}
+}
+
+#Invitation to Join the free cities
+country_event = {
+	id = GOT_Faction_Country.2
+	title = GOT_Faction_Country.2.t
+	desc = GOT_Faction_Country.2.d
+	picture = GFX_report_event_military_planning
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Faction_Country.2.a
+		
+		ai_chance = { 
+            base = 95
+			modifier = {
+				add = 50
+				OR = {
+					has_defensive_war = yes
+					any_other_country = {
+						has_wargoal_against = ROOT
+					}
+					any_other_country = {
+						is_justifying_wargoal_against = ROOT
+					}
+				}
+			}
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					FROM = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						FROM = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						FROM = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						FROM = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+        } 
+		
+		add_war_support = 0.05
+		
+		remove_ideas = neutrality_idea
+		remove_ideas = RI_neutrality_idea
+		
+		FROM = {
+			country_event = {
+				id = GOT_Faction_Country.3
+				hours = 6
+			}
+		}
+
+	}
+	
+	option = {
+		name = GOT_Faction_Country.2.b
+		
+		ai_chance = { 
+            base = 5
+			modifier = {
+				add = 20
+				OR = {
+					NOT = { has_government = neutrality }
+					FROM = { 
+						has_government = neutrality 
+					}
+					AND = {
+						NOT = { has_government = communism }
+						FROM = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						NOT = { has_government = democratic }
+						FROM = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						NOT = { has_government = fascism }
+						FROM = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+			modifier = {
+				add = 60
+				tag = VOL
+			}
+        } 
+		
+		add_war_support = -0.05
+		
+		FROM = {
+			country_event = {
+				id = GOT_Faction_Country.4
+				hours = 6
+			}
+		}
+
+	}
+}
+
+#Accept Invitation to Join the free cities
+country_event = {
+	id = GOT_Faction_Country.3
+	title = GOT_Faction_Country.3.t
+	desc = GOT_Faction_Country.3.d
+	picture = GFX_report_event_military_planning
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Faction_Country.3.a
+		
+		ai_chance = { 
+            base = 100
+        } 
+		
+		add_to_faction = FROM
+
+	}
+}
+
+#Decline Invitation to Join the free cities
+country_event = {
+	id = GOT_Faction_Country.4
+	title = GOT_Faction_Country.4.t
+	desc = GOT_Faction_Country.4.d
+	picture = GFX_report_event_military_planning
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Faction_Country.4.a
+		
+		ai_chance = { 
+            base = 100
+        } 
+		
+		add_opinion_modifier = {
+			target = FROM
+			modifier = RI_hostile_foreign_policy
+		}
+
+	}
+}
+
+# Faction Created
+news_event = { 
+    id = GOT_Faction_News.1
+    title = GOT_Faction_News.1.t 
+    desc = GOT_Faction_News.1.d 
+    picture = GFX_news_event_military_planning
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Faction_News.1.a 
+    } 
+} 

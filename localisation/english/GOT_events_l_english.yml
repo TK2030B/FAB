@@ -55,6 +55,7 @@ GOT_Stannis_Aids_Wall_Flag:0 "Stannis aids the Night's Watch"
 GOT_Wildling_Army_Shattered_Flag:0 "Wildling Army Shattered"
 GOT_Jon_Snow_Murdered_Flag:0 "Jon Snow Murdered"
 GOT_Dany_Sails_West_Flag:0 "Danaerys Sails West"
+GOT_League_of_Free_Cities_Flag:0 "League of Free Cities Created"
 
 Game_Event.1.t:0 "Welcome (1/5)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -5275,3 +5276,24 @@ GOT_Location_Country.42.a: "The Wildlings' Land is ours."
 GOT_Location_News.42.t: "[FROM.GetName] Lays Claim to the Wildlings' Land"
 GOT_Location_News.42.d: "In a daring and controversial move, [FROM.GetLeader], ruling over [FROM.GetName] and House [FROM.GetParty], has laid claim to the lands of the Wildlings beyond the Wall. This declaration comes at a time of increasing tensions, with many questioning whether this is an attempt to consolidate power or if there are larger ambitions at play. The fate of the Wildlings remains uncertain, and the Seven Kingdoms wait for what will come next."
 GOT_Location_News.42.a: "A bold claim with uncertain consequences."
+
+ GOT_Faction_Country.1.t:0 "The League of Free Cities"
+ GOT_Faction_Country.1.d:0 "Dark clouds gather across the Narrow Sea. With global instability mounting and aggressive foreign powers expanding their reach, the ancient independence of the Free Cities hangs in a precarious balance.\n\nIn response to these existential threats, diplomats from across Essos have gathered to formalize a historic alliance. Putting aside centuries of commercial rivalry and petty border disputes, a unified pact has been signed in the spirit of collective defense. Together, we shall stand as a bulwark against tyranny."
+ GOT_Faction_Country.1.a:0 "A new era of Essosi unity begins!"
+ 
+ GOT_Faction_Country.2.t:0 "An Invitation to the League of Free Cities"
+ GOT_Faction_Country.2.d:0 "An envoy from [FROM.GetName] has arrived in our city bearing a sealed scroll of strategic importance. Recognizing the threat posed by expanding foreign empires and aggressive grand factions, [FROM.GetName] has formally requested that we join them in establishing the League of Free Cities.\n\nWhile joining the coalition will bind our foreign defense policy to our neighbors and require us to honor mutual pacts, it promises unprecedented protection against overseas conquerors. The choice before us will shape the future of our sovereign republic."
+ GOT_Faction_Country.2.a:0 "We accept!"
+ GOT_Faction_Country.2.b:0 "Politely decline."
+ 
+ GOT_Faction_Country.3.t:0 "[FROM.GetName] Joins the League"
+ GOT_Faction_Country.3:0 "Excellent news from the diplomats in [FROM.GetName]. Recognizing the clear wisdom of our collective defense pact, their ruling council has officially ratified the charter. \n\nWith [FROM.GetName] now standing firmly alongside us in the League of Free Cities, our combined military strength and economic leverage across the Narrow Sea grow formidable. Foreign conquerors will think twice before encroaching upon Essosi soil."
+ GOT_Faction_Country.3.a:0 "Together we stand invincible."
+
+ GOT_Faction_Country.4.t:0 "[FROM.GetName] Declines the League"
+ GOT_Faction_Country.4.d:0 "Disappointing news has arrived from our envoys in [FROM.GetName]. Despite our warnings regarding foreign expansion and the necessity of regional solidarity, their leadership has chosen to reject our proposal.\n\nThey insist on maintaining their absolute neutrality and handling their own defense. While we must respect their decision for now, their shortsighted isolation may well leave them vulnerable when the storm finally breaks."
+ GOT_Faction_Country.4.a:0 "A foolish gamble on their part."
+ 
+ GOT_Faction_News.1.t:0 "The League of Free Cities Established"
+ GOT_Faction_News.1.d:0 "Reports from across the Narrow Sea confirm that the sovereign city-states of Essos have taken an unprecedented step toward unified defense. Long divided by bitter commercial feuds, trade blockades, and territorial disputes in the Disputed Lands, the merchant lords have finally set aside their squabbles in the face of rising global tensions.\n\nIn a landmark summit, a formal diplomatic charter was ratified, uniting these maritime powers under a single banner: the League of Free Cities. With vast wealth, powerful mercenary charters, and formidable naval fleets now aligned under a shared pact, any foreign empire seeking expansion in Essos will face a formidable collective force."
+ GOT_Faction_News.1.a:0 "An intriguing development."
