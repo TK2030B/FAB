@@ -2357,25 +2357,29 @@ country_event = {
 		add_stability = -0.05
 		add_threat = 5
 		
-		CRO_ned_stark = {
-			retire = yes
-		}
-		
-		add_country_leader_role = {
-			character = CRO_cersei_lannister
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = NR_subideology
-				traits = {  
-					dictator  
-					political_manipulator  
-					autocratic_imperialist  
-					#the_foreign_connection  
-					#ambitious_negotiator_fascism  
-					princess_of_terror  
+		if = {
+			limit = {
+				NOT = { 
+					has_country_leader = {
+						name = "Vacant Throne"
+						ruling_only = yes
+					}
 				}
 			}
-			promote_leader = yes
+			retire_ideology_leader = neutrality
+				add_country_leader_role = {
+					character = CRO_empty_throne
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = {
+							no_leadership
+							internal_rivalry
+							divided_interests
+						}
+					}
+					promote_leader = yes
+				}
 		}
 		
 		set_global_flag = GOT_Lord_Stark_Arrested_Flag
@@ -3697,17 +3701,14 @@ country_event = {
 		kill_country_leader = yes
 		
 		add_country_leader_role = {
-			character = CRO_cersei_lannister
+			character = CRO_empty_throne
 			country_leader = {
 				expire = "1965.1.1"
 				ideology = NR_subideology
-				traits = {  
-					dictator  
-					political_manipulator  
-					autocratic_imperialist  
-					#the_foreign_connection  
-					#ambitious_negotiator_fascism  
-					princess_of_terror  
+				traits = {
+					no_leadership
+					internal_rivalry
+					divided_interests
 				}
 			}
 			promote_leader = yes
@@ -6606,9 +6607,9 @@ country_event = {
         tag = CRO
         date > 1937.8.1
         date < 1937.9.1
-		CRO_Tyrion_Lannister = { 
-			is_hired_as_advisor = yes
-		}
+		#CRO_Tyrion_Lannister = { 
+		#	is_hired_as_advisor = yes
+		#}
 		has_war_with = DRA
     }
 
@@ -6659,7 +6660,7 @@ country_event = {
         date > 1937.9.5
         date < 1937.10.5
 		has_war_with = NOR
-		has_global_flag = GOT_Bran_Escapes_Flag
+		#has_global_flag = GOT_Bran_Escapes_Flag
     }
 
     fire_only_once = yes
@@ -6761,9 +6762,9 @@ country_event = {
         tag = CRO
         date > 1937.9.5
         date < 1937.10.5
-		CRO_Tyrion_Lannister = { 
-			is_hired_as_advisor = yes
-		}
+		#CRO_Tyrion_Lannister = { 
+		#	is_hired_as_advisor = yes
+		#}
 		has_war_with = DRA
     }
 
@@ -6960,7 +6961,7 @@ country_event = {
         date > 1937.10.10
         date < 1937.11.10
 		has_war_with = DRA
-		surrender_progress > 30
+		surrender_progress > 0.10
     }
 
     fire_only_once = yes
@@ -13851,12 +13852,19 @@ country_event = {
         tag = CRO 
 		date > 1939.11.15
         date < 1940.11.15
-		has_global_flag = GOT_Purple_Wedding_Flag
-		has_global_flag = GOT_Tyrion_Death_Sentence
-		has_global_flag = GOT_Varys_Fled_Flag
-		CRO = { 
-			CRO_tywin_lannister = { 
-				is_hired_as_advisor = yes
+		is_in_faction_with = WES
+		#has_global_flag = GOT_Purple_Wedding_Flag
+		#has_global_flag = GOT_Tyrion_Death_Sentence
+		#has_global_flag = GOT_Varys_Fled_Flag
+		#CRO = { 
+		#	CRO_tywin_lannister = { 
+		#		is_hired_as_advisor = yes
+		#	}
+		#}
+		WES = {
+			has_country_leader = {
+				name = "Tywin Lannister"
+				ruling_only = yes
 			}
 		}
     } 
@@ -13870,30 +13878,22 @@ country_event = {
             factor = 10 
         } 
 		
-		CRO_tywin_lannister = {
-			retire = yes
+		CRO = {
+			CRO_tywin_lannister = {
+				retire = yes
+			}
 		}
   
         add_stability = -0.20  
 		add_political_power = -100
 		add_threat = 5
 		
-		if = { 
-            limit = { 
-               WES = {
-					has_country_leader = {
-						name = "Tywin Lannister"
-						ruling_only = yes
-					}
-				} 
-            } 
-            WES = {
-				country_event = { 
-					id = GOT_Diplomatic_Country.42
-					hours = 6 
-				} 
-			}
-        } 
+		WES = {
+			country_event = { 
+				id = GOT_Diplomatic_Country.42
+				hours = 6 
+			} 
+		}
 		
         every_other_country = { 
             limit = { 
@@ -16594,6 +16594,7 @@ news_event = {
 } 
  
 # 446 — Jon Snow Betrayed at Castle Black
+#Important Jon Snow
 country_event = { 
     id = GOT_Story_Country.446 
     title = GOT_Story_Country.446.t 
@@ -16623,48 +16624,6 @@ country_event = {
 		set_global_flag = GOT_Jon_Snow_Murdered_Flag
  
         add_stability = -0.05 
-		
-		remove_country_leader_role = {
-			character = NWA_jon_snow
-			ideology = NR_subideology
-		}
-		
-		remove_country_leader_role = {
-			character = NWA_jon_snow
-			ideology = CR_subideology
-		}
-		
-		add_country_leader_role = {
-			character = NWA_Loyalists
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = NR_subideology
-				traits = {  
-					stout_defender  
-					warrior_code  
-					#humble  
-					indomitable_perseverance  
-					cornered_fox  
-				}
-			}
-			promote_leader = yes
-		}
-		
-		add_country_leader_role = {
-			character = NWA_Loyalists
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = CR_subideology
-				traits = {  
-					stout_defender  
-					warrior_code  
-					#humble  
-					indomitable_perseverance  
-					cornered_fox  
-				}
-			}
-			promote_leader = yes
-		}
 		
 		if = {
 			limit = {
@@ -16709,48 +16668,6 @@ country_event = {
 		set_global_flag = GOT_Jon_Snow_Murdered_Flag
  
         add_stability = -0.05 
-		
-		remove_country_leader_role = {
-			character = NWA_jon_snow
-			ideology = NR_subideology
-		}
-		
-		remove_country_leader_role = {
-			character = NWA_jon_snow
-			ideology = CR_subideology
-		}
-		
-		add_country_leader_role = {
-			character = NWA_Loyalists
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = NR_subideology
-				traits = {  
-					stout_defender  
-					warrior_code  
-					#humble  
-					indomitable_perseverance  
-					cornered_fox  
-				}
-			}
-			promote_leader = yes
-		}
-		
-		add_country_leader_role = {
-			character = NWA_Loyalists
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = CR_subideology
-				traits = {  
-					stout_defender  
-					warrior_code  
-					#humble  
-					indomitable_perseverance  
-					cornered_fox  
-				}
-			}
-			promote_leader = yes
-		}
 		
 		if = {
 			limit = {
@@ -17329,6 +17246,7 @@ news_event = {
 ############
  
 # 501 — Jon Snow’s Body and the Night’s Watch Mutiny
+# Important Jon Snow
 country_event = { 
     id = GOT_Story_Country.501 
     title = GOT_Story_Country.501.t 
@@ -17338,8 +17256,9 @@ country_event = {
     trigger = { 
         tag = NWA 
 		date > 1941.1.1
-        date < 1941.2.1
+        date < 1950.1.1
 		has_global_flag = GOT_Jon_Snow_Murdered_Flag
+		has_civil_war = yes
     } 
  
     fire_only_once = yes 
@@ -17702,6 +17621,7 @@ news_event = {
 } 
  
 # 506 — Jon Snow’s Resurrection
+#Important Jon Snow
 country_event = { 
     id = GOT_Story_Country.506 
     title = GOT_Story_Country.506.t 
@@ -17711,8 +17631,13 @@ country_event = {
     trigger = { 
         tag = NWA 
 		date > 1941.2.5
-        date < 1942.2.5
+        date < 1950.1.1
 		has_global_flag = GOT_Jon_Snow_Murdered_Flag
+		has_civil_war = no
+		has_country_leader = {
+			name = "Jon Snow"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -17731,9 +17656,6 @@ country_event = {
         add_stability = 0.05
         add_political_power = 75 
 		
-		retire_ideology_leader = neutrality
-		retire_ideology_leader = communism
-		
 		set_politics = {
 			ruling_party = communism
 		}
@@ -17741,50 +17663,6 @@ country_event = {
 		add_popularity = {
 			popularity = 0.50
 			ideology = communism
-		}
-		
-		add_country_leader_role = {
-			character = NWA_jon_snow
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = NR_subideology
-				traits = { 
-					warrior_code 
-					stout_defender 
-					reluctant_veteran 
-					great_war_hero 
-					headstrong 
-					indomitable_perseverance 
-					#disdain_for_politicians_2 
-					nationalist_symbol 
-					#monarchist_puppet 
-					great_survivor 
-					our_right_to_survive 
-				}
-			}
-			promote_leader = yes
-		}
-		
-		add_country_leader_role = {
-			character = NWA_jon_snow
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = CR_subideology
-				traits = { 
-					warrior_code 
-					stout_defender 
-					reluctant_veteran 
-					great_war_hero 
-					headstrong 
-					indomitable_perseverance 
-					#disdain_for_politicians_2 
-					nationalist_symbol 
-					#monarchist_puppet 
-					great_survivor 
-					our_right_to_survive 
-				}
-			}
-			promote_leader = yes
 		}
 		
 		set_global_flag = GOT_Jon_Snow_Revived_Flag
@@ -20841,7 +20719,7 @@ country_event = {
 					
 		transfer_units_fraction= {
 			target = RIV
-			size = 0.4
+			size = 0.5
 			keep_unit_leaders_trigger = {
 				always = yes
 			}
@@ -21300,7 +21178,7 @@ country_event = {
 	trigger = { 
         tag = NOR 
 		date > 1942.1.1
-        date < 1943.1.1
+        date < 1950.1.1
 		TAR = { has_war_with = CRO }
 		is_faction_leader = yes
 		has_country_leader = {
@@ -23517,7 +23395,9 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.1.1
-        date < 1943.2.1
+        date < 1950.1.1
+		controls_state = 156
+		is_in_faction_with = TAR
     } 
  
     fire_only_once = yes 
@@ -25649,7 +25529,7 @@ country_event = {
 			}
 			start_civil_war = {
 				ideology = communism
-				size = 0.40
+				size = 0.50
 			}
 		}
 		else_if = {
@@ -25661,7 +25541,7 @@ country_event = {
 			}
 			start_civil_war = {
 				ideology = fascism
-				size = 0.40
+				size = 0.50
 			}
 		}
 		else_if = {
@@ -25673,13 +25553,13 @@ country_event = {
 			}
 			start_civil_war = {
 				ideology = fascism
-				size = 0.40
+				size = 0.50
 			}
 		}
 		else = {
 			start_civil_war = {
 				ideology = fascism
-				size = 0.40
+				size = 0.50
 			}
 		}
 		
@@ -25798,7 +25678,7 @@ country_event = {
 					
 		transfer_units_fraction= {
 			target = TRL
-			size = 0.4
+			size = 0.5
 			keep_unit_leaders_trigger = {
 				always = yes
 			}
@@ -25867,7 +25747,7 @@ country_event = {
 					
 		transfer_units_fraction= {
 			target = REA
-			size = 0.4
+			size = 0.5
 			keep_unit_leaders_trigger = {
 				always = yes
 			}
@@ -26002,7 +25882,7 @@ country_event = {
 			end_puppet = NOR
 			transfer_units_fraction= {
 				target = NOR
-				size = 0.3
+				size = 0.5
 				keep_unit_leaders_trigger = {
 					always = yes
 				}
@@ -26217,7 +26097,7 @@ country_event = {
 			end_puppet = NOR
 			transfer_units_fraction= {
 				target = NOR
-				size = 0.3
+				size = 0.5
 				keep_unit_leaders_trigger = {
 					always = yes
 				}

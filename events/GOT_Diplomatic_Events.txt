@@ -793,6 +793,43 @@ country_event = {
 			}
 		}
 		
+		retire_ideology_leader = neutrality
+		retire_ideology_leader = fascism
+		
+		add_country_leader_role = {
+			character = CRO_cersei_lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = CRO_cersei_lannister
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			}
+			promote_leader = yes
+		}
+		
 		add_threat = 2
 		add_political_power = 25
 		
@@ -814,9 +851,7 @@ country_event = {
 			factor = 50
 		}
 
-		CRO_cersei_lannister = {
-			retire = yes
-		}
+		retire_ideology_leader = neutrality
 		add_country_leader_role = {
 			character = CRO_joffrey_baratheon
 				country_leader={
@@ -862,9 +897,7 @@ country_event = {
 		
 		add_threat = 2
 		
-		CRO_cersei_lannister = {
-			retire = yes
-		}
+		retire_ideology_leader = neutrality
 		add_country_leader_role = {
 			character = CRO_Tommen_Baratheon
 				country_leader={
@@ -915,9 +948,7 @@ country_event = {
 		
 		add_threat = 2
 		
-		CRO_cersei_lannister = {
-			retire = yes
-		}
+		retire_ideology_leader = neutrality
 		add_country_leader_role = {
 			character = CRO_Myrcella_Baratheon
 				country_leader={
@@ -5393,34 +5424,6 @@ country_event = {
 			promote_leader = yes
 		}
 		
-		create_country_leader = {
-			name = "Cersei Lannister"
-			picture = "CRO/Portrait_Cersei_Lannister.dds"
-			ideology = FR_subideology
-			traits = {  
-				dictator  
-				political_manipulator  
-				autocratic_imperialist  
-				#the_foreign_connection  
-				#ambitious_negotiator_fascism  
-				princess_of_terror  
-			}
-		}
-
-		create_country_leader = {
-			name = "Cersei Lannister"
-			picture = "CRO/Portrait_Cersei_Lannister.dds"
-			ideology = NR_subideology
-			traits = {  
-				dictator  
-				political_manipulator  
-				autocratic_imperialist  
-				#the_foreign_connection  
-				#ambitious_negotiator_fascism  
-				princess_of_terror  
-			}
-		}
-		
 		country_event = {
 			id = GOT_Location_Country.1
 			hours = 6
@@ -6631,7 +6634,7 @@ country_event = {
 			end_puppet = NOR
 			transfer_units_fraction= {
 				target = NOR
-				size = 0.3
+				size = 0.5
 				keep_unit_leaders_trigger = {
 					always = yes
 				}
@@ -6845,7 +6848,7 @@ country_event = {
 			end_puppet = NOR
 			transfer_units_fraction= {
 				target = NOR
-				size = 0.3
+				size = 0.5
 				keep_unit_leaders_trigger = {
 					always = yes
 				}
