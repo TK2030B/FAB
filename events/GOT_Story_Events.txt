@@ -16792,7 +16792,31 @@ country_event = {
  
         ai_chance = { 
             factor = 70 
-        } 
+        }
+
+		custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ASS = { owns_state = 117 }
+					}
+					XXX = {
+						transfer_state = 117
+					}
+					
+					transfer_units_fraction= {
+						target = XXX
+						size = 0.5
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+					
+					ASS = {
+						transfer_state = 117
+					}
+				}
+			}
 		
 		if = {
 			limit = {
@@ -17041,6 +17065,30 @@ country_event = {
 				is_historical_focus_on = yes
 			}
         } 
+		
+		custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ASS = { owns_state = 117 }
+					}
+					XXX = {
+						transfer_state = 117
+					}
+					
+					transfer_units_fraction= {
+						target = XXX
+						size = 0.5
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+					
+					ASS = {
+						transfer_state = 117
+					}
+				}
+			}
 		
 		if = {
 			limit = {

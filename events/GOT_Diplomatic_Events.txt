@@ -3112,14 +3112,39 @@ country_event = {
 					dictator  
 					political_manipulator  
 					autocratic_imperialist  
-					the_foreign_connection  
-					ambitious_negotiator_fascism  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
 					princess_of_terror  
 				}
 
 			}
 			promote_leader = yes
 		}
+		
+		if = {
+			limit = { 
+				GOT_Has_Same_Leader = yes
+			} 	
+			if = { 
+				limit = { 
+					is_ai = yes
+				} 
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.5
+						hours = 6
+					}
+				}
+			}
+			else = {
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.2
+						hours = 6
+					}
+				}
+			}
+		} 
 		
 		news_event = {
 			id = GOT_Location_News.3
@@ -3295,8 +3320,8 @@ country_event = {
 						dictator  
 						political_manipulator  
 						autocratic_imperialist  
-						the_foreign_connection  
-						ambitious_negotiator_fascism  
+						#the_foreign_connection  
+						#ambitious_negotiator_fascism  
 						princess_of_terror  
 					}
 
@@ -3321,7 +3346,31 @@ country_event = {
 				promote_leader = yes
 			}
         }
-
+		
+		if = {
+			limit = { 
+				GOT_Has_Same_Leader = yes
+			} 	
+			if = { 
+				limit = { 
+					is_ai = yes
+				} 
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.5
+						hours = 6
+					}
+				}
+			}
+			else = {
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.2
+						hours = 6
+					}
+				}
+			}
+		}
 		
 		news_event = {
 			id = GOT_Location_News.3
@@ -6040,6 +6089,31 @@ country_event = {
 			promote_leader = yes
 		}
 		
+		if = {
+			limit = { 
+				GOT_Has_Same_Leader = yes
+			} 	
+			if = { 
+				limit = { 
+					is_ai = yes
+				} 
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.5
+						hours = 6
+					}
+				}
+			}
+			else = {
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.2
+						hours = 6
+					}
+				}
+			}
+		}
+		
 		news_event = {
 			id = GOT_Location_News.3
 			hours = 6
@@ -6216,6 +6290,30 @@ country_event = {
 			}
         }
 
+		if = {
+			limit = { 
+				GOT_Has_Same_Leader = yes
+			} 	
+			if = { 
+				limit = { 
+					is_ai = yes
+				} 
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.5
+						hours = 6
+					}
+				}
+			}
+			else = {
+				CRO = {
+					country_event = {
+						id = GOT_Realm_Admin_Country.2
+						hours = 6
+					}
+				}
+			}
+		}
 		
 		news_event = {
 			id = GOT_Location_News.3
@@ -7726,6 +7824,30 @@ country_event = {
             factor = 25 
         } 
 		
+		custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ASS = { owns_state = 117 }
+					}
+					XXX = {
+						transfer_state = 117
+					}
+					
+					transfer_units_fraction= {
+						target = XXX
+						size = 0.5
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+					
+					ASS = {
+						transfer_state = 117
+					}
+				}
+			}
+		
 		if = {
 			limit = {
 				has_war_with = CRO
@@ -7942,6 +8064,30 @@ country_event = {
         ai_chance = { 
             factor = 75 
         } 
+		
+		custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ASS = { owns_state = 117 }
+					}
+					XXX = {
+						transfer_state = 117
+					}
+					
+					transfer_units_fraction= {
+						target = XXX
+						size = 0.5
+						keep_unit_leaders_trigger = {
+							always = yes
+						}
+					}
+					
+					ASS = {
+						transfer_state = 117
+					}
+				}
+			}
  
         add_stability = -0.50
 		
