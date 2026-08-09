@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Wildling Tribesmen"	# represents first part of enlarged divisions
+	is_locked = yes
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Tormund Warband"
+		location = 4626  #Castle Black
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Tormund Warband"
+		location = 4626  #Castle Black
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Tormund Warband"
+		location = 4626  #Castle Black
+		division_template = "Wildling Tribesmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

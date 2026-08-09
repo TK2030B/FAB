@@ -3123,7 +3123,18 @@ country_event = {
 		
 		if = {
 			limit = { 
-				GOT_Has_Same_Leader = yes
+				CRO = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
+				WES = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
 			} 	
 			if = { 
 				limit = { 
@@ -3144,7 +3155,7 @@ country_event = {
 					}
 				}
 			}
-		} 
+		}
 		
 		news_event = {
 			id = GOT_Location_News.3
@@ -3349,7 +3360,18 @@ country_event = {
 		
 		if = {
 			limit = { 
-				GOT_Has_Same_Leader = yes
+				CRO = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
+				WES = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
 			} 	
 			if = { 
 				limit = { 
@@ -6091,7 +6113,18 @@ country_event = {
 		
 		if = {
 			limit = { 
-				GOT_Has_Same_Leader = yes
+				CRO = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
+				WES = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
 			} 	
 			if = { 
 				limit = { 
@@ -6292,7 +6325,18 @@ country_event = {
 
 		if = {
 			limit = { 
-				GOT_Has_Same_Leader = yes
+				CRO = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
+				WES = {
+					has_country_leader = {
+						name = "Cersei Lannister"
+						ruling_only = yes
+					}
+				}
 			} 	
 			if = { 
 				limit = { 
@@ -6716,6 +6760,42 @@ country_event = {
 			}
 		}
 		
+		if = {
+			limit = {
+				BOL = { owns_state = 121 }
+			}
+			NOR = {
+				transfer_state = 121
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 163 }
+			}
+			NOR = {
+				transfer_state = 163
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 161 }
+			}
+			NOR = {
+				transfer_state = 161
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 170 }
+			}
+			NOR = {
+				transfer_state = 170
+			}
+		}
+		
 		NOR = {
 			transfer_state = 21
 			inherit_technology = BOL
@@ -6927,6 +7007,42 @@ country_event = {
 			}
 			NOR = {
 				transfer_state = 122
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 121 }
+			}
+			NOR = {
+				transfer_state = 121
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 163 }
+			}
+			NOR = {
+				transfer_state = 163
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 161 }
+			}
+			NOR = {
+				transfer_state = 161
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 170 }
+			}
+			NOR = {
+				transfer_state = 170
 			}
 		}
 		
@@ -8290,6 +8406,61 @@ country_event = {
 		}
 		
 		add_war_support = -0.05
+		
+	}
+}
+
+#Wildlings Send Aid
+country_event = {
+	id = GOT_Diplomatic_Country.94
+	title = GOT_Diplomatic_Country.94.t
+	desc = GOT_Diplomatic_Country.94.d
+	picture = GFX_report_event_Castle_Black
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.94.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		load_oob = NWA_Wildlings
+		
+		add_war_support = 0.05
+		
+		add_opinion_modifier = {
+			target = FROM
+			modifier = RI_friendly_foreign_policy
+		}
+		
+		
+	}
+}
+
+#Wildlings Dont send Forces
+country_event = {
+	id = GOT_Diplomatic_Country.95
+	title = GOT_Diplomatic_Country.95.t
+	desc = GOT_Diplomatic_Country.95.d
+	picture = GFX_report_event_Hard_Home
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.95.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		add_war_support = -0.05
+		
+		add_opinion_modifier = {
+			target = FROM
+			modifier = RI_hostile_foreign_policy
+		}
 		
 	}
 }

@@ -1,60 +1,60 @@
 GOT_War_Participant = {
 	OR = {
-		tag = TAR
-		tag = CRO
-		tag = WES
-		tag = DRA
-		tag = STO
-		tag = REA
-		tag = NOR
-		tag = RIV
-		tag = IRO
-		tag = DOR
-		tag = FRE
-		tag = BOL
+		original_tag = TAR
+		original_tag = CRO
+		original_tag = WES
+		original_tag = DRA
+		original_tag = STO
+		original_tag = REA
+		original_tag = NOR
+		original_tag = RIV
+		original_tag = IRO
+		original_tag = DOR
+		original_tag = FRE
+		original_tag = BOL
 	}
 }
 
 GOT_Targaryen_Faction = {
 	OR = {
-		tag = TAR
+		original_tag = TAR
 		AND = {
-			tag = REA
+			original_tag = REA
 			GOT_Olenna_Is_Lady_of_REA = yes
 			GOT_Renly_Is_Lord_of_STO = no
 			#has_global_flag = GOT_Sept_Blown_Up_Flag
 		}
 		AND = {
-			tag = IRO
+			original_tag = IRO
 			GOT_Yara_Is_Lady_of_IRO = yes
 		}
 		AND = {
-			tag = DOR
+			original_tag = DOR
 			GOT_Ellaria_Is_Lady_of_DOR = yes
 		}
 		AND = {
-			tag = NOR
+			original_tag = NOR
 			has_country_leader = {
 				name = "Jon Snow"
 				ruling_only = yes
 			}
 		}
 		AND = {
-			tag = VAL
+			original_tag = VAL
 			has_country_leader = {
 				name = "Robin Arryn"
 				ruling_only = yes
 			}
 		}
 		AND = {
-			tag = VAL
+			original_tag = VAL
 			has_country_leader = {
 				name = "Petyr Baelish"
 				ruling_only = yes
 			}
 		}
 		AND = {
-			tag = RIV
+			original_tag = RIV
 			has_country_leader = {
 				name = "Edmure Tully"
 				ruling_only = yes
@@ -74,12 +74,12 @@ GOT_Baratheon_Faction = {
 GOT_Stannis_Faction = {
 	OR = {
 		AND = {
-			tag = CRO
+			original_tag = CRO
 			GOT_Stannis_Is_King = yes
 		}
-		tag = DRA
+		original_tag = DRA
 		AND = {
-			tag = STO
+			original_tag = STO
 			OR = {
 				GOT_Stannis_Is_Lord_of_STO = yes
 				GOT_Shireen_Is_Lady_of_STO = yes
@@ -90,30 +90,30 @@ GOT_Stannis_Faction = {
 
 GOT_Lannister_Faction = {
 	OR = {
-		tag = WES
-		tag = CRO
-		tag = BOL
-		tag = FRE
-		tag = TRL
+		original_tag = WES
+		original_tag = CRO
+		original_tag = BOL
+		original_tag = FRE
+		original_tag = TRL
 		AND = {
-			tag = REA
+			original_tag = REA
 			GOT_Joffrey_Is_King = yes
 			GOT_Renly_Is_Lord_of_STO = no
 		}
 		AND = {
-			tag = IRO
+			original_tag = IRO
 			GOT_Cersei_Is_Queen = yes
 			GOT_Euron_Is_Lord_of_IRO = yes
 		}
 		AND = {
-			tag = REA
+			original_tag = REA
 			has_country_leader = {
 				name = "Randyll Tarly"
 				ruling_only = yes
 			}
 		}
 		AND = {
-			tag = REA
+			original_tag = REA
 			GOT_Olenna_Is_Lady_of_REA = no
 			GOT_Renly_Is_Lord_of_STO = no
 		}
@@ -124,15 +124,15 @@ GOT_Lannister_Faction = {
 GOT_Renly_Faction = {
 	OR = {
 		AND = {
-			tag = CRO
+			original_tag = CRO
 			GOT_Renly_Is_King = yes
 		}
 		AND = {
-			tag = STO
+			original_tag = STO
 			GOT_Renly_Is_Lord_of_STO = yes
 		}
 		AND = {
-			tag = REA
+			original_tag = REA
 			GOT_Renly_Is_Lord_of_STO = yes
 		}
 	}
@@ -141,17 +141,31 @@ GOT_Renly_Faction = {
 GOT_Stark_Faction = {
 	OR = {
 		AND = {
-			tag = CRO
+			original_tag = CRO
 			GOT_Ned_Is_King = yes
 		}
-		tag = NOR
-		tag = RIV
+		original_tag = NOR
+		original_tag = RIV
 	}
 }
 
 GOT_Ironborn_Faction = {
 	OR = {
-		tag = IRO
+		original_tag = IRO
+	}
+}
+
+GOT_Free_City_Faction = {
+	OR = {
+		original_tag = BRA
+		original_tag = LOR
+		original_tag = NRV
+		original_tag = QOH
+		original_tag = PEN
+		original_tag = MYR
+		original_tag = TYR
+		original_tag = LYS
+		original_tag = VOL
 	}
 }
 
@@ -493,25 +507,64 @@ GOT_Ned_Is_King = {
 	}
 }
 
+GOT_Seven_Kingdoms_Country = {
+	OR = {
+		original_tag = CRO
+		original_tag = DRA
+		original_tag = STO
+		original_tag = REA
+		original_tag = DOR
+		original_tag = WES
+		original_tag = IRO
+		original_tag = RIV
+		original_tag = VAL
+		original_tag = NOR
+		original_tag = BOL
+		original_tag = KAR
+		original_tag = UMB
+		original_tag = FRE
+		original_tag = TRL
+	}
+}
+
 GOT_Westeros_Countries = {
 	OR = {
-		tag = TAR
-		tag = CRO
-		tag = WES
-		tag = DRA
-		tag = STO
-		tag = REA
-		tag = NOR
-		tag = RIV
-		tag = IRO
-		tag = DOR
-		tag = VAL
-		tag = WIL
+		GOT_Is_Seven_Kingdoms_Country = yes
+		original_tag = NWA
+		original_tag = WIL
+		original_tag = TAR
 	}
 }
 
 GOT_Essos_Countries = {
-	GOT_Westeros_Countries = no
+	OR = {
+		original_tag = BRA
+		original_tag = LOR
+		original_tag = NRV
+		original_tag = QOH
+		original_tag = PEN
+		original_tag = MYR
+		original_tag = TYR
+		original_tag = LYS
+		original_tag = VOL
+		original_tag = SAA
+		original_tag = MAN
+		original_tag = VAL
+		original_tag = TOL
+		original_tag = ELY
+		original_tag = DOT
+		original_tag = OMB
+		original_tag = MOR
+		original_tag = QAR
+		original_tag = MER
+		original_tag = YUN
+		original_tag = AST
+		original_tag = YTI
+		original_tag = ASS
+		original_tag = IBB
+		original_tag = REW
+		original_tag = UNL
+	}
 }
 
 GOT_Female_Ruler = {
@@ -920,3 +973,4 @@ GOT_Sparrows_Active = {
 		}
 	}
 }
+

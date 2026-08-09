@@ -14284,6 +14284,7 @@ country_event = {
 			name = "Alliser Thorne"
 			ruling_only = yes
 		}
+		has_civil_war = no
     } 
  
     fire_only_once = yes 
@@ -14383,6 +14384,21 @@ country_event = {
 				}
 			}
 			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 100
+			}
 		}
  
        country_event = {
@@ -14992,7 +15008,7 @@ country_event = {
         } 
  
         # Add the military spirit representing their armed presence
-        add_ideas = idea_CRO_Faith_Militant
+        add_ideas = CRO_Faith_Militant
 
        GOT_Sparrows_Placated = yes
  
@@ -20054,8 +20070,9 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1941.10.10
-        date < 1942.10.10
+        date < 1950.1.1
 		has_war_with = BOL
+		156 = { is_controlled_by_ROOT_or_ally = yes }
     } 
  
     fire_only_once = yes 
@@ -25789,6 +25806,20 @@ country_event = {
 		REA = {
 			transfer_state = 115
 			inherit_technology = TRL
+			
+			if = {
+				limit = {
+					NOT = { has_government = communism }
+				}
+				set_politics = {
+					ruling_party = communism
+				}
+			}
+			add_popularity = {
+				popularity = 0.50
+				ideology = communism
+			}
+			
 		}
 		
 		end_puppet = REA
@@ -25911,6 +25942,42 @@ country_event = {
 			}
 			NOR = {
 				transfer_state = 122
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 121 }
+			}
+			NOR = {
+				transfer_state = 121
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 163 }
+			}
+			NOR = {
+				transfer_state = 163
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 161 }
+			}
+			NOR = {
+				transfer_state = 161
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 170 }
+			}
+			NOR = {
+				transfer_state = 170
 			}
 		}
 		
@@ -26126,6 +26193,42 @@ country_event = {
 			}
 			NOR = {
 				transfer_state = 122
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 121 }
+			}
+			NOR = {
+				transfer_state = 121
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 163 }
+			}
+			NOR = {
+				transfer_state = 163
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 161 }
+			}
+			NOR = {
+				transfer_state = 161
+			}
+		}
+		
+		if = {
+			limit = {
+				BOL = { owns_state = 170 }
+			}
+			NOR = {
+				transfer_state = 170
 			}
 		}
 		
@@ -26414,5 +26517,110 @@ news_event = {
  
     option = { 
         name = GOT_Story_News.746.a 
+    } 
+} 
+
+# Wildling Army Joins Jon Snow
+country_event = { 
+    id = GOT_Story_Country.747 
+    title = GOT_Story_Country.747.t 
+    desc = GOT_Story_Country.747.d 
+    picture = GFX_report_event_Hard_Home
+ 
+    trigger = { 
+        tag = WIL 
+        date < 1950.1.1
+		any_other_country = {
+			original_tag = NWA
+			NOT = { has_war_with = WIL }
+			has_civil_war = yes
+			has_country_leader = {
+				name = "Jon Snow"
+				ruling_only = yes
+			}
+		}
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Story_Country.747.a 
+ 
+        ai_chance = { 
+            factor = 90 
+        } 
+ 
+        add_stability = -0.05 
+		
+		every_other_country = {
+			limit = {
+				original_tag = NWA
+				NOT = { has_war_with = WIL }
+				has_civil_war = yes
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+			country_event = {
+				id = GOT_Diplomatic_Country.94
+				hours = 6
+			}
+		}
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.747 
+                hours = 6 
+            } 
+        } 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.747.b
+ 
+        ai_chance = { 
+            factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}			
+        } 
+		
+		every_other_country = {
+			limit = {
+				original_tag = NWA
+				NOT = { has_war_with = WIL }
+				has_civil_war = yes
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+			country_event = {
+				id = GOT_Diplomatic_Country.95
+				hours = 6
+			}
+		}
+ 
+        add_stability = 0.05 
+
+    } 
+} 
+
+# Wildling Army Joins Jon Snow
+news_event = { 
+    id = GOT_Story_News.747 
+    title = GOT_Story_News.747.t 
+    desc = GOT_Story_News.747.d 
+    picture = GFX_news_event_Hard_Home
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.747.a 
     } 
 } 

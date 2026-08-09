@@ -45,6 +45,7 @@ ideas = {
 				justify_war_goal_time = -0.10
 				generate_wargoal_tension = -0.10
 				join_faction_tension = -0.10
+				surrender_limit = 0.10
 			}
 
 			cancel_if_invalid = no

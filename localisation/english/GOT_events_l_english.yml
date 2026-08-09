@@ -4272,6 +4272,15 @@ GOT_Story_Country.746.c: "We kneel to no man! We march, but under our own chiefs
  GOT_Story_News.746.t:0 "Savage Banners in the North"
  GOT_Story_News.746.d:0 "Disturbing news spreads from Castle Black and the frozen expanses of the North. Reports confirm that Jon Snow, the Lord Commander of the Night's Watch, was murdered by his own sworn brothers for granting passage to the Free Folk. Yet his murder has not turned the wildlings back. Bound by a grim honor to the slain Lord Commander, Tormund Giantsbane and the clan chieftains have pledged their axes to the Stark cause.\n\nTo the southron lords, the sight of wildling warbands marching alongside northern levies against the Dreadfort is an abomination. For thousands of years, the Wall kept the savages at bay; now, thousands of spearwives and raiders march under direwolf banners, threatening to wash the North in blood. Whether this wild host fights as one under Stark command or strikes out under its own chiefs, the realm watches in terror as ancient rivalries bleed into open war."
  GOT_Story_News.746.a:0 "An unnatural alliance, born of desperate times."
+ 
+ GOT_Story_Country.747.t:0 "Betrayal at Castle Black"
+ GOT_Story_Country.747.d:0 "Shouts and the clash of steel echo from inside Castle Black. Word has reached our camp that the crows have turned on their own Lord Commander. The black brothers—blinded by ancient hatred—have drawn their daggers against Jon Snow, the man who brought us past the Wall and gave our women and children a chance to survive.\n\nWithout Snow, these traitorous crows will lock the gates against us or leave us to freeze when the true enemy arrives. Tormund Giantbane already has his battleaxe in hand, calling on every warrior who can swing a blade. We do not owe allegiance to the Night's Watch, but we owe our lives to Jon Snow. We must storm the castle gates before it is too late."
+ GOT_Story_Country.747.a:0 "For the Lord Crow! Tear down the gates!"
+ GOT_Story_Country.747.b:0 "Let the crows bleed each other out."
+ 
+ GOT_Story_News.747.t:0 "Savage Horde: The Wildlings Join the Fray"
+ GOT_Story_News.747.d:0 "Unthinkable news has swept across the Seven Kingdoms. Following the bloody mutiny at Castle Black, the wildling host—once thought confined to the frozen wastes beyond the Wall—has officially drawn its weapons and entered the war for the North.\n\nLed by seasoned chieftains and bound by a blood debt to Jon Snow's loyalists, thousands of freefolk warriors have poured through the gates into the Gift. Clad in crude fur, bone, and stolen steel, these fierce wildlings care nothing for southern politics or feudal oaths. With an unpredictable, bloodthirsty army now marching through northern lands, every lord from the Last Hearth to the Neck must prepare for total chaos."
+ GOT_Story_News.747.a:0 "An army of savages marching south... Gods help us."
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
@@ -4632,17 +4641,11 @@ GOT_Diplomatic_Country.71.t: "The Faith Militant Crushed"
 GOT_Diplomatic_Country.71.d: "The assault succeeds. The Faith Militant is scattered, its leadership captured or slain, and the High Sparrow's movement collapses beneath the weight of steel. Though blood stains the streets of King's Landing, the Iron Throne has reasserted its authority. For the first time in months, the Crown alone rules the capital."
 GOT_Diplomatic_Country.71.a: "The Crown stands supreme."
 
-GOT_Diplomatic_News.36.t: "The Faith Militant Defeated"
-GOT_Diplomatic_News.36.d: "The combined forces of Houses Lannister and Tyrell have crushed the Faith Militant in King's Landing. The High Sparrow's movement has been broken, its followers dispersed, and the authority of the Iron Throne restored after fierce fighting in the capital."
-GOT_Diplomatic_News.36.a: "The Seven no longer guide the Crown."
-
 GOT_Diplomatic_Country.72.t: "King's Landing in Revolt"
 GOT_Diplomatic_Country.72.d: "The assault on the Great Sept has ended in disaster. The Faith Militant repelled the Crown's forces, and the High Sparrow has called upon the faithful to rise in defense of the Seven. Across King's Landing, bells toll as armed zealots clash with loyal soldiers. The capital has descended into civil war, and the Iron Throne now faces an enemy within its own walls."
 GOT_Diplomatic_Country.72.a: "The Crown must restore order."
 
-GOT_Diplomatic_News.37.t: "Civil War Erupts in King's Landing"
-GOT_Diplomatic_News.37.d: "The Crown's attempt to crush the Faith Militant has failed. Fighting now rages through the streets of King's Landing as the High Sparrow's followers battle soldiers loyal to the Iron Throne. With the capital consumed by civil war, the fate of the Seven Kingdoms hangs in the balance."
-GOT_Diplomatic_News.37.a: "The realm tears itself apart."
+
 
 GOT_Diplomatic_Country.73.t: "The Assault on the Sept Fails"
 GOT_Diplomatic_Country.73.d: "The Crown's forces advanced upon the Great Sept of Baelor, expecting a swift victory over the Faith Militant. Instead, the streets of King's Landing erupted into chaos as angry crowds of faithful citizens joined the Sparrow ranks, overwhelming the Lannister and Tyrell soldiers. Forced to abandon the assault, the royal host has retreated behind the walls of the Red Keep. The Crown still holds the capital, but its authority has suffered a devastating blow."
@@ -4656,6 +4659,20 @@ GOT_Diplomatic_Country.75.t: "The Wildfire Plot Exposed"
 GOT_Diplomatic_Country.75.d: "The conspiracy to destroy the Great Sept has failed. Before the wildfire could be ignited, word of the plot spread through King's Landing, provoking outrage among the faithful. Thousands have flocked to the banners of the High Sparrow, while loyalists rally behind the Iron Throne. Barricades rise across the streets, and fighting has broken out throughout the capital. What began as a desperate attempt to end the crisis has instead plunged the Crownlands into open civil war."
 GOT_Diplomatic_Country.75.a: "The realm tears itself apart."
 
+
+
+GOT_Diplomatic_Country.73.t: "The Assault Repelled"
+GOT_Diplomatic_Country.73.d: "The attack on the Great Sept of Baelor has ended in failure. As Lannister and Tyrell soldiers advanced, an angry crowd of Faithful poured into the streets, swelling the ranks of the Faith Militant. Outnumbered and surrounded, the royal host was forced to abandon the assault and retreat behind the walls of the Red Keep. The Crown has survived, but the streets of King's Landing now belong to the Faith."
+GOT_Diplomatic_Country.73.a: "The Red Keep must hold."
+
+GOT_Diplomatic_News.36.t: "The Faith Militant Defeated"
+GOT_Diplomatic_News.36.d: "The combined forces of Houses Lannister and Tyrell have crushed the Faith Militant in King's Landing. The High Sparrow's movement has been broken, its followers dispersed, and the authority of the Iron Throne restored after fierce fighting in the capital."
+GOT_Diplomatic_News.36.a: "The Seven no longer guide the Crown."
+
+GOT_Diplomatic_News.37.t: "Civil War Erupts in King's Landing"
+GOT_Diplomatic_News.37.d: "The Crown's attempt to crush the Faith Militant has failed. Fighting now rages through the streets of King's Landing as the High Sparrow's followers battle soldiers loyal to the Iron Throne. With the capital consumed by civil war, the fate of the Seven Kingdoms hangs in the balance."
+GOT_Diplomatic_News.37.a: "The realm tears itself apart."
+
 GOT_Diplomatic_News.38.t: "Faithful Overwhelm the Crown's Host"
 GOT_Diplomatic_News.38.d: "The Iron Throne's attempt to crush the Faith Militant has ended in failure. As Lannister and Tyrell forces moved against the Great Sept of Baelor, thousands of angry citizens flooded the streets in support of the Faithful, turning the assault into a bloody defeat. The royal host has withdrawn to the Red Keep, leaving King's Landing divided and the realm uncertain of what will follow."
 GOT_Diplomatic_News.38.a: "The Seven have answered with steel."
@@ -4663,14 +4680,6 @@ GOT_Diplomatic_News.38.a: "The Seven have answered with steel."
 GOT_Diplomatic_News.39.t: "Civil War Erupts in the Crownlands"
 GOT_Diplomatic_News.39.d: "The attempted destruction of the Great Sept of Baelor has plunged the Crownlands into chaos. As news of the conspiracy spread, thousands of faithful took up arms alongside the Faith Militant, while royal loyalists rallied to defend the Iron Throne. Fighting now rages through King's Landing and the surrounding Crownlands as the realm watches in horror, uncertain who will emerge victorious."
 GOT_Diplomatic_News.39.a: "The Crown and the Faith are at war."
-
-GOT_Diplomatic_Country.73.t: "The Assault Repelled"
-GOT_Diplomatic_Country.73.d: "The attack on the Great Sept of Baelor has ended in failure. As Lannister and Tyrell soldiers advanced, an angry crowd of Faithful poured into the streets, swelling the ranks of the Faith Militant. Outnumbered and surrounded, the royal host was forced to abandon the assault and retreat behind the walls of the Red Keep. The Crown has survived, but the streets of King's Landing now belong to the Faith."
-GOT_Diplomatic_Country.73.a: "The Red Keep must hold."
-
-GOT_Diplomatic_News.38.t: "Faithful Rise Against the Crown"
-GOT_Diplomatic_News.38.d: "The Iron Throne's attempt to crush the Faith Militant has been defeated. As Lannister and Tyrell forces moved against the Great Sept of Baelor, thousands of angry citizens joined the Faithful, overwhelming the royal host and forcing its retreat into the Red Keep. With the capital divided, the fate of King's Landing hangs in the balance."
-GOT_Diplomatic_News.38.a: "The Seven have answered with steel."
 
 GOT_Diplomatic_News.34.t:0 "Wildlings Reject Alliance Offer"
 GOT_Diplomatic_News.34.d:0 "Despite [NWA.GetLeader]’s earnest efforts to forge an alliance with the Free Folk, the Wildlings have turned down the offer, choosing to remain beyond the Wall. This rejection deepens the divide between the realms of men and the Free Folk, even as the threat of the White Walkers looms ever closer."
@@ -4769,6 +4778,14 @@ GOT_Diplomatic_Country.90.b: "A resurrected bastard holds no claim. We must look
  GOT_Diplomatic_Country.93.t:0 "An Alliance of Equals"
  GOT_Diplomatic_Country.93.d:0 "The Free Folk do not kneel. Though Tormund and the clan leaders acknowledge the debt owed to Jon Snow, they flatly refuse to place their men under the command of Northern lords. Centuries of mistrust run too deep, and no wildling warrior will take orders from men whose grandfathers hunted them like beasts.\n\nInstead, the chieftains have agreed to fight alongside us as an independent host. They will bleed Ramsay Bolton’s men on their own terms, marching in parallel and striking from the flanks under their own warhorns. Our lords scoff at their lack of discipline, but in the brutal snows ahead, having an untamed, self-governed army tearing through Bolton lines may prove far more lethal than forcing them into our ranks."
  GOT_Diplomatic_Country.93.a:0 "They march with us, not under us. So be it."
+ 
+ GOT_Diplomatic_Country.94.t:0 "Shattered Gates: The Freefolk Arrive!"
+ GOT_Diplomatic_Country.94.d:0 "Daggers flash in the courtyard as the traitorous black brothers press their attack, shouting 'For the Watch!' as they seek to cut down our Lord Commander. Overwhelmed and backed against the cold stone walls, our defeat seemed certain—until the outer gates splintered under the force of a battering ram.\n\nWith war cries that echo across the Wall, Tormund Giantbane and a horde of fierce freefolk warriors charge into Castle Black. Fur-clad warriors and giant-slayers fall upon the mutineers with terrifying fury, turning the tide of the massacre in an instant. The wildlings have joined the fight—and today, the crows will not die alone."
+ GOT_Diplomatic_Country.94.a:0 "With us, Freefolk! Drive the traitors back!"
+ 
+ GOT_Diplomatic_Country.95.t:0 "Silence from the Freefolk"
+ GOT_Diplomatic_Country.95.d:0 "The courtyard is a bloodbath. Surrounded and bleeding, our loyal brothers cast desperate glances toward the wildling encampment outside the gates, praying for Tormund's horn to sound. But no horn blows. No battle cry rings out through the cold air.\n\nWhether out of ancient mistrust for the Night's Watch or a unwillingness to spill blood for crow politics, the freefolk have chosen to stand by and watch us bleed. Cut off and completely isolated, we must rely solely on our own steel if we are to survive this night."
+ GOT_Diplomatic_Country.95.a:0 "Then we fight and die as crows!"
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -5297,3 +5314,7 @@ GOT_Location_News.42.a: "A bold claim with uncertain consequences."
  GOT_Faction_News.1.t:0 "The League of Free Cities Established"
  GOT_Faction_News.1.d:0 "Reports from across the Narrow Sea confirm that the sovereign city-states of Essos have taken an unprecedented step toward unified defense. Long divided by bitter commercial feuds, trade blockades, and territorial disputes in the Disputed Lands, the merchant lords have finally set aside their squabbles in the face of rising global tensions.\n\nIn a landmark summit, a formal diplomatic charter was ratified, uniting these maritime powers under a single banner: the League of Free Cities. With vast wealth, powerful mercenary charters, and formidable naval fleets now aligned under a shared pact, any foreign empire seeking expansion in Essos will face a formidable collective force."
  GOT_Faction_News.1.a:0 "An intriguing development."
+ 
+ GOT_Faction_News.2.t:0 "[FROM.GetName] Joins the League of Free Cities"
+ GOT_Faction_News.2.d:0 "Reports from across the Narrow Sea confirm that [FROM.GetName] has officially ratified the League Charter, aligning its foreign policy and military assets with the League of Free Cities.\n\nAs global tensions mount and aggressive foreign powers cast their gaze toward Essos, the merchant lords in [FROM.GetName] have chosen collective security over isolated sovereignty. With another key republic joining the defensive coalition, the alliance tightens its grip on maritime trade routes and further solidifies the military balance across the Narrow Sea."
+ GOT_Faction_News.2.a:0 "The coalition grows stronger."

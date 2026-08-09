@@ -40,6 +40,16 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Faction_News.1
+                hours = 6 
+            } 
+        }
 
 	}
 }
@@ -110,6 +120,16 @@ country_event = {
 				hours = 6
 			}
 		}
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Faction_News.2
+                hours = 6 
+            } 
+        }
 
 	}
 	
@@ -219,5 +239,19 @@ news_event = {
  
     option = { 
         name = GOT_Faction_News.1.a 
+    } 
+} 
+
+# Joins League
+news_event = { 
+    id = GOT_Faction_News.2
+    title = GOT_Faction_News.2.t 
+    desc = GOT_Faction_News.2.d 
+    picture = GFX_news_event_military_planning
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Faction_News.2.a 
     } 
 } 

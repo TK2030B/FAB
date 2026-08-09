@@ -844,6 +844,10 @@ country_event = {
 							FROM = { is_in_faction_with = IRO }
 						}
 					}
+					AND = {
+						ROOT = { GOT_Free_City_Faction = yes }
+						FROM = { GOT_Free_City_Faction = yes }
+					}
 				}
 			}
 		}
@@ -932,6 +936,10 @@ country_event = {
 							FROM = { is_in_faction_with = IRO }
 						}
 					}
+					AND = {
+						ROOT = { GOT_Free_City_Faction = yes }
+						FROM = { GOT_Free_City_Faction = yes }
+					}
 				}
 			}
 		}
@@ -1017,6 +1025,10 @@ country_event = {
 							FROM = { tag = IRO }
 							FROM = { is_in_faction_with = IRO }
 						}
+					}
+					AND = {
+						ROOT = { GOT_Free_City_Faction = yes }
+						FROM = { GOT_Free_City_Faction = yes }
 					}
 				}
 			}
@@ -1118,6 +1130,10 @@ country_event = {
 							FROM = { tag = IRO }
 							FROM = { is_in_faction_with = IRO }
 						}
+					}
+					AND = {
+						ROOT = { GOT_Free_City_Faction = yes }
+						FROM = { GOT_Free_City_Faction = yes }
 					}
 				}
 			}
@@ -1225,6 +1241,31 @@ country_event = {
 					is_major = yes
 				}
 			}
+			
+			modifier = {
+				factor = 10
+				AND = {
+					ROOT = { GOT_Free_City_Faction = yes }
+					FROM = { GOT_Free_City_Faction = no }
+				}
+			}
+			
+			modifier = {
+				factor = 10
+				AND = {
+					ROOT = { GOT_Westeros_Countries = yes }
+					FROM = { GOT_Westeros_Countries = no }
+				}
+			}
+			
+			modifier = {
+				factor = 10
+				AND = {
+					ROOT = { GOT_Essos_Countries = yes }
+					FROM = { GOT_Essos_Countries = no }
+				}
+			}
+			
 		}
 
 		FROM = { 
