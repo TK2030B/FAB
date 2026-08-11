@@ -1,0 +1,58 @@
+zombies_bad = {
+	allowed = { always = yes }
+	enable = { NOT = { tag = ICE } }
+	abort = { always = no }
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ICE"
+		value = -99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ICE"
+		value = 99
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = ICE
+		target = non_aggression_pact
+		value = -99
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = ICE
+		target = military_access
+		value = -99
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = ICE
+		target = send_attache
+		value = -99
+	}
+}
+
+zombies_produce_virus = {
+	allowed = { tag = ICE }
+	enable = { tag = ICE }
+	abort = { NOT = { tag = ICE } }
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 10000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = ICE
+		target = non_aggression_pact
+		value = -10000
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = ICE
+		target = join_faction
+		value = -10000
+	}
+}

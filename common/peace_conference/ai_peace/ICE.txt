@@ -1,0 +1,14 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+
+    zom_take_everything = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = { tag = ICE }
+        }
+        ai_desire = 10000
+    }
+
+}

@@ -1,0 +1,15 @@
+focus_tree = {
+	id = white_walkers_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ICE
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no	
+
+}

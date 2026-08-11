@@ -1,0 +1,9 @@
+ICE_finalize_spawn = {
+	ICE = {
+		transfer_state = 1
+		add_manpower = 6000000
+		set_global_flag = GOT_White_Walkers_Spawned_Flag
+		load_oob = "ICE_Initial_Outbreak"
+		add_named_threat = { threat = 100 name = ZOM_OUTBREAK_WORLD_TENSION }
+	}
+}
