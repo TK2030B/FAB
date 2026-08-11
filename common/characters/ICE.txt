@@ -1,6 +1,51 @@
 characters={
 
-	ICE_night_king={
+	ICE_unknown_leader={
+		name=ICE_unknown_leader
+		portraits={
+			civilian = {
+				large="gfx/leaders/ICE/ICE_leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = {
+				no_leadership
+				internal_rivalry
+				divided_interests
+			}
+		}
+	}
+	
+		ICE_night_king={
 		name=ICE_night_king
 		portraits={
 			army = {
@@ -63,51 +108,6 @@ characters={
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 3
-		}
-	}
-
-	ICE_unknown_leader={
-		name=ICE_unknown_leader
-		portraits={
-			civilian = {
-				large="gfx/leaders/ICE/ICE_leader_unknown.dds"
-			}
-		}
-		country_leader={
-			ideology=DR_subideology
-			expire="1965.1.1"
-			traits = {
-				no_leadership
-				internal_rivalry
-				divided_interests
-			}
-		}
-		country_leader={
-			ideology=CR_subideology
-			expire="1965.1.1"
-			traits = {
-				no_leadership
-				internal_rivalry
-				divided_interests
-			}
-		}
-		country_leader={
-			ideology=FR_subideology
-			expire="1965.1.1"
-			traits = {
-				no_leadership
-				internal_rivalry
-				divided_interests
-			}
-		}
-		country_leader={
-			ideology=NR_subideology
-			expire="1965.1.1"
-			traits = {
-				no_leadership
-				internal_rivalry
-				divided_interests
-			}
 		}
 	}
 

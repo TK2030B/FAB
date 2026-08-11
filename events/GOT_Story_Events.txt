@@ -32,6 +32,7 @@ country_event = {
 		add_stability = -0.05
 		
 		hidden_effect = {
+			ICE_finalize_spawn = yes
 			NOR = {
 				country_event = {
 					id = GOT_Story_Country.2
@@ -20569,7 +20570,11 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1941.11.15
-        date < 1941.12.15
+        date < 1950.1.1
+		has_country_leader = {
+			name = "Jon Snow"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 

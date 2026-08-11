@@ -23,6 +23,7 @@ set_politics = {
 set_convoys = 10
 
 recruit_character=ICE_unknown_leader
+recruit_character=ICE_night_king
 
 add_ideas = {
 	GOT_Tradition_White_Walkers
