@@ -640,6 +640,10 @@ load_oob = Generic
 GOT_The_Great_Betrayal = {
 
 		NOR = {
+			add_timed_idea = {
+				idea = RI_morale_shattered
+				days = 180
+			}
 			#House Bolton
 			release = BOL
 			end_puppet = BOL			
@@ -772,6 +776,10 @@ GOT_The_Great_Betrayal = {
 		
 		#Riverlands
 		RIV = {
+			add_timed_idea = {
+				idea = RI_morale_shattered
+				days = 180
+			}
 			#House Frey
 			release = FRE
 			end_puppet = FRE

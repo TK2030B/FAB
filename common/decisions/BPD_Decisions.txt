@@ -24,9 +24,11 @@ BPD_Peace_Deal_Manager = {
 		icon = eng_trade_unions_support
 		
 		allowed = {
+			NOT = { original_tag = ICE }
 		}
 	
         visible = {
+			NOT = { original_tag = ICE }
 			NOT = { has_country_flag = show_peace_decisions }
 			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
         }
@@ -37,6 +39,7 @@ BPD_Peace_Deal_Manager = {
 					is_in_faction = no
 					is_faction_leader = yes
 				}
+				NOT = { original_tag = ICE }
             }
         }
         cost = 25
@@ -49,6 +52,7 @@ BPD_Peace_Deal_Manager = {
 		}
 
         available = {
+			NOT = { original_tag = ICE }
 			NOT = { has_global_flag = BPD_Disable_Them_Completely }
 			NOT = { has_idea = BPD_Peace_Cooldown }
 		
@@ -97,9 +101,11 @@ BPD_Peace_Deal_Manager = {
 		icon = eng_trade_unions_support
 		
 		allowed = {
+			NOT = { original_tag = ICE }
 		}
 	
         visible = {
+			NOT = { original_tag = ICE }
 			NOT = { has_country_flag = show_peace_decisions }
 			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
         }
@@ -110,6 +116,7 @@ BPD_Peace_Deal_Manager = {
 					is_in_faction = no
 					is_faction_leader = yes
 				}
+				NOT = { original_tag = ICE }
             }
         }
         cost = 25
@@ -122,6 +129,7 @@ BPD_Peace_Deal_Manager = {
 		}
 
         available = {
+			NOT = { original_tag = ICE }
 			NOT = { has_global_flag = BPD_Disable_Them_Completely }
 			NOT = { has_idea = BPD_Peace_Cooldown }
 		
@@ -171,9 +179,11 @@ BPD_Peace_Deal_Manager = {
 		icon = eng_trade_unions_support
 		
 		allowed = {
+			NOT = { original_tag = ICE }
 		}
 	
         visible = {
+			NOT = { original_tag = ICE }
 			NOT = { has_country_flag = show_peace_decisions }
 			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
         }
@@ -184,6 +194,7 @@ BPD_Peace_Deal_Manager = {
 					is_in_faction = no
 					is_faction_leader = yes
 				}
+				NOT = { original_tag = ICE }
             }
         }
         cost = 25
@@ -196,6 +207,7 @@ BPD_Peace_Deal_Manager = {
 		}
 
         available = {
+			NOT = { original_tag = ICE }
 			NOT = { has_global_flag = BPD_Disable_Them_Completely }
 			NOT = { has_idea = BPD_Peace_Cooldown }
 		
@@ -233,9 +245,11 @@ BPD_Peace_Deal_Manager = {
 		icon = eng_trade_unions_support
 		
 		allowed = {
+			NOT = { original_tag = ICE }
 		}
 	
         visible = {
+			NOT = { original_tag = ICE }
 			NOT = { has_country_flag = show_peace_decisions }
 			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
         }
@@ -246,6 +260,7 @@ BPD_Peace_Deal_Manager = {
 					is_in_faction = no
 					is_faction_leader = yes
 				}
+				NOT = { original_tag = ICE }
             }
         }
         cost = 25
@@ -258,6 +273,7 @@ BPD_Peace_Deal_Manager = {
 		}
 
         available = {
+		NOT = { original_tag = ICE }
 		NOT = { has_global_flag = BPD_Disable_Them_Completely }
 		NOT = { has_idea = BPD_Peace_Cooldown }
 		
@@ -295,9 +311,11 @@ BPD_Peace_Deal_Manager = {
 		icon = eng_trade_unions_support
 		
 		allowed = {
+			NOT = { original_tag = ICE }
 		}
 	
         visible = {
+			NOT = { original_tag = ICE }
 			NOT = { has_country_flag = show_peace_decisions }
 			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
         }
@@ -308,6 +326,7 @@ BPD_Peace_Deal_Manager = {
 					is_in_faction = no
 					is_faction_leader = yes
 				}
+				NOT = { original_tag = ICE }
             }
         }
         cost = 25
@@ -320,6 +339,7 @@ BPD_Peace_Deal_Manager = {
 		}
 
         available = {
+			NOT = { original_tag = ICE }
 			NOT = { has_global_flag = BPD_Disable_Them_Completely }
 			NOT = { has_idea = BPD_Peace_Cooldown }
 		
@@ -360,9 +380,11 @@ BPD_Peace_Deal_Manager = {
 		icon = eng_trade_unions_support
 		
 		allowed = {
+		NOT = { original_tag = ICE }
 		}
 	
         visible = {
+			NOT = { original_tag = ICE }
 			NOT = { has_country_flag = show_peace_decisions }
 			#NOT = { has_country_flag = BPD_Peace_Deal_Cooldown }
         }
@@ -373,6 +395,7 @@ BPD_Peace_Deal_Manager = {
 					is_in_faction = no
 					is_faction_leader = yes
 				}
+				NOT = { original_tag = ICE }
             }
         }
         cost = 25
@@ -385,6 +408,7 @@ BPD_Peace_Deal_Manager = {
 		}
 
         available = {
+			NOT = { original_tag = ICE }
 			NOT = { has_global_flag = BPD_Disable_Them_Completely }
 			NOT = { has_idea = BPD_Peace_Cooldown }
 		

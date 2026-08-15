@@ -1,25 +1,28 @@
 ﻿division_template = {
-	name = "Wights"	# represents first part of enlarged divisions
+	name = "Wight Horde"
 
 	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-		militia = { x = 2 y = 0 }
-		militia = { x = 2 y = 1 }
-		militia = { x = 2 y = 2 }
-		militia = { x = 3 y = 0 }
+		Zombies= { x = 0 y = 0 }
+		Zombies= { x = 0 y = 1 }
+		Zombies= { x = 0 y = 2 }
+		Zombies= { x = 1 y = 0 }
+		Zombies= { x = 1 y = 1 }
+		Zombies= { x = 1 y = 2 }
+		Zombies= { x = 2 y = 0 }
+		Zombies= { x = 2 y = 1 }
+		Zombies= { x = 2 y = 2 }
+		Zombies= { x = 3 y = 0 }
+		Zombies= { x = 3 y = 1 }
+		Zombies= { x = 3 y = 2 }
 	}
+	priority = 100
 }
 
 ### Starting Production ###
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
+			type = zombie_0
 		}
 		requested_factories = 1
 		progress = 0.19

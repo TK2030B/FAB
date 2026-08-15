@@ -16,7 +16,7 @@ ideas = {
 
 				# Fanatical Zeal
 				army_org_factor = 0.15                 # Fanatics fight longer before breaking.
-				recovery_rate = 0.15                   # Quickly regroup after battle.
+				#recovery_rate = 0.15                   # Quickly regroup after battle.
 				land_reinforce_rate = 0.25             # The faithful eagerly fill the ranks.
 				army_defence_factor = 0.20             # Will not yield holy ground.
 				org_loss_when_moving = -0.20           # Relentless marches inspired by faith.

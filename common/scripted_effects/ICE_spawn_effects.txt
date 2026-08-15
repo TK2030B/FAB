@@ -1,9 +1,37 @@
-ICE_finalize_spawn = {
+ICE_White_Walker_Spawn = {
 	ICE = {
 		transfer_state = 1
-		add_manpower = 6000000
-		set_global_flag = GOT_White_Walkers_Spawned_Flag
+		add_state_core = 1
+		add_manpower = 200000
 		load_oob = "ICE_Initial_Outbreak"
-		add_named_threat = { threat = 100 name = ZOM_OUTBREAK_WORLD_TENSION }
+		#add_named_threat = { threat = 100 name = ZOM_OUTBREAK_WORLD_TENSION }
+	}
+}
+
+ICE_Wave2_Spawn = {
+	ICE = {
+		add_manpower = 500000
+		load_oob = "ICE_Wave2"
+	}
+}
+
+ICE_Wave3_Spawn = {
+	ICE = {
+		add_manpower = 800000
+		load_oob = "ICE_Wave3"
+	}
+}
+
+ICE_Wave4_Spawn = {
+	ICE = {
+		add_manpower = 1500000
+		load_oob = "ICE_Wave4"
+	}
+}
+
+ICE_Wave5_Spawn = {
+	ICE = {
+		add_manpower = 3000000
+		load_oob = "ICE_Wave5"
 	}
 }

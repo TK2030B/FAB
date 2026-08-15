@@ -1,4 +1,29 @@
 on_actions = {
+
+	on_daily_ICE = {
+		effect = {
+			if = {
+				limit = { 
+					original_tag = ICE
+					is_in_faction = yes 
+				}
+				leave_faction = yes
+			}
+			every_country = {
+				limit = {
+					exists = yes
+					NOT = { tag = ICE }
+					has_non_aggression_pact_with = ICE
+				}
+				diplomatic_relation = {
+					country = ICE
+					relation = non_aggression_pact
+					active = no
+				}
+			}
+		}
+	}
+
 	on_startup = {
 		effect = {
 			24 = {
@@ -739,4 +764,5 @@ on_actions = {
 			#} #This would add a unit medal to the history entry you just received
 		}
 	}
+	
 }

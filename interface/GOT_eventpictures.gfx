@@ -4659,6 +4659,309 @@ spriteTypes = {
 			name = "GFX_news_event_king_of_the_trident" 
 			texturefile = "gfx/event_pictures/News/news_event_king_of_the_trident.dds" 
 		} 
+		
+		 
+spriteType = { 
+    name = "GFX_report_event_Astapor" 
+    texturefile = "gfx/event_pictures/Country/report_event_Astapor.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Astapor" 
+    texturefile = "gfx/event_pictures/News/news_event_Astapor.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Braavos" 
+    texturefile = "gfx/event_pictures/Country/report_event_Braavos.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Braavos" 
+    texturefile = "gfx/event_pictures/News/news_event_Braavos.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Dreadfort" 
+    texturefile = "gfx/event_pictures/Country/report_event_Dreadfort.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Dreadfort" 
+    texturefile = "gfx/event_pictures/News/news_event_Dreadfort.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Driftmark" 
+    texturefile = "gfx/event_pictures/Country/report_event_Driftmark.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Driftmark" 
+    texturefile = "gfx/event_pictures/News/news_event_Driftmark.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Duskendale" 
+    texturefile = "gfx/event_pictures/Country/report_event_Duskendale.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Duskendale" 
+    texturefile = "gfx/event_pictures/News/news_event_Duskendale.dds" 
+} 
+
+spriteType = { 
+    name = "GFX_report_event_Eastwatch-by-the-Sea" 
+    texturefile = "gfx/event_pictures/Country/report_event_Eastwatch-by-the-Sea.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Eastwatch-by-the-Sea" 
+    texturefile = "gfx/event_pictures/News/news_event_Eastwatch-by-the-Sea.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Greywater_Watch" 
+    texturefile = "gfx/event_pictures/Country/report_event_Greywater_Watch.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Greywater_Watch" 
+    texturefile = "gfx/event_pictures/News/news_event_Greywater_Watch.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Gulltown" 
+    texturefile = "gfx/event_pictures/Country/report_event_Gulltown.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Gulltown" 
+    texturefile = "gfx/event_pictures/News/news_event_Gulltown.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Horn_Hill" 
+    texturefile = "gfx/event_pictures/Country/report_event_Horn_Hill.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Horn_Hill" 
+    texturefile = "gfx/event_pictures/News/news_event_Horn_Hill.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Lorath" 
+    texturefile = "gfx/event_pictures/Country/report_event_Lorath.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Lorath" 
+    texturefile = "gfx/event_pictures/News/news_event_Lorath.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Lys" 
+    texturefile = "gfx/event_pictures/Country/report_event_Lys.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Lys" 
+    texturefile = "gfx/event_pictures/News/news_event_Lys.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Maidenpool" 
+    texturefile = "gfx/event_pictures/Country/report_event_Maidenpool.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Maidenpool" 
+    texturefile = "gfx/event_pictures/News/news_event_Maidenpool.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Meereen" 
+    texturefile = "gfx/event_pictures/Country/report_event_Meereen.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Meereen" 
+    texturefile = "gfx/event_pictures/News/news_event_Meereen.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Moat_Cailin" 
+    texturefile = "gfx/event_pictures/Country/report_event_Moat_Cailin.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Moat_Cailin" 
+    texturefile = "gfx/event_pictures/News/news_event_Moat_Cailin.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Myr" 
+    texturefile = "gfx/event_pictures/Country/report_event_Myr.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Myr" 
+    texturefile = "gfx/event_pictures/News/news_event_Myr.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_New_Ghis" 
+    texturefile = "gfx/event_pictures/Country/report_event_New_Ghis.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_New_Ghis" 
+    texturefile = "gfx/event_pictures/News/news_event_New_Ghis.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Norvos" 
+    texturefile = "gfx/event_pictures/Country/report_event_Norvos.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Norvos" 
+    texturefile = "gfx/event_pictures/News/news_event_Norvos.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Oldtown" 
+    texturefile = "gfx/event_pictures/Country/report_event_Oldtown.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Oldtown" 
+    texturefile = "gfx/event_pictures/News/news_event_Oldtown.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Pentos" 
+    texturefile = "gfx/event_pictures/Country/report_event_Pentos.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Pentos" 
+    texturefile = "gfx/event_pictures/News/news_event_Pentos.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Planky_Town" 
+    texturefile = "gfx/event_pictures/Country/report_event_Planky_Town.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Planky_Town" 
+    texturefile = "gfx/event_pictures/News/news_event_Planky_Town.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Qarth" 
+    texturefile = "gfx/event_pictures/Country/report_event_Qarth.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Qarth" 
+    texturefile = "gfx/event_pictures/News/news_event_Qarth.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Qohor" 
+    texturefile = "gfx/event_pictures/Country/report_event_Qohor.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Qohor" 
+    texturefile = "gfx/event_pictures/News/news_event_Qohor.dds" 
+} 
+
+spriteType = { 
+    name = "GFX_report_event_Shadow_Tower" 
+    texturefile = "gfx/event_pictures/Country/report_event_Shadow_Tower.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Shadow_Tower" 
+    texturefile = "gfx/event_pictures/News/news_event_Shadow_Tower.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_The_Bloody_Gate" 
+    texturefile = "gfx/event_pictures/Country/report_event_The_Bloody_Gate.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_The_Bloody_Gate" 
+    texturefile = "gfx/event_pictures/News/news_event_The_Bloody_Gate.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_The_Twins" 
+    texturefile = "gfx/event_pictures/Country/report_event_The_Twins.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_The_Twins" 
+    texturefile = "gfx/event_pictures/News/news_event_The_Twins.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Tyrosh" 
+    texturefile = "gfx/event_pictures/Country/report_event_Tyrosh.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Tyrosh" 
+    texturefile = "gfx/event_pictures/News/news_event_Tyrosh.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Valyria" 
+    texturefile = "gfx/event_pictures/Country/report_event_Valyria.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Valyria" 
+    texturefile = "gfx/event_pictures/News/news_event_Valyria.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Volantis" 
+    texturefile = "gfx/event_pictures/Country/report_event_Volantis.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Volantis" 
+    texturefile = "gfx/event_pictures/News/news_event_Volantis.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_White_Harbor" 
+    texturefile = "gfx/event_pictures/Country/report_event_White_Harbor.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_White_Harbor" 
+    texturefile = "gfx/event_pictures/News/news_event_White_Harbor.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_report_event_Yunkai" 
+    texturefile = "gfx/event_pictures/Country/report_event_Yunkai.dds" 
+} 
+ 
+spriteType = { 
+    name = "GFX_news_event_Yunkai" 
+    texturefile = "gfx/event_pictures/News/news_event_Yunkai.dds" 
+} 
+ 
+
 	 
 
 

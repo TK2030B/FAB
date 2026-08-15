@@ -116,6 +116,9 @@ FORM_True_North_Decisions = {
 			original_tag = NOR
 			original_tag = NWA
 			original_tag = WIL
+			original_tag = BOL
+			original_tag = KAR
+			original_tag = UMB
 		}
 	}
 
@@ -140,6 +143,11 @@ FORM_Westeros_Decisions = {
 				original_tag = NOR
 				original_tag = NWA
 				original_tag = WIL
+				original_tag = BOL
+				original_tag = KAR
+				original_tag = UMB
+				original_tag = FRE
+				original_tag = TRL
 			}
 	}
 

@@ -31,8 +31,12 @@ country_event = {
 
 		add_stability = -0.05
 		
+		ICE = {
+			add_named_threat = { threat = 2 name = "Terror In The Woods" }	
+		}
+		
 		hidden_effect = {
-			ICE_finalize_spawn = yes
+			ICE_White_Walker_Spawn = yes
 			NOR = {
 				country_event = {
 					id = GOT_Story_Country.2
@@ -435,8 +439,6 @@ country_event = {
 		}
 
 		add_stability = -0.05
-		
-		add_threat = 1
 		
 		hidden_effect = {
 			country_event = {
@@ -1484,6 +1486,8 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes 
+				NOT = { has_war_with = WES }
+				NOT = { is_in_faction_with = WES }
 			}
 			declare_war_on = {
 				target = WES
@@ -2163,6 +2167,8 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes 
+				NOT = { has_war_with = CRO }
+				NOT = { is_in_faction_with = CRO }
 			}
 			declare_war_on = {
 				target = CRO
@@ -2509,6 +2515,8 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes 
+				NOT = { has_war_with = CRO }
+				NOT = { is_in_faction_with = CRO }
 			}
 			declare_war_on = {
 				target = CRO
@@ -2571,7 +2579,8 @@ country_event = {
 	trigger = {
 		tag = NWA
 		date > 1936.9.5
-		date < 1936.10.5
+		date < 1937.9.5
+		country_exists = ICE
 	}
 	
 	fire_only_once = yes
@@ -4143,6 +4152,8 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes 
+				NOT = { has_war_with = CRO }
+				NOT = { is_in_faction_with = CRO }
 			}
 			declare_war_on = {
 				target = CRO
@@ -4717,9 +4728,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country108
 
     trigger = {
-        tag = NWA
+        tag = ICE
         date > 1937.2.5
-        date < 1937.3.5
+        date < 1938.2.5
     }
 
     fire_only_once = yes
@@ -4731,7 +4742,11 @@ country_event = {
             factor = 10
         }
 
-        add_stability = -0.05
+        ICE_Wave2_Spawn = yes
+		
+		ICE = {
+			add_named_threat = { threat = 5 name = "Craster's Secret" }	
+		}
 
         every_other_country = {
             limit = {
@@ -5386,6 +5401,8 @@ country_event = {
 		if = {
 			limit = {
 				is_ai = yes 
+				NOT = { has_war_with = STO }
+				NOT = { is_in_faction_with = STO }
 			}
 			declare_war_on = {
 				target = STO
@@ -10094,7 +10111,8 @@ country_event = {
     trigger = { 
         tag = NWA
 		date > 1938.9.5
-        date < 1938.10.5
+        date < 1939.9.5
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -10105,6 +10123,11 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
+		ICE_Wave3_Spawn = yes
+		ICE = {
+			add_named_threat = { threat = 10 name = "Sam Kills A Walker" }	
+		}
  
         add_stability = 0.05 
         add_war_support = 0.05 
@@ -10460,6 +10483,8 @@ country_event = {
 			if = {
 				limit = {
 					is_ai = yes 
+					NOT = { has_war_with = YUN }
+					NOT = { is_in_faction_with = YUN }
 				}
 				declare_war_on = {
 					target = YUN
@@ -10719,6 +10744,7 @@ country_event = {
         date < 1950.1.1
 		NWA = { has_war_with = WIL } 
 		NOT = { has_war_with = NWA } 
+		NOT = { is_in_faction_with = WIL }
 		has_country_leader = {
 			name = "Stannis Baratheon"
 			ruling_only = yes
@@ -11714,6 +11740,8 @@ country_event = {
 			if = {
 				limit = {
 					is_ai = yes 
+					NOT = { has_war_with = MER }
+					NOT = { is_in_faction_with = MER }
 				}
 				declare_war_on = {
 					target = MER
@@ -13680,10 +13708,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country348 
  
     trigger = { 
-        tag = NOR
+        tag = ICE
 		date > 1939.11.15
-        date < 1939.12.15
-		has_global_flag = GOT_Bran_Escapes_Flag
+        date < 1940.11.15
+		#has_global_flag = GOT_Bran_Escapes_Flag
     } 
  
     fire_only_once = yes 
@@ -13695,7 +13723,8 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = 0.05 
+        ICE_Wave4_Spawn = yes
+		add_named_threat = { threat = 20 name = "Night King Revealed" }
  
         every_other_country = { 
             limit = { 
@@ -15240,17 +15269,19 @@ country_event = {
  
         add_stability = -0.05 
 		
-		remove_ideas = neutrality_idea
-		remove_ideas = RI_neutrality_idea
+#		remove_ideas = neutrality_idea
+#		remove_ideas = RI_neutrality_idea
+		
+		add_ideas = RI_no_surrender
 		
 		
-		if = {
-			limit = {
-				is_in_faction = no
-			}
-			create_faction = "The Pact of the Living"
-		}
-		
+#		if = {
+#			limit = {
+#				is_in_faction = no
+#			}
+#			create_faction = "The Pact of the Living"
+#		}
+#		
 		WIL = {
 			country_event = {
 				id = GOT_Diplomatic_Country.63
@@ -15420,6 +15451,7 @@ country_event = {
 		country_exists = BOL
 		BOL = { controls_state = 156 } 
 		has_global_flag = GOT_Stannis_Aids_Wall_Flag
+		NOT = { is_in_faction_with = BOL }
     } 
  
     fire_only_once = yes 
@@ -16066,10 +16098,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country436 
  
     trigger = { 
-        tag = WIL 
+        tag = ICE 
 		date > 1940.9.5
-        date < 1940.10.5
-		has_war_with = ICE
+        date < 1941.9.5
+		NOT = { owns_state = 13 }
     } 
  
     fire_only_once = yes 
@@ -16081,8 +16113,38 @@ country_event = {
             factor = 10 
         } 
  
-        add_stability = -0.05 
-        add_war_support = 0.05 
+        ICE_Wave5_Spawn = yes
+		
+		13 = {
+			OWNER = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = take_state_focus
+						expire = 0
+						generator = { 13 }
+					}
+					add_ai_strategy = {
+						type = conquer
+						id = PREV
+						value = 200
+					}
+					if = {
+						limit = {
+							is_ai = yes 
+							NOT = { has_war_with = PREV }
+							NOT = { is_in_faction_with = PREV }
+						}
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
+					}
+				}
+			}
+		}
+		
+		add_named_threat = { threat = 50 name = "Hardhome Attack" }
  
         every_other_country = { 
             limit = { 
@@ -19067,9 +19129,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country521 
  
     trigger = { 
-        tag = NOR 
+        tag = ICE
 		date > 1941.5.20
-        date < 1941.6.20
+        date < 1942.5.20
     } 
  
     fire_only_once = yes 
@@ -19117,9 +19179,9 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country522 
  
     trigger = { 
-        tag = NOR 
+        tag = ICE 
 		date > 1941.5.20
-        date < 1941.6.20
+        date < 1942.5.20
     } 
  
     fire_only_once = yes 
@@ -19131,8 +19193,14 @@ country_event = {
             factor = 10 
         } 
  
-        add_political_power = 25 
-        army_experience = 10 
+        remove_ideas = ICE_The_Darkness
+		add_ideas = ICE_The_Others
+		drop_cosmetic_tag = yes
+		
+		retire_ideology_leader = neutrality
+		retire_ideology_leader = democratic
+		retire_ideology_leader = fascism
+		retire_ideology_leader = communism
  
         every_other_country = { 
             limit = { 
@@ -19323,9 +19391,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country526 
  
     trigger = { 
-        tag = NOR 
+        tag = NWA
 		date > 1941.6.25
-        date < 1941.7.25
+        date < 1942.6.25
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -19968,9 +20037,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country539 
  
     trigger = { 
-        tag = CRO
+        tag = NWA
 		date > 1941.9.5
-        date < 1941.10.5
+        date < 1942.9.5
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -20651,6 +20721,8 @@ country_event = {
 					if = {
 						limit = {
 							is_ai = yes 
+							NOT = { has_war_with = PREV }
+							NOT = { is_in_faction_with = PREV }
 						}
 						declare_war_on = {
 							target = PREV
@@ -20926,16 +20998,18 @@ news_event = {
 } 
  
 # 604 — Dragonglass Cache Found
+# White Walkers Special Attention
 country_event = { 
     id = GOT_Story_Country.604 
     title = GOT_Story_Country.604.t 
     desc = GOT_Story_Country.604.d 
     picture = GFX_report_event_GOT_Story_Country604 
  
-    trigger = { 
+	trigger = { 
         tag = NWA 
-		date > 1942.1.1
-        date < 1942.2.1
+ 		date > 1942.1.1
+        date < 1943.1.1
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -20983,9 +21057,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country605 
  
     trigger = { 
-        tag = NOR 
+        tag = NWA
 		date > 1942.1.1
-        date < 1942.2.1
+        date < 1943.1.1
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -22619,7 +22694,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1942.7.29
-        date < 1942.8.29
+        date < 1943.7.29
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -22819,7 +22895,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1942.9.19
-        date < 1942.10.19
+        date < 1943.9.19
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -22869,7 +22946,8 @@ country_event = {
     trigger = { 
         tag = NOR
 		date > 1942.9.19
-        date < 1942.10.19		
+        date < 1943.9.19
+		country_exists = ICE		
     } 
  
     fire_only_once = yes 
@@ -22965,7 +23043,9 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1942.9.19
-        date < 1942.10.19
+        date < 1943.9.19
+		is_in_faction_with = NOR
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -23013,7 +23093,9 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1942.9.19
-        date < 1942.10.19
+        date < 1943.9.19
+		is_in_faction_with = NOR
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -23064,7 +23146,8 @@ country_event = {
     trigger = { 
         tag = NWA 
 		date > 1942.9.19
-        date < 1942.10.19
+        date < 1943.9.19
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -23160,9 +23243,11 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country643 
  
     trigger = { 
-        tag = CRO 
+        tag = TAR
 		date > 1942.11.11
-        date < 1942.12.11
+        date < 1943.11.11
+		has_war_with = CRO
+		country_exists = ICE
     } 
  
     fire_only_once = yes 
@@ -23171,10 +23256,44 @@ country_event = {
         name = GOT_Story_Country.643.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 75
         } 
  
-		#SPECIAL ATTENTION
+		CRO = {
+			country_event = {
+				id = BPD_Better_Peace_Deals_Country.203
+				hours = 1
+			}
+		}
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.643 
+                hours = 6 
+            } 
+        } 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.643.b 
+ 
+        ai_chance = { 
+            factor = 25 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+ 
+		CRO = {
+			country_event = {
+				id = BPD_Better_Peace_Deals_Country.4
+				hours = 1
+			}
+		}
  
         every_other_country = { 
             limit = { 
@@ -23326,6 +23445,7 @@ country_event = {
  
 		#SPECIAL ATTENTION
 		#"Execute him — remove the intrigue debuff and gain Stark unity."
+		#SPECIAL ATTENTION LITTLEFINGER
  
         every_other_country = { 
             limit = { 
@@ -23412,9 +23532,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country649 
  
     trigger = { 
-        tag = NWA 
+        tag = ICE 
 		date > 1942.11.11
-        date < 1942.12.11
+        date < 1943.11.11
+		NOT = { owns_state = 25 }
     } 
  
     fire_only_once = yes 
@@ -23428,6 +23549,38 @@ country_event = {
  
 		#SPECIAL ATTENTION
 		#The White Walkers declare war on all of Westeros and begin their offensive
+		
+		25 = {
+			OWNER = {
+				ROOT = {
+					create_wargoal = {
+						target = PREV
+						type = take_state_focus
+						expire = 0
+						generator = { 25 }
+					}
+					add_ai_strategy = {
+						type = conquer
+						id = PREV
+						value = 200
+					}
+					if = {
+						limit = {
+							is_ai = yes 
+							NOT = { has_war_with = PREV }
+							NOT = { is_in_faction_with = PREV }
+						}
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
+					}
+				}
+			}
+		}
+		
+		add_named_threat = { threat = 100 name = "Wall Shattered" }
+		set_global_flag = GOT_Wall_Shattered_Flag
  
         every_other_country = { 
             limit = { 
@@ -24156,7 +24309,9 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.5.27
-        date < 1943.6.27
+        date < 1950.1.1
+		ICE = { exists = no }
+		controls_state = 156
     } 
  
     fire_only_once = yes 
@@ -24206,7 +24361,10 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.5.27
-        date < 1943.6.27
+        date < 1950.1.1
+		has_war_with = ICE
+		has_capitulated = no
+		controls_state = 156
     } 
  
     fire_only_once = yes 
@@ -24257,7 +24415,10 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.5.27
-        date < 1943.6.27
+        date < 1950.1.1
+		has_war_with = ICE
+		has_capitulated = no
+		controls_state = 156
     } 
  
     fire_only_once = yes 
@@ -24309,7 +24470,9 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.5.27
-        date < 1943.6.27
+        date < 1950.1.1
+		has_war_with = ICE
+		has_capitulated = no
     } 
  
     fire_only_once = yes 
@@ -24362,7 +24525,9 @@ country_event = {
     trigger = { 
         tag = TAR
 		date > 1943.5.27
-        date < 1943.6.27
+        date < 1950.1.1
+		has_war_with = ICE
+		has_capitulated = no
     } 
  
     fire_only_once = yes 
@@ -24413,7 +24578,9 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.5.27
-        date < 1943.6.27
+        date < 1950.1.1
+		has_war_with = ICE
+		has_capitulated = no
     } 
  
     fire_only_once = yes 
@@ -24461,7 +24628,10 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.5.27
-        date < 1943.6.27
+        date < 1950.1.1
+		has_war_with = ICE
+		has_capitulated = no
+		controls_state = 156
     } 
  
     fire_only_once = yes 
@@ -24499,54 +24669,6 @@ news_event = {
     } 
 } 
  
-# 722 — Theon Greyjoy’s Return and Redemption
-country_event = { 
-    id = GOT_Story_Country.722 
-    title = GOT_Story_Country.722.t 
-    desc = GOT_Story_Country.722.d 
-    picture = GFX_report_event_GOT_Story_Country722 
- 
-    trigger = { 
-        tag = NOR 
-		date > 1943.8.8
-        date < 1943.9.8
-    } 
- 
-    fire_only_once = yes 
- 
-    option = { 
-        name = GOT_Story_Country.722.a 
- 
-        ai_chance = { 
-            factor = 10 
-        }
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.722 
-                hours = 6 
-            } 
-        } 
-    } 
-} 
- 
-# 722 — Theon Greyjoy’s Return and Redemption
-news_event = { 
-    id = GOT_Story_News.722 
-    title = GOT_Story_News.722.t 
-    desc = GOT_Story_News.722.d 
-    picture = GFX_news_event_GOT_Story_News722 
- 
-    is_triggered_only = yes 
- 
-    option = { 
-        name = GOT_Story_News.722.a 
-    } 
-} 
- 
 # 723 — Daenerys Loses Rhaegal
 country_event = { 
     id = GOT_Story_Country.723 
@@ -24557,7 +24679,11 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.8.8
-        date < 1943.9.8
+        date < 1950.1.1
+		OR = { 
+			has_war_with = CRO
+			has_war_with = WES
+		} 
     } 
  
     fire_only_once = yes 
@@ -24609,7 +24735,11 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.8.8
-        date < 1943.9.8
+        date < 1950.1.1
+		OR = { 
+			has_war_with = CRO
+			has_war_with = WES
+		} 
     } 
  
     fire_only_once = yes 
@@ -24661,7 +24791,11 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.8.8
-        date < 1943.9.8
+        date < 1950.1.1
+		has_country_leader = {
+			name = "Jon Snow"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 
@@ -24702,6 +24836,7 @@ news_event = {
 } 
  
 # 726 — Gendry Legitimized as Lord of Storm's End
+# SPECIAL ATTENTION
 country_event = { 
     id = GOT_Story_Country.726 
     title = GOT_Story_Country.726.t 
@@ -24711,7 +24846,7 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.8.8
-        date < 1943.9.8
+        date < 1950.1.1
     } 
  
     fire_only_once = yes 
@@ -24761,7 +24896,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.8.8
-        date < 1943.9.8
+        date < 1950.1.1
+		ICE = { exists = no }
     } 
  
     fire_only_once = yes 
@@ -24811,7 +24947,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.8.8
-        date < 1943.9.8
+        date < 1950.1.1
+		is_in_faction_with = TAR
     } 
  
     fire_only_once = yes 
@@ -24861,7 +24998,8 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.10.20
-        date < 1943.11.20
+        date < 1950.1.1
+		controls_state = 142
     } 
  
     fire_only_once = yes 
@@ -24913,7 +25051,7 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.10.20
-        date < 1943.11.20
+        date < 1950.1.1
     } 
  
     fire_only_once = yes 
@@ -24966,7 +25104,8 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1943.10.20
-        date < 1943.11.20
+        date < 1950.1.1
+		has_war_with = TAR
     } 
  
     fire_only_once = yes 
@@ -25015,6 +25154,7 @@ country_event = {
         tag = NOR 
 		date > 1943.10.20
         date < 1943.11.20
+		has_war_with = CRO
     } 
  
     fire_only_once = yes 
@@ -25063,9 +25203,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country733 
  
     trigger = { 
-        tag = CRO 
+        tag = TAR 
 		date > 1943.10.20
-        date < 1943.11.20
+        date < 1950.1.1
+		owns_state = 142
     } 
  
     fire_only_once = yes 
@@ -25165,7 +25306,9 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.10.20
-        date < 1943.11.20
+        date < 1950.1.1
+		is_in_faction_with = TAR
+		TAR = { controls_state = 142 }
     } 
  
     fire_only_once = yes 
@@ -25215,7 +25358,9 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1943.12.31
-        date < 1944.1.31
+        date < 1950.1.1
+		is_in_faction_with = NOR
+		TAR = { controls_state = 142 }
     } 
  
     fire_only_once = yes 
@@ -25228,6 +25373,11 @@ country_event = {
         } 
  
 		#SPECIAL ATTENTION
+		
+		 country_event = { 
+                id = GOT_Story_Country.737
+                days = 2
+         } 
  
         every_other_country = { 
             limit = { 
@@ -25262,13 +25412,7 @@ country_event = {
     desc = GOT_Story_Country.737.d 
     picture = GFX_report_event_GOT_Story_Country737 
  
-    trigger = { 
-        tag = TAR 
-		date > 1943.12.31
-        date < 1944.1.31
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes
  
     option = { 
         name = GOT_Story_Country.737.a 
@@ -25313,7 +25457,8 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1943.12.31
-        date < 1944.1.31
+        date < 1950.1.1
+		NOT = { has_war_with = TAR }
     } 
  
     fire_only_once = yes 
@@ -25363,7 +25508,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.12.31
-        date < 1944.1.31
+        date < 1950.1.1
+		NOT = { has_war_with = CRO }
     } 
  
     fire_only_once = yes 
@@ -25412,9 +25558,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country740 
  
     trigger = { 
-        tag = NRO 
+        tag = NOR 
 		date > 1943.12.31
-        date < 1944.1.31
+        date < 1950.1.1
+		NOT = { has_war_with = CRO }
     } 
  
     fire_only_once = yes 
@@ -25462,9 +25609,10 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country741 
  
     trigger = { 
-        tag = NRO 
+        tag = NOR 
 		date > 1943.12.31
-        date < 1944.1.31
+        date < 1950.1.1
+		NOT = { has_war_with = CRO }
     } 
  
     fire_only_once = yes 
@@ -25512,7 +25660,11 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1943.12.31
-        date < 1944.1.31
+        date < 1950.1.1
+		has_country_leader = {
+			name = "Bran Stark"
+			ruling_only = yes
+		}
     } 
  
     fire_only_once = yes 

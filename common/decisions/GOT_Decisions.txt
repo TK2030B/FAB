@@ -1,6 +1,66 @@
 
 GOT_Game_Decisions = {
 
+	ICE_conquer_countries = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = ICE
+		}
+	
+        visible = {
+			original_tag = ICE
+			NOT = { has_country_flag = EW_Operation }
+			FROM = { 
+				is_neighbor_of = ICE
+			}
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 7
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.1
+		
+			OR = {
+				has_global_flag = GOT_Wall_Shattered_Flag
+				controls_state = 25
+				controls_state = 18
+				controls_state = 24
+			}
+			
+			FROM = { 
+				is_neighbor_of = ICE
+			}
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
+
 	LFC_Create_League = {
 		icon = generic_army_support
 
@@ -129,6 +189,8 @@ GOT_Game_Decisions = {
 			if = {
 				limit = {
 					is_ai = yes 
+					NOT = { has_war_with = RIV }
+					NOT = { is_in_faction_with = RIV }
 				}
 				declare_war_on = {
 					target = RIV
@@ -145,7 +207,7 @@ GOT_Game_Decisions = {
 			tag = RIV
 			date < 1950.1.1
 			NOT = { has_war_with = NOR }
-			NOR = { his_faction_leader = yes }
+			NOR = { is_faction_leader = yes }
 			is_in_faction = no
 			has_war_with = WES
 			OR = { 
@@ -539,6 +601,8 @@ GOT_Game_Decisions = {
 			if = {
 				limit = {
 					is_ai = yes 
+					NOT = { has_war_with = CRO }
+					NOT = { is_in_faction_with = CRO }
 				}
 				declare_war_on = {
 					target = CRO
@@ -829,9 +893,135 @@ GOT_Game_Decisions = {
 			if = {
 				limit = {
 					is_ai = yes 
+					NOT = { has_war_with = CRO }
+					NOT = { is_in_faction_with = CRO }
 				}
 				declare_war_on = {
 					target = CRO
+					type = annex_everything
+				}
+			}
+		}
+	}
+	
+	TAR_Invasion_of_CRO2 = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = TAR
+		}
+
+		available = {
+			tag = TAR
+			date > 1943.1.1
+			NOT = { has_war_with = CRO }
+			NOT = { is_in_faction_with = CRO }
+			country_exists = CRO
+			surrender_progress < 0.1
+			108 = { is_controlled_by_ROOT_or_ally = yes }
+			NOT = { country_exists = ICE }
+			NOT = { has_truce_with = CRO }
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { country_exists = ICE }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1943.1.1
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = CRO
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = CRO
+				expire = 365
+			}
+			if = {
+				limit = {
+					is_ai = yes 
+					NOT = { has_war_with = CRO }
+					NOT = { is_in_faction_with = CRO }
+				}
+				declare_war_on = {
+					target = CRO
+					type = annex_everything
+				}
+			}
+		}
+	}
+	
+	TAR_purge_targaryens = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = CRO
+		}
+
+		available = {
+			tag = CRO
+			date > 1943.1.1
+			NOT = { has_war_with = TAR }
+			NOT = { is_in_faction_with = TAR }
+			country_exists = TAR
+			surrender_progress < 0.1
+			TAR = { 108 = { is_controlled_by_ROOT_or_ally = yes } }
+			NOT = { country_exists = ICE }
+			NOT = { has_truce_with = TAR }
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			NOT = { country_exists = ICE }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		days_remove = 7
+		war_with_on_remove = TAR
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = TAR
+				expire = 365
+			}
+			if = {
+				limit = {
+					is_ai = yes 
+					NOT = { has_war_with = TAR }
+					NOT = { is_in_faction_with = TAR }
+				}
+				declare_war_on = {
+					target = TAR
 					type = annex_everything
 				}
 			}

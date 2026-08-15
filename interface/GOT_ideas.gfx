@@ -725,7 +725,34 @@ spriteType = {
 		name = "GFX_idea_CRO_Faith_Militant"
 		texturefile = "gfx/interface/ideas/National_Spirits/idea_CRO_Faith_Militant.dds"
 	}
+	
+	
+	#White Walkers
+	
+	spriteType = {
+		name = "GFX_idea_ICE_Zombie_Economy_Law"
+		texturefile = "gfx/interface/ideas/White_Walkers/ICE_Zombie_Economy_Law.dds"
+	}
 
+	spriteType = {
+		name = "GFX_idea_ICE_Zombie_Nation"
+		texturefile = "gfx/interface/ideas/White_Walkers/ICE_Zombie_Nation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICE_Zombie_Trade_Law"
+		texturefile = "gfx/interface/ideas/White_Walkers/ICE_Zombie_Trade_Law.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICE_The_Darkness"
+		texturefile = "gfx/interface/ideas/White_Walkers/ICE_The_Darkness.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICE_The_Others"
+		texturefile = "gfx/interface/ideas/White_Walkers/ICE_The_Others.dds"
+	}
 
 
 }

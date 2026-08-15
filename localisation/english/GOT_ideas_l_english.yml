@@ -329,3 +329,28 @@ CRO_Faith_Militant_desc:0 "The Stars and Swords have risen once more. While comp
 
 FAI_Faith_Militant:0 "The Faith Militant"
 FAI_Faith_Militant_desc:0 "The Stars and Swords have risen once more. While completely lacking in heavy armor, modern logistics, or formal military discipline, these holy warriors make up for their ragtag equipment with terrifying, unyielding fanaticism. They will defend the Faith to their absolute last breath, though coordinating them on a traditional battlefield is a logistical nightmare."
+
+ ICE_Zombie_Nation:0 "The Endless Tide of the Dead"
+ ICE_Zombie_Nation_desc:0 "Death is no longer an end, but a summons. Every fallen man, woman, and child across the realms of the living is raised to join our silent, unrelenting march. The army of the dead knows no fatigue, fears no casualty, and claims every corpse as a new soldier."
+ 
+ ICE_Zombie_Trade_Law:0 "Harvest of the Living"
+ ICE_Zombie_Trade_Law_desc:0 "The dead have no need for gold, grain, or iron. Commerce is a relic of mortal weakness. Every border crossed is an invasion, every resource gathered is stripped from fallen lands, and the only transaction we offer the living is total extinction."
+ 
+ ICE_Zombie_Economy_Law:0 "Desolation and Frost"
+ ICE_Zombie_Economy_Law_desc:0 "The dead do not forge, build, or sow fields—they exist solely to destroy. There are no smithies, no trade markets, and no construction projects beneath our frozen banners. The only industry of the Others is the relentless slaughter of the living, turning conquered lands into barren, ice-choked wastes."
+ 
+ # National Spirits
+ ICE_The_Darkness:0 "A Whisper in the Cold"
+ ICE_The_Darkness_desc:0 "Strange tales drift south from the ranger patrols—whispers of unnatural cold, glowing blue eyes, and dead men walking among the trees. To most lords, they are nothing more than wildling folklore and bad dreams. Yet an ancient dread stirs deep in the haunted forest, lurking just beyond the edge of vision."
+
+ ICE_The_Others:0 "The Long Night Comes"
+ ICE_The_Others_desc:0 "The mystery is shattered, leaving only terrifying truth in its wake. The dead march in legions under frozen banners, led by creatures of cold and malice that turn every fallen soldier into an instrument of their own destruction. The realm of men faces not merely a foe, but total, absolute extinction."
+ 
+ RI_no_surrender:0 "Pact of the Living"
+ RI_no_surrender_desc:0 "Faced with absolute extinction, ancient feuds between the Night's Watch and the Free Folk have been set aside. Against an army that turns the dead into soldiers, surrender is not an option—every man, woman, and child will hold the line to the bitter end, for to fall is to join the enemy."
+ 
+ RI_morale_shattered:0 "Shattered Morale"
+ RI_morale_shattered_desc:0 "News of the catastrophe has swept through every castle, village, and army encampment like wildfire. Absolute panic has taken root—soldiers desert their posts, lords flee their lands, and the populace is paralyzed by dread. Until order and hope can be restored, our armies fight with broken spirits and our realm teeters on the brink of complete collapse."
+ 
+ RI_no_surrender2:0 "Fight to the Last"
+ RI_no_surrender2_desc:0 "Surrender is an alien concept to this realm. Bound by fanaticism, unbreakable oaths, or sheer existential hatred, our warriors view death in battle as the only acceptable end. No matter how many castles fall or how dire the conflict becomes, we shall defend every inch of ground until the last soul perishes."

@@ -530,6 +530,30 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		
+		ICE_Zombie_Nation = {
+		
+			picture = GOT_Tradition_White_Walkers
+						
+			cost = 150
+			removal_cost = -1
+			level = 8
+			
+			available = {
+				tag = ICE
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			modifier = {
+				conscription = 1
+				non_core_manpower = 1.00				# Can recruit from occupied lands (undead army).
+			}
+			
+			cancel_if_invalid = no
+		}
 
 	}
 

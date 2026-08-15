@@ -1710,3 +1710,2233 @@ news_event = {
 		name = GOT_Location_News.42.a
 	}
 }
+
+#Fall of Crownlands
+news_event = {
+	id = GOT_Location_News.51
+	title = GOT_Location_News.51.t
+	desc = GOT_Location_News.51.d
+	picture = GFX_news_event_Red_Keep
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = CRO 
+			controls_state = 142
+		}
+		142 = { is_owned_by = CRO }
+		NOT = { has_global_flag = GOT_Fall_of_Kings_Landing_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Kings_Landing_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.51.a
+		trigger = {
+			NOT = {
+				has_war_with = CRO
+				is_in_faction_with = CRO
+				tag = CRO
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.51.b
+		trigger = { 
+			has_war_with = CRO 
+		}
+	}
+	option = {
+		name = GOT_Location_News.51.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = CRO 
+				tag = CRO
+			}
+		}
+	}
+	
+}
+
+#Fall of Westerlands
+news_event = {
+	id = GOT_Location_News.52
+	title = GOT_Location_News.52.t
+	desc = GOT_Location_News.52.d
+	picture = GFX_news_event_Casterly_Rock
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = WES
+			controls_state = 31
+		}
+		31 = { is_owned_by = WES }
+		NOT = { has_global_flag = GOT_Fall_of_Casterly_Rock_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Casterly_Rock_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.52.a
+		trigger = {
+			NOT = {
+				has_war_with = WES
+				is_in_faction_with = WES
+				tag = WES
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.52.b
+		trigger = { 
+			has_war_with = WES 
+		}
+	}
+	option = {
+		name = GOT_Location_News.52.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = WES 
+				tag = WES
+			}
+		}
+	}
+}
+
+#Fall of North
+news_event = {
+	id = GOT_Location_News.53
+	title = GOT_Location_News.53.t
+	desc = GOT_Location_News.53.d
+	picture = GFX_news_event_Winterfell
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NOR
+			controls_state = 156
+		}
+		156 = { is_owned_by = NOR }
+		NOT = { has_global_flag = GOT_Fall_of_Winterfell_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Winterfell_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.53.a
+		trigger = {
+			NOT = {
+				has_war_with = NOR
+				is_in_faction_with = NOR
+				tag = NOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.53.b
+		trigger = { 
+			has_war_with = NOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.53.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NOR 
+				tag = NOR
+			}
+		}
+	}
+}
+
+#Fall of Stormlands
+news_event = {
+	id = GOT_Location_News.54
+	title = GOT_Location_News.54.t
+	desc = GOT_Location_News.54.d
+	picture = GFX_news_event_Storms_End
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = STO
+			controls_state = 116
+		}
+		116 = { is_owned_by = STO }
+		NOT = { has_global_flag = GOT_Fall_of_Storms_End_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Storms_End_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.54.a
+		trigger = {
+			NOT = {
+				has_war_with = STO
+				is_in_faction_with = STO
+				tag = STO
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.54.b
+		trigger = { 
+			has_war_with = STO 
+		}
+	}
+	option = {
+		name = GOT_Location_News.54.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = STO 
+				tag = STO
+			}
+		}
+	}
+}
+
+#Fall of Eyrie
+news_event = {
+	id = GOT_Location_News.55
+	title = GOT_Location_News.55.t
+	desc = GOT_Location_News.55.d
+	picture = GFX_news_event_Eyrie
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = VAL
+			controls_state = 174
+		}
+		174 = { is_owned_by = VAL }
+		NOT = { has_global_flag = GOT_Fall_of_Eeyrie_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Eeyrie_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.55.a
+		trigger = {
+			NOT = {
+				has_war_with = VAL
+				is_in_faction_with = VAL
+				tag = VAL
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.55.b
+		trigger = { 
+			has_war_with = VAL 
+		}
+	}
+	option = {
+		name = GOT_Location_News.55.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = VAL 
+				tag = VAL
+			}
+		}
+	}
+	
+}
+
+#Fall of Dorne
+news_event = {
+	id = GOT_Location_News.56
+	title = GOT_Location_News.56.t
+	desc = GOT_Location_News.56.d
+	picture = GFX_news_event_Sunspear
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = DOR
+			controls_state = 125
+		}
+		125 = { is_owned_by = DOR }
+		NOT = { has_global_flag = GOT_Fall_of_Sunspear_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Sunspear_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.56.a
+		trigger = {
+			NOT = {
+				has_war_with = DOR
+				is_in_faction_with = DOR
+				tag = DOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.56.b
+		trigger = { 
+			has_war_with = DOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.56.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = DOR 
+				tag = DOR
+			}
+		}
+	}
+	
+}
+
+#Fall of Reach
+news_event = {
+	id = GOT_Location_News.57
+	title = GOT_Location_News.57.t
+	desc = GOT_Location_News.57.d
+	picture = GFX_news_event_Highgarden
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = REA
+			controls_state = 115
+		}
+		115 = { is_owned_by = REA }
+		NOT = { has_global_flag = GOT_Fall_of_Highgarden_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Highgarden_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.57.a
+		trigger = {
+			NOT = {
+				has_war_with = REA
+				is_in_faction_with = REA
+				tag = REA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.57.b
+		trigger = { 
+			has_war_with = REA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.57.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = REA 
+				tag = REA
+			}
+		}
+	}
+}
+
+#Fall of Riverrun
+news_event = {
+	id = GOT_Location_News.58
+	title = GOT_Location_News.58.t
+	desc = GOT_Location_News.58.d
+	picture = GFX_news_event_Riverrun
+
+major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = RIV
+			controls_state = 180
+		}
+		180 = { is_owned_by = RIV }
+		NOT = { has_global_flag = GOT_Fall_of_Riverrun_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Riverrun_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.58.a
+		trigger = {
+			NOT = {
+				has_war_with = RIV
+				is_in_faction_with = RIV
+				tag = RIV
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.58.b
+		trigger = { 
+			has_war_with = RIV 
+		}
+	}
+	option = {
+		name = GOT_Location_News.58.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = RIV 
+				tag = RIV
+			}
+		}
+	}
+
+}
+
+#Fall of Dragonstone
+news_event = {
+	id = GOT_Location_News.59
+	title = GOT_Location_News.59.t
+	desc = GOT_Location_News.59.d
+	picture = GFX_news_event_Dragonstone
+major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = RIV
+			controls_state = 108
+		}
+		108 = { is_owned_by = DRA }
+		NOT = { has_global_flag = GOT_Fall_of_Dragonstone_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Dragonstone_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.59.a
+		trigger = {
+			NOT = {
+				has_war_with = DRA
+				is_in_faction_with = DRA
+				tag = DRA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.59.b
+		trigger = { 
+			has_war_with = DRA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.59.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = DRA 
+				tag = DRA
+			}
+		}
+	}
+}
+
+#Fall of Iron Islands
+news_event = {
+	id = GOT_Location_News.60
+	title = GOT_Location_News.60.t
+	desc = GOT_Location_News.60.d
+	picture = GFX_news_event_Pyke
+	
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = IRO
+			controls_state = 88
+		}
+		88 = { is_owned_by = IRO }
+		NOT = { has_global_flag = GOT_Fall_of_Pyke_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Pyke_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.60.a
+		trigger = {
+			NOT = {
+				has_war_with = IRO
+				is_in_faction_with = IRO
+				tag = IRO
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.60.b
+		trigger = { 
+			has_war_with = IRO 
+		}
+	}
+	option = {
+		name = GOT_Location_News.60.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = IRO 
+				tag = IRO
+			}
+		}
+	}
+}
+
+#Fall of Night's Watch
+news_event = {
+	id = GOT_Location_News.61
+	title = GOT_Location_News.61.t
+	desc = GOT_Location_News.61.d
+	picture = GFX_news_event_Castle_Black
+
+major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NWA
+			controls_state = 18
+		}
+		18 = { is_owned_by = NWA }
+		NOT = { has_global_flag = GOT_Fall_of_Castle_Black_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Castle_Black_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.61.a
+		trigger = {
+			NOT = {
+				has_war_with = NWA
+				is_in_faction_with = NWA
+				tag = NWA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.61.b
+		trigger = { 
+			has_war_with = NWA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.61.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NWA 
+				tag = NWA
+			}
+		}
+	}
+}
+
+#Fall of Hardhome
+news_event = {
+	id = GOT_Location_News.62
+	title = GOT_Location_News.62.t
+	desc = GOT_Location_News.62.d
+	picture = GFX_news_event_Hard_Home
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = WIL
+			controls_state = 13
+		}
+		13 = { is_owned_by = WIL }
+		NOT = { has_global_flag = GOT_Fall_of_Hard_Home_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Hard_Home_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.62.a
+		trigger = {
+			NOT = {
+				has_war_with = WIL
+				is_in_faction_with = WIL
+				tag = WIL
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.62.b
+		trigger = { 
+			has_war_with = WIL 
+		}
+	}
+	option = {
+		name = GOT_Location_News.62.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = WIL 
+				tag = WIL
+			}
+		}
+	}
+	
+}
+
+#Fall of Astapor
+news_event = {
+	id = GOT_Location_News.63
+	title = GOT_Location_News.63.t
+	desc = GOT_Location_News.63.d
+	picture = GFX_news_event_Astapor
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = AST
+			controls_state = 228
+		}
+		228 = { is_owned_by = AST }
+		NOT = { has_global_flag = GOT_Fall_of_Astapor_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Astapor_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.63.a
+		trigger = {
+			NOT = {
+				has_war_with = AST
+				is_in_faction_with = AST
+				tag = AST
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.63.b
+		trigger = { 
+			has_war_with = AST 
+		}
+	}
+	option = {
+		name = GOT_Location_News.63.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = AST 
+				tag = AST
+			}
+		}
+	}
+}
+
+#Fall of Braavos
+news_event = {
+	id = GOT_Location_News.64
+	title = GOT_Location_News.64.t
+	desc = GOT_Location_News.64.d
+	picture = GFX_news_event_Braavos
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = BRA
+			controls_state = 189
+		}
+		189 = { is_owned_by = BRA }
+		NOT = { has_global_flag = GOT_Fall_of_Braavos_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Braavos_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.64.a
+		trigger = {
+			NOT = {
+				has_war_with = BRA
+				is_in_faction_with = BRA
+				tag = BRA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.64.b
+		trigger = { 
+			has_war_with = BRA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.64.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = BRA 
+				tag = BRA
+			}
+		}
+	}
+}
+
+#Fall of the Dreadfort
+news_event = {
+	id = GOT_Location_News.65
+	title = GOT_Location_News.65.t
+	desc = GOT_Location_News.65.d
+	picture = GFX_news_event_Dreadfort
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NOR
+			controls_state = 153
+		}
+		153 = { is_owned_by = NOR }
+		NOT = { has_global_flag = GOT_Fall_of_Dreadfort_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Dreadfort_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.65.a
+		trigger = {
+			NOT = {
+				has_war_with = NOR
+				is_in_faction_with = NOR
+				tag = NOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.65.b
+		trigger = { 
+			has_war_with = NOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.65.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NOR 
+				tag = NOR
+			}
+		}
+	}
+}
+
+#Fall of Driftmark
+news_event = {
+	id = GOT_Location_News.66
+	title = GOT_Location_News.66.t
+	desc = GOT_Location_News.66.d
+	picture = GFX_news_event_Driftmark
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = CRO
+			controls_state = 113
+		}
+		113 = { is_owned_by = CRO }
+		NOT = { has_global_flag = GOT_Fall_of_Driftmark_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Driftmark_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.66.a
+		trigger = {
+			NOT = {
+				has_war_with = CRO
+				is_in_faction_with = CRO
+				tag = CRO
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.66.b
+		trigger = { 
+			has_war_with = CRO 
+		}
+	}
+	option = {
+		name = GOT_Location_News.66.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = CRO 
+				tag = CRO
+			}
+		}
+	}
+}
+
+#Duskendale
+news_event = {
+	id = GOT_Location_News.67
+	title = GOT_Location_News.67.t
+	desc = GOT_Location_News.67.d
+	picture = GFX_news_event_Duskendale
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = CRO
+			controls_state = 103
+		}
+		103 = { is_owned_by = CRO }
+		NOT = { has_global_flag = GOT_Fall_of_Duskendale_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Duskendale_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.67.a
+		trigger = {
+			NOT = {
+				has_war_with = CRO
+				is_in_faction_with = CRO
+				tag = CRO
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.67.b
+		trigger = { 
+			has_war_with = CRO 
+		}
+	}
+	option = {
+		name = GOT_Location_News.67.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = CRO 
+				tag = CRO
+			}
+		}
+	}
+}
+
+#Fall of Eastwatch-by-the-Sea
+news_event = {
+	id = GOT_Location_News.68
+	title = GOT_Location_News.68.t
+	desc = GOT_Location_News.68.d
+	picture = GFX_news_event_Eastwatch-by-the-Sea
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NWA
+			controls_state = 25
+		}
+		25 = { is_owned_by = NWA }
+		NOT = { has_global_flag = GOT_Fall_of_Eastwatch-by-the-Sea_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Eastwatch-by-the-Sea_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.68.a
+		trigger = {
+			NOT = {
+				has_war_with = NWA
+				is_in_faction_with = NWA
+				tag = NWA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.68.b
+		trigger = { 
+			has_war_with = NWA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.68.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NWA 
+				tag = NWA
+			}
+		}
+	}
+}
+
+#Fall of Greywater Watch
+news_event = {
+	id = GOT_Location_News.69
+	title = GOT_Location_News.69.t
+	desc = GOT_Location_News.69.d
+	picture = GFX_news_event_Greywater_Watch
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NOR
+			controls_state = 170
+		}
+		170 = { is_owned_by = NOR }
+		NOT = { has_global_flag = GOT_Fall_of_Greywater_Watch_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Greywater_Watch_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.69.a
+		trigger = {
+			NOT = {
+				has_war_with = NOR
+				is_in_faction_with = NOR
+				tag = NOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.69.b
+		trigger = { 
+			has_war_with = NOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.69.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NOR 
+				tag = NOR
+			}
+		}
+	}
+}
+
+#Fall of Gulltown
+news_event = {
+	id = GOT_Location_News.70
+	title = GOT_Location_News.70.t
+	desc = GOT_Location_News.70.d
+	picture = GFX_news_event_Gulltown
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = VAL
+			controls_state = 57
+		}
+		57 = { is_owned_by = VAL }
+		NOT = { has_global_flag = GOT_Fall_of_Gulltown_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Gulltown_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.70.a
+		trigger = {
+			NOT = {
+				has_war_with = VAL
+				is_in_faction_with = VAL
+				tag = VAL
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.70.b
+		trigger = { 
+			has_war_with = VAL 
+		}
+	}
+	option = {
+		name = GOT_Location_News.70.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = VAL 
+				tag = VAL
+			}
+		}
+	}
+}
+
+#Fall of Horn Hill
+news_event = {
+	id = GOT_Location_News.71
+	title = GOT_Location_News.71.t
+	desc = GOT_Location_News.71.d
+	picture = GFX_news_event_Horn_Hill
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = REA
+			controls_state = 246
+		}
+		246 = { is_owned_by = REA }
+		NOT = { has_global_flag = GOT_Fall_of_Horn_Hill_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Horn_Hill_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.71.a
+		trigger = {
+			NOT = {
+				has_war_with = REA
+				is_in_faction_with = REA
+				tag = REA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.71.b
+		trigger = { 
+			has_war_with = REA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.71.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = REA 
+				tag = REA
+			}
+		}
+	}
+}
+
+#Fall of Lorath
+news_event = {
+	id = GOT_Location_News.72
+	title = GOT_Location_News.72.t
+	desc = GOT_Location_News.72.d
+	picture = GFX_news_event_Lorath
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = LOR
+			controls_state = 61
+		}
+		61 = { is_owned_by = LOR }
+		NOT = { has_global_flag = GOT_Fall_of_Lorath_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Lorath_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.72.a
+		trigger = {
+			NOT = {
+				has_war_with = LOR
+				is_in_faction_with = LOR
+				tag = LOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.72.b
+		trigger = { 
+			has_war_with = LOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.72.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = LOR 
+				tag = LOR
+			}
+		}
+	}
+}
+
+#Fall of Lys
+news_event = {
+	id = GOT_Location_News.73
+	title = GOT_Location_News.73.t
+	desc = GOT_Location_News.73.d
+	picture = GFX_news_event_Lys
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = LYS
+			controls_state = 144
+		}
+		144 = { is_owned_by = LYS }
+		NOT = { has_global_flag = GOT_Fall_of_Lys_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Lys_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.73.a
+		trigger = {
+			NOT = {
+				has_war_with = LYS
+				is_in_faction_with = LYS
+				tag = LYS
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.73.b
+		trigger = { 
+			has_war_with = LYS 
+		}
+	}
+	option = {
+		name = GOT_Location_News.73.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = LYS 
+				tag = LYS
+			}
+		}
+	}
+}
+
+#Fall of Maidenpool
+news_event = {
+	id = GOT_Location_News.74
+	title = GOT_Location_News.74.t
+	desc = GOT_Location_News.74.d
+	picture = GFX_news_event_Maidenpool
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = RIV
+			controls_state = 180
+		}
+		180 = { is_owned_by = RIV }
+		NOT = { has_global_flag = GOT_Fall_of_Maidenpool_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Maidenpool_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.74.a
+		trigger = {
+			NOT = {
+				has_war_with = RIV
+				is_in_faction_with = RIV
+				tag = RIV
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.74.b
+		trigger = { 
+			has_war_with = RIV 
+		}
+	}
+	option = {
+		name = GOT_Location_News.74.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = RIV 
+				tag = RIV
+			}
+		}
+	}
+}
+
+#Fall of Meereen
+news_event = {
+	id = GOT_Location_News.75
+	title = GOT_Location_News.75.t
+	desc = GOT_Location_News.75.d
+	picture = GFX_news_event_Meereen
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = MER
+			controls_state = 89
+		}
+		89 = { is_owned_by = MER }
+		NOT = { has_global_flag = GOT_Fall_of_Meereen_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Meereen_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.75.a
+		trigger = {
+			NOT = {
+				has_war_with = MER
+				is_in_faction_with = MER
+				tag = MER
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.75.b
+		trigger = { 
+			has_war_with = MER 
+		}
+	}
+	option = {
+		name = GOT_Location_News.75.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = MER 
+				tag = MER
+			}
+		}
+	}
+}
+
+#Fall of Moat Cailin
+news_event = {
+	id = GOT_Location_News.76
+	title = GOT_Location_News.76.t
+	desc = GOT_Location_News.76.d
+	picture = GFX_news_event_Moat_Cailin
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NOR
+			controls_state = 170
+		}
+		170 = { is_owned_by = NOR }
+		NOT = { has_global_flag = GOT_Fall_of_Moat_Cailin_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Moat_Cailin_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.76.a
+		trigger = {
+			NOT = {
+				has_war_with = NOR
+				is_in_faction_with = NOR
+				tag = NOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.76.b
+		trigger = { 
+			has_war_with = NOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.76.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NOR 
+				tag = NOR
+			}
+		}
+	}
+}
+
+#Fall of Myr
+news_event = {
+	id = GOT_Location_News.77
+	title = GOT_Location_News.77.t
+	desc = GOT_Location_News.77.d
+	picture = GFX_news_event_Myr
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = MYR
+			controls_state = 236
+		}
+		236 = { is_owned_by = MYR }
+		NOT = { has_global_flag = GOT_Fall_of_Myr_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Myr_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.77.a
+		trigger = {
+			NOT = {
+				has_war_with = MYR
+				is_in_faction_with = MYR
+				tag = MYR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.77.b
+		trigger = { 
+			has_war_with = MYR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.77.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = MYR 
+				tag = MYR
+			}
+		}
+	}
+}
+
+#Fall of New Ghis
+news_event = {
+	id = GOT_Location_News.78
+	title = GOT_Location_News.78.t
+	desc = GOT_Location_News.78.d
+	picture = GFX_news_event_New_Ghis
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = GHI
+			controls_state = 175
+		}
+		175 = { is_owned_by = GHI }
+		NOT = { has_global_flag = GOT_Fall_of_New_Ghis_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_New_Ghis_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.78.a
+		trigger = {
+			NOT = {
+				has_war_with = GHI
+				is_in_faction_with = GHI
+				tag = GHI
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.78.b
+		trigger = { 
+			has_war_with = GHI 
+		}
+	}
+	option = {
+		name = GOT_Location_News.78.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = GHI 
+				tag = GHI
+			}
+		}
+	}
+}
+
+#Fall of Norvos
+news_event = {
+	id = GOT_Location_News.79
+	title = GOT_Location_News.79.t
+	desc = GOT_Location_News.79.d
+	picture = GFX_news_event_Norvos
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NRV
+			controls_state = 211
+		}
+		211 = { is_owned_by = NRV }
+		NOT = { has_global_flag = GOT_Fall_of_Norvos_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Norvos_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.79.a
+		trigger = {
+			NOT = {
+				has_war_with = NRV
+				is_in_faction_with = NRV
+				tag = NRV
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.79.b
+		trigger = { 
+			has_war_with = NRV 
+		}
+	}
+	option = {
+		name = GOT_Location_News.79.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NRV 
+				tag = NRV
+			}
+		}
+	}
+}
+
+#Fall of Oldtown
+news_event = {
+	id = GOT_Location_News.80
+	title = GOT_Location_News.80.t
+	desc = GOT_Location_News.80.d
+	picture = GFX_news_event_Oldtown
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = REA
+			controls_state = 99
+		}
+		99 = { is_owned_by = REA }
+		NOT = { has_global_flag = GOT_Fall_of_Oldtown_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Oldtown_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.80.a
+		trigger = {
+			NOT = {
+				has_war_with = REA
+				is_in_faction_with = REA
+				tag = REA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.80.b
+		trigger = { 
+			has_war_with = REA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.80.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = REA 
+				tag = REA
+			}
+		}
+	}
+}
+
+#Fall of Pentos
+news_event = {
+	id = GOT_Location_News.81
+	title = GOT_Location_News.81.t
+	desc = GOT_Location_News.81.d
+	picture = GFX_news_event_Pentos
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = PEN
+			controls_state = 229
+		}
+		229 = { is_owned_by = PEN }
+		NOT = { has_global_flag = GOT_Fall_of_Pentos_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Pentos_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.81.a
+		trigger = {
+			NOT = {
+				has_war_with = PEN
+				is_in_faction_with = PEN
+				tag = PEN
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.81.b
+		trigger = { 
+			has_war_with = PEN 
+		}
+	}
+	option = {
+		name = GOT_Location_News.81.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = PEN 
+				tag = PEN
+			}
+		}
+	}
+}
+
+#Fall of Planky Town
+news_event = {
+	id = GOT_Location_News.82
+	title = GOT_Location_News.82.t
+	desc = GOT_Location_News.82.d
+	picture = GFX_news_event_Planky_Town
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = DOR
+			controls_state = 125
+		}
+		125 = { is_owned_by = DOR }
+		NOT = { has_global_flag = GOT_Fall_of_Planky_Town_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Planky_Town_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.82.a
+		trigger = {
+			NOT = {
+				has_war_with = DOR
+				is_in_faction_with = DOR
+				tag = DOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.82.b
+		trigger = { 
+			has_war_with = DOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.82.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = DOR 
+				tag = DOR
+			}
+		}
+	}
+}
+
+#Fall of Qarth
+news_event = {
+	id = GOT_Location_News.83
+	title = GOT_Location_News.83.t
+	desc = GOT_Location_News.83.d
+	picture = GFX_news_event_Qarth
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = QAR
+			controls_state = 92
+		}
+		92 = { is_owned_by = QAR }
+		NOT = { has_global_flag = GOT_Fall_of_Qarth_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Qarth_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.83.a
+		trigger = {
+			NOT = {
+				has_war_with = QAR
+				is_in_faction_with = QAR
+				tag = QAR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.83.b
+		trigger = { 
+			has_war_with = QAR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.83.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = QAR 
+				tag = QAR
+			}
+		}
+	}
+}
+
+#Fall of Qohor
+news_event = {
+	id = GOT_Location_News.84
+	title = GOT_Location_News.84.t
+	desc = GOT_Location_News.84.d
+	picture = GFX_news_event_Qohor
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = QOH
+			controls_state = 226
+		}
+		226 = { is_owned_by = QOH }
+		NOT = { has_global_flag = GOT_Fall_of_Qohor_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Qohor_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.84.a
+		trigger = {
+			NOT = {
+				has_war_with = QOH
+				is_in_faction_with = QOH
+				tag = QOH
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.84.b
+		trigger = { 
+			has_war_with = QOH 
+		}
+	}
+	option = {
+		name = GOT_Location_News.84.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = QOH 
+				tag = QOH
+			}
+		}
+	}
+}
+
+#Fall of the Shadow Tower
+news_event = {
+	id = GOT_Location_News.85
+	title = GOT_Location_News.85.t
+	desc = GOT_Location_News.85.d
+	picture = GFX_news_event_Shadow_Tower
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NWA
+			controls_state = 24
+		}
+		24 = { is_owned_by = NWA }
+		NOT = { has_global_flag = GOT_Fall_of_Shadow_Tower_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Shadow_Tower_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.85.a
+		trigger = {
+			NOT = {
+				has_war_with = NWA
+				is_in_faction_with = NWA
+				tag = NWA
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.85.b
+		trigger = { 
+			has_war_with = NWA 
+		}
+	}
+	option = {
+		name = GOT_Location_News.85.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NWA 
+				tag = NWA
+			}
+		}
+	}
+}
+
+#Fall of the Bloody Gate
+news_event = {
+	id = GOT_Location_News.86
+	title = GOT_Location_News.86.t
+	desc = GOT_Location_News.86.d
+	picture = GFX_news_event_The_Bloody_Gate
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = VAL
+			controls_state = 174
+		}
+		174 = { is_owned_by = VAL }
+		NOT = { has_global_flag = GOT_Fall_of_The_Bloody_Gate_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_The_Bloody_Gate_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.86.a
+		trigger = {
+			NOT = {
+				has_war_with = VAL
+				is_in_faction_with = VAL
+				tag = VAL
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.86.b
+		trigger = { 
+			has_war_with = VAL 
+		}
+	}
+	option = {
+		name = GOT_Location_News.86.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = VAL 
+				tag = VAL
+			}
+		}
+	}
+}
+
+#Fall of The Twins
+news_event = {
+	id = GOT_Location_News.87
+	title = GOT_Location_News.87.t
+	desc = GOT_Location_News.87.d
+	picture = GFX_news_event_The_Twins
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = RIV
+			controls_state = 173
+		}
+		173 = { is_owned_by = RIV }
+		NOT = { has_global_flag = GOT_Fall_of_The_Twins_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_The_Twins_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.87.a
+		trigger = {
+			NOT = {
+				has_war_with = RIV
+				is_in_faction_with = RIV
+				tag = RIV
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.87.b
+		trigger = { 
+			has_war_with = RIV 
+		}
+	}
+	option = {
+		name = GOT_Location_News.87.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = RIV 
+				tag = RIV
+			}
+		}
+	}
+}
+
+#Fall of Tyrosh
+news_event = {
+	id = GOT_Location_News.88
+	title = GOT_Location_News.88.t
+	desc = GOT_Location_News.88.d
+	picture = GFX_news_event_Tyrosh
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = TYR
+			controls_state = 126
+		}
+		126 = { is_owned_by = TYR }
+		NOT = { has_global_flag = GOT_Fall_of_Tyrosh_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Tyrosh_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.88.a
+		trigger = {
+			NOT = {
+				has_war_with = TYR
+				is_in_faction_with = TYR
+				tag = TYR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.88.b
+		trigger = { 
+			has_war_with = TYR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.88.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = TYR 
+				tag = TYR
+			}
+		}
+	}
+}
+
+#Fall of Valyria
+news_event = {
+	id = GOT_Location_News.89
+	title = GOT_Location_News.89.t
+	desc = GOT_Location_News.89.d
+	picture = GFX_news_event_Valyria
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = VLY
+			controls_state = 162
+		}
+		162 = { is_owned_by = VLY }
+		NOT = { has_global_flag = GOT_Fall_of_Valyria_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Valyria_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.89.a
+		trigger = {
+			NOT = {
+				has_war_with = VLY
+				is_in_faction_with = VLY
+				tag = VLY
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.89.b
+		trigger = { 
+			has_war_with = VLY 
+		}
+	}
+	option = {
+		name = GOT_Location_News.89.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = VLY 
+				tag = VLY
+			}
+		}
+	}
+}
+
+#Fall of Volantis
+news_event = {
+	id = GOT_Location_News.90
+	title = GOT_Location_News.90.t
+	desc = GOT_Location_News.90.d
+	picture = GFX_news_event_Volantis
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = VOL
+			controls_state = 76
+		}
+		76 = { is_owned_by = VOL }
+		NOT = { has_global_flag = GOT_Fall_of_Volantis_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Volantis_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.90.a
+		trigger = {
+			NOT = {
+				has_war_with = VOL
+				is_in_faction_with = VOL
+				tag = VOL
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.90.b
+		trigger = { 
+			has_war_with = VOL 
+		}
+	}
+	option = {
+		name = GOT_Location_News.90.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = VOL 
+				tag = VOL
+			}
+		}
+	}
+}
+
+#Fall of White Harbor
+news_event = {
+	id = GOT_Location_News.91
+	title = GOT_Location_News.91.t
+	desc = GOT_Location_News.91.d
+	picture = GFX_news_event_White_Harbor
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = NOR
+			controls_state = 159
+		}
+		159 = { is_owned_by = NOR }
+		NOT = { has_global_flag = GOT_Fall_of_White_Harbor_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_White_Harbor_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.91.a
+		trigger = {
+			NOT = {
+				has_war_with = NOR
+				is_in_faction_with = NOR
+				tag = NOR
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.91.b
+		trigger = { 
+			has_war_with = NOR 
+		}
+	}
+	option = {
+		name = GOT_Location_News.91.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = NOR 
+				tag = NOR
+			}
+		}
+	}
+}
+
+#Fall of Yunkai
+news_event = {
+	id = GOT_Location_News.92
+	title = GOT_Location_News.92.t
+	desc = GOT_Location_News.92.d
+	picture = GFX_news_event_Yunkai
+
+	major = yes
+	
+	trigger = {
+		ROOT = { 
+			has_war_with = YUN
+			controls_state = 33
+		}
+		33 = { is_owned_by = YUN }
+		NOT = { has_global_flag = GOT_Fall_of_Yunkai_Flag }
+	}
+	
+	immediate = {
+		set_global_flag = GOT_Fall_of_Yunkai_Flag
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = GOT_Location_News.92.a
+		trigger = {
+			NOT = {
+				has_war_with = YUN
+				is_in_faction_with = YUN
+				tag = YUN
+			}
+		}
+	}
+	option = {
+		name = GOT_Location_News.92.b
+		trigger = { 
+			has_war_with = YUN 
+		}
+	}
+	option = {
+		name = GOT_Location_News.92.c
+		trigger = { 
+			OR = { 
+				is_in_faction_with = YUN 
+				tag = YUN
+			}
+		}
+	}
+}

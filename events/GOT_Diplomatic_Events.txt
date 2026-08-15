@@ -4388,6 +4388,8 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
+		
+		add_ideas = RI_no_surrender
 
 		add_political_power = 25
 		add_stability = -0.05
@@ -4400,24 +4402,24 @@ country_event = {
 			modifier = RI_friendly_foreign_policy
 		}
 		
-				#If is a faction leader, the faction is disbaned
-		if = {
-			limit = {
-				is_faction_leader = yes
-			}
-			dismantle_faction = yes
-		}
-
-		#If Stormlands is a faction member, but not the leader, then he just leaves
-		if = {
-			limit = {
-				is_in_faction = yes
-				NOT = { is_in_faction_with = NWA }
-			}
-			leave_faction = yes
-			
-		}
-		
+#				#If is a faction leader, the faction is disbaned
+#		if = {
+#			limit = {
+#				is_faction_leader = yes
+#			}
+#			dismantle_faction = yes
+#		}
+#
+#		#If Stormlands is a faction member, but not the leader, then he just leaves
+#		if = {
+#			limit = {
+#				is_in_faction = yes
+#				NOT = { is_in_faction_with = NWA }
+#			}
+#			leave_faction = yes
+#			
+#		}
+#		
 		if  = {
 				limit = {
 					has_war_with = NWA
@@ -4433,20 +4435,20 @@ country_event = {
 				}
 			}
 
-		
-		
-		#Nights Watch gets event asking them to join their faction
-			every_other_country = {
-				limit = {
-					is_in_faction_with = NWA
-					is_faction_leader = yes
-				}
-			   country_event = {
-					id = generic.2
-					hours = 6
-				}
-			}
-		
+#		
+#		
+#		#Nights Watch gets event asking them to join their faction
+#			every_other_country = {
+#				limit = {
+#					is_in_faction_with = NWA
+#					is_faction_leader = yes
+#				}
+#			   country_event = {
+#					id = generic.2
+#					hours = 6
+#				}
+#			}
+#		
 		NWA = {
 			country_event = {
 				id = GOT_Diplomatic_Country.64
@@ -6483,6 +6485,15 @@ country_event = {
 					hours = 6
 				}
 			}
+			
+			if = {
+				limit = {
+					has_idea = RI_no_surrender
+				}
+				remove_ideas = neutrality_idea
+				remove_ideas = RI_neutrality_idea
+			}	
+			
 		
 	}
 	
@@ -6940,6 +6951,14 @@ country_event = {
 		
 		set_global_flag = GOT_Second_Northern_Civil_War_Flag
 		
+		if = {
+			limit = {
+				has_idea = RI_no_surrender
+			}
+			remove_ideas = neutrality_idea
+			remove_ideas = RI_neutrality_idea
+		}
+		
 		every_other_country = { 
             limit = { 
                 exists = yes 
@@ -7190,6 +7209,14 @@ country_event = {
 		
 		set_global_flag = GOT_Second_Northern_Civil_War_Flag
 		
+		if = {
+			limit = {
+				has_idea = RI_no_surrender
+			}
+			remove_ideas = neutrality_idea
+			remove_ideas = RI_neutrality_idea
+		}
+		
 		every_other_country = { 
             limit = { 
                 exists = yes 
@@ -7322,6 +7349,14 @@ country_event = {
 					id = generic.2
 					hours = 6
 				}
+			}
+			
+			if = {
+				limit = {
+					has_idea = RI_no_surrender
+				}
+				remove_ideas = neutrality_idea
+				remove_ideas = RI_neutrality_idea
 			}
 		
 	}

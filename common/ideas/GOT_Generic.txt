@@ -1898,6 +1898,64 @@ ideas = {
 				army_morale_factor = -0.1
 			}
 		}
+		
+		#Pact of the Living
+		RI_no_surrender = {
+		
+			picture = ICE_The_Others
+			
+			allowed = {
+				always = yes
+			}
+			
+			cancel = {
+				NOT = { country_exists = ICE }
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				surrender_limit = 1.0
+			}
+		}
+		
+		#Generic No Surrender
+		RI_no_surrender2 = {
+		
+			picture = RI_military_resistance
+			
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				surrender_limit = 1.0
+			}
+		}
+		
+		RI_morale_shattered = {
+		
+			picture = RI_disloyal_people
+			
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				# Core Collapse Modifier
+				surrender_limit = -0.10              # Capitulate 10% sooner
+				
+				# Optional Combat / Military Hits
+				organisation_gain_factor = -0.15     # -15% Org Recovery (units regroup slower)
+				war_support_factor = -0.15           # -15% War Support (panic on home front)
+				planning_speed = -0.20               # -20% Planning Speed (command structure paralyzed)
+			}
+		}
+		
 
 	}
 	
