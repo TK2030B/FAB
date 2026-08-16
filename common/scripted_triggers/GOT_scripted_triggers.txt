@@ -529,7 +529,7 @@ GOT_Seven_Kingdoms_Country = {
 
 GOT_Westeros_Countries = {
 	OR = {
-		GOT_Is_Seven_Kingdoms_Country = yes
+		GOT_Seven_Kingdoms_Country = yes
 		original_tag = NWA
 		original_tag = WIL
 		original_tag = TAR

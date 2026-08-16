@@ -17783,17 +17783,6 @@ country_event = {
         add_stability = 0.05
         add_political_power = 75 
 		
-		NWA_jon_snow = {
-			add_country_leader_role = {
-				ideology = communism
-				promote_leader = yes
-			}
-			add_country_leader_role = {
-				ideology = neutrality
-				promote_leader = yes
-			}
-		}
-		
 		set_politics = {
 			ruling_party = communism
 		}
@@ -17876,22 +17865,6 @@ country_event = {
 				}
 			}
 			promote_leader = yes
-		}
-		
-		
-		NWA_eddison_tollett = {
-			add_country_leader_role = {
-				ideology = communism
-				promote_leader = yes
-			}
-			add_country_leader_role = {
-				ideology = neutrality
-				promote_leader = yes
-			}
-			add_country_leader_role = {
-				ideology = democratic
-				promote_leader = yes
-			}
 		}
 		
 		#Event for Jon to take control of the north
@@ -25158,7 +25131,7 @@ country_event = {
 						}
 						load_oob = "STO_Gendry"
 					}
-					CRO_Davos_Seaworth = {
+					STO_Davos_Seaworth = {
 						retire = yes
 					}
 					add_country_leader_role = {
@@ -26041,7 +26014,7 @@ country_event = {
 					create_faction = "The Six Kingdoms"
 					every_other_country = { 
 						limit = { 
-							GOT_Is_Seven_Kingdoms_Country = yes
+							GOT_Seven_Kingdoms_Country = yes
 							NOT = {
 								original_tag = NOR
 							} 
@@ -26235,7 +26208,7 @@ country_event = {
 					create_faction = "The Six Kingdoms"
 					every_other_country = { 
 						limit = { 
-							GOT_Is_Seven_Kingdoms_Country = yes
+							GOT_Seven_Kingdoms_Country = yes
 							NOT = {
 								original_tag = NOR
 							} 
