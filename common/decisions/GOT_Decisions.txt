@@ -141,8 +141,13 @@ GOT_Game_Decisions = {
 	TAR_Legitimize_Gendry_Baratheon = {
 
 		icon = generic_army_support
+		
+		allowed = {
+			original_tag = TAR
+		}
 
 		visible = {
+			original_tag = TAR
 			OR = {
 				STO = {
 					exists = no
@@ -228,8 +233,13 @@ GOT_Game_Decisions = {
 	TAR_Legitimize_Tyrion_Lannister = {
 
 		icon = generic_army_support
+		
+		allowed = {
+			original_tag = TAR
+		}
 
 		visible = {
+			original_tag = TAR
 			OR = {
 				WES = {
 					exists = no
