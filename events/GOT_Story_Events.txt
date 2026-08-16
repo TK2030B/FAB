@@ -17785,11 +17785,11 @@ country_event = {
 		
 		NWA_jon_snow = {
 			add_country_leader_role = {
-				ideology = CR_subideology
+				ideology = communism
 				promote_leader = yes
 			}
 			add_country_leader_role = {
-				ideology = NR_subideology
+				ideology = neutrality
 				promote_leader = yes
 			}
 		}
@@ -17881,15 +17881,15 @@ country_event = {
 		
 		NWA_eddison_tollett = {
 			add_country_leader_role = {
-				ideology = CR_subideology
+				ideology = communism
 				promote_leader = yes
 			}
 			add_country_leader_role = {
-				ideology = NR_subideology
+				ideology = neutrality
 				promote_leader = yes
 			}
 			add_country_leader_role = {
-				ideology = DR_subideology
+				ideology = democratic
 				promote_leader = yes
 			}
 		}
@@ -22046,11 +22046,9 @@ country_event = {
 				expire = "1965.1.1"
 				ideology = CR_subideology
 				traits = { 
-					opportunistic_mercenary 
 					hedonist 
 					unpopular_monarch 
 					strict_austerity_adherent 
-					shrewd_investor 
 					cornered_fox 
 				}
 			}
@@ -22062,11 +22060,9 @@ country_event = {
 				expire = "1965.1.1"
 				ideology = DR_subideology
 				traits = { 
-					opportunistic_mercenary 
 					hedonist 
 					unpopular_monarch 
 					strict_austerity_adherent 
-					shrewd_investor 
 					cornered_fox 
 				}
 			}
@@ -22078,11 +22074,9 @@ country_event = {
 				expire = "1965.1.1"
 				ideology = FR_subideology
 				traits = { 
-					opportunistic_mercenary 
 					hedonist 
 					unpopular_monarch 
 					strict_austerity_adherent 
-					shrewd_investor 
 					cornered_fox 
 				}
 			}
@@ -22094,11 +22088,9 @@ country_event = {
 				expire = "1965.1.1"
 				ideology = NR_subideology
 				traits = { 
-					opportunistic_mercenary 
 					hedonist 
 					unpopular_monarch 
 					strict_austerity_adherent 
-					shrewd_investor 
 					cornered_fox 
 				}
 			}
@@ -25178,7 +25170,6 @@ country_event = {
 								legitimate_heir 
 								popular_figurehead 
 								man_of_the_nation 
-								inexperienced_administrator 
 								reluctant_veteran 
 								stout_defender 
 							}
@@ -25194,7 +25185,6 @@ country_event = {
 								legitimate_heir 
 								popular_figurehead 
 								man_of_the_nation 
-								inexperienced_administrator 
 								reluctant_veteran 
 								stout_defender 
 							}
@@ -25210,7 +25200,6 @@ country_event = {
 								legitimate_heir 
 								popular_figurehead 
 								man_of_the_nation 
-								inexperienced_administrator 
 								reluctant_veteran 
 								stout_defender 
 							}
@@ -25226,7 +25215,6 @@ country_event = {
 								legitimate_heir 
 								popular_figurehead 
 								man_of_the_nation 
-								inexperienced_administrator 
 								reluctant_veteran 
 								stout_defender 
 							}
@@ -26448,11 +26436,11 @@ country_event = {
  
 		NWA_jon_snow = {
 			add_country_leader_role = {
-				ideology = CR_subideology
+				ideology = communism
 				promote_leader = yes
 			}
 			add_country_leader_role = {
-				ideology = NR_subideology
+				ideology = neutrality
 				promote_leader = yes
 			}
 		}

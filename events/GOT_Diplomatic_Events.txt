@@ -8675,9 +8675,6 @@ country_event = {
 				expire = "1965.1.1"
 				ideology = FR_subideology
 				traits = { 
-					infantry_proponent
-					iron_fist
-					inflexible_strategist
 					warmonger
 					ideological_crusader
 					indomitable_perseverance
@@ -9079,7 +9076,6 @@ country_event = {
 	}
 } 
 
-Event asking to Bran Stark Faction
 country_event = {
 	id = GOT_Diplomatic_Country.100
 	title = GOT_Diplomatic_Country.100.t
