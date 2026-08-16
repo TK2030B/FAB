@@ -1,6 +1,143 @@
 
 GOT_Game_Decisions = {
 
+	TAR_conquer_Essos_countries = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = TAR
+		}
+	
+        visible = {
+			original_tag = TAR
+			NOT = { has_country_flag = EW_Operation }
+			FROM = { 
+				is_neighbor_of = TAR
+			}
+			has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				GOT_Essos_Countries = yes
+            }
+        }
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 7
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.1
+		
+			has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+			
+			FROM = { 
+				is_neighbor_of = TAR
+			}
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
+	
+	TAR_conquer_Westeros_countries = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = TAR
+		}
+	
+        visible = {
+			original_tag = TAR
+			NOT = { has_country_flag = EW_Operation }
+			OR = {
+				FROM = { 
+					is_neighbor_of = TAR
+				}
+				any_other_country = {
+					is_in_faction_with = TAR
+					is_neighbor_of = FROM
+				}
+			}
+			owns_state = 142
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				GOT_Westeros_Countries = yes
+            }
+        }
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1944.1.1
+			}
+			modifier = {
+				factor = 0
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+		}
+		
+		days_remove = 7
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.1
+			
+			OR = {
+				FROM = { 
+					is_neighbor_of = TAR
+				}
+				any_other_country = {
+					is_in_faction_with = TAR
+					is_neighbor_of = FROM
+				}
+			}
+			
+			owns_state = 142
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
+
 	TAR_Legitimize_Gendry_Baratheon = {
 
 		icon = generic_army_support
@@ -208,143 +345,6 @@ GOT_Game_Decisions = {
 			# Runs every time the 90-day cycle finishes
 		}
 	}
-
-	TAR_conquer_Essos_countries = {
-	
-		icon = generic_army_support
-		
-		allowed = {
-			original_tag = TAR
-		}
-	
-        visible = {
-			original_tag = TAR
-			NOT = { has_country_flag = EW_Operation }
-			FROM = { 
-				is_neighbor_of = TAR
-			}
-			has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
-		}
-        target_trigger = {
-            FROM = {
-                NOT = { has_war_with = ROOT }
-				NOT = { is_in_faction_with = ROOT }
-				GOT_Essos_Countries = yes
-            }
-        }
-        cost = 0
-		modifier = { }
-		
-		ai_will_do = {
-			factor = 1000
-		}
-		
-		days_remove = 7
-		war_with_on_remove = FROM
-
-        available = {
-		
-			surrender_progress < 0.1
-		
-			has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
-			
-			FROM = { 
-				is_neighbor_of = TAR
-			}
-
-        }
-		complete_effect = {
-			set_country_flag = EW_Operation
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-			create_wargoal = {
-				type = annex_everything
-				target = FROM
-			}
-		}
-    }
-	
-	TAR_conquer_Westeros_countries = {
-	
-		icon = generic_army_support
-		
-		allowed = {
-			original_tag = TAR
-		}
-	
-        visible = {
-			original_tag = TAR
-			NOT = { has_country_flag = EW_Operation }
-			OR = {
-				FROM = { 
-					is_neighbor_of = TAR
-				}
-				any_other_country = {
-					is_in_faction_with = TAR
-					is_neighbor_of = FROM
-				}
-			}
-			owns_state = 142
-		}
-        target_trigger = {
-            FROM = {
-                NOT = { has_war_with = ROOT }
-				NOT = { is_in_faction_with = ROOT }
-				GOT_Westeros_Countries = yes
-            }
-        }
-        cost = 0
-		modifier = { }
-		
-		ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				date < 1944.1.1
-			}
-			modifier = {
-				factor = 0
-				has_country_leader = {
-					name = "Jon Snow"
-					ruling_only = yes
-				}
-			}
-		}
-		
-		days_remove = 7
-		war_with_on_remove = FROM
-
-        available = {
-		
-			surrender_progress < 0.1
-			
-			OR = {
-				FROM = { 
-					is_neighbor_of = TAR
-				}
-				any_other_country = {
-					is_in_faction_with = TAR
-					is_neighbor_of = FROM
-				}
-			}
-			
-			owns_state = 142
-
-        }
-		complete_effect = {
-			set_country_flag = EW_Operation
-		}
-		
-		remove_effect = {
-			clr_country_flag = EW_Operation
-			create_wargoal = {
-				type = annex_everything
-				target = FROM
-			}
-		}
-    }
 
 	ICE_conquer_countries = {
 	

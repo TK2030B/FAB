@@ -4179,34 +4179,36 @@ GOT_Story_News.735.a: "Seeds of dissent are sown."
  GOT_Story_News.737.a:0 "A new era dawns over the ashes of the old."
 
 # 738 — Bran Stark is Elected King
-GOT_Story_Country.738.t: "The Broken Wheel Replaced"
-GOT_Story_Country.738.d: "Bran Stark is elected king by the council, chosen for his wisdom and neutrality, ruling the Six Kingdoms while the North remains independent."
-GOT_Story_Country.738.a: "A new governance model."
-GOT_Story_Country.738.b: "Hope for a peaceful realm."
+ GOT_Story_Country.738.t:0 "The Verdict of the Dragonpit"
+ GOT_Story_Country.738.d:0 "In the stone amphitheater of the Dragonpit, the remaining lords paramount and great houses of Westeros have reached a historic consensus. To break the cycle of conquerors and hereditary tyrants, the Great Council has elected Bran Stark as King of the Six Kingdoms, granting Northern independence to Sansa Stark. For Jon Snow and House Targaryen, the terms of this new order are absolute: Jon must renounce his claim to the Iron Throne, yield the Crownlands, and step down as Lord of Winterfell into self-imposed exile beyond the Wall to appease the Unsullied and preserve a fragile peace. Yet, the choice remains his—accept the dissolution of the Targaryen empire for the sake of the realm, or defy the council's decree and risk an explosive double uprising from Grey Worm's legion and Bran's royalist Coalition."
+ GOT_Story_Country.738.a:0 "Accept exile."
+ GOT_Story_Country.738.b:0 "Refuse their decree!."
 
-GOT_Story_News.738.t: "Bran the Broken Ascends"
-GOT_Story_News.738.d: "The council’s choice surprises many, marking a break from tradition."
-GOT_Story_News.738.a: "A new chapter begins."
+ GOT_Story_News.738.t:0 "Bran the Broken Ascends"
+ GOT_Story_News.738.d:0 "In a historic gathering within the blackened stone of the Dragonpit, the surviving great houses of Westeros have shattered centuries of unbroken tradition. Rejecting the bloody inheritance of conquest and hereditary lineage, the council has formally elected Bran Stark of Winterfell as King of the Six Kingdoms, granting total independence to the realm of the North under Queen Sansa Stark. With Jon Snow accepting exile beyond the Wall to appease the foreign Unsullied host, the Iron Throne has been formally retired, replaced by an elective crown rooted in collective counsel rather than fire and blood. Across the realm, raven wings carry the declaration: a new chapter begins, forged not by dragons, but by the lords of Westeros."
+ GOT_Story_News.738.a:0 "A new chapter begins."
 
 # 739 — Sansa Stark Becomes Queen in the North
-GOT_Story_Country.739.t: "Northern Independence"
-GOT_Story_Country.739.d: "Sansa Stark declares the North a free and independent kingdom and is crowned Queen in the North."
-GOT_Story_Country.739.a: "Northern sovereignty established."
-GOT_Story_Country.739.b: "Strengthening Stark rule."
+ GOT_Story_Country.739.t:0 "Northern Sovereignty"
+ GOT_Story_Country.739.d:0 "For thousands of years, the North stood as a free and sovereign kingdom until Torrhen Stark knelt before the dragons. Now, with the Dragon Queen dead and a son of Winterfell seated on the throne in King's Landing, the Northern lords gathered in the Great Hall of Winterfell demand a final accounting. Though Bran Stark wears the crown of the Six Kingdoms, the blood spilled at the Red Wedding, the Long Night, and the slaughter in the south was paid by Northern lives. Lady Sansa Stark stands at a historic crossroads: she can honor the centuries-old dream of her ancestors and crown herself Queen in the North, or she can kneel to her brother in King's Landing, anchoring the realm in unified Stark brotherhood at the expense of Northern independence."
+ GOT_Story_Country.739.a:0 "Crown Sansa Queen in the North."
+ GOT_Story_Country.739.b:0 "Stand united under King Bran."
 
-GOT_Story_News.739.t: "The North Goes Its Own Way"
-GOT_Story_News.739.d: "Sansa’s coronation solidifies the North’s independence."
-GOT_Story_News.739.a: "A proud new era for the North."
+ GOT_Story_News.739.t:0 "The North Breaks the Chains"
+ GOT_Story_News.739.d:0 "Ravens fly south from Winterfell bearing news that has reshaped the political map of Westeros: Lady Sansa Stark has been crowned Queen in the North, formally declaring the realm above the Neck a free and independent nation. Three centuries after King Torrhen Stark yielded his crown to Aegon the Conqueror, the lords of the North have reclaimed their ancient sovereignty with the full assent of King Bran the Broken in King's Landing. Though some in the south view the departure with apprehension, the common folk and noble houses alike recognize that the historic bond binding the Seven Kingdoms is no more. As Queen Sansa takes her seat upon the wooden throne of Winterfell, the North stands alone once again, sovereign and unbowed."
+ GOT_Story_News.739.a:0 "A proud, uncharted era begins above the Neck."
 
 # 740 — Jon Snow is Exiled to the Night's Watch
-GOT_Story_Country.740.t: "The Price of Peace"
-GOT_Story_Country.740.d: "Jon Snow is sentenced to the Night’s Watch to appease Daenerys’s supporters, returning to the Wall and beyond with the Wildlings."
-GOT_Story_Country.740.a: "Exile and redemption."
-GOT_Story_Country.740.b: "A bittersweet resolution."
+# Country Event — Night's Watch Perspective
+ GOT_Story_Country.740.t:0 "A Brother Returned"
+ GOT_Story_Country.740.d:0 "The horn has sounded from the top of the Wall: Jon Snow has returned to Castle Black. Sentenced to the black dress once more as the blood price to prevent Grey Worm’s army from razing King's Landing, the former Lord Commander arrives not as a conqueror or a king, but as a banished man seeking peace. The remaining sworn brothers, battered and few after the Long Night, look upon the son of Rhaegar Targaryen with mixed awe and solemnity. Though the Crown demands he take no wife and hold no lands, Jon’s gaze turns beyond the breached ice—toward Tormund Giantsbane and the Free Folk waiting in the haunted forest. For the Watch, his return marks both a living legend rejoining their diminished ranks and a final, bittersweet closing of the Great War."
+ GOT_Story_Country.740.a:0 "Reopen the ledgers and welcome our brother home."
+ GOT_Story_Country.740.b:0 "He belongs to the True North now."
 
-GOT_Story_News.740.t: "The Bastard Returns North"
-GOT_Story_News.740.d: "Jon’s exile marks a somber peace agreement."
-GOT_Story_News.740.a: "His fate remains uncertain."
+ # News Event — Realm Perspective
+ GOT_Story_News.740.t:0 "The White Wolf Sentenced to the Wall"
+ GOT_Story_News.740.d:0 "In a final, somber compromise to appease the grieving Targaryen loyalists and avert another catastrophic civil war, King Bran the Broken has handed down the sentence for the killer of Daenerys Targaryen. Jon Snow—the King in the North who united living men against the dead—has been stripped of all titles, claims, and honors, and banished to the Night's Watch for the remainder of his days. Reports from the North confirm that after taking the black at Castle Black, the former heir to the Iron Throne rode beyond the Wall alongside the Free Folk, disappearing into the vast, snowy wilderness of the uncharted north. With his departure, the last dragonlord disappears into legend, leaving behind a tranquil but deeply altered realm."
+ GOT_Story_News.740.a:0 "The song of ice and fire reaches its end."
 
 # 741 — Arya Stark Sets Sail to Explore West of Westeros
 GOT_Story_Country.741.t: "Into the Unknown"
@@ -4805,6 +4807,23 @@ GOT_Diplomatic_Country.90.b: "A resurrected bastard holds no claim. We must look
  GOT_Diplomatic_Country.97.d:0 "Shockwaves reverberate from the charred ruin of the Red Keep following a desperate, bloody act of betrayal. In the shadow of the scorched throne, Jon Snow turned his blade against Queen Daenerys Targaryen in an attempt to halt her promised conquest. Yet as word of the attempt spreads to the foreign courts and noble halls across the realm, every major power is forced to make a defining choice. To back Jon Snow is to stand with the North and risk the wrath of her remaining armies; to condemn him is to uphold Targaryen rule and the terrifying promise of her global crusade. Our lords gather in emergency council to declare where our allegiance lies."
  GOT_Diplomatic_Country.97.a:0 "Side with Jon Snow"
  GOT_Diplomatic_Country.97.b:0 "Side with Daenerys"
+ 
+ GOT_Diplomatic_Country.98.t:0 "Bending the Knee to King Bran"
+ GOT_Diplomatic_Country.98.d:0 "Ravens carrying the seal of the Small Council have arrived from King's Landing, bearing the decree of the Great Council. Following the fall of the Targaryen dynasty and the destruction of the Iron Throne, Brandon Stark of House Stark has been formally elected King of the Six Kingdoms. The throne room is being prepared to receive oaths of fealty from every lord paramount, noble house, and regional ruler across Westeros. We are summoned to reaffirm our allegiance to the crown, accepting the new elective order in exchange for royal protection, or to refuse the summons and assert our own sovereign independence in an unmapped era."
+ GOT_Diplomatic_Country.98.a:0 "Bend the knee."
+ GOT_Diplomatic_Country.98.b:0 "Refuse the summons!"
+ 
+ GOT_Diplomatic_Country.99.t:0 "Northern Sovereignty"
+ GOT_Diplomatic_Country.99.d:0 "For thousands of years, the North stood as a free and sovereign kingdom until Torrhen Stark knelt before the dragons. Now, with the Dragon Queen dead and the Great Houses vying for the future of Westeros, the Northern lords gathered in the Great Hall of Winterfell demand a final accounting. The blood spilled at the Red Wedding, the Long Night, and the slaughter in the south was paid by Northern lives, and Lady Sansa Stark stands at a historic crossroads. She can honor the centuries-old dream of her ancestors and crown herself Queen in the North; she can accept her brother Bran as King of the Six Kingdoms and anchor the realm in unified Stark brotherhood; or she can align the North directly behind Jon Snow, rallying her bannermen to defend the White Wolf against his enemies in King's Landing."
+ GOT_Diplomatic_Country.99.a:0 "Crown Sansa Queen in the North!"
+ GOT_Diplomatic_Country.99.b:0 "Stand united under King Bran."
+ GOT_Diplomatic_Country.99.c:0 "Rally behind Jon Snow! The North stands with the White Wolf."
+ 
+ GOT_Diplomatic_Country.100.t:0 "Bending the Knee to King Bran"
+ GOT_Diplomatic_Country.100.d:0 "Ravens carrying the seal of the Small Council have arrived from King's Landing, bearing the decree of the Great Council. Following the fall of the Targaryen dynasty and the destruction of the Iron Throne, Brandon Stark of House Stark has been formally elected King of the Six Kingdoms. The throne room is being prepared to receive oaths of fealty from every lord paramount, noble house, and regional ruler across Westeros. We are summoned to reaffirm our allegiance to the crown, accepting the new elective order in exchange for royal protection. Yet rumor whispers that Jon Snow still claims the true succession, while others preach total isolation. We must decide the future of our realm: bow to the Council's elected king, champion the White Wolf's claim, or stand alone as a sovereign land."
+ GOT_Diplomatic_Country.100.a:0 "Bend the knee to King Bran."
+ GOT_Diplomatic_Country.100.b:0 "Champion Jon Snow!"
+ GOT_Diplomatic_Country.100.c:0 "Remain Neutral."
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"

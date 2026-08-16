@@ -795,5 +795,19 @@ characters={
 		}
 	}
 	
+	CRO_Bran_Stark={
+		name=NOR_Bran_Stark
+		portraits={
+			army = {
+				large="gfx/leaders/NOR/Portrait_Bran_Stark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NOR/Portrait_Bran_Stark.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+	}
+	
 
 }

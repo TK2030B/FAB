@@ -17783,6 +17783,17 @@ country_event = {
         add_stability = 0.05
         add_political_power = 75 
 		
+		NWA_jon_snow = {
+			add_country_leader_role = {
+				ideology = CR_subideology
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				ideology = NR_subideology
+				promote_leader = yes
+			}
+		}
+		
 		set_politics = {
 			ruling_party = communism
 		}
@@ -17817,12 +17828,26 @@ country_event = {
         add_political_power = 75 
 		
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = communism
 		}
 			
 		add_popularity = {
 			popularity = 0.50
-			ideology = democratic
+			ideology = communism
+		}
+		
+		add_country_leader_role = {
+			character = NWA_eddison_tollett
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = DR_subideology
+				traits = {  
+					reluctant_veteran  
+					stout_defender  
+					voice_of_restraint  
+				}
+			}
+			promote_leader = yes
 		}
 		
 		add_country_leader_role = {
@@ -17851,6 +17876,22 @@ country_event = {
 				}
 			}
 			promote_leader = yes
+		}
+		
+		
+		NWA_eddison_tollett = {
+			add_country_leader_role = {
+				ideology = CR_subideology
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				ideology = NR_subideology
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				ideology = DR_subideology
+				promote_leader = yes
+			}
 		}
 		
 		#Event for Jon to take control of the north
@@ -25833,10 +25874,23 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country738 
  
     trigger = { 
-        tag = CRO 
+        tag = TAR
 		date > 1943.12.31
         date < 1950.1.1
-		NOT = { has_war_with = TAR }
+		142 = {
+			is_controlled_by_ROOT_or_subject = yes
+		}
+		TAR = { 
+			has_country_leader = {
+				name = "Jon Snow"
+				ruling_only = yes
+			}
+			has_civil_war = no
+		}
+		OR = {
+			CRO = { exists = no }
+			CRO = { is_subject_of = TAR }
+		}
     } 
  
     fire_only_once = yes 
@@ -25845,10 +25899,189 @@ country_event = {
         name = GOT_Story_Country.738.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 85 
         } 
+		
+			#If TAR is a faction leader, the faction is disbaned
+			if = {
+				limit = {
+					is_faction_leader = yes
+				}
+				dismantle_faction = yes
+			}
+
+			#If TAR is a faction member, but not the leader, then he just leaves
+			if = {
+				limit = {
+					is_in_faction = yes
+				}
+				leave_faction = yes
+			}
+		
+			if = {
+				limit = { 
+					NOT = { country_exists = CRO }
+				}
+				set_global_flag = GOT_CRO_Resurrected_Flag
+			}
  
-		#SPECIAL ATTENTION
+			hidden_effect = {
+				release = CRO
+				end_puppet = CRO
+				every_state = {
+					limit = {
+						OR = {
+							state = 22
+							state = 113
+							state = 108
+							state = 234
+							state = 103
+							state = 232
+							state = 112
+							state = 109
+							state = 142
+						}
+						OR = {
+							is_owned_by = ROOT
+							owner = { is_subject_of = ROOT }
+							is_controlled_by = ROOT
+							controller = { is_subject_of = ROOT }
+						}
+					}
+					transfer_state_to = CRO
+				}
+
+				CRO = {
+					if = {
+						limit = {
+							NOT = { has_government = communism }
+						}
+						set_politics = {
+							ruling_party = communism
+						}
+					}
+					add_popularity = {
+						popularity = 0.50
+						ideology = communism
+					}
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = TAR
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = TAR
+					}	
+					inherit_technology = TAR
+					if = {
+						limit = { 
+							has_global_flag = GOT_CRO_Resurrected_Flag
+						}
+						load_oob = "CRO_Bran"
+					}
+					CRO_cersei_lannister = {
+						retire = yes
+					}
+					CRO_joffrey_baratheon = {
+						retire = yes
+					}
+					CRO_Tommen_Baratheon = {
+						retire = yes
+					}
+					CRO_Myrcella_Baratheon = {
+						retire = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = NR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = FR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = CR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = DR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					create_faction = "The Six Kingdoms"
+					every_other_country = { 
+						limit = { 
+							GOT_Is_Seven_Kingdoms_Country = yes
+							NOT = {
+								original_tag = NOR
+							} 
+							NOT = {
+								is_in_faction_with = CRO
+							} 
+						} 
+						country_event = { 
+							id = GOT_Diplomatic_Country.98
+							hours = 6 
+						} 
+					}
+				}			
+			}
+		
+		NWA = {		
+			country_event = { 
+				id = GOT_Story_Country.740
+				hours = 6 
+			} 	
+		}
+		
+		NOR = {		
+			country_event = { 
+				id = GOT_Story_Country.739
+				hours = 6 
+			} 	
+		}
  
         every_other_country = { 
             limit = { 
@@ -25860,6 +26093,211 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.738.b 
+ 
+        ai_chance = { 
+            factor = 15 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+		
+			if = {
+				limit = {
+					is_in_faction = no
+				}
+				create_faction = "The True Heir"
+			}	
+		
+			if = {
+				limit = { 
+					NOT = { country_exists = CRO }
+				}
+				set_global_flag = GOT_CRO_Resurrected_Flag
+			}
+ 
+			hidden_effect = {
+				release = CRO
+				end_puppet = CRO
+				every_state = {
+					limit = {
+						OR = {
+							state = 22
+							state = 113
+							state = 108
+							state = 234
+							state = 103
+							state = 232
+							state = 112
+							state = 109
+							state = 142
+						}
+						OR = {
+							is_owned_by = ROOT
+							owner = { is_subject_of = ROOT }
+							is_controlled_by = ROOT
+							controller = { is_subject_of = ROOT }
+						}
+					}
+					transfer_state_to = CRO
+				}
+
+				CRO = {
+					if = {
+						limit = {
+							NOT = { has_government = communism }
+						}
+						set_politics = {
+							ruling_party = communism
+						}
+					}
+					add_popularity = {
+						popularity = 0.50
+						ideology = communism
+					}
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = TAR
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = TAR
+					}	
+					inherit_technology = TAR
+					if = {
+						limit = { 
+							has_global_flag = GOT_CRO_Resurrected_Flag
+						}
+						load_oob = "CRO_Bran"
+					}
+					CRO_cersei_lannister = {
+						retire = yes
+					}
+					CRO_joffrey_baratheon = {
+						retire = yes
+					}
+					CRO_Tommen_Baratheon = {
+						retire = yes
+					}
+					CRO_Myrcella_Baratheon = {
+						retire = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = NR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = FR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = CR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = CRO_Bran_Stark
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = DR_subideology
+							traits = {
+								gentle_scholar
+								constitutional_monarch
+								infirm
+								#voice_of_restraint
+							}
+						}
+						promote_leader = yes
+					}
+					create_faction = "The Six Kingdoms"
+					every_other_country = { 
+						limit = { 
+							GOT_Is_Seven_Kingdoms_Country = yes
+							NOT = {
+								original_tag = NOR
+							} 
+							NOT = {
+								is_in_faction_with = CRO
+							} 
+						} 
+						country_event = { 
+							id = GOT_Diplomatic_Country.100
+							hours = 6 
+						} 
+					}
+				}			
+			}
+			
+		declare_war_on = {
+			target = CRO
+			type = civil_war
+		}	
+		
+		NOR = {		
+			country_event = { 
+				id = GOT_Diplomatic_Country.99
+				hours = 6 
+			} 	
+		}
+		
+		if = {
+			limit = { 
+				has_global_flag = GOT_Dany_Murdered_Flag
+				NOT = { has_global_flag = GOT_Unsullied_Civil_War_Flag }
+			}
+			set_global_flag = GOT_Unsullied_Civil_War_Flag
+			start_civil_war = {
+				ideology = fascism
+				size = 0.40
+			}
+			every_other_country = { 
+				limit = { 
+					exists = yes 
+				} 
+				news_event = { 
+					id = GOT_Diplomatic_News.42 
+					hours = 6 
+				} 
+			}
+		}
+ 
+    } 
+	
 } 
  
 # 738 — Bran Stark is Elected King
@@ -25883,24 +26321,29 @@ country_event = {
     desc = GOT_Story_Country.739.d 
     picture = GFX_report_event_GOT_Story_Country739 
  
-    trigger = { 
-        tag = NOR 
-		date > 1943.12.31
-        date < 1950.1.1
-		NOT = { has_war_with = CRO }
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes 
  
     option = { 
         name = GOT_Story_Country.739.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 80 
         } 
  
-        add_stability = 0.1 
-        add_political_power = 125
+			if = {
+				limit = {
+					NOT = { has_government = fascism }
+				}
+				set_politics = {
+					ruling_party = fascism
+				}
+			}
+			add_popularity = {
+				popularity = 0.50
+				ideology = fascism
+			}
+			
+		create_faction = "The Kingdom of the North"
  
         every_other_country = { 
             limit = { 
@@ -25912,6 +26355,65 @@ country_event = {
             } 
         } 
     } 
+	
+	option = {
+		name = GOT_Story_Country.739.b
+		
+		ai_chance = { 
+            base = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        }
+		
+			if = {
+				limit = {
+					has_war_with = CRO
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = CRO
+						is_faction_leader = yes
+					}
+				   country_event = {
+						id = BPD_Better_Peace_Deals_Country.200
+						hours = 1
+					}
+				}
+			}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+	
+		
+	}
 } 
  
 # 739 — Sansa Stark Becomes Queen in the North
@@ -25935,14 +26437,7 @@ country_event = {
     desc = GOT_Story_Country.740.d 
     picture = GFX_report_event_GOT_Story_Country740 
  
-    trigger = { 
-        tag = NOR 
-		date > 1943.12.31
-        date < 1950.1.1
-		NOT = { has_war_with = CRO }
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes
  
     option = { 
         name = GOT_Story_Country.740.a 
@@ -25951,7 +26446,16 @@ country_event = {
             factor = 10 
         } 
  
-		#SPECIAL ATTENTION
+		NWA_jon_snow = {
+			add_country_leader_role = {
+				ideology = CR_subideology
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				ideology = NR_subideology
+				promote_leader = yes
+			}
+		}
  
         every_other_country = { 
             limit = { 

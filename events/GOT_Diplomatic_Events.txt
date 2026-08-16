@@ -8709,6 +8709,7 @@ country_event = {
 		else = {
 			random_list = {
 				55 = {
+					set_global_flag = GOT_Dany_Murdered_Flag
 				}
 
 				45 = {
@@ -8817,7 +8818,449 @@ country_event = {
     }
 } 
 
+#Event asking to Bran Stark Faction
+country_event = {
+	id = GOT_Diplomatic_Country.98
+	title = GOT_Diplomatic_Country.98.t
+	desc = GOT_Diplomatic_Country.98.d
+	picture = GFX_report_event_Red_Keep
 
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.98.a
+		
+		ai_chance = { 
+            base = 85
+        }
+		
+			if = {
+				limit = {
+					has_war_with = CRO
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = CRO
+						is_faction_leader = yes
+					}
+				   country_event = {
+						id = BPD_Better_Peace_Deals_Country.200
+						hours = 1
+					}
+				}
+			}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+	
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.98.b
+		
+		ai_chance = { 
+            base = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}			
+        }
+		add_war_support = -0.05
+	}
+}
+
+# 739 — Sansa Stark Becomes Queen in the North
+country_event = { 
+    id = GOT_Diplomatic_Country.99 
+    title = GOT_Diplomatic_Country.99.t 
+    desc = GOT_Diplomatic_Country.99.d 
+    picture = GFX_report_event_GOT_Story_Country739 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Diplomatic_Country.99.a 
+ 
+        ai_chance = { 
+            factor = 50 
+        } 
+ 
+			if = {
+				limit = {
+					NOT = { has_government = fascism }
+				}
+				set_politics = {
+					ruling_party = fascism
+				}
+			}
+			add_popularity = {
+				popularity = 0.50
+				ideology = fascism
+			}
+			
+		create_faction = "The Kingdom of the North"
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.739 
+                hours = 6 
+            } 
+        } 
+    } 
+	
+	option = {
+		name = GOT_Diplomatic_Country.99.b
+		
+		ai_chance = { 
+            base = 20
+        }
+		
+			if = {
+				limit = {
+					has_war_with = CRO
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = CRO
+						is_faction_leader = yes
+					}
+				   country_event = {
+						id = BPD_Better_Peace_Deals_Country.200
+						hours = 1
+					}
+				}
+			}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+	
+		
+	}
+	option = {
+		name = GOT_Diplomatic_Country.99.c
+		
+		ai_chance = { 
+            base = 20
+        }
+		
+			if = {
+				limit = {
+					NOT = { has_government = communism }
+				}
+				set_politics = {
+					ruling_party = communism
+				}
+			}
+			add_popularity = {
+				popularity = 0.50
+				ideology = communism
+			}
+			
+				add_country_leader_role = {
+					character = NOR_Sansa_Stark
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = CR_subideology
+						traits = { 
+							popular_figurehead 
+							political_dancer 
+							reluctant_veteran 
+							headstrong 
+							#disdain_for_politicians_2 
+							queen_of_the_people 
+							great_survivor 
+						}
+					}
+					promote_leader = yes
+				}
+		
+			if = {
+				limit = {
+					has_war_with = TAR
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = TAR
+						is_faction_leader = yes
+					}
+				   country_event = {
+						id = BPD_Better_Peace_Deals_Country.200
+						hours = 1
+					}
+				}
+			}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+	
+		
+	}
+} 
+
+Event asking to Bran Stark Faction
+country_event = {
+	id = GOT_Diplomatic_Country.100
+	title = GOT_Diplomatic_Country.100.t
+	desc = GOT_Diplomatic_Country.100.d
+	picture = GFX_report_event_Red_Keep
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.100.a
+		
+		ai_chance = { 
+            base = 60
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					CRO = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						CRO = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						CRO = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						CRO = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+        }
+		
+			if = {
+				limit = {
+					has_war_with = CRO
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = CRO
+						is_faction_leader = yes
+					}
+				   country_event = {
+						id = BPD_Better_Peace_Deals_Country.200
+						hours = 1
+					}
+				}
+			}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+	
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.100.b
+		
+		ai_chance = { 
+            base = 25
+			modifier = {
+				add = 20
+				OR = {
+					has_government = neutrality
+					TAR = { 
+						has_government = neutrality 
+					}
+					AND = {
+						has_government = communism
+						TAR = { 
+							has_government = communism 
+						}
+					}
+					AND = {
+						has_government = democratic
+						TAR = { 
+							has_government = democratic
+						}
+					}
+					AND = {
+						has_government = fascism
+						TAR = { 
+							has_government = fascism 
+						}
+					}
+				}
+			}
+        }
+		
+			if = {
+				limit = {
+					has_war_with = TAR
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = TAR
+						is_faction_leader = yes
+					}
+				   country_event = {
+						id = BPD_Better_Peace_Deals_Country.200
+						hours = 1
+					}
+				}
+			}
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = TAR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+	
+		
+	}
+	
+	option = {
+		name = GOT_Diplomatic_Country.100.c
+		
+		ai_chance = { 
+            base = 15		
+        }
+		add_war_support = -0.05
+	}
+}
 
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
