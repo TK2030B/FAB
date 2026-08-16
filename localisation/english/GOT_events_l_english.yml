@@ -5,6 +5,7 @@ GOT_Customize_Settings_tt:0 "§YCustomize Settings§!\nAllows you to adjust each
 GOT_Reccommended_SP_Settings_tt:0 "§YRecommended Singleplayer Settings§!\nEnables §YGOT Mode§! for a more realistic experience while keeping all custom features, such as Peace Deals and Coring, fully active."
 GOT_Reccommended_MP_Settings_tt:0 "§YRecommended Multiplayer Settings§!\nEnables §YGOT Mode§! and §YSandbox Mode§! for a dynamic and flexible experience. Peace Deals are restricted to player-to-player interactions only — AI will never accept them. All custom features, including Coring and Decision systems, remain fully active."
 GOT_Army_Shattered_tt:0 "§RWe will lose 50% of our divisions.§!"
+GOT_Army_Shattered_2_tt:0 "§RWe will lose 100% of our divisions.§!"
 
 
 GOT_TAR_DOT_Wedding_Flag:0 "Targaryen-Dothraki Marriage"
@@ -56,6 +57,7 @@ GOT_Wildling_Army_Shattered_Flag:0 "Wildling Army Shattered"
 GOT_Jon_Snow_Murdered_Flag:0 "Jon Snow Murdered"
 GOT_Dany_Sails_West_Flag:0 "Danaerys Sails West"
 GOT_League_of_Free_Cities_Flag:0 "League of Free Cities Created"
+GOT_Dragonglass_Found_Flag:0 "Dragonglass deposits have been discovered at Dragonstone"
 
 Game_Event.1.t:0 "Welcome (1/5)"
 Game_Event.1.d:0 "First of all, I’d like to extend my deepest thanks to §RRoemer9§!—without him and his *Westeros at War* mod, as well as §RMaestro§! and his *Old Europe 1300* mod, this project would not have been possible.\n\nI hope you enjoy playing this mod as much as I enjoyed making it. It’s still a work in progress, but it’s fully playable and should provide a fun and immersive experience from the beginning to the end of the series.\n\nDon’t forget to §Rjoin the Discord§! to share your feedback, discuss strategies, or just chat with fellow players.\n\nMost importantly—§Rhave fun!§!\n\n§R- TK2030§!"
@@ -3231,14 +3233,13 @@ GOT_Story_News.541.d: "Fields of corpses steam beneath new‑fallen snow as the 
 GOT_Story_News.541.a: "The North is free."
 
 # 542 — Ramsay Bolton’s Fate
-GOT_Story_Country.542.t: "Hounds Turned on Master"
-GOT_Story_Country.542.d: "Chained in his own kennels, Ramsay met the hunger he’d long stoked. Sansa watched, expression cold as winter, while his hounds devoured him."
-GOT_Story_Country.542.a: "Publicize his death—boost Northern morale"
-GOT_Story_Country.542.b: "Keep details quiet—avoid gruesome legend"
+ GOT_Story_Country.542.t:0 "Justice at Winterfell: The Bastard's End"
+ GOT_Story_Country.542.d:0 "The flayed banners of House Bolton have been torn from the courtyard walls, replaced once more by the Direwolf of Stark. Below the castle, bound in iron in his own cold kennels, Ramsay Bolton faces the very cruelty he inflicted upon the North. Lady Sansa stands alongside the Northern lords, her face as unrelenting as the coming winter, as his own ravenous hounds are loosed upon their master. His screams echo through the stone halls—a gruesome end to a tyrant, and a clear signal that the North remembers."
+ GOT_Story_Country.542.a:0 "Proclaim his execution across the North!"
 
-GOT_Story_News.542.t: "Bastard of Bolton Devoured"
-GOT_Story_News.542.d: "Tales spread of poetic justice in Winterfell’s kennels; the terror of the North is no more."
-GOT_Story_News.542.a: "Fear feeds itself."
+ GOT_Story_News.542.t:0 "A Tyrant Devoured: The Bastard of Bolton Falls"
+ GOT_Story_News.542.d:0 "Riders and raven-scrolls arriving from the North bring grim tidings of the fall of Winterfell. Ramsay Bolton, the sadistic warden who held the North through fear and blood, is dead. Reports from the castle speak of poetic justice: defeated on the battlefield by Jon Snow and Sansa Stark, the Lord of the Dreadfort was cast into his own kennels and devoured alive by the wild hounds he starved for his enemies. Across Westeros, the gruesome end of House Bolton signals a seismic shift—the Direwolf once more rules the North, and the age of quiet terror is at an end."
+ GOT_Story_News.542.a:0 "The North remembers—and the realm takes notice."
 
 # 543 — Death of Rickon Stark
 GOT_Story_Country.543.t: "An Arrow Too Swift"
@@ -3302,14 +3303,13 @@ GOT_Story_News.548.d: "Frey blood stains the hall where guests once bled. A lone
 GOT_Story_News.548.a: "Old debts paid in kind."
 
 # 549 — King in the North
-GOT_Story_Country.549.t: "The White Wolf Crowned"
-GOT_Story_Country.549.d: "Lyanna Mormont’s voice rang loud, and blades struck shields—‘The King in the North!’ They named me, uniting Stark, Vale, and free folk beneath one banner."
-GOT_Story_Country.549.a: "Fortify the North—prepare for the Night King"
-GOT_Story_Country.549.b: "Send envoys south—seek broader alliances"
+ GOT_Story_Country.549.t:0 "The White Wolf Crowned"
+ GOT_Story_Country.549.d:0 "The blood-soaked fields outside Winterfell have settled, and the flayed man banners have been torn down and burned. For the first time in years, the grey direwolf of House Stark flies proudly once more above the ancient granite walls. In the Great Hall, as Northern lords, Knights of the Vale, and Free Folk leaders bickered over past betrayals and broken oaths, ten-year-old Lyanna Mormont silenced the room, declaring Jon Snow the King in the North—the White Wolf who bears the blood of Ned Stark. One by one, drawn steel rang against timber and shield as the hall erupted in thunderous unison. The North is unified at last, but the true war still looms beyond the Wall."
+ GOT_Story_Country.549.a:0 "The King in the North!"
 
-GOT_Story_News.549.t: "Northern Lords Hail a New King"
-GOT_Story_News.549.d: "From Bear Island to the Fingers, a risen Stark rallies men against winter’s march."
-GOT_Story_News.549.a: "A crown of snow and resolve."
+ GOT_Story_News.549.t:0 "Northern Lords Hail a New King"
+ GOT_Story_News.549.d:0 "Riders pounding down the Kingsroad bring astonishing dispatches from Winterfell: House Bolton has been broken, and the ancient seat of the North has returned to the blood of Stark. Amidst a fractured coalition of northern houses, knights of the Vale, and wildling chieftains, a new monarch has been raised upon the shield. Rallying the realm against the bitter frosts and the mounting terror of the Long Night, Jon Snow has been crowned King in the North. From Bear Island to the Neck, the direwolf banner flies high once more, signaling that the North is united—and bracing for the war to end all wars."
+ GOT_Story_News.549.a:0 "A crown of snow and resolve."
 
 # 550 — Daenerys Sails West
 GOT_Story_Country.550.t: "Winds Fill Dragon Sails"
@@ -3488,14 +3488,13 @@ GOT_Story_News.616.d: "The Lannister queen repays Dornish murder with cruel symm
 GOT_Story_News.616.a: "The Lion’s wrath is slow—but sure."
 
 # 617 — Fall of Highgarden
-GOT_Story_Country.617.t: "A Golden Rose Wilts"
-GOT_Story_Country.617.d: "We marched through the Reach, seized Highgarden’s vaults of gold. Olenna drank my poison, confessing Joffrey’s murder with her last breath."
-GOT_Story_Country.617.a: "Redirect gold to crown—boost treasury"
-GOT_Story_Country.617.b: "Pay Iron Bank—gain financial backing, lose some gold"
-
-GOT_Story_News.617.t: "Tyrell Power Toppled"
-GOT_Story_News.617.d: "Lannister banners fly over Highgarden; the fabled coffers now fund the Iron Throne."
-GOT_Story_News.617.a: "A queen without grain."
+ GOT_Story_Country.617.t:0 "The Fall of Highgarden"
+ GOT_Story_Country.617.d:0 "The white walls of Highgarden have failed us. Abandoned by our bannermen and betrayed from within by Lord Tarly, our forces were overwhelmed by the combined host of Casterly Rock. As Lannister soldiers pillage our ancient vaults and strip our fields bare, Jaime Lannister marched into the castle keep to confront Lady Olenna. Denied a violent execution, the Queen of Thorns drank the poisoned wine offered to her—but not before striking one final, venomous blow, confessing to Joffrey’s murder and ensuring her killer knew it was her. The golden rose of Tyrell has been severed, and the wealth of the Reach now marches east in iron chests to pay the crown's debts."
+ GOT_Story_Country.617.a:0 "Highgarden has fallen... but our poison lingers."
+ 
+ GOT_Story_News.617.t:0 "The Golden Rose Severed: Highgarden Sacked"
+ GOT_Story_News.617.d:0 "Shocking news sweeps across the Seven Kingdoms: Highgarden, the ancient seat of House Tyrell and the granary of Westeros, has fallen. Marching alongside Randyll Tarly and turncoat Reach lords, Jaime Lannister led a surprise offensive that breached the castle walls and crushed the Tyrell defenders. Highgarden's legendary vaults have been stripped bare to settle the crown's staggering debts to the Iron Bank, while Lady Olenna Tyrell was forced to drink poison in her own chambers. With the Queen of Thorns dead and the golden rose severed, the vast wealth and fertile lands of the Reach have been ripped away from Daenerys Targaryen's coalition in a single swift stroke."
+ GOT_Story_News.617.a:0 "The Rose has withered, and Casterly Rock claims the bounty."
 
 # 618 — Bran Comes Home
 GOT_Story_Country.618.t: "Three‑Eyed Raven in Winterfell"
@@ -3658,14 +3657,13 @@ GOT_Story_News.633.d: "Rumors seep that Stark unity frays under old Lannister le
 GOT_Story_News.633.a: "Divide and conquer?"
 
 # 634 — Queen’s New Heir?
-GOT_Story_Country.634.t: "Cersei’s Unborn Promise"
-GOT_Story_Country.634.d: "I told Jaime the child I bear will be acknowledged as his—an heir to bind loyalties and defy prophecy."
-GOT_Story_Country.634.a: "Proclaim pregnancy—boost Lannister legitimacy, increase Faith Militant ire"
-GOT_Story_Country.634.b: "Keep secret—maintain intrigue bonus, smaller legitimacy gain"
+ GOT_Story_Country.634.t:0 "Cersei's Unborn Promise"
+ GOT_Story_Country.634.d:0 "Behind the thick stone walls of the Red Keep, Queen Cersei has revealed a staggering truth to Jaime: she is with child. defying the blood-soaked prophecy of the woodswitch who foresaw the death of all her children, Cersei intends to claim this unborn heir as Jaime's trueborn child, using the pregnancy to bind his wavering allegiance and cement Lannister dominance over the Iron Throne. Yet, word of a new royal child is a double-edged sword: while it grants a surge of legitimacy to a desperate dynasty, it risks fanning the flames of religious zealotry and highborn suspicion across King's Landing."
+ GOT_Story_Country.634.a:0 "Proclaim the pregnancy!"
 
-GOT_Story_News.634.t: "Lioness with Cub on the Way"
-GOT_Story_News.634.d: "Reports swirl that the Queen carries another heir—though whispers question the father’s name."
-GOT_Story_News.634.a: "The court buzzes."
+ GOT_Story_News.634.t:0 "A Lion Cub on the Horizon: Cersei's Pregnancy"
+ GOT_Story_News.634.d:0 "Whispers from the court in King's Landing have erupted into open scandal across Westeros: Queen Cersei Lannister is bearing a child. Following the tragic deaths of Joffrey, Myrcella, and Tommen, the promise of a new Lannister heir sent shockwaves through every noble house. While loyalists celebrate the continuation of the royal line, political rivals and religious fundamentalists openly question the child's true parentage. In taverns and council chambers from Oldtown to White Harbor, the court buzzes with dark speculation over whether this child will secure the Iron Throne or drag it deeper into ruin."
+ GOT_Story_News.634.a:0 "The court buzzes with treacherous speculation."
 
 # 635 — Departure from the Citadel
 GOT_Story_Country.635.t: "Enough of Dust and Doubt"
@@ -3779,14 +3777,14 @@ GOT_Story_News.645.d: "Shattering revelation spreads through halls and taverns a
 GOT_Story_News.645.a: "Crowns tremble."
 
 # 646 — The End of Littlefinger
-GOT_Story_Country.646.t: "Baelish on Trial"
-GOT_Story_Country.646.d: "Sansa turns the tables, Arya draws the blade, and the master schemer’s throat opens on Winterfell’s cold stone."
-GOT_Story_Country.646.a: "Execute him—remove Intrigue debuff, gain Stark unity"
-GOT_Story_Country.646.b: "Spare for secrets (non‑canon alt)—gain espionage intel, retain instability"
+ GOT_Story_Country.646.t:0 "The Mockingbird's Last Scheme"
+ GOT_Story_Country.646.d:0 "For months, Lord Petyr Baelish has moved through the shadows of Winterfell, whispering poison to turn sister against sister and fracture the Northern coalition. But today, before the assembled lords of the North and the Vale, Lady Sansa called the court to order. What Baelish believed to be Arya's execution quickly inverted into his own trial: Sansa laid bare a lifetime of his treasons, while Lord Bran recounted the exact words Baelish uttered when betraying Ned Stark in King's Landing. Dropping to his knees on the cold stone, the master manipulator now weeps and begs for mercy, offering every secret and whisper in his possession in exchange for his life. With Arya standing behind him, blade drawn, all eyes turn to Sansa for the verdict."
+ GOT_Story_Country.646.a:0 "Execute the traitor!"
+ GOT_Story_Country.646.b:0 "Spare him for his secrets..."
 
-GOT_Story_News.646.t: "Lord Baelish Meets Stark Justice"
-GOT_Story_News.646.d: "The elusive spider of court vanished in a heartbeat of northern steel. Power vacuums follow."
-GOT_Story_News.646.a: "Chaos no longer his ladder."
+ GOT_Story_News.646.t:0 "Lord Baelish Slain"
+ GOT_Story_News.646.d:0 "Word from the far North reports the sudden and shock execution of Lord Petyr Baelish. For years, the master manipulator navigated the halls of King’s Landing, traded titles across the Seven Kingdoms, and secured the Lord Protectorship of the Vale through blood and cunning. Yet, his scheming reached an abrupt end in the Great Hall of Winterfell. Brought before Lady Sansa Stark and accused of multiple counts of treason and murder, the realm's most dangerous spider was cut down on the spot by Northern steel. With his death, the intricate web of debt, alliances, and political extortion he wove across Westeros has unraveled overnight, leaving a massive power vacuum in his wake."
+ GOT_Story_News.646.a:0 "Chaos was his ladder..."
 
 # 647 — A Kingslayer’s Departure
 GOT_Story_Country.647.t: "Jaime Breaks with Cersei"
@@ -3953,14 +3951,13 @@ GOT_Story_News.714.d: "Winterfell’s defenders steel themselves for a war unlik
 GOT_Story_News.714.a: "The fate of kingdoms hangs in balance."
 
 # 715 — Arya Defeats the Night King
-GOT_Story_Country.715.t: "The Night Falls"
-GOT_Story_Country.715.d: "In the godswood, Arya Stark delivers the fatal blow to the Night King with a Valyrian steel dagger, ending the undead threat."
-GOT_Story_Country.715.a: "Victory over the dead—morale soars."
-GOT_Story_Country.715.b: "Heavy losses—resources low."
+ GOT_Story_Country.715.t:0 "Dawn at the Edge of Extinction"
+ GOT_Story_Country.715.d:0 "The Long Night brought a nightmare to Winterfell’s ancient stone walls. Thousands fell to the relentless wave of wights, and as the cold mist swallowed the godswood, the Night King raised his hand to end the reign of living men forever. But from the shadows stepped Arya Stark. With a single, decisive strike from a Valyrian steel dagger, the ancient terror shattered into dust. In an instant, the endless swarm crumbled, the freezing winds died down, and the morning sun broke over a battered but victorious North. The realm of the living endures."
+ GOT_Story_Country.715.a:0 "The Long Night is ended!"
 
-GOT_Story_News.715.t: "The Long Night Ends"
-GOT_Story_News.715.d: "Arya Stark’s daring strike shatters the Night King and his army, bringing hope to the living."
-GOT_Story_News.715.a: "Winter fades; dawn breaks."
+ GOT_Story_News.715.t:0 "Dawn Breaks: The Long Night Ends"
+ GOT_Story_News.715.d:0 "Ravens carrying desperate dispatches from the North have arrived across the realm, bringing news that borders on the miraculous. At the gates of Winterfell, where the army of the dead threatened to swallow the world of living men, the Great War reached its terrifying climax. It was Arya Stark who delivered the killing blow, driving a Valyrian steel blade into the Night King himself. In a single heart-stopping moment, the dark lord turned to ice-shards, and the vast undead horde collapsed into lifeless dust. The unnatural winter recedes, and for the first time in millennia, the realm looks toward the dawn without fear."
+ GOT_Story_News.715.a:0 "Dawn rises over Westeros!"
 
 # 716 — Theon’s Redemption and Death
 GOT_Story_Country.716.t: "The Last Stand of the Greyjoy"
@@ -4063,14 +4060,13 @@ GOT_Story_News.725.d: "The revelation shakes the foundations of power in Westero
 GOT_Story_News.725.a: "Alliances may shift dramatically."
 
 # 726 — Gendry Legitimized as Lord of Storm's End
-GOT_Story_Country.726.t: "The Baratheon Reborn"
-GOT_Story_Country.726.d: "Daenerys legitimizes Gendry as Lord Baratheon of Storm's End, securing his loyalty."
-GOT_Story_Country.726.a: "Strengthen Daenerys’s claim."
-GOT_Story_Country.726.b: "Gain Stormlands’ support."
+ GOT_Story_Country.726.t:0 "A Baratheon Reborn"
+ GOT_Story_Country.726.d:0 "The Baratheons were once the ruin of House Targaryen, usurping the Iron Throne and driving our bloodline into exile. Yet the last son of Robert Baratheon sits not on a throne, but at a blacksmith's forge, having fought valiantly alongside our forces in the Great War. By raising Gendry from bastardy to the Lordship of Storm's End, we do more than reward loyalty—we break the old wheel of hatred. In a single royal decree, the historic seat of the Stormlands is bound to our crown, transforming the legacy of the Usurper into a cornerstone of House Targaryen's new order."
+ GOT_Story_Country.726.a:0 "The Stormlands are ours."
 
-GOT_Story_News.726.t: "New Lord of Storm's End"
-GOT_Story_News.726.d: "Gendry takes his place among Westeros’s nobility."
-GOT_Story_News.726.a: "A new player in the game of thrones."
+ GOT_Story_News.726.t:0 "A Bastard Raised: The Lord of Storm's End"
+ GOT_Story_News.726.d:0 "Astonishing word spreads from the Targaryen camp: Queen Daenerys Targaryen has issued a royal decree legitimizing Gendry, the last surviving bastard son of King Robert Baratheon. Raised as an unregarded blacksmith’s apprentice in Flea Bottom, Gendry has been formally bestowed the Baratheon name and elevated to Lord of Storm's End. Across the Seven Kingdoms, lords and ladies digest the political shockwave: the historic seat of House Baratheon, left vacant by years of war and bloodshed, now belongs to a fiercely loyal vassal of the Dragon Queen. The old rivalry between Dragon and Stag has ended not in blood, but in a binding oath of fealty."
+ GOT_Story_News.726.a:0 "A Stag reborn to serve the Dragon."
 
 # 727 — Jaime Leaves Brienne
 GOT_Story_Country.727.t: "The Lion’s Return"
@@ -4163,24 +4159,24 @@ GOT_Story_News.735.d: "Witnessing the devastation, Jon questions the future unde
 GOT_Story_News.735.a: "Seeds of dissent are sown."
 
 # 736 — Jon Snow Kills Daenerys Targaryen
-GOT_Story_Country.736.t: "A Heartbreaking Choice"
-GOT_Story_Country.736.d: "Jon Snow confronts and fatally stabs Daenerys to stop her from further tyranny, despite his love for her."
-GOT_Story_Country.736.a: "End of Daenerys’s reign."
-GOT_Story_Country.736.b: "Jon’s moral burden."
+ GOT_Story_Country.736.t:0 "A Heartbreaking Choice"
+ GOT_Story_Country.736.d:0 "The ashes of King's Landing still choke the sky, but Queen Daenerys Targaryen looks toward the horizon, proclaiming a world-spanning war to 'liberate' every corner of the Known World. In the quiet halls of the Red Keep, Jon Snow stands at an unbearable crossroads. Tyrion languishes in chains, Sansa's warnings ring in his ears, and the Northern lords demand protection before dragonfire turns toward Winterfell. To embrace his duty to the realm and save his people from a new tyrant, Jon must commit the ultimate betrayal—stabbing the woman he loves before her conquest consumes the earth."
+ GOT_Story_Country.736.a:0 "Strike down the Dragon Queen."
+ GOT_Story_Country.736.b:0 "We cannot murder our Queen."
 
-GOT_Story_News.736.t: "The Dragon’s Fall"
-GOT_Story_News.736.d: "The realm is shaken as Jon Snow kills the Dragon Queen."
-GOT_Story_News.736.a: "A fragile hope for peace begins."
+ GOT_Story_News.736.t:0 "A Blade in the Shadow of Dragons"
+ GOT_Story_News.736.d:0 "Confused dispatches and frantic rumors pour out from the smoldering ruins of King's Landing: an attempt has been made on the life of Queen Daenerys Targaryen. Eyewitnesses report a bloody confrontation in the scorched Great Hall of the Red Keep between the Dragon Queen and Jon Snow, the King in the North. As shouting echoed through the ashes, Drogon let out a deafening roar and descended upon the throne room before taking flight into a cloud of smoke and fire. With Unsullied guards locking down the ruined city gates and Northern cohorts drawing steel, no one can confirm whether the Queen survived the blade or if the White Wolf was slain on the spot. Westeros holds its breath as the realm balances on the razor's edge between a sudden peace and total annihilation."
+ GOT_Story_News.736.a:0 "The realm holds its breath for word from the Red Keep."
 
 # 737 — Drogon Destroys the Iron Throne
-GOT_Story_Country.737.t: "Fire Upon the Throne"
-GOT_Story_Country.737.d: "Grieving Drogon melts the Iron Throne with dragonfire, ending the Targaryen claim to power, then flies away with Daenerys’s body."
-GOT_Story_Country.737.a: "Symbolic destruction of tyranny."
-GOT_Story_Country.737.b: "Uncertain future for Westeros."
+ GOT_Story_Country.737.t:0 "Fire Upon the Throne"
+ GOT_Story_Country.737.d:0 "The silence after the strike is shattered by a shadow blocking out the ruined roof—Drogon has descended. The great beast nudges the lifeless body of his mother, letting out a roar of terrible, grief-stricken rage that shakes the foundations of King's Landing. Jon Snow stands ready to die in dragonfire, but Drogon's fury does not turn upon him. Instead, the dragon unleashes a torrent of white-hot flame directly onto the Iron Throne itself—the jagged seat of conquerors and tyrants that cost Daenerys her life. As the ancient steel twists, melts, and flows like slag across the stone floor, Drogon gently gathers the Queen in his talons and takes flight toward the eastern sea, leaving the North and the shattered realm standing in the ashes of an unknown world."
+ GOT_Story_Country.737.a:0 "The seat of tyrants is reduced to ash and slag."
+ GOT_Story_Country.737.b:0 "The dragon is gone... but what becomes of the realm?"
 
-GOT_Story_News.737.t: "The Iron Throne Reduced to Molten Metal"
-GOT_Story_News.737.d: "The iconic throne is destroyed, signaling the end of an era."
-GOT_Story_News.737.a: "The realm looks to rebuild."
+ GOT_Story_News.737.t:0 "The Iron Throne Reduced to Molten Metal"
+ GOT_Story_News.737.d:0 "Word spreads like wildfire across the Seven Kingdoms: the Iron Throne—the sharp, towering seat forged three centuries ago by Aegon the Conqueror from the blades of his fallen enemies—is no more. Eyewitnesses among the surviving guards in King's Landing report that following the death of Queen Daenerys, her last dragon unleashed a searing, grieving inferno upon the throne room itself. The legendary chair was reduced to a glowing pool of slumping steel before the beast took flight toward the sunrise. For three hundred years, thousand swords bound by dragonfire dictated the fate of millions; today, only a cold, blackened scar remains upon the stone. Without a throne to claim or a dragon to enforce it, the old order has crumbled entirely, leaving the lords paramount and the common folk alike to face a brave, uncertain new world."
+ GOT_Story_News.737.a:0 "A new era dawns over the ashes of the old."
 
 # 738 — Bran Stark is Elected King
 GOT_Story_Country.738.t: "The Broken Wheel Replaced"
@@ -4253,16 +4249,16 @@ GOT_Story_News.744.t: "Civil War Erupts in the Reach"
 GOT_Story_News.744.d: "The Reach has descended into civil war following the destruction of the Great Sept of Baelor. With House Tyrell's leadership shattered, rival factions have proclaimed Lady Olenna Tyrell and Lord Randyll Tarly as the rightful rulers of Highgarden. Armies now march beneath competing banners as one of Westeros' richest and most powerful kingdoms tears itself apart. The outcome of the conflict will determine not only the fate of Highgarden, but the balance of power throughout the Seven Kingdoms."
 GOT_Story_News.744.a: "The fields of the Reach shall run red."
 
-# 745 — The Great Northern Civil War
-GOT_Story_Country.745.t: "The Great Northern Civil War"
-GOT_Story_Country.745.d: "The banners of the direwolf have been raised once more. With Jon Snow and Sansa Stark reunited, the surviving loyalists of House Stark have answered their call, joined by Free Folk and those northern houses unwilling to accept Bolton rule. From Winterfell, Ramsay Bolton has gathered his own supporters, determined to crush the rebellion before it can gather strength. Once again, the North is engulfed by civil war, as Stark and Bolton prepare to decide the fate of the ancient kingdom upon the battlefield."
-GOT_Story_Country.745.a: "The Nights Watch Plays No Role"
-GOT_Story_Country.745.b: "We Will Lead The Northern Campaign"
+# 745 — Battle of the Bastards
+ GOT_Story_Country.745.t:0 "The Battle of the Bastards"
+ GOT_Story_Country.745.d:0 "The white direwolf banner flies once more above the snows of the North. Spearheaded by Jon Snow, Sansa Stark, and the wildling host that crossed the Wall, the surviving Stark loyalists have gathered outside Winterfell to challenge House Bolton's bloody grip on the realm. Occupying the high ground, Ramsay Bolton has assembled his own fearsome force of heavy flayed infantry and cavalry, determined to crush the uprising once and for all. As both armies draw their lines across the frozen fields, the commanders assemble their battle plans. The fate of Winterfell—and the entire North—hangs in the balance of the coming clash."
+ GOT_Story_Country.745.a:0 "Let the North decide its own fate."
+ GOT_Story_Country.745.b:0 "Lead the Northern campaign directly."
 
-# 745 — News
-GOT_Story_News.745.t: "Civil War Returns to the North"
-GOT_Story_News.745.d: "War has once again broken out across the North. Jon Snow and Sansa Stark have emerged from Castle Black to challenge House Bolton's rule over Winterfell, rallying northern loyalists and Free Folk beneath the direwolf banner. Ramsay Bolton has answered in kind, calling upon those houses that remain faithful to his rule. As armies march across the frozen countryside, the North stands poised to decide whether House Stark shall reclaim its ancestral home, or whether House Bolton will tighten its grip upon Winterfell."
-GOT_Story_News.745.a: "The wolves and flayed men march to war."
+# 745 — Battle of the Bastards
+ GOT_Story_News.745.t:0 "The Battle of the Bastards"
+ GOT_Story_News.745.d:0 "Ravens fly south carrying ominous dispatches from beyond the Neck: war has erupted across the snow-covered plains of Winterfell. Beneath the ancient direwolf banner, Jon Snow and Sansa Stark have gathered a desperate coalition of northern loyalists and wildling warriors to reclaim their ancestral seat. Arrayed against them stands Lord Ramsay Bolton, commanding a formidable host of heavy flayed infantry and armored horsemen. As both armies line up on the icy battlefield, the entire realm holds its breath, waiting to see if House Stark will rise from the ashes or if House Bolton's bloody reign over the North will be cemented forever."
+ GOT_Story_News.745.a:0 "The realm holds its breath."
 
 GOT_Story_Country.746.t: "A Debt Paid in Blood"
 GOT_Story_Country.746.d: "Jon Snow died so that our people could live, stabbed in the dark for letting us past the Wall. Now his kin march south to bleed against the Dreadfort's hounds, and the North hangs in the balance. We do not kneel to southron kings, but Tormund and the chiefs argue that we owe the crow our lives. Ramsay Bolton will hunt us down the moment the Starks fall—our choice is whether we fight as one under their banners, lend half our spears while keeping our own host, or stand separate as Free Folk and command our own war."
@@ -4282,6 +4278,14 @@ GOT_Story_Country.746.c: "We kneel to no man! We march, but under our own chiefs
  GOT_Story_News.747.t:0 "Savage Horde: The Wildlings Join the Fray"
  GOT_Story_News.747.d:0 "Unthinkable news has swept across the Seven Kingdoms. Following the bloody mutiny at Castle Black, the wildling host—once thought confined to the frozen wastes beyond the Wall—has officially drawn its weapons and entered the war for the North.\n\nLed by seasoned chieftains and bound by a blood debt to Jon Snow's loyalists, thousands of freefolk warriors have poured through the gates into the Gift. Clad in crude fur, bone, and stolen steel, these fierce wildlings care nothing for southern politics or feudal oaths. With an unpredictable, bloodthirsty army now marching through northern lands, every lord from the Last Hearth to the Neck must prepare for total chaos."
  GOT_Story_News.747.a:0 "An army of savages marching south... Gods help us."
+ 
+ GOT_Story_Country.748.t:0 "The Lion of Casterly Rock"
+ GOT_Story_Country.748.d:0 "For decades, Tywin Lannister swore that his dwarf son would never inherit the ancestral golden seat of Casterly Rock. Yet with the fall of the Westerlands and the collapse of Cersei's reign, the wheel of destiny turns. Tyrion Lannister has served our cause faithfully as Hand of the Queen, matching his sharp mind and political counsel against our deadliest foes. By formal royal decree, Queen Daenerys Targaryen reinstates Lord Tyrion as the rightful ruler of Casterly Rock and Warden of the West. Where his father saw a shameful disappointment, House Targaryen gains an invaluable administrator—and binds the proud, golden lion of the West to the Dragon Queen's throne."
+ GOT_Story_Country.748.a:0 "The West serves the Dragon."
+
+ GOT_Story_News.748.t:0 "The Imp Claims the Rock"
+ GOT_Story_News.748.d:0 "Shockwaves ripple across the Seven Kingdoms as Queen Daenerys Targaryen formalizes her victory in the West by installing Tyrion Lannister as Lord of Casterly Rock and Warden of the West. Condemned to death by his own kin and exiled across the Narrow Sea, the outcast son of Tywin Lannister has returned at the head of a dragon's host to claim the ancestral halls long denied to him. Across Westeros, great lords and common folk alike ponder the unprecedented shift: the formidable gold reserves and proud bannermen of Casterly Rock now stand beneath the banner of the Hand of the Dragon Queen."
+ GOT_Story_News.748.a:0 "The dwarf Tywin rejected now sits upon the Golden Throne."
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"
@@ -4792,6 +4796,15 @@ GOT_Diplomatic_Country.90.b: "A resurrected bastard holds no claim. We must look
  GOT_Diplomatic_Country.95.t:0 "Silence from the Freefolk"
  GOT_Diplomatic_Country.95.d:0 "The courtyard is a bloodbath. Surrounded and bleeding, our loyal brothers cast desperate glances toward the wildling encampment outside the gates, praying for Tormund's horn to sound. But no horn blows. No battle cry rings out through the cold air.\n\nWhether out of ancient mistrust for the Night's Watch or a unwillingness to spill blood for crow politics, the freefolk have chosen to stand by and watch us bleed. Cut off and completely isolated, we must rely solely on our own steel if we are to survive this night."
  GOT_Diplomatic_Country.95.a:0 "Then we fight and die as crows!"
+ 
+ GOT_Diplomatic_Country.96.t:0 "The Mockingbird Slain: Lord Arryn Takes Command"
+ GOT_Diplomatic_Country.96.d:0 "Word has arrived from the Great Hall of Winterfell of a swift and startling trial. Lord Petyr Baelish, who long governed the Eyrie as Lord Protector, was confronted by Lady Sansa and Lord Bran with a litany of past treasons—including the murder of Lysa Arryn. Caught in his own web of deceit, the Mockingbird was executed on the spot by Arya Stark. With Baelish eliminated, the shadowy influence over the Eyrie has vanished. In the aftermath, young Lord Robin Arryn has officially asserted his birthright, stepping forward to rule the Vale in his own name. The Knights of the Vale now answer solely to House Arryn once more."
+ GOT_Diplomatic_Country.96.a:0 "Honor our alliance with the North."
+ 
+ GOT_Diplomatic_Country.97.t:0 "The Dragon Queen Attacked"
+ GOT_Diplomatic_Country.97.d:0 "Shockwaves reverberate from the charred ruin of the Red Keep following a desperate, bloody act of betrayal. In the shadow of the scorched throne, Jon Snow turned his blade against Queen Daenerys Targaryen in an attempt to halt her promised conquest. Yet as word of the attempt spreads to the foreign courts and noble halls across the realm, every major power is forced to make a defining choice. To back Jon Snow is to stand with the North and risk the wrath of her remaining armies; to condemn him is to uphold Targaryen rule and the terrifying promise of her global crusade. Our lords gather in emergency council to declare where our allegiance lies."
+ GOT_Diplomatic_Country.97.a:0 "Side with Jon Snow"
+ GOT_Diplomatic_Country.97.b:0 "Side with Daenerys"
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
@@ -4922,6 +4935,14 @@ GOT_Diplomatic_News.41.t: "War Engulfs the North"
 GOT_Diplomatic_News.41.d: "Open war has erupted across the North as King Stannis Baratheon launches his campaign against House Bolton. Fighting alongside him is Jon Stark, formerly known as Jon Snow, who has renounced the Night's Watch after accepting the king's offer of legitimization. With northern loyalists rallying to the direwolf and Baratheon stag alike, Ramsay Bolton has gathered his own bannermen to defend Winterfell. The outcome of the conflict will determine not only who rules the North, but whether Stannis Baratheon's claim to the Iron Throne gains the decisive victory it so desperately needs."
 GOT_Diplomatic_News.41.a: "The stag and the direwolf march together."
 
+ GOT_Diplomatic_News.42.t:0 "Empire of Ashes: The Targaryen Schism"
+ GOT_Diplomatic_News.42.d:0 "Plumes of dark smoke rise over the ruins of King's Landing as open civil war erupts across Queen Daenerys’s fragile empire. Following the shocking assassination of the Dragon Queen, a deadly conflict for total control has pitted Jon Snow against the foreign host she brought across the Narrow Sea. Rallying Northern lords, Westerosi loyalists, and those who fear foreign rule, Jon Snow fights to break the dragon's grip on the realm. Standing against him, Grey Worm and the Unsullied—joined by Dothraki bloodriders and Targaryen loyalists—have locked down the capital, sworn to execute the Queen's final crusade and avenge her murder. As armies mobilize from the Crownlands to the North, the Great War gives way to a ruthless war of succession."
+ GOT_Diplomatic_News.42.a:0 "The Dragon's realm tears itself apart."
+ 
+ GOT_Diplomatic_News.43.t:0 "The Dragon Survives: War of the Two Dragons"
+ GOT_Diplomatic_News.43.d:0 "Shockwaves ripple across Westeros as word escapes the Red Keep: Queen Daenerys Targaryen has survived the assassination attempt by Jon Snow. Though wounded, the Dragon Queen has unleashed her full fury upon those who conspired against her, branding the King in the North a traitor to the realm. Refusing to yield to dragonfire, Jon Snow has rallied the northern lords, riverlords, and loyalist remnants under the banner of his true Targaryen lineage, framing the conflict as a final stand for the realm's survival. With Drogon circling the skies over the Crownlands and northern hosts marching south, the Seven Kingdoms are consumed by a devastating schism—a war between the Dragon Queen who brought fire and blood, and the White Wolf who would defy her."
+ GOT_Diplomatic_News.43.a:0 "Fire and blood meets the cold of winter."
+
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
 GOT_Alt_Country.1.a: "Celebrate the union and strengthen our claim to the Iron Throne"
@@ -4961,6 +4982,22 @@ GOT_Alt_News.6.a: "Another Khal rises from the ashes."
 GOT_Alt_News.7.t: "The Dragon Queen's Gambit Fails"
 GOT_Alt_News.7.d: "Rumors from Vaes Dothrak tell of a daring attempt by Daenerys Targaryen to burn the assembled khals alive within the Temple of the Dosh Khaleen. Yet the plot failed before the flames could claim their victims. The surviving khals denounced the foreign queen as a deceiver, forcing her to flee for her life. With the khalasars remaining united under their traditional leaders, the dream of a Targaryen-Dothraki alliance appears to have gone up in smoke."
 GOT_Alt_News.7.a: "The Dragon Queen's luck has run dry."
+
+ GOT_Alt_Country.8.t:0 "The Dark Falls Over Winterfell"
+ GOT_Alt_Country.8.d:0 "The strike came in a heartbeat—a flash of steel from the shadows of the weirwood tree. But the Night King was faster. Caught mid-air by the throat, Arya Stark was choked into silence before her Valyrian blade could find its mark. With a brutal snap, the living lost their last desperate gamble. As her body hit the snow, the White Walkers closed in around Bran, and the ancient iron gates of Winterfell finally gave way to the endless tide of wights. The North has fallen, and a cold, silent night descends across the world of men."
+ GOT_Alt_Country.8.a:0 "Fall back south!"
+ 
+ GOT_Alt_News.8.t:0 "The Army of the Dead Marches South"
+ GOT_Alt_News.8.d:0 "The terrifying rumors blowing in from the North have been confirmed: Winterfell has fallen. The living's last-ditch effort to slay the Night King in the godswood ended in tragic failure, as the assassin's strike was caught and broken. With the stark walls breached and the defenders swept away into the blizzard, the host of the dead swells with hundreds of thousands of fresh wights. There is no longer a Wall, nor a fortress in the North to stem the tide. The Endless Night rolls south toward the Riverlands and King's Landing, and the realm stands on the precipice of absolute doom."
+ GOT_Alt_News.8.a:0 "Gods protect us... the dead are coming."
+ 
+ GOT_Alt_Country.9.t:0 "Mercy in the Great Hall"
+ GOT_Alt_Country.9.d:0 "The air in Winterfell’s Great Hall turned to ice as Lady Sansa laid bare a lifetime of Lord Baelish's treasons, backed by the hauntingly precise visions of Bran Stark. Yet, as Arya’s Valyrian steel blade hovered at his throat, the weeping Lord Protector offered a final, desperate bargain: total submission, his vast spy networks across Westeros, and the full military backing of the Vale in the wars to come. Stripped of his leverage but granted his life, Lord Baelish returns to the Vale a humbled man—yet remarkably intact. Though his authority is tarnished, the Mockingbird still holds the Eyrie, and his web of secrets remains as dangerous as ever."
+ GOT_Alt_Country.9.a:0 "The Eyrie remains ours."
+
+ GOT_Alt_News.9.t:0 "Trial at Winterfell"
+ GOT_Alt_News.9.d:0 "Astonishing reports arrive from the North regarding the fate of Lord Petyr Baelish. Accused of treason and murder before the lords of the North and the Vale, the former Master of Coin stood on the brink of execution at the hands of House Stark. In a shocking display of clemency, however, Lady Sansa Stark spared his life in exchange for his complete political capitulation and intelligence networks. Across Westeros, monarchs and spymasters digest the news: Lord Baelish may have lost his pride, but he retains control of the Eyrie. The most dangerous gambler in the Seven Kingdoms lives to play another day."
+ GOT_Alt_News.9.a:0 "He walks a tightrope..."
 
 GOT_Wars_Country.1.t: "The Battle of Blackwater Begins"
 GOT_Wars_Country.1.d: "The fleet is assembled. The fires are lit. King’s Landing lies before us, its gates ripe for storming. The Iron Throne is ours by right, and now by force. Let the fury of House Baratheon descend upon the usurpers."

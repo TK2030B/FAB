@@ -4177,7 +4177,15 @@ spriteTypes = {
 			texturefile = "gfx/event_pictures/News/GOT_Story_News742.dds" 
 		} 
  
-
+		spriteType = { 
+			name = "GFX_report_event_GOT_Story_Country745" 
+			texturefile = "gfx/event_pictures/Country/GOT_Story_Country745.dds" 
+		} 
+		 
+		spriteType = { 
+			name = "GFX_news_event_GOT_Story_News745" 
+			texturefile = "gfx/event_pictures/News/GOT_Story_News745.dds" 
+		} 
 		
 		spriteType = {
 			name = "GFX_report_event_Janos_Wall"

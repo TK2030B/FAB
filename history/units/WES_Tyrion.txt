@@ -1,0 +1,199 @@
+﻿division_template = {
+	name = "Garrison"
+	division_names_group = WES_castles_garrison
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Infantry Division"
+	division_names_group = WES_castles_garrison
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Squire Division"				# Represents Knights
+	division_names_group = WES_castles_garrison
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+	division_names_group = WES_castles_garrison
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }			
+	}
+}
+
+units = {
+	# --- Field Forces: Lord Tyrion's Main Army ---
+	division = {
+		name = "1st Westerlands Guards"
+		location = 2601 # Casterly Rock
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Westerlands Guards"
+		location = 2601
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3rd Westerlands Guards"
+		location = 2601
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4th Westerlands Guards"
+		location = 2601
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "5th Westerlands Guards"
+		location = 2601
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	# --- Allied Vassal Levies (Marbrand & Lefford Loyalists) ---
+	division = {
+		name = "Ashemark Foot"
+		location = 2601
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Golden Tooth Foot"
+		location = 2321 # The Golden Tooth
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Castamere Spearmen"
+		location = 2601
+		division_template = "Squire Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Fair Isle Militia"
+		location = 2609 # Lannisport / Coastal Area
+		division_template = "Squire Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+
+	# --- Reconstructed Western Cavalry ---
+	division = {
+		name = "1st Lannisport Outriders"
+		location = 2609
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2nd Casterly Outriders"
+		location = 2601
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	# --- Garrisons & Strategic Chokepoints ---
+	division = {
+		name = "Casterly Rock Honor Guard"
+		location = 2601 # Casterly Rock
+		division_template = "Garrison"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Lannisport Harbor Guard"
+		location = 2609 # Lannisport
+		division_template = "Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Pass of the Golden Tooth Garrison"
+		location = 2321 # The Golden Tooth
+		division_template = "Garrison"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+}

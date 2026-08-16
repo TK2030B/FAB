@@ -2270,6 +2270,8 @@ country_event = {
 		
 		load_oob = TAR_Unsullied_Pentos
 		
+		set_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+		
 		add_corps_commander_role = {
 			character = TAR_Grey_Worm
 			skill = 4
@@ -3456,6 +3458,10 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 100
+				has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
 			}
         } 
 		
@@ -6780,30 +6786,13 @@ country_event = {
 			}
 		}
 		
-		if = {
-			limit = {
-				BOL = { owns_state = 163 }
-			}
-			NOR = {
-				transfer_state = 163
-			}
-		}
 		
 		if = {
 			limit = {
-				BOL = { owns_state = 161 }
+				BOL = { owns_state = 114 }
 			}
 			NOR = {
-				transfer_state = 161
-			}
-		}
-		
-		if = {
-			limit = {
-				BOL = { owns_state = 170 }
-			}
-			NOR = {
-				transfer_state = 170
+				transfer_state = 114
 			}
 		}
 		
@@ -6821,17 +6810,14 @@ country_event = {
 		
 		BOL = {
 			end_puppet = NOR
-			transfer_units_fraction= {
-				target = NOR
-				size = 0.5
-				keep_unit_leaders_trigger = {
-					always = yes
-				}
-			}
 			declare_war_on = {
 				target = NOR
 				type = civil_war
 			}
+		}
+		
+		NOR = {		
+			load_oob = NOR_Civil_War
 		}
 		
 		#NOR = { 
@@ -7038,30 +7024,13 @@ country_event = {
 			}
 		}
 		
-		if = {
-			limit = {
-				BOL = { owns_state = 163 }
-			}
-			NOR = {
-				transfer_state = 163
-			}
-		}
 		
 		if = {
 			limit = {
-				BOL = { owns_state = 161 }
+				BOL = { owns_state = 114 }
 			}
 			NOR = {
-				transfer_state = 161
-			}
-		}
-		
-		if = {
-			limit = {
-				BOL = { owns_state = 170 }
-			}
-			NOR = {
-				transfer_state = 170
+				transfer_state = 114
 			}
 		}
 		
@@ -7079,17 +7048,14 @@ country_event = {
 		
 		BOL = {
 			end_puppet = NOR
-			transfer_units_fraction= {
-				target = NOR
-				size = 0.5
-				keep_unit_leaders_trigger = {
-					always = yes
-				}
-			}
 			declare_war_on = {
 				target = NOR
 				type = civil_war
 			}
+		}
+		
+		NOR = {		
+			load_oob = NOR_Civil_War
 		}
 		
 		#NOR = { 
@@ -8500,6 +8466,359 @@ country_event = {
 	}
 }
 
+#Baelish Killed Vales Perspective
+country_event = {
+	id = GOT_Diplomatic_Country.96
+	title = GOT_Diplomatic_Country.96.t
+	desc = GOT_Diplomatic_Country.96.d
+	picture = GFX_report_event_GOT_Story_Country546 
+
+	is_triggered_only = yes
+
+	option = {
+		name = GOT_Diplomatic_Country.96.a
+
+		ai_chance = {
+			factor = 10
+		}
+		
+		VAL_Petyr_Baelish = {
+			retire = yes
+		}
+		if = {
+			limit = {
+				NOR = { has_government = communism }
+				NOT = { has_government = communism }
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+			add_popularity = {
+				popularity = 0.50
+				ideology = communism
+			}
+		}
+		
+		if = {
+			limit = {
+				NOR = { has_government = fascism }
+				NOT = { has_government = fascism }
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+			add_popularity = {
+				popularity = 0.50
+				ideology = fascism
+			}
+		}
+		
+		add_country_leader_role = {
+			character = VAL_Robin_Arryn
+				country_leader={
+				ideology=NR_subideology
+				expire="1965.1.1.1"
+					traits = {  
+					underage_monarch  
+					infirm  
+					incompetent_leader  
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = VAL_Robin_Arryn
+				country_leader={
+				ideology=CR_subideology
+				expire="1965.1.1.1"
+					traits = {  
+					underage_monarch  
+					infirm  
+					incompetent_leader  
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = VAL_Robin_Arryn
+				country_leader={
+				ideology=FR_subideology
+				expire="1965.1.1.1"
+					traits = {  
+					underage_monarch  
+					infirm  
+					incompetent_leader  
+				}
+			}
+			promote_leader = yes
+		}
+		
+		country_event = {
+			id = GOT_Location_Country.5
+			hours = 6
+		}
+
+	}
+}
+
+# 749 — Daenerys Murdered // Dany Killed
+#Important Leadership Change
+country_event = { 
+    id = GOT_Diplomatic_Country.97 
+    title = GOT_Diplomatic_Country.97.t 
+    desc = GOT_Diplomatic_Country.97.d 
+    picture = GFX_report_event_GOT_Story_Country736
+ 
+    is_triggered_only = yes 
+ 
+     option = { 
+        name = GOT_Diplomatic_Country.97.a 
+ 
+        ai_chance = { 
+            factor = 70 
+        } 
+ 
+        add_stability = -0.05 
+        add_war_support = 0.1 
+        add_political_power = 50 
+		
+		remove_country_leader_role = {
+			character = TAR_Danaerys_Targaryen
+			ideology = DR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = TAR_Danaerys_Targaryen
+			ideology = FR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = TAR_Danaerys_Targaryen
+			ideology = NR_subideology
+		}
+		
+		remove_country_leader_role = {
+			character = TAR_Danaerys_Targaryen
+			ideology = CR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = TAR_Jon_Snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		
+		add_country_leader_role = {
+			character = TAR_Jon_Snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = DR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = TAR_Jon_Snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = TAR_Grey_Worm
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = { 
+					infantry_proponent
+					iron_fist
+					inflexible_strategist
+					warmonger
+					ideological_crusader
+					indomitable_perseverance
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_government = communism }
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = communism
+		}
+		
+		if = {
+			limit = {
+				is_historical_focus_on = yes
+				NOT = { has_global_flag = GOT_Sandbox_Mode }
+			}
+			set_global_flag = GOT_Dany_Murdered_Flag
+		}
+		else = {
+			random_list = {
+				55 = {
+				}
+
+				45 = {
+					set_global_flag = GOT_Unsullied_Civil_War_Flag
+					start_civil_war = {
+						ideology = fascism
+						size = 0.40
+					}
+					every_other_country = { 
+						limit = { 
+							exists = yes 
+						} 
+						news_event = { 
+							id = GOT_Diplomatic_News.42 
+							hours = 6 
+						} 
+					}	
+				}
+			}
+		}
+		
+		country_event = { 
+			id = GOT_Story_Country.737
+			days = 2
+        }
+  
+    } 
+	
+	option = { 
+        name = GOT_Diplomatic_Country.97.b 
+ 
+        ai_chance = { 
+            factor = 30 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+
+		add_stability = -0.05 
+        add_war_support = 0.1 
+        add_political_power = 50 
+		
+		remove_country_leader_role = {
+			character = TAR_Danaerys_Targaryen
+			ideology = CR_subideology
+		}
+		
+		add_country_leader_role = {
+			character = TAR_Jon_Snow
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = { 
+					warrior_code 
+					stout_defender 
+					reluctant_veteran 
+					great_war_hero 
+					headstrong 
+					indomitable_perseverance 
+					#disdain_for_politicians_2 
+					nationalist_symbol 
+					#monarchist_puppet 
+					great_survivor 
+					our_right_to_survive 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_government = fascism }
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+		add_popularity = {
+			popularity = 0.50
+			ideology = fascism
+		}
+
+		random_list = {
+			70 = {
+
+			}
+
+			30 = {
+				start_civil_war = {
+					ideology = communism
+					size = 0.40
+				}
+				every_other_country = { 
+					limit = { 
+						exists = yes 
+					} 
+					news_event = { 
+						id = GOT_Diplomatic_News.43 
+						hours = 6 
+					} 
+				}
+			}
+		}
+
+    }
+} 
+
+
+
 #Lord Stark Accepts Becoming Hand of the King
 news_event = {
 	id = GOT_Diplomatic_News.1
@@ -9041,3 +9360,31 @@ news_event = {
         name = GOT_Diplomatic_News.41.a 
     } 
 } 
+
+# Dany Dies Civil War
+news_event = { 
+    id = GOT_Diplomatic_News.42
+    title = GOT_Diplomatic_News.42.t 
+    desc = GOT_Diplomatic_News.42.d 
+    picture = GFX_news_event_GOT_Story_News736 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Diplomatic_News.42.a 
+    } 
+} 
+
+# Dany Survives Assassination Attempt
+news_event = { 
+    id = GOT_Diplomatic_News.43
+    title = GOT_Diplomatic_News.43.t 
+    desc = GOT_Diplomatic_News.43.d 
+    picture = GFX_news_event_GOT_Story_News736 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Diplomatic_News.43.a 
+    } 
+}

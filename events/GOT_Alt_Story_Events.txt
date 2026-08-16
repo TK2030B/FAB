@@ -242,6 +242,78 @@ country_event = {
 	}
 }
 
+ # Arya Fails to Defeat the Night King
+country_event = { 
+    id = GOT_Alt_Country.8 
+    title = GOT_Alt_Country.8.t 
+    desc = GOT_Alt_Country.8.d 
+    picture = GFX_report_event_GOT_Story_Country715
+ 
+    trigger = { 
+        tag = NOR 
+		date > 1943.5.27
+        date < 1950.1.1
+		has_war_with = ICE
+		ICE = { controls_state = 156 }
+		NOT = { has_global_flag = GOT_Night_King_Loses_Flag }
+    } 
+ 
+    fire_only_once = yes 
+ 
+    option = { 
+        name = GOT_Alt_Country.8.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+		
+		add_stability = -0.30
+		
+		set_global_flag = GOT_Night_King_Wins_Flag
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Alt_News.8 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+
+#Littlefinger Spared
+country_event = { 
+    id = GOT_Alt_Country.9 
+    title = GOT_Alt_Country.9.t 
+    desc = GOT_Alt_Country.9.d 
+    picture = GFX_report_event_GOT_Story_Country646
+ 
+    is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Alt_Country.9.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+		
+		add_stability = 0.05
+		
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Alt_News.9
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+
 news_event = {
 	id = GOT_Alt_News.1
 	title = GOT_Alt_News.1.t
@@ -322,3 +394,31 @@ news_event = {
 		name = GOT_Alt_News.7.a
 	}
 }
+ 
+# 715 — Arya Fails to Defeat the Night King
+news_event = { 
+    id = GOT_Alt_News.8 
+    title = GOT_Alt_News.8.t 
+    desc = GOT_Alt_News.8.d 
+    picture = GFX_news_event_GOT_Story_News715 
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Alt_News.8.a 
+    } 
+} 
+
+#Littlefinger Spared
+news_event = { 
+    id = GOT_Alt_News.9
+    title = GOT_Alt_News.9.t 
+    desc = GOT_Alt_News.9.d 
+    picture = GFX_news_event_GOT_Story_News646
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Alt_News.9.a 
+    } 
+} 

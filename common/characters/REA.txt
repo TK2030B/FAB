@@ -200,6 +200,20 @@ characters={
 			}
 		}
 	}
+	
+	REA_Bronn={
+		name=CRO_Bronn
+		portraits={
+			army = {
+				large="gfx/leaders/REA/Portrait_Bronn.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/REA/Portrait_Bronn.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+	}
 
 
 

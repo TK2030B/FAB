@@ -1,6 +1,351 @@
 
 GOT_Game_Decisions = {
 
+	TAR_Legitimize_Gendry_Baratheon = {
+
+		icon = generic_army_support
+
+		visible = {
+			OR = {
+				STO = {
+					exists = no
+				}
+				STO = {
+					has_war_with = STO
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		available = {
+			is_subject = no
+			
+			OR = {
+				STO = {
+					exists = no
+				}
+				STO = {
+					has_capitulated = yes
+					has_war_with = STO
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = TAR_Stormlands_Controlled_By_Us_tt
+				32 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				133 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				150 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				130 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				116 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				118 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				128 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				132 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+				state = 133
+				state = 150
+				state = 130
+				state = 116
+				state = 118
+				state = 128
+				state = 132
+			}
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			base = 1000
+		}
+
+		complete_effect = {
+
+			country_event = {
+				id = GOT_Story_Country.726
+			}	
+
+		}
+	}
+	
+	TAR_Legitimize_Tyrion_Lannister = {
+
+		icon = generic_army_support
+
+		visible = {
+			OR = {
+				WES = {
+					exists = no
+				}
+				WES = {
+					has_war_with = WES
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		available = {
+			is_subject = no
+			
+			OR = {
+				WES = {
+					exists = no
+				}
+				WES = {
+					has_capitulated = yes
+					has_war_with = WES
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = TAR_Westerlands_Controlled_By_Us_tt
+				105 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				98 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				85 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				197 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+				31 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 105
+				state = 98
+				state = 85
+				state = 197
+				state = 31
+			}
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			base = 1000
+		}
+
+		complete_effect = {
+
+			country_event = {
+				id = GOT_Story_Country.748
+			}	
+
+		}
+	}
+
+	TAR_Mine_For_Dragonglass = {
+		icon = generic_army_support
+		
+		allowed = {
+			# Scope to relevant tags
+		}
+
+		available = {
+			has_global_flag = GOT_Dragonglass_Found_Flag
+			owns_state = 108
+			controls_state = 108
+			country_exists = ICE
+			has_war_with = ICE
+		}
+
+		visible = {
+			owns_state = 108
+			country_exists = ICE
+		}
+
+		cost = 25
+		
+		# Active ONLY during the 90 days while mining and distribution are active
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		targeted_modifier = {
+			tag = ICE
+			attack_bonus_against = 0.25
+		}
+
+		# Allows the decision to be taken again immediately after the 90 days expire
+		days_re_enable = 0
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		days_remove = 90
+
+		complete_effect = {
+			# Runs every time the 90-day cycle finishes
+		}
+	}
+
+	TAR_conquer_Essos_countries = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = TAR
+		}
+	
+        visible = {
+			original_tag = TAR
+			NOT = { has_country_flag = EW_Operation }
+			FROM = { 
+				is_neighbor_of = TAR
+			}
+			has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				GOT_Essos_Countries = yes
+            }
+        }
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 7
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.1
+		
+			has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+			
+			FROM = { 
+				is_neighbor_of = TAR
+			}
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
+	
+	TAR_conquer_Westeros_countries = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = TAR
+		}
+	
+        visible = {
+			original_tag = TAR
+			NOT = { has_country_flag = EW_Operation }
+			OR = {
+				FROM = { 
+					is_neighbor_of = TAR
+				}
+				any_other_country = {
+					is_in_faction_with = TAR
+					is_neighbor_of = FROM
+				}
+			}
+			owns_state = 142
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				GOT_Westeros_Countries = yes
+            }
+        }
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1944.1.1
+			}
+			modifier = {
+				factor = 0
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
+		}
+		
+		days_remove = 7
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.1
+			
+			OR = {
+				FROM = { 
+					is_neighbor_of = TAR
+				}
+				any_other_country = {
+					is_in_faction_with = TAR
+					is_neighbor_of = FROM
+				}
+			}
+			
+			owns_state = 142
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
+
 	ICE_conquer_countries = {
 	
 		icon = generic_army_support

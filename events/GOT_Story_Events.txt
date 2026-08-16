@@ -17816,16 +17816,13 @@ country_event = {
         add_stability = 0.05
         add_political_power = 75 
 		
-		retire_ideology_leader = neutrality
-		retire_ideology_leader = communism
-		
 		set_politics = {
-			ruling_party = communism
+			ruling_party = democratic
 		}
 			
 		add_popularity = {
 			popularity = 0.50
-			ideology = communism
+			ideology = democratic
 		}
 		
 		add_country_leader_role = {
@@ -20194,7 +20191,10 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1941.10.10
-        date < 1942.10.10
+        date < 1950.1.1
+		has_war_with = BOL
+		controls_state = 156
+		BOL = { owns_state = 156 }
     } 
  
     fire_only_once = yes 
@@ -20206,9 +20206,33 @@ country_event = {
             factor = 10 
         } 
  
-		#SPECIAL ATTENTION
-		#After this event, Ramsay Bolton should be removed as a leader
-        add_political_power = 125 
+		BOL = {
+		custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ULT = { owns_state = 210 }
+					}
+					XXX = {
+						transfer_state = 210
+					}
+					
+					BOL = {
+						transfer_units_fraction= {
+							target = XXX
+							size = 0.5
+							keep_unit_leaders_trigger = {
+								always = yes
+							}
+						}
+					}
+					
+					ULT = {
+						transfer_state = 210
+					}
+				}
+			}
+		}
  
         every_other_country = { 
             limit = { 
@@ -20348,7 +20372,10 @@ country_event = {
         tag = TAR 
 		date > 1941.10.10
         date < 1942.10.10
-		is_in_faction_with = IRO
+		any_other_country = {
+			is_in_faction_with = TAR
+			original_tag = IRO
+		}
     } 
  
     fire_only_once = yes 
@@ -20645,6 +20672,11 @@ country_event = {
 			name = "Jon Snow"
 			ruling_only = yes
 		}
+		OR = {
+			NOT = { country_exists = BOL }
+			BOL = { has_capitulated = yes }
+		}
+		NOT = { is_in_faction_with = TAR }
     } 
  
     fire_only_once = yes 
@@ -20656,7 +20688,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_political_power = 150
+        add_political_power = 125
  
         every_other_country = { 
             limit = { 
@@ -20858,13 +20890,9 @@ country_event = {
 		}
 		
 		end_puppet = RIV
-					
-		transfer_units_fraction= {
-			target = RIV
-			size = 0.5
-			keep_unit_leaders_trigger = {
-				always = yes
-			}
+		
+		RIV = {		
+			load_oob = RIV_Civil_War
 		}
 		
 		declare_war_on = {
@@ -20959,7 +20987,10 @@ country_event = {
         tag = CRO 
 		date > 1942.1.1
         date < 1943.1.1
-		is_in_faction_with = IRO
+		any_other_country = {
+			is_in_faction_with = CRO
+			original_tag = IRO
+		}
     } 
  
     fire_only_once = yes 
@@ -21022,6 +21053,8 @@ country_event = {
         } 
  
         add_political_power = 50 
+		
+		set_global_flag = GOT_Dragonglass_Found_Flag
  
         every_other_country = { 
             limit = { 
@@ -21939,9 +21972,18 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country617 
  
     trigger = { 
-        tag = CRO 
+        tag = REA
 		date > 1942.4.15
-        date < 1942.5.15
+        date < 1950.1.1
+		NOT = { controls_state = 115 }
+		has_country_leader = {
+			name = "Olenna Tyrell"
+			ruling_only = yes
+		}
+		OR = { 
+			is_in_faction_with = CRO
+			is_in_faction_with = TAR
+		}
     } 
  
     fire_only_once = yes 
@@ -21953,17 +21995,101 @@ country_event = {
             factor = 10 
         } 
  
-		#SPECIAL ATTENTION
+		REA_Olenna_Tyrell = {
+			retire = yes
+		}
+		
+		add_country_leader_role = {
+			character = REA_Bronn
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = CR_subideology
+				traits = { 
+					opportunistic_mercenary 
+					hedonist 
+					unpopular_monarch 
+					strict_austerity_adherent 
+					shrewd_investor 
+					cornered_fox 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = REA_Bronn
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = DR_subideology
+				traits = { 
+					opportunistic_mercenary 
+					hedonist 
+					unpopular_monarch 
+					strict_austerity_adherent 
+					shrewd_investor 
+					cornered_fox 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = REA_Bronn
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = { 
+					opportunistic_mercenary 
+					hedonist 
+					unpopular_monarch 
+					strict_austerity_adherent 
+					shrewd_investor 
+					cornered_fox 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = REA_Bronn
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = NR_subideology
+				traits = { 
+					opportunistic_mercenary 
+					hedonist 
+					unpopular_monarch 
+					strict_austerity_adherent 
+					shrewd_investor 
+					cornered_fox 
+				}
+			}
+			promote_leader = yes
+		}
+		add_corps_commander_role = {
+			character = REA_Bronn
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
  
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.617 
-                hours = 6 
-            } 
-        } 
+		if = {
+			limit = {
+				OR = {
+					has_war_with = CRO
+					has_war_with = WES
+				}
+				has_war_with = TRL
+			}
+			every_other_country = { 
+				limit = { 
+					exists = yes 
+				} 
+				news_event = { 
+					id = GOT_Story_News.617 
+					hours = 6 
+				} 
+			} 
+		} 
     } 
 } 
  
@@ -22099,7 +22225,7 @@ country_event = {
             factor = 10 
         } 
 
-        add_political_power = 150 
+        add_political_power = 125
         navy_experience = 50
  
         every_other_country = { 
@@ -22795,7 +22921,7 @@ country_event = {
     trigger = { 
         tag = CRO 
 		date > 1942.7.29
-        date < 1942.8.29
+        date < 1943.7.29
     } 
  
     fire_only_once = yes 
@@ -22807,7 +22933,7 @@ country_event = {
             factor = 10 
         } 
  
-        add_political_power = 150 
+        add_political_power = 125
  
         every_other_country = { 
             limit = { 
@@ -23431,7 +23557,14 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1942.11.11
-        date < 1942.12.11
+        date < 1950.1.1
+		is_in_faction_with = VAL
+		VAL = {
+			has_country_leader = {
+				name = "Petyr Baelish"
+				ruling_only = yes
+			}
+		}
     } 
  
     fire_only_once = yes 
@@ -23440,14 +23573,17 @@ country_event = {
         name = GOT_Story_Country.646.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 95 
         } 
- 
-		#SPECIAL ATTENTION
-		#"Execute him — remove the intrigue debuff and gain Stark unity."
-		#SPECIAL ATTENTION LITTLEFINGER
- 
-        every_other_country = { 
+		
+		VAL = {
+			country_event = {
+				id = GOT_Diplomatic_Country.96
+				hours = 6
+			}
+		}
+		
+		every_other_country = { 
             limit = { 
                 exists = yes 
             } 
@@ -23456,6 +23592,27 @@ country_event = {
                 hours = 6 
             } 
         } 
+ 
+    } 
+	
+	option = { 
+        name = GOT_Story_Country.646.b
+ 
+        ai_chance = { 
+            factor = 5 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+		
+		VAL = {
+			country_event = {
+				id = GOT_Alt_Country.9
+				hours = 6
+			}
+		}
+ 
     } 
 } 
  
@@ -23914,7 +24071,8 @@ country_event = {
     trigger = { 
         tag = NOR 
 		date > 1943.1.1
-        date < 1943.2.1
+        date < 1950.1.1
+		is_in_faction_with = TAR
     } 
  
     fire_only_once = yes 
@@ -24310,8 +24468,9 @@ country_event = {
         tag = NOR 
 		date > 1943.5.27
         date < 1950.1.1
-		ICE = { exists = no }
+		has_war_with = ICE
 		controls_state = 156
+		NOT = { has_global_flag = GOT_Night_King_Wins_Flag }
     } 
  
     fire_only_once = yes 
@@ -24323,7 +24482,35 @@ country_event = {
             factor = 10 
         } 
 
-		#SPECIAL ATTENTION 
+		ICE = {
+		custom_effect_tooltip = GOT_Army_Shattered_2_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ULT = { owns_state = 210 }
+					}
+					XXX = {
+						transfer_state = 210
+					}
+					
+					ICE = {
+						transfer_units_fraction= {
+							target = XXX
+							size = 1.0
+							keep_unit_leaders_trigger = {
+								always = yes
+							}
+						}
+					}
+					
+					ULT = {
+						transfer_state = 210
+					}
+				}
+			}
+		}
+		
+		set_global_flag = GOT_Night_King_Loses_Flag
  
         every_other_country = { 
             limit = { 
@@ -24843,13 +25030,7 @@ country_event = {
     desc = GOT_Story_Country.726.d 
     picture = GFX_report_event_GOT_Story_Country726 
  
-    trigger = { 
-        tag = TAR 
-		date > 1943.8.8
-        date < 1950.1.1
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes
  
     option = { 
         name = GOT_Story_Country.726.a 
@@ -24857,8 +25038,176 @@ country_event = {
         ai_chance = { 
             factor = 10 
         } 
+		
+		if = {
+			limit = { 
+				NOT = { country_exists = STO }
+			}
+			set_global_flag = GOT_STO_Resurrected_Flag
+		}
+		
+		if = {
+			limit = { 
+				country_exists = STO
+			}
+			#If is a faction leader, the faction is disbaned
+			if = {
+				limit = {
+					STO = { is_faction_leader = yes }
+				}
+				STO = { dismantle_faction = yes }
+			}
+			
+			#If is a faction member, but not the leader, then he just leaves
+			if = {
+				limit = {
+					STO = { is_in_faction = yes }
+					STO = { is_faction_leader = no }
+				}
+				STO = { leave_faction = yes }
+			}
+			
+			if = {
+				limit = { 
+					has_war_with = STO
+				}
+				every_country = {
+					limit = { is_in_faction_with = TAR }
+					white_peace = STO
+					set_truce = { target = STO days = 60 }
+				}
+				TAR = {
+					white_peace = STO
+					set_truce = { target = STO days = 60 }
+				}
+			}
+		}
  
-		#SPECIAL ATTENTION
+		hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 32
+							state = 133
+							state = 150
+							state = 130
+							state = 116
+							state = 118
+							state = 128
+							state = 132
+						}
+						OR = {
+							is_owned_by = ROOT
+							owner = { is_subject_of = ROOT }
+							is_controlled_by = ROOT
+							controller = { is_subject_of = ROOT }
+						}
+					}
+					transfer_state_to = STO
+				}
+
+				STO = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = TAR
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = TAR
+					}	
+					inherit_technology = TAR
+					if = {
+						limit = { 
+							has_global_flag = GOT_STO_Resurrected_Flag
+						}
+						load_oob = "STO_Gendry"
+					}
+					CRO_Davos_Seaworth = {
+						retire = yes
+					}
+					add_country_leader_role = {
+						character = STO_Gendry_Baratheon
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = NR_subideology
+							traits = { 
+								legitimate_heir 
+								popular_figurehead 
+								man_of_the_nation 
+								inexperienced_administrator 
+								reluctant_veteran 
+								stout_defender 
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = STO_Gendry_Baratheon
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = FR_subideology
+							traits = { 
+								legitimate_heir 
+								popular_figurehead 
+								man_of_the_nation 
+								inexperienced_administrator 
+								reluctant_veteran 
+								stout_defender 
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = STO_Gendry_Baratheon
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = DR_subideology
+							traits = { 
+								legitimate_heir 
+								popular_figurehead 
+								man_of_the_nation 
+								inexperienced_administrator 
+								reluctant_veteran 
+								stout_defender 
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = STO_Gendry_Baratheon
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = CR_subideology
+							traits = { 
+								legitimate_heir 
+								popular_figurehead 
+								man_of_the_nation 
+								inexperienced_administrator 
+								reluctant_veteran 
+								stout_defender 
+							}
+						}
+						promote_leader = yes
+					}
+					add_corps_commander_role = {
+						character = STO_Gendry_Baratheon
+						skill = 2
+						attack_skill = 3
+						defense_skill = 2
+						planning_skill = 1
+						logistics_skill = 2
+					}
+				}
+				
+				set_autonomy = { 
+					target = STO
+					autonomy_state = autonomy_dominion
+				}
+				
+			}
  
         every_other_country = { 
             limit = { 
@@ -25356,11 +25705,23 @@ country_event = {
     picture = GFX_report_event_GOT_Story_Country736 
  
     trigger = { 
-        tag = TAR 
+        tag = NOR
 		date > 1943.12.31
         date < 1950.1.1
-		is_in_faction_with = NOR
-		TAR = { controls_state = 142 }
+		is_in_faction_with = TAR
+		TAR = { owns_state = 142 }
+		NOR = { 
+			has_country_leader = {
+				name = "Jon Snow"
+				ruling_only = yes
+			}
+		}
+		TAR = { 
+			has_country_leader = {
+				name = "Daenerys Targaryen"
+				ruling_only = yes
+			}
+		}
     } 
  
     fire_only_once = yes 
@@ -25369,15 +25730,17 @@ country_event = {
         name = GOT_Story_Country.736.a 
  
         ai_chance = { 
-            factor = 10 
+            factor = 65 
         } 
  
-		#SPECIAL ATTENTION
+		#SPECIAL ATTENTION 
 		
-		 country_event = { 
-                id = GOT_Story_Country.737
-                days = 2
-         } 
+		TAR = {
+			country_event = { 
+				id = GOT_Diplomatic_Country.97
+				hours = 6
+			} 
+		}
  
         every_other_country = { 
             limit = { 
@@ -25389,6 +25752,21 @@ country_event = {
             } 
         } 
     } 
+	
+	option = { 
+        name = GOT_Story_Country.736.b 
+ 
+        ai_chance = { 
+            factor = 35
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+        } 
+ 
+		add_political_power = 25 
+		
+    }
 } 
  
 # 736 — Jon Snow Kills Daenerys Targaryen
@@ -25522,7 +25900,7 @@ country_event = {
         } 
  
         add_stability = 0.1 
-        add_political_power = 150 
+        add_political_power = 125
  
         every_other_country = { 
             limit = { 
@@ -26023,11 +26401,12 @@ news_event = {
 } 
 
 # 745 — Second Northern Civil War
+# 745 — Battle of the Bastards
 country_event = { 
     id = GOT_Story_Country.745 
     title = GOT_Story_Country.745.t 
     desc = GOT_Story_Country.745.d 
-    picture = GFX_report_event_Winterfell
+    picture = GFX_report_event_GOT_Story_Country745 
   
 	trigger = { 
 		OR = {
@@ -26113,28 +26492,10 @@ country_event = {
 		
 		if = {
 			limit = {
-				BOL = { owns_state = 163 }
+				BOL = { owns_state = 114 }
 			}
 			NOR = {
-				transfer_state = 163
-			}
-		}
-		
-		if = {
-			limit = {
-				BOL = { owns_state = 161 }
-			}
-			NOR = {
-				transfer_state = 161
-			}
-		}
-		
-		if = {
-			limit = {
-				BOL = { owns_state = 170 }
-			}
-			NOR = {
-				transfer_state = 170
+				transfer_state = 114
 			}
 		}
 		
@@ -26152,17 +26513,14 @@ country_event = {
 		
 		BOL = {
 			end_puppet = NOR
-			transfer_units_fraction= {
-				target = NOR
-				size = 0.5
-				keep_unit_leaders_trigger = {
-					always = yes
-				}
-			}
 			declare_war_on = {
 				target = NOR
 				type = civil_war
 			}
+		}
+		
+		NOR = {		
+			load_oob = NOR_Civil_War
 		}
 		
 		#NOR = { 
@@ -26364,28 +26722,10 @@ country_event = {
 		
 		if = {
 			limit = {
-				BOL = { owns_state = 163 }
+				BOL = { owns_state = 114 }
 			}
 			NOR = {
-				transfer_state = 163
-			}
-		}
-		
-		if = {
-			limit = {
-				BOL = { owns_state = 161 }
-			}
-			NOR = {
-				transfer_state = 161
-			}
-		}
-		
-		if = {
-			limit = {
-				BOL = { owns_state = 170 }
-			}
-			NOR = {
-				transfer_state = 170
+				transfer_state = 114
 			}
 		}
 		
@@ -26403,17 +26743,14 @@ country_event = {
 		
 		BOL = {
 			end_puppet = NOR
-			transfer_units_fraction= {
-				target = NOR
-				size = 0.5
-				keep_unit_leaders_trigger = {
-					always = yes
-				}
-			}
 			declare_war_on = {
 				target = NOR
 				type = civil_war
 			}
+		}
+		
+		NOR = {		
+			load_oob = NOR_Civil_War
 		}
 		
 		#NOR = { 
@@ -26552,11 +26889,12 @@ country_event = {
 } 
 
 # 745 — Second Northern Civil War
+# 745 — Battle of the Bastards
 news_event = { 
     id = GOT_Story_News.745 
     title = GOT_Story_News.745.t 
     desc = GOT_Story_News.745.d 
-    picture = GFX_news_event_Winterfell 
+    picture = GFX_news_event_GOT_Story_News745 
  
     is_triggered_only = yes 
  
@@ -26779,5 +27117,190 @@ news_event = {
  
     option = { 
         name = GOT_Story_News.747.a 
+    } 
+} 
+
+# Tyrion Made Lord of Casterly Rock
+country_event = { 
+    id = GOT_Story_Country.748 
+    title = GOT_Story_Country.748.t 
+    desc = GOT_Story_Country.748.d 
+    picture = GFX_report_event_Casterly_Rock 
+ 
+    is_triggered_only = yes
+ 
+    option = { 
+        name = GOT_Story_Country.748.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+		
+		if = {
+			limit = { 
+				NOT = { country_exists = WES }
+			}
+			set_global_flag = GOT_WES_Resurrected_Flag
+		}
+		
+		if = {
+			limit = { 
+				country_exists = WES
+			}
+			#If is a faction leader, the faction is disbaned
+			if = {
+				limit = {
+					WES = { is_faction_leader = yes }
+				}
+				WES = { dismantle_faction = yes }
+			}
+			
+			#If is a faction member, but not the leader, then he just leaves
+			if = {
+				limit = {
+					WES = { is_in_faction = yes }
+					WES = { is_faction_leader = no }
+				}
+				WES = { leave_faction = yes }
+			}
+			
+			if = {
+				limit = { 
+					has_war_with = WES
+				}
+				every_country = {
+					limit = { is_in_faction_with = TAR }
+					white_peace = WES
+					set_truce = { target = WES days = 60 }
+				}
+				TAR = {
+					white_peace = WES
+					set_truce = { target = WES days = 60 }
+				}
+			}
+		}
+ 
+		hidden_effect = {
+				every_state = {
+					limit = {
+						OR = {
+							state = 105
+							state = 98
+							state = 85
+							state = 197
+							state = 31
+						}
+						OR = {
+							is_owned_by = ROOT
+							owner = { is_subject_of = ROOT }
+							is_controlled_by = ROOT
+							controller = { is_subject_of = ROOT }
+						}
+					}
+					transfer_state_to = WES
+				}
+
+				WES = {
+					add_manpower = 50000
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment
+						amount = 5000
+						producer = TAR
+					}	
+					add_equipment_to_stockpile = { 
+						type = support_equipment
+						amount = 500
+						producer = TAR
+					}	
+					inherit_technology = TAR
+					if = {
+						limit = { 
+							has_global_flag = GOT_WES_Resurrected_Flag
+						}
+						load_oob = "WES_Tyrion"
+					}
+					WES_Cersei_Lannister = {
+						retire = yes
+					}
+					add_country_leader_role = {
+						character = WES_Tyrion_Lannister
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = NR_subideology
+							traits = {  
+								political_manipulator  
+								#the_foreign_connection  
+								#ambitious_negotiator_neutrality  
+								popular_figurehead  
+								economic_reformer  
+								smooth_talking_charmer  
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = WES_Tyrion_Lannister
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = DR_subideology
+							traits = {  
+								political_manipulator  
+								#the_foreign_connection  
+								#ambitious_negotiator_neutrality  
+								popular_figurehead  
+								economic_reformer  
+								smooth_talking_charmer  
+							}
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						character = WES_Tyrion_Lannister
+						country_leader = {
+							expire = "1965.1.1"
+							ideology = FR_subideology
+							traits = {  
+								political_manipulator  
+								#the_foreign_connection  
+								#ambitious_negotiator_neutrality  
+								popular_figurehead  
+								economic_reformer  
+								smooth_talking_charmer  
+							}
+						}
+						promote_leader = yes
+					}
+				}
+				
+				set_autonomy = { 
+					target = WES
+					autonomy_state = autonomy_dominion
+				}
+				
+			}
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.748 
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+ 
+# Tyrion Made Lord of Casterly Rock
+news_event = { 
+    id = GOT_Story_News.748 
+    title = GOT_Story_News.748.t 
+    desc = GOT_Story_News.748.d 
+    picture = GFX_news_event_Casterly_Rock
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.748.a 
     } 
 } 

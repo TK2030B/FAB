@@ -3,6 +3,9 @@
 GOT_Game_Decisions:0 "Game of Thrones Decisions"
 GOT_Game_Decisions_desc:0 "This category contains decisions that significantly impact gameplay, shaping the fate of your kingdom and the world around you. Whether it’s aligning with powerful factions, making key strategic choices, or determining the course of crucial events, these decisions will directly influence your path to victory in the Game of Thrones. Choose wisely, for the decisions you make today will echo throughout the Seven Kingdoms."
 
+TAR_Stormlands_Controlled_By_Us_tt:0 "Stormlands Controlled by Us"
+TAR_Westerlands_Controlled_By_Us_tt:0 "Westerlands Controlled by Us"
+
 GOT_Give_GOT_Mode_To_New_Countries:0 "Enable Game of Thrones Mode for New Countries"
 GOT_Give_GOT_Mode_To_New_Countries_desc:0 "As you embark on your journey in Game of Thrones Mode, new countries may rise across the map. This decision allows you to grant them the immersive mechanics of GOT Mode, ensuring they face the same challenges and advantages that you do. Shape the future of Westeros and beyond with this powerful choice."
 
@@ -63,3 +66,19 @@ TAR_Invasion_of_CRO_desc: "With Dragonstone secured once more, House Targaryen s
  # Main Targeted Decision
  ICE_conquer_countries:0 "Destroy [FROM.GetName]"
  ICE_conquer_countries_desc:0 "The mortal kingdom of [FROM.GetName] stands in the path of the Long Night. We will overwhelm their garrisons, slaughter their armies, and convert every fallen soul into an instrument of our eternal reign."
+ 
+TAR_conquer_Essos_countries:0 "Burn the Seat of [FROM.GetName]"
+TAR_conquer_Essos_countries_desc:0 "For centuries, the pretenders of [FROM.GetName] have squandered the remnants of the Freehold in petty squabbles. We will march across their lands, put their palaces to the torch, and forge a reborn empire from the ashes of their pride."
+
+TAR_conquer_Westeros_countries:0 "Bring [FROM.GetName] to Heel"
+TAR_conquer_Westeros_countries_desc:0 "With the Iron Throne reclaimed and King's Landing under our control, those who still cling to rebellion must choose: bend the knee or burn. We will march into the lands of [FROM.GetName] and show them the true cost of defiance against the Dragon."
+
+TAR_Mine_For_Dragonglass:0 "Mine Dragonstone for Dragonglass"
+TAR_Mine_For_Dragonglass_desc:0 "Beneath the cliffs of Dragonstone lies a vast mountain of obsidian—dragonglass. If we divert our smiths and quarrymen to mine this ancient stone, we can forge deadly weapons capable of shattering the army of the dead before they march past the Wall."
+TAR_Mine_For_Dragonglass_tt:0 "Our civilian economy will allocate 5 factories for 90 days to mine, knap, and distribute obsidian weaponry across the armed forces."
+
+ TAR_Legitimize_Gendry_Baratheon:0 "Legitimize Gendry Baratheon"
+ TAR_Legitimize_Gendry_Baratheon_desc:0 "Though raised in the blacksmith shops of Flea Bottom, the blood of King Robert Baratheon runs true in Gendry's veins. By royal decree, we can remove the taint of bastardy, grant him the storied Baratheon name, and install a loyal lord paramount over Storm's End to secure the allegiance of the Stormlands."
+ 
+ TAR_Legitimize_Tyrion_Lannister:0 "Appoint Tyrion Lannister Lord of Casterly Rock"
+ TAR_Legitimize_Tyrion_Lannister_desc:0 "Denied his birthright by his father and forced into exile across the Narrow Sea, Tyrion Lannister has proven his loyalty as Hand of the Queen. By royal decree, we formally reinstate Lord Tyrion as the rightful heir to Casterly Rock and Warden of the West, securing the wealth and allegiance of the Westerlands beneath the dragon banner."

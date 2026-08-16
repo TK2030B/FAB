@@ -199,5 +199,19 @@ characters={
 			}
 		}
 	}
+	
+	STO_Gendry_Baratheon={
+		name=STO_Gendry_Baratheon
+		portraits={
+			army = {
+				large="gfx/leaders/STO/Portrait_Gendry_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/STO/Portrait_Gendry_Baratheon.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Civilian_Advisor.dds"
+			}
+		}
+	}
 
 }

@@ -219,7 +219,36 @@ characters={
 	}
 
 
-
+	TAR_Jon_Snow={
+		name=NWA_jon_snow
+		portraits={
+			army = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/NWA/Portrait_Jon_snow.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = { 
+				warrior_code 
+				stout_defender 
+				reluctant_veteran 
+				great_war_hero 
+				headstrong 
+				indomitable_perseverance 
+				#disdain_for_politicians_2 
+				nationalist_symbol 
+				#monarchist_puppet 
+				great_survivor 
+				our_right_to_survive 
+			}
+		}
+	}
 
 
 }
