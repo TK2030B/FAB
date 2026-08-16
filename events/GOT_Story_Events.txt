@@ -26407,17 +26407,6 @@ country_event = {
             factor = 10 
         } 
  
-		NWA_jon_snow = {
-			add_country_leader_role = {
-				ideology = communism
-				promote_leader = yes
-			}
-			add_country_leader_role = {
-				ideology = neutrality
-				promote_leader = yes
-			}
-		}
- 
         every_other_country = { 
             limit = { 
                 exists = yes 
