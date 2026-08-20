@@ -53,7 +53,6 @@ set_politics = {
 }
 
 recruit_character=NWA_jeor_mormont
-recruit_character=NWA_eddison_tollett
 recruit_character=NWA_alliser_thorne
 recruit_character=NWA_qhorin_halfhand
 recruit_character=NWA_denys_mallister
@@ -90,6 +89,7 @@ recruit_character=NWA_ned_stark
 recruit_character=NWA_janos_slynt
 recruit_character=NWA_Pypar
 recruit_character=NWA_Loyalists
+recruit_character=NWA_eddison_tollett
 
 set_convoys = 10
 

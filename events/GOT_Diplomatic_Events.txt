@@ -6393,10 +6393,7 @@ country_event = {
 			modifier = {
 				add = 40
 				country_exists = ICE
-				OR = {
-					tag = NWA
-					tag = WIL
-				}
+				tag = WIL
 			}
 			modifier = {
 				add = 15
@@ -6406,10 +6403,7 @@ country_event = {
 						ruling_only = yes
 					}
 				}
-				OR = {
-					tag = NWA
-					tag = WIL
-				}
+				tag = WIL
 			}
 			modifier = {
 				add = 20
@@ -6511,10 +6505,7 @@ country_event = {
 			modifier = {
 				add = -40
 				country_exists = ICE
-				OR = {
-					tag = NWA
-					tag = WIL
-				}
+				tag = WIL
 			}
 			modifier = {
 				add = -20
@@ -6535,10 +6526,7 @@ country_event = {
 			modifier = {
 				add = 40
 				NOT = { country_exists = ICE }
-				OR = {
-					tag = NWA
-					tag = WIL
-				}
+				tag = WIL
 			}
 			modifier = {
 				add = 15
@@ -6566,6 +6554,11 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
+				NOT = { original_tag = NWA }
+			}
+			modifier = {
+				add = 500
+				original_tag = NWA
 			}			
         }
 		add_war_support = -0.05
@@ -6799,6 +6792,10 @@ country_event = {
 		NOR = {
 			transfer_state = 21
 			inherit_technology = BOL
+			add_timed_idea = {
+				idea = NOR_Northern_Steamroller
+				days = 180
+			}
 		}
 		
 		set_autonomy = {
@@ -7037,6 +7034,10 @@ country_event = {
 		NOR = {
 			transfer_state = 21
 			inherit_technology = BOL
+			add_timed_idea = {
+				idea = NOR_Northern_Steamroller
+				days = 180
+			}
 		}
 		
 		set_autonomy = {
@@ -7218,10 +7219,7 @@ country_event = {
 			modifier = {
 				add = 40
 				country_exists = ICE
-				OR = {
-					tag = NWA
-					tag = WIL
-				}
+				tag = WIL
 			}
 			modifier = {
 				add = 15
@@ -7231,10 +7229,7 @@ country_event = {
 						ruling_only = yes
 					}
 				}
-				OR = {
-					tag = NWA
-					tag = WIL
-				}
+				tag = WIL
 			}
 			modifier = {
 				add = 20
@@ -7335,10 +7330,7 @@ country_event = {
 			modifier = {
 				add = -40
 				country_exists = ICE
-				OR = {
-					tag = NWA
 					tag = WIL
-				}
 			}
 			modifier = {
 				add = -20
@@ -7374,10 +7366,7 @@ country_event = {
 						}
 					}
 				}
-				OR = {
-					tag = NWA
-					tag = WIL
-				}
+				tag = WIL
 			}
 			modifier = {
 				add = 50
@@ -7388,9 +7377,10 @@ country_event = {
 				tag = VAL
 			}
 			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}			
+				add = 500
+				original_tag = NWA
+			}
+			
         }
 		add_war_support = -0.05
 	}

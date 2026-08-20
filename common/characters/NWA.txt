@@ -49,6 +49,24 @@ characters={
 				voice_of_restraint  
 			}
 		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {  
+				reluctant_veteran  
+				stout_defender  
+				voice_of_restraint  
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = {  
+				reluctant_veteran  
+				stout_defender  
+				voice_of_restraint  
+			}
+		}
 		advisor={
 			cost = 100
 			slot = political_advisor

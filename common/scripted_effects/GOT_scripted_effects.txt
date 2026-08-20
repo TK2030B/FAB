@@ -642,7 +642,7 @@ GOT_The_Great_Betrayal = {
 		NOR = {
 			add_timed_idea = {
 				idea = RI_morale_shattered
-				days = 180
+				days = 360
 			}
 			#House Bolton
 			release = BOL
@@ -750,6 +750,43 @@ GOT_The_Great_Betrayal = {
             leave_faction = yes
 			if  = {
 				limit = {
+					has_country_leader = {
+						name = "Greatjon Umber"
+						ruling_only = yes
+					}
+				}
+				kill_country_leader = yes
+				add_country_leader_role = {
+					character = UMB_Smalljon_Umber
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = NR_subideology
+						traits = { 
+							eager_collaborator
+							collaborator_king
+							warmonger
+							inexperienced_imperialist
+						}
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					character = UMB_Smalljon_Umber
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = DR_subideology
+						traits = { 
+							eager_collaborator
+							collaborator_king
+							warmonger
+							inexperienced_imperialist
+						}
+					}
+					promote_leader = yes
+				}
+			}
+			if  = {
+				limit = {
 					has_war_with = CRO
 				}
 				every_country = {
@@ -778,7 +815,7 @@ GOT_The_Great_Betrayal = {
 		RIV = {
 			add_timed_idea = {
 				idea = RI_morale_shattered
-				days = 180
+				days = 360
 			}
 			#House Frey
 			release = FRE

@@ -7918,7 +7918,7 @@ country_event = {
     trigger = { 
         tag = TAR 
 		date > 1938.1.1
-        date < 1938.2.1
+        date < 1939.1.1
 		country_exists = AST
     } 
  
@@ -8510,16 +8510,7 @@ country_event = {
     desc = GOT_Story_Country.213.d 
     picture = GFX_report_event_GOT_Story_Country213 
  
-    trigger = { 
-        tag = TAR
-		date > 1938.3.10
-        date < 1938.4.10
-		country_exists = AST
-		has_country_flag = GOT_Dany_In_Astapor
-		NOT = { has_war_with = AST }
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes
  
     option = {
         name = GOT_Story_Country.213.a 
@@ -10029,12 +10020,7 @@ country_event = {
 	
 	hidden = yes
  
-    trigger = { 
-        tag = TAR
-		date > 1938.9.5
-        date < 1939.9.5
-		228 = { is_controlled_by_ROOT_or_subject = yes }
-    } 
+    is_triggered_only = yes
  
     fire_only_once = yes 
  
@@ -10450,16 +10436,7 @@ country_event = {
     desc = GOT_Story_Country.244.d 
     picture = GFX_report_event_GOT_Story_Country244 
  
-    trigger = { 
-        tag = TAR
-		date > 1938.10.10
-        date < 1939.10.10
-		country_exists = YUN
-		228 = { is_controlled_by_ROOT_or_subject = yes }
-		NOT = { has_non_aggression_pact_with = YUN }
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes
  
     option = { 
         name = GOT_Story_Country.244.a 
@@ -11712,14 +11689,7 @@ country_event = {
     desc = GOT_Story_Country.314.d 
     picture = GFX_report_event_GOT_Story_Country314 
  
-    trigger = { 
-        tag = TAR
-		date > 1939.3.10
-        date < 1940.3.10
-		country_exists = MER
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes
  
     option = { 
         name = GOT_Story_Country.314.a 
@@ -16860,7 +16830,7 @@ country_event = {
         date < 1950.1.1
 		has_war_with = BOL
 		BOL = { has_capitulated = no } 
-		BOL = { controls_state = 156 } 
+		156 = { is_controlled_by_ROOT_or_ally = no }
 		has_global_flag = GOT_Stannis_Aids_Wall_Flag
     } 
  
@@ -17783,8 +17753,13 @@ country_event = {
         add_stability = 0.05
         add_political_power = 75 
 		
-		set_politics = {
-			ruling_party = communism
+		if = {
+			limit = {
+				NOT = { has_government = communism }
+			}
+			set_politics = {
+				ruling_party = communism
+			}
 		}
 			
 		add_popularity = {
@@ -17816,56 +17791,13 @@ country_event = {
         add_stability = 0.05
         add_political_power = 75 
 		
-		set_politics = {
-			ruling_party = communism
-		}
-			
-		add_popularity = {
-			popularity = 0.50
-			ideology = communism
-		}
-		
-		add_country_leader_role = {
-			character = NWA_eddison_tollett
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = DR_subideology
-				traits = {  
-					reluctant_veteran  
-					stout_defender  
-					voice_of_restraint  
-				}
+		NWA = {
+			country_event = {
+				id = GOT_Story_Country.511
+				days = 2
 			}
-			promote_leader = yes
 		}
-		
-		add_country_leader_role = {
-			character = NWA_eddison_tollett
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = NR_subideology
-				traits = {  
-					reluctant_veteran  
-					stout_defender  
-					voice_of_restraint  
-				}
-			}
-			promote_leader = yes
-		}
-		
-		add_country_leader_role = {
-			character = NWA_eddison_tollett
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = CR_subideology
-				traits = {  
-					reluctant_veteran  
-					stout_defender  
-					voice_of_restraint  
-				}
-			}
-			promote_leader = yes
-		}
+
 		
 		#Event for Jon to take control of the north
 		if = {
@@ -17943,7 +17875,7 @@ country_event = {
         ai_chance = { 
             factor = 85 
         } 
- 
+		
         add_stability = -0.05 
         add_war_support = 0.1 
         add_political_power = 50 
@@ -17959,6 +17891,43 @@ country_event = {
 		add_popularity = {
 			popularity = 0.50
 			ideology = fascism
+		}
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					UMB = {
+						NOT = { has_government = fascism }
+						is_ai = yes
+					}
+				}
+				UMB = {
+					set_politics = {
+						ruling_party = fascism
+					}
+					add_popularity = {
+						popularity = 0.50
+						ideology = fascism
+					}
+				}
+			}
+			if = {
+				limit = {
+					KAR = {
+						NOT = { has_government = fascism }
+						is_ai = yes
+					}
+				}
+				KAR = {
+					set_politics = {
+						ruling_party = fascism
+					}
+					add_popularity = {
+						popularity = 0.50
+						ideology = fascism
+					}
+				}
+			}
 		}
 		
 		if = {
@@ -18394,14 +18363,7 @@ country_event = {
     desc = GOT_Story_Country.511.d 
     picture = GFX_report_event_GOT_Story_Country511 
  
-    trigger = { 
-        tag = NWA
-		date > 1941.3.10
-        date < 1941.4.10
-		has_global_flag = GOT_Jon_Snow_Murdered_Flag		
-    } 
- 
-    fire_only_once = yes 
+    is_triggered_only = yes 
 	
 	option = { 
         name = GOT_Story_Country.511.a 
@@ -18409,120 +18371,47 @@ country_event = {
         ai_chance = { 
             factor = 90 
         } 
- 
-        remove_country_leader_role = {
-			character = NWA_Loyalists
-			ideology = NR_subideology
+		
+		NWA_jon_snow = {
+			retire = yes
 		}
 		
-		remove_country_leader_role = {
-			character = NWA_Loyalists
-			ideology = CR_subideology
-		}
-		
-		add_country_leader_role = {
-			character = NWA_eddison_tollett
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = NR_subideology
-				traits = {  
-					reluctant_veteran  
-					stout_defender  
-					voice_of_restraint  
+			if = {
+				limit = {
+					NOT = { has_government = communism }
+				}
+				set_politics = {
+					ruling_party = communism
 				}
 			}
-			promote_leader = yes
-		}
-		
-		add_country_leader_role = {
-			character = NWA_eddison_tollett
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = CR_subideology
-				traits = {  
-					reluctant_veteran  
-					stout_defender  
-					voice_of_restraint  
+			
+			add_country_leader_role = {
+				character = NWA_eddison_tollett
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = NR_subideology
+					traits = {  
+						reluctant_veteran  
+						stout_defender  
+						voice_of_restraint  
+					}
 				}
+				promote_leader = yes
 			}
-			promote_leader = yes
-		}
- 
-        every_other_country = { 
-            limit = { 
-                exists = yes 
-            } 
-            news_event = { 
-                id = GOT_Story_News.511 
-                hours = 6 
-            } 
-        } 
-    } 
- 
-    option = { 
-        name = GOT_Story_Country.511.b 
- 
-        ai_chance = { 
-            factor = 10 
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-        } 
- 
-        remove_country_leader_role = {
-			character = NWA_Loyalists
-			ideology = NR_subideology
-		}
-		
-		remove_country_leader_role = {
-			character = NWA_Loyalists
-			ideology = CR_subideology
-		}
-		
-		add_country_leader_role = {
-			character = NWA_jon_snow
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = NR_subideology
-				traits = { 
-					warrior_code 
-					stout_defender 
-					reluctant_veteran 
-					great_war_hero 
-					headstrong 
-					indomitable_perseverance 
-					#disdain_for_politicians_2 
-					nationalist_symbol 
-					#monarchist_puppet 
-					great_survivor 
-					our_right_to_survive 
+			
+			add_country_leader_role = {
+				character = NWA_eddison_tollett
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = CR_subideology
+					traits = {  
+						reluctant_veteran  
+						stout_defender  
+						voice_of_restraint  
+					}
 				}
+				promote_leader = yes
 			}
-			promote_leader = yes
-		}
-		
-		add_country_leader_role = {
-			character = NWA_jon_snow
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = CR_subideology
-				traits = { 
-					warrior_code 
-					stout_defender 
-					reluctant_veteran 
-					great_war_hero 
-					headstrong 
-					indomitable_perseverance 
-					#disdain_for_politicians_2 
-					nationalist_symbol 
-					#monarchist_puppet 
-					great_survivor 
-					our_right_to_survive 
-				}
-			}
-			promote_leader = yes
-		}
  
         every_other_country = { 
             limit = { 
@@ -26956,6 +26845,10 @@ country_event = {
 		NOR = {
 			transfer_state = 21
 			inherit_technology = BOL
+			add_timed_idea = {
+				idea = NOR_Northern_Steamroller
+				days = 180
+			}
 		}
 		
 		set_autonomy = {
@@ -27186,6 +27079,10 @@ country_event = {
 		NOR = {
 			transfer_state = 21
 			inherit_technology = BOL
+			add_timed_idea = {
+				idea = NOR_Northern_Steamroller
+				days = 180
+			}
 		}
 		
 		set_autonomy = {
@@ -27756,5 +27653,68 @@ news_event = {
  
     option = { 
         name = GOT_Story_News.748.a 
+    } 
+} 
+
+
+# The Wall is Under Attack
+country_event = { 
+    id = GOT_Story_Country.749 
+    title = GOT_Story_Country.749.t 
+    desc = GOT_Story_Country.749.d 
+    picture = GFX_report_event_Castle_Black
+ 
+    trigger = { 
+        tag = NWA 
+        date < 1950.1.1
+		OR = {
+			AND = {
+				ICE = {
+					controls_state = 16
+					controls_state = 12
+				}
+				NWA = { is_ai = no }
+			}
+			ICE = {
+				has_war_with = NWA
+			}
+		}
+    } 
+ 
+    fire_only_once = yes
+ 
+    option = { 
+        name = GOT_Story_Country.749.a 
+ 
+        ai_chance = { 
+            factor = 10 
+        } 
+		
+		remove_ideas = neutrality_idea
+		remove_ideas = RI_neutrality_idea
+ 
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.749
+                hours = 6 
+            } 
+        } 
+    } 
+} 
+
+# The Wall Under Attack
+news_event = { 
+    id = GOT_Story_News.749 
+    title = GOT_Story_News.749.t 
+    desc = GOT_Story_News.749.d 
+    picture = GFX_news_event_Castle_Black
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.749.a 
     } 
 } 

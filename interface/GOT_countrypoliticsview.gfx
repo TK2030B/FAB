@@ -2,7 +2,42 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ideology_White_Walker_subideology"
-		texturefile = "gfx/interface/ideologies/white_walkers.dds"
+		texturefile = "gfx/interface/ideologies/subideologies/White_Walkers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CR_Targaryen"
+		texturefile = "gfx/interface/ideologies/subideologies/CR_Targaryen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DR_Stark"
+		texturefile = "gfx/interface/ideologies/subideologies/DR_Stark.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FR_Baratheon"
+		texturefile = "gfx/interface/ideologies/subideologies/FR_Baratheon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FR_Greyjoy"
+		texturefile = "gfx/interface/ideologies/subideologies/FR_Greyjoy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FR_Lannister"
+		texturefile = "gfx/interface/ideologies/subideologies/FR_Lannister.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NR_Baratheon"
+		texturefile = "gfx/interface/ideologies/subideologies/NR_Baratheon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NR_Greyjoy"
+		texturefile = "gfx/interface/ideologies/subideologies/NR_Greyjoy.dds"
 	}
 	
 }

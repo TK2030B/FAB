@@ -1,6 +1,92 @@
 
 GOT_Game_Decisions = {
 
+	BOL_claim_North = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = BOL
+		}
+	
+        visible = {
+			original_tag = BOL
+			has_war_with = NOR
+		}
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+		}
+
+        available = {
+		
+			surrender_progress < 0.1		
+			has_war_with = NOR
+			
+			any_state = {
+				is_core_of = NOR
+				NOT = { is_core_of = BOL }
+			}
+
+        }
+		complete_effect = {
+			every_state = { 
+				limit = { 
+					is_core_of = NOR
+				} 
+				add_core_of = BOL
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = BOL
+				} 
+				add_core_of = NOR
+			}
+		}
+    }
+	
+	BOL_Create_Flayed_Men = {
+		icon = generic_army_support
+
+		available = { 
+			NOT = { has_global_flag = GOT_The_Flayed_Men_Flag }
+			tag = BOL
+			date < 1950.1.1
+			is_in_faction_with = CRO
+			owns_state = 156
+			NOR = { exists = no }
+			has_civil_war = no
+		}
+		
+		allowed = {
+			tag = BOL
+		}
+
+		visible = {
+			NOT = { has_global_flag = GOT_The_Flayed_Men_Flag }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 7
+
+		complete_effect = {
+			set_global_flag = GOT_The_Flayed_Men_Flag
+		}
+		
+		remove_effect = {
+			country_event = { id = GOT_Faction_Country.5 hours = 6 }
+		}
+	}
+
 	TAR_conquer_Essos_countries = {
 	
 		icon = generic_army_support
@@ -15,7 +101,13 @@ GOT_Game_Decisions = {
 			FROM = { 
 				is_neighbor_of = TAR
 			}
-			has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+			OR = { 
+				has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+				AND = { 
+					owns_state = 142
+					date > 1944.1.1
+				}
+			}
 		}
         target_trigger = {
             FROM = {
@@ -29,6 +121,13 @@ GOT_Game_Decisions = {
 		
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				has_country_leader = {
+					name = "Jon Snow"
+					ruling_only = yes
+				}
+			}
 		}
 		
 		days_remove = 7
@@ -153,7 +252,7 @@ GOT_Game_Decisions = {
 					exists = no
 				}
 				STO = {
-					has_war_with = STO
+					has_war_with = TAR
 				}
 			}
 		}
@@ -245,7 +344,7 @@ GOT_Game_Decisions = {
 					exists = no
 				}
 				WES = {
-					has_war_with = WES
+					has_war_with = TAR
 				}
 			}
 		}
@@ -307,6 +406,169 @@ GOT_Game_Decisions = {
 				id = GOT_Story_Country.748
 			}	
 
+		}
+	}
+	
+	TAR_Targaryen_Invasion_of_AST = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = TAR
+		}
+
+		available = {
+			tag = TAR
+			NOT = { has_war_with = AST }
+			NOT = { is_in_faction_with = AST }
+			country_exists = AST
+			surrender_progress < 0.1
+			has_country_flag = GOT_Dany_In_Astapor
+			NOT = { has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag }
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			country_exists = AST
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1938.3.10
+			}
+			modifier = {
+				factor = 0
+				date > 1939.3.10
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = AST
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			TAR = {
+				country_event = { id = GOT_Story_Country.213 hours = 6 }
+			}
+		}
+	}
+	
+	TAR_Targaryen_Invasion_of_YUN = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = TAR
+		}
+
+		available = {
+			tag = TAR
+			NOT = { has_war_with = YUN }
+			NOT = { is_in_faction_with = YUN }
+			country_exists = YUN
+			surrender_progress < 0.1
+			228 = { is_controlled_by_ROOT_or_subject = yes }
+			NOT = { has_non_aggression_pact_with = YUN }
+			NOT = { has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag }
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			country_exists = YUN
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1938.10.10
+			}
+			modifier = {
+				factor = 0
+				date > 1939.10.10
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = YUN
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			TAR = {
+				country_event = { id = GOT_Story_Country.244 hours = 6 }
+				hidden_effect = {
+					country_event = { id = GOT_Story_Country.238 }
+				}
+			}
+		}
+	}
+	#
+	TAR_Targaryen_Invasion_of_MER = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = TAR
+		}
+
+		available = {
+			tag = TAR
+			NOT = { has_war_with = MER }
+			NOT = { is_in_faction_with = MER }
+			country_exists = MER
+			surrender_progress < 0.1
+			33 = { is_controlled_by_ROOT_or_subject = yes }
+			NOT = { has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag }
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+			country_exists = MER
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				date < 1939.3.10
+			}
+			modifier = {
+				factor = 0
+				date > 1940.3.10
+			}
+		}
+
+		days_remove = 7
+		war_with_on_remove = MER
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			TAR = {
+				country_event = { id = GOT_Story_Country.314 hours = 6 }
+			}
 		}
 	}
 

@@ -697,9 +697,11 @@ BFN_Claim_CRO = {
 
 		available = {
 			date > 1936.1.1
-			date < 1949.1.1
-			has_war_with = CRO
-			country_exists = CRO
+			date < 1950.1.1
+			any_country = {
+				owns_state = 142
+				has_war_with = ROOT
+			}
 			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_CRO = yes
@@ -707,8 +709,6 @@ BFN_Claim_CRO = {
 
 		visible = {
 			GOT_Can_Claim_CRO = yes
-			has_war_with = CRO
-			country_exists = CRO
 			NOT = { has_country_flag = show_integration_decisions }
 		}
 
@@ -735,9 +735,11 @@ BFN_Claim_CRO = {
 
 		available = {
 			date > 1936.1.1
-			date < 1949.1.1
-			has_war_with = STO
-			country_exists = STO
+			date < 1950.1.1
+			any_country = {
+				owns_state = 116
+				has_war_with = ROOT
+			}
 			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_STO = yes
@@ -745,8 +747,6 @@ BFN_Claim_CRO = {
 
 		visible = {
 			GOT_Can_Claim_STO = yes
-			has_war_with = STO
-			country_exists = STO
 			NOT = { has_country_flag = show_integration_decisions }
 		}
 
@@ -773,9 +773,11 @@ BFN_Claim_CRO = {
 
 		available = {
 			date > 1936.1.1
-			date < 1949.1.1
-			has_war_with = DRA
-			country_exists = DRA
+			date < 1950.1.1
+			any_country = {
+				owns_state = 108
+				has_war_with = ROOT
+			}
 			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_DRA = yes
@@ -783,8 +785,6 @@ BFN_Claim_CRO = {
 
 		visible = {
 			GOT_Can_Claim_DRA = yes
-			has_war_with = DRA
-			country_exists = DRA
 			NOT = { has_country_flag = show_integration_decisions }
 		}
 
@@ -811,9 +811,11 @@ BFN_Claim_CRO = {
 
 		available = {
 			date > 1936.1.1
-			date < 1949.1.1
-			has_war_with = WES
-			country_exists = WES
+			date < 1950.1.1
+			any_country = {
+				owns_state = 31
+				has_war_with = ROOT
+			}
 			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_WES = yes
@@ -821,8 +823,6 @@ BFN_Claim_CRO = {
 
 		visible = {
 			GOT_Can_Claim_WES = yes
-			has_war_with = WES
-			country_exists = WES
 			NOT = { has_country_flag = show_integration_decisions }
 		}
 
@@ -849,9 +849,11 @@ BFN_Claim_CRO = {
 
 		available = {
 			date > 1936.1.1
-			date < 1949.1.1
-			has_war_with = NOR
-			country_exists = NOR
+			date < 1950.1.1
+			any_country = {
+				owns_state = 156
+				has_war_with = ROOT
+			}
 			surrender_progress < 0.25
 			is_subject = no
 			GOT_Can_Claim_NOR = yes
@@ -859,8 +861,6 @@ BFN_Claim_CRO = {
 
 		visible = {
 			GOT_Can_Claim_NOR = yes
-			has_war_with = NOR
-			country_exists = NOR
 			NOT = { has_country_flag = show_integration_decisions }
 		}
 
