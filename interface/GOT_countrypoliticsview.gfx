@@ -6,38 +6,287 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_CR_Targaryen"
-		texturefile = "gfx/interface/ideologies/subideologies/CR_Targaryen.dds"
+		name = "GFX_ideology_CRO_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/Crownlands.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_DR_Stark"
-		texturefile = "gfx/interface/ideologies/subideologies/DR_Stark.dds"
+		name = "GFX_ideology_CRO_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/Crownlands.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_FR_Baratheon"
-		texturefile = "gfx/interface/ideologies/subideologies/FR_Baratheon.dds"
+		name = "GFX_ideology_CRO_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/Crownlands.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_FR_Greyjoy"
-		texturefile = "gfx/interface/ideologies/subideologies/FR_Greyjoy.dds"
+		name = "GFX_ideology_CRO_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/Crownlands.dds"
+	}
+	
+	#NORTH
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NOR_FR_subideology.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_FR_Lannister"
-		texturefile = "gfx/interface/ideologies/subideologies/FR_Lannister.dds"
+		name = "GFX_ideology_NOR_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NOR_NR_subideology.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_NR_Baratheon"
-		texturefile = "gfx/interface/ideologies/subideologies/NR_Baratheon.dds"
+		name = "GFX_ideology_NOR_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NOR_DR_subideology.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_NR_Greyjoy"
-		texturefile = "gfx/interface/ideologies/subideologies/NR_Greyjoy.dds"
+		name = "GFX_ideology_NOR_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NOR_CR_subideology.dds"
+	}
+	
+	#Westerlands
+	
+	spriteType = {
+		name = "GFX_ideology_WES_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WES_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_WES_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WES_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_WES_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WES_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_WES_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WES_CR_subideology.dds"
+	}
+	
+	#Vale
+	
+	spriteType = {
+		name = "GFX_ideology_VAL_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/VAL_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VAL_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/VAL_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VAL_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/VAL_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VAL_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/VAL_CR_subideology.dds"
+	}
+	
+	#House Baratheon Stormlands
+	
+	spriteType = {
+		name = "GFX_ideology_STO_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_STO_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_STO_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_STO_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_CR_subideology.dds"
+	}
+	
+	#House Baratheon Dragonstone
+	
+	spriteType = {
+		name = "GFX_ideology_DRA_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DRA_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DRA_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DRA_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/STO_CR_subideology.dds"
+	}
+	
+	#House Targaryen
+	
+	spriteType = {
+		name = "GFX_ideology_TAR_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TAR_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TAR_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TAR_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_CR_subideology.dds"
+	}
+	
+	#Iron Islands
+	
+	spriteType = {
+		name = "GFX_ideology_IRO_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/IRO_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRO_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/IRO_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRO_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/IRO_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRO_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/IRO_CR_subideology.dds"
+	}
+	
+	#Dorne
+	
+	spriteType = {
+		name = "GFX_ideology_DOR_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/DOR_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DOR_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/DOR_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DOR_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/DOR_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DOR_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/DOR_CR_subideology.dds"
+	}
+	
+	#Riverlands
+	
+	spriteType = {
+		name = "GFX_ideology_RIV_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/RIV_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RIV_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/RIV_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RIV_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/RIV_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RIV_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/RIV_CR_subideology.dds"
+	}
+	
+	#Reach
+	
+	spriteType = {
+		name = "GFX_ideology_REA_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/REA_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_REA_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/REA_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_REA_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/REA_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_REA_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/REA_CR_subideology.dds"
+	}
+	
+	#Night's Watch
+	
+	spriteType = {
+		name = "GFX_ideology_NWA_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NWA_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NWA_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NWA_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NWA_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NWA_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NWA_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/NWA_CR_subideology.dds"
+	}
+	
+	#Wildlings
+	
+	spriteType = {
+		name = "GFX_ideology_WIL_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WIL_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_WIL_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WIL_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_WIL_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WIL_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_WIL_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/WIL_CR_subideology.dds"
 	}
 	
 }

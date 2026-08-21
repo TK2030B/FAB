@@ -46,3 +46,6 @@ add_ideas = {
 	GOT_Tradition_North
 	GOT_Religion_Old_Gods
 }
+
+create_faction = "Wolves of the North"
+add_to_faction = RIV

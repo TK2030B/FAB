@@ -155,37 +155,3 @@ FAI_communism_party:0 "The Sparrows"
  NR_subideology_desc:0 "Traditional Rule emphasizes the preservation of age-old institutions, often ruled by monarchy or aristocracy. The ideology holds that stability, continuity, and respect for tradition are paramount in maintaining order. These systems resist drastic change, upholding the old ways as a source of strength and identity, rejecting the chaos of modern revolutionary ideas."
 White_Walker_subideology:0 "The Eternal Night"
 White_Walker_subideology_desc:0 "An unrelenting force of ice and death, the White Walkers seek to extinguish all warmth and life from the world. They do not govern, negotiate, or tolerate opposition—only the cold remains. With every fallen foe reborn as an instrument of their will, their dominion is inevitable, an empire of the undead under an eternal winter."
-
-
- # ==========================================
- # COMMUNIST GROUP (CR)
- # ==========================================
- CR_Targaryen:0 "Targaryen Aligned"
- CR_Targaryen_desc:0 "Targaryen Aligned represents a revolutionary upheaval against the traditional feudal order, driven by the absolute authority of the Dragon Queen. Rejecting both lordly privileges and regional independence, this system seeks to dismantle the old chains of serfdom through radical central authority, direct populist support, and absolute martial force. Under the banner of Fire and Blood, local lords are replaced by state-directed councils, wealth is seized to support the realm's survival, and any resistance to the new paradigm is met with total annihilation."
-
- # ==========================================
- # DEMOCRATIC GROUP (DR)
- # ==========================================
- DR_Stark:0 "Stark Aligned"
- DR_Stark_desc:0 "Stark Aligned represents a governance system anchored in the ancient honor, sworn oaths, and unforgiving traditions of the First Men. Rooted in the stark principle that the man who passes the sentence should swing the sword, this order balances the solemn duty of leadership with direct accountability to the people and vassals. It rejects centralized tyranny in favor of regional autonomy, mutual protection, and deep loyalty between lord and smallfolk alike. Bound together by duty and survival, the North stands united—for when the snows fall and the white winds blow, the lone wolf dies, but the pack survives."
-
- # ==========================================
- # FASCIST GROUP (FR)
- # ==========================================
- FR_Baratheon:0 "Baratheon Aligned"
- FR_Baratheon_desc:0 "Baratheon Aligned represents an unyielding, militarized order anchored in absolute legalism, rigid duty, and the fiery crusade of the Lord of Light. Rejecting the corrupt feudal compromises of King's Landing, this regime views the law as absolute and the King as its sole executor. Under the burning heart sigil, state authority, military conscription, and religious zealotry merge into a singular force. Traditional septs are replaced by pyres, dissent is treated as treason against the rightful throne, and the entirety of the state is forged into an uncompromising weapon to cleanse the realm of usurpers."
-
- FR_Greyjoy:0 "Greyjoy Aligned"
- FR_Greyjoy_desc:0 "Greyjoy Aligned represents a dark, apocalyptic expansionism born from total naval terror and fanatical ambition. Spearheaded by reavers who reject all honor, diplomacy, and traditional boundaries, this regime converts the entire state into a sea-borne war machine. Ships are built at frantic speeds, coastal populations are enslaved or sacrificed, and the fleet operates as an unstoppable force of total conquest. The goal is no longer mere shore plunder, but the complete subjugation of the mainland under an iron-fisted, apocalyptic tide."
-
- FR_Lannister:0 "Lannister Aligned"
- FR_Lannister_desc:0 "Lannister Aligned represents an unyielding, totalitarian order driven by state-backed capitalism, absolute central authority, and cold military pragmatism. Spearheaded by the vast wealth of Casterly Rock and an uncompromising doctrine of fear, this system views the state as an extension of the ruler's absolute will. Honor and tradition are discarded in favor of ruthless realpolitik, total resource mobilization, and swift, lethal suppression of dissent. Under the crimson banner, stability is maintained not through affection or ancient oaths, but through an indelible truth: a Lannister always pays his debts, and those who oppose the iron throne are utterly eradicated."
-
- # ==========================================
- # NON-ALIGNED GROUP (NR)
- # ==========================================
- NR_Baratheon:0 "Baratheon Aligned"
- NR_Baratheon_desc:0 "Baratheon Aligned represents a high-feudal coalition powered by martial pride, chivalric splendor, and regional popularity. Built upon the legacy of King Renly and the martial traditions of the Stormlands and the Reach, this system relies on charisma, lordly alliances, and immense chivalric mobilization rather than grim legalism. It upholds traditional noble rights, vast agricultural wealth, and the splendor of the high court, binding the southern houses together under a proud, expansive banner that promises courtly favor, knightly glory, and stable rule."
-
- NR_Greyjoy:0 "Greyjoy Aligned"
- NR_Greyjoy_desc:0 "Greyjoy Aligned represents the classic, opportunistic isolationism of the Iron Islands under traditional sea-kings. Rejecting mainland feudal laws, agricultural labor, and green-land taxes, this order relies on the ancient tradition of paying the iron price. Under the golden kraken, state policy is driven by maritime raiding, coastal plunder, and fierce island independence. While aggressive toward green-landers, it remains bound by the traditional laws of the Driftwood Throne, seeking to carve out autonomous coastal domains rather than impose total continental rule."

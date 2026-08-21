@@ -27,6 +27,21 @@ characters={
 				professional_crisis_solver  
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = {  
+				warden_of_west
+				dictator  
+				autocratic_imperialist  
+				political_manipulator  
+				indomitable_perseverance  
+				warmonger  
+				strict_austerity_adherent  
+				empire_builder  
+				professional_crisis_solver  
+			}
+		}
 		field_marshal={
 			traits = { }
 			skill = 6
@@ -74,6 +89,28 @@ characters={
 				strict_austerity_adherent  
 			}
 		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = {  
+				autocratic_imperialist  
+				political_manipulator  
+				professional_crisis_solver  
+				hardened_officer  
+				strict_austerity_adherent  
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = {  
+				autocratic_imperialist  
+				political_manipulator  
+				professional_crisis_solver  
+				hardened_officer  
+				strict_austerity_adherent  
+			}
+		}
 		field_marshal={
 			traits = { }
 			skill = 5
@@ -109,6 +146,19 @@ characters={
 			}
 
 		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = {  
+				dictator  
+				political_manipulator  
+				autocratic_imperialist  
+				the_foreign_connection  
+				ambitious_negotiator_fascism  
+				princess_of_terror  
+			}
+
+		}
 	}
 	
 	WES_Tyrion_Lannister={
@@ -125,6 +175,30 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {  
+				political_manipulator  
+				#the_foreign_connection  
+				#ambitious_negotiator_neutrality  
+				popular_figurehead  
+				economic_reformer  
+				smooth_talking_charmer  
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = {  
+				political_manipulator  
+				#the_foreign_connection  
+				#ambitious_negotiator_neutrality  
+				popular_figurehead  
+				economic_reformer  
+				smooth_talking_charmer  
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
 			expire="1965.1.1"
 			traits = {  
 				political_manipulator  

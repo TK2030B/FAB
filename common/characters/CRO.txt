@@ -24,6 +24,18 @@ characters={
 			}
 			expire="1965.1.1"
 		}
+		country_leader={
+			ideology=FR_subideology
+			 traits = { 
+				lavish_lifestyle 
+				headstrong 
+				great_war_hero 
+				popular_figurehead 
+				hedonist 
+				warmonger 
+			}
+			expire="1965.1.1"
+		}
 		advisor={
 			cost = 100
 			slot = political_advisor
@@ -136,6 +148,34 @@ characters={
 				#voice_of_restraint 
 			}
 		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = { 
+				underage_monarch 
+				compassionate_gentleman 
+				#humble 
+				appeaser 
+				constitutional_monarch 
+				popular_figurehead 
+				champion_of_peace_5 
+				#voice_of_restraint 
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = { 
+				underage_monarch 
+				compassionate_gentleman 
+				#humble 
+				appeaser 
+				constitutional_monarch 
+				popular_figurehead 
+				champion_of_peace_5 
+				#voice_of_restraint 
+			}
+		}
 	}
 	
 	CRO_Myrcella_Baratheon={
@@ -169,6 +209,22 @@ characters={
 		}
 		country_leader={
 			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = { 
+				popular_figurehead 
+				constitutional_monarch 
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = { 
+				popular_figurehead 
+				constitutional_monarch 
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
 			expire="1965.1.1"
 			traits = { 
 				popular_figurehead 
@@ -453,6 +509,30 @@ characters={
 				large="gfx/leaders/CRO/Portrait_Cersei_Lannister.dds"
 				small="gfx/interface/ideas/characters/idea_CRO_cersei_lannister.dds"
 			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			 traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			expire="1965.1.1"
+		}
+		country_leader={
+			ideology=NR_subideology
+			 traits = {  
+					dictator  
+					political_manipulator  
+					autocratic_imperialist  
+					#the_foreign_connection  
+					#ambitious_negotiator_fascism  
+					princess_of_terror  
+				}
+			expire="1965.1.1"
 		}
 		advisor = {
 			slot = political_advisor

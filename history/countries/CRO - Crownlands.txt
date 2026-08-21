@@ -144,13 +144,13 @@ set_convoys = 150
 
 set_popularities = {
 	democratic = 0
-	fascism = 0
+	neutrality = 0
 	communism = 0
-	neutrality = 100
+	fascism = 100
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -158,9 +158,11 @@ set_politics = {
 
 recruit_character=CRO_robert_baratheon
 recruit_character=CRO_joffrey_baratheon
+recruit_character = CRO_Tommen_Baratheon
+recruit_character = CRO_Myrcella_Baratheon
+recruit_character=CRO_cersei_lannister
 recruit_character=CRO_empty_throne
 recruit_character=CRO_jacelyn_bywater
-recruit_character=CRO_cersei_lannister
 #recruit_character=CRO_jon_arryn #Already Dead
 recruit_character=CRO_no_hand_of_king
 recruit_character=CRO_jason_slynt
@@ -168,8 +170,6 @@ recruit_character=CRO_osfryd_kettleblack
 recruit_character=CRO_barristan_selmy
 recruit_character=CRO_jaime_lannister
 recruit_character = CRO_lord_varys
-recruit_character = CRO_Tommen_Baratheon
-recruit_character = CRO_Myrcella_Baratheon
 recruit_character = CRO_Petyr_Baelish
 recruit_character = CRO_Pycelle
 recruit_character = CRO_High_Septon
@@ -199,3 +199,6 @@ add_ideas = {
 	GOT_Tradition_Crownlands
 	GOT_Religion_The_Seven
 }
+
+create_faction = "The Iron Throne"
+add_to_faction = WES

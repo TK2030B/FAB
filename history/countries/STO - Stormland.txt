@@ -46,3 +46,6 @@ add_ideas = {
 	GOT_Tradition_Stormlands  
 	GOT_Religion_The_Seven  
 }
+
+create_faction = "The Storm"
+add_to_faction = REA

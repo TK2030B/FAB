@@ -11256,7 +11256,26 @@ country_event = {
 						compassionate_gentleman 
 						#humble 
 						appeaser 
-						constitutional_monarch 
+						#constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						#voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
+			
+			add_country_leader_role = {
+				character = CRO_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						#constitutional_monarch 
 						popular_figurehead 
 						champion_of_peace_5 
 						#voice_of_restraint 

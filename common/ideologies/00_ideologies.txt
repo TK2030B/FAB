@@ -22,10 +22,6 @@ ideologies = {
 			
 			DR_subideology = {
 			}
-			
-			DR_Stark = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
 		}
 
 		dynamic_faction_names = {
@@ -106,10 +102,6 @@ ideologies = {
 			
 			CR_subideology = {
 			}
-			
-			CR_Targaryen = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
 		}
 
 		dynamic_faction_names = {
@@ -185,10 +177,6 @@ ideologies = {
 			
 			FR_subideology = {
 			}
-			
-			FR_Lannister = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
 
 		}
 
@@ -255,10 +243,6 @@ ideologies = {
 			}
 			
 			NR_subideology = {
-			}
-			
-			NR_Baratheon = {
-			can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 		}
 
