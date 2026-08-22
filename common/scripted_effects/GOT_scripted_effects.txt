@@ -123,17 +123,10 @@ GOT_start_techs = {
 				tag = ULT
 				tag = SUI
 				tag = NAA
-			}
-		}
-		GOT_start_techs_D = yes
-	}
-	else_if = {
-		limit = {
-			OR = {
 				tag = ICE
 			}
 		}
-		GOT_start_techs_E = yes
+		GOT_start_techs_D = yes
 	}
 	else = {
 		GOT_start_techs_C = yes
@@ -415,13 +408,6 @@ GOT_start_techs_C = {
 GOT_start_techs_D = {
 	set_technology = {
 		infantry_weapons = 1
-		mass_assault = 1
-	}
-}
-
-GOT_start_techs_E = {
-	set_technology = {
-		zombietech = 1
 		mass_assault = 1
 	}
 }
