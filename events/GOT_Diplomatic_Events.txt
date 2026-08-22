@@ -436,6 +436,21 @@ country_event = {
 			}
 			promote_leader = yes
 		}
+		add_country_leader_role = {
+			character = CRO_joffrey_baratheon
+				country_leader={
+				ideology=FR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					warmonger 
+					underage_monarch 
+					unpopular_monarch 
+					incompetent_leader 
+					dictator 
+				}
+			}
+			promote_leader = yes
+		}
 		
 		
 				
@@ -443,6 +458,7 @@ country_event = {
 			id = GOT_Location_Country.1
 			hours = 6
 		}
+		#Iron Throne Now Present at game start
 		if = {
 			limit = {
 				is_in_faction = no
@@ -481,47 +497,19 @@ country_event = {
 		#For Players, or Non Historical AI, Stannis has a 40% chance of success
 		else = {
 
-		#If The Crownlands is a faction leader, the faction is disbaned
-		if = {
-			limit = {
-				is_faction_leader = yes
-			}
-			dismantle_faction = yes
-		}
-
-		#If Crownlands is a faction member, but not the leader, then he just leaves
-		if = {
-			limit = {
-				is_in_faction = yes
-				NOT = { is_in_faction_with = DRA }
-			}
-			leave_faction = yes
-		}	
-		
-		#Event asking them to join their faction
-			every_other_country = {
-				limit = {
-					is_in_faction_with = DRA
-					is_faction_leader = yes
-				}
-			   country_event = {
-					id = generic.2
-					hours = 6
-				}
-			}
-		
-			#Westerlands Notified of Usurpation Attempt
-			WES = {
-				country_event = {
-					id = GOT_Diplomatic_Country.10
-					days = 1
-				}
-			}
-			
 			#40% Chance Coup Success, 30% Ned Stark Arrested, 30% Civil War
 			random_list = {
 				#Coup Success
 				40 = {
+					GOT_Change_Faction_DRA = yes
+					GOT_Change_Ideology_Neutrality = yes
+					#Westerlands Notified of Usurpation Attempt
+					WES = {
+						country_event = {
+							id = GOT_Diplomatic_Country.10
+							days = 1
+						}
+					}
 					CRO_ned_stark = {
 						retire = yes
 					}
@@ -552,6 +540,15 @@ country_event = {
 				}
 				#Civil War
 				30 = {
+					GOT_Change_Faction_DRA = yes
+					GOT_Change_Ideology_Neutrality = yes
+					#Westerlands Notified of Usurpation Attempt
+					WES = {
+						country_event = {
+							id = GOT_Diplomatic_Country.10
+							days = 1
+						}
+					}
 					CRO_ned_stark = {
 						retire = yes
 					}
@@ -614,46 +611,18 @@ country_event = {
 		
 		add_threat = 2
 		
-		#If The Crownlands is a faction leader, the faction is disbaned
-		if = {
-			limit = {
-				is_faction_leader = yes
-			}
-			dismantle_faction = yes
-		}
-
-		#If Crownlands is a faction member, but not the leader, then he just leaves
-		if = {
-			limit = {
-				is_in_faction = yes
-				NOT = { is_in_faction_with = STO }
-			}
-			leave_faction = yes
-		}
-		
-		#Event asking them to join their faction
-		every_other_country = {
-				limit = {
-					is_in_faction_with = STO
-					is_faction_leader = yes
-				}
-			   country_event = {
-					id = generic.2
-					hours = 6
-				}
-			}
-		
-		#Westerlands Notified of Usurpation Attempt
-		WES = {
-			country_event = {
-				id = GOT_Diplomatic_Country.10
-				days = 1
-			}
-		}
-		
 		random_list = {
 			#Coup Success
 			60 = {
+				GOT_Change_Faction_STO = yes
+				GOT_Change_Ideology_Neutrality = yes
+				#Westerlands Notified of Usurpation Attempt
+				WES = {
+					country_event = {
+						id = GOT_Diplomatic_Country.10
+						days = 1
+					}
+				}
 				CRO_ned_stark = {
 					retire = yes
 				}
@@ -682,6 +651,15 @@ country_event = {
 			}
 			#Civil War
 			20 = {
+				GOT_Change_Faction_STO = yes
+				GOT_Change_Ideology_Neutrality = yes
+				#Westerlands Notified of Usurpation Attempt
+				WES = {
+					country_event = {
+						id = GOT_Diplomatic_Country.10
+						days = 1
+					}
+				}
 				CRO_ned_stark = {
 					retire = yes
 				}
@@ -743,6 +721,8 @@ country_event = {
 		
 		add_political_power = 25
 		
+		GOT_Change_Ideology_Neutrality = yes
+		
 		WES = {
 			country_event = {
 				id = GOT_Diplomatic_Country.10
@@ -793,8 +773,12 @@ country_event = {
 			}
 		}
 		
-		retire_ideology_leader = neutrality
-		retire_ideology_leader = fascism
+		CRO_ned_stark = {
+			retire = yes
+		}
+		CRO_empty_throne = {
+			retire = yes
+		}
 		
 		add_country_leader_role = {
 			character = CRO_cersei_lannister
@@ -833,6 +817,7 @@ country_event = {
 		add_threat = 2
 		add_political_power = 25
 		
+		#Iron Throne Now Present at game start
 		if = {
 			limit = {
 				is_in_faction = no
@@ -851,11 +836,31 @@ country_event = {
 			factor = 50
 		}
 
-		retire_ideology_leader = neutrality
+		CRO_ned_stark = {
+			retire = yes
+		}
+		CRO_empty_throne = {
+			retire = yes
+		}
 		add_country_leader_role = {
 			character = CRO_joffrey_baratheon
 				country_leader={
 				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					warmonger 
+					underage_monarch 
+					unpopular_monarch 
+					incompetent_leader 
+					dictator 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = CRO_joffrey_baratheon
+				country_leader={
+				ideology=FR_subideology
 				expire="1965.1.1.1"
 				traits = { 
 					warmonger 
@@ -873,6 +878,7 @@ country_event = {
 			hours = 6
 		}
 		
+		#Iron Throne Now Present at game start
 		if = {
 			limit = {
 				is_in_faction = no
@@ -897,11 +903,34 @@ country_event = {
 		
 		add_threat = 2
 		
-		retire_ideology_leader = neutrality
+		CRO_ned_stark = {
+			retire = yes
+		}
+		CRO_empty_throne = {
+			retire = yes
+		}
 		add_country_leader_role = {
 			character = CRO_Tommen_Baratheon
 				country_leader={
 				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					underage_monarch 
+					compassionate_gentleman 
+					#humble 
+					appeaser 
+					constitutional_monarch 
+					popular_figurehead 
+					champion_of_peace_5 
+					#voice_of_restraint 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = CRO_Tommen_Baratheon
+				country_leader={
+				ideology=FR_subideology
 				expire="1965.1.1.1"
 				traits = { 
 					underage_monarch 
@@ -922,6 +951,7 @@ country_event = {
 			hours = 6
 		}
 		
+		#Iron Throne Now Present at game start
 		if = {
 			limit = {
 				is_in_faction = no
@@ -948,11 +978,28 @@ country_event = {
 		
 		add_threat = 2
 		
-		retire_ideology_leader = neutrality
+		CRO_ned_stark = {
+			retire = yes
+		}
+		CRO_empty_throne = {
+			retire = yes
+		}
 		add_country_leader_role = {
 			character = CRO_Myrcella_Baratheon
 				country_leader={
 				ideology=NR_subideology
+				expire="1965.1.1.1"
+				traits = { 
+					popular_figurehead 
+					constitutional_monarch 
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = CRO_Myrcella_Baratheon
+				country_leader={
+				ideology=FR_subideology
 				expire="1965.1.1.1"
 				traits = { 
 					popular_figurehead 
@@ -967,6 +1014,7 @@ country_event = {
 			hours = 6
 		}
 		
+		#Iron Throne Now Present at game start
 		if = {
 			limit = {
 				is_in_faction = no
@@ -1005,7 +1053,7 @@ country_event = {
 			limit = {
 				is_in_faction = no
 			}
-			create_faction = "The Lion’s Court"
+			create_faction = "The Lion's Court"
 		}
 		
 		create_wargoal = {
@@ -8911,8 +8959,14 @@ country_event = {
 				popularity = 0.50
 				ideology = fascism
 			}
-			
-		create_faction = "The Kingdom of the North"
+		
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			create_faction = "The Kingdom of the North"
+		}		
+		
  
         every_other_country = { 
             limit = { 

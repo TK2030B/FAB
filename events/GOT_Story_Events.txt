@@ -2373,12 +2373,27 @@ country_event = {
 					}
 				}
 			}
-			retire_ideology_leader = neutrality
+				CRO_ned_stark = {
+					retire = yes
+				}
 				add_country_leader_role = {
 					character = CRO_empty_throne
 					country_leader = {
 						expire = "1965.1.1"
 						ideology = NR_subideology
+						traits = {
+							no_leadership
+							internal_rivalry
+							divided_interests
+						}
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					character = CRO_empty_throne
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = FR_subideology
 						traits = {
 							no_leadership
 							internal_rivalry
@@ -3641,7 +3656,9 @@ country_event = {
 		add_stability = -0.05
 		add_threat = 6
 		
-		kill_country_leader = yes
+		CRO_robert_baratheon = {
+			retire = yes
+		}
 		
 		add_country_leader_role = {
 			character = CRO_ned_stark
@@ -3654,7 +3671,26 @@ country_event = {
 					indomitable_perseverance 
 					great_war_hero 
 					strict_austerity_adherent 
-					staunch_monarchist 
+					#staunch_monarchist 
+					fortification_engineer 
+					reluctant_veteran 
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = CRO_ned_stark
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = { 
+					warden_of_north 
+					warrior_code 
+					indomitable_perseverance 
+					great_war_hero 
+					strict_austerity_adherent 
+					#staunch_monarchist 
 					fortification_engineer 
 					reluctant_veteran 
 				}
@@ -3708,13 +3744,29 @@ country_event = {
 		add_stability = -0.05
 		add_threat = 6
 		
-		kill_country_leader = yes
+		CRO_robert_baratheon = {
+			retire = yes
+		}
 		
 		add_country_leader_role = {
 			character = CRO_empty_throne
 			country_leader = {
 				expire = "1965.1.1"
 				ideology = NR_subideology
+				traits = {
+					no_leadership
+					internal_rivalry
+					divided_interests
+				}
+			}
+			promote_leader = yes
+		}
+		
+		add_country_leader_role = {
+			character = CRO_empty_throne
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
 				traits = {
 					no_leadership
 					internal_rivalry
@@ -4081,7 +4133,7 @@ country_event = {
     trigger = {
         tag = DRA
 		date > 1937.1.5
-        date < 1937.2.5
+        date < 1938.1.5
 		country_exists = CRO
 		CRO = {
 			is_subject = no
@@ -7472,7 +7524,7 @@ country_event = {
     trigger = {
         tag = STO
 		date > 1937.1.5
-        date < 1937.2.5
+        date < 1938.1.5
 		country_exists = CRO
 		OR = {
 			CRO = {
@@ -17772,19 +17824,7 @@ country_event = {
         add_stability = 0.05
         add_political_power = 75 
 		
-		if = {
-			limit = {
-				NOT = { has_government = communism }
-			}
-			set_politics = {
-				ruling_party = communism
-			}
-		}
-			
-		add_popularity = {
-			popularity = 0.50
-			ideology = communism
-		}
+		GOT_Change_Ideology_Communism = yes
 		
 		set_global_flag = GOT_Jon_Snow_Revived_Flag
 		set_global_flag = GOT_Jon_Stays_Watch_Flag

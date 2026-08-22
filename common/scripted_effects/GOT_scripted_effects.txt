@@ -1338,3 +1338,129 @@ GOT_End_of_Sparrows = {
 	remove_ideas = CRO_Sparrows_Placated_3
 	remove_ideas = CRO_Faith_Militant
 }
+
+GOT_Change_Ideology_Neutrality = {
+	#The Great Ideology Change
+	if = {
+		limit = {
+			NOT = { has_ruling_party = neutrality }
+		}
+		set_politics = {
+			ruling_party = neutrality
+		}
+		add_popularity = {
+			popularity = 1.0
+			ideology = neutrality
+		}
+	}
+}
+
+GOT_Change_Ideology_Communism = {
+	#The Great Ideology Change
+	if = {
+		limit = {
+			NOT = { has_ruling_party = communism }
+		}
+		set_politics = {
+			ruling_party = communism
+		}
+		add_popularity = {
+			popularity = 1.0
+			ideology = communism
+		}
+	}
+}
+
+GOT_Change_Ideology_Democratic = {
+	#The Great Ideology Change
+	if = {
+		limit = {
+			NOT = { has_ruling_party = democratic }
+		}
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_popularity = {
+			popularity = 1.0
+			ideology = democratic
+		}
+	}
+}
+
+GOT_Change_Ideology_Fascism = {
+	#The Great Ideology Change
+	if = {
+		limit = {
+			NOT = { has_ruling_party = fascism }
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_popularity = {
+			popularity = 1.0
+			ideology = fascism
+		}
+	}
+}
+
+GOT_Change_Faction_DRA = {
+		#If The Crownlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If Crownlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = DRA }
+			}
+			leave_faction = yes
+		}	
+		
+		#Event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = DRA
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}	
+}
+
+GOT_Change_Faction_STO = {
+#If The Crownlands is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If Crownlands is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = STO }
+			}
+			leave_faction = yes
+		}
+		
+		#Event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = STO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+}
