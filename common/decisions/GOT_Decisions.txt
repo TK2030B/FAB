@@ -803,17 +803,6 @@ GOT_Game_Decisions = {
 				target = RIV
 				expire = 365
 			}
-			if = {
-				limit = {
-					is_ai = yes 
-					NOT = { has_war_with = RIV }
-					NOT = { is_in_faction_with = RIV }
-				}
-				declare_war_on = {
-					target = RIV
-					type = annex_everything
-				}
-			}
 		}
 	}
 
@@ -1215,17 +1204,6 @@ GOT_Game_Decisions = {
 				target = CRO
 				expire = 365
 			}
-			if = {
-				limit = {
-					is_ai = yes 
-					NOT = { has_war_with = CRO }
-					NOT = { is_in_faction_with = CRO }
-				}
-				declare_war_on = {
-					target = CRO
-					type = annex_everything
-				}
-			}
 		}
 	}
 	
@@ -1507,17 +1485,6 @@ GOT_Game_Decisions = {
 				target = CRO
 				expire = 365
 			}
-			if = {
-				limit = {
-					is_ai = yes 
-					NOT = { has_war_with = CRO }
-					NOT = { is_in_faction_with = CRO }
-				}
-				declare_war_on = {
-					target = CRO
-					type = annex_everything
-				}
-			}
 		}
 	}
 	
@@ -1571,17 +1538,6 @@ GOT_Game_Decisions = {
 				target = CRO
 				expire = 365
 			}
-			if = {
-				limit = {
-					is_ai = yes 
-					NOT = { has_war_with = CRO }
-					NOT = { is_in_faction_with = CRO }
-				}
-				declare_war_on = {
-					target = CRO
-					type = annex_everything
-				}
-			}
 		}
 	}
 	
@@ -1630,17 +1586,6 @@ GOT_Game_Decisions = {
 				type = annex_everything
 				target = TAR
 				expire = 365
-			}
-			if = {
-				limit = {
-					is_ai = yes 
-					NOT = { has_war_with = TAR }
-					NOT = { is_in_faction_with = TAR }
-				}
-				declare_war_on = {
-					target = TAR
-					type = annex_everything
-				}
 			}
 		}
 	}

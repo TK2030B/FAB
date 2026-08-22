@@ -1329,7 +1329,7 @@ GOT_Change_Ideology_Neutrality = {
 	#The Great Ideology Change
 	if = {
 		limit = {
-			NOT = { has_ruling_party = neutrality }
+			NOT = { has_government = neutrality }
 		}
 		set_politics = {
 			ruling_party = neutrality
@@ -1345,7 +1345,7 @@ GOT_Change_Ideology_Communism = {
 	#The Great Ideology Change
 	if = {
 		limit = {
-			NOT = { has_ruling_party = communism }
+			NOT = { has_government = communism }
 		}
 		set_politics = {
 			ruling_party = communism
@@ -1361,7 +1361,7 @@ GOT_Change_Ideology_Democratic = {
 	#The Great Ideology Change
 	if = {
 		limit = {
-			NOT = { has_ruling_party = democratic }
+			NOT = { has_government = democratic }
 		}
 		set_politics = {
 			ruling_party = democratic
@@ -1377,7 +1377,7 @@ GOT_Change_Ideology_Fascism = {
 	#The Great Ideology Change
 	if = {
 		limit = {
-			NOT = { has_ruling_party = fascism }
+			NOT = { has_government = fascism }
 		}
 		set_politics = {
 			ruling_party = fascism
@@ -1442,6 +1442,84 @@ GOT_Change_Faction_STO = {
 		every_other_country = {
 				limit = {
 					is_in_faction_with = STO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+}
+
+GOT_Change_Faction_NOR = {
+
+#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		#If is a faction member, but not the leader, then he just leaves
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = NOR }
+			}
+			leave_faction = yes
+			
+		}
+		
+		#Gets event asking them to join their faction
+		every_other_country = {
+				limit = {
+					is_in_faction_with = NOR
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+
+}
+
+GOT_Change_Faction_CRO = {
+if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+			}
+			leave_faction = yes
+		}
+		
+		#Crownlands gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = CRO
+					is_faction_leader = yes
+				}
+			   country_event = {
+					id = generic.2
+					hours = 6
+				}
+			}
+}
+
+GOT_Change_Faction_WES = {
+if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = WES }
+			}
+			leave_faction = yes
+		}
+		
+		#Crownlands gets event asking them to join their faction
+			every_other_country = {
+				limit = {
+					is_in_faction_with = WES
 					is_faction_leader = yes
 				}
 			   country_event = {

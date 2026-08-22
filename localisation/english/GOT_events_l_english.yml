@@ -4798,6 +4798,28 @@ GOT_Diplomatic_Country.90.b: "A resurrected bastard holds no claim. We must look
  GOT_Diplomatic_Country.100.a:0 "Bend the knee to King Bran."
  GOT_Diplomatic_Country.100.b:0 "Champion Jon Snow!"
  GOT_Diplomatic_Country.100.c:0 "Remain Neutral."
+ 
+ GOT_Diplomatic_Country.101.t:0 "Reaving the Lion's Pride"
+ GOT_Diplomatic_Country.101.d:0 "The greenlanders of Casterly Rock bleed, and the Drowned God demands we take what is ours. The Lion’s lands are rich with gold, iron, and soft thralls begging for the Iron Price. Yet as our longships gear for war, a question divides the captains at Pyke.\n\nThe Young Wolf in the North marches south with his hosts, seeking to burn the West to the ground. Some captains argue we should cast our lot alongside the Northmen, coordinating our naval might with their land hosts to shatter the Lannisters together. Others sneer at the thought of answering to a greenland boy-king—claiming the Ironborn kneel to no man, taking our plunder as an independent force and letting the wolves and lions tear each other apart."
+
+ # Option A: Formal Faction Join (The "Italy / Axis" Approach)
+ GOT_Diplomatic_Country.101.a:0 "Fly our banners alongside the Wolf. We march together!"
+ GOT_Diplomatic_Country.101.a.tt:0 "We will formally join §YThe Northern Alliance§! as a faction member. We will coordinate directly with the Starks against Casterly Rock."
+
+ # Option B: Independent Co-belligerent (The "Finland" Approach)
+ GOT_Diplomatic_Country.101.b:0 "We take the Iron Price alone! We kneel to no Wolf!"
+ GOT_Diplomatic_Country.101.b.tt:0 "We declare an independent war against §YThe Lannister Faction§!. We will operate as a co-belligerent without joining the Northern alliance or taking orders from Winterfell."
+ 
+ GOT_Diplomatic_Country.102.t:0 "Reaving the Wolf's Realm"
+ GOT_Diplomatic_Country.102.d:0 "The North is exposed. With Robb Stark's hosts marched south into the Riverlands, the pine-clad shores, rich shorelines, and ancient strongholds of the Northmen lie undefended, ripe for the taking. The Old Way demands we strike where the enemy is weak and take by force what is denied us by law.\n\nYet as our captains sharpen their axes at Pyke, a political divide splits the council. Ravens have arrived from the Iron Throne, offering titles, recognition, and gold if we formally join Tywin Lannister's coalition to crush the northern rebels. But many reavers spit at the mention of Casterly Rock—demanding we bleed the wolf alone, flying no greenland flags, taking our plunder as an independent power, and bowing to neither Lion nor Wolf."
+
+ # Option A: Formal Faction Join (Lannister Alignment)
+ GOT_Diplomatic_Country.102.a:0 "Treat with Casterly Rock. The Lion's gold fuels our ships!"
+ GOT_Diplomatic_Country.102.a.tt:0 "We will formally join §YThe Iron Throne Alliance§! as a faction member. We will coordinate directly with the Lannisters to carve up the North."
+
+ # Option B: Independent Co-belligerent (Historical Reaving)
+ GOT_Diplomatic_Country.102.b:0 "We take the North by the Iron Price! We take no orders from Kings Landing!"
+ GOT_Diplomatic_Country.102.b.tt:0 "We declare an independent war against §YThe Stark Faction§!. We will operate as a co-belligerent, seizing Northern land without entering a treaty with Casterly Rock."
 
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
