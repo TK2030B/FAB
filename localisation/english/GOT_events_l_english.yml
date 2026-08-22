@@ -379,82 +379,73 @@ GOT_Story_News.23.t: "The Imp Spirited Toward the Eyrie"
 GOT_Story_News.23.d: "Reports from travelers along the High Road confirm that Lady Catelyn Stark is dragging her royal prisoner into the treacherous mountains of the Vale to face trial before Lady Lysa Arryn. Amid attacks by bloodthirsty mountain clans, the captive Lannister remains under heavy guard as the party ascends toward the sky cells. Lords throughout the Seven Kingdoms watch nervously as the rift between Casterly Rock and Winterfell reaches the point of no return."
 GOT_Story_News.23.a: "A fatal fall awaits at the end of the road."
 
-# Event 24 – The Mountain Loses Control
-GOT_Story_Country.24.t: "A Beast Unleashed"
-GOT_Story_Country.24.d: "Ser Gregor Clegane lost control after a defeat at the joust, murdering his horse and nearly striking down Ser Loras. He had to be restrained before the King ordered his exile. This is no knight — he is a monster in armor."
-GOT_Story_Country.24.a: "He’s too dangerous to remain here."
-GOT_Story_Country.24.b: "We could use a weapon like him..."
+GOT_Story_Country.24.t: "A Beast Unleashed in the Crownlands"
+GOT_Story_Country.24.d: "During the royal tournament, Ser Gregor Clegane flew into a violent rage following his defeat, slaughtering his own warhorse and turning his blade toward Ser Loras Tyrell. Royal guards intervened to restrain the Mountain before a formal decree of exile was issued to clear the tourney grounds of his presence. His departure leaves a dangerous void in local enforcement, but restores order to the capital."
+GOT_Story_Country.24.a: "Shocking."
 
-GOT_Story_News.24.t: "Blood on the Tourney Grounds"
-GOT_Story_News.24.d: "Ser Gregor Clegane's outburst at the royal tournament has shocked the court. His violent display ended with his exile and confirmed fears about the dangerous state of Westeros’ knights."
-GOT_Story_News.24.a: "There are fewer and fewer true knights."
+GOT_Story_News.24.t: "Blood at the Capital Tourney"
+GOT_Story_News.24.d: "Reports spread across Westeros of Ser Gregor Clegane's unbridled fury at the tourney in King's Landing. After his brutal public outburst and subsequent banishment by the King, lords and smallfolk alike question the stability of the realm and the decay of chivalric honor among highborn knights."
+GOT_Story_News.24.a: "True honor fades from the Seven Kingdoms."
 
-# Event 25 – Lysa and Robin Arryn Revealed (Vale POV)
-GOT_Story_Country.25.t: "My Sister Brings a Lion"
-GOT_Story_Country.25.d: "Catelyn has arrived at the Eyrie, dragging a Lannister in chains behind her. She demands justice — but justice has long since become personal. The dwarf Tyrion will pay for what they’ve done to my husband. No one will harm us again. Not while the gates are closed."
-GOT_Story_Country.25.a: "Throw him in the sky cells."
-GOT_Story_Country.25.b: "We will have no part in this."
+GOT_Story_Country.25.t: "A Prisoner Arrives at the Eyrie"
+GOT_Story_Country.25.d: "Lady Catelyn Stark has scaled the Giant's Lance, delivering Tyrion Lannister to the High Hall of the Arryns in chains. Lady Lysa demands immediate retribution for the death of Lord Jon, while the lords of the Vale urge caution lest this act drag the mountain stronghold directly into a ruinous feud with Casterly Rock. Behind secure gates and impassable peaks, a fateful decision must be made."
+GOT_Story_Country.25.a: "Lock the imp in the sky cells to await judgment."
+GOT_Story_Country.25.b: "Refuse involvement and send the prisoner away."
 
-GOT_Story_News.25.t: "Justice Awaits in the Eyrie"
-GOT_Story_News.25.d: "Catelyn Stark has reached the Eyrie and presented Tyrion Lannister to her sister, Lady Lysa Arryn. But all is not well in the mountain stronghold. Madness and suspicion seem to rule more than law."
-GOT_Story_News.25.a: "The Vale grows strange and silent."
+GOT_Story_News.25.t: "The Lannister Captured in the Mountains"
+GOT_Story_News.25.d: "Word spreads rapidly across the Seven Kingdoms that Tyrion Lannister has been taken captive by Catelyn Stark and presented for trial at the Eyrie. As tensions flare between House Stark and House Lannister, noble houses throughout the realm watch closely to see if the isolated Vale will ignite an all-out civil war."
+GOT_Story_News.25.a: "The Vale's actions threaten the peace of the realm."
 
 # Event 26
 # Country Event
-GOT_Story_Country.26.t: "Trial by Combat in the Eyrie"
-GOT_Story_Country.26.d: "Accused and imprisoned by Lady Lysa Arryn, I demanded a trial by combat. Against all odds, Bronn volunteered to champion my cause—and triumphed against Ser Vardis Egen. I am free once more, thanks to wit, luck, and a sellsword’s sword."
-GOT_Story_Country.26.a: "Let the gods judge… and Bronn fight."
+GOT_Story_Country.26.t: "The Imp's Trial by Combat"
+GOT_Story_Country.26.d: "Accused of murdering Lord Jon Arryn, the dwarf Tyrion Lannister invoked his right to a trial by combat. To the court's dismay, a baseborn sellsword named Bronn stepped forward to champion his cause—and defeated our valiant captain of the guards, Ser Vardis Egen. By the laws of gods and men, the Imp is now free to leave the Vale, escaping the justice Lady Lysa sought to deliver."
+GOT_Story_Country.26.a: "The gods have spoken, however bitter the outcome."
 
-# News Event
-GOT_Story_News.26.t: "Tyrion Lannister Wins Trial by Combat"
-GOT_Story_News.26.d: "At the Eyrie, Tyrion Lannister demanded a trial by combat to escape execution. In a tense duel, the cunning Bronn defeated Ser Vardis Egen, securing Tyrion’s release from Lady Lysa’s court."
-GOT_Story_News.26.a: "A bold gamble, well played."
+GOT_Story_News.26.t: "The Dwarf Survives the Eyrie"
+GOT_Story_News.26.d: "Tales descend from the Mountains of the Moon that Tyrion Lannister has survived his harrowing captivity at the Eyrie. Securing a trial by combat, his unlikely sellsword champion defeated Lady Lysa Arryn's chosen knight. As the Imp walks free from the Vale, lords across the Seven Kingdoms whisper of the brewing storm, knowing the Lannisters always pay their debts."
+GOT_Story_News.26.a: "The lion escapes the falcon's grasp."
 
 # Event 27
 # Country Event
 GOT_Story_Country.27.t: "The Bastards of Baratheon"
-GOT_Story_Country.27.d: "My investigation into the lineage of Robert’s children led to an inescapable truth: none of them bear the Baratheon look. Their black hair is absent. The seed is strong, they said—yet here, the seed is false. This truth could shatter the realm."
-GOT_Story_Country.27.a: "The children are not Robert’s…"
+GOT_Story_Country.27.d: "An investigation into royal court records and the lineages of the King's illegitimate offspring in King's Landing has revealed a devastating anomaly: every trueborn child of Robert Baratheon possesses coal-black hair, yet the royal heirs display none. The physical evidence strongly suggests the royal children carry no Baratheon blood. If made public, this secret threatens to completely undermine the legitimacy of the throne."
+GOT_Story_Country.27.a: "The royal heirs hold no legitimate claim to the throne."
 
-# News Event
-GOT_Story_News.27.t: "Lord Stark Uncovers a Dangerous Secret"
-GOT_Story_News.27.d: "While acting as Hand of the King, Lord Eddard Stark discovered troubling inconsistencies in the lineage of King Robert’s heirs. Whispers of bastardy now threaten the fragile balance of power in King’s Landing."
-GOT_Story_News.27.a: "Dark truths in bright halls."
+GOT_Story_News.27.t: "Whispers of Treason in King's Landing"
+GOT_Story_News.27.d: "Unease spreads across the Seven Kingdoms following reports that Lord Eddard Stark has unearthed dark secrets regarding the royal succession. Rumors originating from the court claim the Hand of the King has questioned the true lineage of King Robert's legal heirs, sending ripples of anxiety to every major house in Westeros."
+GOT_Story_News.27.a: "A dangerous shadow falls over the Iron Throne."
 
 # Event 28
 # Country Event
-GOT_Story_Country.28.t: "The Heart of a Stallion"
-GOT_Story_Country.28.d: "In the eyes of the Dothraki, strength is proven in blood and will. I knelt and consumed the heart of a stallion, raw and beating. I did not waver. I did not fail. They believe my child will be the stallion who mounts the world."
-GOT_Story_Country.28.a: "Blood and strength. For the future."
+GOT_Story_Country.28.t: "The Heart of the Stallion"
+GOT_Story_Country.28.d: "Before the Dosh Khaleen in Vaes Dothrak, Daenerys Targaryen consumed the raw, beating heart of a stallion without wavering. By enduring the sacred ritual, she has bound the khalasar to her bloodline and claimed their grandest prophecy. The wise women proclaim that the son in her womb will be the Stallion Who Mounts the World—a conqueror destined to unite the horselords and ride to the ends of the earth."
+GOT_Story_Country.28.a: "Blood and fire shall breed the conqueror of the world."
 
-# News Event
-GOT_Story_News.28.t: "Daenerys Passes the Dothraki Trial"
-GOT_Story_News.28.d: "Daenerys Targaryen completed a sacred Dothraki ritual, consuming a raw horse heart before a crowd. Her unflinching resolve impressed the nomadic warriors, who now speak of her unborn child as a prophesied conqueror."
-GOT_Story_News.28.a: "A queen of fire and blood."
+GOT_Story_News.28.t: "A Prophecy in the Great Grass Sea"
+GOT_Story_News.28.d: "Travelers returning from the East report that the exiled Targaryen princess has completed a barbarian ritual in Vaes Dothrak. The Dothraki now hail her unborn child as a promised conqueror who will unite all the nomadic hordes. While Westeros dismisses eastern superstitions, rumors of a unified khalasar cause quiet concern among merchants and lords alike."
+GOT_Story_News.28.a: "Savages and their wild prophecies mean nothing to Westeros."
 
 # Event 29
 # Country Event
-GOT_Story_Country.29.t: "A Crown for a King"
-GOT_Story_Country.29.d: "Viserys demanded his crown—and Drogo gave it to him. A crown of molten gold. He screamed until he could scream no more. Fire cannot kill a dragon… but gold, it seems, can."
-GOT_Story_Country.29.a: "He was no dragon."
-GOT_Story_Country.29.b: "Spare him — let him wear the mock crown of a beggar."
+GOT_Story_Country.29.t: "A Crown for the Beggar King"
+GOT_Story_Country.29.d: "In sacred Vaes Dothrak, the foolish foreign kinglet Viserys drew steel and threatened the Khaleesi and her unborn child. To spill blood in the holy city is forbidden, but Khal Drogo granted the beggar his ultimate desire without shedding a drop. The Khal melted gold medallions in a cooking pot and poured the molten metal over the weakling's head. His screaming stopped, proving he was no dragon."
+GOT_Story_Country.29.a: "He received the crown he begged for."
+GOT_Story_Country.29.b: "Spare him the gold—let the fool ride behind in a cart."
 
-# News Event
-GOT_Story_News.29.t: "Viserys Targaryen Killed by Molten Gold"
-GOT_Story_News.29.d: "In a shocking display of Dothraki justice, Khal Drogo executed Viserys Targaryen by pouring molten gold over his head. His demand for a crown was met—fatally."
-GOT_Story_News.29.a: "A crown of fire."
+GOT_Story_News.29.t: "The End of the Beggar King"
+GOT_Story_News.29.d: "Word arrives from far across the Narrow Sea that Viserys Targaryen, the self-proclaimed rightful King of Westeros, is dead. Reports claim he angered a Dothraki warlord in their sacred city and was killed in a gruesome ritual with molten gold. With his death, the male line of House Targaryen is broken."
+GOT_Story_News.29.a: "The last dragon's claim dies with him."
 
 # Event 30
 # Country Event
-GOT_Story_Country.30.t: "The King Goes Hunting"
-GOT_Story_Country.30.d: "Tired of the schemes and serpents in King’s Landing, Robert has left for a hunt. He leaves me the throne, the politics, and the danger. The realm is mine to steward… and to protect."
-GOT_Story_Country.30.a: "May the gods watch over him."
+GOT_Story_Country.30.t: "The King's Royal Hunt"
+GOT_Story_Country.30.d: "King Robert Baratheon has departed King's Landing to hunt wild boar in the Kingswood, seeking relief from the burdens of statecraft. In his absence, the governance of the realm, the management of the court, and the seat upon the Iron Throne fall entirely to the Hand of the King, Lord Eddard Stark."
+GOT_Story_Country.30.a: "Maintain order in the capital until the King returns."
 
-# News Event
-GOT_Story_News.30.t: "King Robert Departs for the Hunt"
-GOT_Story_News.30.d: "Seeking respite from the turmoil of court, King Robert Baratheon has left King’s Landing for a hunting trip. Lord Eddard Stark, Hand of the King, remains behind to govern in his stead."
-GOT_Story_News.30.a: "A quiet court—or a storm ahead?"
-
+GOT_Story_News.30.t: "The Royal Hunt in the Kingswood"
+GOT_Story_News.30.d: "Word spreads from the capital that King Robert Baratheon has left King's Landing for an extended royal hunt, leaving Hand of the King Eddard Stark in command of the Iron Throne. Across the Seven Kingdoms, great houses watch closely to see how the quiet Northman manages the turbulent politics of the realm."
+GOT_Story_News.30.a: "The realm rests in the hands of the Stark."
 # Event 31
 # Country Event
 GOT_Story_Country.31.t: "Lord Stark Confronts the Queen"
