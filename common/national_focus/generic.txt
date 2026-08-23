@@ -1626,6 +1626,17 @@ focus_tree = {
 				GOT_Stark_Faction = no
 				GOT_Ironborn_Faction = no
 			}
+			modifier = {
+				factor = 2
+				OR = {
+					GOT_Stark_Faction = yes
+					GOT_Ironborn_Faction = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				GOT_War_Participant = yes
+			}
 		}
 		
 		available = {
@@ -1690,6 +1701,10 @@ focus_tree = {
 					is_in_faction = no
 					is_faction_leader = no
 				}
+			}
+			modifier = {
+				factor = 2
+				GOT_Stark_Faction = yes
 			}
 		}
 		prerequisite = {
@@ -2022,6 +2037,10 @@ focus_tree = {
 					is_faction_leader = no
 				}
 			}
+			modifier = {
+				factor = 2
+				GOT_Ironborn_Faction = yes
+			}
 		}
 		prerequisite = {
 			focus = GOT_communist_foreign_policy
@@ -2287,6 +2306,14 @@ focus_tree = {
 					is_in_faction = no
 					is_faction_leader = no
 				}
+			}
+			modifier = {
+				factor = 2
+				GOT_Targaryen_Faction = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_War_Participant = yes
 			}
 		}
 		available = {
@@ -2918,6 +2945,14 @@ focus_tree = {
 				is_historical_focus_on = no
 				GOT_Baratheon_Faction = no
 			}
+			modifier = {
+				factor = 2
+				GOT_Baratheon_Faction = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_War_Participant = yes
+			}
 		}
 		available = {
 			is_in_faction = no
@@ -2981,6 +3016,10 @@ focus_tree = {
 					is_in_faction = no
 					is_faction_leader = no
 				}
+			}
+			modifier = {
+				factor = 2
+				GOT_Stannis_Faction = yes
 			}
 		}
 		prerequisite = {
@@ -3221,6 +3260,10 @@ focus_tree = {
 					is_faction_leader = no
 				}
 			}
+			modifier = {
+				factor = 2
+				GOT_Renly_Faction = yes
+			}
 		}
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
@@ -3420,6 +3463,10 @@ focus_tree = {
 					is_in_faction = no
 					is_faction_leader = no
 				}
+			}
+			modifier = {
+				factor = 2
+				GOT_Lannister_Faction = yes
 			}
 		}
 		prerequisite = {
@@ -3647,6 +3694,10 @@ focus_tree = {
 				factor = 0.01
 				is_historical_focus_on = no
 				GOT_War_Participant = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_War_Participant = no
 			}
 		}
 		prerequisite = {

@@ -17939,52 +17939,27 @@ country_event = {
         add_war_support = 0.1 
         add_political_power = 50 
 		
-		if = {
-			limit = {
-				NOT = { has_government = fascism }
-			}
-			set_politics = {
-				ruling_party = fascism
-			}
-		}
-		add_popularity = {
-			popularity = 0.50
-			ideology = fascism
-		}
+		GOT_Change_Ideology_Fascism = yes
 		
 		hidden_effect = {
 			if = {
 				limit = {
 					UMB = {
-						NOT = { has_government = fascism }
 						is_ai = yes
 					}
 				}
 				UMB = {
-					set_politics = {
-						ruling_party = fascism
-					}
-					add_popularity = {
-						popularity = 0.50
-						ideology = fascism
-					}
+					GOT_Change_Ideology_Fascism = yes
 				}
 			}
 			if = {
 				limit = {
 					KAR = {
-						NOT = { has_government = fascism }
 						is_ai = yes
 					}
 				}
 				KAR = {
-					set_politics = {
-						ruling_party = fascism
-					}
-					add_popularity = {
-						popularity = 0.50
-						ideology = fascism
-					}
+					GOT_Change_Ideology_Fascism = yes
 				}
 			}
 		}
@@ -17996,9 +17971,8 @@ country_event = {
 			}
 			set_global_flag = GOT_Roose_Bolton_Murdered_Flag
 			
-			remove_country_leader_role = {
-				character = BOL_roose_bolton
-				ideology = NR_subideology
+			BOL_roose_bolton = {
+				retire = yes
 			}
 			
 			add_country_leader_role = {
@@ -18006,6 +17980,23 @@ country_event = {
 				country_leader = {
 					expire = "1965.1.1"
 					ideology = NR_subideology
+					traits = { 
+						dictator
+						warmonger
+						cornered_fox
+						baron_of_terror
+						hedonist
+						sins_of_the_father
+					}
+				}
+				promote_leader = yes
+			}
+			
+			add_country_leader_role = {
+				character = BOL_ramsay_snow
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
 					traits = { 
 						dictator
 						warmonger
@@ -18027,14 +18018,14 @@ country_event = {
 				
 				remove_country_leader_role = {
 					character = BOL_roose_bolton
-					ideology = NR_subideology
+					ideology = FR_subideology
 				}
 				
 				add_country_leader_role = {
 					character = BOL_ramsay_snow
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = NR_subideology
+						ideology = FR_subideology
 						traits = { 
 							dictator
 							warmonger
@@ -18084,17 +18075,28 @@ country_event = {
         add_war_support = 0.1 
         add_political_power = 50 
 		
+		GOT_Change_Ideology_Neutrality = yes
+		
 		if = {
-			limit = {
-				NOT = { has_government = neutrality }
+				limit = {
+					UMB = {
+						is_ai = yes
+					}
+				}
+				UMB = {
+					GOT_Change_Ideology_Neutrality = yes
+				}
 			}
-			set_politics = {
-				ruling_party = neutrality
+			if = {
+				limit = {
+					KAR = {
+						is_ai = yes
+					}
+				}
+				KAR = {
+					GOT_Change_Ideology_Neutrality = yes
+				}
 			}
-		}
-		add_popularity = {
-			popularity = 0.50
-			ideology = neutrality
 		}
 
 		random_list = {
@@ -18103,6 +18105,26 @@ country_event = {
 			}
 
 			30 = {
+				remove_country_leader_role = {
+					character = BOL_roose_bolton
+					ideology = FR_subideology
+				}
+				add_country_leader_role = {
+					character = BOL_ramsay_snow
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = FR_subideology
+						traits = { 
+							dictator
+							warmonger
+							cornered_fox
+							baron_of_terror
+							hedonist
+							sins_of_the_father
+						}
+					}
+					promote_leader = yes
+				}
 				start_civil_war = {
 					ideology = fascism
 					size = 0.40
