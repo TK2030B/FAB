@@ -43,16 +43,11 @@ GOT_Targaryen_Faction = {
 		}
 		AND = {
 			original_tag = VAL
-			has_country_leader = {
-				name = "Robin Arryn"
-				ruling_only = yes
-			}
-		}
-		AND = {
-			original_tag = VAL
-			has_country_leader = {
-				name = "Petyr Baelish"
-				ruling_only = yes
+			NOT = {
+				has_country_leader = {
+					name = "Lisa Arryn"
+					ruling_only = yes
+				}
 			}
 		}
 		AND = {
@@ -148,6 +143,15 @@ GOT_Stark_Faction = {
 		}
 		original_tag = NOR
 		original_tag = RIV
+		AND = {
+			original_tag = VAL
+			NOT = {
+				has_country_leader = {
+					name = "Lisa Arryn"
+					ruling_only = yes
+				}
+			}
+		}
 	}
 }
 
@@ -168,6 +172,72 @@ GOT_Free_City_Faction = {
 		original_tag = TYR
 		original_tag = LYS
 		original_tag = VOL
+	}
+}
+
+GOT_Targaryen_Sympathies = {
+	OR = {
+		original_tag = TAR
+		original_tag = REA
+		original_tag = IRO
+		original_tag = DOR
+		original_tag = NOR
+		original_tag = VAL
+		original_tag = RIV
+	}
+}
+
+GOT_Baratheon_Sympathies = {
+	OR = {
+		GOT_Stannis_Sympathies = yes
+		GOT_Lannister_Sympathies = yes
+		GOT_Renly_Sympathies = yes
+	}
+}
+
+GOT_Stannis_Sympathies = {
+	OR = {
+		original_tag = DRA
+		original_tag = STO
+	}
+}
+
+GOT_Lannister_Sympathies = {
+	OR = {
+		original_tag = WES
+		original_tag = CRO
+		original_tag = BOL
+		original_tag = FRE
+		original_tag = TRL
+		original_tag = REA
+		original_tag = IRO
+	}
+}
+
+GOT_Renly_Sympathies = {
+	OR = {
+		original_tag = STO
+		original_tag = REA	
+	}
+}
+
+GOT_Stark_Sympathies = {
+	OR = {
+		original_tag = NOR
+		original_tag = RIV
+	}
+}
+
+GOT_Ironborn_Sympathies = {
+	OR = {
+		original_tag = IRO
+	}
+}
+
+GOT_Neutral_Sympathies = {
+	OR = {
+		original_tag = VAL
+		original_tag = DOR
 	}
 }
 

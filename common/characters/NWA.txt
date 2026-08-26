@@ -46,7 +46,7 @@ characters={
 			traits = {  
 				reluctant_veteran  
 				stout_defender  
-				voice_of_restraint  
+				#voice_of_restraint  
 			}
 		}
 		country_leader={
@@ -55,7 +55,7 @@ characters={
 			traits = {  
 				reluctant_veteran  
 				stout_defender  
-				voice_of_restraint  
+				#voice_of_restraint  
 			}
 		}
 		country_leader={
@@ -64,7 +64,7 @@ characters={
 			traits = {  
 				reluctant_veteran  
 				stout_defender  
-				voice_of_restraint  
+				#voice_of_restraint  
 			}
 		}
 		advisor={

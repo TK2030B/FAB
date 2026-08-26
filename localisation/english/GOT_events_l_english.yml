@@ -448,288 +448,276 @@ GOT_Story_News.30.d: "Word spreads from the capital that King Robert Baratheon h
 GOT_Story_News.30.a: "The realm rests in the hands of the Stark."
 # Event 31
 # Country Event
-GOT_Story_Country.31.t: "Lord Stark Confronts the Queen"
-GOT_Story_Country.31.d: "Eddard Stark confronted Queen Cersei Lannister in private, revealing that he had uncovered the truth about her children’s parentage. He gave her a warning, offering her the chance to flee before King Robert's return. But the Queen did not flee—she held her ground."
-GOT_Story_Country.31.a: "The game is now afoot."
+GOT_Story_Country.31.t: "Treason in the Great Hall"
+GOT_Story_Country.31.d: "Lord Eddard Stark has confronted Queen Cersei in private, revealing that he discovered the true lineage of Prince Joffrey and his siblings. Rather than seizing the Queen immediately, the Hand offered her a brief opportunity to flee the capital with her children before King Robert's return. The Queen refused to leave, setting the stage for a dangerous confrontation within the Red Keep."
+GOT_Story_Country.31.a: "Prepare the City Watch."
 
-# News Event
-GOT_Story_News.31.t: "Eddard Stark Confronts Queen Cersei"
-GOT_Story_News.31.d: "Lord Eddard Stark has confronted Queen Cersei Lannister over the legitimacy of her children, revealing his knowledge of her relationship with Ser Jaime. Reports suggest he offered her a chance to escape the capital before Robert Baratheon's return, but the Queen stood firm."
-GOT_Story_News.31.a: "A confrontation with grave consequences."
+GOT_Story_News.31.t: "A Rift in the Capital"
+GOT_Story_News.31.d: "Whispers from King's Landing reveal a direct confrontation between the Hand of the King and Queen Cersei Lannister. Lord Stark has reportedly challenged the legitimacy of the royal heirs, sparking rumors of an imminent struggle for power that could tear the court apart before the King even returns from his hunt."
+GOT_Story_News.31.a: "When you play the game of thrones, you win or you die."
 
 # Event 32
 # Country Event
-GOT_Story_Country.32.t: "Jon Snow Joins the Night's Watch"
-GOT_Story_Country.32.d: "At the heart of the Haunted Forest, beneath the ancient weirwood tree, Jon Snow and Samwell Tarly took their vows and pledged their lives to the Night’s Watch. Their words echoed solemnly through the snow-covered trees, marking their transformation into sworn brothers of the Wall."
-GOT_Story_Country.32.a: "Honor in the darkness."
+GOT_Story_Country.32.t: "Vows Beneath the Weirwood"
+GOT_Story_Country.32.d: "Beyond Castle Black, deep within the Haunted Forest, new recruits Jon Snow and Samwell Tarly recited their sacred vows before an ancient heart tree. Pledging their lives to shield the realms of men, the new sworn brothers take their places along the Wall as the shadows beyond the ice grow longer."
+GOT_Story_Country.32.a: "Night gathers, and their watch begins."
 
-# News Event
-GOT_Story_News.32.t: "Jon Snow Sworn into the Night’s Watch"
-GOT_Story_News.32.d: "Jon Snow and Samwell Tarly have taken their sacred vows beneath the weirwood tree, becoming full members of the Night's Watch. The solemn oath binds them to a life of duty and sacrifice at the edge of the known world."
-GOT_Story_News.32.a: "The Wall gains new brothers."
+GOT_Story_News.32.t: "New Blood at the Wall"
+GOT_Story_News.32.d: "Word travels south from Castle Black that highborn recruits, including the bastard son of Lord Eddard Stark, have taken their final vows into the Night's Watch. While few in the south pay mind to the ancient order, the Wall gains fresh defenders against the harsh northern wilderness."
+GOT_Story_News.32.a: "The black brothers stand vigil in the cold."
 
 # Event 33
 # Country Event
 GOT_Story_Country.33.t: "Khal Drogo Vows to Conquer Westeros"
-GOT_Story_Country.33.d: "After a cowardly attempt on Daenerys Targaryen’s life, Khal Drogo gathered his khalasar. With his blade slick with the blood of the assassin and fury in his voice, he swore vengeance upon the usurpers across the Narrow Sea. Before thousands of warriors and followers, he promised the Iron Throne for his unborn son. Yet even vengeance has paths — and Drogo must choose how soon and how fiercely he will ride."
+GOT_Story_Country.33.d: "Following a cowardly attempt on the Khaleesi's life by a poisoner sent across the salt sea, Khal Drogo gathered the entire khalasar at Vaes Dothrak. Striking his chest before thousands of screaming warriors, he swore an oath before the Mother of Mountains to lead his riders across the poison water, tear down the iron chair of the usurpers, and claim the lands of Westeros for his unborn son."
 GOT_Story_Country.33.a: "We ride at dawn — Westeros will burn!" 
 GOT_Story_Country.33.b: "One day, they will feel my fury."
 GOT_Story_Country.33.c: "The khaleesi lives — let their shame be enough."
 
-# News Event
 GOT_Story_News.33.t: "Khal Drogo Declares Invasion of Westeros"
-GOT_Story_News.33.d: "In response to an attempt on Daenerys Targaryen’s life, Khal Drogo has vowed to lead his khalasar across the Narrow Sea and conquer Westeros. His fury burns hot, and his riders prepare for war."
-GOT_Story_News.33.a: "The Dothraki are coming."
+GOT_Story_News.33.d: "Reports from Essos reveal that a failed assassination attempt on the exiled princess Daenerys Targaryen has provoked the great Khal Drogo into declaring open war upon Westeros. The powerful warlord has reportedly sworn to cross the Narrow Sea with his vast khalasar, threatening the Seven Kingdoms with a massive horse-lord invasion."
+GOT_Story_News.33.a: "The Dothraki prepare to cross the salt sea."
 
 # Event 34
 # Country Event
-GOT_Story_Country.34.t: "Tywin Lannister Appears"
-GOT_Story_Country.34.d: "Tywin Lannister has entered the scene in characteristic fashion—skinning a stag while lecturing his son, Ser Jaime, about legacy and power. The symbolism was unmistakable. The Lion does not sleep while others vie for the throne."
-GOT_Story_Country.34.a: "The true power of the West."
+GOT_Story_Country.34.t: "Lord Tywin Takes Command"
+GOT_Story_Country.34.d: "With tensions mounting across the Seven Kingdoms, Lord Tywin Lannister has asserted his authority over the armies of the West. Meeting with Ser Jaime in camp while personally skinning a fallen stag, the Lord of Casterly Rock reminded his heir that family legacy outweighs all personal glory. The full military and financial might of House Lannister stands ready to defend its honor and secure the throne."
+GOT_Story_Country.34.a: "The Lord of Casterly Rock will secure our legacy."
 
-# News Event
-GOT_Story_News.34.t: "Tywin Lannister Steps into the Game"
-GOT_Story_News.34.d: "Tywin Lannister, Lord of Casterly Rock, has made his presence known. In a grim display, he was seen skinning a stag as he discussed strategy with his son Jaime, a symbolic statement to the Baratheons—and the realm."
-GOT_Story_News.34.a: "The Lion sharpens his claws."
+GOT_Story_News.34.t: "The Great Lion Rouses"
+GOT_Story_News.34.d: "Reports from the Westerlands confirm that Lord Tywin Lannister has mobilized his forces and taken personal command of his hosts. As rumors of his cold, calculated preparations spread beyond Casterly Rock, lords across Westeros recognize that the most formidable commander in the realm has officially entered the gathering conflict."
+GOT_Story_News.34.a: "A Lannister always pays his debts."
 
 # Event 35
 # Country Event
-GOT_Story_Country.35.t: "Assassination Attempt on Daenerys"
-GOT_Story_Country.35.d: "An assassin attempted to poison Daenerys Targaryen in the market of Vaes Dothrak. The plot was foiled by Ser Jorah Mormont, who intercepted the poisoned goblet moments before she drank. The reach of Westerosi politics has crossed the Narrow Sea."
-GOT_Story_Country.35.a: "Westeros strikes from afar."
+GOT_Story_Country.35.t: "Poison in the Western Market"
+GOT_Story_Country.35.d: "In the crowded stalls of Vaes Dothrak, an assassin posing as a wine merchant attempted to murder Daenerys Targaryen with a cask of poisoned arbor red. Ser Jorah Mormont uncovered the plot just moments before the Khaleesi could drink, capturing the culprit before he could escape. The reach of the Usurper in King's Landing stretches far across the Narrow Sea, but the blood of the dragon remains untouched."
+GOT_Story_Country.35.a: "The Usurper's assassins cannot extinguish the dragon."
 
-# News Event
-GOT_Story_News.35.t: "Daenerys Survives Assassination Attempt"
-GOT_Story_News.35.d: "Daenerys Targaryen narrowly escaped an attempt on her life after an assassin tried to poison her in Vaes Dothrak. Thanks to the swift intervention of Ser Jorah Mormont, the attempt failed. The source of the order is widely believed to lie in Westeros."
-GOT_Story_News.35.a: "The dragon lives."
+GOT_Story_News.35.t: "A Foiled Strike Across the Narrow Sea"
+GOT_Story_News.35.d: "Whispers reach the noble courts of Westeros that a covert attempt to poison the exiled Targaryen princess in Vaes Dothrak has ended in disaster. The failure of the assassin has only enraged her Dothraki protectors, drawing unnecessary attention back toward the Iron Throne and the shadows of King's Landing."
+GOT_Story_News.35.a: "Shadows and poison fail to claim the last dragon."
 
 # Event 36
 # Country Event
-GOT_Story_Country.36.t: "Eddard Stark Arrested"
-GOT_Story_Country.36.d: "After King Robert’s death, Eddard Stark attempted to install Stannis Baratheon as the rightful heir. However, Littlefinger betrayed him, and the Gold Cloaks turned against him. Joffrey Baratheon claimed the Iron Throne, and Lord Stark was seized in the throne room."
-GOT_Story_Country.36.a: "The wolf is in chains."
+GOT_Story_Country.36.t: "The Hand Seized in the Red Keep"
+GOT_Story_Country.36.d: "Following the sudden death of King Robert, Lord Eddard Stark entered the throne room presenting a decree to challenge King Joffrey's legitimacy and install Lord Stannis. However, Lord Baelish secured the loyalty of the City Watch for the crown. The Gold Cloaks turned their pikes upon the Hand's northern guard, seizing Lord Stark on the orders of Queen Cersei to secure King Joffrey's succession."
+GOT_Story_Country.36.a: "Lock the traitor in the dungeons beneath the Red Keep."
 
-# News Event
-GOT_Story_News.36.t: "Lord Stark Arrested in King’s Landing"
-GOT_Story_News.36.d: "Following Robert Baratheon’s death, Eddard Stark moved to support Stannis as the legitimate heir. In a shocking betrayal, Lord Baelish turned on him, and the Gold Cloaks arrested him under Queen Cersei’s orders. Joffrey now sits the Iron Throne."
-GOT_Story_News.36.a: "Treachery in the capital."
+GOT_Story_News.36.t: "Lord Stark Imprisoned in the Capital"
+GOT_Story_News.36.d: "Shockwaves ripple through the Seven Kingdoms following the sudden death of King Robert Baratheon and the immediate arrest of Hand of the King Eddard Stark. Accused of high treason after challenging young King Joffrey's right to rule, Lord Stark now lies in chains beneath the Red Keep as the North and the realm prepare for the fallout."
+GOT_Story_News.36.a: "The realm teeters on the brink of civil war."
 
 # Event 37
 # Country Event
-GOT_Story_Country.37.t: "Arya Escapes the Red Keep"
-GOT_Story_Country.37.d: "In the chaos following Lord Eddard Stark’s arrest, Arya Stark managed to evade Lannister guards inside the Red Keep. With the help of her Braavosi sword instructor, Syrio Forel, Arya fled the training yard. Syrio stayed behind to face the approaching guards, buying her precious time to escape into the city."
-GOT_Story_Country.37.a: "The wolf cub slips away."
+GOT_Story_Country.37.t: "Escape from the Red Keep"
+GOT_Story_Country.37.d: "During the purge of the Hand's household following Eddard Stark's arrest, Lannister guards attempted to detain his youngest daughter, Arya Stark. However, her foreign sword instructor engaged the royal guardsmen in the training yard, delaying them long enough for the girl to slip into the hidden passageways beneath the castle and vanish into the streets of King's Landing."
+GOT_Story_Country.37.a: "Seal the city gates and search every alley in Flea Bottom."
 
-# News Event
-GOT_Story_News.37.t: "Arya Stark Flees the Red Keep"
-GOT_Story_News.37.d: "Arya Stark, daughter of the imprisoned Eddard Stark, is reported to have escaped capture within the Red Keep. Her sword instructor, Syrio Forel, allegedly confronted Lannister guards to ensure her escape. Her whereabouts are now unknown."
-GOT_Story_News.37.a: "The North remembers."
+GOT_Story_News.37.t: "The Young Wolf Cub Vanishes"
+GOT_Story_News.37.d: "Reports from the capital confirm that while Lord Eddard Stark sits in the dungeons of the Red Keep, his younger daughter Arya Stark evaded Lannister guards and escaped into the labyrinthine streets of King's Landing. As royal forces search the capital, rumors spread across the realm that at least one Stark has eluded the Queen's clutches."
+GOT_Story_News.37.a: "A stark reminder that wolves are hard to cage."
 
 # Event 38
 # Country Event
-GOT_Story_Country.38.t: "The King's Demand"
+GOT_Story_Country.38.t: "A Demand from the Capital"
+GOT_Story_Country.38.d: "A raven from King's Landing brings a royal summons following the imprisonment of Lord Eddard Stark. Queen Cersei and the Iron Throne demand that Winterfell recognize Joffrey Baratheon as the rightful ruler and submit to royal authority. Northern lords gathered in our halls urge defiance, unwilling to bend the knee to those who hold their liege lord in chains."
+GOT_Story_Country.38.a: "Call the banners — the North rides south!"
+GOT_Story_Country.38.b: "We will not fight. I shall bend the knee — for now."
 
-GOT_Story_Country.38.d: "With Eddard Stark imprisoned in King’s Landing, a royal raven has arrived in Winterfell. Acting under Queen Cersei’s authority, the Crown demands that Robb Stark swear fealty to King Joffrey and cease all hostile movements. Lords great and small have gathered at Winterfell, torn between loyalty and vengeance. Robb must now decide whether to bend the knee... or call the banners."
-GOT_Story_Country.38.a: "Call the banners."  
-GOT_Story_Country.38.b: "We will not fight. I shall bend the knee—for now."
-
-
-# News Event
-GOT_Story_News.38.t: "The North Marches to War"
-GOT_Story_News.38.d: "Robb Stark, son of Eddard Stark, has called his banners in response to his father’s imprisonment by the Lannisters. Thousands of Northern warriors now rally under the Stark sigil. A storm is brewing in the Riverlands."
-GOT_Story_News.38.a: "The young wolf leads the pack."
+GOT_Story_News.38.t: "The North Rallies its Banners"
+GOT_Story_News.38.d: "News spreads across Westeros that in response to Lord Eddard Stark's arrest in the capital, his heir Robb Stark has summoned the lords of the North to Winterfell. Thousands of Northern warriors gather beneath the direwolf banner, signaling that the house of Stark will not yield peacefully to the Iron Throne."
+GOT_Story_News.38.a: "The Young Wolf gathers his pack."
 
 # Event 39
 # Country Event
-GOT_Story_Country.39.t: "Jon Snow Battles a Wight"
-GOT_Story_Country.39.d: "An undead wight infiltrated Castle Black and attacked Lord Commander Mormont in the night. Jon Snow, reacting swiftly, used fire to destroy the creature and save the Commander. The dead walk, and the Night’s Watch now faces a far greater threat beyond the Wall."
-GOT_Story_Country.39.a: "The Long Night stirs."
+GOT_Story_Country.39.t: "Terror in the Lord Commander's Tower"
+GOT_Story_Country.39.d: "A fallen ranger brought back from beyond the Wall reanimated in the dead of night, slipping past our guards to strike at Lord Commander Mormont. Only the quick thinking of Jon Snow—who set the creature ablaze with a lantern—saved the Old Bear's life. The charred remains confirm our worst fears: the ancient horrors of the Far North have returned, and cold hands are moving in the dark."
+GOT_Story_Country.39.a: "Fire is our only shield against the dead."
 
-# News Event
-GOT_Story_News.39.t: "Undead at Castle Black"
-GOT_Story_News.39.d: "A wight—a reanimated corpse—was discovered within Castle Black. The creature attacked the Lord Commander but was destroyed by Jon Snow. The event has sent shockwaves through the Night’s Watch, raising dire questions about what lies beyond the Wall."
-GOT_Story_News.39.a: "Darkness approaches."
+GOT_Story_News.39.t: "Horrors Beyond the Wall"
+GOT_Story_News.39.d: "Disturbing reports filter south from Castle Black claiming an undead corpse rose in the night to attack the leadership of the Night's Watch. While southern lords dismiss the tale as wildling folklore or northern superstition, the black brothers insist an ancient darkness is stirring at the edge of the world."
+GOT_Story_News.39.a: "Idle rumors to frighten children."
+
 
 # Event 40
 # Country Event
-GOT_Story_Country.40.t: "Daenerys Witnesses a Dothraki Raid"
-GOT_Story_Country.40.d: "As Khal Drogo led his khalasar in raiding a Lhazareen village, Daenerys Targaryen watched in horror. The brutality of the Dothraki way of war clashed with her growing sense of justice. Her protest halted the taking of women, sowing tension between her and Drogo’s bloodriders."
-GOT_Story_Country.40.a: "Fire and mercy."
+GOT_Story_Country.40.t: "The Raid on the Lamb Men"
+GOT_Story_Country.40.d: "During the sacking of a Lhazareen village to gather slaves and gold for the crossing, the Khaleesi intervened to claim the captive women for herself, denying the warriors their customary spoils. Her commands spared the captives from brutal treatment, but her actions drew loud protests from Khal Drogo's bloodriders, who view such mercy as a dangerous violation of Dothraki tradition."
+GOT_Story_Country.40.a: "The Khaleesi's word is law."
 
-# News Event
-GOT_Story_News.40.t: "Dothraki Pillage Lhazareen Village"
-GOT_Story_News.40.d: "Khal Drogo’s khalasar has ravaged a peaceful Lhazareen village. Sources report that Daenerys Targaryen, who accompanied the khalasar, intervened to stop the abuse of captives. Her growing influence over the Dothraki is raising eyebrows—and opposition."
-GOT_Story_News.40.a: "The dragon shows compassion."
+GOT_Story_News.40.t: "The Khalasar Sacks Lhazar"
+GOT_Story_News.40.d: "Reports from Essos indicate that Khal Drogo’s riders have raided a peaceful Lhazareen settlement to fund their rumored campaign. Surprisingly, travelers claim the exiled Targaryen princess intervened to shield captives from abuse, demonstrating an unexpected level of authority over the Dothraki horde."
+GOT_Story_News.40.a: "Even among barbarians, the dragon exerts her will."
 
 # Event 41
 # Country Event
-GOT_Story_Country.41.t: "Tyrion Aligns with the Hill Tribes"
-GOT_Story_Country.41.d: "While crossing the Vale of Arryn, Tyrion Lannister encountered the Hill Tribes. Facing death or diplomacy, he offered them gold, weapons, and land in exchange for their allegiance. The tribes accepted. Now, these fierce warriors march under the Lannister banner."
-GOT_Story_Country.41.a: "Unlikely allies."
+GOT_Story_Country.41.t: "The Mountain Clans Enlisted"
+GOT_Story_Country.41.d: "While negotiating safe passage through the treacherous Mountains of the Moon, Tyrion Lannister forged a bloody pact with the wild Hill Tribes of the Vale. By promising them armaments, gold, and the fertile lands of their rivals, the Imp has transformed a band of mountain raiders into a formidable vanguard for the Western hosts."
+GOT_Story_Country.41.a: "Equip the savages and march them to war."
 
 # News Event
-GOT_Story_News.41.t: "Tyrion Lannister Secures Hill Tribe Support"
-GOT_Story_News.41.d: "Tyrion Lannister has emerged from the Vale accompanied by a force of Hill Tribe warriors. He is said to have promised them gold and lands in exchange for loyalty. The political landscape of Westeros grows ever more unpredictable."
-GOT_Story_News.41.a: "Deals struck in the mountains."
+GOT_Story_News.41.t: "The Hill Tribes Down from the Mountains"
+GOT_Story_News.41.d: "Shocking reports arrive from the East stating that Tyrion Lannister has descended from the Vale at the head of a massive host of mountain clansmen. Armed with promises of steel and land, these lawless raiders now swell the ranks of Casterly Rock, threatening to unleash mountain savagery upon the wider realm."
+GOT_Story_News.41.a: "Desperate times yield wild alliances."
 
 #Country Event
-GOT_Story_Country.42.t: "Robb Stark Captures Jaime Lannister"
-GOT_Story_Country.42.d: "Our gamble paid off. The feint at the Green Fork cost us two thousand men, but it drew Tywin's attention. In the Whispering Wood, Robb ambushed Jaime Lannister's host and took the Kingslayer prisoner. The North now holds a powerful bargaining chip."
+GOT_Story_Country.42.t: "Victory in the Whispering Wood"
+GOT_Story_Country.42.d: "The strategic feint at the Green Fork succeeded. While Lord Bolton drew away Lord Tywin's host, Robb Stark led our main vanguard into the woods near Riverrun to spring a surprise night ambush on the unsuspecting Western army. The Lannister forces were completely routed, and Ser Jaime Lannister himself was taken captive. The Kingslayer now sits in Northern chains."
 GOT_Story_Country.42.a: "The Young Wolf shows his teeth."
 
-#News Event
-GOT_Story_News.42.t: "Jaime Lannister Captured!"
-GOT_Story_News.42.d: "In a daring nighttime maneuver near the Whispering Wood, Robb Stark led a surprise attack that routed the Lannister forces and resulted in the capture of Jaime Lannister himself. With the Kingslayer in chains, the balance of power in the War of the Five Kings has shifted dramatically."
-GOT_Story_News.42.a: "The North strikes back!"
+GOT_Story_News.42.t: "The Kingslayer Captured!"
+GOT_Story_News.42.d: "Word spreads rapidly across the Seven Kingdoms of a stunning Northern victory in the Whispering Wood. Robb Stark's forces ambushed and shattered the Western army relieving Riverrun, capturing Ser Jaime Lannister alive. With the realm's most famous knight in Northern chains, the balance of power in the gathering war has shifted dramatically."
+GOT_Story_News.42.a: "A crushing blow to Casterly Rock."
+
+# Country Event (Crownlands Perspective)
+GOT_Story_Country.43.t: "A Sighting at the Great Sept"
+GOT_Story_Country.43.d: "As Lord Eddard Stark was led to the plaza of the Great Sept of Baelor, guards spotted a young girl matching the description of his missing daughter, Arya, hiding among the mob. Before Lannister men could seize her, a wandering crow from the Night's Watch pulled her into the crowd and vanished into the city streets."
+GOT_Story_Country.43.a: "Scour the harbor and search every recruit leaving for the Wall."
+
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.43.t: "The Stark Girl Vanishes in the Capital"
+GOT_Story_News.43.d: "Whispers from King's Landing report that during Lord Eddard Stark's public trial at the Great Sept of Baelor, his youngest daughter Arya was spotted amidst the gathered crowd. Despite royal guards quickly surrounding the square, she slipped through their fingers, leaving her fate and whereabouts unknown."
+GOT_Story_News.43.a: "The little wolf escapes into the shadows."
 
 #Country Event
-GOT_Story_Country.43.t: "Arya Spots Eddard"
-GOT_Story_Country.43.d: "Blending into the crowd near the Great Sept of Baelor, Arya Stark spotted her father being dragged up the steps. Yoren of the Night’s Watch recognized her and quickly whisked her away before the Lannisters could find her. Her journey is about to take a darker turn."
-GOT_Story_Country.43.a: "She must stay hidden."
+# Country Event (Crownlands Perspective)
+GOT_Story_Country.44.t: "A Maiden's Petition"
+GOT_Story_Country.44.d: "Before the Iron Throne and the assembled court, Sansa Stark fell to her knees to plead for the life of her father, Lord Eddard. She promised that if granted royal mercy, he would confess his treason publicly and take the black. Queen Cersei and the Small Council seemed inclined toward leniency for the sake of peace, but the final decision rests solely upon King Joffrey's whim."
+GOT_Story_Country.44.a: "Pray the King shows royal clemency."
 
-#News Event
-GOT_Story_News.43.t: "Stark Girl Vanishes in the Crowd"
-GOT_Story_News.43.d: "As Eddard Stark was led toward the Sept of Baelor, reports suggest his youngest daughter, Arya, was seen among the crowd. While guards searched the square, she seemingly disappeared without a trace. Her fate remains unknown."
-GOT_Story_News.43.a: "Another Stark escapes."
-
-#Country Event
-GOT_Story_Country.44.t: "Sansa Pleads for Ned's Life"
-GOT_Story_Country.44.d: "Sansa Stark has begged King Joffrey to show mercy, believing her father's confession will spare his life. Cersei and the court seemed moved, but Joffrey's whims are as dangerous as ever. The fate of Eddard Stark hangs in the balance."
-GOT_Story_Country.44.a: "Let us hope he listens."
-
-#News Event
-GOT_Story_News.44.t: "Sansa Begs for Mercy"
-GOT_Story_News.44.d: "In the Red Keep’s throne room, Sansa Stark fell to her knees before King Joffrey, pleading for her father’s life. Witnesses claim the queen and court were stirred by her words — but whether the boy king will heed them remains to be seen."
-GOT_Story_News.44.a: "A daughter's desperate plea."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.44.t: "Plea for Mercy in the Great Hall"
+GOT_Story_News.44.d: "Reports from King's Landing describe a dramatic scene in the Red Keep, where Sansa Stark begged King Joffrey to spare her father's life in exchange for a full confession and exile to the Night's Watch. As the court awaits the crown's final verdict, the entire realm holds its breath to see if royal mercy will prevail."
+GOT_Story_News.44.a: "A daughter's plea hangs in the balance."
 
 #Country Event
-GOT_Story_Country.45.t: "Eddard Stark Confesses"
-GOT_Story_Country.45.d: "Before a roaring crowd at the Sept of Baelor, Eddard Stark confessed to treason. It was a lie — but one he spoke to protect his daughters. The realm waited for Joffrey’s promised mercy, but the king’s cruelty is never far beneath the surface."
-GOT_Story_Country.45.a: "He did it for his family."
+# Country Event (Crownlands Perspective)
+GOT_Story_Country.45.t: "Confession at the Great Sept"
+GOT_Story_Country.45.d: "Standing atop the marble steps of the Great Sept of Baelor before a massive crowd of smallfolk, Lord Eddard Stark publicly confessed to treason against the Iron Throne. Though broken and weak from his time in the dungeons, he named King Joffrey the true heir to save his daughters' lives. The Small Council stands ready to enforce the agreed terms and send the traitor to the Wall."
+GOT_Story_Country.45.a: "He has confessed—let the King grant him the black."
 
-#News Event
-GOT_Story_News.45.t: "Eddard Stark Admits Treason"
-GOT_Story_News.45.d: "Before thousands gathered outside the Great Sept of Baelor, Eddard Stark publicly confessed to treason. Many expected clemency — a life spared in exchange for dishonor. But the court watched with bated breath to see how Joffrey would respond."
-GOT_Story_News.45.a: "A shocking confession."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.45.t: "Lord Stark Confesses to High Treason"
+GOT_Story_News.45.d: "In a stunning display outside the Great Sept of Baelor, Lord Eddard Stark publicly declared his treason and affirmed Joffrey Baratheon as the rightful King. Lords and smallfolk across Westeros were stunned by the disgraced Hand's words, with many expecting his immediate exile to the Night's Watch in exchange for his public surrender."
+GOT_Story_News.45.a: "A humiliating end to the Warden of the North."
 
-#Country Event
+# Country Event (Crownlands Perspective)
 GOT_Story_Country.46.t: "The Fate of Eddard Stark"
-GOT_Story_Country.46.d: "Eddard Stark stands accused of treason, having confessed—under duress—to plotting against King Joffrey. The realm expected clemency, and Queen Cersei, Grand Maester Pycelle, and even Lord Varys urged mercy. Sending Stark to the Wall would remove him from the game of thrones while sparing the realm further unrest. But others demand blood, seeing Stark's death as necessary to assert royal authority and break the will of rebellious lords. What is to be done with this traitor, Your Grace?"
-GOT_Story_Country.46.a: "Off with his head. Let the traitor die."
-GOT_Story_Country.46.b: "Let him take the black. Send him to the Wall."
+GOT_Story_Country.46.d: "Eddard Stark stands before the crowd at the Great Sept of Baelor, having confessed to high treason against King Joffrey. Queen Cersei, Lord Varys, and Grand Maester Pycelle urge royal clemency—exiling him to the Wall to keep peace with the North. However, the King holds absolute authority, and many calling for blood want the traitor made an example of. What shall be done with him, Your Grace?"
+GOT_Story_Country.46.a: "Off with his head—let the traitor die!"
+GOT_Story_Country.46.b: "Let him take the black—send him to the Wall."
 
-
-#News Event
+# News Event (Realm-Wide Perspective)
 GOT_Story_News.46.t: "Ned Stark Beheaded!"
-GOT_Story_News.46.d: "In a shocking turn, King Joffrey ordered the execution of Eddard Stark despite his confession. The former Hand of the King was beheaded before the Sept of Baelor. The North is sure to rise in fury, and the realm plunges deeper into war."
-GOT_Story_News.46.a: "The king's justice, or madness?"
+GOT_Story_News.46.d: "In a shocking act of blood justice on the steps of the Great Sept of Baelor, King Joffrey disregarded his advisors and ordered the immediate execution of Eddard Stark. The former Hand was beheaded with his own Valyrian steel sword before a stunned crowd. With Lord Stark slain, all hopes of a peaceful resolution are shattered, and war is now inevitable."
+GOT_Story_News.46.a: "The North will never forgive this."
 
-#Country Event
-GOT_Story_Country.47.t: "Robb Stark Is Declared King in the North"
-GOT_Story_Country.47.d: "Ned Stark is dead, but the North remembers. In the great hall of Riverrun, the Northern and Riverland lords cast aside their fealty to the Iron Throne. Greatjon Umber speaks first, but others follow. One by one, they raise swords and goblets and hail Robb Stark as King in the North — the first in centuries."
+# Country Event (North Perspective)
+GOT_Story_Country.47.t: "A Crown for the Wolf"
+GOT_Story_Country.47.d: "In the great hall of Riverrun, news of Lord Eddard's execution has shattered any remaining tie to the Iron Throne. As our bannermen discuss which contender in the South to support, Greatjon Umber draws his steel, declaring that the North will answer only to a dragon or a wolf. Lord after lord rises, unsheathing their swords and cheering until the rafters ring: the North and the Riverlands will serve their own king once more."
 GOT_Story_Country.47.a: "The King in the North!"
-GOT_Story_Country.47.b: "Stannis is the rightful king."
-GOT_Story_Country.47.c: "Renly has the strength to win."
+GOT_Story_Country.47.b: "Stannis is the rightful heir."
+GOT_Story_Country.47.c: "Renly commands the largest host."
 GOT_Story_Country.47.e: "Lord of Winterfell is enough."
 
-#News Event
-GOT_Story_News.47.t: "A New King in the North!"
-GOT_Story_News.47.d: "In the aftermath of Eddard Stark’s execution, the North has risen. The great houses of the North and Riverlands have sworn fealty not to Renly or Stannis, but to Robb Stark. 'The King in the North,' they call him — a name not spoken in generations. Westeros edges closer to full civil war."
-GOT_Story_News.47.a: "The North breaks away."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.47.t: "A New King Rises in the North!"
+GOT_Story_News.47.d: "Outraged by the execution of Eddard Stark, the lords of the North and the Riverlands have gathered at Riverrun to renounce their allegiance to the Iron Throne. In an ancient ceremony not seen since the Targaryen conquest, they have proclaimed Robb Stark as 'The King in the North,' severing half the continent from royal rule."
+GOT_Story_News.47.a: "The realm fractures into warring kingdoms."
 
-#Country Event
-GOT_Story_Country.48.t: "Daenerys Walks into the Flames"
-GOT_Story_Country.48.d: "The fire roars as Drogo's pyre consumes the night. Daenerys steps forward, placing her dragon eggs among the flames. As gasps rise from the onlookers, she walks calmly into the inferno. Her face is resolute. No one stops her. No one dares. The Dothraki fall silent. They expect death. But something ancient stirs."
+# Country Event (Dothraki Perspective)
+GOT_Story_Country.48.t: "The Funeral Pyre"
+GOT_Story_Country.48.d: "As Khal Drogo’s pyre blazes against the night sky, the Khaleesi binds the maegi Mirri Maz Duur to the stakes and places three stone dragon eggs beside the fallen Khal. Before the remaining warriors and followers, Daenerys steps directly into the roaring inferno. Silence falls over the camp as the Dothraki watch the heat consume the wood, expecting to find only ash when dawn breaks."
 GOT_Story_Country.48.a: "Blood of the dragon."
 
-#News Event
-GOT_Story_News.48.t: "The Dragon Queen Steps Into Fire"
-GOT_Story_News.48.d: "Daenerys Targaryen has done the unthinkable. At the funeral of Khal Drogo, she walked into the flames with her dragon eggs — and did not scream. Witnesses report she was consumed by fire. No body was found in the ashes. Some whisper of fire magic. Others, of madness. None know what it means — yet."
-GOT_Story_News.48.a: "Fire and fate."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.48.t: "The Last Targaryen Walks Into the Fire"
+GOT_Story_News.48.d: "Riders returning from the Red Waste bring unbelievable tales of Khal Drogo's funeral pyre. It is reported that his widow, Princess Daenerys Targaryen, stepped directly into the roaring blaze alongside her fossilized dragon eggs. Whispers cross the Narrow Sea that the last dragon has perished in fire—though distant rumors insist something ancient woke in the flames."
+GOT_Story_News.48.a: "A tragic end to the dragon line."
 
-#Country Event
-GOT_Story_Country.49.t: "Jon Snow Tries to Desert the Night’s Watch"
-GOT_Story_Country.49.d: "News of Ned Stark’s death reached Castle Black like a bitter wind. Grief clouded Jon Snow’s judgment, and he slipped away in the night, bound south to join Robb’s war. But his brothers — Sam, Grenn, and Pyp — rode hard and caught him just before the border. Friendship and oaths prevailed. Jon returned."
-GOT_Story_Country.49.a: "He chose his duty."
+# Country Event (Night's Watch Perspective)
+GOT_Story_Country.49.t: "A Brother's Trial of Honor"
+GOT_Story_Country.49.d: "Word of Lord Eddard's execution reached Castle Black, driving Jon Snow to ride south under cover of darkness to join his brother's host. Intercepted in the woods by Samwell, Grenn, and Pyp, he was reminded of the sacred vows sworn before the weirwood trees. Choosing brotherhood and duty over blood and vengeance, Snow turned his horse back toward the Wall before dawn."
+GOT_Story_Country.49.a: "Night gathers, and now his watch begins."
 
-#News Event
-GOT_Story_News.49.t: "Jon Snow Caught Fleeing South"
-GOT_Story_News.49.d: "Grieving his father's execution, Jon Snow abandoned his post at Castle Black. He was later intercepted by fellow members of the Night’s Watch before he crossed into the south. Snow has returned, but the incident has raised questions about his loyalty and the burden the oath imposes."
-GOT_Story_News.49.a: "Even honor wavers."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.49.t: "Desertion Averted at the Wall"
+GOT_Story_News.49.d: "Whispers from Castle Black reveal that Eddard Stark's bastard son attempted to desert his post upon hearing of his father's execution. Though retrieved by his sworn brothers before reaching the southern roads, the near-desertion highlights the intense strain placed upon the Night's Watch as civil war engulfs the realm."
+GOT_Story_News.49.a: "The sworn vows of the Watch hold fast."
 
-#Country Event
-GOT_Story_Country.50.t: "Catelyn Confronts Jaime Lannister"
-GOT_Story_Country.50.d: "In the Northern camp, Catelyn Stark demands answers from the man who tried to murder her son. Jaime Lannister, chained and bloodied, meets her accusations with smug deflection and sarcasm. But beneath the smirk, his eyes flicker — with arrogance, with guilt, or perhaps fear."
-GOT_Story_Country.50.a: "He’s not as clever as he thinks."
+# Country Event (North Perspective)
+GOT_Story_Country.50.t: "Confronting the Kingslayer"
+GOT_Story_Country.50.d: "In the dark depths of Riverrun's dungeons, Lady Catelyn Stark stood face-to-face with the chained Ser Jaime Lannister to demand the truth behind Bran's fall and the attempt on his life. Bound to a post and covered in dirt, the Kingslayer met her grief with his usual arrogant mockery, yet beneath his bitter jests, the truth of Lannister treachery hung heavy in the cold air."
+GOT_Story_Country.50.a: "His pride will not protect him forever."
 
-#News Event
-GOT_Story_News.50.t: "Catelyn Questions the Kingslayer"
-GOT_Story_News.50.d: "In a tent of the Northern host, Lady Catelyn Stark confronted Jaime Lannister, who remains a prisoner after his capture at Whispering Wood. She demanded the truth of Bran’s fall. The Kingslayer offered little more than insolence, but whispers say the exchange left a mark — on them both."
-GOT_Story_News.50.a: "Tension behind enemy lines."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.50.t: "The Lady of Winterfell Questions Her Royal Captive"
+GOT_Story_News.50.d: "Whispers from Riverrun report that Lady Catelyn Stark personally confronted the imprisoned Ser Jaime Lannister regarding the conspiracy surrounding her family. Though the Kingslayer reportedly offered only insolence in reply, the high-stakes interrogation reveals the deep personal rancor fueling the war between Stark and Lannister."
+GOT_Story_News.50.a: "A dangerous game of words in the Riverlands."
 
-#Country Event
-GOT_Story_Country.51.t: "Daenerys and the Birth of the Dragons"
-GOT_Story_Country.51.d: "At dawn, the pyre has burned to embers. Daenerys Targaryen stands unharmed in the ashes, smoke curling around her bare skin. Nestled against her body are three living dragons — the first in centuries. The Dothraki kneel in awe. Jorah Mormont bows his head. Fire has birthed something ancient and terrible."
-GOT_Story_Country.51.a: "Mother of Dragons."
+# Country Event (Dothraki Perspective)
+GOT_Story_Country.51.t: "Mother of Dragons"
+GOT_Story_Country.51.d: "As the sun rises over the smoking ashes of Khal Drogo's pyre, Daenerys Targaryen emerges unharmed, her skin unblemished by the heat. Clinging to her shoulders and lap are three newly hatched dragons, their screeches piercing the morning air. Overwhelmed by the miracle, Ser Jorah and the remaining Dothraki fall to their knees, swearing blood-oaths to the unburnt queen who has restored magic to the world."
+GOT_Story_Country.51.a: "Blood of my blood—we serve the Dragon Queen."
 
-#News Event
-GOT_Story_News.51.t: "Dragons Return to the World"
-GOT_Story_News.51.d: "The impossible has occurred. Daenerys Targaryen emerged from Drogo’s funeral pyre alive, bearing three infant dragons. Magic long thought dead has returned to the world. The Dothraki now kneel before her not as khaleesi, but as something more. The world may never be the same."
-GOT_Story_News.51.a: "A legend reborn."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.51.t: "Dragons Reborn in the East"
+GOT_Story_News.51.d: "Incredible reports travel across the Narrow Sea: Daenerys Targaryen has stepped out of a roaring funeral pyre bearing three living dragons. Long thought extinct since the reign of the Targaryen kings, the return of these mythical beasts signals the awakening of ancient magic, casting a long shadow over the warring lords of Westeros."
+GOT_Story_News.51.a: "Fire and Blood stir once more."
 
-#Country Event
-GOT_Story_Country.52.t: "King Robert Wounded by the Boar"
-GOT_Story_Country.52.d: "The royal hunt has ended in tragedy. Deep in the forest, King Robert Baratheon was gored by a wild boar. His men arrived too late to prevent the worst of the injury. Bloodied and near unconscious, the king was rushed back to the Red Keep. His condition is grave. Whispers of succession already stir in the halls."
-GOT_Story_Country.52.a: "The hunt was a disaster."
+# Country Event (Crownlands Perspective)
+GOT_Story_Country.52.t: "A Fatal Hunt in the Kingswood"
+GOT_Story_Country.52.d: "The royal hunting party has returned to the Red Keep in panic and disarray. Deep within the Kingswood, King Robert Baratheon was gored through the belly by a massive boar after sending his kingsguard away. Though the King struck the beast down, his wounds are festering and lethal. As pyromancers and maesters tend to his dying bed, courtiers in the Red Keep are already covertly arming their guards for the coming power vacuum."
+GOT_Story_Country.52.a: "Prepare the Red Keep—the realm is about to shatter."
 
-#News Event
-GOT_Story_News.52.t: "King Robert Gravely Injured on Royal Hunt"
-GOT_Story_News.52.d: "King Robert Baratheon has suffered a mortal wound while hunting in the Kingswood. The royal party reports a vicious struggle with a wild boar. Though the beast was slain, it left the king severely wounded. He has returned to the capital, where healers now fight to save his life. Tensions rise in court as the question of succession looms."
-GOT_Story_News.52.a: "A realm on edge."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.52.t: "King Robert Wounded on Royal Hunt"
+GOT_Story_News.52.d: "Shocking news spreads from King's Landing: King Robert Baratheon lies on his deathbed after suffering a terrible goring from a wild boar in the Kingswood. Grand Maester Pycelle works frantically to ease the sovereign's agony, but rumors persist that the King will not survive the night, plunging the Seven Kingdoms into an immediate crisis of succession."
+GOT_Story_News.52.a: "The storm gathers over King's Landing."
 
-#Country Event
-GOT_Story_Country.53.t: "Robert Orders Daenerys’ Death"
-GOT_Story_Country.53.d: "The Small Council has turned to blood. News of Daenerys Targaryen’s pregnancy drove King Robert to fury. Slamming his goblet, he demanded her assassination, despite Lord Eddard Stark’s fierce objections. Lines are drawn. Robert sees only threats. Ned sees honor. But now the decision lies with us — will we order the girl’s death, or spare her and risk what comes?"
-GOT_Story_Country.53.a: "Order her assassination."
-GOT_Story_Country.53.b: "Spare her — we are not murderers."
+# Country Event (Crownlands Perspective)
+GOT_Story_Country.53.t: "A Sentence of Poison"
+GOT_Story_Country.53.d: "Reports from Essos confirming Daenerys Targaryen's pregnancy have thrown King Robert into a blind rage. Ignoring the Hand's moral protests, the King demands the Small Council arrange her immediate assassination before a Targaryen heir can cross the Narrow Sea with a Dothraki host. The royal command is given, but Hand of the King Eddard Stark threatens to resign his office rather than sanction the murder of a pregnant child."
+GOT_Story_Country.53.a: "Send word to the shadows—the dragon girl must die."
+GOT_Story_Country.53.b: "Stand with Lord Stark—we will not execute children."
 
-#News Event
-GOT_Story_News.53.t: "King Orders Targaryen Girl Assassinated"
-GOT_Story_News.53.d: "Tensions flared within the Small Council as King Robert Baratheon gave the order to have Daenerys Targaryen killed. Rumors of her carrying a child — a potential heir of House Targaryen — sparked fear of rebellion from across the sea. Lord Eddard Stark opposed the move, but the rest of the council stood behind the king. The wheels of death have turned."
-GOT_Story_News.53.a: "A dangerous line crossed."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.53.t: "Assassins Targeted at the Exile Princess"
+GOT_Story_News.53.d: "Whispers from the Small Council reveal that King Robert Baratheon has ordered the assassination of Daenerys Targaryen following reports that she is pregnant with a Dothraki warlord's child. The ruthless order reportedly provoked a bitter rupture between the King and his Hand, exposing deep political fractures at the highest levels of the realm."
+GOT_Story_News.53.a: "The shadow of Robert's Rebellion lingers."
 
-#Country Event
-GOT_Story_Country.54.t: "King Robert Dies"
-GOT_Story_Country.54.d: "Robert Baratheon is dead. The king passed in his chambers after days of agony. Eddard Stark stood at his side until the final breath. The boar that wounded him was slain — but so too is the man who once ruled with laughter and fury. Now begins the question of who shall rule until a new monarch is crowned: the king’s hand, Eddard Stark, or Queen Cersei herself?"
-GOT_Story_Country.54.a: "Lord Stark shall serve as Regent."
-GOT_Story_Country.54.b: "Cersei will take the regency."
+# Country Event (Crownlands Perspective)
+GOT_Story_Country.54.t: "The Death of the King"
+GOT_Story_Country.54.d: "King Robert Baratheon has finally succumbed to his horrific hunting wounds, passing in his chambers after days of agony. Lord Eddard Stark claims the King signed a final decree naming him Lord Regent until Prince Joffrey comes of age. However, Queen Cersei and the Lannisters move swiftly to secure the Red Keep, insisting the Queen Regent alone must hold the realm's authority. The bells of Baelor toll, and the battle for the succession begins."
+GOT_Story_Country.54.a: "Enforce King Robert's last decree—Lord Stark is Regent."
+GOT_Story_Country.54.b: "Back Queen Cersei—the Lannisters must rule."
 
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.54.t: "King Robert Baratheon Lies Dead"
+GOT_Story_News.54.d: "The Iron Throne sits empty. King Robert Baratheon has died from the wounds inflicted by a wild boar in the Kingswood. Even as funeral bells toll across King's Landing, intense political rivalry erupts within the Red Keep regarding the regency, plunging the Seven Kingdoms into an immediate crisis of authority."
+GOT_Story_News.54.a: "The Stag is fallen."
 
-#News Event
-GOT_Story_News.54.t: "King Robert Baratheon Has Died"
-GOT_Story_News.54.d: "The king is dead. Robert Baratheon succumbed to wounds sustained in a hunting accident. The realm mourns, but even as bells toll, courtiers whisper. Who will succeed him? Will it be his son, Joffrey? Or another claimant? Westeros stands on the edge of uncertainty, with storm clouds brewing."
-GOT_Story_News.54.a: "A crown without a king."
+# Country Event (Dothraki Perspective)
+GOT_Story_Country.55.t: "The Great Khal Is Wounded"
+GOT_Story_Country.55.d: "In a fierce fight sparked by the division of plunder, Khal Drogo slew the defiant rider Mago, but not before receiving a deep chest wound from the warrior's blade. Though Drogo dismisses the injury as a minor scratch, the cut bleeds heavily and shows signs of rapid infection. Bloodriders murmur that a Khal who cannot ride cannot lead, forcing a critical choice upon the camp before his strength wanes completely."
+GOT_Story_Country.55.a: "Allow the captive maegi to bind his wound."
 
-#Country Event
-GOT_Story_Country.55.t: "The Great Khal is wounded."
-GOT_Story_Country.55.d: "In a brutal confrontation with Mago, Drogo has been gravely injured. The blood of our Khal spills upon the sands, and the future of the Dothraki is uncertain. The Khal's strength is unmatched, but even the strongest fall. Will the blood of his khalasar be enough to bring him back from the brink of death?"
-GOT_Story_Country.55.a: "We must try to heal him!"
-GOT_Story_Country.55.b: "His legacy will live on through a new leader."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.55.t: "The Great Khal Wounded in Single Combat"
+GOT_Story_News.55.d: "Reports from the grasslands of Essos state that the formidable Khal Drogo has been severely injured in a dual of honor against one of his own captains. While the Khal remains alive, word of his lingering infection spreads quickly, sparking speculation that his massive khalasar may soon fracture into warring factions if the Great Khal succumbs to his wounds."
+GOT_Story_News.55.a: "A titan of the Great Grass Sea falters."
 
-#News Event
-GOT_Story_News.55.t: "Khal Drogo Wounded in Duel with Mago"
-GOT_Story_News.55.d: "Khal Drogo, the mighty leader of the Dothraki, was severely injured in a one-on-one fight with his rival, Mago. The outcome of the duel has left many questioning the future of the Dothraki horde. If Drogo succumbs to his injuries, the Dothraki may face a tumultuous period of leadership struggles and uncertainty."
-GOT_Story_News.55.a: "Will the Khal's horde survive this blow?"
+# Country Event (North Perspective)
+GOT_Story_Country.56.t: "A Deal at the Twins"
+GOT_Story_Country.56.d: "Our host stands halted at the Green Fork of the Trident, staring up at the formidable twin castles of the Late Lord Frey. Control of the bridge is vital to relieve Riverrun, but Lord Walder demands an extraordinary price for passage: Robb Stark must pledge to marry a Frey daughter, fostered wards must be taken, and Frey troops must join our vanguard. Delaying to march around the river will allow Lord Tywin to crush us, but binding the heir of Winterfell to Walder Frey is a heavy burden."
+GOT_Story_Country.56.a: "A lord must do his duty—agree to the Frey alliance."
+GOT_Story_Country.56.b: "We will not be coerced—find another way across."
 
-#Robb Promises
-GOT_Story_Country.56.t: "A Deal With House Frey?"
-GOT_Story_Country.56.d: "The army has reached the banks of the Trident, and the Twins—the only crossing within leagues—lie ahead. Lord Walder Frey controls the bridge, and while he is a bannerman of the Tullys, his loyalty is fickle. He has agreed to let us cross, but only if we promise a betrothal between one of his daughters and the Lord of Winterfell. It is a bitter price to pay, but the alternative is a long detour south, which would delay our march and sap the strength of our forces before they ever reach the battlefield.\n\nTime is not on our side. Do we bind ourselves to House Frey for the sake of swift passage?"
-GOT_Story_Country.56.a: "A lord must do his duty. We’ll promise the Frey girl."
-GOT_Story_Country.56.b: "I won’t be bought with marriage. We take the long way around."
-
-GOT_Story_News.56.t: "The Young Wolf Seals a Pact"
-GOT_Story_News.56.d: "News has spread throughout the realm that Robb Stark, the Young Wolf and King in the North, has struck a deal with Lord Walder Frey. In exchange for safe passage across the Twins and the vital crossing of the Trident, Robb has pledged to marry one of Lord Frey's many daughters.\n\nThough some call it a shrewd political move, others whisper that the proud son of Eddard Stark has sacrificed honor for advantage. With the Freys now tied to the Northern cause—at least for now—Robb’s army marches swiftly south, unimpeded by the river that has halted so many before.\n\nWhether this alliance will hold or fray under the weight of ambition and broken promises remains to be seen."
-GOT_Story_News.56.a: "The game of thrones waits for no one."
+# News Event (Realm-Wide Perspective)
+GOT_Story_News.56.t: "The Young Wolf Pledges to House Frey"
+GOT_Story_News.56.d: "Reports from the Riverlands confirm that Robb Stark has secured safe passage across the vital crossing at the Twins by striking a marriage pact with Lord Walder Frey. By promising to marry a Frey daughter once the war is won, the Northern commander has bought crucial strategic speed and swollen his ranks with Frey swords, allowing his host to march unimpeded toward the Lannister forces."
+GOT_Story_News.56.a: "A shrewd pact signed on the Trident."
 
 
 ##########
@@ -4261,6 +4249,15 @@ GOT_Story_Country.749.a:0 "Sound the horns. Man the Wall."
 GOT_Story_News.749.t:0 "The Wall is Under Attack!"
 GOT_Story_News.749.d:0 "Terrifying reports have emerged from the far North. The Night's Watch has sent urgent word that an immense army of the dead has gathered beyond the Wall and launched an assault upon its ancient fortifications.\n\nFor generations, the White Walkers were dismissed by many as legends and campfire stories. Now their armies march openly against the realms of men. Wights have been sighted in vast numbers, advancing beneath the banners of beings that should have remained buried in the oldest tales.\n\nThe Wall has stood for thousands of years. Whether it can withstand what is coming remains to be seen."
 GOT_Story_News.749.a:0 "The dead have come."
+
+ GOT_Story_Country.750.t:0 "The Future of the Iron Tide"
+ GOT_Story_Country.750.d:0 "With the conflict among our own brethren brought to a decisive end, the Iron Islands stand under our unified control once more. However, as faction leader of the Iron Tide, we face a strategic crossroads. We can choose to maintain our independent alliance and force the greenlanders to bow before our collective might, or disband the Iron Tide to clear the way for broader, opportunistic alliances across Westeros."
+ GOT_Story_Country.750.a:0 "The Iron Tide stands strong! We keep our faction."
+ GOT_Story_Country.750.b:0 "Disband the Iron Tide. We look to other alliances."
+ 
+ GOT_Story_News.750.t:0 "The Dissolution of the Iron Tide"
+ GOT_Story_News.750.d:0 "Reports from Pyke confirm that following the end of internal strife among the Ironborn, the leaders of the Iron Islands have officially disbanded the 'Iron Tide' alliance. With their regional bloc dismantled, the lords of the Ironborn appear ready to abandon their isolation and cast their eyes toward the political shifts of mainland Westeros."
+ GOT_Story_News.750.a:0 "A new game begins in the Sunset Sea."
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"

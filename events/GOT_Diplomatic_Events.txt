@@ -3339,6 +3339,10 @@ country_event = {
  
         ai_chance = { 
             factor = 60 
+			modifier = {
+				factor = 0
+				has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+			}
         } 
  
         PEN = { 
@@ -3357,6 +3361,12 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { 
+					has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag 
+				}
 			}
         } 
 		
@@ -3380,8 +3390,10 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 			modifier = {
-				factor = 100
-				has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag
+				factor = 0
+				NOT = { 
+					has_global_flag = GOT_Targaryen_Stay_In_Pentos_Flag 
+				}
 			}
         } 
 		
@@ -7573,35 +7585,8 @@ country_event = {
  
         add_stability = -0.50
 		
-		remove_country_leader_role = {
-			character = STO_stannis_baratheon
-			ideology = NR_subideology
-		}
-		
-		remove_country_leader_role = {
-			character = STO_stannis_baratheon
-			ideology = FR_subideology
-		}
-		
-		add_country_leader_role = {
-			character = STO_Melisandre
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = FR_subideology
-				traits = { 
-					theocratic_diplomat 
-					orthodox_rabblerouser 
-					driver_of_the_faithful 
-					the_masses_opium 
-					political_manipulator 
-					emergency_powers 
-					#anarchist_zeal 
-					militant_socialist 
-					anti_democrat 
-					silent_workhorse 
-				}
-			}
-			promote_leader = yes
+		STO_stannis_baratheon = {
+			retire = yes
 		}
 		
 		if = {
@@ -7613,7 +7598,6 @@ country_event = {
 					}
 				}
 			}
-			retire_ideology_leader = fascism
 			add_country_leader_role = {
 				character = STO_joffrey_baratheon
 				country_leader = {
@@ -7654,7 +7638,24 @@ country_event = {
 					}
 				}
 			}
-			retire_ideology_leader = democratic
+			add_country_leader_role = {
+				character = STO_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						#voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
 			add_country_leader_role = {
 				character = STO_Tommen_Baratheon
 				country_leader = {
@@ -7701,7 +7702,18 @@ country_event = {
 					}
 				}
 			}
-			retire_ideology_leader = communism
+			add_country_leader_role = {
+				character = STO_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
 			add_country_leader_role = {
 				character = STO_Myrcella_Baratheon
 				country_leader = {
@@ -7741,6 +7753,26 @@ country_event = {
 					reluctant_veteran 
 					political_dancer 
 					#voice_of_restraint
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = STO_Melisandre
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = { 
+					theocratic_diplomat 
+					orthodox_rabblerouser 
+					driver_of_the_faithful 
+					the_masses_opium 
+					political_manipulator 
+					emergency_powers 
+					#anarchist_zeal 
+					militant_socialist 
+					anti_democrat 
+					silent_workhorse 
 				}
 			}
 			promote_leader = yes

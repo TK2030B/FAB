@@ -31,10 +31,6 @@ country_event = {
 
 		add_stability = -0.05
 		
-		ICE = {
-			add_named_threat = { threat = 2 name = "Terror In The Woods" }	
-		}
-		
 		hidden_effect = {
 			ICE_White_Walker_Spawn = yes
 			NOR = {
@@ -4795,10 +4791,6 @@ country_event = {
         }
 
         ICE_Wave2_Spawn = yes
-		
-		ICE = {
-			add_named_threat = { threat = 5 name = "Craster's Secret" }	
-		}
 
         every_other_country = {
             limit = {
@@ -10163,9 +10155,7 @@ country_event = {
         } 
 		
 		ICE_Wave3_Spawn = yes
-		ICE = {
-			add_named_threat = { threat = 10 name = "Sam Kills A Walker" }	
-		}
+		
  
         add_stability = 0.05 
         add_war_support = 0.05 
@@ -13765,7 +13755,7 @@ country_event = {
         } 
  
         ICE_Wave4_Spawn = yes
-		add_named_threat = { threat = 20 name = "Night King Revealed" }
+		
  
         every_other_country = { 
             limit = { 
@@ -16185,7 +16175,7 @@ country_event = {
 			}
 		}
 		
-		add_named_threat = { threat = 50 name = "Hardhome Attack" }
+		
  
         every_other_country = { 
             limit = { 
@@ -16970,36 +16960,10 @@ country_event = {
  
         add_stability = -0.50
 		
-		remove_country_leader_role = {
-			character = DRA_stannis_baratheon
-			ideology = NR_subideology
+		DRA_stannis_baratheon = {
+			retire = yes
 		}
 		
-		remove_country_leader_role = {
-			character = DRA_stannis_baratheon
-			ideology = FR_subideology
-		}
-		
-		add_country_leader_role = {
-			character = DRA_Melisandre
-			country_leader = {
-				expire = "1965.1.1"
-				ideology = FR_subideology
-				traits = { 
-					theocratic_diplomat 
-					orthodox_rabblerouser 
-					driver_of_the_faithful 
-					the_masses_opium 
-					political_manipulator 
-					emergency_powers 
-					#anarchist_zeal 
-					militant_socialist 
-					anti_democrat 
-					silent_workhorse 
-				}
-			}
-			promote_leader = yes
-		}
 		
 		if = {
             limit = { 
@@ -17010,7 +16974,6 @@ country_event = {
 					}
 				}
 			}
-			retire_ideology_leader = fascism
 			add_country_leader_role = {
 				character = DRA_joffrey_baratheon
 				country_leader = {
@@ -17051,7 +17014,24 @@ country_event = {
 					}
 				}
 			}
-			retire_ideology_leader = democratic
+			add_country_leader_role = {
+				character = DRA_Tommen_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						underage_monarch 
+						compassionate_gentleman 
+						#humble 
+						appeaser 
+						constitutional_monarch 
+						popular_figurehead 
+						champion_of_peace_5 
+						#voice_of_restraint 
+					}
+				}
+				promote_leader = yes
+			}
 			add_country_leader_role = {
 				character = DRA_Tommen_Baratheon
 				country_leader = {
@@ -17098,7 +17078,18 @@ country_event = {
 					}
 				}
 			}
-			retire_ideology_leader = communism
+			add_country_leader_role = {
+				character = DRA_Myrcella_Baratheon
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = FR_subideology
+					traits = { 
+						popular_figurehead 
+						constitutional_monarch 
+					}
+				}
+				promote_leader = yes
+			}
 			add_country_leader_role = {
 				character = DRA_Myrcella_Baratheon
 				country_leader = {
@@ -17138,6 +17129,26 @@ country_event = {
 					reluctant_veteran 
 					political_dancer 
 					#voice_of_restraint
+				}
+			}
+			promote_leader = yes
+		}
+		add_country_leader_role = {
+			character = DRA_Melisandre
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = FR_subideology
+				traits = { 
+					theocratic_diplomat 
+					orthodox_rabblerouser 
+					driver_of_the_faithful 
+					the_masses_opium 
+					political_manipulator 
+					emergency_powers 
+					#anarchist_zeal 
+					militant_socialist 
+					anti_democrat 
+					silent_workhorse 
 				}
 			}
 			promote_leader = yes
@@ -18077,14 +18088,15 @@ country_event = {
 		
 		GOT_Change_Ideology_Neutrality = yes
 		
-		if = {
+		hidden_effect = {
+			if = {
 				limit = {
 					UMB = {
 						is_ai = yes
 					}
 				}
 				UMB = {
-					GOT_Change_Ideology_Neutrality = yes
+					GOT_Change_Ideology_Fascism = yes
 				}
 			}
 			if = {
@@ -18094,7 +18106,7 @@ country_event = {
 					}
 				}
 				KAR = {
-					GOT_Change_Ideology_Neutrality = yes
+					GOT_Change_Ideology_Fascism = yes
 				}
 			}
 		}
@@ -18171,12 +18183,13 @@ country_event = {
         tag = IRO 
 		date > 1941.2.5
         date < 1942.2.5
-		NOT = {
-			has_country_leader = {
-				name = "Euron Greyjoy"
-				ruling_only = yes
-			}
-		}
+		#NOT = {
+		#	has_country_leader = {
+		#		name = "Euron Greyjoy"
+		#		ruling_only = yes
+		#	}
+		#}
+		#This was commented out because Euron appearing due to focus tree, shouldn't negate his killing of Balon
     } 
  
     fire_only_once = yes 
@@ -18191,15 +18204,21 @@ country_event = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
+			modifier = {
+				factor = 0
+				has_country_leader = {
+					name = "Euron Greyjoy"
+					ruling_only = yes
+				}
+			}
         } 
 		
 		set_global_flag = GOT_Balon_Greyjoy_Murdered_Flag
  
         add_stability = -0.05 
 		
-		remove_country_leader_role = {
-			character = IRO_balon_greyjoy
-			ideology = NR_subideology
+		IRO_balon_greyjoy = {
+			retire = yes
 		}
 		
 		add_country_leader_role = {
@@ -18222,18 +18241,7 @@ country_event = {
 			promote_leader = yes
 		}
 		
-		if = {
-			limit = {
-				NOT = { has_government = communism }
-			}
-			set_politics = {
-				ruling_party = communism
-			}
-		}
-		add_popularity = {
-			popularity = 0.50
-			ideology = communism
-		}
+		GOT_Change_Ideology_Communism = yes
 		
 		#start_civil_war = {
 		#	ideology = fascism
@@ -18256,15 +18264,21 @@ country_event = {
  
         ai_chance = { 
             factor = 65 
+			modifier = {
+				factor = 0
+				has_country_leader = {
+					name = "Yara Greyjoy"
+					ruling_only = yes
+				}
+			}
         } 
 		
 		set_global_flag = GOT_Balon_Greyjoy_Murdered_Flag
  
         add_stability = -0.05 
 		
-		remove_country_leader_role = {
-			character = IRO_balon_greyjoy
-			ideology = NR_subideology
+		IRO_balon_greyjoy = {
+			retire = yes
 		}
 		
 		add_country_leader_role = {
@@ -18288,18 +18302,7 @@ country_event = {
 			promote_leader = yes
 		}
 		
-		if = {
-			limit = {
-				NOT = { has_government = fascism }
-			}
-			set_politics = {
-				ruling_party = fascism
-			}
-		}
-		add_popularity = {
-			popularity = 0.50
-			ideology = fascism
-		}
+		GOT_Change_Ideology_Fascism = yes
 		
 		#start_civil_war = {
 		#	ideology = communism
@@ -18474,7 +18477,7 @@ country_event = {
 					traits = {  
 						reluctant_veteran  
 						stout_defender  
-						voice_of_restraint  
+						#voice_of_restraint  
 					}
 				}
 				promote_leader = yes
@@ -18488,7 +18491,7 @@ country_event = {
 					traits = {  
 						reluctant_veteran  
 						stout_defender  
-						voice_of_restraint  
+						#voice_of_restraint  
 					}
 				}
 				promote_leader = yes
@@ -26528,6 +26531,10 @@ country_event = {
 				is_in_faction_with = CRO
 				has_war_with = TAR
 			}
+			AND = {
+				is_faction_leader = yes
+				CRO = { has_war_with = TAR }
+			}
 		}
     } 
  
@@ -26542,52 +26549,9 @@ country_event = {
         } 
  
         add_stability = -0.05 
+		
+		GOT_Ironborn_Civil_War = yes
 
-		
-		if = {
-			limit = {
-				has_country_leader = {
-					name = "Euron Greyjoy"
-					ruling_only = yes
-				}
-			}
-			start_civil_war = {
-				ideology = communism
-				size = 0.50
-			}
-		}
-		else_if = {
-			limit = {
-				has_country_leader = {
-					name = "Yara Greyjoy"
-					ruling_only = yes
-				}
-			}
-			start_civil_war = {
-				ideology = fascism
-				size = 0.50
-			}
-		}
-		else_if = {
-			limit = {
-				has_country_leader = {
-					name = "Theon Greyjoy"
-					ruling_only = yes
-				}
-			}
-			start_civil_war = {
-				ideology = fascism
-				size = 0.50
-			}
-		}
-		else = {
-			start_civil_war = {
-				ideology = fascism
-				size = 0.50
-			}
-		}
-		
- 
         every_other_country = { 
             limit = { 
                 exists = yes 
@@ -27797,5 +27761,103 @@ news_event = {
  
     option = { 
         name = GOT_Story_News.749.a 
+    } 
+} 
+
+# 750 — Ironborn Civil War Faction Disband?
+country_event = { 
+    id = GOT_Story_Country.750 
+    title = GOT_Story_Country.750.t 
+    desc = GOT_Story_Country.750.d 
+    picture = GFX_report_event_Pyke
+ 
+    trigger = { 
+        original_tag = IRO 
+		date > 1941.2.5
+        date < 1950.1.1
+		has_global_flag = GOT_Balon_Greyjoy_Murdered_Flag
+		has_civil_war = yes
+		is_faction_leader = yes
+		NOT = {
+			OR = {
+				is_in_faction_with = CRO
+				is_in_faction_with = TAR
+			}
+		}
+		NOT = {
+			AND = {
+				has_war_with = CRO
+				has_war_with = TAR
+			}
+		}
+    } 
+ 
+    fire_only_once = yes 
+ 
+    
+	option = { 
+        name = GOT_Story_Country.750.a 
+ 
+        ai_chance = { 
+            factor = 30
+			modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        } 
+		
+		add_war_support = 0.05
+
+    } 	
+	
+	option = { 
+        name = GOT_Story_Country.750.b 
+ 
+        ai_chance = { 
+            factor = 70
+        } 
+		
+		#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+				NOT = { is_in_faction_with = CRO }
+				NOT = { is_in_faction_with = TAR }
+			}
+			dismantle_faction = yes
+		}
+
+		if = {
+			limit = {
+				is_in_faction = yes
+				NOT = { is_in_faction_with = CRO }
+				NOT = { is_in_faction_with = TAR }
+			}
+			leave_faction = yes
+		}
+
+        every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.750 
+                hours = 6 
+            } 
+        } 
+    }
+} 
+
+# 750 — Ironborn Civil War Faction Disband?
+news_event = { 
+    id = GOT_Story_News.750 
+    title = GOT_Story_News.750.t 
+    desc = GOT_Story_News.750.d 
+    picture = GFX_news_event_Pyke
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.750.a 
     } 
 } 

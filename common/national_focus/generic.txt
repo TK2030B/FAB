@@ -98,6 +98,14 @@ focus_tree = {
 					has_government = communism
 				}
 			}
+			modifier = {
+				factor = 2
+				has_government = communism
+			}
+			modifier = {
+				factor = 2
+				GOT_Targaryen_Sympathies = yes
+			}
 		}
 		completion_reward = {
 			add_timed_idea = {
@@ -310,6 +318,10 @@ focus_tree = {
 					has_government = democratic
 				}
 			}
+			modifier = {
+				factor = 2
+				has_government = democratic
+			}
 		}
 		completion_reward = {
 			add_timed_idea = {
@@ -507,6 +519,22 @@ focus_tree = {
 				NOT = {
 					has_government = neutrality
 				}
+			}
+			modifier = {
+				factor = 2
+				has_government = neutrality
+			}
+			modifier = {
+				factor = 2
+				GOT_Stark_Sympathies = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Renly_Sympathies = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Stannis_Sympathies = yes
 			}
 		}
 		completion_reward = {
@@ -810,6 +838,18 @@ focus_tree = {
 				NOT = {
 					has_government = fascism
 				}
+			}
+			modifier = {
+				factor = 2
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				GOT_Lannister_Sympathies = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Ironborn_Sympathies = yes
 			}
 		}
 		completion_reward = {
@@ -1593,6 +1633,17 @@ focus_tree = {
 				NOT = { has_global_flag = GOT_New_Monarch_Chosen_Flag }
 				GOT_Westeros_Countries = yes
 			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = no	
+				NOT = {
+					has_completed_focus = GOT_spread_revolution
+					has_completed_focus = GOT_socialism_in_one_country
+					has_completed_focus = GOT_spread_democracy
+					has_completed_focus = GOT_absolute_obedience
+					has_completed_focus = GOT_total_dictatorship
+				}
+			}
 		}
 		available = {
 			is_subject = no
@@ -1636,6 +1687,13 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				GOT_War_Participant = yes
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					GOT_Stark_Sympathies = yes
+					GOT_Ironborn_Sympathies = yes
+				}
 			}
 		}
 		
@@ -1705,6 +1763,10 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				GOT_Stark_Faction = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Stark_Sympathies = yes
 			}
 		}
 		prerequisite = {
@@ -2041,6 +2103,10 @@ focus_tree = {
 				factor = 2
 				GOT_Ironborn_Faction = yes
 			}
+			modifier = {
+				factor = 2
+				GOT_Ironborn_Sympathies = yes
+			}
 		}
 		prerequisite = {
 			focus = GOT_communist_foreign_policy
@@ -2314,6 +2380,10 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				GOT_War_Participant = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Targaryen_Sympathies = yes
 			}
 		}
 		available = {
@@ -2953,6 +3023,10 @@ focus_tree = {
 				factor = 2
 				GOT_War_Participant = yes
 			}
+			modifier = {
+				factor = 2
+				GOT_Baratheon_Sympathies = yes
+			}
 		}
 		available = {
 			is_in_faction = no
@@ -3020,6 +3094,10 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				GOT_Stannis_Faction = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Stannis_Sympathies = yes
 			}
 		}
 		prerequisite = {
@@ -3264,6 +3342,10 @@ focus_tree = {
 				factor = 2
 				GOT_Renly_Faction = yes
 			}
+			modifier = {
+				factor = 2
+				GOT_Renly_Sympathies = yes
+			}
 		}
 		prerequisite = {
 			focus = GOT_fascist_foreign_policy
@@ -3467,6 +3549,10 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				GOT_Lannister_Faction = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Lannister_Sympathies = yes
 			}
 		}
 		prerequisite = {
@@ -3698,6 +3784,10 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				GOT_War_Participant = no
+			}
+			modifier = {
+				factor = 2
+				GOT_Neutral_Sympathies = yes
 			}
 		}
 		prerequisite = {
