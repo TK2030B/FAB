@@ -1459,9 +1459,9 @@ GOT_Change_Faction_NOR = {
 		if = {
 			limit = {
 				is_faction_leader = yes
+				NOT = { is_in_faction_with = NOR }
 			}
 			dismantle_faction = yes
-			NOT = { is_in_faction_with = NOR }
 		}
 
 		#If is a faction member, but not the leader, then he just leaves

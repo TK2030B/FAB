@@ -48,6 +48,6 @@ tags={
 	"Events"
 	"Graphics"
 }
-name="Game of Thrones 1.16.10"
-supported_version="1.16.*"
+name="Game of Thrones Legacy"
+supported_version="1.19.*"
 remote_file_id="3469425562"
