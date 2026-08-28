@@ -22,12 +22,12 @@ state={
 	}
 	# Far Ib
 	resources = {
-		oil = 2        # Grain  
-		rubber = 1     # Timber  
-		steel = 0  
-		tungsten = 0  
-		chromium = 0  
-		aluminium = 0  
+		#oil = 2        # Grain  
+		#rubber = 1     # Timber  
+		#steel = 0  
+		#tungsten = 0  
+		#chromium = 0  
+		#aluminium = 0  
 	}
 
 	provinces={

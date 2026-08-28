@@ -12,12 +12,12 @@ state={
 		}
 	}
 	resources = {
-		oil = 0        # Grain  
-		rubber = 4    # Timber  
-		aluminium = 20 # Copper  
-		steel = 20     # Iron  
-		tungsten = 25 # Gold  
-		chromium = 13  # Silver  
+		#oil = 0        # Grain  
+		#rubber = 4    # Timber  
+		#aluminium = 20 # Copper  
+		#steel = 20     # Iron  
+		#tungsten = 25 # Gold  
+		#chromium = 13  # Silver  
 	}
 	provinces={
 	 59 856 1234 1462 1614 1679 1750 2162 2807 2819 2839 2853 2820 2826 2855 2859

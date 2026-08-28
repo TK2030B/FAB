@@ -18,12 +18,12 @@ state={
 	}
 	resources = {
 		# New Ghis
-		oil = 2        # Grain
-		rubber = 1     # Timber
-		aluminium = 1  # Copper
-		steel = 3     # Iron
-		tungsten = 0   # Gold
-		chromium = 1   # Silver
+		#oil = 2        # Grain
+		#rubber = 1     # Timber
+		#aluminium = 1  # Copper
+		#steel = 3     # Iron
+		#tungsten = 0   # Gold
+		#chromium = 1   # Silver
 	}
 	provinces={
 		3326 3327

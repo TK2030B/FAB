@@ -23,12 +23,12 @@ state={
 	
 	resources = {
 		# Qarth (single state)
-		oil = 1        # Grain  
-		rubber = 2     # Timber  
-		aluminium = 0   # Copper  
-		steel = 0       # Iron  
-		tungsten = 25   # Gold  
-		chromium = 15   # Silver  
+		#oil = 1        # Grain  
+		#rubber = 2     # Timber  
+		#aluminium = 0   # Copper  
+		#steel = 0       # Iron  
+		#tungsten = 25   # Gold  
+		#chromium = 15   # Silver  
 	}
 
 	provinces={

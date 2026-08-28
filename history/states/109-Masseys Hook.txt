@@ -3,7 +3,7 @@ state={
 	id=109
 	name="STATE_109"
 	resources={
-		steel=2.000
+		#steel=2.000
 	}
 
 	history={
@@ -25,12 +25,12 @@ state={
 	}
 	
 	resources={
-		oil=1          # Grain  
-		rubber=1       # Timber  
-		aluminium=0    # Copper  
-		steel=1        # Iron  
-		tungsten=1     # Gold  
-		chromium=1     # Silver  
+		#oil=1          # Grain  
+		#rubber=1       # Timber  
+		#aluminium=0    # Copper  
+		#steel=1        # Iron  
+		#tungsten=1     # Gold  
+		#chromium=1     # Silver  
 	}
 
 

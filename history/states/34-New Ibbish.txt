@@ -22,12 +22,12 @@ state={
 	
 	# New Ibish (Mainland Settlement)
 	resources = {
-		oil = 1        # Grain  
-		rubber = 1     # Timber  
-		steel = 3      # Iron  
-		tungsten = 2   # Gold  
-		chromium = 2   # Silver  
-		aluminium = 0  
+		#oil = 1        # Grain  
+		#rubber = 1     # Timber  
+		#steel = 3      # Iron  
+		#tungsten = 2   # Gold  
+		#chromium = 2   # Silver  
+		#aluminium = 0  
 	}
 
 	provinces={

@@ -14,12 +14,12 @@ state={
 	
 	resources = {
 		# Land of Always Winter
-		oil = 0        # Grain  
-		rubber = 10     # Timber  
-		aluminium = 1   # Copper  
-		steel = 0       # Iron  
-		tungsten = 1    # Gold  
-		chromium = 0    # Silver  
+		#oil = 0        # Grain  
+		#rubber = 10     # Timber  
+		#aluminium = 1   # Copper  
+		#steel = 0       # Iron  
+		#tungsten = 1    # Gold  
+		#chromium = 0    # Silver  
 	}
 
 	provinces={

@@ -30,12 +30,12 @@ state={
 	
 	resources = {
 		# Great Moraq
-		oil = 5       # Grain
-		rubber = 25    # Timber
-		aluminium = 3  # Copper
-		steel = 3      # Iron
-		tungsten = 5  # Gold
-		chromium = 5  # Silver
+		#oil = 5       # Grain
+		#rubber = 25    # Timber
+		#aluminium = 3  # Copper
+		#steel = 3      # Iron
+		#tungsten = 5  # Gold
+		#chromium = 5  # Silver
 	}
 
 

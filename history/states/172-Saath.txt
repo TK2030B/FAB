@@ -22,12 +22,12 @@ state={
 	
 	resources = {
 		# Saath
-		oil = 8       # Grain
-		rubber = 3     # Timber
-		aluminium = 0  # Copper
-		steel = 0      # Iron
-		tungsten = 0   # Gold
-		chromium = 0   # Silver
+		#oil = 8       # Grain
+		#rubber = 3     # Timber
+		#aluminium = 0  # Copper
+		#steel = 0      # Iron
+		#tungsten = 0   # Gold
+		#chromium = 0   # Silver
 	}
 
 	provinces={

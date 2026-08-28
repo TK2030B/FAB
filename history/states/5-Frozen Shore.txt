@@ -20,12 +20,12 @@ state={
 	
 	resources = {
 		# Frozen Shore
-		oil = 1        # Grain  
-		rubber = 4     # Timber  
-		aluminium = 0   # Copper  
-		steel = 1       # Iron  
-		tungsten = 1    # Gold  
-		chromium = 0    # Silver  
+		#oil = 1        # Grain  
+		#rubber = 4     # Timber  
+		#aluminium = 0   # Copper  
+		#steel = 1       # Iron  
+		#tungsten = 1    # Gold  
+		#chromium = 0    # Silver  
 	}
 
 	provinces={

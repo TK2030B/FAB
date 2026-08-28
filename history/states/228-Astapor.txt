@@ -25,12 +25,12 @@ state={
 	
 	resources = {
 		# Slaver's Bay
-		oil = 0        # Grain  
-		rubber = 3    # Timber  
-		aluminium = 15 # Copper  
-		steel = 15     # Iron  
-		tungsten = 20  # Gold  
-		chromium = 10  # Silver  
+		#oil = 0        # Grain  
+		#rubber = 3    # Timber  
+		#aluminium = 15 # Copper  
+		#steel = 15     # Iron  
+		#tungsten = 20  # Gold  
+		#chromium = 10  # Silver  
 	}
 
 	provinces={

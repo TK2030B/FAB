@@ -18,12 +18,12 @@ state={
 	
 	resources = {
 		# Leng Island 1
-		oil = 1        # Grain  
-		rubber = 2     # Timber  
-		aluminium = 0  # Copper  
-		steel = 1      # Iron  
-		tungsten = 1   # Gold  
-		chromium = 1   # Silver  
+		#oil = 1        # Grain  
+		#rubber = 2     # Timber  
+		#aluminium = 0  # Copper  
+		#steel = 1      # Iron  
+		#tungsten = 1   # Gold  
+		#chromium = 1   # Silver  
 	}
 
 	manpower=100000

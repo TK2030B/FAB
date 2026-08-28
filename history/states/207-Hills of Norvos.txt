@@ -17,12 +17,12 @@ state={
 	
 	resources = {
 		# Hills of Norvos
-		oil = 3        # Grain  
-		rubber = 5    # Timber  
-		aluminium = 3   # Copper  
-		steel = 3       # Iron  
-		tungsten = 15   # Gold  
-		chromium = 8   # Silver  
+		#oil = 3        # Grain  
+		#rubber = 5    # Timber  
+		#aluminium = 3   # Copper  
+		#steel = 3       # Iron  
+		#tungsten = 15   # Gold  
+		#chromium = 8   # Silver  
 	}
 
 	provinces={

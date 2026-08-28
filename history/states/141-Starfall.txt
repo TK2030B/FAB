@@ -25,12 +25,12 @@ state={
 	
 	# Starfall
 	resources = {
-		oil = 1          # Grain
-		rubber = 1       # Timber
-		aluminium = 3    # Copper
-		steel = 2       # Iron
-		tungsten = 3     # Gold
-		chromium = 3     # Silver
+		#oil = 1          # Grain
+		#rubber = 1       # Timber
+		#aluminium = 3    # Copper
+		#steel = 2       # Iron
+		#tungsten = 3     # Gold
+		#chromium = 3     # Silver
 	}
 
 

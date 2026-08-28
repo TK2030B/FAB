@@ -4,7 +4,7 @@ state={
 	name="STATE_14"
 	state_category = pastoral
 	resources={
-		oil=3
+		#oil=3
 	}
 
 	history={
@@ -21,12 +21,12 @@ state={
 	
 	resources = {
 		# Skagos
-		oil = 1        # Grain  
-		rubber = 2     # Timber  
-		aluminium = 0   # Copper  
-		steel = 0       # Iron  
-		tungsten = 0    # Gold  
-		chromium = 0    # Silver  
+		#oil = 1        # Grain  
+		#rubber = 2     # Timber  
+		#aluminium = 0   # Copper  
+		#steel = 0       # Iron  
+		#tungsten = 0    # Gold  
+		#chromium = 0    # Silver  
 	}
 
 	provinces={

@@ -15,12 +15,12 @@ state={
 	
 	resources = {
 		# Northern Rills
-		oil = 1        # Grain  
-		rubber = 4     # Timber  
-		aluminium = 1   # Copper  
-		steel = 2       # Iron  
-		tungsten = 0    # Gold  
-		chromium = 0    # Silver  
+		#oil = 1        # Grain  
+		#rubber = 4     # Timber  
+		#aluminium = 1   # Copper  
+		#steel = 2       # Iron  
+		#tungsten = 0    # Gold  
+		#chromium = 0    # Silver  
 	}
 
 	provinces={

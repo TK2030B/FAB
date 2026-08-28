@@ -16,12 +16,12 @@ state={
 	
 	resources = {
 		# Frostfangs
-		oil = 0        # Grain  
-		rubber = 2     # Timber  
-		aluminium = 1   # Copper  
-		steel = 1       # Iron  
-		tungsten = 0    # Gold  
-		chromium = 1    # Silver  
+		#oil = 0        # Grain  
+		#rubber = 2     # Timber  
+		#aluminium = 1   # Copper  
+		#steel = 1       # Iron  
+		#tungsten = 0    # Gold  
+		#chromium = 1    # Silver  
 	}
 
 	provinces={
