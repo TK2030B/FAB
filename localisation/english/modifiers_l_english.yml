@@ -11,6 +11,7 @@
  global_building_slots_factor_tt: " $MODIFIER_GLOBAL_BUILDING_SLOTS_FACTOR$: $RIGHT|+=%1$"
  MODIFIER_GLOBAL_BUILDING_SLOTS:0 "Max Workshops in a State"
  MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR:0 "Max Workshops in State"
+ MODIFIER_LOCAL_FACTORY_ENERGY_CONSUMPTION:0 "Local Workshops Energy Consumption"
  MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR_DESC:1 "Modifies number of shared building slots in the State."
  MODIFIER_LOCAL_BUILDING_SLOTS:0 "Max Workshops in State"
  CAN_GUARANTEE_OTHER_IDEOLOGIES_NO:0 "Can only guarantee $IDE$ nations."
@@ -2375,3 +2376,7 @@
  sp_tag_nuclear_power_speed_factor_tt: " $sp_tag_nuclear_power_speed_factor$: $RIGHT|+=%1$"
  sp_tag_radar_speed_factor: "Watchtower Special Projects Speed"
  sp_tag_radar_speed_factor_tt: " $sp_tag_radar_speed_factor$: $RIGHT|+=%1$"
+ 
+ MODIFIER_LOCAL_FACTORY_ENERGY_CONSUMPTION_PER_INFRASTRUCTURE: "Workshop Energy Req. Per Infrastructure"
+ MODIFIER_LOCAL_RESOURCE_GAIN_EFFICIENCY_PER_INFRASTRUCTURE: "Resource Gain Per Infrastructure"
+  local_resource_gain_efficiency_per_infrastructure_tt: " $MODIFIER_LOCAL_RESOURCE_GAIN_EFFICIENCY_PER_INFRASTRUCTURE$: $RIGHT|+=%1$"

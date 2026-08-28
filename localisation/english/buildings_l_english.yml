@@ -190,3 +190,7 @@
  industrial_infrastructure: "High Capacity Electrical Grid"
  energy_infrastructure_desc: "Reinforced electrical supply lines and power infrastructure with a system of multiple redundancy ensures that our factories keep producing no matter what."
  industrial_infrastructure_desc: "Augmentations to the existing civilian power infrastructure give us higher capabilities for high-intensity industrial operations."
+ naval_supply_hub: "Naval Supply Hub"
+ naval_supply_hub_desc: "This building allows your fleets to resupply and refuel in this base in addition to their Home Bases, potentially extending the operational range of your §YTask Forces§!.\nA Naval Supply Hub can only be constructed in a coastal province that has Naval Base of at least level 8."
+ naval_headquarters: "Naval Headquarters"
+ naval_headquarters_desc: "This building allows you to assign an admiral to increase effectiveness of §YTask Forces§! operating within range of the Naval Headquarters.\n\nUp to $MAXNUM|H$ headquarters can have an admiral assigned at the same time.\n   Currently assigned: $CURRNUM|H$\n\nA Naval Headquarters can only be constructed in a coastal province that has Naval Base of at least level 8. "

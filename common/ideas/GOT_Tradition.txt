@@ -198,7 +198,7 @@ ideas = {
 				out_of_supply_factor = -1				# Completely ignores supply issues.
 				no_supply_grace = 10000				# Never suffers from lack of supply.
 				supply_consumption_factor = -10			# Uses minimal supply.
-				supply_factor = 1					# Extra supply available.
+				supply_consumption_factor = 1					# Extra supply available.
 				winter_attrition = -1				# No winter attrition (cold immunity).
 			}
 

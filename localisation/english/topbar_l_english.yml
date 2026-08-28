@@ -77,4 +77,8 @@
  TOPBAR_OPERATIONS_COMPLETED_DESC:0 "§HCompleted Operations§! ($AMOUNT$)\n"
  TOPBAR_TIMEOUT_ITEM_LOC:0 "$NAME$ ($DAYS|R0$ days left)"
  TOPBAR_DECISIONS_DESC:1 "§GRight-click§! to turn off notifications for all currently available Decisions."
-
+ TOPBAR_ENERGY_DEMAND: "£energy_texticon Energy Demand: $DEMAND_VAL|H1$ ($ENERGY_RATIO|H1%$)"
+ TOPBAR_ENERGY_GENERATED: "£energy_texticon Energy Generated: $ENERGY_GENERATED|H1$"
+ TOPBAR_COAL_CURRENTLY_USED: "From §Y$COUNT$§! £energy_consumption_texticon Coal currently used"
+ TOPBAR_MAXIMUM_ENERGY_GENERATED: "£energy_texticon Max Energy Generated: $ENERGY_GENERATED|H1$"
+ TOPBAR_TOTAL_COAL: "From §Y$COUNT$§! £energy_consumption_texticon Coal available for use"
