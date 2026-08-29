@@ -1,0 +1,670 @@
+GOT_handle_resources = {
+	if = {
+		limit = {
+			NOT = { 
+				has_country_flag = GOT_Resources_Assigned_Flag 
+			}
+		}
+		#Crownlands
+		if = {
+			limit = {
+				tag = CRO
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 7
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 43
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 60
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 46
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 250
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 37
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 232
+				}
+			}
+		}
+		#Reach
+		if = {
+			limit = {
+				tag = REA
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 209
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 18
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 8
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 270
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 33
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 46
+				}
+			}
+		}
+		#Westerlands
+		if = {
+			limit = {
+				tag = WES
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 424
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 156
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 114
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 471
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 1
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 443
+				}
+			}
+		}
+		#North
+		if = {
+			limit = {
+				tag = NOR
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 134
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 88
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 1
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 44
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 357
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 242
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 143
+				}
+			}
+		}
+		#Iron Islands
+		if = {
+			limit = {
+				tag = IRO
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 7
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 18
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 61
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 52
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 39
+				}
+			}
+		}
+		#Vale
+		if = {
+			limit = {
+				tag = VAL
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 43
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 1
+				}
+			}
+		}
+		#Riverlands
+		if = {
+			limit = {
+				tag = RIV
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 7
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 31
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 33
+				}
+			}
+		}
+		#Dorne
+		if = {
+			limit = {
+				tag = DOR
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 1
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 33
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 41
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 16
+				}
+			}
+		}
+		#Stormlands
+		if = {
+			limit = {
+				tag = STO
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 104
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 205
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 3
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 189
+				}
+			}
+		}
+		#Dragonstone
+		if = {
+			limit = {
+				tag = DRA
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 27
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 9
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 15
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 37
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 1
+				}
+			}
+		}
+		#Nights Watch
+		if = {
+			limit = {
+				tag = NWA
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 1
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Wildlings
+		if = {
+			limit = {
+				tag = WIL
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 88
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 78
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 7
+				}
+			}
+		}
+		set_country_flag = GOT_Resources_Assigned_Flag
+	}
+}

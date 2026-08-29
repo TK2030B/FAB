@@ -91,7 +91,7 @@ recruit_character=NWA_Pypar
 recruit_character=NWA_Loyalists
 recruit_character=NWA_eddison_tollett
 
-set_convoys = 10
+set_convoys = 5
 
 add_ideas = {
 	GOT_Tradition_Nights_Watch

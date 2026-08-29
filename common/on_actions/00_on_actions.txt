@@ -95,7 +95,10 @@ on_actions = {
 			#}
 			random_country = {
 				limit = { is_ai = no }
+				#Welcome Event
 				country_event = { id = Game_Event.1 }
+				#Assign Resources and Factories Event
+				country_event = { id = Game_Event.3 }
 			}
 		}
 	}

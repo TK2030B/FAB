@@ -315,3 +315,21 @@ country_event = {
 		GOT_house_lore_events = yes		
 	}
 }
+
+#Debug Event
+country_event = {
+	id = Game_Event.13
+	title = Game_Event.13.t
+	desc = Game_Event.13.d
+	picture = GFX_report_event_welcome_event
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		every_country = {
+			GOT_handle_resources = yes
+		}
+	}
+	option = {
+		name = Game_Event.13.a		
+	}
+}

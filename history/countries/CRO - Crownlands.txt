@@ -139,7 +139,7 @@ DRA = { give_guarantee = CRO }
 
 #create_faction = "The Iron Throne" #Created by Focus/Event
 
-set_convoys = 150
+set_convoys = 1000
 
 
 set_popularities = {
