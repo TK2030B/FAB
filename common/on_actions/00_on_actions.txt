@@ -98,7 +98,7 @@ on_actions = {
 				#Welcome Event
 				country_event = { id = Game_Event.1 }
 				#Assign Resources and Factories Event
-				country_event = { id = Game_Event.3 }
+				country_event = { id = Game_Event.13 }
 			}
 		}
 	}

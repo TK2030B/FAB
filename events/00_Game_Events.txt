@@ -316,7 +316,7 @@ country_event = {
 	}
 }
 
-#Debug Event
+#Resources and Factory Assign Event
 country_event = {
 	id = Game_Event.13
 	title = Game_Event.13.t
