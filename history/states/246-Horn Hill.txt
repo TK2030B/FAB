@@ -7,8 +7,8 @@ state={
 		owner = REA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 1
+			#industrial_complex = 3
+			#arms_factory = 1
 			2772 = {
 				bunker = 3  #Horn Hill
 			}

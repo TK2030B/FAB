@@ -11,7 +11,7 @@ state={
 		owner = NOR
 		buildings = {
 			infrastructure = 2
-			dockyard = 1
+			#dockyard = 1
 			1238 = {
 				naval_base = 1
 			}

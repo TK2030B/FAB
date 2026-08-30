@@ -6,7 +6,7 @@ state={
 		owner = DOR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			#industrial_complex = 2
 			2926 = {
 				naval_base = 1
 

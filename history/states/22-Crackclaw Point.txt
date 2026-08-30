@@ -7,8 +7,8 @@ state={
 		owner = CRO
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 1
+			#industrial_complex = 2
+			#arms_factory = 1
 			3281 = {
 				bunker = 2 #Brownhollow
 			}

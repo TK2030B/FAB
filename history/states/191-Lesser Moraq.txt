@@ -6,7 +6,7 @@ state={
 		owner = MRQ
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+			#industrial_complex = 1
 			3073 = {
 				naval_base = 3
 			}

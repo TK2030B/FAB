@@ -7,7 +7,7 @@ state={
 		owner = NWA
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			#arms_factory = 1
 			4626 = {
 				bunker = 1
 			}

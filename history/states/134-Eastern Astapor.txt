@@ -6,9 +6,9 @@ state={
 		add_core_of = AST
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
+			#industrial_complex = 1
+			#arms_factory = 1
+			#dockyard = 1
 		}
 		victory_points = {
 			1419 1

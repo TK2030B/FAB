@@ -6,9 +6,9 @@ state={
 		owner = VOL
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 2
-			dockyard = 2
+			#industrial_complex = 3
+			#arms_factory = 2
+			#dockyard = 2
 			1786 = {
 				bunker = 2
 			}

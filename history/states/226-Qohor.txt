@@ -6,8 +6,8 @@ state={
 		owner = QOH
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
+			#industrial_complex = 1
+			#arms_factory = 1
 			88 = {
 				bunker = 5
 			}

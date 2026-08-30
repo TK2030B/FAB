@@ -8,8 +8,8 @@ state={
 		owner = NOR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
+			#industrial_complex = 1
+			#arms_factory = 1
 			237 = {
 				bunker = 5
 			}

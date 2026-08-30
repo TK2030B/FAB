@@ -7,8 +7,8 @@ state={
 		owner = STO
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 1
+			#industrial_complex = 2
+			#arms_factory = 1
 			1325 = {
 				bunker = 1
 			}
