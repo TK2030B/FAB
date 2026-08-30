@@ -327,6 +327,7 @@ country_event = {
 	immediate = {
 		every_country = {
 			GOT_handle_resources = yes
+			GOT_handle_factories = yes
 		}
 	}
 	option = {
