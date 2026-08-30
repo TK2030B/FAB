@@ -10,9 +10,9 @@ if = {
 	}
 }
 
-set_research_slots = 2
+set_research_slots = 3
 
-set_convoys = 1000
+set_convoys = 100
 
 
 set_popularities = {
