@@ -2808,14 +2808,13 @@ GOT_Story_News.503.d: "Rumors spread across the Seven Kingdoms of violence withi
 GOT_Story_News.503.a: "Dorne’s future remains uncertain."
 
 # 504 — Cersei Grieves Myrcella
-GOT_Story_Country.504.t: "A Mother’s Mercy Denied"
-GOT_Story_Country.504.d: "Myrcella’s golden hair now cold beneath a shroud. Jaime’s ship delivers sorrow; my heart births wrath. I shall drown Dorne—and any who laughed—beneath blackwater waves."
-GOT_Story_Country.504.a: "Plot swift retaliation against Dorne"
-GOT_Story_Country.504.b: "Scheme through diplomacy—bide time for greater blow"
+GOT_Story_Country.504.t:0 "Myrcella Assassinated"
+GOT_Story_Country.504.d:0 "Tragedy has struck the Royal House. Princess Myrcella Baratheon has been assassinated, felled by Dornish poison aboard the ship returning her from Sunspear. Her body now lies cold beneath a shroud, turning the Crown's hope for reconciliation into unbearable sorrow. Grief in the Red Keep has swiftly curdled into absolute wrath, and calls for retribution echo through the halls of King’s Landing."
+GOT_Story_Country.504.a:0 "Dorne must pay for this treachery."
 
-GOT_Story_News.504.t: "Lioness Weeps, Vows Vengeance"
-GOT_Story_News.504.d: "King’s Landing mourns the princess. Rumour says Cersei’s grief sharpens into a blade aimed south."
-GOT_Story_News.504.a: "When lions roar, cities burn."
+GOT_Story_News.504.t:0 "A Princess Murdered in Dorne"
+GOT_Story_News.504.d:0 "Whispers from the Red Keep carry dark tidings across the Seven Kingdoms. Princess Myrcella Baratheon has been assassinated, poisoned while returning from Sunspear under what was believed to be a banner of peace. As King’s Landing drapes itself in mourning for the young princess, grief within the capital has turned to fury. Lords and smallfolk alike brace for impact, as the Crown's gaze settles firmly on the Martells and the sands of the south."
+GOT_Story_News.504.a:0 "When lions roar, cities burn."
 
 # 505 — Daenerys Captured by Dothraki
 GOT_Story_Country.505.t: "Khaleesi in Fetters"

@@ -45,7 +45,7 @@ GOT_Targaryen_Faction = {
 			original_tag = VAL
 			NOT = {
 				has_country_leader = {
-					name = "Lisa Arryn"
+					name = "Lysa Arryn"
 					ruling_only = yes
 				}
 			}
@@ -147,7 +147,7 @@ GOT_Stark_Faction = {
 			original_tag = VAL
 			NOT = {
 				has_country_leader = {
-					name = "Lisa Arryn"
+					name = "Lysa Arryn"
 					ruling_only = yes
 				}
 			}

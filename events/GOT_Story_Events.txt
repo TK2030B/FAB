@@ -5523,7 +5523,9 @@ country_event = {
 			}
 		}
 		
-		kill_country_leader = yes
+		STO_renly_baratheon = {
+			retire = yes
+		}
 		
 		add_country_leader_role = {
 			character = STO_Stannis_Baratheon
@@ -5661,7 +5663,9 @@ country_event = {
 			}
 		}
 
-		kill_country_leader = yes
+		STO_renly_baratheon = {
+			retire = yes
+		}
 
 
         if = {
@@ -5913,7 +5917,9 @@ country_event = {
 			}
 		}
 		
-		kill_country_leader = yes
+		STO_renly_baratheon = {
+			retire = yes
+		}
 		
 		add_country_leader_role = {
 			character = STO_Cortnay_Penrose
@@ -8786,7 +8792,9 @@ country_event = {
         add_war_support = -0.05 
 		add_threat = 2
 		
-		kill_country_leader = yes
+		NWA_jeor_mormont = {
+			retire = yes
+		}
 		
 		add_country_leader_role = {
 			character = NWA_alliser_thorne
@@ -9151,7 +9159,9 @@ country_event = {
 						ruling_only = yes
 					}
 				}
-				kill_country_leader = yes
+				KAR_Rickard_Karstark = {
+					retire = yes
+				}
 				add_country_leader_role = {
 					character = KAR_Harald_Karstark
 					country_leader = {
@@ -10912,7 +10922,9 @@ country_event = {
         add_stability = -0.05 
 		add_threat = 1
 		
-		kill_country_leader = yes
+		RIV_hoster_tully = {
+			retire = yes
+		}
 		
 		add_country_leader_role = {
 				character = RIV_Edmure_Tully
@@ -11281,8 +11293,6 @@ country_event = {
 		add_threat = 3
 		
 		set_global_flag = GOT_Purple_Wedding_Flag
-		
-		#kill_country_leader = yes
 		
 		CRO_joffrey_baratheon = {
 			retire = yes
@@ -12700,7 +12710,9 @@ country_event = {
         add_stability = -0.05 
 		add_threat = 3
 		
-		kill_country_leader = yes
+		VAL_lysa_arryn = {
+			retire = yes
+		}
 		
 			add_country_leader_role = {
 				character = VAL_Petyr_Baelish
@@ -17707,7 +17719,11 @@ country_event = {
     trigger = { 
         tag = CRO
 		date > 1941.1.1
-        date < 1941.2.1
+        date < 1950.1.1
+		GOT_Lannister_Is_King = yes
+		has_global_flag = GOT_Myrcella_In_Dorne_Flag
+		country_exists = DOR
+		NOT = { is_in_faction_with = DOR }
     } 
  
     fire_only_once = yes 
@@ -17721,6 +17737,10 @@ country_event = {
  
         add_war_support = 0.1 
         add_political_power = -25
+		
+		CRO_Myrcella_Baratheon = {
+			retire = yes
+		}
  
         every_other_country = { 
             limit = { 
@@ -19181,10 +19201,9 @@ country_event = {
 		add_ideas = ICE_The_Others
 		drop_cosmetic_tag = yes
 		
-		retire_ideology_leader = neutrality
-		retire_ideology_leader = democratic
-		retire_ideology_leader = fascism
-		retire_ideology_leader = communism
+		ICE_unknown_leader = {
+			retire = yes
+		}
  
         every_other_country = { 
             limit = { 
@@ -20845,7 +20864,9 @@ country_event = {
 						ruling_only = yes
 					}
 				}
-				kill_country_leader = yes
+				RIV_hoster_tully = {
+					retire = yes
+				}
 				add_country_leader_role = {
 					character = RIV_Edmure_Tully
 					country_leader = {
@@ -26915,10 +26936,6 @@ country_event = {
 			load_oob = NOR_Civil_War
 		}
 		
-		#NOR = { 
-		#	retire_ideology_leader = neutrality
-		#}
-		
 		if = {
 			limit = {
 				has_global_flag = GOT_Jon_Stays_Watch_Flag
@@ -27148,10 +27165,6 @@ country_event = {
 		NOR = {		
 			load_oob = NOR_Civil_War
 		}
-		
-		#NOR = { 
-		#	retire_ideology_leader = neutrality
-		#}
 		
 		if = {
 			limit = {
