@@ -764,6 +764,2085 @@ GOT_handle_factories_westeros = {
 }
 
 GOT_handle_factories_essos = {
+		#Braavos
+		if = {
+			limit = {
+				tag = BRA
+			}
+			#3 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#6 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 6
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#12 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 12
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Pentos
+		if = {
+			limit = {
+				tag = PEN
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#6 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 6
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#11 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 11
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+		#Myr
+		if = {
+			limit = {
+				tag = MYR
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#9 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 9
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#16 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 16
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Lys
+		if = {
+			limit = {
+				tag = LYS
+			}
+			#3 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#11 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 11
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Tyrosh
+		if = {
+			limit = {
+				tag = TYR
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#3 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Volantis
+		if = {
+			limit = {
+				tag = VOL
+			}
+			#15 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 15
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#20 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 20
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#21 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 21
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
 
+#Norvos
+		if = {
+			limit = {
+				tag = NRV
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#3 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#10 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 10
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Qohor
+		if = {
+			limit = {
+				tag = QOH
+			}
+			#3 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#3 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#9 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 9
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+		#Lorath
+		if = {
+			limit = {
+				tag = LOR
+			}
+			#2 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#7 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 7
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Sothoryos
+		if = {
+			limit = {
+				tag = SOT
+			}
+			#2 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#3 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#17 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 17
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Ulthos
+		if = {
+			limit = {
+				tag = ULT
+			}
+			#2 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#4 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 4
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#12 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 12
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Naath
+		if = {
+			limit = {
+				tag = NAA
+			}
+			#1 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#4 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 4
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+		#Dothraki
+		if = {
+			limit = {
+				tag = DOT
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#3 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#New Ghis
+		if = {
+			limit = {
+				tag = GHI
+			}
+			#2 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#7 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 7
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#11 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 11
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Meereen
+		if = {
+			limit = {
+				tag = MER
+			}
+			#2 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#4 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 4
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#11 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 11
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Yunkai
+		if = {
+			limit = {
+				tag = YUN
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#3 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 3
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#4 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 4
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Astapor
+		if = {
+			limit = {
+				tag = AST
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Qarth
+		if = {
+			limit = {
+				tag = QAR
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Leng
+		if = {
+			limit = {
+				tag = LEN
+			}
+			#1 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Yi Ti
+		if = {
+			limit = {
+				tag = YTI
+			}
+			#2 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#11 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 11
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#16 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 16
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Summer Isles
+		if = {
+			limit = {
+				tag = SUI
+			}
+			#1 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#5 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 5
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Omber
+		if = {
+			limit = {
+				tag = OMB
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Ibben
+		if = {
+			limit = {
+				tag = IBB
+			}
+			#4 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 4
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#8 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 8
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Asshai
+		if = {
+			limit = {
+				tag = ASS
+			}
+			#1 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#5 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 5
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Elyria
+		if = {
+			limit = {
+				tag = ELY
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Tolos
+		if = {
+			limit = {
+				tag = TOL
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Great Moraq
+		if = {
+			limit = {
+				tag = MRQ
+			}
+			#1 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#10 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 10
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Stepstones
+		if = {
+			limit = {
+				tag = STE
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Red Waste
+		if = {
+			limit = {
+				tag = REW
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Unknown Lands
+		if = {
+			limit = {
+				tag = UNL
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#4 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 4
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Morosh
+		if = {
+			limit = {
+				tag = MOR
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#4 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 4
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Saath
+		if = {
+			limit = {
+				tag = SAA
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#0 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
+#Mantarys
+		if = {
+			limit = {
+				tag = MAN
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#1 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant = yes
+					}
+				}
+			}
+			#2 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant = yes
+					}
+				}
+			}
+		}
 		#Paste New Countries before this line
 }
