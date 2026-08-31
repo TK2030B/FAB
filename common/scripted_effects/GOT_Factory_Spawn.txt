@@ -22,7 +22,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -42,7 +42,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -62,7 +62,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -85,7 +85,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -105,7 +105,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -125,7 +125,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -148,7 +148,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -168,7 +168,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -188,7 +188,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -211,7 +211,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -231,7 +231,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -251,7 +251,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -274,7 +274,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -294,7 +294,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -314,7 +314,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -337,7 +337,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -357,7 +357,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -377,7 +377,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -400,7 +400,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -420,7 +420,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -440,7 +440,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -463,7 +463,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -483,7 +483,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -503,7 +503,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -526,7 +526,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -546,7 +546,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -566,7 +566,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -589,7 +589,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -609,7 +609,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -629,7 +629,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -652,7 +652,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -672,7 +672,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -692,7 +692,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -715,7 +715,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -735,7 +735,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -755,7 +755,7 @@ GOT_handle_factories_westeros = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -782,7 +782,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -802,7 +802,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -822,7 +822,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -845,7 +845,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -865,7 +865,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -885,7 +885,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -908,7 +908,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -928,7 +928,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -948,7 +948,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -971,7 +971,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -991,7 +991,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1011,7 +1011,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1034,7 +1034,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1054,7 +1054,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1074,7 +1074,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1097,7 +1097,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1117,7 +1117,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1137,7 +1137,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1161,7 +1161,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1181,7 +1181,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1201,7 +1201,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1224,7 +1224,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1244,7 +1244,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1264,7 +1264,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1287,7 +1287,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1307,7 +1307,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1327,7 +1327,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1350,7 +1350,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1370,7 +1370,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1390,7 +1390,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1413,7 +1413,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1433,7 +1433,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1453,7 +1453,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1476,7 +1476,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1496,7 +1496,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1516,7 +1516,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1539,7 +1539,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1559,7 +1559,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1579,7 +1579,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1602,7 +1602,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1622,7 +1622,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1642,7 +1642,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1665,7 +1665,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1685,7 +1685,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1705,7 +1705,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1728,7 +1728,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1748,7 +1748,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1768,7 +1768,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1791,7 +1791,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1811,7 +1811,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1831,7 +1831,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1854,7 +1854,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1874,7 +1874,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1894,7 +1894,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1917,7 +1917,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1937,7 +1937,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1957,7 +1957,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -1980,7 +1980,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2000,7 +2000,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2020,7 +2020,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2043,7 +2043,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2063,7 +2063,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2083,7 +2083,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2106,7 +2106,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2126,7 +2126,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2146,7 +2146,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2169,7 +2169,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2189,7 +2189,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2209,7 +2209,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2232,7 +2232,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2252,7 +2252,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2272,7 +2272,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2295,7 +2295,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2315,7 +2315,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2335,7 +2335,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2358,7 +2358,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2378,7 +2378,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2398,7 +2398,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2421,7 +2421,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2441,7 +2441,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2461,7 +2461,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2484,7 +2484,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2504,7 +2504,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2524,7 +2524,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2547,7 +2547,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2567,7 +2567,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2587,7 +2587,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2610,7 +2610,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2630,7 +2630,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2650,7 +2650,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2673,7 +2673,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2693,7 +2693,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2713,7 +2713,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2736,7 +2736,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2756,7 +2756,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2776,7 +2776,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2799,7 +2799,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = dockyard
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2819,7 +2819,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = arms_factory
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
@@ -2839,7 +2839,7 @@ GOT_handle_factories_essos = {
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
-						instant = yes
+						instant_build = yes
 					}
 				}
 			}
