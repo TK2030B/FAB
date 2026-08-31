@@ -906,7 +906,7 @@
 905;192;244;242;land;true;plains;1
 906;249;193;218;land;true;forest;1
 907;238;249;144;land;false;plains;1
-908;181;232;104;land;true;plains;1
+908;181;232;104;land;true;plains;7
 909;97;175;234;land;false;jungle;1
 910;190;132;200;land;false;plains;1
 911;165;239;254;land;false;plains;1
@@ -1935,7 +1935,7 @@
 1934;238;200;66;land;false;plains;1
 1935;151;171;185;land;true;jungle;1
 1936;230;237;91;land;true;plains;1
-1937;141;253;128;land;true;plains;1
+1937;141;253;128;land;true;plains;7
 1938;240;146;227;land;false;hills;1
 1939;238;152;197;land;false;urban;1
 1940;133;245;171;land;true;mountain;1
@@ -2246,7 +2246,7 @@
 2245;243;222;230;land;false;mountain;1
 2246;244;86;190;land;false;desert;1
 2247;234;146;211;land;false;plains;1
-2248;97;191;236;land;true;plains;1
+2248;97;191;236;land;true;plains;7
 2249;182;139;222;land;false;plains;1
 2250;227;246;76;land;false;mountain;1
 2251;203;254;93;land;false;jungle;1
@@ -2305,7 +2305,7 @@
 2304;200;179;154;land;false;plains;1
 2305;223;237;104;land;false;plains;1
 2306;226;196;92;land;true;plains;1
-2307;166;164;187;land;true;plains;1
+2307;166;164;187;land;true;plains;7
 2308;214;169;189;land;false;plains;1
 2309;213;98;219;land;false;desert;1
 2310;237;108;247;land;false;jungle;1
@@ -2810,7 +2810,7 @@
 2809;172;235;167;land;false;desert;1
 2810;251;242;48;land;false;hills;1
 2811;208;143;199;land;false;mountain;1
-2812;71;232;203;land;true;plains;1
+2812;71;232;203;land;true;plains;7
 2813;244;130;240;land;false;plains;1
 2814;64;244;201;land;false;hills;1
 2815;242;235;210;land;false;plains;1
@@ -3290,12 +3290,12 @@
 3289;245;234;140;land;true;plains;1
 3290;241;198;185;land;true;plains;1
 3291;169;241;185;land;true;plains;1
-3292;223;245;78;land;true;plains;1
-3293;204;121;239;land;true;plains;1
-3294;217;71;241;land;true;plains;1
+3292;223;245;78;land;true;plains;7
+3293;204;121;239;land;true;plains;7
+3294;217;71;241;land;true;plains;7
 3295;187;95;246;land;true;hills;1
-3296;254;159;217;land;true;plains;1
-3297;160;205;189;land;true;plains;1
+3296;254;159;217;land;true;plains;7
+3297;160;205;189;land;true;plains;7
 3298;130;224;154;land;true;plains;1
 3299;167;192;230;land;true;plains;1
 3300;150;225;241;land;true;plains;1
