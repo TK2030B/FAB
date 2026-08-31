@@ -1,11 +1,11 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Target continent ID for Ulthos (6 = Australia/Ulthos in definition.csv)
-set "NEW_CONTINENT=6"
+:: Target continent ID for Essos (2 = Asia/Essos in definition.csv)
+set "NEW_CONTINENT=2"
 
-:: Set list of Ulthos Province IDs
-set "ULTHOS_PROVS= 4 14 17 23 28 54 66 106 109 116 158 172 188 235 239 242 263 264 277 412 430 434 462 470 483 497 508 531 534 538 579 583 604 613 649 668 725 733 743 765 766 784 787 808 887 966 1008 1026 1034 1036 1049 1065 1073 1100 1173 1184 1218 1328 1413 1494 1530 1549 1579 1595 1692 1775 1783 1789 1790 1847 1879 2024 2202 2300 2303 3085 3087 3096 3103 3112 3115 3117 3121 3124 3130 3133 3134 3136 3138 3143 3145 3148 3159 3368 "
+:: Set list of Essos Province IDs
+set "ESSOS_PROVS= 30 45 51 90 94 95 117 135 155 159 230 267 281 457 461 580 612 680 698 737 841 863 869 958 983 996 1085 1095 1177 1195 1267 1310 1337 1362 1376 1378 1395 1417 1535 1553 1554 1571 1600 1615 1697 1768 1823 1967 1970 2071 2129 2210 2264 2323 2324 2325 2326 2327 2328 2329 2330 2331 2332 2333 2334 2335 2336 2337 2338 2339 2341 2342 2343 2344 2346 2348 3209 3210 4628 4629 4630 4631 4632 4633 4634 4635 4636 4637 4638 4639 4640 4641 4642 4643 4644 4645 4646 4647 4648 4649 4650 4651 4652 4653 4654 4655 4656 4657 "
 
 set "INPUT_FILE=definition.csv"
 set "TEMP_FILE=definition_temp.csv"
@@ -16,15 +16,15 @@ if not exist "%INPUT_FILE%" (
     exit /b
 )
 
-echo Updating Ulthos provinces in definition.csv...
+echo Updating Essos provinces in definition.csv...
 
 (for /f "usebackq tokens=1-7* delims=;" %%a in ("%INPUT_FILE%") do (
     set "PROV_ID=%%a"
     set "MATCH="
     
-    :: Check if current Province ID is in the Ulthos list
+    :: Check if current Province ID is in the Essos list
     for %%x in (!PROV_ID!) do (
-        if not "!ULTHOS_PROVS: %%x =!"=="!ULTHOS_PROVS!" (
+        if not "!ESSOS_PROVS: %%x =!"=="!ESSOS_PROVS!" (
             set "MATCH=1"
         )
     )
@@ -38,5 +38,5 @@ echo Updating Ulthos provinces in definition.csv...
 
 move /y "%TEMP_FILE%" "%INPUT_FILE%" >nul
 
-echo Success! Updated 93 Ulthos provinces to Continent %NEW_CONTINENT%.
+echo Success! Updated 105 Essos provinces to Continent %NEW_CONTINENT%.
 pause
