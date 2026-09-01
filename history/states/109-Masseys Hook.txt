@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CRO
+		owner = DRA
 		buildings = {
 			infrastructure = 2
 			#industrial_complex = 2
@@ -18,7 +18,7 @@ state={
 				coastal_bunker = 3
 			}
 		}
-		add_core_of = CRO
+		add_core_of = DRA
 		victory_points = {
 			2621 3 
 		}
