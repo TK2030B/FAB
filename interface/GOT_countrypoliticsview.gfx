@@ -157,6 +157,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/TAR_CR_subideology.dds"
 	}
 	
+	#House Blackfyre
+	
+	spriteType = {
+		name = "GFX_ideology_BLA_FR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_FR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BLA_NR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_NR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BLA_DR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_DR_subideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BLA_CR_subideology"
+		texturefile = "gfx/interface/ideologies/subideologies/TAR_CR_subideology.dds"
+	}
+	
 	#Iron Islands
 	
 	spriteType = {

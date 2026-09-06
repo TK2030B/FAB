@@ -326,3 +326,76 @@ XXX = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
+
+BLA = {
+	color = rgb { 20 20 20 }
+	color_ui = rgb { 20 20 20 }
+}
+GOL = {
+	color = rgb { 212 175 55 }
+	color_ui = rgb { 212 175 55 }
+}
+AND = {
+	color = rgb { 220 200 130 }
+	color_ui = rgb { 220 200 130 }
+}
+RHO = {
+	color = rgb { 30 100 170 }
+	color_ui = rgb { 30 100 170 }
+}
+LHA = {
+	color = rgb { 180 140 100 }
+	color_ui = rgb { 180 140 100 }
+}
+HYR = {
+	color = rgb { 160 30 50 }
+	color_ui = rgb { 160 30 50 }
+}
+IFE = {
+	color = rgb { 34 100 50 }
+	color_ui = rgb { 34 100 50 }
+}
+ORA = {
+	color = rgb { 245 130 32 }
+	color_ui = rgb { 245 130 32 }
+}
+CAR = {
+	color = rgb { 230 200 60 }
+	color_ui = rgb { 230 200 60 }
+}
+JOG = {
+	color = rgb { 210 180 140 }
+	color_ui = rgb { 210 180 140 }
+}
+DEE = {
+	color = rgb { 15 55 60 }
+	color_ui = rgb { 15 55 60 }
+}
+MOS = {
+	color = rgb { 70 85 95 }
+	color_ui = rgb { 70 85 95 }
+}
+CAN = {
+	color = rgb { 215 110 80 }
+	color_ui = rgb { 215 110 80 }
+}
+KDA = {
+	color = rgb { 90 30 110 }
+	color_ui = rgb { 90 30 110 }
+}
+SHR = {
+	color = rgb { 100 120 50 }
+	color_ui = rgb { 100 120 50 }
+}
+BON = {
+	color = rgb { 235 230 220 }
+	color_ui = rgb { 235 230 220 }
+}
+WIN = {
+	color = rgb { 150 200 220 }
+	color_ui = rgb { 150 200 220 }
+}
+NEF = {
+	color = rgb { 40 75 75 }
+	color_ui = rgb { 40 75 75 }
+}

@@ -1,0 +1,18 @@
+﻿capital = 1
+GOT_start_techs = yes
+oob = "Generic"
+
+set_research_slots = 2
+
+set_convoys = 0
+
+set_popularities = {
+	fascism = 100
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}

@@ -72,6 +72,9 @@ GOT_start_techs = {
 				tag = YTI
 				tag = ASS
 				tag = QAR
+				tag = BLA
+				tag = GOL
+				tag = ORA
 			}
 		}
 		GOT_start_techs_A = yes
@@ -100,6 +103,10 @@ GOT_start_techs = {
 				tag = PEN
 				tag = LYS
 				tag = GHI
+				tag = AND
+				tag = LHA
+				tag = HYR
+				tag = NEF
 			}
 		}
 		GOT_start_techs_B = yes
@@ -124,6 +131,14 @@ GOT_start_techs = {
 				tag = SUI
 				tag = NAA
 				tag = ICE
+				tag = JOG
+				tag = IFE
+				tag = SHR
+				tag = CAN
+				tag = WIN
+				tag = KDA
+				tag = MOS
+				tag = DEE
 			}
 		}
 		GOT_start_techs_D = yes
