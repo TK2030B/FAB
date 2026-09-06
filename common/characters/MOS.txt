@@ -1,0 +1,49 @@
+characters={
+
+MOS_Grand_Hunter_of_Mossovy={
+		name=MOS_Grand_Hunter_of_Mossovy
+		portraits={
+			army = {
+				large="gfx/leaders/MOS/Grand_Hunter_of_Mossovy.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/MOS/Grand_Hunter_of_Mossovy.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+}

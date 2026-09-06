@@ -1,0 +1,42 @@
+characters={
+
+
+AND_No_Single_Ruler={
+		name=AND_No_Single_Ruler
+		portraits={
+			army = {
+				large="gfx/leaders/AND/No_Single_Ruler.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/AND/No_Single_Ruler.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+	}
+
+}

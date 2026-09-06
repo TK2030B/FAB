@@ -1,0 +1,50 @@
+characters={
+
+LHA_Council_of_Elders={
+		name=LHA_Council_of_Elders
+		portraits={
+			army = {
+				large="gfx/leaders/LHA/Council_of_Elders.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+			civilian = {
+				large="gfx/leaders/LHA/Council_of_Elders.dds"
+				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
+			}
+		}
+		country_leader={
+			ideology=FR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=NR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=DR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		country_leader={
+			ideology=CR_subideology
+			expire="1965.1.1"
+			traits = {  
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+
+}
