@@ -1,8 +1,7 @@
 characters={
 
-
-AND_No_Single_Ruler={
-		name=AND_No_Single_Ruler
+	AND_Unknown_Ruler={
+		name=AND_Unknown_Ruler
 		portraits={
 			army = {
 				large="gfx/leaders/AND/No_Single_Ruler.dds"
@@ -37,6 +36,16 @@ AND_No_Single_Ruler={
 			traits = {  
 			}
 		}
+		field_marshal={
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 	}
+
+
 
 }

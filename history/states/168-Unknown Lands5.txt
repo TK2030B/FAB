@@ -2,11 +2,11 @@ state={
 	id=168
 	name="STATE_168"
 	history={
-		owner = UNL
+		owner = MOS
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = MOS
 	}
 	provinces={
 		227 304 330 571 588 742 761 785 796 1127 1284 1288 1457 1628 2037 2454 2470 2471

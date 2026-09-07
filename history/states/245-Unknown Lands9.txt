@@ -2,11 +2,11 @@ state={
 	id=245
 	name="STATE_245"
 	history={
-		owner = UNL
+		owner = SHR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = SHR
 	}
 	provinces={
 		32 39 47 102 198 294 299 319 336 843 883 947 969 974 1170 1229 1339 1386 1415 1479 1512 2153 2848 2919 2946

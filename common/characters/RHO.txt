@@ -1,6 +1,6 @@
 characters={
 
-RHO_The_Shrouded_Lord={
+	RHO_The_Shrouded_Lord={
 		name=RHO_The_Shrouded_Lord
 		portraits={
 			army = {
@@ -45,5 +45,7 @@ RHO_The_Shrouded_Lord={
 			logistics_skill = 1
 		}
 	}
+
+
 
 }

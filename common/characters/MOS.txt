@@ -1,6 +1,6 @@
 characters={
 
-MOS_Grand_Hunter_of_Mossovy={
+	MOS_Grand_Hunter_of_Mossovy={
 		name=MOS_Grand_Hunter_of_Mossovy
 		portraits={
 			army = {
@@ -45,5 +45,7 @@ MOS_Grand_Hunter_of_Mossovy={
 			logistics_skill = 1
 		}
 	}
+
+
 
 }

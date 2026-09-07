@@ -1,6 +1,6 @@
 characters={
 
-JOG_Jhat_Zhai={
+	JOG_Jhat_Zhai={
 		name=JOG_Jhat_Zhai
 		portraits={
 			army = {
@@ -45,6 +45,7 @@ JOG_Jhat_Zhai={
 			logistics_skill = 1
 		}
 	}
+
 
 
 }

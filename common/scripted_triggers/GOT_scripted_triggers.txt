@@ -605,6 +605,7 @@ GOT_Westeros_Countries = {
 		original_tag = NWA
 		original_tag = WIL
 		original_tag = TAR
+		original_tag = BLA
 	}
 }
 
@@ -636,6 +637,23 @@ GOT_Essos_Countries = {
 		original_tag = IBB
 		original_tag = REW
 		original_tag = UNL
+		original_tag = GOL
+		original_tag = AND
+		original_tag = RHO
+		original_tag = LHA
+		original_tag = HYR
+		original_tag = IFE
+		original_tag = ORA
+		original_tag = CAR
+		original_tag = JOG
+		original_tag = DEE
+		original_tag = MOS
+		original_tag = CAN
+		original_tag = KDA
+		original_tag = SHR
+		original_tag = BON
+		original_tag = WIN
+		original_tag = NEF
 	}
 }
 

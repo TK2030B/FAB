@@ -1,6 +1,6 @@
 characters={
 
-DEE_The_High_Priest_of_the_Toad_Stone={
+	DEE_The_High_Priest_of_the_Toad_Stone={
 		name=DEE_The_High_Priest_of_the_Toad_Stone
 		portraits={
 			army = {
@@ -45,6 +45,7 @@ DEE_The_High_Priest_of_the_Toad_Stone={
 			logistics_skill = 1
 		}
 	}
+
 
 
 }

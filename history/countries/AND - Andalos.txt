@@ -1,8 +1,8 @@
-﻿capital = 1
+﻿capital = 207
 GOT_start_techs = yes
 oob = "Generic"
 
-set_research_slots = 2
+set_research_slots = 3
 
 set_convoys = 0
 
@@ -17,4 +17,4 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = AND_No_Single_Ruler
+recruit_character = AND_Unknown_Ruler

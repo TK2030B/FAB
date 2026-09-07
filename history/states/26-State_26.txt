@@ -2,11 +2,11 @@ state={
 	id=26
 	name="STATE_26"
 	history={
-		owner = UNL
+		owner = MOS
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = MOS
 	}
 	provinces={
 		83 1482 2433

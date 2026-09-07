@@ -3,11 +3,11 @@ state={
 	id=243
 	name="STATE_243"
 	history={
-		owner = UNL
+		owner = KDA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = KDA
 	}
 	provinces={
 		24 46 60 78 174 328 363 426 481 627 645 656 740 745 877 898 979 1004 1025 1193 1309 1367 1569 1963 2091 2272 2704 2838 

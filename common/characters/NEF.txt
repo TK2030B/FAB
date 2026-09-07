@@ -1,6 +1,6 @@
 characters={
 
-NEF_High_Necromancer_Vaelen={
+	NEF_High_Necromancer_Vaelen={
 		name=NEF_High_Necromancer_Vaelen
 		portraits={
 			army = {
@@ -45,5 +45,7 @@ NEF_High_Necromancer_Vaelen={
 			logistics_skill = 1
 		}
 	}
+
+
 
 }
