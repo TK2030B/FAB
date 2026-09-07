@@ -1,15 +1,15 @@
 state={
-	id=30
-	name="STATE_30"
+	id=247
+	name="STATE_247"
 	history={
-		owner = VLY
+		owner = ELY
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = VLY
+		add_core_of = ELY
 	}
 	provinces={
-	394 609 868 952 1123 1351 2165 2224 2269 2976 2979
+		8 326 1481 2191 2294
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

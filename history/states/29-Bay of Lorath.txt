@@ -37,7 +37,7 @@ state={
 		#chromium = 0  # Silver
 	}
 	provinces={
-		137 1830 2487
+		137  1286 1830 2487 2510 2522
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
