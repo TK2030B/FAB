@@ -3,12 +3,12 @@ state={
 	name="STATE_171"
 
 	history={
-		owner = DOT
+		owner = IFE
 		buildings = {
 			infrastructure = 1
 			#arms_factory = 1
 		}
-		add_core_of = DOT
+		add_core_of = IFE
 		#victory_points = {
 		#	179 15
 		#}
