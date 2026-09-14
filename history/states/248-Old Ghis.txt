@@ -1,9 +1,9 @@
 state={
-	id=134
-	name="STATE_134"
+	id=248
+	name="STATE_248"
 	history={
-		owner = AST
-		add_core_of = AST
+		owner = GHI
+		add_core_of = GHI
 		buildings = {
 			infrastructure = 2
 			#industrial_complex = 1
@@ -24,7 +24,7 @@ state={
 		#chromium = 10  # Silver  
 	}
 	provinces={
-	 266 358 834 886 889 956 982 993 1315 1373 1427 1705 1738 1861 1909 2111 2245 2254 2956 2967 2977  2981 2989 3005
+	  21 189 280 342 565 714 944 994 1115 1205 1321 1419 1420 1470 1448 1499 1584 1609 1703 1724 1849 1853 1857 1984 2055 2244 2978 2980 2990 2991 2995 2997 2998 3000 3003 3004 3009 3010 3013 3014 3015 3017 3020 3021 3022 3023 3030 
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000

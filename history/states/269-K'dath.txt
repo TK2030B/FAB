@@ -1,18 +1,19 @@
+
 state={
-	id=26
-	name="STATE_26"
+	id=269
+	name="STATE_269"
 	history={
-		owner = UNL
+		owner = KDA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = KDA
 	}
 	provinces={
-		83 1482 2433
+		165 359 407 899 1293 1617 2710 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.0
+	local_supplies=0.000
 }

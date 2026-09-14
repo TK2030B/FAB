@@ -1,18 +1,19 @@
+
 state={
-	id=26
-	name="STATE_26"
+	id=267
+	name="STATE_267"
 	history={
-		owner = UNL
+		owner = SHR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = SHR
 	}
 	provinces={
-		83 1482 2433
+		65 379 771 777 1076 1094 1473 1656 1918 2093 2809 2889 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.0
+	local_supplies=0.000
 }

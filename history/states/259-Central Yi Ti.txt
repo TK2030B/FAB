@@ -1,0 +1,25 @@
+state={
+	id=259
+	name="STATE_259"
+
+	history={
+		owner = YTI
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 1
+			#arms_factory = 1
+		}
+		add_core_of = YTI
+	}
+	
+	resources = {
+	}
+
+	provinces={
+		178 209 389 396 498 514 577 710 838 893 968 991 1248 1496 1649 2156 2902 2966 2975 4610 4611
+	}
+	manpower=118695000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

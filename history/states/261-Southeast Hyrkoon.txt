@@ -1,18 +1,19 @@
+
 state={
-	id=26
-	name="STATE_26"
+	id=261
+	name="STATE_261"
 	history={
-		owner = UNL
+		owner = ORA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = ORA
 	}
 	provinces={
-		83 1482 2433
+		213 1232
 	}
-	manpower=100000
+	manpower=50000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.0
+	local_supplies=0.000
 }

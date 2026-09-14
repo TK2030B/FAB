@@ -1,18 +1,19 @@
+
 state={
-	id=26
-	name="STATE_26"
+	id=270
+	name="STATE_270"
 	history={
-		owner = UNL
+		owner = CAN
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = CAN
 	}
 	provinces={
-		83 1482 2433
+		73 343 486 589 770 1747 2594 2637
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.0
+	local_supplies=0.000
 }

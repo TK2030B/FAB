@@ -1,18 +1,19 @@
+
 state={
-	id=26
-	name="STATE_26"
+	id=263
+	name="STATE_263"
 	history={
-		owner = UNL
+		owner = MOS
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = MOS
 	}
 	provinces={
-		83 1482 2433
+		370 595 775 881 1050 1329 1346 1437 1527 1532 1758 2523 2544 2547 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.0
+	local_supplies=0.000
 }

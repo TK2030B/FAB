@@ -1,18 +1,19 @@
+
 state={
-	id=26
-	name="STATE_26"
+	id=254
+	name="STATE_254"
 	history={
-		owner = UNL
+		owner = JOG
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = JOG
 	}
 	provinces={
-		83 1482 2433
+		48 113 673 716 806 1104 2317 2524 
 	}
-	manpower=100000
+	manpower=50000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.0
+	local_supplies=0.000
 }

@@ -1,6 +1,7 @@
+
 state={
-	id=245
-	name="STATE_245"
+	id=266
+	name="STATE_266"
 	history={
 		owner = UNL
 		buildings = {
@@ -9,10 +10,10 @@ state={
 		add_core_of = UNL
 	}
 	provinces={
-		32 39 47 102 198 294 299 319 336 843 883 947 969 974 1170 1229 1339 1386 1415 1479 1512 2153 2848 2919 2946
+		177 187 289 499 519 557 610 618 1113 1244 1429 1730 1742 2246 2579 2587 2634 2667 2729 2731 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.0
+	local_supplies=0.000
 }

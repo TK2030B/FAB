@@ -6,14 +6,14 @@ state={
 	}
 
 	history={
-		owner = LEN
+		owner = YTI
 		buildings = {
 			infrastructure = 1
 			3329 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = LEN
+		add_core_of = YTI
 	}
 
 	manpower=100000

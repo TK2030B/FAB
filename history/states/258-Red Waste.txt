@@ -1,0 +1,24 @@
+state={
+	id=258
+	name="STATE_258"
+
+	history={
+		owner = REW
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = REW
+	}
+	
+	resources = {
+
+	}
+
+	provinces={
+		25 216 247 473 496 512 690 792 809 1242 1277 1336 1659 1671 1674 2897 2923 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0
+}

@@ -1,0 +1,27 @@
+state={
+	id=249
+	name="STATE_249"
+
+	history={
+		owner = LHA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = LHA
+		victory_points = {
+			125 30
+		}
+	}
+	
+	resources = {
+
+	}
+
+	provinces={
+		233 241 310 325 373 526 529 575 814 891 1210 1211 1256 1581 1633 1792 2217 2238 2888 2893 2933 2937
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.0
+}

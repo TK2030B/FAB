@@ -1,0 +1,19 @@
+
+state={
+	id=253
+	name="STATE_253"
+	history={
+		owner = HYR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HYR
+	}
+	provinces={
+		52 205 340 375 404 410 794 878 970 2596 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
