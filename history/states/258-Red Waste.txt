@@ -6,8 +6,26 @@ state={
 		owner = REW
 		buildings = {
 			infrastructure = 1
+			1659 = {
+				bunker = 2
+			}
+			496 = {
+				bunker = 2
+			}
 		}
 		add_core_of = REW
+		victory_points = {
+			25 1
+		}
+		victory_points = {
+			1659 3
+		}
+		victory_points = {
+			496 5
+		}
+		victory_points = {
+			2897 1
+		}
 	}
 	
 	resources = {
