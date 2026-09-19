@@ -6,8 +6,28 @@ state={
 		owner = MOS
 		buildings = {
 			infrastructure = 1
+			1532 = {
+				naval_base = 1
+				bunker = 2
+				coastal_bunker = 2
+			}
+			2547 = {
+				bunker = 1
+			}
+			370 = {
+				bunker = 1
+			}
 		}
 		add_core_of = MOS
+		victory_points = {
+			1532 5
+		}
+		victory_points = {
+			2547 3
+		}
+		victory_points = {
+			370 3
+		}
 	}
 	provinces={
 		370 595 775 881 1050 1329 1346 1437 1527 1532 1758 2523 2544 2547 

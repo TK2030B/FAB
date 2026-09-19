@@ -6,8 +6,26 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 1
+			2594 = {
+				bunker = 1
+			}
+			2637 = {
+				bunker = 1
+			}
+			486 = {
+				bunker = 1
+			}
 		}
 		add_core_of = CAN
+		victory_points = {
+			2594 1
+		}
+		victory_points = {
+			2637 1
+		}
+		victory_points = {
+			486 3
+		}
 	}
 	provinces={
 		73 343 486 589 770 1747 2594 2637

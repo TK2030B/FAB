@@ -6,12 +6,23 @@ state={
 	history={
 		owner = SOT
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			1092 = {
+				naval_base = 4
+				bunker = 2
+				coastal_bunker = 2
+			}
+			641 = {
+				bunker = 3
+			}
 		}
 		add_core_of = SOT
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			1092 10
+		}
+		victory_points = {
+			641 5
+		}
 	}
 	
 	resources = {

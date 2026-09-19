@@ -6,8 +6,14 @@ state={
 		owner = SHR
 		buildings = {
 			infrastructure = 1
+			1656 = {
+				bunker = 2
+			}
 		}
 		add_core_of = SHR
+		victory_points = {
+			1656 5
+		}
 	}
 	provinces={
 		65 379 771 777 1076 1094 1473 1656 1918 2093 2809 2889 

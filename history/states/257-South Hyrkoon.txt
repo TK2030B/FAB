@@ -5,9 +5,15 @@ state={
 	history={
 		owner = HYR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			10 = {
+				bunker = 4
+			}
 		}
 		add_core_of = HYR
+		victory_points = {
+			10 15
+		}
 	}
 	provinces={
 		10 26 182 596 662 1012 1082 1206 2216 2845 2934  

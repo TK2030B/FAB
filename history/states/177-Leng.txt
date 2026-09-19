@@ -10,13 +10,18 @@ state={
 			#arms_factory = 6
 			#dockyard = 1
 			297 = {
-				naval_base = 2
+				naval_base = 4
+				bunker = 2
+				coastal_bunker = 2
 			}
 			318 = {
-				naval_base = 2
+				naval_base = 4
+				bunker = 3
+				coastal_bunker = 3
 			}
 			798 = {
-				naval_base = 2
+				bunker = 2
+				coastal_bunker = 2
 			}
 		}
 		add_core_of = LEN

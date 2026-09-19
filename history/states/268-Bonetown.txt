@@ -6,8 +6,14 @@ state={
 		owner = BON
 		buildings = {
 			infrastructure = 1
+			453 = {
+				bunker = 2
+			}
 		}
 		add_core_of = BON
+		victory_points = {
+			453 5
+		}
 	}
 	provinces={
 		453 1098 2894 

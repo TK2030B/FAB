@@ -7,6 +7,9 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = VLY
+		victory_points = {
+			952 1
+		}
 	}
 	provinces={
 	394 609 868 952 1123 1351 2165 2224 2269 2976 2979

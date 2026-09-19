@@ -8,11 +8,14 @@ state={
 			infrastructure = 2
 			#industrial_complex = 1
 			#arms_factory = 1
+			2836 = {
+				bunker = 3
+			}
 		}
 		add_core_of = ORA
-		#victory_points = {
-		#	2234 30
-		#}
+		victory_points = {
+			2836 10
+		}
 	}
 	
 	resources = {

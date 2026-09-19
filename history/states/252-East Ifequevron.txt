@@ -8,6 +8,9 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = IFE
+		victory_points = {
+			2267 3
+		}
 	}
 	provinces={
 	 720 1209 2267

@@ -6,8 +6,14 @@ state={
 		owner = KDA
 		buildings = {
 			infrastructure = 1
+			359 = {
+				bunker = 3
+			}
 		}
 		add_core_of = KDA
+		victory_points = {
+			359 10
+		}
 	}
 	provinces={
 		165 359 407 899 1293 1617 2710 

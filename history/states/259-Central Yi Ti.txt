@@ -5,11 +5,35 @@ state={
 	history={
 		owner = YTI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			#industrial_complex = 1
 			#arms_factory = 1
+			2156 = {
+				bunker = 4
+			}
+			991 = {
+				bunker = 4
+			}
+			1248 = {
+				bunker = 4
+			}
+			968 = {
+				bunker = 4
+			}
 		}
 		add_core_of = YTI
+		victory_points = {
+			2156 10
+		}
+		victory_points = {
+			991 10
+		}
+		victory_points = {
+			1248 10
+		}
+		victory_points = {
+			968 10
+		}
 	}
 	
 	resources = {

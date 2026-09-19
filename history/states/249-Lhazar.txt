@@ -5,14 +5,26 @@ state={
 	history={
 		owner = LHA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			2937 = {
+				bunker = 1
+			}
+			2888 = {
+				bunker = 1
+			}
+			1211 = {
 				bunker = 1
 			}
 		}
 		add_core_of = LHA
 		victory_points = {
 			2937 5
+		}
+		victory_points = {
+			2888 5
+		}
+		victory_points = {
+			1211 5
 		}
 	}
 	

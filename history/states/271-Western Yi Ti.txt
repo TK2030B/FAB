@@ -1,21 +1,20 @@
 state={
-	id=264
-	name="STATE_264"
+	id=271
+	name="STATE_271"
 
 	history={
-		owner = CAR
+		owner = YTI
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 5
-			#arms_factory = 2
-			#dockyard = 2
-			2996 = {
+			infrastructure = 3
+			232 = {
+				naval_base = 4
 				bunker = 3
+				coastal_bunker = 3
 			}
 		}
-		add_core_of = CAR
+		add_core_of = YTI
 		victory_points = {
-			2996 10
+			232 10
 		}
 	}
 	
@@ -29,7 +28,7 @@ state={
 	}
 
 	provinces={
-		118 145 194 211 344 552 676 1102 1106 1119 1511 1523 1669 2214 2984 2996 3007 3012 4590
+		190 232 567 1892 
 	}
 	manpower=356085000
 	buildings_max_level_factor=1.000

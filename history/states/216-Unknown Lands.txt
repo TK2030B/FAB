@@ -5,9 +5,27 @@ state={
 	history={
 		owner = JOG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			1881 = {
+				bunker = 1
+			}
+			229 = {
+				bunker = 1
+			}
 		}
 		add_core_of = JOG
+		victory_points = {
+			638 5
+		}
+		victory_points = {
+			1881 3
+		}
+		victory_points = {
+			229 3
+		}
+		victory_points = {
+			129 10
+		}
 	}
 	provinces={
 		13 57 89 129 131 229 244 361 510 532 638 717 894 930 1178 1188 1217 1262 1312 1368 1484 1601 1686 1845 1852 1881 2006 2239 2287  2638 3282 4591 4592 4593 
