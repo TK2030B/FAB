@@ -1,0 +1,100 @@
+﻿# ==========================================
+# BONETOWN (REALM OF THE DRY DEEP) OOB
+# ==========================================
+
+division_template = {
+	name = "Bone-Trader Caravan Guard"	# Elite Mounted Caravan Escorts (20 Width)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
+	}
+	priority = 2				# High supply priority
+}
+
+division_template = {
+	name = "Merchant Guild Foot"		# Standard Mercenary Line Infantry (20 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	priority = 1				# Standard supply priority
+}
+
+division_template = {
+	name = "Gate & Wall Militia"		# 5-Battalion Fortified Settlement Defense (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	priority = 0				# Reserve supply priority
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (3 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# High-experience desert caravan guards protecting trade routes across the Dry Deep (1 Division)
+	division = {
+		name = "1st Caravan Escort Host"
+		location = 453
+		division_template = "Bone-Trader Caravan Guard"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+
+	# Merchant guild infantry securing trade outposts and warehouse districts (1 Division)
+	division = {
+		name = "1st Merchant Guild Regiment"
+		location = 453
+		division_template = "Merchant Guild Foot"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+
+	# Wall, gate, and dry basin garrison troops (1 Division)
+	division = {
+		name = "Bonetown Gate Garrison"
+		location = 453
+		division_template = "Gate & Wall Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 100
+	}
+}

@@ -1,0 +1,562 @@
+﻿# ==========================================
+# ORANGE EMPIRE (JINQI BREAKAWAY) OOB
+# ==========================================
+
+division_template = {
+	name = "Imperial Tiger Guard"		# Elite Palace & Dynasty Infantry (20 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Orange Host"			# Standard Imperial Line Infantry (20 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Jade Fleet Marines"		# Coastal & Riverine Assault Force (20 Width)
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+		marine = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "City Watch"			# 5-Battalion Urban/Provincial Garrison (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (65 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# IMPERIAL HOUSEHOLD TROOPS (10 Imperial Tiger Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "7th Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "8th Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "9th Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "10th Imperial Tiger Division"
+		location = 2836
+		division_template = "Imperial Tiger Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+
+	# =========================================================================
+	# CORE STANDING ARMIES (35 Orange Imperial Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "5th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "6th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "7th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "8th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "9th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "10th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "11th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "12th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "13th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "14th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "15th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "16th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "17th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "18th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "19th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "20th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "21st Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "22nd Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "23rd Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "24th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "25th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "26th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "27th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "28th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "29th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "30th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "31st Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "32nd Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "33rd Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "34th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "35th Orange Imperial Army"
+		location = 2836
+		division_template = "Orange Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	# =========================================================================
+	# COASTAL & RIVERINE MARINES (5 Jade Sea Marine Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Jade Sea Marines"
+		location = 2836
+		division_template = "Jade Fleet Marines"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Jade Sea Marines"
+		location = 2836
+		division_template = "Jade Fleet Marines"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Jade Sea Marines"
+		location = 2836
+		division_template = "Jade Fleet Marines"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4th Jade Sea Marines"
+		location = 2836
+		division_template = "Jade Fleet Marines"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "5th Jade Sea Marines"
+		location = 2836
+		division_template = "Jade Fleet Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	# =========================================================================
+	# PROVINCIAL & URBAN GARRISONS (15 City Watch Divisions)
+	# =========================================================================
+	division = {
+		name = "Lamar City Guard"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Eastern Coast Guard"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Jinqi Imperial Gate Guard"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Jade River Granary Guard"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Central Highway Watch"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Northern River Watch"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Southern River Watch"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1st Agricultural District Watch"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2nd Agricultural District Watch"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "3rd Agricultural District Watch"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "4th Agricultural District Watch"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1st Eastern Border Garrison"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2nd Eastern Border Garrison"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1st Western Border Garrison"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2nd Western Border Garrison"
+		location = 2836
+		division_template = "City Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 2
+		progress = 0.25
+		efficiency = 100
+	}
+}

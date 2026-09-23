@@ -1,0 +1,295 @@
+﻿# ==========================================
+# CARCOSA / YELLOW EMPIRE OOB
+# ==========================================
+
+division_template = {
+	name = "Yellow Sorcerer Guard"	# Elite Fanatic & Sorcerous Infantry (20 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Hali Shore Host"		# Line Infantry of the Hidden Sea (20 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Carcosa Watch"		# 5-Battalion City Garrison (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (30 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# IMPERIAL SORCERER GUARDS (5 High-Experience Elite Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Guard of the Yellow Mask"
+		location = 2996
+		division_template = "Yellow Sorcerer Guard"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Guard of the Yellow Mask"
+		location = 2996
+		division_template = "Yellow Sorcerer Guard"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Guard of the Yellow Mask"
+		location = 2996
+		division_template = "Yellow Sorcerer Guard"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Guard of the Yellow Mask"
+		location = 2996
+		division_template = "Yellow Sorcerer Guard"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "5th Guard of the Yellow Mask"
+		location = 2996
+		division_template = "Yellow Sorcerer Guard"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+
+	# =========================================================================
+	# CORE STANDING DEFENDERS (15 Hali Shore Hosts)
+	# =========================================================================
+	division = {
+		name = "1st Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2nd Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "3rd Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "4th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "5th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "6th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "7th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "8th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "9th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "10th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "11th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "12th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "13th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "14th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "15th Host of the Hidden Sea"
+		location = 2996
+		division_template = "Hali Shore Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	# =========================================================================
+	# CITY & CITADEL GARRISONS (10 Carcosa Watch Divisions)
+	# =========================================================================
+	division = {
+		name = "Carcosa Gate Garrison"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Palace of Starlight Garrison"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Yellow Spire Watch"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Hidden Sea Harbor Sentry"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Shadow Pass Guard"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1st Northern Waste Sentry"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2nd Northern Waste Sentry"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1st Southern Steppe Garrison"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2nd Southern Steppe Garrison"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Eastern Coast Sentry"
+		location = 2996
+		division_template = "Carcosa Watch"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 100
+	}
+}

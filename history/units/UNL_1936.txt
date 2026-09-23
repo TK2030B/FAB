@@ -1,0 +1,128 @@
+﻿# ==========================================
+# GREY WASTE TRIBES & PALE HOSTS OOB
+# ==========================================
+
+division_template = {
+	name = "Waste Scavengers"		# Desperate frozen steppe skirmishers (10 Width)
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Grey Waste Riders"		# Light nomadic frost cavalry (10 Width)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (10 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# MOUNTED FROST OUTRIDERS (4 Cavalry Bands)
+	# =========================================================================
+	division = {
+		name = "1st Pale Mask Outriders"
+		location = 1004
+		division_template = "Grey Waste Riders"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "2nd Pale Mask Outriders"
+		location = 1004
+		division_template = "Grey Waste Riders"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Bleak Shore Trackers"
+		location = 1004
+		division_template = "Grey Waste Riders"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Mountains of the Morn Scouting Band"
+		location = 1004
+		division_template = "Grey Waste Riders"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+
+	# =========================================================================
+	# TUNDRA RAIDERS & FROZEN SCAVENGER GARRISONS (6 Militia Divisions)
+	# =========================================================================
+	division = {
+		name = "Five Forts Approach Defenders"
+		location = 1004
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Cannibal Sands Scavengers"
+		location = 1004
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Bleak Shore Watch"
+		location = 1004
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Shivering Coast Scavengers"
+		location = 1004
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Frozen Steppe Irregulars"
+		location = 1004
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Karkash Pass Bandits"
+		location = 1004
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.05
+		efficiency = 100
+	}
+}

@@ -1,0 +1,46 @@
+﻿# ==========================================
+# ISLE OF NAATH DEFENSIVE OOB
+# ==========================================
+
+division_template = {
+	name = "Naathi Horn-Callers"	# Minimal Scouting Watch / Evacuation Signalers (6 Width)
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (1 DIVISION TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# COASTAL WARNING & EVACUATION NETWORK (1 Division)
+	# =========================================================================
+	division = {
+		name = "1st Butterfly Coast Lookout"
+		location = 1838 # Isle of Naath province
+		division_template = "Naathi Horn-Callers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.01
+		efficiency = 100
+	}
+}

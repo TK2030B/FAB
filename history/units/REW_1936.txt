@@ -1,0 +1,128 @@
+﻿# ==========================================
+# RED WASTE TRIBES & RUINS OOB
+# ==========================================
+
+division_template = {
+	name = "Waste Scavengers"		# Desperate desert skirmishers (10 Width)
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Desert Horsemen"		# Light nomadic cavalry (10 Width)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (10 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# MOUNTED DESERT OUTRIDERS (4 Cavalry Bands)
+	# =========================================================================
+	division = {
+		name = "1st Oasis Outriders"
+		location = 496
+		division_template = "Desert Horsemen"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "2nd Oasis Outriders"
+		location = 496
+		division_template = "Desert Horsemen"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Devilgrass Trackers"
+		location = 496
+		division_template = "Desert Horsemen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Southern Waste Scouting Band"
+		location = 496
+		division_template = "Desert Horsemen"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+
+	# =========================================================================
+	# RUIN DEFENDERS & SCAVENGER GARRISONS (6 Militia Divisions)
+	# =========================================================================
+	division = {
+		name = "Vaes Tolorro Defenders"
+		location = 496
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Vaes Qosar Scavengers"
+		location = 496
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Vaes Shirosi Watch"
+		location = 496
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Vaes Orvik Scavengers"
+		location = 496
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Bitter Well Irregulars"
+		location = 496
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Dry Riverbed Bandits"
+		location = 496
+		division_template = "Waste Scavengers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.05
+		efficiency = 100
+	}
+}

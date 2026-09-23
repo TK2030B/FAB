@@ -1,0 +1,107 @@
+﻿division_template = {
+	name = "Andal Spearmen Host"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Knights of the Seven"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Hill Guard Levy"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	# High-experience elite sacred cavalry
+	division = {
+		name = "1st Knights of Hugor's Crown"
+		location = 223 # Main Sacred Hold / Hugor's Hill
+		division_template = "Knights of the Seven"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+
+	# Core feudal foot infantry
+	division = {
+		name = "Host of the Velvet Hills"
+		location = 223
+		division_template = "Andal Spearmen Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Host of the Upper Narrah"
+		location = 223
+		division_template = "Andal Spearmen Host"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Host of the Ruined Septs"
+		location = 223
+		division_template = "Andal Spearmen Host"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8 # Equipment deficit reflecting regional decay
+	}
+
+	# Local garrison forces guarding key passes
+	division = {
+		name = "Garrison of Little Narrah"
+		location = 223
+		division_template = "Hill Guard Levy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Garrison of the High Pass"
+		location = 223
+		division_template = "Hill Guard Levy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.19
+		efficiency = 100
+	}
+}

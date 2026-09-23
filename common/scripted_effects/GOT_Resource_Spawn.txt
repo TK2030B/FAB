@@ -1988,10 +1988,10 @@ GOT_handle_resources_essos = {
 				}
 			}
 		}
-		#Elyria
+		#Tolos
 		if = {
 			limit = {
-				tag = ELY
+				tag = TOL
 			}
 			#Grain
 			random_owned_state = {
@@ -2004,7 +2004,7 @@ GOT_handle_resources_essos = {
 			random_owned_state = {
 				add_resource = {
 					type = aluminium
-					amount = 0
+					amount = 27
 				}
 			}
 			#Timber
@@ -2018,35 +2018,35 @@ GOT_handle_resources_essos = {
 			random_owned_state = {
 				add_resource = {
 					type = tungsten
-					amount = 0
+					amount = 9
 				}
 			}
 			#Iron
 			random_owned_state = {
 				add_resource = {
 					type = steel
-					amount = 0
+					amount = 15
 				}
 			}
 			#Silver
 			random_owned_state = {
 				add_resource = {
 					type = chromium
-					amount = 0
+					amount = 37
 				}
 			}
 			#Coal
 			random_owned_state = {
 				add_resource = {
 					type = coal
-					amount = 0
+					amount = 1
 				}
 			}
 		}
-		#Tolos
+		#Elyria
 		if = {
 			limit = {
-				tag = TOL
+				tag = ELY
 			}
 			#Grain
 			random_owned_state = {
@@ -2473,6 +2473,886 @@ GOT_handle_resources_essos = {
 				add_resource = {
 					type = chromium
 					amount = 2
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 1
+				}
+			}
+		}
+		#Andalos
+		if = {
+			limit = {
+				tag = AND
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 7
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 31
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 33
+				}
+			}
+		}
+		#Rhoyne
+		if = {
+			limit = {
+				tag = RHO
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 7
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 18
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 24
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 7
+				}
+			}
+		}
+		#Hyrkoon
+		if = {
+			limit = {
+				tag = HYR
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 43
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 1
+				}
+			}
+		}
+		#Winged Men
+		if = {
+			limit = {
+				tag = WIN
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 43
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 1
+				}
+			}
+		}
+		#Nefer
+		if = {
+			limit = {
+				tag = NEF
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 2
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 2
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 1
+				}
+			}
+		}
+		#Lhazar
+		if = {
+			limit = {
+				tag = LHA
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Ifequevron
+		if = {
+			limit = {
+				tag = IFE
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 3
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Orange Empire
+		if = {
+			limit = {
+				tag = ORA
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 29
+				}
+			}
+		}
+		#Carcosa
+		if = {
+			limit = {
+				tag = CAR
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 3
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 24
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 3
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 11
+				}
+			}
+		}
+		#Jogos Nhai
+		if = {
+			limit = {
+				tag = JOG
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 2
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 2
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Deep Ones
+		if = {
+			limit = {
+				tag = DEE
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Mossovy
+		if = {
+			limit = {
+				tag = MOS
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Cannibal Sands
+		if = {
+			limit = {
+				tag = CAN
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 2
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 0
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Kdath
+		if = {
+			limit = {
+				tag = KDA
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 1
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 1
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Shrykes
+		if = {
+			limit = {
+				tag = SHR
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 44
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 47
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 11
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
+		#Bonetown
+		if = {
+			limit = {
+				tag = BON
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 0
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 1
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
 				}
 			}
 			#Coal

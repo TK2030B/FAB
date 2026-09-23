@@ -1,0 +1,396 @@
+﻿# ==========================================
+# JOGOS NHAI NOMAD HORDE OOB
+# ==========================================
+
+division_template = {
+	name = "Zorse Clan Band"		# Standard Nomadic Mounted Raiders (20 Width)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Jhat's Vanguard"		# Elite Veteran Zorse Raiders (20 Width)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Camp Guard"			# Small 5-Battalion Encampment Defense (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	priority = 0
+}
+
+units = {
+	# =========================================================================
+	# ELITE JHAT WARBANDS (10 High-Experience Strike Hosts)
+	# =========================================================================
+	division = {
+		name = "1st Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "7th Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "8th Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "9th Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "10th Jhat Host"
+		location = 129
+		division_template = "Jhat's Vanguard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+
+	# =========================================================================
+	# CORE ZORSE CLAN BANDS (15 Nomadic Raiding Bands)
+	# =========================================================================
+	division = {
+		name = "1st Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3rd Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "5th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "6th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "7th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "8th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "9th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "10th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "11th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "12th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "13th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "14th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "15th Zorse Band"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	# =========================================================================
+	# BORDER RAIDERS (10 Hosts for Hyrkoon & Yi Ti Frontiers)
+	# =========================================================================
+	division = {
+		name = "1st Iron Pass Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2nd Iron Pass Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3rd Iron Pass Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4th Iron Pass Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "5th Iron Pass Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1st Sand Wall Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2nd Sand Wall Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3rd Sand Wall Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4th Sand Wall Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "5th Sand Wall Raider Host"
+		location = 129
+		division_template = "Zorse Clan Band"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	# =========================================================================
+	# CAMP & SHRINE GARRISONS (10 Reserve Encampment Units)
+	# =========================================================================
+	division = {
+		name = "Moonsinger Shrine Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "High Moonsinger Encampment Watch"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Northern Camp Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Southern Camp Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Eastern Steppe Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Western Steppe Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Central Steppe Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Outer Herd Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Lower Moonsinger Encampment Watch"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Bleeding Sea Border Camp Guard"
+		location = 129
+		division_template = "Camp Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 100
+	}
+}

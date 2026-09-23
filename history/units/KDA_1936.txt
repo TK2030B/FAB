@@ -1,0 +1,114 @@
+﻿# ==========================================
+# K'DATH (THE ANCIENT CITY) OOB
+# ==========================================
+
+division_template = {
+	name = "Night-Gaunt Host"		# Elite Fanatical Cultists & Mountain Shock Troops (20 Width)
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		mountaineers = { x = 1 y = 4 }
+	}
+	priority = 2				# High supply priority
+}
+
+division_template = {
+	name = "Blood Temple Guard"		# Standard Devout Fanatic Line Infantry (20 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	priority = 1				# Standard supply priority
+}
+
+division_template = {
+	name = "Sacrifice Sentry"		# 5-Battalion Citadel Defenses (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	priority = 0				# Reserve supply priority
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (5 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# High-experience zealots claiming the ancient city's core (1 Division)
+	division = {
+		name = "1st Host of the Unspeakable"
+		location = 359
+		division_template = "Night-Gaunt Host"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	# Core temple zealots holding the perimeter (3 Divisions)
+	division = {
+		name = "1st Blood Temple Guard"
+		location = 359
+		division_template = "Blood Temple Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2nd Blood Temple Guard"
+		location = 359
+		division_template = "Blood Temple Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "3rd Blood Temple Guard"
+		location = 359
+		division_template = "Blood Temple Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	# Dark citadel and sacrificial altar garrison (1 Division)
+	division = {
+		name = "Inner Citadel Guard"
+		location = 359
+		division_template = "Sacrifice Sentry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.10
+		efficiency = 100
+	}
+}

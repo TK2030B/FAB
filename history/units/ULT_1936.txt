@@ -1,0 +1,112 @@
+﻿# ==========================================
+# ULTHOS SHADOW TRIBES & JUNGLE WARBANDS
+# ==========================================
+
+division_template = {
+	name = "Shadow Canopy Stalkers"	# Elite Jungle Skirmishers (10 Width)
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Ulthos Jungle Warband"	# Standard Light Tribal Militia (6 Width)
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (8 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# SHADOW CANOPY STALKERS (2 Elite Skirmisher Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Northern Canopy Hunters"
+		location = 188 # Northern Ulthos coast province
+		division_template = "Shadow Canopy Stalkers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "2nd Deep Jungle Trackers"
+		location = 188 # Interior Ulthos province
+		division_template = "Shadow Canopy Stalkers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+
+	# =========================================================================
+	# JUNGLE TRIBAL WARBANDS (6 Light Militia Divisions)
+	# =========================================================================
+	division = {
+		name = "Jade Strait Watchers"
+		location = 188
+		division_template = "Ulthos Jungle Warband"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Saffron Sea Coastal Guard"
+		location = 188
+		division_template = "Ulthos Jungle Warband"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Mist Canopy Tribe"
+		location = 188
+		division_template = "Ulthos Jungle Warband"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Black River Clan"
+		location = 188
+		division_template = "Ulthos Jungle Warband"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Southern Frontier Sentry"
+		location = 188
+		division_template = "Ulthos Jungle Warband"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Unyielding Dark Warband"
+		location = 188
+		division_template = "Ulthos Jungle Warband"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.05
+		efficiency = 100
+	}
+}

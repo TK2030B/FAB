@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Wood-Walker Host"		# Elite Forest Skirmishers / Guerrillas
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		mountaineers = { x = 3 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Deepwood Hunters"		# Standard Forest Line Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Grove Guard"			# 5-Battalion Fortified Garrison
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	# High-experience elite forest stalkers
+	division = {
+		name = "1st Host of the Green Men"
+		location = 2267 # Deep Canopy / Vaes Leqse Core
+		division_template = "Wood-Walker Host"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Host of the Green Men"
+		location = 2267
+		division_template = "Wood-Walker Host"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+
+	# Core line infantry forces holding outer woodland approaches
+	division = {
+		name = "1st Deepwood Host"
+		location = 2267
+		division_template = "Deepwood Hunters"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2nd Deepwood Host"
+		location = 2267
+		division_template = "Deepwood Hunters"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	# Stationary garrisons guarding sacred groves and ancient ruins
+	division = {
+		name = "Vaes Leysi Forest Watch"
+		location = 2267
+		division_template = "Grove Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Whispering Grove Guard"
+		location = 2267
+		division_template = "Grove Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

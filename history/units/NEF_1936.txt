@@ -1,0 +1,114 @@
+﻿# ==========================================
+# NEFER (SECRET CITY OF N'GHAI) ORDER OF BATTLE
+# ==========================================
+
+division_template = {
+	name = "Subterranean Watch"		# Elite Underground & Tunnel Shock Troops (20 Width)
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		mountaineers = { x = 1 y = 4 }
+	}
+	priority = 2				# High supply priority
+}
+
+division_template = {
+	name = "Mist Guard"			# Standard City & Cliffline Foot Infantry (20 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	priority = 1				# Standard supply priority
+}
+
+division_template = {
+	name = "Under-City Garrison"		# 5-Battalion Cavern & Port Defense (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	priority = 0				# Reserve supply priority
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS
+# ------------------------------------------
+
+units = {
+	# High-experience elite tunnel guardians in the deep underground city
+	division = {
+		name = "1st Guard of the Deep Vaults"
+		location = 1057
+		division_template = "Subterranean Watch"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+
+	# Core city defenders along the cliffside harbor and mists
+	division = {
+		name = "1st Nefer Mist Regiment"
+		location = 1057
+		division_template = "Mist Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2nd Nefer Mist Regiment"
+		location = 1057
+		division_template = "Mist Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+
+	# Port and cavern entrance garrisons
+	division = {
+		name = "Nefer Harbor Watch"
+		location = 1057
+		division_template = "Under-City Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Shivering Sea Outpost Sentry"
+		location = 1057
+		division_template = "Under-City Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

@@ -1,0 +1,198 @@
+﻿division_template = {
+	name = "Warrior Women Host"	# Elite offensive/defensive mountain infantry
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		mountaineers = { x = 3 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Hyrkoon Line Division"	# Standard defensive line formation
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Fortress Garrison"	# 5-Battalion Fort Guard for the Steel/Stone/Sand Gates
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	# =========================================================================
+	# KAYAKAYANAYA SECTOR (Northern Pass / Steel Road)
+	# =========================================================================
+	division = {
+		name = "1st Daughters of the Warrior"
+		location = 375 # Kayakayanaya
+		division_template = "Warrior Women Host"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Daughters of the Warrior"
+		location = 375
+		division_template = "Warrior Women Host"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Kayakayanaya Host"
+		location = 375
+		division_template = "Hyrkoon Line Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Kayakayanaya Host"
+		location = 375
+		division_template = "Hyrkoon Line Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Steel Gate Garrison"
+		location = 375
+		division_template = "Fortress Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Northern Citadel Watch"
+		location = 375
+		division_template = "Fortress Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	# =========================================================================
+	# SAMYRIAN SECTOR (Central Pass / Stone Road)
+	# =========================================================================
+	division = {
+		name = "2nd Daughters of the Warrior"
+		location = 460 # Samyrian
+		division_template = "Warrior Women Host"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Daughters of the Warrior"
+		location = 460
+		division_template = "Warrior Women Host"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Samyrian Host"
+		location = 460
+		division_template = "Hyrkoon Line Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Samyrian Host"
+		location = 460
+		division_template = "Hyrkoon Line Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Stone Gate Garrison"
+		location = 460
+		division_template = "Fortress Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Central Wall Watch"
+		location = 460
+		division_template = "Fortress Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	# =========================================================================
+	# BAYASABHAD SECTOR (Southern Pass / Sand Road)
+	# =========================================================================
+	division = {
+		name = "3rd Daughters of the Warrior"
+		location = 10 # Bayasabhad
+		division_template = "Warrior Women Host"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Daughters of the Warrior"
+		location = 10
+		division_template = "Warrior Women Host"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Bayasabhad Host"
+		location = 10
+		division_template = "Hyrkoon Line Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Bayasabhad Host"
+		location = 10
+		division_template = "Hyrkoon Line Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Sand Gate Garrison"
+		location = 10
+		division_template = "Fortress Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Southern Pass Watch"
+		location = 10
+		division_template = "Fortress Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 3
+		progress = 0.35
+		efficiency = 100
+	}
+}

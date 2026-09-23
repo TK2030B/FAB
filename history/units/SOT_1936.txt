@@ -1,0 +1,139 @@
+﻿# ==========================================
+# SOTHORYOS TRIBAL WARBANDS & COASTAL RAIDERS
+# ==========================================
+
+division_template = {
+	name = "Brindled Stalker Host"	# Elite Jungle Skirmishers (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Jungle Warband"		# Standard Light Tribal Infantry (6 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Basilisk Coastal Corsairs"	# Amphibious Raider Infantry (10 Width)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (30 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# ELITE JUNGLE STALKER HOSTS (6 Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Yeen Shadow Hunters"
+		location = 1092 # Yeen interior province
+		division_template = "Brindled Stalker Host"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Yeen Shadow Hunters"
+		location = 1092
+		division_template = "Brindled Stalker Host"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3rd Yeen Shadow Hunters"
+		location = 1092
+		division_template = "Brindled Stalker Host"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "1st Green Hell Stalkers"
+		location = 1092 # Deep Jungle state
+		division_template = "Brindled Stalker Host"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Green Hell Stalkers"
+		location = 1092
+		division_template = "Brindled Stalker Host"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3rd Green Hell Stalkers"
+		location = 1092
+		division_template = "Brindled Stalker Host"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+
+	# =========================================================================
+	# STANDARD TRIBAL JUNGLE WARBANDS (16 Divisions)
+	# =========================================================================
+	division = { name = "Zamettar Perimeter Tribe" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.4 start_equipment_factor = 0.8 }
+	division = { name = "Wyvern River Tribe" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.4 start_equipment_factor = 0.8 }
+	division = { name = "Gorosh Frontier Clan" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.7 }
+	division = { name = "Gogossos Ruins Warband" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.7 }
+	division = { name = "Red Flower Valley Tribe" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.7 }
+	division = { name = "Black Stone Watchers" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.5 start_equipment_factor = 0.8 }
+	division = { name = "Blood Swamps Warband" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.7 }
+	division = { name = "Manticore Forest Clan" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.7 }
+	division = { name = "Deep Canopy Hunters" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.4 start_equipment_factor = 0.8 }
+	division = { name = "Vampire Bat Ridge Tribe" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.6 }
+	division = { name = "Basilisks Tooth Clan" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.6 }
+	division = { name = "Screaming Jungle Tribe" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.3 start_equipment_factor = 0.6 }
+	division = { name = "Rotting River Tribe" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.2 start_equipment_factor = 0.6 }
+	division = { name = "Snake Head Ridge Warband" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.2 start_equipment_factor = 0.6 }
+	division = { name = "Spotted Beast Clan" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.2 start_equipment_factor = 0.5 }
+	division = { name = "Southern Rim Trackers" location = 1092 division_template = "Jungle Warband" start_experience_factor = 0.2 start_equipment_factor = 0.5 }
+
+	# =========================================================================
+	# COASTAL & BASILISK ISLES CORSAIRS (8 Divisions)
+	# =========================================================================
+	division = { name = "Tears of Lys Pirate Crew" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.5 start_equipment_factor = 0.8 }
+	division = { name = "Talon Point Raiders" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.5 start_equipment_factor = 0.8 }
+	division = { name = "Isle of Toads Freebooters" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.4 start_equipment_factor = 0.7 }
+	division = { name = "Ax Isle Corsair Host" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.4 start_equipment_factor = 0.7 }
+	division = { name = "Zamettar Harbor Reavers" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.4 start_equipment_factor = 0.7 }
+	division = { name = "Summer Sea Smugglers" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.3 start_equipment_factor = 0.7 }
+	division = { name = "Naath Channel Raiders" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.3 start_equipment_factor = 0.6 }
+	division = { name = "Corsair Bay Guard" location = 1092 division_template = "Basilisk Coastal Corsairs" start_experience_factor = 0.3 start_equipment_factor = 0.6 }
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.05
+		efficiency = 100
+	}
+}
