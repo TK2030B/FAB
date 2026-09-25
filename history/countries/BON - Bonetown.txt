@@ -2,7 +2,7 @@
 GOT_start_techs = yes
 oob = "BON_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_convoys = 0
 
@@ -18,3 +18,8 @@ set_politics = {
 }
 
 recruit_character = BON_High_Overseer_Hazrad
+
+add_ideas = {
+	GOT_Religion_Melting_Pot
+	GOT_Tradition_Stepstones
+}

@@ -399,3 +399,7 @@ NEF = {
 	color = rgb { 40 75 75 }
 	color_ui = rgb { 40 75 75 }
 }
+BLO = {
+	color = rgb { 209 211 212 }
+	color_ui = rgb { 209 211 212 }
+}

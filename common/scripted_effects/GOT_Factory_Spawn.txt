@@ -3663,15 +3663,15 @@ GOT_handle_factories_essos = {
 				}
 			}
 		}
-		#Cannibal Sands
+		#Kdath
 		if = {
 			limit = {
-				tag = CAN
+				tag = KDA
 			}
-			#1 Dockyards
+			#0 Dockyards
 			for_loop_effect = {
 				start = 1
-				end = 1
+				end = 0
 				compare = less_than_or_equals
 				random_owned_controlled_state = {
 					limit = {
@@ -3685,10 +3685,10 @@ GOT_handle_factories_essos = {
 					}
 				}
 			}
-			#0 Military Factories
+			#1 Military Factories
 			for_loop_effect = {
 				start = 1
-				end = 0
+				end = 1
 				compare = less_than_or_equals
 				random_owned_controlled_state = {
 					limit = {
@@ -3705,10 +3705,10 @@ GOT_handle_factories_essos = {
 					}
 				}
 			}
-			#1 Civilian Factories
+			#2 Civilian Factories
 			for_loop_effect = {
 				start = 1
-				end = 1
+				end = 2
 				compare = less_than_or_equals
 				random_owned_controlled_state = {
 					limit = {
@@ -3835,6 +3835,69 @@ GOT_handle_factories_essos = {
 			for_loop_effect = {
 				start = 1
 				end = 5
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		#Bloodless Men
+		if = {
+			limit = {
+				tag = BLO
+			}
+			#0 Dockyards
+			for_loop_effect = {
+				start = 1
+				end = 0
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			#1 Military Factories
+			for_loop_effect = {
+				start = 1
+				end = 1
+				compare = less_than_or_equals
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			#2 Civilian Factories
+			for_loop_effect = {
+				start = 1
+				end = 2
 				compare = less_than_or_equals
 				random_owned_controlled_state = {
 					limit = {

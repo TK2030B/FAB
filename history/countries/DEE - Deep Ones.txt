@@ -2,9 +2,9 @@
 GOT_start_techs = yes
 oob = "DEE_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
-set_convoys = 0
+set_convoys = 30
 
 set_popularities = {
 	fascism = 100
@@ -18,3 +18,8 @@ set_politics = {
 }
 
 recruit_character = DEE_The_High_Priest_of_the_Toad_Stone
+
+add_ideas = {
+	GOT_Religion_Drowned_God
+	GOT_Tradition_Stepstones
+}

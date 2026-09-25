@@ -2,9 +2,9 @@
 GOT_start_techs = yes
 oob = "SHR_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
-set_convoys = 0
+set_convoys = 5
 
 set_popularities = {
 	communism = 100
@@ -18,3 +18,8 @@ set_politics = {
 }
 
 recruit_character = SHR_Warlord_Grakks
+
+add_ideas = {
+	GOT_Religion_Tribal
+	GOT_Tradition_Tribal
+}

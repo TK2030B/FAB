@@ -1,0 +1,115 @@
+﻿# ==========================================
+# BLOODLESS MEN OF THE DRY DEEP OOB
+# ==========================================
+
+division_template = {
+	name = "Pale Stalker Warband"	# Elite Wasteland Skirmishers (10 Width)
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }		# Wasteland trackers
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Dry Deep Raiders"	# Standard Low-Supply Light Infantry (6 Width)
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (8 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# PALE STALKER WARBANDS (3 Elite Skirmisher Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Silent Ravine Stalkers"
+		location = 4400 # Dry Deep interior province
+		division_template = "Pale Stalker Warband"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2nd Silent Ravine Stalkers"
+		location = 4400
+		division_template = "Pale Stalker Warband"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "3rd Silent Ravine Stalkers"
+		location = 4401 # Bordering Bleeding Sea
+		division_template = "Pale Stalker Warband"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+	}
+
+	# =========================================================================
+	# DRY DEEP RAIDERS (5 Light Militia Divisions)
+	# =========================================================================
+	division = {
+		name = "Bone Waste Band"
+		location = 4400
+		division_template = "Dry Deep Raiders"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Ashen Basin Clan"
+		location = 4400
+		division_template = "Dry Deep Raiders"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Bleeding Sea Border Watch"
+		location = 4401
+		division_template = "Dry Deep Raiders"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Shadow Ravine Host"
+		location = 4401
+		division_template = "Dry Deep Raiders"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Cursed Trench Guardians"
+		location = 4401
+		division_template = "Dry Deep Raiders"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.05
+		efficiency = 100
+	}
+}

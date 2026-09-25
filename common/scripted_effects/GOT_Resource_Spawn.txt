@@ -3363,5 +3363,60 @@ GOT_handle_resources_essos = {
 				}
 			}
 		}
+		#Bloodless Men
+		if = {
+			limit = {
+				tag = BLO
+			}
+			#Grain
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 1
+				}
+			}
+			#Copper
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 0
+				}
+			}
+			#Timber
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 0
+				}
+			}
+			#Gold
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 1
+				}
+			}
+			#Iron
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 0
+				}
+			}
+			#Silver
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 0
+				}
+			}
+			#Coal
+			random_owned_state = {
+				add_resource = {
+					type = coal
+					amount = 0
+				}
+			}
+		}
 		#Paste New Countries before this line
 }

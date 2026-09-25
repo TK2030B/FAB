@@ -2,7 +2,7 @@
 GOT_start_techs = yes
 oob = "KDA_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_convoys = 0
 
@@ -19,3 +19,7 @@ set_politics = {
 
 recruit_character = KDA_High_Archon
 
+add_ideas = {
+	GOT_Religion_Black_Goat
+	GOT_Tradition_Far_Eastern
+}

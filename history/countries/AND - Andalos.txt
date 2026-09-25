@@ -4,7 +4,7 @@ oob = "AND_1936"
 
 set_research_slots = 3
 
-set_convoys = 0
+set_convoys = 10
 
 set_popularities = {
 	neutrality = 100
@@ -18,3 +18,8 @@ set_politics = {
 }
 
 recruit_character = AND_Unknown_Ruler
+
+add_ideas = {
+	GOT_Religion_The_Seven
+	GOT_Tradition_Free_City
+}

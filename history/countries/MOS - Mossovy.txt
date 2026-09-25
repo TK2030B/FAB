@@ -2,7 +2,7 @@
 GOT_start_techs = yes
 oob = "MOS_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_convoys = 0
 
@@ -18,3 +18,8 @@ set_politics = {
 }
 
 recruit_character = MOS_Grand_Hunter_of_Mossovy
+
+add_ideas = {
+	GOT_Religion_Old_Gods
+	GOT_Tradition_Tribal
+}

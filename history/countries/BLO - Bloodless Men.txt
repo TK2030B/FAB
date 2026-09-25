@@ -1,10 +1,10 @@
-﻿capital = 240
+﻿capital = 1
 GOT_start_techs = yes
-oob = "RHO_1936"
+oob = "BLO_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
-set_convoys = 40
+set_convoys = 0
 
 set_popularities = {
 	neutrality = 100
@@ -17,9 +17,9 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = RHO_The_Shrouded_Lord
+recruit_character = BLO_The_Ashen_King
 
 add_ideas = {
-	GOT_Religion_Melting_Pot
-	GOT_Tradition_Tribal
+	GOT_Religion_Far_Eastern
+	GOT_Tradition_Far_Eastern
 }

@@ -2,7 +2,7 @@
 GOT_start_techs = yes
 oob = "LHA_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 set_convoys = 0
 
@@ -18,3 +18,8 @@ set_politics = {
 }
 
 recruit_character = LHA_Council_of_Elders
+
+add_ideas = {
+	GOT_Religion_Far_Eastern
+	GOT_Tradition_Desert
+}

@@ -2,9 +2,9 @@
 GOT_start_techs = yes
 oob = "NEF_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
-set_convoys = 0
+set_convoys = 5
 
 set_popularities = {
 	fascism = 100
@@ -18,3 +18,8 @@ set_politics = {
 }
 
 recruit_character = NEF_High_Necromancer_Vaelen
+
+add_ideas = {
+	GOT_Religion_Black_Goat
+	GOT_Tradition_Far_Eastern
+}
