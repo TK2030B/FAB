@@ -103,3 +103,11 @@ BOL_Create_Flayed_Men_desc:0 "With the North firmly under Bolton rule, we must c
 
 TAR_purge_targaryens: "Purge the Targaryen Invaders"
 TAR_purge_targaryens_desc: "The dragon has landed upon our shores, threatening the peace and authority of the Iron Throne. We cannot allow House Targaryen to re-establish a foothold in Westeros. We must muster our forces, drive them back into the sea, and ensure their line never threatens the realm again."
+
+ICE_Raise_The_Dead_Hardhome: "The Massacre at Hardhome"
+ICE_Raise_The_Dead_Hardhome_desc: "Thousands of wildlings have fallen at the shores of Hardhome. Their cold, lifeless corpses cover the frozen earth, awaiting the summons of the Great Other. With a single gesture, we shall add an army of unmoving flesh to our march."
+ICE_Raise_The_Dead_Hardhome_tooltip: "Raises a massive horde of Undead Wights from the fallen wildlings at Hardhome."
+
+ICE_Raise_The_Dead_Castle_Black: "Fall of the Night's Watch"
+ICE_Raise_The_Dead_Castle_Black_desc: "The ancient stronghold of the Night's Watch has fallen, and the blood of its sworn brothers stains the snows of the Wall. We shall breach the barrier and reanimate the black-clad sentinels to serve the Long Night forever."
+ICE_Raise_The_Dead_Castle_Black_tooltip: "Raises an army of reanimated Night's Watch Wights at Castle Black."

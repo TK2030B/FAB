@@ -32,7 +32,9 @@ country_event = {
 		add_stability = -0.05
 		
 		hidden_effect = {
-			ICE_White_Walker_Spawn = yes
+			ICE = {
+				add_named_threat = { threat = 2 name = "Terror In The Woods" }				
+			}
 			NOR = {
 				country_event = {
 					id = GOT_Story_Country.2
@@ -4790,7 +4792,9 @@ country_event = {
             factor = 10
         }
 
-        ICE_Wave2_Spawn = yes
+        ICE = {
+			add_named_threat = { threat = 5 name = "Craster's Secret" }	
+		}
 
         every_other_country = {
             limit = {
@@ -10164,7 +10168,9 @@ country_event = {
             factor = 10 
         } 
 		
-		ICE_Wave3_Spawn = yes
+		ICE = {
+			add_named_threat = { threat = 10 name = "Sam Kills A Walker" }	
+		}
 		
  
         add_stability = 0.05 
@@ -13766,7 +13772,9 @@ country_event = {
             factor = 10 
         } 
  
-        ICE_Wave4_Spawn = yes
+        ICE = {
+			add_named_threat = { threat = 20 name = "Night King Revealed" }
+		}
 		
  
         every_other_country = { 
@@ -16156,7 +16164,9 @@ country_event = {
             factor = 10 
         } 
  
-        ICE_Wave5_Spawn = yes
+        ICE = {
+			add_named_threat = { threat = 50 name = "Hardhome Attack" }
+		}
 		
 		13 = {
 			OWNER = {
@@ -27872,5 +27882,99 @@ news_event = {
  
     option = { 
         name = GOT_Story_News.750.a 
+    } 
+} 
+
+# Fall of Hardhome
+country_event = { 
+    id = GOT_Story_Country.751 
+    title = GOT_Story_Country.751.t 
+    desc = GOT_Story_Country.751.d 
+    picture = GFX_report_event_Hard_Home
+ 
+    is_triggered_only = yes
+ 
+    
+	option = { 
+        name = GOT_Story_Country.751.a 
+ 
+        ai_chance = { 
+            factor = 100
+        } 
+		
+		load_oob = ICE_Wave2
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.751
+                hours = 6 
+            } 
+        }
+
+    } 	
+	
+} 
+
+# Fall of Hardhome
+news_event = { 
+    id = GOT_Story_News.751 
+    title = GOT_Story_News.751.t 
+    desc = GOT_Story_News.751.d 
+    picture = GFX_news_event_Hard_Home
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.751.a 
+    } 
+} 
+
+# Fall of Castle Black
+country_event = { 
+    id = GOT_Story_Country.752 
+    title = GOT_Story_Country.752.t 
+    desc = GOT_Story_Country.752.d 
+    picture = GFX_report_event_Castle_Black
+ 
+    is_triggered_only = yes
+ 
+    
+	option = { 
+        name = GOT_Story_Country.752.a 
+ 
+        ai_chance = { 
+            factor = 100
+        } 
+		
+		load_oob = ICE_Wave3
+		
+		every_other_country = { 
+            limit = { 
+                exists = yes 
+            } 
+            news_event = { 
+                id = GOT_Story_News.752 
+                hours = 6 
+            } 
+        }
+
+    } 	
+	
+} 
+
+# Fall of Hardhome
+news_event = { 
+    id = GOT_Story_News.752 
+    title = GOT_Story_News.752.t 
+    desc = GOT_Story_News.752.d 
+    picture = GFX_news_event_Castle_Black
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Story_News.752.a 
     } 
 } 

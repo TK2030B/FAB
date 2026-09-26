@@ -1,5 +1,13 @@
 GOT_start_techs = {
 
+	#Zombies Manpower Boost
+	if = {
+		limit = {
+			tag = ICE
+		}
+		add_manpower = 6000000
+	}
+
 	if = {
 		limit = {
 			OR = {

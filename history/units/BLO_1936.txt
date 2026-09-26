@@ -12,9 +12,6 @@ division_template = {
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }		# Wasteland trackers
-	}
 	priority = 2
 }
 
@@ -39,21 +36,21 @@ units = {
 	# =========================================================================
 	division = {
 		name = "1st Silent Ravine Stalkers"
-		location = 4400 # Dry Deep interior province
+		location = 433 # Dry Deep interior province
 		division_template = "Pale Stalker Warband"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.8
 	}
 	division = {
 		name = "2nd Silent Ravine Stalkers"
-		location = 4400
+		location = 433
 		division_template = "Pale Stalker Warband"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.8
 	}
 	division = {
 		name = "3rd Silent Ravine Stalkers"
-		location = 4401 # Bordering Bleeding Sea
+		location = 433 # Bordering Bleeding Sea
 		division_template = "Pale Stalker Warband"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
@@ -64,35 +61,35 @@ units = {
 	# =========================================================================
 	division = {
 		name = "Bone Waste Band"
-		location = 4400
+		location = 433
 		division_template = "Dry Deep Raiders"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Ashen Basin Clan"
-		location = 4400
+		location = 433
 		division_template = "Dry Deep Raiders"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Bleeding Sea Border Watch"
-		location = 4401
+		location = 433
 		division_template = "Dry Deep Raiders"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Shadow Ravine Host"
-		location = 4401
+		location = 433
 		division_template = "Dry Deep Raiders"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Cursed Trench Guardians"
-		location = 4401
+		location = 433
 		division_template = "Dry Deep Raiders"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5

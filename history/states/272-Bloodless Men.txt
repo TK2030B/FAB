@@ -1,18 +1,21 @@
 
 state={
-	id=266
-	name="STATE_266"
+	id=272
+	name="STATE_272"
 	history={
-		owner = UNL
+		owner = BLO
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = UNL
+		add_core_of = BLO
+		victory_points = {
+			433 1
+		}
 	}
 	provinces={
-		177 187 519 557 618 1113 1244 1429 1730 1742 2246 2587 2634 2667 2729 2731 
+		37 270 417 433 1514 2297 2938 2962 
 	}
-	manpower=200000
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

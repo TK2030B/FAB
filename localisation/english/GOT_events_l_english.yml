@@ -4257,6 +4257,22 @@ GOT_Story_News.749.a:0 "The dead have come."
  GOT_Story_News.750.t:0 "The Dissolution of the Iron Tide"
  GOT_Story_News.750.d:0 "Reports from Pyke confirm that following the end of internal strife among the Ironborn, the leaders of the Iron Islands have officially disbanded the 'Iron Tide' alliance. With their regional bloc dismantled, the lords of the Ironborn appear ready to abandon their isolation and cast their eyes toward the political shifts of mainland Westeros."
  GOT_Story_News.750.a:0 "A new game begins in the Sunset Sea."
+ 
+GOT_Story_Country.751.t: "The Harvesting of Hardhome"
+GOT_Story_Country.751.d: "The living flock like cattle to the frozen edge of the sea, huddled together in fear of the creeping frost. Their breath blossoms into mist, their blood runs hot—a brief, vibrant fire that we shall extinguish. As they fall beneath our vanguard, the cold claims them. We raise our hands, and the silent winter fills their lungs. What was once flesh to be slaughtered rises now as our legion. Hardhome is silent, and our march grows endless."
+GOT_Story_Country.751.a: "Dead men serve the Great Other."
+
+GOT_Story_News.751.t: "The Massacre at Hardhome"
+GOT_Story_News.751.desc: "Grave, nightmare-born rumors blow in from the beyond the Wall: Hardhome has fallen. Tens of thousands of wildling refugees, huddled on the frozen shores waiting for salvation, were set upon by the nightmare of the Long Night. Ships returning from the shuddering bay speak of a silent, sudden freeze that choked out all life—and of fallen free folk standing once more, eyes burning with a terrible blue light, marching under the command of the pale demons. The living have lost a army, and the dead have gained one."
+GOT_Story_News.751.a: "Gods protect us all..."
+
+GOT_Story_Country.752.t: "The Extinguishing of the Black Shield"
+GOT_Story_Country.752.d: "The ancient stone and ice of Castle Black could not hold against the true frost. The crows who swore to guard the realms of men lie butchered in their courtyards, their oaths broken by mortality. Their warm blood seeps into the snow, but their watch does not end—it merely changes master. With a motion of our cold hands, the black-clad corpses stir once more. The barrier of ice has lost its sentinels, and they shall lead our advance into the lands of the living."
+GOT_Story_Country.752.a: "Their watch begins anew in darkness."
+
+GOT_Story_News.752.t: "The Fall of Castle Black"
+GOT_Story_News.752.desc: "A chill wave of horror ripples across Westeros as frantic ravens bring dire news: Castle Black has fallen. The ancient brotherhood of the Night's Watch has been slaughtered, their legendary stronghold overrun by the nightmare from beyond the Wall. Worse still, reports claim the slain brothers do not lie peaceful in death; they have risen with burning blue eyes, bearing the black garb of their order to march alongside the pale devils. The shield that guarded the realms of men is broken, and its fallen protectors now serve the enemy."
+GOT_Story_News.752.a: "The Wall has failed..."
 
 #Country Event, the Crownlands Gets
 GOT_Diplomatic_Country.1.t: "Lord Stark Accepts the King's Request"

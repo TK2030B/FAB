@@ -1,0 +1,20 @@
+﻿units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Secret Fleet of Nefer"			
+		naval_base = 1057 # Nefer
+		task_force = {				
+			name = "Fog Watch Squadron"			
+			location = 1057 # Nefer
+			ship = { name = "Shadow of the Cliff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+			ship = { name = "Subterranean Ghost" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+			ship = { name = "Pale Veil" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+			ship = { name = "Whisper in the Mist" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+			ship = { name = "Chalk Haven" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+			ship = { name = "Blood Harbor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+			ship = { name = "Necromancer's Oar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+			ship = { name = "Grotto Guard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NEF } } }
+		}				
+	}
+}
