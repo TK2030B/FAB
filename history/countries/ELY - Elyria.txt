@@ -36,7 +36,7 @@ recruit_character=ELY_Ruling_Council
 recruit_character=ELY_Warlords_Council
 
 add_ideas = {
-    GOT_Tradition_Free_City
-    GOT_Religion_LOL
+    GOT_Tradition_Slaver
+	GOT_Religion_Valyrian
 	extensive_conscription
 }

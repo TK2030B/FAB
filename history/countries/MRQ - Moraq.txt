@@ -35,7 +35,7 @@ recruit_character=MRQ_Ruling_Council
 recruit_character=MRQ_Warlords_Council
 
 add_ideas = {
-    GOT_Tradition_Tribal
-    GOT_Religion_Tribal
+    GOT_Tradition_Ocean
+	GOT_Religion_Ocean_Worship
 	extensive_conscription
 }

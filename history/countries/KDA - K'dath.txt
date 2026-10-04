@@ -20,6 +20,6 @@ set_politics = {
 recruit_character = KDA_High_Archon
 
 add_ideas = {
-	GOT_Religion_Black_Goat
 	GOT_Tradition_Far_Eastern
+	GOT_Religion_Dark_Arts
 }

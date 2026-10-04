@@ -26,6 +26,6 @@ recruit_character=ULT_unknown_leader
 add_ideas = {
 	closed_economy
 	isolation
-    GOT_Tradition_Tribal
-    GOT_Religion_Tribal
+    GOT_Tradition_Nature
+	GOT_Religion_Nature_Worship
 }

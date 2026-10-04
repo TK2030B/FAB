@@ -20,6 +20,6 @@ set_politics = {
 recruit_character = IFE_The_Singers_of_The_Trees
 
 add_ideas = {
-	GOT_Religion_Old_Gods
-	GOT_Tradition_Tribal
+	GOT_Tradition_Nature
+	GOT_Religion_Nature_Worship
 }

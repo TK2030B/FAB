@@ -20,6 +20,6 @@ set_politics = {
 recruit_character = HYR_Council_of_Warrior_Maids
 
 add_ideas = {
-	GOT_Religion_Far_Eastern
-	GOT_Tradition_Far_Eastern
+	GOT_Tradition_Fortress
+	GOT_Religion_Ancestor_Worship
 }

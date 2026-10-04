@@ -36,6 +36,6 @@ recruit_character=MAN_Council_Dragonlords
 recruit_character=MAN_Council_Targaryen
 
 add_ideas = {
-	GOT_Tradition_Dragonlords
-	GOT_Religion_Valyrian
+	GOT_Tradition_Warrior
+	GOT_Religion_Dark_Arts
 }

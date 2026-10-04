@@ -354,3 +354,213 @@ FAI_Faith_Militant_desc:0 "The Stars and Swords have risen once more. While comp
  
  RI_no_surrender2:0 "Fight to the Last"
  RI_no_surrender2_desc:0 "Surrender is an alien concept to this realm. Bound by fanaticism, unbreakable oaths, or sheer existential hatred, our warriors view death in battle as the only acceptable end. No matter how many castles fall or how dire the conflict becomes, we shall defend every inch of ground until the last soul perishes."
+ 
+ #GOT Ideas
+
+ GOT_Religion_Ancestor_Worship:0 "Ancestor Worship"
+ GOT_Religion_Ancestor_Worship_desc:0 "Veneration of forebears whose spirits continue to guide, protect, and influence the fortunes of the living."
+ GOT_Religion_Dark_Arts:0 "Dark Arts"
+ GOT_Religion_Dark_Arts_desc:0 "Esoteric and forbidden practices harnessing blood, shadows, and ancient sorcery to exert total control."
+ GOT_Religion_Death_Cult:0 "Death Cult"
+ GOT_Religion_Death_Cult_desc:0 "A doctrine centered on the inevitability of mortality, where sacrifice and death are embraced as ultimate forms of devotion."
+ GOT_Religion_Fire_Worship:0 "Fire Worship"
+ GOT_Religion_Fire_Worship_desc:0 "Reverence for the holy flame as a purifying force that cleanses darkness and provides warmth, sight, and divine wrath."
+ GOT_Religion_Great_Shepherd:0 "The Great Shepherd"
+ GOT_Religion_Great_Shepherd_desc:0 "A gentle faith emphasizing protection, mercy, and pastoral care for all living flock under the divine eye."
+ GOT_Religion_Moon_Worship:0 "Moon Worship"
+ GOT_Religion_Moon_Worship_desc:0 "Veneration of the celestial maiden whose pale silver glow governs the tides, nocturnal secrets, and silent wisdom."
+ GOT_Religion_Moonsinger:0 "Moonsingers"
+ GOT_Religion_Moonsinger_desc:0 "A traditions-bound faith guided by spiritual singers who channel the movements and music of the night sky."
+ GOT_Religion_Nature_Worship:0 "Nature Worship"
+ GOT_Religion_Nature_Worship_desc:0 "Devotion to the living earth, forests, and wild beasts, maintaining equilibrium with the primeval world."
+ GOT_Religion_Ocean_Worship:0 "Ocean Worship"
+ GOT_Religion_Ocean_Worship_desc:0 "A relentless faith paying homage to the deep seas and stormy waters, honoring what lies beneath the waves."
+ GOT_Religion_River_Worship:0 "River Worship"
+ GOT_Religion_River_Worship_desc:0 "Reverence for the flowing waters that bring fertility, trade, and life across the valleys and plains."
+ GOT_Religion_Stone_Worship:0 "Stone Worship"
+ GOT_Religion_Stone_Worship_desc:0 "An enduring faith built around ancient monoliths, mountains, and unyielding bedrock as symbols of eternal strength."
+ GOT_Religion_Sun_Worship:0 "Sun Worship"
+ GOT_Religion_Sun_Worship_desc:0 "Devotion to the brilliant solar deity, bringing light, life, justice, and unyielding strength to all followers."
+
+GOT_Religion_Unknown:0 "Unknown Religion"
+GOT_Religion_Unknown_desc:0 "A faith shrouded in mystery, its beliefs and customs are unknown to outsiders."
+
+GOT_Religion_Old_Gods:0 "Old Gods of the Forest"
+GOT_Religion_Old_Gods_desc:0 "An ancient faith, worshipping the nameless spirits of nature through sacred weirwood trees."
+
+GOT_Religion_LOL:0 "The Lord of Light"
+GOT_Religion_LOL_desc:0 "A fiery god who demands devotion and sacrifice, R'hllor’s followers seek to bring light to the darkness."
+
+GOT_Religion_Drowned_God:0 "The Drowned God"
+GOT_Religion_Drowned_God_desc:0 "The god of the Ironborn, he demands strength and conquest. 'What is dead may never die!'"
+
+GOT_Religion_Great_Other:0 "The Great Other"
+GOT_Religion_Great_Other_desc:0 "A god of cold and death, worshipped in secret. It is the sworn enemy of the Lord of Light."
+
+GOT_Religion_Many_Faced_God:0 "The Many-Faced God"
+GOT_Religion_Many_Faced_God_desc:0 "The god of death, worshipped by the Faceless Men. To them, all gods are but aspects of the same entity."
+
+GOT_Religion_The_Seven:0 "The Faith of the Seven"
+GOT_Religion_The_Seven_desc:0 "The dominant faith of Westeros, worshipping seven aspects of a single divine entity."
+
+GOT_Religion_Great_Stallion:0 "The Great Stallion"
+GOT_Religion_Great_Stallion_desc:0 "The Dothraki worship the Great Stallion, who guides them to a glorious future through war and conquest."
+
+GOT_Religion_Black_Goat:0 "The Black Goat of Qohor"
+GOT_Religion_Black_Goat_desc:0 "A dark and bloodthirsty deity demanding daily sacrifices to ward off disaster."
+
+ GOT_Religion_Blind_God: "Faith of the Blind God"
+ GOT_Religion_Blind_God_desc: "A mysterious and esoteric faith centered around the worship of a god who sees all but is himself unseen. Its followers value secrecy, fate, and the inevitability of destiny."
+
+ GOT_Religion_Valyrian: "Valyrian Faith"
+ GOT_Religion_Valyrian_desc: "The ancient faith of the Valyrians, centered around dragonlords and fire-worship. Though its influence has waned, it still holds sway among those who honor the old ways."
+ 
+  GOT_Religion_Tribal:0 "Tribal Religion"
+  GOT_Religion_Tribal_desc:0 "A collection of diverse pagan beliefs, rooted in oral traditions and ancestral worship. Without a central authority, these faiths vary greatly from tribe to tribe."
+  
+  # New Religions and Traditions
+
+GOT_Religion_Melting_Pot: "Melting Pot of Beliefs"
+GOT_Religion_Melting_Pot_desc: "A mixture of various beliefs and practices from across Essos, blending customs from many cultures to form a distinctive and fluid religious tradition."
+
+GOT_Religion_Ghiscari: "Ghiscari Faith"
+GOT_Religion_Ghiscari_desc: "The faith of the Ghiscari people, worshiping ancient gods, with a focus on power, slavery, and the Great Masters."
+
+GOT_Religion_Far_Eastern: "Far Eastern Faith"
+GOT_Religion_Far_Eastern_desc: "The diverse and enigmatic beliefs of the Far Eastern nations, rooted in ancient spiritual practices and philosophies that differ vastly from the western faiths."
+
+GOT_Tradition_Stepstones: "Pirate Tradition"
+GOT_Tradition_Stepstones_desc: "The Pirate Ways are rooted in a rugged and lawless tradition of piracy, coastal raiding, and the pursuit of freedom. Across the seas, strength, cunning, and ruthlessness are the keys to survival, where survival depends on mastering the waters and living outside the reach of authority."
+
+GOT_Tradition_Far_Eastern: "Far Eastern Tradition"
+GOT_Tradition_Far_Eastern_desc: "A tradition rich in mystical practices, ancestor worship, and a deep connection to the forces of nature, spanning the distant lands of Leng, Yi Ti, and Asshai."
+
+GOT_Tradition_Melting_Pot: "Melting Pot Tradition"
+GOT_Tradition_Melting_Pot_desc: "A combination of various cultural traditions, rituals, and customs brought together by the mixing of diverse peoples from across Essos."
+
+  GOT_Tradition_Tribal:0 "Tribal Tradition"
+  GOT_Tradition_Tribal_desc:0 "A way of life built around kinship, oral history, and local customs. These traditions emphasize loyalty to the tribe and survival in harsh environments."
+
+GOT_Tradition_Unknown:0 "Unknown Tradition"
+GOT_Tradition_Unknown_desc:0 "A culture and way of life obscured from the annals of history."
+
+GOT_Tradition_Ironborn:0 "Ironborn Tradition"
+GOT_Tradition_Ironborn_desc:0 "A people of raiders and reavers, the Ironborn live and die by the Old Way of the sea."
+
+GOT_Tradition_Dragonlords:0 "Dragonlord Tradition"
+GOT_Tradition_Dragonlords_desc:0 "Descendants of Valyria, they wield dragons as weapons and command vast knowledge of ancient sorcery."
+
+GOT_Tradition_Stormlands:0 "Stormlands Tradition"
+GOT_Tradition_Stormlands_desc:0 "A culture forged by the storms, producing resilient warriors and unwavering loyalty."
+
+GOT_Tradition_North:0 "Northman Tradition"
+GOT_Tradition_North_desc:0 "Hardened by the cold, the Northmen value honor, duty, and a strong sword arm."
+
+GOT_Tradition_Reach:0 "Reachmen Tradition"
+GOT_Tradition_Reach_desc:0 "The most fertile land in Westeros has bred a culture of chivalry, knighthood, and feasting."
+
+GOT_Tradition_Riverlands:0 "Riverlander Tradition"
+GOT_Tradition_Riverlands_desc:0 "A land often ravaged by war, the Riverlands produce adaptable and resilient folk."
+
+GOT_Tradition_Westerlands:0 "Westerlander Tradition"
+GOT_Tradition_Westerlands_desc:0 "A land of gold and ambition, where wealth and power go hand in hand."
+
+GOT_Tradition_Vale:0 "Valemen Tradition"
+GOT_Tradition_Vale_desc:0 "Nestled in the mountains, the Vale breeds honorable knights and steadfast warriors."
+
+GOT_Tradition_Crownlands:0 "Crownlands Tradition"
+GOT_Tradition_Crownlands_desc:0 "The heart of royal power, where politics and courtly intrigue shape the realm."
+
+GOT_Tradition_Dorne:0 "Dornish Tradition"
+GOT_Tradition_Dorne_desc:0 "A land of fierce warriors and passionate people, where blood feuds and desert resilience define their way of life."
+
+GOT_Tradition_White_Walkers:0 "The Others"
+GOT_Tradition_White_Walkers_desc:0 "An ancient and terrifying force of ice and death, shrouded in myth and legend."
+
+GOT_Tradition_Wildlings:0 "Wildling Tradition"
+GOT_Tradition_Wildlings_desc:0 "The Free Folk reject southern laws, living in harsh conditions beyond the Wall and fighting for survival."
+
+GOT_Tradition_Braavos:0 "Braavosi Tradition"
+GOT_Tradition_Braavos_desc:0 "A culture built on commerce, seafaring, and fierce independence, where even the weakest can rise."
+
+GOT_Tradition_Nights_Watch:0 "Night’s Watch Tradition"
+GOT_Tradition_Nights_Watch_desc:0 "A sworn brotherhood, standing as the first and last defense against the horrors beyond the Wall."
+
+GOT_Tradition_Qohor:0 "Qohorik Tradition"
+GOT_Tradition_Qohor_desc:0 "The city of Qohor is known for its master smiths and dark blood magic."
+
+GOT_Tradition_Pentos:0 "Pentoshi Tradition"
+GOT_Tradition_Pentos_desc:0 "A land of trade and indulgence, ruled by wealthy magisters under the watchful eye of the Free Cities."
+
+GOT_Tradition_Dothraki:0 "Nomad Tradition"
+GOT_Tradition_Dothraki_desc:0 "A people of the open plains, where strength is measured in mounts, endurance, and the unyielding freedom to ride across the vast wilderness."
+
+GOT_Tradition_Desert:0 "Desert Tradition"
+GOT_Tradition_Desert_desc:0 "A people accustomed to arid wastelands, thriving in harsh conditions through survivalist cunning."
+
+GOT_Tradition_Slaver:0 "Slaver's Tradition"
+GOT_Tradition_Slaver_desc:0 "A culture built upon the institution of slavery, where wealth and power are gained through the suffering of others."
+
+  GOT_Tradition_Free_City: "Free City Tradition"
+  GOT_Tradition_Free_City_desc: "A city-state built on trade and independence, valuing commerce above all else. Its governance ensures economic flexibility, lower trade restrictions, and a reduced burden on the state economy."
+  
+ GOT_Tradition_Andal:0 "Andal Tradition"
+ GOT_Tradition_Andal_desc:0 "Anchored in feudal hierarchy, heavy cavalry warfare, and strict adherence to ancient customs brought over from Essos."
+ GOT_Tradition_Chivalric:0 "Chivalric Tradition"
+ GOT_Tradition_Chivalric_desc:0 "A culture that exalts martial honor, martial tournaments, and knighthood as the pinnacle of military duty."
+ GOT_Tradition_Equestrian:0 "Equestrian Tradition"
+ GOT_Tradition_Equestrian_desc:0 "An unyielding bond with horsemanship, shaping a society where speed, maneuverability, and mounted combat dominate."
+ GOT_Tradition_Fortress:0 "Fortress Tradition"
+ GOT_Tradition_Fortress_desc:0 "A doctrine born from generations of defense, prioritizing impenetrable fortifications, siege craft, and stubborn resilience."
+ GOT_Tradition_Mercenary:0 "Mercenary Tradition"
+ GOT_Tradition_Mercenary_desc:0 "A pragmatic approach to warfare where professional soldiering, paid contracts, and gold dictate military strength."
+ GOT_Tradition_Nature:0 "Nature Tradition"
+ GOT_Tradition_Nature_desc:0 "A lifestyle closely tuned to the untamed wilderness, excelling at woodland survival, tracking, and irregular warfare."
+ GOT_Tradition_Ocean:0 "Ocean Tradition"
+ GOT_Tradition_Ocean_desc:0 "A seafaring heritage where mastery over the open waves, naval raiding, and maritime supremacy define power."
+ GOT_Tradition_Outlaw:0 "Outlaw Tradition"
+ GOT_Tradition_Outlaw_desc:0 "Rooted in guerrilla tactics, ambush strategies, and living beyond the reach of formal feudal law."
+ GOT_Tradition_Rhoynar:0 "Rhoynar Tradition"
+ GOT_Tradition_Rhoynar_desc:0 "Drawing from ancient riverine warfare, gender equality in combat, and fierce independence from subjugation."
+ GOT_Tradition_Warband:0 "Warband Tradition"
+ GOT_Tradition_Warband_desc:0 "A aggressive tribal doctrine where military units band around charismatic chieftain leadership and fierce raiding."
+ GOT_Tradition_Warrior:0 "Warrior Tradition"
+ GOT_Tradition_Warrior_desc:0 "A martial societal martial ethos where individual martial prowess, combat readiness, and martial honor shape daily life."
+
+GOT_Mode_Vanilla:0 "Vanilla Mode"
+GOT_Mode_Vanilla_desc:0 "Play with standard mechanics and balance, following a more traditional experience."
+
+GOT_Mode_GOT:0 "Game of Thrones Mode"
+GOT_Mode_GOT_desc:0 "A deeply immersive experience, filled with the intrigue, war, and brutal realities of Westeros and beyond."
+
+GOT_Mode_GOT_Non_BBA:0 "Game of Thrones Mode"
+GOT_Mode_GOT_Non_BBA_desc:0 "A deeply immersive experience, filled with the intrigue, war, and brutal realities of Westeros and beyond."
+
+#Economic Focuses
+
+ GOT_Econ_Agriculture:0 "Agrarian Estates"
+ GOT_Econ_Agriculture_desc:0 "Vast swathes of fertile land harvested by peasant labor, providing the foundational foodstuffs needed to sustain towns and armies."
+ GOT_Econ_Artisans_Crafts:0 "Artisanal Workshops"
+ GOT_Econ_Artisans_Crafts_desc:0 "Skilled craftsmen producing fine textiles, leatherwork, and specialized tools, driving urban commerce and trade value."
+ GOT_Econ_Banking_and_Usury:0 "Banking and Usury"
+ GOT_Econ_Banking_and_Usury_desc:0 "Financial institutions offering credit, loans, and foreign exchange, facilitating rapid capital flow at the cost of high interest."
+ GOT_Econ_Commerce_Guilds:0 "Merchant Guilds"
+ GOT_Econ_Commerce_Guilds_desc:0 "Powerful coalitions of traders regulating prices, monopolizing key markets, and dictating regional commercial policy."
+ GOT_Econ_Maritime_Trade:0 "Maritime Trade Networks"
+ GOT_Econ_Maritime_Trade_desc:0 "Fleet-driven mercantile routes spanning open seas, connecting wealthy ports and yielding high tariffs on exotic goods."
+ GOT_Econ_Slaver_Estates:0 "Slaver Estates"
+ GOT_Econ_Slaver_Estates_desc:0 "An economy fueled by forced labor, keeping production costs at a minimum while breeding systemic volatility and civil unrest."
+ GOT_Econ_Stone_Masonry:0 "Stone Masonry"
+ GOT_Econ_Stone_Masonry_desc:0 "Master builders shaping raw rock into fortresses, keeps, and grand infrastructure essential for long-term endurance."
+ GOT_Econ_Viticulture:0 "Viticulture and Wineries"
+ GOT_Econ_Viticulture_desc:0 "Cultivation of prized vineyards producing wines and spirits sought after by nobles and foreign traders alike."
+ GOT_Econ_Lumberjack:0 "Timber Industry"
+ GOT_Econ_Lumberjack_desc:0 "Systematic harvesting of dense forests, supplying essential timber for shipbuilding, siege engines, and construction."
+ GOT_Econ_Maritime_Harvest:0 "Maritime Harvesting"
+ GOT_Econ_Maritime_Harvest_desc:0 "Coastal fishing fleets and pearl divers harvesting the riches of the sea to feed coastal populations and supply valuable commodities."
+ GOT_Econ_Pastoral:0 "Pastoral Herding"
+ GOT_Econ_Pastoral_desc:0 "Ranching and livestock herding across sprawling pastures, yielding meat, hides, wool, and resilient draft animals."
+ GOT_Econ_Smithing:0 "Master Metallurgy"
+ GOT_Econ_Smithing_desc:0 "Forges working raw iron and steel into weapons, armor, and industrial tools critical for military readiness."
+ GOT_Econ_Quarry_and_Mine:0 "Quarries and Mining"
+ GOT_Econ_Quarry_and_Mine_desc:0 "Extensive deep-earth extraction operations supplying precious metals, iron ore, and stone for military and civilian expansion."

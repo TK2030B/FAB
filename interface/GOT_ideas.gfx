@@ -1,5 +1,65 @@
 spriteTypes = {	
 
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Ancestor_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Ancestor_Worship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Dark_Arts"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Dark_Arts.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Death_Cult"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Death_Cult.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Fire_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Fire_Worship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Great_Shepherd"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Great_Shepherd.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Moon_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Moon_Worship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Moonsinger"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Moonsinger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Nature_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Nature_Worship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Ocean_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Ocean_Worship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_River_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_River_Worship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Stone_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Stone_Worship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Religion_Sun_Worship"
+		texturefile = "gfx/interface/ideas/Religion/Religion_Sun_Worship.dds"
+	}
+
 spriteType = {
 	name = "GFX_idea_GOT_Religion_Unknown"
 	texturefile = "gfx/interface/ideas/Religion/Religion_Unknown.dds"
@@ -116,6 +176,63 @@ spriteType = {
 	name = "GFX_idea_GOT_Tradition_Slaver"
 	texturefile = "gfx/interface/ideas/Tradition/Tradition_Slaver.dds"
 }
+
+spriteType = {
+		name = "GFX_idea_GOT_Tradition_Andal"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Andal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Chivalric"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Chivalric.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Equestrian"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Equestrian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Fortress"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Fortress.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Mercenary"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Mercenary.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Nature"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Nature.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Ocean"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Ocean.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Outlaw"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Outlaw.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Rhoynar"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Rhoynar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Warband"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Warband.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Tradition_Warrior"
+		texturefile = "gfx/interface/ideas/Tradition/Tradition_Warrior.dds"
+	}
+	
+
 spriteType = {
 	name = "GFX_idea_GOT_Mode_Vanilla"
 	texturefile = "gfx/interface/ideas/Mode/Mode_Vanilla.dds"
@@ -752,6 +869,73 @@ spriteType = {
 	spriteType = {
 		name = "GFX_idea_ICE_The_Others"
 		texturefile = "gfx/interface/ideas/White_Walkers/ICE_The_Others.dds"
+	}
+	
+	#Economic Boosts
+	
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Agriculture"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Agriculture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Artisans_Crafts"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Artisans_Crafts.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Banking_and_Usury"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Banking_and_Usury.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Commerce_Guilds"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Commerce_Guilds.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Maritime_Trade"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Maritime_Trade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Slaver_Estates"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Slaver_Estates.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Stone_Masonry"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Stone_Masonry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Viticulture"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Viticulture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Lumberjack"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Lumberjack.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Maritime_Harvest"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Maritime_Harvest.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Pastoral"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Pastoral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Smithing"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Smithing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GOT_Econ_Quarry_and_Mine"
+		texturefile = "gfx/interface/ideas/Econ/Econ_Quarry_and_Mine.dds"
 	}
 
 

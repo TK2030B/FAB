@@ -20,6 +20,6 @@ set_politics = {
 recruit_character = CAN_The_Bone_Collector
 
 add_ideas = {
-	GOT_Religion_Tribal
-	GOT_Tradition_Desert
+	GOT_Tradition_Outlaw
+	GOT_Religion_Death_Cult
 }

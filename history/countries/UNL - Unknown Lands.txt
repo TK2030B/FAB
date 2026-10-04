@@ -26,6 +26,6 @@ recruit_character=UNL_Unknown_Leader
 add_ideas = {
 	closed_economy
 	isolation
-    GOT_Tradition_Tribal
-    GOT_Religion_Tribal
+	GOT_Tradition_Tribal
+	GOT_Religion_Dark_Arts
 }

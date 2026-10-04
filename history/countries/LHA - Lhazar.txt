@@ -20,6 +20,6 @@ set_politics = {
 recruit_character = LHA_Council_of_Elders
 
 add_ideas = {
-	GOT_Religion_Far_Eastern
-	GOT_Tradition_Desert
+	GOT_Tradition_Nature
+	GOT_Religion_Great_Shepherd
 }

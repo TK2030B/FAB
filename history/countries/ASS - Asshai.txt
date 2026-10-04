@@ -35,6 +35,6 @@ recruit_character=ASS_Council_Dark_Scholars
 recruit_character=ASS_Council_Dark_Sages
 
 add_ideas = {
-	GOT_Religion_Far_Eastern
 	GOT_Tradition_Far_Eastern
+	GOT_Religion_Dark_Arts
 }

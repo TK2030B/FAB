@@ -20,6 +20,6 @@ set_politics = {
 recruit_character = GOL_Harry_Strickland
 
 add_ideas = {
-	GOT_Tradition_Dragonlords
-	GOT_Religion_The_Seven
+	GOT_Tradition_Mercenary
+	GOT_Religion_Melting_Pot
 }

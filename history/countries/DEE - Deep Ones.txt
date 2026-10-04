@@ -20,6 +20,6 @@ set_politics = {
 recruit_character = DEE_The_High_Priest_of_the_Toad_Stone
 
 add_ideas = {
-	GOT_Religion_Drowned_God
-	GOT_Tradition_Stepstones
+	GOT_Tradition_Ocean
+	GOT_Religion_Ocean_Worship
 }
