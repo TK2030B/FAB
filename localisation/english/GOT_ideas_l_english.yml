@@ -564,3 +564,75 @@ GOT_Mode_GOT_Non_BBA_desc:0 "A deeply immersive experience, filled with the intr
  GOT_Econ_Smithing_desc:0 "Forges working raw iron and steel into weapons, armor, and industrial tools critical for military readiness."
  GOT_Econ_Quarry_and_Mine:0 "Quarries and Mining"
  GOT_Econ_Quarry_and_Mine_desc:0 "Extensive deep-earth extraction operations supplying precious metals, iron ore, and stone for military and civilian expansion."
+ 
+  # ==========================================
+ # Foreign Policy Category
+ # ==========================================
+ foreign_policy:0 "Realm Stance"
+ foreign_policy_desc:0 "Determines how our realm interacts with neighboring lords, foreign crowns, and powers across the Narrow Sea."
+
+ # ==========================================
+ # Foreign Policy Laws
+ # ==========================================
+ foreign_isolationism:0 "Splendid Isolation"
+ foreign_isolationism_desc:0 "The realm looks inward, ignoring the petty squabbles of neighboring kingdoms and foreign continents alike. We tend to our own hearths and leave the outside world to its fate."
+
+ foreign_neutral:0 "Armed Neutrality"
+ foreign_neutral_desc:0 "We hold no allegiance to foreign thrones, but stand fully prepared to defend our sovereign borders should anyone prove foolish enough to cross them."
+
+ foreign_cooperative:0 "Diplomatic Concert"
+ foreign_cooperative_desc:0 "True security and prosperity are forged through grand alliances, dynastic pacts, and open trade across the narrow seas."
+
+ foreign_interventionism:0 "Protector of the Realm"
+ foreign_interventionism_desc:0 "An unstable neighbor threatens the peace of all kingdoms. We must intervene in foreign disputes before the flames of war spread to our own borders."
+
+ foreign_warmonger:0 "Iron & Blood"
+ foreign_warmonger_desc:0 "Words are wind; conquest is absolute. The realm seeks not peaceful co-existence, but total subjugation of those weak enough to fall beneath our banners."
+
+ # ==========================================
+ # Security Laws Category
+ # ==========================================
+ security_laws:0 "Realm Security"
+ security_laws_desc:0 "Determines the extent to which our administration uses armed garrisons, spymasters, and martial decrees to maintain order and suppress sedition within the realm."
+
+ # ==========================================
+ # Security Laws
+ # ==========================================
+ security_liberty_first:0 "Rights of the Smallfolk"
+ security_liberty_first_desc:0 "Our rule rests upon traditional laws, ancient customs, and the goodwill of the people. Local lords and smallfolk are left to govern their daily lives with minimal interference from the crown."
+
+ security_minor_restrictions:0 "Lord's Justice"
+ security_minor_restrictions_desc:0 "Armed bailiffs and City Watch patrols maintain the peace across towns and trade roads. Criminals are hanged, but law-abiding subjects are free to go about their business."
+
+ security_major_restrictions:0 "Curfew & Martial Law"
+ security_major_restrictions_desc:0 "Treason festers in the shadows. Town gates are shuttered at dusk, public gatherings are banned, and heavy garrisons enforce the Lord's absolute authority with an unyielding fist."
+
+ security_police_state:0 "Reign of Terror"
+ security_police_state_desc:0 "Informants lurk in every tavern, inquisitors search every keep, and the heads of suspected traitors line the castle walls. Resistance is ruthlessly extinguished before a single whisper can take root."
+
+ # ==========================================
+ # Taxation Category
+ # ==========================================
+ taxation_laws:0 "Crown Taxation"
+ taxation_laws_desc:0 "Determines the rate of gold, grain, and duties extracted from lords, merchants, and smallfolk to fund the crown's treasury and war effort."
+
+ # ==========================================
+ # Taxation Laws
+ # ==========================================
+ tax_minimal:0 "Peppercorn Rents"
+ tax_minimal_desc:0 "The crown demands only token tithes from its vassals and subjects. While this fosters deep loyalty and local prosperity, our treasury coffers remain dangerously bare."
+
+ tax_low:0 "Light Taxation"
+ tax_low_desc:0 "Modest dues are collected on trade goods, livestock, and hearths. The realm thrives without heavy burdens, though funding grand projects remains a slow endeavor."
+
+ tax_average:0 "Standard Crown Levies"
+ tax_average_desc:0 "Customary taxes and tariffs are collected as set by ancient law and tradition. It provides a steady, reliable stream of gold to maintain the realm without provoking outrage."
+
+ tax_high:0 "Heavy Crown Duties"
+ tax_high_desc:0 "Tolls are increased across every road, port, and market, while lords are pressed for larger financial contributions. War chests fill quickly, but whispers of discontent echo in every tavern."
+
+ tax_extreme:0 "Iron Bank Extortion"
+ tax_extreme_desc:0 "Desperate times demand ruthless measures. Tax collectors seize grain, livestock, and coinage by force, wringing every last copper from noble and peasant alike. Gold pours into the vault, but open rebellion looms on the horizon."
+ 
+national_character:0 "National Character"
+national_character_desc:0 "The enduring cultural identity, religious devotion, and foundational economic pillars that define the strength and spirit of our realm."

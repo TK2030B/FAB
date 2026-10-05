@@ -937,6 +937,90 @@ spriteType = {
 		name = "GFX_idea_GOT_Econ_Quarry_and_Mine"
 		texturefile = "gfx/interface/ideas/Econ/Econ_Quarry_and_Mine.dds"
 	}
+	
+	spriteTypes = {
+
+	# ==========================================
+	# Foreign Policy Laws
+	# ==========================================
+	spriteType = {
+		name = "GFX_idea_foreign_isolationism"
+		texturefile = "gfx/interface/ideas/GOT_Laws/foreign_isolationism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_foreign_neutral"
+		texturefile = "gfx/interface/ideas/GOT_Laws/foreign_neutral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_foreign_cooperative"
+		texturefile = "gfx/interface/ideas/GOT_Laws/foreign_cooperative.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_foreign_interventionism"
+		texturefile = "gfx/interface/ideas/GOT_Laws/foreign_interventionism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_foreign_warmonger"
+		texturefile = "gfx/interface/ideas/GOT_Laws/foreign_warmonger.dds"
+	}
+
+	# ==========================================
+	# Security Laws
+	# ==========================================
+	spriteType = {
+		name = "GFX_idea_security_liberty_first"
+		texturefile = "gfx/interface/ideas/GOT_Laws/security_liberty_first.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_security_minor_restrictions"
+		texturefile = "gfx/interface/ideas/GOT_Laws/security_minor_restrictions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_security_major_restrictions"
+		texturefile = "gfx/interface/ideas/GOT_Laws/security_major_restrictions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_security_police_state"
+		texturefile = "gfx/interface/ideas/GOT_Laws/security_police_state.dds"
+	}
+
+	# ==========================================
+	# Taxation Laws
+	# ==========================================
+	spriteType = {
+		name = "GFX_idea_tax_minimal"
+		texturefile = "gfx/interface/ideas/GOT_Laws/tax_minimal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tax_low"
+		texturefile = "gfx/interface/ideas/GOT_Laws/tax_low.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tax_average"
+		texturefile = "gfx/interface/ideas/GOT_Laws/tax_average.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tax_high"
+		texturefile = "gfx/interface/ideas/GOT_Laws/tax_high.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tax_extreme"
+		texturefile = "gfx/interface/ideas/GOT_Laws/tax_extreme.dds"
+	}
+
+}
+
 
 
 }
