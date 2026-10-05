@@ -937,8 +937,6 @@ spriteType = {
 		name = "GFX_idea_GOT_Econ_Quarry_and_Mine"
 		texturefile = "gfx/interface/ideas/Econ/Econ_Quarry_and_Mine.dds"
 	}
-	
-	spriteTypes = {
 
 	# ==========================================
 	# Foreign Policy Laws
@@ -1018,9 +1016,5 @@ spriteType = {
 		name = "GFX_idea_tax_extreme"
 		texturefile = "gfx/interface/ideas/GOT_Laws/tax_extreme.dds"
 	}
-
-}
-
-
-
+	
 }

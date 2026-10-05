@@ -25,6 +25,7 @@ GOT_start_techs = {
 				tag = SOT
 				tag = REW
 				tag = UNL
+				GOT_Essos_Countries = yes
 				#tag = SUI
 				#tag = IBB
 				#tag = NAA

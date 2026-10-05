@@ -592,8 +592,8 @@ GOT_Mode_GOT_Non_BBA_desc:0 "A deeply immersive experience, filled with the intr
  # ==========================================
  # Security Laws Category
  # ==========================================
- security_laws:0 "Realm Security"
- security_laws_desc:0 "Determines the extent to which our administration uses armed garrisons, spymasters, and martial decrees to maintain order and suppress sedition within the realm."
+ security:0 "Realm Security"
+ security_desc:0 "Determines the extent to which our administration uses armed garrisons, spymasters, and martial decrees to maintain order and suppress sedition within the realm."
 
  # ==========================================
  # Security Laws
@@ -613,8 +613,8 @@ GOT_Mode_GOT_Non_BBA_desc:0 "A deeply immersive experience, filled with the intr
  # ==========================================
  # Taxation Category
  # ==========================================
- taxation_laws:0 "Crown Taxation"
- taxation_laws_desc:0 "Determines the rate of gold, grain, and duties extracted from lords, merchants, and smallfolk to fund the crown's treasury and war effort."
+ taxes:0 "Crown Taxation"
+ taxes_desc:0 "Determines the rate of gold, grain, and duties extracted from lords, merchants, and smallfolk to fund the crown's treasury and war effort."
 
  # ==========================================
  # Taxation Laws
