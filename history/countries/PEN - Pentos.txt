@@ -35,6 +35,9 @@ add_ideas = {
 	GOT_Tradition_Pentos
 	GOT_Religion_LOL
 	limited_conscription
+	foreign_neutral
+	security_minor_restrictions
+	tax_average
 }
 
 #if = {

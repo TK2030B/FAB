@@ -39,4 +39,7 @@ recruit_character=VAL_Petyr_Baelish
 add_ideas = {  
 	GOT_Tradition_Vale  
 	GOT_Religion_The_Seven  
+	foreign_isolationism
+	security_minor_restrictions
+	tax_average
 }

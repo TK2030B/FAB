@@ -27,5 +27,8 @@ recruit_character=KAR_Alys_Karstark
 add_ideas = {
 	GOT_Tradition_North
 	GOT_Religion_Old_Gods
+	foreign_neutral
+	security_minor_restrictions
+	tax_low
 }
 

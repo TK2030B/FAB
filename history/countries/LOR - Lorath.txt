@@ -52,4 +52,7 @@ recruit_character=LOR_Freedmen_Council
 add_ideas = {
 	GOT_Tradition_Free_City
 	GOT_Religion_Blind_God
+	foreign_isolationism
+	security_liberty_first
+	tax_low
 }

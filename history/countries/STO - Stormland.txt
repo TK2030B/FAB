@@ -45,6 +45,9 @@ recruit_character=STO_Gendry_Baratheon
 add_ideas = {  
 	GOT_Tradition_Stormlands  
 	GOT_Religion_The_Seven  
+	foreign_neutral
+	security_minor_restrictions
+	tax_average
 }
 
 create_faction = "The Storm"

@@ -29,4 +29,7 @@ recruit_character=SLA_Daario_Naharis
 add_ideas = {
 	GOT_Tradition_Slaver
 	GOT_Religion_Ghiscari
+	foreign_interventionism
+	security_police_state
+	tax_high
 }

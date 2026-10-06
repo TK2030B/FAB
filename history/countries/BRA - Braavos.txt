@@ -33,4 +33,7 @@ recruit_character=BRA_Sealord_of_Bravos
 add_ideas = {
 	GOT_Tradition_Braavos
 	GOT_Religion_Many_Faced_God
+	foreign_interventionism
+	security_minor_restrictions
+	tax_average
 }

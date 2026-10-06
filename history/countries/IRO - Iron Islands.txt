@@ -40,6 +40,9 @@ recruit_character=IRO_Theon_Greyjoy
 add_ideas = {
 	GOT_Tradition_Ironborn
 	GOT_Religion_Drowned_God
+	foreign_warmonger
+	security_liberty_first
+	tax_minimal
 }
 
 create_faction = "The Iron Tide"

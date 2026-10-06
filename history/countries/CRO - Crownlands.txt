@@ -198,6 +198,9 @@ recruit_character = CRO_Tyrion_Lannister
 add_ideas = {
 	GOT_Tradition_Crownlands
 	GOT_Religion_The_Seven
+	foreign_cooperative
+	security_minor_restrictions
+	tax_average
 }
 
 create_faction = "The Iron Throne"

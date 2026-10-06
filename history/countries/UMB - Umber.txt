@@ -27,5 +27,8 @@ recruit_character=UMB_Ned_Umber
 add_ideas = {
 	GOT_Tradition_North
 	GOT_Religion_Old_Gods
+	foreign_isolationism
+	security_minor_restrictions
+	tax_minimal
 }
 

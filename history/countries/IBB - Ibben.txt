@@ -37,4 +37,7 @@ recruit_character=IBB_Warlords_Council
 add_ideas = {
 	GOT_Tradition_Tribal
 	GOT_Religion_Ancestor_Worship
+	foreign_isolationism
+	security_minor_restrictions
+	tax_average
 }

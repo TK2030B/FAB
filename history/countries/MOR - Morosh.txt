@@ -37,4 +37,7 @@ recruit_character=MOR_Warlords_Council
 add_ideas = {
 	GOT_Tradition_Free_City
 	GOT_Religion_Blind_God
+	foreign_isolationism
+	security_minor_restrictions
+	tax_low
 }

@@ -26,6 +26,9 @@ add_ideas = {
 	GOT_Tradition_Chivalric
 	GOT_Religion_The_Seven
 	FAI_Faith_Militant
+	foreign_interventionism
+	security_police_state
+	tax_minimal
 }
 
 recruit_character = FAI_High_Sparrow

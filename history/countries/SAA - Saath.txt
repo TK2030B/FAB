@@ -37,4 +37,7 @@ recruit_character=SAA_Warlords_Council
 add_ideas = {
     GOT_Tradition_Andal
 	GOT_Religion_The_Seven
+	foreign_isolationism
+	security_minor_restrictions
+	tax_low
 }

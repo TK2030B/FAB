@@ -41,5 +41,8 @@ recruit_character=REA_Bronn
 
 add_ideas = {  
 	GOT_Tradition_Reach  
-	GOT_Religion_The_Seven  
+	GOT_Religion_The_Seven 
+	foreign_cooperative
+	security_minor_restrictions
+	tax_average	
 }

@@ -96,4 +96,7 @@ set_convoys = 5
 add_ideas = {
 	GOT_Tradition_Nights_Watch
 	GOT_Religion_Old_Gods
+	foreign_interventionism
+	security_major_restrictions
+	tax_minimal
 }

@@ -28,4 +28,7 @@ recruit_character=QOH_Ruling_Council
 add_ideas = {  
 	GOT_Tradition_Qohor 
 	GOT_Religion_Black_Goat
+	foreign_interventionism
+	security_major_restrictions
+	tax_high
 }

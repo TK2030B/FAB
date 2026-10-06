@@ -45,6 +45,9 @@ recruit_character=NOR_Jon_Snow
 add_ideas = {
 	GOT_Tradition_North
 	GOT_Religion_Old_Gods
+	foreign_neutral
+	security_minor_restrictions
+	tax_low
 }
 
 create_faction = "Wolves of the North"

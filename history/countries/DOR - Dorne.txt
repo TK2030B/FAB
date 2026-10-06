@@ -37,4 +37,7 @@ recruit_character=DOR_Ellaria_Sand
 add_ideas = {
 	GOT_Tradition_Dorne
 	GOT_Religion_The_Seven
+	foreign_neutral
+	security_liberty_first
+	tax_low
 }

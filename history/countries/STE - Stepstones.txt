@@ -35,4 +35,7 @@ recruit_character=STE_Sailors_Council
 add_ideas = {
 	GOT_Tradition_Stepstones
 	GOT_Religion_Ocean_Worship
+	foreign_warmonger
+	security_police_state
+	tax_high
 }

@@ -34,4 +34,7 @@ recruit_character=YTI_Monks_Council
 add_ideas = {
 	GOT_Religion_Far_Eastern
 	GOT_Tradition_Far_Eastern
+	foreign_isolationism
+	security_major_restrictions
+	tax_high
 }
