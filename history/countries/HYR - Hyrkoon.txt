@@ -22,4 +22,7 @@ recruit_character = HYR_Council_of_Warrior_Maids
 add_ideas = {
 	GOT_Tradition_Fortress
 	GOT_Religion_Ancestor_Worship
+	foreign_isolationism
+	security_major_restrictions
+	tax_high
 }

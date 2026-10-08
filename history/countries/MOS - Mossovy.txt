@@ -22,4 +22,7 @@ recruit_character = MOS_Grand_Hunter_of_Mossovy
 add_ideas = {
 	GOT_Tradition_Tribal
 	GOT_Religion_Nature_Worship
+	foreign_isolationism
+	security_major_restrictions
+	tax_average
 }

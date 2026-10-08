@@ -74,21 +74,21 @@ focus_tree = {
 	focus = {
 		id = GOT_communist_path
 		icon = GFX_goal_support_communism
-		x = 3
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -9
 		y = 1
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_open_political_sphere
 		}
 		mutually_exclusive = {
 			focus = GOT_non_alligned_path
-		}
-		mutually_exclusive = {
 			focus = GOT_fascist_path
-		}
-		mutually_exclusive = {
 			focus = GOT_democratic_path
 		}
+
 		ai_will_do = {
 			factor = 1600
 			modifier = {
@@ -107,6 +107,7 @@ focus_tree = {
 				GOT_Targaryen_Sympathies = yes
 			}
 		}
+
 		completion_reward = {
 			add_timed_idea = {
 				idea = communist_influence
@@ -117,9 +118,12 @@ focus_tree = {
 	focus = {
 		id = GOT_send_commissaries_in_army
 		icon = GFX_focus_generic_limited_social_mobilization
-		x = 2
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -10
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_communist_path
 		}
@@ -132,12 +136,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_send_representatives_in_factories
 		icon = GFX_goal_generic_soviet_construction
-		x = 4
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -8
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_communist_path
 		}
@@ -150,121 +158,16 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = GOT_red_friday
-		icon = GFX_focus_generic_join_comintern
-		x = 1
-		y = 3
-		cost = 5
-		prerequisite = {
-			focus = GOT_send_commissaries_in_army
-		}
-		prerequisite = {
-			focus = GOT_send_representatives_in_factories
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			country_event = {
-				id = GOT_Generic.1
-				days = 1
-			}
-		}
-	}
-	focus = {
-		id = GOT_smuggel_weapons
-		icon = GFX_goal_generic_small_arms
-		x = 3
-		y = 3
-		cost = 5
-		prerequisite = {
-			focus = GOT_send_commissaries_in_army
-		}
-		prerequisite = {
-			focus = GOT_send_representatives_in_factories
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			army_experience = 25
-		}
-	}
-	focus = {
-		id = GOT_sabotage_factories
-		icon = GFX_focus_generic_infiltration
-		x = 5
-		y = 3
-		cost = 5
-		prerequisite = {
-			focus = GOT_send_commissaries_in_army
-		}
-		prerequisite = {
-			focus = GOT_send_representatives_in_factories
-		}
-		prerequisite = {
-			focus = GOT_support_unions
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			country_event = {
-				id = GOT_Generic.2
-				days = 1
-			}
-		}
-	}
-	focus = {
-		id = GOT_strenghen_paramilitaries
-		icon = GFX_focus_generic_limited_social_mobilization
-		x = 3
-		y = 4
-		cost = 5
-		prerequisite = {
-			focus = GOT_smuggel_weapons
-		}
-		prerequisite = {
-			focus = GOT_red_friday
-		}
-		prerequisite = {
-			focus = GOT_sabotage_factories
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_commie_paramilitaries
-			}
-		}
-	}
-	focus = {
-		id = GOT_revolution
-		icon = GFX_focus_generic_spur_communist_revolutions
-		x = 3
-		y = 5
-		cost = 5
-		prerequisite = {
-			focus = GOT_strenghen_paramilitaries
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			country_event = {
-				id = GOT_Generic.3
-				days = 1
-			}
-		}
-	}
+
 	focus = {
 		id = GOT_support_unions
 		icon = GFX_focus_generic_industry_3
-		x = 6
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -6
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_communist_path
 			focus = GOT_democratic_path
@@ -291,24 +194,153 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = GOT_red_friday
+		icon = GFX_focus_generic_join_comintern
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -11
+		y = 3
+		cost = 5
+
+		prerequisite = {
+			focus = GOT_send_commissaries_in_army
+		}
+		prerequisite = {
+			focus = GOT_send_representatives_in_factories
+		}
+		ai_will_do = {
+			factor = 1600
+		}
+		completion_reward = {
+			country_event = {
+				id = GOT_Generic.1
+				days = 1
+			}
+		}
+	}
+
+	focus = {
+		id = GOT_smuggel_weapons
+		icon = GFX_goal_generic_small_arms
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -9
+		y = 3
+		cost = 5
+
+		prerequisite = {
+			focus = GOT_send_commissaries_in_army
+		}
+		prerequisite = {
+			focus = GOT_send_representatives_in_factories
+		}
+		ai_will_do = {
+			factor = 1600
+		}
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+
+	focus = {
+		id = GOT_sabotage_factories
+		icon = GFX_focus_generic_infiltration
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -7
+		y = 3
+		cost = 5
+
+		prerequisite = {
+			focus = GOT_send_commissaries_in_army
+		}
+		prerequisite = {
+			focus = GOT_send_representatives_in_factories
+		}
+		prerequisite = {
+			focus = GOT_support_unions
+		}
+		ai_will_do = {
+			factor = 1600
+		}
+		completion_reward = {
+			country_event = {
+				id = GOT_Generic.2
+				days = 1
+			}
+		}
+	}
+
+	focus = {
+		id = GOT_strenghen_paramilitaries
+		icon = GFX_focus_generic_limited_social_mobilization
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -9
+		y = 4
+		cost = 5
+
+		prerequisite = {
+			focus = GOT_smuggel_weapons
+		}
+		prerequisite = {
+			focus = GOT_red_friday
+		}
+		prerequisite = {
+			focus = GOT_sabotage_factories
+		}
+		ai_will_do = {
+			factor = 1600
+		}
+		completion_reward = {
+			add_ideas = {
+				RI_commie_paramilitaries
+			}
+		}
+	}
+
+	focus = {
+		id = GOT_revolution
+		icon = GFX_focus_generic_spur_communist_revolutions
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -9
+		y = 5
+		cost = 5
+
+		prerequisite = {
+			focus = GOT_strenghen_paramilitaries
+		}
+		ai_will_do = {
+			factor = 1600
+		}
+		completion_reward = {
+			country_event = {
+				id = GOT_Generic.3
+				days = 1
+			}
+		}
+	}
 	focus = {
 		id = GOT_democratic_path
 		icon = GFX_goal_support_democracy
-		x = 9
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -3
 		y = 1
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_open_political_sphere
 		}
 		mutually_exclusive = {
 			focus = GOT_communist_path
-		}
-		mutually_exclusive = {
 			focus = GOT_fascist_path
-		}
-		mutually_exclusive = {
 			focus = GOT_non_alligned_path
 		}
+
 		ai_will_do = {
 			factor = 1600
 			modifier = {
@@ -323,6 +355,7 @@ focus_tree = {
 				has_government = democratic
 			}
 		}
+
 		completion_reward = {
 			add_timed_idea = {
 				idea = democratic_influence
@@ -330,12 +363,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_supporters_in_factories
 		icon = GFX_focus_generic_the_giant_wakes
-		x = 8
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -4
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_democratic_path
 		}
@@ -365,12 +402,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_support_free_speech
 		icon = GFX_goal_generic_propaganda
-		x = 10
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -2
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_democratic_path
 		}
@@ -383,12 +424,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_support_workers_movements
 		icon = GFX_focus_generic_the_giant_wakes
-		x = 7
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -5
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_support_free_speech
 		}
@@ -407,12 +452,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_free_press
 		icon = GFX_focus_generic_printing_press
-		x = 9
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -3
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_support_free_speech
 		}
@@ -429,12 +478,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_found_parliament
 		icon = GFX_focus_generic_court
-		x = 11
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -1
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_support_free_speech
 		}
@@ -450,12 +503,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_draft_constitution
 		icon = GFX_focus_generic_treaty
-		x = 9
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -3
 		y = 4
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_found_parliament
 		}
@@ -474,12 +531,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_hold_elections
 		icon = GFX_focus_generic_election
-		x = 9
+		
+		relative_position_id = GOT_open_political_sphere
+		x = -3
 		y = 5
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_draft_constitution
 		}
@@ -496,21 +557,21 @@ focus_tree = {
 	focus = {
 		id = GOT_non_alligned_path
 		icon = GFX_focus_generic_support_the_left_right
-		x = 15
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 3
 		y = 1
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_open_political_sphere
 		}
 		mutually_exclusive = {
 			focus = GOT_communist_path
-		}
-		mutually_exclusive = {
 			focus = GOT_fascist_path
-		}
-		mutually_exclusive = {
 			focus = GOT_democratic_path
 		}
+
 		ai_will_do = {
 			factor = 1600
 			modifier = {
@@ -537,6 +598,7 @@ focus_tree = {
 				GOT_Stannis_Sympathies = yes
 			}
 		}
+
 		completion_reward = {
 			add_timed_idea = {
 				idea = neutrality_influence
@@ -544,12 +606,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_noble_birthright
 		icon = GFX_focus_generic_monarchist_sentiment
-		x = 14
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 2
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_non_alligned_path
 		}
@@ -579,12 +645,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_rightful_rule
 		icon = GFX_goal_generic_political_pressure
-		x = 16
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 4
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_non_alligned_path
 		}
@@ -614,12 +684,37 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = GOT_nationalist_ideas
+		icon = GFX_goal_generic_territory_or_war
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 6
+		y = 2
+		cost = 5
+
+		prerequisite = {
+			focus = GOT_non_alligned_path
+			focus = GOT_fascist_path
+		}
+		ai_will_do = {
+			factor = 1600
+		}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
 	focus = {
 		id = GOT_monarchist_general_staff
 		icon = GFX_goal_generic_army_doctrines
-		x = 13
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 1
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_rightful_rule
 		}
@@ -652,12 +747,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_increase_patriotism
 		icon = GFX_focus_generic_military_dictatorship
-		x = 15
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 3
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_rightful_rule
 		}
@@ -693,12 +792,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_monarchist_politicians
 		icon = GFX_focus_generic_court
-		x = 17
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 5
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_rightful_rule
 		}
@@ -731,12 +834,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_controlled_opposition
 		icon = GFX_focus_generic_self_management
-		x = 15
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 3
 		y = 4
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_monarchist_general_staff
 		}
@@ -776,12 +883,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_unite_the_people
 		icon = GFX_focus_generic_monarchy_1
-		x = 15
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 3
 		y = 5
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_controlled_opposition
 		}
@@ -796,40 +907,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GOT_nationalist_ideas
-		icon = GFX_goal_generic_territory_or_war
-		x = 18
-		y = 2
-		cost = 5
-		prerequisite = {
-			focus = GOT_non_alligned_path
-			focus = GOT_fascist_path
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_war_support = 0.1
-		}
-	}
-	focus = {
 		id = GOT_fascist_path
 		icon = GFX_goal_support_fascism
-		x = 21
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 9
 		y = 1
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_open_political_sphere
 		}
 		mutually_exclusive = {
 			focus = GOT_non_alligned_path
-		}
-		mutually_exclusive = {
 			focus = GOT_communist_path
-		}
-		mutually_exclusive = {
 			focus = GOT_democratic_path
 		}
+
 		ai_will_do = {
 			factor = 1600
 			modifier = {
@@ -852,6 +946,7 @@ focus_tree = {
 				GOT_Ironborn_Sympathies = yes
 			}
 		}
+
 		completion_reward = {
 			add_timed_idea = {
 				idea = fascist_influence
@@ -859,12 +954,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_racial_superiority
 		icon = GFX_goal_continuous_suppression
-		x = 20
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 8
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_fascist_path
 		}
@@ -877,12 +976,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_noble_supporters
 		icon = GFX_focus_generic_court
-		x = 22
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 10
 		y = 2
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_fascist_path
 		}
@@ -895,12 +998,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_assault_multiculturalism
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 19
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 7
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_nationalist_ideas
 		}
@@ -918,12 +1025,16 @@ focus_tree = {
 			add_stability = -0.1
 		}
 	}
+
 	focus = {
 		id = GOT_massive_propaganda
 		icon = GFX_goal_generic_propaganda
-		x = 21
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 9
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_noble_supporters
 		}
@@ -940,12 +1051,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_paramilitarism
 		icon = GFX_goal_generic_military_sphere
-		x = 23
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 11
 		y = 3
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_noble_supporters
 		}
@@ -961,12 +1076,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_leader_principle
 		icon = GFX_focus_generic_military_dictatorship
-		x = 21
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 9
 		y = 4
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_paramilitarism
 		}
@@ -985,12 +1104,16 @@ focus_tree = {
 			}
 		}
 	}
+
 	focus = {
 		id = GOT_the_coup
 		icon = GFX_focus_generic_fascist_troops
-		x = 21
+		
+		relative_position_id = GOT_open_political_sphere
+		x = 9
 		y = 5
 		cost = 5
+
 		prerequisite = {
 			focus = GOT_leader_principle
 		}
@@ -1004,622 +1127,649 @@ focus_tree = {
 			}
 		}
 	}
-	
 	focus = {
-		id = GOT_successful_revolution
-		icon = GFX_goal_generic_war_with_comintern
-		x = 3
-		y = 6
-		cost = 5
-		prerequisite = {
-			focus = GOT_revolution
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = communism
+			id = GOT_successful_revolution
+			icon = GFX_goal_generic_war_with_comintern
+			relative_position_id = GOT_open_political_sphere
+			x = -9
+			y = 6
+			cost = 5
+			prerequisite = {
+				focus = GOT_revolution
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_popularity = {
+					popularity = 0.1
+					ideology = communism
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_purge_army
-		icon = GFX_focus_generic_limited_social_mobilization
-		x = 2
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_successful_revolution
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			remove_ideas = RI_military_resistance
-		}
-	}
-	focus = {
-		id = GOT_five_year_plan
-		icon = GFX_goal_generic_soviet_construction
-		x = 4
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_successful_revolution
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_timed_idea = {
-				idea = RI_five_year_plan
-				days = 1800
+		focus = {
+			id = GOT_purge_army
+			icon = GFX_focus_generic_limited_social_mobilization
+			relative_position_id = GOT_open_political_sphere
+			x = -10
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_successful_revolution
 			}
-			remove_ideas = {
-				RI_commie_unions
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				remove_ideas = RI_military_resistance
 			}
 		}
-	}
-	focus = {
-		id = GOT_equal_education
-		icon = GFX_focus_generic_socialist_science
-		x = 1
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_purge_army
-		}
-		prerequisite = {
-			focus = GOT_five_year_plan
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_commie_education
+		focus = {
+			id = GOT_five_year_plan
+			icon = GFX_goal_generic_soviet_construction
+			relative_position_id = GOT_open_political_sphere
+			x = -8
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_successful_revolution
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_timed_idea = {
+					idea = RI_five_year_plan
+					days = 1800
+				}
+				remove_ideas = {
+					RI_commie_unions
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_collectivisation
-		icon = GFX_focus_generic_farmland
-		x = 3
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_purge_army
-		}
-		prerequisite = {
-			focus = GOT_five_year_plan
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			remove_ideas = {
-				RI_political_resistance
+		focus = {
+			id = GOT_equal_education
+			icon = GFX_focus_generic_socialist_science
+			relative_position_id = GOT_open_political_sphere
+			x = -11
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_purge_army
 			}
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = GOT_mass_mobilisation_commie
-		icon = GFX_focus_generic_limited_social_mobilization
-		x = 5
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_purge_army
-		}
-		prerequisite = {
-			focus = GOT_five_year_plan
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_mass_mobilisation_commie_idea
+			prerequisite = {
+				focus = GOT_five_year_plan
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_commie_education
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_spread_revolution
-		icon = GFX_focus_generic_spur_communist_revolutions
-		x = 2
-		y = 9
-		cost = 5
-		prerequisite = {
-			focus = GOT_collectivisation
-		}
-		prerequisite = {
-			focus = GOT_mass_mobilisation_commie
-		}
-		prerequisite = {
-			focus = GOT_equal_education
-		}
-		mutually_exclusive = {
-			focus = GOT_socialism_in_one_country
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_spread_revolution_idea
+		focus = {
+			id = GOT_collectivisation
+			icon = GFX_focus_generic_farmland
+			relative_position_id = GOT_open_political_sphere
+			x = -9
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_purge_army
+			}
+			prerequisite = {
+				focus = GOT_five_year_plan
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				remove_ideas = {
+					RI_political_resistance
+				}
+				add_political_power = 150
 			}
 		}
-	}
-	focus = {
-		id = GOT_socialism_in_one_country
-		icon = GFX_focus_generic_soviet_politics
-		x = 4
-		y = 9
-		cost = 5
-		prerequisite = {
-			focus = GOT_collectivisation
+		focus = {
+			id = GOT_mass_mobilisation_commie
+			icon = GFX_focus_generic_limited_social_mobilization
+			relative_position_id = GOT_open_political_sphere
+			x = -7
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_purge_army
+			}
+			prerequisite = {
+				focus = GOT_five_year_plan
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_mass_mobilisation_commie_idea
+				}
+			}
 		}
-		prerequisite = {
-			focus = GOT_mass_mobilisation_commie
+		focus = {
+			id = GOT_spread_revolution
+			icon = GFX_focus_generic_spur_communist_revolutions
+			relative_position_id = GOT_open_political_sphere
+			x = -10
+			y = 9
+			cost = 5
+			prerequisite = {
+				focus = GOT_collectivisation
+			}
+			prerequisite = {
+				focus = GOT_mass_mobilisation_commie
+			}
+			prerequisite = {
+				focus = GOT_equal_education
+			}
+			mutually_exclusive = {
+				focus = GOT_socialism_in_one_country
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_spread_revolution_idea
+				}
+			}
 		}
-		prerequisite = {
-			focus = GOT_equal_education
-		}
-		mutually_exclusive = {
-			focus = GOT_spread_revolution
-		}
+		focus = {
+			id = GOT_socialism_in_one_country
+			icon = GFX_focus_generic_soviet_politics
+			relative_position_id = GOT_open_political_sphere
+			x = -8
+			y = 9
+			cost = 5
+			prerequisite = {
+				focus = GOT_collectivisation
+			}
+			prerequisite = {
+				focus = GOT_mass_mobilisation_commie
+			}
+			prerequisite = {
+				focus = GOT_equal_education
+			}
+			mutually_exclusive = {
+				focus = GOT_spread_revolution
+			}
 
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_isolationism
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_isolationism
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_new_cabinet
-		icon = GFX_focus_generic_printing_press
-		x = 9
-		y = 6
-		cost = 5
-		prerequisite = {
-			focus = GOT_hold_elections
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = democratic
+		focus = {
+			id = GOT_new_cabinet
+			icon = GFX_focus_generic_printing_press
+			relative_position_id = GOT_open_political_sphere
+			x = -3
+			y = 6
+			cost = 5
+			prerequisite = {
+				focus = GOT_hold_elections
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_popularity = {
+					popularity = 0.1
+					ideology = democratic
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_strenghen_democratic_spirit
-		icon = GFX_goal_support_democracy
-		x = 8
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_new_cabinet
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = democratic
+		focus = {
+			id = GOT_strenghen_democratic_spirit
+			icon = GFX_goal_support_democracy
+			relative_position_id = GOT_open_political_sphere
+			x = -4
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_new_cabinet
 			}
-			remove_ideas = {
-				RI_military_resistance
+			ai_will_do = {
+				factor = 1600
 			}
-		}
-	}
-	focus = {
-		id = GOT_seperation_of_powers
-		icon = GFX_focus_generic_court
-		x = 10
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_new_cabinet
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			remove_ideas = {
-				RI_political_resistance
-			}
-			add_political_power = -150
-		}
-	}
-	focus = {
-		id = GOT_education_reform
-		icon = GFX_goal_generic_scientific_exchange
-		x = 7
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_strenghen_democratic_spirit
-		}
-		prerequisite = {
-			focus = GOT_seperation_of_powers
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_democratic_education
+			completion_reward = {
+				add_popularity = {
+					popularity = 0.1
+					ideology = democratic
+				}
+				remove_ideas = {
+					RI_military_resistance
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_home_of_the_free
-		icon = GFX_goal_support_democracy
-		x = 9
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_strenghen_democratic_spirit
-		}
-		prerequisite = {
-			focus = GOT_seperation_of_powers
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_home_of_the_free_idea
+		focus = {
+			id = GOT_seperation_of_powers
+			icon = GFX_focus_generic_court
+			relative_position_id = GOT_open_political_sphere
+			x = -2
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_new_cabinet
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				remove_ideas = {
+					RI_political_resistance
+				}
+				add_political_power = -150
 			}
 		}
-	}
-	focus = {
-		id = GOT_labor_reform_democratic
-		icon = GFX_focus_generic_the_giant_wakes
-		x = 11
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_strenghen_democratic_spirit
-		}
-		prerequisite = {
-			focus = GOT_seperation_of_powers
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = democratic
+		focus = {
+			id = GOT_education_reform
+			icon = GFX_goal_generic_scientific_exchange
+			relative_position_id = GOT_open_political_sphere
+			x = -5
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_strenghen_democratic_spirit
 			}
-			remove_ideas = {
-				RI_democratic_workers
+			prerequisite = {
+				focus = GOT_seperation_of_powers
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_democratic_education
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_spread_democracy
-		icon = GFX_goal_support_democracy
-		x = 9
-		y = 9
-		cost = 5
-		prerequisite = {
-			focus = GOT_home_of_the_free
-		}
-		prerequisite = {
-			focus = GOT_labor_reform_democratic
-		}
-		prerequisite = {
-			focus = GOT_education_reform
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_spread_democracy
+		focus = {
+			id = GOT_home_of_the_free
+			icon = GFX_goal_support_democracy
+			relative_position_id = GOT_open_political_sphere
+			x = -3
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_strenghen_democratic_spirit
+			}
+			prerequisite = {
+				focus = GOT_seperation_of_powers
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_home_of_the_free_idea
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_stability
-		icon = GFX_goal_generic_neutrality_focus
-		x = 15
-		y = 6
-		cost = 5
-		prerequisite = {
-			focus = GOT_unite_the_people
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = neutrality
+		focus = {
+			id = GOT_labor_reform_democratic
+			icon = GFX_focus_generic_the_giant_wakes
+			relative_position_id = GOT_open_political_sphere
+			x = -1
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_strenghen_democratic_spirit
+			}
+			prerequisite = {
+				focus = GOT_seperation_of_powers
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_popularity = {
+					popularity = 0.1
+					ideology = democratic
+				}
+				remove_ideas = {
+					RI_democratic_workers
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_help_poor
-		icon = GFX_goal_generic_improve_relations
-		x = 14
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_stability
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = neutrality
+		focus = {
+			id = GOT_spread_democracy
+			icon = GFX_goal_support_democracy
+			relative_position_id = GOT_open_political_sphere
+			x = -3
+			y = 9
+			cost = 5
+			prerequisite = {
+				focus = GOT_home_of_the_free
 			}
-			add_ideas = {
-				RI_helped_poor
+			prerequisite = {
+				focus = GOT_labor_reform_democratic
 			}
-		}
-	}
-	focus = {
-		id = GOT_strenghen_patriotism
-		icon = GFX_focus_generic_fascist_propaganda
-		x = 16
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_stability
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_patriotism
+			prerequisite = {
+				focus = GOT_education_reform
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_spread_democracy
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_martial_law
-		icon = GFX_focus_generic_fascist_troops
-		x = 13
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_help_poor
-		}
-		prerequisite = {
-			focus = GOT_strenghen_patriotism
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			remove_ideas = RI_political_resistance
-			add_ideas = extensive_conscription
-			add_ideas = partial_economic_mobilisation
-		}
-	}
-	focus = {
-		id = GOT_national_guard
-		icon = GFX_focus_generic_little_entente
-		x = 15
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_strenghen_patriotism
-		}
-		prerequisite = {
-			focus = GOT_strenghen_patriotism
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			remove_ideas = RI_military_resistance
-		}
-	}
-	focus = {
-		id = GOT_indoctrinate_schools
-		icon = GFX_focus_generic_military_academy
-		x = 17
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_strenghen_patriotism
-		}
-		prerequisite = {
-			focus = GOT_strenghen_patriotism
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_indoctrinated_schools
+		focus = {
+			id = GOT_stability
+			icon = GFX_goal_generic_neutrality_focus
+			relative_position_id = GOT_open_political_sphere
+			x = 3
+			y = 6
+			cost = 5
+			prerequisite = {
+				focus = GOT_unite_the_people
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_popularity = {
+					popularity = 0.1
+					ideology = neutrality
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_absolute_obedience
-		icon = GFX_focus_generic_fascist_propaganda
-		x = 15
-		y = 9
-		cost = 5
-		prerequisite = {
-			focus = GOT_martial_law
-		}
-		prerequisite = {
-			focus = GOT_national_guard
-		}
-		prerequisite = {
-			focus = GOT_indoctrinate_schools
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_no_questions
+		focus = {
+			id = GOT_help_poor
+			icon = GFX_goal_generic_improve_relations
+			relative_position_id = GOT_open_political_sphere
+			x = 2
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_stability
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_popularity = {
+					popularity = 0.1
+					ideology = neutrality
+				}
+				add_ideas = {
+					RI_helped_poor
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_law_of_dictator
-		icon = GFX_goal_generic_demand_territory
-		x = 21
-		y = 6
-		cost = 5
-		prerequisite = {
-			focus = GOT_the_coup
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_popularity = {
-				popularity = 0.1
-				ideology = fascism
+		focus = {
+			id = GOT_strenghen_patriotism
+			icon = GFX_focus_generic_fascist_propaganda
+			relative_position_id = GOT_open_political_sphere
+			x = 4
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_stability
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_patriotism
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_godlike_propaganda
-		icon = GFX_focus_generic_strike_at_democracy2
-		x = 20
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_law_of_dictator
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_propaganda
+		focus = {
+			id = GOT_martial_law
+			icon = GFX_focus_generic_fascist_troops
+			relative_position_id = GOT_open_political_sphere
+			x = 1
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_help_poor
+			}
+			prerequisite = {
+				focus = GOT_strenghen_patriotism
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				remove_ideas = RI_political_resistance
+				add_ideas = extensive_conscription
+				add_ideas = partial_economic_mobilisation
 			}
 		}
-	}
-	focus = {
-		id = GOT_purge_opposition
-		icon = GFX_goal_continuous_suppression
-		x = 22
-		y = 7
-		cost = 5
-		prerequisite = {
-			focus = GOT_law_of_dictator
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			remove_ideas = {
-				RI_political_resistance
+		focus = {
+			id = GOT_national_guard
+			icon = GFX_focus_generic_little_entente
+			relative_position_id = GOT_open_political_sphere
+			x = 3
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_strenghen_patriotism
+			}
+			prerequisite = {
+				focus = GOT_strenghen_patriotism
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				remove_ideas = RI_military_resistance
 			}
 		}
-	}
-	focus = {
-		id = GOT_military_youth
-		icon = GFX_goal_generic_more_territorial_claims
-		x = 19
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_godlike_propaganda
-		}
-		prerequisite = {
-			focus = GOT_purge_opposition
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_fascist_youth
+		focus = {
+			id = GOT_indoctrinate_schools
+			icon = GFX_focus_generic_military_academy
+			relative_position_id = GOT_open_political_sphere
+			x = 5
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_strenghen_patriotism
+			}
+			prerequisite = {
+				focus = GOT_strenghen_patriotism
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_indoctrinated_schools
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_pure_army
-		icon = GFX_focus_generic_little_entente
-		x = 21
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_godlike_propaganda
-		}
-		prerequisite = {
-			focus = GOT_purge_opposition
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			remove_ideas = {
-				RI_military_resistance
+		focus = {
+			id = GOT_absolute_obedience
+			icon = GFX_focus_generic_fascist_propaganda
+			relative_position_id = GOT_open_political_sphere
+			x = 3
+			y = 9
+			cost = 5
+			prerequisite = {
+				focus = GOT_martial_law
+			}
+			prerequisite = {
+				focus = GOT_national_guard
+			}
+			prerequisite = {
+				focus = GOT_indoctrinate_schools
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_no_questions
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_national_cult
-		icon = GFX_focus_generic_fascist_propaganda
-		x = 23
-		y = 8
-		cost = 5
-		prerequisite = {
-			focus = GOT_godlike_propaganda
-		}
-		prerequisite = {
-			focus = GOT_purge_opposition
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			add_ideas = {
-				RI_fash_cult
+		focus = {
+			id = GOT_law_of_dictator
+			icon = GFX_goal_generic_demand_territory
+			relative_position_id = GOT_open_political_sphere
+			x = 9
+			y = 6
+			cost = 5
+			prerequisite = {
+				focus = GOT_the_coup
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_popularity = {
+					popularity = 0.1
+					ideology = fascism
+				}
 			}
 		}
-	}
-	focus = {
-		id = GOT_total_dictatorship
-		icon = GFX_focus_generic_military_dictatorship
-		x = 21
-		y = 9
-		cost = 5
-		prerequisite = {
-			focus = GOT_pure_army
-		}
-		prerequisite = {
-			focus = GOT_national_cult
-		}
-		prerequisite = {
-			focus = GOT_military_youth
-		}
-		ai_will_do = {
-			factor = 1600
-		}
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = RI_absolute_fuhrer
-				add_idea = RI_total_dictator
+		focus = {
+			id = GOT_godlike_propaganda
+			icon = GFX_focus_generic_strike_at_democracy2
+			relative_position_id = GOT_open_political_sphere
+			x = 8
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_law_of_dictator
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_propaganda
+				}
 			}
 		}
-	}
-	
+		focus = {
+			id = GOT_purge_opposition
+			icon = GFX_goal_continuous_suppression
+			relative_position_id = GOT_open_political_sphere
+			x = 10
+			y = 7
+			cost = 5
+			prerequisite = {
+				focus = GOT_law_of_dictator
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				remove_ideas = {
+					RI_political_resistance
+				}
+			}
+		}
+		focus = {
+			id = GOT_military_youth
+			icon = GFX_goal_generic_more_territorial_claims
+			relative_position_id = GOT_open_political_sphere
+			x = 7
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_godlike_propaganda
+			}
+			prerequisite = {
+				focus = GOT_purge_opposition
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_fascist_youth
+				}
+			}
+		}
+		focus = {
+			id = GOT_pure_army
+			icon = GFX_focus_generic_little_entente
+			relative_position_id = GOT_open_political_sphere
+			x = 9
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_godlike_propaganda
+			}
+			prerequisite = {
+				focus = GOT_purge_opposition
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				remove_ideas = {
+					RI_military_resistance
+				}
+			}
+		}
+		focus = {
+			id = GOT_national_cult
+			icon = GFX_focus_generic_fascist_propaganda
+			relative_position_id = GOT_open_political_sphere
+			x = 11
+			y = 8
+			cost = 5
+			prerequisite = {
+				focus = GOT_godlike_propaganda
+			}
+			prerequisite = {
+				focus = GOT_purge_opposition
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				add_ideas = {
+					RI_fash_cult
+				}
+			}
+		}
+		focus = {
+			id = GOT_total_dictatorship
+			icon = GFX_focus_generic_military_dictatorship
+			relative_position_id = GOT_open_political_sphere
+			x = 9
+			y = 9
+			cost = 5
+			prerequisite = {
+				focus = GOT_pure_army
+			}
+			prerequisite = {
+				focus = GOT_national_cult
+			}
+			prerequisite = {
+				focus = GOT_military_youth
+			}
+			ai_will_do = {
+				factor = 1600
+			}
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = RI_absolute_fuhrer
+					add_idea = RI_total_dictator
+				}
+			}
+		}
 		focus = {
 		id = GOT_diplomacy_focus
 		icon = GFX_focus_generic_diplomatic_treaty

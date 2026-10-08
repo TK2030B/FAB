@@ -22,5 +22,8 @@ recruit_character = BLA_Young_Griff
 add_ideas = {
 	GOT_Tradition_Crownlands
 	GOT_Religion_The_Seven
+	foreign_interventionism
+	security_major_restrictions
+	tax_high
 }
 

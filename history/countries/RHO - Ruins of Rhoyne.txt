@@ -22,4 +22,7 @@ recruit_character = RHO_The_Shrouded_Lord
 add_ideas = {
 	GOT_Tradition_Rhoynar
 	GOT_Religion_River_Worship
+	foreign_isolationism
+	security_minor_restrictions
+	tax_minimal
 }

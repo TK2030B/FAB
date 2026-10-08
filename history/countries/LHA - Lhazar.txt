@@ -22,4 +22,7 @@ recruit_character = LHA_Council_of_Elders
 add_ideas = {
 	GOT_Tradition_Nature
 	GOT_Religion_Great_Shepherd
+	foreign_isolationism
+	security_liberty_first
+	tax_minimal
 }

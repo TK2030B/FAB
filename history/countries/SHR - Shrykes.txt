@@ -22,4 +22,7 @@ recruit_character = SHR_Warlord_Grakks
 add_ideas = {
 	GOT_Tradition_Warband
 	GOT_Religion_Tribal
+	foreign_interventionism
+	security_police_state
+	tax_minimal
 }

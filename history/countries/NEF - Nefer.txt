@@ -30,4 +30,7 @@ recruit_character = NEF_High_Necromancer_Vaelen
 add_ideas = {
 	GOT_Tradition_Outlaw
 	GOT_Religion_Dark_Arts
+	foreign_isolationism
+	security_police_state
+	tax_high
 }

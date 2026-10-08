@@ -22,4 +22,7 @@ recruit_character = WIN_High_Archon_Aethelgard
 add_ideas = {
 	GOT_Tradition_Far_Eastern
 	GOT_Religion_Nature_Worship
+	foreign_isolationism
+	security_major_restrictions
+	tax_average
 }
