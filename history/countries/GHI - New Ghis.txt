@@ -40,3 +40,8 @@ add_ideas = {
 	security_major_restrictions
 	tax_high
 }
+
+create_faction = "The League of the Harpy"
+#add_to_faction = MER
+#add_to_faction = YUN
+#add_to_faction = AST

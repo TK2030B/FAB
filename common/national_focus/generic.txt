@@ -945,6 +945,10 @@ focus_tree = {
 				factor = 2
 				GOT_Ironborn_Sympathies = yes
 			}
+			modifier = {
+				factor = 2
+				GOT_Blackfyre_Sympathies = yes
+			}
 		}
 
 		completion_reward = {
@@ -2482,13 +2486,75 @@ focus_tree = {
 	}
 	focus = {
 		id = GOT_democratic_foreign_policy
-		icon = GFX_focus_generic_house_targaryen
-		x = -4
+		icon = GFX_focus_generic_the_dragons
+		x = -1
 		y = 1
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
 		
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Targaryen_Faction = no
+				GOT_Blackfyre_Faction = no
+			}
+			modifier = {
+				factor = 0.01
+				is_historical_focus_on = no
+				GOT_Targaryen_Faction = no
+				GOT_Blackfyre_Faction = no
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					GOT_Targaryen_Faction = yes
+					GOT_Blackfyre_Faction = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				GOT_War_Participant = yes
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					GOT_Targaryen_Sympathies = yes
+					GOT_Blackfyre_Sympathies = yes
+				}
+			}
+		}
+		available = {
+			is_in_faction = no
+			NOT = { has_idea = RI_neutrality_idea }
+		}
+		
+		prerequisite = {
+			focus = GOT_diplomacy_focus
+		}
+		mutually_exclusive = {
+			focus = GOT_communist_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = GOT_fascist_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = GOT_stay_neutral
+		}
+		completion_reward = {
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = GOT_approach_england
+		icon = GFX_focus_generic_house_targaryen
+		x = -4
+		y = 2
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
 		ai_will_do = {
 			factor = 3200
 			modifier = {
@@ -2536,40 +2602,11 @@ focus_tree = {
 				GOT_Targaryen_Sympathies = yes
 			}
 		}
-		available = {
-			is_in_faction = no
-			NOT = { has_idea = RI_neutrality_idea }
-		}
-		
-		prerequisite = {
-			focus = GOT_diplomacy_focus
-		}
-		mutually_exclusive = {
-			focus = GOT_communist_foreign_policy
-		}
-		mutually_exclusive = {
-			focus = GOT_fascist_foreign_policy
-		}
-		mutually_exclusive = {
-			focus = GOT_stay_neutral
-		}
-		completion_reward = {
-			add_political_power = 30
-		}
-	}
-	focus = {
-		id = GOT_approach_england
-		icon = GFX_focus_generic_house_targaryen
-		x = -6
-		y = 2
-		relative_position_id = GOT_diplomacy_focus
-
-		cost = 1
-		ai_will_do = {
-			factor = 3200
-		}
 		prerequisite = {
 			focus = GOT_democratic_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = GOT_BLA_approach_england
 		}
 		available = {
 			country_exists = TAR
@@ -2586,8 +2623,8 @@ focus_tree = {
 	focus = {
 		id = GOT_approach_usa
 		icon = GFX_focus_generic_gov_pentos
-		x = -4
-		y = 2
+		x = -3
+		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -2595,7 +2632,7 @@ focus_tree = {
 			factor = 3200
 		}
 		prerequisite = {
-			focus = GOT_democratic_foreign_policy
+			focus = GOT_approach_england
 		}
 		available = {
 			country_exists = PEN
@@ -2613,8 +2650,8 @@ focus_tree = {
 	focus = {
 		id = GOT_approach_france
 		icon = GFX_focus_generic_gov_dothraki
-		x = -2
-		y = 2
+		x = -5
+		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -2622,7 +2659,7 @@ focus_tree = {
 			factor = 3200
 		}
 		prerequisite = {
-			focus = GOT_democratic_foreign_policy
+			focus = GOT_approach_england
 		}
 		available = {
 			country_exists = DOT
@@ -2641,15 +2678,12 @@ focus_tree = {
 		id = GOT_expand_trade
 		icon = GFX_goal_generic_trade
 		x = -5
-		y = 3
+		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
 		ai_will_do = {
 			factor = 3200
-		}
-		prerequisite = {
-			focus = GOT_approach_england
 		}
 		prerequisite = {
 			focus = GOT_approach_france
@@ -2666,7 +2700,7 @@ focus_tree = {
 		id = GOT_sanction_extremists
 		icon = GFX_focus_generic_robert_baratheon
 		x = -6
-		y = 4
+		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -2699,7 +2733,7 @@ focus_tree = {
 		id = GOT_support_democratic_organisations
 		icon = GFX_goal_support_democracy
 		x = -6
-		y = 5
+		y = 6
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -2713,8 +2747,10 @@ focus_tree = {
 		completion_reward = {
 			every_country = {
 					limit = {
-						tag = TAR
-						is_in_faction_with = TAR
+						OR = {
+							tag = TAR
+							is_in_faction_with = TAR
+						}
 					}
 					PREV = {
 						add_opinion_modifier = {
@@ -2729,15 +2765,12 @@ focus_tree = {
 		id = GOT_victims_of_extremism
 		icon = GFX_focus_generic_meereen
 		x = -3
-		y = 3
+		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
 		ai_will_do = {
 			factor = 3200
-		}
-		prerequisite = {
-			focus = GOT_approach_england
 		}
 		prerequisite = {
 			focus = GOT_approach_france
@@ -2811,7 +2844,7 @@ focus_tree = {
 		id = GOT_save_haven
 		icon = GFX_focus_generic_meereen
 		x = -4
-		y = 4
+		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -2879,7 +2912,7 @@ focus_tree = {
 		id = GOT_increase_immigration
 		icon = GFX_focus_generic_monarchist_workers
 		x = -2
-		y = 4
+		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -2947,7 +2980,7 @@ focus_tree = {
 		id = GOT_foreign_scientists
 		icon = GFX_goal_generic_scientific_exchange
 		x = -4
-		y = 5
+		y = 6
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -3012,7 +3045,7 @@ focus_tree = {
 		id = GOT_foreign_engineers
 		icon = GFX_goal_generic_production
 		x = -2
-		y = 5
+		y = 6
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -3077,7 +3110,7 @@ focus_tree = {
 		id = GOT_join_allies
 		icon = GFX_focus_generic_house_targaryen
 		x = -4
-		y = 6
+		y = 7
 		relative_position_id = GOT_diplomacy_focus
 
 		cost = 1
@@ -3145,10 +3178,644 @@ focus_tree = {
 			}
 		}
 	}
+	#
+	focus = {
+		id = GOT_BLA_approach_england
+		icon = GFX_focus_generic_house_blackfyre
+		x = 2
+		y = 2
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				GOT_Blackfyre_Faction = no
+			}
+			modifier = {
+				factor = 0.01
+				is_historical_focus_on = no
+				GOT_Blackfyre_Faction = no
+			}
+			modifier = {
+				factor = 0
+				BLA = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				BLA = {
+					exists = no
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					tag = BLA
+				}
+				BLA = {
+					is_in_faction = no
+					is_faction_leader = no
+				}
+			}
+			modifier = {
+				factor = 2
+				GOT_Blackfyre_Faction = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_War_Participant = yes
+			}
+			modifier = {
+				factor = 2
+				GOT_Blackfyre_Sympathies = yes
+			}
+		}
+		prerequisite = {
+			focus = GOT_democratic_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = GOT_approach_england
+		}
+		available = {
+			country_exists = BLA
+		}
+		completion_reward = {
+			BLA = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_country
+				}
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_approach_usa
+		icon = GFX_focus_generic_tyrosh
+		x = 3
+		y = 3
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_approach_england
+		}
+		available = {
+			country_exists = TYR
+		}
+
+		completion_reward = {
+			TYR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_country
+				}
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_approach_france
+		icon = GFX_focus_generic_myr
+		x = 1
+		y = 3
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_approach_england
+		}
+		available = {
+			country_exists = MYR
+		}
+
+		completion_reward = {
+			MYR = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = RI_supports_own_country
+				}
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_expand_trade
+		icon = GFX_focus_generic_trade_with_free_cities
+		x = 1
+		y = 4
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_approach_france
+		}
+		prerequisite = {
+			focus = GOT_BLA_approach_usa
+		}
+		
+		completion_reward = {
+			add_ideas = free_trade
+		}
+	}
+	
+	focus = {
+		id = GOT_BLA_sanction_extremists
+		icon = GFX_focus_generic_dany_targaryen
+		x = 0
+		y = 5
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_expand_trade
+		}
+		prerequisite = {
+			focus = GOT_BLA_victims_of_extremism
+		}
+
+		completion_reward = {
+			every_country = {
+					limit = {
+						tag = TAR
+						is_in_faction_with = TAR
+					}
+					PREV = {
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = RI_sanctions
+						}
+					}
+				}
+		}
+	}
+	focus = {
+		id = GOT_BLA_support_democratic_organisations
+		icon = GFX_focus_generic_support_blackfyre_loyalists
+		x = 0
+		y = 6
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_sanction_extremists
+		}
+
+		completion_reward = {
+			every_country = {
+					limit = {
+						OR = {
+							tag = BLA
+							is_in_faction_with = BLA
+						}
+					}
+					PREV = {
+						add_opinion_modifier = {
+							target = ROOT
+							modifier = RI_friendly_foreign_policy
+						}
+					}
+				}
+		}
+	}
+	focus = {
+		id = GOT_BLA_victims_of_extremism
+		icon = GFX_focus_generic_golden_company
+		x = 3
+		y = 4
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_approach_france
+		}
+		prerequisite = {
+			focus = GOT_BLA_approach_usa
+		}
+		completion_reward = {
+			every_country = {
+				limit = {
+					has_idea = GOT_BLA_Tradition_Slaver
+				}
+				PREV = {
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = RI_sanctions
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
+				}
+			}
+			else = {
+				add_ideas = RI_refugees
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_save_haven
+		icon = GFX_focus_generic_blackfyre_stronghold
+		x = 2
+		y = 5
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_expand_trade
+		}
+		prerequisite = {
+			focus = GOT_BLA_victims_of_extremism
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
+				}
+			}
+			else = {
+				add_ideas = RI_refugees
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_increase_immigration
+		icon = GFX_focus_generic_welcome_blackfyre_exiles
+		x = 4
+		y = 5
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_expand_trade
+		}
+		prerequisite = {
+			focus = GOT_BLA_victims_of_extremism
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
+				}
+			}
+			else = {
+				add_ideas = RI_refugees
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_foreign_scientists
+		icon = GFX_focus_generic_essosi_pyromancers
+		x = 2
+		y = 6
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_save_haven
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
+				}
+			}
+			else = {
+				add_ideas = RI_refugees
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_foreign_engineers
+		icon = GFX_focus_generic_sellsword_fortifications
+		x = 4
+		y = 6
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		ai_will_do = {
+			factor = 3200
+		}
+		prerequisite = {
+			focus = GOT_BLA_increase_immigration
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = RI_refugees
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees
+					add_idea = RI_refugees1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees1
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees1
+					add_idea = RI_refugees2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees2
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees2
+					add_idea = RI_refugees3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees3
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees3
+					add_idea = RI_refugees4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = RI_refugees4
+				}
+				swap_ideas = {
+					remove_idea = RI_refugees4
+					add_idea = RI_refugees5
+				}
+			}
+			else = {
+				add_ideas = RI_refugees
+			}
+		}
+	}
+	focus = {
+		id = GOT_BLA_join_allies
+		icon = GFX_focus_generic_house_blackfyre
+		x = 2
+		y = 7
+		relative_position_id = GOT_diplomacy_focus
+
+		cost = 1
+		
+		ai_will_do = {
+			factor = 3200
+			modifier = {
+				factor = 0
+				BLA = {
+					has_capitulated = yes
+				}
+			}
+			modifier = {
+				factor = 0
+				BLA = {
+					exists = no
+				}
+			}
+		}
+		
+		available = {
+			OR = {
+				AND = {
+					BLA = {
+						is_faction_leader = yes
+					}
+					BLA = {
+						is_in_faction = yes
+					}
+				}
+				tag = BLA
+			}
+			country_exists = BLA
+			is_in_faction = no
+			NOT = {
+				has_war_with = BLA
+			}
+			GOT_BLA_can_join_blackfyre = yes
+
+		}
+		bypass = {
+			is_in_faction_with = BLA
+		}
+		
+		prerequisite = {
+			focus = GOT_BLA_support_democratic_organisations
+		}
+		prerequisite = {
+			focus = GOT_BLA_foreign_engineers
+		}
+		prerequisite = {
+			focus = GOT_BLA_foreign_scientists
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					tag = BLA
+				}
+				create_faction = "The Black Dragons"
+			}
+			else = {
+				BLA = {
+					country_event = generic.2
+				}
+			}
+		}
+	}
+	
 	focus = {
 		id = GOT_fascist_foreign_policy
 		icon = GFX_focus_generic_house_baratheon
-		x = 6
+		x = 12
 		y = 1
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3202,7 +3869,7 @@ focus_tree = {
 	focus = {
 		id = GOT_approach_germany
 		icon = GFX_focus_generic_house_baratheon_stannis
-		x = 2
+		x = 8
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3275,7 +3942,7 @@ focus_tree = {
 	focus = {
 		id = GOT_cast_out_jews
 		icon = GFX_focus_generic_vatican_agents
-		x = 0
+		x = 6
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3297,7 +3964,7 @@ focus_tree = {
 	focus = {
 		id = GOT_anit_comintern_pact
 		icon = GFX_focus_generic_stannis_baratheon
-		x = 2
+		x = 8
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3321,7 +3988,7 @@ focus_tree = {
 	focus = {
 		id = GOT_german_embassy
 		icon = GFX_focus_generic_court
-		x = 2
+		x = 8
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3351,7 +4018,7 @@ focus_tree = {
 	focus = {
 		id = GOT_join_axis
 		icon = GFX_focus_generic_house_baratheon_stannis
-		x = 2
+		x = 8
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3415,7 +4082,7 @@ focus_tree = {
 	focus = {
 		id = GOT_recognise_franco
 		icon = GFX_focus_generic_joffrey_baratheon
-		x = 4
+		x = 10
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3449,7 +4116,7 @@ focus_tree = {
 	focus = {
 		id = GOT_approach_italy
 		icon = GFX_focus_generic_house_baratheon_renly
-		x = 6
+		x = 12
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3519,7 +4186,7 @@ focus_tree = {
 	focus = {
 		id = GOT_support_mussolini
 		icon = GFX_focus_generic_renly_baratheon
-		x = 6
+		x = 12
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3542,7 +4209,7 @@ focus_tree = {
 	focus = {
 		id = GOT_our_fascism
 		icon = GFX_focus_generic_house_tyrell
-		x = 8
+		x = 14
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3565,7 +4232,7 @@ focus_tree = {
 	focus = {
 		id = GOT_italian_embassy
 		icon = GFX_focus_generic_court
-		x = 6
+		x = 12
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3594,7 +4261,7 @@ focus_tree = {
 	focus = {
 		id = GOT_join_italy
 		icon = GFX_focus_generic_house_baratheon_renly
-		x = 6
+		x = 12
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3657,7 +4324,7 @@ focus_tree = {
 	focus = {
 		id = GOT_approach_japan
 		icon = GFX_focus_generic_house_baratheon_joffrey
-		x = 12
+		x = 18
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3727,7 +4394,7 @@ focus_tree = {
 	focus = {
 		id = GOT_asia_for_asians
 		icon = GFX_focus_generic_eddard_stark
-		x = 10
+		x = 16
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3756,7 +4423,7 @@ focus_tree = {
 	focus = {
 		id = GOT_recognise_puyi
 		icon = GFX_focus_generic_joffrey_baratheon
-		x = 12
+		x = 18
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3779,7 +4446,7 @@ focus_tree = {
 	focus = {
 		id = GOT_sanction_colonialists
 		icon = GFX_focus_generic_house_lannister
-		x = 14
+		x = 20
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3802,7 +4469,7 @@ focus_tree = {
 	focus = {
 		id = GOT_japanese_embassy
 		icon = GFX_focus_generic_court
-		x = 12
+		x = 18
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3829,7 +4496,7 @@ focus_tree = {
 	focus = {
 		id = GOT_join_japan
 		icon = GFX_focus_generic_house_baratheon_joffrey
-		x = 12
+		x = 18
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3894,7 +4561,7 @@ focus_tree = {
 	focus = {
 		id = GOT_stay_neutral
 		icon = GFX_goal_generic_neutrality_focus
-		x = 21
+		x = 27
 		y = 1
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3967,7 +4634,7 @@ focus_tree = {
 	focus = {
 		id = GOT_prepare_for_war
 		icon = GFX_goal_generic_small_arms
-		x = 17
+		x = 23
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
@@ -3988,7 +4655,7 @@ focus_tree = {
 	focus = {
 		id = GOT_higher_conscription
 		icon = GFX_focus_generic_little_entente
-		x = 16
+		x = 22
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4026,7 +4693,7 @@ focus_tree = {
 	focus = {
 		id = GOT_acquire_weapons
 		icon = GFX_focus_generic_combined_arms
-		x = 18
+		x = 24
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4076,7 +4743,7 @@ focus_tree = {
 	focus = {
 		id = GOT_extend_training
 		icon = GFX_focus_generic_military_dictatorship
-		x = 17
+		x = 23
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4099,7 +4766,7 @@ focus_tree = {
 	focus = {
 		id = GOT_role_in_war
 		icon = GFX_focus_generic_anti_fascist_diplomacy
-		x = 21
+		x = 27
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4120,7 +4787,7 @@ focus_tree = {
 	focus = {
 		id = GOT_sell_weapons_to_germany
 		icon = GFX_focus_generic_house_lannister
-		x = 20
+		x = 26
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4147,7 +4814,7 @@ focus_tree = {
 	focus = {
 		id = GOT_sell_weapons_to_france
 		icon = GFX_focus_generic_house_stark
-		x = 22
+		x = 28
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4175,7 +4842,7 @@ focus_tree = {
 	focus = {
 		id = GOT_open_border
 		icon = GFX_focus_generic_welfare
-		x = 21
+		x = 27
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4198,7 +4865,7 @@ focus_tree = {
 	focus = {
 		id = GOT_deterrence
 		icon = GFX_focus_generic_coastal_fort
-		x = 25
+		x = 31
 		y = 2
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4219,7 +4886,7 @@ focus_tree = {
 	focus = {
 		id = GOT_home_defense
 		icon = GFX_focus_generic_home_defense
-		x = 24
+		x = 30
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4277,7 +4944,7 @@ focus_tree = {
 	focus = {
 		id = GOT_fortification_efforts
 		icon = GFX_goal_generic_construct_military
-		x = 26
+		x = 32
 		y = 3
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4300,7 +4967,7 @@ focus_tree = {
 	focus = {
 		id = GOT_why_we_fight
 		icon = GFX_goal_generic_propaganda
-		x = 25
+		x = 31
 		y = 4
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4323,7 +4990,7 @@ focus_tree = {
 	focus = {
 		id = GOT_our_own_faction
 		icon = GFX_goal_generic_alliance
-		x = 21
+		x = 27
 		y = 5
 		relative_position_id = GOT_diplomacy_focus
 
@@ -4359,7 +5026,6 @@ focus_tree = {
 			add_political_power = 30
 		}
 	}
-	
 
 	focus = {
 		id = GOT_free_market

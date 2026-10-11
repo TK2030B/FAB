@@ -60,6 +60,30 @@ GOT_Targaryen_Faction = {
 	}
 }
 
+GOT_Blackfyre_Faction = {
+	OR = {
+		original_tag = BLA
+		AND = {
+			OR = {
+				original_tag = REA
+				original_tag = IRO
+				original_tag = RIV
+				original_tag = GOL
+				original_tag = TYR
+				original_tag = PEN
+				original_tag = MYR
+				original_tag = LYS
+				original_tag = STE
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+				NOT = { country_exists = TAR }
+			}
+		}
+	}
+}
+
 GOT_Baratheon_Faction = {
 	OR = {
 		GOT_Stannis_Faction = yes
@@ -80,6 +104,16 @@ GOT_Stannis_Faction = {
 			OR = {
 				GOT_Stannis_Is_Lord_of_STO = yes
 				GOT_Shireen_Is_Lady_of_STO = yes
+			}
+		}
+		AND = {
+			OR = {
+				original_tag = DRA
+				original_tag = STO
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
 			}
 		}
 	}
@@ -114,6 +148,20 @@ GOT_Lannister_Faction = {
 			GOT_Olenna_Is_Lady_of_REA = no
 			GOT_Renly_Is_Lord_of_STO = no
 		}
+		AND = {
+			OR = {
+				original_tag = WES
+				original_tag = REA
+				original_tag = IRO
+				original_tag = BOL
+				original_tag = FRE
+				original_tag = TRL
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
+		}
 	}
 	GOT_Lannister_Is_King = yes
 }
@@ -131,6 +179,16 @@ GOT_Renly_Faction = {
 		AND = {
 			original_tag = REA
 			GOT_Renly_Is_Lord_of_STO = yes
+		}
+		AND = {
+			OR = {
+				original_tag = STO
+				original_tag = REA
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
 		}
 	}
 }
@@ -150,6 +208,17 @@ GOT_Stark_Faction = {
 					name = "Lysa Arryn"
 					ruling_only = yes
 				}
+			}
+		}
+		AND = {
+			OR = {
+				original_tag = NOR
+				original_tag = RIV
+				original_tag = VAL
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
 			}
 		}
 	}
@@ -184,6 +253,21 @@ GOT_Targaryen_Sympathies = {
 		original_tag = NOR
 		original_tag = VAL
 		original_tag = RIV
+	}
+}
+
+GOT_Blackfyre_Sympathies = {
+	OR = {
+		original_tag = BLA
+		original_tag = REA
+		original_tag = IRO
+		original_tag = RIV
+		original_tag = GOL
+		original_tag = TYR
+		original_tag = PEN
+		original_tag = MYR
+		original_tag = LYS
+		original_tag = STE
 	}
 }
 
@@ -263,6 +347,36 @@ GOT_can_join_targaryen = {
 			AND = {
 				has_government = fascism
 				TAR = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_blackfyre = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			BLA = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				BLA = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				BLA = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				BLA = { 
 					has_government = fascism 
 				}
 			}
@@ -622,7 +736,7 @@ GOT_Essos_Countries = {
 		original_tag = VOL
 		original_tag = SAA
 		original_tag = MAN
-		original_tag = VAL
+		original_tag = VLY
 		original_tag = TOL
 		original_tag = ELY
 		original_tag = DOT
@@ -654,6 +768,7 @@ GOT_Essos_Countries = {
 		original_tag = BON
 		original_tag = WIN
 		original_tag = NEF
+		original_tag = GHI
 	}
 }
 
@@ -815,6 +930,13 @@ GOT_Targaryen_Ruler = {
 			name = "Targaryen Brothers"
 			ruling_only = yes
 		}
+	}
+}
+
+GOT_Blackfyre_Ruler = {
+	has_country_leader = {
+		name = "Young Griff"
+		ruling_only = yes
 	}
 }
 
@@ -1028,6 +1150,7 @@ GOT_Can_Claim_CRO = {
 	OR = {
 		GOT_Baratheon_Ruler = yes
 		GOT_Targaryen_Ruler = yes
+		GOT_Blackfyre_Ruler = yes
 	}
 }
 
@@ -1035,6 +1158,7 @@ GOT_Can_Claim_DRA = {
 	OR = {
 		GOT_Baratheon_Ruler = yes
 		GOT_Targaryen_Ruler = yes
+		GOT_Blackfyre_Ruler = yes
 	}
 }
 

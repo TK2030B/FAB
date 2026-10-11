@@ -4751,6 +4751,35 @@ country_event = {
 		ai_chance = {
 			base = 85
 		}
+		
+		DOT = {
+		custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ULT = { owns_state = 210 }
+					}
+					XXX = {
+						transfer_state = 210
+					}
+					
+					DOT = {
+						transfer_units_fraction= {
+							target = XXX
+							size = 0.5
+							keep_unit_leaders_trigger = {
+								always = yes
+							}
+						}
+					}
+					
+					ULT = {
+						transfer_state = 210
+					}
+				}
+			}
+		}
+		
 		if = {
 			limit = {
 				NOT = {
@@ -4880,6 +4909,35 @@ country_event = {
 			}
 			
 		}
+		
+		DOT = {
+		custom_effect_tooltip = GOT_Army_Shattered_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						ULT = { owns_state = 210 }
+					}
+					XXX = {
+						transfer_state = 210
+					}
+					
+					DOT = {
+						transfer_units_fraction= {
+							target = XXX
+							size = 0.5
+							keep_unit_leaders_trigger = {
+								always = yes
+							}
+						}
+					}
+					
+					ULT = {
+						transfer_state = 210
+					}
+				}
+			}
+		}
+		
 		random_list = {
 			50 = {
 				start_civil_war = {

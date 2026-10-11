@@ -37,3 +37,7 @@ add_ideas = {
 	security_minor_restrictions
 	tax_average
 }
+
+create_faction = "The League of Free Cities"
+add_to_faction = PEN
+add_to_faction = LOR

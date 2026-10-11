@@ -18,6 +18,48 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic/focus_generic_iron_throne.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_focus_generic_sellsword_fortifications"
+		texturefile = "gfx/interface/goals/generic/focus_generic_sellsword_fortifications.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_disputed_lands_tactics"
+		texturefile = "gfx/interface/goals/generic/focus_generic_disputed_lands_tactics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_essosi_pyromancers"
+		texturefile = "gfx/interface/goals/generic/focus_generic_essosi_pyromancers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_golden_company"
+		texturefile = "gfx/interface/goals/generic/focus_generic_golden_company.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_support_blackfyre_loyalists"
+		texturefile = "gfx/interface/goals/generic/focus_generic_support_blackfyre_loyalists.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_blackfyre_stronghold"
+		texturefile = "gfx/interface/goals/generic/focus_generic_blackfyre_stronghold.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_trade_with_free_cities"
+		texturefile = "gfx/interface/goals/generic/focus_generic_trade_with_free_cities.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_welcome_blackfyre_exiles"
+		texturefile = "gfx/interface/goals/generic/focus_generic_welcome_blackfyre_exiles.dds"
+	}
+	
+	
+	
 	################
 	###LOCATIONS####
 	################
@@ -86,6 +128,16 @@ spriteTypes = {
 		name = "GFX_focus_generic_westerlands"
 		texturefile = "gfx/interface/goals/locations/focus_generic_westerlands.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_tyrosh"
+		texturefile = "gfx/interface/goals/locations/focus_generic_tyrosh.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_myr"
+		texturefile = "gfx/interface/goals/locations/focus_generic_myr.dds"
+	}
 
 	
 	################
@@ -143,6 +195,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_focus_generic_house_blackfyre"
+		texturefile = "gfx/interface/goals/houses/focus_generic_house_blackfyre.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_focus_generic_house_tyrell"
 		texturefile = "gfx/interface/goals/houses/focus_generic_house_tyrell.dds"
 	}
@@ -162,9 +219,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/houses/focus_generic_gov_dothraki.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_focus_generic_the_dragons"
+		texturefile = "gfx/interface/goals/houses/focus_generic_the_dragons.dds"
+	}
+	
+	
 	################
 	###CHARACTERS###
 	################
+	
+	SpriteType = {
+		name = "GFX_focus_generic_dany_targaryen"
+		texturefile = "gfx/interface/goals/characters/focus_generic_dany_targaryen.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_focus_generic_stannis_baratheon"

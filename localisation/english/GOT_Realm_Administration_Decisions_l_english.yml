@@ -98,3 +98,12 @@ GOT_Realm_Admin_News.5.a: "A realm united."
 GOT_Realm_Admin_News.6.t: "[FROM.GetName] Rejects Integration"
 GOT_Realm_Admin_News.6.d: "Despite the authority of their overlord and their existing vassalage, [FROM.GetName] has refused to surrender what remains of their independence. The proposal for full integration was met with defiance, as the realm declared its intent to maintain separate rule under shared sovereignty. This bold decision leaves tensions high, and many wonder whether such resistance will lead to renewed conflict or a tenuous peace."
 GOT_Realm_Admin_News.6.a: "They defy their fate — for now."
+
+ BLA_invite_disputed_into_faction:0 "Invite [FROM.GetName] into Faction"
+ BLA_invite_disputed_into_faction_desc:0 "The Free Cities of the Disputed Lands hold immense strategic wealth and military strength. By bringing [FROM.GetName] into our alliance, House Blackfyre secures a powerful vanguard for our cause."
+
+ BLA_demand_disputed_submit:0 "Demand Submission from [FROM.GetName]"
+ BLA_demand_disputed_submit_desc:0 "An alliance of equals is no longer sufficient. [FROM.GetName] must bend the knee, acknowledge Blackfyre supremacy, and serve as a loyal vassal to the realm."
+
+ BLA_demand_disputed_integrate:0 "Integrate [FROM.GetName]"
+ BLA_demand_disputed_integrate_desc:0 "Vassalage is merely a stepping stone. It is time to fully annex [FROM.GetName], bringing its lands, manpower, and riches directly under the rule of the Dragon."

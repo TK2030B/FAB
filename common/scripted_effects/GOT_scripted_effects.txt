@@ -25,7 +25,19 @@ GOT_start_techs = {
 				tag = SOT
 				tag = REW
 				tag = UNL
-				GOT_Essos_Countries = yes
+				tag = SUI
+				tag = NAA
+				tag = IBB
+				tag = SHR
+				tag = CAN
+				tag = BLO
+				tag = WIN
+				tag = KDA
+				tag = BON
+				tag = CAR
+				tag = IFE
+				tag = MOS
+				#GOT_Essos_Countries = yes
 				#tag = SUI
 				#tag = IBB
 				#tag = NAA
@@ -642,6 +654,58 @@ load_oob = Generic
 		}
 		create_unit = {
 			division = "name = \"1st Garrison Division\" division_template = \"Garrison\" start_experience_factor = 0.2"
+			owner = ROOT
+		}
+	}
+}
+
+GOT_Blackfyre_Army_Spawn = {
+load_oob = BLA_1936
+	random_owned_state = {
+		limit = {
+			ROOT = {
+				has_full_control_of_state = PREV
+			}
+			is_capital = yes
+		}
+		create_unit = {
+			division = "name = \"1st Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"2nd Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"3rd Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"4th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"5th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"6th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"7th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"8th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"1st Golden Company Lancers\" division_template = \"Cavalry Division\" start_experience_factor = 0.9"
+			owner = ROOT
+		}
+		create_unit = {
+			division = "name = \"2nd Golden Company Lancers\" division_template = \"Cavalry Division\" start_experience_factor = 0.9"
 			owner = ROOT
 		}
 	}

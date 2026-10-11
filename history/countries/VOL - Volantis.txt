@@ -49,3 +49,8 @@ add_ideas = {
 	security_police_state
 	tax_high
 }
+
+create_faction = "The Triarchy"
+#add_to_faction = TYR
+#add_to_faction = LYS
+#add_to_faction = MYR

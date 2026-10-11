@@ -4969,7 +4969,15 @@ spriteType = {
     texturefile = "gfx/event_pictures/News/news_event_Yunkai.dds" 
 } 
  
-
+	spriteType = {
+		name = "GFX_report_event_blackfyre_spawn"
+		texturefile = "gfx/event_pictures/report_event_blackfyre_spawn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_blackfyre_spawn"
+		texturefile = "gfx/event_pictures/news_event_blackfyre_spawn.dds"
+	}
 	 
 
 

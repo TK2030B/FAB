@@ -1,0 +1,831 @@
+add_namespace = GOT_Blackfyre_Country
+add_namespace = GOT_Blackfyre_News
+
+#Blackfyre Spawn
+country_event = {
+	id = GOT_Blackfyre_Country.1
+	title = GOT_Blackfyre_Country.1.t
+	desc = GOT_Blackfyre_Country.1.d
+	picture = GFX_report_event_blackfyre_spawn
+	
+	#immediate = {
+	#	set_global_flag = GOT_House_Blackfyre_Spawned_Flag
+	#}
+	
+	hidden = yes
+
+	trigger = {
+		OR = {
+			tag = VOL
+			tag = TYR
+			tag = MYR
+			tag = LYS
+		}
+		date > 1936.1.1
+		date < 1938.1.1
+		OR = {
+			is_historical_focus_on = no
+			has_global_flag = GOT_Sandbox_Mode
+			NOT = { country_exists = TAR }
+		}
+		NOT = { country_exists = BLA }
+		NOT = { has_global_flag = GOT_House_Blackfyre_Spawned_Flag }
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = GOT_Blackfyre_Country.1.a
+		
+		trigger = {
+			tag = VOL
+			OR = {
+				NOT = { country_exists = VOL }
+				NOT = { country_exists = TYR }
+				NOT = { country_exists = MYR }
+				NOT = { country_exists = LYS }
+			}
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		set_global_flag = GOT_House_Blackfyre_Spawned_Flag
+		
+		#Nothing Happens in Historical Mode If Sandbox Off and Targaryens Exist
+			if = {
+				limit = {
+					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
+					country_exists = TAR
+				}
+			}
+			#For Players
+			else = {
+				#50% House Blackfyre Spawns, 50% They Don't
+				random_list = {
+					75 = {
+						VOL = { 
+							country_event = {
+								id = GOT_Blackfyre_Country.2
+							}
+						}
+					}
+					25 = {
+						
+					}
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.1.b
+		
+		trigger = {
+			tag = TYR
+			OR = {
+				NOT = { country_exists = VOL }
+				NOT = { country_exists = TYR }
+				NOT = { country_exists = MYR }
+				NOT = { country_exists = LYS }
+			}
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		set_global_flag = GOT_House_Blackfyre_Spawned_Flag
+		
+		#Nothing Happens in Historical Mode If Sandbox Off and Targaryens Exist
+			if = {
+				limit = {
+					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
+					country_exists = TAR
+				}
+			}
+			#For Players
+			else = {
+				#50% House Blackfyre Spawns, 50% They Don't
+				random_list = {
+					75 = {
+						TYR = { 
+							country_event = {
+								id = GOT_Blackfyre_Country.3
+							}
+						}
+					}
+					25 = {
+						
+					}
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.1.c
+		
+		trigger = {
+			tag = LYS
+			OR = {
+				NOT = { country_exists = VOL }
+				NOT = { country_exists = TYR }
+				NOT = { country_exists = MYR }
+				NOT = { country_exists = LYS }
+			}
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		set_global_flag = GOT_House_Blackfyre_Spawned_Flag
+		
+		#Nothing Happens in Historical Mode If Sandbox Off and Targaryens Exist
+			if = {
+				limit = {
+					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
+					country_exists = TAR
+				}
+			}
+			#For Players
+			else = {
+				#50% House Blackfyre Spawns, 50% They Don't
+				random_list = {
+					75 = {
+						LYS = { 
+							country_event = {
+								id = GOT_Blackfyre_Country.4
+							}
+						}
+					}
+					25 = {
+						
+					}
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.1.e
+		
+		trigger = {
+			tag = MYR
+			OR = {
+				NOT = { country_exists = VOL }
+				NOT = { country_exists = TYR }
+				NOT = { country_exists = MYR }
+				NOT = { country_exists = LYS }
+			}
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		set_global_flag = GOT_House_Blackfyre_Spawned_Flag
+		
+		#Nothing Happens in Historical Mode If Sandbox Off and Targaryens Exist
+			if = {
+				limit = {
+					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
+					country_exists = TAR
+				}
+			}
+			#For Players
+			else = {
+				#50% House Blackfyre Spawns, 50% They Don't
+				random_list = {
+					75 = {
+						MYR = { 
+							country_event = {
+								id = GOT_Blackfyre_Country.5
+							}
+						}
+					}
+					25 = {
+						
+					}
+				}
+			}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.1.f
+		
+		trigger = {
+			country_exists = VOL
+			country_exists = TYR
+			country_exists = MYR
+			country_exists = LYS
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+		
+		set_global_flag = GOT_House_Blackfyre_Spawned_Flag
+		
+		#Nothing Happens in Historical Mode If Sandbox Off and Targaryens Exist
+			if = {
+				limit = {
+					is_historical_focus_on = yes
+					NOT = { has_global_flag = GOT_Sandbox_Mode }
+					country_exists = TAR
+				}
+			}
+			#For Players
+			else = {
+				#50% House Blackfyre Spawns, 50% They Don't
+				random_list = {
+					75 = {
+						random_list = {
+							40 = {
+								VOL = { 
+									country_event = {
+										id = GOT_Blackfyre_Country.2
+									}
+								}
+							}
+							25 = {
+								TYR = { 
+									country_event = {
+										id = GOT_Blackfyre_Country.3
+									}
+								}
+							}
+							20 = {
+								LYS = { 
+									country_event = {
+										id = GOT_Blackfyre_Country.4
+									}
+								}
+							}
+							15 = {
+								MYR = { 
+									country_event = {
+										id = GOT_Blackfyre_Country.5
+									}
+								}
+							}
+						}
+					}
+					25 = {
+						
+					}
+				}
+			}
+		
+	}
+}
+
+#Blackfyre Spawn Volantis
+country_event = {
+	id = GOT_Blackfyre_Country.2
+	title = GOT_Blackfyre_Country.2.t
+	desc = GOT_Blackfyre_Country.2.d
+	picture = GFX_report_event_blackfyre_spawn
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_state = {
+				limit = {
+					is_owned_by = VOL
+					is_capital = no
+					is_island_state = no
+				}
+				# Transfer ownership and control to the target tag
+				transfer_state_to = BLA
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = VOL
+				} 
+				add_core_of = BLA
+			}
+		}
+	}
+
+	option = {
+		name = GOT_Blackfyre_Country.2.a
+
+		ai_chance = {
+			factor = 35
+		}
+		
+			BLA = {
+				inherit_technology = VOL
+				country_event = { id = GOT_Blackfyre_Country.6 }
+				create_faction = "The Black Dragons"
+			}
+			VOL = {
+				end_puppet = BLA
+			}
+			VOL = {
+				every_unit_leader = {
+					set_nationality = BLA
+				}
+				transfer_navy = {
+					target = BLA
+				}
+			}
+			BLA = {
+				change_tag_from = VOL
+				inherit_technology = VOL
+			}
+			BLA = {
+				annex_country = {
+					target = VOL
+					transfer_troops = yes
+				}
+			}
+				
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.2
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.2.b
+
+		ai_chance = {
+			factor = 65
+		}
+		
+		BLA = {
+			inherit_technology = VOL
+			country_event = { id = GOT_Blackfyre_Country.6 }
+			create_faction = "The Black Dragons"
+		}
+		
+		declare_war_on = {
+			target = BLA
+			type = annex_everything
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.2
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Blackfyre Spawn Volantis
+news_event = { 
+    id = GOT_Blackfyre_News.2
+    title = GOT_Blackfyre_News.2.t 
+    desc = GOT_Blackfyre_News.2.d 
+    picture = GFX_news_event_blackfyre_spawn
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Blackfyre_News.2.a 
+    } 
+} 
+
+#Blackfyre Spawn Tyrosh
+country_event = {
+	id = GOT_Blackfyre_Country.3
+	title = GOT_Blackfyre_Country.3.t
+	desc = GOT_Blackfyre_Country.3.d
+	picture = GFX_report_event_blackfyre_spawn
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_state = {
+				limit = {
+					is_owned_by = TYR
+					is_capital = no
+					is_island_state = no
+				}
+				# Transfer ownership and control to the target tag
+				transfer_state_to = BLA
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = TYR
+				} 
+				add_core_of = BLA
+			}
+		}
+	}
+
+	option = {
+		name = GOT_Blackfyre_Country.3.a
+
+		ai_chance = {
+			factor = 80
+		}
+		
+			BLA = {
+				inherit_technology = TYR
+				country_event = { id = GOT_Blackfyre_Country.6 }
+				create_faction = "The Black Dragons"
+			}
+			TYR = {
+				end_puppet = BLA
+			}
+			TYR = {
+				every_unit_leader = {
+					set_nationality = BLA
+				}
+				transfer_navy = {
+					target = BLA
+				}
+			}
+			BLA = {
+				change_tag_from = TYR
+				inherit_technology = TYR
+			}
+			BLA = {
+				annex_country = {
+					target = TYR
+					transfer_troops = yes
+				}
+			}
+				
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.3
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.3.b
+
+		ai_chance = {
+			factor = 20
+		}
+		
+		BLA = {
+			inherit_technology = TYR
+			country_event = { id = GOT_Blackfyre_Country.6 }
+			create_faction = "The Black Dragons"
+		}
+		
+		declare_war_on = {
+			target = BLA
+			type = annex_everything
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.3
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Blackfyre Spawn Tyrosh
+news_event = { 
+    id = GOT_Blackfyre_News.3
+    title = GOT_Blackfyre_News.3.t 
+    desc = GOT_Blackfyre_News.3.d 
+    picture = GFX_news_event_blackfyre_spawn
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Blackfyre_News.3.a 
+    } 
+} 
+
+#Blackfyre Spawn Lys
+country_event = {
+	id = GOT_Blackfyre_Country.4
+	title = GOT_Blackfyre_Country.4.t
+	desc = GOT_Blackfyre_Country.4.d
+	picture = GFX_report_event_blackfyre_spawn
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_state = {
+				limit = {
+					is_owned_by = LYS
+					is_capital = no
+					is_island_state = no
+				}
+				# Transfer ownership and control to the target tag
+				transfer_state_to = BLA
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = LYS
+				} 
+				add_core_of = BLA
+			}
+		}
+	}
+
+	option = {
+		name = GOT_Blackfyre_Country.4.a
+
+		ai_chance = {
+			factor = 50
+		}
+		
+			BLA = {
+				inherit_technology = LYS
+				country_event = { id = GOT_Blackfyre_Country.6 }
+				create_faction = "The Black Dragons"
+			}
+			
+			LYS = {
+				end_puppet = BLA
+			}
+			LYS = {
+				every_unit_leader = {
+					set_nationality = BLA
+				}
+				transfer_navy = {
+					target = BLA
+				}
+			}
+			BLA = {
+				change_tag_from = LYS
+				inherit_technology = LYS
+			}
+			BLA = {
+				annex_country = {
+					target = LYS
+					transfer_troops = yes
+				}
+			}
+				
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.4
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.4.b
+
+		ai_chance = {
+			factor = 50
+		}
+		
+		BLA = {
+			inherit_technology = LYS
+			country_event = { id = GOT_Blackfyre_Country.6 }
+			create_faction = "The Black Dragons"
+		}
+		
+		declare_war_on = {
+			target = BLA
+			type = annex_everything
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.4
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Blackfyre Spawn Lys
+news_event = { 
+    id = GOT_Blackfyre_News.4
+    title = GOT_Blackfyre_News.4.t 
+    desc = GOT_Blackfyre_News.4.d 
+    picture = GFX_news_event_blackfyre_spawn
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Blackfyre_News.4.a 
+    } 
+} 
+
+#Blackfyre Spawn Myr
+country_event = {
+	id = GOT_Blackfyre_Country.5
+	title = GOT_Blackfyre_Country.5.t
+	desc = GOT_Blackfyre_Country.5.d
+	picture = GFX_report_event_blackfyre_spawn
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_state = {
+				limit = {
+					is_owned_by = MYR
+					is_capital = no
+					is_island_state = no
+				}
+				# Transfer ownership and control to the target tag
+				transfer_state_to = BLA
+			}
+			every_state = { 
+				limit = { 
+					is_core_of = MYR
+				} 
+				add_core_of = BLA
+			}
+		}
+	}
+
+	option = {
+		name = GOT_Blackfyre_Country.5.a
+
+		ai_chance = {
+			factor = 70
+		}
+		
+			BLA = {
+				inherit_technology = MYR
+				country_event = { id = GOT_Blackfyre_Country.6 }
+				create_faction = "The Black Dragons"
+			}
+			
+			MYR = {
+				end_puppet = BLA
+			}
+			MYR = {
+				every_unit_leader = {
+					set_nationality = BLA
+				}
+				transfer_navy = {
+					target = BLA
+				}
+			}
+			BLA = {
+				change_tag_from = MYR
+				inherit_technology = MYR
+			}
+			BLA = {
+				annex_country = {
+					target = MYR
+					transfer_troops = yes
+				}
+			}
+				
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.5
+				hours = 6
+			}
+		}
+		
+	}
+	
+	option = {
+		name = GOT_Blackfyre_Country.5.b
+
+		ai_chance = {
+			factor = 30
+		}
+		
+		BLA = {
+			inherit_technology = MYR
+			country_event = { id = GOT_Blackfyre_Country.6 }
+			create_faction = "The Black Dragons"
+		}
+		
+		declare_war_on = {
+			target = BLA
+			type = annex_everything
+		}
+		
+		every_other_country = {
+			limit = {
+				exists = yes
+			}
+			news_event = {
+				id = GOT_Blackfyre_News.5
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+#Blackfyre Spawn Myr
+news_event = { 
+    id = GOT_Blackfyre_News.5
+    title = GOT_Blackfyre_News.5.t 
+    desc = GOT_Blackfyre_News.5.d 
+    picture = GFX_news_event_blackfyre_spawn
+ 
+    is_triggered_only = yes 
+ 
+    option = { 
+        name = GOT_Blackfyre_News.5.a 
+    } 
+} 
+
+#Blackfyre Army
+country_event = {
+	id = GOT_Blackfyre_Country.6
+	title = GOT_Blackfyre_Country.6.t
+	desc = GOT_Blackfyre_Country.6.d
+	picture = GFX_report_event_welcome_event
+	immediate = {
+		hidden_effect = {
+			load_oob = BLA_1936
+			random_owned_state = {
+				create_unit = {
+					division = "name = \"1st Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2nd Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"3rd Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"4th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"5th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"6th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"7th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"8th Golden Company Cohort\" division_template = \"Infantry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"1st Golden Company Lancers\" division_template = \"Cavalry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2nd Golden Company Lancers\" division_template = \"Cavalry Division\" start_experience_factor = 0.9"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = GOT_Blackfyre_Country.6.a		
+		
+	}
+}

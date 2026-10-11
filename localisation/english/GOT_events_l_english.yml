@@ -5657,3 +5657,39 @@ GOT_Faction_News.3.a:0 "The North has a new master."
 GOT_Faction_News.4.t:0 "[FROM.GetName] Joins the Flayed Men"
 GOT_Faction_News.4.d:0 "Reports from the North confirm that [FROM.GetName] has pledged its allegiance to House Bolton and formally joined the Flayed Men.\n\nWith the North still divided by bitter civil conflict, [FROM.GetName] has chosen to cast its lot with the Boltons rather than risk standing alone. Their banners will now march alongside the other members of the alliance, strengthening Bolton control over the North and further isolating those who remain loyal to the old Stark dynasty."
 GOT_Faction_News.4.a:0 "The flayed banner grows."
+
+GOT_Blackfyre_Country.2.t:0 "The Golden Company at the Gates"
+ GOT_Blackfyre_Country.2.d:0 "Alarming news sweeps through the Old Volantis. Young Griff, the pretender who commands the legendary Golden Company, has cast aside his cloak of anonymity. Before the walls of our ancient city, he has declared himself the rightful heir of House Blackfyre and proclaimed his royal title.\n\nWith thousands of sellswords, heavy cavalry, and war elephants assembled outside our gates, Young Griff presents us with an ultimatum: submit to the Black Dragon and swear fealty to his cause, or face total ruin as the Golden Company breach the defenses of the First Daughter of Valyria."
+ GOT_Blackfyre_Country.2.a:0 "Bend the knee. The Black Dragon rises!"
+ GOT_Blackfyre_Country.2.b:0 "Volantis will never bow to a sellsword king!"
+ 
+ GOT_Blackfyre_News.2.t:0 "The Black Dragon at the Gates of Volantis"
+ GOT_Blackfyre_News.2.d:0 "Shockwaves have reverberated across Essos and Westeros following reports from the Free City of Volantis. A young pretender known as 'Young Griff' has openly declared himself the true heir to House Blackfyre and laid claim to the title of King.\n\nFlanked by the hardened sellswords, heavy cavalry, and war elephants of the Golden Company, the pretender's forces have encamped directly outside the ancient Black Walls of Volantis. An ultimatum has been delivered to the Triarchs: recognize the Black Dragon and surrender the city, or prepare for bloodshed. Merchants and scholars across the world watch anxiously to see whether Volantis will bow to the restored dragon or take up arms against the invaders."
+ GOT_Blackfyre_News.2.a:0 "A storm is gathering in the East."
+ 
+ GOT_Blackfyre_Country.3.t:0 "The Golden Company at Tyrosh"
+ GOT_Blackfyre_Country.3.d:0 "Tension fills the grand halls of the High Archon as dire reports reach our council. Young Griff, commanding the full might of the Golden Company, has assembled his forces directly outside our storied green walls and bustling harbor. Stripping away his guise, he has proclaimed himself the legitimate heir of House Blackfyre and sovereign King.\n\nFlanked by veterans of a hundred campaigns, war elephants, and formidable siege engines, Young Griff has dispatched an envoy to the Merchant Council. His terms are absolute: acknowledge the Black Dragon and yield Tyrosh to his army, or prepare for a bloody siege that will stain our waters red."
+ GOT_Blackfyre_Country.3.a:0 "Bend the knee. The Black Dragon rises!"
+ GOT_Blackfyre_Country.3.b:0 "Tyrosh will never bow to a sellsword king!"
+ 
+ GOT_Blackfyre_News.3.t:0 "The Black Dragon at the Gates of Tyrosh"
+ GOT_Blackfyre_News.3.d:0 "News spreads rapidly across the Stepstones and the narrow sea as the Golden Company turns its gaze upon the wealthy Free City of Tyrosh. The pretender known as 'Young Griff' has staked his claim as the true heir of House Blackfyre, encamping his army before the city's green stone fortifications.\n\nWith armored cavalry, sellswords, and battle-tested war elephants lining the approaches, Young Griff has delivered an ultimatum to the High Archon: pledge fealty to House Blackfyre or face total annihilation. Rulers across the known world await word on whether Tyrosh will yield its treasures to the Black Dragon or defy the Golden Company in open battle."
+ GOT_Blackfyre_News.3.a:0 "A storm is gathering in the East."
+ 
+ GOT_Blackfyre_Country.4.t:0 "The Golden Company at Lys"
+ GOT_Blackfyre_Country.4.d:0 "Panic ripples through the grand mansions and pleasure gardens of the Lysene Magisters as war looms over our island paradise. Young Griff, commanding the formidable strength of the Golden Company, has assembled his host outside our towering white walls and blockaded our harbors. Unveiling his true identity, he has proclaimed himself the legitimate heir of House Blackfyre and rightful King.\n\nFlanked by armored horsemen, seasoned sellswords, and towering war elephants, Young Griff has delivered an unyielding ultimatum to the conclave of Magisters: bow to the Black Dragon and surrender Lys, or watch our fair city burn in a siege of iron and blood."
+ GOT_Blackfyre_Country.4.a:0 "Bend the knee. The Black Dragon rises!"
+ GOT_Blackfyre_Country.4.b:0 "Lys will never bow to a sellsword king!"
+ 
+ GOT_Blackfyre_News.4.t:0 "The Black Dragon at the Gates of Lys"
+ GOT_Blackfyre_News.4.d:0 "Whispings of war fly across the Summer Sea as the Golden Company descends upon the island city of Lys. The pretender known as 'Young Griff' has openly declared himself the true heir to House Blackfyre and laid claim to the royal throne, surrounding the pearl of the Summer Sea with his mercenary host.\n\nWith company veterans, heavy cavalry, and war elephants deployed along the shores, Young Griff has presented the Magisters of Lys with a brutal choice: submit to House Blackfyre or face the total destruction of their city. Lords and merchants across the known world eagerly wait to see if Lys will yield its riches or draw its blades."
+ GOT_Blackfyre_News.4.a:0 "A storm is gathering in the East."
+ 
+ GOT_Blackfyre_Country.5.t:0 "The Golden Company at Myr"
+ GOT_Blackfyre_Country.5.d:0 "Constellation-gazers, lens crafters, and merchant princes alike hold their breath in the conclave halls of Myr as a dark tide settles around our city. Young Griff, leading the full force of the Golden Company, has drawn up his army before our grand walls and artisan districts. Casting away his disguise, he has proclaimed himself the true heir of House Blackfyre and sovereign King.\n\nFlanked by steel-clad knights, company veterans, and towering war elephants, Young Griff has presented the Magisters with an absolute ultimatum: bend the knee to the Black Dragon and surrender Myr to his host, or watch our ancient city of crafts and trade be put to the sword."
+ GOT_Blackfyre_Country.5.a:0 "Bend the knee. The Black Dragon rises!"
+ GOT_Blackfyre_Country.5.b:0 "Myr will never bow to a sellsword king!"
+ 
+ GOT_Blackfyre_News.5.t:0 "The Black Dragon at the Gates of Myr"
+ GOT_Blackfyre_News.5.d:0 "Anxious messages fly across the narrow sea following reports from the Free City of Myr. The pretender known as 'Young Griff' has shed his disguise and declared himself the rightful heir to House Blackfyre, encamping the Golden Company directly outside the city's walls.\n\nWith heavy cavalry, battle-hardened mercenaries, and war elephants taking position across the Myrish countryside, Young Griff has issued a harsh demand to the ruling Magisters: recognize the Black Dragon or prepare for a devastating war. Monarchs and traders across the known world wait anxiously to see whether Myr will submit to the pretender or resist the Golden Company."
+ GOT_Blackfyre_News.5.a:0 "A storm is gathering in the East."

@@ -1,0 +1,39 @@
+
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = MYR
+		buildings = {
+			infrastructure = 3
+			#industrial_complex = 1
+			#arms_factory = 1
+			#dockyard = 1
+			1894 = {
+				naval_base = 3
+				bunker = 3
+				coastal_bunker = 3
+			}
+		}
+		add_core_of = MYR
+	}
+	
+	resources = {
+		#oil = 5       # Grain
+		#rubber = 3     # Timber
+		#aluminium = 0  # Copper
+		#steel = 4      # Iron
+		#tungsten = 10  # Gold
+		#chromium = 5  # Silver
+	}
+
+
+	provinces={
+		1995 2201 2711 2730
+	}
+	manpower=4500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

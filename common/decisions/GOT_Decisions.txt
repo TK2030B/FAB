@@ -703,6 +703,129 @@ GOT_Game_Decisions = {
 			# Runs every time the 90-day cycle finishes
 		}
 	}
+	
+	BLA_conquer_Essos_countries = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = BLA
+		}
+	
+        visible = {
+			original_tag = BLA
+			NOT = { has_country_flag = EW_Operation }
+			FROM = { 
+				is_neighbor_of = BLA
+			}
+			#date > 1937.1.1
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				GOT_Essos_Countries = yes
+            }
+        }
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 7
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.1
+			
+			FROM = { 
+				is_neighbor_of = BLA
+			}
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
+	
+	BLA_conquer_Westeros_countries = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+			original_tag = BLA
+		}
+	
+        visible = {
+			original_tag = BLA
+			NOT = { has_country_flag = EW_Operation }
+			OR = {
+				FROM = { 
+					is_neighbor_of = BLA
+				}
+				any_other_country = {
+					is_in_faction_with = BLA
+					is_neighbor_of = FROM
+				}
+			}
+			date > 1939.1.1
+			owns_state = 142			
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+				GOT_Westeros_Countries = yes
+            }
+        }
+        cost = 0
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		days_remove = 7
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.1
+			
+			OR = {
+				FROM = { 
+					is_neighbor_of = BLA
+				}
+				any_other_country = {
+					is_in_faction_with = BLA
+					is_neighbor_of = FROM
+				}
+			}
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
 
 	ICE_conquer_countries = {
 	
@@ -814,6 +937,8 @@ GOT_Game_Decisions = {
 		}
 		
 		allowed = {
+			#Disabled The League of Free Cities
+			always = no 
 			OR = {
 				tag = BRA
 				tag = PEN

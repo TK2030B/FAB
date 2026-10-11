@@ -83,6 +83,12 @@ TAR_Mine_For_Dragonglass_tt:0 "Our civilian economy will allocate 5 factories fo
  TAR_Legitimize_Tyrion_Lannister:0 "Appoint Tyrion Lannister Lord of Casterly Rock"
  TAR_Legitimize_Tyrion_Lannister_desc:0 "Denied his birthright by his father and forced into exile across the Narrow Sea, Tyrion Lannister has proven his loyalty as Hand of the Queen. By royal decree, we formally reinstate Lord Tyrion as the rightful heir to Casterly Rock and Warden of the West, securing the wealth and allegiance of the Westerlands beneath the dragon banner."
  
+BLA_conquer_Essos_countries:0 "Burn the Seat of [FROM.GetName]"
+BLA_conquer_Essos_countries_desc:0 "For centuries, the pretenders of [FROM.GetName] have squandered the remnants of the Freehold in petty squabbles. We will march across their lands, put their palaces to the torch, and forge a reborn empire from the ashes of their pride."
+
+BLA_conquer_Westeros_countries:0 "Bring [FROM.GetName] to Heel"
+BLA_conquer_Westeros_countries_desc:0 "With the Iron Throne reclaimed and King's Landing under our control, those who still cling to rebellion must choose: bend the knee or burn. We will march into the lands of [FROM.GetName] and show them the true cost of defiance against the Dragon."
+ 
  NOR_Northern_Steamroller:0 "The Northern Steamroller"
  NOR_Northern_Steamroller_desc:0 "The moment has come. The armies of the North surge forward in one great, relentless assault. Whatever discipline was lost in the chaos of battle is replaced by sheer momentum. The enemy line must break beneath the weight of the North."
  
@@ -111,3 +117,4 @@ ICE_Raise_The_Dead_Hardhome_tooltip: "Raises a massive horde of Undead Wights fr
 ICE_Raise_The_Dead_Castle_Black: "Fall of the Night's Watch"
 ICE_Raise_The_Dead_Castle_Black_desc: "The ancient stronghold of the Night's Watch has fallen, and the blood of its sworn brothers stains the snows of the Wall. We shall breach the barrier and reanimate the black-clad sentinels to serve the Long Night forever."
 ICE_Raise_The_Dead_Castle_Black_tooltip: "Raises an army of reanimated Night's Watch Wights at Castle Black."
+
