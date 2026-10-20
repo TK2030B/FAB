@@ -136,6 +136,16 @@ FAI_neutrality_party:0 "The Faith of the Seven"
 FAI_fascism_party:0 "The Faith Militant"
 FAI_democratic_party:0 "The Most Devout"
 FAI_communism_party:0 "The Sparrows"
+
+TAR_neutrality_party:0 "House Targaryen"  
+TAR_fascism_party:0 "House Targaryen"  
+TAR_democratic_party:0 "House Targaryen"  
+TAR_communism_party:0 "House Targaryen"  
+
+BLA_neutrality_party:0 "House Blackfyre"  
+BLA_fascism_party:0 "House Blackfyre"  
+BLA_democratic_party:0 "House Blackfyre"  
+BLA_communism_party:0 "House Blackfyre"  
  
  #Essos
  SUI_neutrality_party:0 "House Qo"

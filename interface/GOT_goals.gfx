@@ -20,42 +20,42 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_generic_sellsword_fortifications"
-		texturefile = "gfx/interface/goals/generic/focus_generic_sellsword_fortifications.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_sellsword_fortifications.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_focus_generic_disputed_lands_tactics"
-		texturefile = "gfx/interface/goals/generic/focus_generic_disputed_lands_tactics.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_disputed_lands_tactics.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_focus_generic_essosi_pyromancers"
-		texturefile = "gfx/interface/goals/generic/focus_generic_essosi_pyromancers.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_essosi_pyromancers.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_focus_generic_golden_company"
-		texturefile = "gfx/interface/goals/generic/focus_generic_golden_company.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_golden_company.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_generic_support_blackfyre_loyalists"
-		texturefile = "gfx/interface/goals/generic/focus_generic_support_blackfyre_loyalists.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_support_blackfyre_loyalists.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_generic_blackfyre_stronghold"
-		texturefile = "gfx/interface/goals/generic/focus_generic_blackfyre_stronghold.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_blackfyre_stronghold.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_generic_trade_with_free_cities"
-		texturefile = "gfx/interface/goals/generic/focus_generic_trade_with_free_cities.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_trade_with_free_cities.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_focus_generic_welcome_blackfyre_exiles"
-		texturefile = "gfx/interface/goals/generic/focus_generic_welcome_blackfyre_exiles.dds"
+		texturefile = "gfx/interface/goals/essos/focus_generic_welcome_blackfyre_exiles.dds"
 	}
 	
 	
@@ -327,6 +327,393 @@ spriteTypes = {
 			name = "GFX_focus_generic_religion_the_seven"
 			texturefile = "gfx/interface/goals/religions/focus_generic_religion_the_seven.dds"
 		}
+		
+	SpriteType = {
+		name = "GFX_focus_DOT_Befriend_Lhazareen"
+		texturefile = "gfx/interface/goals/essos/focus_DOT_Befriend_Lhazareen.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DOT_Cast_Out_Lame"
+		texturefile = "gfx/interface/goals/essos/focus_DOT_Cast_Out_Lame.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DOT_Heed_Dosh_Khaleen"
+		texturefile = "gfx/interface/goals/essos/focus_DOT_Heed_Dosh_Khaleen.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DOT_Summon_Bloodriders"
+		texturefile = "gfx/interface/goals/essos/focus_DOT_Summon_Bloodriders.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DOT_Swear_Vaes_Dothrak"
+		texturefile = "gfx/interface/goals/essos/focus_DOT_Swear_Vaes_Dothrak.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_YTI_Far_Eastern_Faith"
+		texturefile = "gfx/interface/goals/essos/focus_YTI_Far_Eastern_Faith.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_YTI_Far_Eastern_Tradition"
+		texturefile = "gfx/interface/goals/essos/focus_YTI_Far_Eastern_Tradition.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_YTI_Honor_Jade_Dragon"
+		texturefile = "gfx/interface/goals/essos/focus_YTI_Honor_Jade_Dragon.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_YTI_Rally_Jade_Sea_Traders"
+		texturefile = "gfx/interface/goals/essos/focus_YTI_Rally_Jade_Sea_Traders.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_YTI_Secure_Five_Forts"
+		texturefile = "gfx/interface/goals/essos/focus_YTI_Secure_Five_Forts.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_YTI_The_Golden_Empire"
+		texturefile = "gfx/interface/goals/essos/focus_YTI_The_Golden_Empire.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_YTI_The_Heavenly_Mandate"
+		texturefile = "gfx/interface/goals/essos/focus_YTI_The_Heavenly_Mandate.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Look_East"
+		texturefile = "gfx/interface/goals/essos/focus_Look_East.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_BRA_Abolish_Slavery"
+		texturefile = "gfx/interface/goals/essos/focus_BRA_Abolish_Slavery.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_Braavos"
+		texturefile = "gfx/interface/goals/essos/focus_BRA_Braavos.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_Join_League_of_Free_Cities"
+		texturefile = "gfx/interface/goals/essos/focus_BRA_Join_League_of_Free_Cities.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_League_of_free_cities"
+		texturefile = "gfx/interface/goals/essos/focus_BRA_League_of_free_cities.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_Send_Envoy_To_Braavos"
+		texturefile = "gfx/interface/goals/essos/focus_BRA_Send_Envoy_To_Braavos.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_BRA_Support_The_Sealord"
+		texturefile = "gfx/interface/goals/essos/focus_BRA_Support_The_Sealord.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GHI_Court_great_pyramid"
+		texturefile = "gfx/interface/goals/essos/focus_GHI_Court_great_pyramid.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GHI_Denounce_house_blackfyre"
+		texturefile = "gfx/interface/goals/essos/focus_GHI_Denounce_house_blackfyre.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GHI_Join_harpy_league"
+		texturefile = "gfx/interface/goals/essos/focus_GHI_Join_harpy_league.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GHI_Recognize_wise_masters"
+		texturefile = "gfx/interface/goals/essos/focus_GHI_Recognize_wise_masters.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GHI_Send_envoy_to_new_ghis"
+		texturefile = "gfx/interface/goals/essos/focus_GHI_Send_envoy_to_new_ghis.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_GHI_The_league_of_the_harpy"
+		texturefile = "gfx/interface/goals/essos/focus_GHI_The_league_of_the_harpy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Look_at_the_west"
+		texturefile = "gfx/interface/goals/essos/focus_Look_at_the_west.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Path_across_the_sands"
+		texturefile = "gfx/interface/goals/essos/focus_Path_across_the_sands.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_VOL_Court_the_archons_of_lys"
+		texturefile = "gfx/interface/goals/essos/focus_VOL_Court_the_archons_of_lys.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_VOL_Join_the_triarchy"
+		texturefile = "gfx/interface/goals/essos/focus_VOL_Join_the_triarchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_VOL_Send_envoy_to_volantis"
+		texturefile = "gfx/interface/goals/essos/focus_VOL_Send_envoy_to_volantis.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_VOL_Support_the_triarchs"
+		texturefile = "gfx/interface/goals/essos/focus_VOL_Support_the_triarchs.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_VOL_The_volantene_triarchy"
+		texturefile = "gfx/interface/goals/essos/focus_VOL_The_volantene_triarchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_the_cyvasse_board"
+		texturefile = "gfx/interface/goals/essos/focus_the_cyvasse_board.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_COM_break_the_chains"
+		texturefile = "gfx/interface/goals/essos/focus_COM_break_the_chains.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_charter_the_working_guilds"
+		texturefile = "gfx/interface/goals/essos/focus_COM_charter_the_working_guilds.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_cleanse_the_mercenary_ranks"
+		texturefile = "gfx/interface/goals/essos/focus_COM_cleanse_the_mercenary_ranks.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_councils_of_the_workshops"
+		texturefile = "gfx/interface/goals/essos/focus_COM_councils_of_the_workshops.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_embed_freedmen_overseers"
+		texturefile = "gfx/interface/goals/essos/focus_COM_embed_freedmen_overseers.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_form_freedmen_companies"
+		texturefile = "gfx/interface/goals/essos/focus_COM_form_freedmen_companies.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_knowledge_of_the_freedmen"
+		texturefile = "gfx/interface/goals/essos/focus_COM_knowledge_of_the_freedmen.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_sabotage_slavers_forges"
+		texturefile = "gfx/interface/goals/essos/focus_COM_sabotage_slavers_forges.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_seize_the_slavers_vaults"
+		texturefile = "gfx/interface/goals/essos/focus_COM_seize_the_slavers_vaults.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_shatter_every_collar"
+		texturefile = "gfx/interface/goals/essos/focus_COM_shatter_every_collar.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_smuggle_arms_to_outcasts"
+		texturefile = "gfx/interface/goals/essos/focus_COM_smuggle_arms_to_outcasts.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_the_free_citadel"
+		texturefile = "gfx/interface/goals/essos/focus_COM_the_free_citadel.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_the_grand_reconstruction"
+		texturefile = "gfx/interface/goals/essos/focus_COM_the_grand_reconstruction.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_the_great_slave_revolt"
+		texturefile = "gfx/interface/goals/essos/focus_COM_the_great_slave_revolt.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_the_levee_of_the_liberated"
+		texturefile = "gfx/interface/goals/essos/focus_COM_the_levee_of_the_liberated.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_the_storming_of_the_capital"
+		texturefile = "gfx/interface/goals/essos/focus_COM_the_storming_of_the_capital.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_COM_the_triumphant_uprising"
+		texturefile = "gfx/interface/goals/essos/focus_COM_the_triumphant_uprising.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_beacon_of_liberty"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_beacon_of_liberty.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_draft_the_great_charter_of_rights"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_draft_the_great_charter_of_rights.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_endow_the_public_academies"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_endow_the_public_academies.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_establish_the_high_triarchy_council"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_establish_the_high_triarchy_council.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_fortify_civic_virtue"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_fortify_civic_virtue.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_guarantee_civic_discourse"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_guarantee_civic_discourse.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_hold_elections"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_hold_elections.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_protect_the_freemen_guild"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_protect_the_freemen_guild.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_rally_the_city_craftsmen"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_rally_the_city_craftsmen.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_sanctuary_of_the_free"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_sanctuary_of_the_free.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_the_balance_of_authority"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_the_balance_of_authority.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_the_charter_of_fair_labour"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_the_charter_of_fair_labour.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_the_conclave_council"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_the_conclave_council.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_the_englightened_charter"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_the_englightened_charter.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_DEM_the_open_bards"
+		texturefile = "gfx/interface/goals/essos/focus_DEM_the_open_bards.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_a_cleansed_vanguard"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_a_cleansed_vanguard.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_blood_of_ancient_empires"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_blood_of_ancient_empires.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_cult_of_the_supreme_ruler"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_cult_of_the_supreme_ruler.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_echoes_of_empire"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_echoes_of_empire.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_enforce_cultural_hegemony"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_enforce_cultural_hegemony.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_patricians_of_the_iron_ring"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_patricians_of_the_iron_ring.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_proclaim_absolute_autocracy"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_proclaim_absolute_autocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_purge_the_disloyal_quarters"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_purge_the_disloyal_quarters.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_raise_the_imperial_cadets"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_raise_the_imperial_cadets.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_the_iron_guard"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_the_iron_guard.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_the_path_of_iron_and_fire"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_the_path_of_iron_and_fire.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_the_seizure_of_the_high_throne"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_the_seizure_of_the_high_throne.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_the_sovereign_cult"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_the_sovereign_cult.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_the_sovereign_decree"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_the_sovereign_decree.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_aristocratic_officers"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_aristocratic_officers.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_charity_of_the_high_houses"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_charity_of_the_high_houses.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_declare_the_iron_decree"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_declare_the_iron_decree.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_demand_total_subjection"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_demand_total_subjection.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_form_the_city_guard_regiments"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_form_the_city_guard_regiments.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_foster_devotion_to_the_city"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_foster_devotion_to_the_city.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_loyalist_patricians_and_high_magistrates"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_loyalist_patricians_and_high_magistrates.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_mold_the_minds_of_the_youth"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_mold_the_minds_of_the_youth.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_order_over_anarchy"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_order_over_anarchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_rally_to_the_cities_banner"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_rally_to_the_cities_banner.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_subdue_the_rival_conclaves"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_subdue_the_rival_conclaves.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_the_ancient_tradition"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_the_ancient_tradition.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_the_magisterial_birthright"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_the_magisterial_birthright.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_the_patrician_mandate"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_the_patrician_mandate.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NEU_unite_under_the_high_seal"
+		texturefile = "gfx/interface/goals/essos/focus_NEU_unite_under_the_high_seal.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_the_sovereign_realm"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_the_sovereign_realm.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_FAS_the_high_sovereigns_will"
+		texturefile = "gfx/interface/goals/essos/focus_FAS_the_high_sovereigns_will.dds"
+	}
 
 	
 }

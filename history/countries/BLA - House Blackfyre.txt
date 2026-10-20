@@ -1,6 +1,7 @@
-﻿capital = 1
+﻿capital = 275
 GOT_start_techs = yes
-oob = "BLA_1936"
+#Army Spawned by On Actions
+#oob = "BLA_1936"
 
 set_research_slots = 3
 
@@ -17,6 +18,7 @@ set_politics = {
 	elections_allowed = no
 }
 
+recruit_character = BLA_Harry_Strickland
 recruit_character = BLA_Young_Griff
 
 add_ideas = {
@@ -27,3 +29,5 @@ add_ideas = {
 	tax_high
 }
 
+#create_faction = "The Black Dragons"
+set_cosmetic_tag = GOL_cosmetic

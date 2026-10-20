@@ -39,5 +39,5 @@ add_ideas = {
 }
 
 create_faction = "The League of Free Cities"
-add_to_faction = PEN
+#add_to_faction = PEN
 add_to_faction = LOR

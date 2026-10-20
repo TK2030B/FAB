@@ -202,7 +202,7 @@ GOT_Game_Decisions = {
 				GOT_Essos_Countries = yes
             }
         }
-        cost = 0
+        cost = 50
 		modifier = { }
 		
 		ai_will_do = {
@@ -216,7 +216,7 @@ GOT_Game_Decisions = {
 			}
 		}
 		
-		days_remove = 7
+		days_remove = 30
 		war_with_on_remove = FROM
 
         available = {
@@ -272,7 +272,7 @@ GOT_Game_Decisions = {
 				GOT_Westeros_Countries = yes
             }
         }
-        cost = 0
+        cost = 50
 		modifier = { }
 		
 		ai_will_do = {
@@ -290,7 +290,7 @@ GOT_Game_Decisions = {
 			}
 		}
 		
-		days_remove = 7
+		days_remove = 30
 		war_with_on_remove = FROM
 
         available = {
@@ -704,6 +704,64 @@ GOT_Game_Decisions = {
 		}
 	}
 	
+	BLA_First_Iron_Step = {
+		icon = generic_army_support
+
+		available = { 
+			tag = BLA
+			date < 1937.1.1
+		}
+		
+		allowed = {
+			tag = BLA
+		}
+
+		visible = {
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				NOT = { has_global_flag = GOT_Sandbox_Mode }
+				country_exists = TAR
+			}
+		}
+		
+		days_remove = 30
+
+		complete_effect = {
+		}
+		
+		remove_effect = {
+			set_global_flag = GOT_House_Blackfyre_Revealed_Flag
+			drop_cosmetic_tag = yes
+			remove_country_leader_role = {
+				character = BLA_Harry_Strickland
+				ideology = FR_subideology
+			}
+			remove_country_leader_role = {
+				character = BLA_Harry_Strickland
+				ideology = NR_subideology
+			}
+			remove_country_leader_role = {
+				character = BLA_Harry_Strickland
+				ideology = DR_subideology
+			}
+			remove_country_leader_role = {
+				character = BLA_Harry_Strickland
+				ideology = CR_subideology
+			}
+			create_faction = "The Black Dragons"
+			country_event = { id = GOT_Blackfyre_Country.6 hours = 6 }
+		}
+	}
+	
 	BLA_conquer_Essos_countries = {
 	
 		icon = generic_army_support
@@ -719,6 +777,7 @@ GOT_Game_Decisions = {
 				is_neighbor_of = BLA
 			}
 			#date > 1937.1.1
+			
 		}
         target_trigger = {
             FROM = {
@@ -727,14 +786,18 @@ GOT_Game_Decisions = {
 				GOT_Essos_Countries = yes
             }
         }
-        cost = 0
+        cost = 50
 		modifier = { }
 		
 		ai_will_do = {
 			factor = 1000
+			modifier = {
+				factor = 0
+				num_of_divisions < 1
+			}
 		}
 		
-		days_remove = 7
+		days_remove = 30
 		war_with_on_remove = FROM
 
         available = {
@@ -744,6 +807,16 @@ GOT_Game_Decisions = {
 			FROM = { 
 				is_neighbor_of = BLA
 			}
+			
+			OR = { 
+				owns_state = 76
+				owns_state = 144
+				owns_state = 126
+				owns_state = 236
+				owns_state = 229
+			}
+			
+			has_global_flag = GOT_House_Blackfyre_Revealed_Flag
 
         }
 		complete_effect = {
@@ -780,7 +853,8 @@ GOT_Game_Decisions = {
 				}
 			}
 			date > 1939.1.1
-			owns_state = 142			
+			owns_state = 142
+			has_global_flag = GOT_House_Blackfyre_Revealed_Flag			
 		}
         target_trigger = {
             FROM = {
@@ -789,14 +863,14 @@ GOT_Game_Decisions = {
 				GOT_Westeros_Countries = yes
             }
         }
-        cost = 0
+        cost = 50
 		modifier = { }
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
-		days_remove = 7
+		days_remove = 30
 		war_with_on_remove = FROM
 
         available = {
@@ -812,6 +886,8 @@ GOT_Game_Decisions = {
 					is_neighbor_of = FROM
 				}
 			}
+			
+			has_global_flag = GOT_House_Blackfyre_Revealed_Flag
 
         }
 		complete_effect = {
@@ -1586,6 +1662,67 @@ GOT_Game_Decisions = {
 			}
 			TAR = {
 				country_event = { id = GOT_Diplomatic_Country.43 }
+			}
+		}
+	}
+	
+	VOL_End_Blackfyre_Asylum = {
+		icon = generic_army_support
+		
+		allowed = {
+			tag = VOL
+		}
+
+		available = {
+			tag = VOL
+			date > 1936.1.1
+			date < 1950.1.1
+			NOT = { has_war_with = BLA }
+			country_exists = BLA
+			surrender_progress < 0.1
+			BLA = { owns_state = 275 }
+			OR = {
+				BLA = { 
+					any_owned_state = {
+						NOT = { state = 275 }
+					}
+				}
+				AND = {
+					NOT = { has_global_flag = GOT_House_Blackfyre_Revealed_Flag }
+					date > 1937.1.1
+				}
+			}
+			is_subject = no
+		}
+
+		visible = {
+			NOT = { has_country_flag = EW_Operation }
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 1000
+		}
+
+		days_remove = 7
+		war_with_on_remove = BLA
+
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			diplomatic_relation = {
+				country = BLA
+				relation = guarantee
+				active = no
+			}
+			BLA = {
+				country_event = { id = GOT_Diplomatic_Country.113 }
 			}
 		}
 	}

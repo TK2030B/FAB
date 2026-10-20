@@ -655,7 +655,7 @@ GOT_extend_training:0 "Proper Military Training"
 GOT_extend_training_desc:0 "A well-trained army is a force to be reckoned with. We must ensure that our troops are not only numerous, but also skilled in battle."
 
 GOT_role_in_war:0 "Our Role in the War"
-GOT_role_in_war_desc:0 "While the Great War ravages the realm, we must decide what part we shall play. Will we stand aside, or will we assert ourselves on the battlefield? Our destiny must be our own."
+GOT_role_in_war_desc:0 "While the War of Five Kings ravages the realm, we must decide what part we shall play. Will we stand aside, or will we assert ourselves on the battlefield? Our destiny must be our own."
 
 GOT_sell_weapons_to_germany:0 "Deal With The Lannisters"
 GOT_sell_weapons_to_germany_desc:0 "Though their rule is illegitimate, the Lannisters are a force to be reckoned with. To keep them at bay, we shall trade with them, sending weapons in exchange for peace and neutrality."
@@ -683,511 +683,508 @@ GOT_our_own_faction_desc:0 "The time for neutrality may be coming to an end. Per
 
 
 ##ESSOS FOCUS##
-ESS_open_political_sphere:0 "The Game of Thrones"
-ESS_open_political_sphere_desc:0 "The Iron Throne no longer commands the unquestioned loyalty of the realm. Lords scheme, alliances shift, and war looms on the horizon. It is time to decide where we stand—or whether we will make a play for power ourselves."
+ESS_open_political_sphere:0 "The Cyvasse Board"
+ESS_open_political_sphere_desc:0 "The Free Cities and Great Houses play a dangerous game for control of trade, land, and thrones. Magisters scheme, sellsword contracts shift, and war looms across the continent. It is time to align our city—or make a bold play for Essosi dominance."
 
-ESS_communist_path:0 "The Path of Rebellion"
-ESS_communist_path_desc:0 "The old system has oppressed the people for far too long. The time has come to tear down the structures of power that bind us. From the ashes of the old world, we rise in revolt, striking at the heart of the nobility and monarchy. With fire in our hearts and rebellion in our souls, we march toward a new order—a world where the people are free from their chains."
+ESS_communist_path:0 "Break the Chains"
+ESS_communist_path_desc:0 "The high masters, magisters, and slaver lords have fed upon the blood of the innocent for centuries. The time has come to shatter the collars and burn the slave pits to the ground. Guided by outcasts, freedmen, and wild bands, we march toward a new age—where no man wears a chain, and the grand palaces belong to those who built them."
 
-ESS_send_commissaries_in_army:0 "Embed the Tribes in the Armies"
-ESS_send_commissaries_in_army_desc:0 "In order to secure the loyalty of the newly-reformed forces, we must ensure that the tribes are integrated into the military structure. By sending tribal leaders and emissaries to serve alongside the warriors of our armies, we strengthen our unity and solidify the power of the people."
+ESS_send_commissaries_in_army:0 "Embed Freedmen Overseers"
+ESS_send_commissaries_in_army_desc:0 "To ensure the absolute loyalty of our military forces, we must integrate trusted leaders of the liberation into every rank. By embedding freedmen captains and tribal emissaries alongside our warriors, we ensure that the army serves the cause of freedom—not the ambitions of former masters."
 
-ESS_send_representatives_in_factories:0 "Send Representatives Into the Workshops"
-ESS_send_representatives_in_factories_desc:0 "To ensure the strength of our newly-formed system, it is essential that we place trusted representatives in the heart of our workshops. These emissaries will oversee the workings of the craftsmen, ensuring the prosperity of the people and the eradication of the old elite's influence."
+ESS_send_representatives_in_factories:0 "Councils of the Workshops"
+ESS_send_representatives_in_factories_desc:0 "To safeguard our cause from the sabotage of former elites, we shall establish councils of freed artisans and laborers within every workshop and foundry. These delegates will direct production, purge the influence of the old masters, and ensure every sword forged serves the defense of the realm."
 
-ESS_red_friday:0 "The Red Riot"
-ESS_red_friday_desc:0 "The spark of rebellion has ignited in the hearts of the common folk. In cities and villages alike, the oppressed rise up in anger against the nobility and the old system. Blood stains the streets as the cry for justice and equality echoes through the land. This is a turning point, one way or another—either we quell the riot with force, or we heed the call of the people."
+ESS_red_friday:0 "The Great Slave Revolt"
+ESS_red_friday_desc:0 "The spark of rebellion has ignited in the dark alleys and slave quarters. Across the city, thousands of disenfranchised folk rise up in fury against their oppressors. Blood stains the cobblestones as the cry for liberty echoes off the stone walls. We must embrace the uprising and sweep away the old order once and for all."
 
-ESS_smuggel_weapons:0 "Smuggle Arms for the Uprising"
-ESS_smuggel_weapons_desc:0 "In order to fuel the revolution, we must gather arms from secretive sources. The roads are fraught with danger, but the weapons we bring into our cause will be the spark that ignites the flames of rebellion. With each hidden blade and shield, we prepare for the day of reckoning."
+ESS_smuggel_weapons:0 "Smuggle Arms to the Outcasts"
+ESS_smuggel_weapons_desc:0 "To fuel the coming revolt, we must funnel blades, spears, and armor through secret channels. Smuggled past harbor guards and corrupt watchmen, these weapons will arm the freedmen and rebels in the shadow of the city, preparing them for the day of reckoning."
 
-ESS_sabotage_factories:0 "Sabotage the Workshops"
-ESS_sabotage_factories_desc:0 "The heart of the oppressors' power lies in their forges and workshops. By striking at their workshops, we cripple their ability to arm their forces and continue their reign of tyranny. A few well-placed fires, broken tools, and shattered equipment will slow their war machine and send a message of defiance."
+ESS_sabotage_factories:0 "Sabotage the Slavers' Forges"
+ESS_sabotage_factories_desc:0 "The wealth and power of the magisters rely on their grand workshops and shipyards. By striking at their industrial heart—dousing forge fires, snapping chains, and destroying tools—we cripple their ability to wage war while sending a message that their reign is ending."
 
-ESS_strenghen_paramilitaries:0 "Strengthen the Militant Factions"
-ESS_strenghen_paramilitaries_desc:0 "To topple the established order, we must forge strong and loyal groups of militants. These factions, born from the oppressed masses, will swell in numbers and gain strength, serving as the backbone of our revolution. With their might and discipline, we can strike fear into the hearts of our enemies and rally the people to our cause."
+ESS_strenghen_paramilitaries:0 "Form the Freedmen Companies"
+ESS_strenghen_paramilitaries_desc:0 "To overthrow the entrenched elite, we must forge dedicated bands of fighters from the liberated masses, tribal exiles, and radical outcasts. These disciplined companies will form the iron vanguard of our movement, striking terror into the hearts of the master class."
 
-ESS_revolution:0 "The March on [From.Capital.GetName]"
-ESS_revolution_desc:0 "The time has come to storm the heart of the oppressors. The people, united in their fury, rise up and march towards [From.Capital.GetName], the seat of tyranny. Our banners fly high, and with each step, our strength grows. Victory is within our reach, and the old order will soon be no more."
+ESS_revolution:0 "The Storming of [From.Capital.GetName]"
+ESS_revolution_desc:0 "The hour of liberation has arrived. The united masses, led by freedmen, outcasts, and revolutionaries, march upon the high palaces of [From.Capital.GetName]. Our banners fly high over the shattered gates, and the old masters shall be brought to justice before the seats of their former power."
 
-ESS_support_unions:0 "Champion the Guilds"
-ESS_support_unions_desc:0 "The guilds of the realm represent the backbone of our workforce. Whether in pursuit of justice for the common folk or to ensure the prosperity of the kingdom, we must support these unions. By granting them strength and autonomy, we empower the people and lay the foundation for a future where all may thrive, whether by revolution or reform."
+ESS_support_unions:0 "Charter the Working Guilds"
+ESS_support_unions_desc:0 "The laboring folk, artisans, and freemen are the true backbone of our city. By organizing them into self-governing councils and trade brotherhoods, we grant them local autonomy, break the monopoly of the old aristocracy, and lay the foundation for a prosperous realm powered by the people."
 
-ESS_democratic_path:0 "The Path of Freedom"
-ESS_democratic_path_desc:0 "In a land ruled by the powerful and the elite, a new vision begins to take root. The cry for liberty, justice, and equality calls out from the hearts of the people. This path is one of peace, reform, and the belief that a just government should answer to all its people. By embracing democratic ideals, we can build a brighter future where the will of the common folk is heard."
+ESS_democratic_path:0 "The Enlightened Charter"
+ESS_democratic_path_desc:0 "In a land long dominated by despots, slaver dynasties, and autocratic Magisters, a vision of just governance begins to take root. The call for civic law, individual liberty, and fair representation rings out through the city plazas. By embracing an enlightened republic, we build a future where power is guided by reason, law, and a council that answers to the populace."
 
+ESS_supporters_in_factories:0 "Rally the City Craftsmen"
+ESS_supporters_in_factories_desc:0 "The grand workshops, docks, and artisan quarters are the lifeblood of our urban economy. By rallying the master craftsmen and trade laborers to our cause, we forge an alliance between the working populace and the state, securing both political stability and economic prosperity."
 
-ESS_supporters_in_factories:0 "Rally the Workers"
-ESS_supporters_in_factories_desc:0 "The factories are the lifeblood of the realm’s economy. By rallying the workers to our cause, we can forge a strong alliance between the common folk and the ruling government. Whether through fair treatment or promises of greater power, we will strengthen our support among the laborers and ensure the stability of our economy and society."
+ESS_support_free_speech:0 "Guarantee Civic Discourse"
+ESS_support_free_speech_desc:0 "For centuries, the common folk and freemen have been silenced under threat of exile or execution. By protecting open debate in our plazas and forums, we invite the brightest minds to contribute to the republic, ensuring that state decisions are tested by truth rather than dictated by fear."
 
-ESS_support_free_speech:0 "Champion the Voice of the People"
-ESS_support_free_speech_desc:0 "In a realm bound by ancient laws and traditions, the common folk have long been silenced. By championing the right of every voice to be heard, we can bring justice to the people and strengthen our cause. Allowing the people to speak freely will not only rally support for our rule, but it will also be the first step towards a new order where no voice is ignored."
+ESS_support_workers_movements:0 "Protect the Freemen's Guilds"
+ESS_support_workers_movements_desc:0 "The wealth of the Free Cities was built on the backs of unrepresented labor. It is time to guarantee the rights of freemen, artisans, and wage-earners. By chartering their guilds and protecting their livelihoods, we create a resilient, self-reliant citizenry."
 
-ESS_support_workers_movements:0 "Champion the Rights of the Common Folk"
-ESS_support_workers_movements_desc:0 "For too long, the labor of the common folk has been exploited by the ruling class. It is time to stand with the workers who toil in the fields and workshops, for their rights must be protected. By supporting their movements, we will forge a stronger, more just realm where the common folk are no longer treated as mere tools of the elite."
+ESS_free_press:0 "The Open Bards & Pamphleteers"
+ESS_free_press_desc:0 "Truth is the greatest weapon against tyranny and corruption. By permitting independent town criers, scholars, and printing presses to operate without censorship, we ensure that the deeds of the ruling council remain transparent and accountable to all."
 
-ESS_free_press:0 "A Voice for the People"
-ESS_free_press_desc:0 "The power of words is immense, and the truth must be heard. A free press allows the voices of the common folk to rise against the whispers of corruption and tyranny. By supporting the free flow of information, we ensure that the people can speak their minds, and the ruling class can no longer hide their misdeeds in the shadows."
+ESS_found_parliament:0 "Establish the High Triarchy Council"
+ESS_found_parliament_desc:0 "Autocracy invites corruption and decay. By founding a High Council of elected delegates, merchant representatives, and civic leaders, we establish a permanent governing body that balances power, drafts wise legislation, and guides the state for the greater good."
 
-ESS_found_parliament:0 "Establish the Grand Council"
-ESS_found_parliament_desc:0 "In a realm ruled by kings and lords, the voice of the common people must be heard. By establishing the Grand Council, we allow representatives of the realm's diverse factions to come together, offering counsel and shaping the future of the kingdom. This council will ensure that decisions are made not only by the crown but in the interest of all who dwell within our lands."
+ESS_draft_constitution:0 "Draft the Great Charter of Rights"
+ESS_draft_constitution_desc:0 "To prevent the return of tyranny, a supreme law must bind ruler and citizen alike. The Great Charter will codify property rights, civil protections, and legal equality into law, laying down an enduring foundation of justice that no tyrant can sweep away."
 
-ESS_draft_constitution:0 "Draft the Sacred Charter"
-ESS_draft_constitution_desc:0 "In the heart of the kingdom, a new foundation must be laid. The Sacred Charter will bind all rulers, lords, and common folk to a common set of laws and principles, ensuring justice and fairness for all. With the drafting of this charter, we seek to enshrine the rights of the people, creating a legacy that will stand for generations to come."
+ESS_hold_elections:0 "Convene the Citizens' Conclave"
+ESS_hold_elections_desc:0 "The time has come to put the governance of the realm into the hands of its people. Citizens and representatives from across the provinces shall gather at the Conclave to cast their votes, selecting a visionary leader and council to guide our republic forward."
 
-ESS_hold_elections:0 "Call for the Grand Assembly"
-ESS_hold_elections_desc:0 "It is time to gather the voices of the realm. Lords and commoners alike will be summoned to the Grand Assembly, where representatives of the people shall be chosen. The future of the kingdom rests in the hands of those who hold the will of the people, and their votes will decide the fate of the realm."
+ESS_non_alligned_path:0 "The Ancient Tradition"
+ESS_non_alligned_path_desc:0 "In an era where radical movements seek to tear down the realm, we look to the proven traditions that have sustained our city for centuries. The power of the high nobility, the dominance of the merchant houses, and the age-old customs of Essos must guide us. We shall preserve the established order and guard against the chaos of mob rule."
 
-ESS_non_alligned_path:0 "The Path of Old"
-ESS_non_alligned_path_desc:0 "In an age where new ideologies seek to reshape the realm, we turn our eyes to the old ways—those that have sustained the kingdom through centuries of turmoil. The traditions of the noble houses, the fealty of the lords, and the ancient customs of the land must guide us. There is no place for radical change; only the preservation of what has been built."
+ESS_noble_birthright:0 "The Magisterial Birthright"
+ESS_noble_birthright_desc:0 "The authority to govern is passed through noble blood and ancient lineage. As the high houses have controlled our harbors and vaults for generations, we must defend this sacred hierarchy. True stability lies in the hands of the landed patricians and aristocratic bloodlines born to command."
 
-ESS_noble_birthright:0 "The Noble Birthright"
-ESS_noble_birthright_desc:0 "The right to rule is bestowed upon us by blood. As the noble houses have held power for generations, so must we defend this sacred birthright. The commoners may rise, but the true strength of the realm lies in the lineage of the noble families, who have long safeguarded the realm’s prosperity. It is time to reaffirm the power of noble birth and ensure that the crown remains in the hands of those who are born to lead."
+ESS_rightful_rule:0 "The Patrician's Mandate"
+ESS_rightful_rule_desc:0 "Governance belongs to those appointed by precedent, wealth, and centuries of tradition. Neither the fury of the slaver revolt nor the chaos of public assemblies should dictate the city's fate. We shall assert our rightful authority and enforce unwavering order with a firm, traditional hand."
 
-ESS_rightful_rule:0 "The Rightful Rule"
-ESS_rightful_rule_desc:0 "The throne belongs to those who are destined by law and tradition to sit upon it. It is not the will of the people, nor the whims of the weak, that should decide who governs. We are the true heirs, and it is time to claim what is rightfully ours. The realm needs a strong, unwavering hand to restore order, and only by embracing our birthright can we secure the future of the kingdom."
+ESS_monarchist_general_staff:0 "Aristocratic Officers"
+ESS_monarchist_general_staff_desc:0 "To preserve the realm's security, command over our forces must remain in the hands of high-born officers and noble-backed captains. Their loyalty to the ruling council ensures discipline within the ranks and protects our institutions from radical mutiny."
 
-ESS_monarchist_general_staff:0 "Monarchist Generals"
-ESS_monarchist_general_staff_desc:0 "To ensure the stability of the realm, we must place our trust in those who uphold the old ways. Monarchist generals, loyal to the crown, will bring military strength and discipline to our cause. With their expertise, we can prepare the realm for any threat, internal or external, and safeguard the throne for generations to come."
+ESS_increase_patriotism:0 "Foster Devotion to the City"
+ESS_increase_patriotism_desc:0 "In times of unrest, the strength of the state relies on the devotion of its populace. Through grand public spectacles, religious processions, and civic pride, we shall unite the populace beneath the ancient standards of our city and bolster reverence for the ruling class."
 
-ESS_increase_patriotism:0 "Foster Loyalty to the Realm"
-ESS_increase_patriotism_desc:0 "In these troubled times, the strength of the realm lies in the loyalty of its people. We must inspire a renewed sense of devotion to the crown and the kingdom. Through noble deeds, public ceremonies, and stirring speeches, we will unite the people under the banner of the realm and strengthen the ties between the ruler and the ruled."
+ESS_monarchist_politicians:0 "Loyalist Patricians & High Magistrates"
+ESS_monarchist_politicians_desc:0 "The stability of our state relies on an unwavering council. We must stack the high benches with traditionalist lords, wealthy patricians, and loyal magistrates who will uphold the authority of the oligarchy against any upstart reformers."
 
-ESS_monarchist_politicians:0 "Loyalist Nobles and Courtiers"
-ESS_monarchist_politicians_desc:0 "The kingdom's stability relies on the support of those who honor the crown and its ancient rights. We must cultivate a council of nobles and courtiers who are fiercely loyal to the monarchy, ensuring the crown's power remains unchallenged and its authority unquestioned. With their influence, we can secure the throne and guide the realm towards a glorious future."
+ESS_controlled_opposition:0 "Subdue the Rival Conclaves"
+ESS_controlled_opposition_desc:0 "To maintain absolute control, we must permit a measure of dissent, provided it remains strictly managed within approved forums. By steering opposing merchant factions into harmless political maneuvering, we neutralize real threats while maintaining a facade of balanced governance."
 
-ESS_controlled_opposition:0 "A Subdued Opposition"
-ESS_controlled_opposition_desc:0 "In order to maintain control over the realm, it is wise to allow some voices of dissent, but only within bounds that we can manage. By ensuring these opposing factions remain contained and loyal to the crown, we can prevent any true threats to our rule while giving the appearance of fair governance. A divided enemy is a weakened enemy."
+ESS_unite_the_people:0 "Unite Under the High Seal"
+ESS_unite_the_people_desc:0 "Our city is fractured by petty feuds, guild rivalries, and radical unrest. It is time to bind the realm under one authority. Whether by political pacts or the deployment of the city watch, we shall restore total order and demand fealty to the ruling order."
 
-ESS_unite_the_people:0 "Unite the Kingdom"
-ESS_unite_the_people_desc:0 "The realm is divided, with rival factions and fractured loyalties tearing at its seams. It is time to forge unity under the crown, to bring the people together under one banner. Whether by decree or by force, we shall restore order and strength to the kingdom, ensuring that all kneel to the rightful monarch."
+ESS_nationalist_ideas:0 "The Sovereign Realm"
+ESS_nationalist_ideas_desc:0 "A powerful sense of civic pride and unyielding devotion must be instilled in the hearts of our people. The city must be bound together not merely by coins and contracts, but by a shared identity and destiny. Whether to defend our borders or expand our domain across the continent, we shall kindle the fire of total allegiance in the hearts of the populace."
 
-ESS_nationalist_ideas:0 "The Nationalist Creed"
-ESS_nationalist_ideas_desc:0 "A powerful sense of unity and national pride must be instilled in the hearts of our people. The realm must be bound together, not by mere loyalty to a ruler, but by a shared identity and purpose. Whether to defend the crown or to further our dominion, we shall kindle the fire of nationalism in the hearts of the masses."
+ESS_fascist_path:0 "The Path of Iron & Fire"
+ESS_fascist_path_desc:0 "Through relentless subjugation and absolute authority, we shall construct an unyielding autocracy. The city will be ruled with an iron fist, where ultimate strength and total submission are demanded. Dissidents will be crushed, and the populace shall bow before a ruthless, absolute conqueror."
 
-ESS_fascist_path:0 "The Path of the Iron Fist"
-ESS_fascist_path_desc:0 "Through iron discipline and an unyielding will, we will forge a new order. The realm shall be ruled with an iron fist, where strength and loyalty are paramount. Those who oppose us will be crushed, and the people shall march forward under the banner of power and unity, bound by the force of a singular vision."
+ESS_racial_superiority:0 "Blood of the Ancient Empires"
+ESS_racial_superiority_desc:0 "In Essos, only those of noble blood and conqueror lineage are fit to rule. We shall subjugate the weak, bind the lower classes in iron collars, and elevate the highborn lines of Old Valyria and Old Ghis. It is the law of nature that the strong rule and the weak serve."
 
-ESS_racial_superiority:0 "The Survival of the Strongest"
-ESS_racial_superiority_desc:0 "In this realm, only the strongest shall endure. We must cleanse the land of the weak and elevate those who are worthy. The weak will fall to the wayside, while the strong rise to rule. This is the law of nature, and it shall govern the future of our people."
+ESS_noble_supporters:0 "Patricians of the Iron Ring"
+ESS_noble_supporters_desc:0 "Among the elite slaver families and autocratic magisters, there are those who crave absolute dominance. These highborn tyrants will align with our movement, offering their gold, private guards, and influence to sweep away the old councils and establish absolute rule."
 
-ESS_noble_supporters:0 "Sympathizers in the Nobility"
-ESS_noble_supporters_desc:0 "Among the noble houses, there are those who secretly favor our cause. These sympathizers can be our eyes and ears in the halls of power, and with their support, we may gain crucial allies within the highest circles of society. The old order may crumble, but we will be ready to take control."
+ESS_assault_multiculturalism:0 "Enforce Cultural Hegemony"
+ESS_assault_multiculturalism_desc:0 "Foreign customs and weak ideals threaten the purity and discipline of our state. We shall purge alien influences, dismantle foreign enclaves, and enforce the ancient traditions and language of our city upon all who dwell within our borders."
 
-ESS_assault_multiculturalism:0 "Defend Our Culture"
-ESS_assault_multiculturalism_desc:0 "The foreign influences that have seeped into our land threaten the purity of our people and our way of life. It is time to reclaim our traditions, remove these alien forces, and ensure that our society is united under a single, unshakable culture. The strength of our nation lies in its unity."
+ESS_massive_propaganda:0 "Echoes of Empire"
+ESS_massive_propaganda_desc:0 "Our vision of absolute conquest must fill every square, harbor, and temple. Through grand monuments, heraldic banners, and terrifying proclamations of power, we shall condition the populace to fear our name and revere our supreme authority."
 
-ESS_massive_propaganda:0 "The Power of the Word"
-ESS_massive_propaganda_desc:0 "Our cause must be spread across the realm, from the highest tower to the humblest village. With great speeches, banners, and tales of glory, we will convince the people to rally to our banner. The truth will be molded in our favor, and the hearts of the masses will beat as one with our vision."
+ESS_paramilitarism:0 "The Iron Guard"
+ESS_paramilitarism_desc:0 "To enforce absolute obedience, we shall raise brutal, fanatical death-squads outside the standard city watch. These merciless enforcers will patrol the plazas, crush rebellions in the lower quarters, and liquidate any who whisper sedition."
 
-ESS_paramilitarism:0 "The Iron Fist"
-ESS_paramilitarism_desc:0 "In the name of order and unity, we shall form powerful and disciplined forces that stand outside the realm's traditional military. These elite groups will serve not only to protect our cause but to impose our will upon the land, bringing any dissenters into line with brutal efficiency."
+ESS_leader_principle:0 "The High Sovereign's Will"
+ESS_leader_principle_desc:0 "The state does not belong to councils or assemblies; it exists to execute the singular vision of the supreme ruler. Ordained by power and divine right, the Sovereign's command is law—unquestionable and absolute across the realm."
 
-ESS_leader_principle:0 "The Divine Right of the Leader"
-ESS_leader_principle_desc:0 "The strength of our nation lies not in its institutions, but in the singular vision of its leader. Under the divine mantle of leadership, all must rally to one banner, one will. The Leader’s decisions are unquestionable, as their wisdom is ordained by the very gods themselves."
-
-ESS_the_coup:0 "The Coup of the True Monarch"
-ESS_the_coup_desc:0 "The time has come to reclaim the throne from those who defile the rightful rule of our lands. With the strength of our loyal forces, we shall overthrow the weak and corrupt leadership, restoring the kingdom to its true monarch. The moment of reckoning is at hand."
+ESS_the_coup:0 "The Seizure of the High Throne"
+ESS_the_coup_desc:0 "The hour for total power has arrived. With our fanatical legions and slaver allies behind us, we shall march into the high palace, execute the spineless council, and claim absolute rule over the city. A new, terrifying empire begins today."
 
 ESS_successful_revolution:0 "The Triumphant Uprising"
-ESS_successful_revolution_desc:0 "The people have risen up in revolt, overthrowing the oppressive aristocracy and destroying the old regime. The revolution is victorious, and now the land is ripe for a new order—one built upon the foundations of equality, justice, and the will of the common folk."
+ESS_successful_revolution_desc:0 "The freedmen and outcasts have risen in revolt, casting down the high masters and shattering the slave pits. The old regime is no more, and the city stands ready for a new order—one forged on liberty, shared strength, and the will of the liberated."
 
-ESS_purge_army:0 "Cleanse the Royalist Forces"
-ESS_purge_army_desc:0 "The remnants of the old regime still linger within the ranks of the army, loyal to the fallen nobility. It is time to rid the military of these traitors and instill new leadership that will serve the people and the revolution."
+ESS_purge_army:0 "Cleanse the Mercenary Ranks"
+ESS_purge_army_desc:0 "Remnants of the old slaver guard and corrupt captains still linger within our military forces. We must purge these turncoats and place command strictly in the hands of proven revolutionaries who serve the populace."
 
-ESS_five_year_plan:0 "The Great Rebuilding"
-ESS_five_year_plan_desc:0 "To secure the future of the people, we must rebuild our land and economy from the ashes of the old world. A bold, five-year plan will direct our resources toward the common good, ensuring prosperity for all and the downfall of the old elite."
+ESS_five_year_plan:0 "The Grand Reconstruction"
+ESS_five_year_plan_desc:0 "To secure the future of our new society, we must rebuild our city and harbors from the ground up. A bold, centralized campaign will direct our resources toward public works, ensuring prosperity for all and the total elimination of the old master class."
 
-ESS_equal_education:0 "Education for All"
-ESS_equal_education_desc:0 "In the new world, knowledge shall no longer be the privilege of the few. We will ensure that every citizen, from the lowest peasant to the highest artisan, is given the tools to thrive and contribute to our collective strength."
+ESS_equal_education:0 "Knowledge for the Freedmen"
+ESS_equal_education_desc:0 "In our new realm, literacy and wisdom shall no longer be hoardings of the highborn. We shall establish open schools across every quarter, ensuring every citizen possesses the knowledge to build and defend our future."
 
-ESS_collectivisation:0 "The Purge of the Nobles"
-ESS_collectivisation_desc:0 "The old nobility, the entrenched aristocracy, and those who oppose our new order must be swept away. Their wealth and lands will be redistributed to the people, and those who remain loyal to the old ways will face the consequences of their defiance."
+ESS_collectivisation:0 "Seize the Slavers' Vaults"
+ESS_collectivisation_desc:0 "The entrenched patricians and slaver lords who profited off human misery must be stripped of their power. Their massive estates, vaults, and fleets shall be redistributed to the populace, and those who plot counter-revolution will answer for their crimes."
 
-ESS_mass_mobilisation_commie:0 "The Great March of the People"
-ESS_mass_mobilisation_commie_desc:0 "With the revolution now sweeping across the land, we call upon every able-bodied man and woman to rise in arms. The march towards a new world begins, and no force can stop the will of the people from claiming their future."
+ESS_mass_mobilisation_commie:0 "The Levée of the Liberated"
+ESS_mass_mobilisation_commie_desc:0 "With liberation sweeping through our streets, we call upon every able-bodied person to take up arms. A massive host of freedmen and partisans shall march forth, and no mercenary array shall withstand the fury of a populace fighting for its freedom."
 
-ESS_spread_revolution:0 "Spread the Flames of Revolution"
-ESS_spread_revolution_desc:0 "The fire of rebellion has ignited in our lands, and it is time to spread this flame to the farthest corners of the realm. We shall bring the banner of equality and justice to all who suffer under the old order, whether through diplomacy, force, or the word of the people."
+ESS_spread_revolution:0 "Shatter Every Collar"
+ESS_spread_revolution_desc:0 "The fires of liberation cannot be contained within our walls. We shall carry the red banner across Essos, sending agents, arms, and emissaries to spark uprisings in neighboring slave cities and crush the old order wherever it stands."
 
-ESS_socialism_in_one_country:0 "Forge a Unified Nation"
-ESS_socialism_in_one_country_desc:0 "In this land, we will build the foundations of a new society, one where the power of the people reigns supreme. We do not need the world to join us—our revolution will be self-sustaining. We will forge a strong, unified nation, a beacon of justice that will stand against the forces of oppression."
+ESS_socialism_in_one_country:0 "The Free Citadel"
+ESS_socialism_in_one_country_desc:0 "We shall fortify our revolution here within our own borders. We do not need the approval of the Free Cities—our liberation shall be self-sustaining. We will build an unyielding sanctuary of freedom, a beacon that stands eternal against the slaver empires of the Known World."
 
-ESS_new_cabinet:0 "The New Council"
-ESS_new_cabinet_desc:0 "A new era begins with the gathering of wise and trusted advisors. Together, we shall guide the realm towards prosperity and justice, ensuring that the will of the people shapes the course of the kingdom."
+ESS_new_cabinet:0 "The Conclave Council"
+ESS_new_cabinet_desc:0 "A new era begins with the gathering of wise magisters, scholars, and trusted civic representatives. Together, we shall guide our city toward enduring prosperity and justice, ensuring that the common good shapes the course of the republic."
 
-ESS_strenghen_democratic_spirit:0 "Fortify the Spirit of Liberty"
-ESS_strenghen_democratic_spirit_desc:0 "The winds of freedom must blow strong across our land. It is time to teach our people the values of fairness and justice, ensuring that democracy takes root and flourishes within our realm."
+ESS_strenghen_democratic_spirit:0 "Fortify Civic Virtue"
+ESS_strenghen_democratic_spirit_desc:0 "The winds of liberty must sweep across our harbors and plazas. It is time to instill the values of civic duty, fairness, and law within our populace, ensuring that our republic takes deep root and flourishes."
 
-ESS_seperation_of_powers:0 "The Division of Power"
-ESS_seperation_of_powers_desc:0 "To protect our realm from tyranny, we must divide the powers of the crown, the council, and the judiciary. Only by ensuring that no single hand holds too much sway can we preserve the freedoms of the people."
+ESS_seperation_of_powers:0 "The Balance of Authority"
+ESS_seperation_of_powers_desc:0 "To protect our city from autocracy, we must divide authority between the High Council, the judiciary, and the magistrates. Only by ensuring no single hand holds absolute power can we preserve the liberties of our citizens."
 
-ESS_education_reform:0 "A Reformation of Knowledge"
-ESS_education_reform_desc:0 "In the pursuit of a just kingdom, an educated populace is key. We shall overhaul our schools and ensure that the wisdom of the realm is passed down to all, from the noble to the commoner."
+ESS_education_reform:0 "Endow the Public Academies"
+ESS_education_reform_desc:0 "In the pursuit of an enlightened state, an educated citizenry is essential. We shall overhaul our academies and scriptoriums, ensuring that literacy and reason are available across every quarter of the city."
 
-ESS_home_of_the_free:0 "The Home of the Free"
-ESS_home_of_the_free_desc:0 "We shall build a sanctuary where the shackles of oppression can no longer hold our people down. A land where the voice of every citizen is heard, and the laws protect the weak and the strong alike."
+ESS_home_of_the_free:0 "Sanctuary of the Free"
+ESS_home_of_the_free_desc:0 "We shall build a haven where the shackles of slaver tyranny can never hold our people down—a land where law protects highborn and freeman alike, and every citizen's voice is heard."
 
-ESS_labor_reform_democratic:0 "The Labour of the People"
-ESS_labor_reform_democratic_desc:0 "The workers of the realm are the backbone of our kingdom. It is time to ensure that their labor is respected and that their rights are defended, for no man or woman should toil without reward."
+ESS_labor_reform_democratic:0 "The Charter of Fair Labor"
+ESS_labor_reform_democratic_desc:0 "The artisans, dockworkers, and tradesfolk are the backbone of our wealth. It is time to guarantee fair contracts and dignity for their labor, ensuring no free person toils without just reward."
 
-ESS_spread_democracy:0 "The Torch of Freedom"
-ESS_spread_democracy_desc:0 "With our kingdom on the path of liberty, it is time to show our neighbors the light of freedom. We shall spread our ideals of democracy, helping others rise up from the darkness of oppression as we have done."
-
-
-ESS_stability:0 "Not Revolution, But Preservation"
-ESS_stability_desc:0 "The realm stands at a crossroads. Rather than tearing it asunder with revolution, we shall preserve the old ways and maintain stability. Through order and strength, we will safeguard the legacy of our ancestors."
-
-ESS_help_poor:0 "Aid for the Downtrodden"
-ESS_help_poor_desc:0 "Even in the most prosperous kingdoms, the poor suffer. It is our duty to provide for the weak and ensure that no one is left to starve or suffer under the weight of poverty. A strong realm is one that cares for all its people."
-
-ESS_strenghen_patriotism:0 "Fortify the Realm's Loyalty"
-ESS_strenghen_patriotism_desc:0 "The strength of the realm lies in the unity of its people. We must cultivate a sense of patriotism, binding the hearts of the common folk and nobles alike in devotion to the crown and the greater good of the kingdom."
-
-ESS_martial_law:0 "Impose Martial Law"
-ESS_martial_law_desc:0 "In times of unrest, the crown must act swiftly and decisively. Martial law shall be declared to restore order, suppress rebellion, and ensure that the forces of chaos do not threaten the kingdom's stability."
-
-ESS_national_guard:0 "Raise a National Guard"
-ESS_national_guard_desc:0 "To defend the realm and preserve order, we shall raise a national guard, loyal only to the crown. These warriors shall serve as the sword and shield of the kingdom, keeping peace among the people and defending against internal threats."
-
-ESS_indoctrinate_schools:0 "Shape the Minds of the Future"
-ESS_indoctrinate_schools_desc:0 "The future of the realm lies in the education of its children. We must ensure that the schools teach not only knowledge but loyalty to the crown, reinforcing the values that have kept the kingdom strong through the ages."
-
-ESS_absolute_obedience:0 "Demand Absolute Obedience"
-ESS_absolute_obedience_desc:0 "A realm divided is a realm weakened. The crown shall demand absolute obedience from all its subjects, ensuring that no dissent can fester and that the kingdom's stability remains unchallenged. The strength of the realm is built on unity and unwavering loyalty."
+ESS_spread_democracy:0 "The Beacon of Liberty"
+ESS_spread_democracy_desc:0 "With our republic firmly established, it is time to extend the light of freedom across Essos. We shall export our civic ideals, aiding neighboring peoples to cast off the yoke of autocracy and slaver rule."
 
 
-ESS_law_of_dictator:0 "The Law of the Tyrant"
-ESS_law_of_dictator_desc:0 "The realm must bend to the will of a single, unchallenged ruler. The Law of the Tyrant will ensure that all power resides with the crown, and any attempt at rebellion or dissent will be swiftly crushed. The kingdom shall know only one authority—the supreme ruler."
+ESS_stability:0 "Order Over Anarchy"
+ESS_stability_desc:0 "Our city stands at a crossroads. Rather than tearing our society apart with radical upheaval, we shall preserve the traditional institutions and maintain order. Through unwavering law and civic strength, we safeguard the heritage of our founders."
 
-ESS_godlike_propaganda:0 "Divine Propaganda"
-ESS_godlike_propaganda_desc:0 "The people must be made to believe in the divinity of our cause. Propaganda shall glorify our ruler as a god, and the kingdom shall be united in reverence. Through divine speeches and omnipresent symbols, we shall create a state of unquestioning loyalty."
+ESS_help_poor:0 "Charity of the High Houses"
+ESS_help_poor_desc:0 "Even in the richest trade hubs, the lower city suffers. It is the noble duty of the patricians to distribute bread, grain, and alms to the less fortunate, ensuring the masses do not starve or rise in desesperation against the state."
 
-ESS_purge_opposition:0 "Cleanse the Realm"
-ESS_purge_opposition_desc:0 "There can be no tolerance for traitors and those who oppose the will of the crown. It is time to purge the kingdom of those who seek to undermine our rule. Nobles, commoners, and soldiers alike shall learn to fear the consequences of defying the throne."
+ESS_strenghen_patriotism:0 "Rally to the City's Banner"
+ESS_strenghen_patriotism_desc:0 "The true power of our city lies in the devotion of its people. We must cultivate deep civic loyalty, binding the hearts of freemen and patricians alike in pride for our realm's ancient glory and prosperity."
 
-ESS_military_youth:0 "Raise the Military Youth"
-ESS_military_youth_desc:0 "To secure the future of the kingdom, we must instill the values of loyalty and strength in our youth. We shall raise military academies to train the next generation of warriors, loyal to the crown and ready to die for the glory of the kingdom."
+ESS_martial_law:0 "Declare the Iron Decree"
+ESS_martial_law_desc:0 "When riots and sedition threaten our streets, the ruling council must act without hesitation. Curfews and martial decree shall be imposed to restore order, sweep away agitators, and protect the realm's stability."
 
-ESS_pure_army:0 "A Pure Army"
-ESS_pure_army_desc:0 "Only the strongest and most loyal will serve the crown. We will purge our military ranks of any who are weak, unworthy, or disloyal. Only those who have sworn unbreakable fealty to the throne will wear the armor of the kingdom."
+ESS_national_guard:0 "Form the City Guard Regiments"
+ESS_national_guard_desc:0 "To defend the high quarters and maintain peace, we shall establish elite, standing city guard regiments loyal strictly to the ruling council. These guards will enforce the law and crush internal threats with absolute discipline."
 
-ESS_national_cult:0 "The Cult of the Crown"
-ESS_national_cult_desc:0 "The realm shall be ruled not by a mere king, but by a living legend. We will establish a national cult dedicated to the glorification of the crown, with all subjects expected to worship and revere our ruler as the ultimate source of power and guidance."
+ESS_indoctrinate_schools:0 "Mold the Minds of the Youth"
+ESS_indoctrinate_schools_desc:0 "The future of our state depends on the instruction of the next generation. We must ensure that our academies and scriptoriums instill reverence for authority, respect for law, and loyalty to the established order."
 
-ESS_total_dictatorship:0 "Proclaim Total Dictatorship"
-ESS_total_dictatorship_desc:0 "The time for the illusions of a shared rule has passed. It is time to declare total dictatorship, where all authority rests in the hands of a single ruler. The kingdom will know no law except the will of the sovereign, and all must obey without question."
+ESS_absolute_obedience:0 "Demand Total Subjugation"
+ESS_absolute_obedience_desc:0 "A divided city is a vulnerable city. The high council shall demand absolute obedience from every citizen, resident, and guild, ensuring no factional dissent can fester to threaten our enduring stability."
 
 
-ESS_free_market:0 "The Guilds' Freedom"
-ESS_free_market_desc:0 "Let the guilds and merchant houses trade without shackles. Prosperity shall flow from liberty, and the realm will thrive through the ambitions of free folk unburdened by the crown’s meddling."
+ESS_law_of_dictator:0 "The Sovereign's Decree"
+ESS_law_of_dictator_desc:0 "The city and its lands must bend unconditionally to the will of a single, supreme autocrat. The Law of the Sovereign ensures that absolute power resides solely at the top, and any breath of rebellion or dissent will be met with immediate destruction. The realm shall recognize only one authority—the absolute ruler."
 
-ESS_support_middle_class:0 "Empower the Merchant Folk"
-ESS_support_middle_class_desc:0 "The rising class of merchants, artisans, and tradespeople are the lifeblood of our towns and cities. By empowering them, we ensure a prosperous and self-reliant realm."
+ESS_godlike_propaganda:0 "Cult of the Supreme Ruler"
+ESS_godlike_propaganda_desc:0 "The populace must be made to revere the unassailable might of our regime. Grand propaganda shall glorify our leader as a master of empires, uniting the state in absolute devotion. Through towering monuments and omnipresent decrees, we shall enforce unquestioning obedience."
 
-ESS_minimum_wage:0 "Set a Fair Wage"
-ESS_minimum_wage_desc:0 "To preserve dignity among the laboring folk, we shall mandate a fair wage—one that provides bread for the table and shelter for the family, without strangling the freedom of trade."
+ESS_purge_opposition:0 "Purge the Disloyal Quarters"
+ESS_purge_opposition_desc:0 "There can be no quarter given to traitors, schemers, or those who challenge the supreme will. It is time to cleanse the city of all who undermine our autocracy. Nobles, freemen, and mercenaries alike shall learn the terrifying consequences of defying the regime."
 
-ESS_invite_foreign_investors:0 "Welcome Foreign Coin"
-ESS_invite_foreign_investors_desc:0 "Let envoys and merchant princes from distant lands bring their gold and goods. By opening our ports and cities, we invite trade, riches, and influence into our growing markets."
+ESS_military_youth:0 "Raise the Imperial Cadets"
+ESS_military_youth_desc:0 "To secure our empire for generations, we must instill fanaticism and martial strength in the youth. We shall establish elite training academies to raise a new generation of soldiers, utterly devoted to the supreme ruler and ready to conquer in their name."
 
-ESS_fiscal_reforms:0 "Overhaul the Royal Ledgers"
-ESS_fiscal_reforms_desc:0 "A disordered treasury weakens the realm. By reforming our coinage, taxes, and tariffs, we shall restore faith in the crown's coffers and encourage wise investment."
+ESS_pure_army:0 "A Cleansed Vanguard"
+ESS_pure_army_desc:0 "Only the most ruthless and fiercely loyal shall carry arms for the state. We will purge our military ranks of all hesitant, weak, or untrustworthy elements, ensuring that only absolute zealots wear the armor of our host."
 
-ESS_planned_economy:0 "The Crown's Hand"
-ESS_planned_economy_desc:0 "Let the crown take hold of the realm's destiny. By guiding every field and forge, every mine and mill, we shall build a kingdom where none go hungry, and all serve the greater good."
+ESS_national_cult:0 "The Sovereign's Cult"
+ESS_national_cult_desc:0 "Our domain shall be governed not by weak councils, but by a living legend of conquest. We will establish a state cult dedicated to the supreme glory of our ruler, demanding that all subjects revere them as the sole source of law, life, and power."
+
+ESS_total_dictatorship:0 "Proclaim Absolute Autocracy"
+ESS_total_dictatorship_desc:0 "The time for pretense and shared governance is finished. We officially proclaim total autocracy, concentrating all power into the hands of the supreme ruler. The city will know no law save for the sovereign's command, and all shall obey without hesitation."
+
+
+ESS_free_market:0 "The Freedom of the Bazaar"
+ESS_free_market_desc:0 "Let the merchant princes, Magisters, and charter guilds trade without shackles. Prosperity flows from uninhibited commerce, and the realm will thrive through the ambition of free trade unburdened by crowns or councils."
+
+ESS_support_middle_class:0 "Empower the Guilds & Tradesmen"
+ESS_support_middle_class_desc:0 "The rising class of master artisans, shipwrights, and chartered tradesfolk are the lifeblood of our ports and cities. By empowering them, we secure a self-reliant economy driven by skill and enterprise."
+
+ESS_minimum_wage:0 "Set a Fair Coin"
+ESS_minimum_wage_desc:0 "To preserve order among the freemen and laborers of the lower city, we shall decree a minimum wage—one that guarantees bread and shelter without strangling the profits of our merchant houses."
+
+ESS_invite_foreign_investors:0 "Welcome Overseas Coin"
+ESS_invite_foreign_investors_desc:0 "Let envoys, Iron Bank representatives, and merchant captains from across the Narrow Sea bring their gold and goods. Opening our ports invites boundless riches into our expanding bazaars."
+
+ESS_fiscal_reforms:0 "Overhaul the Merchant Ledgers"
+ESS_fiscal_reforms_desc:0 "Disordered vaults and debased coins invite ruin. By reforming our mints, harbor tariffs, and trade duties, we shall restore faith in our treasury and encourage grand enterprise."
+
+ESS_planned_economy:0 "The Magisters' Hand"
+ESS_planned_economy_desc:0 "Let the ruling council take hold of the city's destiny. By directing every harbor, quarry, estate, and forge, we shall build an empire where none starve and all serve the supreme interest of the state."
 
 ESS_liquidate_unprofital_business:0 "Shutter Wasteful Guilds"
-ESS_liquidate_unprofital_business_desc:0 "Guilds that bleed silver with no return are a burden upon the realm. They shall be dissolved, and their tools given to more dutiful hands."
+ESS_liquidate_unprofital_business_desc:0 "Guilds and trading houses that bleed silver with no return are a blight upon the city. They shall be dissolved, and their assets auctioned to more capable hands."
 
-ESS_buy_out_dissident_farms:0 "Seize the Disloyal Fields"
-ESS_buy_out_dissident_farms_desc:0 "Those who sow dissent among the harvest must yield their land. Let the crown take their fields and plant loyalty in their stead."
+ESS_buy_out_dissident_farms:0 "Seize Disloyal Manors"
+ESS_buy_out_dissident_farms_desc:0 "Those who whisper sedition from their countryside estates must forfeit their lands. Let the council seize their fields and place loyal stewards in their stead."
 
-ESS_rations:0 "Ration the Realm's Bounty"
-ESS_rations_desc:0 "In times of scarcity, the wise ruler ensures no soul starves. Through careful rationing of grain, steel, and salt, the people shall endure and grow strong."
+ESS_rations:0 "Ration the City's Grain"
+ESS_rations_desc:0 "When blockades, droughts, or sieges threaten our gates, a wise council ensures order. Through strict rationing of grain, iron, and salt, the populace shall endure and obey."
 
-ESS_loosen_restrictions:0 "Ease the Guild Chains"
-ESS_loosen_restrictions_desc:0 "The strict control of every tool and trade can strangle even the noblest plans. A prudent easing of laws will allow loyal guilds to flourish while keeping order."
+ESS_loosen_restrictions:0 "Ease the Charter Chains"
+ESS_loosen_restrictions_desc:0 "Overzealous regulation of trade can choke even the most lucrative endeavors. A prudent easing of monopolies will allow loyal merchant houses to flourish while maintaining order."
 
 ESS_coal_mines:0 "Expand the Iron Pits"
-ESS_coal_mines_desc:0 "Iron is the lifeblood of war and labor. We shall dig deeper, hire more miners, and flood the forges with raw ore from the darkest depths of the mountains."
+ESS_coal_mines_desc:0 "Iron forged into steel builds sellsword armor, war galleys, and siege engines. We shall dig deeper into the hills, expanding our quarries to supply our grand armories."
 
-ESS_tungsten_mines:0 "Expand the Gold Mines"
-ESS_tungsten_mines_desc:0 "Gold feeds the treasury and buys the loyalty of nobles and mercenaries alike. Let us delve into the hills and uncover the wealth buried beneath our soil."
+ESS_tungsten_mines:0 "Delve for Essosi Gold"
+ESS_tungsten_mines_desc:0 "Gold fills the vaults of the Iron Bank and buys the loyalty of mercenary companies alike. We shall expand our mines to uncover the vast wealth buried beneath our soil."
 
-ESS_optimise_profit:0 "Tighten the Ledgers"
-ESS_optimise_profit_desc:0 "By cutting waste and increasing the yield of every workshop and caravan, we shall multiply our coin without taxing the people further."
+ESS_optimise_profit:0 "Tighten the Vault Locks"
+ESS_optimise_profit_desc:0 "By eliminating corruption and maximizing the yield of every tax house and harbor bay, we shall multiply our coin without raising duties on the populace."
 
-ESS_full_speed_ahead:0 "Forge Without Pause"
-ESS_full_speed_ahead_desc:0 "There can be no delay, no hesitation. Let the forges burn day and night, the roads be built by torchlight, and the kingdom surge into a new golden age."
+ESS_full_speed_ahead:0 "Forge Without Rest"
+ESS_full_speed_ahead_desc:0 "There can be no delay in our rise to dominance. Let the shipyards and smithies work night and day under the torchlight as the realm enters a new golden era."
 
-ESS_build_railroads:0 "Expand the Caravan Roads"
-ESS_build_railroads_desc:0 "Merchants, messengers, and armies all depend on safe and swift passage. By building and guarding new caravan roads, we ensure the veins of the realm flow with goods and strength."
+ESS_build_railroads:0 "Expand the Valyrian Highways"
+ESS_build_railroads_desc:0 "Merchants, envoys, and mercenary armies depend on swift passage across the continent. By restoring the ancient Valyrian roads and building new trade routes, we ensure the lifeblood of Essos flows freely."
 
-ESS_mass_urbanisation:0 "Raise New Cities"
-ESS_mass_urbanisation_desc:0 "Let the forests fall and the fields be shaped into towns and strongholds. The realm shall not stagnate in thatched huts, but rise in stone and mortar."
+ESS_mass_urbanisation:0 "Expand the Outer Walls"
+ESS_mass_urbanisation_desc:0 "Let the countryside give way to grand plazas, stone harbors, and sprawling districts. Our power shall be carved not in timber and mud, but in marble and stone."
 
-ESS_war_economy:0 "Forge a War Economy"
-ESS_war_economy_desc:0 "The realm must gird itself for war. Every forge will make swords, every farm feed soldiers, and every coin be spent on victory."
+ESS_war_economy:0 "Mobilize for Conquest"
+ESS_war_economy_desc:0 "The city must prepare for war. Every forge will turn out steel, every galley be refitted for battle, and every treasury coin spent to secure absolute victory."
 
-ESS_university:0 "Fund the University of [From.Capital.GetName]"
-ESS_university_desc:0 "Knowledge is power. By endowing the University of [From.Capital.GetName], we nurture sages, strategists, and stewards to guide the realm into an enlightened future."
+ESS_university:0 "Fund the High Academy of [From.Capital.GetName]"
+ESS_university_desc:0 "Knowledge buys power across the Known World. By endowing a grand academy in [From.Capital.GetName], we nurture scholars, cartographers, and tacticians to guide our empire into an enlightened future."
 
 
 
-ESS_army_efforts:0 "Revitalise the Host"
-ESS_army_efforts_desc:0 "The realm's armies have grown stagnant, their swords dulled and formations broken. It is time to breathe life into the host once more and prepare for the wars to come."
+ESS_army_efforts:0 "Reorganize the Companies"
+ESS_army_efforts_desc:0 "Our military power has grown stale, reliant on uncoordinated sellswords and lax city watchmen. It is time to revitalize our host, drill the ranks, and prepare for the conflicts to come."
 
-ESS_offensive_army:0 "The Sword Shall Lead"
-ESS_offensive_army_desc:0 "A realm that does not strike first may never strike at all. Let our strategies favor aggression, and our armies march with purpose and fire in their hearts."
+ESS_offensive_army:0 "The Blade Strikes First"
+ESS_offensive_army_desc:0 "He who waits behind stone walls hands the initiative to his foe. Let our commanders favor swift aggression, marching with speed and conviction before the enemy can assemble."
 
-ESS_armoured_cars:0 "Expand the War Chariot Corps"
-ESS_armoured_cars_desc:0 "Swift, terrifying, and armored—war chariots bring death at speed and sow fear among our enemies. We shall produce them in greater numbers and teach our knights to command them."
+ESS_armoured_cars:0 "Deploy the Scythed Chariots"
+ESS_armoured_cars_desc:0 "Swift, terrifying, and heavily reinforced—war chariots bring swift slaughter to open plains and break disciplined infantry. We shall build them in abundance and train our officers to command them."
 
-ESS_tanks:0 "Unleash the Iron Knights"
-ESS_tanks_desc:0 "Heavily armored riders, draped in steel and mounted upon roaring steeds of metal, shall be the hammer of our armies. Let the age of the Iron Knight begin."
+ESS_tanks:0 "Unleash the War Elephants"
+ESS_tanks_desc:0 "Massive, armored, and virtually unstoppable, these roaring beasts of war act as living battering rams. Let our foes tremble before the thunder of our armored vanguard."
 
-ESS_decentralised_army:0 "Empower the Lords Militant"
-ESS_decentralised_army_desc:0 "Let each bannerlord drill their own men and prepare their own strategies. A decentralised host is harder to destroy—and each commander more adaptable in the field."
+ESS_decentralised_army:0 "Empower Free Companies"
+ESS_decentralised_army_desc:0 "Let field captains and sellsword generals drill their own bands and choose their own tactics. A host of independent contract-holders is adaptable in the field and difficult to destroy in one blow."
 
-ESS_independent_officers:0 "Independent Captains"
-ESS_independent_officers_desc:0 "Rigid hierarchies slow the tempo of battle. By granting more authority to battlefield captains, we can act swiftly and decisively in the chaos of war."
+ESS_independent_officers:0 "Sellsword Captaincy"
+ESS_independent_officers_desc:0 "Rigid commands slow the tempo of battle. By granting battlefield captains the liberty to act on their own judgment, we ensure rapid and decisive responses in the chaos of war."
 
-ESS_esprit_de_corps:0 "Steel of the Spirit"
-ESS_esprit_de_corps_desc:0 "Discipline, honor, and camaraderie shall be the soul of our soldiers. Through rigorous training and a shared cause, we forge warriors who will not falter."
+ESS_esprit_de_corps:0 "Bound by Iron Contracts"
+ESS_esprit_de_corps_desc:0 "Discipline, gold, and shared glory shall forge our forces together. Through rigorous drills and binding contracts, we ensure our soldiers stand firm when lines begin to break."
 
-ESS_improve_doctrine:0 "Codify the Art of War"
-ESS_improve_doctrine_desc:0 "Let scholars and generals work together to refine our doctrine. From ancient battles to recent skirmishes, we shall draw lessons to shape a new way of war."
+ESS_improve_doctrine:0 "Codify Valyrian Strategy"
+ESS_improve_doctrine_desc:0 "Let veteran strategists and scholars study the classic treatises of ancient conquest. From historic river crossings to recent sieges, we shall distill the martial wisdom of Essos into a lethal doctrine."
 
-ESS_offensive_artillery:0 "Advanced Archer Formations"
-ESS_offensive_artillery_desc:0 "The archer is no mere footman with a bow. With modern tactics, fire discipline, and better tools, they shall become a force of destruction from afar."
+ESS_offensive_artillery:0 "Massed Crossbow Companies"
+ESS_offensive_artillery_desc:0 "The marksman is no mere skirmisher. With tight volley discipline, heavy steel bows, and coordinated fire, our missile ranks will shatter enemy formations from a distance."
 
-ESS_light_artillery:0 "Agile Archers"
-ESS_light_artillery_desc:0 "Quick to set, quick to loose, and swift to move—our lighter archer detachments will provide flexible support on every front."
+ESS_light_artillery:0 "Agile Skirmishers"
+ESS_light_artillery_desc:0 "Quick to deploy, quick to loose, and swift to reposition—our light archers and slingers will pepper enemy flanks and provide flexible support across every battle line."
 
-ESS_assault_rifle:0 "The Pike of the New Age"
-ESS_assault_rifle_desc:0 "No longer shall the sword dominate alone. The reach and impact of the pike—reforged with steel, precision, and craftsmanship—shall become the standard of the infantry."
+ESS_assault_rifle:0 "The Master-Forged Pike"
+ESS_assault_rifle_desc:0 "The reach and wall of the long pike shall form the backbone of our foot soldiers. Reforged with sturdy steel and strict drill, disciplined pike blocks will dominate the field."
 
-ESS_auxilliary_corps:0 "Raise the Auxiliaries"
-ESS_auxilliary_corps_desc:0 "Support forces from across the realm—be they scouts, medics, engineers, or laborers—shall accompany our main host and ensure our advance never stalls."
+ESS_auxilliary_corps:0 "Contract Auxiliary Regiments"
+ESS_auxilliary_corps_desc:0 "Scouts, engineers, baggage trains, and field camp followers shall accompany our primary host, ensuring logistics never fail and our army moves without delay."
 
-ESS_endless_advance:0 "The Endless March"
-ESS_endless_advance_desc:0 "We will not stop. With steel in hand and vengeance in our hearts, our soldiers shall march day and night until the enemy is vanquished or the world burns."
+ESS_endless_advance:0 "The Unbroken March"
+ESS_endless_advance_desc:0 "We will not halt our momentum. With steel in hand and conquest in mind, our legions shall march day and night until the enemy is broken and their lands are brought to heel."
 
-ESS_chemicals:0 "Signal Horn Warfare"
-ESS_chemicals_desc:0 "The old ways of communication are too slow for the new age of war. Warhorns, smoke signals, and eerie sounds sown across the battlefield will instill terror—and cohesion—wherever needed."
+ESS_chemicals:0 "Warhorn & Signal Fires"
+ESS_chemicals_desc:0 "Relaying commands by rider is too slow on massive Essosi battlefields. Great warhorns, smoke signals, and dread drums will carry orders across the ranks and strike terror into enemy hearts."
 
-ESS_improve_gas_masks:0 "Refine the Warhorn Signals"
-ESS_improve_gas_masks_desc:0 "Improved tuning of our warhorn signals, paired with more resilient signalmen, will allow faster relays between commanders and more robust battle coordination under duress."
+ESS_improve_gas_masks:0 "Refine Horn Relays"
+ESS_improve_gas_masks_desc:0 "Standardizing signal tones and training dedicated horn-blowers ensures orders travel unimpeded through dust, blood, and chaos, keeping battlefield coordination seamless under fire."
 
- 
-ESS_defensive_army:0 "A Shielded Host"
-ESS_defensive_army_desc:0 "Wars are not won by offense alone. A disciplined, entrenched host can bleed the enemy dry and outlast any storm."
+ESS_defensive_army:0 "The Iron Wall"
+ESS_defensive_army_desc:0 "Victories are not won by reckless charges alone. A disciplined, well-fortified host can bleed an aggressor dry and outlast any siege storm."
 
-ESS_never_ending_barrage:0 "A Rain Without End"
-ESS_never_ending_barrage_desc:0 "With enough arrows in the sky, daylight itself shall fade. Let our archers rain ceaseless death upon the enemy."
+ESS_never_ending_barrage:0 "A Sun-Darkening Volley"
+ESS_never_ending_barrage_desc:0 "With enough bolts and arrows in the air, the sky itself turns black. Let our missile companies rain ceaseless fire upon advancing ranks until nothing stands."
 
-ESS_heavy_artillery:0 "Siege-Bows and Great Arbalests"
-ESS_heavy_artillery_desc:0 "Massive archer platforms and bolt-throwers shall pierce even the thickest armor and batter down castle walls."
+ESS_heavy_artillery:0 "Siege Engines & Great Ballistas"
+ESS_heavy_artillery_desc:0 "Massive torsion catapults and heavy bolt-throwers shall pierce plate armor, splinter siege towers, and batter down city ramparts from afar."
 
-ESS_centralised_army:0 "A Host United"
-ESS_centralised_army_desc:0 "One command, one will, one purpose. A centralised host answers swiftly and decisively to its lord’s command."
+ESS_centralised_army:0 "High Commander's Decree"
+ESS_centralised_army_desc:0 "One council, one vision, one supreme command. A centralized army acts as a unified body, responding instantly to the High Strategist's will."
 
-ESS_order_and_discipline:0 "Marches in Lockstep"
-ESS_order_and_discipline_desc:0 "Drilled from dawn to dusk, our soldiers will march, fight, and die with unwavering discipline and unmatched resolve."
+ESS_order_and_discipline:0 "Marching in Lockstep"
+ESS_order_and_discipline_desc:0 "Drilled from dawn to dusk in the fashion of the Great Unsullied, our soldiers will maneuver and hold ranks with absolute discipline and unwavering resolve."
 
-ESS_chain_of_command:0 "Steel in the Chain"
-ESS_chain_of_command_desc:0 "From the highest general to the lowliest footman, each man knows his place. And when the chain is strong, so too is the army."
+ESS_chain_of_command:0 "Chain of Command"
+ESS_chain_of_command_desc:0 "From the Supreme General to the squad sergeant, every warrior knows their exact duties. When the chain of authority holds firm, the army cannot be routed."
 
-ESS_better_doctrine:0 "Rethink the Shieldwall"
-ESS_better_doctrine_desc:0 "The old tactics must evolve. From river crossings to ambushes, we shall adapt our formations to meet every threat."
+ESS_better_doctrine:0 "Rethink the Phalanx"
+ESS_better_doctrine_desc:0 "Traditional spear walls must adapt to modern threats. We shall evolve our defensive formations to counter heavy cavalry, siege engines, and ambushes alike."
 
-ESS_dig_in_and_pray:0 "Dig Trenches and Pray to the Seven"
-ESS_dig_in_and_pray_desc:0 "Every soldier shall know how to entrench, fortify, and survive. Let the gods hear our prayers from within earthen walls."
+ESS_dig_in_and_pray:0 "Entrench and Pray to the Red God"
+ESS_dig_in_and_pray_desc:0 "Every soldier shall learn to dig ditches, raise stakes, and hold fortifications. From behind earthen ramparts, we offer our prayers for victory in the fires of war."
 
-ESS_impenetrable_fortress:0 "A Castle Untaken"
-ESS_impenetrable_fortress_desc:0 "Stone, fire, and iron—our fortresses shall stand eternal. No army shall pass, no wall shall fall."
+ESS_impenetrable_fortress:0 "Walls of High Stone"
+ESS_impenetrable_fortress_desc:0 "Thick granite, pitch, and iron gates—our strongholds shall stand eternal. No sellsword host shall breach our gates, and no siege shall crack our walls."
 
-ESS_no_antiquities:0 "Purge the Relics of War"
-ESS_no_antiquities_desc:0 "Old weapons, outdated armor, and obsolete tactics must go. Let us make war with steel of the present, not rust of the past."
+ESS_no_antiquities:0 "Purge Obsolete Arms"
+ESS_no_antiquities_desc:0 "Outdated tactics, rusted gear, and ancient weapons must be discarded. We shall equip our men solely with modern Essosi steel and proven equipment."
 
-ESS_shovel_for_every_soldier:0 "A Shovel in Every Hand"
-ESS_shovel_for_every_soldier_desc:0 "A soldier without a blade is vulnerable. But a soldier without a shovel is already dead. Trenches save lives."
+ESS_shovel_for_every_soldier:0 "Spades Before Swords"
+ESS_shovel_for_every_soldier_desc:0 "A warrior without a blade is vulnerable, but a soldier without an entrenching tool is easily encircled. Trenches and fieldworks save armies."
 
 ESS_endless_defense:0 "For the Walls of [Root.GetNameDef]"
-ESS_endless_defense_desc:0 "Every field, every village, every keep shall be defended with the blood and steel of our people. Let the enemy come—we are ready."
+ESS_endless_defense_desc:0 "Every gate, redoubt, and street shall be defended with unwavering resolve. Let the enemy throw themselves against our ramparts until their strength is entirely spent."
 
-ESS_standardise_designs:0 "Forge with Purpose"
-ESS_standardise_designs_desc:0 "Standardised blades, bows, and armor reduce waste and improve training. The forges shall burn in unison."
+ESS_standardise_designs:0 "Standardize Arsenal Forges"
+ESS_standardise_designs_desc:0 "Mass-producing uniform spears, crossbows, and plate harnesses eliminates waste and speeds military training. The city foundries shall work to a single standard."
 
-ESS_streamlined_production:0 "Smooth the Forgework"
-ESS_streamlined_production_desc:0 "From iron mine to smithy to armory, we shall remove all inefficiencies and deliver arms swiftly to the front."
+ESS_streamlined_production:0 "Streamline Harbor & Armory Supply"
+ESS_streamlined_production_desc:0 "From ore pits and timber yards straight to the armories and shipyards, we shall eliminate supply bottlenecks and deliver war material rapidly to the front."
 
-ESS_military_academy:0 "The [Root.Capital.GetName] War College"
-ESS_military_academy_desc:0 "Let the brightest minds of war be trained in our capital, where theory meets discipline and generals are born in parchment before battle."
+ESS_military_academy:0 "The War College of [Root.Capital.GetName]"
+ESS_military_academy_desc:0 "Let the finest strategists, sellsword captains, and tacticians gather in [Root.Capital.GetName] to study grand strategy, siegecraft, and logistics before stepping onto the battlefield."
 
 
-ESS_air_force:0 "Draconic Warfare"
-ESS_air_force_desc:0 "The skies are no longer empty. With dragons under our command, war has ascended to the heavens. Let our foes tremble as fire rains from above."
+ESS_air_force:0 "Draconic Dominance"
+ESS_air_force_desc:0 "The skies belong to those who command winged beasts. With dragons and great drakes at our bidding, war has ascended to the heavens, and our foes shall tremble as fire rains from above."
 
-ESS_scout_planes:0 "Tame the First Sky Serpents"
-ESS_scout_planes_desc:0 "The first of our dragons are small and swift, ideal for scouting enemy movements and testing the limits of aerial command."
+ESS_scout_planes:0 "Tame the Lesser Sky Drakes"
+ESS_scout_planes_desc:0 "Swift, agile, and keen-eyed, these younger drakes are ideal for scouting trade routes, tracking enemy armies, and charting the upper winds."
 
-ESS_british_fighters:0 "Hatch Foreign-Bred Hunter Dragons"
-ESS_british_fighters_desc:0 "The Westerosi are not the only ones to master the skies. Foreign dragon eggs bred for war can be purchased and trained into swift hunter dragons."
+ESS_british_fighters:0 "Acquire Foreign Hatchlings"
+ESS_british_fighters_desc:0 "Dragon lore is not confined to our borders. We can purchase exotic hatchlings from distant shores, training them into fierce aerial hunters."
 
-ESS_daring_pilots:0 "The Boldest Dragonriders"
-ESS_daring_pilots_desc:0 "To command a dragon is to risk death with every breath. Only the boldest and most skilled riders can tame the mightiest beasts and wield them in war."
+ESS_daring_pilots:0 "The Dragonriders of Valyria"
+ESS_daring_pilots_desc:0 "To bind a dragon requires indomitable will and absolute fearlessness. Only the boldest riders can master these ancient beasts and unleash their fury in battle."
 
-ESS_own_fighters:0 "Breed Our Own Hunter Dragons"
-ESS_own_fighters_desc:0 "No longer shall we rely on foreign breeds. We shall hatch and train our own hunter dragons—swift, agile, and deadly in the sky."
+ESS_own_fighters:0 "Hatch Indigenous Hunter Drakes"
+ESS_own_fighters_desc:0 "We shall no longer depend on foreign beasts. We will breed and rear our own agile hunters—vicious in the skies and fiercely loyal to their masters."
 
-ESS_high_altitude_training:0 "Soaring Above the Clouds"
-ESS_high_altitude_training_desc:0 "The higher the dragon flies, the greater its advantage. Our riders must be trained to endure the freezing heights where breath falters and flames still burn."
+ESS_high_altitude_training:0 "Soaring Above the Peaks"
+ESS_high_altitude_training_desc:0 "The highest altitudes offer a supreme tactical vantage. Our riders must learn to endure the thin, freezing air where ordinary men falter and flames burn brightest."
 
 ESS_build_airfields:0 "The Dragonpit of [Root.Capital.GetName]"
-ESS_build_airfields_desc:0 "A great stone dragonpit shall be constructed in the capital to house our winged beasts, provide care, and launch them swiftly into the skies."
+ESS_build_airfields_desc:0 "A massive stone dragonpit shall be carved into the earth of [Root.Capital.GetName], providing shelter, tethering grounds, and launch ramps for our winged host."
 
-ESS_anti_air:0 "Scorpions for the Sky"
-ESS_anti_air_desc:0 "Massive scorpions and ballistas will line our battlements, ready to strike down any drake foolish enough to fly above our lands."
+ESS_anti_air:0 "Scorpions for the Skies"
+ESS_anti_air_desc:0 "Heavy iron scorpions and massive bolt-throwers must line our ramparts, ready to impale any hostile drake or wyvern foolish enough to approach our walls."
 
-ESS_german_zeppeline:0 "Hatch Scourge Dragons"
-ESS_german_zeppeline_desc:0 "Larger dragons bred for terror and devastation—slower, but wielding immense firepower. These siege-born beasts can level castles and set entire towns aflame."
+ESS_german_zeppeline:0 "Awaken the Titan Drakes"
+ESS_german_zeppeline_desc:0 "Gargantuan beasts bred for total devastation. Though slower in flight, their massive bulk and ferocious fire can melt stone and reduce entire cities to ash."
 
-ESS_larger_bombs:0 "Unleash Greater Dragonfire"
-ESS_larger_bombs_desc:0 "With special feed, training, and magical runes, our dragons shall burn hotter and longer—scorching entire battalions with a single breath."
+ESS_larger_bombs:0 "Intensify Dragonfire"
+ESS_larger_bombs_desc:0 "Through special breeding, rich diets, and alchemical tonics, our dragons shall unleash hotter, longer-lasting flames—clearing whole battalions with a single sweeping breath."
 
-ESS_own_bombers:0 "Breed Our Own Siege Dragons"
-ESS_own_bombers_desc:0 "No longer content with imported monsters, we shall raise our own siege-class dragons—behemoths of scale and fire, bred to bring ruin from the skies."
+ESS_own_bombers:0 "Raise Indigenous Siege Drakes"
+ESS_own_bombers_desc:0 "We shall cultivate our own line of behemoth siege drakes—terrifying titans of scale and fire engineered to bring absolute ruin to enemy fortifications."
 
-ESS_night_raids:0 "Wings in the Darkness"
-ESS_night_raids_desc:0 "Under cover of moonlight, our riders shall strike unseen. The enemy will sleep in fear, for flame and death come even in the black of night."
+ESS_night_raids:0 "Shadow Wings at Midnight"
+ESS_night_raids_desc:0 "Under the shroud of darkness, our riders shall strike without warning. The enemy will cower in their tents, knowing death descends from the midnight sky."
 
 ESS_proper_doctrine:0 "Doctrine of the Skies"
-ESS_proper_doctrine_desc:0 "War in the sky must be fought with as much precision as on land. Our strategists shall develop doctrines for draconic supremacy, ensuring no wing beats in vain."
+ESS_proper_doctrine_desc:0 "Aerial warfare demands rigid discipline and tactical cohesion. Our strategists shall codify the art of draconic combat, ensuring absolute supremacy in the heavens."
 
 
-ESS_new_navy:0 "A Fleet Worthy of the Realm"
-ESS_new_navy_desc:0 "The old warships are slow and rotting. A new navy must rise—faster, sturdier, and prepared to defend our shores or project power across the Narrow Sea."
+ESS_new_navy:0 "A Fleet for the Narrow Sea"
+ESS_new_navy_desc:0 "The old hulks are slow and rotting. A new navy must rise—faster, sturdier, and prepared to protect our maritime trade or project power across the Narrow and Jade Seas."
 
 ESS_battlecruisers:0 "Design Swift War Galleys"
-ESS_battlecruisers_desc:0 "Light war galleys—fast and fierce—shall strike like wolves of the sea, harassing enemy ships with speed and precision."
+ESS_battlecruisers_desc:0 "Light, double-banked war galleys shall strike like wolves of the sea, ramming and boarding enemy vessels with speed and precision."
 
-ESS_patrol_boats:0 "Small Patrol Vessels"
-ESS_patrol_boats_desc:0 "Simple, swift patrol boats can keep our coastlines safe from raiders and smugglers, ensuring our waters are watched at all times."
+ESS_patrol_boats:0 "Coastal Patrol Skiffs"
+ESS_patrol_boats_desc:0 "Fast, shallow-draft skiffs can keep our coastal waters safe from Stepstones pirates and opportunistic raiders."
 
-ESS_new_cruisers:0 "Light Dromond Experiments"
-ESS_new_cruisers_desc:0 "We shall experiment with lighter dromonds—more maneuverable and versatile ships that can adapt to many sea-bound roles."
+ESS_new_cruisers:0 "Triple-Decked Dromonds"
+ESS_new_cruisers_desc:0 "We shall construct heavy, triple-decked dromonds—formidable warships equipped with ramming spurs and high castle decks to dominate ship-to-ship actions."
 
-ESS_grandest_ships:0 "Build Leviathans of Wood and Iron"
-ESS_grandest_ships_desc:0 "Let our enemies shudder when they behold the towering hulls of our greatest warships. These will be floating castles, unmatched on the open seas."
+ESS_grandest_ships:0 "Build Leviathans of Wood and Bronze"
+ESS_grandest_ships_desc:0 "Let our enemies shudder when they behold the towering hulls of our greatest flagships. These floating fortresses will rule the open seas."
 
-ESS_dockyards:0 "Establish a Home Port"
-ESS_dockyards_desc:0 "To build a mighty fleet, we need the docks to match. Our new home port shall become the heart of the navy and a beacon of seafaring strength."
+ESS_dockyards:0 "Expand the City Arsenals"
+ESS_dockyards_desc:0 "To build a mighty navy, we need the berths to match. Expanding our municipal arsenals and drydocks ensures a constant flow of warships."
 
-ESS_cheap_fleet:0 "Fast, Cheap, and Deadly"
-ESS_cheap_fleet_desc:0 "Instead of mighty ships, we’ll construct many small and affordable vessels. Strength in numbers shall dominate the tide."
+ESS_cheap_fleet:0 "Swarm of Light Galleys"
+ESS_cheap_fleet_desc:0 "Instead of massive flagships, we shall construct vast swarms of cheap, fast war galleys. Overwhelming numbers shall dominate the tides."
 
-ESS_expensive_fleet:0 "Reliable Masters of the Sea"
-ESS_expensive_fleet_desc:0 "Each ship shall be a masterpiece, crafted with care, built to last, and commanded by the best sailors in the realm."
+ESS_expensive_fleet:0 "Masterpieces of the Shipwrights"
+ESS_expensive_fleet_desc:0 "Each vessel shall be a work of art, crafted from sturdy hard-woods by master shipwrights, built to outlast any storm or siege."
 
-ESS_more_dockyards:0 "Expand the Shipwrights’ Guild"
-ESS_more_dockyards_desc:0 "More docks, more ships. The Shipwrights’ Guild shall receive coin and workers aplenty to bring forth a true naval age."
+ESS_more_dockyards:0 "Empower the Shipwright Guilds"
+ESS_more_dockyards_desc:0 "More slips, more timber, more shipwrights. By heavily endowing the guilds, we herald a new golden age of shipbuilding."
 
-ESS_trade:0 "A Merchant Fleet for the Realm"
-ESS_trade_desc:0 "Trade is the lifeblood of the kingdom. We shall build sturdy cogs and swift galleys to ferry goods, wealth, and influence across distant shores."
+ESS_trade:0 "A Fleet of Merchant Cogs"
+ESS_trade_desc:0 "Trade is the lifeblood of Essos. We shall build heavy, broad-beamed cogs and swan-ships to carry spices, silk, and gold across the Known World."
 
-ESS_escorts:0 "Guard the Trade Cogs"
-ESS_escorts_desc:0 "Unescorted trade ships are easy prey. We shall dispatch armed escorts to protect them from pirates, raiders, and enemy fleets."
+ESS_escorts:0 "Guard the Trade Lanes"
+ESS_escorts_desc:0 "Merchantmen laden with rich cargo are easy prey. We shall dispatch armed war galleys to protect our shipping lanes from corsairs and sea-robbers."
 
-ESS_intercept_enemies:0 "Intercept the Foe"
-ESS_intercept_enemies_desc:0 "We shall strike fast and strike first—intercepting enemy fleets before they reach our shores or threaten our cogs."
+ESS_intercept_enemies:0 "Intercept the Corsairs"
+ESS_intercept_enemies_desc:0 "We shall strike fast and strike first—hunting down hostile fleets and raiders before they can reach our ports or disrupt our merchant cogs."
 
-ESS_coastal_defense:0 "Fortify the Coastline"
-ESS_coastal_defense_desc:0 "From tower beacons to hidden harbors, our coasts shall be defended with shore-based scorpions and small patrol craft."
+ESS_coastal_defense:0 "Fortify the Sea Ramparts"
+ESS_coastal_defense_desc:0 "From watchtowers to chain-booms, our harbors shall be fortified with shore-mounted ballistas, catapults, and alert patrol craft."
 
-ESS_new_admirality:0 "Summon the Sea Lords"
-ESS_new_admirality_desc:0 "A new Admiralty shall oversee the naval rebirth. These Sea Lords shall chart our course and lead us to maritime greatness."
+ESS_new_admirality:0 "Appoint the Sea Lords"
+ESS_new_admirality_desc:0 "A distinguished admiralty shall oversee our maritime power. These Sea Lords and Fleet Captains will chart our courses and secure our dominance on the water."
 
-ESS_raider_doctrine:0 "The Raider Doctrine"
-ESS_raider_doctrine_desc:0 "We shall adopt the tactics of the Ironborn—hit-and-run strikes, burning ports, and vanishing into the waves before the enemy can retaliate."
+ESS_raider_doctrine:0 "Corsair Tactics"
+ESS_raider_doctrine_desc:0 "We shall adopt the ruthless methods of the Stepstones corsairs—hit-and-run raids, night burnings, and vanishing into the fog before retaliation."
 
-ESS_old_doctrine:0 "Stick to the Proven Ways"
-ESS_old_doctrine_desc:0 "There is wisdom in the old ways. Heavy galleys in formation, slow and methodical, yet nearly unstoppable when they close in."
+ESS_old_doctrine:0 "Classic Valyrian Naval Line"
+ESS_old_doctrine_desc:0 "There is strength in classical tactics. Heavy war galleys locked in tight line-abreast formations, sweeping forward to ram, crush, and board."
 
-ESS_marine_infantry:0 "Coastal Raiders Corps"
-ESS_marine_infantry_desc:0 "Our best seafarers shall train for landfall assaults—raiding harbors, sabotaging forts, and striking fear into shoreline towns."
+ESS_marine_infantry:0 "Boarding Companies"
+ESS_marine_infantry_desc:0 "Our toughest sea-warriors shall train specifically for deck-to-deck combat and amphibious landings, storming sea walls and capturing enemy flagships."
 
 ESS_pride_of_the_fleet:0 "Pride of the Fleet"
-ESS_pride_of_the_fleet_desc:0 "Let one mighty flagship lead the way—a vessel fit for kings, unmatched in size and firepower, a symbol of our mastery of the seas."
+ESS_pride_of_the_fleet_desc:0 "Let one mighty flagship lead the host—a colossal vessel with gilded wood, purple sails, and unmatched firepower, symbolizing our dominion over the waves."
 
-ESS_naval_academy:0 "Establish the [Root.Capital.GetName] Fleet Academy"
-ESS_naval_academy_desc:0 "We shall train our sea captains in the arts of naval command, navigation, and ship-to-ship warfare at a great Fleet Academy in [Root.Capital.GetName]."
-
- 
+ESS_naval_academy:0 "The Fleet Academy of [Root.Capital.GetName]"
+ESS_naval_academy_desc:0 "We shall train our captains in the arts of naval warfare, star navigation, and sea tactics at a prestigious Fleet Academy in [Root.Capital.GetName]."
 
  
-ESS_diplomacy_focus:0 "Our Place in the Realm"
-ESS_diplomacy_focus_desc:0 "The world shifts like snow in a blizzard. We must decide where we stand — as lone wolves, or part of a greater pack."
-
-ESS_communist_foreign_policy:0 "Rebellion Against the Iron Throne"
-ESS_communist_foreign_policy_desc:0 "The South grows decadent and cruel. It is time to cast off the chains of the Iron Throne and raise our own banners, free and proud."
-
-ESS_approach_soviets:0 "House Stark"
-ESS_approach_soviets_desc:0 "The North remembers. House Stark is a beacon of justice and honor in a treacherous world. We shall seek kinship with Winterfell and its allies."
-
-ESS_invite_soviet_officers:0 "Summon Northern Captains"
-ESS_invite_soviet_officers_desc:0 "The North breeds hard men and seasoned warriors. We will bring experienced Northern captains to train our forces in the ways of honor and endurance."
-
-ESS_invite_soviet_advisors:0 "Heed the Words of the North"
-ESS_invite_soviet_advisors_desc:0 "The counsel of Stark bannermen and Northern sages shall guide our governance and sharpen our resolve. Let their wisdom flow like snowmelt into our halls."
-
-ESS_hand_over_tsarists:0 "Banish the Southern Loyalists"
-ESS_hand_over_tsarists_desc:0 "Those who still serve the Iron Throne have no place in our realm. We shall cast them out and prove our loyalty to the North and its cause."
-
-ESS_support_politics:0 "Back [NOR.GetLeader]'s Claim"
-ESS_support_politics_desc:0 "[NOR.GetLeader] stands as a figure of honor and ancient strength. Supporting their rule may secure us a place among the trusted allies of Winterfell."
-
-ESS_expand_communist_influence:0 "Befriend the Tullys"
-ESS_expand_communist_influence_desc:0 "The Riverlands lie at the heart of the realm — proud, battered, and ever loyal. It is time we strengthen our ties with House Tully, uniting wolf and trout beneath banners of shared honor and northern resolve."
-
-
-ESS_mutual_guarantees:0 "Swear by the Old Gods"
-ESS_mutual_guarantees_desc:0 "In the godswood and beneath the heart trees, we swear our bonds. We shall protect the North and they shall guard us in turn, as sacred as an oath to the Old Gods."
-
-ESS_join_comintern:0 "Join Winterfell"
-ESS_join_comintern_desc:0 "The wolves of the North run together. It is time we formally bind ourselves to House Stark and stand as kin, united beneath the direwolf banner."
 
  
-ESS_sanction_capitalists:0 "Denounce the Bastards of the Throne"
-ESS_sanction_capitalists_desc:0 "The Lannisters claim to rule with gold, but their riches were stolen from the people. We shall not bow to coin-lords and their false kings."
+ESS_diplomacy_focus:0 "A Path Across the Sands"
+ESS_diplomacy_focus_desc:0 "The winds of Essos shift like the sands of the Red Waste. We must decide where we stand — as solitary wanderers in a dangerous world, or as part of a grander alliance."
 
-ESS_anti_fascist_propaganda:0 "Expose the Lions' Lies"
-ESS_anti_fascist_propaganda_desc:0 "Let the world know the truth of the lion's roar — all bluster and bloodshed, cloaked in tyranny. The Ironborn bow to no such false idols."
+ESS_communist_foreign_policy:0 "Look to the East"
+ESS_communist_foreign_policy_desc:0 "The western realms are stagnant, bound to ancient squabbles and dying thrones. True wealth and power lie to the east — across the open plains, past the Jade Sea, and into the heart of the Golden Empire."
 
-ESS_fith_internationale:0 "House Greyjoy"
-ESS_fith_internationale_desc:0 "We do not sow. House Greyjoy has stood apart from the affairs of the mainland for centuries. Now, Pyke shall rise as a power all its own."
+ESS_approach_soviets:0 "The Great Khalasar"
+ESS_approach_soviets_desc:0 "Blood and iron rule the open plains. The Great Khalasar is an unstoppable force across the Great Grass Sea. We shall ride to seek kinship with the Khal and his riders."
 
-ESS_offer_false_alliances:0 "Banish the Mainland Loyalists"
-ESS_offer_false_alliances_desc:0 "We will rid the Iron Islands of their mainland sympathizers. Let them be exiled and cast out. Only the true sons and daughters of Pyke shall stand loyal to our cause."
+ESS_invite_soviet_officers:0 "Summon Bloodriders"
+ESS_invite_soviet_officers_desc:0 "The steppe breeds fierce warriors who live and die in the saddle. We will bring seasoned Dothraki bloodriders to train our warriors in savage cavalry warfare and relentless speed."
 
-ESS_great_betrayal:0 "Support [IRO.GetLeader]'s Iron Rule"
-ESS_great_betrayal_desc:0 "[IRO.GetLeader] rules as a true Ironborn should — with fear, fire, and fury. Let all Pyke rally behind them and their glorious ambition."
+ESS_invite_soviet_advisors:0 "Heed the Dosh Khaleen"
+ESS_invite_soviet_advisors_desc:0 "The venerable widows of Vaes Dothrak read the omens and speak with the voice of the stars. The counsel of the Dosh Khaleen shall guide our conquest and harden our resolve."
 
-ESS_strike_fascists:0 "Raid the Stony Shore"
-ESS_strike_fascists_desc:0 "The Stony Shore may be distant, but its riches and defiance are tempting. We will strike at their heart, showing the world that the Ironborn never forget an insult."
+ESS_hand_over_tsarists:0 "Cast Out the Lame and Weak"
+ESS_hand_over_tsarists_desc:0 "Those who cower behind stone walls and cling to soft, city-dweller ways have no place among us. We shall cast them out and prove our strength to the Khalasar."
 
-ESS_strike_soviets:0 "Swear by the Drowned God"
-ESS_strike_soviets_desc:0 "We raid not just for plunder, but in the name of the Drowned God. The North grows weak and complacent. Their gods are false — ours demands sacrifice. We shall strike at dawn, and the sea shall remember us."
+ESS_support_politics:0 "Back [DOT.GetLeader]'s Khalasar"
+ESS_support_politics_desc:0 "[DOT.GetLeader] rides at the head of a formidable horde. Backing their rule will ensure our place alongside the Stallion Who Mounts the World."
 
-ESS_support_foreign_commies:0 "Rally the Reavers Abroad"
-ESS_support_foreign_commies_desc:0 "The sea is wide and ripe for conquest. We will arm like-minded reavers in foreign lands, that they may burn and plunder in our name."
+ESS_expand_communist_influence:0 "Befriend the Lhazareen"
+ESS_expand_communist_influence_desc:0 "The peaceful Lamb Men of Lhazar graze their flocks beyond our borders. Rather than raiding their pastures, we shall extend an open hand, fostering trade, protection, and mutual goodwill with our quiet neighbors."
 
-ESS_our_socialism:0 "The Way of Salt and Iron"
-ESS_our_socialism_desc:0 "We have no need for kings or councils. We take what is ours with fire and blood. This is the Ironborn way — hard, free, and eternal."
+ESS_mutual_guarantees:0 "Swear at Vaes Dothrak"
+ESS_mutual_guarantees_desc:0 "Beneath the shadows of the Mother of Mountains, no blood may be spilled. Here we swear sacred oaths to defend the khalasar, bound by the strength of the horse and the bow."
 
-ESS_socialist_world_republic:0 "Join Pyke"
-ESS_socialist_world_republic_desc:0 "Let the world hear the call of salt and iron. The seas are ours, and those who would thrive must sail with us. From Pyke we rise, and to Pyke they shall come — allies, reavers, and those who would forsake the mainland's lies."
+ESS_join_comintern:0 "Join the Great Khalasar"
+ESS_join_comintern_desc:0 "A Khalasar that does not ride decays. It is time we formally bind ourselves to the Great Khalasar and ride together across the earth, trampling all who oppose us."
+
+ 
+ESS_sanction_capitalists:0 "Denounce the Dragonlords"
+ESS_sanction_capitalists_desc:0 "House Targaryen claims the right to rule through fire and blood, treating the free peoples as subjects to be burned. We shall not bow to dragon-tyrants or their false imperial claims."
+
+ESS_anti_fascist_propaganda:0 "Expose the Dragon's Lies"
+ESS_anti_fascist_propaganda_desc:0 "Let the world see the truth behind the dragon's roar — nothing more than conquest, enslavement, and ash cloaked in divine majesty. We shall expose their tyranny and bow to no foreign throne."
+
+ESS_fith_internationale:0 "The Golden Empire"
+ESS_fith_internationale_desc:0 "From the God-Emperors of Jinqi to the shores of the Jade Sea, Yi Ti stands as the pinnacle of civilization. Our realm shall rise above all lesser kingdoms of the world."
+
+ESS_offer_false_alliances:0 "Purge Foreign Corruption"
+ESS_offer_false_alliances_desc:0 "We will cleanse our courts of barbarian agents and Western sympathizers. Let them be exiled beyond the Five Forts. Only true children of the Golden Empire shall hold power."
+
+ESS_great_betrayal:0 "Support [YTI.GetLeader]'s Radiant Rule"
+ESS_great_betrayal_desc:0 "[YTI.GetLeader] rules with the absolute authority of the Jade Throne. Let the whole empire rally behind their divine mandate and bring order to the realm."
+
+ESS_strike_fascists:0 "Secure the Five Forts"
+ESS_strike_fascists_desc:0 "The ancient fortresses along the eastern border protect us from the darkness beyond. We shall reinforce their walls and strike at any who threaten our frontier."
+
+ESS_strike_soviets:0 "Honor the Jade Dragon"
+ESS_strike_soviets_desc:0 "We fight not merely for land, but to fulfill our heavenly mandate. The barbarian kings grow weak and complacent. We shall march beneath the banners of the Jade Dragon, bringing total submission in our wake."
+
+ESS_support_foreign_commies:0 "Rally the Jade Sea Traders"
+ESS_support_foreign_commies_desc:0 "Our influence reaches far beyond our borders through trade and wealth. We shall fund and arm loyal factions across the Jade Sea to expand the Empire's reach."
+
+ESS_our_socialism:0 "The Heavenly Mandate"
+ESS_our_socialism_desc:0 "We have no need for barbarian laws or Western feudalism. The divine harmony of Yi Ti guides our people — eternal, prosperous, and supreme."
+
+ESS_socialist_world_republic:0 "Join the Jade Pact"
+ESS_socialist_world_republic_desc:0 "Let the nations of the East bow before true majesty. The Jade Sea unites us, and those who seek peace and prosperity must march alongside us under the banner of the Jade Pact."
 
 
  
@@ -1267,59 +1264,59 @@ ESS_join_allies_desc:0 "The time has come to ally with the true rulers of the re
  ESS_BLA_join_allies:0 "Join House Blackfyre"
  ESS_BLA_join_allies_desc:0 "The time has come for all who bear allegiance to the Black Dragon to unite. Under House Blackfyre, we will march together to claim what was promised in blood."
 
-ESS_fascist_foreign_policy:0 "The Stags"
-ESS_fascist_foreign_policy_desc:0 "We have always remained loyal to House Baratheon. Our strength, our will, and our unity shall honor that legacy. In the name of the Stag, we will rise once more to defend the Stormlands and our rightful place in Westeros."
+ESS_fascist_foreign_policy:0 "Look to the West"
+ESS_fascist_foreign_policy_desc:0 "To the west lie the rich mercantile empires of the Free Cities, the martial power of the Triarchy, and the ancient wealth of Slaver's Bay. It is time we turn our gaze toward these powerful western lords, forging lucrative ties and securing our dominance over the trade routes of Essos."
 
-ESS_approach_germany:0 "House Baratheon of Dragonstone"
-ESS_approach_germany_desc:0 "The might of Germany can be a valuable ally to our cause. We shall strengthen our bonds with the fascists of the continent, uniting under the banner of power."
+ESS_approach_germany:0 "The League of Free Cities"
+ESS_approach_germany_desc:0 "Across the Narrow Sea, the merchant lords and free captains of the West wield unmatched wealth and naval might. We shall seek ties with the Braavosi alliance and anchor our future to the Free Cities."
 
-ESS_cast_out_jews:0 "The Lord of Light"
-ESS_cast_out_jews_desc:0 "In the name of purity and righteousness, we must cast out the corrupt elements that have infested our land. The Lord of Light guides us in this great cleansing."
+ESS_cast_out_jews:0 "Abolish the Slave Trade"
+ESS_cast_out_jews_desc:0 "Braavos was born of escaped slaves, and its foundation rests upon the sacred oath that no man shall wear chains. To align with the Free Cities, we must purge the slave trade from our lands and break every chain."
 
-ESS_anit_comintern_pact:0 "Support Stannis"
-ESS_anit_comintern_pact_desc:0 "Stannis Baratheon’s iron will is the cornerstone of our movement. Supporting him will give us the strength to crush any foreign threat and ensure our supremacy."
+ESS_anit_comintern_pact:0 "Support the Sealord"
+ESS_anit_comintern_pact_desc:0 "The Sealord of Braavos commands the grandest fleet on the seas and guarantees the sovereignty of the League. Backing his leadership will grant us the protection of the Iron Bank and the Titan's gaze."
 
-ESS_german_embassy:0 "Send Envoy to Dragonstone"
-ESS_german_embassy_desc:0 "It is time to officially solidify our ties with Germany. An envoy to Dragonstone will ensure the fascist cause is united across the seas."
+ESS_german_embassy:0 "Send Envoy to Braavos"
+ESS_german_embassy_desc:0 "It is time to formalize our diplomatic ties with the western powers. A diplomatic envoy dispatched to the Lagoon will secure our place in the councils of the League."
 
-ESS_join_axis:0 "Join Dragonstone"
-ESS_join_axis_desc:0 "The Axis is a pact of power, uniting nations of strength. Joining the Axis will ensure our dominance, and under the storm’s banner, we will strike at the heart of our enemies."
+ESS_join_axis:0 "Join the League of Free Cities"
+ESS_join_axis_desc:0 "The League represents the pinnacle of naval dominance and mercantile wealth. By formally joining the alliance, we align ourselves with the Free Cities and stand united against all who would seek to enslave or break us."
 
-ESS_recognise_franco:0 "Denounce Lannister Bastards"
-ESS_recognise_franco_desc:0 "The usurper Lannisters have brought shame to the throne. We shall support Franco’s regime as an ally of strength, while denouncing the Lannister impostors as traitors to the realm."
+ESS_recognise_franco:0 "Denounce the Dragonlords"
+ESS_recognise_franco_desc:0 "The Targaryen tyrants have brought fire and ruin to Essos, treating free men as subjects to be burned. We shall recognize the council in the West as a true ally of strength while denouncing the Dragonlords as false rulers and conquerors of the realm."
 
-ESS_approach_italy:0 "House Baratheon of Storm's End"
-ESS_approach_italy_desc:0 "The might of Italy is legendary, and with their power, we could bring the Stormlands to new heights. Let us reach out to Mussolini and offer our support in return for his strength."
+ESS_approach_italy:0 "The Volantene Triarchy"
+ESS_approach_italy_desc:0 "Oldest and greatest of the Valyrian daughters, Volantis commands immense fleets and ancient wealth. We shall reach out to the First Daughter of Valyria and forge an alliance with the rulers of the Long Bridge."
 
-ESS_support_mussolini:0 "Support Renly"
-ESS_support_mussolini_desc:0 "Renly Baratheon’s charisma and strategic mind can forge a strong alliance with Italy. Together, we can dominate the Mediterranean and spread the storm’s influence."
+ESS_support_mussolini:0 "Support the Triarchs"
+ESS_support_mussolini_desc:0 "The three Triarchs of Volantis govern with military power, aristocratic pride, and commercial might. Backing their authority will cement our place alongside the most formidable force in Southern Essos."
 
-ESS_our_fascism:0 "Befriend The Tyrells"
-ESS_our_fascism_desc:0 "We must expand our alliances with the Tyrells, forging a strong political marriage that will ensure our rule over the realm. The Stormlands and the Reach shall rise together."
+ESS_our_fascism:0 "Court the Archons of Lys"
+ESS_our_fascism_desc:0 "A true pact demands the backing of the entire Triarchy. We must deepen our ties with the merchant princes of Lys and Myr, uniting our strength to dominate the Trade Pines and the sea lanes."
 
-ESS_italian_embassy:0 "Send Envoy to Storm's End"
-ESS_italian_embassy_desc:0 "We must send a diplomatic envoy to Storm’s End to cement our alliance with the Italians. Their military expertise could prove invaluable in our push for dominance."
+ESS_italian_embassy:0 "Send Envoy to Volantis"
+ESS_italian_embassy_desc:0 "We shall dispatch a diplomatic envoy beyond the Black Wall to Volantis. Securing an embassy within the ancient city will ensure our alliance is bound in stone and gold."
 
-ESS_join_italy:0 "Join The Stormlands"
-ESS_join_italy_desc:0 "It is time to unite with Italy. Together, the Stormlands and Italy can create an unstoppable force to conquer all of Westeros and beyond."
+ESS_join_italy:0 "Join the Triarchy"
+ESS_join_italy_desc:0 "It is time to formally align our forces with Volantis and her sister cities. Bound together under the banner of the Triarchy, we shall dominate the sea routes and sweep across Essos unchecked."
 
-ESS_approach_japan:0 "House Baratheon of King's Landing"
-ESS_approach_japan_desc:0 "The Rising Sun has much to offer in terms of strength and conquest. We must approach Japan, forging an alliance that will give us an edge against our enemies."
+ESS_approach_japan:0 "The League of the Harpy"
+ESS_approach_japan_desc:0 "In the ancient cities of Slaver's Bay, the old Ghiscari aristocracy wields vast wealth, disciplined legions, and thousands of years of imperial heritage. We shall approach the High Masters of Ghiscar to forge an alliance rooted in iron and tradition."
 
-ESS_asia_for_asians:0 "Denounce The Starks"
-ESS_asia_for_asians_desc:0 "The Starks have long claimed the North as their domain. We must reject their misguided notions of honor and instead support the true power of Asia in our bid for global supremacy."
+ESS_asia_for_asians:0 "Denounce the Westerosi Barbarians"
+ESS_asia_for_asians_desc:0 "The self-righteous lords of Westeros look down upon ancient Essosi traditions. We must reject their hypocritical notions of honor and instead rally the old blood of the East beneath the shadow of the Harpy."
 
-ESS_recognise_puyi:0 "Recognise King Joffrey"
-ESS_recognise_puyi_desc:0 "King Joffrey’s claim is legitimate, and we must recognize him as the true ruler of Westeros. By acknowledging his throne, we shall gain the support of powerful allies."
+ESS_recognise_puyi:0 "Recognize the Wise Masters"
+ESS_recognise_puyi_desc:0 "The ancient nobility of Yunkai, Meereen, and New Ghis hold the true right to rule the Bay. By formally recognizing the authority of the Wise and Good Masters, we secure a powerful pact with the ruling elite of Slaver's Bay."
 
-ESS_sanction_colonialists:0 "Befriend The Lannisters"
-ESS_sanction_colonialists_desc:0 "Though they are traitors, the Lannisters hold power and resources that we need. We must extend a hand to them, using their wealth to fuel our rise."
+ESS_sanction_colonialists:0 "Court the Great Pyramid"
+ESS_sanction_colonialists_desc:0 "Though the slave-lords are ruthless, they control immense trade networks and mercenary armies that we require. We must extend a hand to the Great Families, utilizing their gold and iron to fuel our conquests."
 
-ESS_japanese_embassy:0 "Send Envoy to King's Landing"
-ESS_japanese_embassy_desc:0 "Our alliance with Japan will provide us with unparalleled military strength. Sending an envoy to King’s Landing will formalize our ties and signal our dominance in the East."
+ESS_japanese_embassy:0 "Send Envoy to New Ghis"
+ESS_japanese_embassy_desc:0 "Our alignment with the Ghiscari Empire will grant us seasoned legionnaires and financial backing. Sending an ambassador across the Gulf of Grief to New Ghis will formalize our ties within the League."
 
-ESS_join_japan:0 "Join The Crownlands"
-ESS_join_japan_desc:0 "Joining Japan will secure our future. The Crownlands will fall under our rule, and together with Japan, we will expand our influence and crush all who dare oppose us."
+ESS_join_japan:0 "Join the League of the Harpy"
+ESS_join_japan_desc:0 "The glory of Old Ghis shall rise once more to dominate the continent. By joining the League of the Harpy, we unite our forces with the ancient empires of the Bay, ready to crush any who dare challenge our order."
  
 ESS_stay_neutral:0 "A Time for Caution"
 ESS_stay_neutral_desc:0 "The realm is torn apart by war, and we must be prudent. Now is not the time to choose sides, but rather to bide our time and strengthen our position."
@@ -1336,30 +1333,32 @@ ESS_acquire_weapons_desc:0 "The best defense is a good offense. We must procure 
 ESS_extend_training:0 "Proper Military Training"
 ESS_extend_training_desc:0 "A well-trained army is a force to be reckoned with. We must ensure that our troops are not only numerous, but also skilled in battle."
 
-ESS_role_in_war:0 "Our Role in the War"
-ESS_role_in_war_desc:0 "While the Great War ravages the realm, we must decide what part we shall play. Will we stand aside, or will we assert ourselves on the battlefield? Our destiny must be our own."
+ESS_role_in_war:0 "Our Role in the Conflict"
+ESS_role_in_war_desc:0 "While war and chaos spread across Essos, we must decide what part we shall play. Will we stand aside, or will we assert ourselves on the battlefield? Our destiny must be our own."
 
-ESS_sell_weapons_to_germany:0 "Deal With The Lannisters"
-ESS_sell_weapons_to_germany_desc:0 "Though their rule is illegitimate, the Lannisters are a force to be reckoned with. To keep them at bay, we shall trade with them, sending weapons in exchange for peace and neutrality."
+ESS_sell_weapons_to_germany:0 "Deal With Braavos"
+ESS_sell_weapons_to_germany_desc:0 "The Secret City commands vast economic power through the Iron Bank and the Titan's fleet. We shall trade steel and arms with the Braavosi, securing wealthy financial backing and keeping their powerful navy friendly to our cause."
 
-ESS_sell_weapons_to_france:0 "Deal With The Starks"
-ESS_sell_weapons_to_france_desc:0 "The Starks may be embroiled in their own wars, but there is value in keeping them neutral. We shall send them weapons, ensuring that they leave us out of their conflicts."
+ESS_sell_weapons_to_france:0 "Deal With Pentos"
+ESS_sell_weapons_to_france_desc:0 "The Magisters of Pentos prefer peace and commerce, often buying off foreign threats with vast sums of gold. We shall sell arms to Pentos, filling our coffers while ensuring the Prince and Magisters remain content with trade rather than conflict."
 
-ESS_open_border:0 "Open the Border"
-ESS_open_border_desc:0 "In times of chaos, we must show compassion. Opening our borders will provide a safe haven for those fleeing the bloodshed of the War of the Five Kings, while also allowing us to better assess the shifting tides of war."
+ESS_open_border:0 "Open the Borders"
+ESS_open_border_desc:0 "In times of chaos across the continent, we must act with pragmatism and resolve. Opening our borders will provide refuge for those fleeing the devastation of endless Essosi wars, while allowing us to swell our ranks and assess the shifting tides of power."
 
 ESS_deterrence:0 "Deterrence"
-ESS_deterrence_desc:0 "We shall show the world that we are not to be trifled with. By strengthening our military and making it clear that any aggression will be met with swift retaliation, we can deter others from attacking us."
+ESS_deterrence_desc:0 "We shall show the rival free cities and warlords that we are not to be trifled with. By strengthening our military and making it clear that any aggression will be met with swift retaliation, we can deter foreign conquerors from threatening our sovereignty."
 
 ESS_home_defense:0 "A Home Defense"
-ESS_home_defense_desc:0 "We cannot control the conflicts that rage around us, but we can protect what is ours. Strengthening our defenses is the best way to ensure that our people and land remain safe from invaders."
+ESS_home_defense_desc:0 "We cannot control the conflicts that rage across the vast lands of Essos, but we can protect what is ours. Strengthening our regional garrisons is the best way to ensure that our people and realm remain safe from invaders."
 
 ESS_fortification_efforts:0 "Fortification Efforts"
-ESS_fortification_efforts_desc:0 "The walls that protect us must be strengthened. Fortifications will allow us to withstand any siege and give us the time we need to make decisions in the face of threats."
+ESS_fortification_efforts_desc:0 "The walls and strongholds that protect us must be reinforced. Expanding our fortifications will allow us to withstand any siege from rival sellsword armies or grand alliances, giving us time to strike back."
 
 ESS_why_we_fight:0 "Why We Fight"
-ESS_why_we_fight_desc:0 "Though we stand apart from the wars of others, we must ask ourselves: what do we stand for? Our neutrality must be built upon principles, and our actions must reflect the reasons we fight, or refuse to fight."
+ESS_why_we_fight_desc:0 "Though we stand apart from the squabbles of foreign tyrants, we must ask ourselves what we stand for. Our neutrality must be built upon unwavering strength, and our actions must reflect the core ideals of our realm."
 
 ESS_our_own_faction:0 "Form Our Own Faction"
-ESS_our_own_faction_desc:0 "The time for neutrality may be coming to an end. Perhaps it is time to create our own faction, not as a puppet of others, but as a force to be reckoned with in its own right."
+ESS_our_own_faction_desc:0 "The time for standing alone in Essos is coming to an end. It is time to forge our own grand alliance — not as a vassal or puppet to the Free Cities or distant empires, but as a dominant power in our own right."
 
+RI_City_Watch: "City Watch"
+RI_City_Watch_desc: "Establishes an armed police force to patrol the streets and enforce public order, training an initial City Watch division at no cost."

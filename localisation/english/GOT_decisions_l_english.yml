@@ -36,6 +36,9 @@ IRO_Invasion_of_RIV_desc:0 "The Riverlands once bent the knee to the Seastone Ch
 PEN_End_Targaryen_Asylum:0 "Reclaim Illyrio's Mansion"
 PEN_End_Targaryen_Asylum_desc:0 "With the Targaryens now established elsewhere in the world, their need for sanctuary in Pentos has come to an end. Illyrio's mansion, long offered as a place of refuge, shall be reclaimed and restored to local use. The gesture of asylum has served its purpose; now, we look to our own needs."
 
+VOL_End_Blackfyre_Asylum:0 "Reclaim the Blackfyre Encampment"
+VOL_End_Blackfyre_Asylum_desc:0 "With the Blackfyre exiles and the Golden Company now departing for other shores, their need for refuge within our borders has reached its end. Volantis graciously permitted these exiles to camp upon our lands, but our hospitality has run its course. The time has come to demand the return of our territory and restore it to proper Volantene use."
+
 TAR_Targaryen_Invasion_of_DRA:0 "Set Sail for Dragonstone!"
 TAR_Targaryen_Invasion_of_DRA_desc:0 "Exile is at an end. The Narrow Sea lies behind us, and before us stands the ancient seat of House Targaryen. Dragonstone, forged in Valyrian fire and stolen from our bloodline, must be reclaimed before the Seven Kingdoms can be won. Let our banners fly once more above the island fortress—for this is where the dragon's conquest begins."
 
@@ -118,3 +121,5 @@ ICE_Raise_The_Dead_Castle_Black: "Fall of the Night's Watch"
 ICE_Raise_The_Dead_Castle_Black_desc: "The ancient stronghold of the Night's Watch has fallen, and the blood of its sworn brothers stains the snows of the Wall. We shall breach the barrier and reanimate the black-clad sentinels to serve the Long Night forever."
 ICE_Raise_The_Dead_Castle_Black_tooltip: "Raises an army of reanimated Night's Watch Wights at Castle Black."
 
+ BLA_First_Iron_Step:0 "The First Iron Step"
+ BLA_First_Iron_Step_desc:0 "For decades, the Golden Company has bided its time in exile, waiting for the right moment to strike. With Young Griff standing at the helm and the true bloodline of the Black Dragon unveiled, we must secure a sovereign foothold in Essos. Banners must be raised, steel must be drawn, and an ultimatum sent to the Free Cities. From this first conquest, our march to reclaim our birthright begins."

@@ -328,6 +328,7 @@ GEN_Empire_Manager = {
 					tag = LYS
 					tag = MYR
 					tag = TYR
+					tag = PEN
 				}
 			}
         }
@@ -350,6 +351,7 @@ GEN_Empire_Manager = {
 			}
 			ROOT = { is_faction_leader = yes }
             FROM = { is_in_faction = no }
+			has_global_flag = GOT_House_Blackfyre_Revealed_Flag
         }
 		complete_effect = {
 		}
@@ -380,6 +382,7 @@ GEN_Empire_Manager = {
 					tag = LYS
 					tag = MYR
 					tag = TYR
+					tag = PEN
 				}
 			}
         }
@@ -398,7 +401,7 @@ GEN_Empire_Manager = {
         available = {
 			num_of_civilian_factories_available_for_projects > 2
 			FROM = { is_subject = no }
-			FROM = { is_in_faction_with = ROOT }
+			#FROM = { is_in_faction_with = ROOT }
 			FROM = {
 				surrender_progress < 0.01	
 			}
@@ -428,6 +431,7 @@ GEN_Empire_Manager = {
 					}
 				}
 			}
+			has_global_flag = GOT_House_Blackfyre_Revealed_Flag
         }
 		complete_effect = {
 		}
@@ -457,6 +461,7 @@ GEN_Empire_Manager = {
 					tag = LYS
 					tag = MYR
 					tag = TYR
+					tag = PEN
 				}
 			}
         }
@@ -490,6 +495,7 @@ GEN_Empire_Manager = {
 			has_equipment = {
 				infantry_equipment > 999
 			}
+			has_global_flag = GOT_House_Blackfyre_Revealed_Flag
         }
 		complete_effect = {
 			add_manpower = -1000

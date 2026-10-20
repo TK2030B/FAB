@@ -2,6 +2,21 @@ ideas = {
 
 	country = {
 	
+			RI_trade_with_free_cities = {
+				allowed = {
+					always = no
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+				modifier = {
+					production_speed_buildings_factor = 0.03  # +3% Construction Speed
+					industrial_capacity_factory = 0.03        # +3% Factory Output
+					trade_opinion_factor = 0.03               # +3% Trade Opinion
+					consumer_goods_factor = -0.03             # -3% Consumer Goods (Economic boost)
+				}
+			}
+	
 			RI_major_operation = {
 				picture = RI_military_resistance
 				allowed = {
@@ -1845,6 +1860,46 @@ ideas = {
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
 
+			}
+		}
+		
+		RI_dothraki_militaries = {
+			#picture = saf_soviet_advisers
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				experience_gain_army = 0.03
+				army_org_factor = 0.03
+				army_speed_factor = 0.03
+				cavalry_attack_factor = 0.03
+				cavalry_defence_factor = 0.03
+				supply_consumption_factor = -0.03
+			}
+		}
+
+		RI_dothraki_militaries2 = {
+			#picture = saf_soviet_advisers
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				experience_gain_army = 0.05
+				army_org_factor = 0.05
+				army_speed_factor = 0.05
+				cavalry_attack_factor = 0.05
+				cavalry_defence_factor = 0.05
+				supply_consumption_factor = -0.05
 			}
 		}
 

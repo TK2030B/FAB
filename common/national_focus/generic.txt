@@ -1784,6 +1784,11 @@ focus_tree = {
 			factor = 3200
 			modifier = {
 				factor = 0
+				date < 1937.1.1
+				threat < 0.25 # 25% World Tension
+			}
+			modifier = {
+				factor = 0
 				NOT = { has_global_flag = GOT_New_Monarch_Chosen_Flag }
 				GOT_Westeros_Countries = yes
 			}
@@ -2340,12 +2345,7 @@ focus_tree = {
 			focus = GOT_offer_false_alliances
 		}
 		completion_reward = {
-			NOR = {
-				add_timed_idea = {
-					idea = RI_commie_partisans
-					days = 365
-				}
-			}
+			navy_experience = 25
 		}
 	}
 	focus = {
@@ -2387,12 +2387,7 @@ focus_tree = {
 			focus = GOT_fith_internationale
 		}
 		completion_reward = {
-			every_neighbor_country = {
-				add_timed_idea = {
-					idea = RI_commie_partisans
-					days = 365
-				}
-			}
+			navy_experience = 25
 		}
 	}
 	focus = {
@@ -2693,7 +2688,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = free_trade
+			add_ideas = RI_trade_with_free_cities
 		}
 	}
 	focus = {
@@ -3325,7 +3320,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = free_trade
+			add_ideas = RI_trade_with_free_cities
 		}
 	}
 	

@@ -46,3 +46,7 @@ FORM_Valyrian_Freehold = {
     color = rgb { 110 85 30 }
     color_ui = rgb { 110 85 30 }
 }
+GOL_cosmetic = {
+	color = rgb { 212 175 55 }
+	color_ui = rgb { 212 175 55 }
+}

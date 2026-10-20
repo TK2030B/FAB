@@ -3,6 +3,8 @@
 RI_major_operation:0 "The Great Campaign"
 RI_major_operation_desc:0 "The horns have sounded and banners rise—lords and captains ride to war. This is no mere raid, but a concerted campaign that will test the resolve, steel, and strategy of all who march under its banner."
 
+ RI_trade_with_free_cities:0 "Trade with Free Cities"
+  RI_trade_with_free_cities_desc:0 "Our commercial agreements with the free cities provide a steady boost to our industrial output, construction efficiency, and trade appeal."
 
  RI_commie_army: "The Tribal Army"
  RI_commie_army_desc: "Incorporating the tribal leaders into the ranks of the army has brought a unique form of loyalty to the revolution. Instead of relying on political commissars, tribal chiefs are now appointed to oversee the army’s allegiance to the cause. Their influence is deeply rooted in the respect they command within their communities, and their supervision ensures the commitment of the soldiers remains steadfast. The army is now a reflection of our tribal unity, and its strength is as much a symbol of tradition as it is of revolutionary zeal."
@@ -135,6 +137,12 @@ RI_major_operation_desc:0 "The horns have sounded and banners rise—lords and c
 
   RI_soviet_militaries2: "Northern Wisdom"
   RI_soviet_militaries2_desc: "The counsel of Stark bannermen and Northern sages will help steer the direction of our governance. Their advice, honed by harsh winters and turbulent times, will fortify our resolve and sharpen our strategic decisions. With their guidance, we will ensure that our kingdom remains strong, resilient, and prepared for any challenge."
+  
+ RI_dothraki_militaries:0 "Screamers of the Grass Sea"
+ RI_dothraki_militaries_desc:0 "The nomadic khalasars of the Dothraki Sea are bound to the saddle from childhood, forging some of the most ferocious horsemen in the known world. By welcoming Dothraki bloodriders into our ranks, our military adopts their relentless speed, aggressive cavalry tactics, and unmatched combat instincts, ensuring our horsemen strike fear into every enemy standard."
+
+ RI_dothraki_militaries2:0 "Wisdom of the Dothraki Sea"
+ RI_dothraki_militaries2_desc:0 "Long centuries of wandering the endless plains have taught the Dothraki how to live off the land, outmaneuver settled armies, and endure severe hardship without relying on fragile supply lines. Integrating their knowledge allows our armies to move faster, consume fewer resources, and unleash devastating cavalry charges that shatter enemy formations before they can organize."
 
   RI_refugees: "A Refuge for the Displaced"
   RI_refugees_desc: "In the wake of war and turmoil, we stand as a sanctuary for those fleeing persecution and conflict. Our borders are open to the displaced, and we offer a haven where they can rebuild their lives. By welcoming these refugees, we not only provide them with safety, but also gain the strength and resilience of those who have endured the worst of times."

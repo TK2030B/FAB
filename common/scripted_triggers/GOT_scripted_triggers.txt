@@ -1,6 +1,7 @@
 GOT_War_Participant = {
 	OR = {
 		original_tag = TAR
+		original_tag = BLA
 		original_tag = CRO
 		original_tag = WES
 		original_tag = DRA
@@ -14,6 +15,31 @@ GOT_War_Participant = {
 		original_tag = KAR
 		original_tag = UMB
 		original_tag = TRL
+	}
+}
+
+GOT_Essos_War_Participant = {
+	OR = {
+		original_tag = TAR
+		original_tag = DOT
+		original_tag = VOL
+		original_tag = ORA
+		original_tag = LYS
+		original_tag = MYR
+		original_tag = TYR
+		original_tag = GHI
+		original_tag = TOL
+		original_tag = ELY
+		original_tag = MAN
+		original_tag = QOH
+		original_tag = JOG
+		original_tag = YTI
+		original_tag = AND
+		original_tag = BLA
+		original_tag = MER
+		original_tag = YUN
+		original_tag = AST
+		
 	}
 }
 
@@ -57,6 +83,20 @@ GOT_Targaryen_Faction = {
 				ruling_only = yes
 			}
 		}
+		AND = {
+			OR = {
+				original_tag = REA
+				original_tag = IRO
+				original_tag = DOR
+				original_tag = NOR
+				original_tag = VAL
+				original_tag = RIV
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
+		}
 	}
 }
 
@@ -75,11 +115,7 @@ GOT_Blackfyre_Faction = {
 				original_tag = LYS
 				original_tag = STE
 			}
-			OR = {
-				is_historical_focus_on = no
-				has_global_flag = GOT_Sandbox_Mode
-				NOT = { country_exists = TAR }
-			}
+			has_global_flag = GOT_House_Blackfyre_Revealed_Flag
 		}
 	}
 }
@@ -91,6 +127,24 @@ GOT_Baratheon_Faction = {
 		GOT_Renly_Faction = yes
 	}
 }
+
+GOT_Eastern_Faction = {
+	OR = {
+		GOT_Braavos_Faction = yes
+		GOT_Ghiscari_Faction = yes
+		GOT_Volantis_Faction = yes
+	}
+}
+
+
+GOT_Eastern_Sympathies = {
+	OR = {
+		GOT_Braavos_Sympathies = yes
+		GOT_Ghiscari_Sympathies = yes
+		GOT_Volantis_Sympathies = yes
+	}
+}
+
 
 GOT_Stannis_Faction = {
 	OR = {
@@ -230,6 +284,7 @@ GOT_Ironborn_Faction = {
 	}
 }
 
+#Not to be confused with the Braavos League of the Same name
 GOT_Free_City_Faction = {
 	OR = {
 		original_tag = BRA
@@ -241,6 +296,147 @@ GOT_Free_City_Faction = {
 		original_tag = TYR
 		original_tag = LYS
 		original_tag = VOL
+	}
+}
+
+GOT_Dothraki_Faction = {
+	OR = {
+		original_tag = DOT
+		AND = {
+			OR = {
+				original_tag = QOH
+				original_tag = LHA
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
+		}
+	}
+}
+
+GOT_Yiti_Faction = {
+	OR = {
+		original_tag = YTI
+		original_tag = ASS
+		original_tag = LEN
+		AND = {
+			original_tag = QAR
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
+		}
+	}
+}
+
+GOT_Braavos_Faction = {
+	OR = {
+		original_tag = BRA
+		original_tag = PEN
+		original_tag = LOR
+		original_tag = NOR
+		AND = {
+			OR = {
+				original_tag = LYS
+				original_tag = IBB
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
+		}
+	}
+}
+
+GOT_Volantis_Faction = {
+	OR = {
+		original_tag = VOL
+		original_tag = LYS
+		original_tag = MYR
+		AND = {
+			OR = {
+				original_tag = TYR
+				original_tag = STE
+				original_tag = VLY
+				original_tag = MAN
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
+		}
+	}
+}
+
+GOT_Ghiscari_Faction = {
+	OR = {
+		original_tag = GHI
+		original_tag = MER
+		original_tag = YUN
+		original_tag = AST
+		AND = {
+			OR = {
+				original_tag = QAR
+				original_tag = TOL
+				original_tag = ELY
+			}
+			OR = {
+				is_historical_focus_on = no
+				has_global_flag = GOT_Sandbox_Mode
+			}
+		}
+	}
+}
+
+GOT_Dothraki_Sympathies = {
+	OR = {
+		original_tag = DOT
+		original_tag = QOH
+		original_tag = LHA
+	}
+}
+
+GOT_Yiti_Sympathies = {
+	OR = {
+		original_tag = YTI
+		original_tag = ASS
+		original_tag = LEN
+	}
+}
+
+GOT_Braavos_Sympathies = {
+	OR = {
+		original_tag = BRA
+		original_tag = PEN
+		original_tag = LOR
+		original_tag = NOR
+		original_tag = LYS
+		original_tag = IBB
+	}
+}
+
+GOT_Volantis_Sympathies = {
+	OR = {
+		original_tag = VOL
+		original_tag = LYS
+		original_tag = MYR
+		original_tag = TYR
+		original_tag = STE
+		original_tag = VLY
+		original_tag = MAN
+	}
+}
+
+GOT_Ghiscari_Sympathies = {
+	OR = {
+		original_tag = GHI
+		original_tag = MER
+		original_tag = YUN
+		original_tag = AST
+		original_tag = QAR
+		original_tag = TOL
+		original_tag = ELY
 	}
 }
 
@@ -322,6 +518,29 @@ GOT_Neutral_Sympathies = {
 	OR = {
 		original_tag = VAL
 		original_tag = DOR
+		original_tag = NAA
+		original_tag = LHA
+		original_tag = SUI
+		original_tag = PEN
+		original_tag = BRA
+		original_tag = LOR
+		original_tag = MOR
+		original_tag = IFE
+		original_tag = SAA
+		original_tag = NOR
+		original_tag = IBB
+		original_tag = ASS
+		original_tag = LEN
+		original_tag = RHO
+		original_tag = OMB
+		original_tag = MRQ
+		original_tag = QAR
+		original_tag = HYR
+		original_tag = ULT
+		original_tag = SOT
+		original_tag = REW
+		original_tag = UNL
+		original_tag = VLY
 	}
 }
 
@@ -533,6 +752,156 @@ GOT_can_join_lannister = {
 				}
 			}
 			GOT_Lannister_Is_King = yes
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_dothraki = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			DOT = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				DOT = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				DOT = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				DOT = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_yiti = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			YTI = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				YTI = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				YTI = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				YTI = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_braavos = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			BRA = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				BRA = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				BRA = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				BRA = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_volantis = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			VOL = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				VOL = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				VOL = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				VOL = { 
+					has_government = fascism 
+				}
+			}
+		}
+		is_ai = no
+	}
+}
+
+GOT_can_join_ghiscari = {
+	OR = {
+		OR = {
+			has_government = neutrality
+			GHI = { 
+				has_government = neutrality 
+			}
+			AND = {
+				has_government = communism
+				GHI = { 
+					has_government = communism 
+				}
+			}
+			AND = {
+				has_government = democratic
+				GHI = { 
+					has_government = democratic
+				}
+			}
+			AND = {
+				has_government = fascism
+				GHI = { 
+					has_government = fascism 
+				}
+			}
 		}
 		is_ai = no
 	}

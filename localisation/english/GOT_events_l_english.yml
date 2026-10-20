@@ -7,7 +7,8 @@ GOT_Reccommended_MP_Settings_tt:0 "§YRecommended Multiplayer Settings§!\nEnabl
 GOT_Army_Shattered_tt:0 "§RWe will lose 50% of our divisions.§!"
 GOT_Army_Shattered_2_tt:0 "§RWe will lose 100% of our divisions.§!"
 
-
+GOT_House_Blackfyre_Revealed_Flag:0 "House Blackfyre Revealed"
+GOT_House_Blackfyre_Revealed_Flag_desc:0 "The true heritage of Young Griff as the heir of House Blackfyre has been openly proclaimed to the world. The Golden Company no longer fights merely as sellswords, but as the vanguard of the Black Dragon."
 GOT_TAR_DOT_Wedding_Flag:0 "Targaryen-Dothraki Marriage"
 GOT_TAR_Wedding_Flag:0 "Targaryen Marriage"
 GOT_Tyrion_Captured_Flag:0 "Tyrion Captured"
@@ -171,7 +172,24 @@ Game_Event.12.b:0 "TURN §ROFF§!"
  GOT_Generic.15.a: "Adopt The Ironborn Tradition"
  GOT_Generic.15.b: "Keep Our Current Tradition"
  GOT_Generic.15.c: "We Already Have That Tradition"
+ 
+GOT_Generic.16.t: "The Great Stallion"
+GOT_Generic.16.d: "The Great Stallion is the supreme deity of the Dothraki, representing strength, swiftness, and conquest across the vast grasslands of the Essos steppe. His followers believe that the stars in the night sky are a herd of fiery horses riding through the heavens, and that the strong will ride alongside him in the afterworld. As the influence of the horse lords expands, the question arises: should we bow to the divine power of the Great Stallion, or cling to our long-standing traditions?"
+GOT_Generic.16.a: "The Stallion Who Mounts the World"
+GOT_Generic.16.b: "Keep Our Current Faith"
+GOT_Generic.16.c: "We Already Worship Him"
 
+GOT_Generic.17.t: "The Lion of Night and Maiden-Made-of-Light"
+GOT_Generic.17.d: "In the distant and ancient realm of Yi Ti, faith is bound to the sacred duality of the Maiden-Made-of-Light and the dark wrath of the Lion of Night. Steeped in ritual, imperial tradition, and veneration of the God-Emperors, this Eastern faith preaches harmony, celestial order, and eternal vigilance against the shadows. As whispers of their ancient wisdom reach beyond the Jade Sea, we must decide: shall we embrace the wisdom of the Golden Empire, or remain steadfast in our established beliefs?"
+GOT_Generic.17.a: "Embrace the Imperial Truth"
+GOT_Generic.17.b: "Keep Our Current Faith"
+GOT_Generic.17.c: "We Already Worship Them"
+
+GOT_Generic.18.t: "The Golden Tradition of Yi Ti"
+GOT_Generic.18.d: "The imperial customs of Yi Ti are rooted in millennia of unmatched refinement, strict hierarchy, and devotion to the cosmic harmony of the Golden Empire. It is a path governed by courtly ritual, ancestral respect, and the absolute authority of the God-Emperors, where duty and lineage hold the realm together. As knowledge of these foreign ways spreads west from beyond the Jade Sea, we must decide whether to adopt this prestigious tradition or adhere to our own."
+GOT_Generic.18.a: "Adopt The Imperial Tradition"
+GOT_Generic.18.b: "Keep Our Current Tradition"
+GOT_Generic.18.c: "We Already Have That Tradition"
  
  #Country Event, the event 1 Country Gets
 GOT_Story_Country.XXX.t: ""
@@ -4824,6 +4842,21 @@ GOT_Diplomatic_Country.90.b: "A resurrected bastard holds no claim. We must look
  GOT_Diplomatic_Country.102.b:0 "We take the North by the Iron Price! We take no orders from Kings Landing!"
  GOT_Diplomatic_Country.102.b.tt:0 "We declare an independent war against §YThe Stark Faction§!. We will operate as a co-belligerent, seizing Northern land without entering a treaty with Casterly Rock."
 
+GOT_Diplomatic_Country.113.t:0 "A Request from [VOL.GetName]"
+GOT_Diplomatic_Country.113.d:0 "A diplomatic envoy arrives from the Triarchs of [VOL.GetName]. With firm courtesy and acknowledgment of past hospitality, they note that [GOL.GetNameDef] have now secured holdings of their own, and respectfully demand the return of their encampment lands. They emphasize that [VOL.GetAdjective] hospitality was a privilege, not a permanent gift, and now that the exiles are no longer destitute wanderers, the territory must be returned to the Old Blood."
+GOT_Diplomatic_Country.113.a:0 "They sheltered us in our time of need. We shall withdraw peacefully."
+GOT_Diplomatic_Country.113.b:0 "This camp is ours now. Tell them to come and take it."
+GOT_Diplomatic_Country.113.c:0 "An insult! We will strike first and teach them their place."
+
+GOT_Diplomatic_Country.114.t:0 "[GOL.GetName] Encampment Reclaimed"
+GOT_Diplomatic_Country.114.d:0 "Word has arrived that [GOL.GetNameDef] have departed our lands in good faith. With their own territory secured, they have relinquished their former camp without dispute. The land has now returned to [VOL.GetAdjective] administration. Though simple in nature, this gesture marks a symbolic end to the era of their dependency — and a quiet relief for our court."
+GOT_Diplomatic_Country.114.a:0 "Let the land be restored to [VOL.GetAdjective] use."
+
+GOT_Diplomatic_Country.115.t:0 "[GOL.GetName] Refuses to Vacate the Encampment"
+GOT_Diplomatic_Country.115.d:0 "Our demand was met not with compliance, but with defiance. [GOL.GetNameDef] have refused to leave our lands, insisting on remaining despite their newfound holdings. This blatant disregard for [VOL.GetAdjective] sovereignty is an insult to the First Daughter of Valyria. Some urge immediate action, while others counsel patience — for now."
+GOT_Diplomatic_Country.115.a:0 "They leave us no choice. We’ll take it by force."
+GOT_Diplomatic_Country.115.b:0 "We’ll let it slide — for now."
+
 #The Previous Event Spawns this one for all the other countries
 GOT_Diplomatic_News.2.t: "Stark Refuses the King's Request"
 GOT_Diplomatic_News.2.d: "Lord Eddard Stark has refused King Robert Baratheon's request to serve as Hand of the King, a surprising turn that will affect the political dynamics in King's Landing and beyond."
@@ -4960,6 +4993,14 @@ GOT_Diplomatic_News.41.a: "The stag and the direwolf march together."
  GOT_Diplomatic_News.43.t:0 "The Dragon Survives: War of the Two Dragons"
  GOT_Diplomatic_News.43.d:0 "Shockwaves ripple across Westeros as word escapes the Red Keep: Queen Daenerys Targaryen has survived the assassination attempt by Jon Snow. Though wounded, the Dragon Queen has unleashed her full fury upon those who conspired against her, branding the King in the North a traitor to the realm. Refusing to yield to dragonfire, Jon Snow has rallied the northern lords, riverlords, and loyalist remnants under the banner of his true Targaryen lineage, framing the conflict as a final stand for the realm's survival. With Drogon circling the skies over the Crownlands and northern hosts marching south, the Seven Kingdoms are consumed by a devastating schism—a war between the Dragon Queen who brought fire and blood, and the White Wolf who would defy her."
  GOT_Diplomatic_News.43.a:0 "Fire and blood meets the cold of winter."
+ 
+GOT_Diplomatic_News.47.t:0 "[GOL.GetName] Vacates Encampment"
+GOT_Diplomatic_News.47.d:0 "In a gesture of compliance and respect, [GOL.GetNameDef] have peacefully vacated their encampment within the borders of [VOL.GetName]. The lands, which served as a crucial staging ground during their years of exile, are once again under full Volantene authority. Many across the Free Cities see this as a symbol of the [GOL.GetAdjective]' rising strength and independence — no longer desperate sellswords relying on [VOL.GetAdjective] grace, but rulers carving out their own destiny."
+GOT_Diplomatic_News.47.a:0 "A chapter ends; another begins."
+
+GOT_Diplomatic_News.48.t:0 "[GOL.GetName] Refuses to Vacate Encampment"
+GOT_Diplomatic_News.48.d:0 "Despite a formal decree from [VOL.GetName], [GOL.GetNameDef] have refused to vacate the encampment granted to them during their exile. Though they now command lands of their own, [GOL.GetNameDef] have chosen to hold the [VOL.GetAdjective] territory — a move seen across Essos as an audacious insult to the First Daughter of Valyria. Whispers swirl through the Free Cities: will the Triarchs tolerate this breach of sovereignty, or will the Old Blood march to reclaim what is rightfully theirs?"
+GOT_Diplomatic_News.48.a:0 "The Black Dragon grows bold."
 
 GOT_Alt_Country.1.t: "A Royal Union for Power"
 GOT_Alt_Country.1.d: "In a surprising turn of events, Daenerys Targaryen has married her brother, Viserys. This union was arranged to strengthen the Targaryen claim to the Iron Throne, with both siblings hoping to restore their family's former glory. Despite the personal complexities, the Targaryens now stand united in their bid to reclaim Westeros."
@@ -5690,6 +5731,70 @@ GOT_Blackfyre_Country.2.t:0 "The Golden Company at the Gates"
  GOT_Blackfyre_Country.5.a:0 "Bend the knee. The Black Dragon rises!"
  GOT_Blackfyre_Country.5.b:0 "Myr will never bow to a sellsword king!"
  
+ 
  GOT_Blackfyre_News.5.t:0 "The Black Dragon at the Gates of Myr"
  GOT_Blackfyre_News.5.d:0 "Anxious messages fly across the narrow sea following reports from the Free City of Myr. The pretender known as 'Young Griff' has shed his disguise and declared himself the rightful heir to House Blackfyre, encamping the Golden Company directly outside the city's walls.\n\nWith heavy cavalry, battle-hardened mercenaries, and war elephants taking position across the Myrish countryside, Young Griff has issued a harsh demand to the ruling Magisters: recognize the Black Dragon or prepare for a devastating war. Monarchs and traders across the known world wait anxiously to see whether Myr will submit to the pretender or resist the Golden Company."
  GOT_Blackfyre_News.5.a:0 "A storm is gathering in the East."
+
+ # ==========================================
+ # HOUSE BLACKFYRE - EVENT 6 LOCALIZATION (Page 1)
+ # ==========================================
+ 
+ GOT_Blackfyre_Country.6.t:0 "The First Iron Step"
+ GOT_Blackfyre_Country.6.d:0 "The Golden Company sits upon the razor-edge of destiny. Beneath the gilded banners of the dragon, young Aegon VI stands ready to reclaim what was stolen from his bloodline. But a dragon cannot soar without a lair, and an army cannot march on Westeros without a foothold in Essos.\n\nOur commanders have drawn up an audacious strategy: we shall march directly to the gates of one of the Free Cities, seize the surrounding countryside in a single decisive strike, and present the Magisters with an ultimatum—acknowledge Aegon as sovereign, or watch their cities burn.\n\nSuch brazen audacity is not without peril. The Golden Company’s fierce reputation precedes us, and the merchant princes may collapse under the weight of terror. Yet, should they choose to defy us, we shall be plunged into an immediate, ruthless war.\n\nWhere shall the Black Dragon strike first?"
+
+ # --- Options for Event 6 ---
+ 
+ # Option A: Volantis
+ GOT_Blackfyre_Country.6.a:0 "Strike at the First Daughter: Demand the submission of Volantis."
+ GOT_Blackfyre_Country.6.a.tt:0 "§RWARNING: Volantis possesses an army roughly FOUR TIMES the size of the Golden Company. Defeat means total ruin, but victory yields the realm of the Old Blood.§!"
+
+ # Option B: Pentos
+ GOT_Blackfyre_Country.6.b:0 "March on the Merchant Realm: Encircle and demand Pentos."
+ GOT_Blackfyre_Country.6.b.tt:0 "§RWARNING: The Magisters of Pentos command forces roughly FOUR TIMES our current strength. A high-risk gamble against vast mercenary wealth.§!"
+
+ # Option C: Lys
+ GOT_Blackfyre_Country.6.c:0 "Cross the Sea of Myrth: Seize the island-city of Lys."
+ GOT_Blackfyre_Country.6.c.tt:0 "§YNOTE: The garrison of Lys is estimated at roughly 15 divisions. Their naval isolation offers strategic defense if captured.§!"
+
+ # Option D: Next Page
+ GOT_Blackfyre_Country.6.e:0 "Next Page."
+ GOT_Blackfyre_Country.6.e.tt:0 "§GExamine additional target cities across Essos.§!"
+ 
+ GOT_Blackfyre_Country.6.f:0 "The time is not yet right. Bide our strength."
+ GOT_Blackfyre_Country.6.f.tt:0 "§GWe shall postpone our expansion until our forces are bet
+
+
+ # ==========================================
+ # HOUSE BLACKFYRE - EVENT 7 LOCALIZATION (Page 2)
+ # ==========================================
+ 
+ GOT_Blackfyre_Country.7.t:0 "The First Iron Step: Alternate Targets"
+ GOT_Blackfyre_Country.7.d:0 "Should we turn our gaze toward Myr or Tyrosh, we enter a far more delicate diplomatic and military game. Neither city shares a direct land connection with our present staging grounds, making any full-scale invasion logistically precarious.\n\nHowever, their standing forces are considerably weaker than those of Volantis or Pentos. Their Magisters are far more susceptible to our bluff—if our reputation holds, they may fold instantly without a fight. Yet the danger remains acute: should they call our bluff and decide to resist, we lack the force projection and naval strength to compel their submission by force."
+
+ # --- Options for Event 7 ---
+ 
+ # Option A: Myr
+ GOT_Blackfyre_Country.7.a:0 "Send the ultimatum to the Master Artificers of Myr."
+ GOT_Blackfyre_Country.7.a.tt:0 "§YRISKY: Myr commands fewer divisions and is prone to submission, but without a land border, failure to intimidate them leaves us stranded.§!"
+
+ # Option B: Tyrosh
+ GOT_Blackfyre_Country.7.b:0 "Demand the immediate capitulation of Tyrosh."
+ GOT_Blackfyre_Country.7.b.tt:0 "§YRISKY: Tyrosh possesses a smaller garrison that may yield to our bluff, but we lack the naval power to force a siege if they refuse.§!"
+ 
+  # Option C: Back Down
+ GOT_Blackfyre_Country.7.c:0 "The time is not yet right. Bide our strength."
+ GOT_Blackfyre_Country.7.c.tt:0 "§GWe shall postpone our expansion until our forces are bet
+
+ # Option E: Previous Page
+ GOT_Blackfyre_Country.7.e:0 "Previous Page."
+ GOT_Blackfyre_Country.7.e.tt:0 "§GReturn to Volantis, Pentos, and Lys.§!"
+
+ GOT_Blackfyre_Country.8.t:0 "The Golden Company at Pentos"
+  GOT_Blackfyre_Country.8.d:0 "Within the gilded towers and fragrant gardens of Pentos, the Magisters gather in panicked council as the horizon turns to dust and steel. Young Griff, commanding the formidable ranks of the Golden Company, has assembled his host directly outside our city walls. Casting aside his blue dye and humble pretense, he has revealed himself as the rightful heir of House Blackfyre and sovereign King.\n\nFlanked by veteran sellswords, heavy cavalry, and terrifying war elephants, Young Griff has issued an unyielding demand: the Magisters must immediately yield the city, unlock the gates, and swear allegiance to the Black Dragon, or watch Pentos be sacked and reduced to ash."
+  GOT_Blackfyre_Country.8.a:0 "Bend the knee. The Black Dragon rises!"
+  GOT_Blackfyre_Country.8.b:0 "Pentos will never bow to a sellsword king!"
+  
+ GOT_Blackfyre_News.8.t:0 "The Black Dragon at the Sunrise Gate"
+ GOT_Blackfyre_News.8.d:0 "The calm of the Pentoshi coast has been shattered following shocking declarations from the southern roads. The pretender known as 'Young Griff' has cast off his disguise, revealing himself as the true heir to House Blackfyre, and has encamped the full might of the Golden Company directly outside the Sunrise Gate of Pentos.\n\nWith armored knights, seasoned sellswords, and war elephants deployed across the velvet hills, Young Griff has delivered an ultimatum to the Prince and the Magisters: recognize the Black Dragon and provision his conquest, or face a bloody siege. Panic sweeps through the merchant quarter as the city elite weigh whether to pay off the pretender or risk the wrath of the Golden Company."
+ GOT_Blackfyre_News.8.a:0 "The Free City trembles before the dragon."

@@ -148,6 +148,7 @@ FORM_Westeros_Decisions = {
 				original_tag = UMB
 				original_tag = FRE
 				original_tag = TRL
+				original_tag = BLA
 			}
 	}
 
@@ -164,6 +165,7 @@ FORM_Valyrian_Freehold_Decisions = {
 			original_tag = TAR
 			original_tag = VLY
 			original_tag = MAN
+			original_tag = BLA
 		}
 	}
 

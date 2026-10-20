@@ -62,6 +62,9 @@ on_actions = {
 			DRA = {
 				load_oob = DRA_1936
 			}
+			BLA = {
+				load_oob = BLA_1936
+			}
 			#Wealthy Cities Generic OOB
 			#every_country = {
 			#	limit = { 

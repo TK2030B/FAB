@@ -1,4 +1,8 @@
-﻿division_template = {
+﻿# ==========================================
+# GOLDEN COMPANY OOB
+# ==========================================
+
+division_template = {
 	name = "Infantry Division"		# Infantry Division
 
 	regiments = {
@@ -45,6 +49,84 @@ division_template = {
 	}
 	priority = 0
 }
+
+# ------------------------------------------
+# STARTING DEPLOYED UNITS (10 DIVISIONS TOTAL)
+# ------------------------------------------
+
+units = {
+	# =========================================================================
+	# INFANTRY COHORTS (8 Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Golden Company Cohort"
+		location = 327 # Change to your capital/starting province ID
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "2nd Golden Company Cohort"
+		location = 327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "3rd Golden Company Cohort"
+		location = 327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "4th Golden Company Cohort"
+		location = 327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "5th Golden Company Cohort"
+		location = 327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "6th Golden Company Cohort"
+		location = 327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "7th Golden Company Cohort"
+		location = 327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "8th Golden Company Cohort"
+		location = 327
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+
+	# =========================================================================
+	# CAVALRY LANCERS (2 Divisions)
+	# =========================================================================
+	division = {
+		name = "1st Golden Company Lancers"
+		location = 327
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "2nd Golden Company Lancers"
+		location = 327
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.9
+	}
+}
+
+# ------------------------------------------
+# INITIAL PRODUCTION LINES
+# ------------------------------------------
 
 instant_effect = {
 	add_equipment_production = {
