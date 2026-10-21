@@ -577,6 +577,11 @@ spriteType = {
 		name = "GFX_idea_RI_deterrence_idea"
 		texturefile = "gfx/interface/ideas/Generic/RI_deterrence_idea.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_RI_eastern_neutrality_idea"
+		texturefile = "gfx/interface/ideas/Generic/RI_eastern_neutrality_idea.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_RI_war_preparations"

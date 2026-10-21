@@ -75,6 +75,17 @@ GOT_start_techs = {
 			RI_neutrality_idea
 		}
 	}
+	
+	if = {
+		limit = {
+			GOT_Essos_Countries = yes
+			NOT = { has_idea = RI_neutrality_idea }
+			is_in_faction = no
+		}
+		add_ideas = {
+			RI_eastern_neutrality_idea
+		}
+	}
 
 	set_rule = { can_create_factions = no }
 

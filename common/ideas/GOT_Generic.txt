@@ -65,6 +65,40 @@ ideas = {
 					ai_get_ally_desire_factor = -1000		# Cannot form alliances.
 				}
 			}
+			
+			RI_eastern_neutrality_idea = {
+				
+				
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					has_government = neutrality
+				}
+				
+				#Added by GOT
+				on_add = {
+					set_rule = { 
+						can_create_factions = no
+						can_join_factions = no
+					}
+				}
+				
+				#Added by GOT
+				on_remove = {
+					set_rule = { 
+						can_join_factions = yes
+					}
+				}
+				
+				removal_cost = -1
+		
+				modifier = {
+					custom_modifier_tooltip = RI_the_lone_wolf_tt
+					ai_get_ally_desire_factor = -1000		# Cannot form alliances.
+				}
+			}
 	
 		RI_granted_crossing = {
 			picture = RI_you_shall_not_pass

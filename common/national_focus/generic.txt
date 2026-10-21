@@ -1859,6 +1859,7 @@ focus_tree = {
 		available = {
 			is_in_faction = no
 			NOT = { has_idea = RI_neutrality_idea }
+			NOT = { has_idea = RI_eastern_neutrality_idea }
 		}
 		
 		prerequisite = {
@@ -2524,6 +2525,7 @@ focus_tree = {
 		available = {
 			is_in_faction = no
 			NOT = { has_idea = RI_neutrality_idea }
+			NOT = { has_idea = RI_eastern_neutrality_idea }
 		}
 		
 		prerequisite = {
@@ -3843,6 +3845,7 @@ focus_tree = {
 		available = {
 			is_in_faction = no
 			NOT = { has_idea = RI_neutrality_idea }
+			NOT = { has_idea = RI_eastern_neutrality_idea }
 		}
 		prerequisite = {
 			focus = GOT_diplomacy_focus
@@ -5014,6 +5017,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = neutrality_idea
 			remove_ideas = RI_neutrality_idea
+			remove_ideas = RI_eastern_neutrality_idea
 			set_rule = {
 				can_create_factions = yes
 				can_join_factions = yes
