@@ -37,6 +37,7 @@ GOT_Game_Decisions = {
 					threat > 0.99
 				}
 				is_ai = no
+				is_in_faction = yes
 			}
 		}
 
@@ -50,7 +51,6 @@ GOT_Game_Decisions = {
 
 			remove_ideas = RI_eastern_neutrality_idea
 			set_rule = {
-				can_create_factions = yes
 				can_join_factions = yes
 			}	
 
