@@ -3,13 +3,13 @@ state={
 	name="STATE_207"
 
 	history={
-		owner = AND
+		owner = ANT
 		buildings = {
 			infrastructure = 3
 			#industrial_complex = 1
 			#dockyard = 1
 		}
-		add_core_of = AND
+		add_core_of = ANT
 		#victory_points = {
 		#	2234 30
 		#}
