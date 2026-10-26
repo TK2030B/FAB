@@ -1,6 +1,6 @@
 ﻿capital = 207
 GOT_start_techs = yes
-oob = "AND_1936"
+oob = "ANT_1936"
 
 set_research_slots = 3
 
@@ -17,7 +17,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = AND_Unknown_Ruler
+recruit_character = ANT_Unknown_Ruler
 
 add_ideas = {
 	GOT_Tradition_Andal
