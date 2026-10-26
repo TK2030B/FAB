@@ -28,7 +28,7 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_dissident_revolutionary_advisor }
 		}
 	}
 }
@@ -57,7 +57,7 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_benevolent_reformer_advisor }
 		}
 	}
 }
@@ -86,7 +86,7 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_tyrannical_demagogue_advisor }
 		}
 	}
 }
@@ -115,1477 +115,479 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_staunch_traditionalist_advisor }
 		}
 	}
 }
 
-#head_of_intelligence
+# ==============================================================================
+# WESTEROSI CIVILIAN MINISTERS (18 TOTAL)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. TREASURY, TRADE & ESTATES (ECONOMIC)
+# ------------------------------------------------------------------------------
+
+# Master of Coin (Shrewd Treasurer)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = master_of_coin characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_master_of_coin
+		advisor = {
+			slot = political_advisor
+			traits = { master_of_coin }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_master_of_coin_advisor }
+		}
+	}
+}
+
+# The Royal Steward (Estate Administrator)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = royal_steward characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_royal_steward
+		advisor = {
+			slot = political_advisor
+			traits = { royal_steward }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_royal_steward_advisor }
+		}
+	}
+}
+
+# The Merchant Prince (Narrow Sea Trader)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = merchant_prince characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_merchant_prince
+		advisor = {
+			slot = political_advisor
+			traits = { merchant_prince }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_merchant_prince_advisor }
+		}
+	}
+}
+
+# The Lord Treasurer (Conservative Financier)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = lord_treasurer characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_lord_treasurer
+		advisor = {
+			slot = political_advisor
+			traits = { lord_treasurer }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_lord_treasurer_advisor }
+		}
+	}
+}
+
+# The Overseer of Guilds (Master of Public Works)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = overseer_of_guilds characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_overseer_of_guilds
+		advisor = {
+			slot = political_advisor
+			traits = { overseer_of_guilds }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_overseer_of_guilds_advisor }
+		}
+	}
+}
+
+
+# ------------------------------------------------------------------------------
+# 2. STATECRAFT, LAW & VASSALS (POLITICAL & FOREIGN)
+# ------------------------------------------------------------------------------
+
+# The Master of Laws (Jurist of the Realm)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = master_of_laws characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_master_of_laws
+		advisor = {
+			slot = political_advisor
+			traits = { master_of_laws }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_master_of_laws_advisor }
+		}
+	}
+}
+
+# The Royal Justiciar (Hardline Enforcer)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = royal_justiciar characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_royal_justiciar
+		advisor = {
+			slot = political_advisor
+			traits = { royal_justiciar }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_royal_justiciar_advisor }
+		}
+	}
+}
+
+# The High Steward / Castellan (Vassal Administrator)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = high_steward characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_high_steward
+		advisor = {
+			slot = political_advisor
+			traits = { high_steward }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_high_steward_advisor }
+		}
+	}
+}
+
+# The Royal Diplomat (Courtly Envoy)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = royal_diplomat characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_royal_diplomat
+		advisor = {
+			slot = political_advisor
+			traits = { royal_diplomat }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_royal_diplomat_advisor }
+		}
+	}
+}
+
+# The Master of Revels (Court Chamberlain)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = master_of_revels characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_master_of_revels
+		advisor = {
+			slot = political_advisor
+			traits = { master_of_revels }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_master_of_revels_advisor }
+		}
+	}
+}
+
+
+# ------------------------------------------------------------------------------
+# 3. FAITH, CULTURE & ESOTERIC (RELIGIOUS)
+# ------------------------------------------------------------------------------
+
+# The King's Confessor (High Septon / Devout Prelate)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = kings_confessor characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_kings_confessor
+		advisor = {
+			slot = political_advisor
+			traits = { kings_confessor }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_kings_confessor_advisor }
+		}
+	}
+}
+
+# The Red Priest / Shadow Binder (Essosi Mystic)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = red_priest characters = yes } }
+	}
+	generate_character = {
+		token_base = generic_red_priest
+		advisor = {
+			slot = political_advisor
+			traits = { red_priest }
+			ai_will_do = { factor = 0 }
+		}
+		portraits = {
+			army = { small = GFX_idea_red_priest_advisor }
+		}
+	}
+}
+
+
+# ------------------------------------------------------------------------------
+# 4. INTELLIGENCE & COUNTER-ESPIONAGE (SHADOWS)
+# ------------------------------------------------------------------------------
+
+# The Master of Whispers (Network Keeper)
 every_possible_country = {
 	limit = {
 		has_dlc = "La Resistance"
-		# china gets a special one via focus
-		NOT = {
-			has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes }
-		}
 		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = master_of_whispers characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_head_of_intelligence # token will be TAG_token_base
+		token_base = generic_master_of_whispers
 		advisor = {
 			slot = political_advisor
-			traits = { head_of_intelligence }
-			available = {
-				has_intelligence_agency = yes
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					has_intelligence_agency = no
-					factor = 0
-				}
-			}
+			traits = { master_of_whispers }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_master_of_whisperers_advisor }
 		}
 	}
 }
 
-#expert_code_cracker
+# The Spymaster (Inquisitive Warden)
 every_possible_country = {
 	limit = {
 		has_dlc = "La Resistance"
-		# china gets a special one via focus
-		NOT = {
-			has_allowed_idea_with_traits = { idea = expert_code_cracker characters = yes }
-		}
 		is_dynamic_country = no
+		NOT = { has_allowed_idea_with_traits = { idea = royal_spymaster characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_expert_code_cracker # token will be TAG_token_base
+		token_base = generic_royal_spymaster
 		advisor = {
 			slot = political_advisor
-			traits = { expert_code_cracker }
-			available = {
-				has_intelligence_agency = yes
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					has_intelligence_agency = no
-					factor = 0
-				}
-			}
+			traits = { royal_spymaster }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_spymaster_advisor }
 		}
 	}
 }
 
-# political_dancer
+
+# ------------------------------------------------------------------------------
+# 5. LOGISTICS & LAND MANAGEMENT (SUPPLIES & WILDERNESS)
+# ------------------------------------------------------------------------------
+
+# The Lord of Granaries (Master of Food)
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = political_dancer characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = lord_of_granaries characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_political_dancer # token will be TAG_token_base
+		token_base = generic_lord_of_granaries
 		advisor = {
 			slot = political_advisor
-			traits = { political_dancer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { lord_of_granaries }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_lord_of_granaries_advisor }
 		}
 	}
 }
 
+# Lord Warden of the Wilds (Master of Timber & Game)
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = dealbroker characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = warden_of_the_wilds characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_dealbroker # token will be TAG_token_base
+		token_base = generic_warden_of_the_wilds
 		advisor = {
 			slot = political_advisor
-			traits = { dealbroker }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { warden_of_the_wilds }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_warden_of_the_wilds_advisor }
 		}
 	}
 }
 
-# railroad_enthusiast
+
+# ------------------------------------------------------------------------------
+# 6. KNOWLEDGE & MEDICINE (THE CITADEL)
+# ------------------------------------------------------------------------------
+
+# The Court Scholar (Archmaester of History)
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = railroad_enthusiast characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = court_scholar characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_railroad_enthusiast # token will be TAG_token_base
+		token_base = generic_court_scholar
 		advisor = {
 			slot = political_advisor
-			traits = { railroad_enthusiast }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { court_scholar }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_court_scholar_advisor }
 		}
 	}
 }
 
-# tenacious_negotiator
+# The Grand Maester (Senior Royal Advisor)
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = tenacious_negotiator characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = grand_maester characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_tenacious_negotiator # token will be TAG_token_base
+		token_base = generic_grand_maester
 		advisor = {
 			slot = political_advisor
-			traits = { tenacious_negotiator }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { grand_maester }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_grandmaester_advisor }
 		}
 	}
 }
 
-# economic_reformer
+# Lord of Dread
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = economic_reformer characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = lord_of_dread characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_economic_reformer # token will be TAG_token_base
+		token_base = generic_lord_of_dread
 		advisor = {
 			slot = political_advisor
-			traits = { economic_reformer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { lord_of_dread }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_lord_of_dread_advisor }
 		}
 	}
 }
 
-# strict_austerity_adherent #Shelved, too op
-#every_possible_country = {
-#	limit = {
-#		is_dynamic_country = no
-#		NOT = {
-#			has_allowed_idea_with_traits = { idea = strict_austerity_adherent characters = yes }
-#		}
-#	}
-#	generate_character = {
-#		token_base = generic_strict_austerity_adherent # token will be TAG_token_base
-#		advisor = {
-#			slot = political_advisor
-#			traits = { strict_austerity_adherent }
-#			available = {
-#				if = {
-#					limit = { has_dlc = "Man the Guns" }
-#					NOT = { has_autonomy_state = autonomy_supervised_state }
-#				}
-#			}
-#			ai_will_do = {
-#				factor = 0
-#			}
-#		}
-#		portraits = {
-#			army = { small = GFX_idea_Generic_Civilian_Advisor }
-#		}
-#	}
-#}
-
-# popular_figurehead2
+# Master of Parchments
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = popular_figurehead characters = yes }
-				has_allowed_idea_with_traits = { idea = popular_figurehead2 characters = yes }
-				has_allowed_idea_with_traits = { idea = popular_figurehead3 characters = yes }
-			}
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = master_of_parchments characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_popular_figurehead2 # token will be TAG_token_base
+		token_base = generic_master_of_parchments
 		advisor = {
 			slot = political_advisor
-			traits = { popular_figurehead2 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { master_of_parchments }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_master_of_parchments_advisor }
 		}
 	}
 }
 
-# empire_builder
+# Master of Arsenals
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = empire_builder characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = master_of_arsenals characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_empire_builder # token will be TAG_token_base
+		token_base = generic_master_of_arsenals
 		advisor = {
 			slot = political_advisor
-			traits = { empire_builder }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { master_of_arsenals }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_master_of_arsenals_advisor }
 		}
 	}
 }
 
-# the_banker
+# High Herald
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = the_banker characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = high_herald characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_the_banker # token will be TAG_token_base
+		token_base = generic_high_herald
 		advisor = {
 			slot = political_advisor
-			traits = { the_banker }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { high_herald }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_high_herald_advisor }
 		}
 	}
 }
 
-# gentle_scholar
+# Master of Works
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = gentle_scholar characters = yes }
-		}
+		NOT = { has_allowed_idea_with_traits = { idea = master_of_works characters = yes } }
 	}
 	generate_character = {
-		token_base = generic_gentle_scholar # token will be TAG_token_base
+		token_base = generic_master_of_works
 		advisor = {
 			slot = political_advisor
-			traits = { gentle_scholar }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
+			traits = { master_of_works }
+			ai_will_do = { factor = 0 }
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# the_statist
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = the_statist characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_the_statist # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { the_statist }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# the_academic
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = the_academic characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_the_academic # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { the_academic }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# guerilla_warfare_expert
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = guerilla_warfare_expert characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_guerilla_warfare_expert # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { guerilla_warfare_expert }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# irredentist_academic
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = irredentist_academic characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_irredentist_academic # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { irredentist_academic }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# revolutionary_author
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = revolutionary_author characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_revolutionary_author # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { revolutionary_author }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# political_manipulator
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = political_manipulator characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_political_manipulator # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { political_manipulator }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# industry_reformer
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = industry_reformer characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_industry_reformer # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { industry_reformer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# statism_adept
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = statism_adept characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_statism_adept # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { statism_adept }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# political_chameleon
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = political_chameleon characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_political_chameleon # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { political_chameleon }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# driver_of_the_faithful
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = driver_of_the_faithful characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_driver_of_the_faithful # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { driver_of_the_faithful }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-# social_reformer
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = social_reformer characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_social_reformer # token will be TAG_token_base
-		advisor = {
-			slot = political_advisor
-			traits = { social_reformer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = propaganda_expert characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_propaganda_expert
-		advisor = {
-			slot = political_advisor
-			traits = { propaganda_expert }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = technocrat characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_technocrat
-		advisor = {
-			slot = political_advisor
-			traits = { technocrat }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = silent_workhorse characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_silent_workhorse
-		advisor = {
-			slot = political_advisor
-			traits = { silent_workhorse }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = prince_of_terror characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_prince_of_terror
-		advisor = {
-			slot = political_advisor
-			traits = { prince_of_terror }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = compassionate_gentleman characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_compassionate_gentleman
-		advisor = {
-			slot = political_advisor
-			traits = { compassionate_gentleman }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = backroom_backstabber characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_backroom_backstabber
-		advisor = {
-			slot = political_advisor
-			traits = { backroom_backstabber }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = smooth_talking_charmer characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_smooth_talking_charmer
-		advisor = {
-			slot = political_advisor
-			traits = { smooth_talking_charmer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = ideological_crusader characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_ideological_crusader
-		advisor = {
-			slot = political_advisor
-			traits = { ideological_crusader }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = fortification_engineer characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_fortification_engineer
-		advisor = {
-			slot = political_advisor
-			traits = { fortification_engineer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = war_industrialist characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_war_industrialist
-		advisor = {
-			slot = political_advisor
-			traits = { war_industrialist }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = captain_of_industry characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_captain_of_industry
-		advisor = {
-			slot = political_advisor
-			traits = { captain_of_industry }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = financial_expert characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_financial_expert
-		advisor = {
-			slot = political_advisor
-			traits = { financial_expert }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = economist characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_economist
-		advisor = {
-			slot = political_advisor
-			traits = { economist }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = armaments_organizer characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_armaments_organizer
-		advisor = {
-			slot = political_advisor
-			traits = { armaments_organizer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = quartermaster_general characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_quartermaster_general
-		advisor = {
-			slot = political_advisor
-			traits = { quartermaster_general }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = baron_of_terror characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_baron_of_terror
-		advisor = {
-			slot = political_advisor
-			traits = { baron_of_terror }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = fortification_armchair_general characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_fortification_armchair_general
-		advisor = {
-			slot = political_advisor
-			traits = { fortification_armchair_general }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = lieutenant_of_industry characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_lieutenant_of_industry
-		advisor = {
-			slot = political_advisor
-			traits = { lieutenant_of_industry }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = royalist_bulldog characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_royalist_bulldog
-		advisor = {
-			slot = political_advisor
-			traits = { royalist_bulldog }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = economic_organizer characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_economic_organizer
-		advisor = {
-			slot = political_advisor
-			traits = { economic_organizer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = old_figurehead characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_old_figurehead
-		advisor = {
-			slot = political_advisor
-			traits = { old_figurehead }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = connected_citizen characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_connected_citizen
-		advisor = {
-			slot = political_advisor
-			traits = { connected_citizen }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = education_reformer characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_education_reformer
-		advisor = {
-			slot = political_advisor
-			traits = { education_reformer }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = voice_of_restraint characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_voice_of_restraint
-		advisor = {
-			slot = political_advisor
-			traits = { voice_of_restraint }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = revolutionary_culture_minister characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_revolutionary_culture_minister
-		advisor = {
-			slot = political_advisor
-			traits = { revolutionary_culture_minister }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = theocratic_diplomat characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_theocratic_diplomat
-		advisor = {
-			slot = political_advisor
-			traits = { theocratic_diplomat }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = the_foreign_connection characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_the_foreign_connection
-		advisor = {
-			slot = political_advisor
-			traits = { the_foreign_connection }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = cautious_arbiter characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_cautious_arbiter
-		advisor = {
-			slot = political_advisor
-			traits = { cautious_arbiter }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = { has_allowed_idea_with_traits = { idea = permanent_revolutionary characters = yes } }
-	}
-	generate_character = {
-		token_base = generic_permanent_revolutionary
-		advisor = {
-			slot = political_advisor
-			traits = { permanent_revolutionary }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Civilian_Advisor }
+			army = { small = GFX_idea_master_of_works_advisor }
 		}
 	}
 }

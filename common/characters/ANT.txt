@@ -1,14 +1,14 @@
 characters={
 
-	AND_Unknown_Ruler={
-		name=AND_Unknown_Ruler
+	ANT_Unknown_Ruler={
+		name=ANT_Unknown_Ruler
 		portraits={
 			army = {
-				large="gfx/leaders/AND/No_Single_Ruler.dds"
+				large="gfx/leaders/ANT/No_Single_Ruler.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 			civilian = {
-				large="gfx/leaders/AND/No_Single_Ruler.dds"
+				large="gfx/leaders/ANT/No_Single_Ruler.dds"
 				small="gfx/interface/ideas/Characters/Generic/idea_Generic_Military_Advisor.dds"
 			}
 		}

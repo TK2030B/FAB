@@ -312,6 +312,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "Wolves of the North"
 		}
@@ -462,6 +463,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Iron Throne"
 		}
@@ -821,6 +823,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Iron Throne"
 		}
@@ -882,6 +885,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Iron Throne"
 		}
@@ -955,6 +959,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Iron Throne"
 		}
@@ -1018,6 +1023,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Iron Throne"
 		}
@@ -1052,6 +1058,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Lion's Court"
 		}
@@ -6881,6 +6888,7 @@ country_event = {
 		if = {
 			limit = {
 				DRA = { is_in_faction = no }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			DRA = { create_faction = "The True King" }
 		}
@@ -6889,6 +6897,7 @@ country_event = {
 			limit = {
 				DRA = { is_in_faction = yes }
 				DRA = { is_faction_leader = yes }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			DRA = { add_to_faction = NOR } 
 			every_other_country = { 
@@ -7119,6 +7128,7 @@ country_event = {
 		if = {
 			limit = {
 				DRA = { is_in_faction = no }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			DRA = { create_faction = "The True King" }
 		}
@@ -7127,6 +7137,7 @@ country_event = {
 			limit = {
 				DRA = { is_in_faction = yes }
 				DRA = { is_faction_leader = yes }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			DRA = { add_to_faction = NOR } 
 			every_other_country = { 
@@ -8902,6 +8913,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Kingdom of the North"
 		}		

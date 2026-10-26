@@ -52,9 +52,10 @@ country_event = {
 		name = Game_Event.1.e
 		
 		custom_effect_tooltip = GOT_Customize_Settings_tt
-		country_event = { id = Game_Event.2 }
+		country_event = { id = Game_Event.14 }
 		
 	}
+
 }
 
 #Game Settings
@@ -335,3 +336,108 @@ country_event = {
 	}
 }
 
+#Game Settings
+country_event = {
+	id = Game_Event.14
+	title = Game_Event.14.t
+	desc = Game_Event.14.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Game_Event.14.a
+		#Continue to Customize Settings
+		country_event = { id = Game_Event.2 }
+		
+	}
+
+	option = {
+		name = Game_Event.14.b
+		#Open Special Game Modes
+		country_event = { id = Game_Event.15 }
+		
+	}
+	
+	option = {
+		name = Game_Event.14.c
+		#Return to Welcome Screen
+		country_event = { id = Game_Event.1 }
+		
+	}
+	
+	
+}
+
+#Fancy Game Modes
+country_event = {
+	id = Game_Event.15
+	title = Game_Event.15.t
+	desc = Game_Event.15.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Game_Event.15.a
+		
+		custom_effect_tooltip = GOT_Battle_Royale_Mode_Chosen_tt
+		
+		hidden_effect = {
+			GOT_house_lore_events = yes
+			GOT_Battle_Royale_Mode_Chosen = yes
+			GOT_Mode_Chosen = yes	
+			GOT_Sandbox_Mode_Chosen = yes
+			set_global_flag = BPD_Disable_Them_Completely
+		}
+		
+		
+	}
+
+	option = {
+		name = Game_Event.15.b
+		#Go Back
+		country_event = { id = Game_Event.14 }
+		
+	}
+	
+	
+}
+
+#Battle Royale Mode Chosen
+country_event = {
+	id = Game_Event.16
+	title = Game_Event.16.t
+	desc = Game_Event.16.d
+	picture = GFX_report_event_welcome_event
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Game_Event.16.a
+		
+		#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		if = {
+			limit = {
+				is_in_faction = yes
+			}
+			leave_faction = yes
+		}
+		
+		add_ideas = {
+			RI_neutrality_idea
+		}
+		
+		set_rule = { can_create_factions = no }
+		
+		
+	}	
+	
+}

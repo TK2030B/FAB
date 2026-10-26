@@ -1037,4 +1037,118 @@ spriteType = {
 		texturefile = "gfx/interface/ideas/GOT_Laws/tax_extreme.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_benevolent_reformer_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_benevolent_reformer_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_court_scholar_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_court_scholar_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dissident_revolutionary_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_dissident_revolutionary_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_grandmaester_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_grandmaester_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_high_steward_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_high_steward_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kings_confessor_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_kings_confessor_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lord_of_granaries_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_lord_of_granaries_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lord_treasurer_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_lord_treasurer_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_master_of_coin_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_coin_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_master_of_laws_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_laws_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_master_of_revels_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_revels_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_master_of_whisperers_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_whisperers_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_merchant_prince_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_merchant_prince_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_overseer_of_guilds_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_overseer_of_guilds_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_red_priest_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_red_priest_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_royal_diplomat_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_royal_diplomat_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_royal_justiciar_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_royal_justiciar_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_royal_steward_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_royal_steward_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_spymaster_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_spymaster_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_staunch_traditionalist_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_staunch_traditionalist_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tyrannical_demagogue_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_tyrannical_demagogue_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_warden_of_the_wilds_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_warden_of_the_wilds_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lord_of_dread_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_lord_of_dread_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_master_of_parchments_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_parchments_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_master_of_arsenals_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_arsenals_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_high_herald_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_high_herald_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_master_of_works_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_works_advisor.dds"
+	}
+	
 }

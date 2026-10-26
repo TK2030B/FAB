@@ -714,6 +714,335 @@ spriteTypes = {
 		name = "GFX_focus_FAS_the_high_sovereigns_will"
 		texturefile = "gfx/interface/goals/essos/focus_FAS_the_high_sovereigns_will.dds"
 	}
+	
+	
+	# --- AIR FOCUSES ---
+	SpriteType = {
+		name = "GFX_focus_AIR_breed_our_own_hunter_dragons"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_breed_our_own_hunter_dragons.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_breed_our_own_siege_dragons"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_breed_our_own_siege_dragons.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_doctrine_of_the_skies"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_doctrine_of_the_skies.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_draconic_warfare"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_draconic_warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_hatch_foreign_bred_hunter_dragons"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_hatch_foreign_bred_hunter_dragons.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_hatch_scourge_dragons"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_hatch_scourge_dragons.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_scorpions_for_the_sky"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_scorpions_for_the_sky.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_soaring_above_the_clouds"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_soaring_above_the_clouds.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_tame_the_first_sky_serpents"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_tame_the_first_sky_serpents.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_the_boldest_dragonriders"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_the_boldest_dragonriders.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_the_dragonpit_of_air"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_the_dragonpit_of_air.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_unleash_greater_dragonfire"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_unleash_greater_dragonfire.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_AIR_wings_in_the_darkness"
+		texturefile = "gfx/interface/goals/essos/focus_AIR_wings_in_the_darkness.dds"
+	}
+
+	# --- ARM FOCUSES ---
+	SpriteType = {
+		name = "GFX_focus_ARM_agile_skirmishers"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_agile_skirmishers.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_bound_by_iron_contracts"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_bound_by_iron_contracts.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_chain_of_command"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_chain_of_command.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_codify_valyrian_strategy"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_codify_valyrian_strategy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_contract_auxiliary_regiments"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_contract_auxiliary_regiments.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_deploy_the_scythed_chariots"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_deploy_the_scythed_chariots.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_empower_free_companies"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_empower_free_companies.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_entrench_and_pray_to_red_god"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_entrench_and_pray_to_red_god.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_for_the_walls"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_for_the_walls.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_high_commanders_decree"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_high_commanders_decree.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_marching_in_lockstep"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_marching_in_lockstep.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_massed_crossbow_companies"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_massed_crossbow_companies.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_purge_obsolete_arms"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_purge_obsolete_arms.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_refine_horn_relays"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_refine_horn_relays.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_reorganize_the_companies"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_reorganize_the_companies.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_rethink_the_phalanx"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_rethink_the_phalanx.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_sellsword_captaincy"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_sellsword_captaincy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_siege_engines_and_ballistas"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_siege_engines_and_ballistas.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_spades_before_swords"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_spades_before_swords.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_standardize_arsenal_forges"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_standardize_arsenal_forges.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_streamline_harbor_and_armory_supply"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_streamline_harbor_and_armory_supply.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_sun_darkening_volley"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_sun_darkening_volley.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_the_blade_strikes_first"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_the_blade_strikes_first.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_the_iron_wall"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_the_iron_wall.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_the_master_forged_pike"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_the_master_forged_pike.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_the_unbroken_march"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_the_unbroken_march.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_the_war_college"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_the_war_college.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_unleash_the_war_elephants"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_unleash_the_war_elephants.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_walls_of_high_stone"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_walls_of_high_stone.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ARM_warhorns_and_signal_flares"
+		texturefile = "gfx/interface/goals/essos/focus_ARM_warhorns_and_signal_flares.dds"
+	}
+
+	# --- ECO FOCUSES ---
+	SpriteType = {
+		name = "GFX_focus_ECO_delve_for_essosi_gold"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_delve_for_essosi_gold.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_ease_the_charter"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_ease_the_charter.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_empower_the_guilds"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_empower_the_guilds.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_expand_the_iron_pits"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_expand_the_iron_pits.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_expand_the_outer_walls"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_expand_the_outer_walls.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_expand_the_valyrian_highways"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_expand_the_valyrian_highways.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_forge_without_rest"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_forge_without_rest.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_fund_the_high_academy"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_fund_the_high_academy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_mobilize_for_conquest"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_mobilize_for_conquest.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_overhaul_the_merchand_ledgers"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_overhaul_the_merchand_ledgers.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_ration_the_cities_grain"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_ration_the_cities_grain.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_seize_disloyal_manors"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_seize_disloyal_manors.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_set_a_fair_coin"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_set_a_fair_coin.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_shutter_wasteful_guilds"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_shutter_wasteful_guilds.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_the_freedom_of_the_bhazar"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_the_freedom_of_the_bhazar.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_the_magisters_hand"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_the_magisters_hand.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_tighten_the_vault_locks"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_tighten_the_vault_locks.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ECO_welcome_overseas_coin"
+		texturefile = "gfx/interface/goals/essos/focus_ECO_welcome_overseas_coin.dds"
+	}
+
+	# --- NAV FOCUSES ---
+	SpriteType = {
+		name = "GFX_focus_NAV_a_fleet_worthy_of_the_realm"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_a_fleet_worthy_of_the_realm.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_a_merchant_fleet_for_the_realm"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_a_merchant_fleet_for_the_realm.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_build_leviathans_of_wood_and_iron"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_build_leviathans_of_wood_and_iron.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_coastal_raiders_corps"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_coastal_raiders_corps.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_design_swift_war_galleys"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_design_swift_war_galleys.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_establish_a_home_port"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_establish_a_home_port.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_establish_the_fleet_academy"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_establish_the_fleet_academy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_expand_the_shiprights_guild"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_expand_the_shiprights_guild.dds"
+	}
+	SpriteType = {
+		name> "GFX_focus_NAV_fast_cheap_and_deadly"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_fast_cheap_and_deadly.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_fortify_the_coastline"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_fortify_the_coastline.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_guard_the_trade_cogs"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_guard_the_trade_cogs.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_intercept_the_foe"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_intercept_the_foe.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_light_dromond_experiments"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_light_dromond_experiments.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_pride_of_the_fleet"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_pride_of_the_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_reliable_masters_of_the_sea"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_reliable_masters_of_the_sea.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_small_patrol_vessels"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_small_patrol_vessels.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_stick_to_the_proven_ways"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_stick_to_the_proven_ways.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_summon_the_sealords"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_summon_the_sealords.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_NAV_the_raider_doctrine"
+		texturefile = "gfx/interface/goals/essos/focus_NAV_the_raider_doctrine.dds"
+	}
 
 	
 }

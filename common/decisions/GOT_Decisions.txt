@@ -1,6 +1,64 @@
 
 GOT_Game_Decisions = {
 
+	BAT_battle_royale = {
+	
+		icon = generic_army_support
+		
+		allowed = {
+		}
+	
+        visible = {
+			NOT = { has_country_flag = EW_Operation }
+			FROM = { 
+				is_neighbor_of = ROOT
+			}
+			has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag
+		}
+        target_trigger = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+				NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        cost = 50
+		modifier = { }
+		
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+				factor = 0
+				surrender_progress > 0.50
+			}
+		}
+		
+		days_remove = 30
+		war_with_on_remove = FROM
+
+        available = {
+		
+			surrender_progress < 0.2
+		
+			has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag
+			
+			FROM = { 
+				is_neighbor_of = ROOT
+			}
+
+        }
+		complete_effect = {
+			set_country_flag = EW_Operation
+		}
+		
+		remove_effect = {
+			clr_country_flag = EW_Operation
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+    }
+
 	ESS_End_The_Isolation = {
 
 		icon = generic_army_support
@@ -813,7 +871,12 @@ GOT_Game_Decisions = {
 				character = BLA_Harry_Strickland
 				ideology = CR_subideology
 			}
-			create_faction = "The Black Dragons"
+			if = {
+				limit = {
+					NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
+				}
+				create_faction = "The Black Dragons"
+			}
 			country_event = { id = GOT_Blackfyre_Country.6 hours = 6 }
 		}
 	}

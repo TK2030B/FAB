@@ -2059,3 +2059,74 @@ flight_deck_manager_desc:0 "§LSending a dragon into the skies is simple. Sendin
  RAJ_timurs_succesor: "Timur's Successor"
 
  islamic_scholar: "Islamic Scholar"
+ 
+ # --- TREASURY, TRADE & ESTATES ---
+ master_of_coin:0 "Master of Coin"
+ master_of_coin_desc:0 "Obsessed with taxes, interest rates, and balancing royal ledger books at any cost."
+ 
+ royal_steward:0 "Royal Steward"
+ royal_steward_desc:0 "Focuses on agricultural logistics, castle maintenance, and regional infrastructure development."
+ 
+ merchant_prince:0 "Merchant Prince"
+ merchant_prince_desc:0 "A wealthy foreign negotiator with deep commercial connections across the Narrow Sea."
+ 
+ lord_treasurer:0 "Lord Treasurer"
+ lord_treasurer_desc:0 "Keeps tight reserves, strictly avoiding risky ventures and foreign debt."
+ 
+ overseer_of_guilds:0 "Overseer of Guilds"
+ overseer_of_guilds_desc:0 "Coordinates stonemasons, blacksmiths, and forced labor for rapid heavy construction."
+
+ # --- STATECRAFT, LAW & VASSALS ---
+ master_of_laws:0 "Master of Laws"
+ master_of_laws_desc:0 "Maintains codified laws and settles noble boundary disputes across all provinces."
+ 
+ royal_justiciar:0 "Royal Justiciar"
+ royal_justiciar_desc:0 "Imposes harsh discipline, public trials, and crown authority by ruthless force."
+ 
+ high_steward:0 "High Steward"
+ high_steward_desc:0 "Manages crown lands, noble hostings, and feudal oaths to prevent vassal insurrections."
+ 
+ royal_diplomat:0 "Royal Diplomat"
+ royal_diplomat_desc:0 "Highly skilled in pacts, marriage negotiations, and high-court diplomacy."
+ 
+ master_of_revels:0 "Master of Revels"
+ master_of_revels_desc:0 "Hosts royal tournaments, grand feasts, and spectacles to pacify the realm and impress the lords."
+
+ # --- FAITH, CULTURE & ESOTERIC ---
+ kings_confessor:0 "King's Confessor"
+ kings_confessor_desc:0 "Leverages religious tradition to sanctify royal decrees and solidify the crown's legitimacy."
+ 
+ red_priest:0 "Red Priest"
+ red_priest_desc:0 "A foreign fanatic claiming divine foresight, flame visions, and absolute zealotry."
+
+ # --- INTELLIGENCE & COUNTER-ESPIONAGE ---
+ master_of_whispers:0 "Master of Whispers"
+ master_of_whispers_desc:0 "Operates extensive webs of informants and little birds across the realm."
+ 
+ royal_spymaster:0 "Royal Spymaster"
+ royal_spymaster_desc:0 "A professional counter-intelligence officer focused on catching traitors and assassins at court."
+
+ # --- LOGISTICS & LAND MANAGEMENT ---
+ lord_of_granaries:0 "Lord of Granaries"
+ lord_of_granaries_desc:0 "Oversees crop harvests, grain silos, and ration reserves to survive long sieges and harsh winters."
+ 
+ warden_of_the_wilds:0 "Lord Warden of the Wilds"
+ warden_of_the_wilds_desc:0 "Manages royal forests, hunting rights, and timber harvesting for fleets and fortifications."
+
+ # --- KNOWLEDGE & MEDICINE ---
+ court_scholar:0 "Court Scholar"
+ court_scholar_desc:0 "Translates ancient scrolls, dusty tomes, and long-lost blueprints."
+ 
+ grand_maester:0 "Grand Maester"
+ grand_maester_desc:0 "A senior advisor combining medical expertise, ravenry, administrative recordkeeping, and political counsel."
+ 
+ lord_of_dread: "Lord of Dread"
+ lord_of_dread_desc: "A brutal enforcer who rules through fear, keeping subjects in line with iron discipline at the cost of civil peace."
+ master_of_parchments: "Master of Parchments"
+ master_of_parchments_desc: "A meticulous bureaucrat who maximizes administrative flow, drastically accelerating state political power collection."
+ master_of_arsenals: "Master of Arsenals"
+ master_of_arsenals_desc: "Focuses all available national infrastructure toward churning out weapons and armaments, though at the expense of consumer goods."
+ high_herald: "High Herald"
+ high_herald_desc: "A master orator capable of galvanizing the populace, boosting war enthusiasm, conscription capacity, and mobilization readiness."
+ master_of_works: "Master of Works"
+ master_of_works_desc: "A seasoned architect of castles and fortifications who ensures defensive strongpoints are built rapidly and held effectively."

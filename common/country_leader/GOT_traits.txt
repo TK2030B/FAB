@@ -1,0 +1,195 @@
+leader_traits = {
+
+	# --- TREASURY, TRADE & ESTATES ---
+	master_of_coin = {
+		sprite = 10
+		random = no
+		consumer_goods_factor = -0.08
+		production_speed_buildings_factor = 0.08
+		stability_factor = -0.05
+	}
+	
+	royal_steward = {
+		sprite = 10
+		random = no
+		production_speed_infrastructure_factor = 0.15
+		production_speed_industrial_complex_factor = 0.12
+		out_of_supply_factor = -0.05
+	}
+	
+	merchant_prince = {
+		sprite = 10
+		random = no
+		trade_opinion_factor = 0.20
+		local_resources_factor = 0.10
+		convoy_production_speed_factor = 0.10
+	}
+	
+	lord_treasurer = {
+		sprite = 10
+		random = no
+		stability_factor = 0.05
+		consumer_goods_factor = -0.08
+		industrial_capacity_factory = -0.03
+	}
+	
+	overseer_of_guilds = {
+		sprite = 10
+		random = no
+		production_speed_bunker_factor = 0.15
+		production_speed_coastal_bunker_factor = 0.15
+		production_factory_max_efficiency_factor = 0.05
+		conscription_factor = -0.03
+	}
+
+	# --- STATECRAFT, LAW & VASSALS ---
+	master_of_laws = {
+		sprite = 13
+		random = no
+		stability_factor = 0.08
+		compliance_growth = 0.05
+		subversive_activities_upkeep = 0.15
+	}
+	
+	royal_justiciar = {
+		sprite = 13
+		random = no
+		political_power_gain = 0.12
+		compliance_growth = 0.08
+		war_support_factor = -0.05
+	}
+	
+	high_steward = {
+		sprite = 13
+		random = no
+		autonomy_gain_global_factor = -0.15
+		subjects_autonomy_gain = -0.15
+		political_power_gain = 0.05
+	}
+	
+	royal_diplomat = {
+		sprite = 13
+		random = no
+		improve_relations_maintain_factor = 0.20
+		opinion_gain_monthly_factor = 0.25
+		diplomatic_acceptance = 15
+	}
+	
+	master_of_revels = {
+		sprite = 13
+		random = no
+		stability_factor = 0.08
+		same_ideology_diplomatic_acceptance = 15
+		consumer_goods_factor = 0.04
+	}
+
+	# --- FAITH, CULTURE & ESOTERIC ---
+	kings_confessor = {
+		sprite = 13
+		random = no
+		stability_factor = 0.12
+		drift_defence_factor = 0.10
+		research_speed_factor = -0.04
+	}
+	
+	red_priest = {
+		sprite = 13
+		random = no
+		war_support_factor = 0.15
+		army_org_regain_factor = 0.08
+		opinion_gain_monthly_factor = -0.15
+	}
+
+	# --- INTELLIGENCE & COUNTER-ESPIONAGE ---
+	master_of_whispers = {
+		sprite = 15
+		random = no
+		decryption_power_factor = 0.25
+		intel_network_gain_factor = 0.20
+		political_power_gain = -0.05
+	}
+	
+	royal_spymaster = {
+		sprite = 15
+		random = no
+		enemy_operative_detection_chance = 0.10
+		agency_upgrade_time = -0.15
+		own_operative_detection_chance_factor = -0.10
+	}
+
+	# --- LOGISTICS & LAND MANAGEMENT ---
+	lord_of_granaries = {
+		sprite = 13
+		random = no
+		attrition = -0.12
+		winter_attrition_factor = -0.10
+		out_of_supply_factor = -0.10
+	}
+	
+	warden_of_the_wilds = {
+		sprite = 13
+		random = no
+		local_resources_factor = 0.10
+		army_speed_factor = 0.05
+	}
+
+	# --- KNOWLEDGE & MEDICINE ---
+	court_scholar = {
+		sprite = 13
+		random = no
+		research_speed_factor = 0.10
+	}
+	
+	grand_maester = {
+		sprite = 13
+		random = no
+		research_speed_factor = 0.04
+		stability_factor = 0.05
+		experience_loss_factor = -0.08
+	}
+	
+	# --- NEW ADVISORS (BALANCED) ---
+	
+	# --- 1. THE DREAD & TERROR ENFORCER ---
+	lord_of_dread = {
+		sprite = 13
+		random = no
+		subversive_activities_upkeep = 0.20
+		conscription_factor = 0.05
+		stability_factor = -0.05
+	}
+
+	# --- 2. THE PURE BUREAUCRAT / EFFICIENCY ENGINE ---
+	master_of_parchments = {
+		sprite = 13
+		random = no
+		political_power_gain = 0.12
+		production_speed_infrastructure_factor = -0.05
+	}
+
+	# --- 3. THE MILITARY FACTORY PRODUCER ---
+	master_of_arsenals = {
+		sprite = 10
+		random = no
+		production_speed_arms_factory_factor = 0.12
+		consumer_goods_factor = 0.03
+	}
+
+	# --- 4. THE MASS MOBILIZER ---
+	high_herald = {
+		sprite = 13
+		random = no
+		war_support_factor = 0.08
+		conscription_factor = 0.05
+		mobilization_speed = 0.10
+	}
+
+	# --- 5. THE FORTIFICATION SPECIALIST ---
+	master_of_works = {
+		sprite = 13
+		random = no
+		production_speed_bunker_factor = 0.15
+		max_dig_in = 1
+	}
+	
+}

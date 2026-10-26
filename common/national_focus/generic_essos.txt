@@ -5031,7 +5031,7 @@ focus_tree = {
 
 	focus = {
 		id = ESS_free_market
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_ECO_the_freedom_of_the_bhazar
 		x = 34
 		y = 0
 		cost = 5
@@ -5052,7 +5052,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_support_middle_class
-		icon = GFX_focus_generic_self_management
+		icon = GFX_focus_ECO_empower_the_guilds
 		x = -1
 		y = 1
 		relative_position_id = ESS_free_market
@@ -5099,7 +5099,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_minimum_wage
-		icon = GFX_focus_generic_welfare
+		icon = GFX_focus_ECO_set_a_fair_coin
 		x = -2
 		y = 2
 		relative_position_id = ESS_free_market
@@ -5118,7 +5118,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_invite_foreign_investors
-		icon = GFX_goal_generic_intelligence_exchange
+		icon = GFX_focus_ECO_welcome_overseas_coin
 		x = 0
 		y = 2
 		relative_position_id = ESS_free_market
@@ -5194,7 +5194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_fiscal_reforms
-		icon = GFX_focus_generic_currency_reforms
+		icon = GFX_focus_ECO_overhaul_the_merchand_ledgers
 		x = -1
 		y = 3
 		relative_position_id = ESS_free_market
@@ -5216,7 +5216,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_planned_economy
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_ECO_the_magisters_hand
 		x = 4
 		y = 0
 		relative_position_id = ESS_free_market
@@ -5238,7 +5238,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_liquidate_unprofital_business
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_focus_ECO_shutter_wasteful_guilds
 		x = 5
 		y = 1
 		relative_position_id = ESS_free_market
@@ -5267,7 +5267,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_buy_out_dissident_farms
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_focus_ECO_seize_disloyal_manors
 		x = 6
 		y = 2
 		relative_position_id = ESS_free_market
@@ -5297,7 +5297,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_rations
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_ECO_ration_the_cities_grain
 		x = 4
 		y = 2
 		relative_position_id = ESS_free_market
@@ -5343,7 +5343,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_loosen_restrictions
-		icon = GFX_goal_continuous_reduce_training_time
+		icon = GFX_focus_ECO_ease_the_charter
 		x = 5
 		y = 3
 		relative_position_id = ESS_free_market
@@ -5365,7 +5365,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_coal_mines
-		icon = GFX_focus_generic_steel
+		icon = GFX_focus_ECO_expand_the_iron_pits
 		x = 1
 		y = 1
 		relative_position_id = ESS_free_market
@@ -5388,7 +5388,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_tungsten_mines
-		icon = GFX_focus_generic_tungsten
+		icon = GFX_focus_ECO_delve_for_essosi_gold
 		x = 3
 		y = 1
 		relative_position_id = ESS_free_market
@@ -5411,7 +5411,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_optimise_profit
-		icon = GFX_goal_continuous_non_factory_construct
+		icon = GFX_focus_ECO_tighten_the_vault_locks
 		x = 2
 		y = 2
 		relative_position_id = ESS_free_market
@@ -5433,7 +5433,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_full_speed_ahead
-		icon = GFX_goal_continuous_research
+		icon = GFX_focus_ECO_forge_without_rest
 		x = 2
 		y = 3
 		relative_position_id = ESS_free_market
@@ -5462,7 +5462,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_build_railroads
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_focus_ECO_expand_the_valyrian_highways
 		x = 0
 		y = 4
 		relative_position_id = ESS_free_market
@@ -5590,7 +5590,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_mass_urbanisation
-		icon = GFX_focus_generic_industry_3
+		icon = GFX_focus_ECO_expand_the_outer_walls
 		x = 2
 		y = 4
 		relative_position_id = ESS_free_market
@@ -5675,7 +5675,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_war_economy
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_focus_ECO_mobilize_for_conquest
 		x = 4
 		y = 4
 		relative_position_id = ESS_free_market
@@ -5758,7 +5758,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_university
-		icon = GFX_focus_research
+		icon = GFX_focus_ECO_fund_the_high_academy
 		x = 2
 		y = 5
 		relative_position_id = ESS_free_market
@@ -5781,7 +5781,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_army_efforts
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_focus_ARM_reorganize_the_companies
 		x = 48
 		y = 0
 		cost = 5
@@ -5794,7 +5794,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_offensive_army
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_ARM_the_blade_strikes_first
 		x = -3
 		y = 1
 		relative_position_id = ESS_army_efforts
@@ -5816,7 +5816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_armoured_cars
-		icon = GFX_goal_generic_army_motorized
+		icon = GFX_focus_ARM_deploy_the_scythed_chariots
 		x = -5
 		y = 2
 		relative_position_id = ESS_army_efforts
@@ -5838,7 +5838,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_tanks
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_focus_ARM_unleash_the_war_elephants
 		x = -5
 		y = 4
 		relative_position_id = ESS_army_efforts
@@ -5860,7 +5860,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_decentralised_army
-		icon = GFX_focus_generic_fascist_propaganda
+		icon = GFX_focus_ARM_empower_free_companies
 		x = -3
 		y = 2
 		relative_position_id = ESS_army_efforts
@@ -5879,7 +5879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_independent_officers
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_ARM_sellsword_captaincy
 		x = -4
 		y = 3
 		relative_position_id = ESS_army_efforts
@@ -5899,7 +5899,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_esprit_de_corps
-		icon = GFX_goal_continuous_boost_freedom
+		icon = GFX_focus_ARM_bound_by_iron_contracts
 		x = -2
 		y = 3
 		relative_position_id = ESS_army_efforts
@@ -5918,7 +5918,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_improve_doctrine
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_ARM_codify_valyrian_strategy
 		x = -3
 		y = 4
 		relative_position_id = ESS_army_efforts
@@ -5943,7 +5943,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_offensive_artillery
-		icon = GFX_goal_generic_army_artillery2
+		icon = GFX_focus_ARM_massed_crossbow_companies
 		x = -1
 		y = 2
 		relative_position_id = ESS_army_efforts
@@ -5965,7 +5965,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_light_artillery
-		icon = GFX_goal_generic_army_artillery
+		icon = GFX_focus_ARM_agile_skirmishers
 		x = -1
 		y = 4
 		relative_position_id = ESS_army_efforts
@@ -5987,7 +5987,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_assault_rifle
-		icon = GFX_focus_generic_infiltration
+		icon = GFX_focus_ARM_the_master_forged_pike
 		x = -4
 		y = 5
 		relative_position_id = ESS_army_efforts
@@ -6015,7 +6015,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_auxilliary_corps
-		icon = GFX_goal_generic_construction2
+		icon = GFX_focus_ARM_contract_auxiliary_regiments
 		x = -2
 		y = 5
 		relative_position_id = ESS_army_efforts
@@ -6043,7 +6043,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_endless_advance
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_ARM_the_unbroken_march
 		x = -3
 		y = 6
 		relative_position_id = ESS_army_efforts
@@ -6069,7 +6069,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_chemicals
-		icon = GFX_focus_generic_provoke_border_clashes
+		icon = GFX_focus_ARM_warhorns_and_signal_flares
 		x = 0
 		y = 3
 		relative_position_id = ESS_army_efforts
@@ -6091,7 +6091,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_improve_gas_masks
-		icon = GFX_goal_generic_CAS
+		icon = GFX_focus_ARM_refine_horn_relays
 		x = 0
 		y = 5
 		relative_position_id = ESS_army_efforts
@@ -6112,7 +6112,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_defensive_army
-		icon = GFX_goal_generic_defence
+		icon = GFX_focus_ARM_the_iron_wall
 		x = 3
 		y = 1
 		relative_position_id = ESS_army_efforts
@@ -6134,7 +6134,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_never_ending_barrage
-		icon = GFX_goal_generic_occupy_start_war
+		icon = GFX_focus_ARM_sun_darkening_volley
 		x = 1
 		y = 2
 		relative_position_id = ESS_army_efforts
@@ -6155,7 +6155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_heavy_artillery
-		icon = GFX_goal_generic_army_artillery2
+		icon = GFX_focus_ARM_siege_engines_and_ballistas
 		x = 1
 		y = 4
 		relative_position_id = ESS_army_efforts
@@ -6176,7 +6176,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_centralised_army
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_ARM_high_commanders_decree
 		x = 3
 		y = 2
 		relative_position_id = ESS_army_efforts
@@ -6195,7 +6195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_order_and_discipline
-		icon = GFX_focus_generic_little_entente
+		icon = GFX_focus_ARM_marching_in_lockstep
 		x = 2
 		y = 3
 		relative_position_id = ESS_army_efforts
@@ -6214,7 +6214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_chain_of_command
-		icon = GFX_focus_generic_fascist_propaganda
+		icon = GFX_focus_ARM_chain_of_command
 		x = 4
 		y = 3
 		relative_position_id = ESS_army_efforts
@@ -6234,7 +6234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_better_doctrine
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_ARM_rethink_the_phalanx
 		x = 3
 		y = 4
 		relative_position_id = ESS_army_efforts
@@ -6258,7 +6258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_dig_in_and_pray
-		icon = GFX_goal_generic_construction2
+		icon = GFX_focus_ARM_entrench_and_pray_to_red_god
 		x = 5
 		y = 2
 		relative_position_id = ESS_army_efforts
@@ -6279,7 +6279,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_impenetrable_fortress
-		icon = GFX_goal_generic_construct_military
+		icon = GFX_focus_ARM_walls_of_high_stone
 		x = 5
 		y = 4
 		relative_position_id = ESS_army_efforts
@@ -6298,7 +6298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_no_antiquities
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_ARM_purge_obsolete_arms
 		x = 2
 		y = 5
 		relative_position_id = ESS_army_efforts
@@ -6325,7 +6325,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_shovel_for_every_soldier
-		icon = GFX_goal_generic_construction2
+		icon = GFX_focus_ARM_spades_before_swords
 		x = 4
 		y = 5
 		relative_position_id = ESS_army_efforts
@@ -6352,7 +6352,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_endless_defense
-		icon = GFX_focus_generic_coastal_fort
+		icon = GFX_focus_ARM_for_the_walls
 		x = 3
 		y = 6
 		relative_position_id = ESS_army_efforts
@@ -6378,7 +6378,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_standardise_designs
-		icon = GFX_focus_generic_combined_arms
+		icon = GFX_focus_ARM_standardize_arsenal_forges
 		x = -1
 		y = 7
 		relative_position_id = ESS_army_efforts
@@ -6428,7 +6428,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_streamlined_production
-		icon = GFX_focus_generic_tank_production
+		icon = GFX_focus_ARM_streamline_harbor_and_armory_supply
 		x = 1
 		y = 7
 		relative_position_id = ESS_army_efforts
@@ -6478,7 +6478,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_military_academy
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_focus_ARM_the_war_college
 		x = 0
 		y = 8
 		relative_position_id = ESS_army_efforts
@@ -6498,7 +6498,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_air_force
-		icon = GFX_goal_generic_build_airforce
+		icon = GFX_focus_AIR_draconic_warfare
 		x = 59
 		y = 0
 		cost = 5
@@ -6518,7 +6518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_scout_planes
-		icon = GFX_goal_generic_air_fighter2
+		icon = GFX_focus_AIR_tame_the_first_sky_serpents
 		x = 0
 		y = 1
 		relative_position_id = ESS_air_force
@@ -6541,7 +6541,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_british_fighters
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_focus_AIR_hatch_foreign_bred_hunter_dragons
 		x = -2
 		y = 2
 		relative_position_id = ESS_air_force
@@ -6566,7 +6566,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_daring_pilots
-		icon = GFX_goal_generic_CAS
+		icon = GFX_focus_AIR_the_boldest_dragonriders
 		x = -3
 		y = 3
 		relative_position_id = ESS_air_force
@@ -6585,7 +6585,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_own_fighters
-		icon = GFX_goal_generic_air_production
+		icon = GFX_focus_AIR_breed_our_own_hunter_dragons
 		x = -1
 		y = 3
 		relative_position_id = ESS_air_force
@@ -6610,7 +6610,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_high_altitude_training
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_focus_AIR_soaring_above_the_clouds
 		x = -2
 		y = 4
 		relative_position_id = ESS_air_force
@@ -6635,7 +6635,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_build_airfields
-		icon = GFX_goal_generic_air_production
+		icon = GFX_focus_AIR_the_dragonpit_of_air
 		x = 0
 		y = 2
 		relative_position_id = ESS_air_force
@@ -6725,7 +6725,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_anti_air
-		icon = GFX_focus_generic_air_defense
+		icon = GFX_focus_AIR_scorpions_for_the_sky
 		x = 0
 		y = 4
 		relative_position_id = ESS_air_force
@@ -6755,7 +6755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_german_zeppeline
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_focus_AIR_hatch_scourge_dragons
 		x = 2
 		y = 2
 		relative_position_id = ESS_air_force
@@ -6780,7 +6780,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_larger_bombs
-		icon = GFX_goal_generic_army_artillery
+		icon = GFX_focus_AIR_unleash_greater_dragonfire
 		x = 1
 		y = 3
 		relative_position_id = ESS_air_force
@@ -6806,7 +6806,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_own_bombers
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_focus_AIR_breed_our_own_siege_dragons
 		x = 3
 		y = 3
 		relative_position_id = ESS_air_force
@@ -6831,7 +6831,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_night_raids
-		icon = GFX_goal_generic_air_naval_bomber
+		icon = GFX_focus_AIR_wings_in_the_darkness
 		x = 2
 		y = 4
 		relative_position_id = ESS_air_force
@@ -6860,7 +6860,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_proper_doctrine
-		icon = GFX_goal_generic_air_doctrine
+		icon = GFX_focus_AIR_doctrine_of_the_skies
 		x = 0
 		y = 5
 		relative_position_id = ESS_air_force
@@ -6887,7 +6887,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_new_navy
-		icon = GFX_goal_generic_build_navy
+		icon = GFX_focus_NAV_a_fleet_worthy_of_the_realm
 		x = 70
 		y = 0
 		cost = 5
@@ -6906,7 +6906,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_battlecruisers
-		icon = GFX_focus_generic_navy_battleship2
+		icon = GFX_focus_NAV_design_swift_war_galleys
 		x = -3
 		y = 1
 		relative_position_id = ESS_new_navy
@@ -6927,7 +6927,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_patrol_boats
-		icon = GFX_focus_generic_destroyer
+		icon = GFX_focus_NAV_small_patrol_vessels
 		x = -1
 		y = 1
 		relative_position_id = ESS_new_navy
@@ -6948,7 +6948,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_new_cruisers
-		icon = GFX_focus_generic_cruiser2
+		icon = GFX_focus_NAV_light_dromond_experiments
 		x = 1
 		y = 1
 		relative_position_id = ESS_new_navy
@@ -6970,7 +6970,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_grandest_ships
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_focus_NAV_build_leviathans_of_wood_and_iron
 		x = 3
 		y = 1
 		relative_position_id = ESS_new_navy
@@ -6991,7 +6991,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_dockyards
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = GFX_focus_NAV_expand_the_shiprights_guild
 		x = -4
 		y = 2
 		relative_position_id = ESS_new_navy
@@ -7086,7 +7086,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_cheap_fleet
-		icon = GFX_goal_continuous_naval_production
+		icon = GFX_focus_NAV_fast_cheap_and_deadly
 		x = -5
 		y = 3
 		relative_position_id = ESS_new_navy
@@ -7108,7 +7108,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_expensive_fleet
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_focus_NAV_reliable_masters_of_the_sea
 		x = -3
 		y = 3
 		relative_position_id = ESS_new_navy
@@ -7130,7 +7130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_more_dockyards
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = GFX_focus_NAV_establish_a_home_port
 		x = -4
 		y = 4
 		relative_position_id = ESS_new_navy
@@ -7255,7 +7255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_trade
-		icon = GFX_goal_generic_trade
+		icon = GFX_focus_NAV_a_merchant_fleet_for_the_realm
 		x = 0
 		y = 2
 		relative_position_id = ESS_new_navy
@@ -7277,7 +7277,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_escorts
-		icon = GFX_goal_generic_navy_cruiser
+		icon = GFX_focus_NAV_guard_the_trade_cogs
 		x = -1
 		y = 3
 		relative_position_id = ESS_new_navy
@@ -7298,7 +7298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_intercept_enemies
-		icon = GFX_goal_generic_wolf_pack
+		icon = GFX_focus_NAV_intercept_the_foe
 		x = 1
 		y = 3
 		relative_position_id = ESS_new_navy
@@ -7320,7 +7320,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_coastal_defense
-		icon = GFX_focus_generic_coastal_fort
+		icon = GFX_focus_NAV_fortify_the_coastline
 		x = 0
 		y = 4
 		relative_position_id = ESS_new_navy
@@ -7342,7 +7342,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_new_admirality
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_focus_NAV_summon_the_sealords
 		x = 4
 		y = 2
 		relative_position_id = ESS_new_navy
@@ -7365,7 +7365,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_raider_doctrine
-		icon = GFX_goal_generic_navy_submarine
+		icon = GFX_focus_NAV_the_raider_doctrine
 		x = 3
 		y = 3
 		relative_position_id = ESS_new_navy
@@ -7403,7 +7403,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_old_doctrine
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_focus_NAV_stick_to_the_proven_ways
 		x = 5
 		y = 3
 		relative_position_id = ESS_new_navy
@@ -7437,7 +7437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_marine_infantry
-		icon = GFX_goal_generic_amphibious_assault
+		icon = GFX_focus_NAV_coastal_raiders_corps
 		x = 4
 		y = 4
 		relative_position_id = ESS_new_navy
@@ -7461,7 +7461,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_pride_of_the_fleet
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_focus_NAV_pride_of_the_fleet
 		x = -1
 		y = 5
 		relative_position_id = ESS_new_navy
@@ -7492,7 +7492,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ESS_naval_academy
-		icon = GFX_goal_generic_build_navy
+		icon = GFX_focus_NAV_establish_the_fleet_academy
 		x = 1
 		y = 5
 		relative_position_id = ESS_new_navy

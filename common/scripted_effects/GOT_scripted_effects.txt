@@ -136,7 +136,7 @@ GOT_start_techs = {
 				tag = PEN
 				tag = LYS
 				tag = GHI
-				tag = AND
+				tag = ANT
 				tag = LHA
 				tag = HYR
 				tag = NEF
@@ -1062,6 +1062,39 @@ GOT_Sandbox_Mode_Chosen = {
 			exists = yes
 		}
 		country_event = { id = Game_Event.10 }
+	}
+}
+
+GOT_Battle_Royale_Mode_Chosen = {
+	
+	set_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag
+	
+	#If is a faction leader, the faction is disbaned
+		if = {
+			limit = {
+				is_faction_leader = yes
+			}
+			dismantle_faction = yes
+		}
+
+		if = {
+			limit = {
+				is_in_faction = yes
+			}
+			leave_faction = yes
+		}
+		
+		add_ideas = {
+			RI_neutrality_idea
+		}
+		
+		set_rule = { can_create_factions = no }
+	
+	every_other_country = {
+		limit = {
+			exists = yes
+		}
+		country_event = { id = Game_Event.16 }
 	}
 }
 

@@ -1496,6 +1496,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "The Iron Throne"
 		}
@@ -1503,6 +1504,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = yes
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			NOR = {
 				country_event = {
@@ -21218,6 +21220,7 @@ country_event = {
 		if = {
 			limit = {
 				is_in_faction = no
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			create_faction = "Fire and Blood"
 		}
@@ -21234,6 +21237,7 @@ country_event = {
 				NOT = {
 					is_in_faction_with = TAR
 				} 
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
             } 
             country_event = { 
                 id = GOT_Diplomatic_Country.78 
@@ -26015,7 +26019,13 @@ country_event = {
 						}
 						promote_leader = yes
 					}
-					create_faction = "The Six Kingdoms"
+					if = {
+						limit = {
+							NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
+						}
+						create_faction = "The Six Kingdoms"
+					}
+					
 					every_other_country = { 
 						limit = { 
 							GOT_Seven_Kingdoms_Country = yes
@@ -26073,6 +26083,7 @@ country_event = {
 			if = {
 				limit = {
 					is_in_faction = no
+					NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 				}
 				create_faction = "The True Heir"
 			}	
@@ -26209,7 +26220,12 @@ country_event = {
 						}
 						promote_leader = yes
 					}
-					create_faction = "The Six Kingdoms"
+					if = {
+						limit = {
+							NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
+						}
+						create_faction = "The Six Kingdoms"
+					}
 					every_other_country = { 
 						limit = { 
 							GOT_Seven_Kingdoms_Country = yes
@@ -26308,7 +26324,14 @@ country_event = {
 				ideology = fascism
 			}
 			
-		create_faction = "The Kingdom of the North"
+		if = {
+			limit = {
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
+			}
+			create_faction = "The Kingdom of the North"
+		}
+			
+		
  
         every_other_country = { 
             limit = { 
@@ -27030,6 +27053,7 @@ country_event = {
 		if = {
 			limit = {
 				NOR = { is_in_faction = no }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			NOR = { create_faction = "The White Wolves" }
 		}
@@ -27038,6 +27062,7 @@ country_event = {
 			limit = {
 				NOR = { is_in_faction = yes }
 				NOR = { is_faction_leader = yes }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			every_other_country = { 
 				limit = { 
@@ -27260,6 +27285,7 @@ country_event = {
 		if = {
 			limit = {
 				NOR = { is_in_faction = no }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			NOR = { create_faction = "The White Wolves" }
 		}
@@ -27268,6 +27294,7 @@ country_event = {
 			limit = {
 				NOR = { is_in_faction = yes }
 				NOR = { is_faction_leader = yes }
+				NOT = { has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag }
 			}
 			every_other_country = { 
 				limit = { 

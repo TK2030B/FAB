@@ -126,3 +126,8 @@ ICE_Raise_The_Dead_Castle_Black_tooltip: "Raises an army of reanimated Night's W
 
  BLA_First_Iron_Step:0 "The First Iron Step"
  BLA_First_Iron_Step_desc:0 "For decades, the Golden Company has bided its time in exile, waiting for the right moment to strike. With Young Griff standing at the helm and the true bloodline of the Black Dragon unveiled, we must secure a sovereign foothold in Essos. Banners must be raised, steel must be drawn, and an ultimatum sent to the Free Cities. From this first conquest, our march to reclaim our birthright begins."
+ 
+ # Battle Royale Conquer Decision
+ BAT_battle_royale:0 "Subjugate [FROM.GetName]"
+ BAT_battle_royale_desc:0 "The old peace is dead, and no foreign alliance will come to the aid of [FROM.GetName]. We will march upon their borders, shatter their armies, and claim their lands for ourselves."
+Key Points:
