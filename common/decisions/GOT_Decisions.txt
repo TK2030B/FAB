@@ -9,11 +9,12 @@ GOT_Game_Decisions = {
 		}
 	
         visible = {
-			NOT = { has_country_flag = EW_Operation }
+			#NOT = { has_country_flag = EW_Operation }
 			FROM = { 
 				is_neighbor_of = ROOT
 			}
 			has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag
+			NOT = { has_wargoal_against = FROM }
 		}
         target_trigger = {
             FROM = {
@@ -37,13 +38,15 @@ GOT_Game_Decisions = {
 
         available = {
 		
-			surrender_progress < 0.2
+			surrender_progress < 0.5
 		
 			has_global_flag = GOT_Battle_Royale_Mode_Chosen_Flag
 			
 			FROM = { 
 				is_neighbor_of = ROOT
 			}
+			
+			NOT = { has_wargoal_against = FROM }
 
         }
 		complete_effect = {
