@@ -2130,3 +2130,57 @@ flight_deck_manager_desc:0 "§LSending a dragon into the skies is simple. Sendin
  high_herald_desc: "A master orator capable of galvanizing the populace, boosting war enthusiasm, conscription capacity, and mobilization readiness."
  master_of_works: "Master of Works"
  master_of_works_desc: "A seasoned architect of castles and fortifications who ensures defensive strongpoints are built rapidly and held effectively."
+ 
+ #Military Traits
+ master_of_war:0 "Master of War"
+ master_of_war_desc:0 "Focuses on vast feudal levies, mass movement of banners, and crushing opponents through weight of numbers."
+
+ high_marshal_of_the_realm:0 "High Marshal of the Realm"
+ high_marshal_of_the_realm_desc:0 "Prioritizes professional men-at-arms, tactical drills, aggressive shock tactics, and decisive field battles."
+
+ warden_of_the_marches:0 "Warden of the Marches"
+ warden_of_the_marches_desc:0 "Specializes in mountain passes, river crossings, wall defenses, and wearing down invader armies through attrition."
+ 
+ # Grand Dragonlord
+ grand_dragonlord:0 "The Grand Dragonlord"
+ grand_dragonlord_desc:0 "Direct descendant of Valyrian dragonlords who understands dragon-riding, high-altitude strikes, and aerial coordination."
+
+ # Master of Scorpions
+ master_of_scorpions:0 "Master of Scorpions"
+ master_of_scorpions_desc:0 "Coordinates massive ballistas, heavy scorpions, and iron-tipped bolts mounted on castle battlements to shoot down enemy beasts."
+
+ # Sky-Hunter Captain
+ sky_hunter_captain:0 "Sky-Hunter Captain"
+ sky_hunter_captain_desc:0 "Employs trained hunting hawks, ravens, and agile young dragons for aerial reconnaissance and fast interception."
+ 
+ # Master of Ships
+ master_of_ships:0 "Master of Ships"
+ master_of_ships_desc:0 "Commands the royal fleet, overseeing naval logistics, galley construction, and maintaining mastery over coastal sea lanes."
+
+ # Ironborn Reaver Admiral
+ ironborn_reaver_admiral:0 "Ironborn Reaver Admiral"
+ ironborn_reaver_admiral_desc:0 "A hardened commander from the Iron Islands who excels in aggressive coastal raiding, amphibious landings, and naval boarding actions."
+
+ # Captain of Heavy Horse
+ captain_of_heavy_horse:0 "Captain of Heavy Horse"
+ captain_of_heavy_horse_desc:0 "Specializes in armored cavalry charges, shock tactics, and breaking enemy battle lines with heavy horse formations."
+
+ # High Captain of Spearmen
+ high_captain_of_spearmen:0 "High Captain of Spearmen"
+ high_captain_of_spearmen_desc:0 "Master of tight shield walls and polearm formations, capable of holding strategic positions against cavalry and superior numbers."
+
+ # Lord Commander of the Kingsguard
+ lord_commander_kingsguard:0 "Lord Commander of the Kingsguard"
+ lord_commander_kingsguard_desc:0 "An elite sworn knight responsible for royal protection, maintaining high military discipline, and bolstering troop morale on the battlefield."
+
+ # Master of Bowmen
+ master_of_bowmen:0 "Master of Bowmen"
+ master_of_bowmen_desc:0 "Coordinates massed longbowmen and crossbow cohorts to rain devastating volley fire upon advancing enemy forces."
+
+ # Master of Siege Engines
+ master_of_siege_engines:0 "Master of Siege Engines"
+ master_of_siege_engines_desc:0 "An expert engineer in trebuchets, catapults, and battering rams, designed to breach formidable fortress walls and reduce enemy entrenchment."
+
+ # Mercenary General
+ mercenary_general:0 "Mercenary General"
+ mercenary_general_desc:0 "A seasoned sellsword captain adept at rapid military recruitment, operational flexibility, and managing mercenary contracts."

@@ -192,4 +192,241 @@ leader_traits = {
 		max_dig_in = 1
 	}
 	
+	#Military Traits
+	
+	# Master of War (Doctrine of Mass Host)
+	master_of_war = {
+		sprite = 5
+		
+		max_org_factor = 0.10               # Corrected from max_organisation_factor
+		planning_speed = 0.10
+		experience_gain_army = 0.05
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# High Marshal of the Realm (Doctrine of Iron Discipline)
+	high_marshal_of_the_realm = {
+		sprite = 5
+		
+		army_attack_factor = 0.10           # Correct syntax
+		army_morale_factor = 0.15           # Correct syntax (Division Recovery Rate)
+		experience_gain_army = 0.05
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# Warden of the Marches (Doctrine of Fortress Defense)
+	warden_of_the_marches = {
+		sprite = 5
+		
+		army_defence_factor = 0.15          # Correct syntax
+		max_entrenchment = 10.0             # Correct syntax (flat bonus, or use max_entrenchment_factor = 0.10 for percentage)
+		experience_gain_army = 0.05
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+	
+	# 1. The Grand Dragonlord (Chief of Dragonforce / Air Superiority)
+	grand_dragonlord = {
+		sprite = 5
+		
+		air_superiority_efficiency = 0.10       # Corrected token for Dragonforce Superiority
+		air_cas_present_factor = 0.10           # Corrected token for Dragon Ground Support (CAS) damage/presence
+		experience_gain_air = 0.05              # Valid token for Daily Air XP
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 2. Master of Scorpions (Chief of Dragonforce / Defensive & AA)
+	master_of_scorpions = {
+		sprite = 5
+		
+		static_anti_air_hit_chance_factor = 0.15 # Corrected token for Ground-to-Air / Scorpion Interception Damage
+		air_intercept_efficiency = 0.10          # Corrected token for Air Superiority Defense / Interception
+		anti_air_building_factor = 0.15          # Corrected token for Castle AA Construction Speed
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 3. Sky-Hunter Captain (Chief of Dragonforce / Recon & Swift Strike)
+	sky_hunter_captain = {
+		sprite = 5
+		
+		air_recon_efficiency = 0.15             # Corrected token for Aerial Reconnaissance Intel
+		air_acc_speed_factor = 0.10             # Corrected token for Dragon Movement Speed / Agility
+		air_escort_efficiency = 0.10            # Corrected token for Escort Efficiency
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+	
+	# 7. The Master of Ships (Chief of Navy - Decisive Battle)
+	master_of_ships = {
+		sprite = 5
+		
+		navy_capital_ship_attack_factor = 0.10   # +10% Capital Ship / Heavy Galley Attack
+		naval_coordination = 0.10               # +10% Naval Organization / Coordination
+		experience_gain_navy = 0.05             # +0.05 Daily Naval XP
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 8. Ironborn Reaver Admiral (Chief of Navy - Raiding & Amphibious)
+	ironborn_reaver_admiral = {
+		sprite = 5
+		
+		convoy_raiding_efficiency = 0.15        # +15% Trade Convoy Raiding
+		invasion_preparation_speed = 0.20       # +20% Amphibious Invasion Speed
+		experience_gain_navy = 0.05             # +0.05 Daily Naval XP
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 9. Lord Commander of the Kingsguard (High Command - General Staff)
+	lord_commander_kingsguard = {
+		sprite = 5
+		
+		army_morale_factor = 0.10               # +10% Army Morale
+		command_power_gain_mult = 0.05          # +5% Command Power Growth
+		# Note: General wounding chance reduction is handled via character traits/events; 
+		# experience_gain_army serves as standard High Command backup if needed.
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 10. Captain of Heavy Horse (High Command - Armor/Cavalry Specialist)
+	captain_of_heavy_horse = {
+		sprite = 5
+		
+		armor_attack_factor = 0.10              # +10% Heavy Knight (Armor) Attack
+		cavalry_breakthrough_factor = 0.15      # +15% Cavalry Breakthrough
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 11. High Captain of Spearmen (High Command - Anti-Armor Specialist)
+	high_captain_of_spearmen = {
+		sprite = 5
+		
+		anti_tank_piercing_factor = 0.15        # +15% Pike (Anti-Tank) Piercing Damage
+		hard_factor = -0.10                     # +10% Hard Defense against Knight Charges
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 12. Master of Bowmen (High Command - Artillery/Ranged Specialist)
+	master_of_bowmen = {
+		sprite = 5
+		
+		artillery_attack_factor = 0.15          # +15% Archer (Artillery) Soft Attack
+		army_defence_factor = 0.10              # +10% Ranged Defense
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 13. Master of Siege Engines (High Command - Engineering/Fortbuster)
+	master_of_siege_engines = {
+		sprite = 5
+		
+		fort_attack_factor = 0.15               # +15% Castle/Fortification Attack
+		artillery_attack_factor = 0.10          # +10% Trebuchet/Catapult Attack
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+
+	# 14. Mercenary General / Free Company Commander (High Command - Special Forces)
+	mercenary_general = {
+		sprite = 5
+		
+		special_forces_org_factor = 0.10        # +10% Special Forces Org
+		special_forces_attack_factor = 0.15     # +15% Mercenary Attack
+		special_forces_training_time_factor = -0.10 # -10% Special Forces Training Cost
+
+		ai_will_do = {
+			factor = 1.0
+			modifier = {
+				factor = 0
+				command_power < @tier1_cp_cost
+			}
+		}
+	}
+	
 }

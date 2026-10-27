@@ -1151,4 +1151,88 @@ spriteType = {
 		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_works_advisor.dds"
 	}
 	
+	# Master of War
+	spriteType = {
+		name = "GFX_idea_master_of_war_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_war_advisor.dds"
+	}
+
+	# High Marshal of the Realm
+	spriteType = {
+		name = "GFX_idea_high_marshal_of_the_realm_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_high_marshal_of_the_realm_advisor.dds"
+	}
+
+	# Warden of the Marches
+	spriteType = {
+		name = "GFX_idea_warden_of_the_marches_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_warden_of_the_marches_advisor.dds"
+	}
+	
+	# Grand Dragonlord
+	spriteType = {
+		name = "GFX_idea_grand_dragonlord_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_grand_dragonlord_advisor.dds"
+	}
+
+	# Master of Scorpions
+	spriteType = {
+		name = "GFX_idea_master_of_scorpions_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_scorpions_advisor.dds"
+	}
+
+	# Sky-Hunter Captain
+	spriteType = {
+		name = "GFX_idea_sky_hunter_captain_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_sky_hunter_captain_advisor.dds"
+	}
+	
+	# Master of Ships
+	spriteType = {
+		name = "GFX_idea_master_of_ships_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_ships_advisor.dds"
+	}
+
+	# Ironborn Reaver Admiral
+	spriteType = {
+		name = "GFX_idea_ironborn_reaver_admiral_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_ironborn_reaver_admiral_advisor.dds"
+	}
+
+	# Captain of Heavy Horse
+	spriteType = {
+		name = "GFX_idea_captain_of_heavy_horse_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_captain_of_heavy_horse_advisor.dds"
+	}
+
+	# High Captain of Spearmen
+	spriteType = {
+		name = "GFX_idea_high_captain_of_spearmen_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_high_captain_of_spearmen_advisor.dds"
+	}
+
+	# Lord Commander of the Kingsguard
+	spriteType = {
+		name = "GFX_idea_lord_commander_kingsguard_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_lord_commander_kingsguard_advisor.dds"
+	}
+
+	# Master of Bowmen
+	spriteType = {
+		name = "GFX_idea_master_of_bowmen_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_bowmen_advisor.dds"
+	}
+
+	# Master of Siege Engines
+	spriteType = {
+		name = "GFX_idea_master_of_siege_engines_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_master_of_siege_engines_advisor.dds"
+	}
+
+	# Mercenary General
+	spriteType = {
+		name = "GFX_idea_mercenary_general_advisor"
+		texturefile = "gfx/interface/ideas/Characters/Generic/idea_mercenary_general_advisor.dds"
+	}
+	
 }

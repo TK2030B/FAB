@@ -594,23 +594,18 @@ every_possible_country = {
 
 # Military Advisors
 
-#army_chief_defensive_1
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_defensive_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_defensive_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_defensive_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = master_of_war characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_chief_defensive_1 # token will be TAG_token_base
+		token_base = generic_master_of_war # token will be TAG_token_base
 		advisor = {
 			slot = army_chief
-			traits = { army_chief_defensive_1 }
+			traits = { master_of_war }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -622,28 +617,23 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_master_of_war_advisor }
 		}
 	}
 }
 
-#army_chief_offensive_1
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_offensive_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_offensive_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_offensive_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = high_marshal_of_the_realm characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_chief_offensive_1 # token will be TAG_token_base
+		token_base = generic_high_marshal_of_the_realm # token will be TAG_token_base
 		advisor = {
 			slot = army_chief
-			traits = { army_chief_offensive_1 }
+			traits = { high_marshal_of_the_realm }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -655,7 +645,7 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_high_marshal_of_the_realm_advisor }
 		}
 	}
 }
@@ -664,18 +654,14 @@ every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_drill_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_drill_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_drill_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = warden_of_the_marches characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_chief_drill_1 # token will be TAG_token_base
+		token_base = generic_warden_of_the_marches # token will be TAG_token_base
 		advisor = {
 			slot = army_chief
-			traits = { army_chief_drill_1 }
+			traits = { warden_of_the_marches }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -687,249 +673,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_warden_of_the_marches_advisor }
 		}
 	}
 }
 
+# 1. Grand Dragonlord
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_reform_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_reform_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_reform_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = grand_dragonlord characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_chief_reform_1 # token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = { army_chief_reform_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_organizational_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_organizational_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_organizational_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_organizational_1 # token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = { army_chief_organizational_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_planning_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_planning_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_planning_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_planning_1 # token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = { army_chief_planning_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_morale_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_morale_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_morale_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_morale_1 # token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = { army_chief_morale_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_maneuver_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_maneuver_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_maneuver_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_maneuver_1 # token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = { army_chief_maneuver_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_chief_entrenchment_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_entrenchment_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_chief_entrenchment_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_entrenchment_1 # token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = { army_chief_entrenchment_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = army_chief_old_guard characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_old_guard # token will be TAG_token_base
-		advisor = {
-			slot = army_chief
-			traits = { army_chief_old_guard }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-#air_chief_reform_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_chief_reform_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_reform_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_reform_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_chief_reform_1 # token will be TAG_token_base
+		token_base = generic_grand_dragonlord # Token becomes TAG_generic_grand_dragonlord
 		advisor = {
 			slot = air_chief
-			traits = { air_chief_reform_1 }
+			traits = { grand_dragonlord }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -941,28 +702,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_grand_dragonlord_advisor }
 		}
 	}
 }
 
-# air_chief_safety_1
+# 2. Master of Scorpions
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_chief_safety_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_safety_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_safety_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = master_of_scorpions characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_air_chief_safety_1 # token will be TAG_token_base
+		token_base = generic_master_of_scorpions # Token becomes TAG_generic_master_of_scorpions
 		advisor = {
 			slot = air_chief
-			traits = { air_chief_safety_1 }
+			traits = { master_of_scorpions }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -974,28 +731,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_master_of_scorpions_advisor }
 		}
 	}
 }
 
-# air_chief_night_operations_1
+# 3. Sky-Hunter Captain
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_chief_night_operations_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_night_operations_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_night_operations_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = sky_hunter_captain characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_air_chief_night_operations_1
+		token_base = generic_sky_hunter_captain # Token becomes TAG_generic_sky_hunter_captain
 		advisor = {
 			slot = air_chief
-			traits = { air_chief_night_operations_1 }
+			traits = { sky_hunter_captain }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1007,122 +760,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_sky_hunter_captain_advisor }
 		}
 	}
 }
 
-# air_chief_ground_support_1
+# 7. Master of Ships
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_chief_ground_support_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_ground_support_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_ground_support_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = master_of_ships characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_air_chief_ground_support_1
-		advisor = {
-			slot = air_chief
-			traits = { air_chief_ground_support_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_chief_all_weather_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_chief_all_weather_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_all_weather_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_chief_all_weather_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_chief_all_weather_1
-		advisor = {
-			slot = air_chief
-			traits = { air_chief_all_weather_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = air_chief_old_guard characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_chief_old_guard # token will be TAG_token_base
-		advisor = {
-			slot = air_chief
-			traits = { air_chief_old_guard }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_chief_naval_aviation_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_naval_aviation_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_chief_naval_aviation_1 # token will be TAG_token_base
+		token_base = generic_master_of_ships # Token becomes TAG_generic_master_of_ships
 		advisor = {
 			slot = navy_chief
-			traits = { navy_chief_naval_aviation_1 }
+			traits = { master_of_ships }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1134,28 +789,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			navy = { small = GFX_idea_master_of_ships_advisor }
 		}
 	}
 }
 
-# navy_chief_decisive_battle_1
+# 8. Ironborn Reaver Admiral
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_chief_decisive_battle_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_decisive_battle_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_decisive_battle_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = ironborn_reaver_admiral characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_navy_chief_decisive_battle_1 # token will be TAG_token_base
+		token_base = generic_ironborn_reaver_admiral # Token becomes TAG_generic_ironborn_reaver_admiral
 		advisor = {
 			slot = navy_chief
-			traits = { navy_chief_decisive_battle_1 }
+			traits = { ironborn_reaver_admiral }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1167,155 +818,25 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			navy = { small = GFX_idea_ironborn_reaver_admiral_advisor }
 		}
 	}
 }
 
-# navy_chief_commerce_raiding_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_chief_commerce_raiding_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_commerce_raiding_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_commerce_raiding_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_chief_commerce_raiding_1 # token will be TAG_token_base
-		advisor = {
-			slot = navy_chief
-			traits = { navy_chief_commerce_raiding_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
 
-# navy_chief_reform_1
+# 9. Lord Commander of the Kingsguard
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_chief_reform_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_reform_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_reform_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = lord_commander_kingsguard characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_navy_chief_reform_1 # token will be TAG_token_base
-		advisor = {
-			slot = navy_chief
-			traits = { navy_chief_reform_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_chief_maneuver_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_chief_maneuver_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_maneuver_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_chief_maneuver_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_chief_maneuver_1 # token will be TAG_token_base
-		advisor = {
-			slot = navy_chief
-			traits = { navy_chief_maneuver_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			has_allowed_idea_with_traits = { idea = navy_chief_old_guard characters = yes }
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_chief_old_guard # token will be TAG_token_base
-		advisor = {
-			slot = navy_chief
-			traits = { navy_chief_old_guard }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-#army_entrenchment_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_entrenchment_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_entrenchment_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_entrenchment_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_entrenchment_1 # token will be TAG_token_base
+		token_base = generic_lord_commander_kingsguard # Token becomes TAG_generic_lord_commander_kingsguard
 		advisor = {
 			slot = high_command
-			traits = { army_entrenchment_1 }
+			traits = { lord_commander_kingsguard }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1327,28 +848,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_lord_commander_kingsguard_advisor }
 		}
 	}
 }
 
-# army_armored_1
+# 10. Captain of Heavy Horse
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_armored_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_armored_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_armored_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = captain_of_heavy_horse characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_armored_1 # token will be TAG_token_base
+		token_base = generic_captain_of_heavy_horse # Token becomes TAG_generic_captain_of_heavy_horse
 		advisor = {
 			slot = high_command
-			traits = { army_armored_1 }
+			traits = { captain_of_heavy_horse }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1360,28 +877,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_captain_of_heavy_horse_advisor }
 		}
 	}
 }
 
-# army_artillery_1
+# 11. High Captain of Spearmen
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_artillery_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_artillery_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_artillery_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = high_captain_of_spearmen characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_artillery_1 # token will be TAG_token_base
+		token_base = generic_high_captain_of_spearmen # Token becomes TAG_generic_high_captain_of_spearmen
 		advisor = {
 			slot = high_command
-			traits = { army_artillery_1 }
+			traits = { high_captain_of_spearmen }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1393,28 +906,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_high_captain_of_spearmen_advisor }
 		}
 	}
 }
 
-# army_infantry_1
+# 12. Master of Bowmen
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_infantry_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_infantry_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_infantry_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = master_of_bowmen characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_infantry_1 # token will be TAG_token_base
+		token_base = generic_master_of_bowmen # Token becomes TAG_generic_master_of_bowmen
 		advisor = {
 			slot = high_command
-			traits = { army_infantry_1 }
+			traits = { master_of_bowmen }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1426,28 +935,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_master_of_bowmen_advisor }
 		}
 	}
 }
 
-# army_commando_1
+# 13. Master of Siege Engines
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_commando_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_commando_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_commando_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = master_of_siege_engines characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_commando_1 # token will be TAG_token_base
+		token_base = generic_master_of_siege_engines # Token becomes TAG_generic_master_of_siege_engines
 		advisor = {
 			slot = high_command
-			traits = { army_commando_1 }
+			traits = { master_of_siege_engines }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1459,28 +964,24 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_master_of_siege_engines_advisor }
 		}
 	}
 }
 
-# army_cavalry_1
+# 14. Mercenary General
 every_possible_country = {
 	limit = {
 		is_dynamic_country = no
 		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_cavalry_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_cavalry_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_cavalry_3 characters = yes }
-			}
+			has_allowed_idea_with_traits = { idea = mercenary_general characters = yes }
 		}
 	}
 	generate_character = {
-		token_base = generic_army_cavalry_1 # token will be TAG_token_base
+		token_base = generic_mercenary_general # Token becomes TAG_generic_mercenary_general
 		advisor = {
 			slot = high_command
-			traits = { army_cavalry_1 }
+			traits = { mercenary_general }
 			available = {
 				if = {
 					limit = { has_dlc = "Man the Guns" }
@@ -1492,735 +993,7 @@ every_possible_country = {
 			}
 		}
 		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# army_CombinedArms_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_CombinedArms_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_CombinedArms_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_CombinedArms_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_CombinedArms_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_CombinedArms_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# army_regrouping_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_regrouping_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_regrouping_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_regrouping_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_regrouping_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_regrouping_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# army_concealment_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_concealment_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_concealment_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_concealment_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_concealment_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_concealment_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# army_logistics_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_logistics_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_logistics_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_logistics_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_logistics_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_logistics_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# army_radio_intelligence_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = army_radio_intelligence_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_radio_intelligence_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = army_radio_intelligence_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_army_radio_intelligence_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_radio_intelligence_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-
-# air_air_combat_training_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_air_combat_training_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_air_combat_training_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_air_combat_training_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_air_combat_training_1
-		advisor = {
-			slot = high_command
-			traits = { air_air_combat_training_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_naval_strike_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_naval_strike_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_naval_strike_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_naval_strike_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_naval_strike_1
-		advisor = {
-			slot = high_command
-			traits = { air_naval_strike_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_bomber_interception_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_bomber_interception_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_bomber_interception_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_bomber_interception_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_bomber_interception_1
-		advisor = {
-			slot = high_command
-			traits = { air_bomber_interception_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_air_superiority_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_air_superiority_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_air_superiority_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_air_superiority_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_air_superiority_1
-		advisor = {
-			slot = high_command
-			traits = { air_air_superiority_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_close_air_support_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_close_air_support_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_close_air_support_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_close_air_support_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_close_air_support_1
-		advisor = {
-			slot = high_command
-			traits = { air_close_air_support_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_strategic_bombing_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_strategic_bombing_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_strategic_bombing_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_strategic_bombing_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_strategic_bombing_1
-		advisor = {
-			slot = high_command
-			traits = { air_strategic_bombing_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_tactical_bombing_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_tactical_bombing_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_tactical_bombing_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_tactical_bombing_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_tactical_bombing_1
-		advisor = {
-			slot = high_command
-			traits = { air_tactical_bombing_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_airborne_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_airborne_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_airborne_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_airborne_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_airborne_1
-		advisor = {
-			slot = high_command
-			traits = { air_airborne_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# air_pilot_training_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = air_pilot_training_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_pilot_training_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = air_pilot_training_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_air_pilot_training_1
-		advisor = {
-			slot = high_command
-			traits = { air_pilot_training_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-
-# navy_anti_submarine_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_anti_submarine_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_anti_submarine_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_anti_submarine_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_anti_submarine_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_anti_submarine_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_naval_air_defense_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_naval_air_defense_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_naval_air_defense_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_naval_air_defense_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_naval_air_defense_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_naval_air_defense_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_fleet_logistics_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_fleet_logistics_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_fleet_logistics_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_fleet_logistics_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_fleet_logistics_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_fleet_logistics_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_amphibious_assault_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_amphibious_assault_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_amphibious_assault_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_amphibious_assault_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_amphibious_assault_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_amphibious_assault_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_submarine_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_submarine_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_submarine_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_submarine_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_submarine_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_submarine_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_capital_ship_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_capital_ship_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_capital_ship_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_capital_ship_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_capital_ship_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_capital_ship_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_screen_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_screen_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_screen_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_screen_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_screen_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_screen_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
-		}
-	}
-}
-
-# navy_carrier_1
-every_possible_country = {
-	limit = {
-		is_dynamic_country = no
-		NOT = {
-			OR = {
-				has_allowed_idea_with_traits = { idea = navy_carrier_1 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_carrier_2 characters = yes }
-				has_allowed_idea_with_traits = { idea = navy_carrier_3 characters = yes }
-			}
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_carrier_1 # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_carrier_1 }
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		portraits = {
-			army = { small = GFX_idea_Generic_Military_Advisor }
+			army = { small = GFX_idea_mercenary_general_advisor }
 		}
 	}
 }
